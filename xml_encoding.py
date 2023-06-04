@@ -8,19 +8,12 @@ from os.path import isfile, join
 
 import detection_airs as detect
 
-"""améliorations possibles:
-        ajout des balises stages
-        ajustements v/v du bbox
-        joindre les documents html pour saisir les chansons qui se trouvent sur pls page. 
-            pb > risque d'attrapper toutes les lignes de la piece au meme niveau que l'air.
-        joindre tous les documents xml dans la fonction nettoyage ? 
-        enlever tous les noms de personnages"""
 
 bbox_pattern = re.compile(r"bbox (\d+) .*")
 stage_directions = re.compile(r"[{\(].*[}\)]")
 bis = re.compile(r"(\((bis|ters?\W?)\))")
 
-dossier_hocr = "corpus/thealtres-ocr-main/corpus-items"
+dossier_hocr = "../corpus-items"
 #pers = "annotation_automatique/output/102_characters.txt"
 
 def encode(html, txt, xml):
@@ -37,15 +30,13 @@ def encode(html, txt, xml):
         for l in lines:
             if l.get_text().strip() in air:
                 poem = etree.Element("div", type="poem")
-                stage_tune = etree.SubElement(poem, "stage", type='tune')
+                lg = etree.SubElement(poem, "lg")  
+                stage_tune = etree.SubElement(lg, "stage", type='tune')
                 stage_tune.text = l.get_text().strip()
-                lg = etree.SubElement(poem, "lg")                
                 bbox_air = re.match(bbox_pattern, str(l.get("title")))
                 bbox_air = int(bbox_air.group(1))
                 bbox_next_line = re.match(bbox_pattern, str(l.find_next("span", class_="ocr_line").get("title")))
                 bbox_next_line = int(bbox_next_line.group(1))
-                bbox_prev_line = re.match(bbox_pattern, str(l.find_previous("span", class_="ocr_line").get("title")))
-                bbox_prev_line = int(bbox_prev_line.group(1))
                 suite = l.find_all_next("span", class_="ocr_line")
                 for s in suite:
                     bbox_s = re.match(bbox_pattern, str(s.get("title")))
@@ -54,18 +45,7 @@ def encode(html, txt, xml):
                     if (bbox_next_line - 70) <= bbox_s <= (bbox_next_line + 50):
                         line = etree.SubElement(lg, "l")
                         line.text = s.get_text().strip()
-                    #else:
-                        #bad = etree.SubElement(lg, "bad")
-                        #bad.text = s.get_text().strip()
-                        
-                    """
-                        #ajout des balises stage pour les didascalies: ne fonctionne pas encore
-                        if re.search(stage_directions, line.text):
-                            stage_dir = etree.SubElement(line, "stage")
-                            text = re.search(stage_directions, line.text)
-                            stage_dir.text = text.group(0) 
-                            line.text = re.sub(stage_dir.text, "", line.text) 
-                        #line.text = re.sub("()", '', line.text)  """                    
+                
                 h.write(etree.tostring(poem, encoding='utf-8', pretty_print=True))
 
                 
@@ -95,8 +75,8 @@ def nettoyage(id_work):
             os.remove(d)
         
 if __name__ == '__main__':
-    idWork = "102"
+    idWork = "82"
     #idWork = input("entrez le nb id")
-    #detect.extract(idWork)
+    detect.extract(idWork)
     extraction_dossier(idWork)
     nettoyage(idWork)
