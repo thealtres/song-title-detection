@@ -19,7 +19,7 @@ from os.path import isfile, join
 import re 
 from fuzzywuzzy import process
 
-dossier = "corpus/thealtres-ocr-main/corpus-items"
+dossier = "../corpus-items"
 
 
 AIR = re.compile(r"(^| )\b(?<!' )([AâÂ] ?[IiïLlwmn][rRbBnNt])\W?\b")
@@ -73,7 +73,7 @@ def extraction_dossier(dossier):
     for doc in docs:
         extract(doc)
 
-with open("airs_ref.txt", "r", encoding="utf8") as f:
+with open(f"../../../airs_ref.txt", "r", encoding="utf8") as f:
     airs_ref = [ line.rstrip() for line in f ]
 
 def suggest(id_work):
@@ -88,7 +88,7 @@ def suggest(id_work):
             print(f"{a} : best ratio : {process.extractOne(a, airs_ref)}")
 
 if __name__ == '__main__':
-    idWork = "102"
+    idWork = "82"
     #idWork = input("entrez id_work")
-    #extract(idWork)
-    suggest(idWork)
+    extract(idWork)
+    #suggest(idWork)
