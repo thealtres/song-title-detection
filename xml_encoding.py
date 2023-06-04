@@ -1,0 +1,102 @@
+import re
+from lxml import etree
+from bs4 import BeautifulSoup
+import glob
+import os
+from os import listdir
+from os.path import isfile, join
+
+import detection_airs as detect
+
+"""améliorations possibles:
+        ajout des balises stages
+        ajustements v/v du bbox
+        joindre les documents html pour saisir les chansons qui se trouvent sur pls page. 
+            pb > risque d'attrapper toutes les lignes de la piece au meme niveau que l'air.
+        joindre tous les documents xml dans la fonction nettoyage ? 
+        enlever tous les noms de personnages"""
+
+bbox_pattern = re.compile(r"bbox (\d+) .*")
+stage_directions = re.compile(r"[{\(].*[}\)]")
+bis = re.compile(r"(\((bis|ters?\W?)\))")
+
+dossier_hocr = "corpus/thealtres-ocr-main/corpus-items"
+#pers = "annotation_automatique/output/102_characters.txt"
+
+def encode(html, txt, xml):
+    """Encodage en xml des airs relevés grace a detection_airs.py
+    extraction des lignes depuis l'hocr
+    le bbox_pattern sert à relever la position de la ligne où se trouve le titre de l'air
+    puis sélection de toutes les lignes au même niveau que la suivante (on suppose la 1e ligne de la chanson)"""
+    with open(html, 'r', encoding='utf8') as f,\
+        open(txt, "r", encoding="utf8") as g,\
+        open(xml, "w+b") as h:
+        soup = BeautifulSoup(f, 'html.parser')
+        lines = soup.find_all("span", class_="ocr_line")
+        air = [colonne[3] for colonne in [ line.rstrip().split(';') for line in g] ]
+        for l in lines:
+            if l.get_text().strip() in air:
+                poem = etree.Element("div", type="poem")
+                stage_tune = etree.SubElement(poem, "stage", type='tune')
+                stage_tune.text = l.get_text().strip()
+                lg = etree.SubElement(poem, "lg")                
+                bbox_air = re.match(bbox_pattern, str(l.get("title")))
+                bbox_air = int(bbox_air.group(1))
+                bbox_next_line = re.match(bbox_pattern, str(l.find_next("span", class_="ocr_line").get("title")))
+                bbox_next_line = int(bbox_next_line.group(1))
+                bbox_prev_line = re.match(bbox_pattern, str(l.find_previous("span", class_="ocr_line").get("title")))
+                bbox_prev_line = int(bbox_prev_line.group(1))
+                suite = l.find_all_next("span", class_="ocr_line")
+                for s in suite:
+                    bbox_s = re.match(bbox_pattern, str(s.get("title")))
+                    bbox_s = int(bbox_s.group(1))
+                    #on étend de 70 marge gauche et 50 marge droite pour sélectionner toutes les lignes au même niveau
+                    if (bbox_next_line - 70) <= bbox_s <= (bbox_next_line + 50):
+                        line = etree.SubElement(lg, "l")
+                        line.text = s.get_text().strip()
+                    #else:
+                        #bad = etree.SubElement(lg, "bad")
+                        #bad.text = s.get_text().strip()
+                        
+                    """
+                        #ajout des balises stage pour les didascalies: ne fonctionne pas encore
+                        if re.search(stage_directions, line.text):
+                            stage_dir = etree.SubElement(line, "stage")
+                            text = re.search(stage_directions, line.text)
+                            stage_dir.text = text.group(0) 
+                            line.text = re.sub(stage_dir.text, "", line.text) 
+                        #line.text = re.sub("()", '', line.text)  """                    
+                h.write(etree.tostring(poem, encoding='utf-8', pretty_print=True))
+
+                
+def extraction_dossier(id_work):
+    dossier_hocr_id = f"{dossier_hocr}/{id_work}/04_hocr_from_jpg"
+    dossier_sortie = f"{dossier_hocr}/{id_work}/airs_xml"
+    doc_airs = f"{dossier_hocr}/{id_work}/{id_work}_airs.txt"
+    try:
+        open(doc_airs, "r")
+    except FileNotFoundError as err : print(err)
+    else:
+        if not os.path.exists(dossier_sortie):
+            os.makedirs(dossier_sortie)
+        docs_html = [d for d in listdir(dossier_hocr_id) if isfile(join(dossier_hocr_id, d))]
+        for doc in docs_html:
+            doc_html = f"{dossier_hocr_id}/{doc}"
+            doc_sortie = f"{dossier_sortie}/{id_work}_airs_{doc[:3]}.xml"
+            encode(doc_html, doc_airs, doc_sortie)
+        
+
+def nettoyage(id_work):
+    "suppression des document xml qui ne contiennent pas d'air"
+    dossier = f"{dossier_hocr}/{id_work}/airs_xml"
+    docs = glob.glob(f"{dossier}/*.xml")
+    for d in docs:
+        if os.stat(d).st_size == 0:
+            os.remove(d)
+        
+if __name__ == '__main__':
+    idWork = "102"
+    #idWork = input("entrez le nb id")
+    #detect.extract(idWork)
+    extraction_dossier(idWork)
+    nettoyage(idWork)
