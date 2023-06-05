@@ -62,7 +62,7 @@ def extract(id_work):
                     air = filtre(count_line, l.strip())
                     if air != "n":
                         count_air += 1 
-                        res.append(id_work + ";" + str(count_air) + ";;" + air + ";" + str(count_line))   
+                        res.append(id_work + ";" + str(count_air) + ";"+ str(process.extractOne(air, airs_ref)) + ';' + air + ";" + str(count_line))
         
     with open(f"{dossier}/{id_work}/{id_work}_airs.txt" , "w", encoding="utf8") as g:
         for r in res:
@@ -76,19 +76,26 @@ def extraction_dossier(dossier):
 with open(f"../../../airs_ref.txt", "r", encoding="utf8") as f:
     airs_ref = [ line.rstrip() for line in f ]
 
+
+
 def suggest(id_work):
-    "Suggests a title from the airs_ref document for each air found in the tesseract"
+    "Suggests a title from the airs_ref document for an air found in the tesseract"
     doc_airs_id = f"{dossier}/{id_work}/{id_work}_airs.txt"
+    res = []
     try:
             open(doc_airs_id, "r")
     except FileNotFoundError as err : print(err)
     with open(doc_airs_id, "r", encoding='utf8') as g:
         airs_id = [colonne[3] for colonne in [ line.rstrip().split(';') for line in g] ]
         for a in airs_id:
-            print(f"{a} : best ratio : {process.extractOne(a, airs_ref)}")
+            print(process.extractOne(a, airs_ref))
+    
+
+    
+
 
 if __name__ == '__main__':
-    idWork = "82"
+    idWork = "102"
     #idWork = input("entrez id_work")
     extract(idWork)
-    #suggest(idWork)
+    
