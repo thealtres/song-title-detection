@@ -54,24 +54,22 @@ def encode(html, airs, characters, xml):
                         line = etree.SubElement(lg, "l")
                         line.text = s.get_text().strip()
                         for p in pers:
-                            if re.search(p, str(s.get_text().strip().upper())):
+                            if re.search(p, str(s.get_text().strip())):
                                 speaker = etree.SubElement(lg, 'speaker')
                                 speaker.text = s.get_text().strip()
                                 doublon = speaker.getprevious()
                                 lg.remove(doublon)
-                                
-                     #else:
-                        #bad = etree.SubElement(lg, "bad")
-                        #bad.text = s.get_text().strip()
-                        
-                    """
-                        #ajout des balises stage pour les didascalies: ne fonctionne pas encore
+                        #ajout des balises stage pour les didascalies
                         if re.search(stage_directions, line.text):
                             stage_dir = etree.SubElement(line, "stage")
                             text = re.search(stage_directions, line.text)
                             stage_dir.text = text.group(0) 
-                            line.text = re.sub(stage_dir.text, "", line.text) 
-                        #line.text = re.sub("()", '', line.text)  """                    
+                            #line.remove(stage_dir.text) 
+                            line.text = re.sub("()", '', line.text)     
+                     #else:
+                        #bad = etree.SubElement(lg, "bad")
+                        #bad.text = s.get_text().strip()
+                                        
                 h.write(etree.tostring(poem, encoding='utf-8', pretty_print=True))
 
                 
@@ -102,9 +100,9 @@ def nettoyage(id_work):
             os.remove(d)
         
 if __name__ == '__main__':
-    idWork = "82"
+    idWork = "102"
     #idWork = input("entrez le nb id")
     #detect_airs.extract(idWork)
-    character_list.dramatis_personae(idWork)
+    #character_list.dramatis_personae(idWork)
     extraction_dossier(idWork)
     nettoyage(idWork)
