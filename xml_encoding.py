@@ -75,10 +75,10 @@ def encode(html, airs, characters, xml):
 
                 
 def extraction_dossier(id_work):
-    dossier_hocr_id = f"{dossier_hocr}/{id_work}/04_hocr_from_jpg"
-    dossier_sortie = f"{dossier_hocr}/{id_work}/airs_xml"
-    doc_airs = f"{dossier_hocr}/{id_work}/{id_work}_airs.txt"
-    doc_characters = f"{dossier_hocr}/{id_work}/{id_work}_characters.txt"
+    dossier_hocr_id = f"{dossier}/{id_work}/04_hocr_from_jpg"
+    dossier_sortie = f"{dossier}/{id_work}/airs_xml"
+    doc_airs = f"{dossier}/{id_work}/{id_work}_airs.txt"
+    doc_characters = f"{dossier}/{id_work}/{id_work}_characters.txt"
     try:
         open(doc_airs, "r")
     except FileNotFoundError as err : print(err)
@@ -94,7 +94,7 @@ def extraction_dossier(id_work):
 
 def nettoyage(id_work):
     "suppression des document xml qui ne contiennent pas d'air"
-    dossier = f"{dossier_hocr}/{id_work}/airs_xml"
+    dossier = f"{dossier}/{id_work}/airs_xml"
     docs = glob.glob(f"{dossier}/*.xml")
     for d in docs:
         if os.stat(d).st_size == 0:
