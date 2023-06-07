@@ -1,10 +1,10 @@
 """ecriture document personnage"""
 import os
 import re
-characters_sheet = f"../../../annotations_fr-characters.csv"
-dossier = "../corpus-items"
+from config import dossier
 
-liste_exclue = ["DE", "MME", "MLLE", "M"]
+characters_sheet = f"../../../annotations_fr-characters.csv"
+liste_exclue = ["DE", "MME", "MLLE", "M", "MADAME", "MONSIEUR"]
 
 def dramatis_personae(id_work):
     with open(characters_sheet, "r", encoding='utf8') as g,\
