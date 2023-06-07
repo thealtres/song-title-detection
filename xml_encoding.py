@@ -6,6 +6,8 @@ import os
 from os import listdir
 from os.path import isfile, join
 
+
+from config import dossier
 import detection_airs as detect_airs
 import character_list_regex as character_list
 
@@ -21,7 +23,6 @@ bbox_pattern = re.compile(r"bbox (\d+) .*")
 stage_directions = re.compile(r"[{\(].*[}\)]")
 bis = re.compile(r"(\((bis|ters?\W?)\))")
 
-dossier_hocr = "../corpus-items"
 
 def encode(html, airs, characters, xml):
     """Encodage en xml des airs relevés grace a detection_airs.py

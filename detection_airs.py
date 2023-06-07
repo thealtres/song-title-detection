@@ -19,7 +19,8 @@ from os.path import isfile, join
 import re 
 from fuzzywuzzy import process
 
-dossier = "../corpus-items"
+from config import dossier
+
 
 
 AIR = re.compile(r"(^| )\b(?<!' )([AâÂ] ?[IiïLlwmn][rRbBnNt])\W?\b")

@@ -11,12 +11,14 @@ NOTA : Si Acte 0, signifie qu'il y a seulement un acte ou qu'une mention de l'ac
 import re
 import glob
 import os
+from config import dossier
+
 
 SCENE = re.compile(r"(^| )\b(?<!' )SC[èEeÈ][Nn][Ee]\b")
 PREMS = re.compile(r"PR[EèeÈÊê]MI[EèeÈÊê][Rr8][EèeÈÊê]\W?\b")
 TYPE = re.compile(r"(COM[EÉÈÊéèê]DI[EÉÈÊéèê]|VAUD[EÉÈÊéèê]VILL[EÉÈÊéèê]|PI[EÉÈÊéèê]C[EÉÈÊéèê]).*[EÉÈÊéèê]N.*AC..[Ss]?")
 
-dossier = "corpus/thealtres-ocr-main/corpus-items"
+
 
 def compte(liste_scenes):
     """
@@ -70,7 +72,6 @@ def verif_all(csv):
 if __name__ == '__main__':
     doc_sortie = "acts_sc1.csv"
     idWork = "103"
-    
     #idWork = input("entrez id_work")
     verif(idWork, doc_sortie)
     #verif_all(doc_sortie)
