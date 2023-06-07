@@ -1,26 +1,22 @@
 """"
 détection des airs et de leur nom et
 enregistrement dans un document à part avec id de la pièce; id de l'air; titre.
-
-Objectifs supplémentaires
-    Mesures statistiques, rappel, f-mesure pour la réussite de l'identification comparé au résultat réel
-
-    stratégies d'amélioration: 
-        comparer le résultat de tesseract et txt
-        réécriture du titre ? "Âln" transformé en "Air" depuis la suggestion de fuzzy wuzzy, 
-            avec exception pour CHOEUR FINAL, CHOEUR, AIR seuls. 
-        attrapper la 1e ligne de l'air quand la ligne est vide ? 
-        
+       
 """ 
 
-
+import sys
+import argparse
 from os import listdir
 from os.path import isfile, join
 import re 
 from fuzzywuzzy import process
 
 from config import dossier
+from config import airs_ref
 
+parser = argparse.ArgumentParser()
+parser.add_argument("id_work", type=int,
+                    help="looks for couplet titles in id_work provided and writes them in new doc")
 
 
 AIR = re.compile(r"(^| )\b(?<!' )([AâÂ] ?[IiïLlwmn][rRbBnNt])\W?\b")
@@ -63,9 +59,9 @@ def extract(id_work):
                     air = filtre(count_line, l.strip())
                     if air != "n":
                         count_air += 1 
-                        res.append(id_work + ";" + str(count_air) + ";"+ str(process.extractOne(air, airs_ref)) + ';' + air + ";" + str(count_line))
+                        res.append(str(id_work) + ";" + str(count_air) + ";"+ str(process.extractOne(air, airs_ref)) + ';' + air + ";" + str(count_line))
         
-    with open(f"{dossier}/{id_work}/{id_work}_airs.txt" , "w", encoding="utf8") as g:
+    with open(f"{dossier}/{str(id_work)}/{str(id_work)}_airs.txt" , "w", encoding="utf8") as g:
         for r in res:
             g.write(r + "\n")
 
@@ -74,15 +70,12 @@ def extraction_dossier(dossier):
     for doc in docs:
         extract(doc)
 
-with open(f"../../../airs_ref.txt", "r", encoding="utf8") as f:
+with open(airs_ref, "r", encoding="utf8") as f:
     airs_ref = [ line.rstrip() for line in f ]
-
-
 
 def suggest(id_work):
     "Suggests a title from the airs_ref document for an air found in the tesseract"
     doc_airs_id = f"{dossier}/{id_work}/{id_work}_airs.txt"
-    res = []
     try:
             open(doc_airs_id, "r")
     except FileNotFoundError as err : print(err)
@@ -90,13 +83,10 @@ def suggest(id_work):
         airs_id = [colonne[3] for colonne in [ line.rstrip().split(';') for line in g] ]
         for a in airs_id:
             print(process.extractOne(a, airs_ref))
-    
-
-    
-
 
 if __name__ == '__main__':
-    idWork = "102"
-    #idWork = input("entrez id_work")
-    extract(idWork)
+    args = parser.parse_args()
+    id = args.id_work
+    extract(id)
+
     
