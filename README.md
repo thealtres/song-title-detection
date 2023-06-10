@@ -1,8 +1,8 @@
 # Encoding tunes programs 
 
-identification of couplet titles with detection_airs.py
-character_list_regex.py writes a list of characters for any given id_work from the manual annotation in annotations_fr-characters.csv
-liste_des_noms_d-airs_standards.txt is used as a reference in the string matching process 
+- identification of couplet titles with detection_airs.py
+- character_list_regex.py writes a list of characters for any given id_work from the manual - annotation in annotations_fr-characters.csv
+- liste_des_noms_d-airs_standards.txt is used as a reference in the string matching process 
 
 ## How to use the program
 
