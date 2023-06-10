@@ -1,0 +1,11 @@
+id44 exemple string matching. 
+
+Ain : Bouton de rose. : best ratio : ('Air : Au temps heureux de la chevalerie.', 86)
+Ain: Ah! quel plaisir d'étre soldat. : best ratio : ("AIR d'Yelva.", 86)
+Ain: : best ratio : ('AIR de la Marraine.', 90)
+‘Ain: Toi dent la prunelle, : best ratio : ('Air : Au temps heureux de la chevalerie.', 86)
+Ain des hussards de la garde, : best ratio : ('AIR : De Turenne.', 86)
+CHOEUR, : best ratio : ("AIR : Dessous mon menton (d'Arlequin afficheur).", 82)
+Atn de Fernand Cortex. : best ratio : ('Air : Au temps heureux de la chevalerie.', 86)
+REPRISE DU CHOEUR, : best ratio : ('AIR : Du magistrat irréprochable.', 86)
+Air anglais des 3 couplets des pailles du set acte, : best ratio : ('AIR : De Turenne.', 86)
