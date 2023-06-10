@@ -11,13 +11,6 @@ from config import dossier
 import detection_airs as detect_airs
 import character_list_regex as character_list
 
-"""améliorations possibles:
-        ajout des balises stages
-        ajustements v/v du bbox
-        joindre les documents html pour saisir les chansons qui se trouvent sur pls page. 
-            pb > risque d'attrapper toutes les lignes de la piece au meme niveau que l'air.
-        joindre tous les documents xml dans la fonction nettoyage ? 
-        enlever tous les noms de personnages"""
 
 bbox_pattern = re.compile(r"bbox (\d+) .*")
 stage_directions = re.compile(r"[{\(].*[}\)]")
@@ -54,23 +47,7 @@ def encode(html, airs, characters, xml):
                     if (bbox_next_line - 70) <= bbox_s <= (bbox_next_line + 100):
                         line = etree.SubElement(lg, "l")
                         line.text = s.get_text().strip()
-                        for p in pers:
-                            if re.search(p, str(s.get_text().strip())):
-                                speaker = etree.SubElement(lg, 'speaker')
-                                speaker.text = s.get_text().strip()
-                                doublon = speaker.getprevious()
-                                lg.remove(doublon)
-                        #ajout des balises stage pour les didascalies
-                        if re.search(stage_directions, line.text):
-                            stage_dir = etree.SubElement(line, "stage")
-                            text = re.search(stage_directions, line.text)
-                            stage_dir.text = text.group(0) 
-                            #line.remove(stage_dir.text) 
-                            line.text = re.sub("()", '', line.text)     
-                     #else:
-                        #bad = etree.SubElement(lg, "bad")
-                        #bad.text = s.get_text().strip()
-                                        
+                
                 h.write(etree.tostring(poem, encoding='utf-8', pretty_print=True))
 
                 
@@ -101,9 +78,8 @@ def nettoyage(id_work):
             os.remove(d)
         
 if __name__ == '__main__':
-    idWork = "102"
+    idWork = "82"
     #idWork = input("entrez le nb id")
-    #detect_airs.extract(idWork)
-    #character_list.dramatis_personae(idWork)
+    detect.extract(idWork)
     extraction_dossier(idWork)
     nettoyage(idWork)
