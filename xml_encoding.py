@@ -6,27 +6,30 @@ import os
 from os import listdir
 from os.path import isfile, join
 
-import detection_airs as detect
+
+from config import dossier
+import detection_airs as detect_airs
+import character_list_regex as character_list
 
 
 bbox_pattern = re.compile(r"bbox (\d+) .*")
 stage_directions = re.compile(r"[{\(].*[}\)]")
 bis = re.compile(r"(\((bis|ters?\W?)\))")
 
-dossier_hocr = "../corpus-items"
-#pers = "annotation_automatique/output/102_characters.txt"
 
-def encode(html, txt, xml):
+def encode(html, airs, characters, xml):
     """Encodage en xml des airs relevés grace a detection_airs.py
     extraction des lignes depuis l'hocr
     le bbox_pattern sert à relever la position de la ligne où se trouve le titre de l'air
     puis sélection de toutes les lignes au même niveau que la suivante (on suppose la 1e ligne de la chanson)"""
     with open(html, 'r', encoding='utf8') as f,\
-        open(txt, "r", encoding="utf8") as g,\
-        open(xml, "w+b") as h:
+        open(airs, "r", encoding="utf8") as g,\
+        open(xml, "w+b") as h,\
+        open(characters, "r", encoding="utf8") as i:
         soup = BeautifulSoup(f, 'html.parser')
         lines = soup.find_all("span", class_="ocr_line")
         air = [colonne[3] for colonne in [ line.rstrip().split(';') for line in g] ]
+        pers = [line.rstrip().strip().upper() for line in i]
         for l in lines:
             if l.get_text().strip() in air:
                 poem = etree.Element("div", type="poem")
@@ -41,8 +44,7 @@ def encode(html, txt, xml):
                 for s in suite:
                     bbox_s = re.match(bbox_pattern, str(s.get("title")))
                     bbox_s = int(bbox_s.group(1))
-                    #on étend de 70 marge gauche et 50 marge droite pour sélectionner toutes les lignes au même niveau
-                    if (bbox_next_line - 70) <= bbox_s <= (bbox_next_line + 50):
+                    if (bbox_next_line - 70) <= bbox_s <= (bbox_next_line + 100):
                         line = etree.SubElement(lg, "l")
                         line.text = s.get_text().strip()
                 
@@ -50,9 +52,10 @@ def encode(html, txt, xml):
 
                 
 def extraction_dossier(id_work):
-    dossier_hocr_id = f"{dossier_hocr}/{id_work}/04_hocr_from_jpg"
-    dossier_sortie = f"{dossier_hocr}/{id_work}/airs_xml"
-    doc_airs = f"{dossier_hocr}/{id_work}/{id_work}_airs.txt"
+    dossier_hocr_id = f"{dossier}/{id_work}/04_hocr_from_jpg"
+    dossier_sortie = f"{dossier}/{id_work}/airs_xml"
+    doc_airs = f"{dossier}/{id_work}/{id_work}_airs.txt"
+    doc_characters = f"{dossier}/{id_work}/{id_work}_characters.txt"
     try:
         open(doc_airs, "r")
     except FileNotFoundError as err : print(err)
@@ -63,12 +66,12 @@ def extraction_dossier(id_work):
         for doc in docs_html:
             doc_html = f"{dossier_hocr_id}/{doc}"
             doc_sortie = f"{dossier_sortie}/{id_work}_airs_{doc[:3]}.xml"
-            encode(doc_html, doc_airs, doc_sortie)
+            encode(doc_html, doc_airs, doc_characters, doc_sortie)
         
 
 def nettoyage(id_work):
     "suppression des document xml qui ne contiennent pas d'air"
-    dossier = f"{dossier_hocr}/{id_work}/airs_xml"
+    dossier = f"{dossier}/{id_work}/airs_xml"
     docs = glob.glob(f"{dossier}/*.xml")
     for d in docs:
         if os.stat(d).st_size == 0:
