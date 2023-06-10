@@ -20,7 +20,7 @@ Add lines that do not contain titles such as "AIR :" or "COUPLET." : in that sit
 In the directory corpus-items/id_work, the following documents are created :
 - id_work_characters.txt : contains the characters (regex)
 - id_work_airs.txt : contains the following for each line : id_work;idAir;best-candidate-title;title;line
-        --id_work 
+        -- id_work 
         -- idAir : incremented for each play 
         -- best candidate title : using string matching, gives the best candidate within the reference list in "liste_des_noms_d-airs_standards"
         -- title : title as is in the OCR raw txt
