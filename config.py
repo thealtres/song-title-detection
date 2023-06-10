@@ -13,6 +13,7 @@
 
 
 dossier = "../corpus-items"
-airs_ref = "../../../airs_ref.txt"
+airs_ref = "../../../liste_des_noms_d-airs_standards.txt"
+characters_sheet = f"../../../annotations_fr-characters.csv"
 
 

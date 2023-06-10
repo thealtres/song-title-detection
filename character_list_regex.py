@@ -2,8 +2,9 @@
 import os
 import re
 from config import dossier
+from config import characters_sheet
 
-characters_sheet = f"../../../annotations_fr-characters.csv"
+
 liste_exclue = ["DE", "MME", "MLLE", "M", "MADAME", "MONSIEUR"]
 
 def dramatis_personae(id_work):
@@ -19,9 +20,7 @@ def dramatis_personae(id_work):
                 if name not in liste_exclue:
                     
                     f.write(".*" + name + ".*" + "\n")
-            
-
 
 if __name__ == '__main__':
-    idWork = "102"
+    idWork = "100"
     dramatis_personae(idWork)
