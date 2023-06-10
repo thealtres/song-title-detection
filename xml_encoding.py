@@ -1,23 +1,17 @@
 import re
 from lxml import etree
 from bs4 import BeautifulSoup
+
 import glob
 import os
 from os import listdir
 from os.path import isfile, join
 
-
+import config
 from config import dossier
 import detection_airs as detect_airs
 import character_list_regex as character_list
 
-"""améliorations possibles:
-        ajout des balises stages
-        ajustements v/v du bbox
-        joindre les documents html pour saisir les chansons qui se trouvent sur pls page. 
-            pb > risque d'attrapper toutes les lignes de la piece au meme niveau que l'air.
-        joindre tous les documents xml dans la fonction nettoyage ? 
-        enlever tous les noms de personnages"""
 
 bbox_pattern = re.compile(r"bbox (\d+) .*")
 stage_directions = re.compile(r"[{\(].*[}\)]")
@@ -73,7 +67,8 @@ def encode(html, airs, characters, xml):
                                         
                 h.write(etree.tostring(poem, encoding='utf-8', pretty_print=True))
 
-                
+
+
 def extraction_dossier(id_work):
     dossier_hocr_id = f"{dossier}/{id_work}/04_hocr_from_jpg"
     dossier_sortie = f"{dossier}/{id_work}/airs_xml"
@@ -94,16 +89,15 @@ def extraction_dossier(id_work):
 
 def nettoyage(id_work):
     "suppression des document xml qui ne contiennent pas d'air"
-    dossier = f"{dossier}/{id_work}/airs_xml"
-    docs = glob.glob(f"{dossier}/*.xml")
+    dossier_id = f"{dossier}/{id_work}/airs_xml"
+    docs = glob.glob(f"{dossier_id}/*.xml")
     for d in docs:
         if os.stat(d).st_size == 0:
             os.remove(d)
-        
 if __name__ == '__main__':
     idWork = "102"
     #idWork = input("entrez le nb id")
     #detect_airs.extract(idWork)
     #character_list.dramatis_personae(idWork)
-    extraction_dossier(idWork)
-    nettoyage(idWork)
+    #config.extraction_dossier(idWork)
+    config.nettoyage(idWork)
