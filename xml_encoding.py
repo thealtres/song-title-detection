@@ -81,6 +81,6 @@ def nettoyage(id_work):
 if __name__ == '__main__':
     idWork = "82"
     #idWork = input("entrez le nb id")
-    detect.extract(idWork)
+    #detect.extract(idWork)
     extraction_dossier(idWork)
     nettoyage(idWork)

@@ -1,15 +1,21 @@
 """"
-détection des airs et de leur nom et
-enregistrement dans un document à part avec id de la pièce; id de l'air; titre.
+Alexia Schneider juin 2023
+détection des airs et de leur titre
+output: [id_work]_airs.txt dans le dossier id_work du corpus Thealtres
+id_work; id_air; titre_suggéré ; titre_extrait ; ligne ; isair 
+avec id_work : entré par l'utilisateur en ligne de commande
+id_air : incrémenté pour la pièce
+titre_suggéré  : string matching depuis la liste de titres de référence fournie par Lara Nugues
+titre_extrait : ligne contenant un titre candidat
+ligne : ligne dans le document OCR_tesseract. 
+isair : booléen, 1 pour air. 
        
 """ 
 
 import sys
 import argparse
-from os import listdir
-from os.path import isfile, join
+
 import re 
-import os
 from fuzzywuzzy import process
 
 from config import dossier
@@ -20,24 +26,23 @@ parser = argparse.ArgumentParser()
 parser.add_argument("id_work", type=int,
                     help="gives candidates in id_work provided and writes them in new doc >  input 'n' to reject the line, anything else to add it")
 
-
 AIR_extended = re.compile(r"^(^|\W)\b(?<!'\| )([AâÂÀáÁà] ?[IiïîÎtTLlrwmns1u] ?[rRbBnNtsa]?)\W*\b ?:?")
 CHOEUR = re.compile(r"(^| )\b(?<!' )\b[Cc][Hh][OŒœ][EÉÈÊéèê]?[Uu][Rr]\b\W*")
 COUPLET = re.compile(r"^(^| )\b(?<!' )\b[Cc][Oo][Uu][Pp][IiïLltwmns1]?[Ee][TtlLIiï]\W?\b")
 FINALE = re.compile(r"^(^| )\b(?<!' )\b[FE][IiïLltwmns1][NMR][AâÂÀáÁà][LlIiíÍïÏ][EÉÈÊéèê]?\W?\b")
 regex_filtra1 = [AIR_extended, CHOEUR,  COUPLET, FINALE]
+
 AIR_seul = re.compile(r"(^| )(?<!' )\w+\W*\s*\b")
+stage_directions = re.compile(r"^(^| )[\{\(].*[\}\)]?")
+
 #BIS = re.compile(r"\(bis\)")
 #TER = re.compile(r"\(ter\)")
 #ENSEMBLE = re.compile(r"^(^| )\b(?<!' )\b[EÉÈÊéèê][NnM]? ?[Ss][EÉÈÊéèê][MN][BbRrNe][LlIiíÍïÏ][E]\W*\b")
 #regex_filtra2 = [BIS, TER, ENSEMBLE]
-stage_directions = re.compile(r"^(^| )\b[{\(].*[}\)]?")
-
-
 
 def extract(id_work):
-    """Produces a list containing idWork;idAir;suggestedTitle;ocrAir;ocrLine
-    written in a idWork_airs.txt doc in corresponding file"""
+    """Produces a list containing idWork;idAir;suggestedTitle;ocrAir;ocrLine;isair
+    written in a idWork_airs.txt doc in corresponding directory"""
     doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
     with open(doc_entree, "r", encoding="utf8") as f:
         res = []
@@ -48,24 +53,26 @@ def extract(id_work):
             l = line.rstrip()
             for r1 in regex_filtra1:
                 if r1.search(l):    
-                    air = filtre(l.strip(), count_line)
-                    if air != "n":
+                    air = isair(l.strip(), count_line)
+                    if air[1] == "1":
                         count_air += 1 
-                        if r1.fullmatch(air):
-                            next_line = next(f) 
-                            while filtre2(next_line, id_work) == False:
-                                next_line = next(f)   
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(process.extractOne(next_line, airs_ref)) + ';' + air + ":" + next_line + ";" + str(count_line))
+                        titre = air[0]
+                        if r1.fullmatch(str(air[0])):
+                            titre = next(f) 
+                            while cherche_titre(titre, id_work) == False:
+                                titre = next(f)   
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(suggest(titre)) + ';' + str(air[0]) + ":" + str(titre) + ";" + str(count_line) + ";" + str(air[1]))
                         else:
-                        
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(process.extractOne(air, airs_ref)) + ';' + air + ";" + str(count_line))
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(suggest(titre)) + ';' + str(titre) + ";" + str(count_line) + ";" + str(air[1]))
+                    else:
+                        res.append(str(id_work) + ";;;" + str(air[0]) + ";" + str(count_line) + ";" + str(air[1]))
     print(chr(10).join(res))
     with open(f"{dossier}/{str(id_work)}/{str(id_work)}_airs.txt" , "w", encoding="utf8") as g:
         for r in res:
             g.write(r + "\n")
 
 
-def filtre(chaine, ligne):
+def isair(chaine, ligne):
     """
     Vérification manuelle par l'utilisateur du contenu de la chaine extraite par la regex
     le numéro de ligne a pour but d'aider à identifier les airs
@@ -73,11 +80,11 @@ def filtre(chaine, ligne):
     """
     yn = input(f'''"{chaine}":{ligne}:      ''')
     if yn == 'n':
-        return "n"
+        return chaine, "0"
     else:
-        return chaine
+        return chaine, "1"
 
-def filtre2(chaine, id_work):
+def cherche_titre(chaine, id_work):
     with open(f"{dossier}/{id_work}/{id_work}_characters.txt", "r", encoding="utf8") as f:
         character_list = [ line.rstrip() for line in f ]
         for c in character_list:
@@ -90,25 +97,16 @@ def filtre2(chaine, id_work):
     else:
         return True
 
-
-with open(airs_ref, "r", encoding="utf8") as f:
-    airs_ref = [ line.rstrip() for line in f ]
-
-def suggest(id_work):
+def suggest(titre_candidat):
     "Suggests a title from the airs_ref document for an air found in the tesseract"
-    doc_airs_id = f"{dossier}/{id_work}/{id_work}_airs.txt"
-    try:
-            open(doc_airs_id, "r")
-    except FileNotFoundError as err : print(err)
-    with open(doc_airs_id, "r", encoding='utf8') as g:
-        airs_id = [colonne[3] for colonne in [ line.rstrip().split(';') for line in g] ]
-        for a in airs_id:
-            print(process.extractOne(a, airs_ref))
+    with open(airs_ref, "r", encoding="utf8") as f:
+        airs_refs = [ line.rstrip() for line in f ]
+    best_candidate = process.extractOne(titre_candidat, airs_refs)
+    if best_candidate[1] >= 90 :
+        return best_candidate
+    else:
+        return ""
 
-"""def extraction_dossier(dossier):
-    docs = [d for d in listdir(dossier) if isfile(join(dossier, d))]
-    for doc in docs:
-        extract(doc)"""
 
 if __name__ == '__main__':
     args = parser.parse_args()
