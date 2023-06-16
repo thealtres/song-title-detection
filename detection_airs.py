@@ -5,9 +5,9 @@ output: [id_work]_airs.txt dans le dossier id_work du corpus Thealtres
 id_work; id_air; titre_suggéré ; titre_extrait ; ligne ; isair 
 avec id_work : entré par l'utilisateur en ligne de commande
 id_air : incrémenté pour la pièce
-titre_suggéré  : string matching depuis la liste de titres de référence fournie par Lara Nugues
 titre_extrait : ligne contenant un titre candidat
 ligne : ligne dans le document OCR_tesseract. 
+titre_suggéré  : string matching depuis la liste de titres de référence fournie par Lara Nugues
 isair : booléen, 1 pour air. 
        
 """ 
@@ -17,6 +17,7 @@ import argparse
 
 import re 
 from fuzzywuzzy import process
+import difflib
 
 from config import dossier
 from config import airs_ref
@@ -27,9 +28,9 @@ parser.add_argument("id_work", type=int,
                     help="gives candidates in id_work provided and writes them in new doc >  input 'n' to reject the line, anything else to add it")
 
 AIR_extended = re.compile(r"^(^|\W)\b(?<!'\| )([AâÂÀáÁà] ?[IiïîÎtTLlrwmns1u] ?[rRbBnNtsa]?)\W*\b ?:?")
-CHOEUR = re.compile(r"(^| )\b(?<!' )\b[Cc][Hh][OŒœ][EÉÈÊéèê]?[Uu][Rr]\b\W*")
-COUPLET = re.compile(r"^(^| )\b(?<!' )\b[Cc][Oo][Uu][Pp][IiïLltwmns1]?[Ee][TtlLIiï]\W?\b")
-FINALE = re.compile(r"^(^| )\b(?<!' )\b[FE][IiïLltwmns1][NMR][AâÂÀáÁà][LlIiíÍïÏ][EÉÈÊéèê]?\W?\b")
+CHOEUR = re.compile(r"^(^|\W)\b(?<!\|' )\b[Cc][Hh][OŒœ][EÉÈÊéèê]?[Uu][Rr]\b\W*")
+COUPLET = re.compile(r"^(^|\W)\b(?<!' )\b[Cc][Oo][Uu][Pp][IiïLltwmns1]?[Ee][TtlLIiï]\W?\b")
+FINALE = re.compile(r"^(^|\W)\b(?<!' )\b[FE][IiïLltwmns1][NMR][AâÂÀáÁà][LlIiíÍïÏ][EÉÈÊéèê]?\W?\b")
 regex_filtra1 = [AIR_extended, CHOEUR,  COUPLET, FINALE]
 
 AIR_seul = re.compile(r"(^| )(?<!' )\w+\W*\s*\b")
@@ -41,7 +42,7 @@ stage_directions = re.compile(r"^(^| )[\{\(].*[\}\)]?")
 #regex_filtra2 = [BIS, TER, ENSEMBLE]
 
 def extract(id_work):
-    """Produces a list containing idWork;idAir;suggestedTitle;ocrAir;ocrLine;isair
+    """Produces a list containing idWork;idAir;ocrAir;ocrLine;suggestedTitle;isair
     written in a idWork_airs.txt doc in corresponding directory"""
     doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
     with open(doc_entree, "r", encoding="utf8") as f:
@@ -61,13 +62,12 @@ def extract(id_work):
                             titre = next(f) 
                             while cherche_titre(titre, id_work) == False:
                                 titre = next(f)   
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(suggest(titre)) + ';' + str(air[0]) + ":" + str(titre) + ";" + str(count_line) + ";" + str(air[1]))
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air[0])+ ':' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(suggest(titre.rstrip())) + ";" + str(air[1]))
                         else:
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(suggest(titre)) + ';' + str(titre) + ";" + str(count_line) + ";" + str(air[1]))
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + str(suggest(titre)) + ";" + str(air[1]))
                     else:
-                        res.append(str(id_work) + ";;;" + str(air[0]) + ";" + str(count_line) + ";" + str(air[1]))
-    print(chr(10).join(res))
-    with open(f"{dossier}/{str(id_work)}/{str(id_work)}_airs.txt" , "w", encoding="utf8") as g:
+                        res.append(str(id_work) + ";;" + str(air[0]) + ";" + str(count_line) + ";;" + str(air[1]))
+    with open(f"{dossier}/{str(id_work)}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
         for r in res:
             g.write(r + "\n")
 
@@ -101,17 +101,21 @@ def suggest(titre_candidat):
     "Suggests a title from the airs_ref document for an air found in the tesseract"
     with open(airs_ref, "r", encoding="utf8") as f:
         airs_refs = [ line.rstrip() for line in f ]
-    best_candidate = process.extractOne(titre_candidat, airs_refs)
-    if best_candidate[1] >= 90 :
-        return best_candidate
-    else:
-        return ""
+    best_candidate_fuzzy = process.extractOne(titre_candidat, airs_refs)
+    best_candidate_difflib = difflib.get_close_matches(titre_candidat, airs_refs, n=1, cutoff=0.7)
+    if best_candidate_fuzzy[1] >= 90 :
+        best_candidate = best_candidate_fuzzy[0] 
+    else :
+        best_candidate = best_candidate_difflib
+    return best_candidate
 
 
 if __name__ == '__main__':
-    args = parser.parse_args()
-    id = args.id_work
-    character_list_regex.dramatis_personae(id)
-    extract(id)
+    #args = parser.parse_args()
+    #id = args.id_work
+    #extract(id)
+    id1 = "91"
+    #character_list_regex.dramatis_personae(id1)
+    extract(id1)
 
     
