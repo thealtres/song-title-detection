@@ -23,9 +23,14 @@ from config import dossier
 from config import airs_ref
 import character_list_regex
 
+from bs4 import BeautifulSoup
+
 parser = argparse.ArgumentParser()
-parser.add_argument("id_work", type=int,
+parser.add_argument("id_work", 
                     help="gives candidates in id_work provided and writes them in new doc >  input 'n' to reject the line, anything else to add it")
+parser.add_argument("--mode", "-m", choices=['extract', 'eval'], default="extract",
+                    help="extract writes the id_work_airs.csv, default mode. eval evaluates the results")
+
 
 AIR_extended = re.compile(r"^(^|\W)\b(?<!'\| )([AâÂÀáÁà] ?[IiïîÎtTLlrwmns1u] ?[rRbBnNtsa]?)\W*\b ?:?")
 CHOEUR = re.compile(r"^(^|\W)\b(?<!\|' )\b[Cc][Hh][OŒœ][EÉÈÊéèê]?[Uu][Rr]\b\W*")
@@ -110,12 +115,40 @@ def suggest(titre_candidat):
     return best_candidate
 
 
+def eval(id_work):
+    with open(f"{dossier}/{str(id_work)}/{str(id_work)}_airs.csv" , "r", encoding="utf8") as f,\
+        open(f"{dossier}/{str(id_work)}/{str(id_work)}.xml" , "r", encoding="utf8") as g:
+        all = 0
+        true_candidates = 0
+        for line in f:
+            l = line.rstrip()
+            all += 1
+            idWork,idAir,ocrAir,ocrLine,suggestedTitle,airOrNot = l.split(";")
+            if airOrNot == "1":
+                true_candidates += 1
+        precision = true_candidates/all
+        soup = BeautifulSoup(g, 'xml')
+        true_airs = soup.find_all("div", type="poem")
+        rappel = true_candidates/len(true_airs)
+        f1 = precision*rappel / (precision + rappel)
+        return f"Airs candidats: {all}\
+            \nAirs manuellement filtrés : {true_candidates}\
+            \nAirs réelement présents : {len(true_airs)}\
+            \nPrécision : {precision}\
+            \nRappel: {rappel}\
+            \nmesure-F1: {f1}"
+
+
 if __name__ == '__main__':
-    #args = parser.parse_args()
-    #id = args.id_work
-    #extract(id)
-    id1 = "91"
-    #character_list_regex.dramatis_personae(id1)
-    extract(id1)
+    args = parser.parse_args()
+    id = args.id_work
+    #character_list_regex.dramatis_personae(id)
+    if args.mode == "extract":
+        extract(id)
+    if args.mode == "eval":
+        print(eval(id))
+    #id1 = "91"
+    
+    #extract(id1)
 
     
