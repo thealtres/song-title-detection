@@ -38,7 +38,7 @@ COUPLET = re.compile(r"^(^|\W)\b(?<!' )\b[Cc][Oo][Uu][Pp][IiïLltwmns1]?[Ee][Ttl
 FINALE = re.compile(r"^(^|\W)\b(?<!' )\b[FE][IiïLltwmns1][NMR][AâÂÀáÁà][LlIiíÍïÏ][EÉÈÊéèê]?\W?\b")
 regex_filtra1 = [AIR_extended, CHOEUR,  COUPLET, FINALE]
 
-AIR_seul = re.compile(r"(^| )(?<!' )\w+\W*\s*\b")
+AIR_seul = re.compile(r"(^| )(?<!' )\w+\s*\W*[A-Z]*\s*\W*\b")
 stage_directions = re.compile(r"^(^| )[\{\(].*[\}\)]?")
 
 #BIS = re.compile(r"\(bis\)")
@@ -91,7 +91,7 @@ def isair(chaine, ligne):
     input [n] pour non
     """
     yn = input(f'''"{chaine}":{ligne}:      ''')
-    if yn == 'n':
+    if yn == ';':
         return chaine, "0"
     else:
         return chaine, "1"
@@ -140,8 +140,9 @@ def eval(id_work):
                     true_candidates.append(ocrAir)
             precision = len(true_candidates)/all
             soup = BeautifulSoup(g, 'xml')
-            true_airs = soup.find_all("stage", type="tune")
-            rappel = len(true_candidates)/len(true_airs)
+            true_airs = [t.get_text() for t in soup.find_all("stage", type="tune")]
+            airs_valides = [process.extractOne(candidat, true_airs) for candidat in true_candidates if process.extractOne(candidat, true_airs)[1] >= 98]
+            rappel = len(airs_valides)/len(true_airs)
             f1 = (2 * ((precision*rappel) / (precision+rappel)))
             h.write(f"Airs candidats: {all}\
                 \nAirs manuellement filtrés : {len(true_candidates)}\
