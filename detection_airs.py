@@ -32,13 +32,14 @@ parser.add_argument("--mode", "-m", choices=['extract', 'eval'], default="extrac
                     help="extract writes the id_work_airs.csv, default mode. eval evaluates the results")
 
 
-AIR_extended = re.compile(r"^(^|\W)\b(?<!'\| )([AâÂÀáÁà] ?[IiïîÎtTLlrwmns1u] ?[rRbBnNtsa]?)\W*\b ?:?")
-CHOEUR = re.compile(r"^(^|\W)\b(?<!\|' )\b[Cc][Hh][OŒœ][EÉÈÊéèê]?[Uu][Rr]\b\W*")
+AIR_extended = re.compile(r"^(^|\W*)\b(?<!'\| )([AâÂÀĀāǍǎĂăÃãáÅåÄäĄÆÁà][IiïîÎİɪɩĪīǏǐĬĭÍíÎîĨĩÌìÏỊıJɭĺĹĿŁŀłtTLlrwmns1u][rRŔʀŕŘřɼɽſßŖbB8nNtsaAEpe])\W*\b ?:?")
+CHOEUR = re.compile(r"^(^|\W)\b(?<!\|' )\b[Cc][Hh][OʚɞŌōǑǒÓÔóôÒòÖöŎŏØøɸÕõʠŐőʘɵɶɷŒœ][EÉÈÊĚĒĔĖĘɛéèê]?[UuŪūǓǔŬŭÚúÛûŨũÙùÜüűŰǕǖǛǜǗǘŮůʋǙǚŲųʊ][Rr]\b\W*")
+REPRISE = re.compile(r"^(^|\W)\b(?<!\|' )\b[R][EÉÈÊéèê][PRF][IiïîÎİɪɩĪīǏǐĬĭÍíÎîĨĩÌìÏİıJɭĺĹĿŁŀłtTLl1][Ss][EÉÈÊéèê]\b.*")
 COUPLET = re.compile(r"^(^|\W)\b(?<!' )\b[Cc][Oo][Uu][Pp][IiïLltwmns1]?[Ee][TtlLIiï]\W?\b")
 FINALE = re.compile(r"^(^|\W)\b(?<!' )\b[FE][IiïLltwmns1][NMR][AâÂÀáÁà][LlIiíÍïÏ][EÉÈÊéèê]?\W?\b")
-regex_filtra1 = [AIR_extended, CHOEUR,  COUPLET, FINALE]
+regex_filtra1 = [AIR_extended, CHOEUR, REPRISE, COUPLET, FINALE]
 
-AIR_seul = re.compile(r"(^| )(?<!' )\w+\s*\W*[A-Z]*\s*\W*\b")
+AIR_seul = re.compile(r"[A-Z]+\W*\s*\W*:.*")
 stage_directions = re.compile(r"^(^| )[\{\(].*[\}\)]?")
 
 #BIS = re.compile(r"\(bis\)")
@@ -72,7 +73,7 @@ def extract(id_work):
                                 while cherche_titre(titre, id_work) == False:
                                     titre = next(f)   
                                 titre = re.sub(";", "", str(titre))
-                                res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air[0])+ ':' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(suggest(titre.rstrip())) + ";" + str(air[1]))
+                                res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air[0])+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(suggest(titre.rstrip())) + ";" + str(air[1]))
                             else:
                                 res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + str(suggest(titre)) + ";" + str(air[1]))
                         else:
@@ -137,12 +138,16 @@ def eval(id_work):
                 all += 1
                 idWork,idAir,ocrAir,ocrLine,suggestedTitle,airOrNot = l.split(";")
                 if airOrNot == "1":
-                    true_candidates.append(ocrAir)
+                    if "=" in ocrAir:
+                        true_candidates.append(ocrAir.split("=")[1])
+                    else:
+                        true_candidates.append(ocrAir)
+            #print(true_candidates)            
             precision = len(true_candidates)/all
             soup = BeautifulSoup(g, 'xml')
-            true_airs = [t.get_text() for t in soup.find_all("stage", type="tune")]
-            airs_valides = [process.extractOne(candidat, true_airs) for candidat in true_candidates if process.extractOne(candidat, true_airs)[1] >= 98]
-            rappel = len(airs_valides)/len(true_airs)
+            true_airs = [t.get_text() for t in soup.find_all("stage", type="tune") if not re.fullmatch(r"(\n|\s*)", t.get_text())]
+            #print(true_airs)            
+            rappel = len(true_candidates)/len(true_airs)
             f1 = (2 * ((precision*rappel) / (precision+rappel)))
             h.write(f"Airs candidats: {all}\
                 \nAirs manuellement filtrés : {len(true_candidates)}\
@@ -150,6 +155,17 @@ def eval(id_work):
                 \nPrécision: {precision:.2f}\
                 \nRappel: {rappel:.2f}\
                 \nMesure-F1: {f1:.2f}")
+            airs_supplementaires = []
+            airs_valides = [process.extractOne(candidat, true_airs)[0]  if process.extractOne(candidat, true_airs)[1] >= 90 else airs_supplementaires.append(candidat) for candidat in true_candidates]
+            #airs_valides = [difflib.get_close_matches(candidat, true_airs, n=1, cutoff=0.9)[0] if difflib.get_close_matches(candidat, true_airs, n=1, cutoff=0.9) else airs_supplementaires.append(candidat)for candidat in true_candidates ]
+            #print(airs_valides)            
+            for air in true_airs:
+                if air not in airs_valides:
+                    print("Non attrapé:" + air)
+                    h.write(f"\nNon attrapé: {air}")
+            for air in airs_supplementaires:
+                print("Supplémentaire:" + air)
+                h.write(f"\nSupplémentaire: {air}")
             i.write(f"\n{id_work};{precision:.2f};{rappel:.2f};{f1:.2f}")
 
 def totaux():
