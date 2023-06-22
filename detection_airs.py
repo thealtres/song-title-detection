@@ -1,7 +1,7 @@
 """"
 Alexia Schneider juin 2023
 détection des airs et de leur titre
-output: [id_work]_airs.txt dans le dossier id_work du corpus Thealtres
+output: [id_work]_airs.txt dans le dossier id_work du corpus 
 id_work; id_air; titre_suggéré ; titre_extrait ; ligne ; isair 
 avec id_work : entré par l'utilisateur en ligne de commande
 id_air : incrémenté pour la pièce
@@ -14,17 +14,18 @@ isair : booléen, 1 pour air.
 
 import sys
 import argparse
+import glob 
+import os.path
 
 import re 
 from fuzzywuzzy import process
 import difflib
+from bs4 import BeautifulSoup
 
 from config import dossier
 from config import airs_ref
 import character_list_regex
 
-from bs4 import BeautifulSoup
-import glob 
 parser = argparse.ArgumentParser()
 parser.add_argument("id_work", 
                     help="gives candidates in id_work provided and writes them in new doc >  input 'n' to reject the line, anything else to add it")
@@ -37,22 +38,19 @@ CHOEUR = re.compile(r"^(^|\W)\b(?<!\|' )\b[Cc][Hh][OʚɞŌōǑǒÓÔóôÒòÖö
 REPRISE = re.compile(r"^(^|\W)\b(?<!\|' )\b[R][EÉÈÊéèê][PRF][IiïîÎİɪɩĪīǏǐĬĭÍíÎîĨĩÌìÏİıJɭĺĹĿŁŀłtTLl1][Ss][EÉÈÊéèê]\b.*")
 COUPLET = re.compile(r"^(^|\W)\b(?<!' )\b[Cc][Oo][Uu][Pp][IiïLltwmns1]?[Ee][TtlLIiï]\W?\b")
 FINALE = re.compile(r"^(^|\W)\b(?<!' )\b[FE][IiïLltwmns1][NMR][AâÂÀáÁà][LlIiíÍïÏ][EÉÈÊéèê]?\W?\b")
-regex_filtra1 = [AIR_extended, CHOEUR, REPRISE, COUPLET, FINALE]
-
-AIR_seul = re.compile(r"[A-Z]+\W*\s*\W*:.*")
+DUO = re.compile(r"^(^|\W)\b(?<!' )\bDUO \W?.*")
+TRIO = DUO = re.compile(r"^(^|\W)\b(?<!' )\bTRIO \W?.*")
+regex_filtra1 = [AIR_extended, CHOEUR, REPRISE, COUPLET, FINALE, DUO, TRIO]
 stage_directions = re.compile(r"^(^| )[\{\(].*[\}\)]?")
-
-#BIS = re.compile(r"\(bis\)")
-#TER = re.compile(r"\(ter\)")
-#ENSEMBLE = re.compile(r"^(^| )\b(?<!' )\b[EÉÈÊéèê][NnM]? ?[Ss][EÉÈÊéèê][MN][BbRrNe][LlIiíÍïÏ][E]\W*\b")
-#regex_filtra2 = [BIS, TER, ENSEMBLE]
 
 def extract(id_work):
     """Produces a list containing idWork;idAir;ocrAir;ocrLine;suggestedTitle;isair
     written in a idWork_airs.txt doc in corresponding directory"""
+    dossier_id = f"{dossier}/{id_work}"
     #doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
-    #for test corpus, meant for the evaluation of the program :
-    docs_txt = glob.glob(f"{dossier}/{id_work}/*.txt")
+    dossier_id = f"{dossier}/{id_work}"
+    docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") \
+        if not os.path.basename(file).endswith("_characters.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr.txt")]
     for doc_entree in docs_txt:
         with open(doc_entree, "r", encoding="utf8") as f:
             res = []
@@ -60,11 +58,11 @@ def extract(id_work):
             count_air = 0
             for line in f:
                 count_line += 1
-                l = line.rstrip()
+                l = line.rstrip()                
                 for r1 in regex_filtra1:
                     if r1.search(l):    
                         air = isair(l.strip(), count_line)
-                        if air[1] == "1":
+                        if air[1] == "1": 
                             count_air += 1 
                             titre = air[0]
                             titre = re.sub(";", "", str(titre))
@@ -80,16 +78,19 @@ def extract(id_work):
                             faux_positif = air[0]
                             faux_positif = re.sub(";", "", str(faux_positif))
                             res.append(str(id_work) + ";;" + str(faux_positif) + ";" + str(count_line) + ";;" + str(air[1]))
-    with open(f"{dossier}/{str(id_work)}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
-        for r in res:
-            g.write(r + "\n")
+            verif(id_work)
+    with open(f"{dossier_id}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
+        for ligne in res:
+            g.write(ligne + "\n")
+    encode_air(id_work)
+            
 
 
 def isair(chaine, ligne):
     """
     Vérification manuelle par l'utilisateur du contenu de la chaine extraite par la regex
     le numéro de ligne a pour but d'aider à identifier les airs
-    input [n] pour non
+    input [;] pour non
     """
     yn = input(f'''"{chaine}":{ligne}:      ''')
     if yn == ';':
@@ -123,13 +124,48 @@ def suggest(titre_candidat):
         best_candidate = best_candidate_difflib
     return best_candidate
 
+def verif(id):
+    val = input("\nValider les données entrées ? [y]/n\t")
+    if val == "n":
+        extract(id)
+
+
+def encode_air(id_work):
+    dossier_id = f"{dossier}/{id_work}"
+    doc_sortie = f"{dossier_id}/{id_work}_airs-encodes.xml"
+    doc_air = f"{dossier_id}/{str(id_work)}_airs.csv"
+    docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") \
+        if not os.path.basename(file).endswith("_characters.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr.txt")]
+    for doc_entree in docs_txt: 
+        with open(doc_entree, "r", encoding="utf8") as f1,\
+            open(doc_air, "r", encoding="utf-8") as f2,\
+            open(doc_sortie, "w", encoding="utf-8") as f3:
+            airs = []
+            f3.write(f'''<?xml version='1.0' encoding='UTF-8'?>\n<text>\n<body>\n''')
+            for line in f2:
+                l = line.rstrip()
+                colonne = l.split(";")
+                if "=" in colonne[2]:
+                    airs.append(colonne[2].split("=")[1])
+                else:
+                    airs.append(colonne[2])
+            for line in f1:
+                l = line.rstrip().strip()
+                if l in airs:
+                    f3.write(f'''<stage type="tune">{l}</stage>''')
+                else: f3.write(f"{l}\n")
+            f3.write(f'''\n</body>\n</text>''')
+
+
 
 def eval(id_work):
-    docs_xml = glob.glob(f"{dossier}/{id_work}/*.xml")
+    dossier_id = f"{dossier}/{id_work}"
+    docs_xml = [file for file in glob.glob(f"{dossier_id}/*.xml") \
+        if not os.path.basename(file).endswith("_airs-encodes.xml")]
     for doc_xml in docs_xml:
-        with open(f"{dossier}/{str(id_work)}/{str(id_work)}_airs.csv" , "r", encoding="utf8") as f,\
+        with open(f"{dossier_id}/{str(id_work)}_airs.csv" , "r", encoding="utf8") as f,\
             open(f"{doc_xml}", "r", encoding="utf8") as g,\
-            open(f"{dossier}/{str(id_work)}/{str(id_work)}_stats.csv" , "w", encoding="utf8") as h,\
+            open(f"{dossier_id}/{str(id_work)}_stats.csv" , "w", encoding="utf8") as h,\
             open(f"stats.csv" , "a", encoding="utf8") as i:
             all = 0
             true_candidates = []
@@ -141,13 +177,14 @@ def eval(id_work):
                     if "=" in ocrAir:
                         true_candidates.append(ocrAir.split("=")[1])
                     else:
-                        true_candidates.append(ocrAir)
-            #print(true_candidates)            
+                        true_candidates.append(ocrAir)           
             precision = len(true_candidates)/all
             soup = BeautifulSoup(g, 'xml')
-            true_airs = [t.get_text() for t in soup.find_all("stage", type="tune") if not re.fullmatch(r"(\n|\s*)", t.get_text())]
-            #print(true_airs)            
+            true_airs = [t.get_text() for t in soup.find_all("stage", type="tune")  ] 
+            true_airs_id = [t.get("id") for t in soup.find_all("stage", type="tune") if t.get("id") != None ]    
             rappel = len(true_candidates)/len(true_airs)
+            if rappel > 1.00:
+                rappel = 1.00
             f1 = (2 * ((precision*rappel) / (precision+rappel)))
             h.write(f"Airs candidats: {all}\
                 \nAirs manuellement filtrés : {len(true_candidates)}\
@@ -156,9 +193,7 @@ def eval(id_work):
                 \nRappel: {rappel:.2f}\
                 \nMesure-F1: {f1:.2f}")
             airs_supplementaires = []
-            airs_valides = [process.extractOne(candidat, true_airs)[0]  if process.extractOne(candidat, true_airs)[1] >= 90 else airs_supplementaires.append(candidat) for candidat in true_candidates]
-            #airs_valides = [difflib.get_close_matches(candidat, true_airs, n=1, cutoff=0.9)[0] if difflib.get_close_matches(candidat, true_airs, n=1, cutoff=0.9) else airs_supplementaires.append(candidat)for candidat in true_candidates ]
-            #print(airs_valides)            
+            airs_valides = [process.extractOne(candidat, true_airs)[0]  if process.extractOne(candidat, true_airs)[1] >= 90 or candidat in true_airs_id else airs_supplementaires.append(candidat) for candidat in true_candidates]            
             for air in true_airs:
                 if air not in airs_valides:
                     print("Non attrapé:" + air)
@@ -167,7 +202,13 @@ def eval(id_work):
                 print("Supplémentaire:" + air)
                 h.write(f"\nSupplémentaire: {air}")
             i.write(f"\n{id_work};{precision:.2f};{rappel:.2f};{f1:.2f}")
-
+            h.write(f"\n\n***Airs du xml***:\n" + chr(10).join(true_airs) + chr(10).join(true_airs_id) )
+            h.write(f"\n\n***Airs identifiés dans le txt***:\n" + chr(10).join(true_candidates))
+            h.write(f"\n\n***Airs du txt validés dans le xml***:\n")
+            for a in airs_valides:
+                if a != None:
+                    h.write(a + "\n")
+                            
 def totaux():
     with open(f"stats.csv" , "r", encoding="utf8") as i:
         i.readline()
@@ -186,8 +227,6 @@ def totaux():
                 \nRappel: {tot_r/line_count:.2f}\
                 \nMesure-F1: {tot_f/line_count:.2f}"
         
-        
-
 if __name__ == '__main__':
     args = parser.parse_args()
     id = args.id_work
@@ -196,8 +235,4 @@ if __name__ == '__main__':
         extract(id)
     if args.mode == "eval":
         eval(id)
-        print(totaux())
-    #id1 = "91"
-    #extract(id1)
-
-    
+        #print(totaux())
