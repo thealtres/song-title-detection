@@ -141,21 +141,24 @@ def encode_air(id_work):
             open(doc_air, "r", encoding="utf-8") as f2,\
             open(doc_sortie, "w", encoding="utf-8") as f3:
             airs = []
-            f3.write(f'''<?xml version='1.0' encoding='UTF-8'?>\n<text>\n<body>\n''')
+            airs_id = []
             for line in f2:
-                l = line.rstrip()
-                colonne = l.split(";")
+                colonne = line.rstrip().split(";")
                 if "=" in colonne[2]:
-                    airs.append(colonne[2].split("=")[1])
+                    airs_id.append(colonne[2].split("=")[1])
                 else:
                     airs.append(colonne[2])
+            f3.write(f'''<?xml version='1.0' encoding='UTF-8'?>''')
+            f3.write('''\n<text>\n\t<body>\n''')
             for line in f1:
-                l = line.rstrip().strip()
-                if l in airs:
-                    f3.write(f'''<stage type="tune">{l}</stage>''')
-                else: f3.write(f"{l}\n")
-            f3.write(f'''\n</body>\n</text>''')
-
+                line = line.rstrip()
+                if line in airs:
+                    f3.write(f'''<stage type="tune">{line}</stage>\n''')
+                elif line in airs_id:
+                    f3.write(f'''<stage type="tune" id="{line}"></stage>\n\t<l>{line}</l>\n''')
+                else:
+                    f3.write(str(line) + "\n")
+            f3.write(''''\n\t</body>\n</text>''')
 
 
 def eval(id_work):
