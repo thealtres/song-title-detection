@@ -9,8 +9,6 @@
     characters_sheet : path linking to the csv containing all the characters annotated manually
     """
 
-dossier = "corpus"
+dossier = "../corpus-items"
 airs_ref = "liste_des_noms_d-airs_standards.txt"
 characters_sheet = f"annotations_fr-characters.csv"
-
-

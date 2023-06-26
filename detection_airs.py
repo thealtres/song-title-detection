@@ -50,9 +50,9 @@ def extract(id_work):
     """Produces a list containing idWork;idAir;ocrAir;ocrLine;suggestedTitle;isair
     written in a idWork_airs.txt doc in corresponding directory"""
     dossier_id = f"{dossier}/{id_work}"
-    #selects all text document in the directory except for id_work_characters and the original ocr:
+    #select the txt file in the directory:
     docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") \
-        if not os.path.basename(file).endswith("_characters.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr.txt")]
+        if not os.path.basename(file).endswith("_characters.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr_no-layout.txt")]
     for doc_entree in docs_txt:
         with open(doc_entree, "r", encoding="utf8") as f:
             res = []
@@ -88,7 +88,7 @@ def extract(id_work):
         for ligne in res:
             g.write(ligne + "\n")
     #encoding of the element <stage type="tune"> from the selected candidates.
-    #encode_air(id_work)
+    encode_air(id_work)
     #possibility to restart the selection process:
     verif(id_work)       
             
@@ -99,7 +99,7 @@ def isair(chaine, ligne):
     input [n] pour non
     """
     yn = input(f'''"{chaine}":{ligne}:      ''')
-    if yn == 'n':
+    if yn == ';':
         return chaine, "0"
     else:
         return chaine, "1"
@@ -110,11 +110,11 @@ def cherche_titre(chaine, id_work):
     Exclusion d'une ligne vide, d'une didascalie ou d'un nom de personnage
     """
     #withdrawing the character list for the evaluation of the program on corpus-test:
-    #with open(f"{dossier}/{id_work}/{id_work}_characters.txt", "r", encoding="utf8") as f:
-        #character_list = [ line.rstrip() for line in f ]
-        #for c in character_list:
-            #if re.search(c, chaine):
-                #return False
+    with open(f"{dossier}/{id_work}/{id_work}_characters.txt", "r", encoding="utf8") as f:
+        character_list = [ line.rstrip() for line in f ]
+        for c in character_list:
+            if re.search(c, chaine):
+                return False
     if re.fullmatch(r"(\n|\s+)", chaine):
         return False
     if stage_directions.search(chaine):
@@ -148,7 +148,7 @@ def encode_air(id_work):
     doc_sortie = f"{dossier_id}/{id_work}_airs-encodes.xml"
     doc_air = f"{dossier_id}/{str(id_work)}_airs.csv"
     docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") \
-        if not os.path.basename(file).endswith("_characters.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr.txt")]
+        if not os.path.basename(file).endswith("_characters.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr_no-layout.txt")]
     for doc_entree in docs_txt: 
         with open(doc_entree, "r", encoding="utf8") as f1,\
             open(doc_air, "r", encoding="utf-8") as f2,\
@@ -250,9 +250,9 @@ def totaux():
 if __name__ == '__main__':
     args = parser.parse_args()
     id = args.id_work
-    #character_list_regex.dramatis_personae(id)
     if args.mode == "extract":
-        extract(id)
+        character_list_regex.dramatis_personae(id)
+        #extract(id)
     if args.mode == "eval":
         eval(id)
         #print(totaux())
