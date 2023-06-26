@@ -1,0 +1,3575 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LA FOIRE AUX PLACES</title>
+                <title type="sub">COMÉDIE-VAUDEVILLE EN UN ACTE</title>
+                <author key="BYD" sort="1">
+                    <name>
+                        <forename>Jean-François-Alfred</forename>
+                        <surname>Bayard</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                 <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LA FOIRE AUX PLACES</title>
+                        <author>BAYARD</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=0DRMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102E78EE</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-09-25">25 SEPTEMBRE 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DU VAUDEVILLE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés
+                    pour le traitement automatique des formes et structures métriques.
+                </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                 <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+           LA
+            
+                        FOIRE AUX PLACES, 
+                        COMÉDIE — VAUDEVILLE EN UN ACTE, 
+                        PAR M. BAYARD, 
+            
+                        REPRÉSENTÉE, POUR LA PREMIÈRE FOIS, A PARIS, 
+                        SUR LE THEATRE DU VAUDEVILLE, 
+                        LE 25 SEPTEMBRE 1830. 
+            
+            
+                        PARIS. 
+                        BEZOU, LIBRAIRE, 
+                        BOULEVARD SAINT – MARTIN, Nº. 29, 
+                        Vis – à – vis le nouveau théâtre de l'Ambigu – Comique. 
+            
+                        1830. 
+            
+            
+                        PERSONNAGES. 					ACTEURS. 
+            
+            
+            
+                        M. DARRAINE, ancien chef de division		M. DEROUVÈRE, 
+                        M, DÉGOURDIS, solliciteur			M. BERNARD – Léon. 
+                        NOIROT, chef de division			M. LEPEINTRE, jeune. 
+                        DESRUBANS, grand seigneur 			M. EMILIEN. 
+                        BROSSET, ouvrier				M. ARNAL. 
+                        ROBERT, garçon de bureau			M. ARMAND. 
+                        PERROCHEL, solliciteur				M. HYPPOLITE 					KNIFF, suisse
+                        Mme RÓBERT, vieille femme 			} M. LEPEINTRE, aîné. 
+                        Mme DARMAIN, grande dame			Mlle WILLMEN. 
+                        JOSÉPHINE, jeune ouvrière, en
+                        blanc, rubans noirs				Mlle ARMANTINE. 
+                        SOLLICITEURS. 
+            
+            
+            
+            
+            
+                        La Scène se passe à Paris. 
+            
+            
+            
+            
+                        LA
+            
+                        FOIRE AUX PLACES, 
+            
+                        COMÉDIE – VAUDEVILLE EN UN ACTE. 
+            
+                        Le Théâtre représente une antichambre ouverte des deux côtés. 
+            
+                        – Au fond une porte. – Une autre à droite, sur laquelle sont écrits ces mots : Secrétaire général. 
+            
+            
+            
+            
+                        SCÈNE PREMIÈRE. 
+            
+                        SOLLICITEURS, pressés à une porte de droite, et ensuite PERROCHEL, ROBERT. 
+            
+            
+            
+            
+            
+            
+                        <div type="poem">
+                            
+                            <stage type="tune" id="AIR : Qu'on nous place."></stage>
+                            
+                            <lg>
+                            
+                                CHŒUR DE SOLLICITEURS. 
+                            
+            
+                            
+                                <l>Qu'on nous place, <stage type="repetition"> (bis.)</stage></l>
+                                <l>Et que justice se fasse ;</l>
+                                <l>Qu'on nous place</l>
+                                <l>Tous en masse !</l>
+                                <l>Que les placés</l>
+                                <l>Soient chassés.</l>
+                            
+            
+                            
+                                PREMIER SOLLICITEUR. 
+                            
+            
+                           
+                                <l>Je dois être un des élus,</l>
+                                <l>Je suis ami de la femme</l>
+                                <l>D'un libéral qui réclame</l>
+                                <l>L'héritage des ventrus.</l>
+            
+            
+                                
+                                    DEUXIÈME SOLLICITEUR. 
+                                
+            
+                                <l>Je suis fils d'un doctrinaire.</l>
+            
+                                
+                                    TROISIÈME SOLLICITEUR. 
+                                
+            
+                                <l>Moi, favori d'un banquier.</l>
+            
+                                
+                                    QUATRIÈME SOLLICITEUR. 
+                                
+            
+                                <l>Un Monsieur du ministère</l>
+                                <l>Est parrain de mon dernier.</l>
+                            
+                            
+                            
+                                CHŒUR. 
+                            
+                            
+                                <l ana="unanalyzable">Qu'on nous place,</l>
+                                <l ana="unanalyzable">Etc., etc.</l>
+                            
+                            
+                            
+                                PERROCHEL
+                            
+            
+                            
+, se glissant. 
+                            
+            
+            
+                            
+                                <l>J'aimais l'empereur jadis,</l>
+                                <l>Sans qu'il m'ait rien voulu faire,</l>
+                                <l>Et, sans toucher de salaire,</l>
+                                <l>J'adorais Charles et Louis.</l>
+                                <l>La liberté vient… J'essaie</l>
+                                <l>D'être enfin moins malheureux…</l>
+                                <l>Il est juste qu'elle paie</l>
+                                <l>L'amour que j'avais pour eux.</l>
+                            
+            
+                            
+                                CHŒUR. 
+                            
+                            
+                                <l ana="unanalyzable">Qu'on nous place,</l>
+                                <l ana="unanalyzable">Etc, etc.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+                        ROBERT, entrant. 
+            
+                        Silence donc ! … On ne doit pas s'entendre dans le cabinet du secrétaire général, ni dans celui du
+            
+                        ministre, qui est un peu plus loin. 
+            
+                        (La porte du secrétaire s'ouvre, on entre – Perrochel veut entrer, on ferme la porte.)
+            
+                        PERROCHEL. 
+            
+                        Mais, M. le garçon de bureau, est – ce que je n'entrerai pas ? 
+            
+                        ROBERT. 
+            
+                        Monsieur, avec des titres on arrive toujours. 
+            
+                        PERROCHEL. 
+            
+                        Des titres… des titres… Quand on n'en a pas…
+            
+                        SCENE II. 
+            
+                        ROBERT, DARRAINE, PERROCHEL, SOLLICITEURS. 
+            
+                        DARRAINE. 
+            
+                        Ah ! mon dieu ! quelle cohue ! 
+            
+                        ROBERT. 
+                        Eh ! M. Darraine ! notre ancien chef de division ! …
+            
+                        Quel bonheur de vous revoir ! 
+            
+                        DARRAINE. 
+            
+                        Bonjour, Robert, bonjour… Le ministre est – il arrivé ? 
+            
+                        ROBERT. 
+            
+                        Pas encore, Monsieur ; mais si vous voulez l'attendre…
+            
+                        Vous paraissez fatigué…
+            
+                        (Il lui offre une chaise.)
+            
+                        DARRAINE. 
+            
+                        Merci, merci… C'est que j'ai eu toutes les peines du monde à pénétrer jusqu'ici ! … Il paraît que les
+            
+                        solliciteurs ne manquent pas. : 
+            
+                        ROBERT. 
+            
+                        Comme vous voyez… depuis un mois cela dare… et
+            
+                        loin de diminuer, la foule augmente tous les jours…
+            
+                        A tous les ministères, c'est de niême… Chacun vient y
+            
+                        parler de ses droits, des services qu'il a rendus, de son
+            
+                        dévouement à la bonne cause. 
+            
+                        DARRAINE. 
+            
+                        Oui… il n'y a que le désintéressement dont on ne parle pas. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                ROBERT. 
+                            
+            
+                            
+                                Ah ! bien, oui ! c'est à qui se fera payer… ce qu'il n'a
+            
+                                pas fait… Il paraît qu'à la justice ce sont les avocats qui
+            
+                                se partagent le gâteau… A la marine et à l'extérieur, on
+            
+                                s'arrache les consulats et les ambassades… Les ambas
+            
+                                sades ça cloche… Aux finances, on ne fait pas grand'
+            
+                                chose ; on dort… Et à l'intérieur, c'est le
+            
+                                quartier – général… Il y pleut des commis, des préfets ! … mais des
+            
+                                sous – préfets…. Dieu ! y en a – t – il ! … tout le monde veut
+            
+                                en être : c'est une épidémie ! 
+                            
+            
+            
+            
+            
+                            <stage type="tune">
+                                Air du Charlatanisme. 
+                            </stage>
+            
+            
+                          
+                                <l>Puisque dans tout, en ce moment,</l>
+                                <l>On cherche de l'économie,</l>
+                                <l>Puisqu'il faut avoir du talent,</l>
+                                <l>Pour servir son roi, sa patrie…</l>
+                                <l>Les sous–préfets sont menacés ;</l>
+                            
+                            (6)
+                                <l>Car, depuis qu'on les nomme en masses,</l>
+                                <l>On voit, à ceux qui sont placés,</l>
+                                <l>Comme à ceux qui sont déplacés,</l>
+                                <l>Qu'on peut se passer de leurs places.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+                        LES SOLLICITEURS, dans le fond. 
+            
+                        Encore ! … On n'entre pas ! on n'entre pas ! 
+            
+                        ROBERT. 
+            
+                        Silence donc ! 
+            
+            
+                        PERROCHEL, descendant avec colère. 
+            
+                        Monsieur, je porterai plainte… Que diable ! on ne fait
+            
+                        pas attendre ainsi des citoyens qui se sont exposés à la
+            
+                        mitraille. 
+            
+                        DARRAINE. 
+            
+                        Eh ! mais, je ne me trompe pas… Monsieur…
+            
+                        PERROCHEL, avec embarras. 
+            
+                        Monsieur… permettez… je ne reconnais pas. : : 
+            
+                        DARRAINE. 
+            
+                        Comment ! vous ne reconnaissez pas votre compagnon
+            
+                        de voyage ? 
+            
+                        PERROCHEL. 
+            
+                        Ah ! Monsieur… j'ai bien l'honneur… (A part.) Que
+            
+                        le diable l'emporte ! … (Haut, remontant.) C'est à moi, 
+            
+                        à moi ? …
+            
+                        (Il entre chez le secrétaire, malgré la foule des sollici
+            
+                        Ah ! il sollicite ! 
+            
+                        teurs.)
+            
+                        DARRAINE. 
+            
+                        ROBERT. 
+            
+                        Mais vous, Monsieur, comment ne vous a – t – on pas revu
+            
+                        au ministère ? 
+            
+                        DARRAINE. 
+            
+                        Oh ! moi, j'ai appris les événemens à cinquante lieues
+            
+                        d'ici. 
+            
+                        ROBERT. 
+            
+                        Comment, Monsieur, vous n'étiez pas à Paris à la fin
+            
+                        de juillet. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                DARRAINE. 
+                            
+            
+            
+                            
+                                Non, mon ami ; et j'en suis désolé… mais je ne veux
+            
+                                pas avoir le travers à la mode. 
+            
+                                ! 
+                            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                Air de la Sentinelle. 
+                            </stage>
+            
+            
+                            
+                                <l>Nous avons trop de ces prudens guerriers</l>
+                                <l>Qui, sans péril, affrontent la mitraille,</l>
+                                <l>Et bravement se donnent des lauriers</l>
+                                <l>Le lendemain de la bataille.</l>
+                                <l>Dans son héroïque fureur,</l>
+                                <l>Le peuple a sauvé notre France !</l>
+                                <l>Qu'il en ait au moins tout l'honneur,</l>
+                                <l>Puisque, pour prix de sa valeur,</l>
+                                <l>Il n'a pas d'autre récompense.</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+                        Quant à moi, envoyé par la société Aide – toi, le ciel t'aidera… je jetais aussi sur ma route les
+            
+                        germes d'une glorieuse résistance à l'oppression. 
+            
+                        ROBERT. 
+            
+                        Ah ! ça, Monsieur on va sans doute vous rendre votre place. 
+            
+                        DARRAINE. 
+            
+                        Eh ! mon ami, il y en a tant qui l'ont mieux gagnée que moi ! 
+            
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                ROBERT. 
+                            
+            
+            
+                            <stage type="tune">
+                                AIR : Ces Postillons. 
+                            </stage>
+            
+            
+                            
+                                <l>Rassurez–vous, des places que l'on donne,</l>
+                                <l>Au Moniteur, consultez le tableau ;</l>
+                                <l>L'intrigue est là, c'est elle qui moissonne…</l>
+                                <l>Les droits n'sont rien, et dans plus d'un bureau,</l>
+                                <l>Dix–huit cent quinze est revenu sur l'eau ;</l>
+                                <l>Mais vous du moins, par vot' noble conduite,</l>
+                                <l>Par vot' disgrâc' vous fûtes éprouvé,</l>
+                                <l>R'prenez vot' plac', qu'ell' revienne au mérite,</l>
+                                <l>C'est toujours ça d'sauvé.</l>
+                            
+            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        Et puis, Monsieur, ça nous débarrasserait de ce gros escogriffe qui vous a remplacé… Ah ! quel
+            
+                        homme il nous prêchait comme un missionnaire ! il voulait faire de nous des congreganistes ! avec son
+            
+                        air calin, ses yeux baissés et sa voix traînante… Il ne parlait que du ciel, et ses bureaux
+            
+                        étaient un enfer. 
+            
+                        DARRAINE. 
+            
+                        Ah ! ça, mais aujourd'hui il doit être embarrassé…
+            
+                        Chut ! le voici. 
+            
+                        ROBERT. 
+            
+                        SCENE III. 
+            
+                        LES MÊMES, NOIROT, BROSSET, se tient dans lefond. 
+            
+                        NOIROT, son porte feuille sous le bras. 
+            
+                        Oui, mes amis, vive la liberté ! vive la charte ! … Ah ! Robert, pourquoi n'avez – vous pas les trois
+            
+                        couleurs à votre boutonnière ? 
+            
+                        ROBERT. 
+            
+                        Monsieur…
+            
+            
+                        NOIROT
+            
+                        Je veux que vous les ayiez… Je veux que dans mes bureaux tout le monde prenne part à notre grande
+            
+                        régénération… Et puis hier, qu'est – ce que j'ai entendu près de votre logement ? … des cris séditieux…
+            
+                        ROBERT. 
+            
+                        Comment, Monsieur ? … Ah ! oui, je sais, c'est une de mes tantes… une pauvre femme qui est devenue
+            
+                        folle, grâce aux canons, aux fusillades… et surtout à la Quotidienne, son journal favori… et le
+            
+                        vôtre…
+            
+                        DARRAINE. 
+            
+                        En vérité ! 
+            
+                        ROBERT. 
+            
+                        C'est au point que dans son délire, elle se croit aujourd'hui la Quotidienne elle – même. 
+            
+                        DARRAINE. 
+            
+                        La singulière folie ! 
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                NOIROT. 
+                            
+            
+            
+                            
+                                Que cela finisse… prenez – y garde. 
+                            
+            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                Air des Maris ont tort. 
+                            </stage>
+            
+            
+                           
+                                <l>Ici de la Quotidienne,</l>
+                                <l>Les discours seraient indécens.</l>
+            
+                                
+                                    DARRAINE. 
+                                
+            
+                                <l>Pour une âme comme la sienne,</l>
+                                <l>Voilà de bien beaux sentimens.</l>
+            
+                                
+                                    ROBERT
+                                
+            
+                                
+, à demi – voix. 
+                                
+            
+            
+                                <l>Oui… s'il nous reste encor long – temps,</l>
+                                <l>Il nous demandera, j'espère,</l>
+                                <l>Des billets d'civisme profond,</l>
+                                <l>Comme il nous demandait naguère</l>
+                                <l>Des billets de confession.</l>
+            
+                            
+            
+                        </lg> </div>
+            
+            
+                        SCÈNE IV. 
+            
+                        KNIFF, NOIROT, DARRAINE, ROBERT. 
+            
+                        KNIFF. 
+            
+                        Ah ! ah ! ah ! … Mon place ! 
+            
+                        NOIROT. 
+            
+                        Qu'est – ce que c'est que ça ? 
+            
+                        ROBERT
+            
+                        Eh ! mais… c'est Kniff… l'ancien suisse du ministère. 
+            
+                        NOIROT
+            
+                        Kniff ! je connais ce nom – là. 
+            
+                        KNIFF. 
+            
+                        Ya, Monsir Robert, c'être moi… un homme pien mal
+            
+                        heureux ! … che havre perdu mon place… et ce qui est
+            
+                        plus pire… che havré perdu mon traitement. 
+            
+                        DARRAINE. 
+            
+                        Ah ! mon dieu ! … est – ce que vous étiez soldat ? 
+            
+                        KNIFF. 
+            
+                        Non… che n'avré jamais porté un fusil… ché n'étais
+                        pas pour le bravoure… che être pour le bouteille. 
+            
+                        ROBERT
+            
+                        Lorsqu'il est sorti de l'hôtel, on l'avait placé à l'Opéra. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                KNIFF
+                            
+            
+                            
+, s'égayant un peu. 
+            
+                                Ya… pour promener mon individu dans les coulisses, 
+            
+                                au milieu des tanseuses… parce que les petits Messieurs
+            
+                                ils vonlaient venir leur parler… et mon consigne il me
+            
+                                défendait de laisser faire, à cause des mœurs. 
+                            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Comme il m'aimait ! 
+                            </stage>
+            
+            
+                           
+                                <l>Je voyais tout,</l>
+                                <l>Quand on sautait avec scandale,</l>
+                                <l>Je voyais tout,</l>
+                                <l>En sentinel' toujours debout.</l>
+                                <l>Quand ine amoureux immorale</l>
+                                <l>Prenait la taille d'in' vestale,</l>
+                                <l>Je voyais tout.</l>
+                            
+                            
+                                <l>Je voyais tout,</l>
+                                <l>Quant à l'orchestre on faisait signe,</l>
+                                <l>Je voyais tout,</l>
+                                <l>Le vicomte y tenait beaucoup.</l>
+                                <l>Quand les jupons, fut – ce d'un' ligne,</l>
+                                <l>N'étaient pas selon la consigne,</l>
+                                <l>Je voyais tout.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+                        Aussi les temoiselles étaient en colère ; tarteiff ! … elles
+            
+                        me donnaient des coups de pied, en faisant des pattemens…
+            
+                        comme ça… je ne bougeais pas… c'être gentil… (Pleu
+            
+                        rant.) Ab ! ah !' ah ! mon place ! …
+            
+                        DARRAINE. 
+            
+                        C'est donc celle – là que vous avez perdue ? 
+            
+                        KNIFF. 
+            
+                        J'y être plus depuis long – temps… Je vicomte me trou
+            
+                        vait trop bel homme pour les coulisses ; il m'avré placé
+            
+                        dans une église pour être suisse…. avec un habit rouge, 
+            
+                        une épée, un pantoulière, et mon hallebarde à la main…
+            
+                        c'être pas si amosant que l'Opéra, à cause des sermons…
+            
+                        aussi, je bufais beaucoup, le timanche, pour étourdir mon
+            
+                        tête ; mais on m'a renvoyé depuis le petite révolution. 
+            
+                        DARRAINE. 
+            
+                        C'est que vous vous êtes mal moolré. 
+            
+                        KNIFF. 
+            
+                        Ché n'havré pas montré du tout ; j'havré brafement caché
+            
+                        moi dans le cave du vicaire. 
+            
+                        ROBERT. 
+            
+                        Pour goûter le vin ? 
+            
+                        KNIFF. 
+            
+                        Ya… pendant trois jours… j'avais peur, et je pufais…
+            
+                        et à chaque coup de canon, je pufais encore. 
+            
+                        DARRAINE. 
+            
+                        Enfin vous êtes sorti de là ? 
+            
+                        KNIFF. 
+            
+                        Non… on m'a tiré par les jambes… alors ché avré pris
+            
+                        ine grande cocarde, (Montrant Noirot.) comme ce Monsir ; 
+            
+                        ché havré crié : fife la liberté ! comme le vicaire… et le
+            
+                        vicaire il avré renvoyé moi de mon place… Ah ! ah ! 
+            
+                        NOIROT, à part. 
+                        Ịl a bien fait. 
+            
+                        DARRAINE. 
+            
+                        Et pourquoi ? 
+            
+                        KNIFF. 
+            
+                        Par pradence, à cause de la tournure et du petit accent…
+            
+                        pour l'acccent, je ne dis pas… ça ne change pas si vite que
+            
+                        les sentimens ; vrai… pour la tournure, c'est pas chuste ; 
+            
+                        ché avré ine tournure française, pour le grâce et le fifacíté…
+            
+                        voyez… (Il se retourne tout d'une pièce, et il marche.) Et
+            
+                        pour la légèreté donc… j'ai été suisse à l'Opéra. (Il saute. 
+            
+                        Pleurant.) Ah ! ah ! ah ! mon place. 
+            
+                        DARRAINE. 
+            
+                        Eh bien ! mon pauvre garçon, il faut retourner dans vos
+            
+                        montagnes. 
+            
+                        KNIFF. 
+            
+                        Pour boire du lait ! merci… heureusement une grante
+            
+                        Matame di faubourg Saint – Germain m'avre dit que je trou
+            
+                        verais ici un protectecteur…… qui être français comme
+            
+                        moi, ni plus ni moins. 
+            
+                        NOIROT, à part. 
+            
+                        Ah ! mon dieu ! 
+            
+                        DARRAINE. 
+            
+                        Et son nom ? 
+            
+                        KNIFF. 
+            
+                        Son nom, à lui… je savais bien ; mais dans mon déses
+            
+                        poir, je être entré tout – à – l'heure dans ine petite cabaret…
+            
+                        et le nom y être resté. 
+            
+                        NOIROT. 
+            
+                        C'est bien, c'est bien ; puisque vous ne savez à qui vous
+            
+                        adresser, sortez. 
+            
+                        KNIFF
+            
+                        Hélas ! Monsir, je demande qu'on rende mon place d'au
+            
+                        trefois à la porte. 
+            
+                        NOIROT. 
+            
+                        Un suisse au ministère ! … ça ne se peut pas. 
+            
+                        KNIFF. 
+            
+                        Mon grante Madame m'avre dit qu'il y en avait déjà…
+            
+                        j'effacerai in suisse sur la porte, 
+            
+                        je mettrai à la place : 
+            
+                        parlez au concierge… avec un petit drapeau tricolore. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                NOIROT. 
+                            
+            
+                            
+                                Bah ! si cela suffisait. 
+                            
+            
+            
+            
+            
+                            <stage type="tune" id="AIR : Pour garder son rang, son emploi.">
+                                AIR : 
+                            </stage>
+            
+            
+                           
+                                <l>Pour garder son rang, son emploi,</l>
+                                <l>On prendrait un autre langage,</l>
+                                <l part="I">Une autre enseigne.</l>
+            
+            
+                                
+                                    KNIFF. 
+                                
+            
+            
+                                <l part="F">Mais je croi</l>
+                                <l>Que dans les bureaux c'est l'usage.</l>
+                                <l>Pour être importans,</l>
+                                <l>Je vois bien des gens</l>
+                                <l>Qui n'en ont pas fait davantage.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+                        C'est comme les excellences, qu'on appelle monsir le mi
+            
+                        nistre… on m'appellera monsir le concierge. 
+            
+                        DARRAINE. 
+            
+                        C'est vrai, mon garçon ; mais ces places – là, sans doute, 
+            
+                        on les donnera à de pauvres français. 
+            
+                        NOIROT. 
+            
+                        Certainement…… Sortez d'ici, il n'y a plus rien pour
+            
+                        vous en France. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                KNIFF. 
+                            
+            
+            
+                            
+                                Pas possible. 
+                            
+            
+            
+            
+            
+            
+                            <stage type="tune" id="AIR : Juge éclairé de nos services.">
+                                AIR : 
+                            </stage>
+            
+            
+                            
+                                <l>Juge éclairé de nos services,</l>
+                                <l>L'autre gouvernement prenait</l>
+                                <l>D'excellens Français chez les Suisses,</l>
+                                <l>Un pair de Franc' nous le disait.</l>
+                                <l>Mais on nous met sous la remise…</l>
+                                <l>Que deviendrons–nous désormais,</l>
+                                <l>Si pour les port's et pour l'église</l>
+                                <l>On prend les Suiss's chez les Français.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+                        Ça sera pas comme ça… je me plaindrai… adieu… Je re
+            
+                        tourne moi au cabaret, pour chercher ce nom que j'y avais
+            
+                        perdu ; voyez la tournure. 
+            
+                        (Il se retourne, et sort tout d'une pièce.)
+            
+                        NOIROT. 
+            
+                        Défendez, à la porte, qu'on laisse rentrer cet homme là
+            
+                        dans les bureaux. 
+            
+                        KNIFF, revenant, 
+            
+                        Ah ! cet protecteur, qui être français comme in Suisse, 
+            
+                        je me rappelle… c'est monsir Noirot ! 
+            
+                        DARRAINE. 
+            
+                        Comment ! c'est Monsieur ! 
+            
+                        (Robert se met à rire.)
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                NOIROT. 
+                            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR du Maçon. 
+                            </stage>
+            
+            
+                           
+                                <l>Sortez, sortez d'ici !</l>
+                                <l>N'espérez pas trouver celui</l>
+                                <l>Qu'on ose désigner ainsi !</l>
+                                <l>Gardez–vous, en ces lieux,</l>
+                                <l>De vous montrer devant mes yeux.</l>
+                                <l>Oui, partez, je le veux.</l>
+            
+            
+                                
+                                    ENSEMBLE. 
+                                
+            
+            
+                                
+                                    NOIROT. 
+                                
+            
+                                <l ana="unanalyzable">Sortez, sortez d'ici, etc.</l>
+                            
+            
+                            
+                                KNIFF. 
+                            
+            
+                            
+                                <l>Monsir Noirot, c'est lui</l>
+                                <l>Qui doit me protéger ici ;</l>
+                                <l>Des Suisses c'est le bon ami ;</l>
+                                <l>Il entendra mes vœux !</l>
+                                <l>Dites : Où trouver en ces lieux</l>
+                                <l>Cet homme généreux ?</l>
+                            
+            
+                            
+                                DARRAINE et ROBERT. 
+                            
+            
+                           
+                                <l>Eh ! quoi, c'était donc lui ?</l>
+                                <l>Cet homme si sévère ici,</l>
+                                <l>Qu'ou voulait désigner ainsi ?</l>
+                                <l>Il est bien malheureux,</l>
+                                <l>Que les Suisses seuls, en ces lieux,</l>
+                                <l>Le trouvent généreux.</l>
+                            
+            
+                        </lg> </div>
+            
+                        (Kniff sort.)
+            
+            
+            
+            
+            
+            
+                        SCÈNE V. 
+            
+                        DARRAINE, ROBERT, BROSSET, SOLLICITEURS, 
+                        PERROCHEL. 
+            
+                        BROSSET. 
+            
+                        Eh ! ne criez donc pas si fort. 
+            
+                        PERROCHEL, le retenant. 
+            
+                        On n'entre pas. 
+            
+                        BROSSET. 
+            
+                        Qu'est – ce qu'il a donc, ce gros là ? ne dirait – on pas qu'on
+            
+                        lui a pris la couronne de France ? … Ils sont là une cen
+            
+                        taine de fainéans qui crient contre moi, parce que j'entre
+            
+                        tout de suite. 
+            
+                        ROBERT. 
+            
+                        Et en effet, il fallait attendre votre tour. 
+            
+                        BROSSET. 
+            
+                        Il fallait attendre ! il est bon là, lui… quand on n'a rien
+            
+                        à faire, je ne dis pas. 
+            
+                        DARRAINE. 
+            
+                        Qui êtes – vous, mon ami ? 
+            
+                        BROSSET. 
+            
+                        Cyprien Brosset, noť bourgeois ; onvrier ébéniste poor
+            
+                        vous servir. 
+            
+                        ROBERT. 
+            
+                        Vous n'êtes donc pas un solliciteur ? 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                BROSSET. 
+                            
+            
+            
+                            
+                                Non, ce n'est pas mon état, diea merci ; c'est bon pour
+            
+                                eux, de se traîner dans l'antichambre. 
+                            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Je n'ai pas le sou. 
+                            </stage>
+            
+            
+                           
+                                <l>Je n' suis rien,</l>
+                                <l>Je n' veux rien,</l>
+                                <l>J'ai des bras et du courage ;</l>
+                                <l>Je n' suis rien,</l>
+                                <l>Je n' veux rien,</l>
+                                <l>Mon ouvrage</l>
+                                <l>Voilà mon bien !</l>
+                                <l>Je m' suis battu ;</l>
+                                <l>J' n'ai rien pris, j' n'ai rien r'çu.</l>
+                                <l>Au feu, soldat,</l>
+                                <l>Ouvrier après l' combat.</l>
+                                <l>Quand chacun pour s' fair' payer,</l>
+                                <l>Vient crier, prier, piller,</l>
+                                <l>Moi je r'tourn' travailler…</l>
+                                <l>Je n' sais pas mendier !</l>
+                            
+                            
+                            
+                                <l>J'en vois là qui, dans l'orage,</l>
+                                <l>Faisaient le plongeon sous l'eau,</l>
+                                <l>Et qui s' trouv'nt des gens d'courage,</l>
+                                <l>Depuis qu'le temps est au beau,</l>
+                                <l>Les v'là revenus sur l'eau.</l>
+                            
+            
+            
+            
+            
+            
+                            
+                                (Parlant.) Mon ministre, je me suis bien montré… Mon
+            
+                                ministre, une place, une pension pour ma peine… Fei
+            
+                                gnans ! … Mais toi, mon garçon ? … Moi ! 
+                            
+            
+            
+            
+                            
+                                <l>Je n' suis rien,</l>
+                                <l>Je n' veux rien,</l>
+                                <l>J'ai des bras et du courage ;</l>
+                                <l>Je n' suis rien,</l>
+                                <l>Je n' veux rien,</l>
+                                <l>Mon ouvrage</l>
+                                <l>Voilà mon bien !</l>
+                                <l>Mon pèr', jadis,</l>
+                                <l>Comm' moi servait son pays ;</l>
+                                <l>C' qu'il fit, j' l'ai fait,</l>
+                                <l>Avec le sang ça s' transmet ;</l>
+                                <l>Si je m' donne un héritier,</l>
+                                <l>Comm' nous, soldat – ouvrier,</l>
+                                <l>Il saura travailler ;</l>
+                                <l>Mais jamais mendier !</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        (Tous les solliciteurs sortent et se promènent au fond.)
+            
+                        PERROCHEL, à part. 
+            
+                        Le manant ! 
+            
+                        DARRAINE. 
+            
+                        Mais quand on a servi son pays…
+            
+                        BROSSET. 
+            
+                        Tiens, est – ce que je ne l'ai pas servi ? j'ai été trois jours
+            
+                        an feu… à telle enseigne que j'ai planté le premier dra
+            
+                        peav… un tricolore que mon père avait conservé. 
+            
+                        DARRAINE. 
+            
+                        Comment ? 
+            
+                        BROSSET. 
+            
+                        Oui ; mon père, un ancien guernadier… de l'île d'Elbe…
+            
+                        que les blancs ont fait mourir de chagrin… Brave homme ! 
+            
+                        il n'était plus là, pour les voir filer ; ça lui aurait fait da
+            
+                        bien. 
+            
+                        DARRAINE. 
+            
+                        Si vous avez droit à quelque récompense…
+            
+                        BROSSET. 
+            
+                        Moi, je ne demande rien. 
+            
+                        PERROCHEL. 
+            
+                        Est – il bête ! 
+            
+                        (Il remonte, et reste dans le fond.)
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                BROSSET. 
+                            
+            
+                            
+                                Nous sommes dix mille ouvriers comme ça ; nous avons
+            
+                                fait notre devoir…… nous avons chassé les autres ; et en
+            
+                                suite nous sommes retournés chez nous, à nos ateliers, 
+            
+                                laissant les places à ceux qui en vivent, les secours à nos
+            
+                                pauvres blessés, et ne demandant pour nous que deux pe
+            
+                                tites choses : c'est qu'on nous donne de l'ouvrage, et que le
+            
+                                vin soit moins cher, voilà tout. Je sais bien qu'on parle de
+            
+                                bruits, de rassemblemens ; des feigoans… des têteschaudes ; 
+            
+                                mais la masse est bonne. 
+                            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Je n'ai point vu ces bosquets de lauriers. 
+                            </stage>
+            
+            
+                          
+                                <l>Le peuple entier retourne à ses travaux,</l>
+                                <l>Aux méchans seuls sa puissance est fatale ;</l>
+                                <l>Amis constans des lois et du repos,</l>
+                                <l>Nous ne voulons ni trouble ni scandale.</l>
+                                <l>Par le désordre, ah ! bien loin d'affaiblir</l>
+                                <l>La liberté que nous savons comprendre,</l>
+                                <l>Si parmi nous on voulait la flétrir,</l>
+                                <l>Nous étions là tous pour la conquérir,</l>
+                                <l>Nous serions là pour la défendre.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        DARRAINE. 
+            
+                        Mon ami, vous êtes un brave garçon et je serais heu
+            
+                        réux de faire quelque chose pour vous
+            
+                        BROSSET. 
+            
+                        Tiens, pourquoi pas ; vous m'avez l'air d'un bon enfant, 
+            
+                        tout de même. Vous êtes de la maison ? 
+            
+                        DARRAINE. 
+            
+                        Mais à – peu – près. 
+            
+                        BROSSET. 
+            
+                        En ce cas, je vais vous dire pourquoi je viens ici, et, si
+            
+                        ça se peut, vous me donnerez un coup d'épaule. D'abord
+            
+                        c'est pas pour moi, c'est pour Joséphine Dubois… une
+            
+                        pauvre fille, orpheline depuis le 29 juillet. 
+            
+                        DARRAINE. 
+            
+                        Eh quoi ! son père…
+            
+                        BROSSET. 
+            
+                        Oui, Monsieur, il est au Louvre ; … c'est là qu'il se bat
+            
+                        tait comme un démon, quand une balle l'a frappé… tout
+            
+                        près de moi ; heureusement, ça ne venait pas d'an français, 
+            
+                        mais d'un habit rouge. 
+            
+                        DARRAINE. 
+            
+                        Elle a droit à une pension…. 
+            
+                        BROSSET. 
+            
+                        Monsieur, Joséphine a d'autres droits. (Lui montrant un
+            
+                        journal.) Voilà un journal qu'on l'y a donné… pour dix sous, 
+            
+                        c'est le Temps, un des bons ; il y a là un article… tenez…
+            
+                        Trait de brayoure.,. là… vous y êtes. 
+            
+                        DARRAINE. 
+            
+                        Eh bien ? 
+            
+                        BROSSET. 
+            
+                        Eh bien ! ça la concerne… c'est – à – dire, son père. ('Morų
+            
+                        vement de Darraine.) Hem ! quel courage ! Ah ! c'était un
+            
+                        homme, celui – là… prendre un canon tout chargé ! On de
+            
+                        maude que l'héros se fasse connaître, et c'est pour ça que
+            
+                        je viens ici, moi, l'ami du père Dubois ; moi, que Josephine
+            
+                        regarde encore comme…
+            
+                        DARRAINE. 
+            
+                        Comme son père ? 
+            
+            
+                        BROSSET. 
+            
+                        Ah ! quelle bêtise ! … mieux que ça, Monsieur ; le père
+            
+                        Dubois attendait pour me la donner, que j'eusse un état…
+            
+                        à présent, la voilà orpheline, elle refuse toujours ma main, 
+            
+                        par respect pour les idées de son père… mais je pensais
+            
+                        qu'avec les bonnes intentions du ministre… car il promet
+            
+                        beaucoup, et quand un ministre donne sa parole, ça doit
+            
+                        être solide, n'est – ce pas ? 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                DARRAINE
+                            
+            
+                            
+, souriant. 
+            
+                                La parole d'un ministre ! … ah ! je vous en réponds ! 
+                            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Il n'est pas temps de nous quitter. 
+                            </stage>
+            
+            
+                          
+                                <l>Chaque ministre, en arrivant,</l>
+                                <l>Promet du bonheur et des grâces ;</l>
+                                <l>Il promet que dorénavant</l>
+                                <l>Le seul mérite aura des places ;</l>
+                                <l>Il promet d'avoir des talens ;</l>
+                                <l>Il promet d'être sans faiblesses,</l>
+                                <l>Économe… et depuis vingt ans</l>
+                                <l>Ils ont tous tenus leurs promesses !</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        BROSSET. 
+                        Par exemple ! 
+            
+                        DARRAINE. 
+            
+                        Mais rassurez – vous, je tiens les miennes… et je ne sortirai
+            
+                        pas du ministère que vous n'ayez obtenu justice… Je veux
+            
+                        vous marier, moi. 
+            
+                        BROSSET. 
+            
+                        Je ne demande pas mieux, 
+            
+                        DARRAINE. 
+            
+                        Il faut d'abord rédiger un mot de demande, et puis en
+            
+                        suite vous m'amènerez mademoiselle Joséphine. 
+            
+                        BROSSET. 
+            
+                        Tout de suite, Mopsieur… C'est une bonne action que
+            
+                        vous allez faire, et ça vous portera bonheur. 
+            
+                        SCÈNE VI. 
+            
+                        LES MÊMES, ROBERT. 
+            
+                        ROBERT, entrant. 
+            
+                        Ab ! M. Darraine, le ministre est arrivé ; mais il n'y a
+            
+                        pas moyen d'approcher. 
+            
+                        DARRAINE. 
+            
+                        C'est bien, je le verrai… Eh ! mais quel bruit ! … Ah ! 
+            
+                        Robert, quelle est donc cette personne qu'on entoure ? 
+            
+                        ROBERT. 
+            
+                        C'est M. le secrétaire – général. 
+            
+                        DARRAINE. 
+            
+                        Eh non ! c'est une dame. 
+            
+                        ROBERT. 
+            
+                        Justement… son beau – frère en a le titre.,, un petit jeune
+            
+                        homme qu'on nous a donné provisoirement, mais c'est Ma
+            
+                        dame qui fait le travail. 
+            
+                        (Darraine et Brosset sortent.)
+            
+                        SCÈNE VII. 
+            
+                        Mme DARMAIN, DÉGOURDIS, ROBERT, plusieurs
+            
+                        personnes l'entourent, PERROCHEL. 
+            
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                CHŒUR. 
+                            
+            
+            
+                            <stage type="tune">
+                                AIR : Au lever de la mariée. 
+                            </stage>
+            
+            
+                            
+                                <l>Accourons tous sur ses traces !</l>
+                                <l>Son juste choix, parmi nous</l>
+                                <l>En distribuant les places,</l>
+                                <l>Ne fera point de jaloux.</l>
+                                <l>Toujours fidèles aux grâces,</l>
+                                <l>Accourons tous sur ses traces,</l>
+                                <l>Elle va nous placer tous.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        Mme DARMAIN. 
+            
+                        C'est bien, mes amis, c'est bien ; comptez sur moi…
+            
+                        je vous recommanderai, je vous placerai… Dieu qu'un
+            
+                        ministère est lourd ! Mon beau – frère est – il arrivé ? 
+            
+                        ROBERT. 
+            
+                        Oui, Madame ; mais son cabinet est encombré. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                Mme DARMAIN. 
+                            
+            
+            
+                            
+                                Je crois bien… Pauvre garçon ! il ne sait où donuer de
+            
+                                la tête ; heureusement j'en ai pour lui. (A Robert.) Tenez, 
+            
+                                Robert, on viendra chercher cette loge pour l'Opéra. (A
+            
+                                un jeune homme.) Jales, voilà des billets… de spectacle, 
+            
+                                de bal, de concert, vous les donnerez à ces Dames, à ces
+            
+                                Messieurs ; s'il n'y en a pas assez, on en signera. Voilà ce
+            
+                                que j'aime. (A in jeune homme.) Ah ! M. Dubreuil, j'ai
+            
+                                parlé de vous ; vous êtes un ami de non frère, un peu pa
+            
+                                rent du ministre… On vous casera, c'est convena. 
+                            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR de Marianne. 
+                            </stage>
+            
+            
+                          
+                                <l>Oui, nous suivons l'ancien système :</l>
+                                <l>Pour le bonheur de son pays,</l>
+                                <l>Un bon ministre doit… quand même,</l>
+                                <l>Placer ses proches, ses amis.</l>
+                                <l>Avec tendresse,</l>
+                                <l>Avec adresse,</l>
+                                <l>De ses parens garnissant les bureaux,</l>
+                                <l>Qu'il mette en place</l>
+                                <l>Toute sa race,</l>
+                                <l>Fils, petits–fils, gendres, collatéraux.</l>
+                                <l>Que le ministère en fourmille,</l>
+                                <l>Si bien qu'ils puissent, en ces lieux,</l>
+                                <l>Chanter : Où peut–on être mieux</l>
+                                <l>Qu'au sein de sa famille ?</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        Je vous choisirai quelque chose de bon… il doit en rester
+            
+                        encore. Eh ! M. Dégourdis, vous êtes douc des nôtres ? 
+            
+                        DÉGOURDIS. 
+            
+                        Oui, be… belle dame, je vous suis fi… fi… fidèle, 
+            
+                        et je vous demande votre pro… pro… tection. 
+            
+                        Mme DARMAIN. 
+            
+                        Mais op disait que vous étiez un de nos ennemis ? 
+            
+                        DÉGOURDIS. 
+            
+                        Que… quelle horrear ! … je vous appartiens, je… je
+            
+                        le jure. 
+            
+                        Mme DARMAIN. 
+            
+                        Oh ! du moment que vous le jurez, nous n'en demandons
+            
+                        pas davantage. Mais que voulez – vous ? 
+            
+                        DÉGOURDIS. 
+            
+                        Je voudrais une place de pro… cureur du roi… poar
+            
+                        l'éloquence et la facilité ; mais les avocats ont tout pris…
+            
+                        alors je viens ici réclamer une sinécure de quinze ou vingt
+            
+                        mille francs ; plutôt plus que moins. 
+            
+                        Mme DARMAIN. 
+            
+                        C'est la moindre chose… vous l'aurez. 
+            
+                        DÉGOURDIS. 
+            
+                        Et tout… tout – à – l'heure, je vous présenterai mes
+            
+                        amis. 
+            
+                        (Plusieurs personnes s'avancent près de madame Dar –, 
+            
+                        main.)
+            
+                        Mme DARMAIN. 
+            
+                        Encore des placets ! … c'est bien, donnez, donncz…
+            
+                        voyons… Un directeur de spectacle qui demande un titre
+            
+                        pour son théâtre ! … ça regarde le public. Un chansonnier
+            
+                        qui demande la croix d'honneur ! … le roi ne veut pas qu'on
+            
+                        les prodigue, c'est dommage. Un député qui exige des
+            
+                        places pour toute sa maison ! … c'est trop juste. Un auteur
+            
+                        indépendant qui nous prie de lui conserver la pension qu'il
+            
+                        a touchée sous tous les régimes… Un doctrinaire qui veut
+            
+                        une direction générale…, Un cuisinier ! … comment le
+            
+                        cuisinier du ministère qui veut conserver sa place… Mon
+            
+                        beau – frère le gardera. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                DÉGOURDIS. 
+                            
+            
+            
+                            
+                                Il fera bien… c'est moral. 
+                            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Ce luth galant. 
+                            </stage>
+            
+            
+                           
+                                <l>On veut à tort supprimer, de nos jours,</l>
+                                <l>Ces grands repas qui sont d'un grand secours.</l>
+                                <l>C'est par eux que souvent le zèle doit éclore !</l>
+                                <l>Quel que soit son drapeau, l'éloquence dévore :</l>
+                                <l>On dînait autrefois, on va dîner encore,</l>
+                                <l>On dînera toujours.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        ROBERT. 
+            
+                        Voulez – vous, Madame, que je vous débarrasse de ces pa
+            
+                        piers ? 
+            
+                        Mme DARMAIN. 
+            
+                        Non, j'y suis habituée ; depuis quinze jours, j'en apporte
+            
+                        autant toas les matins. Aussi, je puis dire hardiment que, 
+            
+                        dans ces graves circonstances, personne n'a rendu des ser
+            
+                        vices plus réels à l'état… J'ai fait vingt préfets, six con
+            
+                        seillers d'état, quatre maîtres des requétes, trois chefs de
+            
+                        division, trente commis, et cent trois sous – préfets. 
+            
+                        PERROCHEL, sur le côté. 
+            
+                        Ab ! l'honnête femme ! … si je pouvais me faufiler par
+            
+                        là…… 
+            
+                        Mme DARMAIN. 
+            
+                        Ce qui me chagrine, c'est que je reviens encore, sans
+            
+                        rapporter à mon frère les renseignemens que le ministre
+            
+                        Jui a demandés, sur un brave homme qui a fait des prodiges
+            
+                        de valeur près du Louvre. 
+            
+                        PERROCHEL. 
+            
+                        Ah ! mon dien ! 
+            
+                        ROBERT. 
+            
+                        Dam' ! il y en avait tant… le moyen de s'y reconnaître. 
+            
+                        Mme DARMAIN. 
+            
+                        Oui ; mais celui – ci s'est emparé d'un canon, au moment
+            
+                        où on allait y mettre le fea… et par là, il a sauvé la vie à
+            
+                        tous les braves qui l'entouraient. 
+            
+                        TOUS. 
+            
+                        C'est beau ! c'est superbe ! 
+            
+                        DÉGOURDIS. 
+            
+                        Si j'avais voulu, j'en aurais fait autant. 
+            
+                        Mme DARMAIN. 
+            
+                        Ah ! s'il se présentait, on n'aurait rien à lui refuser. 
+            
+                        PERROCHEL, à part. 
+            
+                        Oh ! la bonne occasion ! je m'y cramponnc. 
+            
+                        (On entend du bruit.)
+            
+                        Mme DARMAIN. 
+            
+                        Eh ! mais quel bruit ! … que se passe – t – il donc ? 
+            
+                        ROBERT. 
+            
+                        Ah ! Madame, ce sont deux ou trois nuées de provinciaux
+            
+                        qui viennent d'arriver… Des Bretons, des Normands, des
+            
+                        Picards, des Bourguignons, des Champenois, et surtout
+            
+                        des Gascons ! 
+            
+                        Mme DARMAIN. 
+            
+                        Des Gascons ! 
+            
+                        DÉGOURDIS, 
+            
+                        Comment ! il y en a encore ? 
+            
+                        ROBERT. 
+            
+                        Ils demandent des places… ils veulent entrer. 
+            
+                        Mme DARMAIN. 
+            
+                        Qu'ils attendent… Je passe chez mon frère. 
+            
+                        PERROCHEL, à part, 
+            
+                        Voilà le moment de me montrer. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                MAD. DARMAIN. 
+                            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                Air des Gascons. 
+                            </stage>
+            
+            
+                           
+                                <l>Mais plus tard ils seront admis ;</l>
+                                <l>Il faut qu'aujourd'hui je commence</l>
+                                <l>Par recommander mes amis…</l>
+                                <l>J'en ai bien assez à Paris.</l>
+                            
+            
+            
+            
+            
+                            
+                                (
+            
+                                On entend crier.)
+            
+                                ROBERT. 
+            
+                                Entendez – vous ! …
+                            
+            
+                            
+                                MAD. DARMAIN. 
+                            
+            
+                          
+                                <l>De la course ils ont le talent,</l>
+                                <l>En poste ils traversent la France ;</l>
+                                <l>Ils gagnent bien, en voyageant,</l>
+                                <l>Des places qu'ils auront, je pense.</l>
+            
+            
+                                
+                                    DÉGOURDIS. 
+                                
+            
+                                <l>Oui, des places en diligence.</l>
+            
+            
+                                
+                                    ENSEMBLE. 
+                                
+            
+            
+                                
+                                    MAR. DARMAIN. 
+                                
+             
+                                <l ana="unanalyzable">Oui, plus tard, etc.</l>
+                           
+                            
+                            
+                                TOUS EN CHŒUR. 
+                            
+            
+                            
+                                <l>Oui, plus tard ils seront admis ;</l>
+                                <l>Il faut qu'aujourd'hui l'on commence</l>
+                                <l>Par recommander ses amis…</l>
+                                <l>Vous en avez tant à Paris !</l>
+                         
+            
+                        </lg> </div>
+            
+            
+            
+                        (Tout le monde remonte avec Mad. Darmain – Perrochel
+            
+                        l'arrête. Elle redescend seule avec lui.)
+            
+                        SCENE VIII. 
+            
+                        Mme DARMAIN, PERROCHEL, 
+            
+                        Mme DARMAIN. 
+            
+                        Monsieur, pardon… je n'ai pas l'honneur…
+            
+                        PERROCHEL. 
+            
+                        De me reconnaître… c'est possible ; je suis un homme
+            
+                        obscur, et ce n'est pas dans des lieux comme celui – ci qu'on
+            
+                        a coutume de me rencontrer. 
+            
+                        Mme DARMAIN. 
+            
+                        C'est donc cela… Et en quoi puis – je vous être utile ? 
+            
+                        PERROCHEL. 
+            
+                        Mon dieu, Madawe… je ne sais comment vous dire…
+            
+                        je suis si modeste. 
+            
+                        Mme DARMAIN. 
+            
+                        Allons, mon ami, allons, rassurez – vous, un peu de cou
+            
+                        rage ; je vois que vous n'avez pas l'habitude de solliciter. 
+            
+                        PERROCHEL
+            
+                        Je ne fais que ça… je veux dire depuis hier… On m'a
+            
+                        forcé à me mettre sur les rangs, car moi je ne voulais pas ; 
+            
+                        je pense que, lorsqu'on a fait son devoir, on n'a pas besoin
+            
+                        d'autre récompense… et pour m'être battu pendant trois
+            
+                        jours…
+            
+                        Mme D'ARMAIN. 
+            
+                        Vous vous êtes exposé…
+            
+                        PERROCHEL. 
+            
+                        Si je me suis… Ah ! oni, Madame… et je puis dire
+            
+                        qu'il y en a peu qui se soient montrés comme. moi : j'ai tué
+            
+                        douze sicaires de ma propre main ; j'ai forcé un bataillon
+            
+                        à mettre bas les armes ; et je suis entré le premier aux Tui
+            
+                        leries. 
+            
+                        Mme DARMAIN. 
+            
+                        Ah ! … vous êtes le soixante – treizième qui réclamiez cet
+            
+                        honneur – là ? 
+            
+                        PERROCHEL. 
+            
+                        C'est possible… nous sommes entrés les premiers…
+            
+                        en masse ; mais moi, Madame, j'ai des preuves, des bles
+            
+                        sures…
+            
+                        Mme DARMAIN. 
+            
+                        Vous êtes blessé ! 
+            
+                        PERROCHEL. 
+            
+                        Ah ! grâce à des soins, il ne me reste plus qu'une dou
+            
+                        leur à la jambe. 
+            
+                        Mme DARMAIN. 
+            
+                        Laquelle ? 
+            
+                        PERROCHEL, embarrassé d'abord. 
+            
+                        Madame, la droite. (Riant.) C'est mon côté faible…, elle
+            
+                        a été froissée par cette maudite pièce de canon. 
+            
+                        Mme DARMAIN. 
+            
+                        Vous conduisiez une pièce de canon ? 
+            
+                        PERROCHEL. 
+            
+                        Mieux que
+            
+                        cela, Madame… Seul, sous le feu de la mi
+            
+                        traille, j'ai enlevé une pièce de huit à d'infâmes étran
+            
+                        gers. 
+            
+                        Mme DARMAIN. 
+            
+                        Aux suisses ? 
+            
+                        PERROCHEL. 
+            
+                        Au pied de la colonnade. 
+            
+                        Mme DARMAIN. 
+            
+                        Près du Louvre ? 
+            
+                        PERROCHEL. 
+            
+                        J'ai sauvé la vie à plus de cent personnes. 
+            
+                        Mme DARMAIN. 
+            
+                        Il se pourrait ! … Ah ! Monsieur, ne me trompez – vous
+            
+                        pas ? … Vous seriez ce brave…
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                PERROCHEL. 
+                            
+            
+            
+                            
+                                Je suis ce brave. 
+                            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Sans murmurer. 
+                            </stage>
+            
+            
+                           
+                                <l>Sans vanité</l>
+                                <l>J'ai fait, on peut m'en croire,</l>
+                                <l>Bien des exploits qui ne m'ont rien coûté.</l>
+                                <l>Quiconque a pris part à notre victoire,</l>
+                                <l>Autant que moi… peut parler de sa gloire,</l>
+                                <l>Sans vanité.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        Et il y a huit jours qu'on me laisse dans cette anticham
+            
+                        bre…… 
+            
+                        Mme DARMAIN. 
+            
+                        Vous ? 
+            
+                        PERROCHEL. 
+            
+                        Ce n'est pas pour nous, gens obscurs et modestes que
+            
+                        les portes sont ouvertes. Aussi, j'allais me retirer, quand
+            
+                        je vous ai entendue parler de moi. 
+            
+                        Mme DARMAIN. 
+            
+                        Nous en parlons souvent… Eh ! quoi… nous vous
+            
+                        cherchions… nous vous demandions partout… et vous
+            
+                        étiez là ! Quel bonheur de vous avoir trouvé, pour vous
+            
+                        présenter à mon frère, qui vous présentera au ministre…
+            
+                        il apprécie votre conduite héroïque… il en a été témoin. 
+            
+                        PERROCHEL. 
+            
+                        Ah ! diable ! 
+            
+                        Mme DARMAIN. 
+            
+                        Et mon frère, et le ministre qui me tronvent trop
+            
+                        légère… Cette fois, ils me rendront justice, et à vous
+            
+                        aussi. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                PERROCHEL
+                            
+            
+                            
+, à part. 
+            
+                                Dien ! quelle tête ! … me voilà lancé ! 
+                            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR du Triomphe de la Muette. 
+                            </stage>
+            
+            
+            
+                            
+                                ENSEMBLE. ⎨
+                            
+                           
+                                <l>Ah ! je me félicite</l>
+                                <l>D'avoir pris ce moyen ;</l>
+                                <l>À la fin mon mérite</l>
+                                <l>Trouve donc un soutien.</l>
+                                
+                            
+                                MAD. DARMAIN. 
+                                <l>Par sa noble conduite,</l>
+                                <l>Je serai son soutien,</l>
+                                <l>Et je veux que l'on cite</l>
+                                <l>Mon nom auprès du sien.</l>
+                            
+            
+                            
+                                PERROCHEL. 
+                            
+            
+                           
+                                <l>Ah ! quel bonheur pour notre France,</l>
+                                <l>Si, quand vous donnez un emploi,</l>
+                                <l>Les braves que l'on récompense,</l>
+                                <l>Le méritent autant que moi !</l>
+            
+            
+            
+            
+            
+            
+            
+                                
+                                    SCÈNE IX. 
+            
+                                    LES MÊMES, DÉGOURDIS, NOIROT, DESRUBANS. 
+            
+                                    DÉGOURDIS. 
+            
+                                    Madame, je viens vous pré… présenter mes amis. 
+            
+                                    Mme DARMAIN. 
+            
+                                    C'est bien, c'est bien… Soyez tranquilles, Mes
+            
+                                    sieurs, je penserai à vous… Mais vous m'excuserez… le
+            
+                                    ministré m'attend… je lui mène un des hommes qui ont
+            
+                                    le mieux mérité de la Érance et de moi. 
+            
+                                    TOUS. 
+            
+                                    Comment, Monsieur ? …
+            
+                                    PERROCHEL, saluant. 
+            
+                                    Messieurs…
+            
+            
+            
+            
+            
+            
+            
+            
+                                    REPRISE DU CHŒUR. 
+            
+                                    Ensemble. 
+                                
+                                
+                                    MAD. DARMAIN. 
+                                
+            
+                                <l ana="unanalyzable">Par sa noble conduite,</l>
+                                <l ana="unanalyzable">Etc., etc.</l>
+            
+                                PERROCHEL. 
+          
+                                <l ana="unanalyzable">Ah ! je me félicite,</l>
+                                <l ana="unanalyzable">Etc., etc.</l>
+                            
+            
+            
+            
+                            
+                                DÉGOURDIS, NOIROT et DESRUBANS. 
+                            
+            
+                           
+                                <l>Honneur au vrai mérite !</l>
+                                <l>Honneur au citoyen</l>
+                                <l>Dont la noble conduite</l>
+                                <l>Fut pour nous un soutien !</l>
+                            
+                        </lg> </div>
+                        (Perrochel entre chez le Secrétaire avec Mad. Darmain.)
+                        
+            
+            
+            
+                        SCENE X. 
+            
+                        NOIROT, DÉGOURDIS, DEŠRUBANS. 
+            
+                        NOIROT
+            
+                        Qu'est – ce que c'est que cet homme là ? 
+            
+                        DESRUBANS. 
+            
+                        Parblea ! quelqu'intriggant ! 
+            
+                        DÉGOURDIS. 
+            
+                        Qoi… qui vient nous souffler nos places. 
+            
+                        NOIROT. 
+            
+                        On ne voit que ça. Ce qui vous prouve Messieurs, comme
+            
+                        je vous le disais tout – à – l'heure, qu'il faut nous entendre, 
+            
+                        et tout garder pour nous… j'ai commencé… je me suis
+            
+                        dévoué… j'ai gardé mon emploi. Nous sommes beaucoup
+            
+                        comme ça. 
+            
+                        DÉGOURDIS. 
+            
+                        Oai… i… 
+            
+                        des gens comme nous doivent tou. i. tou
+            
+                        jours étre pla… placés. 
+            
+                        DESRUBANS
+            
+                        Je ne demande pas mieux… mais, moi, j'avais des
+            
+                        scrapules pour le nouveau serment. 
+            
+                        DÉGOURDIS. 
+            
+                        Quelle bé… bétise ! 
+            
+                        NOIROT
+            
+                        Il faut le prêter… Est – ce que c'est un serment qui
+            
+                        vous coûte, M. Desrubans ? … on fait des phrases. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                DÉGOURDIS. 
+                            
+            
+            
+                            
+                                Ou… qu… des restric…ti… des restrictions ; on en
+            
+                                est quitte pour quelques sifflets… On dit je ju… jure…
+            
+                                en hai… haine de l'anar… l'anar… narchie… et ça…
+            
+                                ça n'engage à rien. 
+                            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Vos Maris en Palestine. 
+                            </stage>
+            
+            
+                          
+                                <l>La république, ô délire !</l>
+                                <l>De moi reçut trois sermens.</l>
+                                <l>J'en prêtai deux à l'empire,</l>
+                                <l>Et deux aux Bourbons rentrans.</l>
+                                <l>Philippe aura le huitième !</l>
+                                <l>Et, comme ses devanciers,</l>
+                                <l>S'il avait des héritiers,</l>
+                                <l>Je leur tiendrais le neuvième,</l>
+                                <l>Comme je tiens les huit premiers.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+                        DESRUBANS. 
+            
+                        C'est comme ça que j'ai toujours fait. 
+            
+                        DÉGOURDIS. 
+            
+                        Eh bien ! alors… qu'est – ce que vous dites donc ? 
+            
+                        DESRUBANS. 
+            
+                        C'est que je vois beaucoup des nôtres qui ne prêtent pas
+            
+                        serment. 
+            
+                        NOIROT. 
+            
+                        Ils ont tort. On ne gagne rien à avoir de ces scrupules
+            
+                        là. 
+            
+                        DÉGOURDIS. 
+            
+                        On y ga… gagne qu'on perd, sa place… voilà… là
+            
+                        tout. 
+            
+                        NOIROT. 
+            
+                        Oui, mes frères… c'est un grand tort que de se reti
+            
+                        rer ; car on laisse ainsi la porte ouverte à des hommes
+            
+                        nouveaux…à des jeunes gens mal disposés pour la com
+            
+                        pagnie. 
+            
+                        DESRUBANS. 
+            
+                        La jeunesse est si mauvaise ! 
+            
+                        DÉGOURDIS. 
+            
+                        On a eu tort de ne pas la supprimer pendant qu'on y
+            
+                        était. 
+            
+                        NOIROT. 
+            
+                        L'essentiel, c'est d'occuper tous les postes… nous en
+            
+                        avons déjà beaucoup… on nous ménage ; pour nous sou
+            
+                        tenir, emparons – nous des sots, des eolans et des ſem
+            
+                        mesi… 
+            
+                        DÉGOURDIS. 
+            
+                        Oh ! les femmes ! c'est mon f… fort. 
+            
+                        NOIROT. 
+                        Il faut biaiser. 
+            
+                        DÉGOURDIS. 
+            
+                        C'est ça, bi… biaisons. 
+            
+                        NOIROT. 
+            
+                        C'est ainsi qu'en levant tous la main, nous aurons des
+            
+                        amis partout… dans l'administration…. 
+            
+                        DÉGOURDIS. 
+            
+                        Dans les tri… tribunaux. 
+            
+                        DESRUBANS. 
+            
+                        Dans la pairie. 
+            
+                        DÉGOURDIS. 
+            
+                        Je vous en réponds… J'ai mon petit cousin Dubriage, 
+            
+                        qui sera pair de France un jour… c'est mon élève. 
+            
+                        DESRUBANS. 
+            
+                        On dit que c'est un imbécile. 
+            
+                        DÉGOURDIS. 
+            
+                        Parblea ! 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                NOIROT. 
+                            
+            
+            
+                            
+                                Ça ne le regarde pas… La pairie, c'est comme la no
+            
+                                blesse…
+                            
+            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                Air du Vaudeville de Fanchon. 
+                            </stage>
+            
+            
+                           
+                                <l>C'est le chef de sa race,</l>
+                                <l>Il est sûr de sa place ;</l>
+                                <l>Et pour les lois sans goût,</l>
+                                <l>Devant un ministère,</l>
+                                <l>Il ne sera jamais debout…</l>
+                                <l>Mais c'est héréditaire,</l>
+                                <l>Ça dispense de tout.</l>
+                            
+            
+                       
+                            
+                                DÉGOURDIS. 
+                            
+            
+            
+                            
+                                C'est co… commode. 
+                            
+            
+            
+            
+                            
+                                Même air. 
+                            
+            
+            
+                          
+                                <l>Il poursuit les grisettes,</l>
+                                <l>Il est criblé de dettes,</l>
+                                <l>Et l'exemple l'absout.</l>
+                                <l>Toujours sans caractère,</l>
+                                <l>Il est bête à dormir debout…</l>
+                                <l>Mais c'est héréditaire,</l>
+                                <l>Ça dispense de tout.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        NOIROT. 
+            
+                        Il sera des nôtres… De cette manière, il nous reste tou
+            
+                        jours de la ressource… Nous obtiendrons de bonnes
+            
+                        places. 
+            
+                        DESRUBANS. 
+            
+                        Des cordons…
+            
+                        DÉGOURDIS. 
+            
+                        Des pen… pensions…
+            
+                        NOIROT. 
+            
+                        Des titres…
+            
+                        DÉGOURDIS. 
+            
+                        Avec ça, nous prendrons notre mal en pa… patience. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                NOIROT. 
+                            
+            
+            
+                            
+                                Ainsi, c'est convenu. 
+                            
+            
+            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR des Scythes. 
+                            </stage>
+            
+            
+                          
+                                <l>Pour mieux tromper ce qui nous environne,</l>
+                                <l>En longs rubans portons les trois couleurs ;</l>
+                                <l>Vieux champions de l'autel et du trône,</l>
+                                <l>Conservons – les dans le fond de nos cœurs,</l>
+                                <l>Sans renoncer aux nouvelles faveurs.</l>
+                                <l>Se retirer, c'est perdre la partie,</l>
+                                <l>Jurons bien haut, par de nouveaux sermens,</l>
+                                <l>Comme autrefois de servir la patrie,</l>
+                                <l>Et de palper nos traitemens.</l>
+                            
+            
+                        </lg> </div>
+            
+                        (Ils sortent.)
+            
+            
+            
+            
+            
+            
+            
+                        SCÈNE XI. 
+            
+                        PERROCHEL, entrant, puis DARRAINE, ROBERT, 
+            
+                        BROSSET, JOSEPHINE. 
+            
+                        PERROCHEL. 
+            
+                        Quel bonheur ! … Enfiu la route m'est ouverte… c'est
+            
+                        délicieux… Voyez un pea, avec de l'esprit… je suis
+            
+                        préfet, chef de division ; ce que je voudrai. 
+            
+                        DARRAINE. 
+            
+                        Eb non ! vous dis – je, non… je ne veux pas accepter. 
+            
+                        ROBERT. 
+            
+                        Comment, Monsieur, vous refusez d'être secrétaire – gé
+            
+                        néral ? 
+            
+            
+                        DARRAINE. 
+            
+                        Eh oui ! … il y a là un jeune homme qu'il faudrait ren
+            
+                        voyer… D'ailleurs le nombre des solliciteurs m'effraie. 
+            
+                        BROSSET, entre avec Josephine. 
+            
+                        Venez, mam'zelle Joséphine', venez…… Comme vous
+            
+                        tremblez. 
+            
+                        JOSÉPHINE. 
+            
+                        Dam' ! quand on n'a pas l'habitade…
+            
+                        BROSSET. 
+            
+                        Eh bien ! qu'est – ce qu'il y a donc ? vous ne venez pas
+            
+                        demander le bien des autres…… Ah ! voilà notre proléc
+            
+                        teur. 
+            
+                        DARRAINE, à Robert. 
+            
+                        Et puis il y a tunt d'intrigans ! … Ce que je viens d'ap
+            
+                        prendre…
+            
+                        JOSÉPHINE. 
+            
+                        Entrer comme ça chez un ministre. 
+            
+                        BROSSET. 
+            
+                        Ne craignez rien, je suis là… Monsieur, Monsieur…
+            
+                        DARRAINE. 
+            
+                        Qu'est – ce ? … Ah ! c'est vous. 
+            
+                        BROSSET. 
+            
+                        Comme vous voyez, avec la jeune fille…… Joséphine
+            
+                        Dubois. 
+            
+                        DARRAINE. 
+            
+                        Qui, je sais… Mais mon ami, ou l'on vous trompe, ou
+            
+                        vous cherchez à me tromper. 
+            
+                        BROSSET. 
+            
+                        Comment, qu'est – ce que ça veut dire ? 
+            
+                        DARRAINE. 
+            
+                        Cela veut dire que le brave dont vous n'avez parlé venait
+            
+                        de sortir de chez le ministre, quand j'y suis entré. 
+            
+                        PERROCHEL, 
+            
+                        à part. 
+            
+                        Ah ! mon dieu, c'est moi. 
+            
+                        BROSSET. 
+            
+                        Par exemple, en voilà une solide. 
+            
+                        JOSÉPHINE. 
+            
+                        Vous voyez bien à quoi vous m'avez exposée. 
+            
+                        BROSSET. 
+            
+                        Eh non ! Mam'zelle, non, ça ne se peut pas… je suis
+            
+                        là… j'ai vu l'acte de courage du père Dubois… C'est
+                        quelque brave du lepdemain qui se met à sa place… mais
+            
+                        si je le trouve, il n'a qu'à se hien se tenir…
+            
+                        JOSÉPHINE. 
+            
+                        M. Brosset, ne vous emportez pas. 
+            
+                        PERROCHEL, à part. 
+            
+                        Ah ! le butor ! 
+            
+                        BROSSET. 
+            
+                        Non, non, je l'assominerai, et après nous verrons. 
+            
+                        (Perrochel s'esquive et sort.)
+            
+                        DARRAINE. 
+            
+                        Allons, si l'on nous a trompés, comptez encore sur mon
+            
+                        intervention. 
+            
+                        JOSÉPHINE. 
+            
+                        Non, Monsieur, non, je ne demande rien… Si je ve
+            
+                        nais ici, ce n'était pas pour moi ; c'était pour voir honorer
+            
+                        la mémoire de mon père…
+            
+                        BROSSET. 
+            
+                        Laissez donc, mam'zelle Joséphine, ne parlons plus de
+            
+                        cela… retournons chez nous… je travaillerai, et vous
+            
+                        aussi ; avec ça, voyez – vous, on peut être heureux… Vous
+            
+                        êtes seule ; eh bien ! je vous reste, moi, je serai votre frère, 
+            
+                        votre ami… mieux que ça encore, si vous voulez bien. 
+            
+                        JOSÉPHINE. 
+            
+                        Ah ! que je suis fâchée d'être venue. 
+            
+                        DARRAINE, 
+            
+                        Rassurez – vous, Mademoiselle ; si vous avez droit à des
+            
+                        secours…
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                BROSSET. 
+                            
+            
+            
+                            
+                                Gardez – les pour ces gens – là… mais nou's…
+                            
+            
+            
+            
+                            <stage type="tune" id="AIR : Dans les bureaux où l' citoyen.">
+                                AIR : 
+                            </stage>
+            
+            
+                            
+                                <l>Dans les bureaux où l' citoyen</l>
+                                <l>Retrouve encor l'ancienn' méthode,</l>
+                                <l>Notre roi Philipp' devrait bien</l>
+                                <l>Mettre ses vertus à la mode.</l>
+                                <l>Tout irait mieux pour nous, je crois,</l>
+                                <l>Si les répons's venaient du trône ;</l>
+                                <l>Puisqu'en ces lieux, comme autrefois,</l>
+                                <l>Quand on d'mande justic' pour ses droits,</l>
+                                <l>On a l'air de d'mander l'aumône.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        Venez, Mam'zelle, venez. 
+            
+                        (Il emmène Joséphine.)
+            
+                        SCENE XII… 
+            
+                        DARRAINE, ROBERT, DÉGOURDIS, NOIROT, 
+            
+                        DESRUBANS. 
+            
+                        ROBERT. 
+            
+                        Ils ont l'air de dire la vérité, et si vous étiez secretaire
+            
+                        général…. 
+            
+                        DÉGOURDIS, accourant vers Noirot et Desrubans. 
+            
+                        La voilà, la voilà, notre protectrice ! 
+            
+                        DARRAINE, 
+            
+                        Eh ! je ne me trompe pas… M. Dégourdis…
+            
+                        DÉGOURDIS. 
+            
+                        Ah ! mon dieu ! celui que j'ai fait destituer. 
+            
+                        NOIROT. 
+            
+                        Vrai… celui dont j'ai la place ? 
+            
+                        SCENE XIII. 
+            
+                        LES MÊMES, Mme DARMAIN, PERROCHEL, FOULE DE
+            
+                        SOLLICITEURS. 
+            
+            
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                CHŒUR. 
+                            
+            
+            
+                            <stage type="tune">
+                                AIR : Oh ! la bonne folie ! 
+                            </stage>
+            
+            
+                           
+                                <l>Elle quitte son frère,</l>
+                                <l>La voilà ! quel bonheur !</l>
+                                <l>Je vais au ministère</l>
+                                <l>Me trouver en faveur !</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        Mme DARMAIN. 
+            
+                        Oui, mes amis… oui, j'ai réussi pour tout le monde. 
+            
+                        TOUS. 
+            
+                        Ah ! Madame ! 
+            
+                        ROBERT, à Darraine : 
+            
+                        Hem ! Monsieur… quelle fournée d'injustices… C'est
+            
+                        tous les jours comme ça. 
+            
+                        Mme DARMAIN. 
+            
+                        Mais un grand malheur nous menaçait… Mon beau
+            
+                        frère voulait donner sa démission ; mais je veux qu'il garde
+                        le secrétariat, pour en faire part à ses parens, à ses amis, 
+            
+                        à ses connaissances ; et…
+            
+                        PLUSIEURS PERSONNES, en dehors. 
+            
+                        J'approcherai ! je veux approcher ! 
+            
+                        ROBERT. 
+            
+                        Ah ! Messieurs. 
+            
+                        Mme DARMAIN. 
+            
+                        Qu'est – ce donc ? 
+            
+                        SCENE XIV. 
+            
+                        LES MÊMES, PLUSIEURS JOURNALISTES. 
+            
+                        ROBERT. 
+            
+                        Madame, ce sont des journalistes qui se plaignent d'avoir
+            
+                        été oubliés. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                Mme DARMAIN. 
+                            
+            
+            
+                            
+                                C'est jouer de malheur ! … J'en ai tant placé dans les
+            
+                                bureaux, aux finances, à l'intérieur, aux archives ; enfin il
+            
+                                y en a partout. (Murmure.) Eh oui ! Messieurs. 
+                            
+            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune" id="AIR : Grand ou non, vieux ou nouveau.">
+                                AIR : 
+                            </stage>
+            
+            
+                          
+                                <l>Grand ou non, vieux ou nouveau,</l>
+                                <l>Parmi vous tout sollicite ;</l>
+                                <l>Vous avez même, on le cite,</l>
+                                <l>Un confrère-infolio</l>
+                                <l>Dont les rédacteurs en masse,</l>
+                                <l>Soit mérite, soit audace,</l>
+                                <l>Se sont tous fait mettre en place ;</l>
+                                <l>Si bien, ou plutôt si mal,</l>
+                                <l>Qu'en vain le public s'abonne,</l>
+                                <l>Il ne reste plus personne</l>
+                                <l>Pour rédiger le journal.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+                        Mais c'est égal… je ferai récompenser les services réels…
+            
+                        D'ailleurs j'aime beaucoup les journalistes, le ministre en
+            
+                        est un. Quant à vous, M. Perrochel…
+            
+                        DARRAINE. 
+            
+                        Lui aussi ! 
+            
+                        Mme DARMAIN. 
+            
+                        Oui, Messieurs… le voici, l'homme de courage dont je
+            
+                        vous parlais, qui a pris la pièce de capon des Suisses, près
+            
+                        da Louvre. 
+            
+                        DARRAINE. 
+            
+                        Ah ! c'est trop fort ! … Viens, Robert, suis – moi ! 
+            
+                        (Il remonte, et entre dans le cabinet.)
+            
+                        Mme DARMAIN. 
+            
+                        Pour commencer, on vous nommé sous – préfet. 
+            
+                        PERROCHEL. 
+            
+                        Une sous – préfecture, à moi ! … Ce n'est pas assez. 
+            
+                        DÉGOURDIS. 
+            
+                        Alors demandez – en deux. 
+            
+                        Mme DARMAIN. 
+            
+                        Enfin Paris et la province, tout le monde sera placé, et
+            
+                        dans un moment le secrétaire – général viendra ici répondre
+            
+                        lui – même à toutes vos demandes. 
+            
+                        TOUS. 
+            
+                        Vive M. le secrétaire – général ! 
+            
+                        SCÈNE XV. 
+            
+                        LES MÊMES, Mme ROBERT. 
+            
+                        (Costume de vieille, mante, bonnet à barbes, cocarde blan
+            
+                        che, éventail, lunettes et béquille.)
+            
+                        Mme ROBERT. 
+            
+                        Vive quoi ? … On a crié vive quelque chose… et moj
+            
+                        aussi, je veux le crier. 
+            
+                        PERROCHEL
+            
+                        Qu'est – ce que c'est que ça ? 
+            
+                        Mme ROBERT. 
+            
+                        Hélas ! mon pauvre garçon, je suis une malheureuse qui
+            
+                        ai tout perda… depuis que ceux qui me soutenaient sont…
+            
+                        votre serviteur. 
+            
+                        Mme DARMAIN. 
+            
+                        Mais enfin qui êtes – vous, bonne femme ? 
+            
+                        Mme ROBERT. 
+            
+                        Je ne suis pas bonne… je suis la Qotidienne, votre ré
+            
+                        vérente mère. 
+            
+                        TOUS. 
+            
+                        Hem ! plait – il ? Par exemple…'
+            
+                        Mme DARMAIN. 
+            
+                        C'est une folle. 
+            
+            
+            
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                MAD. ROBERT. 
+                            
+            
+            
+                            <stage type="tune">
+                                AIR : Paris est comme autrefois. 
+                            </stage>
+            
+            
+                          
+                                <l>Je suis la Quotidienne,</l>
+                                <l>Et la Gazette est ma sœur ;</l>
+                                <l>Hélas ! je végète à peine,</l>
+                                <l>Depuis mon dernier malheur.</l>
+                                <l>Fidèle à nos ennemis,</l>
+                                <l>Aux cosaques j'ai jadis,</l>
+                                <l>Quand mon roi fut de retour,</l>
+                                <l>Prodigué tout mon amour…</l>
+                                <l>J'ai, sous la chambre introuvable,</l>
+                                <l>Ensanglanté mon rabat ;</l>
+                                <l>Du ministère incroyable</l>
+                                <l>J'appelais les coups d'état.</l>
+                                <l>Je défendais les abus,</l>
+                                <l>Les jésuites, les ventrus,</l>
+                                <l>Les budjets, mon seul soutien,</l>
+                                <l>Les Suisses qui vont si bien.</l>
+                                <l>Mais c'est surtout des gendarmes</l>
+                                <l>Que j'aimais la loyauté !</l>
+                                <l>Ce beau corps a, sous les armes,</l>
+                                <l>Taut de sensibilité ! …</l>
+                                <l>Pour écraser les mutins,</l>
+                                <l>Je criais tous les matins,</l>
+                                <l>Qu'avec le parti royal,</l>
+                                <l>Je monterais à cheval…</l>
+                                <l>Mais les plus forts, les plus braves,</l>
+                                <l>Quand est venu le danger,</l>
+                                <l>Nous nous cachions dans les caves…</l>
+                                <l>Et j'en sors pour me venger.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        TOUS. 
+            
+                        Voulez – vous vous taire ! 
+            
+                        Mme ROBERT. 
+            
+                        Eh ! non, non, ne craignez rien… Hélas ! je suis bien
+            
+                        bas depuis que mes chers gendarmes…
+            
+                        NOIROT. 
+            
+                        Mais on ne parle plus de ça. 
+            
+                        Mme ROBERT. 
+            
+                        Et moi, je veux en parler ! … En ce moment – ci, je suis
+            
+                        indépendante… c'est – à – dire que je suis à vendre. Qu'est
+            
+                        ce qui veut m'acheter ? … Où est le ministre ? …
+            
+                        conduisez – moi au ministre. 
+            
+                        NOIROT
+            
+                        Vous ne vous entendriez pas avec lui… votre cou
+            
+                        leur…
+            
+                        Mme ROBERT. 
+            
+                        J'en changerai… je n'y tiens pas… Oh ! le jeune mi
+            
+                        nistère ne refusera pas nies faveurs… il ne peut pas se
+            
+                        passer de moi… Je rajeûnirai pour lui… je vanterai ses
+            
+                        vertus, son économie, son courage… Me voilà, qu'il m'é
+            
+                        pouse, et je lui donnerai en dot tous les imbécilles de
+            
+                        France… il y en a encorecis il y en aura tonjours. Je me
+            
+                        ferai doctrinaire, idéologue, républicaine s'il le faut… Je
+            
+                        crierai vive… tout ce qu'on voudra ! … Mais qu'on m'a
+            
+                        chète… qu'on me paie… je ne peux pas ýivre sans
+            
+                        ça. 
+            
+                        PERROCHEL. 
+            
+                        Allons donc… on se passera de vous. 
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                Mme ROBERT. 
+                            
+            
+            
+                            
+                                Ah ! l'on se passera de moi ! prenez – y garde… Je ne
+            
+                                suis que méchante… je deviendrai furieuse. 
+                            
+            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR du chapitre second. 
+                            </stage>
+            
+            
+                         
+                                <l>Oui, dans ma colère,</l>
+                                <l>Avant peu, j'espère</l>
+                                <l>Mettre tout en feu !</l>
+                                <l>Toujours intraitable,</l>
+                                <l>Je ferai le diable</l>
+                                <l>Au nom du bon dieu !</l>
+                                <l>Ma feuille bénite</l>
+                                <l>Chaque jour excite</l>
+                                <l>La guerre eutre nous.</l>
+                                <l>Je crierai sans cesse :</l>
+                                <l>Courage, jeunesse !</l>
+                                <l>Ouvriers, à vous !</l>
+                                <l>La presse est infâme !</l>
+                                <l>Le peuple est sans âme !</l>
+                                <l>La loi sans vertu !</l>
+                                <l>Plus de séminaires,</l>
+                                <l>De missionnaires,</l>
+                                <l>L'état est perdu !</l>
+                                <l>J'en ai l'espérance,</l>
+                                <l>La Sainte – Alliance</l>
+                                <l>Un jour reviendra,</l>
+                                <l>Pour éteindre en France,</l>
+                                <l>L'affreuse licence</l>
+                                <l>Qu'à moi l'on devra.</l>
+                                <l>Oui, dans ma colère,</l>
+                                <l>Avant peu j'espère</l>
+                                <l>Mettre tout en feu.</l>
+                                <l>Toujours intraitable,</l>
+                                <l>Je ferai le diable</l>
+                                <l>Au nom du bon dieu !</l>
+                                <l>Je mets tout en feu,</l>
+                                <l>Au nom du bon dieu !</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        Mme DARMAIN. 
+            
+                        Jetez – moi cette femme à la porte. 
+            
+                        TOUS. 
+            
+                        Oui, à la porte ! à la porte ! 
+            
+                        Mme ROBERT. 
+            
+                        Au secours ! au secours ! Gendarmes, oq veut me faire
+            
+                        violence ! … gendarmes, sauvez mon honneur… tirez sur
+            
+                        ces gaillards – là. 
+            
+                        SCÈNE XVI. 
+            
+                        LES MÊMES, BROSSET, JOSÉPHINE, ROBERT. 
+            
+                        BROSSET. 
+            
+                        Eh bien ! qu'est – ce que vous nous voulez ? 
+            
+                        JOSÉPHINE. 
+            
+                        Pourquoi nous ramener ici ? 
+            
+                        Mme ROBERT, se retournant. 
+            
+                        Ah ! mon dieu ! du peuple de la canaille ! Gendarmes ! …
+            
+                        (Elle tombe sur une chaise.)
+            
+                        ROBERT. 
+            
+                        Tiens, ma tante la Quotidienne ! 
+            
+                        BROSSET. 
+            
+                        Qu'est – ce qu'elle a donc cette grosse mère ? Rassurez
+            
+                        vous, allez… nous sommes ici malgré nous. 
+            
+                        JOSÉPHINE. 
+                        Certainement. 
+            
+                        Mme ROBERT. 
+            
+                        Renvoyez – les… ça me rappelle les barricades… ça me
+            
+                        fait mal aux nerfs. 
+            
+                        BROSSET, se mettant en défense, 
+            
+                        Si tu approches ! …
+            
+                        TOUS
+            
+                        Voulez – vous finir ! 
+            
+                        (La porte du cabinet s'ouvre.)
+            
+                        ROBERT, annonçant au milieu du bruit. 
+            
+                        Monsieur le secrétaire général ! 
+            
+                        TOUS, remontant. 
+            
+                        Le secrétaire général ! 
+            
+                        Mme DARMAIN, remontant, 
+            
+                        Mon beau – frère !, … (Elle s'arrête.) Ce n'est pas
+            
+                        lui. 
+            
+                        DARRAINE. 
+            
+                        Non, Madame… c'est moi… le secrétaire général. 
+            
+                        PERROCHEL. 
+            
+                        C'est mon compagnon de voyage ! 
+            
+                        DARRAINE. 
+            
+                        Votre beau – frère cède un emploi au – dessus de ses for
+            
+                        ces… j'accepte… il était temps ! 
+            
+                        TOUS. 
+            
+                        Ah ! mon dieu ! 
+            
+            
+            
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                DARRAINE. 
+                            
+            
+                            <stage type="tune">
+                                AIR des Comédiens. 
+                            </stage>
+            
+                           
+                                <l>Oui, ce matin, vous venez de m'apprendre</l>
+                                <l>Qu'un citoyen en place doit rentrer,</l>
+                                <l>Lorsqu'il y voit des services à rendre,</l>
+                                <l>Et, comme ici, du mal à réparer.</l>
+                                <l>Si désormais Madame sollicite</l>
+                                <l>Pour ses amis… je serai leur soutien,</l>
+                                <l>Je placerai tous les gens de mérite…</l>
+            
+            
+                                
+                                    MAD. DARMAIN. 
+                                
+            
+                                <l>Les malheureux ! ils n'obtiendront plus rien.</l>
+                            
+                            
+                            
+                                DARRAINE
+                            
+            
+                            
+, à Perrochel qui cherche à l'éviter. 
+                            
+            
+            
+                            
+                                <l>Pour vous, Monsieur, vous m'apprendrez, je pense,</l>
+                                <l>Par quel hasard, car je n'y comprends rien,</l>
+                                <l>Quand nous courrions tous deux en diligence,</l>
+                                <l>Vous, à Paris, vous vous battiez si bien ? …</l>
+                                <l>Vons comprenez ; et de votre demande,</l>
+                                <l>Long – temps encor vous aurez à rougir,</l>
+                                <l>Disparaissez, héros de contrebande,</l>
+                                <l>Et respectez la palme du martyr.</l>
+                            
+            
+            
+                            
+                                (À Joséphine.)
+                            
+            
+            
+                            
+                                <l>Puisque le brave est mort pour sa défense,</l>
+                                <l>Notre pays, qui seul la dotera,</l>
+                                <l>À l'orpheline offre une récompense,</l>
+                                <l>Qu'avec un autre elle partagera.</l>
+                            
+            
+            
+                            
+                                (Joséphine tend la main à Brosset – Darraine, à Dégourdis, à
+                                demi – voix.)
+                            
+            
+            
+                            
+                                <l>Vous qui m'avez destitué naguère,</l>
+                                <l>Rassurez – vous, je vois votre embarras ;</l>
+                                <l>Votre demande est encore un mystère,</l>
+                                <l>Reprenez là… je n'en parlerai pas.</l>
+                            
+            
+            
+                            
+                                (À Noirot et à Desrubans.)
+                            
+            
+            
+                            
+                                <l>Et vous, Messieurs, un peu moins d'impudence,</l>
+                                <l>Pour nous tromper vous être trop connus,</l>
+                                <l>Et vos jours, j'en jure par la France,</l>
+                                <l>Ils sont passés… ils ne reviendront plus.</l>
+                            
+            
+            
+                            
+                                (Aux journalistes.)
+                            
+            
+            
+                            
+                                <l>Vous, jeunes gens, que la presse réclame,</l>
+                                <l>D'un bon journal et l'honneur et l'appui,</l>
+                                <l>Du bien public si l'amour vous enflamme,</l>
+                                <l>À vos travaux retournez aujourd'hui,</l>
+                                <l>Que les méchans redoutent vos férules,</l>
+                                <l>Que tous les sots craignent votre gaîté,</l>
+                                <l>Des faux sermens flétrissez les scrupules,</l>
+                                <l>Aimez ce roi, fils de la liberté.</l>
+                            
+            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        DÉGOURDIS. 
+            
+                        C'est dommage… ça allait si bien. 
+            
+                        BROSSET, voulant aller à Perrochel. 
+            
+                        Comment, c'était ce gaillard ? …
+            
+                        (Joséphine le retient.)
+            
+                        Mme ROBERT se glissant près de Darraine. 
+            
+                        Mon amour ! …
+            
+                        DARRAINE. 
+            
+                        Hem ? 
+            
+                        ROBERT, bas. 
+            
+                        C'est ma tante, vous savez…
+            
+                        Mme ROBERT. 
+            
+                        Veux – tu m'acheter ? … je t'aimerai bien. 
+            
+                        DARRAINE. 
+            
+                        Oui, ma bonne, oui. (Bas à Robert.) Mets – moi cette
+            
+                        Quotidienne là à Charenton… avec l'autre, si c'est pos
+            
+                        sible. 
+            
+                     
+            
+            
+            
+            
+            
+            
+                    
+            
+            
+            
+                        <div type="poem"> <lg>
+                               ROBERT. 
+            
+                        Oui, Monsieur… et comme ça tout le monde sera à sa
+            
+                        place. 
+            
+                                VAUDEVILLE FINAL. 
+                            <stage type="tune" id="AIR : Pour moi point de sinécure.">
+                                Air de M. Doche. 
+                            </stage>
+            
+            
+                            
+                                PERROCHEL. 
+                            
+            
+                           
+                                <l>Pour moi point de sinécure,</l>
+                                <l>Rien ! quand je vois tant de gens</l>
+                                <l>Se gorger avec usure</l>
+                                <l>De places, de traitemens !</l>
+                                <l>Leurs droits et leurs talens,</l>
+                                <l>Qu'importe qu'on en murmure !</l>
+                            <l>La France les paiera, <stage type="repetition">} (bis) </stage></l> 
+                                <l>Les budjets sont toujours là !</l>
+                            
+            
+                            
+                                NOIROT. 
+                            
+            
+                            
+                                <l>Pour nous quels destins terribles !</l>
+                                <l>La police et son trésor</l>
+                                <l>À nos vœux sont insensibles !</l>
+                                <l>Mais le diable n'est pas mort,</l>
+                                <l>Non, il nous reste encor</l>
+                                <l>Des juges inamovibles :</l>
+                                <l>Si Bazile s'en va,</l>
+                                <l>Bridoison est toujours là.</l>
+                            
+            
+                            
+                                BROSSET. 
+                            
+            
+                            
+                                <l>Chez nous plus d'esprits malades !</l>
+                                <l>Vous, ouvriers respectez</l>
+                                <l>La conquête des barricades,</l>
+                                <l>Nos lois et nos libertés !</l>
+                                <l>Si vos droits sont heurtés,</l>
+                                <l>Parlez ! … votr' voix, camarades,</l>
+                                <l>Jusqu'au trône montera…</l>
+                                <l>Notre roi Philippe est là.</l>
+                            
+            
+                            
+                                ROBERT. 
+                            
+            
+                            
+                                <l>La France républicaine</l>
+                                <l>A fait briller autrefois</l>
+                                <l>Des noms… qu'on vit avec peine</l>
+                                <l>Vendre à l'empire nos lois,</l>
+                                <l>Ou ramper sous les rois !</l>
+                                <l>Mais aux deux bouts de la chaîne,</l>
+                                <l>Comm' vos droits qu'il fonda,</l>
+                                <l>Lafayette est toujours là !</l>
+                            
+            
+                            
+                                DÉGOURDIS. 
+                            
+            
+                           
+                                <l>Quand nous étions les apôtres</l>
+                                <l>De la cour et des trésors,</l>
+                                <l>Je criais avec les autres :</l>
+                                <l>Peuple, canaille, dehors !</l>
+                                <l>Nous sommes les plus forts !</l>
+                                <l>Plus d'autres droits que les nôtres !</l>
+                                <l>Mais le canon tonna…</l>
+                                <l>Les plus forts n'étaient plus là.</l>
+                            
+            
+                            
+                                DARRAINE. 
+                            
+            
+                            
+                                <l>Par notre reconnaissance,</l>
+                                <l>Le Panthéon illustré,</l>
+                                <l>Au courage, à l'éloquence,</l>
+                                <l>Rouvre un sein long–temps muré ;</l>
+                                <l>Sous ce dôme sacré,</l>
+                                <l>Viens, député de la France !</l>
+                                <l>Ton cœur s'échauffera…</l>
+                                <l>Manuel et Foy sont là !</l>
+                            
+            
+                            
+                                MAD. ROBERT. 
+                            
+            
+                           
+                                <l>Puisque tout est calme en France,</l>
+                                <l>Moi je reprends mon rabat !</l>
+                                <l>Comme un éteignoir immense,</l>
+                                <l>J'arrive après le combat ;</l>
+                                <l>Oui, pour les coups d'État,</l>
+                                <l>Pour Saint–Ignace en souffrance,</l>
+                                <l>Un héros restera ! …</l>
+                                (Faisant la révérence.)
+                                <l>La Quotidienne est là !</l>
+                            
+                            
+                            
+                                MAD. DARMAIN
+                            
+            
+                            
+, au public. 
+                            
+            
+            
+                           
+                                <l>De sa légère férule,</l>
+                                <l>Le Vaudeville aujourd'hui</l>
+                                <l>Frappe un bien vieux ridicule ;</l>
+                                <l>Messieurs, joignez–vous à lui !</l>
+                                <l>Vous, son plus ferme appui,</l>
+                                <l>Applaudissez sans scrupule,</l>
+                                <l>Et notre auteur dira :</l>
+                                <l>L'indulgence est toujours là !</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+                        FIN. 
+                    
+        </body>
+    </text>
+</TEI>

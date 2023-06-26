@@ -1,0 +1,78 @@
+Airs candidats: 25                
+Airs manuellement filtrés : 22                
+Airs réelement présents : 22                
+Précision: 0.88                
+Rappel: 1.00                
+Mesure-F1: 0.94
+
+***Airs du xml***:
+AIR : des Montagnards (Dame blanche.)
+Air : du nouveau et de l'ancien régime. 
+Air : du premier prix. 
+Air : des Ostrogots. 
+Air : de la Barcoulle de Marino Faliero. 
+Air : du roman par lettres. 
+ Air : Taisez-vous. 
+AIR : du Vaud. du dimanche à Passy. 
+AIR : du comte Ory. 
+     AIR : T'en souviens-tu. 
+Air : restez, restez troupes jolies. 
+AIR : Ah voilà la vie. 
+Air : du Savetier et du Financier. 
+Air : qui porte mes amours, (Barcorolle de Penseron.)
+Chœur : du Barbier de Séville. 
+Air : à 60 ans on ne doit pas remettre. 
+Air : de Teniers
+Air : du magistrat irréprochable. 
+AIR : d'Aristippe. 
+ Air : j'ai de l'argent. 
+Air : du Gamin de Plantade. 
+AIR : du comte Ory. 
+
+***Airs identifiés dans le txt***:
+AIR : des Montagnards ( Dame blanche. )
+Air : du nouveau et de l'ancien régime.
+Air : du premier prix .
+Air : des Ostrogots .
+Air : de la Barcoulle de Marii.o Faliero .
+Air : du roman par lettres .
+Air : Taisez - vous.
+AIR : du Vaud. du dimanche à Passy .
+AIR : du comte Ory .
+AIR : T'en souviens- tu ,
+Air : restez , restez troupes jolies.
+AIR : Ah voila la vie .
+Air : du Savetier et du Financier .
+Air : qui porle mes amours , ( Barcorolle de Penseron . )
+Chœur : du Barbier de Séville.
+Air : à 60 ans on ne doit pas remettre .
+Air : de Teniers
+Air : du magistrat irréprochable.
+AIR : d ' Aristippe .
+Air : j'ai de l'argent.
+Air : du Gamin de Plantade .
+AIR : du comte Ory .
+
+***Airs du txt validés dans le xml***:
+AIR : des Montagnards (Dame blanche.)
+Air : du nouveau et de l'ancien régime. 
+Air : du premier prix. 
+Air : des Ostrogots. 
+Air : de la Barcoulle de Marino Faliero. 
+Air : du roman par lettres. 
+ Air : Taisez-vous. 
+AIR : du Vaud. du dimanche à Passy. 
+AIR : du comte Ory. 
+     AIR : T'en souviens-tu. 
+Air : restez, restez troupes jolies. 
+AIR : Ah voilà la vie. 
+Air : du Savetier et du Financier. 
+Air : qui porte mes amours, (Barcorolle de Penseron.)
+Chœur : du Barbier de Séville. 
+Air : à 60 ans on ne doit pas remettre. 
+Air : de Teniers
+Air : du magistrat irréprochable. 
+AIR : d'Aristippe. 
+ Air : j'ai de l'argent. 
+Air : du Gamin de Plantade. 
+AIR : du comte Ory. 

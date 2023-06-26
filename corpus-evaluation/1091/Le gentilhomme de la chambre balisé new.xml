@@ -1,0 +1,3289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE GENTILHOMME DE LA CHAMBRE, OU DIX JOURS APRÈS</title>
+                <title type="sub">A PROPOS NATIONAL EN VAUDEVILLES</title>
+                <author key="SAU" sort="1">
+                    <name>
+                        <forename>Thomas-Marie-François</forename>
+                        <surname>Sauvage</surname>
+                    </name>
+                </author>
+                <author key="OZA" sort="2">
+                    <name>
+                        <forename>Jean Georges</forename>
+                        <surname>Ozaneaux</surname>
+                        <addname type="pen_name">Georges</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="PL">
+                        <forename>Pascaline</forename>
+                        <surname>Loricourt</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE GENTILHOMME DE LA CHAMBRE, OU DIX JOURS APRÈS</title>
+                        <author>SAUVAGE ET GEORGES</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=zUs6AAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>La bibliothèque de l'État de Bavière</repository>
+                                <idno type="URL">http://opacplus.bsb-muenchen.de/title/BV001642513/ft/bsb10102330?page=5</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-08-19">19 AOÛT 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DE L'ODÉON</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            P. o. gall. 
+            
+            2597
+            
+            R
+            
+            e
+            
+            P. o. gall. 2597
+            
+            u Pio, gall. 2597€
+            
+            LE GENTILHOMME
+            
+            a
+            
+            DE LA CHAMBRE, 
+            
+            OU DIX JOURS APRÈS, 
+            
+            A PROPOS NATIONAL EN VAUDEVILLES, 
+            
+            BN
+            
+            MM. T. SAUVAGE ET GEORGES, 
+            
+            PAR
+            
+            REPRÉSENTÉ, POUR LA PREMIÈRE FOIS, A PARIS, 
+            
+            SUR LE THEATRE DE L'ODEON, 
+            
+            LE IG AOUT 1830. 
+            
+            PARIS, 
+            
+            CHEZ J.-N. BARBA, 
+            
+            PALAIS-ROYAL, 
+            
+            GRANDE COUR DERRIÈRE LE THÉATRE-FRANÇAIS. 
+            
+-1830. 
+            
+            1
+            
+            7
+            
+            A
+            
+            PERSONNAGES, 
+            
+            ACTEURS. 
+            
+            Le Marquis DE COURBIGNAC…
+            
+            M. FERVILLE. 
+            
+            ALEXANDRINE, sa nièce……… 
+            
+            Mile BÉRANGER. 
+            
+            M. ROYER, brasseur…. 
+            
+            M. ÉRIC-BERNARD. 
+            
+            VICTOR, son fils, Elève de l'Ecole
+            
+            Polytechnique…
+            
+            MAILLARD, Elève interne des hô
+            
+            M. LOCKROY. 
+            
+            pitaux de Paris… 
+            
+            M. DELAFOSSE. 
+            
+            CARTOT, garçon brasseur……. 
+            
+            M. VIZENTINI. 
+            
+            BRUNO
+            
+            valet-de-chambre da
+            
+            Marquis
+            
+            Gardes Nationaux. 
+            
+            Daines et Femmes d'artisans. 
+            
+            M. LEBRUN. 
+            
+            La Scène'est à Paris, dans l'hôtel du Marquis, et sur une
+            
+            place publique. 
+            
+            DE L'IMPRIMBRÍE DE CHASSAIGNON, RUE GIT-LL-C @ UR, 
+            
+            In ° 7
+            
+            LE GENTILHOMME
+            
+            DE LA CHAMBRE. 
+            
+            A PROPOS NATIONAL. 
+            
+            Un salon, des portes de chaque côté. 
+            
+            A droite un fût de
+            
+            colonne, sur lequel on lit : CHARLES X. 
+            
+            ***
+            
+            SCENE PREMIÈRE. 
+            
+            ALEXANDRINE, MAILLARD, VICTOR, CARTOT, 
+            
+            BRUNO, DAMES
+            
+            FEMMES D'ARTISANS, OUVRIERS, 
+            
+            DOMESTIQUES. 
+            
+            (Au lever du rideau, les dames assises près d'Ale xan
+            
+            drine, préparent des compresses et font de la charpie.-
+            
+            Quelques femmes préparent des boissons.-Le docteur
+            
+            Maillard achève le pansement des artisans. 
+            
+            Bruno
+            
+            fait distribuer du vin.,
+            
+            Cartot, que l'on vient de
+            
+            panser, remet sa veste. 
+            
+            Victor va et vient dans les
+            
+            groupes. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    CHŒUR DES FEMMES. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Povera Signora. 
+                </stage>
+            
+            
+                
+                    <l>Travaillons, </l>
+                    <l>Préparons</l>
+                    <l>De la charpie</l>
+                    <l>Aux blessés</l>
+                    <l>Terrassés</l>
+                    <l>Pour la patrie. </l>
+            
+                    
+                        ALEXANDRINE. 
+                    
+            
+                    <l>À la France, à nous, </l>
+                    <l>Qu'il serait doux</l>
+                    <l>De les sauver tous ! </l>
+            
+                    
+                        LES FEMMES. 
+                    
+            
+                    <l ana="unanalyzable">À la France, etc. </l>
+                
+            
+                
+                    MAILLARD. 
+                
+            
+                
+                    <l>Des jours passés</l>
+                    <l>Que la ville soit fière, </l>
+                    <l>Nul des blessés</l>
+                    <l>N'est frappé par derrière. </l>
+                
+            
+                
+                    TOUS. 
+                
+            
+                
+                    <l>À la France, à nous, </l>
+                    <l>Qu'il serait doux</l>
+                    <l>De les sauver tous. </l>
+            
+                    
+                        CARTOT. 
+                    
+            
+                    <l>Fiers va-nu piés, </l>
+                    <l>Qui m'appelliez canaille, </l>
+                    <l>Vous décampiez</l>
+                    <l>Quand j' bravais la mitraille. </l>
+                    <l>Je suis faubourien, </l>
+                    <l>Je le sais bien, </l>
+                    <l>Mais j' suis citoyen ! </l>
+            
+            
+                    
+                        CHŒUR GÉNÉRAL. 
+                    
+            
+                    <l ana="unanalyzable">Travaillons, etc. </l>
+                
+            </lg> </div>
+            
+            CARTOT. 
+            
+            Me v'là hors de danger tout de même, grâces à vos
+            
+            pansemens, Monsieur l'apprenti médecin, et surtout à vos
+            soins, Mam'selle Alexandrine. 
+            
+            Il est cerlain que Mademoiselle a mis un zèle, un em
+            
+            BRUNO. 
+            
+            pressement…
+            
+            ALEXANDRINE. 
+            
+            Je n'ai fait que mon devoir, mes amis ; ce que toutes
+            
+            ces dames ont fait comme moi. 
+            
+            Vous avez été admirable, Mademoiselle, quand vous
+            
+            êtes descendue sur le boulevard pour faire enlever ce
+            
+            VICTOR. 
+            
+            pauvre garçon…
+            
+            CARTOT. 
+            
+            C'est qu'il y faisait chaud. 
+            
+            (5) 
+            
+            BRUNO, 
+            
+            Je vous en reponds ! les balles sifflaient joliment…
+            
+            moi, qui n'ai jamais servi… que comme valet-de-chambre, 
+            
+            ça ne m'amásait
+            
+            as… Voyez-vous ce trou dans mon
+            
+            habit ? … 
+            disant : : « Bruno', mon cher Bruno, du courage ! ce pauvre
+            
+            Allez, si Mademoiselle n'avait pas été là me
+            
+            » diable va être écrasé sous les pieds des chevaux, » je ne
+            
+            sais pas
+            
+            si j'aurais eu la force d'être un héros deux mi
+            
+            notes de plus. 
+            
+            CARTOT. 
+            
+            Je m'en suis-t-y donné pendant trois jours !. je roulais
+            
+            nos tonneaux de bierre pour désaltérer les braves… avec
+            
+            les futailles je faisais des barricades… d'derrière les barri
+            
+            cades j'descendais ces fainéans qui s logeaient dans nos
+            
+            maisons pour nons canarder ; j'défonçais, j'enfonçais… et
+            
+            aux Tuileries et à St-Cloud… j'allais bien… vrai ! I'vexant
+            
+            c'est d'être blessé au bras : j'aimerais mieux une balle dans
+            
+            la tête ; au moins on peut dire : bon soir les voisins, je n'ai
+            
+            plus besoin de pain. 
+            
+            VICTOR, 
+            
+            Qu'est-ce que cela te fait ? on ne se battra plus. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    CARTOT. 
+                
+            
+                
+                    Oh ! je le sais bien. 
+                
+            
+            
+                
+                    <stage type="tune">Air du Pas redoublé.</stage> 
+                
+            
+                
+                    <l>Puisque l' bourgeois, cédant son fonds, </l>
+                    <l>S'embarqu' pour l'Amérique, </l>
+                    <l>Et qu'il a dit à ses garçons</l>
+                    <l>D' planter là sa boutique ; </l>
+                    <l>Vivant en paix avec l' voisin, </l>
+                    <l>Qne voulez-vous qu'on craigne ? </l>
+                    <l>N'y a plus qu'à ranger l' magasin, </l>
+                    <l>Et qu'à changer l'enseigne. </l>
+                
+            
+            </lg> </div>
+            
+            C'est donc pas là c'qui m'tracasse ; c'est de n pas pouvoir
+            
+            remuer le bras… A quoi c'est-il hon un garçon brasseur
+            
+            sans bras ? … 
+            
+            Crois-tu
+            
+            quemon père ne se fera pas un honneur de te
+            
+            garder chez-lui ? 
+            
+            VICTOR. 
+            
+            1
+            
+            (6) 
+            
+            CARTOT. 
+            
+            Voť père, M. Victor, c'est le plas honorable des bras
+            dans
+            
+            seurs du Faubourg St.-Marceau, et il ne laissera pas
+            
+            la débine on ouvrier à qui lui-même a donné des armes
+            
+            &gt; 
+            
+            et qui s'en est bien servi, j'puis l'dire : mais, voyez-vous, 
+            
+            j'suis fier moi, et je veux gagner l'argent que je reçois. 
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    VICTOR. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Voilà le Grenadier. 
+                </stage>
+            
+            
+                
+                    <l>Tu l'as gagné par tes services, </l>
+                    <l>Tu l'as gagné par ta valeur ; </l>
+                    <l>Je t'ai vu, sous le feu des Suisses, </l>
+                    <l>Joyeux, mêlant ton sang vainqueur</l>
+                    <l>Au leur, </l>
+                    <l>Tomber sans changer de couleur. </l>
+                    <l>Tous avaient une ardeur pareille…</l>
+                    <l>Ils frappent encor mon oreille, </l>
+                    <l>Au boulevard de Saint-Denis, </l>
+                    <l>Ces cris : </l>
+                    <l>Je meurs ! victoire à mon pays ! </l>
+                    <l>Voilà <stage type="repetition"> (4 fois.)</stage>le peuple de Paris ! </l>
+                
+           
+                
+                    CARTOT. 
+                
+            
+            
+                
+                    Même Air. 
+                
+            
+            
+                
+                    <l>Mais aujourd'hui qu'on est tranquille, </l>
+                    <l>Qu'on ne craint plus de biscayen, </l>
+                    <l>Chacun rentre en son domicile, </l>
+                    <l>On ne se mêle plus de rien, </l>
+                    <l>C'est bien ; </l>
+                    <l>L' soldat fait place au citoyen. </l>
+                    <l>On voit, oubliant la bataille, </l>
+                    <l>L'artisan qui chante et travaille ; </l>
+                    <l>Tous les ouvrages entrepris</l>
+                    <l>Repris, </l>
+                    <l>Et c'est encor pour not' pays ! </l>
+                    <l>Voilà <stage type="repetition"> (4 fois.)</stage> le peuple de Paris ! </l>
+                
+            </lg> </div>
+            
+            
+            <div type="poem"> <lg>
+                
+                    ALEXANDRINE
+                
+                
+, se levant. 
+            
+                    Messieurs, Messieurs, 
+            
+                    il ne faut oublier personne, at
+            
+                    rendre justice à tout le monde. 
+            
+                    6
+            
+) 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air de Julien. 
+                </stage>
+            
+            
+                
+                    <l>Gloire à nos frères de Rouen, </l>
+                    <l>Aux fils de l'antique Neustrie, </l>
+                    <l>Venus des bords de l'Océan, </l>
+                    <l>Au premier cri de la patrie ! </l>
+                    <l>La Charte a reçu leurs sermens, </l>
+                    <l>Ils ne veulent pas qu'on l'immole, </l>
+                    <l>Pour la défendre ils sont présens : </l>
+                    <l>Qu'en dise encor que les Normands</l>
+                    <l>Ne tiennent jamais leur parole ! </l>
+            
+            
+            
+            </lg> </div>
+                    
+                        Mesdames, si vous voulez me suivre, vous donnerez
+            
+                        un coup-d'œil à notre ambulance… vous savez quel plai
+            
+                        sir votre vue fait à ces pauvres blessés…
+                   
+            <div type="poem"> 
+            
+                  <stage type="tune" id="AIR : Povera Signora.">
+               
+                </stage>   
+                        CHŒUR. 
+                    
+            <lg>
+                    <l>À la France, à nous, </l>
+                    <l>Qu'il serait doux</l>
+                    <l>De les sauver tous. </l>
+                
+            </lg> </div>
+            
+            
+            
+            (Les femmes sortent par le gauche ! 
+            
+            SCÈNE II. 
+            
+            BRUNO, CARTOT, MAILLARD, VICTOR. 
+            
+            (Pendant cette scène, Bruno
+            
+            range le salon.)
+            
+            CARTOT, se promène avec humeur, puis s'arrête tout
+            
+            à-coup. 
+            
+            Tenez, M. Victor, vous direz tout ce que vous voudrez…
+            
+            ça démoralise de recevoir de l'argent sans rien faire…
+            
+            MAILLARD. 
+            
+            Vous avez raison, mon ami, mais consolez-vous : si vous
+            
+            étes sage, si vous suivez bien mon régime, avant un mois
+            
+            vous pourrez vous servir de votre bras. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    CARTOT. 
+                
+            
+                
+                    Eh bien à la bonne heure, on sera sage, et l'on suivra le
+                    régime. 
+                    (8) 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Que d'établissemens nouveaux ! 
+                </stage>
+            
+            
+                
+                    <l>C'est de ne plus boire de vin, </l>
+                    <l>De ne plus m'échauffer la bile ; </l>
+                    <l>De me panser soir et matin, </l>
+                    <l>De tenir mon bras immobile. </l>
+                    <l>Oui, je jure de rester coi, </l>
+                    <l>Et de vivre dans l'abstinence…</l>
+                    <l>Je veux bien m'en faire une loi, </l>
+                    <l>Mais n'en fait's pas une ordonnance. </l>
+                
+            </lg> </div>
+            
+            Allons, allons, adieu Monsieur le docteur. 
+            
+            SCENE III, 
+            
+            LES MÊMES, ALEXANDRINE. 
+            
+            CARTOT, sortant, à Alexandrine qui entré. 
+            
+            Au plaisir de vous revoir, mam'selle. 
+            
+            ALEXANDRINE. 
+            
+            Vous nous quittez sitôt ? 
+            
+            CARTOT. 
+            
+            Oui, j'ai une petite commission, une déclaration à faire à
+            
+            la Mairie…. Je parle de travailler.,… si je voulais j'en
+            
+            aurais pas besoin…. mais je ne veux pas…. je vous
+            
+            conterai cela tantôt. A revoir, Monsiear le Docteur, à
+            
+            revoir, M. Victor. 
+            
+            VICTOR
+            
+            Adieu, mon brave. 
+            
+            (Cartot sort.)
+            
+            SCÈNE IV. 
+            
+            MAILLARD, VICTOR
+            
+            VICTOR, ALEXANDRINE, BRUNO. 
+            
+            MAILLARD. 
+            
+            Et moi, il faut que je me rende à l'Hôtel-Dieu ; un élève
+            
+            interne ne doit pas manquer la visite du médecin en chef ! 
+            
+            et d'ailleurs il y a beaucoup de blessés. 
+            
+            (
+            
+            9
+            
+. 
+            
+            VICTOR, 
+            
+            Des citoyens, sans doute ? 
+            
+            
+            <div type="poem"> <lg>
+                
+                    MAILLARD. 
+                
+            
+            
+                
+                    Non, des Suisses… mais n'importe. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Restez, restez, troupe jolie. 
+                </stage>
+            
+            
+                
+                    <l>Chez nous au plus fort d'une affaire, </l>
+                    <l>Le guerrier le plus animé, </l>
+                    <l>Dans l'ennemi ne voit qu'un frère, </l>
+                    <l>Aussitôt qu'il est désarmé. </l>
+                    <l>Moi, je souhaitais d'en abattre, </l>
+                    <l>Autant que j'en puis secourir ; </l>
+                    <l>Je suis français pour les combattre, </l>
+                    <l>Et médecin pour les guérir. </l>
+                
+            
+            </lg> </div>
+            
+            (Il va sortir.)
+            
+            ALEXANDRINE, le retenant. 
+            
+            Mais avant de partir, vous ne prescrivez rien pour mon
+            
+            oncle ? 
+            
+            MAILLARD. 
+            
+            Ma foi, que voulez vous que je vous dise ? le pauyre
+            
+            cher homme est dans un état de somnolence qui ne peut
+            
+            guère durer à présent : il faut laisser agir la nature. 
+            
+            BRUNO. 
+            
+            C'est bien étonnant, depuis dix jours bientôt qu'il est
+            
+            engourdi, qu'il n'y ait pas de mieux ! 
+            
+            VICTOR
+            
+            Mais qui donc a pu causer cette espèce de léthargie ? 
+            
+            ALEXANDRINE. 
+            
+            C'est une méprise de ce maladroit de Brụno. Mon oncle
+            
+            était à Saint-Cloud, où son service de gentilhomme de la
+            
+            chambre le retenait au château… Le lundi son banquier, 
+            
+            qui avait été lui porter un remboursement considérable, 
+            
+            arrive ici tout effrayé, annouce que le marquis est en proie
+            
+            à un violent accès de goutte ; aussitôt on envoie une voi
+            
+            ture, on le ramène… le voyage n'avait fait qu'augmenter
+            
+            ses douleurs… vous savez comme il est emporté… pour
+            
+            le calmer, on lui offre sa potion ordinaire… mais on
+            
+            se
+            
+            trompe de flacon et il prend tout le laudanum, dont on de
+            
+            vait mêler quelques gouttes à sa boisson. 
+            
+            Dix jours. 
+            
+            2
+            
+            r
+            
+            (10) 
+            
+            MAILLARD. 
+            
+            La dose était forte ! en voulant donner du repos à sa goutte, 
+            
+            vous avez bien manqué d'en donner à son âme. 
+            
+            BRUNO. 
+            
+            Et bien, Monsieur, quand j'y pense, je crois que ma
+            
+            maladresse n'est pas si gauche… songez donc quelle peur
+            
+            il aurait eue, quel tourment pendant les jours qui vien
+            
+            nent de se passer…
+            
+            MAILLARD
+            
+            Ah ! avec ses vieilles idées… il en'eût perdu la tête. 
+            
+            S'il allait la perdre à son réveil ? 
+            
+            ALEXANDRINE. 
+            
+            MAILLARD, 
+            
+            Aussi ayez grand soin de le ménager : qu'il n'apprenne
+            
+            pas brusquement les changemens qui viennent de s'opé
+            
+            rer… écartez de lai tout ce qui pourrait les lui faire soup
+            
+            çonner… Par exemple, Mademoiselle ces rubans trico
+            
+            lores… (Alexandrine serre dans une corbeille des rubans
+            
+            et des cocardes.) Quant à M. Victor, j'espère bien qu'il
+            
+            tiendra son chapeau derrière lui, pour qu'on ne voie pas sa
+            
+            cocarde. 
+            
+            VICTOR. 
+            
+            Oh ! moi, j'ai autre chose à lui cacher…
+            
+            c'est moi
+            
+            même… il ne faut pas qu'il me voie ici… mais nous
+            
+            avons encore le temps. 
+            
+            BRUNO. 
+            
+            Pas trop, pas trop : déjà ce matin il s'est éveillé à demi…
+            
+            justement, pour me désennuyer, je jouais la Marseillaise
+            
+            sur mon violon… j'ai eu une peur ! … mais je me suis
+            
+            mis bien vîte à râcler vive Henri IV, ça la rendormi. 
+            
+            VICTOR. 
+            
+            Je le crois bien… il y a seize ans qu'on nous berce
+            
+            avec cet air là. 
+            
+            MAILLARD, 
+            
+            Au reste soyez tranquille, je reviendrai vous voir après
+            
+            ma visile. 
+            
+            (Il sort ; Bruno le reconduit.)
+            
+            1
+            
+            SCÈNE V. 
+            
+            VICTOR, ALEXANDRINE. 
+            
+            VICTOR. 
+            
+            Enfin nous voilà
+            
+            seuls, Mademoiselle : et je puis unir à
+            
+            l'expression de l'enthousiasme que m'a causé votre belle
+            
+            conduite, celle d'un amour dont jusqu'alors vous n'avez
+            
+            pas repoussé l'hommage. 
+            
+            ALEXANDRINE. 
+            
+            Hélas ! comment parler de nos sentimens au mileu d'nn
+            
+            bouleversement semblable ? qui sait ce que nous serons
+            
+            demain ? car, j'ignore quel parti mon oncle va prendre ; son
+            
+            rang est incertain, sa place perdue, sa fortune compro
+            
+            mise. 
+            
+            VICTOR. 
+            
+            Ra son de plus, Mademoiselle ; riche et titré, fier de ses
+            
+            fonctions, encore plus que de sa naissance, il aurait pu re
+            
+            pousser avec dédain le fils d'un brasseur : il voulait des
+            
+            grades, des distinctions, un nom dans son gendre, de la
+            
+            fortune… Eh bien ? … de la fortune, j'en ai… Un nom…
+            
+            je viens d'en conquérir un… le reste, j'y puis atteindre…
+            
+            Elève de l'École Polytechnique, je puis m'élever aux pre
+            
+            miers grades de l'armée, et si par bonheur il est ruiné, 
+            
+            comme vous le dites, je ne vois plus quelles raisons…
+            
+            ALEXANDRINE, 
+            
+            Ah ! vous ne connaissez pas mon oncle. 
+            
+            VICTOR. 
+            
+            Comment ! l'esprit de parti l'aveuglerait-il au point ? …
+            
+            ALEXANDRINE. 
+            
+            L'esprit de parti… Oh ! non, un gentilhomme de la
+            
+            chambre n'a point de parti, 
+            
+            VICTOR. 
+            
+            Excepté celui qui paie. 
+            
+            ALEXANDRINE. 
+            
+            Mais l'orgueil de son nom…
+            
+            
+            <div type="poem"> <lg>
+                
+                    VICTOR. 
+                
+            
+            
+                
+                    Le grand nom : M. de Courbignac ! Qu'est-ce qui connaît
+            
+                    ça ? 
+            
+                    Y aurait-il quelqu'un ici qui pourrait me le dire ? Qui
+            
+                    est-ce qui ne connaît pas, au contraire, Royer, brasseur, 
+            
+                    1
+            
+                    (12) 
+            
+                    rue Mouffetard, faubourg Saint-Marceau ? … Et s'il m'était
+            
+                    permis de parler de moi… de quelques succès à l'Hôtel
+                    de-Ville…
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR de la Robe et les Bottes. 
+                </stage>
+            
+            
+                
+                    <l>Là je me suis rendu célèbre, </l>
+                    <l>Deux fois j'y suis resté vainqueur ; </l>
+                    <l>La première, à force d'algèbre, </l>
+                    <l>La seconde, à force de cœur. </l>
+                    <l>Mais à l'examen l'on isole, </l>
+                    <l>Le mérite entre les rivaux ; </l>
+                    <l>Nous avions des rangs à l'école, </l>
+                    <l>Au combat nous étions égaux. </l>
+                
+            </lg> </div>
+            
+            
+            ALEXANDRINE. 
+            
+            Certainement, M. Victor, vous avez beaucoup de mé
+            
+            rite, et Monsieur votre père est un fort honnête homme ; 
+            
+            1
+            
+            mais si mon oncle perd sa fortune, il ne consentira jamais
+            à notre union, 
+            
+            /
+            
+            VICTOR. 
+            
+            C'est ce que nous verrons : car aujourd'hui même, s'il se
+            
+            réveille, bien entendu, il recevra de mon père une de
+            
+            mande en mariage. 
+            
+            ALEXANDRINE. 
+            
+            Aujourd'hui ! vous n'y pensez pas, 
+            
+            
+            <div type="poem"> <lg>
+                
+                    VICTOR. 
+                
+            
+            
+                
+                    Ao contraire, Mademoiselle, je ne pense qu'à cela ; mais
+            
+                    il faut se presser, ., tout va si vite maintenant…
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Vaudeville de l'Anonyme. 
+                </stage>
+            
+            
+                
+                    <l>À droite, à gauche, inconstant et volage, </l>
+                    <l>Le bonheur va… tant pis pour qui l'attend ; </l>
+                    <l>Il faut courir et le prendre au passage, </l>
+                    <l>Puis le mener ferme et tambour battant. </l>
+                    <l>Pour secourir, pour sauver la patrie, </l>
+                    <l>Pour vous aimer, pour avoir votre main, </l>
+                    <l>Je m'en rapporte à la géométrie : </l>
+                    <l>La ligne droite est le plus court chemin. </l>
+                
+            </lg> </div>
+            
+            ALEXANDRINE. 
+            
+            Je crains cette entrevue de votre père avec mon oncle : 
+            
+            vous savez combien ils diffèrent d'opinion. 
+            
+            (13) 
+            
+            VICTOR. 
+            
+            Aujourd'hui il n'y en a plus qu'une. 
+            
+            ALEXANDRINE. 
+            
+            Si encore j'avais le temps de le préparer…
+            
+            VICTOR. 
+            
+            Si vous m'aimez, chère Alexandrine, ne retardez pas
+            
+            cette démarche qui doit assorer notre bonheur. 
+            
+            ALEXANDRINE. 
+            
+            Eh bien ! qu'il vienne… mais qu'il le ménage. 
+            
+            VICTOR. 
+            
+            Oh ! soyez tranquille… je vais le voir en retournant au
+            
+            poste de l'hôtel-de-Ville, et j'espère ce soir avoir une bonne
+            
+            réponse. 
+            
+            ALEXANDRINE. 
+            
+            Vous êtes de garde ? 
+            
+            VICTOR. 
+            
+            Nous ? … toujours. Je repasserai tout-à-l'heure sur le
+            
+            boulevard à la tête d'une compagnie de garde nationale, 
+            
+            soyez assez bonne pour vous mettre à la fenêtre… je vous
+            
+            verrai encore, cela me fera prendre patience. 
+            
+            Je vous le promets, adieu. 
+            
+            ALEXANDRINE. 
+            
+            (Victor sort.)
+            
+            SCÈNE VI. 
+            
+            ALEXANDRINE, seule. 
+            
+            Je n'ose me livrer à l'espoir ! et pourtant voilà les pro
+            
+            jets de grandeur de mon oncle détruits… Dien merci, il
+            
+            ne pourra plus te faire une grande dame ! alors Victor…
+            
+            Comme il est long, à s'éveiller, mon cher oncle ! … Je
+            
+            brûle d'impatience de lui annoncer la visite de M. Royer…
+            
+            En attendant, chantons le Saule de Saint-Hélène, cette
+            
+            romance que m'a donné Victor… Chanter ses vers, C'est
+            
+            m'occuper de lui… Une romance sur Napoléon ! Si mon
+            
+            oncle m'entendait ! … Oh ! tiens, à présent, il n'y a pas de
+            
+            mal, ce n'est plus défendu : on ne rougit plus de sa gloire, 
+            
+            et l'on n'a plus peur de son nom ! 
+            
+            1
+            
+            (14) 
+            
+            
+            <div type="poem"> <lg>
+                
+                    ROMANCE. 
+                
+                
+                    (1) 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air de Bélisaire. 
+                </stage>
+            
+            
+            
+                
+                    PREMIER COUPLET. 
+                
+            
+            
+                
+                    <l>Il mesura de son regard, </l>
+                    <l>Et les déserts de l'Arabie, </l>
+                    <l>Et les rochers du Saint-Bernard, </l>
+                    <l>Et les glaçons de la Russie. </l>
+                    <l>L'univers qu'il a parcouru, </l>
+                    <l>Semblait devenu son domaine ; </l>
+                    <l>Tant de grandeur a disparu, </l>
+                    <l>Sous le saule de Saint-Hélène. </l>
+                
+            
+            
+                
+                    DEUXIÈME COUPLET. 
+                
+            
+            
+                
+                    <l>Lui qui brillait comme un flambeau, </l>
+                    <l>Au front de la colonne altière…</l>
+                    <l>À ses pieds il veut un tombeau, </l>
+                    <l>Non dans cette île meurtrière. </l>
+                    <l>C'est aux Anglais qu'est ce rocher, </l>
+                    <l>C'est à nous ce grand capitaine ! …</l>
+                    <l>Un vieil ami l'ira chercher, </l>
+                    <l>Sousle saule de Saint-Hélène. </l>
+                
+            </lg> </div>
+            (A la fin du second couplet on entend une marche de tambours.)
+            
+            Ah ! le voilà qui passe, il faut que je tienne ma promesse. 
+            
+            (Elle sort en courant.)
+            
+            SCÈNE VII. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    LE MARQUIS
+                
+                
+, entrant brusquement ; il est påle et défait ; 
+            
+                    coiffé en poudre, ailes de pigeons et queue ; culotte, bas
+            
+                    de soie et petites bottes, robe de chambre.)
+            
+                    Qu'est-ce que c'est, qu'est-ce que c'est que le Saule de
+            
+                    Saint-Hélène ? ça m'a réveillé en sarsaut ! … Ma nièce
+            
+                    1
+            
+                    elle veut donc me compromettre ! … Oh ! Saint-Hélène ! 
+            
+                    chante des chansons séditieuses, du Béranger peut-être…. 
+            
+                    c'est peut-être quelque cantique, une légende pieuse, que
+            
+                    le père Loriquet lui aura envoyée… (Il se jette dans un
+            
+                    fauteuil.) Ak ! j'ai bien dormi ! ce petit somme m'a remis ; 
+            
+                    et puis je faisais un si beau rêve ! …
+            
+                    (1) Ces couplets font partie d'une Romance qui se trouve à la
+            
+                    fin de la Pièce. 
+            
+                    (
+            
+                    15
+            
+) 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR du Vaudeville de l'Épée et le Bâton. 
+                </stage>
+            
+                
+                    <l>Pourquoi me réveiller ? </l>
+                    <l>Ah ! le beau rêve, </l>
+                    <l>S'il s'achève ! </l>
+                    <l>Pourquoi me réveiller ? </l>
+                    <l>Je voudrais encore sommeiller, </l>
+                
+                
+                    <l>Plus de ces vils impôts, </l>
+                    <l>Qui vexaient la noblesse ; </l>
+                    <l>Plus de ces longs journaux, </l>
+                    <l>Qui troublaient son repos. </l>
+                    <l>Nous n'étions plus égaux, </l>
+                    <l>Sous la loi qui nous blesse ; </l>
+                    <l>Nous avions nos créneaux, </l>
+                    <l>Et nos droits féodaux…</l>
+            
+            
+                    <l ana="unanalyzable">Pourquoi me réveiller ? etc. </l>
+                
+                
+                    <l>Tout noble sans argent, </l>
+                    <l>Allait à la pairie ; </l>
+                    <l>Et sa femme à l'instant, </l>
+                    <l>Obtenait le pliant. </l>
+                    <l>Nos cadets en naissant</l>
+                    <l>Avaient une abbaye ; </l>
+                    <l>Les aînés en têtant, </l>
+                    <l>Avaient un régiment. </l>
+            
+            
+                    <l ana="unanalyzable">Pourquoi me réveiller ? etc. </l>
+                
+            </lg> </div>
+            Je sens
+            
+            encore un peu d'engourdissement…… Pourvu
+            
+            que cette maudite goutte ne m'ait pas ôté la
+            
+            flexibilité, 
+            
+            la souplesse d'articulation qui me distinguait…… Essayons
+            
+            un peu mon salut, ce salut qui me vaut toujours un regard
+            
+            de bienveillance et un sourire de protection…… 
+            
+            Juste
+            
+            ment, j'ai là le buste…… (Il se campe en marquis, et
+            
+            s'avance, avec une démarche affectée, vers le piécleslal ; 
+            
+            il fait un salut, et, en se relevant, s'aperçoit de l'absence
+            
+            du buste.) Dieu ! comment ? …… Qui est-ce qui a osé dé
+            
+            placer ? …… (On entend Bruno jouer la Marseillaise sur le
+            
+            violon.) Ah ! mon dieu ! je ne me trompe pas… oui, vrai
+            
+            ment, c'est la Marseillaise, la Marseillaise dans mon hôtel ! 
+            
+            l'air de la liberté ! … Ils me feront mettre en prison, c'est
+            
+            sûr ! Il faut que je sache à l'instant… Sonnons ! (En vou
+            
+            lant se rendre précipitamment vers la sonnette, 
+            
+            il heurte et
+            
+            renvarse la corbeille à ouvrage d'Alexandrine. 
+            
+-
+            
+            Les objets
+            
+) 
+            
+            qu'elle contient s'éparpillent, et l'on voit des cocardes et des
+            des co
+            
+            rubans (ricolores.) En voilà bien d'une autre ! …
+            
+            cardes et des rubans tricolores ! … Ab ! miséricorde ! plus
+            
+            de doute, ma maison est le foyer d'une conspiration ! je
+            
+            suis sur un volcan ! … Pauvre marquis, tu vas sauter ! …. 
+            
+            Que faire ? que devenir ? … Il n'y a qu'un moyen, c'est de
+            
+            partir pour Saint-Cloud, de me jeter aux pieds des minis
+            
+            tres… (Il sonne.) Cachons ces signes de raliement. 
+            
+            SCÈNE VIII. 
+            
+            LE MARQUIS, BRUNO
+            
+            BRUNO. 
+            
+            Mam'selle, me'v'là… Tiens, c'est Monsieur ! il est ré
+            
+            veillé ! … Ah ! bien, s'il m'a entendu je ne risque rien…
+            
+            LE MARQUIS. 
+            
+            Quel air avez-vous joué tout-à-l'heure ? 
+            
+            BRUNO. 
+            
+            C'est ça ! … Quel air, Monsieur ? … c'est, Monsieur…
+            
+            LE MARQUIS. 
+            
+            Ne pouvez-vous pas dire M. le Marquis ? 
+            
+            BRUNO. 
+            
+            M. le Marquis, c'est l'air : Charmante Gabrielle… Il aime
+            
+            celui-là… avec des variations. 
+            
+            LE MARQUIS. 
+            
+            Ah ! avec des variations… ç'est donc ça que je ne
+            
+            le
+            
+            re
+            
+            connaissais pas. 
+            
+            BRUNO. 
+            
+            C'est toujours comme ça les variations. 
+            
+            LE MARQUIS. 
+            
+            Et m'expliquerez-vous aussi facilement pourquoi ce buste
+            
+            ne se trouve pas à sa place ? 
+            
+            BRUNO. 
+            
+            Aussi facilement… c'est difficile… Ah ! M. le Mar
+            
+            quis, il ne faut pas le regretter… depuis long-temps il. 
+            
+            n'était pas d'aplomb, il penchait tout du côté droit… Ma'
+            
+            foi, il y a quelques jours, il a perdu l'équilibre, une se
+            cousse, et il est tombé. 
+            
+            Il fallait le replacer. 
+            
+            (
+            
+            1
+            
+) 
+            
+            LE MARQUIS. 
+            
+            BRUNO. 
+            
+            Ah ! c'est qu'il s'était cassé le nez, et il n'était plus prén
+            enf et sans
+            
+            sentable ; mais nous en avons, un autre tout
+            
+            taches. 
+            
+            LE MARQUIS, 
+            
+            A la bonne heure ! (
+            
+            A part.) Tout cela n'est pas clair, … 
+            
+            Ce Bruno a on air sournois qui annonce bien un conspira
+            
+            teur…. il n'a jamais su faire mes ailes de pigeon… je
+            
+            m'en suis toujours méfié. 
+            
+            BRUNO. 
+            
+            1
+            
+            Ma foi, je ne m'en sais pas mal tiſé, 
+            
+            LE MARQUIS. 
+            
+            Je suis certain qu'il se passe ici quelque chose. Il faut
+            
+            suivre ma première idée… aller à Saint-Cloud…
+            
+            BRUNO, à part. 
+            
+            J'aime mieux que ce soit Mademoiselle qui lui apprenne
+            
+            tout… A propos, il faut que je lui porte cette lettre que
+            M. Victor vient d'envoyer pour elle. 
+            
+            (A va sortir.)
+            
+            LE MARQUIS. 
+            
+            Bruno, restez… vous allez m'habiller. 
+            
+            BRUNO, revenant el cachant la lettre. 
+            
+            Oui, M. le Marquis. 
+            
+            LE MARQUIS. 
+            
+            Qu'est-ce que
+            
+            c'est que ce papier que vous cachez ? 
+            
+            BRUNO. 
+            
+            C'est une lettre poor Mademoiselle. 
+            
+            LE MARQUIS. 
+            
+            Pour Mademoiselle ! Donne… comme son tuteur, j'ai le
+            
+            droit… C'est peut-être un des fils de la conspiration…
+            
+            (Il lit.) « Mademoiselle, je n'ai pas trouvé mon père chez
+            
+            » lui, je sais seulement qu'il doit aller voir aujourd'Ami
+            
+            » votre oncle. Si vous voulez éviter une scène fâcheus, 
+            
+            » faites en sorte de prévenir l'un ou l'autre… Victos
+            
+            » ROYER. » Oh ! oh ! le fils de ce libéral déterminé que
+            
+            nous n'avons jamais pu décider à voter pour le ministère. 
+            
+            Voilà qui est bien mystérieux ! Que diable ça peut-il être ? 
+            
+            Décidément ma nièce est du complot… N'importe, exé
+            
+            Dix Jours. 
+            
+            1
+            
+            (18) 
+            
+            cutons mon projet ; d'ailleurs, il faut toujours que j'aille au
+            
+            château, mon service… et puis ces fonds que j'avais reçus
+            
+            le jour même de mon accès de goutte… Bruno, mon
+            habit. 
+            
+            Votre habit rouge ? 
+            
+            Sans doute. 
+            
+            BRUNO. 
+            
+            LE MARQUIS. 
+            
+            BRUNO. 
+            
+            Eh bien ! je ne vous conseille pas de mettre celui-là…
+            
+            on vous pourrait prendre pour un Suisse. 
+            
+            LE MARQUIS. 
+            
+            Imbécille ! puis-je en mettre un autre pour aller à Saint
+            
+            Cloud ? 
+            
+            BRUNO. 
+            
+            Vous me croirez si vous voulez, mais je ne vous con
+            
+            seille pas non plus d'y aller. 
+            
+            LE MARQUIS. 
+            
+            Ah ! voilà qui est singulier ! … Et pourquoi, M
+            
+            Bruno ? 
+            
+            BRUNO. 
+            
+            Parce que… parce que… je crois que c'est inntile. 
+            
+            LE MARQUIS. 
+            
+            Vous croyez ? Le sot ! … (A part.) il a quelqu'idée
+            
+            cachée… (Haut.) Je dois des visites… Vous porterez
+            
+            ces cartes… M. de Blaincourt… Madame de Lussan…
+            
+            BRUNO. 
+            
+            1
+            
+            Ah ! oui, je sais, rue de la Victoire, rue Lafayette…
+            
+            LE MARQUIS. 
+            
+            Qu'est-ce que c'est ? qu'est-ce que
+            
+            BRUNO. 
+            
+            Non, non, Monsieur, c'est que…
+            
+            c'est
+            
+            que ces rues là ? 
+            
+            SCÈNE IX. 
+            
+            LES MÊMES, ROYER. 
+            
+            ROYER, entrant brusquement. 
+            
+            A la bonne heure donc ! on peut entrer aujourd'hui… il
+            
+            n'y a pas quatre grands laquais pour barrer le passage. 
+            
+            Hein ? 
+            
+            C'est moi ! 
+            
+            (119) 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            BRUNO, à
+            
+            part. 
+            
+            M. Royer ! … Ma foi, ilne peat pas l'échapper, il va
+            
+            tout savoir… Garre la goutte ! 
+            
+            (Il sort.)
+            
+            SCÈNE X. 
+            
+            LE MARQUIS, ROYER. 
+            
+            LE MARQUIS. 
+            
+            Celui-là va peut-être me mettre au fait. (Avec hauteur, 
+            
+            à Royer.) Vous entrez sans vous faire annoncer… Oh
+            
+            sont donc mes valets ? 
+            
+            ROYER. 
+            
+            1
+            
+            Je les ai vus en venant… ils sont à leur poste. 
+            
+            Eh bien ! alors…
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            Sur le boulevard du Temple. 
+            
+            Sur le boulevard ? 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            Ah ! ça, c'est chez vous comme partout, à ce que je vois : 
+            
+            ça va mieux. Ce que c'est que l'air de la liberté, ça guérit
+            
+            même les plus malades ! 
+            
+            LE MARQUIS. 
+            
+            La liberté ! Monsieur, si c'est pour tenir des propos. som
+            
+            hlables que vous venez chez moi…
+            
+            ROYER. 
+            
+            Comment ? 
+            
+            Si un de nos amis l'avait entendu, j'étais destitué. 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            Certainement, je n'en tiendrai pas d'autres sur ce cha
+            
+            pitre là… Je conçois que vous ne soyez pas habitué à ce
+            
+            langage ; mais vous vous y ferez…
+            
+            Jamais, Monsieur. 
+            
+            LE MARQUIS. 
+            
+            RØYER. 
+            
+            Parlons donc de ce qui m'amène. J'ai un fils que vous
+            
+            connaissez…
+            
+            LE MARQUIS. 
+            
+            Oui, Monsieur, oui, j'ai rencontré votre fils dans des
+            
+            maisons fort honorables. 
+            
+            ROYER. 
+            
+            Il ne va que dans celles là. 
+            
+            *LE MARQUIS. 
+            
+            Chez le comte de Grandville…. 
+            
+            ROYER. 
+            
+            Maître de forges et d'asines considérables ; c'est lui qui
+            
+            me fournit mes chaudières… Or donc, 
+            
+            il a vu votre
+            
+            nièce…
+            
+            C'est possible. 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            Elle est charmante, votre pièce… bonne, polie, ave
+            
+            nante… enfin, il en est devenu amoureux. 
+            
+            Il a osé ! …
+            
+            Il s'en est fait aimer. 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            LE MARQUIS. 
+            
+            Monsieur, vous calomniez ma nièce ! 
+            
+            ROYER. 
+            
+            C'est vous qui calompiez mon fils ! Pourqapi donc #e
+            
+            l'aimerait-on pas, ce jeune homme ? 
+            
+            LE MARQUIS. 
+            
+            Enfin, Monsieur, où voulez-vous en venir ? 
+            
+            ROYER. 
+            
+            Je venx en venir au point que tout bon père désire : au
+            
+            bonheur, à l'union de nos enfans. 
+            
+            Allons donc, Monsieur, vous n'y pensez pas. 
+            
+            LE MARQUIS. 
+            
+            Si fait bien…
+            
+            ROYER. 
+            
+            LE MARQUIS. 
+            
+            Ma nièce n'épousera que le fils d'un pair. 
+            
+            (21) 
+            
+            ROYER. 
+            
+            Èh bien ! est-ce que mon fils n'est pas'tfils… ? 
+            
+            LE MARQUIS. 
+            
+            D'un pair de France ! 
+            
+            ROYER, riant. 
+            
+            Suis-je d'Allemagne ou de Congo ? mais je vous com
+            
+            prends : tenez, mon cher Monsieur, je leur conseille d'a
+            
+            voir do mérite à vos fils de pairs ; car s'ils comptent'sör
+            
+            leurs titres pour être quelque chose… je crois qu'ils ne
+            seront rien. 
+            
+            LE MARQUIS. 
+            
+            Mon neveu sera toujours un homme important… j'ai
+            
+            da crédit à la cour. 
+            
+. 
+            
+            ROYER. 
+            
+            J'en ai à la Bourse, moi… c'est plus sûr… mais pour
+            
+            refuser mon fils, le connaissez-vous ? savez-vous qu'il est
+            
+            volontaire ? … 
+            
+            LE MARQUIS. 
+            
+            Ça ne m'étonne pas, tous les enfans de la révolution
+            
+            le sont' ; ma nièce aussi est volontaire. 
+            
+            Bah ! … si c'était un garçon, je ne dis pas, parce qu'elle
+            
+            ROYER. 
+            
+            a de la tête. 
+            
+            LE MARQUIS. 
+            
+            Au fait, M. Royer, votre fils n'est qu'un enfant. 
+            
+            ROYER
+            
+            Il a fièrement grandi depuis dix jours. 
+            
+            LE MARQUIS. 
+            
+            Encore à l'école… car tou's autres vous y envoyez tous
+            
+            vos enfans… au fait, des roturiers, il faut que ça travaille. 
+            
+            ROYER. 
+            
+            Il en est sorti de l'école… sans permission, par exemple. 
+            
+            C'est fort beau ! 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            Ah ! dame, d'abord je n'étais pas trop content de le sa
+            
+            voir exposé à recevoir un coup de feu, ou un coup d'épée. 
+            
+            Il s'est donc battu ? … 
+            
+            LE MARQUIS. 
+            
+            Comme un diable ! 
+            
+            Voilà on joli sujet ! 
+            
+            ROYER. 
+            
+            LE MARQUIS. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    ROYER. 
+                
+            
+            
+                
+                    Je vous en réponds ! … Et il n'est pas le seal ; il fallait
+            
+                    voir l'École de Droit, l'École de Médecine, tous nos
+                    étudians…
+                
+            
+            
+            
+                <stage type="tune">
+                    Air de Turenne. 
+                </stage>
+            
+            
+                
+                    <l>Gloire aux enfans de nos écoles ! </l>
+                    <l>On les a vus, grands citoyens, </l>
+                    <l>Par leur exemple, leurs paroles, </l>
+                    <l>Guider nos héros Plébéïens ! </l>
+                    <l>À peine encore on peut le croire, </l>
+                    <l>Ils ont, généraux et soldats, </l>
+                    <l>Mis de l'ardeur dans les combats, </l>
+                    <l>Et de l'ordre dans la victoire. </l>
+                
+            </lg> </div>
+            
+            Trois jours de suite sous les armes… Il s'est défendu six
+            
+            heures à la Ville, au pont d'Arcole ; il a conduit nos Fau
+            
+            bouriens au siégé de Babylone, où il a fait épargner des
+            
+            Suisses…
+            
+            LE MARQUIS. 
+            
+            Comment des Suisses dans Babylone ? 
+            
+            ROYER. 
+            
+            Il a fait planter le drapeau tricolore sar les Tuileries…
+            
+            Le drapeau tricolore sur les Tuileries ! Ah ça ! qu'est-ce
+            
+            LE MARQUIS. 
+            
+            que vous venez me conter là ? … 
+            
+            Ce que tout le monde sait. 
+            
+            ROYER. 
+            
+            Il est fou, Dieu me pardonne… (Haut.) Un élève de
+            
+            LE MARQUIS, à part. 
+            
+            l'École Polytechnique ? 
+            
+            ROYER. 
+            
+            Oh ! ses camarades en ont tous fait autant. Aussi, c'est
+            
+            un titre à présent. Chaque famille nous les envie… quand
+            
+            on les rencontre, on ôte son chapeau…, de vienx géné
+            
+            raux leur serrent la main… au spectacle on leur jette des
+            
+            (23) 
+            
+            couronnes… partout en les voyant, on dit : voilà đes
+            
+            braves ! et Lafayette les'a embrassés ! 
+            
+            LE MARQUIS. 
+            
+            Ah ! ah ! … quel galimathias ? … des braves… des cou
+            
+            ronnes… Lafayette…
+            
+            ROYER. 
+            
+            Oui, Lafayette ! 
+            
+            C'est une fièvre chaude ! 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            Mais vons avez l'air de ne pas me comprendre ! 
+            
+            LE MARQUIS. 
+            
+            Il ne faut pas le contrarier… Si fait, si fait, je vous.-
+            
+            fais compliment de la bravoure de votre fils… sans doute
+            
+            les ministres l'auront recompensé ? 
+            
+            Les ministres… lesquels ? 
+            
+            ROYER. 
+            
+            Le cabinet de St.-Cloud. 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            Fi donc ! Monsieur, fi donc ! nous n'en voulons pins en
+            
+            tendre parler. 
+            
+            LE MARQUIS. 
+            
+            Monsieur, si vous continuez, je me verrai obligé d'en
+            
+            voyer chercher des gendarmes, de faire prévenir M. Man
+            
+            gin, et il est probable que le sieur Boudet…
+            
+            ROYER, riant aux éclats. 
+            
+            Ah ! ah !'ah ! Gendarmes ! Mangin, Boudet ! ah ! ah ! ah ! 
+            
+            Eh bien ! voilà qu'il se met à rire ? on ne peut plus ef
+            
+            LE MARQUIS. 
+            
+            frayer le peuple, il n'y a plus de ressources. 
+            
+            ROYER. 
+            
+            Oui, oni, il y a quelque temps, ces trois mots là fai
+            
+            saient trembler ; mais à présent… ah ! ah ! ah !'on en rit. 
+            
+            Décidément, le libéralisme lui a tourné la tête. 
+            
+            LE MARQUIS. 
+            
+            ROYER. 
+            
+            Pauvre homme ! l'absolutisme l'a rendu imbécille. 
+            
+            (21) 
+            
+            SCENE XI. 
+            
+            LES MÊMES, MAILLARD. 
+            
+            MAILLARD. 
+            
+            Comment, Monsieur le marquis, vous voilà debout ! … 
+            
+            et en conversation avec. M. Royer…
+            
+            En conversation avec un fou ! … 
+            
+            LE MARQUIS. 
+            
+            RQYER, riant. 
+            
+            Ah ! ah ! ah ! vous arrivez à propos, docteur, ce pauvre
+            
+            marquis entrait dans une colère qui pouvait amener une
+            
+            rechûte. 
+            
+            MAILLARD. 
+            
+            Je crois bien, si vous lui avez tout d'an coup appris ce
+            
+            qui s'est passé pendant son sommeil. 
+            
+            ROYER. 
+            
+            Pendant son sommeil ? 
+            
+            MAILLARD
+            
+            Eh oui ! 
+            
+            il s'est endormi lundi, 26 juillet, et se réveille
+            
+            pour la première fois aujourd'hui 7 août. 
+            
+            ROYER. 
+            
+            Il ignorait donc tout ? 
+            
+            Apparemment. 
+            
+            MAILLARD. 
+            
+            ROYER. 
+            
+            Je ne m'étonne plus de sa surprise. 
+            
+            1
+            
+            Ab ça ! tout ce qu'il m'a dit est donc vrai ? 
+            
+            LE MARQUIS, qui les a écoutés d'un air stupide, 
+            
+            MAILLARD. 
+            
+            Mais, je le suppose. 
+            
+            LE MARQUIS. 
+            
+            Comment ! le Louvre ! les Tuileries ! … 
+            
+            MAILLARD. 
+            
+            Ont été envabis de vive force par le peuple, ainsi que
+            
+            St.-Cloud et Rambouillet. 
+            
+            Mais… les ministres… la cour ? … 
+            
+            LE MARQUIS. 
+            
+            MAILLARD, 
+            
+            Tout cela est renversé, la Charte seule est restée deboat. 
+            
+            (25) 
+            
+            LE MARQUIS. 
+            
+            Où étions nous donc, nous autres royalistes ? 
+            
+            MAILLARD. 
+            
+            Plus de censure, plus de jésuites, plas d'esclavage ; 
+            
+            liberté, liberté en tout et partout, en un mot révolution
+            
+            complete. 
+            
+            LE MARQUIS. 
+            
+            Assez, docteur… assez…'vous, mon médecin… vous
+            
+            me rendrez malade… vous me ferez mourir…
+            
+            
+            <div type="poem"> <lg>
+                
+                    ROYER. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : La p'tite Isabelle. 
+                </stage>
+            
+            
+                
+                    <l>La liberté qu'on nous ramène, </l>
+                    <l>Va fair' des prodiges nouveaux ; </l>
+                    <l>La gaîté r'viendra sur la scène, </l>
+                    <l>La franchise dans les journaux. </l>
+                    <l>On pourra s' plaindre d'une injure, </l>
+                    <l>Dir' la vérité sans trembler. </l>
+                    <l>Plus de censure, </l>
+                    <l>Plus de rature</l>
+                    <l>Plus de rognure : </l>
+                    <l>On nous le jure, </l>
+                    <l>Laissez aller. </l>
+                
+            
+            
+            
+            
+            
+                
+                    (Parlé. 
+            
+) On pourra dire son avis sur les ministres, dé
+            
+                    masquer les ambitieux, parler des faux dévots, des tar
+            
+                    tuffes et des jésuites : … 
+                    (Chanté.)
+                
+            
+            
+                
+                    <l>Sans dissimuler…</l>
+                    <l>Vive la liberté d'la presse, </l>
+                    <l>On nous laisse</l>
+                    <l>Écrire et parler. </l>
+                
+                 <stage type="repetition"> (Il reprend le refrain avec Maillard, et ils sortent.)</stage>
+                
+            </lg> </div>
+            
+           
+            
+            SCENE XII, 
+            
+            
+            <div type="poem"> <lg>
+                
+                    LE MARQUIS
+                
+                
+, seul, assis. 
+            
+                    Je craignais une conspiration ! c'est bien pis : la révo
+            
+                    lution
+            
+                    avec
+            
+                    tous ses accessoires… 93, tout entier ! et
+            
+                    les prisons et les victimes, et les septembriseors, et les dé. 
+            
+                    ? 
+            
+                    Dix Jours. 
+            
+                    4
+            
+                    (26) 
+            
+                    cemvirs ! … Dieu ! que d'horreurs ! et comment échapper
+            
+                    sans passeport ? … les barrières seront fermées… et si je
+            
+                    reste, les visites domiciliaires me découvriront… du cou
+            
+                    rage… émigrons ! ça nous a déjà réussi une fois…
+                
+            
+            
+                <stage type="tune">
+                    AIR : Vos Maris en Palestine. 
+                </stage>
+            
+            
+                
+                    <l>Noble France, qui regrettes</l>
+                    <l>Mon nouvel éloignement ; </l>
+                    <l>Je te laisse quelques dettes, </l>
+                    <l>C'est mon seul bien à présent, </l>
+                    <l>Admire mon dévouement. </l>
+                    <l>Fais qu'il ne soit pas stérile, </l>
+                    <l>Tu vois ce qu'il m'a coûté ; </l>
+                    <l>Je connais ton équité…</l>
+                    <l>Je reviendrai, sois tranquille, </l>
+                    <l>Pour toucher l'indemnité. </l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            Tâchons de nous déguiser… mes ailes de pigeon pour
+            
+            raient me trahir, il faut en faire le sacrifice… (il prend
+            
+            des ciseaux.) Renoncer à une existence si agréable ! des
+            
+            places sans fonctions ! des pensions sans services ! … faut
+            
+            il être absurde d'avoir compromis tout cela ? … ils en ont
+            
+            tant fait qu'ils m'ont perdu ! (Prenant une redingotte.)
+            
+            Bien… si je pouvais m'animer un peu le visage… je suis
+            
+            si pâle que je serai reconnu tout de suite pour un roya
+            
+            liste… Qu'est-ce que c'est ça ? on approche… c'est ma
+            
+            nièce. 
+            
+            SCENE XIII. 
+            
+            LE MARQUIS, ALEXANDRINE. 
+            
+            LE MARQUIS. 
+            
+            L'infortanée ! … elle aussi a sa part dans ce grand mal
+            
+            heur… sa fortune que je venais de réaliser pour
+            
+            la ma
+            
+            rier… Sa fortune toute entière restée dans un portefeuille
+            
+            à Saint-Cloud ! …
+            
+            ALEXANDRINE. 
+            
+            Ah ! mon oncle, le docteur m'a dit que vous étiez enfin
+            
+-
+            
+            éveillé, et que vous vous sentiez beaucoup mieux…. 
+            
+            (27) 
+            
+            LE MARQUIS. 
+            
+            Docteur libéral ! il me trouvera toujours bien portant
+            
+            maintenant ! 
+            
+            ALEXANDRINE. 
+            
+            Mais, mon dieu, qu'est ce que vous avez donc ? voơs
+            
+            avez changé de coiffure ! … ça vous défigure tout-à fait…
+            
+            On ne vous reconnaîtrait pas. 
+            
+            LE MARQUIS. 
+            
+            Tu crois ? … C'est bien ce que je veux…
+            
+            ALEXANDRINE. 
+            
+            Que je suis donc contente de vous voir guéri ; nous pour
+            
+            rons sortir, nous promener…
+            
+            LE MARQUIS
+            
+            Oui, nous irons nous promener… loin, bien loin…. allez. 
+            
+            vous préparer. 
+            
+            ALEXANDRINE. 
+            
+            Bon ! je vais mettre de jolis rubans nouveaux que m'a
+            
+            envoyés M. Victor., et puis un chapeau charmant…
+            
+            LE MARQUIS. 
+            
+            Mettez… une robe d'indienne… un bonnet rond…
+            
+            de gros souliers…
+            
+            ALEXANDRINE. 
+            
+            De
+            
+            gros souliers… un bonnet rond ? … vous plaisantez, 
+            
+            mon oncle… 
+            
+            LE MARQUIS. 
+            
+            Qui, j'ai bien le temps de rire… Faites ce que je vous
+            
+            dis… Est-ce que ce n'est pas dans ce costume que s'éva
+            
+            dent toutes les héroïnes ? allez, dépêchez-vous et revenez, 
+            
+            nouvelle Antigone, donner le bras à votre oncle goûteux, 
+            pour le conduire à Coblentz. 
+            
+            ALEXANDRINE. 
+            
+            Au boulevard Coblentz…. je n'irai jamais dans ce cos
+            
+            tume là… tout le monde nous montrerait au doigt. 
+            
+            LE MARQUIS. 
+            
+            Qui vous parle du boulevard ? étourdie… c'est à Cob
+            
+            lentz, en Prusse, que nous allons…, nous émigrons. 
+            
+            ALEXANDRINE. 
+            
+            Nous émigrons ? et pourquoi donc, mon oncle ? 
+            
+            LE MARQUIS. 
+            
+            Pour nous soustraire à la proscription… n'ai-je pas
+            
+            été cité au tribunal révolutionnaire ? 
+            
+            (28) 
+            
+            ALEXANDRINE. 
+            
+            Personne ne vous persécute ; il n'y a ni tribunal révo
+            
+            lationnaire, ni émigration…
+            
+            Ce n'est donc pas comme en 93 ? 
+            
+            LE MARQUIS. 
+            
+            SCÈNE XIV. 
+            
+            LES MÊMES, BRUNO. 
+            
+            Monsieur le Marquis ! 
+            
+            BRUNO. 
+            
+            LE MARQUIS. 
+            
+            1
+            
+            Silence ! imprudent ! 
+            
+            BRUNO. 
+            
+            Comment ? 
+            
+            Pourquoi m'appelles-tu marquis ? 
+            
+            LE MARQUIS. 
+            
+            BRUNO. 
+            
+            Vous vous fâchiez quand je vous appelais Monsieur tout
+            
+            court. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    LE MARQUIS. 
+                
+            
+            
+                
+                    Autrefois, sans doute ; mais aujourd'hui tu m'exposes…
+            
+                    et la révolution…
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Comme il m'aimait. 
+                </stage>
+            
+            
+                
+                    <l>Je suis marquis, </l>
+                    <l>Pour solliciter une place ; </l>
+                    <l>Pour attraper quelque débris, </l>
+                    <l>Du lourd budjet de mon pays. </l>
+                    <l>Mais dès que le danger menace, </l>
+                    <l>On se dissimule, on s'efface…</l>
+                    <l>Plus de marquis ! </l>
+                
+            </lg> </div>
+            
+            ALEXANDRINE. 
+            
+            Il n'y a rien de changé, mon oncle… tout le monde con
+            
+            serve son nom et son titre. 
+            
+            LE MARQUIS. 
+            
+            Tu en es bien sûre ? 
+            
+            (29) 
+            
+            ALEXANDRINE. 
+            
+            Je vous en réponds. 
+            
+            LE MARQUIS. 
+            
+            Et ce ruban, il faut l'ôter, n'est-ce pas ? 
+            
+            ALEXANDRINE. 
+            
+            Au contraire, vous en ajouterez deux autres. 
+            
+            LE MARQUIS. 
+            
+            Ah ! oui, je comprends ; et toi, que venais-tu m'annoncer
+            
+            si vite ? 
+            
+            BRUNO. 
+            
+            Je venais vous apporter ce papier. 
+            
+            LE MARQUIS. 
+            
+            Un papier ! c'est quelque mandat d'amener… j'en étais
+            
+            sûr !., non c'est un billet de garde.,. je suis caporal…
+            
+            Caporal ! un gentilhomme de la chambre ! quelle démora
+            
+            lisation ! (On entend, des cris et du bruit au dehors, ) là, quand
+            
+            je te disais que ça ne pouvait pas se passer sans bruit ! 
+            
+            ALEXANDRINE. 
+            
+            Ah ! je ne l'ai pas dit non plus, mon oncle ; les Pari
+            
+            siens sont toujours un peu bruyans dans leur joie. 
+            
+            LE MARQUIS, qui regarde à une fenêtre. 
+            
+            Nous sommes perdus ! (il tombe sur un fauteuil.)
+            
+            Qu'avez-vous donc vu ? 
+            
+            BRUNO. 
+            
+            LE MARQUIS. 
+            
+            Une troupe d'ouvriers, armée. de fusils et de sabres. 
+            
+            ALEXANDRINE, à la fenêtre. 
+            
+            Ce sont nos voisins, 
+            
+            les ouvriers de la brasserie qui
+            
+            portent M. Victor en triomphe. 
+            
+            Je vois des bonnets rouges. 
+            
+            LE MARQUIS. 
+            
+            C'est des calottes
+            
+            rouges. 
+            
+            BRUNO. 
+            
+            LE MARQUIS. 
+            
+            Tu crois que ce sont des calottes… allons les recevoir. 
+            
+            (Il sort avec Alexandrine et Bruno.)
+            
+            (30) 
+            
+            SCÈNE XV. 
+            
+            (Le Théâtre change et représente une place publique, 
+            
+            Sur
+            
+            l'air national de la Marseillaise, des Pelotons de garde
+            
+            nationale, dans lesquels on distingue Royer, Maillard ; 
+            
+            des groupes d'ouvriers conduits par Carlot', entrent en
+            Ils entourrent Victor. Le drapeau tricolore sur
+            
+            scène. 
+            
+            monté d'un coq : est porté par la garde nationale.-Le
+            
+            peuple et les habitans des maisons vois ines arrivent de
+            
+            tous côtes.--Le marquis sort de son hôtel, suivi d'Alexan
+            drine et de Bruno. 
+            
+            LE MARQUIS, ALEXANDRINE, BRUNO, VICTOR, 
+            
+            ROYER, MAILLARD, CARTOT. 
+            
+            MAILLARD, en sergent. 
+            
+            Cher camarade, la compagnie se félicite de vous pos
+            
+            séder…
+            
+            Tiens ! c'est le doctear… un sabre, un fasil… une
+            
+            LE MARQUIS. 
+            
+            bayonnette… comme s'il avait besoin ! … 
+            
+            Parlez leur donc, Monsieur ! 
+            
+            BRUNO. 
+            
+            LE MARQUIS. 
+            
+            Tu crois qu'il faut… Allons… Messieurs… non, ci
+            
+            toyens, je veux dire… Je suis enchanté de vous recevoir
+            
+            chez moi… tout ce que j'ai est à votre service… vous
+            
+            pouvez en disposer…
+            
+            CARTOT. 
+            
+            Qu'est-ce qu'il nous chante là, ce brave homme ? est-ce
+            
+            qu'il croit qu'nous venons pour piller ? 
+            
+            Mais, ça m'en avait tout l'air. 
+            
+            LE MARQUIS. 
+            
+            CARTOT. 
+            
+            Allons donc, l'ancien, vous ne connaissez pas l'ordre
+            
+            du jour : respect aux propriétés. 
+            
+            (31) 
+            
+            LE MARQUIS. 
+            
+            Ah ça ! citoyen Victor… tu vas m'expliquer… je le
+            
+            tutoye à cause de la révolution. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    VICTOR
+                
+            
+            
+                
+                    Vons n'avez donc pas entendu la fusillade et le'canon ? 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air de Walse. 
+                </stage>
+            
+            
+                
+                    <l>Quoi, </l>
+                    <l>C'est au nom du roi</l>
+                    <l>Que l'on canonne la ville ? </l>
+                    <l>Quoi, </l>
+                    <l>C'est au nom du roi</l>
+                    <l>Qu'on veut notre sang, et pourquoi ? </l>
+                
+            
+                
+                    <l>Mort</l>
+                    <l>À celui qui sort</l>
+                    <l>De sa demeure tranquille ! </l>
+                    <l>Feu, </l>
+                    <l>C'est leur cri d'adieu ; </l>
+                    <l>Tout Paris en deuil, c'est leur vœu. </l>
+                
+            
+                
+                    <l>Mais</l>
+                    <l>Nous sommes français, </l>
+                    <l>Nous ferons résistance. </l>
+                    <l>Non, </l>
+                    <l>Notre nation</l>
+                    <l>N'a pas peur du canon. </l>
+                
+            
+                
+                    <l>Tous, </l>
+                    <l>Réunissons-nous, </l>
+                    <l>Que la guerre commence ! </l>
+                    <l>Eux</l>
+                    <l>Sont forts et nombreux ; </l>
+                    <l>Ils tueront, mais tant mieux ! </l>
+                
+            
+                
+                    <l>Tours</l>
+                    <l>Qui, dans les beaux jours, </l>
+                    <l>Carillonnez pour nos fêtes ; </l>
+                    <l>Loin, </l>
+                    <l>Au peuple incertain, </l>
+                    <l>Envoyez les sons du tocsin ! </l>
+                
+            
+                
+                    <l>L'air</l>
+                    <l>Siffle au bruit du fer, </l>
+                    <l>Voici la mort sur nos têtes. </l>
+                    <l>Rois, </l>
+                    <l>Ordonnances, lois, </l>
+                    <l>Vous allez crouler à la fois ! </l>
+                
+            
+                
+                    <l>Bien ! </l>
+                    <l>Chaque citoyen</l>
+                    <l>Se montre, se signale ! </l>
+                    <l>Quais, </l>
+                    <l>Places et marchés, </l>
+                    <l>Sont déjà dépaves. </l>
+                
+            
+                
+                    <l>Ah ! </l>
+                    <l>Bravo ! te voilà, </l>
+                    <l>Garde nationale. </l>
+                    <l>Meurs, </l>
+                    <l>Foule d'oppresseurs, </l>
+                    <l>Voici les trois couleurs ! </l>
+                
+            
+                
+                    <l>La jeunesse, </l>
+                    <l>La vieillesse, </l>
+                    <l>Vole au combat avec ivresse ; </l>
+                    <l>Point de cesse, </l>
+                    <l>Tout se presse, </l>
+                    <l>Sans chef tout le monde est d'accord. </l>
+                
+            
+                
+                    <l>La patrie</l>
+                    <l>Tonne et crie, </l>
+                    <l>Plus haut que leur artillerie ; </l>
+                    <l>Leur furie, </l>
+                    <l>Qu'on en rie, </l>
+                    <l>Car chaque maison est un fort. </l>
+                
+            
+                
+                    <l>Que d'amères</l>
+                    <l>Douleurs ! </l>
+                    <l>Que de mères</l>
+                    <l>En pleurs ! </l>
+                    <l>Ô mânes de nos frères ! </l>
+                    <l>Vous aurez des vengeurs ! </l>
+                
+            
+                
+                    <l>Mille pierres</l>
+                    <l>Meurtrières, </l>
+                    <l>Écrasent ces têtes guerrières ; </l>
+                    <l>Poudrières, </l>
+                    <l>Et barrières, </l>
+                    <l>Tout par le peuple est emporté. </l>
+                
+            
+                
+                    <l>Rien n'arrête</l>
+                    <l>La tempête, </l>
+                
+                (33) 
+                
+                    <l>L'Hôtel-de-Ville est sa conquête ; </l>
+                    <l>Vois au faîte, </l>
+                    <l>Lafayette, </l>
+                    <l>Le drapeau de la liberté. </l>
+                
+            
+                
+                    <l>Fuis, </l>
+                    <l>Car le Louvre est pris, </l>
+                    <l>Le Louvre et les Tuileries ! </l>
+                    <l>Toi, </l>
+                    <l>Monarque sans foi, </l>
+                    <l>Qui voulais du sang, et pourquoi ? </l>
+                
+            
+                
+                    <l>Vous</l>
+                    <l>Qui tiriez sur nous, </l>
+                    <l>Éloignez vos batteries ; </l>
+                    <l>Fils</l>
+                    <l>Du même pays, </l>
+                    <l>Nous ne sommes plus ennemis. </l>
+                
+            
+                
+                    <l>Tout</l>
+                    <l>Est encor debout, </l>
+                    <l>Nos lois, notre industrie ; </l>
+                    <l>Ceux</l>
+                    <l>Qui brisaient ces nœuds, </l>
+                    <l>Sont les seuls malheureux. </l>
+                
+            
+                
+                    <l>Oui, </l>
+                    <l>Un beau jour a lui, </l>
+                    <l>Salut à la patrie ! </l>
+                    <l>Francs, </l>
+                    <l>Que vous êtes grands, </l>
+                    <l>Non, vous n'aurez plus de tyrans ! </l>
+                
+            </lg> </div>
+            
+            Comment tout cela s'est passé pendant mon sommeil ? 
+            
+            LE MARQUIS. 
+            
+            ROTER. 
+            
+            Écontez-moi : lous ces braves gens qui sont nos amis, 
+            
+            nos ouvriers, nos voisins, ont été témoins de la noble
+            conduite de mon Gils… ils ont vu le Roi lui offrir la ré
+            
+            compense qu'il a méritée, un brevet de lieutenant ; 
+            
+            ils
+            
+            connaissent son amour pour votre nièce et viennent tons
+            
+            maintenant se joindre à nous pour obtenir un consente
+            
+            ment sans leqnel notre bonheur ne sera pas complet. 
+            
+            Dix Jours. 
+            
+            5
+            
+            (34) 
+            
+            LE MARQUIS. 
+            
+            Chaque mot me jette dans un nouvel étonnement…
+            
+            rous me parliez ce matin de la révolution, et ce soir du
+            
+            Roi… Coniment arrangez-vous tout cela ensemble ? 
+            
+            
+            <div type="poem"> <lg>
+                
+                    ROYER. 
+                
+            
+                
+                    Parfaitement, je vous assure. 
+                
+            
+            
+                <stage type="tune">
+                    Air de Missolonghi. 
+                </stage>
+            
+            
+                
+                    <l>On voulait sous des entraves, </l>
+                    <l>Étouffer l'honneur français ; </l>
+                    <l>On voulait nous faire esclaves, </l>
+                    <l part="I">Tous ont répondu : </l>
+            
+            
+                    
+                        TOUT LE MONDE. 
+                    
+            
+                    <l part="F">Jamais ! ! ! </l>
+                
+                
+                    ROYER. 
+                
+            
+                
+                    <l>Aujourd'hui la France entière, </l>
+                    <l>En retrouvant sa bannière, </l>
+                    <l>Reprend ses droits et son bien ; </l>
+                    <l>Le cri, cher à nos ancêtres, </l>
+                    <l>Ne saluera plus des maîtres ; </l>
+                    <l>Mais un prince citoyen ! </l>
+                    <l>Drapeau tricolore, </l>
+                    <l>Viens, relève-toi ; </l>
+                    <l>Je suis libre encore, </l>
+                    <l>Vive le roi ! </l>
+                
+            </lg> </div>
+            
+            (Au cri de vive le roi, le drapeau s'incline ; les tambours batient
+            
+            aux champs ; les gardes présentent les armes.)
+            
+            Vive le Roi'… nu moins je resterai dans mes hal itudes…
+            
+            LE MARQUIS. 
+            
+            j'avais peur de la république. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    MAILLARD. 
+                
+            
+            
+                
+                    Ou y a bien pensé ; mais nous avons un Roi constitu
+            
+                    tionnel. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Je n'ai pas vu ces bosquets de lauriers. 
+                </stage>
+            
+            
+                
+                    <l>La couronne qu'il obtiendra, </l>
+                    <l>Sur lui, d'en haut ne sera pas venue ; </l>
+                    <l>C'est pour nous qu'il la portera, </l>
+                    <l>Car c'est de nous qu'il l'a reçue. </l>
+                    <l>Et d'ailleurs croyons-en le mot, </l>
+                    <l>Du vieux héros de France et d'Amérique ; </l>
+                    <l>Lafayette l'a dit tout haut : </l>
+                    <l>Oui, d'Orléans est le roi qu'il nous faut, </l>
+                    <l>C'est la meilleure république. </l>
+                
+            </lg> </div>
+            
+            ALEXANDRINE. 
+            
+            Maintenant que vous voilà rassuré, mon oncle, ré
+            
+            pondrez-vous à M. Royer ? 
+            
+            LE MARQUIS. 
+            
+            Eh ! mon Dieu ! mon enfant, que veux
+            
+            tu
+            
+            que je
+            
+            réponde ? ma fortune est détruite, j'ai perdu mes cliarges. 
+            
+            ROYER, 
+            
+            Vous en serez plus léger… il ne s'agit pas de fortune
+            
+            d'ailleurs. 
+            
+            VICTOR. 
+            
+            Il s'agit de notre bonheur, Monsieur, ne parlons que
+            
+            de cela. 
+            
+            LE MARQUIS. 
+            
+            Si j'avais seulenient sauvé sa dot, que j'avais réalisée…
+            
+            Cinquante mille écus en billets de banque ; mais ils étaient
+            
+            dans un portefeuille à St.-Cloud… dans ma chambre, au
+            
+            Grand-Commun…
+            
+            CARTOT. 
+            
+            Un portefeuille rouge en maroquin ? /
+            
+            Oui, oui ! 
+            
+            LE MARQUIS. 
+            
+            CARTOT. 
+            
+            Marqué d'an A et d'un C. 
+            
+            LE MARQUIS. 
+            
+            C'est cela même ! … Qu'est-ce qu'il a donc l'homme du
+            
+            peuple ? Non, le citoyen…
+            
+            CARTOT, 
+            
+            Le portefeuille est à la Mairie, voilà le requ. 
+            
+            Comment ? 
+            
+            LE MARQUIS. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    CARTOT. 
+                
+            
+            
+                <stage type="tune">
+                    Air du Faubourien. 
+                </stage>
+            
+            
+                
+                    <l>J' dis l'aut' jour aux camarades, </l>
+                    <l>C'est bien, mais ce n'est pas tout ; </l>
+                    <l>La plus belle des prom'nades, </l>
+                    <l>C'est de Paris à Saint-Cloud. </l>
+                
+                (36) 
+                
+                    <l>Mais sans attend' l'ambassade, </l>
+                    <l>L' particulier décampait ; </l>
+                    <l>Il avait fait un' cascade, </l>
+                    <l>Sur la rout' de Rambouillet. </l>
+                    <l>Du trôn' jusqu'à l'office, </l>
+                    <l>Tout est à not' service ; </l>
+                    <l>J' fouil' partout'j' garde rien, </l>
+                    <l>Je suis faubourien. </l>
+                
+            
+            </lg> </div>
+            
+            L'honnête homme ! citoyen, votre main. 
+            
+            LE MARQUIS. 
+            
+            Ça va mon vieux. 
+            
+            CARTOT. 
+            
+            LE MARQUIS. 
+            
+            Que je suis heureux de m'être réveillé pour voir un si
+            
+            beau jour ! … Dieu ! qu'il va y avoir de places vacantes ! … 
+            
+            Vive la Charte ! Vive le Roi ! Vive la Nation ! Vive la
+            
+            Liberté ! … 
+            
+            
+            <div type="poem"> <lg>
+                
+                    RONDE. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Tra la la. 
+                </stage>
+                
+            
+                    
+                        ROYER. 
+                    
+            
+                    <l>Liberté ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Sois donc une vérité ; </l>
+                    <l>Liberté ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Plus de féodalité. </l>
+            
+            
+                    <l>Dans le budjet plus d'abus, </l>
+                    <l>Dans les places plus d'intrus ; </l>
+                    <l>Pour le trésor des écus, </l>
+                    <l>Pour les prêtres des vertus. </l>
+            
+                    
+                        TOUS. 
+                    
+            
+                    <l ana="unanalyzable">Liberté ! etc. </l>
+                
+                
+                    MAILLARD. 
+                
+            
+                
+                    <l>Plus de morgue, de grandeur, </l>
+                    <l>De très-humble serviteur ; </l>
+                    <l>Et le plat solliciteur, </l>
+                    <l>Ne dira plus monseigneur. </l>
+            
+                    
+                        TOUS. 
+                    
+            
+                    <l ana="unanalyzable">Liberté ! etc. </l>
+                
+                
+                    CARTOT. 
+                
+                
+                    <l>Métiers, machin's à vapeur, </l>
+                    <l>Des faubourgs n'ayez pas peur ; </l>
+                    <l>Nous n' brisons dans not' fureur, </l>
+                    <l>Qu' les machin's de la faveur. </l>
+            
+                    
+                        TOUS. 
+                    
+            
+                    <l ana="unanalyzable">Liberté ! etc. </l>
+                
+                
+                    BRUNO. 
+                
+            
+                
+                    <l>Ventrus d' la restauration, </l>
+                    <l>Qui mangiez l' pain d' la nation ; </l>
+                    <l>Grâce à la révolution, </l>
+                    <l>Pour vous plus d'indigestion. </l>
+            
+                    
+                        TOUS. 
+                    
+            
+                    <l ana="unanalyzable">Liberté ! etc. </l>
+                
+            
+                
+                    VICTOR. 
+                
+            
+                
+                    <l>Quatre filles et cinq fils, </l>
+                    <l>Près du trône sont assis ; </l>
+                    <l>Bons époux, c'est un avis…</l>
+                    <l>Dans l'intérêt du pays. </l>
+            
+            
+                    
+                        TOUS. 
+                    
+            
+                    <l ana="unanalyzable">La liberté, etc. </l>
+                
+                
+                    LE MARQUIS. 
+                
+            
+                
+                    <l>Moi je serai satisfait, </l>
+                    <l>Je trouverai tout parfait, </l>
+                    <l>Si le ministre me fait</l>
+                    <l>Conseiller d'état, préfet. </l>
+            
+            
+                    
+                        TOUS. 
+                    
+            
+                    <l ana="unanalyzable">Liberté ! etc. </l>
+                
+                
+                    ALEXANDRINE
+                
+                
+, au Public. 
+                
+            
+            
+                
+                    <l>Nos auteurs ont mérité, </l>
+                    <l>Pent-être quelque bonté ; </l>
+                    <l>Car ils n'ont jamais chanté, </l>
+                    <l>L'empire ou la royauté. </l>
+            
+                    <l>Liberté ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Leur seule divinité, </l>
+                    <l>Liberté ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Pour toi seule ils ont chanté. </l>
+            
+                    
+                        CHŒUR. 
+                    
+            
+                    <l ana="unanalyzable">Liberté, etc. </l>
+                
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            FIN. 
+            
+            (38) 
+            
+            LE SAULE DE SAINTE-HÉLÈNE. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    ROMANCE. 
+                
+            
+                <stage type="tune">
+                    AIR de Bélisaire. 
+                </stage>
+            
+          
+            
+                <l>Quel est ce roc abandonné ? </l>
+                <l>Où vont ces voiles fugitives ? </l>
+                <l>L'Angleterre a donc pardonné ? </l>
+                <l>Non ; le captif est sur ces rives. </l>
+                <l>Mais tranquille, heureux désormais, </l>
+                <l>Il ne secouera plus sa chaîne : </l>
+                <l>Il dort, il dort, et pour jamais, </l>
+                <l>Sous le saule de Sainte-Hélène, </l>
+            
+            
+                <l>Il vit ramper devant ses pieds</l>
+                <l>Ces rois si grands dans son absence ; </l>
+                <l>Et sur les trônes foudroyés, </l>
+                <l>Il fit planer l'aigle de France. </l>
+                <l>Tant qu'il put, d'un nouvel essor, </l>
+                <l>Menacer l'Europe incertaine ; </l>
+                <l>Il les faisait trembler encor, </l>
+                <l>Sous le saule de Sainte-Hélène. </l>
+            
+            
+                <l>Il mesura de son regard, </l>
+                <l>Et les déserts de l'Arabie, </l>
+                <l>Et les rochers du Saint-Bernard, </l>
+                <l>Et les glaçons de la Russie. </l>
+                <l>L'univers qu'il a parcouru</l>
+                <l>Semblait devenu son domaine : </l>
+                <l>Tant de grandeur a disparu</l>
+                <l>Sous le saule de Sainte-Hélène. </l>
+            
+            
+                <l>Vous dont il fit couler les pleurs, </l>
+                <l>Mères qui maudissiez sa gloire ; </l>
+                
+                (39) 
+                
+                <l>N'a-t-il pas, par tant de malheurs, </l>
+                <l>Absous d'avance sa mémoire ? </l>
+                <l>Ah ! qu'il puisse enfin reposer ! </l>
+                <l>Pour les morts il n'est plus de haine. </l>
+                <l>Pourriez-vous encor l'accuser, </l>
+                <l>Sous le saule de Sainte-Hélène ? </l>
+            
+            
+                <l>Lui qui brillait comme un flambeau</l>
+                <l>Au front de la colonne altière, </l>
+                <l>À ses pieds il veut un tombeau, </l>
+                <l>Non dans cette île meurtrière. </l>
+                <l>C'est aux Anglais qu'est ce rocher, </l>
+                <l>C'est à nous ce grand capitaine ! …</l>
+                <l>Un vieil ami l'ira chercher</l>
+                <l>Sous le saule de Sainte-Hélène. </l>
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            1
+            
+            1
+            
+            Suite
+            
+            10azhure
+            
+            o
+        </body>
+    </text>
+</TEI>

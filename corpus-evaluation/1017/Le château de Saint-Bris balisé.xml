@@ -1,0 +1,4259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE CHÂTEAU DE SAINT-BRIS</title>
+                <title type="sub">DRAME EN DEUX ACTES, MÊLÉ DE CHANT</title>
+                <author key="ANC" sort="1">
+                    <name>
+                        <forename>Jacques-Arsene-Polycarpe-Francois</forename>
+                        <surname>Ancelot</surname>
+                        <addname type="pen_name">Saint-Bris</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE CHATEAU DE SAINT-BRIS</title>
+                        <author>ANCELOT</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=hY5LAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102D56B4</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-07-13">13 JUILLET 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES NOUVEAUTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NATIONALBIBLIOTHEK
+            
+            IN WIEN
+            
+            132517-B
+            
+            ALT
+            
+            参
+            
+            122
+            
+            LE CHATEAU
+            
+            DE SAINT-BRIS, 
+            
+            DRAME EN DEUX ACTES, MÊLÉ DE CHANT. 
+            
+            OUVRAGES DE M. ANCELOT. 
+            
+            Louis IX, tragédie en cinq actes. 
+            
+            Le Maire du Palais, tragédie en cinq actes. 
+            
+            Fiesque, tragédie en cinq actes. 
+            
+            OLGA, tragédie en cinq actes. 
+            
+            ELISABETH D'ANGLETERRE, tragédie en cinq actes. 
+            
+            L'HOMME DU MONDE, drame en cinq actes, en prose. 
+            
+            L'Espion, drame en cinq actes, en prose. 
+            
+            L'IMPORTANT, comédie en trois actes, en vers. 
+            
+            Marie DE BRABANT, drame en cinq actes, en vers. 
+            
+            Un An ou le Mariage D'AMOUR, drame en trois actes, 
+            
+            en prose. 
+            
+            HENRIETTE OU DEUX ANS APRÈS, drame en trois actes, 
+            
+            en prose. 
+            
+            LA MENDIANTE
+            
+, drame en deux actes, mêlé de couplets. 
+            
+            Madame DUBARRY, comédie en trois actes, mêlée de
+            
+            couplets. 
+            
+            MARIE DE BRABANT, poëme en six chants. 
+            
+            Sıx mois En Russie, un vol. in-8 °. 
+            
+            L'HOMME DU MONDE, roman, 4 vol. in-12. 
+            
+            LÉONTINE, drame en trois actes, mêlé de couplets. 
+            
+            UN DIVORCE, drame en un acte, mêlé de chants. 
+            
+            NAPRIMERIE VE E DUVERGER, 
+            
+            RIE DE TERNEUIL X 4. 
+            
+            LE CHATEAU
+            
+            DE
+            
+            SAINT-BRIS
+            
+            DRAWE EN DEUX AGTES, 
+            
+            MÊLÉ DE CHANT, 
+            
+            PAR M. ANCELOT, 
+            
+            REPRÉSENTÉ POUR LA PREMIÈRE FOIS, A PARIS, 
+            
+            SUR LE THÉATRE DES NOUVEAUTÉS, le 13 JUILLET 1831. 
+            
+            PRIX : 1 FR, 50 C. 
+            
+            PARIS. 
+            
+            J. N. BARBA, LIBRAIRE, 
+            
+            PALAIS-ROYAL, GRANDE COUR, DERRIÈRE LE THÉATRR-FRANÇAIS. 
+            
+            1831
+            
+            132517-B
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            CATHERINE DE MÉDICIS. 
+            
+            Mme Genot. 
+            
+            MARGUERITE, dame de St-Bris. 
+            
+            Félicie. 
+            
+            MARIE DE NOIRMOUTIERS, 
+            
+            sa cousine, demoiselle d'hon
+            
+            neur de Catherine. 
+            
+            GAUTHIER. 
+            
+            GIZELLE, soeur de Marguerite. 
+            
+            ASTRUC-FitzelIER. 
+            
+            UNE CHATELAINE. 
+            
+            BALTHAZARD, aînée …
+            
+            OLIVIER CE SOURDIS, page
+            
+            de Catherine. 
+            
+            CLOrinde. 
+            
+            LE COMTE DE NEUVILLE, 
+            
+            seigneur protestant, comman
+            
+            dant du fort de Meillezais. 
+            
+            MM. MontiGNY. 
+            
+            RENÉ DE MONTBERON, ca
+            
+            tholique, commandant pour le
+            
+            duc de Guise. 
+            
+            DesnoYERS. 
+            
+            Chatelaines, Demoiselles d'hon
+            
+            NEUR, SEIGNEURS, PAGES, HOM
+            
+            NES D'ARMES, VARLETS. 
+            
+            La scène se passe au château de Saint-Bris, dans l'Angoumois, 
+            
+            en 1876. 
+            
+            Nota. Les acteurs sont placés en tête de chaque scène comme ils
+            
+            doivent l'être au théâtre : le premier occupe la droite de l'acteur. 
+            
+            LE CHATEAU
+            
+            DE SAINT-BRIS, 
+            
+            DRAME. 
+            
+            00000000000016900000…dovo00000vova …000. 000. 000, 0. 09. 00. 000000
+            
+            ACTE PREMIER. 
+            
+            Le théâtre représente une salle gothique ; portes au fond', à droite et à
+            
+            gauche. — Deux tables couvertes de tapis et de tout ce qu'il faut pour
+            
+            écrire, sont de chaque côté du théâtre.-A droite de la porte du fond, 
+            
+            un pan de lapisserie se lève par un ressort et laisse voir l'ouverture
+            
+            figurée d'un tuyau acoustique. 
+            
+            ooo
+            
+            SCENE PREMIERE. 
+            
+            GIZELLE ; au lever du rideau, elle a l'oreille appuyé econtre le
+            
+            panneau du fond, où se trouve l'ouverture du tuyau acous
+            
+            tique. 
+            
+            Je ne me suis pas trompée ! j'entends là tout ce qui se dit
+            
+            dans la grande salle au-dessous ! … C'est singulier ! … La
+            
+            voix arrive à mon oreille ! … Oh ! comme j'ai été surprise
+            
+            ce matin ! … Ma soeur parlait en bas et je ne perdais pas un
+            
+            mot ! … Je vais bien m'amuser maintenant ! … Que de
+            
+            choses je vais apprendre ! … On en cache tant à une fille de
+            
+            seize ans, et moi j'ai si bonne envie de m'instruire ! … C'est
+            
+            mal, dit-on, d'être curieuse ? Je ne crois pas cela, moi ! …
+            
+            Sans la curiosité comment ferait-on des découvertes ! Per
+            
+            sonne ne me voit ; écoutons ! … Ah ! ina sąur donne des or
+            
+            dres ; elle fait décorer la salle d'honneur : que se passe-t-il
+            
+            donc ? Pourquoi ces préparatifs ? Je n'entends plus rien …
+            
+            on va venir sans doute ? … Vite, cachons bien mon secret ! …
+            
+            (Elle laisse retomber la tapisserie.)
+            
+            1
+            
+            2
+            
+            SCÈNE II. 
+            
+            GIZELLE, LA COMTESSE MARGUERITE, CHATE
+            
+            LAINES des environs. 
+            
+            MARGUERITE. 
+            
+            Approchez, nobles dames, je peux enfin vous faire savoir, 
+            
+            pourquoi mes pages sont allés vous prier en mon nom, de
+            
+            quitter vos châteaux et de vous réunir ici ; je peux vous ré
+            
+            véler la cause des préparatifs que vous avez remarqués et
+            
+            qui ont excité votre surprise. 
+            
+            (Marques d'attention et d'intérêt.)
+            
+            GIZELLE, à part. 
+            
+            Ah ! je sáurai tout enfin ! 
+            
+            MARGUERITE. 
+            
+            Cette guerre déplorable, dont la religion est le prétexte, 
+            
+            et qui s'est rallumée depuis quelques mois, est peut-être à
+            
+            la veille de se terminer. A la tête des protestans, le roi de
+            
+            Navarre, les princes de Condé et de Conti ont combattu
+            
+            avec avantage les troupes du roi Henri III que dirigent
+            
+            Mayenne et le duc de Guise ; notre province d'Angournois
+            
+            a été le théâtre de cette lutte fatale, inais enfin un plus heu
+            
+            reux avenir se prépare ; une trève a été publiée ; d'impor
+            
+-tantes conférences entre les chefs des deux partis vont avoir
+            
+            lieu, et mon château de Saint-Bris a été choisi pour
+            
+            cette
+            
+            mémorable réunion. 
+            
+            (Marques d'intérêt.)
+            
+            Ah ! nous allons donc voir du nouveau. 
+            
+            GIZELLE, à part. 
+            
+            NARGUERITE. 
+            
+            Ce n'est pas tout : à cette nouvelle, la reine-mère, l'au
+            
+            guste Catherine de Médicis s'est mise en route ; elle veut
+            
+            sans doute se rapprocher du roi de Navarre, son gendre, et
+            
+            des princes protestans, et j'ai reçu avis que, durant les con
+            
+            férences, elle établirait son séjour dans mon château : je
+            
+            l'attends aujourd'hui même ; ses demoiselles d'honneur
+            
+            l'accompagnent. 
+            
+            GIZELLE. 
+            
+            Notre chère cousine, Marie de Noirmoutiers, sera-t-elle
+            
+            du voyage ? 
+            
+            3
+            
+            MARGUERITE. 
+            
+            Oui, sans doute, et il ne sera bien doux de la revoir
+            
+            après si longue absence. 
+            
+            UNE CHATELAINE, 
+            
+            Cette aimable enfant demeure donc loujours à la cour de
+            
+            la reine-mère ? 
+            
+            MARGUERITE. 
+            
+            Catherine de Médicis a daigné la prendre sous sa glo
+            
+            rieuse protection : vous ignorez, nobles dames, quels tristes
+            
+            événemens ont signalé la naissance de ma chère Marie. 
+            
+            LA CHATELAINE. 
+            
+            N'est-elle pas orpheline, et ne fut-elle pas élevée avec
+            
+            vous dans ce château ? 
+            
+            MARGUERITE. 
+            
+            Peu de temps après sa naissance, le comte de Noirmou
+            
+            tiers fut tué dans un duel ; on ignora toujours le sujet de la
+            
+            querelle, et même le nom de l'adversaire ; la comtesse alors
+            
+            gnitta la cour dont elle était le plus bel ornement ; elle rom
+            
+            pit tous ses liens avec le monde, et abandonnant sa fille au
+            
+            berceau, elle forma des võux éternels dans le couvent de
+            
+            Fonteyrault, Dix-huit ans se sont passés depuis cette épo
+            
+            que, et jamais la comtesse n'a revu son enfant, ni personne
+            
+            de sa famille : je n'ai point cherché à pénétrer le mystère
+            
+            de cette conduite ; j'ai aimé Marie coinme une sour ; mais, 
+            
+            il y a deux ans, j'ai dù céder le soin de son avenir à l'ami
+            
+            tie de la reine-mère. 
+            
+            GIZELLE. 
+            
+            Qu'elle est heureuse d'être à la cour ! Tous les jours des
+            
+            fêtes nouvelles ! 
+            
+            MARGUERITE. 
+            
+            Gizelle, vous êtes un enfant !, ., Allez vous informer si
+            
+            des tourelles du château on n'aperçoit rien dans la cam
+            
+            pagne. 
+            
+            (Gizelle sort.)
+            
+            MARGUERITE, continuant. 
+            
+            Vous comprenez, nobles châtelaines, combien d'obliga
+            
+            tions m'impose l'honneur que je vais recevoir ; et j'ai osé
+            
+            compter sur vous pour m'aider à traiter dignement l'au
+            
+            guste Catherine de Médicis. 
+            
+            GIZELLE, revenant. 
+            
+            Ma soeur, ina seur, encore un bonheur qui nous arrive ! 
+            Notre cousin René de Montberon entre dans la cour du
+            
+            château. 
+            
+            René ! … Est-il possible ? 
+            
+            MARGUERITE. 
+            
+            1
+            
+            GIZELLE, à part. 
+            
+            Cet hôte-là ne sera pas le moins bien reçu. 
+            
+            MARGUERITE. 
+            
+            Ah ! courons à sa rencontre ! … René ! … l'ami de mon
+            
+            enfance ! …
+            
+            Tenez, le voici ! 
+            
+            GIZELLE. 
+            
+            SCENE III. 
+            
+            CHATELAINES à droite et d gauche, MARGUERITE, 
+            
+            RENÉ DE MONTBERON, GIZELLE. 
+            
+            RENÉ, entrant et baisant la main de Marguerite. 
+            
+            Chère cousine ! … quelle joie est la mienne ! 
+            
+            MARGUERITE. 
+            
+            Ah ! je la partage, vous n'en doutez pas ! … Mais quel
+            
+            heureux événement vous amène au château de Saint-Bris ? 
+            
+            RENÉ. 
+            
+            Il y a deux jours, j'allais, par les ordres de monseigneurle
+            
+            duc de Guise, assiéger le fort de Meillezais, situé à une de
+            
+            mi-lieue de votre manoir, et ou le comte de Neuville com
+            
+            mande pour le roi de Navarre ; mais à peine arrivé avec mes
+            
+            troupes, je suis arrêté par l'annonce de cette trève qui amène
+            
+            ici la reine-mère et les princes, et il m'est enjoint de me
+            
+            rendre à Saint-Bris pour assister aux conférences : vous ju
+            
+            gez avec quel empressement j'ai obéi ! 
+            
+            MARGUERITE. 
+            
+            Que je suis heureuse ! … Ah ! les événemens qui se pré
+            
+            parent vont, j'espère, mettre un terme à cette guerre cruelle
+            
+            qui vous a tenu si long-temps éloigné de vos amis. 
+            
+            René. 
+            
+            Ne vous en flattez pas ! La paix n'est point le voeu de Ca
+            
+            therine ; elle ne peut régner que par nos divisions, et le
+            
+            but de son voyage m'est révélé : tromper, séduire, tel est
+            
+            son projet. 
+            
+            MARGUERITE. 
+            
+            Ah ! mon ami ! … (aux châtelaines.) Mesdames, me vou
+            
+            drez-vous perinettre de demeurer un instant seule avec un
+            
+            parent que je ne m'attendais pas à revoir aujourd'hui ? 
+            
+            UNE CHATELAINE. 
+            
+            Nous vous laissons, noble dame, et nous allons nous dis
+            
+            poser à recevoir la reine. 
+            
+            5
+            
+            GIZELLE, à demi-voix. 
+            
+            C'est ça, retirons-nous ! Ah ! 
+            
+            si elle dit à mon cousin
+            
+            tout ce qu'elle pense, elle n'aura pas fini de sitôt ! 
+            
+            SCENE IV. 
+            
+            MARGUERITE, RENÉ. 
+            
+            MARGUERITE. 
+            
+            Mon cher René, l'amertume de vos paroles trahit une
+            
+            mélancolie secrète qui m'afflige ; mais nous en triomphe
+            
+            rons ici, 
+            
+            et, pour obtenir cette victoire, il m'arrive du ren
+            
+            fort : notre belle cousine Marie de Noirmoutiers accompa
+            
+            gne la reine. 
+            
+            RENÉ. 
+            
+            Oui, elle est au nombre de ces jeunes filles si coquettes
+            
+            jolies que Catherine de Médicis traîne toujours à
+            
+            suite, et qu'elle-même appelle son escadron. 
+            
+            MARGUERITE. 
+            
+            Ne serez-vous pas, comme moi, charmé de la revoir ? 
+            
+            René. 
+            
+            Ah ! je n'ai point oublié que nous fùmes élevés ensemble ; 
+            
+            je me souviens des beaux jours que nous avons passés en ce
+            
+            lieu ; mais elle ? …
+            
+            MARGUERITE. 
+            
+            Eh bien ! pensez-vous qu'elle en ait perdu le souvenir ? 
+            
+            René. 
+            
+            Que n'oublie-t-on pas près de Catherine de Médicis ! 
+            
+            Que dites-vous ? 
+            
+            MARGUERITE. 
+            
+            RENÉ. 
+            
+            Chère et bonne Marguerite, quand j'étais à la cour, n'ai
+            
+            je pas entendu tout ce qu'on disait de notre cousine Marie ? 
+            
+            N'ai-je pas été témoin des assiduités du comte de Neuville, 
+            
+            ce seigneur si galant et si renommé par ses succès en tout
+            
+            genre ? 
+            
+            MARGUERITE. 
+            
+            Quoi ! … le commandant du fort de Meillezais ? 
+            
+            RENÉ. 
+            
+            Oui, celui que j'allais attaquer et qu'il m'eût été doux de
+            
+            combattre, je l'avoue ! … Cette mission sanglante, je l'avais
+            
+            sollicitée ; mais la trève est venue m'enchaîner ! Le comte
+            
+            ne dissimule pas les sentimens que Marie lui inspire ; c'est
+            
+            6
+            
+            un homme de tête et de coeur ; zélé huguenot, il exerce un
+            
+            grand empire sur le roi de Navarre, et plus d'une fois j'ai
+            
+            vu sourire Catherine quand le comte de Neuville était prés
+            
+            de Marie. 
+            
+            Mais il est marié ? 
+            
+            MARGUERITE. 
+            
+            RENÉ. 
+            
+            Ah ! vous ne soupçonnez pas toute la dépravation de
+            
+            cette cour ! … Croyez-moi, Catherine a des projets ! … Oh ! 
+            
+            pourquoi la comtesse de Noirmoutiers s'est-elle séparée de
+            
+            sa fille ? Pourquoi Marie est-elle abandonnée à la perfide
+            
+            amitié de la reine-mère ? 
+            
+            MARGUERITE. 
+            
+            Vous vous alarmez à tort, mon cher René ; rien, je l'es
+            
+            père, ne justifiera vos craintes. 
+            
+            RENÉ. 
+            
+            Puissiez-vous dire vrail … Mais ce n'est pas sans raison
+            
+            que Catherine de Médicis vient en ce lieu accompagnée
+            
+            de cette foule de jeunes filles si belles ; entourer de piéges
+            et de séductions les chefs du parti prostestant ; profiter
+            
+            d'une trève perfide pour affaiblir ses enneinis, 
+            
+            et ne ja
+            
+            mais rendre unepaix durable au royaume, voilà son désir, 
+            
+            voilà ce qui l'amene. 
+            
+            SCENE V. 
+            
+            MARGUERITE, GIZELLE, RENÉ DE MONTBERON. 
+            
+            GIZELLE. 
+            
+            Vite, ma sour, vite ! la reine n'est pas loin ; voici venir
+            
+            un de ses pages, M. Olivier de Sourdis. 
+            
+            MARGUERITE. 
+            
+            Allons recevoir Sa Majesté ; suivez moi, Gizelle ; et vous, 
+            
+            mon cousin, ne venez-vous pas ? 
+            
+            RENÉ. 
+            
+            Dans un instant je vous rejoins. 
+            
+            SCENE VI. 
+            
+            RENÉ, seul. 
+            
+            Remettons-nous ; calmons ce trouble qui m'agite ! …
+            
+            Marie en ce château ! … Elle va s'offrir à mes regards !, …
+            
+            7
+            
+            Quand je tâche d'effacer son image de mon coeur ; quand
+            
+            je m'efforce en vain d'oublier cette Marie que j'adorai dès
+            
+            mès plus jeunes années … Ah ! je ne dois plus voir en elle
+            
+            que la favorite de Catherine, servant par sa beauté l'adroite
+            
+            politique de la reine l … Que de fois je l'ai surprise sou
+            
+            riant au comte de Neuville ! … Elle parviendra, disait-on, 
+            
+            i le détacher du roi de Navarre, à lui faire oublier ses ser
+            
+            mens … Vive-Dieu, et je le souffrirais ! … Insensé, qu'ai-je
+            
+            dit ? … Écartons cette idée … Pourquoi ne pas porter vers
+            
+            un objet plus digne toutes mes espérances de bonheur ? 
+            
+            Cette bonne Marguerite ne cache point l'attachement que
+            
+            je lui inspire l … Et peut-être …
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Muse des bois. </stage>
+            
+            
+                    <l>Femme modeste, et douce et bienveillante,</l>
+                    <l>Dit la raison, doit suffire au bonheur ;</l>
+                    <l>Et, malgré nous, beauté fière et brillante,</l>
+                    <l>En nous trompant enchaîne notre cœur :</l>
+                    <l>De ses attraits l'image enchanteresse</l>
+                    <l>Nous suit partout… en vain la fuirait-on…</l>
+                    <l>Pourquoi le cœur rappelle-t-il sans cesse</l>
+                    <l>Ce que voudrait oublier la raison ?</l>
+            
+                </lg>
+            </div>
+            
+            j'entends du bruit … on vient ! Ah ! c'est la reine. 
+            
+            SCENE VII. 
+            
+            GIZELLE, OLIVIER, MARIE DE NOIRMOUTIERS, 
+            
+            CATHERINE DE MÉDICIS, MARGUERITE, RENÉ, 
+            
+            SEIGNBURS, DAMES CHATELAINES, DEMOISELLES D'HONNEUR, 
+            
+            HOMMES D'ARMES, VARLETS. 
+            
+            Combien les châtelains des environs vont envier l'hon
+            
+            neur que je reçois ! et conibien je dois solliciter l'indul
+            
+            MARGUERITE. 
+            
+            gence de Votre Majesté ! 
+            
+            CATHERINE. 
+            
+            Je suis à merveille, madame : les fatigues et les veilles
+            
+            auxquelles nos divisions me condamnent, ne m'ont pas
+            
+            toujours laissé si bon gîte l … Mais n'est-ce pas M. René
+            
+            de Montberon, votre parent, que j'aperçois ? 
+            
+            MARGUERITE. 
+            
+            Votre Majesté me perinet-elle de le lui présenter ? 
+            
+            8
+            
+            CATHERINE. 
+            
+            Oh ! c'est une ancienne connaissance ! Je le tiens en
+            
+            grande estime ; et j'espère, ma chère Marie, que cette fois
+            
+            vous parviendrez à retenir votre cousin près de nous. 
+            
+            OLIVIER, à part. 
+            
+            Encore un qu'elle lui donne à convertir ! 
+            
+            MARIE. 
+            
+            Votre Majesté peut être sûre que j'y mettrai tous mes
+            
+            soins. 
+            
+            CATHERINE. 
+            
+            Monsieur de Montberon, le duc de Guise m'écrit que
+            
+            son arrivée étant un peu retardée, c'est vous qui le rein
+            
+            placerez au conseil, en attendant sa venue ; quant au roi
+            
+            de Navarre, aux princes de Condé et de Conti, qui de
+            
+            vaient me précéder dans ce château, je m'étonne qu'ils se
+            
+            soient laissé devancer. 
+            
+            RENÉ. 
+            
+            Je crains que la trève ne leur convienne pas ; et qu'ils ne
+            
+            s'entendent pour la rejeter. Une paix solide, ou la conti
+            
+            nuation de la guerre : tel est leur væu. 
+            
+            CATHERINE. 
+            
+            J'aurais donc en vain bravé les fatigues de ce voyage ? 
+            
+            Non, il n'en sera point ainsi. Mon titre de feinme m'exclut
+            
+            des conférences qui vont avoir lieu, mais j'espère pourtant
+            
+            que ma présence ici ne sera pas sans fruit ; et que les princes
+            
+            sentiront enfin la nécessité de s'en rapporter à moi seule
+            
+            des intérêts de tous. 
+            
+            Je crains …
+            
+            RENÉ. 
+            
+            CATHERINE. 
+            
+            Par Notre-Dame ! le pays de France est bien turbulent, 
+            
+            et il m'est avis que si nous n'y apportions remède, tout le
+            
+            monde serait maître. 
+            
+            RENÉ. 
+            
+            Que Votre Majesté me pardonne ! Mais quand le cocher
+            
+            fourvoie le carrosse, ceux qui sont dedans ont bonne volonté
+            
+            de prendre les rênes. 
+            
+            CATA ERINE. 
+            
+            Il ferait beau voir ! … Dieu aidant, nous saurons bien
+            
+            l'empêcher. (se radoucissant.) Nous en parlerons ensemble, 
+            
+            M. de Montberon, et en vous expliquant mes projets, j'es
+            
+            père vous les faire adopter. 
+            
+            (Un page entre et parle bas à Marguerite.)
+            
+            9
+            
+            CATAERINE. 
+            
+            Qu'est-ce donc, madame ? 
+            
+            MARGUERITE. 
+            
+            On m'annonce que le comte de Neuville, commandant
+            
+            du fort de Meillezais, arrive au château, et demande à voir
+            
+            Votre Majesté. 
+            
+            CATHERINE. 
+            
+            Le comte de Neuville ! qu'il vienne. (à part.) C'est mon
+            
+            bon ange qui me l'adresse. 
+            
+            RENÉ, à part. 
+            
+            Le comte de Neuville ! cela devait être ! Partout où se
+            
+            trouve Marie, il faut qu'il se montre. 
+            
+            SCENE VIII. 
+            
+            OLIVIER, GIZELLE, MARIE DE NOIRMOUTIERS, 
+            
+            LE COMTE DE NEUVILLE, CATHERINE DE MÉDI
+            
+            CIS, MARGUERITE, RENÉ DE MONTBERON, CHA
+            
+            TELAINES, DEMOISELLES D'HONNEUR, HOMMES D'ARMBS, Ski
+            
+            GNEURS, PAGES, VARLETS. 
+            
+            CATHERINE. 
+            
+            Approchez, comte : par Notre-Dame, nous n'espérions
+            
+            si bonne fortune ! 
+            
+            pas
+            
+            LE COMTE. 
+            
+            J'ai quitté le fort de Meillezais par les ordres de Sa
+            
+            Majesté le roi de Navarre, qui a daigné me mander en ce
+            
+            château. 
+            
+            CATHERINE. 
+            
+            Le roi mon gendre et bien avisé ; sans doute il veut dans
+            
+            les conférences qui se préparent demander à vos lumières
+            
+            aide et assistance. 
+            
+            LE COMTE. 
+            
+            Je ne le pense pas, madame : le fort qui in'est'confié est
+            
+            trop important pour que j'en demeure long-temps éloi
+            
+            gné, et j'en repartirai dès que j'aurai reçu les commande
+            
+            mens du roi, qui arrive, et m'a chargé d'en donner avis à
+            
+            Votre Majesté. 
+            
+            CATHERINE. 
+            
+            Nous allons le voir ; mais, monsieur le comte, vous ne
+            
+            nous quitterez pas si vite, vous donnerez quelques heures
+            
+            à vos amis. Il est ici des gens que vous aviez plaisir à voir. 
+            
+            10
+            
+            LE COMTE2
+            
+            Je m'aperçois que Votre Majesté a rassemblé toutes ses'
+            
+            forces. 
+            
+            CATHERINE. 
+            
+            Vous nous opposez de plus terribles escadrons. 
+            
+            LE COMTE. 
+            
+            Qui peut-être sont moins dangereux ? 
+            
+            RENÉ, à part. 
+            
+            Comme il la regarde ! 
+            
+            CATHERINE. 
+            
+            Venez, accompagnez-moi près du roi mon gendre ; puis
+            
+            nous irons prendre quelques momens de repos. 
+            
+            MARGUERITE. 
+            
+            Voici l'appartement préparé pour Votre Majesté ; puisse
+            
+            t-elle ne pas le trouver trop indigne d'elle ! Tout près d'ici, 
+            
+            sont les personnes de sa suite, et là est l'appartement de
+            
+            a cousine Marie ; les salles du bas sont disposées pour
+            
+            les fêtes que je veux offrir à Votre Majesté, et la chambre
+            
+            destinée aux conférences est placée au-dessous de celle-ci. 
+            
+            GIZELLE, si part. 
+            
+            Ah ! c'est bon à savoir ! 
+            
+            CATHERINE. 
+            
+            Grand merci, madame, pour tant de soins ! suivez-moi, 
+            
+            comte. Par Notre-Dame ! heureux qui peut s'appuyer sur
+            
+            un tel support ! 
+            
+            (Elle s'appuie sur son épaule, tout le monde la suit, excepté
+            
+            Marie et Rénė ; Catherine en tre à droite.)
+            
+            SCENE IX. 
+            
+            MARIE, RENÉ. 
+            
+            MARIE ; elle fait quelques pas pour s'éloigner, puis elle s'arrête
+            
+            et regarde René qui demeure plongé dans la rêverie. 
+            
+            René … quoi ! … pas un mot ! 
+            
+            Que vous dirai-je ? 
+            
+            RENE. 
+            
+            MARIE. 
+            
+            Vous n'avez rien à dire à l'amie de votre enfance ? 
+            
+            RENÉ. 
+            
+            €
+            
+            Les hommages et les plaisirs, qui l'environnent ne l'ont
+            
+            ils pas à jamais séparée de ses anciens amis ? 
+            
+            Il
+            
+            MARIE. 
+            
+            Vous le pensez, vous René, que ce brillant exil loin de
+            
+            ceux qui m'aimaient peut satisfaire mon coeur. 
+            
+            RENÉ, se rapprochant. 
+            
+            Cette'gaîté, ce sourire,' qui accueille et cherche les
+            
+            hommages, ne prouvent-ils pas qu'ils vous plaisent ? 
+            
+            MARIE., souriant. 
+            
+            Ces éloges trompeurs font toujours quelque plaisir, bien
+            
+            qu'on y croie pas ; ces veux empressés qui n'arrivent ja
+            inais au cour, 
+            
+            eh bien ! je l'ayoue, l'esprit s'en amuse
+            
+            faute de mieux ; on est bien aise de plaire aux gens qu'on
+            
+            n'aime pas, cela tranquillise sur les sentimens de ceux qu'on
+            
+            aime… si pourtant au milieu de cette vie dissipée, on a le
+            
+            temps d'aimer. 
+            
+            René, tristement. 
+            
+            Vous le voyez, j'ai raison. Ces plaisirs suffisent à Marie : 
+            
+            admirée, adorée, que peut-il lui manquer ? 
+            
+            Le bonheur peut-être ? 
+            
+            MARIE. 
+            
+            RENÉ. 
+            
+            A vous dont l'existence n'est qu'un long jour de fête ! 
+            
+            MARIE. 
+            
+            Cette existence agitée, ces occupations frivoles, ces
+            
+            fêles… C'est le mouvement, ce n'est pas le bonheur, 
+            
+            Quel langage ! 
+            
+            RENÉ. 
+            
+            MARIE, 
+            
+            Que de fois, au milieu de cette cour brillante, fatiguée
+            
+            de ces passions, de ces intérêts divers qui s'agitent sans
+            
+            cesse autour de moi, je demandais au ciel un jour, une
+            
+            heure de calme près d'une amie ! 
+            
+            Vous ! 
+            
+            RENÉ. 
+            
+            MARIE. 
+            
+            Ah ! celle qui n'eut jamais les caresses de sa inère, et qui
+            
+            vit loin de tous les siens, n'a-t-elle pas dû sentir le besoin
+            
+            d'être aimée ? 
+            
+            RENÉ. 
+            
+            Quoi ! il serait possible ! Oui, votre esprit a sauvé votre
+            
+            cour des égaremens et des vices qui vous entourent. Les
+            
+            douces et tendres affections de votre enfance, vous ne les
+            
+            avez
+            
+            pas oubliées ? 
+            
+            MARIE. 
+            
+            Jamais ! Oh ! si vous saviez ce qui s'est passé là, ep re
+            
+            12
+            
+            voyant aujourd'hui cet antique manoir ou je reçus près de
+            
+            vous mes premières impressions ! Quatre années pénibles
+            
+            se sont effacées : je me retrouvais avec un sentiment de
+            
+            bonheur indéfinissable dans ces lieux où mes plaisirs et mes
+            
+            peines étaient partagées, et où mon coeur prenait la moitié
+            
+            de vos joies et de vos chagrins. 
+            
+            RENÉ. 
+            
+            Vous pourriez les regretter, vous la favorite de Cathe
+            
+            rine de Médicis ! 
+            
+            MARIE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville de la Robe et les Bottes. </stage>
+            
+            
+                    <l>Oui, je dois tout aux bienfaits d'une reine,</l>
+                    <l>Et dans sa cour je brille au premier rang ;</l>
+                    <l>De sa faveur sans doute on me croit vaine :</l>
+                    <l>Ah ! sur mon cœur combien on se méprend !</l>
+                    <l>À mon destin la foule porte envie ;</l>
+                    <l>Ce vain éclat vous trompe-t-il aussi ?</l>
+                    <l>Dans cette cour les plaisirs m'ont suivie ;</l>
+                    <l>Mais le bonheur… il est peut-être ici.</l>
+            
+                </lg>
+            </div>
+            
+            René. 
+            
+            Marie …
+            
+            s'il était vrai ! Gloire, ambition, tout disparai
+            
+            trait devant une telle idée … Ah ! si vous disiez tout ce que
+            
+            vous pensez ! 
+            
+            MARIE, souriant. 
+            
+            Ah ! si vous pensiez tout ce que vous dites ! 
+            
+            RENÉ. 
+            
+            Eh bien ! oui, vous l'emportez sur toutes mes résolu
+            
+            tions. Mes craintes, mes soupçons, tout est effacé par mon
+            
+            amour ; lui seul disposera de ma vie, elle vous appartient ! 
+            
+            Silence … voici la Reine ! 
+            
+            MARIE, 
+            
+            SCENE X. 
+            
+            MARIE, CATHERINE, RENÉ. 
+            
+            CATHERINE. 
+            
+            J'ai besoin de vous parler, Marie ; mais je vous inter
+            
+            romps à regret … Votre cousin reviendra-t-il de ses injustes
+            
+            préventions contre la cour et contre moi ? 
+            
+            13
+            
+            RENÉ. 
+            
+            Je n'en ai aucune, madaine, et je me tiendrais heureux
+            
+            de le prouver à Votre Majesté. 
+            
+            CATA ERINE. 
+            
+            Graces vous soient rendues, ma chère Marie ; voilà en
+            
+            core un de vos miracles. 
+            
+            RENÉ, passant auprès de Marie. 
+            
+            Je m'éloigne, madame …
+            
+            CATHERINE. 
+            
+            Allez, que Dieu vous garde, monsieur de Montberon, 
+            
+            nous nous reverrons. 
+            
+            RENÉ, d demi-voix à Marie en sortant. 
+            
+            Ici je peux à peine vous voir seule un instant : je vous
+            
+            écrirai ; je veux que vous lisiez dans mon ame. 
+            
+            (Il sort.)
+            
+            SCENE XI. 
+            
+            MARIE, CATHERINE. 
+            
+            CATHERINE, s'asseyant. 
+            
+            C'est bien, ma chère enfant ; la haine s'évanouit à votre
+            
+            aspect ; aussi je compte aujourd'hui sur votre assistance. 
+            
+            Sur inon assistance ! 
+            
+            Oui. 
+            
+            MARIE. 
+            
+            CATHERINE. 
+            
+            MARIE. 
+            
+            Que Votre Majesté commande. 
+            
+            CATHERINE. 
+            
+            Écoutez … vous connaissez le comte de Neuville : vous
+            
+            savez avec quelle chaleur il a embrassé le parti des hugue
+            
+            nots ; vous savez que le roi de France n'a pas d'ennemi
+            
+            plus redoutable dans le camp du roi de Navarre. 
+            
+            Quel malheur ! 
+            
+            MARIE. 
+            
+            CATHERINE. 
+            
+            Qui, c'est un grand malheur que le comte, avec toutes
+            
+            les graces d'un homme de cour et tous les talens d'un vail
+            
+            lant capitaine, soit tombé dans la funeste erreur qui l'égare. 
+            
+            Il doit vous inspirer bien de la pitié ! songez qu'il se perd
+            
+            pour ce monde et pour l'autre. 
+            
+            MARIE. 
+            
+            Hélas ! 
+            
+            14
+            
+            CATHERINE. 
+            
+            Vous le plaignez, Marie, mais vous pourriez faire da
+            
+            vantage. 
+            
+            Cominent ? 
+            
+            MARIE. 
+            
+            CATAERINE. 
+            
+            Il m'est avis que souvent, lorsqu'il était à ma cour avec
+            
+            le roi mon gendre, j'ai vu ses regards s'attacher sur vous. 
+            
+            Il ne dissimule pas son … amitié ; ne vous l'a-t-il jamais
+            
+            fait connaître ? 
+            
+            MARIE. 
+            
+            Je me souviens en effet qu'un jour un ancien serviteur
+            
+            de ma famille eut une grace à demander au roi de Navarre ; 
+            
+            je m'adressai en tremblant à M. de Neuville : « Ne trem
+            
+            « blez
+            
+            pas ainsi, me dit-il ; vous avez bien des droits pour
+            
+            « obtenir de moi ce que vous souhaitez : votre protégé de
+            
+            « vient le mien, et si un jour vous aviez besoin pour vous
+            
+            « même d'un protecteur et d'un anni, adressez-vous à moi. » 
+            
+            Ces inols ne furent point prononcés par cette courtoisie
+            
+            gracieuse qui lui est habituelle, mais par cet accent vrai
+            
+            qui vient du caur, .et qui donne aux paroles une persuasion
+            
+            puissante. 
+            
+            Et depuis ce jour ? …
+            
+            CATAERINE. 
+            
+            MARIE. 
+            
+            La guerre a recommencé, et le comte, rejoignant le roi
+            
+            de Navarre, ne reparut plus à la cour. 
+            
+            CATHERINE. 
+            
+            Il n'est que trop vrai … mais ce Dieu qui le punira éter
+            
+            nellement s'il persiste dans ses erreurs, vous donna, Marie, 
+            
+            un charme tout-puissant … Il voulait sans doute vous faire
+            
+            servir à ramener vers lui les ceurs qui s'égarent. 
+            
+            MARIE. 
+            
+            Croyez que mes voeux sincères demanderont au ciel la
+            
+            conversion du comte. 
+            
+            CATHERINE. 
+            
+            Des voeux, des prières ! … c'est très bien … mais cela ne
+            
+            suffit pas. 
+            
+            MARIE. 
+            
+            Que puis-je faire de plus ? 
+            
+            CATHERINE. 
+            
+            Quel triomphe pour le roi inon fils, pour notre sainte
+            
+            religion, si l'on ramenait à eux le comte de Neuyille ! …
+            
+            15
+            
+            Jamais il ne sut résister à de tendres regards ; la beauté
+            
+            exerce sur lui un pouvoir invincible … et vous êtes si belle ! 
+            
+            Je ne comprends pas. 
+            
+            MARIE. 
+            
+            CATHERINE, à part en se levant. 
+            
+            Sotte innocence ! 
+            
+            (haut, avec indifférence.) Je veux dire
+            
+            que les leçons de vertu sont plus persuasives dans la bouche
+            
+            d'une jeune feinmie, et que vous pouvez tout sur lui. 
+            
+            Le comte ya partir. 
+            
+            MARIE. 
+            
+            *
+            
+            CATHERINE. 
+            
+            Eh bien ! obténez de lui qu'il reste. Vous allez le voir ici : 
+            
+            du temps, voilà tout ce que je demande ; car le temps est
+            
+            souvent plus habile que les combinaisons des hommes … Je
+            
+            vous laisse, mon enfant. Je désire que le comte demeure, 
+            
+            ne l'oubliez pas, et sóngez que vous pouvez m'aider à ga
+            
+            gner un zélé défenseur à notre causc el un élu de plus au
+            
+            ciel. 
+            
+            Je le voudrais. 
+            
+            MARIĖ. 
+            
+            (La reine entre dans son appartement d droite.)
+            
+            SCENE XII. 
+            
+            MARIE, seule. 
+            
+            Relenir ici le comte ! … Pourquoi suis-je effrayée de cette
+            
+            mission ? Il est si bon, et j'ai tant de plaisir à le voir ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Colalto. </stage>
+            
+            
+                    <l>Dans cette cour où règne l'intérêt,</l>
+                    <l>De mon sort on vante les charmes ;</l>
+                    <l>Et souvent je pleure en secret,</l>
+                    <l>Sans trouver une main pour essuyer mes larmes !</l>
+                    <l>Mais près de moi, douce amitié,</l>
+                    <l>Aussitôt que tu les ramènes,</l>
+                    <l>Je souffre moins… je sens que de mes peines</l>
+                    <l>Quelqu'un est là pour prendre la moitié.</l>
+                </lg>
+            </div>
+            
+            
+            Le sentiment que j'éprouve à son aspect ne ressemble en
+            
+            rien, oh ! non, en rien à celui que René m'inspire. René ! 
+            
+            que de joie m'a donné une seule de ses paroles ! Il m'aime ; 
+            ah ! que je suis heureuse ! 
+            
+            16
+            
+            SCENE XIII. 
+            
+            MARIE, OLIVIER. 
+            
+            OLIVIER, entrant étourdiment. 
+            
+            Ah ! vous voilà, mademoiselle Gizelle ! 
+            
+            MARIE. 
+            
+            Non, monsieur le page, vous vous trompez. 
+            
+            OLIVIER. 
+            
+            Oh ! pardon ! (à part.) Maladroit que je suis ! 
+            
+            MARIE. 
+            
+            C'est Gizelle que vous cherchiez ; que lui vouliez-vous ? 
+            
+            OLIVIER. 
+            
+            Peu de chose … Je venais lui dire que la fête préparée
+            
+            pour la reine va bientôt commencer. Les princes arrivent, 
+            
+            et les conférences auront lieu aussitôt après le bal : on veut
+            
+            qu'ils se préparent à l'ennui par le plaisir. 
+            
+            Sont-ils tous ici ? 
+            
+            MARIE. 
+            
+            OLIVIER. 
+            
+            Tous : mais M. de Neuville nous quitte ; j'ai vu son
+            
+            cheval et son écuyer qui l'attendent dans la première cour, 
+            
+            il va venir prendre congé de la reine. 
+            
+            MARIE, 
+            
+            Il va venir … eh bien ! pour vous punir de votre mala
+            
+            dresse, beau page, je vous ordonne, au nom de la Reine, 
+            
+            de rester près de moi. J'entends le comte, ne vous éloi
+            
+            gnez pas. 
+            
+            Que veut-elle que je fasse ici ? 
+            
+            OLIVIIR, à part. 
+            
+            SCENE XIV. 
+            
+            MARIE, LE COMTE DE NEUVILLE ; OLIVIER, 
+            
+            s'appuyant sur le dossier du fauteuil. 
+            
+            LE COMTE. 
+            
+            En quoi ! c'est vous, belle Mariel que de graces je dois
+            
+            à mon bon ange qui me fait vous rencontrer. 
+            
+            MARIB. 
+            
+            La reine repose. 
+            
+            17
+            
+            LE COMTE. 
+            
+            Je venais prendre congé d'elle. 
+            
+            MARIE. 
+            
+            Elle m'a chargée de vous recevoir. 
+            
+            LE COMTE, lui baisant la main. 
+            
+            Combien je dois être reconnaissant ! 
+            
+            OLIVIER, à part. 
+            
+            Est-ce pour voir cela qu'elle m'a retenu ? profitons de la
+            
+            leçon. 
+            
+            MARIE. 
+            
+            Vous voulez donc nous quitter tout de suite ? 
+            
+            Il le faul ! 
+            
+            LE COMTE. 
+            
+            MARIE. 
+            
+            Comment ! on ne pourrait vous retenir ? 
+            
+            LE COMTE. 
+            
+            La reine désire-t-elle que je demeure ? 
+            
+            MARIE. 
+            
+            Peut-elle nepas le souhaiter ? 
+            
+            LE COMTE. 
+            
+            Et c'est vous qu'elle charge de m'exprimer son désir ! 
+            
+            elle est bien habile ! 
+            
+            Que voulez-vous dire ! 
+            
+            LE COMTE. 
+            
+            MARIE. 
+            
+            Qu'elle soupçonne l'empire que vous exercez sur mon
+            
+            coeur. 
+            
+            Moi, monsieur le comte ! 
+            
+            LE COMTE. 
+            
+            MARIE. 
+            
+            Oui, vous, Marie ! je suis votre ami, votre véritable ami ; 
+            
+            vous seule avez pu me ramener souvent dans cette cour
+            
+            que je connais trop pour ne pas trembler, en vous voyant
+            
+            sans autre guide qu'une reine perfide. 
+            
+            MARIE. 
+            
+            Elle est ma bienfaitrice. 
+            
+            LE COMTE. 
+            
+            Puisse-t-elle ne pas vous faire payer trop cher ses bien
+            
+            faits ! 
+            
+            Que dites-vous ! monsieur le comte. 
+            
+            LE COMTE. 
+            
+            MARIE. 
+            
+            Marie, la reine ne vous a-t-elle pas forcée déjà de refu
+            
+            ser des propositions de mariage ? 
+            
+            3
+            
+            18
+            
+            MARIE
+            
+            J'ai seule écarté des offres que mon coeur repoussait. 
+            
+            LE COMTE. 
+            
+            Par combien de voeux j'appelle l'instant où, sous la
+            
+            sauvegarde d'un époux…
+            
+            MARIE. 
+            
+            Vous désirez que je me marie ! 
+            
+            LE COMTE. 
+            
+            Oui, car alors, nous serons deux à veiller sur vous. 
+            
+            SCENE XV. 
+            
+            OLIVIER ; GIZELLE, un papier à la main, MARIE, LE
+            
+            COMTE DE NEUVILLE. 
+            
+            OLIVIER, courant au-devant de Gizelle qui arrive par le fond. 
+            
+            Qu'est-ce que cela ? 
+            
+            GIZELLE
+            
+            Laissez donc, monsieur le page, c'est pour ma cousine
+            
+            Marie. 
+            
+            Voyons. 
+            
+            NARIE
+            
+            GIZELLE, lui remettant la lettre. 
+            
+            C'est René qui rn'a confié ce message. 
+            
+            LE COMTE, &amp; Marie. 
+            
+            Comme vous rougissez ! 
+            
+            René est mon cousin. 
+            
+            Rien de plus ? 
+            
+            MARIE. 
+            
+            LE COMTE. 
+            
+            MARIE. 
+            
+            Nous faines élevés ensemble. 
+            
+            LE COMTE. 
+            
+            Bien
+            
+            que nous servions sous des drapeaux différens, je le
+            
+            tiens en grande estime. 
+            
+            OLIVIER, à Gizelle. 
+            
+            Ne me repoussez donc pas, mademoiselle
+            
+            Gizelle, on se
+            
+            laisse toujours baiser la main. 
+            
+            A la cour ? 
+            
+            GIZELLE. 
+            
+            OLIVIER. 
+            
+            Sans doute l et tout à l'heure, le cointe baisait la main
+            
+            de votre cousine. 
+            
+            19
+            
+            GIZELLE. 
+            
+            Alors, je n'ai plus rien à dire. 
+            
+            MARIE, après avoir parcouru la lettre. 
+            
+            Bon René ! 
+            
+            LE COMTE. 
+            
+            Dans cette cour où l'on connaît si bien l'art de tromper
+            
+            sur ses vrais sentimens, vous n'avez pas encore appris à
+            
+            cacher les vôtres : vous aimez inonsieur de Montberon. 
+            
+            Monsieur le comte …
+            
+            MARIE. 
+            
+            LE COMTE, 
+            
+            Oh ! ne voyez dans mon indiscrétion que l'intérêt d'une
+            
+            sincère amitié ; ne cherchez pas à déguiser votre coeur. 
+            
+            MARIE. 
+            
+            Auprès de vous, je le voudrais en vain, vous m'inspirez
+            
+            une confiance, …
+            
+            Que je saurai justifier. 
+            
+            LE COMTE. 
+            
+            MARIB. 
+            
+            Eh bien ! lisez ! (Elle lui remet la lettre.)
+            
+            LE COMTE, lisant. 
+            
+            « Je ne résiste plus au charme qui commande à inon
+            
+            « cour, tous mes efforts pour vaincre un amour que des
+            
+            « soupçons jaloux avaient rendu si malheureux, ont été
+            
+            superflus ; ma cousine, je vous aime ; un inot, un seul
+            
+            « inot de vous décidera de mon sort ; toujours ou jamais, 
+            
+            a car il faut vous fuir sans retour ou vous consacrer sa
+            
+            « vie. » 
+            
+            (souriant.) Quelle passion ! 
+            
+            je n'aurais jamais cru M. de
+            
+            Montberon susceptible de tant d'amour. 
+            
+            GIZELLE, à demi-roix à Olivier. 
+            
+            Il a l'air de se moquer de mon cousin. 
+            
+            OLIVIER, de même, en l'attirant dans le fond du théâtre. 
+            
+            Occupons-nous de nos affaires : vous voyez bien qu'ils
+            
+            parlent bas ! 
+            
+            LE COMTE. 
+            
+            Eh bien ! Marie, que dites-vous de cette lettre ? 
+            
+            MARIE. 
+            
+            Elle me rend bien heureuse. 
+            
+            LE COMTE. 
+            
+            Mais la reine consentira-t-elle à ce mariage ? 
+            
+            Je crains son refus. 
+            
+            MARIE. 
+            
+            20
+            
+            LE COMTE. 
+            
+            Oui. sans doute : elle a sur vous d'autres projets ; elle
+            
+            vous refuserait, vous ! … mais moi, qu'elle désire tant ga
+            
+            gner à ses intérêts, si je lui demande son aveu …
+            
+            MARJE. 
+            
+            Peut-être elle vous l'accordera. 
+            
+            LE COMTE. 
+            
+            Essayons ! flattons-la d'une espérance qui ne doit jamais
+            
+            se réaliser : en fait de ruse, nous serons toujours en reste
+            
+            avec elle. D'abord, je demeure au château, j'assisterai aux
+            
+            fêtes, aux conférences…
+            
+            MARIE. 
+            
+            Ah ! monsieur, que ne vous devrai-je pas ? 
+            
+            LE COMTE. 
+            
+            Rien, chère Marie … rien … vous ne savez pas combien
+            
+            mon bonheur dépend du vôtre … Venez, entrons chez la
+            
+            reine ; je la déciderai, j'espère ; je ne partirai pas aujour
+            
+            d'hui, 
+            
+            et c'est pour vous seule que je reste. (Ils entrent
+            
+            chez la reine.)
+            
+            SCENE XVI. 
+            
+            RENÉ, quia entendu les derniers mots du comte, GIZELLE, 
+            
+            Que dit-il ? 
+            
+            OLIVIER. 
+            
+            RENÉ. 
+            
+            GIZELLE. 
+            
+            Il dit qu'il demeure au château pour Marie. 
+            
+            Ciel ! est-il possible ? 
+            
+            RENÉ. 
+            
+            OLIVIER. 
+            
+            Encore un triomphe pour la bonne cause ! aussi le roi
+            
+            de Navarre emploie des gentilshommes si galans, que les
+            
+            demoiselles de la reine ont pour les conversions un zèle, 
+            
+            un zèle … mais le comte de Neuville, c'était difficile ! … il fal
+            
+            lait mademoiselle Marie ! et tout à l'heure encore : 
+            
+            « Qu'on
+            
+            « tienne mon cheval prêt, au bas du perron, » disait-il, ah
+            
+            bien oui ! le pauvre écuyer a le temps de se morfondre ! 
+            
+            René, à Gizelle. 
+            
+            Ma lettre ! … ma lettre ! … rendez-la-moi. 
+            
+            GIZELLE. 
+            
+            Je ne l'ai plus. 
+            
+            Ou est-elle ? 
+            
+            21
+            
+            RENÉ. 
+            
+            OLIVIER. 
+            
+            C'est monsieur de Neuville qui l'a. 
+            
+            RENÉ. 
+            
+            Monsieur de Neuville ! 
+            
+            GIZELLE. 
+            
+            Ce n'est pas moi qui la lui ai donnée ; c'est ma cousine : 
+            
+            ils l'ont lue ensemble. 
+            
+            Ensemble ! 
+            
+            RENÉ. 
+            
+            GIZELLE. 
+            
+            Je ne sais pas ce que vous écriviez, mais M. de Neuville
+            
+            s'est mis à rire. 
+            
+            RENÉ, à part. 
+            
+            Malédiction ! elle me trompait ; oui, je ne peux plus dou
+            
+            ter de leur coupable intelligence ; l'honneur la vertu, elle
+            a tout oublié ! 
+            
+            Qu'avez-vous, mon cousin ? 
+            
+            GIZELLE. 
+            
+            Rien, rien. 
+            
+            RENÉ. 
+            
+            OLIVIER. 
+            
+            Vous paraissez souffrir ? 
+            
+            RENÉ. 
+            
+            Non, non, laissez-moi ; je suis bien, très bien ! 
+            
+            SCENE XVII. 
+            
+            MARGUERITE, RENÉ, GIZELLE et OLIVIER, 
+            
+            à l'écart. 
+            
+            MARGUERITE. 
+            
+            Ah ! c'est vous, Renél … Je viens annoncer à la reine qu'on
+            
+            n'altend plus que Sa Majesté pour commencer la fête. Vous
+            
+            allez me seconder, n'est-il pas vrai ? … Mais que vois-je ? 
+            
+            toujours cette tristesse qui me désespère ! 
+            
+            la présence de
+            
+            Marie ne l'a donc pas dissipée ? (Elle s'approche de lui et lui
+            
+            prend la main avec affection.) Pourtant, vous êtes ici au
+            
+            milieu de tous ceux qui vous aiment ! pourquoi n'êtes-vous
+            
+            pas heureux ? 
+            
+            RENÉ. 
+            
+            Heureux ! oui, bonne Marguerite, près de vous je dois
+            
+            22
+            
+            l'être ! qui pourrait méconnaître un caur comme le vôtre ? 
+            
+            vous êtes sincère, dévouée ! … Votre ame n'est ni fausse ni
+            
+            corrompue. 
+            
+            Quel langage ! 
+            
+            MARGUERITE. 
+            
+            SCENE XVIII. 
+            
+            MARIE, LE COMTE DE NEUVILLE, CATHERINE DE
+            
+            MÉDICIS, MARGUERITE, RENÉ, GIZELLE, OLI
+            
+            VIER, CHATELAINES, SEIGNEURS, DEMOISELLES D'HONNEUR, 
+            
+            PAGES, HOMMES D'ARMES, VARLETS. 
+            
+            MARGUERITE. 
+            
+            Reine, j'allais solliciter l'honneur d'être admise près de
+            
+            Votre Majesté ; on n'attend que ses ordres pour commencer
+            
+            la fête. 
+            
+            CATHERINE. 
+            
+            Bien, madaine ; mais cette fête va devenir plus intéres
+            
+            sante encore, car nous espérons conclure ici un mariage. 
+            
+            Un mariage ! 
+            
+            MARGUERITE. 
+            
+            CATHERINE, 
+            
+            M. de Montberon, je ne veux pas que vous ignoriez les
+            
+            obligations que vous avez à M. de Neuville. 
+            
+            Moi ! 
+            
+            RENÉ. 
+            
+            LE COMTE. 
+            
+            Oui, monsieur ; Sa Majesté craignaitde partager l'affec
+            
+            tion de votre belle parente, demoiselle Marie de Noir
+            
+            moutiers, avec un époux ; mais, à ma prière, la reine veut
+            
+            bien l'accorder à votre amour. 
+            
+            RENÉ, à part. 
+            
+            A sa prière … ah ! oui, je comprends, mais je ne m'at
+            
+            tendais pas à une telle audace ! (haut.) qui vous a parlé de
+            
+            mon ainour, monsieur ? 
+            
+            Je l'avais deviné. 
+            
+            LE COMTE. 
+            
+            RENÉ. 
+            
+            Vous êtes bien clairvoyant ! 
+            
+            LE COMTE. 
+            
+            Cela n'était pas difficile ; et d'ailleurs cette lettre …
+            
+            23
+            
+            RENÉ. 
+            
+            Cette lettre … (d part.) que faire ? moi l'épouser … Ja
+            
+            mais. 
+            
+            Eh bien ? 
+            
+            LE COMTE. 
+            
+            RENÉ, à part. 
+            
+            Tout plutôt que consentir ! (ayant l'air de prendre une
+            
+            résolution.) Qui vous a dit que cette lettre fat pour
+            
+            elle ? 
+            
+            (Moment de silence général.)
+            
+            Qu'entends-je ? 
+            
+            MÁRIE, à part. 
+            
+            GIZELLE. 
+            
+            Eh ! mais, c'est moi qui l'ai dit. 
+            
+            RENÉ. 
+            
+            Vous vous êtes trompée. 
+            
+            GIZELLE. 
+            
+            Oh ! par exemple ! 
+            
+            LE COMTE, regardant la lettre. 
+            
+            Il est vrai qu'il n'y a pas d'adresse. 
+            
+            CATHERINE. 
+            
+            Que signifie cela ? voici une lettre qui exprime un amour
+            
+            passionné ; c'est vous qui l'avez écrite ? 
+            
+            Oui. 
+            
+            RENÉ. 
+            
+            CATHERINE. 
+            
+            Celle qui la reçut, monsieur, dut croire que tous vos
+            
+            voeux étaient de l'obtenir pour femme. 
+            
+            MARGUERITE, à part. 
+            
+            O ciel ! 
+            
+            Cette lettre était
+            
+            pour
+            
+            Marie ! 
+            
+            RENÉ. 
+            
+            CATHERINE. 
+            
+            Non, non. 
+            
+            Dieu ! 
+            
+            MARIB, à part. 
+            
+            CATHRRINE. 
+            
+            Et pour qui donc serait-elle ? 
+            
+            Pour …
+            
+            Pour qui ? 
+            
+            Pour … Marguerite ! 
+            
+            RENÉ. 
+            
+            CATHERINE. 
+            
+            RENÉ. 
+            
+            Pour moi ! 
+            
+            C'est impossible ! 
+            
+            Oui, Marguerite
+            
+            consacrer ma vie ! 
+            
+            24
+            
+            MARGUERITE. 
+            
+            MARIE, à part, 
+            
+            René. 
+            
+            : c'est à vous, à vous seule que je veux
+            
+            GIZELLE. 
+            
+            Comment ! j'aurais mal entendu ! … eh bien ! tant mieux ; 
+            
+            ma bonne seur sera bien heureuse, car depuis long-temps
+            je l'ai deviné, elle
+            
+            elle aime en secret mon cousin René, 
+            
+            le nommait toujours quand elle avait du chagrin. 
+            
+            RENÉ, à part, arec désespoir. 
+            
+            Elle m'aimait ! 
+            
+            LE COMTE, 
+            
+            à part. 
+            
+            Il y a dans tout ceci un mystère que je veux pénétrer. 
+            
+            CATHERINF. 
+            
+            Vous étiez dans l'erreur, monsieur le comte, et inoi je
+            
+            m'en réjouis puisque ma chère Marie me reste sans par
+            
+            tage. M. de Montberon, noble dame de Saint-Bris, avant
+            
+            de quitter le château nous signerons à votre contrat, et
+            
+            nous vous donnerons des témoignages de notre royale mu
+            
+            nificence. Venez tous, allons assister à la fête ; inonsieur
+            
+            de Neuville, j'espère que vous ne regretterez pas d'avoir
+            
+            cédé aux désirs de notre aimable Marie, en nous consacrant
+            
+            quelques instans. 
+            
+            <div type="poem">
+                <lg>
+            
+                    FINAL. 
+            
+                    ENSEMBLE. 
+            
+                    MARGUERITE, GIZELLE, OLIVIER, CHOEUR. 
+            
+            
+                    <stage type="tune">AIR du Comte Ory (tel qu'il est à la fin du premier acte de Malvina : Venez, suivez-moi tous) .</stage>
+            
+            
+                    <l>Entendez-vous ces sons joyeux ?</l>
+                    <l>Oui, la fête commence ;</l>
+                    <l>Reine, votre présence</l>
+                    <l>Fixe les plaisirs en ces lieux.</l>
+            
+                    MARIE. 
+            
+                    <l>Cette fête et ces sons joyeux</l>
+                    <l>Accroissent ma souffrance ;</l>
+                    <l>Non, non, plus d'espérance !</l>
+                    <l>René vient de briser nos nœuds.</l>
+            
+                    RENÉ. 
+            
+                    <l>Cette fête et ces sons joyeux</l>
+            
+                    25
+            
+                    <l>Accroissent ma souffrance ;</l>
+                    <l>Non, non, plus d'espérance :</l>
+                    <l>À jamais je brise nos nœuds !</l>
+            
+                    LE COMTE. 
+            
+                    <l>Pauvre enfant, ta souffrance</l>
+                    <l>Me force à rester en ces lieux.</l>
+            
+                    RENÉ. 
+            
+                    <l>Pour moi plus d'espérance :</l>
+                    <l>À jamais je brise nos nœuds !</l>
+            
+                    (Marie s'éloigne de la foule, 
+            
+                    et reste sur un des côtés du
+            
+                    théâtre, la tête appuyée dans ses mains. 
+            
+                    GIZELLE, renant la chercher. 
+            
+                    Eh bien ! ma cousine, venez donc, que faites-vous là ? 
+            
+                    Quoi ! 
+            
+                    pas même un moment pour pleurer ! 
+            
+                    MARIE, 
+            
+                    à part. 
+            
+            
+                    Reprise de l'ensemble. 
+            
+            
+                    MARGUERITE. 
+            
+                    <l>Entendez-vous ces sons joyeux ?</l>
+                    <l>Oui, la fête commence ;</l>
+                    <l>Reine, votre présence</l>
+                    <l>Fixe les plaisirs en ces lieux.</l>
+            
+                    MARIE. 
+            
+                    <l>Cette fête et ces sons joyeux</l>
+                    <l>Accroissent ma souffrance ;</l>
+                    <l>Il n'est plus d'espérance :</l>
+                    <l>René brise à jamais nos næuds.</l>
+            
+                    RENÉ. 
+            
+                    <l>Cette fête et ces sons joyeux</l>
+                    <l>Accroissent ma souffrance ;</l>
+                    <l>Non, non, plus d'espérance :</l>
+                    <l>À jamais je brise nos nœuds !</l>
+            
+                    LE COMTE. 
+            
+                    <l>Je vois des larmes dans ses yeux :</l>
+                    <l>N'est-il plus d'espérance ?</l>
+                    <l>Pauvre enfant ! ta souffrance</l>
+                    <l>Me force à rester en ces lieux.</l>
+                </lg>
+            </div>
+            
+            
+            (Tout le monde sort par le fond.)
+            
+            PIN DU PREMIER ACTE. 
+            
+            4
+            
+            cococooacO06908840000000000-0000-00000000000000000000. sovo
+            
+            ACTE II. 
+            
+            Même décoration qu'au premier acte. 
+            
+            SCENE PREMIERE. 
+            
+            MARTE, entrant seule, par le fond. 
+            
+            Non, non ! ce n'est pas Marguerite qu'il aime ! Et pour
+            
+            tant il va l'épouser ! tout se prépare : il ne l'a pas quittée
+            
+            durant cette fête, où j'étais au supplice ! 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR d' Aristippe. </stage>
+            
+            
+                    <l>De Marguerite il admirait les charmes ;</l>
+                    <l>Et seule, pleurant à l'écart,</l>
+                    <l>Je m'éloignais… car, pour mes larmes,</l>
+                    <l>L'ingrat n'avait pas un regard.</l>
+                    <l>Lorsqu'aux tourmens mon ame était en proie,</l>
+                    <l>Je la voyais sourire avec bonbeur ;</l>
+                    <l>El, malgré moi, je souffrais de sa joie</l>
+                    <l>Presqu'autant que de ma douleur.</l>
+            
+                </lg>
+            </div>
+            
+            Quelest donc ce mystère ? Il m'aime, j'en suis sûre ! … ah ! je
+            
+            l'aime trop, moi, pour n'y tromper ! Son cour m'appar
+            
+            tient, je le vois, je le sens … Et il épouse Marguerite ! ses
+            
+            regards, ce matin, étaient pleins d'amour : ce soir, ils
+            
+            expriment le dédain et la haine. Grand Dieu ! qui pourra
+            
+            m'apprendre ? … René, René, que vous ai-je fait pour que
+            vous une rendiez si malheureuse ? 
+            
+            SCENE II. 
+            
+            OLIVIER, GIZELLE, MARIE. 
+            
+            Finissez donc, monsieur le page, et respectez désormais
+            
+            une deinoiselle d'honneur de la reine. 
+            
+            GIZELLE. 
+            
+            27
+            
+            OLIVIBR. 
+            
+            Comme votre nouvelle faveur vous enorgueillit ! 
+            
+            Que dites-vous, Gizelle ? 
+            
+            GIZELLE. 
+            
+            MARIE. 
+            
+            Je dis, ma cousine, que la reine Catherine de Médicis, 
+            
+            enchantée de certain secret que je lui ai révélé, daigne me
+            prendre à son service ; elle m'amène à la cour ; je serai, à
+            
+            mon tour, fêtée, admirée, enviée ! … quel bonheur ! 
+            
+            Gizelle, vous êtes une insensée ! 
+            
+            OLIVIER. 
+            
+            MARIE
+            
+            Jolie, pleine d'esprit et de malice ! … la reine ne pouvait
+            
+            manquer de vous attacher à sa personne. 
+            
+            GIZELLE. 
+            
+            Oui, monsieur, et moi aussi je contribuerai au succès
+            
+            de la bonne cause ! 
+            
+            Qu'est cela, Gizelle ? 
+            
+            MARIB. 
+            
+            OLIVIER. 
+            
+            Il est vrai que vous faites partie maintenant d'un corps
+            
+            bien redoutable. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Connaissez-vous le grand Eugène ? </stage>
+            
+            
+                    <l>Depuis long-temps de notre auguste reine,</l>
+                    <l>Par ses succès on connaît l'escadron ;</l>
+                    <l>Et contre lui maint vaillant capitaine</l>
+                    <l>Appelle en vain et courage et raison :</l>
+                    <l>Pour résister, parfois dans sa mémoire</l>
+                    <l>Il cherche encor des sermens superflus ;</l>
+                    <l>Tendres regards obtiennent la victoire,</l>
+                    <l>Et l'on porte envie aux vaincus.</l>
+                </lg>
+            </div>
+            
+            
+            Quel langage, monsieur de Sourdis ! 
+            
+            GIZELLE. 
+            
+            MARIE. 
+            
+            Eh ! mais, n'est-ce pas aiosi, ma cousine, que vous avez
+            
+            agi avec M. de Neuville ? 
+            
+            Que voulez-vous dire ? 
+            
+            MARIE. 
+            
+            GIZELLE. 
+            
+            On ne parlait que de cela durant la fête : s « Noyez, disait
+            
+            uon, 
+            
+            le cointe devait partir, mais il demeure ; il ne voit
+            
+            « que Marie, il lui sacrifiera tout. Entraîné par elle, 
+            
+            il va
+            
+            28
+            
+            « quitter Henri de Navarre et les huguenots : mais elle a
+            
+            « tant de charmes ! » Et puis on parlait de votre amour ! …
+            
+            Et pourtant le comte est marié ! … de façon que je ne coin
+            
+            prenais pas bien. 
+            
+            MARIE. 
+            
+            Grand Dieu ! qu'est-ce que j'entrevois P …
+            
+            le comte l …
+            
+            de l'amour ! … moi ! … ou parlait-on ainsi ? qui a dit cela ? 
+            
+            GIZELLE. 
+            
+            Je vous le répète, tout le monde pendant la fête. 
+            
+            Et la reine ? … que disait-elle ? 
+            
+            MARIE. 
+            
+            GIZELLE. 
+            
+            Elle souriait à votre nom. 
+            
+            MARIE. 
+            
+            Marguerite était-elle là ? 
+            
+            GIZELLE. 
+            
+            Oui, et je ne sais pourquoi elle rougissait. 
+            
+            Et … René ? 
+            
+            MARIE. 
+            
+            GIZELLE. 
+            
+            René ? … il était pâle … pâle … comme vous l'êtes main
+            
+            tenant. 
+            
+            C'en est assez. 
+            
+            MARIE. 
+            
+            GIZELLE. 
+            
+            Eh bien ! ma cousine, qu'avez-vous ? … vous chancelez ! 
+            
+            Est-ce qu'il y a du mal à convertir les seigneurs huguenots ? 
+            
+            MARIE. 
+            
+            Laissez-moi, Gizelle, laissez-moi ! 
+            
+            OLIVIER. 
+            
+            Je vais appeler du secours. 
+            
+            MARIE. 
+            
+            Non, non, ce n'est rien ; la fatigue, le voyage …
+            
+            GIZELLE. 
+            
+            Vous n'êtes pas bien, ina cousine. 
+            
+            OLIVIER. 
+            
+            Nous ne pouvons vous laisser seule. 
+            
+            MARIE. 
+            
+            Oh ! par pitié, monsieur, par grace, Gizelle, un peu de
+            
+            repos, de solitude ; j'en ai tant besoin ! 
+            
+            GIZELLE. 
+            
+            Je cours chercher ma soeur. 
+            
+            OLIVIER. 
+            
+            Et moi, je vais avertir la reine. 
+            
+            29
+            
+            SCENE 1II. 
+            
+            MARIE, eule. 
+            
+            Tout est donc éclairci ! … Moi soupçonnée d'un amour
+            
+            criminel ! … ils l'ont pensé ! ils ont osé le dire ! … Et
+            
+            René ? … il le croitl… oui, ces regards curieux qui me
+            
+            suivaient durant la fête, la froideur des châtelaines du voi
+            les caresses
+            
+            de la cour, 
+            
+            sinage, l'empressement des gens
+            
+            de la reine, l'embarras de Marguerite, le refus de René…
+            
+            René ! … lui aussi !. … Qui donc leur dira que je suis in
+            
+            nocente ? … Je ne pourraimejustifier ! … Etqui me plain
+            
+            dra, qui m'aimera en me croyant coupable… moi qu'une
+            
+            mère a repoussée ! …
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR de l'Angélus. </stage>
+            
+            
+                    <l>Dans l'isolement où je suis,</l>
+                    <l>Qui plaindra ma douleur amère ?</l>
+                    <l>Quoi ! l'on m'accuse… et je ne puis</l>
+                    <l>Pleurer dans les bras de ma mère !</l>
+                    <l>Je ne sais où fuir les témoins</l>
+                    <l>Du soupçon qui me déshonore !</l>
+                    <l>En me croyant coupable, au moins,</l>
+                    <l>Ma mère m'aimerait encore.</l>
+                </lg>
+            </div>
+            
+            
+            SCENE IV. 
+            
+            MARGUERITE, MARIE. 
+            
+            MARGUERITE. 
+            
+            Ma chère Marie, Gizelle m'a dit que vous vous trouviez
+            
+            mal, et j'accours…
+            
+            MARIE. 
+            
+            Merci, Marguerite, merci, je suis bien …
+            
+            MARGUERITE. 
+            
+            Vos yeux sont encore pleins de larmes ; vous souffrez, 
+            
+            Marie ! 
+            
+            MARIE. 
+            
+            Souffrir ! … moi ? … oui, peut-être … Je songeais à
+            
+            ma mère. 
+            
+            30
+            
+            MARGUERITE. 
+            
+            Quoique des mo'its bien graves sans doute l'aient sépa
+            
+            rée de sa famille et du monde, elle vous aime loujours. 
+            
+            M'aimer ! … non, personne ne m'aime. 
+            
+            MARGUERITE. 
+            
+            MARIE. 
+            
+            Que dites-vous, Marie ? doutez-vous de mon cæur, de
+            
+            l'amitié de René : 
+            
+            MARIE. 
+            
+            René ! … ah ! oui … j'oubliais ! … il vous épouse. 
+            
+            MARGUERITE. 
+            
+            Vous avez des chagrins, je le vois : eh bien ! quittez la
+            
+            reine ; venez près de nous, Marie, nous vous consolerons. 
+            
+            MARIE. 
+            
+            Près de vous ! … jamais ! … Vous l'aimiez, Marguerite ? 
+            
+            vous l'aimiez en secret ? 
+            
+            MARGUERITE. 
+            
+            Je ve le cache point, il m'est bien cher. Ah ! inalgré moi
+            
+            sans doute il a lu dans mon coeur, et le sien s'est ému ! …
+            
+            Combien de fois mes veux secrets ont appelé cel heureux
+            
+            jour ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Teniers. </stage>
+            
+            
+                    <l>D'être avec lui j'avais pris l'habitude ;</l>
+                    <l>Et quand d'ici l'arrachait son devoir,</l>
+                    <l>De repeupler ma triste solitude,</l>
+                    <l>Son souvenir avait seul le pouvoir.</l>
+                    <l>Sa noble image en mon cœur faisait naître</l>
+                    <l>Un espoir sans doute imprudent ;</l>
+                    <l>Je me disais : il m'aimera peut-être,</l>
+                    <l>Et je l'aimais en attendant.</l>
+            
+                </lg>
+            </div>
+            
+            Le rêve de mon coeur s'est enfin réalisé ! Depuis mon veu
+            
+            vage, j'ai vécu loin du monde ; car je savais combien René
+            
+            craint le bruit et le faste : je n'ignorais pas que pour lui
+            
+            plaire il fallait, étrangère à une cour qu'il déteste, vivre à
+            
+            l'abri du soupçon …
+            
+            MARIE, l'interrompant. 
+            
+            Marguerite ! … vous serez heureuse ! … Ah ! puisse la ca
+            
+            loinnie ne jamais empoisonner votre bonheur ! 
+            
+            Chère Marie ! 
+            
+            MARGUERITE. 
+            
+            31
+            
+            SCENE V. 
+            
+            MARGUERITE, MARIE, GIZELLE. 
+            
+            GIZELLE. 
+            
+            Ah ! çà, cette fois-ci, j'espère, je ne me trompe pas ! 
+            
+            MARGUERITE. 
+            
+            Qu'y a-t-il Gizelle ? que voulez-vous ? 
+            
+            GIZELLE. 
+            
+            Un exprès arrive en toute hâte de l'abbaye de Fonte
+            
+            v rault. 
+            
+            De Foutevrault ! 
+            
+            MARGUERITE. 
+            
+            MARIE. 
+            
+            Des lieux où vit ma mère ! 
+            
+            GIZELLE. 
+            
+            Il était chargé d'un message qu'il dit être pour vous de
+            
+            la plus haute iinportance : le voici, voyez : « A ma fille
+            celui-là ! 
+            
+            d'erreur
+            
+            Marie, d elle seule !, Il n'y aura pas
+            
+            pour
+            
+            Une lettre de ma mère … ah ! donnez, Gizelle, don
+            
+            nez ! … Tout le monde ne m'abandonne pas ! mon Dieu, 
+            
+            MARIĖ. 
+            
+            je te remercie ! 
+            
+            MARGUERITE. 
+            
+            Nous vous laissons, ma chère Marie ; puissent les pa
+            
+            roles de votre mère porter le caline dans votre ame ! … Gi
+            
+            zelle, suivez-moi. 
+            
+            SCENE VI. 
+            
+            MARIE, seule. 
+            
+            C'est ma mère qui m'écrit ! … après un si long abandon …
+            
+            Je tremble en ouvrant cette lettre ; je ne sais quel saisisse
+            
+            ment involontaire … (Elle lit.) « Pardonne, ma fille, par
+            
+            « donne à ta pauvre mère, et juge si ton bonheur lui est
+            « cher
+            
+            parle terrible aveu auquel elle se soumet. J'ai prie
+            
+            « et pleuré bien des années ; j'ai repoussé de ines bras mon
+            
+            « unique enfant, je voulais expier un crime irréparable …
+            
+            • et Dieu sans doute ne me trouve point encore assez punie, 
+            
+            « puisqu'il me contraint à t'avouer coinbien ta mère fut
+            
+            « coupable. 
+            
+            « Du fond de la retraite ou j'ai caché mes remords, mes
+            
+            32
+            
+            « pensées veillaient sur toi, ma fille ; souvent je m'infor
+            
+            « mais de ton sort, et un bruit cruel est venu m'épouvan
+            
+            « ter. Un homme, dit-on, est aimé de Marie ; malgré lui
+            
+            « sans doute il a porté le trouble dans son cour, et cet
+            
+            « homme est le comte de Neuville. Oh ! mon enfant, prends
+            
+            « pitié de ta mère ! Que l'affreux secret qu'elle dépose au
+            
+            « jourd'hui dans ton sein y demeure à jamais enseveli, si
+            
+            « tu ne veux pas causer sa mort ! … Arrache de ton coeur ce
+            
+            « fatal amour dont on t'accuse ! le comte de Neuville est
+            
+            « ton père … et mon crime causa la mort de mon époux ! » 
+            
+            Il est mon père ! … Ah ! René, René, je pourrai donc me
+            
+            justifier ! … Me justifier ! 
+            
+            et ma mère ! … moi, publier sa
+            
+            faute ! … non, non ! … jamais ! jamais ! cet affreux secret …
+            
+            il doit mourir avec moi ! … Qu'entends-je ? c'est la reine : 
+            
+            cachons mon trouble … Eh quoi ! toujours fermer son cæur, 
+            
+            toujours déguiser son visage ! 
+            
+            SCENE VII. 
+            
+            GIZELLE, CATHERINE, MARIE, QUELQUES AUTRES
+            
+            PERSONNES DE LA SUITE DE LA REINE. 
+            
+            (Sur un signe de la reine, une personne de sa suite dépose sur
+            
+            une table un grand portefeuille.)
+            
+            CATHERINE, d part. 
+            
+            C'est donc icil … enfin je vais tout apprendre ! (haut.)Que
+            
+            l'on s'éloigne, et que personne ne vienne ici sans mon
+            
+            ordre : vous, Marie et Gizelle … restez. 
+            
+            GIZELLE. 
+            
+            Je vous le disais bien, ma cousine, me voilà en faveur, 
+            
+            et je vais être heureuse comme vous. 
+            
+            Comme inoi ! 
+            
+            MARIR. 
+            
+            GIZELLE. 
+            
+            Mais je serai plus gaie ; car vous et René vous avez le
+            
+            bonheur bien triste. 
+            
+            CATHERINE. 
+            
+            En effet, Marie, qu'avez-vous ? 
+            
+            MARIE, s'efforçant de sourire. 
+            
+. ! 
+            
+            Moi, madame ? rien. 
+            
+            CATHERINE. 
+            
+            Asseyez-vous là, voici une lettre pour le roi de France
+            
+            mon fils, que vous allez achever sous ma dictée ; mais, au
+            
+            paravant, voyons, chère petite Gizelle, si vous ne vous êtes
+            
+            33
+            
+            point trompée. 
+            
+            GIZELLE. 
+            
+            Votre Majesté peut en juger elle-même. 
+            
+            CATHERINE. 
+            
+            Vous êtes la plus aimable enfantl … Vous ne me quitte
+            
+            rez plus. 
+            
+            Pauvre Gizelle ! 
+            
+            MARIÉ, à part. 
+            
+            GIZELLE. 
+            
+            Voyez cette tapisserie : hier, je me reposais là ; soudain
+            
+            j'entends distinctement la voix de Marguerite comme si
+            
+            elle m'eat parlé à l'oreille. Surprise, et presque effrayée de
+            
+            ce mystère, car je savais que ma soeur était dans les salles
+            
+            du bas, je cherchai à deviner ce qui portait ainsi ses paroles
+            
+            jusqu'à moi, et j'aperçus là, regardez reine, l'ouverture
+            
+            d'one sarbacane qui conduit ici tout le bruit qui se fait au
+            
+            dessous. 
+            
+            (Elle fait jouer le ressort, la tapisserie se lève.)
+            
+            CATAERINE, approchant l'oreille. 
+            
+            Oui, j'entends des pas, on semble ranger des siéges. 
+            
+            GIZELLE. 
+            
+            On prépare tout pour la conférence. 
+            
+            CATHERINE. 
+            
+            Et connaît-on ce secret dans le château ? 
+            
+            GIZELLE. 
+            
+            Je ne le pense pas : le hasard seul me l'a révélé, et je me
+            
+            promettais bien de le garder pour moi … mais il y a déjà
+            
+            un jour … Et puis, quand j'ai vu qu'il s'agissait des secrets
+            
+            de l'état …
+            
+            CATHERINE. 
+            
+            Vous avez eu raison : c'eût été un crime de chercher à les
+            
+            découvrir. 
+            
+            Un crime ! … N'en parlons plus. 
+            
+            CATHERINE. 
+            
+            GIZELLE. 
+            
+            Un crime pour vous, un devoir pour
+            
+            moi. 
+            
+            GIZELLE. 
+            
+            Ah ! c'est juste ! 
+            
+            (Marie est assise d la table de gauche, Gizelle est placée près de
+            
+            la tapisserie, la reine estdebout au milieu d'elles.)
+            
+            CATHERINE, å Gizelle. 
+            
+            Gizelle, mon enfant, vous voilà bien jeune dans la confi
+            
+            5
+            
+            34
+            
+            dence d'une reine qui n'a jamais laissé un service sans ré
+            
+            compense, ni un tort envers elle sans punition. 
+            
+            (à Marie.)
+            
+            Ecrivez, Marie ! « Mon cher Henri, celte trève que nous
+            
+            « avons publiée et que nous tâcherons de prolonger, affái
+            
+            « blira vos ennemis, car les gentilshommes sans solde, qui
+            
+            « les suivent, ne pouvant se soutenir que par la guerre, 
+            
+' « rentreront bientôt dans leurs châteaux. Mes efforts pour
+            
+            « pénétrer leurs secrets et désunir les princes seront cou
+            
+            « ronnés de succès : j'espère déjà enlever le comte de Neu
+            
+            « ville au roi de Navarre. 
+            
+            Madame …
+            
+            MARIE. 
+            
+            CATHERINE. 
+            
+            Silence ! … Ecoutez, Gizelle, si les princes sont rassem
+            
+            blés. 
+            
+            GIZELLE. 
+            
+            On ne parle pas encore ; mais j'entends qu'on se place. 
+            
+            CATHERINE, dictant à Marie. 
+            
+            « Enfin, je vais connaître les vrais sentimens de chacun, 
+            
+            « le degré de leur haine ou de leur affection pour vous. » (à
+            
+            Gizelle.) Ecoutez, mon enfant, et répétez-moi tout ce que
+            vous entendrez. 
+            
+            GIZELLE. 
+            
+            On vient d'annoncer le prince de Condé : je reconnais la
+            
+            voix de mon cousin René, celle du comte de Neuville ; ils
+            
+            semblent se quereller. 
+            
+            Ciel ! 
+            
+            MARIE, à part. 
+            
+            GIZELLE. 
+            
+            On propose de votre part une trève d'un an. 
+            
+            CATHERINE. 
+            
+            C'est Conti ! … Il est à moi ! 
+            
+            GIZELLE. 
+            
+            Ils disent tous : « Point de trèves ! Point d'entrevues avec
+            
+            « la reine ! Traitons avec Henri III directement ! La paix ! 
+            
+            a la paix ! 
+            
+            CATHERINE, à Marie. 
+            
+            Ecrivez : 
+            
+            « Les princes ne sont point disposés à cette
+            
+            « paix que vous souhaitez ainsi que moi … » (Marie fait un
+            
+            mouvement.) Ecrivez donc ! … (à Gizelle.) Qui parle main
+            tenant ? 
+            
+            GIZELLE. 
+            
+            René conseillo au roi de Navarre de partir à l'instant
+            
+            même. 
+            
+. 
+            
+            ! 
+            
+            35
+            
+            CATHERINE. 
+            
+            Qu'entends-je ? oublie-t-il les drapeaux qu'il sert ? 
+            
+            GIZELLE. 
+            
+            Il dit qu'on séduit les partisans de Henri, il parle des. 
+            
+            femmes de la reine …
+            
+            Malheureuse ! 
+            
+            MARIE, à part. 
+            
+            GIZELLE. 
+            
+            On insiste de nouveau pour une trève d'un an pendant
+            
+            laquelle le roi de Navarre viendrait à Paris. 
+            
+            Ah ! écoutez bien ! 
+            
+            CATHERINE
+            
+            GIZELLE. 
+            
+            Oh ! comme ces mots rendent furieux le comte de Neu
+            
+            ville ! … Il parle de mort, de trahison, d'une fête pour son
+            
+            arrivée … pareille à une autre fête … le jour de Saint-Bar
+            
+            thélemy …
+            
+            GATHERINE, écartant vivement Gizelle et se mettant d sa place, 
+            
+            Eloignez-vous ! … Dieu, quelle fureur les anime ! Condé
+            
+            veut me garder prisonnière ! Mais, Dieu merci, j'ai pris
+            
+            mes précautions. Quelle voix couvre toutes les autres ? 
+            
+            C'est celle de Neuville ! D'où vient tant de colère ? Il veut
+            
+            ma mort … Quoi ! me lier, me précipiter au fond de la
+            
+            Charente ! Par Notre-Dame ! il pajera clier ce vou ! … Marie, 
+            
+            4
+            
+            est-ce là ce que vous n'aviez promis ? … L'infâme ! … Allons, 
+            écrivez : « Mon fils, au nom du ciel, envoyez des troupes en
+            
+            « toute hâte pour s'emparer du fort de Meillezais ou le
+            
+            « comte de Neuville commande : il faut que sa mort … » 
+            
+            MARIE, se levant. 
+            
+            Sa mort ! … Je n'écrirai pas cela ! 
+            
+            CATHERINE. 
+            
+            Ah ! non : ce serait trop long … Holà, quelqu'un, ici ! 
+            
+            (Olivier entre.) Attendez la sortie du conseil, et amenez-moi
+            
+            monsieur René de Montberon. (Olivier sort.) Notre-Dame ! 
+            
+            Ils sont tous réunis contre moi ! Ils veulent la paix … Ils : 
+            
+            comptent s'entendre avec le roi de France ? … Et Henri est
+            
+            si faible ! … Eh bien ! 
+            
+            la guerrel … Ils se défient de ma
+            
+            trève ? … Par Saint-Denis, je la romprai ! … Oui, je la rom
+            
+            prai, à l'instant ! … Gizelle, pas un mot sur tout ce que vous
+            
+            Venez d'entendre ! … Il y a des secrets qui donnent la mort ! 
+            
+            Vous resterez près de moi, mon enfant ! Marie, renſermen
+            
+            ces papiers. 
+            
+            36
+            
+            SCENE VIII. 
+            
+            LES MÊMES, OLIVIER, puis RENÉ. 
+            
+            Monsieur René de Montberon. 
+            
+            OLIVIER, annonçant. 
+            
+            Qu'il vienne. 
+            
+            CATHERINE. 
+            
+            René. 
+            
+            Votre Majesté m'a fait appeler ? 
+            CATHERINE. 
+            
+            Oui, monsieur de Montberon : que font les princes ? 
+            
+            RENÉ. 
+            
+            Un souper préparé par les ordres de la baronne les at
+            
+            tend, ainsi que Votre Majesté : ils ne quitteront le château
+            
+            que dans la journée de demain. Le comte de Neuville seul va
+            
+            partir dans une heure pour se rendre au fort de Meillezais. 
+            
+            CATHERINE. 
+            
+            Ah ! … le comte est-il votre ami ? 
+            
+            BENÉ. 
+            
+            Jamais homme ne me fit tant de mal. 
+            
+            CATHERINE. 
+            
+            Et cette trève que j'ai fait publier, qu'en dit-on ? 
+            
+            RENÉ. 
+            
+            Elle déplaît à tous les partis. 
+            
+            CATHERINE. 
+            
+            Eh bien ! il faut la rompre. 
+            
+            RENÉ. 
+            
+            Votre Majesté y consent ! … quel bonheur ! 
+            
+            CATHERINE. 
+            
+            Vous le souhaitez donc ? 
+            
+            René. 
+            
+            L'agitation, la guerre me sont nécessaires ; il me tarde
+            
+            de combattre. 
+            
+            CATHERINE. 
+            
+            Les régimens que vous commandez sont près d'ici ? 
+            
+            René. 
+            
+            Sous les murs du château ; j'allais assiéger le fort de
+            
+            Meillezais quand la trève a suspendu notre marche, et dès
+            
+            que la nouvelle des hostilités sera publiée …
+            
+            CATHERINE. 
+            
+            Pourquoi l'attendre ? partez, surprenez la garnison, ren
+            
+            dez-vous maître du fort ; il présente une issue du côté où le
+            
+            37
+            
+            roi de Navarre l'a naguère assailli ; la brèche n'est cachée
+            
+            que par des ouvrages sans consistance. Allez, emparez
+            
+            vous de Meillezais, passez tout au fil de l'épée, et que la
+            
+            mort du comte de Neuville …
+            
+            Oh ! reine, reine, pardonnez ! …
+            
+            CATHERINE. 
+            
+            MARIE. 
+            
+            Marie …, tant d'amour pour mon ennemi …
+            
+            MARIE. 
+            
+            Ah ! je n'ai point d'amour ! 
+            
+            RENÉ. 
+            
+            Pourquoi donc tant d'effroi ? 
+            
+            Il me le demande ! 
+            
+            MARIE. 
+            
+            RENÉ. 
+            
+            Oui, la mort du comte est le plus cher de mes voeux, 
+            
+            mais ce n'est point ainsi qu'il mourra. 
+            
+            Comment ? 
+            
+            CATHERINE. 
+            
+            RENÉ. 
+            
+            Vive-Dieu, madame ! surprendre des gens sans défense ! 
+            
+            Des huguenots ! 
+            
+            CATHERINE. 
+            
+            RENÉ, 
+            
+            Des hommes comme moi ! … Ah ! si Votre Majesté veut
+            
+            faire de moi son prévôt des hautes ouyres, je me sens en
+            
+            core de trop bonne condition pour m'accommoder de tels
+            
+            métiers. 
+            
+            CATHERINE, à part. 
+            
+            Ces gentilshommes de province, on n'en peut rien faire. 
+            
+            RENÉ. 
+            
+            Le comte est mon ennemi ; je le chercherai dans les com
+            
+            bats, ou le provoquerai en duel, et alors sentant sa dague
+            
+            contre la mienne …
+            
+            O ciel ! 
+            
+            MARIE. 
+            
+            RENÉ. 
+            
+            Ne tremblez pas ! … je puis être malheureux. 
+            
+            MARIE. 
+            
+            Mon Dieu, sputiens mon courage ! 
+            
+            38
+            
+            SCENE IX. 
+            
+            LES MÊMES, OLIVIER. 
+            
+            OLIVIER. 
+            
+            Le sieur de Saint-Pol, baron de La Roche-Posay, com
+            
+            mandant le régiment de Picardie, passe près du château, et
+            
+            sollicite l'honneur d'être admis devant Votre Majesté. 
+            
+            CATHERINE. 
+            
+            Qu'il soit à l'instant conduit dans mon appartement : je
+            
+            vais le recevoir. (à part.) Notre-Dame de bon secours, c'est
+            
+            toi qui me l'envoies ! 
+            
+            (Elle rentre avec Gizelle dans son appartement.)
+            
+            SCENE X. 
+            
+            RENÉ, MARIE. 
+            
+            RENÉ. 
+            
+            Vous avez bien tremblé pour le comte de Neuville ! 
+            
+            MARIE. 
+            
+            Ah ! René, votre raison est-elle à ce point égarée que
+            
+            vous me reprochiez de trembler quand on médite un crime, 
+            
+            quand c'est votre main qu'on choisit pour l'exécuter ? 
+            
+            RENÉ. 
+            
+            Un crime ! … m'en soupçonniez-vous capable ? 
+            
+            MARIE. 
+            
+            Mais vous ? ne me soupçonnez-vous pas ? 
+            
+            Ah ! c'est là mon malheur ! 
+            
+            RENÉ. 
+            
+            MARIE, à part. 
+            
+            Que lui dirai-je ? Sortons. 
+            
+            (haut.) Adieu, René, adieu
+            
+            pour toujours ! 
+            
+            Pour toujours ! …
+            
+            RENÉ. 
+            
+            MARIE. 
+            
+            Oui, oui, je partirai, je quitterai des lieux où il faut sou
+            
+            rire quand le désespoir est là ! où l'on doit retenir des lar
+            
+            mes qui toinbent sur le coeur et le brisent ! … ô ma mère, 
+            
+            ne me repoussez plus ! près de vous je pourrai pleurer ! 
+            
+            Marie ! …
+            
+            René. 
+            
+            MARIE. 
+            
+            Près de ma mère, quelqu'un saura que je suis inno
+            
+            1
+            
+            cente ! … je pourrai prier et le ciel reprendra cette vie sans
+            
+            39
+            
+            bonheur. 
+            
+            Ce vou cruel …
+            
+            RÈNÉ. 
+            
+            MARIE. 
+            
+            Puisse-t-il bientôt s'accomplir ! que ferais-je désormais
+            
+            en ce monde ? souffrir et cacher ses douleurs, tel est le sort
+            
+            d'une feinme injustement accusée. Je n'en ai pas la force. 
+            
+            RENÉ. 
+            
+            Injustement ! … oh oui ! injustement ! dis que l'on est in
+            
+            juste … je puis te croire encore. Cette voix si douce ne
+            
+            peut être trompeuse ! … A ton seul aspect, on croit à la
+            
+            vertu. Parle, que je t'entende ! … Un seul mot ! … tu n'as
+            
+            pas d'amour pour lui ? 
+            
+            MARIE. 
+            
+            De l'amour ? … Tiens, René, mets ta main sur mon
+            
+            coeur : c'est seulement près de celui qu'on aime que le coeur
+            
+            peut battre ainsi ! … (Elle le repousse.) Que dis-je, malheu
+            
+            reuse ? il va épouser Marguerite. 
+            
+            Marie ! chère Marie ! …
+            
+            René. 
+            
+            MARIE. 
+            
+            Laissez-moi ! La reine a tout fait préparer pour votre
+            
+            mariage ; elle veut aujourd'hui même signer au contrat. 
+            
+            RBNÉ. 
+            
+            Eh bien ! écoute, Marie ; ce mariage, on peut le rom
+            
+            pre …
+            
+            Marguerite vous aime. 
+            
+            MARIE. 
+            
+            RENÉ. 
+            
+            Je lui dirai tout ; elle lira dans mon cour, elle pardon
+            
+            nera ! … Répète-moi que je suis ton ami, ton seul ami ! …
+            
+            que tu n'as pas trahi celui qui t'adore depuis tant d'an
+            nées ! …
+            
+            MARIE. 
+            
+            Moi, le trahir ! ah ! René, que vous avez été cruel ! 
+            
+            RENÉ. 
+            
+            J'avais besoin d'appeler toute ma colère à mon aide : prés
+            
+            de toi je suis si faible ! … mais le comte de Neuville ? …
+            
+            MARIE. 
+            
+            Le comte ? … ah ! si je disais un mot ! 
+            
+            René. 
+            
+            Tu pourrais te justifier ? … eh bien ! parle, qui t'arrête ? 
+            
+            40
+            
+            MARIB. 
+            
+            Non, René, non ! c'est impossible. 
+            
+            RENÉ. 
+            
+            Quel est donc ce secret que tu ne peux déposer dans mon
+            
+            cour ? ne me connais-tu pas ? aimes-tu mieux par ton si
+            
+            lence faire à jamais mon malheur et le tien : 
+            
+            Oh ! je vous en prie, épargnez-moi ! je succomberais peut
+            
+            MARIE. 
+            
+            être ! et je serais trop coupable. 
+            
+            Marie ! … est-ce encore une ruse ? 
+            
+            RENÉ. 
+            
+            MARIE. 
+            
+            Une ruse ! …
+            
+            (a part.) Ah ! c'en trop ! Je puis souffrir
+            
+            tout, excepté ses soupçons ! … Pardonne, ô mamère ! 
+            
+            SCENE XI. 
+            
+            GIZELLE, RENÉ, MARIE. 
+            
+            Mon cousin, les princes vous demandent. 
+            
+            GIZELLE, troublée. 
+            
+            Qu'avez-vous, Gizelle ? 
+            
+            RENÉ. 
+            
+            GIZELLE. 
+            
+            Rien ! … Mais allez vite, M. de Neuville se dispose à
+            
+            partir. 
+            
+            Il va partir ! … Marie, vous ne le reverrez plus ? 
+            
+            RENÉ, à Marie. 
+            
+            Qu'exigez-vous, René ? 
+            
+            MARIE. 
+            
+            RENÉ. 
+            
+            Je vous en conjure, ne le revoyez plus, et tout est ou
+            
+            blié, et je crois à votre innocence, à votre amour, et je
+            
+            vous donne ma vie ! …
+            
+            (Il sort.)
+            
+            SCENE XII. 
+            
+            GIZELLE, MARIE. 
+            
+            GIZELLE. 
+            
+            Enfin, il est sorti ! … ma cousine ? 
+            
+            MARIE. 
+            
+            Quel effroi se peint dans tous vos traits ? 
+            
+            La reine me fait
+            
+            peur. 
+            
+            Comment ? 
+            
+            Si vous saviez ! …
+            
+            41
+            
+            GIZELLE. 
+            
+            MARIE. 
+            
+            GIZELLE. 
+            
+            MARIE. 
+            
+            Achevez ! Je tremble, car je la connais ! 
+            
+            GIZELLE. 
+            
+            C'est à vous, Marie, à vous seule que je le dis ; le comte
+            
+            de Neuville …
+            
+            Eh bien ? 
+            
+            Il va être assassiné ! 
+            
+            Grand Dieu ! 
+            
+            MARIE. 
+            
+            GIZELLE. 
+            
+            MARIE. 
+            
+            GIZELLE. 
+            
+            Oui ! … Cette fois, j'ai écouté pour mon compte : eh
+            
+            bien ! cette mission que René a refusée, l'officier que la reine
+            
+            a reçu s'en est chargé ; il est en route pour Meillezais, avec
+            
+            son régiment. 
+            
+            Et le comte de Neuville ? 
+            
+            MARIE. 
+            
+            GIZELLE. 
+            
+            Encore ici ! … Mais il va monter à cheval, et c'est la
+            
+            mort qu'il ira chercher. 
+            
+            MARIE. 
+            
+            Lui, grand Dieu ! lui ! … Je cours l'arracher aux meur
+            
+            triers ! … Restez, Gizelle, attendez-moi … Et René ! s'il ap
+            
+            prend ? … Ah ! 
+            
+            il le faut, sauvons-le, sauvons-le, dat-il
+            
+            in'en coûter le bonheur ! 
+            
+            (Elle sort précipitamment.)
+            
+            SCENE XIII. 
+            
+            GIZELLE, seul. 
+            
+            Moi, qui désirais des événemens dans ce château ! De
+            
+            puis ce matin, en voilà, j'espère. Que de mouvement ! 
+            
+            des festins, des conférences, des fêtes ! Mais pourquoi tout
+            
+            cela n'est-il pas plus gai ? … Ma cousine Marie surtout
+            
+            m'afflige par sa tristesse. Ah ! je commence à croire qu'il
+            ne suffit
+            
+            pas d'être à la cour pour être heureuse. 
+            
+            6
+            
+            42
+            
+            SCENE XIV. 
+            
+            GIZELLE, MARIE, entraînant LE COMTE DE NEU
+            
+            VILLE. 
+            
+            MARIE. 
+            
+            Venez, venez, on ne nous a pas aperçus … Personne
+            
+            n'a pu nous voir, n'est-il pas vrai ? 
+            
+            LE COMTE. 
+            
+            Que me voulez-vous, chère Marie ? Pourquoi ce trouble, 
+            
+            cet effroi ? 
+            
+            MARIE. 
+            
+            Silencel … Si l'on entendait votre voix, je serais perdue. 
+            
+            Que dites-vous ? 
+            
+            LE COMTE. 
+            
+            MARIE. 
+            
+            Oh ! de grace, de grace, pas un seul mot ! … C'est là
+            
+            mon appartement… entrez ! (le comte hésite.) C'est pour
+            
+            moi, c'est pour moi que je vous en prie ! Mon honneur, ma
+            
+            vie, tout en dépend ! 
+            
+            Qu'entends-je ? 
+            
+            LE COMTE. 
+            
+            MARIE. 
+            
+            On vient ! … Si vous balancez, je suis perdue. 
+            
+            LE COMTE. 
+            
+            Remettez-vous ! … remettez-vous ! … J'obéis. 
+            
+            MARIE, le poussant dans son appartement d gauche. 
+            
+            Ah ! …
+            
+            entrez ! … et n'en sortez qu'à ma voix ! (Elle
+            
+            ferme la porte.) Maintenant, allons, il faut sourire : j'en
+            
+            tends quelqu'un approcher. Gizelle, je suis calme, n'est-il
+            
+            pas vrai ? On ne lira rien sur mon visage ? 
+            
+            Ma pauvre cousine ! 
+            
+            GIZELLE. 
+            
+-MARIE. 
+            
+            Taisez-vous, Gizelle, taisez-vous ! ne me plaignez pas ! 
+            
+            Vous devez aller à la cour ? … Apprenez donc à feindre ! 
+            
+            faites comme moi, souriez, souriez ! … J'entends la reine. 
+            
+            1
+            
+            43
+            
+            SCENE XV. 
+            
+            RENÉ, CATHERINE, MARIE, GIZELLE, DAMES ET SEI-. 
+            
+            GNEURS DE LA SUITE DE LA REINE. 
+            
+            CATHERINE. 
+            
+            Qu'on cherche de ma part la dame de Saint-Bris : je vais
+            
+            bientôt quitter son château, et je veux, avant mon départ, 
+            
+            lui témoigner ma reconnaissance. Mais si je sais récom
+            
+            penser, je sais aussi punir. Répondez moi, Marie : Que
+            
+            signifie votre conduite ? sans ordres, vous vous éloignez de
+            
+            notre personne royale ! vous disparaissez inquiète, trem
+            
+            blante, et je vous retrouve ici plus inquiète et plus trem
+            blante encore ! 
+            
+-
+            
+            MARIE, troublée. 
+            
+            Reine … que Votre Majesté …
+            
+            CATHERINE. 
+            
+            Ce n'est pas tout ! Le comte de Neuville devait partir
+            
+            pour Meillezais ; on assure qu'on l'a empêché de s'éloi
+            
+            gner. 
+            
+            Serait-il possible ? 
+            
+            RENÉ. 
+            
+            CATHERINE. 
+            
+            Une femme, que l'amour égare, a pu seule oublier la
+            
+            reconnaissance et les devoirs qui l'attachent à moi, et tra
+            
+            hir mes secrets desseins … Mais, par Notre-Dame ! on ne
+            
+            se jouera pas ainsi de ma volonté ; je saurai me laire obéir ! 
+            
+            Répondez, où est le comte ? 
+            
+            RENÉ, à part. 
+            
+            Dieu ! son trouble augmente. 
+            
+            CATHERINE. 
+            
+            Me répondrez-vous, enfin ? Où est le comte de Neuville ?. 
+            
+            René, vivement. 
+            
+            Marie l'ignore sans doute …
+            
+            CATHERINE. 
+            
+            Elle le sait ! regardez-la. 
+            
+            RENÉ. 
+            
+            Vous l'outragez, reine ! Elle n'est pas, elle ne peut pas
+            
+            être coupable. 
+            
+            MARIE. 
+            
+            Non, non, je ne suis pas coupable. 
+            
+            44
+            
+            CATHERINE. 
+            
+            Vous avez vu le comte ? 
+            
+            René. 
+            
+            Oh ! non, vous ne l'avez pas vu, n'est-ce pas ? …
+            
+            (silence.)
+            
+            Que faut-il croire ? quel embarras ! quel trouble ! 
+            
+            Qu'on visite tout le château, 
+            
+            CATAERINE. 
+            
+            (Un homme sort.)
+            
+            RENÉ, à part. 
+            
+            Comme elle est pâle ! 
+            
+            Que faire ? que dire ? ô mon Dieu ! 
+            
+            MARIE, à part. 
+            
+            CATHERINE. 
+            
+            Mais cet appartement ? c'est le vôtre : qu'on l'ouvre å
+            
+            l'instant. 
+            
+            Je ne souffrirai pas …
+            
+            Marie, éperdue. 
+            
+            Il ferait beau voir ! 
+            
+            CATHERINE. 
+            
+            RENÉ, à part. 
+            
+            Quel effroi sur tous ses traits ! 
+            
+            CATHERINE. 
+            
+            Qu'on entre dans cet appartement. 
+            
+            RENÉ. 
+            
+            Moi seul je veux y pénétrer. 
+            
+            MARIE, cherchant à l'arrêter. 
+            
+            René… je vous supplie …
+            
+            Marie ! … serait-il vrai ? 
+            
+            RENÉ. 
+            
+            MARIE. 
+            
+            Vous aussi ! …
+            
+            CATHERINE. 
+            
+            Allez, monsieur de Montberon. 
+            
+            RENÉ. 
+            
+            Il le faut : je ne suis plus maître de mes soupçons, je
+            
+            veux les éclaircir ! … Entrons. 
+            
+            (Il ento
+            
+            dans l'apparte
+            
+            ment.)
+            
+            MARIE, à part. 
+            
+            O ma mère ! ma mère ! … (Elle tombe accablée sur un
+            
+            siège.)
+            
+            1
+            
+            ! 
+            
+            45
+            
+            SCENE XVI. 
+            
+            GIZELLE, MARGUERITE, MARIE, CATHERINE, 
+            
+            DAMES ET SEIGNEURS DE LA COUR. 
+            
+            CATHERINE. 
+            
+            Arrivez, noble dame de Saint-Bris, je vous avais pro
+            
+            mis de contribuer à votre bonheur ; je tiens ma parole : ve
+            
+            nez, on n'attend plus que vous. 
+            
+            MARGUERITE. 
+            
+            Il serait possible ! quoi ! au milieu de tant de soins im
+            
+            portans, Votre Majesté aurait daigné s'occuper d'un ma
+            
+            riage …
+            
+            CATHERINE. 
+            
+            Que je veux assurer avant de nous séparer : 
+            
+            j'ai voulu
+            
+            acquitter la dette de ma reconnaissance : tout est prêt ! 
+            
+            voici le contrat que j'ai fait dresser, et où j'ai déposé les
+            
+            témoignages de ma munificence royale. (Elle s'approche
+            
+            avec Marguerite de la table à droite où elle a fait déposer le
+            
+            contrat.)
+            
+            MARIE, voyant René sortir pdle et défait de l'appartement. 
+            
+            Ah ! René ! … je suis perdue ! 
+            
+            SCENE XVII. 
+            
+            GIZELLE, MARGUERITE, CATHERINE, RENÉ, 
+            
+            MARIE, Chatelaines, seigneurs, etc. 
+            
+            RENÉ, bas à Marie et brusquement. 
+            
+            Non, contenez-vous ! 
+            
+            (haut.) Reine, j'ai visité l'appar
+            
+            tement : vous vous étiez trompée, il n'y a personne. (bas à
+            
+            Marie.) Il est là ! je l'ai vu, et je vous sauve ! mais adieu
+            
+            pour jamais ! (Il passe de l'autre côté.)
+            
+            MARIE, à part. 
+            
+            Et je ne puis parler ! 
+            
+            CATHERINE. 
+            
+            C'est bien, monsieur de Montberon : mais un autre soin
+            
+            doit nous occuper : voici le contrat de mariage qui vous
+            
+            unit à la noble veuve du baron de Saint-Bris ; je viens d'y
+            
+            apposer ma signature royale. Votre nom …
+            
+            Ne se fera pas attendre. 
+            
+            (Il va signer.)
+            
+            René, très ému. 
+            
+            46
+            
+            MARIE, à part. 
+            
+            Tout est fini ! 
+            
+            RENÉ, toujours très ému. 
+            
+            Je remercie Votre Majesté : elle vient d'assurer mon bon
+            
+            heur ; je lui dois une femme bonne … vertueuse … incapa
+            
+            ble de fausseté, de perfidie. 
+            
+            Comme il est troublé ! 
+            
+            MARGUERITE, à part. 
+            
+            CATHERINE. 
+            
+            A vous, noble dame ! 
+            
+            Je ne sais pourquoi je tremble. 
+            
+            MARGUERITE, signant. 
+            
+            SCENE XVIII. 
+            
+            LES MÊMES, OLIVIER. 
+            
+            OLIVIER. 
+            
+            Le roi de Navarre monte à cheval ; 
+            
+            il se met à la tête de
+            
+            tous ses hommes d'armes : on dit que la garnison de Meil
+            
+            lezais, surprise et massacrée …
+            
+            Et le commandant ? 
+            
+            CATHERINE. 
+            
+            OLIVIER. 
+            
+            Monsieur de Neuville ? … Il ignore tout, 
+            
+            il est ici, on l'a
+            
+            vu entrer dans cet appartement. 
+            
+            (Mouvement général.)
+            
+            CATHERINE. 
+            
+            Qu'entends-je ? osait-on se jouer de moi ? Monsieur de
+            
+            Montberon, vous me trompiez : qu'on entre, qu'on fasse
+            
+            sortir le comte …
+            
+            MARIE, se jetant au-devant des gens qui veulent entrer. 
+            
+            Voulez-vous donc l'assassiner ? … non, non, jamais ! 
+            
+            RENÉ. 
+            
+            Reine, c'est de ma main que le comte doit périr. 
+            
+            Vous ! 
+            
+            CATHERINE. 
+            
+            RENÉ. 
+            
+            J'ai voulu sauver la réputation de ma cousine … mais
+            
+            tout est connu ; c'est à moi de venger sur le comte l'honneur
+            
+            de ma fainille. 
+            
+            47
+            
+            MARIE
+            
+            René ! … au nom du ciel ! …
+            
+            RENÉ. 
+            
+            Ou sa vie, ou la inienne ! 
+            
+            MARIE. 
+            
+            Arrêtez ! …
+            
+            (Il la repousse et entre dans l'appartement.)
+            
+            René ! … René ! … ah ! je meurs ! (Elle tombe évanouie, par
+            
+            terre, toutes les femmes s'empresscnt autour d'elle ; on entend
+            
+            dans la coulisse un cliquetis d'épées.)
+            
+            Qu'entends-je ? … ah ! serait-il possible ? 
+            
+            CATHERINE. 
+            
+            Grand Dieu ! 
+            
+            GIZELLE. 
+            
+            MARGUERITE. 
+            
+            Courez ! … qu'on les sépare !. 
+            
+            CATHERINE. 
+            
+            Que personne ne sorte ! 
+            
+            GIZELLE. 
+            
+            Ahl … ma pauvre cousine … elle revient à elle ! …
+            
+            MARIE, reprenant ses sens et dans le plus grand désordre. 
+            
+            Ou est René ? … où est le cointe ? 
+            
+            SCENE XIX ET DERNIÈRE. 
+            
+            les mêmes, RENÉ, puis LE COMTE DE NEUVILLE. 
+            
+            RENÉ, entrant l'épée à la main. 
+            
+            Le comte ! … Tiens, le voilà ! 
+            
+            (Le comte entre blessé, et s'appuyant sur son épée.)
+            
+            MARJE, avec un cri déchirant. 
+            
+            Ahl., mon père … (Elle se précipite sur le comte qui s'assied.)
+            
+            Que dit-elle ? 
+            
+            Ma fille ! … Adieu ! …
+            
+            Sa fille ! …
+            
+            RENÉ. 
+            
+            LE COMTE. 
+            
+            TOUS, 
+            
+            48
+            
+            René. 
+            
+            Sa fille ! … et c'est inoi ! … moi ! … ah ! malheureux ! 
+            
+            Ah ! partout où passe Catherine de Médicis elle laisse une
+            
+            LE COMTE, expirant. 
+            
+            trace sanglante ! 
+            
+            Je suis vengée ! 
+            
+            CATHERINE. 
+            
+            (Marie embrasse le corps du comte, René est à genoux auprès
+            
+            d'eux ; la toile tombe.)
+            
+            FIN. 
+            
+            &amp; 
+            
+            Österreichische Nationalbibliothek
+            
+            + Z162330104
+        </body>
+    </text>
+</TEI>

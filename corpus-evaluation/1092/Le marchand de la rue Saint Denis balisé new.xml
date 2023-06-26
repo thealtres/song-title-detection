@@ -1,0 +1,5157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE MARCHAND DE LA RUE SAINT-DENIS, OU LE MAGASIN, LA MAIRIE ET LA COUR D'ASSISES</title>
+                <title type="sub">COMÉDIE-VAUDEVILLE EN TROIS ACTES</title>
+                <author key="BRA" sort="1">
+                    <name>
+                        <forename>Nicolas</forename>
+                        <surname>Brazier</surname>
+                    </name>
+                </author>
+               <author key="VDV" sort="2">
+                    <name>
+                        <forename>Théodore-Ferdinand</forename>
+                        <surname>Vallou de Villeneuve</surname>
+                        <addname type="pen_name">Villeneuve</addname>
+                        <addname type="pen_name">Ferdinand de Villeneuve</addname>
+                        <addname type="pen_name">De Villeneuve</addname>
+                        <addname type="pen_name">Devilleneuve</addname>
+                        <addname type="pen_name">Le docteur Mesenthère</addname>
+                    </name>
+                </author>
+                <author key="VAN" sort="3">
+                    <name>
+                        <forename>Louis-Émile</forename>
+                        <surname>Vanderburch</surname>
+                        <addname type="pen_name">Émile Vanderburch</addname>
+                        <addname type="pen_name">Émile Vander-Burch</addname>
+                        <addname type="pen_name">Émile Vanderburck</addname>
+                        <addname type="pen_name">Émile Van der Burck</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="PL">
+                        <forename>Pascaline</forename>
+                        <surname>Loricourt</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE MARCHAND DE LA RUE SAINT-DENIS, OU LE MAGASIN, LA MAIRIE ET LA COUR D'ASSISES</title>
+                        <author>BRAZIER, DE VILLEMEUVE ET VANDERBURCH</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository/>
+                                <idno type="URL"/>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-08-21">21 AOÛT 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES NOUVEAUTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NATIONALBIBLIOTHEK
+            
+            IN WIEN
+            
+            131482-B
+            
+            ALT
+            
+            T
+            
+            1
+            
+            1897… 
+            
+            LE MARCHAND
+            
+            DE LA RUE SAINT-DENIS, 
+            
+            OU
+            
+            LI MAGASIN, LA MAIRII
+            
+            ET LA COUR D'ASSISES, 
+            
+            COMÉDIE-VAUDEVILLE EN TROIS ACTES ; 
+            
+            PAR
+            
+            MM. BRAZIER, DE VILLENEUVE ET VANDERBURCH, 
+            
+            REPRÉSENTÉ POUR LA PREMIÈRE FOIS, A PARIS, 
+            
+            SUR LE THÉATRE DES NOUVEAUTĖS, 
+            
+            LE 21
+            
+            AOUT 1830. 
+            
+            warm
+            
+            PRIX : 2 FR. 
+            
+            131482-B
+            
+            PARIS. 
+            
+            R. RIGA, LIBRAIRE, 
+            
+            FAUBOURG POISSONNIÈRE, N. 1. 
+            
+            HAUTCŒUR-MARTINET, LIBRAIRE, 
+            
+            RUE DU COQ SAINT-HONORÉ, N ° S 13 ET 15. 
+            
+            1830
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            M. DUMONT, marchand de soieries. 
+            
+            M. THÉNARD. 
+            
+            MADAME DUMONT. 
+            
+            HENRIETTE, leur fille. 
+            
+            SÉRAPHINE, leur nièce. 
+            
+            THÉOPHILE, leur neveu. 
+            
+            MARGUERITE, vieille domestique. 
+            
+            D'ORVILLIERS, magistrat. 
+            
+            ÉDOUARD, son fils. 
+            
+            Mme DESPREZ. 
+            
+            Mme Génot. 
+            
+            Mlle DEJAZET. 
+            
+            M. Bouffé. 
+            
+            Mell CLORINDE. 
+            
+            M. DERVAL. 
+            
+            M. VOLNYS. 
+            
+            LE BARON BEAUPRÉ, général. 
+            
+            M. MATHIEU. 
+            
+            OCTAVIE, sa fille. 
+            
+            LE MAIRE. 
+            
+            Mlle BALTHAZARD. 
+            
+            M. MASSON. 
+            
+            JOCARD, garçon de bureau à la mairie. 
+            
+            M. DUBOURJAL. 
+            
+            UN AUVERGNAT. 
+            
+            UNE NOURRICE. 
+            
+            UN GARÇON DE CAISSE. 
+            
+            UN COMMIS. 
+            
+            UN HUISSIER. 
+            
+            UN AVOCAT. 
+            
+            COMMIS-MARCHANDS. 
+            
+            (La scène est Paris : Au premier acte, dans un magasin de
+            
+            nouveautés de la rue Saint-Denis. 
+            
+            Au second acte, dans
+            
+            la salle des mariages d'une Mairie. 
+            
+            Au troisième acte, 
+            
+            dans une salle voisine de la cour d'assises.)
+            
+            IMPRIMERIE DE DAVID, BOULEVARD POISSONNIÈRE, N. 6. 
+            
+            LAMAAND
+            
+            DE LA RUE SAINT-DENIS. 
+            
+            Poonavarasandes0000 astroloridual vomo 80 topu taboon to 08. 00ams000and
+            
+            ACTE PREMIER. 
+            
+. Le théâtre représente l'intéricur d'un magasin de soieries ; à gauche, un
+            
+            escalier tournant qui est censé monter au premier étage ; des comp
+            
+            toirs, des montres où sont exposées des étoffes ; dadroite, et sur le
+            
+            devant de la scène, un hureau avec des rideaux de taffetas vert. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            M. DUMONT, MADAME DUMONT, SÉRAPHINE, 
+            
+            HENRIETTE, THÉOPHILE, COMMIS. 
+            
+            (Au lever du rideau, les acteurs sont ainsi placés : M. Dumont
+            
+            assis dans le bureau et occupé à écrire. Séraphine appuyée
+            
+            sur le comptoir ; elle fait un relevé de comptes en pliant des
+            
+            étoffes enveloppées dans de grands pap'ers blancs, Madame
+            
+            Dumont est assise gravement au comptoir, 
+            
+            elle tricotte. 
+            
+            Henriette est à côté d'elle occupée à broder. Théophile est
+            
+            monté sur un comptoir et visite les cases. Plusieurs commis
+            
+            font des ballots.)
+            
+            THÉOPHILE, rendant un volume à un commis. 
+            
+            Tenez, Durand, voilà le second volume de la Contempo
+            
+            raine…. Il y a de quoi rire…. c'était encore une bonne far
+            
+            çeuse ! …
+            
+            MADAME DOMONT, dans le comptoir. 
+            
+            Est-ce que vous lisez encore, Théophile ? 
+            
+            THÉOPHILE. 
+            
+            Non, ma tante, je rends à Durand un livre qu'il n'a prêté
+            
+            hier…. ces Mémoires, c'est-il amusant ! …
+            
+            Et instructif ! 
+            
+            LE COMMIS. 
+            
+            THÉOPHILE. 
+            
+            Moi je lis tous les Mémoires qui paraissent ! …. Mais avec
+            
+            tout ça il n'y a plus de levantine ma tante ; nous manque
+            
+            rons la vente aujourd'hui, 
+            
+            MADAME DUMONT, 
+            
+            Que ce fabricant est négligent ! …
+            
+            DUMONT, dans le burequ. 
+            
+            On a pourtant écrit deux fois à Lyon. 
+            
+            THÉOPHILE. 
+            
+            Vous ne direz…… on en demande si peu de lévantine å
+            
+            présent…. Il n'y a plus que les grand's-mères qui en portent. 
+            
+            DUMONT, dans son bureau et appuyant. 
+            
+            Mais il y a encore de grand's-mères, monsieur le beau
+            
+            parleur ! …
+            
+            THÉOPHILE. 
+            
+            Je ne dis pas qu'il n'y a plus des grands-mères, mon on
+            
+            cle, 
+            
+            je sais bien que malgré la révolution, les grands-mères, 
+            
+            ont été conservées…. C'est comme le velours épinglé, on a
+            
+            beau dire, c'est ancien régime comme un diable…. dans les
+            
+            bals de la cour, on en portait du temps de la Montespan. 
+            
+            MADAME DUPONT. 
+            
+            Allons, bayard, faites votre ouvrage. 
+            
+            SÉRAPHINE. 
+            
+            Ah ! lui, quand on le fera taire…
+            
+            THÉOPHILE. 
+            
+            Je vous conseille de parler, c'est ça que vous ne jacassez
+            
+            pas ! … vous parlez comine une pie, exceptez que vous n'êtes
+            
+            pas voleuse. (Il rit.) Ah ! ah ! alı ! …
+            
+            MARGUERITE, entrant avec le journal d'une main, et tenant dans
+            
+            l'autre un poëlon d'argent. 
+            
+            V'là le National pour monsieur… et puis le chocolat pour
+            
+            madame. 
+            
+            MADAME DUMONT. 
+            
+            Bien, Marguerite… Déjeûneras-tu avec moi… Henriette ? … 
+            
+            HENRIETTE, tristement. 
+            
+            Non, maman, je déjeûnerai plus tard ; je n'ai pas faim…
+            
+            Je ne sais pas ce qu'a ta fille ; elle est un peu malade. 
+            
+            MADAME DUMONT. 
+            
+            DUMONT. 
+            
+            Tu n'as pas de chagrin… pas vrai, Henriette ? …
+            
+            HENRIETTE, baissant les
+            
+            yeux. 
+            
+            Non, mon père…
+            
+            THÉOPHILE. 
+            
+            Il y a quelques jours que nous n'avons vu M. Edouard. 
+            
+            MADAME DUMONT. 
+            
+            Je crains qu'il ne lui soit arrivé quelque chose…
+            
+            THÉOPHILE. 
+            
+            C'est drôle… depuis quelque temps, il vient moins sou
+            
+            vent ; je l'aime moi, M. Edouard, il est bon enfant ! …
+            
+-5
+            
+            MADAME DUMONT. 
+            
+            Il est fort aimable…. fort complaisant, pas vrai, Hen
+            
+            riette ? …
+            
+            HENRIETTE, froidement. 
+            
+            Il est très-bien élevé…
+            
+            SÉRAPHINE. 
+            
+            La dernière fois qu'il est venu, il a dit qu'il apporterait
+            
+            des billets pour voir Manon-Lescaut et le Comte Ory', à
+            l'Opéra. 
+            
+            THÉOPHILE. 
+            
+            Oui, trois places de loges pour ces dames, et une de par
+            
+            terre pour moi… J'applaudirai ferme…. je suis Rossiniste
+            
+            moi ; je trouve que la musique de Grétry est rococo…. Je la
+            
+            trouve Pompadour… Je lis les Mémoires…
+            
+            DUMONT. 
+            
+            M. Edouard a des manières distinguées, tout annonce
+            
+            qu'il doit appartenir à une famille bonnête…. mais nous le
+            
+            connaissons peu…. et depuis qu'il vient ici… peut-être fau
+            
+            drait-il…. 
+            
+            MADAME DUMONT, 
+            
+            Ne vas-tu pas concevoir des soupçons ? … s'il fallait se mé
+            
+            fier de tout le monde ! …. ce jeune homme m'a dit cent fois
+            
+            qu'il était de province, qu'il se nommait Edouard Dervieux
+            
+            et qu'il venait d'être reçu avocat ; au surplus, il faut qu'il
+            
+            ait des penchans bien purs, des goûts bien modestes pour
+            
+            venir passer quelques soirées avec nous, à jouer au nain
+            
+            jaune et au loto. 
+            
+            THÉOPHILE. 
+            
+            Oui, surtout aujourd'hui qu'on ne joue plus qu'à l'écarté. 
+            
+            (A part.) Autrefois c'était le lansquenet, le pharaon… Dieu ! 
+            
+            que ces jeux-là étaient perruque ! … Avec tout ça j'ai encore, 
+            
+            perdu cent sous dimanche. Je fais des bêtises, moi, je in'en
+            
+            fonce…
+            
+            MARGUERITE, venant retirer la tasse de madame Dumont, 
+            
+            L'avez-vous trouvé bon, mon chocolat ? 
+            
+            MADAME DUMONT. 
+            
+            Oui, Marguerite, pourquoi ça ? 
+            
+            MARGUERITE. 
+            
+            Tant mieux, j'avais peur qu'il ne sente le brûle et qu'il ne
+            
+            soie attaché au fond de la casterolle…
+            
+            THÉOPHILE, à Henriette. 
+            
+            Dites donc, ma cousine Henriette, je ne sais comment il
+            
+            fait, M. Édouard, mais il a toujours de nouvelles parties de
+            
+            plaisirs à nous proposer. 
+            
+            1
+            
+            SÉRAPHINE, à Henriette. 
+            
+            C'est vrai, te souviens-tu de cette fêté où il nous a me
+            
+            nées l'été dernier avec ma tante ? comme on s'est amusé ! …
+            
+            c'était jolimeut composé ! … des clers d'avoués, des fils de
+            
+            notaire, des banquiers ! …
+            
+            THÉOPHILE. 
+            
+            Des gendarmes et des Chinois… qui nous ont honorés de
+            
+            leur présence
+            
+            MADAME DUMONT. 
+            
+            Oui, si Henriette ne se fût pas trouvée indisposée, c'eût
+            
+            été charmant. 
+            
+            HENRIETTE, à
+            
+            part
+            
+            et tristemert. 
+            
+            Quel souvenir ! …
+            
+            SCÈNE II. 
+            
+            LES PRÉCÉDENS, UN GARÇON DE CAISSE DE LA BANQUE
+            
+            DE FRANCE. 
+            
+            LE GARÇON DE CAISSE. 
+            
+            Deux effets… quatre mille francs à recevoir…
+            
+            Mon mari est là…. 
+            
+            MADAME DUMONT. 
+            
+            DUMONT, sortant du bureau. 
+            
+            Ah ! je sais… pourquoi n'êtes-vous pas venu avant-hier ? 
+            
+            les effets étaient payables samedi ! …
+            
+            LE GARÇON DE GAISSE. 
+            
+            Avec d'autres, oui, mais avec vous, M. Dumont, 
+            
+            les
+            
+            gar
+            
+            çons de caisse dorment bien tranquillement. Vous êtes connu
+            
+            à la Banque…
+            
+            THÉOPHILE. 
+            
+            Pour ça, oui, mon oncle est connu… à la Banque de
+            
+            France… dam ! quand on paie bien…
+            
+            DUMONT. 
+            
+            On ne fait que son devoir. (A madame Dumont.). Tu sais
+            
+            que je vais au palais ce matin, le juge d'instruction m'a en
+            
+            core fait demander…
+            
+            MADAME DUMONT. 
+            
+            Ahl oui, toujours pour cette malheureuse affaire… cette
+            
+            pauvre famille Benoist… de si braves gens ! … n'avoir qu'une
+            fille ! 
+            
+            DUMONT. 
+            
+            L'espoir de leur vieillesse… faut-il qu'elle se soit rendue
+            
+            indigne de leur attachement ! … 
+            
+            Ah oui, cette jeune fille séduite…… Dieu de Dieu ! ça a
+            
+            t-il fait des cancans dans la Cour Batave ! …. 
+            
+            THÈOPHILE. 
+            
+            SÉRAPHINE. 
+            
+            Pardine… avec des mauvaises langues cominę vous…. 
+            
+            THÉOPHILE. 
+            
+            Ah ! v'là déjà ma cousine qui la défend…. comme les
+            femmes se soutiennent…. ont-elles l'esprit national ! … dans
+            
+            ce genre-là. 
+            
+            DUMONT, 
+            
+            Théophile, taisez-vous et cessez de plaisanter quand il
+            
+            s'agit de l'honneur d'une famille…
+            
+            (Àu garçon de caisse.)
+            
+            Suivez-moi. 
+            
+            (Ils sortent.)
+            
+            SCÈNE III. 
+            
+            LES MÊMES, excepté DUMONT et le GARÇON DE CAISSE. 
+            
+            THÉOPHILE. 
+            
+            Dites donc, ma tante, est-ce qu'on ne va pas déjeuner ? …
+            
+            il me semble que mon estomac commence à crier. 
+            
+            SÉRAPHINE. 
+            
+            ! 
+            
+            Marguerite n'est pas pressée…
+            
+            MARGUERITE. 
+            
+            Il n'est pas encore dix heures ; vous savez bien
+            
+            que
+            
+            l'on
+            
+            ne déjeûne jamais devant…. 
+            
+            MADAME DUMONT, sortant du comptoir. 
+            
+            Allons, je vais donner un coup-d'œil à ça ; car Marguerite
+            
+            tourne, tourne et ne finit à rien…
+            
+            MARGUERITE, d'un air fáché. 
+            
+            Je tourne ; il y a de quoi faire ici quand on est seule de
+            
+            domestique ; tout tombe de dessus moi, Madame. 
+            
+            MADAME DUMONT. 
+            
+            C'est bon, Marguerite, allez mettre votre couvert…… 
+            
+            THÉOPHILE, criant. 
+            
+            Marguerite ! le couvert…. 
+            
+            SÉRAPHINE, criant aussi. 
+            
+            Le couvert, Marguerite ! …
+            
+            LÈS COMMIS, frappant avec leur aune sur le comptoir. 
+            
+            Marguerite ! … le couvert…. 
+            
+            THÉOPHILE. 
+            
+            Ca la vexe, cette pauvre Marguerite ; elle est bonne fille
+            
+            dans le fond, mais elle est flaneuse…. 
+            
+            (Madame Dumont sort par le fond avec Marguerite.)
+            
+            SCÈNE IV. 
+            
+            SÉRAPHINE, THÉOPHILE, HENRIETTE dans le comp
+            
+            toir ; COMMIS. 
+            
+            SÉRAPHINE, devant le comptoir. 
+            
+            Eh bien ! petite cousine, toujours souffrante donc ? …. 
+            
+            HENRIETTE, avec douceur. 
+            
+            Oui, toujours un peu…. 
+            
+            SÉRAPHINE. 
+            
+            Comme c'est drôle ! … comme ça ta pris…. tu étais si bien
+            
+            portante il y a quelque temps, et puis tout-à-coup, une tris
+            
+            tesse, une pâleur. 
+            
+            HENRIETTE, soupirant. 
+            
+            Oh ! ça ne sera rien, je l'espère…. 
+            
+            SÉRAPHINE. 
+            
+            Oui, ça se passera…. tu reviendras fraîche et gạie ; est-ce
+            
+            que tu aurais du chagrin ? 
+            
+            A ENRIETTE, s'efforçant de sourire. 
+            
+            Moi ? oh ! non. 
+            
+            THÉOPHILE. 
+            
+            Parbleu ! pourquoi donc que ma cousine aurait du cha
+            
+            grin ? heureuse comme elle l'est, une belle éducation, un
+            
+            avenir couleur de rose, fille unique, une jolie petite for
+            
+            tune, un mari qui lui tombera des nues un de ces quatre
+            matins…. 
+            
+            
+            <div type="poem"> <lg>
+                                    SÉRAPHINE
+                
+                
+, gaíment. 
+            
+                    C'est vrai, je voudrais bien être à ta plaee…. mon avenir
+            
+                    n'est pas brillant…. Demoiselle de comptoir, ça n'attire pas
+            
+                    les épouseurs…. En général, nous sommes mal vues dans la
+            
+                    société…. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Vaudeville de Partie et Revanche. 
+                </stage>
+            
+            
+                
+                    <l>Des demoiselles de boutique, </l>
+                    <l>Je sais ce qu'on dit dans Paris : </l>
+                    <l>On les déchire, on les critique, </l>
+                    <l>De tout cela, moi je me ris…</l>
+                    <l>Oh ! mon Dieu, oui, j'en plaisante et j'en ris ! </l>
+                    <l>Quoique le monde nous ravale, </l>
+                    <l>On peut encore, en dépit des malins, </l>
+                    <l>Au comptoir trouver la morale, </l>
+                    <l>Et des vertus en magasins. </l>
+               
+            
+            </lg> </div>
+            
+            THÉOPHILE. 
+            
+            Quand ça ne serait que vous, ma cousine…. aussi je ne
+            
+            dis rien, mais j'ai des vues…. 
+            
+-9
+            
+            SÉRAPHINE. 
+            
+            Je sais bien que je ne ferai jamais un grand mariage…. 
+            
+            THÉOPHILE. 
+            
+            Qu'en savez-vous ? … vous êtes gentille, je peux vous plaire
+            et vous épouser…. alors l'établissement marche tout seul. 
+            
+            SÉRAPHINE. 
+            
+            C'est ça…, comme vous me disiez l'autre jour, un prix
+            
+            fixe… c'est du joli… je ne peux pas sentir les prix fixes ; je
+            
+            les ai en borreur. 
+            
+            THÉOPAILE. 
+            
+            Ce n'est pas l'embarras, le prix fixe et la rue Saint-Denis….)
+            
+            c'est joliment rococo…. c'est fièrement qil-de-bæuf…. Croi
+            
+            riez-vous que je n'ose pas dire que je suis de la rue Saint
+            Denis ? …. 
+            
+            Bah ! …
+            
+            SÉRAPHINE. 
+            
+            1
+            
+            THÉOPHILE. 
+            
+            1
+            
+            Parole d'honneur ! … oui, il y a des rues que je ne peux
+            
+' pas digérer… je sais bien que c'est une bêtise… Par exemple, 
+            
+            fa rue Thibautodé, c'est ma bête noire… la rue de la Heau
+            
+            merie ! oh ! celle-là, elle passe la perinission…. la rue du
+            
+            Chevalier du Guet…. c'était là que se tenaient les gen
+            
+            d'armes du temps de la fronde, sous François I'r. J'ai lu les
+            
+            Mémoires… aussi quand on me demande dans quel magasin
+            
+            je suis…. je dis que je ne suis chez mon oncle qu'en atten
+            
+            dant. 
+            
+            Oh ! c'est vilain…. 
+            
+            SÉRAPHINE. 
+            
+            
+            <div type="poem"> <lg>
+                                    THÉOPHILE. 
+                
+            
+            
+                
+                    Que voulez-vous, à présent que je suis lié avec tout ce
+            
+                    qu'il y a de mieux dans la nouveauté…. Savez-vous que je
+            
+                    fréquente les magasins les plus relevés de la rue Vivienne et
+            
+                    du Palais-Royal Savez-vous que je vais faire des parties de
+            
+                    plaisir avec la Reine Mathilde et les Cuisinières, avec la
+            
+                    Muette et le Ci-devant Jeune Homme ? 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : Et voilà comme tout s'arrange. 
+                </stage>
+            
+            
+                
+                    <l>Je connais le Gagne-petit, </l>
+                    <l>Je vais chez Fanchon la Vielleuse ; </l>
+                    <l>Dimanche j'ai passé la nuit</l>
+                    <l>Avec la Lampe merveilleuse ! </l>
+                    <l>Avec Fra Diavolo, lundi</l>
+                    <l>J'ai traité le Diable Asmodée, </l>
+                    <l>La Vestale m'attend mardi, </l>
+                    <l>Et je dois souper mercredi</l>
+                    <l>Avec la Fille mal gardée. </l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            UN COMMIS, entrant. 
+            
+            Messieurs, le déjeûner…. 
+            
+            THÉOPHILE. 
+            
+            Ah ! c'est fameux ! …. je suis sûr qu'on va nous donner de
+            
+            la vinaigrette ou du gigot réchauffé…. quel déjeûner go
+            
+            9
+            
+-10
+            
+            thique…. ah ! vieille rue Saint-Denis ! … enfin c'est égal, j'ai
+            
+            une faim
+            
+            ! 
+            
+            SÉRAPHINE. 
+            
+            Oui, mais comme vous êtes entré le dernier ici… vous
+            
+            dejeûnerez après nous…. il faut garder le magasin…
+            
+            THÉOPHILE. 
+            
+            Merci, cousine…. et puis quand je me mettrai à table, il
+            
+            n'y aura plus rien, comme l'autre jour ; car ma tante est une
+            
+            bonne femme, mais elle est un peu chiche…. elle donne
+            
+            tout juste…. avec elle les restes ne sont pas conséquens…. 
+            
+            Hier encore, vous aviez tout mangé, ma tante me dit : 
+            « Prends des noix et une grappe de raisin » 
+            
+            et du raisin
+            
+, 
+            
+            noir encore…. des petits grains tout serrés…. Avec ça sur
+            
+            l'estomac…. j'ai baitu tout le pavé de Paris…. je mourais de
+            
+            faim à cinq heures…. Ah ! vieille rue Saint-Denis…. es-tu
+            
+            féodale ! …. 
+            
+            HENRIETTE, avec bonté. 
+            
+            Mon cousin, comme je ne déjeûne pas, vous pouvez aller
+            
+            avec eux, si quelqu'un venait pour acheter, je vous sonnerai…
+            
+            THÉOPHILE. 
+            
+            Ah ! cousine, vous pouvez vous vanter de me faire un sen
+            
+            sible plaisir…. J'accepte, c'est à ces traits là qu'on reconnait
+            
+            une excellente parente…. 
+            
+            
+            
+                            TOUS LES COMMIS. 
+            
+            
+            <div type="poem"> <lg>
+            <stage type="tune">
+                Air du Comte Ory. 
+            </stage>
+            
+            
+            
+                <l>Allons, allons le déjeûner attend ! …</l>
+                <l>Courons, courons sans perdre un seul instant. </l>
+                <l>Le bouilli vinaigré</l>
+                <l>Doit être préparé. </l>
+            
+            
+                            THEOPHILE. 
+            
+            
+            
+                <l>Pour completter l'orgie</l>
+                <l>De ce joli festin, </l>
+                <l>Le verre d'eau rougie</l>
+                <l>Va tous nous mettre en train. </l>
+            
+            
+                                    TOUS. 
+                
+            
+                <l ana="unanalyzable">Allons, allons, etc. </l>
+            </lg></div>
+            
+            
+            (Ils sortent en riant et en se culbutant.)
+            
+            SCÈNE V. 
+            
+            
+            <div type="poem"> <lg>
+                                    HENRIETTE
+                
+                
+, seule. 
+            
+                    Qu'il me tardait d'etre seule…. j'ai tant besoin de pleu
+            
+                    rer ! … Huit jours qu'il n'est venu ! … huit jours ! … mon
+            
+                    Dieu ! … que c'est long ! … quand on aime, et qu'on attend ! … 
+            
+                    mais qui peut le retenir ? … lui qui venait si souvent ! … Je
+            
+                    ne sais si je n'effraie à tort ! … mais il me semble que depuis
+            
+                    un mois il est plus froid à mou égard… On dirait que ses
+            
+                    yeux craignent de rencontrer les miens…. 
+            
+                    il n'a plus cette
+            
+                    franchise, cet abandon qui me donnaient tant de confiance
+            
+                    dans ses promesses… Dieu ! si Edouard m'avait trompée ! …
+            
+-11
+            
+                    lah ! cette idée me fait frémir ! … toujours cacher mes larmes…
+            
+                    Comment pourrais-je avouer à mon père que je ne suis plus
+            
+                    digne de sa tendresse ! … Mon Dieu ! que je voudrais mou
+            
+                    rir… Pauvre père… que diras-tu quand tu sauſas…
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air de l'Angelus. 
+                </stage>
+            
+            
+                
+                    <l>Tant que j'ai rempli mon devoir, </l>
+                    <l>Tant que je restai vertueuse, </l>
+                    <l>Quand tu m'embrassais chaque soir, </l>
+                    <l>Mon père, que j'étais heureuse ! </l>
+                    <l>De ton baiser j'étais presqu'orgueilleuse ; </l>
+                    <l>Ce doux baiser que quinze ans j'ai reçu</l>
+                    <l>En présence de ta famille, </l>
+                    <l>Tu le donnais à la vertu, </l>
+                    <l>Il n'appartient plus à ta fille. </l>
+                
+            
+            </lg> </div>
+            
+            
+            Profitons de l'instant où je suis seule pour mettre l'adresse
+            
+            à cette lettre que ce matin j'ai écrite secrètement à notre
+            
+            vénérable pasteur, et dans laquelle j'avoue ma faute et mon
+            
+            repentir ; comme. sa vie est pure, sa tolérance est grande ! 
+            
+            (Elle se mel près d'une table et écrit.) A Monsieur le pasteur
+            
+            Winglenn, rue des Billettes, à Paris. 
+            
+            (Elle cachette.) On
+            
+            vient… vite, cachons ma lettre. 
+            
+            (Elle met la lettre dans son sein.)
+            
+            SCÈNE VI. 
+            
+            HENRIETTE, SÉRAPHINE… 
+            
+            SÉRAPHINE, entrant gaíment… 
+            
+            Petite cousine… je t'ai dérangée… tu écrivais ? …
+            
+            HENRIETTE, embarrassée. 
+            
+            Oui… j'écrivais…
+            
+            SÉRAPHINE. 
+            
+            Pourquoi ce trouble à mon approche… tá te méfies de
+            
+            moi ? …
+            
+            HENRIETTE, embarrassée. 
+            
+            Oh ! non… je sais que tu as un bon cour…
+            
+            SÉRAPHINE. 
+            
+            Tu as encore pleuré… je le vois bien ; il y a long-temps
+            
+            que je t'observe… Cette souffrance…, cet'ennui… tout an
+            
+            nonce que tu as du chagrin… tu aimes, ma chère Henriette…
+            
+            HENRIETTE, s'efforçant de sourire. 
+            
+            Quelle idée ! …
+            
+            
+            <div type="poem"> <lg>
+                                    SÉRAPHINE. 
+                
+            
+            
+                
+                    Tu aimes, te dis-je… est-ce que tu crois que depuis que
+            
+                    M. Edouard vient ici… je ne l'ai pas remarqué… étudié ? … 
+            
+                    du reste il est aussi adroit qu'il est aimable…
+                
+            
+            
+            
+                <stage type="tune">
+                    Air du Vaudeville de la Somnambule. 
+                </stage>
+            
+            
+                
+                    <l>Si je pouvais, dans mon humeur légère, </l>
+                    <l>Douter qu'il vient ici pour toi, </l>
+                    <l>Je le devinerais, ma chère, </l>
+                    <l>Aux égards qu'il montre pour toi. </l>
+                    <l>S'il vante ma grâce lutine, </l>
+                    <l>Et mon esprit et ma gaîté, </l>
+                    <l>Il a bien soin, ma petité cousine, </l>
+                    <l>De regarder toujours de ton côté. </l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            HENRIETTE, froidement. 
+            
+            M. Edouard est galant pour tout le monde…
+            
+            SÉRAPHINE, 
+            
+            Tu veux en vain me le cacher… une femme, et surtout
+            
+            une cousine, s'aperçoit bien vite de ces choses-là… Tu aimes
+            
+            M. Edouard. 
+            
+            Moi ! …
+            
+            HENRIETTE. 
+            
+            SÉRAPHINE. 
+            
+            Et je suis sûre que M. Edouard t'aime aussi…
+            
+            HENRIETTE. 
+            
+            Qui a pu faire naître en toi cette pensée ? 
+            
+            
+            <div type="poem"> <lg>
+                                    SÉRAPHINE. 
+                
+            
+            
+                
+                    Non amitié… et le trouble où je te vois…
+                
+            
+            
+                <stage type="tune">
+                    AIR : Je voulais bien, je voulais bien. 
+                </stage>
+            
+                
+                    <l>Je m'y connais, et dès long-temps, </l>
+                    <l>Je t'observe sans te rien dire ; </l>
+                    <l>Jadis je te voyais sourire, </l>
+                    <l>Et tes regards sont languissans. </l>
+                    <l>Plus de plaisirs et plus de chants. </l>
+                    <l>Oui, jai su lire dans ton âme, </l>
+                    <l>Le penchant que tu ressentais…</l>
+                    <l>Tiens, tu rougis, et je suis femme…</l>
+                    <l>Je m'y connais, <stage type="repetition"> (bis.)</stage></l>
+                    <l>J'ai deviné tous tes secrets, </l>
+                    <l>Oui, oui, je m'y connais. </l>
+                
+                
+                    <l>Je m'y connais, ouvre ton cœur</l>
+                    <l>À l'amitié qui t'en supplie ; </l>
+                    <l>Une cousine est une amie</l>
+                    <l>Qui partage notre douleur ; </l>
+                    <l>Pour toi, je suis presque une sœur. </l>
+                    <l>Allons, un peu de confiance, </l>
+                    <l>J'ai deviné que tu souffrais, </l>
+                    <l>Je te promets mon indulgence, </l>
+                    <l>Je m'y connais, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Quand il s'agit de tels secrets, </l>
+                    <l>Oui, oui, je m'y connais. </l>
+                
+            </lg> </div>
+            
+            
+            
+            HENRIETTE, après s'étre assurée qu'elles étaient seules. 
+            
+            Eh bien ! oui… tu as deviné le secret de mon cour… et la
+            
+            cause de ma tristesse. 
+            
+            SÉRAPHINE. 
+            
+            Tu appelles ça un malheur, toi ? … M. Edouard est très-joli
+            
+            garçon, très-aimable et il se inet très-bien ; je sais que moi, 
+            
+            si j'étais à ta place…
+            
+            Hélas ! tu ignores…
+            
+            HENRIETTE. 
+            
+-15
+            
+            SÉRAPHINE. 
+            
+            Quoi donc ? …
+            
+            HENRIETTE, à part. 
+            
+            Si j'osais ! … oh ! oui, elle est bonne… sans cesse auprès
+            
+            de moi, elle pourrait m'aider de ses conseils, de son se
+            coul's…
+            
+            SÉRAPHINE. 
+            
+            Eh bien ! qu'est-ce que j'ignore… voyons ? … tu ne dis
+            
+            rien ? … est-ce parce que depuis quelque temps M. Edouard a
+            
+            ralenti ses visites… et qu'il paraît rêveur, préoccupé ; sais
+            
+            tu ce que ça prouve ? … qu'il i'aime, mais qu'il n'ose pas se
+            
+            déclarer parce qu'il est très-timide… c'est un défaut… que
+            veux-tu, il y a encore des jeunes gens timides ; 
+            
+            sois tran
+            
+            quille… je lui parlerai moi… et il faudra bien qu'il t'avoue
+            
+            son amour, qu'il demande ta main à tes parens, et qu'il me
+            
+            fasse danser le jour de tes noces. 
+            
+            HENRIETTE. 
+            
+            Bonne cousine… hélas ! tu ne
+            
+            nnais encore qu'une par
+            
+            tie de mes maux… si tu savais…
+            
+            SÉRAPHINE, 
+            
+            Ah ! mon Dieu ! comme tu me dis ça, tu m'effraies. 
+            
+            וון
+            
+            HENRIETTE. 
+            
+            Séraphine, depuis long-temps je cache à tous les yeux un
+            
+            secret qui me tue… J'ai compte sur ton amitié… car toi seule
+            
+            ici peux m'aider à supporter tous les maux qui in'accablent…
+            
+            SÉRAPHINE. 
+            
+            Parle-donc… en vérité je ne puis te comprendre ? …
+            
+            HENRIETTE. 
+            
+            Je ne suis plus digne de la tendresse de mes parens, 
+            
+            Que dis-tu ? 
+            
+            SÉRAPHINE. 
+            
+            
+            <div type="poem"> <lg>
+                                    HENRIETTE. 
+                
+            
+            
+                
+                    La vérité… M. Edouard…
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air : Pour aller venger la patrie. 
+                </stage>
+            
+            
+                
+                    <l>Il fut estimé de ma mère, </l>
+                    <l>Les premiers jours qu'il vint ici, </l>
+                    <l>À tout le monde il savait plaire</l>
+                    <l>Je crus pouvoir l'aimer aussi. </l>
+                    <l>J'étais heureuse en espérance, </l>
+                    <l>On est si credule à seize ans…</l>
+                    <l>Moi, j'écoutais sans défiance</l>
+                    <l>Et mon cœur et ses sermens. </l>
+                
+            
+           
+            
+            
+            
+            
+                                    SÉRAPHINE. 
+                
+            
+            
+                
+                    Hélas ! pauvre Henriette…. 
+                
+            
+            
+            
+                                    HENRIETTE. 
+                
+            
+            
+                                  Même air. 
+            
+            
+                
+                    <l>À tes yeux, je suis bien coupable. </l>
+                    <l>Mais si tu lisais dans mon cœur, </l>
+                    <l>Je serais peut-être excusable, </l>
+                    <l>L'ignorance a fait mon malheur, </l>
+                    <l>Si du regret qui me dévore, </l>
+            
+            14
+            
+                    <l>Lui seul est cause en ce moment, </l>
+                    <l>Pour excuse, je trouve encore</l>
+                    <l>Et mon cœur et son serment. </l>
+                     </lg> </div>
+                
+            
+            
+            
+            
+            SÉRAPHINE. 
+            
+            Mon dieu ! …. Que vas-tu devenir ? ……. 
+            
+            HENRIETTE. 
+            
+            Je n'en sais rien…. Car je mourrai s'il fallait découvrir
+            
+            à mes parens l'affreux secret que je renferme dans mon
+            
+            sein…. Après avoir formé mille projets…… dans mon
+            
+            désespoir, et ne sachant à qui me confier, l'idée m'est venue
+            
+            ce matin d'écrire à quelqu'un pour qui mon père avait beau
+            
+            coup d'amitié, de respect… lui seul pourrait lui faire cette
+            affreuse révélation…. Comme tu sors souvent, tu lui porte
+            
+. 
+            
+            ras ina lettre…. la voici. (Tirant la lettre de son sein, 
+            
+            elle va
+            
+            pour la remettre à Séraphine, quand elle aperçoit M. Dumont
+            
+            qui paraít.) Ciel ! mon père. 
+            
+            SCÈNE VII. 
+            
+            LES MÊMES, M. DUMONT. 
+            
+            DUMONT. 
+            
+            Tiens ! Seraphine ici ! Je te croyais seule…. Comment te
+            
+            sens-tu, ma bonne ? 
+            
+            HENRIETTE, se remettant, 
+            
+            Un
+            
+            peu mieux, mon père…
+            
+            DUMONT
+            
+            Allons, ce ne sera rien, Laisse nous, Séraphine. (Avec
+            
+            bonté.) Ah ! ça, mon enfant, nous voilà seuls ; il faut
+            
+            causions ensemble…. Mais j'exige de toi une entière con
+            fiance…. 
+            
+            1
+            
+            HENRIETTE, timidement.,
+            
+            J'en aurai, mon père. 
+            
+            DUMONT
+            
+            Tu es notre unique enfant ; tu sais toute la tendresse que
+            
+            nous te portons ; quel chagrin secret peut t'afliger, au point
+            de nuire à ta santé ? 
+            
+            HENRIETTE. 
+            
+            Je n'ai pas de chagrin…
+            
+            DUMONT. 
+            
+            Si, tu as des peines, et tu nous les caches. 
+            
+            Mon père ! …. 
+            
+            HENRIETTE. 
+            
+            
+            <div type="poem"> <lg>
+                                    DUMONT. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Romance de Téniers. 
+                </stage>
+            
+            
+                
+                    <l>C'est le moment de te montrer sincère, </l>
+                    <l>Mon Henriette, explique-toi…</l>
+            
+            
+                                            HENRIETTE. 
+                    
+            
+                    <l>Dès long-temps je sais, ô ! mon père, </l>
+                    <l>L'amour que vous avez pour moi ! …</l>
+                
+-15-
+                
+                                    DUMONT
+                
+            
+                
+                    <l>Ne prolonge plus ma souffrance, </l>
+                    <l>Ce n'est pas assez pour mon cœur</l>
+                    <l>De t'avoir donné l'existence, </l>
+                    <l>Si je ne puis assurer ton bonheur. </l>
+                
+            
+            </lg> </div>
+            
+            
+            HENRIETTE. 
+            
+            1
+            
+            Mais je suis heureuse auprès de vous… bien heureuse. or
+            
+            DUMONT. 
+            
+            Non, puisque tu pleures. 
+            
+            HENRIETTE, à part. 
+            
+            Ah ! que je souffre ! …
+            
+            DUMONT. 
+            
+            Si tu avais quelque inclination, comme elle ne pourrait
+            
+            être qu'honorable, je suppose que tu ne nous en ferais pas
+            
+            un mystère…
+            
+            1
+            
+            HENRIETTE, 
+            
+            à part. 
+            
+            Si j'osais… Je n'y tiens plus, je vais tout lui dire. 
+            
+            DUMONT. 
+            
+            Tiens, par exemple, depuis quelque temps, il vient ici
+            
+            quelqu'un. 
+            
+            M. Édouard ? 
+            
+            HENRIETTE. 
+            
+            DUMONT
+            
+            C'est étonnant, tu l'as nommé tout de suite. 
+            
+            Monsieur Édouard ! 
+            
+            SÉRAPHINE, quiest revenue. 
+            
+            (Ici Édouard paraît dans le fond du magasin.)
+            
+            HENRIETTE, à part. 
+            
+            C'est lui ! 
+            
+            SCENE VIII. 
+            
+            LES MÊMES, ÉDOUARD, SÉRAPHINE. 
+            
+            DUMONT, avec bonté. 
+            
+            Ah ! ah ! 
+            
+            il y a quelque tems que nous n'avons eu le plai
+            
+            sir de vous voir, Monsieur ; ma femme s'en plaignait encore
+            
+            ce matin…. 
+            
+            ÉDOUARD. 
+            
+            Madame Dumont est bien bonne de s'apercevoir de mon
+            
+            absence. 
+            
+            DUMONT. 
+            
+            Vous avez plu singulièrement à ma femme
+            
+            et ce n'est
+            
+            pas peu ; elle n'aime pas tout le inonde…
+            
+            ÉDOUARD. 
+            
+            C'est
+            
+            amitié. 
+            
+            pour cela, Monsieur Dumont, que je suis fier de son
+            
+            SÉRAPHINE, à part. 
+            
+            Qu'est-ce qui dirait qu'avec un physique aussi agréable ! … 
+            
+            Oh ! les vilains hommes ! … Je finirai par les détester…
+            
+-10 %
+            
+            DUMONT. 
+            
+            Tenez, voici justement ma femme ; elle va vous gronder, 
+            
+            tenez-vous bien. 
+            
+            ÉDOUARD. 
+            
+            Ah ! nous aurons bientôt fait la paix. 
+            
+            (Dumont monte au premier.)
+            
+            +
+            
+. SCÈNE IX. 
+            
+            MADAME (DUMONT, ÉDOUARD, HENRIETTE, SÉRA
+            
+            PHINE. 
+            
+            MADAME DUMONT. 
+            
+            1
+            
+            Ah, monsieur Édouard, c'est bien aimable d'être venu
+            
+            nous rassurer, nous étions inquiets de vous…. 
+            $
+            
+            ÉDOUARD, froidement. 
+            
+            Mon dieu, madame, j'étais bien impatient de venir, mais
+            
+            des études forcées', des affaires du plus grand intérêt…
+            
+            MADAME DUMONT, se mettant à tricoter. 
+            
+            C'est juste, les devoirs avant les plaisirs…
+            
+            ÉDOUARD, allant à elle. 
+            
+            Mademoiselle veut-elle me permettre de lui présenter mes
+            
+            hommages. 
+            
+            (Henriette répond froidement à son salut) .
+            
+            MADAME DUMONT. 
+            
+            Je suis sûre que M. Édouard' sera un avocat distingué…… 
+            
+            ses talens, son aptitude au travail…. 
+            
+            Qui…. et surtout sa bonne conduite. 
+            
+            SÉRAPHINE, passant devant lui. 
+            
+            SCENE X. 
+            
+            LES MÊMES, THÉOPHILE. 
+            
+            THÉOPHILE, accourant. 
+            
+            Ah ! j'ai fini de déjeûner… au moins, aujourd'hui, j'ai
+            
+            trouvé quelque chose…
+            
+            ils m'ont laissé du dessert, deux
+            
+            noix…. " Tiens, voilà M. Edouard ! … Nous apportez-vous
+            
+            des billets pour l'Académie royale de Musique ? … on donne
+            
+            Manon Lescaut, ce soir ; j'ai lu le roman, noi…
+            
+            ÉDOUARD, regardant Henriette. 
+            
+            Non, pas aujourd'hui…
+            
+            THÉOPHILE. 
+            
+            Tant pis ! … les jours sont courts, on ferme de bonne heure, 
+            
+            ça anrait bien fait mon affaire…. J'ai été hier aux Français, 
+            
+            je m'y suis joliment embêté… on donnait ce vieux Bourgeois
+            
+            gentilhomme ; si on jouait ça aujourd'hui, comme ça serait
+            
+            sifflé ! … je sifflerais joliinent pour mon compte… C'est-y
+            
+            perruque ! c'est-y régence ! …
+            
+            SÉRAPHINE. 
+            
+            Laissez-moi donc tranquille, ne voilà-t-il pas qu'il veut
+            
+            juger les pièces, à c't'heure ! …
+            
+            THÉOPHILE. 
+            
+            Je ne vous dis
+            
+            pas que je jugerais ; … je vous dis que je sifa
+            
+            flerais… D'ailleurs, le Bourgeois Gentilhomme a été sifflé dans
+            
+            les tems par les gentilhommes verriers, les hoberaux, tout
+            
+            le fretin de la noblesse, des gaillards qui sifflaient comme des
+            
+            rossignols… j'ai lu les Mémoires ! … Mais laissons çar. 
+            
+            M. Edouard, est-ce vous que j'ai rencontré hier en voiture
+            
+            f
+            
+            avec un monsieur décoré et une jeune demoiselle en blanc ? 
+            
+            ÉDOUARD. 
+            
+            (A part.) L'imbécille ! (Haut.) Non, mon cher, ce nn'est
+            
+            pas moi…
+            
+            THÉOPHÍLE. 
+            
+            Il n'y aurait pas de mal à cela, vu que la jeune personne
+            
+            était joliinent jolie…. 
+            
+            C'est bon ! …
+            
+            SÉRAPHINE, le pinçant. 
+            
+            THÉOPHILE. 
+            
+            Que c'est bête, Seraphine ! … ne pincez donc pas comme
+            
+            ça ! …… 
+            
+            MADAME DUMONT, gravement. 
+            
+            Ne plaisantez pas dans le magasin…… voici du monde…
+            
+            SCENE XI. 
+            
+            LES PRÉDÉDENS, PLUSIEURS CHALANDS
+            
+            (Pendant que tout le monde est occupé, Edouard s'est approché
+            
+            d'Henriette et lui parle à voix basse ; l'orchestre continue en
+            
+            sourdine pendant cette scène qui doit être jouée rapidement.)
+            
+            ÉDOUARD, WI
+            
+            Henriette, pardonne-inoi, și une impérieuse nécessité m'a
+            
+            empêché de paraître ici depuis quelques jours…
+            
+            HENRIETTE. 
+            
+            Quelles inquiétudes… quels tourmeps vous m'avez causes ! 
+            
+            ÉDOUARD
+            
+            Je te le répète, un devoir puissant m'éloignait de toi… et
+            
+            je viens pourt'adresser de nouveaux adieux… ce soir je suis
+            
+            forcé de m'absenter encore de Paris. 
+            
+            Encore ! …
+            
+            1
+            
+            HENRIETTE. 
+            
+            ÉDOUARD. 
+            
+            De grâce, calme tes craintes…. J'ignore l'instant qui me
+            
+            rapprochera de toi, mais je te le jure, mon cour t'appar
+            
+            tiendra toujours…
+            
+            HENRIETTE. 
+            
+            Édouard restez, je vous en conjure, au nom de l'hon
+            
+            neur… faites cesser une situation que je ne peux plus sup
+            
+            porter… Vous connaissez la tendresse qu'a pour moi ma
+            
+            mère ; elle vous aime, vous estime aussi, et décidera facile
+            
+            ment mon père à vous donner una pain. Edouard, condui
+            
+            2
+            
+            sez-ınoi vers eux…. nommez-moi votre feinme…. 
+            
+            que mon
+            
+-18
+            
+            père ! …
+            
+            ÉDOUARD. 
+            
+            Henriette, reviens à toi, plus tard tu sauras… (Apercevant
+            
+            Dumont qui entre.) Voici ton père ! 
+            
+            (Henriette, dans la plus grande agitation, retombe sur le siége où elle
+            
+            était placée et cherche à cacher son trouble. Les acheteurs sortent.)
+            
+            SCÈNE XII. 
+            
+            LES MÊMES, M. DUMONT habillé. 
+            
+            DUMONT, à sa femme. 
+            
+            Tiens, madame Dumont, voici la clef de la caisse… si l'on
+            
+            venait en mon absence ! …
+            
+            MADAME DUMONT. 
+            
+            Tu pars déjà, mon ami ? 
+            
+            DUMONT
+            
+            Oui, je vais au palais ; tų sais bien que
+            
+            c'est
+            
+            pour
+            
+            midi. 
+            
+            MADAME DUMONT. 
+            
+            Mon Dieu ! oui ; M. Edouard, mon mari est témoin… une
+            
+            famille respectable avec laquelle nous sommes liés vient d'é
+            
+            prouver un grand malheur… La fille a été séduite… ses pa
+            
+            rens sont plongés dans le plus affreux désespoir. 
+            
+            HENRIETTE, à part. 
+            
+            Je crains qu'à chaque instant mes larmes ne me trahissent. 
+            
+            DUMONT. 
+            
+            Mais vous qui allez souvent au palais, vous avez dů en en
+            
+            tendre parler. 
+            
+            ÉDOUARD, embarrassé. 
+            
+            En effet… je crois me rappeler… et vous êtes témoin dans
+            
+            cette affaire ? 
+            
+            DUMONT. 
+            
+            Hélas ! oui… mais c'est une obligation que tout citoyen
+            
+            doit remplir, et quelque puisse être le résuliat du jugement, 
+            
+            je n'hésiterai pas à dire la vérité. 
+            
+            ÉDOUARD, 
+            
+            Ce devoir est quelquefois bien pénible ! 
+            
+            DUMONT, avec force. 
+            
+            Nous avons affairc à un président juste… mais sévère…
+            
+            M. le président d'Orvilliers ne fléchit pas…
+            
+            ÉDOUARD, balbutiant. 
+            
+            Je le pense… comme vous…
+            
+            
+            <div type="poem"> <lg>
+                                    DUMONT. 
+                
+            
+            
+                <stage type="tune">
+                    Air d'Aristipe. 
+                </stage>
+            
+            
+                
+                    <l>Je vais venger l'honneur d'une famille, </l>
+                    <l>Et je suis fier de remplir mon mandat, </l>
+                    <l>Avec toi, jamais, ô ma fille ! </l>
+                    <l>Je ne craindrai pareil éclat. <stage type="repetition"> (bis.)</stage></l>
+                    <l>D'un père, hélas ! que l'infortune blesse, </l>
+                    <l>Si je pouvais ne pas venger l'affront, </l>
+                    <l>Je croirais voir, honteux de ma faiblesse, </l>
+                    <l>Son déshonneur imprimé sur son front. </l>
+                
+            </lg> </div>
+            
+            
+            A tantôt, ma bonne. (Il embrasse sa femme.) Eh bien, Hen
+            
+            riette, tu ne viens pas in'embrasser. 
+            
+            (Henriette embrasse Dumont qui sort par le fond.)
+            
+            SCÈNE XIII. 
+            
+            LES MÊMES, excepté DUMONT. 
+            
+            ÉDOUARD, à
+            
+            part. 
+            
+            Le président l'Orvilliers, et M. Duinont, quel singulier
+            
+            rapprochement ! 
+            
+            MADAME DUMONT. 
+            
+            Je suis fâchée que ton père soit témoin, ce sera comme
+            
+            quand il est juré… je suis sûr qu'il reviendra tout malade…
+            
+            MARGUERITE, apportant un billet de mariage. 
+            
+            Madame, voilà une lettre que le facteur vient d'apporter…'
+            
+            MADAME DUMONT, prenant la lettre et allant à Henriette. 
+            
+            C'est un billet de mariage. (à Henriette.) Tiens, Henriette, 
+            
+            vois ce que c'est, je n'ai pas mes lunettes…
+            
+            HENRIETTE, ouvrant la lettre. 
+            
+            « Monsieur le baron Beaupré, général en retraite, grand
+            
+            * cordon de la légion d'honneur et chevalier de Saint-Louis, 
+            
+            a l'honneur de vous faire part du mariage de mademoiselle
+            
+            « Octavie Beaupré, sa fille, avec Monsieur Charles-Edouard
+            
+            a d'Orvilliers. 1
+            
+            ÉDOUARD, qui, pendant cette lecture, était resté pensif sans
+            
+            écouter, se retourne vivement. 
+            
+            (A part.) Grand Dieu ! … par quel hasard cette fatale lettre…
+            
+            HENRIETTE, continuant. 
+            
+            * Et vous prie d'assister à la bénédiction nuptiale, qui
+            « leur sera donnée demain, 15 du courant, à midi, dans l'é
+            
+            " glise Saint-Roch, leur paroisse. » 
+            
+            SÉRAPHINE, à Henriette. 
+            
+            Tu la connais, petite consine, mademoiselle Beaupré ? n'as
+            
+            tu
+            
+            pas été en pension avec elle ? 
+            
+            HENRIETTE. 
+            
+            Oui, elle est encore venue l'année dernière au retour de
+            
+            la
+            
+            campagne. 
+            
+            SCENE XIV. 
+            
+            LES MÊMES, LE GÉNÉRAL BEAUPRÉ, OCTAVIE, UN
+            
+            CHASSEUR, COMMIS. 
+            
+            (Le chasseur se présente devant la porte, et se range pour laisser passer le
+            
+            baron et sa fille.)
+            
+            LE BARON. 
+            
+            Nous voici chez M. Dumont ; j'avais reconnu l'enseigne, 
+            
+            au Père de famille. 
+            
+            490
+            
+            EDOU'AP : D. 
+            
+            Ciel ! le général Beaupré et sa fille… comment échapper
+            
+            à leurs yeux ? … Ah !'cette porte', ce bureau ! 
+            
+            (Il entre précipitamment dans le bureau et referme la porte sur lui.)
+            
+            OCTAVIE. 
+            
+            Enfin te voilà, ma chère Henriette, qu'il y a long-temps
+            
+            que je désirais te revoir… J'avais quelques emplètes à faire
+            
+            pour mon mariage, et je suis venue chez toi… C'est pressé. 
+            car c'est deinain
+            
+            je ine marie. Tu as reçu un billet ? 
+            
+            1
+            
+            main que je
+            
+            HENRIETTE. 
+            
+            Maman, c'est Octavie. 
+            
+            MADAME DUMONT. 
+            
+            Ah ! M. le général… Allons, Théophile, appelez ces mes
+            
+            sieurs. 
+            
+            THÉOPHILE, criant aux commis. 
+            
+            
+            
+            <div type="poem"> <lg>
+                                    CHŒUR. 
+                
+            <stage type="tune" id="AIR : À la boutique."></stage>
+                
+                    <l>À la boutique, </l>
+                    <l>Eh ! vite, descendez ! </l>
+                    <l>Vous entendez : </l>
+                    <l>Allons, à la boutique, </l>
+                <l>Eh ! vite, descendez ! <stage> (Tous descendent.)</stage></l>
+            
+                    
+                        
+                    
+            
+            
+                                            TOUS LES COMMIS. 
+                    
+            
+                    <l>À la boutique, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Nous venons servir la pratique. </l>
+                
+            </lg> </div>
+            
+            (Le baron et Octavie sont placés sur deux siéges au devant de la scène ; 
+            
+            des commis, guidés par Henriette, déroulent des étoffes devant eux. 
+            
+            La toile tombe sur ce tableau.) "
+            
+            odogo. po. go. 
+            
+            ogopedo posodo god
+            
+            DEUXIÈME AGTE. 
+            
+            Le théâtre représente une salle de la mairie ; dans le fond, au milieu de la
+            
+            scène, une tribune ; au bas, une balustrade et deux grands fauteuils ; éga
+            
+            lement dans le fond, et de chaque côté de la tribune, une porte à deux
+            
+            battans ; à gauche et à droite, des banquettes ; dans le fond, le buste du
+            
+            roi surmonté d'un drapeau. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            
+            <div type="poem"> <lg>
+                                    JOCARD
+                
+                
+, seul, en livrée de la mairie, tenant à la main plu
+            
+                    sieurs feuilles de papier timbré
+            
+                    En voilà-t-il de ces publications de mariage ! … tout le
+            
+                    monde se marie, c'est une rage ! … des brunes, des blondes, 
+            
+                    des grises : j'en vois de toutes les couleurs ; c'est pourtant
+            
+                    inoi qui fais le bonheur municipal du 2 arrondiseemnent. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : de Julie. (Pot de fleurs.) </stage>
+            
+            
+                
+                    <l>Dès qu'on arrive à la mairie, </l>
+                    <l>Sur le bureau j' tiens l' Cod' civil tout prêt ; </l>
+                    <l>Le mair' paraît, salu' la compagnie, </l>
+                
+-21-
+                
+                    <l>Et quand il a tourné l' feuillet, </l>
+                    <l>Il dit tout haut, à l'époux, à l'épouse : </l>
+                    <l>Au nom d'la loi, vous v'là mariés tous deux ; </l>
+                    <l>Tâchez à c't' heu', mes enfans, d'vivre heureux, </l>
+                    <l>Suivant l'article trois cent douze. </l>
+                    <l>Et bien souvent l'on n'peut pas vivre heureux, </l>
+                    <l>Suivant l'article trois cent douze. </l>
+                
+            </lg> </div>
+            
+            
+            SCÈNE II. 
+            
+            JOCARD, GENS D'UN BAPTÊME, UN AUVERGNAT
+            
+, UNE
+            
+            NOURRÍCE. 
+            
+            TOCARD, avec humeur. 
+            
+            Eh ! bon dieu ! Qu'est-ce
+            
+            que tout ce monde-là ? Qu'est-ce
+            
+            que vous deinandez ? 
+            
+            L'AUVERGNÄT, 
+            
+            Not' bourgeois, c'hest-y par ichi le bureau des naichances ? … 
+            
+            JOCARD, avec humeur. 
+            
+            Non…. la porte en face, n ° 4. 
+            
+            L'AUVERGNAT. 
+            
+            Merchi, monsieur, je viens pour faire enregistrer mon
+            
+            mioche…. 
+            
+            LA NOURRICE. 
+            
+            Monsieur est le père de l'enfant, voyez-vous…
+            
+            JOCARD. 
+            
+            C'est possible…. c'est possible, entrez au n ° 4, 
+            
+            L'AUVERGNAT. 
+            
+            Mieux que cha, 
+            
+            cha, ch'est le treizième depuis onze ans…
+            
+            JOCARD, faisant l'important. 
+            
+            Les petites gens…
+            
+            ces Auvergnats surtout… ça peuple, 
+            
+            on ne s'en faiť
+            
+            inairie. 
+            
+            pas d'idée… nous ne voyons que cela à la
+            
+            Regardez donc le bel enfant ! 
+            
+            L'AUVERGNAT. 
+            
+            LA NOURRICE. 
+            
+            On dirait d'un pain de quatre livres. 
+            
+            JOCARD. 
+            
+            C'est bon… c'est bon… entrez au bureau des déclara
+            
+            tions ; c'est ici la salle des mariages. 
+            
+            L'AUVERGNAT. 
+            
+            C'est bien décoré, tout de même…
+            
+            JOCARD. 
+            
+            J'entends quelqu'un, allez-vous-en. 
+            
+            (L'Auvergnat', la nourrice et les gens du baptême entrent dans la salle n° 4.)
+            
+            SCENE III. 
+            
+            JOCARD, THÉOPHILE. 
+            
+            THEOPHILE. 
+            
+            Pardon, inonsieur, c'est bien ici la mairie du deuxième
+            
+            arrondissement ? 
+            
+            Oui, monsieur. 
+            
+-99
+            
+            JOCARD. 
+            
+            THÉOPHILE, 
+            
+            Je suis bien dans la salle où l'on se marie, s'il vous plait ? 
+            
+            Oui…. 
+            
+            Monsieur est ? …
+            
+            JOCARD. 
+            
+            TIÉOPHILE. 
+            
+            Je suis employé, monsieur…
+            
+            1
+            
+            THEOPHILE. 
+            
+            JOCARD, avec fierté. 
+            
+            Tant mieux… Ne doit il pas ce matin y avoir un mariage
+            
+            conséquent ? 
+            
+            JOCARD. 
+            
+            Très-conséquent ; la fille d'un général avec le fils d'un pré
+            
+            sident à la Cour royale… une grande fainille…
+            
+            C'est ça…
+            
+            Monsieur est parent ? 
+            
+            Moj ?' non…
+            
+            Ami ? 
+            
+            Moi ! non…
+            
+            Térnoin ? 
+            
+            Non, non…
+            
+            THÉOPHILE. 
+            
+            JOCARD. 
+            
+            THÉOPHILE. 
+            
+            JOCARD. 
+            
+            THÉOPHILE. 
+            
+            JOCARD. 
+            
+            THÉOPHILE, 
+            
+            JOCARL. 
+            
+            Que diable êtes-vous donc ? 
+            
+            
+            <div type="poem"> <lg>
+                                    THÉOPHILE. 
+                
+            
+            
+                
+                    Je suis curieux, purement et simplement, et je viens
+            
+                    pour voir…
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Vaudeville de l'Écu de six francs. 
+                </stage>
+            
+            
+                
+                    <l>J' n'ai jamais vu marier d'ma vie, </l>
+                    <l>Et comm' je connais c'te noc' là, </l>
+                    <l>Pour juger d'la cérémonie, </l>
+                    <l>C'matin, je m'suis dit comme ça : </l>
+                    <l>Donnons un coup d'pied jusque là. </l>
+                    <l>L'mariage est drol', quoi qu'on en dise, </l>
+                    <l>Et j' viens en voir un en secret, </l>
+                    <l>Afin d'savoir comment ça s'fait, </l>
+                    <l>Si j'en fais un jour la bétise. </l>
+                
+            
+            </lg> </div>
+            
+            JOCARD. 
+            
+            Eh ! bien, Monsieur, le mariage en question n'aura pas
+            
+            lieu avant une heure. 
+            
+            THÉOPAILE. 
+            
+            Diable, il n'est pasencore midi… et je suis en course de
+            
+            puis ce matin… ma foi tant pis, ça m'ést égal, on criera
+            
+-23
+            
+            après moi au magasin… mais je ne serai pas venu pour rien…
+            
+            Monsieur, 
+            
+            c'est public, les mariages, n'est-ce pas ? Tout le
+            
+            monde a le droit de rester pour voir ? …
+            
+            JOCARD. 
+            
+            Oui, à présent rien ne se fait qu'au grand jour ; nous vi
+            
+            vons sous un régime légal… et d'après la nouvelle législa
+            
+            tion…
+            
+            THÉOPHILE. 
+            
+            Oui… je sais bien… anciennement, avant la prise de la
+            
+            Bastille, on pouvait se marier secrètement… mais à c't'heure, 
+            
+            bernique ! … on ne fait de grâce à personne, il faut que tout
+            
+            le monde soit affiché dans la petite boîte grillée… le fils d'un
+            
+            artisan comme le fils d'un pair… il n'y a plus de mariages
+            
+            clandestins comme autrefois… Il n'y a plus de droit du sei
+            
+            gneur… le droit de jambage est aboli… Dieu ! les nobles
+            
+            avaient-ils de l'agrément dans ces temps-là…, aujourd'hui, 
+            bernique : le jeu n'en vaut pas la chandelle. 
+            
+            JOCARD, avec dignité. 
+            
+            Oui, c'était du frais… Dans ce temps-là on faisait croire
+            
+            à une jeune personne qu'elle était mariée, tandis que…
+            
+            THÉOPHILE, 
+            
+            Oui, on faisait des horreurs dans ce genre-là… J'ai lu les
+            
+            Mémoires… Ali ça ! mais qu'est-ce que je pourrais faire en
+            
+            attendant que la noce arrive ? N'y a rien de curieux à voir
+            
+            dans votre mairie ? 
+            
+            JOCARD. 
+            
+            Ma foi non… cependant si… on vaccine…
+            
+            THÉOPHILE. 
+            
+            On vaccine… tant mieux… je ne suis pas fâché de voir
+            
+            ça… J'ai été vacciné à neuf mois, de sorte que je ne m'en
+            
+            souviens plus… ça ne in'a pas empêché d'avoir la rougeole…
+            
+            c'est drôle ! … Où vaccine-t-on ? … hein, Monsieur ? 
+            
+            JOCARD. 
+            
+            Je vous indique… Vous allez à droite et puis à gauche, et au
+            
+            bout du corridor vous revenez sur vos pas… et vous demandez. 
+            
+            THÉOPBILE. 
+            
+            Je suis enchanté d'avoir fait yotre connaissance
+            
+            SCENE IV. 
+            
+            (Il sort.)
+            
+            JOCARD, M. D'ORVILLIERS, ÉDOUARD, 
+            
+            M. D'ORVILLIERS. 
+            
+            Sachez, je vous prię… si M. le secrétaire de la mairie peut
+            
+            nous recevoir ? …
+            
+            JOCARD, d'un air empressé. 
+            
+            Comment donc… certainement, que ces messieurs dispo
+            
+            sent de moi… je suis tout à leur service… Monsieur est le
+            
+            père du marié, je suppose ? et Monsieur est le inarié lui
+            
+            iême… cela se voit tout de suite à cet air heureux… et puis
+            
+            j'ai tant d'habitude. 
+            
+            M. D'ORVILLIERS. 
+            
+            Il paraît que nous sommes les premiers arrivés ? 
+            
+            JOCARD, 
+            
+            Oui, nous n'avons pas encore eu l'avantage de voir made
+            moiselle la mariée… Ah ! une mariée, ça se fait toujours at
+            
+            tendre ? … C'est tout simple, un jour comme celui-là… une
+            toilette…
+            
+            ÉDOUARD, impatienté. 
+            
+            Quel fatigant bavard ! …
+            
+            M. D'ORVILLIERS. 
+            
+            Veuillez nous indiquer où est le secrétariat. 
+            
+            JOCARD. 
+            
+            t'y cours, Monsieur, j'y cours…
+            
+            SCÈNE V. 
+            
+            (Il sort.)
+            
+            D'OR VILLIERS, ÉDOUARD. 
+            
+. 
+            
+            D'ORVILLIERS
+            
+, prenant la main d'Edouard. 
+            
+            Edouard, voici le tribunal où vous allez jurer d'être un
+            
+            homme et d'en remplir tous les devoirs…
+            
+            ÉDOUARD. 
+            
+            Votre conduite doit me servir d'exemple. 
+            
+            
+            <div type="poem"> <lg>
+                                    D'ORVILLIERS. 
+                
+            
+            
+                
+                    Jusqu'ici je n'ai eu à te pardonner que quelques étourde
+            
+                    ries de jeunesse. (Mouvement d'Edouard.) Je ne t'en parle que
+            
+                    pour tefaire sentir combien il t'importe de renoncer aujour
+            
+                    d'hui à toutes liaisons qui pourraient troubler le bonheur de
+            
+                    ta jeune épouse… Quoiquetu sois bien jeune aussi, le serment
+            
+                    que tu vas faire aujourd'hui l'impose de grandes obliga
+                    tions. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : J'en guette un petit de mon âge. 
+                </stage>
+            
+            
+                
+                    <l>Quand on n'a pas su se conduire, </l>
+                    <l>Pour excuser les fautes de son temps, </l>
+                    <l>On ne manque jamais de dire : </l>
+                    <l>J'étais faible, et j'avais vingt ans. </l>
+                    <l>La jeunesse et ses goûts volages, </l>
+                    <l>De nos devoirs ne nous dispensent pas ; </l>
+                    <l>Car si l'honneur est de tous les états, </l>
+                    <l>Il est aussi de tous les âges. </l>
+                
+            
+            </lg> </div>
+            
+            ÉDOUARD, à part. 
+            
+            Chacune de ses paroles est un reproche ! 
+            
+            D'ORVILLIERS. 
+            
+            Je me rappelle qu'avant de consentir à ce mariage, tu as rém
+            
+            sisté long-temps à mes sollicitations. 
+            
+            ÉDOUARD, froidement. 
+            
+            J'ai dû vous obéir…
+            
+            D'ORVILLIERS
+            
+, sévèrement. 
+            
+            Je ne t'ai point caché mon ambition et celle de ta famille
+            
+            ; 
+            
+            elle est louable, elle est noble… Appelé à me succéder un
+            
+            jour, nous avons voulu t'ouvrir le chemin des honneurs et
+            
+-0 %
+            
+            de la fortune. L'alliance du général Beaupré est pour nous un
+            
+            sûr garant du sort brillant auquel tu peux aspirer… et tu
+            
+            résisterais encore ! … Songes que tu es l'héritier d'un oncle
+            
+            pair de France ; nos autres parens n'occupent pas un rang
+            
+            inoins honorable et tiepnent à voir s'accomplir promptement
+            
+            cette union… Mais tu as une tête ! … la liberté… la vie de
+            
+            garçon, voilà ce que tu regrettes ! … 
+            
+            SCENE VI. 
+            
+            LES MÊMES, JOCARD. 
+            
+            JOCARD. 
+            
+            Si M. le président veut se donner la peine d'entrer, le se
+            
+            crétaire est à son bureau… Ce n'est pas sans peine que je suis
+            
+            parvenu…
+            
+            
+            <div type="poem"> <lg>
+                                    D'ORVILLIERS. 
+                
+            
+            
+                
+                    Je vais me rendre au bureau de l'état-civil en attendant
+            
+                    l'arrivée de M. le inaire… Allons, Edouard, remets-toi… tu
+            
+                    me remercîras bientôt de t'avoir éloigné des pièges de la sé
+            
+                    duction. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : Ce magistrat irréprochable. 
+                </stage>
+            
+            
+                
+                    <l>Comble les vœux de ta famille entière, </l>
+                    <l>Pour toi, c'est un devoir sacré. </l>
+                    <l>Tu dois un jour parcourir la carrière</l>
+                    <l>Où ton père s'est illustré, </l>
+                    <l>Où ses vertus vingt ans l'ont honoré. </l>
+                    <l>Qu'un règne passe, ou qu'un pouvoir chancelle, </l>
+                    <l>On voit tomber les hommes et les rois ; </l>
+                    <l>Le magistrat, à son devoir fidèle, </l>
+                    <l>Est toujours là pour protéger les lois. </l>
+                
+            
+            
+            
+            
+            </lg> </div>
+            
+            (Il sort ; Jocard l'accompagne et revient ensuite. Edouard reste absorbé.)
+            
+            JOCARD. 
+            
+            Monsieur le marié n'entre donc
+            
+            pas : ? 
+            
+            ÉDOUARD ; avec humeur. 
+            
+            Non ! … 
+            
+            JOCARD, ă part. 
+            
+            Brusque et emporté, voilà une petite femme qui sera bien
+            
+            heureuse ! 
+            
+            (Il sort en chantant.)
+            
+            SCENE VII. 
+            
+            ÉDOUARD, seul. 
+            
+            Une seule faute, etelle est irréparable ! promis dès l'enfance
+            
+            à mademoiselle de Beaupré, j'ai dû céder aux instances de
+            
+            ma famille… Hier j'ai failli me perdre… mais Henriette ! …, 
+            
+            pouvais-je l'abandonner sans la revoir encore ? … le hasard
+            
+            seul m'a servi… j'ai su in'échapper sans être vu du général
+            
+            et de sa fille…, mais demain… aujourd'hui peut-être… Hen “
+            
+            riette saura tout… Ses larmes…
+            
+            sa
+            
+            douleur… son désespoir…
+            
+            4
+            
+-96
+            
+            Ah ! je suis bien coupable ! … Que faire ! dans une heure je
+            
+            ne m'appartiendrai plus… et j'hésite encore ! … On vient…. 
+            
+            Ah ! grand Dieu ! … le sacrifice sera-t-il consominé ! … 
+            
+            SCENE VIII. 
+            
+            ÉDOUARD, LE BARON DE BEAUPRÉ en grand uniforme, 
+            
+            OCARD
+            
+            
+            
+            <div type="poem"> <lg>
+                                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    Air de Pâques fleuries. (Fra Diavolo.)
+                </stage>
+            
+            
+                
+                    <l>Pour cette fête</l>
+                    <l>Nous venons tous</l>
+                    <l>Au rendez-vous ; </l>
+                    <l>Garçon, filette, </l>
+                    <l>Que chacun mette, </l>
+                    <l>Mette en avant</l>
+                    <l>Fleur et ruban, </l>
+                    <l>Voici, <stage type="repetition"> (bis) </stage></l>
+                    <l>Ce jour si joli. </l>
+                
+            </lg> </div>
+            
+            LE PARON. 
+            
+            Bravo ! mon gendre… le premier au poste, c'est dans
+            
+            l'ordre…
+            
+            Je ne vois pas monsieur le président…
+            
+            Octavie, cherchant des yeux. 
+            
+            ÉDOUARD. 
+            
+            Il vous attend au bureau de l'état civil. 
+            
+            Comme il fait le mielleux à présent, le marié ! 
+            
+            LE BARON. 
+            
+            JOCARD, à part. 
+            
+            Parbleu ! nous sommes bien heureux que notre mariage
+            
+            ait pu se faire aujourd'hui. Les lettres d'invitation étaient
+            
+            envoyées depuis trois jours. Je suis forcé de partir pour una
+            
+            terre ; ton père est obligé de présider demain ses assises…
+            
+            pourvu qu'il soit libre à l'heure du repas, c'est tout ce que
+            
+            nous lui demandons. C'est que, tout grave président qu'il
+            
+            est, il faudra qu'il tienne tête à nos vieilles moustaches ; 
+            
+            l'épée ne fera pas grâce d'un verre de vin de champagne à
+            
+            la robe. 
+            
+            OCTAVIE. 
+            
+            Mais vois donc, mon père, comme il est pensif ! à peine
+            
+            s'il t'écoute… Est-ce que vous êtes boudeur, M. Edouard ? 
+            
+            ÉDOUARD, se remettant. 
+            
+            Je me trahis malgré moi…
+            
+            LE BARON. 
+            
+            Allons, pas de ça, mon gendre, je n'aime pas cet air triste
+            
+            et vaporeux… tu as l'air d'un oriental… Oh ! je te mettrai
+            
+            au pas…
+            
+            Et moi aussi…
+            
+            OCTAVIE, à part, en souriant. 
+            
+            LE BARON. 
+            
+            Ah ça ! quand nous resterons là sur nos jambes comme un
+            
+            peloton au port d'armes, si nous allions rejoindre le prési
+            
+            dent ? Allons, Messieurs les témoins, marchons, ce sera
+            
+            toujours une affaire faite…
+            
+            REPRISE DU CHŒUR. 
+            
+            (Octavie se dispose à suivre son père ; mais celui-ci voyant Edouard
+            
+            retombé dans sa rêverie, fait signe à sa fille de rester et de le gron
+            
+            der un peu.)
+            
+            SCENE IX. 
+            
+            OCTAVIE, ÉDOUARD. 
+            
+            OCTAVIE, gaïment. 
+            
+            Eh bien ! Edouard, vous ne vous apercevez pas que tout
+            
+            le monde va signer ? 
+            
+            ÉDOUARD. 
+            
+            Pardon, Mademoiselle ! 
+            
+            
+            <div type="poem"> <lg>
+                                    OCTAVIE. 
+                
+            
+            
+                
+                    Vous voilà déjà mari dans toute la force du mot… est-ce
+            
+                    que vous serez toujours comme ça ? … savez-vous que c'est in
+            
+                    quiétant ! … 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air : Monsieur Colas, soyez plus sage. 
+                </stage>
+            
+            
+                
+                    <l>Allons, monsieur, soyez aimable, </l>
+                    <l>Ne boudez plus, ce n'est pas beau ! …</l>
+                    <l>Non, non, non, ce n'est pas beau…</l>
+                    <l>Monsieur, non, ce n'est pas beau. </l>
+                    <l>Quand on est si triste la veille. </l>
+                    <l>Que fera-t-on le lendemain ? </l>
+                    <l>De l'hymen on m'a dit merveille, </l>
+                    <l>On m'en fit un portrait divin ; </l>
+                    <l>La peinture était agréable, </l>
+                    <l>Mais on a flatté le tableau, </l>
+                    <l ana="unanalyzable">Allons, monsieur, soyez aimable, etc. </l>
+                
+            
+                
+                    <l>L'un à l'autre uni dès l'enfance, </l>
+                    <l>En formant des nœuds aussi doux, </l>
+                    <l>Notre amour et notre constance</l>
+                    <l>Auraient dû grandir avec nous. </l>
+                    <l>Si notre amour est véritable, </l>
+                    <l>Le témoignage en est nouveau. </l>
+                    <l ana="unanalyzable">Allons, monsieur, soyez aimable, etc. </l>
+                
+            </lg> </div>
+            
+            
+            ÉDOUARD, avec une gaſté feinte. 
+            
+            Cessez de m'adresser de pareilles reproches ! 
+            
+            OCTAVIE. 
+            
+            Edouard, vous n'aimez, n'est-ce pas.' vous ne vous mariez
+            
+            pas malgré vous ? 
+            
+            ÉDOUARD, ému. 
+            
+            Pouvez-vous le croire ? … 
+            
+            OCTAVIE. 
+            
+            Dame ! j'ai toujours peur de ne pas vous plaire assez…
+            
+            
+            
+            
+            <div type="poem"> <lg>
+                                    ÉDOUARD. 
+                
+            
+                
+                    Vous, Octavie ? … 
+                
+            
+            
+                <stage type="tune">
+                    Air : Ce que j'éprouve en vous voyant. 
+                </stage>
+            
+            
+                
+                    <l>De former des nœuds aussi doux, </l>
+                    <l>Qui n'aurait pas l'âme ravie ! …</l>
+                    <l>Rassurez-vous, chère Octavie. </l>
+            
+            
+                                            OCTAVIE. 
+                    
+            
+                    <l>Au moment d'être mon époux, </l>
+                    <l>Édouard, pourquoi vous troublez-vous ? </l>
+                    <l>Cet air contraint, ce froid langage, </l>
+                    <l>Répondez-donc ! vous hésitez ? …</l>
+            
+                                            ÉDOUARD. 
+                    
+            
+                    <l>Je crains, honteux de vos bontés, </l>
+                    <l>De ne pouvoir vous offrir en ménage</l>
+                    <l>Le bonheur que vous méritez. </l>
+                
+            
+            </lg> </div>
+            
+            
+            OCTAVIE. 
+            
+            C'est très-bien… mais on essaie tcujours. 
+            
+            (Se ravisant.)
+            
+            A propos, Monsieur, 
+            
+            j'ai encore un petit reproche à vous
+            
+            faire… ou plutôt une explication à vous demander ? 
+            
+            ÉDOUARD, trouble. 
+            
+            Une explication ? … 
+            
+            OCTAVIE. 
+            
+            Oui, bier…
+            
+            Hier ! … Grand Dieu… Se douterait-elle ! … 
+            
+            ÉDOUARD, très-inquiet, et à part. 
+            
+            OCTAVIE. 
+            
+            Vous aviez promis de venir chez mon père… A peine vous
+            
+            a-t-on vu ! … La veille d'un mariage, c'est bien peu galant ! … 
+            
+            Je respire ! … 
+            
+            ÉDOUARD ; ; à part, 
+            
+            OCTAVIE, 
+            
+            J'avais quelques emplètes à faire…
+            
+            et j'aurais été bien
+            
+            plus flattée de consulter votre goût que celui de mon père, 
+            
+            qui n'entend rien du tout aux modes nouvelles, et cela entre
+            pour beaucoup dans l'amabilité d'un mari. 
+            
+            ÉDOUARD, balbutiant. 
+            
+            J'ai eu moi-inêine des visites à faire… des invitations à
+            
+            envoyer…
+            
+            OCTAVIE. 
+            
+            NO vous voyant pas venir à deux heures… nous sommes
+            
+            &gt; 
+            
+, 
+            
+            de mes amies de pension…
+            
+            Ab ! …
+            
+            ÉDOUARD, jouant la surprise. 
+            
+            
+            <div type="poem"> <lg>
+                                    OCTAVIE. 
+                
+            
+            
+                
+                    Oui, une fainille bien estimable ! … Henriette était ma
+            
+                    meilleure amie d'enfance, je l'avais un peu négligée… Mais
+            
+                    je veux que nous la revoyons quand nous serons chez nous ; 
+            
+                    il faudra que nous lui trouvions un mari ; n'est-ce pas, 
+            
+                    Edouard ? C'est vous que je charge de ce soin ; ce sera char
+            
+                    mant ! … Cette bonne. Henriette, je veux qu'elle vienne au
+            
+-29 %
+            
+                    bal que mon père doit donner… j'irai plutôt la chercher
+                    moi-même
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : De l'hermite de St.-Avelle. 
+                </stage>
+            
+            
+                
+                    <l>Une fois que vous l'aurez vụe, </l>
+                    <l>Vous l'aimerez autant que moi, </l>
+                    <l>Henriette est douce, ingénue…</l>
+            
+            
+                                            ÉDOUARD
+                    
+            
+                    
+, à part. 
+                    
+            
+            
+                    <l>Que je sens de honte et d'effroi…</l>
+            
+                                            OCTAVIE. 
+                    
+            
+                    <l>Elle est aussi bonne que belle, </l>
+                    <l>Ayez, mon cœur n'en sera pas jaloux, </l>
+                    <l>Autant d'amitié pour elle, </l>
+                    <l>Que j'aurai d'amour pour vous. </l>
+                
+            </lg> </div>
+            
+            
+            ÉDOUARD. 
+            
+            De grâce ! Octavie, cessons un pareil entretien ; on nous
+            
+            attend…
+            
+            
+            <div type="poem"> <lg>
+                                    OCTAVIE. 
+                
+            
+            
+                
+                    Allons, donnez-moi la main, monsieur le philosophe…
+                
+            
+            
+            
+            
+                
+                    <stage type="tune">Air : { Finale de la Maison du Faubourg,</stage> 
+                    <stage type="tune">ou Contredanse de la Fiancée.</stage>
+                
+            
+            
+                
+                    <l>Mon Dieu ! quelle triste figure…</l>
+                    <l>Un jour de noce, en vérité, </l>
+                    <l>Il est d'un fort mauvais augure</l>
+                    <l>De n'avoir pas plus de gaîté. </l>
+                
+            
+                
+                    (Ici Jocard paraît.)
+                
+            
+                                    JOCARD. 
+                
+            
+                
+                    <l>De vos parens, déjà la salle est pleine. </l>
+                    <l>Il faut signer, là bas on vous attend ; </l>
+                    <l>D'un doux hymen, allez serrer la chaîne. </l>
+            
+            
+                                            ÉDOUARD. 
+                    
+            
+                    <l>Ah ! c'est donc moi qui trahis mon serment. </l>
+            
+                                            OCTAVIE. 
+                    
+            
+                    <l ana="unanalyzable">Mon Dieu ! quelle triste figure, etc. </l>
+                
+                                    ÉDOUARD
+                
+                
+, à part. 
+                
+            
+            
+                
+                    <l>Quel trouble, quel tourment j'endure ! </l>
+                    <l>C'est trop souffrir en vérité, </l>
+                    <l>Chacun va voir sur ma figure</l>
+                    <l>Combien mon cœur est agité ! </l>
+                
+            
+                                    JOCARD
+                
+                
+, à part. 
+                
+            
+            
+                
+                    <l>C'est étonnant, à sa figure, </l>
+                    <l>Comm' mari semble enchanté</l>
+                    <l>D'aller donner sa signature</l>
+                    <l>À la municipalité. </l>
+                
+            
+            
+            </lg> </div>
+            
+            (Édouard et Octavie sortent.)
+            
+            SCÈNE X. 
+            
+            JOCARD, seul. 
+            
+            Allons, à présent, je peux retirer les publications qui sont
+            
+            dans la petite boîte. Au petit bonheur ! ça s'affiche comme ça
+            
+            à la loterie. 
+            
+            1
+            
+            30
+            
+            SCENE XI. 
+            
+            JOCARD, SÉRAPHINE, entrant à droite. 
+            
+            SÉRAPAINE, un petit carton à la main ; elle regarde de tous côtés
+            
+            avec étonnement. 
+            
+            Salle desmariages ! … Tiens, ça me fait de l'effet d'entrer
+            
+            ici ! … Dites donc, monsieur, c'est ici l'état civil, n'est-ce pas ? 
+            
+            JOCARD. 
+            
+            Sans doute, que c'est l'état civil… mais on ne peut pas lui
+            
+            parler à présent, il est occupé ; que lui voulez-vous ? 
+            
+            SÉRAPHINE. 
+            
+            Rien, malheureusement…… Je n' viens pas pour mon
+            
+            compte… Etes-vous le maire, le préfet… l'adjoint, ou le
+            
+            garçon de bureau ? 
+            
+            JOCARD. 
+            
+            Je suis le garçon de bureau…. Voyons, êtes-vous de la
+            
+            noce ? …
+            
+            SÉRAPHINE. 
+            
+            De la noce… c'est-à-dire, non pas positivement ; mais je
+            
+            connais la mariée, je suis la cousine d'une de ses amies, et
+            nous lui ayons vendu hier un assortiment de rubans et d'én
+            
+            toffes. 
+            
+            JOCARD. 
+            
+            Enfin, qu'est-ce que vous demandez ? 
+            
+            
+            <div type="poem"> <lg>
+                                    SÉRAPHINE
+                
+                
+, regardant toujours. 
+            
+                    Ah ! c'est ici qu'on marie…
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : Vaudeville du Mariage à la hussarde. 
+                </stage>
+            
+            
+                
+                    <l>On n'a pourtant qu'un mot à dire, </l>
+                    <l>Vous v'là Madame et cœtera ; </l>
+                    <l>Il m' semble que ça f'ra rire. </l>
+                    <l>Quand monsieur l' mair' m'l' demand'ra. </l>
+                    <l>Dam' pour les fill's c'est un' gran' fête</l>
+                    <l>Et je trouve que dans Paris, </l>
+                    <l>L'État civil est bien honnête</l>
+                    <l>D' leur donner com' ça des maris. </l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            SCÈNE XII. 
+            
+            LES MÊMES, THÉOPHILE
+            
+. 
+            
+            THÉOPHILE, entrant brusquement. 
+            
+            Eh ! bien, et cette noce… quand donc qu'elle vient ? elle
+            
+            n'en finit pas… (Il aperçoit Séraphine.) Tiens, mam'zelle Sé
+            
+            raphine ! … vous ici, cousine ? …
+            
+            SÉRAPHINE, 
+            
+            1
+            
+            Pourquoi pas ? vous y êtes bien, cousin ! 
+            
+            THÉOPHILE. 
+            
+            Qu'est-ce que vous y venez faire ? …, 
+            
+            SÉRAPHINE. 
+            
+            Je viens regarder… et vous ? …
+            
+            THÉOPHILE. 
+            
+            1
+            
+            Ob ! moi, c'est différent ; je viens voir… est-elle cu
+            
+            rieuse ! …
+            
+            Et vous, 
+            
+            donc ! … voilà deux heures qu'on vous attend au
+            
+            SÉRAPHINE. 
+            
+. 
+            
+            magasin… vous allez être joliment grondé ! …
+            
+            THÉOPHILE. 
+            
+            Ça m'est bien égal ! … Je suis venu ici pour voir ; et je ver
+            
+            rai', quand même…
+            
+            SÉRAPHINE. 
+            
+            Etes-vous flâneur ! … oublier votre ouvrage pour… pour
+            
+            une noce ! 
+            
+            Tiens, quand la mariée est jolie ! …
+            
+            THÉOPHILE. 
+            
+            SÉRAPHINE, avec indifférence. 
+            
+            Je la connais, la mariée…
+            
+            THÉOPHILE, piqué. 
+            
+            Je sais bien que ce n
+            
+            n'est
+            
+            pas pour
+            
+            elle
+            
+            que vous řenez ; 
+            
+            1
+            
+            vous voulez savoir si le mari est joli garçon ? 
+            
+            
+            <div type="poem"> <lg>
+                                    SÉRAPHINE. 
+                
+            
+            
+                
+                    Tiens, pourquoi pas ? … moi, je suis folle des mariages…
+            
+                    c'est une faiblesse… que voulez-vous ? …'
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : Ah ! si mom mari me voyait.
+                </stage>
+            
+            
+                
+                    <l>Pas une jeun' fil' de not' quartier, </l>
+                    <l>Ne prend un mari sans qu' j'y vienne, </l>
+                    <l>En voilà plus d'un' douzaine</l>
+                    <l>Que d'puis un an j' vois marier ; </l>
+                    <l>Je n' me las' pas de voir marier. </l>
+                
+            
+            
+                                    THÉOPHILE. 
+                
+            
+                
+                    <l>C'te curiosité qui m' fait rire, </l>
+                    <l>Ne vous avanc' pas d'un moment. </l>
+            
+            
+                                            SÉRAPHINE. 
+                    
+            
+                    <l>Je l' sais, mais vous avez beau dire, </l>
+                    <l>Ça fait plaisir en attendant. <stage type="repetition"> (bis.)</stage></l>
+                
+            
+                    Même air. 
+            
+            
+            
+                
+                    <l>Quand l' serment vient de s' prononcer</l>
+                    <l>J'aime à voir monter en voitures, </l>
+                    <l>J'aime à critiquer les tournures</l>
+                    <l>Des grands parens que j' vois passer ; </l>
+                    <l>J'aime à voir le bal commencer ; </l>
+                    <l>Quand la jarr'tière est déliée, </l>
+                    <l>J'aime à voir partir en pleurant, </l>
+                    <l>La maman avec la mariée…</l>
+            
+            
+                    
+                        THÉOPHILE, parlant, 
+            
+                        Qu'est-ce que ça peut vous faire ? …
+                    
+            
+                                            SÉRAPHINE
+                    
+            
+                    
+, achevant l'air. 
+                    
+            
+            
+                    <l>Ca fait plaisir en attendant. <stage type="repetition"> (bis.)</stage></l>
+            
+                
+            
+            </lg> </div>
+            
+            
+            THEOPHILE. 
+            
+            Espiègle que vous êtes ! moi je veux seulement voir le coup
+            
+            d'ail, et puis je filerai… quand le cortege aura déf.,
+            
+            Vous allez les voir tout-à-l'heure ; ils sont en train de
+            
+            JOCARD, 
+            
+            signer dans la pièce à côté… "
+            
+            SÉRAPHINE. 
+            
+            Bah ! si c'est vrai ! … Ah ! oui, oui, je vois tout le monde ; 
+            
+            on signe…. 
+            
+            THÉOPHILE, devant elle. 
+            
+            Voulez-vous une chaise, ina cousine ? vous verrez mieux. 
+            
+            Et vous ? …
+            
+            SÉRAPHINE
+            
+            THÉOPHILE. 
+            
+            Moi, je ne verrai rien ; mais, bah ! … c'est égal… vous me
+            
+            direz seulement si le mari est à la Henri III, s'il a des nious
+            
+            taches… J'avais envie de m'en laisser
+            
+            pousser, 
+            
+            des mousta
+            
+            ches ; mais j'ai pas osé, depuis les calicots…'
+            
+            
+            <div type="poem"> <lg>
+                                    SÉRAPHINE. 
+                
+            
+                
+                    Ah ! non cousin, on ne peut plus plaisanter sur ces
+            
+                    choses-là…
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : De la Sentinelle. 
+                </stage>
+            
+            
+                
+                    <l>Nous avons vu jadis des jeunes gens</l>
+                    <l>Qui dans Paris aux bell's cherchant à plaire, </l>
+                    <l>Sans s' battr' jamais faisaient les importans</l>
+                    <l>Et se donnaient un' tournure militaire. </l>
+                    <l>Pendant trois jours pour sauver son pays, </l>
+                    <l>Chacun a bien rempli sa țâche ; </l>
+                    <l>Calicots, bourgeois ou commis, </l>
+                    <l>Se sont bien battus dans Paris, </l>
+                    <l>Sans éperons ni sans moustache. </l>
+                
+            
+            </lg> </div>
+            
+            
+            (Séraphine monte sur la chais. Musique douce.)
+            
+            Ah ! voilà la mariée ! elle est mise comme une princesse ! …
+            
+            sa toilette est charmante… par exemple, son corsage n
+			est
+            
+            pas assez haut… Le mari doit être un hel komme ! 
+            
+            THÉOPHILË. 
+            
+            Tiens ! quand on épouse la fille d'un général, si on n'était
+            
+            bel hoinme…
+            
+            pas
+            
+            Dieu ! est-on heureuse d'être la
+            
+            fille d'un général ! …
+            
+            SÉRAPHINE, regardant. 
+            
+            THÉOPHILE. 
+            
+            Vous, vous êtes fille de boutique…
+            
+            SÉRAPHINE. 
+            
+            1
+            
+            Ah ! voilà le mavé… je crois…
+            
+            THÉOPHILE. 
+            
+            A-t-il des moustacles ? 
+            
+            ! ") 21…. 
+            
+            SÉRAPHINE, 
+            
+            C'est le marié ; je ne vois pas sa figure… le voilà qui prend
+            
+            la plume… il signe… O ciel ! …
+            
+            Qu'avez-vous donc ? 
+            
+            JOCARD, effrayé. 
+            
+            SÉRAPHINE, toujours sur la chaise. 
+            
+            Est-il possible ! … Soutenez-moi… je vais me trouver mal…
+            
+            30
+            
+            THÉOPHILE, la faisant descendre. 
+            
+            Eh ! 
+            
+            non, 
+            
+            non… descendez plutôt. 
+            
+            Le monstre ! … c'est lui ! … 
+            
+            SÉRAPHINE. 
+            
+            Quel monstre ? … 
+            
+            THÉOPHILE. 
+            
+            SÉRAPHINE. 
+            
+            Ça ne vous regarde pas. (A Jocard.) Monsieur, il faut ab
+            
+            solument que je parle en secret à la mariée ! …
+            
+            JOCARD. 
+            
+            Tout le inonde va venir ici… vous pourrez lui parler…
+            
+            Mon cousin, retournez vite au magasin ! …
+            
+            SÉRAPHINE, à Théophile. 
+            
+            Pour quoi faire ? 
+            
+            THÉOPHILÉ. 
+            
+            SÉRAPHINE. 
+            
+            Retournez au magasin, et ne dites pas un mot de ce que
+            
+            vous avez vu ! … 
+            
+            Par exemple… c'est une farce ! … Je n'ai rien vu…
+            
+            SÉRAPHINE. 
+            
+            THÉOPHILE. 
+            
+            Si vous m'aimez… allez-vous-en ! … 
+            
+            THÉOPHILE. 
+            
+            Je vous aime… et je m'en vas. Que diable ! … il y a quel
+            
+            que chose là-dessous, quelque fille trompée, quelque ma
+            riage comme sous Louis XV dans le Parc-aux-Cerfs. 
+            J'ai
+            
+            lu les Mémoires… Ne soyez pas trop long-temps à revenir, 
+            cousine ! … 
+            
+            SÉRAPHINE. 
+            
+            Non ! … non ! … (A part.) Ah ! pauvre Henriette ! quel coup
+            
+            pour elle ! … On vient… partez vite. (Théophile sort.) Et moi, 
+            
+            évitons d'être vue ! 
+            
+            (Elle se cache derrière l'estrade.)
+            
+            SCÈNE XIII. 
+            
+            SÉRAPHINE cachée, LE BARON, M. D'OR VILLIERS, 
+            
+            ÉDOUARD, OCTAVIE, JOCARD, PÁRENS ET CHŒUR, 
+            
+            pus LE MAIRE. 
+            
+            FINAL. —
+            <div type="poem"> <lg>
+                                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Fragment du 3e acte de la Fiancée. 
+                </stage>
+            
+            
+                
+                    <l>Redoublez de joie et d'ivresse, </l>
+                    <l>De l'hymen chantons la douceur, </l>
+                    <l>Les époux remplis de tendresse, </l>
+                    <l>Viennent de signer leur bonheur. </l>
+                
+            
+            
+                
+                    JOCARD, annoncant
+            
+                    Monsieur le inaire ! 
+            
+                    (Le maire, en grand costume et revêtu de son écharpe, paraît ; tous
+            
+                    les parens l'entourent et le saluent ; pendant ce temps, Séraphine
+            
+                    s'est approchée d'Octavie, et lui dit à voix basse ce qui suit :) 
+            
+                    5
+                
+            
+            
+                                    SÉRAPHINE. 
+                
+            
+                <l part="I">On vous trahit. </l>
+            
+                                    OCTAVIE
+                
+            
+                <l part="F">Ô ! ciel ! que dites-vous ! </l>
+                <l part="I">Qui donc ? </l>
+            
+                                    SÉRAPHINE. 
+                
+                
+                    <l part="F">C'est votre époux, </l>
+                    <l>Car Henriette, </l>
+                    <l>En secret, victime de lui…</l>
+                    <l>Soyez discrette, </l>
+                    <l>Je ne puis qu'en cachette, </l>
+                    <l>De tous ses torts vous parler aujourd'hui. </l>
+            
+                                            OCTAVIE. 
+                    
+            
+                    <l>L'ingrat ! il me trompait aussi ; </l>
+                    <l>Que faire ici ? </l>
+                    <l>Faut-il donc être à lui ! </l>
+                    <l>Ah ! quel trouble m'agite ! </l>
+            
+            
+                                            SÉRAPHINE. 
+                    
+            
+                    <l>On a les yeux sur nous. </l>
+            
+                                            OCTAVIE. 
+                    
+            
+                    <l>Eh ! vite, éloignez-vous. </l>
+            
+                    
+                        (Séraphine s'échappe.)
+                    
+            
+            
+                                            D'ORVILLIERS. 
+                    
+            
+                    <l>Voici l'instant, venez, chère Octavie, </l>
+                    <l>À votre époux qu'un doux serment vous lie, </l>
+                    <l>C'est le garant du bonheur de sa vie. </l>
+            
+                                            JOCARD. 
+                    
+            
+                    <l>Approchez-vous, </l>
+                    <l>Faites place aux époux. </l>
+                    
+, 
+                        (Octavie jette un regard sévère sur Édouard et suit le président, qui fait placer les deux mariés devant la balustrade sur laquelle le maire est monté.)
+                    
+            
+                                            LE CHŒUR. 
+                    
+            
+                    <l>Qu'on fasse</l>
+                    <l>Place</l>
+                    <l>Aux époux ! </l>
+                
+            </lg> </div>
+            
+            (Tout le monde se range, Édouard et Octavie sont debout
+            
+            devant le maire.)
+            
+            LE MAIRE, tenant à la main un code ouvert. 
+            
+            (L'orchestre continne en sourdine.). 
+            
+            Edouard-Charles d'Orvilliers, vous consentez à prendre
+            
+            pour votre légitime épouse Octavie de Beaupré ? 
+            
+            Oui ! 
+            
+            ÉDOUARD, d'une voix faible. 
+            
+            LE MAIRE. 
+            
+            Et vous, Octavie de Beaupré, vous consentez à prendre
+            
+            pour votre légitimne époux Edouard-Charles d'Orvilliers ! 
+            
+            OCTAVIE, tombant évanouie dans les bras de son père. 
+            
+            Non ! … Ah ! mon père ! … 
+            
+            (Tout le monde s'empresse autour d'elle avec effroi. La toile
+            
+            tombe sur ce tableau.)
+            
+            FIN DU DEUXIÈME ACTE. 
+            
+-58
+            
+            ACTE TROISIÈME. 
+            
+            Le théâtre représente une salle voisine du tribunal. A gauche, 
+            
+            l'entrée d'un
+            
+            escalier qui conduit à la salle d'audience ; une table couverte d'un tapis ; 
+            
+            siéges et banquettes dans le fond. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            /
+            
+            D'ORVILLIERS, UN HUISSIER, 
+            
+            D'ORVILLIERS est assis près de la table et remet quelques papiers
+            
+            à l'huissier. 
+            
+            Portez ces notes à messieurs les juges, et prevenez-moi
+            
+            quand la cour sera rassemblée. (L'huissier sort.) La famille
+            
+            de l'accusé est honorable… le désespoir de sa pauvremère…
+            
+            les prières de tous ceux qui l'entourent, in'ont vivement. 
+            
+            ému. Dans quelques instans les jurés auront décidé de son
+            
+            sort… Puissent-ils le trouver innocent ! …Mais Edouard ! 
+            
+            mon fils ! (Il se lève.) Depuis hier il n'a pas paru devant
+            
+            moi… Osera-t-il se nontrer à mes yeux ! Je cherche en vain
+            
+            à pénétrer le inystère qui l'environne… Pourquoi ce départ…
+            
+            cette rupture scandaleuse… au moment d'un mariage qui
+            
+            devait assurer son bonheur… Quelque soit mon chagrin en ce
+            
+            moment, je dois l'oublier et ne penser qu'au devoir que je
+            vais remplir. 
+            
+            SCÈNE II. 
+            
+            D'ORVILLIERS, ÉDOUARD ; il est en robe d'avocat et tient
+            
+            Le voilà ! 
+            
+            quelques papiers. 
+            
+            D'ORVILLIERS. 
+            
+            ÉDOUARD. 
+            
+            Je sais, mon père, jusqu'à quel point vous me jugez in
+            
+            digne de vos bontés… c'est mademoiselle de Beaupré qui a
+            
+            pourtant refusé de prononcer le serment. 
+            
+            D'ORVILLIERS. 
+            
+            Je le sais… mais n'eut-elle
+            
+            pas
+            
+            de fortes raisons pour
+            
+            rompre un mariage qui paraissait d'abord combler tous ses
+            
+            voux ? … Revenue de son trouble, elle a refusé de confier à son
+            
+            père et à sa famille le motif qui l'avait fait agir…. « Je lui
+            
+            pardonne et ne veux plus penser à lui, » a-t-elle répondu à
+            
+            toutes nos questions… mais par ce silence elle n'a voulu que
+            cacher vos torts…
+            
+            Mon père… (A part.) Comment a-t-elle pu savoir ! 
+            
+            ÉDOUARD, troublé. 
+            
+            86
+            
+            D'ORVILLIERS, 
+            
+            Hier je vous priais de me parler avec franchise, vous ne
+            
+            l'avez point fait… Aujourd'hui, je vous ordonne de rompre
+            
+            le silence… ou, seul, je vous accuserai d'un scandale que
+            
+            vous eussiez dů, à tout prix, épargner à votre famille…
+            
+            ÉDOUARD. 
+            
+            Vous l'ordonnez ! … Eh bien ! quelles que soient les consé
+            
+            quences de cet aveu, vous saurez tout…' Depuis long-temps
+            
+            une autre qu'Octavie possédait mon amour… de cet amour
+            
+            dépendait le bonheur du reste de ma vie… mais elle n'avait
+            
+            pas, comme la fille du baron de Beaupré, des titres, un nom, 
+            
+            une naissance à vous offrir… Qu'auraient alors pensé mes
+            nobles
+            
+            parens, si l'héritier de leur nom, de leurs titres, eût
+            
+            sacrifié à des vues grandes et ambitieuses, le serment qu'il
+            
+            avait fait à la fille d'un simple marchand ? J'aurais été re
+            
+            poussé, détesté, maudit, peut-être… aussi, j'allais tout
+            sacrifier…
+            
+            D'ORVILLIERS. 
+            
+            Votre faute en est-elle moins grave ? Avant de vous engager
+            
+            aussi légèrement, ne deviez-vous pas penser à votre fa
+            mille ? …
+            
+            SCENE III. 
+            
+            LES PRÉCÉDENS, L'HUISSIER… 
+            
+            L'HUISSIER. 
+            
+            Messieurs les juges et les membres du jury sont assemblés
+            
+            dans la salle d'audience ; on n'attend plus que monsieur le
+            
+            président. 
+            
+            D'ORVILLIERS. 
+            
+            Je vais m'y rendre… Vous, inon fils, én votre qualité d'a
+            défendre l'ac
+            
+            vocat, vous venez d'être nominé d'office
+            
+            pour
+            
+            cusé… allez aussi vous placer au poste que votre devoir vous
+            
+            assigne. 
+            
+            (Édouard entre dans la salle d'audience par l'escalier.)
+            
+            SCÈNE IV. 
+            
+            THÉOPHILE, SÉRAPHINE, UN VÉTÉRAN à la porte du
+            
+            tribunal. 
+            
+            SÉRAPHINE, donnant le bras à Théophile. 
+            
+            Allons donc plus vite, mon cousin ; ça sera fini, et nous
+            être
+            
+            ne verrons rien… Ma tante est partie à huit heures pour
+            
+            placée… mon oncle avait une carte…
+            
+            THÉOPHILE. 
+            
+            Dieu ! … les femmes sont-elles curieuses ! … aiment-elles
+            
+            les émotions ! … C'est donc bien intéressant de voir condam
+            
+            ner un malheureux jeune homme ? 
+            
+-37
+            
+            SÉRAPHINE. 
+            
+            Qui, celui-là surtout… je n'en aurais pas de pitié… c'est
+            
+            un séducteur… ce mot-là seul fait frémir ! …
+            
+            THÉOPHILE. 
+            
+            Un séducteur… un séducteur ! … pourquoi les filles se lais
+            
+            sent-elles séduire ? … Moi, je ne sais pas comment je. fais mon
+            
+            compte, je ne séduis pas ; il semble que jamais je ne séduirai. 
+            
+            SÉRAPHINE. 
+            
+            Vous dites ça… vous ne valez pas mieux
+            
+            que
+            
+            les autres… 
+            
+            Ah ! … ma cousine…
+            
+            Si on vous écoutait…
+            
+            Ah ! … ma cousine…
+            
+            THÉOPHILE. 
+            
+            SÉRAPHINE. 
+            
+            THÉOPHILE. 
+            
+            SÉRAPHINE. 
+            
+            Avec votre petit air sournois…
+            
+            THÉOPHILE. 
+            
+            Moi… j'ai un air sournois…… Par exemple, en voilà une
+            
+            onne ! … Au contraire… c'est que j'ai la physionomie très
+            
+            ouverte… l'œil fendu en amande. 
+            
+            SÉRAPHINE. 
+            
+            Allons, allons, dépêchons-nous d'entrer ! 
+            
+            THÉOPHILE. 
+            
+            C'est ça ! vous voulez voir un tribunal, n'est-ce pas ? un
+            
+            jugement ? … et puis vous aurez des vapeurs, des crampes, 
+            
+            des attaques de nerfs ; car, enfin, ce jeune homme peut être
+            
+            intéressant. 
+            
+            SÉRAPHINE, avec feu. 
+            
+            Ce n'est pas lui qui est à plaindre, c'est celle qu'il a trom
+            
+            pée… je veux le voir condamner…. 
+            
+            THÉOPAILE. 
+            
+            Attendez, je vais demander au factionnaire qui est à la
+            
+            porte qui donne dans le tribunal. (Il va au vétéran, et lui ôte
+            
+            son chapeau.) Pardon, factionnaire… voulez-vous nous lais
+            
+            ser passer ? … voilà notre laissez-passer…
+            
+            LE VÉTÉRAN, avec importance, 
+            
+            On n'entre point par cette entrée. 
+            
+            THÉOPHILE. 
+            
+            C'est mon oncle qu'est le premier témoin à charge… c'est
+            
+            un ancien juré. 
+            
+            LE VÉTÉRAN. 
+            
+            Je m'importe peu que votre oncle il soyé le jury… on ne
+            
+            passe pas. 
+            
+            THÉOPHILE. 
+            
+            Ah ! factionnaire… soyez bon enfant… Vous êtes vétéran ? … 
+            
+            étiez-vous rue Saint-Honoré avec les autres ? …"
+            
+            Non, j'étais à Wagram. 
+            
+            LE VÉTÉRAN. 
+            
+-38
+            
+            THÉOPHILE. 
+            
+            Ah ! c'est différent… ça vaut mieux… Moi, je n'y étais pas. 
+            
+            SERAPHINE, 
+            
+            à part ; 
+            
+            Pauvre Henriette ! et dire que je n'ai pas pu trouver le
+            
+            moyen de l'instruire ! 
+            
+            THÉOPHILE, calmant le vétéran. 
+            
+            Ah ! voyons, vétéran, laissez-moi entrer ; ou juge un sé. 
+            
+            ducteur… laissez-moi voir l'exemple… ça peut me retenir, 
+            
+            en cas que…
+            
+            SÉRAPHINE, 
+            
+            à part. 
+            
+            Et ma tante qui a voulu enmener Henriette avec elle…
+            
+            dans quel état elle doit être ! …
+            
+            THÉOPHILE, à Séraphine. 
+            
+            Dites donc, nous ne pourrons pas entrer, ma cousine. (Au
+            
+            vétéran.) Eh ! bien, vétéran, si vous ne voulez
+            
+            pas me
+            
+            laisser
+            
+            passer… laissez-moi entre-bâiller la porte, que je donne un
+            
+            petit coup-d'œil… je me tiendrai derrière vous et je ne rayerai
+            
+            pas votre giberne…
+            
+            LE VÉTÉRAN
+            
+            Pour de quant à cela, je le veux bien…
+            
+            THÉOPAILE. 
+            
+            Il est bon enfant, le vétéran… J'aime mieux les vétérans
+            
+            que les gendarmes : ces coquins de gendarmes, c'étaient mes
+            
+            bêtes noires… Attendez, pour que je voie… votre main me
+            gêne… Levez le coude, vétéran… Ah ! ça le fait rire, le vé
+            
+            téran, parce que je lui dis de lever le coude… Vieux trou
+            
+            pier, va ! …
+            
+            LE VÉTÉRAN. 
+            
+            Vous in'avez l'air d'un farceur ! …
+            
+            THÉOPAILE. 
+            
+            Je ris quelquefois… Ah ! ma cousine, que de monde ! …
+            
+            Voilà l'avocat qui parle… tiens ! c'est M. Edouard ! 
+            
+            M. Edouard ! 
+            
+            SÉRAPHINB. 
+            
+            THÉOPHILE. 
+            
+            Parole d'honneur ! … Ga lui va bien, le noir ! …
+            
+            SÉRAPHINE. 
+            
+            Et Henriette ! … quelle situation pour elle ! …
+            
+            THÉOPHILE. 
+            
+            Dieux ! … j'aurais voulu être avocat… Comme on s
+            
+            s'amuse, 
+            
+            dans la robe ! … Ca a toujours été des bambocheurs, les ba
+            
+            sochiens… dans les anciens temps, en faisaient-ils… dans le
+            
+            Pré aux Clercs, au Palais-Marchand… c'était des batailles…
+            
+            tous les jours, ils rossaient les archers… nous avons rossé les
+            
+            gendarmes… chacun son temps… faut rire un peu… J'ai lu
+            
+            les Mauvais Garçons… (Criant.) Ah ! mon Dieu ! 
+            
+            SÉRAPHINE, allant à lui. 
+            
+            Quoi donc ? 
+            
+            1
+            
+-39
+            
+            THÉOPHILE. 
+            
+            Voilà une jeune personne qui se trouve mal… Dieux ! c'est
+            
+            ma cousine Henriette ! …
+            
+            Henriette ! …
+            
+            SÉRAPHINE. 
+            
+            THÉOPHILE. 
+            
+            Voilà qu'on l'amène par ici… Que diable aussi, ma tante
+            
+            n'avait que faire d'amener cette jeunesse dans un tribunal ! 
+            
+            ça l'aura
+            
+            trop
+            
+            émue aussi…
+            
+            SÉRAPHINE, à part. 
+            
+            Ma
+            
+            pauvre
+            
+            cousine… elle en mourra ! …
+            
+            THÉOPHILE, 
+            
+            La voilà ! … la voilà ! … Vétéran, place à ma cousine qui
+            
+            est évanouie, respect au malheur ! 
+            
+            SCÈNE V. 
+            
+            LES PRECEDENS, HENRIETTE, MADAME DUMONT. 
+            
+            &gt; 
+            
+            THẺOPHILE. 
+            
+            Vétéran, rangez-vous donc un peu ! … Ces militaires, sont
+            
+            ils durs ! … ils pourraient bien être sensibles, quand une
+            
+            femme est sans connaissance ; mais n'ayez pas peur, comme
+            
+            ça n'est pas dans la consigne…
+            
+            SÉRAPHINE. 
+            
+            Asseyons-la, ma tante. 
+            
+            THEOPHILE, courant. 
+            
+            (On asseoit Henriette.)
+            
+            Attendez, que j'ouvre les fenêtres ; il faut de l'air, d'abord. 
+            
+            Pardon, vieux guerrier, que j'ouvre la fenêtre… Si vous
+            
+            étiez gendarine, je ne vous dirais pas ça, ça pourrait vous
+            enrhumer du cerveau. 
+            
+            MADAME DUMONT, effrayée. 
+            
+            Un peu d'eau de Cologne… j'ai oublié mon flacon… il fau
+            
+            drait… Va, Séraphine, chercher… non, j'y vais inoi-inême…
+            
+            Théophile, reste là ! …
+            
+            THEOPHILE. 
+            
+            1
+            
+            Oui, ma tante…
+            
+            MADAME DUMONT. 
+            
+            Non, viens avec moi…
+            
+            THEOPHILE, courant. 
+            
+            Oui, ma tante…
+            
+            Ma mère… où est ma inere ? 
+            
+            HENRIETTE, ouvrant les
+            
+            yeux. 
+            
+            MADAME DUMONT, revenant à elle. 
+            
+            Me voilà… ina fille…
+            
+            Ah ! …
+            
+            HENRIETTE, l'embrassant, 
+            
+            THÉOPAILE. 
+            
+            Allons, ça va mieux… elle parle… n'y a plus de danger…
+            
+-40
+            
+            MADAME DUMONT. 
+            
+            Séraphine, reste avec ta cousine, je reviens… Théophile, 
+            
+            donne-moi le bras. 
+            
+            THÉOPHILE. 
+            
+            Oui, ma tante… je suis tout ébouriffé. 
+            
+            (A part.) Il y a
+            
+            quelque chose là-dessous… de l'évanouisement… c'est comine
+            
+            mademoiselle Lavalière aux Carmelites… pauvre mère Lava-, 
+            
+            lière ! dans les temps… j'ai lu les Mémoires…… 
+            
+            SCÈNE VI, 
+            
+            SÉRAPHINE, HENRIETTE. 
+            
+            SÉRAPHINE, auprès d'Henriette. 
+            
+            Reviens à toi, ma bonne petite cousine. 
+            
+            HENRIETTE. 
+            
+            Ah ! si tu savais l'impression qu'a produit sur moi ce plai
+            
+            doyer… ce tribunal… ces juges…mille pressentimens sont ve
+            
+            nus m'assaillir… et quand mon père lui-inème a fait cette
+            
+            déposition accablante… quand sa voix s'est élevée contre le
+            
+            confiance trahie… l'honneur d'une famille outragée… j'ai cru
+            
+            que j'al-lais mourir…
+            
+            SÉRAPHINE, à
+            
+. part. 
+            
+            Malheureuse, quand elle saura ! … il faut pourtant lui dire…. 
+            
+            (Haut, avec ménagement.) Henriette… ma chère Henriette…
+            
+            du courage… il en faut ! …
+            
+            HENRIETTE, étonnée. 
+            
+            Comme tu me dis cela… as-tu donc quelque mauvaise
+            
+            nouvelle à m'apprendre ? 
+            
+            SÉRAPHINE. 
+            
+            Quelquefois les pressentimens nous avertissent d'un grand
+            
+            malheur ! 
+            
+            D'un grand malheur ! … tu me fais frémir ! …
+            
+            
+            <div type="poem"> <lg>
+                                    HENRIETTE
+                
+                
+, étonnee. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Fragment du final du 1er acte de Léocadie. 
+                </stage>
+            
+                
+                                            HENRIETTE. 
+                    
+            
+                    <l part="I">Que dis-tu ? </l>
+            
+                    SÉRAPHINE, 
+            
+                    <l part="F">Du silence ! </l>
+                    <l part="I">Ton Édouard…</l>
+            
+                                            HENRIETTE. 
+                    
+            
+                    <l part="F">Quel tourment ! </l>
+            
+                                            SÉRAPHINE. 
+                    
+            
+                    <l>Il n'est plus d'espérance, </l>
+                    <l>Il trahit son serment. </l>
+            
+                                            HENRIETTE. 
+                    
+            
+                    <l part="I">Ô ciel ! </l>
+            
+                                            SÉRAPHINE. 
+                    
+            
+                    <l part="F">Un autre mariage</l>
+                    <l>Pour jamais vient de l'enchaîner. </l>
+            
+                                            HENRIETTE. 
+                    
+            
+                    <l>Il a donc comblé son outrage. </l>
+            
+                                            SÉRAPHINE. 
+                    
+            
+                    <l>Tu ne dois plus lui pardonner ! </l>
+            
+                                            HENRIETTE. 
+                    
+            
+                    <l part="I">Quel coup affreux ! </l>
+            
+                                            SÉRAPHINE. 
+                    
+            
+                    <l part="F">Il va t'abandonner. </l>
+                
+            
+            
+                
+                    ENSEMBLE. {
+                
+            
+            
+                                    HENRIETTE. 
+                
+                
+                    <l>Plus d'avenir, plus d'espérance, </l>
+                    <l>Ce coup a détruit mon bonheur ; </l>
+                    <l>Sur mon front, je le sens d'avance, </l>
+                    <l>On va lire mon déshonneur. </l>
+                
+            
+                                    SÉRAPHINE. 
+                
+            
+                
+                    <l>À tous les yeux, avec prudence, </l>
+                    <l>Cache ton trouble et ton bonheur ; </l>
+                    <l>Et songe à garder le silence, </l>
+                    <l>Pour sauver au moins ton honneur. </l>
+                
+            
+            </lg> </div>
+            
+            
+            SCÈNE VII. 
+            
+            LES MÊMES, THÉOPHILE, MADAME DUMONT. 
+            
+            THÉOPHILE. 
+            
+            Nous ayons eu assez de peine à trouver de l'eau de mélisse…
+            
+            Eh bien ! cousine, ça va-t'y un peu inieux ? 
+            
+            HENRIETTE. 
+            
+            Oui, je ne sens assez bien…, 
+            
+            THÉOPHILE. 
+            
+            Tenez, respirez un peu de ce flacon. 
+            
+            Merci, Théophile…
+            
+            HENRIETTE, refusant. 
+            
+            MADAME DUMONT. 
+            
+            Ça n'aura pas de suite…
+            
+            THÉOPHILE. 
+            
+            Voilà ce que
+            
+            c'est que de venir aux cours d'assises… Les
+            
+            dames ne devraient aller qu'à la police correctionnelle… il
+            
+            n'y a que de la prison… c'est moins noir…
+            
+            SÉRAPHINE, avec humeur. 
+            
+            Laissez-nous donc tranquilles, Théophile…
+            
+            1
+            
+            C'est pour
+            
+            la faire rire un peu…
+            
+            MADAME DUMONT. 
+            
+            THÉOPHILE. 
+            
+            Bientôt j'espère qu'elle ne se ressentira plus de cet acci
+            
+            dent… M. Edouard a parlé comme un ange. 
+            
+            THÉOPHILE. 
+            
+            Dites donc comme un diable… Je l'ai aperçu d'ici… il
+            
+            gesticulait ! …
+            
+            Il a du talent…
+            
+            MADAME DUMONT. 
+            
+            THÉOPHILE
+            
+            Et puis il est bel homme en robe, et ça fait beaucoup…
+            
+            auprès des femmes. (Allant au fond.)Mais dites donc, ma tante, 
+            
+            v'là inon oncle qui revient… nous allons savoir… Dieu, que
+            
+            c'est beau ce jury… j'aime bien mieux ça que ce vieux par
+            
+            lement du temps de M. Arouet de Voltaire ; les Sirven, les
+            
+            Calas… c'est ça qu'est sublime ! … on a fait des mélodrames
+            
+            là-dessus… et à la fin de la pièce, le parlement était enfoncé…
+            
+            vieille perruque de parlement ! 
+            
+            MADAME. DUMONT. 
+            
+            Mais silence donc, Théophile… vous ne devriez pas parler
+            
+            ainsi en ce moment. 
+            
+            SÉRAPHINE. 
+            
+            Sans doute, vous êtes ridicule… songez qu'on peut en
+            
+            tendre…
+            
+            THÉOPHILE. 
+            
+            Oh ! je sais pourquoi vous me dites ça… vous encensez
+            
+            l'autorité… vous flattez la forçe armée… ah ! flatteuse ! moi
+            
+            je peux parler… je ne suis pas un fonctionnaire… je ne suis
+            
+            pas un homme en place… je suis du tiers-état comme dans
+            
+            l'ancien régime…
+            
+            j'ai lu les Méinoires… d'ailleurs tout le
+            
+            monde a le droit de parler… c'est dans la charte. (Criant.) Vive
+            
+            la charte… j'n'ai pas porté des payés pour des prupes, moi…
+            
+            Vive la charte ! 
+            
+            MADAME DUMONT. 
+            
+            Mais taisez-vous donc, Théophile. (A Henriette.) Mon en
+            
+            fant, voici ton père… sa présence te calmera sans doute. 
+            
+            HENRIETTE, 
+            
+            à part. 
+            
+            Mon père ! … ah ! je n'aurai pas la force de supporter ses
+            
+            regards ! …
+            
+            SCENE VIII, 
+            
+            LES PRÉCÉDENS, DUMONT. 
+            
+            DUMONT, entrant par la porte du fond, avec empressement. 
+            
+            Eh bien ! ma chère amie… comment se trouve notre Hen
+            
+            riette ? … j'étais impatient…
+            
+            MADAME DUMONT, 
+            
+            Rassure-toi… rassure-loi… elle est un peu mieux, 
+            
+            DUMONT, à Henriette. 
+            
+            Maintenant je ne te quitte plus ; ta inère et moi allons t'ac
+            compagner jusqu'à votre demeure. Ma pénible mission est
+            
+            terminée… il in'en a coûté, mais je devais accomplir mon
+            devoir. 
+            
+            HENRIETTE, à part. 
+            
+            Chacune de ses paroles… est un supplice pour moi…
+            
+            DUMONT, 
+            
+            Jamais, je l'avoue, je n'avais enteudu un plus beau plai
+            
+            doyer… M. Edouard a parlé avec une âme… un air de convic
+            
+            Lion qui a ému tous les assistans… et lui-même… j'ai cru
+            
+            voir des larmes dans ses yeux. 
+            
+            Des larmes… oh ! oui ! … si son cœur souffrait autant que le
+            
+            HENRIETTE, à part. 
+            
+            mien…
+            
+            SÉRAPHINE, bas. 
+            
+            Cousine, calme-toi ! …
+            
+            THÉOPHILE. 
+            
+            C'est superbe, un homme qui parle… j'ai lu les Causes ce
+            
+            lèbres, vive le barreau français… j'aurais voulu être dans la
+            
+            robe, si je n'avais pas été dans la soie. (Regardant par l'esca
+            
+            ücr.) On doit en être au réquisitoire… je voudrais bien le voir
+            
+            de près, moi, ce séducteur ! Vétéran, à présent que tout le
+            
+            monde va sortir, laissez-moi entrer… Voyons, ne poussez pas, 
+            
+            vétéran, je peux voir… les criminels, c'est public ; n'ayez
+            pas peur, je ne veux pas vous forcer… (En disant cela il se
+            
+            faufile avec Séraphine.) Eufoncé, le vétéran ! 
+            
+            SCÈNE IX. 
+            
+            Les MÊMES, EXCEPTÉ THÉOPHILE ET SÉRAPHINE. 
+            
+            MADAME DU MONT. 
+            
+            Qu'as-tu donc, ma fille ? te voilà encore toute treublante…
+            
+            DUMONT. 
+            
+            Chère enfant… je ne suis pas surpris de son agitation…
+            
+            moi-même j'ai été si ému… en faisantcette déclaration qui a
+            
+            semblé produire une si forte impression sur l'esprit des
+            
+            juges… pauvre famille…. 
+            
+            KENRIETTE. 
+            
+            Ah ! je n'y tiens plus… mon père…. 
+            
+            DUMONT. 
+            
+            Eh bien ! encore ! … quel effroi ! … Nous cacherais-tu donc
+            
+            quelques secrets ? 
+            
+            HENRIETTE. 
+            
+            Non, mon père… je ne puis… je ne dois pas avoir de se
+            
+            crets pour vous. 
+            
+            DUMONT. 
+            
+            Hier soir, pourtant, je t'observais… la langueur, la tris
+            
+            tesse étaient peintes sur ton visage… et tiens, en ce moment, 
+            
+            les yeux se mouillent de larmes…
+            
+            JIENRIETTE. 
+            
+            Mon père… cesse… oh ! césse, je t'en conjure, demétenir
+            
+            ce langage… je ne pourrais supporter tes reproches ! 
+            
+            MADAME DUMONT. 
+            
+            Des reproches ! … mais nous ne voulons pas t'en faire. 
+            
+. si
+            
+            ton cour a parlé pour quelqu'ụn… eh bien ! avoue-nous tout
+            
+            avec confiance ; peut-être M. Édcuard…
+            
+            HENRIETTE,' vivement. 
+            
+            Ah ! ma mère… je t'en supplie, ne prononce pas ce nom…
+            
+            DUMONT. 
+            
+            Eh ! bien, pourquoi ce nom te trouble-t-il ainsi ? … tu ne
+            
+            ine réponds pas… j'ai cru que ton père méritait plus de con
+            
+            fiancé. 
+            
+            Mon père ! 
+            
+            HENRIETTE. 
+            
+            DUMONT
+            
+            Je ne vous comprends pas… parlez… je le veux… je l'or
+            
+            donne. 
+            
+            M. Edouard ! marié à un autre… le déshonneur ! je suis sa
+            
+            viptin…
+            
+            (Elle tombe aux genoux de son père) 
+            
+            HENRIETTE. 
+            
+            SCENE X. 
+            
+            LES PRÉCÉDENS, ÉDOUARD, PLUSIEURS AVOCATS ter
+            
+            tourant et le félicitant. 
+            
+            UN AVOCAT
+            
+            Bravo ! … mon cher Edouard… reçois les félicitations de
+            
+            tous tes confrères…
+            
+            UN AUTRE AVOCAT. 
+            
+            Ce plaidoyer te fera honneur ! …
+            
+            ÉDOUARD. 
+            
+            Merci ! merci, mes amis ! … mais mon triomphe n'est pas
+            
+            encore certain. (Il remet sa robe à un domestique. Apercevant
+            
+            Henriette.) Ciel ! Henriette ! … son père ! …
+            
+            HENRIETTE. 
+            
+            Lui ! …
+            
+            LE PREMIER AVOCAT. 
+            
+            Messieurs, le jury delibère… rentrons ! …
+            
+            (Ils reustrent dans la salle d'audience.)
+            
+            DUMONT, froidement, 
+            
+            Vous, ici, monsieur… venez-vous jouir encore de notre. 
+            
+            désespoir ? … 
+            
+            ÉDOUARD., à part. 
+            
+            Ils savent tout… (Haut.) Vous me maudissez, sans doute…
+            
+            ma vue ne vous inspire plus que du mépris… Ah ! je l'avoue, 
+            
+            je l'ai mérité… je fus bien coupable… et pourtant si vous
+            
+            pouviez lire au fond de nion cœur… si vous pouviez savoir…
+            
+            DUMONT. 
+            
+            Que puis-je apprendre désormais, inonsieur ? … votre con
+            
+            duite m'est connue ; un motif bien puissant vous éloigne de
+            
+            votre victime… et votre présence içi est pour nous un nou
+            
+            vel outrage. 
+            
+            ÉDOUARD. 
+            
+            Que dites-vous ? … non, je ne l'ai point contractée, cette
+            
+            union fatale… je suis libre encore…
+            
+            HENRIETTE. 
+            
+            Ma mère… il n'est pas marié ! …
+            
+            ÉDOUARD. 
+            
+            Henriette… tu vas connaître l'affreuse nécessité qui me
+            
+            condamnait au silence… tu vas tout savoir… et ta famille
+            
+            pourra peut-être me rendre son estimne. 
+            
+            HENRIETTE. 
+            
+            Son estiine ! … je vous écoute…
+            
+            ÉDOUARD. 
+            
+            Héritier d'un grand nom, ies parens ne voyaient qu'en
+            moi l'éclat de leur naison… le plus brillant avepir in'était
+            
+            offert par eux ; cent fois j'ai voulu leur ouvrir mon cour…. 
+            
+            18
+            
+            leur austère sévérité venait toujours me fermer la bouche…
+            
+            mais, c'en est fait, mon Henriette, tu l'emportes sur tout ; 
+            
+            je ne suis plus ce fils soumis à l'orgueil d'une famille injuste
+            
+            et cruelle, 
+            
+            je suis ton amant, ton époux, et nulle puissance
+            
+            au monde ne pourra désormais me séparer de toi. 
+            
+            HENRIETTE, émue. 
+            
+            Ma mère… tu l'entends…
+            
+            MADAME DUMONT, à son mari. 
+            
+            Mon aini ! 
+            
+            
+            <div type="poem"> <lg>
+                                    ÉDOUARD. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Époux imprudent, fils rebèle. 
+                </stage>
+            
+            
+                
+                    <l>Prenez pitié du remords qui m'accable, </l>
+                    <l>Sauvez votre fille aujourd'hui ! </l>
+                    <l>Songez que, seul, je fus coupable. </l>
+            
+            
+                                            MADAME DUMONT. 
+                    
+            
+                    <l>Sois indulgent, pardonne-lui. </l>
+            
+                                            SÉRAPHINE. 
+                    
+            
+                    <l>Voyez nos pleurs, pardonnez-lui. </l>
+            
+                    DUMONT. 
+            
+                    <l>Ah ! malgré ma douleur extrême, </l>
+                    <l>Lorsque je dois le condamner, </l>
+                    <l>Je consens à lui pardonner, </l>
+                    <l>S'il peut se pardonner lui-même. </l>
+                
+            </lg> </div>
+            
+            
+            SCENE XI. 
+            
+            LES PRÉCÉDENS, L'HUISSIER paraissant à la porte. 
+            
+            L'HUISSIER. 
+            
+            Messieurs, les jurés rentrent dans la
+            
+            salle d'audience…. 
+            
+            Monsieur le conseil du prévenu veut-il retourner au banc
+            des avocats ? …
+            
+            ÉDOUARD, à part. 
+            
+            Grands Dieux ! que faire…
+            
+            DUMONT. 
+            
+            Monsieur, oserez-vous bien encore supporter les regards
+            
+            des juges ? eatendre prononcer une sentence qui pourrait être
+            aussi la vôtre ? …
+            
+            ÉDOUARD, 
+            
+            Ab ! ne m'accablez pas ! …
+            
+            L'HUISSIER. 
+            
+            On va prononcer l'arrêt…
+            
+            (Il rentre. Séraphine va à la porte de la salie d'audience, la mu
+            
+            sique se fait entendre en sourdine pendant ce qui suit :) 
+            
+            SÉRAPHINE. 
+            
+            Les jurés sont rentrés… l'un d'eux se lève… Oh ! quel si
+            
+            lence ! Que dit-il ? … Sept contre cinq ; la cour se réunit à la
+            
+            inajorité ! …
+            
+            Cruelle position ! … 
+            
+            ÉDOUARD, à part. 
+            
+            me
+            
+            ME
+            
+            lo
+            
+            sa
+            
+            Le président lit la sentence. 
+            
+            SERAPHINE. 
+            
+            (Tous les personnages écoutént avec anxiété, Henriette est retombée : 
+            
+            sur son siége, sa mère est auprés d'elle, Dumont a les yeux fixés : 
+            
+            sur Édouard qui paraft anéanti. On entend la voix. du président. 
+            
+            d'Orvilliers prononcer la condamnation.)
+            
+            Condamné ! …
+            
+            TOUS. 
+            
+            
+            
+            <div type="poem"> <lg>
+                                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    AIR de Léonide. 
+                </stage>
+            
+            
+                
+                    <l>Condamné ! </l>
+                    <l>Dieux ! quel arrêt sévère, </l>
+                    <l>Ô père</l>
+                    <l>Infortuné. </l>
+                    <l>Ton fils est condamné. </l>
+                
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            (Les portes du fondi s'ouvrent, on voit la foule traverser en
+            
+            dehors la sallé du tribunal.)
+            
+            SCÈNE XII. 
+            
+            LES MÊMES, M. D'ORVILLIERS. 
+            
+            (Il parait, suivi de plusieurs juges.)
+            
+            EDOUARU. 
+            
+            Grand Dieu ! … mon père ! …
+            
+            Son père ! 
+            
+            Le président ! 
+            
+            TOUS. 
+            
+            DUMONT
+            
+            (Le président parait s'entretenir avec les juges qui l'accompagnent : 
+            
+            il prend congé d'eux, et apercevant Dumont il s'approche de lui.)
+            
+            D'ORVILLIERS. 
+            
+            Je me félicite de vous rencontrer ici, monsieur ; c'est votre
+            
+            témoignage surtout qui nous a éclairés. (Il lui presse la main.)
+            
+            Honneur à ceux qui, comme vous, saveal accomplir loui'
+            
+            entier un pénible devoir ! 
+            
+            DUMONT, embarrassé. 
+            
+            Monsieur le président…. : 
+            
+            D'ORVILLIERS, à Edouard. 
+            
+            Je suis content de vous, mon fils, vous avez bien plaidé ; 
+            
+            vous méritiez de parler dans une meilleure cause. 
+            
+            EDOƯAND, confis. 
+            
+            Je remplissais une mission bien pénible…
+            
+            DUMONT, à part, agité. 
+            
+            Il le faut… j'en aurai le courage… A l'Orvilliers.) Mon
+            
+            sieur le président, daigaerez-vous m'accorder un inomcnc
+            
+            d'entretien ? 
+            
+            Parlez, M. Damont, me voilà prèt à von : eittendre. 
+            
+            D'ONVILLIERS. 
+            
+            DUMONT, après un court silence. 
+            
+            Quelque crainte que j'éprouve, monsieur le président, je
+            
+            me rassure, en songeant que je parle à Vun de nos premiers
+            
+            magistrats… à celui qui a prêté serment de faire agir les
+            
+            lois… de protéger les opprimés…
+            
+            D'ORVILLIERS. 
+            
+            De quelle offense avez-vous à vous plaindre ? 
+            
+            DUMONT. 
+            
+            Unc offense…. dites un outrage, le plus cruel, le plus
+            
+            sanglant de tous, 
+            
+            D'ORVILLIERS. 
+            
+            Expliquez-vous…
+            
+            (
+            
+            DUMONT. 
+            
+            Quand, tout-à-l'heure, sous vos auspices, ma voix appe
+            
+            lait sur un coupable le châlinnent qu'il avait mérité…
+            
+            D'ORVILLIERS. 
+            
+            Quels regrets pourriez-vous éprouver ? vous vengiez la so
+            
+            ciété. Cette cause était celle de cous les pères de famille.,
+            
+            DUMONT, 
+            
+            Hélas ! j'étais loin de penser que, frappé du même coup, 
+            
+            je viendrais moi-même dans cette enceinte vous demander
+            
+            justice…
+            
+            Vous ? …
+            
+            D'ORVILLIERS. 
+            
+            DUMONT, trèsmému. 
+            
+            Ma fille, mon unique enfant, ma seule espérance, sans
+            
+            reproche jusqu'ici, victimede son inexpérience, fut indigne
+            
+            ment trompée ; hésiterez-vous, monsieur le président, à pu
+            
+            bir son séducteur ! …
+            
+            D'ORVILLIERS. 
+            
+            Votre fille ! … je suis magistrat, vous trouverez en moi un
+            
+            protecieur, un ami… quel est le coupable ? …
+            
+            
+            <div type="poem"> <lg>
+                                    DUMONT
+                
+                
+, froidement. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : J'aime Agnès, et j'ai su lui plaire. 
+                </stage>
+            
+            
+                
+                    <l>Quand réunis à la même audience, </l>
+                    <l>Je vous faisais de pénibles aveux, </l>
+                    <l>En prononçant une juste sentence, </l>
+                    <l>Vous remplissiez un devoir rigoureux, </l>
+                    <l>Et vous vengiez un père malheureux. </l>
+                    <l>Vous connaissez quel devoir est le vôtre, </l>
+                    <l>Devant la loi nous sommes tous soumis, </l>
+                    <l>À l'instant vous condamniez l'autre, </l>
+                    <l>Absoudrez-vous maintenant votre fils ? </l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            D'ORVILLIERS, avec douleur. 
+            
+            Mon fils ! c'était donc le fatal secret ! Edouard ! Edouard ! 
+            
+            qu'avez vous fait ? …
+            
+-48
+            
+            i
+            
+            SCENE XIII. 
+            
+            LES PRÉCÉDENS, THÉOPHILE, entrant subitement. 
+            
+            THÉOPHILE. 
+            
+            Eh bien ! partons-nous ? … Tiens., M. le président ! 
+            
+            D'ORVILLIERS, à son fils en lui montrant Dumont. 
+            
+            (Bass) Vous avez trompé l'espérance de toute ma vie. 
+            
+            (Haut.) Toinbez aux genoux de votre père…
+            
+. 
+            
+            DUMONT, à Edouard qui s'incline. 
+            
+            Mon fils ! … relevez-vous…
+            
+            (Dumont donne la main d'Henriette à Édouard, madame Dumont
+            
+            semble verser des larmes, Séraphine paraît heureuse, le président
+            
+            d'Orvilliers parait absorbé dans ses réflexions, Théophile les
+            
+            contemple tous.)
+            
+            THÉOPHILE. 
+            
+            Qu'est-ce donc qui s'est passé ? … tout le monde a un air…
+            
+            Ma cousine se marie… on vous contera ça. 
+            
+            SÉRAPHINE. 
+            
+            THÉOPHILE. 
+            
+            Bien, bien, je commence à deviner… une jeune fille trom
+            
+            pée… un séducteur… c'est comme dans le temps du cardinal
+            
+            Dubois, du duc Fronsac de Richelieu ; j'ai lu les Mémoires…
+            
+            (Le rideau tombe.)
+            
+            FIN. 
+            
+            Österreichische Nationalbibliothek
+            
+            +Z160885305
+        </body>
+    </text>
+</TEI>

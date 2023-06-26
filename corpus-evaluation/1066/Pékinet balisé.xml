@@ -1,0 +1,3030 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">PÉKINET, OU LE FILLEUL DE LA FÉE</title>
+                <title type="sub">CONTE BLEU MÊLÉ DE COUPLETS, EN DEUX ACTES ET EN CINQ TABLEAUX</title>
+                <author key="CCH" sort="1">
+                    <name>
+                        <forename>Pierre-François-Adolphe</forename>
+                        <surname>Carmouche</surname>
+                        <addname type="pen_name">Pierre-Frédéric-Adolphe Carmouche</addname>
+                    </name>
+                </author>
+                <author key="CDC" sort="2">
+                    <name>
+                        <forename>Frédéric</forename>
+                        <surname>Charlot de Courcy</surname>
+                        <addname type="pen_name">De Courcy</addname>
+                    </name>
+                </author>
+                <author key="BON" sort="3">
+                    <name>
+                        <forename>Joseph-Xavier</forename>
+                        <surname>Boniface</surname>
+                        <addname type="pen_name">Saintine</addname>
+                        <addname type="pen_name">Xavier</addname>
+                        <addname type="pen_name">Ernest</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                 <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">PÉKINET, OU LE FILLEUL DE LA FÉE</title>
+                        <author>CARMOUCHE, DE COURCY ET XAVIER</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=-VloAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>The British Library</repository>
+                                <idno type="URL">http://access.bl.uk/item/viewer/ark:/81055/vdc_100032913370.0x000001</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1832-03-04">4 MARS 1832</date>
+                <placeName>
+                    <settlement>THÉÂTRE DU PALAIS-ROYAL</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            PÉKINET. 9
+            
+            00
+            
+            LE FILLEUL DE LA FÉE. 
+            
+            Pièces nouvelles en vente : 
+            
+            Teresa. 
+            
+            Emmeline. 
+            
+            Pygmalion. 
+            
+            M. Mathieu. 
+            
+            L'enfance de Louis XII. 
+            
+            Les Deux Novices. 
+            
+            L'Art de payer ses Dettes. 
+            
+            Le Bouffon du Prince. 
+            
+            Saint-Denis, ou une Insurrection La Dédaigneuse. 
+            
+            de Demoiselles. 
+            
+            L'Amitié des Femmes. 
+            
+            La Métempsycose. 
+            
+            Les Sybarites de Florence. 
+            
+            Folhert, ou le Mari de la Canta-
+            
+            Robert le Diable. 
+            
+            trice. 
+            
+            Voltaire à Francfort. 
+            
+            La Peine de Mort. 
+            
+            La Vendetta. 
+            
+            L'Abbaye aux Bois. 
+            
+            Il y a seize ans. 
+            
+            Le petit Homme rouge. 
+            
+            La Future de Province. 
+            
+            L'Enfant de la Nature. 
+            
+            PÉKINET, 
+            
+            OU
+            
+            LE FILLEUL DE LA FÉE, 
+            
+            Conte bleu mêlé de Couplets, 
+            
+            EN DEUX ACTES ET EN CINQ TABLEAUX. 
+            
+            k
+            
+            PAR
+            
+            MM. CARMOUCHE, DE COURCY ET XAVIER. 
+            
+            REPRÉSENTÉ, POUR 1. A PREMIÈRE FOIS, 
+            
+            SUR LE THÉATRE DU PALAIS-ROYAL, 
+            
+            le 4 mars 1832. 
+            
+            PRIX : 
+            
+            1 FR. 50 CENT. 
+            
+            PARIS. 
+            
+            R. RIGA, ÉDITEUR, 
+            
+            FAUBOUNG PO188 MBRB, N. 1. 
+            
+            1832
+            
+            Personnages, 
+            
+            Acteurs. 
+            
+            LA FEE URGANDE
+            
+            Mlle EscOUSSE. 
+            
+            PÉKINET, jeune paysan. 
+            
+            M. PAUL. 
+            
+            MARCELLE, sa tante. 
+            
+            Mme BAROYER. 
+            
+            MICHELETTE, prétendue de Pékinet. 
+            
+            M. PERNON. 
+            
+            THOMAS, père de Michelette. 
+            
+            M. BOUTIN. 
+            
+            GONDESCAMIROCASCABAR, enchanteur. M. LHÉRITIER. 
+            
+            ZOLOÉ. 
+            
+            ZAMIRA. 
+            
+            UN JEUNE GÉANT. 
+            
+            Mlle DUCHEMIN. 
+            
+            Mlle Joly. 
+            
+            M. LEVASSOR. 
+            
+            TROIS HABITANS, d'une île inconnue. 
+            
+            M. Masson. 
+            
+            PAYSANS, PAYSANNES. 
+            
+            HOMMES ET FEMMES. 
+            
+            La scène se passe où l'on veut. 
+            
+            fer Tableau. Les Souhaits. 
+            
+            2me
+            
+            Id. 
+            
+            L'ile des Femmes. 
+            
+            3me
+            
+            Id. 
+            
+            La Descente des airs, 
+            
+            4me
+            
+            Id. 
+            
+            L'ile des Soufflets. 
+            
+            ýme
+            
+            Id. 
+            
+            Le Retour au hameau. 
+            
+            IMPRIMERIE DE DAVID, BOULEVARD POISSONNIERE, N. 6. 
+            
+            PÉKINET, 
+            
+            OU
+            
+            LE PILLEUL DE LA FÉE. 
+            
+            AGTE PREMIER. 
+            
+            PREMIER TABLEAU. 
+            
+. 
+            
+            LES SOUHAITS. 
+            
+            Le theatre représente une place de village. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            L'ENCHANTEUR. Il arrive seul et enveloppé dans un grand
+            
+            manteau. 
+            
+            C'est donc ici que respire cette famille de rustres, pro
+            
+            tégée par Urgande, mon ennemie ! … par cette petite fée qui
+            
+            ose contrarier en tout les projets du grand Gondescamiro
+            
+            cascabar, chef de l'île des Géants. Mon art m'a appris que
+            
+            ce sot de Pékinet devait devenir son favori, comme avant
+            
+            lui l'a été son bisaïeul ; de plus, ce drôle se permet d'être
+            
+            amoureux de Michelette, la plus jolie villageoise du monde, 
+            
+            sur laquelle j'avais jeté les yeux pour en faire pendant quel
+            que temps madame Gondescamirocascabar. Tâchons de ne
+            
+            pas me laisser ravir ce trésor…
+            
+            (Il va frapper à la porte d'une chaumière à droite du spectateur.)
+            
+            PÉKINET, de l'intérieur. 
+            
+            Qui est là ? 
+            
+            Moi ! 
+            
+            Qui, vous ? 
+            
+            L'ENCHANTEUR. 
+            
+            PÉKINET, toujours de l'intérieur. 
+            
+            L'ENCHANTEUR, élevant la voir. 
+            
+            Moi, vous dis-je ! …
+            
+            SCÈNE II. 
+            
+            PÉKINET, L'ENCHANTEUR. 
+            
+            PÉKINET, ouvrant, 
+            
+            Ah ! excusez ! … C'est que, voyez-vous, j'u'avions
+            
+            pas ben
+            
+            entendu la première fois…
+            
+            Ainsi
+            
+            c'est vous ? 
+            
+            (À part.)
+            
+            Qu'est-ce que c'est que c't homme là ? 
+            
+            Silence, Pékinet. Me connais-tu ? … Je suis ici dans le
+            
+            L'ENCHANTEUR. 
+            
+            plus strict incognito, 
+            
+            PÉKINET. 
+            
+            D'après ces renseignemens-là, y aurait-il de l'indiscrétion
+            
+            à vous demander' qui vous ètes ? 
+            
+            L'ENCHANTEUR : 
+            
+            Je suis Gondescamirocascabar…
+            
+            PÉKINET, cherchant à prononcer le mot. 
+            
+            Gondesco… mira… coscabar ? …
+            
+            L'ENCHANTEUN. 
+            
+            Un des plus grands sorciers que la terre ait connus. 
+            
+            PÉKINET. 
+            
+            Quel bonheur ! un sorcier, moi qui avais tant d'envie d'en
+            
+            voir un. 
+            
+            Je le savais. 
+            
+            Vous le saviez ? 
+            
+            L'ENCHANTEUR. 
+            
+            PÉKINET. 
+            
+            L'ENCHANTEUR, å hautc voir. 
+            
+            Je sais tout. 
+            
+            PÉKINET. 
+            
+            Tout ! eh ben ! c'est toujours ça que vous savez de plus
+            
+            que moi. Mais parlons plus bas, parce que je ne veux pas
+            
+            qu'on sache que je cause avec un sorcier, surtout la p'tite
+            
+            femme que je vas épouser conjugalement ; car croiriez-vous
+            
+            que Michelette est assez simple et assez superstitieuse pour
+            
+            ne pas
+            
+            croire aux sorciers ? 
+            
+            L'ENCHANTEUR. 
+            
+            Toi, tu y crois donc bien fermement ? 
+            
+            PÉKINET. 
+            
+            Tiens ! si à mon âge je ne croyais pas aux sorciers, ça se
+            
+            rait fort ! est-ce que vous m'prenez pour un enfant ? J'y
+            
+            croyons tant au contraire, que j' sommes toute la journée à
+            
+            lire des histoires de fées. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Gai coco. </stage>
+            
+            
+                    <l>Les contes d' ma mèr' l'Oie</l>
+                    <l>Me font pleurer de joie ;</l>
+                    <l>Il faut ben que j'y croie,</l>
+                    <l>Dès que c'est la vérité…</l>
+                    <l>En plantant mes carottes,</l>
+                    <l>Je vois des fé's Nabottes,</l>
+                    <l>Et même à propos d' bottes,</l>
+                    <l>Je pense au chat botté.</l>
+                    <l>Mon Riquet à la houppe</l>
+                    <l>M' fait oublier la soupe ;</l>
+                    <l>Pour lir' ma Barbe bleue,</l>
+                    <l>Hier j'ai pas fait ma queue…</l>
+                    <l>Ça m'empêch' de dormir,</l>
+            
+                    5
+            
+                    <l>Dieu me damne,</l>
+                    <l>Quel plaisir !</l>
+                    <l>Enfin, de ma peau d'âne,</l>
+                    <l>Je ne peux pas sortir.</l>
+                </lg>
+            </div>
+            
+            
+            Aussi tout ça me trotte dans la tête, ces beaux palais, ces
+            
+            richesses, et ça me rend ambitieux comme tout. 
+            
+            L'ENCHANTEUR, à part. 
+            
+            De l'ambition ! je le tiens. 
+            
+            PÉKINET. 
+            
+            Parbleu, monsieur le sorcier, vous vepez à propos : je me
+            
+            marie aujourd'hui, et vous sériez bien aimable de me faire
+            
+            un cadeau. 
+            
+            L'ENCHANTEUR. 
+            
+            Je ne demande pas mieux que de te faire un présent de
+            
+            noce ; mais alors j'exige…
+            
+            PÉKINET. 
+            
+            Quoi ? 
+            
+            L'ENCHANTEUR. 
+            
+            Que tu restes garçon. 
+            
+            PÉKINET. 
+            
+            A l'occasion de mon mariage ? Qu'est-ce que vous dites
+            
+            donc là ? 
+            
+            L'ENCHANTEUR. 
+            
+            Oui, cede-moi ta future, et en échange je t'assure une
+            
+            existence honorable et indépendante dans l'île des Géans. 
+            
+            PÉKINET. 
+            
+            Vous êtes bien honnête, et je vous en ai la même obliga
+            
+            tion. Mais d'abord je n'ai pas la taille, et puis je tiens à Mi
+            
+            chelette. Comme vous y allez ! rester garçon ! 
+            
+            L'ENCHANTEUR. 
+            
+            C est à ce prix que ton grand-père obtint la protection de
+            
+            la fée Urgande, qui depuis deux mille trois cent dix-sept
+            
+            ans partage avec moi la paissance cabalistique. 
+            
+            PÉKINET. 
+            
+            C'est possible ! … maiş ça ne se peat pas. 
+            
+            L'ENCHANTEUR. 
+            
+            Tu hésites… quand je t'offre la gloire, l'honneur, un
+            
+            poste élevé ? 
+            
+            PÉKINET. 
+            
+            Je sais ben que dans l'île des Géans c'n'est pas les gran
+            
+            deurs qui me manqueront. Tout ça est bien tentant, mais je
+            
+            vous demande à réfléchir. 
+            
+            L'ENCHANTEUR. 
+            
+            (Musique.)
+            
+            J'y consens, réfléchis. On s'approche, adieu ; bientôt tu
+            
+            me reverras. (A part.) A tout prix, 
+            
+            il faut que Michelette
+            
+            in'appartienne. 
+            
+            (Il sort en dissimulanl.). 
+            
+            6
+            
+            SCENE III. 
+            
+            PEKINET, V'ILAGEOIS, VILLAGEOISES, arrivant par le fond, 
+            
+            ensuite MICHELETTE, TIIOMAS, MARCELLE, sor
+            
+            tant de la chaumière. 
+            
+            CHOEUR
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR de Joconde. </stage>
+            
+            
+                    <l>Nous v'là tous</l>
+                    <l>Sur la place du village ;</l>
+                    <l>Nous v'là tous</l>
+                    <l>À l'heure du rendez-vous,</l>
+                    <l>Pour célébrer vo' mariage,</l>
+                    <l>Nous avons quitté l'ouvrage.</l>
+                    <l>Nous v'là tous,</l>
+                    <l>Nous n'attendons plus que vous.</l>
+            
+                    MICHELETTE. 
+            
+                    <l>V'là déjà qu'on sonn' les cloches ! …</l>
+                    <l>Pékinet… mais qu'a-t-il-donc ?</l>
+            
+                    THOMAS. 
+            
+                    <l>Il rest' les mains dans ses poches !</l>
+            
+                    MARCELLE. 
+            
+                    <l>A-t-il perdu la raison ? …</l>
+            
+                    MICHELETTE. 
+            
+                    <l>Avec nous tout le village</l>
+                    <l>Se rend chez le tabellion…</l>
+            
+                    THOMAS. 
+            
+                    <l>Est-c' qu'un jour de mariage,</l>
+                    <l>On reste en bonnet d' coton !</l>
+            
+                    PÉRINET, distrait, avec importance. 
+            
+                    <l>C'est bon ! c'est bon ! c'est bon !</l>
+                    <l>Je suis plongé dans la réflexion !</l>
+            
+            
+            
+                    Veux-tu ben rentrer tout de suite t'habiller, paresseux ! 
+            
+                    MARCELLE, l'interrompant. 
+            
+                    PÉKINET. 
+            
+                    Elle est aimable, ma tante Marcelle. Ah ! ça, ma tante, 
+            
+                    avez-vous sorti mes affaires de la commode ? mon babit neuf, 
+            
+                    inon jabot, mes bas ? 
+            
+                    MARCELLE. 
+            
+                    Tais-toi, tout est prêt. Habille-toi, et vas te marier tout
+            
+                    de suite. 
+            
+                    PÉKINET. 
+            
+                    Va te marier tout de suite ! … Elle croit que je n'ai que ça
+            
+                    à faire. (A part.) J'ai promis de réfléchir… faut bien que je
+            
+                    réfléchisse. 
+            
+                    THOMAS. 
+            
+                    Dis donc, est-ce que ma fille est faite pour
+            
+                    t'attendre ? 
+            
+                    Ecoutez donc… peut-être…
+            
+                    PEKINET, avec importance. 
+            
+                    my
+            
+                    MARCELLE. 
+            
+                    Ah ! peut-être… malhonnête… Tiens ! …
+            
+                    (Elle lui donne un soufflet.)
+            
+                    PÉKINET. 
+            
+                    Ah ben ! si vous m'interrompez, c'est ridicule ! 
+            
+                    THOMAS, aux paysans. 
+            
+                    Voyons, mes enfans, en attendant le marié, venez boire
+            
+                    un coup chez moi. 
+            
+                    TOUS. 
+            
+                    C'est ça, c'est ça ; au revoir, Pékinet. 
+            
+                    MARCELLE, le menaçant. 
+            
+                    Et dépêche-toi ! Sinon, tu auras affaire à moi ! …
+            
+                    REPRISE DU CHOEUR. 
+            
+                    <l ana="unanalyzable">Nous v'là tous, etc.</l>
+                </lg>
+            </div>
+            SCÈNE IV. 
+            
+            PÉKINET, seul. 
+            
+            N'y a pas à dire, faut se marier à présent, bien que ça
+            
+            déplaise à monsieur l'enchanteur ; cependant, réfléchissons
+            
+            comme il m'a dit… C'est gentil de se marier, mais c'est beau
+            
+            d'être riche… Je sais bien qu'on me dira que j'ai ce qu'il
+            
+            me faut, et qu'à la rigueur, je pourrais aller comme ça. Une
+            
+            petite maisonnette, un petit jardin, une petite femme que
+            
+            je vais avoir ; mais tout ça, c'est vergéter…
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : L'autre jour la p'tite Isabelle. </stage>
+            
+                    <l>Quand on pens' qu'y a des provinces,</l>
+                    <l>Au midi, p't-être ben au nord,</l>
+                    <l>Où les paysans sont tous princes,</l>
+                    <l>Où les poules font des œufs d'or ;</l>
+                    <l>Où les merles</l>
+                    <l>Portent des perles ;</l>
+                    <l>Où les côteaux</l>
+                    <l>Sont des gâteaux ;</l>
+                    <l>Où les fontaines</l>
+                    <l>Sont toujours pleines</l>
+                    <l>D' vin d' Bordeaux ;</l>
+                    <l>Où l'on n' pense</l>
+                    <l>Qu'à fair' bombance…</l>
+            
+            
+            
+                    (Parlant.) Où les allouettes tornbent toutes rôties ; où les
+            
+                    pavés sont en diamans ; où tout le monde roule carosse sans
+            
+                    être obligé de prendre les Omnibus… où les arbres sont en
+            
+                    argent… ce qui doit être agréable à la chute des feuilles…
+            
+                    où l'on ne paie pas les impôts des portes et fenêtres, et cætera ; 
+            
+                    et cætera…
+            
+                    8
+            
+                    Fin de l'air. 
+            
+                    <l>On doit jouir d'un' certaine aisance,</l>
+                    <l>Dans un pays comm' celui-là.</l>
+            
+                </lg>
+            </div>
+            Mais je voudrais partager tout ça avec Michelette ! … Je
+            
+            crois que voilà assez de réflexions ; j'ai promis de réfléchir, 
+            
+            j'ai réiléchi ; maintenant rentrons, et allons toujours mettre
+            
+            ines habits de noces. (Il va pour rentrer chez lui, et s'aperçoit
+            
+            que des nuages descendent devant sa porte et lui interceptent
+            
+            l'entrée de sa maison.) Eh bien ! ai-je la berlue ? ina maison
+            
+            est déménagée ? 
+            
+            UNE voix, sortant du nuage. 
+            
+            Rassure-toi, Pékinet ! 
+            
+            PÉKINET. 
+            
+            Qu'est-ce qu'appelle ? Ah ! mon Dieu ! v'là mes cheveux
+            
+            qui se redresssent sous mon bonnet de coton ! …
+            
+            SCÈNE v. 
+            
+            URGANDE, PÉKINET. 
+            
+            URGANDE, sortant du nuage sur un conque de saphir trainée
+            
+            C'est moi, Pékinet, ne crains rien. 
+            
+            par huit papillons. 
+            
+            PÉKINET, ótant son bonnel et le mettant dans sa poche. 
+            
+            Ah ! mon Dieu, qu'est-ce que c'est que ça ? 
+            
+            URGANDE. 
+            
+            Pour prix d'un bienfait que j'ai reçu de tes aïeux, depuis
+            
+            trois cents ans je protége ta famille. 
+            
+            PÉKINET, avec joie. 
+            
+            C'est la fée Urgande ! … Depuis trois cents ans, c'est une
+            
+            justice à vous rendre, vous ne paraissez pas votre âge. 
+            
+            URGANDE. 
+            
+            C'est pourquoi j'ai voulu être ta inarraine. 
+            
+            PÉKINET. 
+            
+            Ma marraine ! … Alors je vous demande bien pardon si je
+            
+            ne vous ai pas envoyé un billet de faire-part, mais je ne sa
+            
+            vions pas votre adresse… J'épousons Michelette. Il y avait
+            
+            trente-quatre filles à marier dans l'endroit, c'est la seule
+            
+            pour qui j'ai eu des idées. 
+            
+            Ainsi tu es content de ton sort ? 
+            
+            PÉKINET. 
+            
+            U &amp; amp ; GANDE. 
+            
+            Oh ! dam ! content, coussi coussa ! je n' sommes pas riche, 
+            
+            voyez-vous, et vraiment, vous qui êtes fée et moi qui soin
+            
+            mes vot' filleul, comme vous ne m'avez rien donné à mon
+            
+            baptême, vous devriez bien…
+            
+            9
+            
+            URGANDE. 
+            
+            Demande : d'un coup de baguette je puis te rendre le plus
+            
+            riche de tous les hommes. 
+            
+            PÉKINET. 
+            
+            C'est-y vrai ! oh ! ben alors, marraine, tapez, tapez, je
+            
+            n' craignons pas les coups de bâton…
+            
+            URGANDE. 
+            
+            (Il tend le dos) 
+            
+            Je m'en yarderais bien, tu serais trop à plaindre : pour
+            
+            être heureux, il faut que l'homme ait toujours quelque
+            chose à souhaiter. 
+            
+            PÉKINET. 
+            
+            Alors j' devons être furieusement heureux ! … Et puis je
+            
+            sis ambitieux… comme un maître d'école ! … c'est plus fort
+            
+            que moi l'annbition ! …
+            
+            URGANDE. 
+            
+            Eh bien ! je vais inettre la tienne à l'épreuve : je te donne
+            
+            pendant une heure le pouvoir d'obtenir tout ce que tu
+            désireras. 
+            
+            PÉKINET. 
+            
+            Vraiment ? ça s'rait possible ! … tout ce que je désirerai ! …
+            
+            URGANDE. 
+            
+            J'y mets cependant une condition, une seule, mais elle est
+            
+            bien importante ! 
+            
+            PÉKINET. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Mes yeux disaient le contraire. </stage>
+            
+            
+                    <l>Mettez-en tant que vous voudrez,</l>
+                    <l>Je suivrons vos lois à la lettre ;</l>
+                    <l>À tout c' que vous m'ordonnerez,</l>
+                    <l>Marrain', je jur' de me soumettre.</l>
+            
+                    URGANDE. 
+            
+                    <l>À chaque désir qui naîtra,</l>
+                    <l>Les objets qui pourront te plaire,</l>
+                    <l>Pour les obtenir, il faudra</l>
+                    <l>Me demander tout le contraire.</l>
+                </lg>
+            </div>
+            
+            
+            Tiens, à cause donc ? deinander le contraire ? …
+            
+            URGANDE. 
+            
+            Tel est ma volonté irrévocable. Si tu veux être riche, 
+            
+            il
+            
+            faut demander la pauvreté ; soubaite une chaumière, lu au
+            
+            ras un palais. 
+            
+            C'est drôle au fait…
+            
+            PÉKINET. 
+            
+            URGANDE. 
+            
+            Si tu étais capable d'une mauvaise pensée, et que dans le
+            
+            premier moment de la colère elle t'échappât, la mauvaise
+            
+            pensée deviendrait à l'instant une bonne action ; tu vois que
+            
+            je te inets à l'abri de toi-même. 
+            
+            10
+            
+            PÉKINET. 
+            
+            Ainsi, je pourrons donc obtenir tout ce que je désirerons
+            
+            et je n'aurons rien à craindre. 
+            
+            URGANDE. 
+            
+            Tu n'as à redouter que ton rival, un célèbre enchånteur, 
+            
+            amoureux de Michelette…
+            
+            PÉKINET. 
+            
+            Ah ! je sais, je sais ! … un nominé Gondisco… cascabar…
+            
+            URGANDE. 
+            
+            Mais il ne peut la posséder que si tu la remets toi-même, 
+            
+            entre ses mains. 
+            
+            PÉKINET. 
+            
+            Alors il n'y a pas de risque ; dites donc, marraine, à présent
+            
+            que j'allons être un queuqu'un, est-ce que vous ne pourriez
+            
+            pas me détortiller un peu ma langue de paysan, et me faire
+            
+            parler comme un monsieur de la ville, pisque je va-t'être
+            
+            riche comme eux ? 
+            
+            URGANDE, elle lui touche les lèvres avec sa baguetie. 
+            
+            Tiens, voilà la grammaire et la syntaxe d'un seul coup de
+            
+            baguette. 
+            
+            PÉKINET, après avoir remué les lèvres. 
+            
+            Déjà ! ça va encore plus vite que la méthode de M. Ja
+            
+            cotos, et ça ne fait pas autant de mal que l'ancienne mé
+            
+            thode. 
+            
+            Adieu. 
+            
+            URGANDE. 
+            
+            PÉKINET. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Gymnasiens, remettons à quinzaine (de Victorine).</stage>
+            
+            
+                    <l>Allons, adieu, ma gentille marraine,</l>
+                    <l>Je vous promets d' bien user d' mon pouvoir ;</l>
+                    <l>Quand vous partez, ah ! croyez à ma peine,</l>
+                    <l>Mais n' soyons plus si long-temps sans nous r'voir.</l>
+                    <l>Bon soir <stage type="repetition"> (bis) .</stage></l>
+            
+                    URGANDE. 
+            
+                    <l>Je vais gagner ma céleste demeure,</l>
+                    <l>Songe au traité que le sort t'imposa ;</l>
+                    <l>Et souviens-toi surtout, que dans une heure,</l>
+                    <l>À tout jamais ton pouvoir finira.</l>
+            
+                    ENSEMBLE. 
+            
+                    <l>Allons, adieu, compte sur ta marraine,</l>
+                    <l>Mais sagement use de ton pouvoir ;</l>
+                    <l>Suis mes conseils et bientôt pour ta peine,</l>
+                    <l>Je te promets de venir te revoir.</l>
+                    <l>Bon soir <stage type="repetition"> (bis.)</stage></l>
+            
+                    PÉKINET. 
+            
+                    <l ana="unanalyzable">Allons, adieu, ma gentille marraine, etc.</l>
+            
+                </lg>
+            </div>
+            
+            (Organde remonte sur son char qui disparaît.)
+            
+            SCÈNE VI. 
+            
+            PÉKINET, seul, remettant son bonnet. 
+            
+            Bon voyage, aimable fée ! adieu, être fantastique et aérien…
+            
+            elle semble dévorer l'espace ! tiens, mais, au faut, c'est
+            
+            vrai que je m'énonce bien à présent, il me semble sortir
+            
+            d'un rêve ! oui, mais il ne faut pas perdre de temps, je n'ai
+            
+            qu'une heure devant moi ; il ne s'agit plus de réfléchir main
+            
+            tenant, il s'agit de désirer quelque chose ; voyons, qu'est-ce
+            
+            je veux ? que veux-je ? 
+            
+            SCÈNE VII. 
+            
+            PÉKINET, MICHELETTE, THOMAS, MARCELLE, sortant
+            
+            de la maison de Thomas. Puis villageois, VILLAGEOISES. 
+            
+            CHOEUR, dans l'intérieur de la maison. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Il faut rire, il faut boire (Dame Blanche).</stage>
+            
+            
+                    <l>En avant la bouteille !</l>
+                    <l>En avant les flonflons !</l>
+                    <l>Tout-à-l'heur' sous la treille,</l>
+                    <l>Amis, nous danserons.</l>
+                </lg>
+            </div>
+            
+            
+            THOMAS, revenant en scène. 
+            
+            J'espère que mon gendre est enfin prêt, c'te fois-ci ! …
+            
+            MARCELLE, arrivant et l'aperçevant. 
+            
+            Oh ! pour le coup, 
+            
+            c'est trop
+            
+            fort ! 
+            
+            encore au même point
+            
+            que tout à l'heure ! 
+            
+            THOMAS
+            
+            Dis donc, faiseur d'embarras, est-ce que tu te moques de
+            
+            nous et de not' fille ? réponds à la fin. 
+            
+            PÉKINET, avec emphase. 
+            
+            Il faudrait que vous vous exprimassiez autrement pour
+            
+            que je vous répondisse. 
+            
+            MARCELLE. 
+            
+            Qu'est-ce qu'il dit là ? exprimassiez ! répondisse ! Est-ce
+            
+            qu'il est devenu imbécille ? 
+            
+            THOMAS. 
+            
+            J'vous disons qu'il se moque définitivement d' nous. 
+            
+            MICHELETTE
+            
+            C'est vrai qu'il est tout chose…
+            
+            PÉKINET, faisant la grimace. 
+            
+            Ah ! tout chose ! … ne parlez donc pas comme ça… je me
+            
+            moque de vous ; cependant il est péremptoire qu'instantana
+            
+            ment c'est plutôt vous qui prenez l'initiative…
+            
+            12
+            
+            THOMAS. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Vaudeville du Dîner de garçons. </stage>
+            
+            
+                    <l>Ah ! ça, queu diable de jargon !</l>
+            
+                    PÉKINET. 
+            
+                    <l>C'est un langage romantique ;</l>
+                    <l>Mais j'aurais pu d'mander le don</l>
+                    <l>D'être moins amphibologique…</l>
+            
+                  
+                    MICHELETTE. 
+            
+                    <l>D' s'entendre avec lui pas moyen…</l>
+            
+                    MARCELLE. 
+            
+                    <l>Chaqu' mot qu'il dit est un problème…</l>
+            
+                    PÉKINET. 
+            
+                    <l>Parbleu, mes amis, je crois bien</l>
+                    <l>Qu'aucun de vous n'y comprend rien…</l>
+                    <l>Car je n'y comprends rien moi-même.</l>
+                </lg>
+            </div>
+            
+            
+            Avec un langage comıne celui-là, je voudrais avoir de l'es
+            
+            prit. ! Avec stupéfaction.). Ah ! mon Dieu ! qu'est-ce que je
+            
+            viens de dire lá ! j'ai souhaité de l'esprit ; je suis sûr qu'à
+            
+            présent je suis bête comme une oie… Mes amis, mes amis. 
+            
+            (Tous les villageois s'approchent de lui.) Est-ce que vous ine
+            trouvez bête ? 
+            
+            Oui, oui, tu es bête. 
+            
+            TOUS. 
+            
+            PÉKINET. 
+            
+            J'en étais sûr… mais j'y pense ! … au fait, il ne tient qu'à
+            
+            moi… je n'ai qu'à demander tout le contraire… (Après une
+            
+            pause et d'un air solennel.) Je veux être bête ! … (Regardant les
+            
+            autres.) Voilà…
+            
+            THOMAS. 
+            
+            Eh ! bien tu l'es comme à ton ordinaire
+            
+            PÉKINET. 
+            
+            Non, non, au contraire, je suis plein d'esprit à présent…
+            
+            c'est que vous ne savez pas… (Avec mystère.) Apprenez que
+            
+            la fée Urgande, ma marraine, m'a donné une heure de pou
+            voir…
+            
+            Il est fou ! il est fou ! 
+            
+            TOUS. 
+            
+            THOMAS, se fachant. 
+            
+            Définitivement, veux-tu de ma fille ou n'en veux-tu pas ? 
+            
+            est-ce que tu crois que le bédeau est fait pour t'attendre ? 
+            
+            PÉKINET, ricannant. 
+            
+            Il s'agit bien de bédeau ! 
+            
+            THOMAS. 
+            
+            Tu n'as pas de honte de te présenter sous ce costume, tan
+            
+            dis que nous somnincs tous endimanches ! 
+            
+            13
+            
+            PÉKINET, en colère. 
+            
+            Laissez-inoi tranquille, père Thomas, je veux que vous
+            
+            soyez mieux habillé que moi. 
+            
+            (Musique au même instant ; Thomas se trouve cou
+            
+            vert de baillon.)
+            
+            MARCELLE, furieuse. 
+            
+            Ah ! quelle horreur ! 
+            
+            THOMAS. 
+            
+            Qu'est-ce que c'est que ça ? 
+            
+            TOUS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : J'ai perdu mon couteau. </stage>
+            
+            
+                    <l>Ah ! le maudit sorcier ! <stage type="repetition"> (bis) </stage></l>
+                    <l>Comme il vient <stage type="repetition"> (bis) </stage> d'm' <del hand="TK" type="alternative" reason="analysis">l'</del> habiller !</l>
+                    <l>Mais tu vas nous l' payer ;</l>
+                    <l>V'là pour te remercier,</l>
+                    <l>V'là pour toi, chien d' sorcier !</l>
+            
+                    (Ils le battent.)
+            
+                    PÉKINET, à lui-même. 
+            
+                    <l>La maudit' condition !</l>
+                    <l>J'ai pas fait attention.</l>
+                    <l><stage> (Haut.) </stage> Mais c'est sans intention…</l>
+                    <l><stage> (Riant.)</stage> L'espèr', Thomas, est-il cocasse !</l>
+                    <l>Il n' lui manqu' plus qu'un' besace.</l>
+            
+                    THOMAS, MARCELLE ET MICHELETTE, 
+            
+                    <l>Il ose rire encor <stage type="repetition"> (bis) </stage> ?</l>
+            
+                    MARCELLE, lui donnant un soufflet. 
+            
+                    <l>Pour le coup, c'est trop fort.</l>
+            
+                    PÉKINET, se frottant la joye. 
+            
+                    <l>Oui, ma tant', c'est trop fort.</l>
+            
+            
+            
+                    Et devant tout le village ! c'est une injustice ! 
+            
+                    Taisez-vous, monsieur, c'est affreux ! 
+            
+                    MICHELETTE. 
+            
+                    (Parlant et pleurant.)
+            
+                    PÉKINET. 
+            
+                    1
+            
+                    Quand je vous dis…
+            
+                    THOMAS, le poursuivant. 
+            
+                    Laisse-nous tranquilles, va-t'en au diable ! 
+            
+                    REPRISE DU CHŒUR. 
+            
+                    <l ana="unanalyzable">Ah ! le maudit sorcier ! etc.</l>
+            
+                    PÉKINET. 
+            
+                    <l>Vous avez beau crier, <stage type="repetition"> (bis) </stage></l>
+                    <l>Oui, je suis <stage type="repetition"> (bis) </stage> un sorcier,</l>
+                    <l>Et je sais mon métier ;</l>
+                    <l>Ne v'nez pas m'ennuyer,</l>
+                    <l>Vous pourriez me l' payer…</l>
+                    <l>Craignez tout d'un sorcier !</l>
+                </lg>
+            </div>
+            
+            (Tous les autres, excepté Michelette, sortent après l'avoir
+            
+            repoussé et menacé avec indignation.)
+            
+            14
+            
+            SCENE VIII. 
+            
+            PÉKINET, MICHELETTE. 
+            
+            MICHELETTE. 
+            
+            Voilà donc, monsieur, à quoi vous sert d'être le filleul
+            
+            d'une fée ? 
+            
+            PÉKINET, perdant la tête. 
+            
+            Ecoute, ma petite Michelette, tu ne peux pas savoir ; il y
+            
+            a des raisons… Avec tout ça, le
+            
+            temps se passe. 
+            
+            (Il tire une petite montre d'argent.)
+            
+            MICHELETTE. 
+            
+            Vous perdez votre temps auprès de moi ! c'est honnête ! 
+            
+            PÉKINET. 
+            
+            Allons, voilà qu'elle se fâche. 
+            
+            MICHEIETTE. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Vraiment, monsieur Joconde (Somnambule villageoise).</stage>
+            
+            
+                    <l>Vous qui n' pouviez attendre,</l>
+                    <l>Qu'on r'mît au lendemain</l>
+                    <l>Notre hymen.</l>
+                    <l>Vous, si pressé, si tendre…</l>
+                    <l>Vous refusez ma main…</l>
+                    <l>Fi ! qu' cest vilain !</l>
+                    <l>Dieu ! quel chagrin !</l>
+                    <l>Je l'sens là, <stage type="repetition"> (bis) </stage></l>
+                    <l>Je n' peux plus attendr' comm' ça.</l>
+            
+                    PÉKINET, 
+            
+                    <l>Mon Dieu ! quelle tendresse !</l>
+                    <l>Un pareil sentiment,</l>
+                    <l>C'est assommant !</l>
+                    <l>Tu tiens à ma promesse,</l>
+                    <l>Tu m'ador's, je t'entends ;</l>
+                    <l>Mais, dame, attends,</l>
+                    <l>Je n'ai pas l' temps…</l>
+                    <l>On verra, <stage type="repetition"> (bis) </stage></l>
+                    <l>Faut-il être aimé comm' ça !</l>
+                </lg>
+            </div>
+            
+            
+            MICHELETTE. 
+            
+            Vous faites votre important ? croyez-vous qu'oa ne peut
+            
+            pas trouver dans le village un mari qui vous vaille ? 
+            
+            PÉKINET. 
+            
+            Oui, trouvez des filleuls de fée, je vous en souhaite. 
+            
+            MICHELETTE. 
+            
+            Avec ça qu'ils sont gentils ! 
+            
+            PÉKINET. 
+            
+            Je suis peut-être mal ? d'ailleurs, si je ne suis plus beau, la
+            
+            faute à qui ? A vous. 
+            
+            15
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : V a-t-en voir s'ils viennent. </stage>
+            
+            
+                    <l>Que v'nez-vous m' chanter ici</l>
+                    <l>Avec ce ton aigre ?</l>
+                    <l>C'est l'amour qui m'a maigri…</l>
+                    <l>C'est pir' que l' vinaigre.</l>
+                    <l>Croyez-vous me fair' la loi,</l>
+                    <l>M' traiter comme un nègre ?</l>
+                    <l>Je veux être maigre,</l>
+                    <l>Moi !</l>
+                    <l>Je veux être maigre.</l>
+                </lg>
+            </div>
+            
+            
+            (Au même instant son corps s'enfle d'une manière prodigieuse.)
+            
+            Ah mon Dieu ! qu'est-ce que c'est ? comme j'engraisse ! mne
+            
+            voilà joliment dans les ventrus ? 
+            
+            MICHELETTE, riunt. 
+            
+            Ah ! ah ! ah ! 
+            
+            PÉKINET. 
+            
+            C'est vous qui me faites dire des bêtises. 
+            
+            MICHELETTE
+            
+            C'est vous qui en faites : monsieur, vous avez
+            
+            un pacte
+            
+            avec le diable. 
+            
+            Laissez-moi donc tranquille ! 
+            
+            PÉKINET. 
+            
+            MICHELETTE. 
+            
+            Mais vous m'épouserez ! … vous l'avez promis, vous l'a
+            
+            vez juré ! …
+            
+            PÉKIN ET, tirant une montre énorme
+            
+            Ah ! mon Dieu ! … ma montre, qui est engraissée aussi…
+            
+            deux heures vingt une minute ! … miséricorde ! … (Renvoyant
+            
+            Michelette.) C'est fini, ne me parlez plus de noce, de ma
+            
+            riage…
+            
+            je déteste les feinmes, je voudrais être dans un pays
+            
+            où il n'y en eût pas une seule ! …
+            
+            (Musique, bruit de limballes ; Michelette s'est sauvée dans
+            
+            la chaumière.)
+            
+            DEUXIÈME TABLEAU.-L'ILE DES FEMMES. 
+            
+            SCÈNE IX. : 
+            
+            ZOLOÉ, PÉKINÉT. 
+            
+            (Le théâtre change et représente l'intérieur d'un palais ouvert sur
+            
+            des jardins, dans l'ile des femmes. L'orchestre joue la marche
+            
+            des Deux Journées, une patrouille passe.)
+            
+            ZOLOÉ, placée en sentinelle, à Pékinet, du fond du théâtre. 
+            Qui vive ? 
+            
+            Tiens, une sentinelle en jupons…
+            
+            PÉKINET. 
+            
+            Qui vive ? 
+            
+            ZOLOÉ, tournant sa lance vers lui. 
+            
+            16
+            
+            PÉKINET, elrayé. 
+            
+            Ah ! ah ! arrêtez ! … bourgeois ! bourgeois… que diable
+            
+            faites donc attention, je suis un boinme et pas une bête…
+            
+            Un homme ! serait-il possible ! …
+            
+            PÉKINET. 
+            
+            ZOLOÉ. 
+            
+            Comment, si c'est possible ? …
+            
+            ZOLOÉ, à la cantonnade. 
+            
+            Aux armes ! … que l'on batte le rappel…
+            
+            On bat le rappel dans le lointain.)
+            
+            PÉKINET, à lui-même. 
+            
+            Tiens le rappel… il parait que je fais émeute…
+            
+            SCÈNE X. 
+            
+            PÉKINET, ZOLOÉ, ZAMIRA, suivie des autres habitantes de
+            
+            l'ile, vêtues en Amaçones, en sauvages, armées de lances ; ou
+            
+            costumées en femmes mais ayant des vestes, des schakoś de
+            
+            hussards, et alors des sabres et des carabines, 
+            
+            CHOEUR. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : À table ! à table ! </stage>
+            
+            
+                    <l>Un homme ! <stage type="repetition"> (ter) </stage> ô ciel ! en croirai-je mes yeux !</l>
+                    <l>Un homme ! <stage type="repetition"> (ter) </stage> est en ces lieux !</l>
+                </lg>
+            </div>
+            
+            
+            PÉKINET. 
+            
+            Ah ! ça, mais, au fait, où suis-je donc ? 
+            
+            ZOLOÉ. 
+            
+            Dans l'île des femmes, où, de mémoire d'homme, il n'en
+            
+            a paru un seul…
+            
+            PÉKINET. 
+            
+            Comment ? il n'y a que des femmes dans ce pays-ci ? 
+            
+            ZCLOÉ. 
+            
+            Sans doute. 
+            
+            PÉKINET, à lui-même. 
+            
+            C'est ça, juste le contraire de ce que je voulais… (Aux
+            
+            femmes.) Et vous n'avez jamais vu un homme ? 
+            
+            TOUTES. 
+            
+            Jamais. 
+            
+            PÉKINET, d'un air de doute. 
+            
+            Allons, c'est égal, puisque vous le dites…
+            
+            ZAMIRA, étonnée. 
+            
+            Ah ! mais regardez-donc… que c'est beau un homme ! …
+            
+            que
+            
+            ZOLOÉ. 
+            
+            C'est superbe ! … Comme il ressemble à notre singe ca
+            
+            rabo ! 
+            
+            (Les femmes l'entourent et se prosternent devant lui.)
+            
+            PÉKINET. 
+            
+            Eh ben ?. elles se mettent à mes genoux ? 
+            
+            17
+            
+            ZOLOÉ. 
+            
+            Elles font leur devoir… Il est écrit dans nos chartes que
+            
+            si
+            
+            jamais le hasard jetait sur nos bords inaccessibles un être hu
+            
+            main de ton sexe, nous le reconnaîtrions pour notre roi. 
+            
+            PÉKINET. 
+            
+            Roi… je serais roi ! moi-mêine ? 
+            
+            ZOLOÉ. 
+            
+            Cela ne dépend plus que de toi. 
+            
+            PÉKINET. 
+            
+            Vraiment ? … tiens, cette fois, ina marraine a bien fait
+            
+            avec sa condition… Voyons maintenant, expliquons-nous…
+            je ne veux pas acheter chat en poche. Si je suis votre roi, à
+            
+            quoi ça me servira-t-il ? 
+            
+            ZOLOÉ. 
+            
+            D'abord, tu seras nourri aux frais de l'état. 
+            
+            Oh ! oh ! 
+            
+            Cinq repas par jour. 
+            
+            PÉKINET. 
+            
+            ZAMIRA. 
+            
+            PÉKINET. 
+            
+            J'accepte… (Montrant son gros ventre.). Il y a de la place. 
+            
+            ZOLOÉ. 
+            
+            Toutes les femmes de l'ile t'appartiennent. 
+            
+            Toutes ? 
+            
+            PÉKINET. 
+            
+            ZAMIRA. 
+            
+            Oui, mais il faut changer d'épouse tous les jours. 
+            
+            PÉKINET. 
+            
+            J'accepte ; je suis votre homme. 
+            
+            TOUTES. 
+            
+            Il accepte ! il accepte ! 
+            
+            (Roulement de tambour : les guerrières élèvent les armes
+            
+            en signe d'adhésion.)
+            
+            ZOLOS…
+            
+            Au nom de toutes nos lois immortelles… que nous ne
+            
+            changeons que deux fois par an ; au nom de toutes nos
+            
+            compagnes… je te proclame roi de l'île des Femmes. 
+            
+            Vivat ! vivat ! …
+            
+            TOUTÉS. 
+            
+            ZAMIRA. 
+            
+            (Roulement de tambour.)
+            
+            Nous te demandons la permission de te faire notre cour. 
+            
+            PÉKINET. 
+            
+            Allez, allez… faites-moi la cour… (Elles s'approchent de
+            
+            lui, le caressent et le cajolent.) Allons, pour aujourd'hui, je
+            
+            crois que celle-là… (Montrant Zamira.) Non j'aime mieux
+            
+            celle-ci. (Il montre Zoloé. Zamira le pince.) Aie ! faites donc
+            
+            2
+            
+            18
+            
+            attention… voyons, ne soyez pas jalouses… pour partager le
+            
+            différent, je prendrai celle-ci. 
+            
+            ZAMIRA ET ZOLOế, le pinçant toutes deux. 
+            
+            (Il en montre une troisième.)
+            
+            Vous êtes libre, sire…
+            
+            PÉKINET. 
+            
+            Aie ! aie ! je suis libre, à la bonne heure ! … C'est égal, 
+            
+            c'est fatteur d'être aimé comme ça ! … Me voilà donc roi ! …
+            
+            ma foi, je ne sais plus ce que j'aurais à désirer maintenant. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville des maris ont tort. </stage>
+            
+            
+                    <l>Qu'on m'aime plus qu'on ne me craigne…</l>
+                    <l>Sur un royaume féminin,</l>
+                    <l>Par la grâce d' l'amour je règne…</l>
+                    <l>Ça vaut mieux que le droit divin.</l>
+                    <l>À me voir ici votre maître,</l>
+                    <l>Combien je trouverai d'attraits !</l>
+                    <l>C'est pour le coup que je vais être</l>
+                    <l>Le père de tous mes sujets.</l>
+                </lg>
+            </div>
+            
+            
+            Par exemple, mes nobles épouses, je vous préviens que
+            
+            je veux avoir des enfans superbes… de toute beauté ! …
+            
+            
+            
+            
+                    <stage type="tune">AIR : Ah ! le bel oiseau, maman. </stage>
+            
+            
+                    (Au même instant, on voit arriver plnsieurs petits
+            
+                    enfans en grotesques. Ils arrivent en criant :) 
+            
+                    Papa ! papa ! 
+               
+         
+            
+            
+            TOUTES. 
+            
+            Ah ! mon Dieu, qu'est-ce que c'est que ça ? 
+            
+            PÉKINET, à lui-même. 
+            
+            Encore une erreur ! … mais c'est l'erreur d'un bon père…
+            
+            (A l'un des grotesque.) Baisez papa, vilain loup… et allez
+            
+            jouer. 
+            
+            (Les grotesques sortent.)
+            
+            ZOLOÉ. 
+            
+            Tu ne connais pas encore toutes les prérogatives… Tu
+            
+            auras pour logement le sanctuaire même du temple. 
+            
+            ZAMIRA. 
+            
+            : Où tu seras avec la lionne d'Ethiopie et le crocodile sacré. 
+            
+            Merci ! j'aime mieux une autre société. 
+            
+            PÉKINET. 
+            
+            Impossible ! c'est la loi. 
+            
+            ZAMIRA. 
+            
+            ZOLOÉ. 
+            
+            De plus, après ta mort, tu seras divinisé, adoré, et…
+            
+            empaillé. 
+            
+            PÉKINET. 
+            
+            Ca doit être fort agréable ; mais je tâcherai que ça arrive
+            
+            le plus tard possible. 
+            
+            19
+            
+            ZOLOÉ. 
+            
+            Oui, dans un an, quand tu auras bien rempli tes fonc
+            
+            tions royales. 
+            
+            Et paternelles…
+            
+            ZAMIRA. 
+            
+            ZOLOÉ. 
+            
+            Quand on t'aura bien choyé. 
+            
+            Bien aimé…
+            
+            Bien nourri. 
+            
+            Bien engraissé…
+            
+            ZAMIRA. 
+            
+            ZOLOÉ. 
+            
+            ZAMIRA. 
+            
+            PÉKINET, enchanté. 
+            
+            Elles sont charmantes ! 
+            
+            ZOLOÉ. 
+            
+            On te donnera une grande fête. 
+            
+            Un grand repas. 
+            
+            Un grand concert ! 
+            
+            ZAMIRA. 
+            
+            ZOLOÉ, 
+            
+            PÉKINET, 
+            
+            se pamant. 
+            
+            Oh ! moi qu'aime la musique ! 
+            
+            ŻAMIRA. 
+            
+            Un grand feu d'artifice…
+            
+            PÉKINET. 
+            
+            Oh ! … avec des chandelles romaines ? 
+            
+            ZOLOÉ. 
+            
+            Après quoi… tu seras brûlé vif à petit feu. 
+            
+            PÉKINET. 
+            
+            A petit feu ! … miséricorde ! …
+            
+            20LOÉ. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Je ne vois plus ces bosquets de lauriers. </stage>
+            
+            
+                    <l>Ne te plains pas ! ainsi le veut la loi.</l>
+            
+                    PÉKINET. 
+            
+                    <l>Moi, je n' veux pas ; avant fallait donc l' dire…</l>
+                    <l>Diable, chez vous quand on est roi,</l>
+                    <l>Il paraîtrait que ce n'est pas pour rire.</l>
+                    <l>Avec un peuple si changeant,</l>
+                    <l>Un pareil poste est par trop bête ;</l>
+                    <l>On n'a pas le moindre agrément,</l>
+                    <l>Et, t'nez, je vous l' dis franchement,</l>
+                    <l>J'ai d' la couronn' par d'ssus la tête.</l>
+                </lg>
+            </div>
+            
+            
+            ZOLOÉ, d'un ton menaçani. 
+            
+            Tu ne veux plus régner sur nous ? 
+            
+            PÉKINET, s'éloignant à gauche. 
+            
+            Non, non, j'abdique. 
+            
+            20
+            
+            LES FEMMES, rassemblées à droite. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Barbier. </stage>
+            
+                    <l>Allons, vengeance !</l>
+                    <l>Que l'ordonnance</l>
+                    <l>S'exécute au nom de la loi.</l>
+                    <l>Ici, sur l'heure,</l>
+                    <l>Il faut qu'il meure !</l>
+                    <l>Fer en main frappez comme moi.</l>
+                </lg>
+            </div>
+            
+            
+            (Elles lèvent toutes leurs armes sur lui. Tableau.)
+            
+            SCÈNE XI. 
+            
+            LES MÊMES, MICHELETTE
+            
+, en jeune négresse esclave. 
+            
+            MICHELETTE, se jetant à genoux au-devant de lui. 
+            
+            Grâce ! grâce ! 
+            
+            PÉKINET. 
+            
+            Un instant, un instant, je r'accepte… je resuis roi ! je
+            
+            resuis roi ! (A part.) Pas pour long-teinps… Ah ! ma pauvre
+            
+            Michelette, où es-tu ? …
+            
+            (Toutes les armes s'abaissent.)
+            
+            ZOLOÉ. 
+            
+            Allons, c'est bien ! … Maintenant, qu'ordonnez-vous ? 
+            
+            Qu'ordonne notre époux et seigneur ? …
+            
+            PEKINET. 
+            
+            MICHELETTE
+            
+            Votre époux ! comment, c'est ma femme aussi, cette noi
+            
+            raude-là ? 
+            
+            ZAMIRA. 
+            
+            (Il recule.)
+            
+            Tout comme une autre. 
+            
+            MICHELETTE, à Pékinet. 
+            
+            Ne me repoussez pas ; je ne puis être heureuse qu'auprès
+            
+            de rous. 
+            
+            (Musique. Aur : Manche des Tartares.)
+            
+            SCÈNE XII. 
+            
+            LES PRÉCÉDENS, L'ENCHANTEUR, déguisé en Bohémien, 
+            
+            ESCLAVES DE SA SUITE. 
+            
+            (Les esclaves entrent et défilent au son de la musique.)
+            
+            Encore des hommes ! 
+            
+            LES FEMMES. 
+            
+            PÉKINET, se plaçant devant les femmes, à droite. 
+            
+            De quel droit ose-t-on pénétrer dans mes états ? 
+            
+            21
+            
+            L'ENCHANTEUR. 
+            
+            Je suis le chef de l'ile de Missaroumara. 
+            
+            PÉKINET, vivement. 
+            
+            Missaroumara… je connais pas. 
+            
+            L'ENCHANTEUR, continuant. 
+            
+            Je suis souverain d'un pays où il n'y a que des hommes, 
+            
+            et nous venons contracter alliance avec ton peuple. 
+            
+            PÉKINET, fièrement. 
+            
+            Mon peuple est marié. 
+            
+            L'ENCHANTEUR. 
+            
+            Avec qui ? 
+            
+            PÉKINET. 
+            
+            Avec moi… et c'est assez. 
+            
+            L'ENCHANTEUR, d'un air de défiance. 
+            
+            C'est bien invraisemblable… Nobles amazones, écoutez
+            
+            non protocole ! … abandonnez cet ètre qui se prétend votre
+            
+            roi… ce n'est qu'un pauvre sire… tandis que moi, je mets
+            
+            à vos pieds tous les
+            
+            trésors de l'Inde et tont l'or du
+            
+            Pérou… et ; de plus voyez quel avantage… onze mille trois
+            
+            cents hommes seront à vos ordres. 
+            
+            ZOLOÉ, sans hésiter. 
+            
+            Nous acceptons l'alliance. 
+            
+            TOUTES LES FEMMES, excepté Michclctte. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vif et léger (de Trilby).</stage>
+            
+            
+                    <l>De leur côté, passons, mesdames,</l>
+                    <l>J'aime bien mieux ces inconnus.</l>
+                    <l>En tous pays, on sait qu' les femmes</l>
+                    <l>Préfèr'nt toujours les derniers v'nus.</l>
+            
+                    (Toutes les femmes, à l'exeeption de Michelette, passent du côté
+            
+                    de l'enchanteur, à gauche.)
+            
+                    PÉKINET. 
+            
+                    <l>On m' plante-là pour ces hommes !</l>
+                    <l>J' n'ai donc plus aucun' qualité ?</l>
+            
+                    ZOLOÉ ET ZAMIRA. 
+            
+                    <l>Songez au nombre que nous sommes,</l>
+                    <l>Nous aimons mieux la quantité.</l>
+            
+                    TOUTES, excepte Micheletle. 
+            
+                    <l ana="unanalyzable">De leur côté restons, mesdames, etc.</l>
+                </lg>
+            </div>
+            
+            
+            PÉKIN ET, à l'enchanteur. 
+            
+            Rends-moi mes femmes ! 
+            
+            L'ENCHANTEUR. 
+            
+            Ce ne sont pas tes femmes. 
+            
+            PÉKINET. 
+            
+            Elles sont à moi. 
+            
+            Des preuves ! 
+            
+            L'ENCHANTEUR. 
+            
+            PÉKINET. 
+            
+            Elles m'ont rendu père ! 
+            
+            Des preuves ! 
+            
+            22
+            
+            L'ENCHANTEUR. 
+            
+            PÉKINET. 
+            
+            Qu'on fasse venir mes monstres d'enfans ! 
+            
+            (Les grotesques rentrent.)
+            
+            L'ENCHANTEUR. 
+            
+            Ah ! quelle horreur ! … Eh bien, faisons un arrangement
+            
+            tous les deux. Je ne t'en demnande qu'une seule pour moi. 
+            
+            PÉKINET. 
+            
+            C'est ça, il va prendre la plus belle. 
+            L'ENCHANTEUR. 
+            
+            Non, la plus laide. 
+            
+            PÉKINET, prenant Michelette par le bras, et la poussant du côté
+            
+            de l'enchanteur qui passe au milieu. 
+            
+            Alors, voilà… prenez et allez-vous-en. 
+            
+            MICHELETTE, à droite, 
+            
+            Me sacrifier ! moi qui vous aimais tant ! qui vous ai dé
+            
+            fendu ! …
+            
+            PÉKINET, à gauche. 
+            
+            C'est vrai, ça me fait de la peine, mais ce qui est dit est
+            
+            dit… Ah ! ça et vous, messieurs, laissez-moi mes femmes. 
+            
+            L'ENCHANTEUR. 
+            
+            Je la reçois de tes mains, Pekinet, je ne pouvais la possé
+            
+            der
+            
+            que
+            
+            de ton consentement. 
+            
+            (Il entraine la négresse ; au même instant il ôte sa barbe et son tar
+            
+            ban et arrache le masque de négresse qui couvrait la figure de
+            
+            Michelette ; pendant ce temps on attache le crochet au corset
+            
+            de Pékinet qui est au milieu des hommes.)
+            
+            PÉKINET. 
+            
+            L'enchanteur ! Michelette ! je suis perdu ! je suis volé ! au
+            
+            secours ! à la garde ! (Musique. Il va pour se jeter sur elle, au
+            
+            même instant, l'enchanteur et sa proie s'enfoncent lentement sous
+            
+            terre, au milieu des flammes.)
+            
+            PÉKINET, criant. 
+            
+            Je veux les suivre ! Je veux les suivre ! …
+            
+            (En disant ces
+            
+            mots, on le voit s'enlever en l'air par un pouvoir invisible.) Eh ! 
+            
+            bien, eh ! bien, qu'est-ce que je fais donc là ? si c'est comme
+            
+            ça que je les suis, je ne les attraperai jamais, maudite mar
+            
+            raine ! 
+            
+            (Toutes les femmes et les enfans de Pékinet dansent en signe de
+            
+            réjouissance avec les esclaves de l'Enchanteur.)
+            
+            PÉKIN ET, en montant toujours. 
+            
+            Il paraît que ma famille me regrette beaucoup ; ma pau
+            
+            vre Michelette ! 
+            
+            FIN DU PREMIER ACTE. 
+            
+            (Tableau.)
+            
+            ACTE II. 
+            
+            TROISIÈME TABLEAU. 
+            
+-LA DB SCENTE DES AIRS. 
+            
+            Le théâtre représente un site sauvage borné par la mer. 
+            
+            SCENE PREMIERE. 
+            
+            DIFFERENS HABITANS, armés de télescopes semblent occu
+            
+            pés à examiner un phénomène céleste. 
+            
+            PREMIER HABITANT. 
+            
+            Je crois
+            
+            que
+            
+            c'est une tache dans la lune. 
+            
+            DEUXIÈME HABITANT. 
+            
+            Eh ! non, ça a des cornes. 
+            
+            TROISIÈME HABITANT. 
+            
+            Liit
+            
+            C'est peut-être le capricorne qui se sera détaché du zodia
+            
+            que, ou c'est la comète qu'on nous avait annoncée pour l'an
+            
+            dix-huit cent trente-deux. 
+            
+            PREMIER HABITANT. 
+            
+            Non, messieurs, ce que vous prenez pour
+            
+            des cornes, ce
+            
+            sont des bras, c'est la grande ourse qui se sera dérangée. 
+            
+            DEUXIÈME HABITANT. 
+            
+            Voilà que ça s'approche. 
+            
+            TROISIÈME HABITANT. 
+            
+            Eh ! inon Dieu, c'est presque fait coinme un homme. 
+            
+            Mais c'en est un. 
+            
+            DEUXIÈME HABITANT. 
+            
+            TROISIÈME HABITANT. 
+            
+            C'est un habitant de la lune qui se sera laissé touber : 
+            
+, 
+            
+            DEUXIÈME HABITANT, 
+            
+            All qu'ils sont vilains dans ce pays-là. 
+            
+            PREMIER HABITANT, prenant un porte-voix. 
+            
+            El ! eh ! l'ami, tâchez de vous diriger par ici ! 
+            
+            DEUXIÈME HABITANT, à la cantonnade. 
+            
+            Vite des matelas ? des matelas ! car il ya se tuer en torn-
+            
+            bant. 
+            
+            (A ces mots on voit Pékinet lomber dans la mer.)
+            
+            PREMIER HABITANT, toujours avec le porte-voix. 
+            
+            Les matelas sont inutiles !. 
+            
+            (Tous les gens qui sont sur le ibéâtre vont du côté de la
+            
+            mer et jettent des cordes à Pékinet qui arrive tout
+            
+            mouillé, tout abattu.)
+            
+            24
+            
+            CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Quelle singulière aventure. </stage>
+            
+            
+                    <l>Ah ! quel événement funeste !</l>
+                    <l>Est-ce un' bête, est-ce un être humain ?</l>
+                    <l>C'est sans doute un poisson céleste,</l>
+                    <l>Ou bien c'est un oiseau marin.</l>
+            
+                    SCÈNE II. 
+            
+                    LES MÊMES, PÉKINET. 
+            
+                    PÉKINET, amené sur un banc qui est sur le devant du théâtre. 
+            
+                    <l>Je me suis cru dans l'autre monde ;</l>
+                    <l>Du sein des flots je sors vraiment,</l>
+                    <l>Comme Vénus sortit de l'onde…</l>
+                    <l>Mais j' suis vêtu plus décemment…</l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Ah ! quel événement funeste, etc.</l>
+                </lg>
+            </div>
+            
+            
+            PÉKINET, d'un ton de voix affecté. 
+            
+            Ah ! mes amis, quelle ascension ! je puis dire que j'ai eu de
+            
+            l'agrément pendant une heure. 
+            
+            PREMIER HÁBITANT : 
+            
+            Eh bien ! l'homme, comment vous trouvez-vous ? 
+            
+            Je suis un peu étourdi. 
+            
+            PÉKIN ET. 
+            
+            DEUXIÈME HABITANT. 
+            
+            Mais aussi
+            
+            que
+            
+            diable alliez vous faire là-haut ? Faites lui
+            
+            respirer du sel d'Angleterre. 
+            
+            TROISIÈME HABITANT. 
+            
+            Voulez-vous vous rafraîchir ? 
+            
+            PÉKINET. 
+            
+            J'en ai ma suffisance… merci… (A part.) Heureusement
+            
+            mon pouvoir vient de finir, et il faut espérer que je vais être
+            
+            tranquille à présent. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville de la Belle Fermière. </stage>
+            
+            
+                    <l>Par le plus grand des hasards,</l>
+                    <l>Et par des routes inconnues,</l>
+                    <l>Je m' suis perdu dans les brouillards,</l>
+                    <l>C'est c' qui fait que j' tombe des nues.</l>
+                    <l>J'ai suffisamment des cieux,</l>
+                    <l>Et des chemins nébuleux…</l>
+                    <l>J'espère être, selon mes vœux,</l>
+                    <l>Au bout de mes voyages,</l>
+                    <l>Et passer des jours sans nuages.</l>
+            
+                </lg>
+            </div>
+            
+            po
+            
+            (On entend une musique aérienne. Urgande parait
+            
+            et les habitans's'éloignent à sa vue.)
+            
+            25
+            
+            SCÈNE III. 
+            
+            LES MÊMES, URGANDE. 
+            
+            (Pékinet est consterné.)
+            
+            URGANDE, le touchant avec la baguette. 
+            
+            Tu es mallıeureux ! … à qui en est la faute ? 
+            
+            PÉKINET, sortant
+            
+            sa réverie. 
+            
+            Ah ! je vous trouve à propos, marraine ; vous dites à qui la
+            
+            faute ? c'est à vous j'espère ; vous ètes bien aimable pour
+            
+            votre filleul. 
+            
+            URGANDE. 
+            
+            N'accuse
+            
+            que toi seul de tes malheurs ; tu m'as demandé la
+            
+            puissance, je te l'ai accordée, quel usage en as-tu fait ? Ton
+            
+            cæur a cessé de battre pour celle qui avait reçu tes serinens
+            et maintenant elle est dans les fers de ton farouche ennemi. 
+            
+            PÉKINET. 
+            
+            Comment, Michelette est entre les griffes de ce mauvais
+            
+            sujet-là ? Ah Dieu ! elle va passer un mauvais quart-d'heure ! 
+            
+            qu'est-ce qn'il faut donc dire pour la faire revenir. 
+            
+            URGANDE, 
+            
+            Je ne puis plus, comme ce matin, t'accorder une puissance
+            
+            illimitée… il n'est qu'un moyen de délivrer Michelette, c'est
+            
+            d'aller toi-même, avec les arines que je te confierai, attaquer
+            
+            toņ, rival jusques dans ses états. 
+            
+            PÉKINET, pleurant. 
+            
+            Ah ! mon Dieu, ma pauvre Michelette ! … je vois qu'elle
+            
+            n'en reviendra jamais…
+            
+            Tu refuses de combattre pour elle ? …
+            
+            PÉKINET, 
+            
+            hésitant. 
+            
+            URGANDE. 
+            
+            Le courage ne se donne pas… ma pauvre Michelette ! moi
+            
+            qui l'aime tant. (Avec résolution.) Eh bien ! voyons, ma miar
+            chez ce
+            raine, que faut-il faire
+            
+            arriver chez ce sorcier, 
+            
+            pour
+            
+            scélérat, chez ce monstre ? 
+            
+            URGANDE. 
+            
+            Je vais te le dire : deux routes conduisent à l'île des Géants, 
+            
+            toutes deux sont semées de difficultés ; c'est à toi de choisir, 
+            
+            on peut y aller d'abord par l'île des Soufflets…
+            
+            Qu'est-ce que c'est que ça ? 
+            
+            URGÁN DE. 
+            
+            PÉKINET, effrayé. 
+            
+            Une route où il faut bien se garder de passer trop près des
+            
+            buissons ou des arbres, can sous chaque écorce, dans
+            
+            ehaque fleur, sont des malins génies qui donnent des souf
+            flets aux passans…-
+            
+            Voyons l'autre, s'il vous plaît ? 
+            
+            PÉKIMET. 
+            
+            26
+            
+            URGANDE. 
+            
+            Celle-là est gardée par un géant énorme qu'il faut vaincre ; 
+            
+            je te donnerai des armes et veillerai sur toi. 
+            
+            PÉKINET. 
+            
+            Merci… j'aime encore mieux retourner à ines soufflets ; j'ai
+            
+            plus l'habitude. 
+            
+            URGANDE. 
+            
+            Tu le veux, suis-moi donc ; tu commences à devenir digne
+            
+            de moi… espère, si tu as du courage. 
+            
+            Partons, marraine, à la conquête de Michelette ! …
+            
+            PÉKINET, avec ardeur. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR du Roi et la ligue. </stage>
+            
+            
+                    <l>Tout pour l'honneur ! tout pour l'amour !</l>
+                    <l>Oui, dans ce jour,</l>
+                    <l>Je me dévoue ;</l>
+                    <l>Je veux risquer le camouflet,</l>
+                    <l>Et, sans jamais faire la moue,</l>
+                    <l>Je veux dire, à chaque soufflet,</l>
+                    <l>Qui me tombera sur la joue :</l>
+                    <l>Tout pour l'honneur, <stage type="repetition"> (ter) </stage> tout pour l'amour !</l>
+                </lg>
+            </div>
+            
+            
+            (Ils sortent. Musique.)
+            
+            QUATRIÈME TABLEAU.-L ? ILE DES SOUFFLETS. 
+            
+            Le théâtre change et représente une lieu sauvage couvert ça et là de buissons
+            
+            et d'arbres, mais dont la droite est obstruée entièrement par d'épaisses
+            
+            broussailles qui n'offrent qu'un sentier étroit au milieu. On lit de ce côté, 
+            
+            sur un poteau, Avenue des Soufflels, et de l'autre : Impasse des Géants. 
+            
+            De ce
+            
+            côté s'élève un chassis représentant l'entrée d'une maison de
+            
+            géants dont la porte va jusqu'aux frises.)
+            
+            SCENE IV. 
+            
+            PÉKINET, seul. 
+            
+            (Il arrive lentement et en évitant d'approcher des arbres et des buissons, 
+            
+            l'orchestre joue l'air : N'allez pas dans la forêt noire.)
+            
+            M'y voilà… eh bien, ça va comme sur des roulettes, et
+            
+            j'aurais été bien bête d'aller me battre avec ce grand diable
+            
+            de géant. 
+            
+            (Lisant : Avenue des Souflets.) Je pourrais bien
+            
+            être reçu citoyen de ce pays…
+            
+            j'ai des titres, grâce à ma
+            
+            tante. Oh ! oh ! est-ce
+            
+            qu'il n'y aurait pas une autre route
+            
+            que celle-la ? (Avec tristesse.) C'est donc ici que ça va com
+            
+            mencer ! … allons, ferme ! ma pauvre petite Michelette, sou
+            
+            tiens-moi… (L'orchestre joue l'air : Un bandeau couvre les yeut. 
+            
+            Il s'avance avec crainte, met un pied dans le sentier puis le retire, 
+            
+            enfin il fait un pas, une petite main s'élève au-dessus du buisson
+            
+            et l'on entend un petit soufflet :) Tiens, quelle petite main ! … ce
+            
+            27
+            
+            sontdes caresses… ma tante Marcelle m'a accoutumé à unieux
+            
+            que ça. (Il avance encore, une main plus forte que la première
+            
+            s'élève, second soufflet.) Et de deux ! c'est encore d'un enfant
+            
+            ça, mais d'un enfant qui annonce des dispositious. (Il fait un
+            
+            pas de nouveau, une main plus forte que les deux premières s'é
+            
+            lève, troisième soufflet.) Oh ! celui-là c'en est un vrai… si ça
+            
+            va toujours en augmentant, ça va devenir fatigant. (Nou
+            
+            veau pas, nouveau soufflet plus fort que les autres.) Aie ! mais
+            
+            prenez donc garde ! c'est des bêtises ça ; 
+            
+            ils vont me dislo
+            
+            quer ces beaux petits génies ; ô Michelette, reçois tout cela
+            
+            comme une preuve de inon amour ! (On entend une voix.)
+            
+            Continue, Pékinet ! …
+            
+            PÉKINET. 
+            
+            On m'encourage, allons. (Il va pour avancer encore, une
+            
+            main énorme sélève ; musique. Il recule effrayé.) Ab ! je ne
+            
+            passe pas par là ! c'est fini, je ne suis encore qu'au commence
+            ment et ils ont déjà des mains comme des épaules de… et il
+            
+            y a encore un quartde lieue à faire (appelant.) Ma marraine ! 
+            
+            ma marraine ! je veux sortir d'ici… je m'y ennuie ! … j'aime. 
+            
+            mieux combatre le géant. (Un buisson s'abaisse et laisse voir un
+            
+            casque, une lance, et un bouclier. L'orchestre joue : Rien ne
+            
+            plaît tant aux yeux des belles.) Voilà les armes que ma mar-
+            
+            raine n'avait promises… du courage, avançons… (Lisant.)
+            
+            Impasse des Géans ! … bon ! c'est là (Lisant.) Sonnette du por
+            
+            tier ! … (Il sonne, on entend le bruit d'un bourdon, 
+            frayé.) Ah ! la lá ! 
+            
+            il recule ef
+            
+            SCÈNE v. 
+            
+            UN JEUNE GEANT, PÉKINET. 
+            
+            PÉKINET, à part, n'osant avancer. 
+            
+            Ah ! mon Dieu, voilà déjà le géant ! 
+            
+            LE GÉANT, d'nn air très-honnéte. 
+            
+            C'est vous qui avez tiré la sonnette. 
+            
+            PÉKINET, très-poliment. 
+            
+            Oui, monsieur : 
+            
+            LE GÉANT, d'un air affable. 
+            
+            Donnez vous la peine d'entrer, monsieur ; que demandez
+            
+            vous ? 
+            
+            PÉKINET, avec affabilité. 
+            
+            Mais, monsieur, jedésirerais, si cela est possible cependant…
+            
+            (en tremblant) memesurer avec certain géant. 
+            
+            LE GEANT, très-poliment. 
+            
+            Monsieur, il vient de sortir, mais il va rentrer dans l'ins
+            
+            tant ; il est allé lire les petits journaux. 
+            
+            PEKINET, très-surpris. 
+            
+            Comment, monsieur, ce n'est pas vous ? 
+            
+            28
+            
+            LE GÉANT, avec modestie. 
+            
+            Oh ! moi, monsieur, je ne suis qu'un enfant, un bam
+            
+            bin… le petit garçon de la maison. 
+            
+            PÉKINET. 
+            
+            Quel âge avez-vous donc ? 
+            
+            LE GÉANT. 
+            
+            J'aurai huit ans à la Chandeleur. 
+            
+            PÉKINET. 
+            
+            Diable, ça promet ; comment sont donc les autres ? …
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Vaudeville des Anglaises. </stage>
+            
+            
+                    <l>Mais, sans doute, monsieur raille…</l>
+            
+                    LE GÉANT. 
+            
+                    <l>Non, je vous jure vraiment,</l>
+                    <l>Qu'à la maison, sur ma taille,</l>
+                    <l>On me plaisante souvent ;</l>
+                    <l>Et la semaine dernière,</l>
+                    <l>Dans un accès de gaîté,</l>
+                    <l>Notre vieille cuisinière</l>
+                    <l>M'a servi dans un pâté.</l>
+                </lg>
+            </div>
+            
+            
+            PÉKINET. 
+            
+            J'en ai la chair de poule ! 
+            
+            LE GÉANT. 
+            
+            A propos, monsieur connaît les conditions du combat ? le
+            
+            vaincu est ordinairement dévoré par le vainqueur. 
+            
+            PEKINET. 
+            
+            Mais la partie n'est pas égale… si je suis vainqueur, le
+            
+            diable m'emporte si j'ai envie de dévorer votre géant. 
+            
+            LE GEANT, avec amabilité. 
+            
+            Monsieur, c'est l'usage… Au surplus, vous vous arran
+            
+            gerez ensemble ; il est fort accommodant… Je vais toujours
+            
+            vous annoncer… Votre nom, s'il vous plaît ? 
+            
+            PEKINET. 
+            
+            Pékinet… Voici ma carte. 
+            
+            (Il la lui donne.)
+            
+            SCÈNE
+            
+            VI. 
+            
+            PÉKINET, seul. 
+            
+            Dieu de Dieu ! … quel horrible duel ! … quelle effroyable
+            de force…
+            
+            affaire d'honneur je vais avoir là ! … je ne suis pas
+            
+            inais c'est égal… je m'entête… je veux délivrer Michelette, 
+            
+            ou mourir pour elle ! …
+            
+            UNE GROSSE VOIX, dans la coulisse. 
+            
+            (Fanfares de trombonne.)
+            
+            La lice est ouverte… on te jette le gant…
+            
+            (Un gant énorme tombe sur le théâtre.)
+            
+            29
+            
+            Je le relève… si je peux le ramasser…
+            
+            PEKINET, fièrement. 
+            
+            
+           
+                   AIR : Une guerre est déclarée (de Joconde) .
+            
+            
+            
+. (Il soulève le gant avec peine. Musique guerrière, cliquetis
+            
+            d'armes ; Pékinet va pour s'élancer dans la maison du
+            
+            géant ; il en sort des flammes rouges et bleues.)
+            
+            PEKINET, avançant et reculant tour-à-lour ; enfin il s'écrie
+            
+            d'un ton exalté. 
+            
+            Je me mettrais au feu pour Michelette ! … Ma flamme ne
+            
+            craint
+            
+            pas
+            
+            les vôtres ! …
+            
+            (Il se précipite à travers les flammes.)
+            
+            CINQUIÈME TABLEAU. 
+            
+            LE RETOUR AU HAMEAU. 
+            
+            Le théâtre change et représente un hameau. 
+            
+            SCÈNE VII. 
+            
+            URGANDE, sur un palankin ; MARCELLE, THOMAS, 
+            
+            MICHELETTE, PAYSANS, PAYSANNES. PEKINET, porté en
+            
+            triomphe sur le bouclier du géant. 
+            
+            CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : La victoire est à nous. </stage>
+            
+                    <l>La victoire est à lui ! le voilà triomphant !</l>
+                    <l>Rendons-lui tous hommage ;</l>
+                    <l>Il a, par son courage,</l>
+                    <l>Triomphé du géant.</l>
+            
+                    PÉKINET. 
+            
+                    <l>La victoire est à moi ! me voilà triomphant !</l>
+                    <l>Rendez-moi tous hommage,</l>
+                    <l>Car j'ai par mon courage</l>
+                    <l>Triomphé du géant.</l>
+                </lg>
+            </div>
+            
+            
+            URGANDE. 
+            
+            Bien, Pékinet… tu as eu du courage… ton dévouement
+            
+            mérite une récompense… je t'accorde encore un souhait à
+            former… ce sera le dernier. 
+            
+            PÉKINET. 
+            
+            Ben obligé, marraine, mais c'est fini… Michelette me
+            
+            suffit, je n'ai plus d'ambition, et maintenant je ne désire
+            
+            plus rien. 
+            
+            Tu ne désires plus rien ? … La sagesse s'est venue, tu vas
+            
+            URGANDE. 
+            
+            30-
+            
+            avoir tout ce qu'il te faut… Et tu verras que l'homme est
+            
+            heureux alors qu'il sait borner ses désirs. 
+            
+            (Elle fait un signe avec sa baguette ; une partic du fond du théâtre
+            
+            s'ouvre et laisse voir au travers d'une gaze, une riche ferme, 
+            
+            un moulin à vent, de rians paturages, des champs de blés
+            
+            et des vignes.)
+            
+            CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Maçon. </stage>
+            
+            
+                    <l>Plus de vœux, plus d'envie,</l>
+                    <l>Adieux les faux plaisirs ;</l>
+                    <l>Heureux qui dans la vie</l>
+                    <l>Sait borner ses désirs.</l>
+               
+             </lg>
+            </div> 
+            PÉKINET, au public. 
+            
+            
+                  
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Mes yeux disaient tout le contraire. </stage>
+            
+            
+                    <l>Messieurs, sur ce petit tableau</l>
+                    <l>Que le parterr' soit intraitable ;</l>
+                    <l>N' lui donnez pas un seul bravo,</l>
+                    <l>Et qu'on dise : c'est détestable…</l>
+                    <l><stage> (A mi-voix.) </stage> C'est un' farce que je vous fais,</l>
+                    <l>À ma marrain' je veux complaire,</l>
+                    <l>Car pour avoir un grand succès,</l>
+                    <l>Faut que j' demande le contraire.</l>
+                </lg></div>
+               <div type="poem">
+                <lg>
+            
+                    <stage type="tune" id="AIR du Maçon."></stage>
+                    REPRISE DU CHŒUR. 
+            
+                    <l>Plus de vœux, plus d'envie,</l>
+                    <l>Adieu les faux plaisirs ;</l>
+                    <l>Heureux qui dans la vie</l>
+                    <l>Sait borner ses désirs.</l>
+               </lg>
+            </div>  
+            
+            2005
+            
+            FIN. 
+            
+            rable
+            
+            In
+            
+            D
+            
+            u
+            
+            x
+            
+-Griver
+            
+            Coury
+            
+            tristene, ou
+            
+            cheilor, 
+            
+            Jurine a
+            
+            thuimtm
+            
+            Llortrait in y
+            
+            muzou
+            
+            klinu út elim
+            
+            Loury-
+            
+            Pupunty
+            
+            Jedampe
+            
+-
+            
+            Merveilleu
+            
+-male-
+            
+            Sainzine
+            
+            Diulator
+            
+            los Drum
+            
+            Alaria
+            
+            Courly
+            
+            k
+            
+            l
+            
+            a
+            
+            w
+            
+            n
+            
+            l
+            
+            Diner
+            
+            lourly
+            
+            Tulension de
+            
+            l
+            
+            retraite
+            
+            Courly
+            
+            Jedebeul'ună
+            
+            urme
+            
+            touren
+            
+-s. goonga
+            
+            Pekiner, on
+            
+            Lafittw
+            
+            blatis
+            
+            loury
+            
+            Santine
+        </body>
+    </text>
+</TEI>

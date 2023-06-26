@@ -1,0 +1,2624 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE CARNAVAL ET LES ARRÊTS, OU LA FAMILLE IMPROMPTU</title>
+                <title type="sub">FOLIE-VAUDEVILLE EN UN ACTE</title>
+                <author key="JAD" sort="1">
+                    <name>
+                        <forename>Adolphe</forename>
+                        <surname>Jadin</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE CARNAVAL ET LES ARRÊTS, OU LA FAMILLE IMPROMPTU</title>
+                        <author>ADOLPHE JADIN</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=1jJMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102E7AA5</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-02-05">5 FÉVRIER 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DE L'AMBIGU-COMIQUE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NATIONALBIBLIOTHEK
+            
+            IN WIEN
+            
+            131420-B
+            
+            ALT
+            
+            1
+            
+            1
+            
+            34
+            
+            LE CARNAVAL
+            
+            ET LES ARRÊTS
+            
+            OU
+            
+            LA FAMILLI IMPROMPTU, 
+            
+            Folie-vaudeville en un Acte, 
+            
+            PAR
+            
+            M. ADOLPHE JADIN ; 
+            
+            REPRÉSENTÉE POUR LA PREMIÈRE FOIS, 
+            
+            SUR LE THÉATRE DE L'AMBIGU-COMIQUE, 
+            
+            LE 5 FÉVRIER 1831. 
+            
+            PRIX : | FR. 50 C. 
+            
+            131420-B
+            
+            PARIS. 
+            
+            BEZOU, LIBRAIRE, 
+            
+            BOULEVARD SAINT-MARTIN, N. 29
+            
+            1831
+            
+            PERSONNAGES. 
+            
+            ACTEURS, 
+            
+            LE COMTE DE MORINVILLE, colonel de dragons. 
+            
+            M. BELFORT. 
+            
+            GUSTAVE, 
+            
+            M. WELCH. 
+            
+            EDMOND, 
+            
+            sous-lieutenans au même régiment. 
+            
+            M. CULLIER. 
+            
+            VICTOR, 
+            
+            JULES. 
+            
+            M. ALERME. 
+            
+            M. LAMOTHE. 
+            
+            DUBOIS, maréchal-des-logis. 
+            
+            M. EUGÈNE. 
+            
+            NARCISSE. 
+            
+            M. Constant. 
+            
+            PIERRE LEDRU, son domestique. 
+            
+            M. MILLET. 
+            
+            MARIE, jeune servante. 
+            
+            Mlle LAURE. 
+            
+            La scène se passe dans une petite ville de garnison. 
+            
+            IMPRIMERIE DE DAVID, BOULEVARD POISSONNIÈRE, N. 6. 
+            
+            ET LES ARRÊTS. 
+            
+            Le théâtre représente une salle commune d'hôtel garni ; porte de fond ; une autre
+            
+            à droite ; sur des fauteuils sont placés des fleurets, des masques d'armes ; sur une
+            
+            table à gauche, une théorie et des cartes. 
+            
+            SCÈNE
+            
+            PREMIÈRE… 
+            
+            GUSTAVE, EDMOND, JULES, VICTOR, DUBOIS, 
+            
+            MARIE. 
+            
+            (Au lever du rideau ils sont tous à table, Marie les sert. Dubois est debout, 
+            
+            le verre à la main.)
+            
+            ENSEMBLE. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : du premier Chœur de Madame Grégoire. </stage>
+            
+            
+                    <l>Mes amis, pour bannir le chagrin,</l>
+                    <l>Il faut boire,</l>
+                    <l>À l'amour, à la gloire.</l>
+                    <l>Mes amis, pour bannir le chagrin,</l>
+                    <l>Il faut boire jusqu'à demain.</l>
+            
+                    EDMON, se levant le verre en main. 
+            
+                    <l>Trinquons aux belles,</l>
+                    <l>Qu'on croit fidèles.</l>
+            
+                    TOUS, se levant et trinquant. 
+            
+                    <l ana="unanalyzable">Trinquons, etc.</l>
+            
+                    REPRISE. 
+            
+                    <l ana="unanalyzable">Mes amis, etc.</l>
+            
+                    VICTOR, remplissant son verre. 
+            
+                    <l>Nous sommes soldats et Français,</l>
+                    <l>Buvons à nos prochains succès.</l>
+            
+                    Reprise en choeur. 
+            
+                    ENSEMBLE, 
+            
+                    <l>Mes amis, pour bannir le chagrin,</l>
+                    <l>Il faut boire</l>
+                    <l>À l'amour à la gloire ;</l>
+                    <l>Mes amis, pour bannir le chagrin,</l>
+                    <l>Il faut boire jusqu'à demain.</l>
+            
+                </lg>
+            </div>
+            
+            EDMOND. 
+            
+            Allons, allons donc, Marie, du champagne comme s'il
+            
+            en pleuvait. 
+            
+            VICTOR, se levant. 
+            
+            Eh bien, petite Marie, du champagne donc. (Il l'em
+            
+            brasse.) Tu es gentile à croquer. 
+            
+            DUBOIS, vivement. 
+            
+            Eh ! eh ! doucement, mon lieutenant ; pas de famillia
+            
+            rités avec la payse, je vous en prie ; apprenez que je la
+            
+            fréquente, et pour le bon motif encore. 
+            
+            Vraiment ? 
+            
+            TOUS. 
+            
+            DUBOIS
+            
+            Si vous voulez bien le permettre. 
+            
+            VICTOR. 
+            
+            Comment mon ancien, tu veux l'épouser. 
+            
+            LUBOIS. 
+            
+            Un peu, si ça n'vous gêne pas, et je ne crois pas man
+            
+            quer à la subordination en vous priant de ne pas em
+            
+            brasser ma future. 
+            
+            C'est trop juste. 
+            
+            TOUS. 
+            
+            EDMOND. 
+            
+            Oui, messieurs, Dubois a raison, etpuis qu'il épouse, 
+            
+            respect au naud conjugal, s'il vous plaît. (Bas aux cama
+            
+            rades.) Jusqu'après la noce du moins. (A Gustave quiest
+            
+            resté à table plongé dans ses rêveries.) Eh bien ! qu'est-ce
+            
+            que tu as donc ? ponrquoi cet air sombre et rêveur ? est
+            
+            ce par ce que nous sommes aux arrêts ? Je conviens que
+            
+            c'est désagréable, surtout dans les jours gras, et que le
+            
+            colonel a été sévère, trois jours d'arrêts de rigueur pour
+            
+            une plaisanterie, mais je t'assure que tu n'y perds pas
+            
+            tant que moi. J'avais le plus joli rendez-vous ce soir au
+            
+            bal masqué. 
+            
+            Et avec qui ? 
+            
+            JULES ET VICTOR. 
+            
+            EDMOND. 
+            
+            Vous êtes discrets, je puis vous confier cela, avec la
+            
+            femme du… 
+            
+            (Il leur parle bas à l'oreille.)
+            
+            Pas possible ! 
+            
+            LES MÊMES. 
+            
+            EDMOND. 
+            
+            Parole d'honneur ! Mais ce pauvre Gustave me fait de
+            
+            la peine ; que diable, console-toi, trois jours sont bientôt
+            
+            passés, surtout quand on les emploie comme nous. 
+            
+            GUSTAVE. 
+            
+            Laisse-moi, je suis désespéré. 
+            
+            EDMOND. 
+            
+            Désespéré ! contes-nous cela, peut-être pourrons-nous
+            
+            venir à ton secours. 
+            
+            GUSTAVE. 
+            
+            Non, vous ne pouvez rien pour moi, c'est inutile : 
+            
+            ah ! ces maudits arrêts ! … 
+            
+            EDMOND. 
+            
+            Ah ! voilà le refrain général, ces maudits arrêts ! Eh
+            
+            bien ! mon cher, tu as tort ; je t'assure qu'il y a de la pré
+            
+            vention de ta part, si tu étais un peu philosophe, et și
+            
+            tu avais comme moi une certaine habitude de ces sortes
+            
+            de choses, tu penserais autrement, et tu verrais que les
+            
+            arrêts ont aussi leur bon côté ; tu ne veux pas me croire, 
+            
+            rien n'est cependant plus vrai. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air de la Galoppade. </stage>
+            
+            
+                    <l>Oui, des arrêts</l>
+                    <l>Qui causent tes regrets,</l>
+                    <l>Médire</l>
+                    <l>Est un délire ;</l>
+                    <l>Car je soutiens qu'un soldat n'est jamais</l>
+                    <l>Plus libre qu'aux arrêts.</l>
+                    <l>Dans un doux repos</l>
+                    <l>Ici bravant toute étiquette,</l>
+                    <l>Gais dans nos propos,</l>
+                    <l>Nous pouvons nous moquer des sots ;</l>
+                    <l>Exempts de travaux,</l>
+                    <l>Jamais un ennuyeux trompette,</l>
+                    <l>Sonnant le réveil,</l>
+                    <l>Ne vient troubler notre sommeil.</l>
+                    <l>De la beauté</l>
+                    <l>Dont l'amour entêté</l>
+                    <l>Lasse notre tendresse,</l>
+                    <l>Grâce aux arrêts, ici l'on peut du moins</l>
+                    <l>Fuir l'ardeur et les soins ;</l>
+                    <l>Huissiers,</l>
+                    <l>Créanciers,</l>
+                    <l>En riant de votre colère,</l>
+                    <l>Nous pouvons en paix,</l>
+                    <l>Narguer vos billets,</l>
+                    <l>Vos potets ;</l>
+                    <l>Toujours aux aguets,</l>
+                    <l>À notre porte un factionnaire</l>
+                    <l>Arrêtant vos pas</l>
+                    <l>Vous crié en bas,</l>
+                    <l>On n'entre pas.</l>
+                    <l>Oui des arrêts</l>
+                    <l>Qui causent tes regrets,</l>
+                    <l>Médire</l>
+                    <l>Est un délire ;</l>
+                    <l>Car je soutiens qu'un soldat n'est jamais</l>
+                    <l>Plus libre qu'aux arrets.</l>
+            
+            
+                    <stage type="repetition"> (Reprise en Chœur.)</stage>
+                </lg>
+            </div>
+            
+            
+            
+            GUSTAVE. 
+            
+            Mais enfin, mets-toi un instant à ma place : j'adore, 
+            
+            tu le sais, Adèle de Morinville, la nièce du colonel ; je
+            
+            sais qu'on attend aujourd'hui même un jeune homme, 
+            
+            le fils d'un riche négociant qu'on a l'intention de lui
+            
+            faire épouser, et je ne puis lui disputer sa main. 
+            
+            L'aime-t-elle ? 
+            
+            EDMOND. 
+            
+            GUSTAVE. 
+            
+            Elle ne le connait même pas, c'est un mariage de
+            
+--6
+            
+            convenance dès long-temps arrêté : si j'avais été libre, 
+            
+            cet audacieux aurait eu ma vie avant de parvenir jus
+            
+            qu'à elle ; mais ces maudits arrêts ! … 
+            
+            EDMOND. 
+            
+            J'avoue qu'il est cruel d'être amoureux, jaloux, et
+            
+            aux arrêts ; dans toute autre circonstance je t'aurais
+            
+            proposé de me charger de l'affaire ; tu sais comment je
+            
+            tire, une, deux, dans les armes, et t'en voilà débar
+            
+            rassé ; mais, comme tu dis, ces maudits, arrêts… 
+            
+            MARIE, qui, aidée de Dubois, est sortie plusieurs fois pour desservir, 
+            
+            revient avec lui en criant. 
+            
+            Messieurs, messieurs, voilà monsieur le colonel qui
+            
+            vient ici. 
+            
+            Diable, cachons tout cela, dépêchons… 
+            
+            EDMOND. 
+            
+            (Ils se mettent tous à l'ouvrage, emportant la table et tout ce qui
+            
+            est au-dessus dans la pièce à droite.)
+            
+            Maintenant ayons l'air de nous occuper sérieusement ; 
+            
+            un air contrit, cela l'attendrira peut-être. 
+            
+            (Jules et Victor se mettent à faire des armes. Edmond s'assied
+            
+            et prend la théorie.)
+            
+            SCÈNE II. 
+            
+            LES PRÉCÉDENS, LE COLONEL. 
+            
+            LE COLONEL, 
+            
+            Quel silence ! Je vois avec plaisir, messieurs, que vous
+            
+            sentez la gravité de la faute qui m'a forcé à vous punir. 
+            
+            EDMOND. 
+            
+            · Ah ! mon colonel, vous nous voyez désespérés, et
+            
+            nous promettons bien de ne plus encourir de sembla
+            
+            bles reproches ; quant à moi, je suissi houteux que, pour
+            
+            me punir, je repasse ma théorie. 
+            
+            LE COLONFL. 
+            
+            Vous faites bien ; on parle de guerre, et j'espère que
+            
+            les officiers que j'ai l'honneur de commander seront di
+            
+            gnes, par leur instruction comme par
+            
+            leur courage, 
+            
+            du
+            
+            poste qu'on nous confiera. 
+            
+            TOUS, se rapprochant. 
+            
+            Quoi ! mon colonel, la guerre ! 
+            
+            LE COLONEL. 
+            
+            Oui, mes amis ; il paraît qu'oubliant nos anciens ex
+            
+            ploits, les étrangers prétendent encore nous dicter des
+            
+            lois, mais morbleu ! nous leur prouverons que, si, depuis
+            
+            quinze ans, beaucoup de nos vieux soldats sont morts, il
+            
+            s'en est formé d'autres pour les remplacer. 
+            
+--7-
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : J'en guette un petit de mon âge. </stage>
+            
+            
+                    <l>Si le trépas a moissonné nos braves,</l>
+                    <l>N'êtes-vous pas leurs élèves, leurs fils ?</l>
+                    <l>Et l'étranger croit-il que des esclaves</l>
+                    <l>Ont remplacé les héros d'Austerlitz ?</l>
+                    <l>Non, non, bravant leurs hordes sanguinaires,</l>
+                    <l>Apprenons-leur bientôt, à leurs dépens,</l>
+                    <l>Qu'en fait de gloire en France les enfans</l>
+                    <l>Sont toujours dignes de leurs pères.</l>
+            
+            
+                    <stage type="repetition"> (Tous les officiers reprennent en chœur avec enthousiasme.)</stage>
+                </lg>
+            </div>
+            
+            
+            
+            Ah
+            
+            ça, 
+            
+            va donc recommencer. 
+            
+            DUBOIS, se frottant les mains. 
+            
+            GUSTAVE, 
+            
+            Ah ! mon colonel ! puissions-nous être bientôt ap
+            
+            pelés à vous seconder dans cette noble entreprise. 
+            
+            EDMOND. 
+            
+            La guerre ! je n'aime pas les arrêts ; mais je consenti
+            
+            rais de bon coeur à passer un mois à la prison de la ville
+            
+            pour qu'elle commençât de suite. 
+            
+            LE COLONEL. 
+            
+            J'étais sûr de vous trouver aussi bien disposés : re
+            
+            doublez donc de zèle, et songez que demain peut-être
+            
+            la patrie aura besoin de vous. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Fernand Cortez. </stage>
+            
+            
+                    <l>Bientôt, mes chers enfans,</l>
+                    <l>Oui, j'en ai l'assurance,</l>
+                    <l>Vous serez dans nos camps</l>
+                    <l>Dignes de vos parens.</l>
+            
+                    GUSTAVE. 
+            
+                    <l>Pour punir vos dédains,</l>
+                    <l>Ennemis de la France,</l>
+                    <l>De vos climats lointains</l>
+                    <l>Nous savons les chemins.</l>
+            
+                    EDMOND. 
+            
+                    <l>Fuyez, ou sans retard</l>
+                    <l>Marchent avec vaillance,</l>
+                    <l>Contre tous vos remparts,</l>
+                    <l>Les fils des vieux grognards.</l>
+            
+                    REPRISE. 
+            
+                    LE COLONEL. 
+            
+                    <l ana="unanalyzable">Bientôt, mes chers enfans, etc.</l>
+            
+                    LES OFFICIERS. 
+            
+                    <l>Ne perdons point de temps,</l>
+                    <l>Car, j'en ai l'assurance,</l>
+                    <l>Nous serons dans les camps</l>
+                    <l>Dignes de nos parens.</l>
+                </lg>
+            </div>
+            
+            
+            (Ils sortent.)
+            
+-8
+            
+            SCÈNE III. 
+            
+            LE COLONEL, DUBOIS, MARIE. 
+            
+            LE COLONEL. 
+            
+            Brave jeunesse ! et voilà ceux qu'on espère soumettre… 
+            
+            Ah ! morbleu, nous verrons. 
+            
+            DUBOIS. 
+            
+            Oui, nous verrons : v'là donc le bon temps revenu, 
+            
+            c'nest pas malheureux, la garnison m'ennuyait, moi. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Préville et Taconnet. </stage>
+            
+            
+                    <l>J'vas donc enfin m'battre encore pour la France,</l>
+                    <l>J'vas donc les r'voir ceux qui des temps passés</l>
+                    <l>N'voulant jamais garder la souvenance,</l>
+                    <l>Parc' que sous le nombre nous fûmes écrasés,</l>
+                    <l>S'vantent partout de nous avoir rossés ;</l>
+                    <l>Depuis c' qu'ils ont nommé notre défaite,</l>
+                    <l>Si nous avons évité les procès,</l>
+                    <l>Qu'ils se rassurent, corbleu, je leur promets,</l>
+                    <l>Puisque v'là l' temps d'acquitter notre dette,</l>
+                    <l>Qu' nous la paierons avec les intérêts.</l>
+                </lg>
+            </div>
+            
+            
+            En faveur d'une si bonne nouvelle, vous auriez bien
+            
+            dû, mon colonel, lever les arrêts de ces pauvres jeunes
+            
+            gens. 
+            
+            LE COLONEL. 
+            
+            C'était mon intention ; mais des raisons particulières
+            
+            m'en ont empeché : il aurait fallu lever aussi ceux de
+            
+            Gustave, et je ne suis pas fâché qu'il soit éloigné de
+            
+            chez moi pendant quelques jours ; j'attends aujourd'hui
+            
+            quelqu'un avec lequel je craindrais qu'il ne se trouvât ; 
+            
+            il a une mauvaise tête ; le mariage que je projette le con
+            
+            trarie ; mais lorsque tout sera arrêté, il pourra reparaître
+            
+            sans danger. 
+            
+            MARIE, bas à Dubois. 
+            
+            Voilà une belle occasion de lui parler de notre ma
+            
+            riage, ne la laissez pas échapper. 
+            
+            DUBOIS. 
+            
+            Vous croyez… Comment, diable, c' que j'vas lui tour
+            
+            ner ça ? 
+            
+            MARIE. 
+            
+            Allons, un peu de courage… 
+            
+            DUBOIS. 
+            
+            M'y voilà… soufflez-moi un peu. 
+            MARIE, bas à Dubois. 
+            
+            Allez… mon colonel. 
+            
+-9
+            
+            DU BOIS. 
+            
+            Mon colonel… 
+            
+            MARIL, bas à Dubois. 
+            
+            Connaissez-vous l'amour ?. 
+            
+            DUBOIS. 
+            
+            Connaissez-vous… Ah ! quelle bêtise ; je n'veux pas
+            
+            lui dire ça, moi ; laissez-moi faire… mon colonel. 
+            
+            Eh bien ! voyons, que veux-tu ? 
+            
+            DUBOIS
+            
+            Mon colonel… 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du vaudeville de la Famille de l'Apothicaire. </stage>
+            
+            
+                    <l>Tout-à-l'heure ne disiez vous pas</l>
+                    <l>Que d' nouveau l'enn'mi nous chamaille,</l>
+                    <l>Et que bientôt, suivant vos pas,</l>
+                    <l>Nous irions lui livrer bataille ?</l>
+                    <l>Puisqu'il faut r'noncer à la paix</l>
+                    <l>Et recommencer le tapage,</l>
+                    <l>Pour m'habituer, moi, je voudrais</l>
+                    <l>D'avance me mettre en ménage.</l>
+                </lg>
+            </div>
+            
+            
+            LE COMTE. 
+            
+            Te mettre en ménage… te marier, toi ? 
+            
+            DUBOIS. 
+            
+            Oui, mon colonel, moi-même, et voilà la particu
+            
+            lière en question. 
+            
+            MARIE. 
+            
+            (Il fait avancer Marie.)
+            
+            Eh ! M. le colonel, je vous en prie, ne vous oppo
+            
+            sez pas à mon bonheur… 
+            
+            LE COMTE, à Dubois. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : En arrivant le joueur ne sait pas. </stage>
+            
+            
+                    <l>Y penses-tu, crois moi, dans notre état</l>
+                    <l>Il ne faut pas songer au mariage ;</l>
+                    <l>Presque toujours c'est un mauvais soldat,</l>
+                    <l>Celui qu'attachent les soins d'un ménage :</l>
+                    <l>Pour bien servir dans ce noble métier,</l>
+                    <l>Le seul honneur doit être notre guide :</l>
+                    <l>À son pays se devant tout entier,</l>
+                    <l>Le vrai soldat ne doit se marier</l>
+                    <l>Que lorsqu'il devient invalide.</l>
+                </lg>
+            </div>
+            
+            
+            MARIE. 
+            
+            Tiens, c'est bien agréable. 
+            
+            DUBOIS. 
+            
+            J” conçois bien, mon colonel, mais un brave soldat
+            
+            aussi n'a que sa parole, et j'ai promis… 
+            
+            LE COMTE. 
+            
+            C'est juste, et puisque tu le veux absolument, je ne
+            
+            m'y oppose pas. 
+            
+            MARIE. 
+            
+            Ah ! monsieur, que vous êtes bon ! 
+            
+            2
+            
+-10
+            
+            LE COMTE. 
+            
+            Nous reparlerons de cela, et c'est moi qui me charge
+            
+            des frais de la noce. 
+            
+            Merci, colonel. 
+            
+            MARIE ET DUBOIS. 
+            
+            LE COMTE. 
+            
+            Je retourne chez moi ; la personne que j'attends ne
+            
+            peut
+            
+            tarder à arriver : veille sur nos jeunes gens, j'es
+            
+            père ce soir leur rendre la liberté ; en attendant, pas de
+            
+            sévérité, qu'ils s'amusent, c'est tout ce que je désire. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Madelinette. </stage>
+            
+            
+                    <l>À votre sort je m'intéresse,</l>
+                    <l>Bientôt je comblerai vos vœux ;</l>
+                    <l>Et pour prix de votre tendresse,</l>
+                    <l>Dès ce soir vous serez heureux.</l>
+            
+                 (À Marie.)
+            
+                    <l>Mais si je fais ton mariage,</l>
+                    <l>Dis-moi, te rappe'leras-tu</l>
+                    <l>Que ton bonheur est mon ouvrage ?</l>
+            
+                    MARIE, faisant la révérence. 
+            
+                    <l>Un bienfait n'est jamais perdu</l>
+            
+                    ENSEMBLE. 
+            
+                    LE COMTE. 
+            
+                    <l ana="unanalyzable">À votre sort je m'intéresse, etc.</l>
+            
+                    MARIE ET DUBOIS. 
+            
+                    <l>Que notre sort vous intéresse,</l>
+                    <l>Monsieur, daignez combler nos vœux,</l>
+                    <l>Et comptez sur notre tendresse,</l>
+                    <l>Si par vous nous sommes heureux.</l>
+                </lg>
+            </div>
+            
+            
+            (Le comte sort.)
+            
+            SCENE IV. 
+            
+            DUBOIS, MARIE, PUIS GUSTAVE. 
+            
+            MARIE. 
+            
+            Ah ! mon Dieu, quel brave homme que ce colonel, 
+            
+            comme je l'aime. 
+            
+            DUBOIS. 
+            
+            Il faut convenir aussi que je lui ai joliment tourné ça. 
+            
+            GUSTAVE, arrivant. 
+            
+            Le colonel est parti ? 
+            
+            DUBOIS. 
+            
+            Oui, mon lieutenrnt, il est retourné chez lui pour
+            
+            recevoir un monsieur qui vient de la province. 
+            
+            J'enrage, et ne pouvoir sortir ! 
+            
+            GUSTAVE. 
+            
+            Si j'avais pu parler au colonel ! voilà une occasion qui
+            
+            se présente de me distinguer, de mériter la main de
+            
+            (Dubois et Marie sortent.)
+            
+-11
+            
+            mon Adèle ; l'espoir de l'obtenir aurait doublé mon
+            
+            courage, et bientôt, 
+            
+            j'en suis sûr, un grade supérieur
+            
+            m'aurait rendu digne d'elle… mais si je la perds, c'est
+            
+            résolu ; je me fais tuer. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : De Téniers. </stage>
+            
+            
+                    <l>Si pour jamais la fortune ennemie</l>
+                    <l>Vient m'enlever l'objet de mon amour !</l>
+                    <l>Gloire, bonheur, doux rêves de ma vie,</l>
+                    <l>Il faut vous perdre, hélas ! et sans retour !</l>
+                    <l>En invoquant le nom d'Adèle,</l>
+                    <l>Vers le trépas on me verra courir !</l>
+                    <l>Si je ne puis vivre pour elle,</l>
+                    <l>Pour elle, au moins, je veux mourir.</l>
+                </lg>
+            </div>
+            
+            
+            (Il s'assied et reste plongé dans ses rêveries.)
+            
+            SCÈNE V. 
+            
+            GUSTAVE, PIERRE. 
+            
+            PIERRE, en tr'ouvrant la porte du fond. 
+            
+            Pardon, excuse, mon bon monsieur, pourriez-vous
+            
+            m' dire où j' trouverons queuqu'un ? 
+            
+            GUSTAVE, se retournant. 
+            
+            Qu'est-ce ? que
+            
+            demandez-vous ? 
+            
+            PIERRE. 
+            
+            Je demande queuqu'un donc ! 
+            
+            GUSTAVE. 
+            
+            Eh ! bien, est-ce que je ne suis personne ? 
+            
+            PIERRE. 
+            
+            Je n' sais pas, mais j'suis ben sûr que c'est pas à vous
+            
+            que j'ai affaire, parce qu'on m'a dit qu' c'était un an
+            
+            cien, un colonel… et un colonel, ça doit être plus beau
+            
+            que vous. 
+            
+            M. Morinville ? … 
+            
+            Juste, M. Morinville. 
+            
+            Et que luilui veux-tu ? 
+            
+            GUSTAVE. 
+            
+            PIERRE. 
+            
+            GUSTAVE. 
+            
+            PIERRE. 
+            
+            Plus souvent que j'vous l' dirai, pas si bête… 
+            
+            GUSTAVE. 
+            
+            Et bien va te promener alors. 
+            
+            PIERRE
+            
+            Oh ! c'est que je méfions… parce que, comme m'a dit
+            
+            mon maître : Pierre Ledru, qui m'a dit… c'est-à-dire
+            
+            c'est pas Pierre Ledru qu'il a dit, parce que quoique ça
+            
+            soit mon nom, 
+            
+            il m'appelle Jeaune, il trouve que c'est
+            
+-42
+            
+            plus distingué, et qu'on m' prendra pour un jokey an
+            
+            glais… Jeaune, qui m'a dit, dit-il, j'alions dans une
+            
+            ville où qu'il y a des officiers, c'est tous des malins, qui
+            
+            n' cherchont qu'à s' moquer des autres ; faut être sur
+            
+            tes gardes, mon garçon… 
+            
+            GUSTAVE. 
+            
+            Mais, si tu ne me dis pas ce que tu veux à M. de Mo
+            
+            rinville, dis-moi au moins qui tu es, afin que je le fasse
+            
+            prévenir. 
+            
+            PIERRE. 
+            
+            Oh ! ça, j' puis vous l' dire, j'suis Pierre Ledru, ou
+            
+            Jeaune, comme dit mon maître. 
+            
+            GUSTAVE. 
+            
+            Je le sais, mais ton maître, qui est-il ? 
+            
+            PIERRE. 
+            
+            Mon maître ? Vous n'connaissez pas, mon maître ? 
+            
+            GUSTAVE. 
+            
+            Et comment veux-tu que je le connaisse ? 
+            
+            PIERRE. 
+            
+            C'est juste. Mon maître est M. Narcisse Dessessart, 
+            
+            celui qui vient pour épouse la nièce à M. Morinville. 
+            
+            Ah ! ton maître est M. Narcisse… 
+            
+            PIERRE. 
+            
+            GUSTAVE. 
+            
+            Lui-même, un garçon qu'est pas bête, allez, et qu'a
+            
+            de quoi, il aurait trouvé bien des fameux partis au pays, 
+            
+            s'il avait voulu, mais il paraît que c' mariage-là était
+            
+            arrêté depuis long-temps, et puis la nièce d'un colonel, 
+            
+            c'est plus flatteur. 
+            
+            GUSTAVE. 
+            
+            Et tu venais l'annoncer ? 
+            
+            PIERRE. 
+            
+            Comme vous dites, pendant ce temps-là, il
+            
+            est à se
+            
+            r'quinquer un brin, parce que quand on vient voir sa
+            
+            future faut être at, ffé. 
+            
+            GUSTAVE, 
+            
+            à
+            
+            part. 
+            
+            Si je pouvais profiter de la méprise. (II aut.) Malheu
+            
+            reusement M. Morinville est sorti pour le moment, 
+            
+, 
+            
+, 
+            
+            amène-le ici ; pendant ce temps le colonel rentrera, je
+            
+            lui annoncerai votre visite, il sera enchanté de vous
+            
+            voir, car il vous attendait. 
+            
+            PIERRE. 
+            
+            J'crois bien, on lui avait écrit que nous arriverions
+            
+            aujourd'hui. 
+            
+-13
+            
+            GUSTAVE, 
+            
+            à part. 
+            
+            Éloignons-le pour consulter Édouard. (Haut.) Vas de
+            
+            suite, mais surtout ne parle à personne de la maison, 
+            
+            on veut surprendre la demoiselle. 
+            
+            PIERRE
+            
+            J' comprenons, on veut ſ'y faire des niches ; chez nous, 
+            
+            c'est tout d' même, les filles qui s' marient, j' les aga
+            
+            çons. J'vas t'y m'amuser : dites donc, j' vas l' chercher, 
+            
+            n' dites rien à personne surtout. 
+            
+            GUSTAVE. 
+            
+            Sois tranquille ; amène-le ici et attends avec lui dans
+            
+            cette salle. 
+            
+            PIERRE. 
+            
+            J'cours. Ah ! ben, j'allons joliment rire ; les niches, 
+            
+            c'est mon fort moi. Sans adieu, monsieur, je reviens. 
+            
+            (Il sort.)
+            
+            SCENE VI. 
+            
+            GUSTAVE, EDMOND, JULES, VICTOR. 
+            
+            GUSTAVE, allant à lu porte à droite. 
+            
+            Edmond, Victor, Jules, venez vite. 
+            
+            TOUS, accourant. 
+            
+            Qu'y a-t-il ? que veux-tu ? 
+            
+            GUSTAVE. 
+            
+            Ah ! mes amis, venez à mon secours, vous voyez un
+            
+            homme dans le plus grand embarras… La personne
+            
+            qu'attendait le colonel, celui qui doit épouser Adèle, 
+            
+            vient d'arriver. 
+            
+            Ah ! diable ! … 
+            
+            EDMOND. 
+            
+            GUSTAVE. 
+            
+            Mais par le plus heureux hasard, un imbécille de do
+            
+            mestique qu'il a envoyé devant, s'est trompé de mai
+            
+            son, celle de M. Morinville touchant à celle-ci, il est
+            
+            venu me le demander. 
+            
+            EDMOND. 
+            
+            Et ta l'as laissé partir ? 
+            
+            GUSTAVE. 
+            
+            Non, je l'ai envoyé chercher son maitre, et il va l'a
+            
+            mener. 
+            
+            VICTOR
+            
+            Bravo, il faut le retenir ici. 
+            
+            GUSTAVE. 
+            
+            C'est mon projet, mais par quel moyen ? 
+            
+            C'est là le difficile. 
+            
+            EDMOND. 
+            
+            GUSTAVE. 
+            
+            Ah ! je vais lui parler, et s'il est homme d'honneur, il
+            
+            aura ma vie ou j'aurai la sienne. 
+            
+            EDMOND. 
+            
+            Ce moyen-là ne vaudrait rien, le colonel se fàcherait
+            
+            tout-à-fait, et loin d'ar ranger tes affaires, ce coup de tête
+            
+            pourrait tout gâter. 
+            
+            GUSTAVE. 
+            
+            Dois-je donc le laisserpartir ? 
+            EDMOND. 
+            
+            Non sans doute ; quel homme est-ce ? 
+            
+            GUSTAVE. 
+            
+            A en juger par son ambassadeur, ce doit être un sot. 
+            
+            EDMOND. 
+            
+            C'est ce qu'il faudrait prouver au colonel ; il ne vou
+            
+            dra pas sacrifier sa nièce, et alors tu aurais tous les avan
+            
+            tages ; voyons, cherchons bien… Qu'en pensez-vous vous
+            
+            autres ? 
+            
+            JULES. 
+            
+            Moi je suis d'avis de l'enfermer ici, de le faire prison
+            
+            nier de guerre. 
+            
+            Non, ce n'est pas encore cela. 
+            
+            EDMOND. 
+            
+            Si nous le grisions… 
+            
+            VICTOR
+            
+            EDMOND. 
+            
+            Attendez… oui, nous sommes en carnaval, ce temps
+            
+            excuse toutes les folies… (A Gustave.) Veux-tu te fier
+            
+            à moi ? 
+            
+            GUSTAVE. 
+            
+            J'adopte d'avance tous les moyens. 
+            
+            EDMOND. 
+            
+            En ce cas, vite à l'ouvrage… Ton rival ne connaît pas
+            
+            la famille du colonel ? 
+            
+            Il ne l'a jamais vue. 
+            
+            GUSTAVE. 
+            
+            EDMOND, 
+            
+            C'est à merveille, suivez-moi, nous n'avons pas de
+            
+            temps à perdre. 
+            
+            SCÈNE VII. 
+            
+            LES PRÉCÉDENS, MARIE. 
+            
+            MARIE. 
+            
+            Est-ce que
+            
+            M. le colonel est ici ? voilà un monsieur
+            
+            suivi d'un domestique qui le demande. 
+            
+            C'est lui ! … 
+            
+-15
+            
+            GUSTAVE. 
+            
+            EDMOND, à Marie. 
+            
+            Fais-le monter, dis-lui d'attendre ici, et envoie-nous
+            
+            Dubois… Ah ! … surtout ne dis rien de ce qui se passe à
+            
+            ces étrangers. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Mon cœur à l'espoir s'abandonne. </stage>
+            
+            
+                    <l>Partons, surtout de la prudence,</l>
+                    <l>Chers amis, secondez-moi bien,</l>
+                    <l>Et bientôt, j'en suis sur d'avance,</l>
+                    <l>Gustave ne craindra plus rien.</l>
+            
+                    GUSTAVE. 
+            
+                    <l>Mon cœur se confie à ton zèle.</l>
+            
+                    EDMOND. 
+            
+                    <l>De tout nous te répondons ;</l>
+                    <l>Peux-tu craindre quand sur ta belle</l>
+                    <l>En ces lieux veillent des dragons.</l>
+            
+                    ENSEMBLE. 
+            
+                    <l ana="unanalyzable">Partons, surtout etc.</l>
+            
+                    GUSTAVE. 
+            
+                    <l>Partons, surtout de la prudence,</l>
+                    <l>Mes chers amis, songez-y bien,</l>
+                    <l>En vous, je mets mon espérance,</l>
+                    <l>Pour réussir n'oubliez rien.</l>
+                </lg>
+            </div>
+            
+            
+            SCÈNE VIII. 
+            
+            (Ils sortent.)
+            
+            MARIE, NARCISSE, PIERRE. 
+            
+            MARIE. 
+            
+            Que je ne dise rien, il me serait difficile de parler, je
+            
+            ne sais rien… Je suis sûre qu'ils vont faire encore quel
+            
+            qu'étourderie… Pourvu que ça ne retarde pas mon ma
+            
+            riage, j'en serais fâchée, ce bon Dubois, je l'aime vérita
+            blement. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : De l'Artiste. </stage>
+            
+            
+                    <l>Ça n'est pas un p'tit-maître,</l>
+                    <l>Il n'est pas très-galant,</l>
+                    <l>Il est brusque et peut-être</l>
+                    <l>Il s' fâche trop souvent ;</l>
+                    <l>Il a l'humeur jalouse,</l>
+                    <l>Il s'emport', jur' surtout…</l>
+                    <l>Mais enfin, il m'épouse,</l>
+                    <l>Et ça répond à tout.</l>
+            
+                    DEUXIÈME COUPLET. 
+            
+                    <l>Qu'on s'moque d'sa figure,</l>
+                    <l>Qu'on s'moque d'son maintien,</l>
+                    <l>Qu'on critiqu' sa tournure,</l>
+                    <l>Tout ça ne me fait rien ;</l>
+                    <l>Que d'mon bonheur jalouse,</l>
+                    <l>Maint' coquet' blâm' mon goût,</l>
+                    <l>Moi j'dis : puisqu'il m'épouse</l>
+                    <l>Que ça répond à tout.</l>
+                </lg>
+            </div>
+            
+            
+-16
+            
+            Ah mon dieu ! et ces deux étrangers que j'oublie… Les
+            
+            voici. Entrez, Messieurs, entrez, on va venir dans l'ins
+            
+            tant. (
+            
+            A part.) Dieu ! sont-ils droles, allons chercher
+            
+            Dubois et rejoindre ces messieurs. 
+            
+            (Elle sort.)
+            
+            SCENE IX. 
+            
+            NARCISSE, PIERRE. 
+            
+            NARCISSE. 
+            
+            Es-tu bien sûr que ce soit ici qu'on t'a dit d'attendre ? 
+            
+            PIERRE. 
+            
+            Oui, monsieur, c'est bien ici, oh ! j'suis pas bête, allez. 
+            
+            NARCISSE. 
+            
+            C'est qu'il faut toujours se méfier, vois-tu ; il suffit
+            
+            qu'on soit de province pour que tous ces officiers veuil
+            
+            lent vous faire des tours ; heureusement que je ne suis
+            
+            pas facile à attraper. 
+            
+            Ni moi non plus. 
+            
+            PIERRE. 
+            
+            NARCISSE. 
+            
+            Puique nous sommes encore seuls, je veux te répéter
+            
+            ce que je t'ai déjà dit : il faut donner une bonne opinion
+            
+            du pays ; tu vois que je me suis mis en frais de toilette, 
+            
+            comment me trouves-tu ? 
+            
+            PIERRE. 
+            
+            Joliment brave, tout d'même. 
+            
+            NARCISSE. 
+            
+            C'est le dernier goût de Paris ; c'est indispensable
+            
+            pour mon plan de séduction ; aussi le cæur de la jeune
+            
+            fille n'a qu'à bien se tenir. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Ballet des Pierrots. </stage>
+            
+            
+                    <l>Toujours séducteur et galant,</l>
+                    <l>J'ai pour assurer ma tactique</l>
+                    <l>Avec la barbe romantique.</l>
+                    <l>Un habit d'un goût entraînant ;</l>
+                    <l>Malgré la vertu de la belle</l>
+                    <l>Je te réponds de sa douceur,</l>
+                    <l>Et comment résisterait-elle</l>
+                    <l>À tout l'esprit… de mon tailleur ?</l>
+                </lg>
+            </div>
+            
+            
+            Toi, de ton côté, sois aimable, léger, espiégle. 
+            
+            Laissez-moi faire. 
+            
+            PIERRE
+            
+            NARCISSE. 
+            
+            Sois charmant ; enfin imite-moi, mon garçon, et tu
+            
+            réussiras. 
+            
+-17
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Comme il m'aimait. </stage>
+            
+            
+                    <l>Fais comme moi <stage type="repetition"> (bis) </stage></l>
+                    <l>Pour te faire adorer des belles ;</l>
+                    <l>Fais comme moi <stage type="repetition"> (bis) </stage></l>
+                    <l>Tu réussiras, sur ma foi ;</l>
+                    <l>Pour réduire les plus cruelles,</l>
+                    <l>Pour les rendre toutes fidèles,</l>
+                    <l>Fais comme moi. <stage type="repetition"> (bis) .</stage></l>
+                </lg>
+            </div>
+            
+            
+            Il y a sans doute ici quelque gentille soubrette ; tâ
+            
+            ches de te mettre dans ses bonnes grâces : allons, quitte
+            
+            cèt air lourdaud, fais le mauvais sujet ; c'est bon genre. 
+            
+            PIERRE. 
+            
+            Allez, allez, n' craignez rien ; vous verrez comme
+            
+            j'sais m'y prendre quand elle sera là la petite bonne. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Suzon dormait dans un bocage. </stage>
+            
+            
+                    <l>J'li f'rai l'amour comme au village,</l>
+                    <l>J' réussirons, n'en doutez pas ;</l>
+                    <l>Dam' c'est qu'on s'amuse davantage,</l>
+                    <l>On n'y fait pas de grands hélas !</l>
+                    <l>J'm'en irons près d'elle en cachette,</l>
+                    <l>L'i fair' quelqu' nich', ça l'y plaira :</l>
+                    <l>Un' tap' par ci, un' tap' par là ;</l>
+                    <l>Ç'a vous agace une fillette,</l>
+                    <l>Un' tap' par ci, un' giff' par là,</l>
+                    <l>Ngna rien qui leur plaise comme ça.</l>
+                </lg>
+            </div>
+            
+            
+            NARCISSE. 
+            
+            Oui, tu feras de belles choses avec les tapes et tes
+            
+            giffes. 
+            
+            PIERRE. 
+            
+            Monsieur, j'entends quelqu'un. 
+            
+            NARCISSE. 
+            
+            Ce sont eux, je vais donc faire connaissance avec ma
+            
+            nouvelle famille… Tiens-toi à une distance respectueuse. 
+            
+            SCÈNE X. 
+            
+            LES PRÉCÉDENS, GUSTAVE EN demoiselle, EDMOND
+            
+            EN PÈRE, VICTOR EN MAMAN, DUBOIS EN SOUBRETTE. 
+            
+            CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Verse encore. </stage>
+            
+            
+                    <l>Quoi ! c'est lui <stage type="repetition"> (4 fois) </stage></l>
+                    <l>Qui vient dès aujourd'hui</l>
+                    <l>Pour combler notre attente ;</l>
+                    <l>Quoi ! c'est lui, <stage type="repetition"> (4 fois.)</stage></l>
+                    <l>Ô nouvelle charmante !</l>
+                    <l>Enfin il est ici.</l>
+            
+                    EDMOND. 
+            
+                    <l>Souffrez sans retard qu'ici je vous embrasse,</l>
+                    <l>Tant d'empressement</l>
+                    <l>Me flatte infiniment.</l>
+            
+                    3
+            
+-18
+            
+                    VICTOR. 
+            
+                    <l>À mon tour aussi, monsieur, souffrez, de grace.</l>
+            
+                    NARCISSE. 
+            
+                    <l>Qu'ils sont caressans,</l>
+                    <l>Les excellens</l>
+                    <l>Parens !</l>
+            
+                    REPRISE. 
+            
+                    <l ana="unanalyzable">Quoi ! c'est lui, etc.</l>
+                </lg>
+            </div>
+            
+            
+            EDMOND
+            
+            Ce cher gendre, nous ne l'attendions pas sitôt ; per
+            
+            mettez que je vous présente à mon épouse et à votre
+            
+            future ; et bien, qu'en dites-vous ? 
+            
+            NARCISSE. 
+            
+            Elle est charmante ! charmante ; c'est le mot, beau
+            
+            père. 
+            
+            VICTOR. 
+            
+            Allons donc, petite fille, faites la révérence. 
+            
+            GUSTAVE, bas
+            
+            Edmond. 
+            
+            Il a l'air ſurieusement bête, et ça veut dire beaucoup. 
+            
+            EDMOND, de même. 
+            
+            Tant mieux, morbleu. 
+            
+            NARCISSE, 
+            
+            à
+            
+            part. 
+            
+            Elle parle de moi, c'est bon signe ; c'est qu'elle est
+            
+            très-bien cette jeune personne ! 
+            
+            VICTOR. 
+            
+            C'est un vrai cadeau que je vous fais là ; tout l'esprit
+            
+            de son père. 
+            
+            EDMOND. 
+            
+            Toute la vertu de sa respectable mère. 
+            
+            NARCISSE. 
+            
+            Beau-père, je vous demanderai une faveur ; c'est de
+            
+            presser notre hymen, parce que, voyez-vous, 
+            
+            il doit y
+            
+            avoir des farceurs parmi vos officiers, et que comme
+            
+            nous sommes dans les jours gras… 
+            
+            EDMOND. 
+            
+            Soyez tranquille, j'ai eu soin de les éloigner, et d'ail
+            
+            leurs ils n'oseraient pas se permettre… Mais ce désir me
+            
+            plaît, et je vais tout de suite m'occuper de faire dresser
+            
+            le contrat. 
+            
+            PIERRE, à part. 
+            
+            V'là la petite bonne, j'vas lui parler. 
+            
+            EDMOND. 
+            
+            Je pense que pendant ce temps-là nous pouvons laisser
+            
+            notre gendre faire connaissance avec la future ; il n'y a
+            
+            pas de danger. 
+            
+            VICTOR. 
+            
+            Une jeune fille que j'ai élevée n'a plus rien à craindre
+            
+            d'un tête à tête. (A Narcisse.) Telle
+            
+            que vous la
+            
+            voyez, 
+            
+-19
+            
+            c'est un dragon… 
+            
+            Un dragon ! 
+            
+            NARCISSE. 
+            
+            VICTOR. 
+            
+            Un dragon de vertu. 
+            
+            GUSTAVE, bas à Edmond. 
+            
+            Ne me laisses pas trop long-temps avec lui. 
+            
+            EDMOND. 
+            
+            Nous allons nous occuper des préparatifs de votre
+            
+            bonheur : ah ! mon gendre, vous ne savez pas quelle
+            
+            femme vous aller avoir ! 
+            
+            NARCISSE. 
+            
+            Pardonnez-moi, je sais… 
+            
+            VICTOR. 
+            
+            Non, monsieur, non, vous ne vous en doutez même
+            
+            pas. 
+            
+            NARCISSE. 
+            
+            Dieu ! les excellens parens que je vais avoir là ; ils ont
+            
+            des figures qui inspirent la confiance. 
+            
+            EDMOND. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Tu vas changer de costume et d'emploi. </stage>
+            
+            
+                    <l>Adieu ! je vais commander les apprets</l>
+                    <l>Du nœud charmant que désire votre âme ;</l>
+                    <l>Mais, croyez-moi, vous ne pouviez jamais</l>
+                    <l>Espérer une telle femme.</l>
+            
+                    VICTOR. 
+            
+                    <l>Surtout, mon gendre, ayez en cet instant</l>
+                    <l>Du sang froid et de la prudence,</l>
+                    <l>Et n'allez pas, par trop entreprenant,</l>
+                    <l>Effaroucher ton innocence.</l>
+            
+                    ENSEMBLE. 
+            
+                    <l>Adieu, je vais <del hand="TK" type="alternative" reason="analysis"> Allez, allez, </del> commander les apprêts,</l>
+                    <l>Du nœud charmant que désire votre ame ;</l>
+                    <l>Mais, croyez-moi, vous ne pouviez <del hand="TK" type="alternative" reason="analysis">Oui, je le vois, je ne pouvais</del> jamais</l>
+                    <l>Espérer une telle femme.</l>
+                </lg>
+            </div>
+            
+            }
+            (Edmond et Victor sortent.)
+            
+            SCÈNE XI. 
+            
+            NARCISSE, GUSTAVE, DUBOIS, PIERRE. 
+            
+            GUSTAVE, bus à Dubois. 
+            
+            Prends garde à toi, ne vas pas te laisser surprendre
+            
+            DUBOIS, de même. 
+            
+            Soyez tranquille, mon lieutenant, je veille aux grains. 
+            
+-20
+            
+            NARCISSE, qui a reconduit les autres, revenant sur le devant de la scène.'
+            
+            Voilà le moment d'employer tous les moyens de sé
+            
+            duction. 
+            
+            (Regardant Gustave.) Quelle taille majes
+            
+            tueuse ! 
+            
+            Jarni ! l'beau brin d' fille ! 
+            
+            PIERRE, regardant Dubois. 
+            
+            NARCISSE, s'approchant de Gustave. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Comte Ory. </stage>
+            
+            
+                    <l>Approchez, aimable amie,</l>
+                    <l>Pourquoi craindre en cet instant ;</l>
+                    <l>Rassurez-vous, je vous prie,</l>
+                    <l>Près du plus sensible amant.</l>
+            
+                    GUSTAVE, 
+            
+                    minaudant. 
+            
+                    <l>Près de vous je suis tremblante.</l>
+            
+                    NARCISSE. 
+            
+                    <l>Au moins daignez m'écouter.</l>
+            
+                    PIERRE, à Dubois. 
+            
+                    <l>Jarni qu' vous êtes donc av'nante,</l>
+            
+                    DUBGIS, minaudant. 
+            
+                    <l>Quoi ! vous voulez m'en conter !</l>
+            
+                    NARCISSE ET PIERRE. 
+            
+                    <l>Je jure, belle amie,</l>
+                    <l>D'aimer toute la vie.</l>
+            
+                    ENSEMBLE. 
+            
+                    GUSTAVE ET DUBOIS. 
+            
+                    <l>Qu'elle est bien ! <stage type="repetition"> (bis) </stage></l>
+                    <l>L'aimable entretien !</l>
+            
+                    <l>Tout va bien, <stage type="repetition"> (bis) </stage></l>
+                    <l>Il n'aperçoit rien.</l>
+            
+                    NARCISSE ET PIERRE. 
+            
+                    <l>Daignez m'accorder en ce jour</l>
+                    <l>Le prix de mon brûlant amour.</l>
+            
+                    REPRISE. 
+            
+                    <l ana="unanalyzable">Quelle est bien, etc.</l>
+                    <l ana="unanalyzable">Tout va bien, etc.</l>
+            
+                    (Pendant toute scène Pierre imite burlesquement son maître.)
+            
+                    DEUXIÈME COUPLET. 
+            
+                    NARCISSE. 
+            
+                    <l>Cédez, femme trop charmante,</l>
+                    <l>Et vers moi tournez les yeux.</l>
+            
+                    PIERRE. 
+            
+                    <l>Ne soyez pas trop méchante,</l>
+                    <l>Prenez-moi pour amoureux.</l>
+            
+                    GUSTAVE. 
+            
+                    <l>Dois-je croire à ce langage,</l>
+                    <l>On vous dit fort inconstant.</l>
+            
+                    DUBOIS. 
+            
+                    <l>N'êtes-vous pas un p'tit volage,</l>
+                    <l>Un séducteur, un méchant ?</l>
+            
+                    NARCISSE ET PIERRE. 
+            
+                    <l>Je jure, belle amie,</l>
+                    <l>D'aimer toute la vie.</l>
+            
+            
+                    <stage type="repetition"> (Reprise de l'ensemble.)</stage>
+                </lg>
+            </div>
+            
+            
+            
+            DUBOIS, bàs à Gustave. 
+            
+            Ils donnent dans le panneau… 
+            
+            Tais-toi donc… 
+            
+-21
+            
+            GUSTAVE. 
+            
+            NARCISSE. 
+            
+            Pourquoi donc, aimable Adèle, craindre de me re
+            
+            garder ? 
+            
+            GUSTAVE, timidement. 
+            
+            Oh ! monsieur, c' n'est pas que vous me faites
+            
+            peur. 
+            
+            NARCISSE. 
+            
+            Charmante ingénuité ! 
+            
+            PIERRE, frappant rudement sur l'épaule de Dubois. 
+            
+            Dites donc, 
+            
+            la grosse mère, vous êtes ben gentille, 
+            
+            tout de même. 
+            
+            DUBOIS. 
+            
+            Crècoquin, comme il tape ! 
+            
+            NARCISSE, se jettant à ses genoux. 
+            
+            Dites moi que je puis espérer que vous m'aimez in
+            
+            comparable, jeune personne ! 
+            
+            GUSTAVE ; minaudant. 
+            
+            Ah ! monsieur, je n'ose pas. 
+            
+            NARCISSE. 
+            
+            Aimable aveu ! 
+            
+            PIERRE, tapant sur l'épaule de Dubois
+            
+            Ah ça, mamzelle, j' vous aime, aimez moi donc
+            
+            itou. 
+            
+            DUBOIS, lui rendant la tape. 
+            
+            Oui, monsieur, j' vous aime itou. 
+            
+            PIERRE. 
+            
+            Aye, aye, est-elle gentille… elle m'adore, c'est sûr… 
+            
+            NARCISSE. 
+            
+            Qu'un baiser, un seul devienne le gage de mon bon
+            
+            heur… 
+            
+            PIERRE
+            
+            Ah ! bien, ça y est, embrassons-les… Eh ! hup… 
+            
+            GUSTAVE. 
+            
+            Un baiser, y pensez-vous. 
+            
+            (Narcisse et Pierre cherchent à les embrasser.)
+            
+            GUSTAVE ET DUBOIS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune" id="AIR : Ah ! finissez.">Air : </stage>
+            
+            
+                    <l>Ah ! finissez</l>
+                    <l>Monsieur, vous m'offensez,</l>
+                    <l>Ou bin j'appelle ma mère.</l>
+                    <l>Ah ! finissez, <stage type="repetition"> (3 fois.)</stage></l>
+                    <l>Ou vous vous en souviendrez.</l>
+            
+                    NARCISSE. 
+            
+                    <l>Pourquoi donc tant de colère,</l>
+                    <l>Pour un seul petit baiser.</l>
+            
+                    PIERRE
+            
+                    <l>Allons, cédez, la p'tit' mère,</l>
+                    <l>Vous n' pouvez pas le r'fuser.</l>
+            
+-22
+            
+                    GUSTAVE ET DUBOIS. 
+            
+                    <l ana="unanalyzable">Ah ! finissez, etc.</l>
+            
+                    NARCISSE ET PIERRE. 
+            
+                    <l>Allons, cédez</l>
+                    <l>À nos vœux empressés,</l>
+                    <l>Appaisez votre colère.</l>
+                    <l>Allons, cédez ! ah ! cédez, ah ! cédez,</l>
+                    <l>Et que nos vœux soient comblés !</l>
+                </lg>
+            </div>
+            
+            
+            (Narcisse et Pierre poursuivent Gustave et Dubois ; Gustave en se débattanı ren
+            
+            verse Narcisse, Dubois applique un bon soufflet à Pierce.)
+            
+            NARCISSE, se relevant. 
+            
+            Il est impossible d'être plus aimable. 
+            
+            PIERRE, se tenant la joue, 
+            
+            Oh ! m'aime-t-elle, oh ! m'aime-t-elle. 
+            
+            SCÈNE XII, 
+            
+            LES PRÉCÈDENS, EDOUARD, VICTOR, JULES EN
+            
+            NOTAIRE, 
+            
+            EDMOND. 
+            
+            Vous voyez, mon cher gendre que je n'ai pas voulu
+            
+            vous faire languir, voilà le notaire, nousallons régler les
+            
+            principaux articles du contrat, et demain la noce. 
+            
+            NARCISSE. 
+            
+            Oui, c'est cela, beau-père, à demain la noce, comme
+            
+            ça, au moins, je serai sûr que vos officiers ne me feront
+            
+            pas de farces. 
+            
+            EDMOND. 
+            
+            Comment trouvez-vous ma fille ? 
+            
+            NARCISSE. 
+            
+            J'en suis fou… elle m'a jetté par terre avec une grâce… 
+            
+            VICTOR. 
+            
+            Ah ! elle est un peu vive… mais c'est bien le meilleur
+            
+            garçon… (Se reprenant.) La meilleure femme que je
+            
+            connaisse… 
+            
+            EDMONE. 
+            
+            Viens, mon enfant, viens. 
+            
+            (Il prend Gustave par la main ainsi que Narcisse.)
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : De la piété filiale. </stage>
+            
+            
+                    <l>Reçois un époux, cher enfant,</l>
+                    <l>Offert par la main paternelle ;</l>
+                    <l>Surtout, ma fille, soit toujours fidèle,</l>
+                    <l>Vous, mon gendre, soyez toujours constant ;</l>
+                    <l>Que cette union, sans égale,</l>
+                    <l>Serve les projets de l'amour,</l>
+                    <l>Et devenez le modèle, en ce jour,</l>
+                    <l>De la tendresse conjugale.</l>
+            
+            
+                    (Il les unit.)
+            
+-23
+            
+                    SCENE XIII. 
+            
+                    Les PRÉCÉDENS, LE COLONEL, MARIE. Le colonel s'ar
+            
+                    réte à la porte du fond et retient Marie qui a l'air de
+            
+                    vouloir l'annoncer. 
+            
+                    (Narcisse à genoux ainsi que Gustave reprennent avec Edmond et Victor
+            
+                    les quatre derniers vers.)
+            
+                    <l>Près de l'épouse sans égale,</l>
+                    <l>Qui comble aujourd'hui mon amour,</l>
+                    <l>Oui, je serai le modèle en ce jour,</l>
+                    <l>De la tendresse conjugale.</l>
+                </lg>
+            </div>
+            
+            PJERRE, à Dubois. 
+            
+            Allons, allons, mamzelle, est-ce que le coeur ne vou s
+            
+            en dit pas, taupez-là et vous s'rez madame Pierre le dru, 
+            
+            Jeaune, comme dit mon maitre. 
+            
+            DUBOIS, se retourne pour rire il apperçoit le colonel. 
+            
+            Le colonel ! 
+            
+            Le colonel ! Sauve qui peut. 
+            
+            EDMOND. 
+            
+            (A ce mot Gustave se relève, Edmond Gnstave, le notaire et Dubois se sauvent
+            
+            vers la porte du fond, mais voyant le colonel ils reviennent sur le devant de
+            
+            la scène.)
+            
+            LE COLONEL, s'approchant. 
+            
+            Voudra-t-on me dire ce que tout cela signifie ? 
+            
+            NARCISSE, qui est resté à genoux. 
+            
+            Plaît-il ? … Allons, je vois ce que c'est, quelque pa
+            
+            rent qu'on aura oublié d'inviter. 
+            
+            (Allant au colonel.)
+            
+            Soyez le bien venu, monsieur, on vous attendait avec
+            
+            impatience. 
+            
+            LE COLONEL, regardant les jeunes gens qui tournent le dos. 
+            
+            Je ne le crois pas. 
+            
+            NARCISSE, à Edmond. 
+            
+            Allons, beau-père, monsieur pardonne qu'on ait com
+            
+            mencé sans lui, n'est-il pas vrai, monsieur, vous excu
+            
+            sez ? … 
+            
+            LE COLONEL. 
+            
+            Ah ! ça, ventrebleu, voudra-t-on bien me dire ce que
+            
+            veut dire cette mascarade ? 
+            
+            EDMOND, se retournant. 
+            
+            Mon colonel, je vous proteste que nous étions loin
+            
+            de nous attendre à l'honneur de votre visite, si nous
+            
+            avions pu nous en douter nous nous serions mis en
+            
+            grande tenue. 
+            
+            LE COLONEL, les retournani excepté Duboisquiest tout-à-fait dans le coin. 
+            
+            Mais, vraiment vous êtes fort bien ainsi. (Sévèrement.)
+            
+            Vous garderez un mois les arrêts de rigueur. 
+            
+            Ah ! colonel ! 
+            
+            TOUS. 
+            
+            NARCISSE. 
+            
+            Les arrêts de rigueur ! Permettez, monsieur, je ne
+            
+            comprends pas très-bien… Vous dites donc que ? … 
+            
+            LE COLONEL. 
+            
+            Je dis que ces messieurs ont voulu se moquer de vous. 
+            
+            NARCISSE. 
+            
+            Se moqueur de moi… laissez donc, je vois ce que
+            
+            c'est ; vous êtes un des officiers vous, et vous voulez me
+            
+            faire des farces, mais c'est connu, vous venez trop tard. 
+            
+            Pas vrai, beau-père, c'est un farceur… Allons, farceur, 
+            
+            ça ne prend pas. 
+            
+            EDMOND, luifaisant des signes. 
+            
+            Taisez-vous donc. 
+            
+            LE COLONEL. 
+            
+            Je suis très-mécontent d'une pareille conduite, mes
+            
+            sieurs, rien ne peut l'excuser. 
+            
+            EDMOND. 
+            
+            Ah ! mon colonel, si vous connaissiez notre but, peut
+            
+            être auriez-vous plus d'indulgence. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vive une femme de tête. </stage>
+            
+            
+                    <l>De femme aimable et jolie,</l>
+                    <l>L'un de nous toucha le cœur ;</l>
+                    <l>Son oncle la sacrifie</l>
+                    <l>Et veut faire son malheur ;</l>
+                    <l>Quand pour une espièglerie</l>
+                    <l>Cet amant est aux arrêts,</l>
+                    <l>Pour épouser son amie</l>
+                    <l>Un rival vient tout exprès ;</l>
+                    <l>Pour punir le téméraire</l>
+                    <l>Il réclame nos efforts,</l>
+                    <l>Nous secondons sa colère,</l>
+                    <l>C'est venger l honneur du corps.</l>
+                    <l>Nous transformons, pleins de zèle,</l>
+                    <l>Pour obliger un ami,</l>
+                    <l>Cet hôtel en citadelle</l>
+                    <l>Et monsieur en ennemi.</l>
+                    <l>Le destin pour nous prospère,</l>
+                    <l>Ici le faire arriver,</l>
+                    <l>Par une ruse de guerre</l>
+                    <l>Nous voulons l'y conserver ;</l>
+                    <l>Mais vous prenant pour modèle,</l>
+                    <l>Vous qu'en tous temps on a vu</l>
+                    <l>Terrible au guerrier rebelle,</l>
+                    <l>Généreux s'il est vaincu,</l>
+                    <l>Nous piquant de grandeu rd'âme</l>
+                    <l>Envers notre prisonnier ;</l>
+                    <l>Il ne voulait qu'une femme,</l>
+                    <l>Nous allions le marier.</l>
+            
+            
+                    <stage type="repetition"> (Les officiers reprennent en chœur.)</stage>
+            
+            
+                </lg>
+            </div>
+            
+            LE COLONEL. 
+            
+            Et vous croyez que je souffrirai… 
+            
+-26
+            
+            NARCISSE. 
+            
+            Oui, messieurs, vous croyez que'nous souffrirons… 
+            
+            GUSTAVE. 
+            
+            Monsieur, nous n'avons voulu faire qu'une plaisante
+            
+            rie que le carnaval peut excuser ; mais si elle vous offense, 
+            
+            je suis prêt à vous en rendre raison : choisissez vos armes, 
+            
+            monsieur. 
+            
+            PIERRE. 
+            
+            Allons, v'là monsieur qui va se battre avec sa préten
+            
+            due. 
+            
+            Choisissez vos armes, monsieur. 
+            
+            EDMOND ET VICTOR. 
+            
+            Silence ! 
+            
+            LE COLONEL. 
+            
+            NARCISSE. 
+            
+            Oui, silence… d'ailleurs permettez, 
+            
+            je fais une ré
+            
+            flexion : vous dites
+            
+            que
+            
+            c'est par une ruse de guerre que
+            
+            vous m'avez retenu ici, alors il n'est pas étonnant que
+            
+            moi, qui n'ai jamais été militaire, et qui ne fait pas
+            
+            même partie de la garde nationale du département, parce
+            
+            que je crains beaucoup les rhumes, il n'est donc pas
+            
+            étonnant, dis-je, que j'aie été la dupe d'une ruse de
+            
+            guerre, ça ne prouve rien contre moi. 
+            
+            EDMOND. 
+            
+            Eh non sans doute, bien d'autres y ont été pris, allez. 
+            
+            NARCISSE. 
+            
+            Alors, il est parfaitement inutile que je me fàche. 
+            
+            LE COLONEL. 
+            
+            L'imbécille… et ce diable de Dubois que j'avais chargé
+            
+            de vous surveiller, où est-il… (Appelant.) Dubois ! … 
+            Dubois ! … 
+            
+            DUBOIS, se retournant et mettant la main à son bonnei. 
+            
+            Présent ! colonel. 
+            
+            LE COLONEL, le regardant et partant d'un éclat de rire. 
+            
+            Oh ! pour celui-là, c'est trop fort… Comment ! et toi
+            
+            aussi ? 
+            
+            DUBOIS. 
+            
+            Dame ! que voulez-vous, mon colonel, ils m'ont conté
+            
+            un tas de balivernes, mais je ne les ai pas quitté. 
+            
+            LE COLONEL, 
+            
+            Pour t'apprendre à mieux m'obéir, tu ne te marieras
+            
+            pas. 
+            
+            DUBOIS, arrachant son bonnet, et le jettant au nez de Pierre. 
+            
+            Là ! j'en étais sûr, mille bombes ; qu'on m'y rattrappe. 
+            
+            PIERRE. 
+            
+            Oh ! jure-t-elle, jure-t-elle ; c'est joli. 
+            
+            4
+            
+---26
+            
+            EDMOND. 
+            
+            Si monsieur, au lieu de se fåcher, veut oublier notre
+            
+            folie et prendre sa part d'un bon diner qui devait être le
+            
+            repas des fiançailles, il nous fera grand plaisir. 
+            
+            NARCISSE. 
+            
+            Comment donc, messieurs, j'accepte très-volontiers : 
+            
+            oh ! j'entends la plaisanterie, moi, et d'ailleurs puisque
+            
+            c'est une ruse de guerre, je suis des vôtres. 
+            
+            LE COLONEL, à part. 
+            
+            Il est impossible d'être plus niais, et c'est là l'époux
+            
+            que j'allais donner à ma nièce ! En conscience, je ne
+            
+            puis pas me fächer d'une folie qui m'empêche de faire. 
+            
+            une pareille sottise ; je vous préviens que je ne connais
+            
+            sais pas monsieur. 
+            
+            NARCISSE. 
+            
+            Enchanté de faire votre connaissance. 
+            
+            GUSTAVE. 
+            
+            Mon oncle, vous savez maintenant mon secret… 
+            
+            LE COLONFL. 
+            
+            Nous reparlerons de cela lorsque vous aurez gardé
+            
+            vos arrêts. 
+            
+            Ah ! mon oncle, que de bonté ! 
+            
+            NARCISSE. 
+            
+            GUSTAVE. 
+            
+            Monsieur le colonel, je vois bien que j'aurai fait
+            
+            un voyage inutile ; mais j'espère au moins que vous
+            
+            ne me refuserez pas la grâce de ces messieurs qui sont
+            
+            vraiment fort aimables. 
+            
+            LE COLONEL. 
+            
+            Comment, c'est vous qui la demandez ? alors je l'ac
+            
+            corde de grand cæur. 
+            
+            TOUS. 
+            
+            Vive le colonel ! 
+            
+            LE COLONEL. 
+            
+            Mais que ce soit pour la dernière fois. 
+            
+            EDMOND. 
+            
+            Nous vous le promettons, colonel ; d'ailleurs ce n'est
+            
+            pas toujours carnaval ; mais vous le savez… 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Vaudeville de la Revue de Paris. </stage>
+            
+            
+                    <l>Pour faire des sottises,</l>
+                    <l>Le carnaval est engageant,</l>
+                    <l>C'est le temps des bêtises,</l>
+                    <l>On est plus indulgent.</l>
+            
+                    <stage type="repetition">REPRISE DU CHOEUR.</stage>
+            
+                    LE COLONEL. 
+            
+                    <l>Ennemis de la France</l>
+                    <l>Entrez chez nous, voici l'instant</l>
+            
+-27
+            
+                    <l>Riant de votre imprudence,</l>
+                    <l>Nous chanterons en vous battant :</l>
+                    <l ana="unanalyzable">Pour faire des sottises, etc.</l>
+            
+                    GUSTAVE. 
+            
+                    <l>En lisant mainte histoire,</l>
+                    <l>En écoutant certains discours,</l>
+                    <l>Ne pourrait-on pas croire</l>
+                    <l>Que ce bon temps dure toujours ?</l>
+            
+                    NARCISSE. 
+            
+                    <l>Encor un mariage</l>
+                    <l>Que je manque dans les jours gras,</l>
+                    <l>D'un tel guignon j'enrage,</l>
+                    <l>De m'épouser pourtant c'est l' cas !</l>
+            
+                    (Parlé.) Car enfin… 
+            
+                    <l ana="unanalyzable">Pour faire des sottises, etc.</l>
+            
+                    DUBOIS, à Marie. 
+            
+                    <l>On dit que monsieur le maire</l>
+                    <l>D'ouvrage en ces jours ne manque pas ;</l>
+                    <l>Mais en f'sant son affaire</l>
+                    <l>Que d'fois il doit l'dire tout bas.</l>
+                    <l ana="unanalyzable">Pour faire des sottises, etc.</l>
+            
+                    PIERRE. 
+            
+                    <l>Notre voisin Gros-Pierre,</l>
+                    <l>Un certain soir de mardi-gras,</l>
+                    <l>Trouva sa ménagère…</l>
+            
+                    Vrai. 
+            
+                    DUBOIS. 
+            
+                    PIERRE. 
+            
+                    (Il parle bas à l'oreille de Dubois.)
+            
+                    C'est comme j' vous l' dis ; ça lui fit d'abord de la
+            
+                    peine à c' pauvr' cher homme ; mais il était bon gar
+            
+                    çon… 
+            
+                    (Reprise de l'air.)
+            
+                    <l>Il s'enfuit en disant tout bas.</l>
+                    <l ana="unanalyzable">Pour faire des sottises, etc.</l>
+            
+                    Marie, au public. 
+            
+                    <l>Pour cette œuvre légère,</l>
+                    <l>Messieurs, l'auteur tremble aujourd'hui ;</l>
+                    <l>Mais soyez sans colère,</l>
+                    <l>Et ce soir dites avec lui…</l>
+                    <l>Pour faire des sottises,</l>
+                    <l>Le carnaval est engageant,</l>
+                    <l>C'est le temps des bêtises,</l>
+                    <l>Il faut être indulgent.</l>
+            
+            
+                    <stage type="repetition"> (Reprise.</stage> La toile tombe.)
+            
+            
+                </lg>
+            </div>
+            
+            FIN. 
+            
+            1
+            
+            |
+            
+            Österreichische Nationalbibliothek
+            
+            +Z16087910X
+        </body>
+    </text>
+</TEI>

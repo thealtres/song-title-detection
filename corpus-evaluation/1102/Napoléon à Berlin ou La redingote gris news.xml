@@ -1,0 +1,3460 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">NAPOLÉON A BERLIN, OU LA REDINGOTE GRISE</title>
+                <title type="sub">COMÉDIE HISTORIQUE EN UN ACTE MÊLÉE DE COUPLETS</title>
+                <author key="DUM" sort="1">
+                    <name>
+                        <forename>Théophile Marion</forename>
+                        <surname>Dumersan</surname>                        
+                    </name>
+                </author>
+                <author key="DPN" sort="2">
+                    <name>
+                        <forename>Jean-Henri</forename>
+                        <surname>Dupin</surname>                   
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="PL">
+                        <forename>Pascaline</forename>
+                        <surname>Loricourt</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">NAPOLÉON A BERLIN, OU LA REDINGOTE GRISE</title>
+                        <author>DUMERSAN ET DUPIN</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?vid=KBNL:KBNL03000010970</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>National Library of the Netherlands</repository>
+                                <idno type="URL">https://opc-kb.oclc.org/DB=1/SET=1/TTL=1/SHW?FRST=5</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-10-15">15 OCTOBRE 1830</date>
+                <placeName>
+                    <settlement>THÉATRE DES VARIÉTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.
+                </p>
+            </projectDesc>
+            <samplingDecl>
+                   <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            oeA propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui – ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            107
+            
+            L
+            
+            88
+            
+            ܒܩ
+            
+            – ܢ
+            
+            03732
+            
+            IXLUKE
+            
+            OTHEK
+            
+            107288
+            
+            NAPOLÉON
+            
+            A BERLIN, 
+            
+            OU
+            
+            LA
+            
+            REDINGOTE QRISE, 
+            
+            COMÉDIE HISTORIQUE EN UN ACTE
+            
+            MÊLÉE DE COL PLETS ; 
+            
+            PAR
+            
+            MM. 
+            
+            DUMERSAN ET DUPIN ; 
+            
+            REPRÉSENTÉE, POUR LA PREMIÈRE FOIS, 
+            
+            SUR LE THÉATRE DES VARIÉTÉS, 
+            
+            LE 15 OCTOBRE 1830. 
+            
+            
+            <div type="poem">
+                <lg>
+            <l>« Il avait petit chapeau</l>
+            <l>« Avec redingote grise. *</l>
+                </lg></div>
+            
+            DE BÉRANGER. 
+            
+            SOUVENIRS DU PEUPLE. 
+            
+            Doneogostogos
+            
+            PRIX : 
+            
+            | FR. 80 G. 
+            
+            Paris. 
+            
+            CHEZ LES ÉDITEURS : 
+            
+            PAUL BANÊS, CORRESPONDANT DES THÉATRES, 
+            
+            rue de l'Echiquier, n ° 16 ; 
+            
+            R. RIGA, FAUBOURG POISSONNIERE, N ° 1. 
+            
+            000
+            
+            1830
+            
+            PERSONNAGES, 
+            
+            ACTEURS. 
+            
+            NAPOLÉON. 
+            
+            LA COMTESSE D'HATZFELDT. 
+            
+            LE BARON D'OLBRUCK, son cousin. 
+            
+            LE CONSEILLER BITTERBRACK, attaché à
+            
+            la légation bavaroise. 
+            
+            KOLBAK, noble prussien. 
+            
+            BURMANN, meunier. 
+            
+            NANCY, sa fille. 
+            
+            LUCIEN, voltigeur de la garde. 
+            
+            M. Cazor. 
+            
+            Mlle PAULINE. 
+            
+            M. ASTRUC. 
+            
+            M. ODRY. 
+            
+            M. CHARLES. 
+            
+            M. LEFÈVRE. 
+            
+            Milo MARCHETTI. 
+            
+            M. LHÉRIE. 
+            
+            FRITZ, fils du concierge du château d'Hatzfeldt. M. SYLVESTRE. 
+            
+            OFFICIERS PRUSSIENS, déguisés en paysans. 
+            
+            VILLAGEOIS, VILLAGEOISES. 
+            
+            OFFICIERS FRANÇAIS. 
+            
+            VOLTIGEURS DE LA GARDE. 
+            
+            (La scère
+            
+            est
+            
+            en
+            
+            Prusse, au château d'Hatzfeldt, à l'extrémité d'un
+            
+            faubourg de Berlin.)
+            
+            Les personnages seront placés en tête de chaque scène comme ils doivent
+            
+            etre au théâtre. Le premier à la gauche du spectateur. 
+            
+            NAROLLON
+            
+            A BERLIN, 
+            
+            COMÉDIE HISTORIQUE EN UN ACTE, MÊLÉE DE COUPLETS. 
+            
+            Le théâtre représente un salon. Les trois portes de fond donnent sur une
+            
+            galerie ou un autre salon, ayant une porte au milieu. Deux fauteuils sont
+            
+            entre les portes. Il y
+            
+            a une cheminée à gauche, et une porte latérale au
+            
+            premier plan à droite du spectateur. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            (On entend battre le rappel.)
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                                    FRITZ, arrivant. 
+                
+            
+            
+                
+                    C'est drôle, la guerre  ! … c'est amusant… quand c'est fini. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : vaudeville de Jadis et Aujourd'hui. 
+                </stage>
+            
+               
+                    <l>D'être plus tranquille il me tarde ;</l>
+                    <l>Ce château si noble et si vieux</l>
+                    <l>Sert aux Français de corps de garde,</l>
+                    <l>Et l'empereur est dans ces lieux.</l>
+                    <l>Suis–j' t'y content de sa présence ?</l>
+                    <l>Non ; mais, comme il est l' maître ici,</l>
+                    <l>Je dirai tout ce que j'en pense</l>
+                    <l>Aussitôt qu'il sera parti.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            Nous nous serions bien passés de l'honneur qu'il nous a fait. 
+            
+            SCÈNE 11. 
+            
+            BURMANN, FRITZ. 
+            
+            (Burmann va pour entrer dans la galerie.)
+            
+            FRITZ. 
+            
+            Tiens, c'est vous, père Burmann ; où alliez – vous donc, 
+            
+            par – là  ? 
+            
+            Je te cherchais, Fritz. 
+            
+            BORMANN. 
+            
+            FRITZ. 
+            
+            Eh bien  ! est – ce que vous n'amenez pas votre fille avec
+            
+            vous  ? 
+            
+            BURMANN. 
+            
+            Je suis venu devant ; elle ne va pas tarder à se rendre aux
+            
+            ordres de M. le comte d'Hatzfeld. 
+            
+            bu
+            
+            FRITZ. 
+            
+            Dame  ! je suis un bon parti, moi, fils du concierge du
+            
+            château… mais qu'est – ce que l'on m'a donc dit d'un jeune
+            
+            Français, d'un petit voltigeur de la garde  ? …
+            
+            Lucien  ? 
+            
+            BURMANN. 
+            
+            FRITZ. 
+            
+            Je ne sais pas son nom. 
+            
+            BURMANN. 
+            
+            Ce jeune homme avait été blessé en défendant son dra
+            
+            peau, on le croyait mort, nous l'avons sauvé ; ça m'a porté
+            
+            bonheur. 
+            
+            FRITZ. 
+            
+            Comment cela, père Burmann  ? 
+            
+            BURMANN. 
+            
+            Quelque temps après la guérison de Lucien et son départ
+            
+            de chez moi, la guerre se rapprocha de Berlin ; nos soldats, 
+            dévastaient le pays, 
+            
+            pour ôter aux Français toute ressource, 
+            
+            brûlaient les habitations ; mon moulin, ina seule fortune, 
+            
+            devint la proie des flammes. 
+            
+            FRITZ. 
+            
+            J'ai su ça, que votre moulin à eau avait été en feu. 
+            
+            BURMANN. 
+            
+            Quand je vis mon pauvre bâtiment en cendres, et la roue
+            
+            qui tournait toujours, entraînée par
+            
+            le
+            
+            courant, le désespoir
+            
+            me prit ; je me dis : Me voilà ruiné, je n'ai qu'un parti à
+            
+            prendre ; c'est de me jeter la tête la première sous la roue de
+            mon moulin. 
+            
+            FRITZ. 
+            
+            Mais vous auriez été moulu comme un sac de grain. 
+            
+            BURMANN. 
+            
+            C'est que je voulais… Je m'élance… tout à coup je me sens
+            
+            retenir… Qu'est – ce que tu vas faire là  ? me demande – t – on. 
+            
+            Je me retourne et je vois devantmoi, un homme quimedit
+            
+            d'un ton brusque : Ta maison est brûlée, fais en
+            
+            rebátir une
+            
+            autre. Ilme jette une bourse pleine d'or et il disparaît. 
+            
+            FRITZ. 
+            
+            Et comment était – il fait  ? quelle figure avait – il  ? 
+            
+            BURMANN. 
+            
+            Je ne l'ai
+            
+            pas
+            
+            bien vu, 
+            
+            il faisait nuit ; mais il avait une re
+            
+            dingote grise. 
+            
+            FRITZ. 
+            
+            Ah  ! bah  ! la nuit tous les chats sont gris. 
+            
+            BURMANN. 
+            
+            Elle
+            
+            était grise, j'en
+            
+            suis sûr, 
+            
+            et il avait un chapeau à
+            
+            cornes. 
+            
+            FRITZ. 
+            
+            A cornes  ! c'était peut – être le diable… 
+            
+            BURMANN. 
+            
+            C'était plutôt un ange. 
+            
+            FRITZ. 
+            
+            Qu'est – ce que vous dites, père Burmann  ! un ange avec un
+            
+            chapeau à cornes…
+            
+            BURMANN. 
+            
+            Enfin c'était un être bienfaisant, car il me dit en s'éloi
+            
+            gnant : Celui que j'ai sauvé de la mort doit étre heureux' ; je
+            
+            veillerai sur toi et sur ta famille. 
+            
+            FRITZ. 
+            
+            C'est d'autant plus agréable, que je vais être de votre fa
+            
+            mille. (Ritournelle) . Mais chut ! voilà M. le baron d'Olbruck
+            qui vient par ici avec nos paysans. 
+            
+            SCENE III. 
+            
+            LES MÊMES, LE BARON D'OLBRUCK, OFFICIERS dégui
+            
+            sés, PAYSANS, PAYSANNES, entrant par les portes du fond. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                                    LES PAYSANS. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Sous le riant ombrage. (la Fiancée.)
+                </stage>
+            
+            
+                
+                    <l>Allons, que l'on s'en donne,</l>
+                    <l>Dansons sans nous r'poser ;</l>
+                    <l>Monsieur l' baron l'ordonne,</l>
+                    <l>Il faut bien s'amuser.</l>
+                
+            
+                                    LE BARON. 
+                
+            
+                    <l>Que la musique vibre !</l>
+                    <l>De sauter, sans façon,</l>
+                    <l>Je veux que l'on soit libre,</l>
+                    <l>Sous peine de prison.</l>
+            
+                LES PAYSANS. 
+            
+              
+                    <l ana="unanalyzable">Allons, que l'on s'en donne, etc.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            FRITZ. 
+            
+            Vous êtes bien bon, monsieur le baron. 
+            
+            LE BARON. 
+            
+            Mon noble cousin, le comte d'Hatzfeld est encore meilleur
+            
+            que moi, puisqu'il veut bien se donner la peine demarier un
+            
+            grand imbécille comme toi. 
+            
+            FRITZ. 
+            
+            Il est bien honnête, et vous aussi. 
+            
+            LE BARON. 
+            
+            Cette noce distraira la comtesse en l'absence de son mari. 
+            
+            FRITZ
+            
+            C'est vrai
+            
+            que
+            
+            madame la comtesse ne s'amuse guère au
+            
+            château, pendant que monsieur le comte est… Où est – il donc
+            
+            monsieur le comte  ? 
+            
+            LE BARON. 
+            
+            Cela ne te regarde pas. (A part.) Si ces drôles – là allaient se
+            
+            douter de quelque chose… heureusement que ça n'a pas
+            
+            d'idées ! (Haut.) Vous danserez toute la nuit. 
+            
+            C'est trop gai. 
+            
+            FRITZ. 
+            
+            LA BARON. 
+            
+            Vous boirez jusqu'au soir. 
+            
+            C'est trop fort. 
+            
+            Je paierai tout. 
+            
+            C'est trop juste. 
+            
+            FRITZ. 
+            
+            LE BARON. 
+            
+            FRITZ. 
+            
+            LE BARON. 
+            
+            N'oubliez pas d'inviter à la noce tous les Français qui se
+            
+            trouvent dans ce château. (A part.) Cela est très – important
+            
+            pour notre projet. 
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                                    FRITZ. 
+                
+            
+            
+                
+                    Mais monsieur le baron…
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : Voulant par ses Œuvres complètes. 
+                </stage>
+            
+             
+            
+            
+                    <l>Ne connaissez–vous pas ces drilles ?</l>
+                    <l part="I">Ils boiront not' vin.</l>
+            
+                                            LE BARON. 
+                    
+            
+                    <l part="F">C'est parfait.</l>
+            
+                                            FRITZ. 
+                    
+            
+                    <l>Ils embrass'ront nos jeunes filles.</l>
+            
+                                            LE BARON. 
+                    
+            
+                    <l>Tant mieux, si ce jeu là leur plaît.</l>
+            
+                                            FRITZ. 
+                    
+            
+                    <l>Si nous nous plaignons d'un ton rude,</l>
+                    <l>Ils nous battront encor après.</l>
+            
+                    LE BARON. 
+            
+                    <l>Mes enfans, avec les Français,</l>
+                <l>N'en avez–vous pas l'habitude !</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            SCÈNE IV. 
+            
+            LES MÊMES, LUCIEN. 
+            
+            TOUTES LES FILLES. 
+            
+            V'là monsieur Lucien  ! 
+            
+            Bon  ! me voilà en pays de connaissance. 
+            
+            LUCIEN. 
+            
+            LE BARON. 
+            
+            Quel est ce jeune soldat qui se trouve mêlé parmi nos vil
+            
+            lageois  ? 
+            
+            FRITZ. 
+            
+            Pardi, c'est le voltigeur de la garde…. 
+            
+            BURMANN. 
+            
+            Que j'ai eu le bonheur d'avoir pour
+            
+            hôte. 
+            
+            LUCIEN, vivement. 
+            
+            Ab  ! c'est vous, père Burmann… (Il lui serre la main.) Que
+            
+            je suis aise de vous revoir ! … et votre fille, votre jolie Nancy, 
+            
+            où est – elle  ? 
+            
+            FRITZ. 
+            
+            Ça ne vous regarde pas, voltigeur. 
+            
+            LUCIEN. 
+            
+            Pourquoi donc  ? une jeune et jolie fille, qui a un bon cæur
+            
+            et des yeux charmans, ça regarde toujours un soldat. 
+            
+            Certainement, jeune homme  ! Est – ce que vous faites partie
+            
+            LE BARON. 
+            
+            de la garde quimonte aujourd'hui  ? 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                                    LUCIEN. 
+                
+            
+            
+                
+                    Et qui veille pour notre général, oui, monsieur. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air : Un page aimait la jeune Adèle. 
+                </stage>
+            
+            
+             
+                    <l>Près de sa chambre, en sentinelle,</l>
+                    <l>Oui, ce matin j'étais déjà ;</l>
+                    <l>Cette nuit, encor avec zèle,</l>
+                    <l>À cette porte on me verra.</l>
+                    <l>Je suis fier quand on m'y regarde :</l>
+                    <l>C'est là, dans cet appartement,</l>
+                    <l>Qu'avec fidélité je garde</l>
+                    <l>Ce que le monde a de plus grand. <stage type="repetition"> (bis.)</stage></l>
+                
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LE BARON. 
+            
+            Qu'est – ce que vous dites… à cette porte  ? … il n'y a pas de
+            
+            factionnaire. 
+            
+            Le jour, non ; mais nous avons des ordres pour qu'il y en
+            
+            ait toutes les nuits. 
+            
+            LUCIEN. 
+            
+            LE BARON, surpris. 
+            
+            (A part.) Ah  ! ah  ! … (Haut.) Et moi, qui voulais vous invi
+            
+            ter à une noce. On doit danser jusqu'au jour dans le château. 
+            
+            LUCIEN. 
+            
+            Oh  ! je danserai… je danseraiquand j'aurai fait ma faction. 
+            
+            FRITZ. 
+            
+            Il avait bien besoin de l'inviter. 
+            
+            LUCIEN. 
+            
+            Qui est – ce donc qui se marie  ? Je parie que c'est ce grand
+            
+            garçon – là  ? 
+            
+            A quoi voyez – vous ça  ? 
+            
+            FRITZ. 
+            
+            LUCIEN. 
+            
+            A votre mine. Les maris ont une physionomie toute par
+            
+            ticulière. 
+            
+            C'est particulier  ! 
+            
+            FRITZ. 
+            
+            LE BARON. 
+            
+            Burmann, allez donc chercher votre fille  ! 
+            
+            LUCIEN, surpris. 
+            
+            Quoi  ! c'est Nancy qui est la mariée  ! 
+            
+            FRITZ. 
+            
+            Comme vous dites, voltigeur. 
+            
+            C'est invraisemblable  ! 
+            
+            LUCIEN. 
+            
+            FRITZ
+            
+            C'est pourtant historique. 
+            
+. LUCIEN. 
+            
+            Et vous, 
+            
+            père Burmann, vous consentez…
+            
+            BURMANN. 
+            
+            Je suis forcé d'obéir à monsieur le comte. Adieu Lucien…
+            
+            Allons chercher ma fille. 
+            
+            FRITZ. 
+            
+            Je vais au – devant de ma fiancée. 
+            
+            Et moi je vais au corps – de – garde. 
+            
+            LUCIEN. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                                    TOUS. 
+                
+            
+            
+                <stage type="tune">
+                    Chœur de Rossini. 
+                </stage>
+            
+            
+            
+                    <l>Allons chercher la future,</l>
+                    <l>L' bonheur l'appelle en ce séjour ;</l>
+                    <l>Aujourd'hui la signature,</l>
+                    <l>Et demain mes amis, et demain le grand jour.</l>
+                
+            
+                                    LUCIEN. 
+                
+            
+               
+                    <l>Ils vont chercher la future !</l>
+                    <l>L'hymen l'appelle en ce séjour.</l>
+                    <l>La maudite signature !</l>
+                    <l>Pour moi, quel chagrin en ce jour !</l>
+                
+            
+            
+                
+                    (Il sort brusquement.)
+                
+            
+            
+                                    LE BARON. 
+                
+            
+              
+            
+                    <l>Au roi, pour montrer ton astuce,</l>
+                    <l part="I">Fais des soldats…</l>
+            
+                    FRITZ. 
+            
+                    <l part="F">C'est ratifié.</l>
+                    <l>J' vas travailler pour le roi d' Prusse,</l>
+                    <l>Sitôt que je s'rai marié.</l>
+                
+            
+            
+                                    TOUS. 
+                
+            
+            
+                    <l ana="unanalyzable">Allons chercher la future, etc.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            SCÈNE V. 
+            
+            LE BARON, PLUSIEURS OFFICIERS vétus en paysans, revenant
+            
+            mystérieusement. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                                    CHŒUR, 
+                
+            
+                
+                    avec mystère. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : du Diable à quatre. 
+                </stage>
+            
+            
+             
+                    <l>Auprès de vous, nous venons tous nous rendre ;</l>
+                    <l>Vous voyez notre empressement.</l>
+                    <l>Parlez, que faut–il entreprendre ? <stage type="repetition"> (bis.)</stage></l>
+                    <l>Et pourquoi ce déguisement ? <stage type="repetition"> (bis.)</stage></l>
+                
+            
+            
+                
+            
+            
+                    LE BAR ON. 
+            
+                    Cette noce a été imaginée par le comte d'Hatzfeldt pour
+            
+                    cacher nos projets ; nous profiterons au désordre de cette fête
+            
+                    pour approcher de l'Empereur et l'enlever. 
+            
+                    L'enlever  ! 
+            
+                    TOUS. 
+            
+                    LE BARON. 
+            
+                    Silence  ! écoutez ce que n'écrit le comte d'Iiatzfeldt, qui
+            
+                    est en ce moment à Berlin incognito : 
+            
+                    « Mon cher cousin, j'ai trouvé l'homme qu'il nous faut
+            
+                    “ pour faire parvenir mes dépêches ai prince de Hohenloe. 
+            
+                    « Il est persuadé qu'il agit daris l'intérêt du vainqueur : c'est
+            
+                    « une espèce de conseilier de légation, bavarois, et qui se
+            
+                    « fait appeler le baron de Bitterbrack ; vain et crédule, vous
+            
+                    « en ferez tout ce que vous voudrez. Gardez toujours le se
+            
+                    «'cret vis – à – vis de la comtesse ; sa tendresse s'alarinerait des
+            
+                    dangers que je cours. » 
+            
+                    On pourrait nous surprendre ; allez rejoindre la noce, et
+            
+                    cette nuit…
+            
+                    KOLBAK, 
+            
+                    Mais le factionnaire qu'on doit mettre à cette porte  ? 
+            
+                    LE BARON, 
+            
+                    Je vous promets qu'il dormira profondément. 
+            
+                    2
+            
+                
+            
+            
+                                    LE CHŒUR
+                
+                
+                    reprend en sortant : 
+                
+            
+            
+             
+                    <l>Auprès de vous, nous viendrons tous nous rendre :</l>
+                    <l>Vous verrez notre empressement ;</l>
+                    <l>Oui, nous saurons tout entreprendre.</l>
+                    <l>Comptez sur notre dévouement.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            LA COMTESSE, LE BARON. 
+            
+            LE BARON, avant que la comtesse soit entrée. 
+            
+            Voici la comtesse, elle va me questionner…… c'est une
+            
+            femme d'un caractère étonnant… elle adore son mari… te
+            
+            nons – nous bien. 
+            
+            LA COMTESSE. 
+            
+            Qu'est – ce que j'apprends donc, monsieur le baron, une fête
+            
+            des chants, des danses, quand l'ennemi vainqueur est dans
+            
+            notre capitale. 
+            
+            LE BARON, à part. 
+            
+            Nous y voilà. (Haut.) Il s'agit d'une noce, madame la com
+            
+            tesse, 
+            
+            et vous savez que l'amour ne connaît point d'obstacle. 
+            
+            LA COMTESSE. 
+            
+            Et c'est mon mari qui fait ce mariage  ? 
+            
+            LE BARON. 
+            
+            Il me paraît tout simple qu'un bon seigneurmarie ses vas
+            
+            saux…. 
+            
+            LA COMTESSE. 
+            
+            Mais cette jolie petite Nancy a – t – elle de l'inclination pour
+            
+            ce grand nigaud de Fritz  ? 
+            
+            LE BARON. 
+            
+            Est – ce que ces gens – là ont des inclinations  ! 
+            
+            LA COMTESSE. 
+            
+            Monsieur le comte revient donc de Berlin pour assister à
+            
+            cette noce  ? 
+            
+            Je ne
+            
+            le
+            
+            pense pas
+            
+            LE BARON. 
+            
+            LA COMTESSE, 
+            
+            Mon cher cousin, vousme trompez  ! …
+            
+            Moi, 
+            
+            madame…
+            
+            Je sais tout. 
+            
+            O ciel  ! 
+            
+            IE BARON. 
+            
+            LA COMTESSE. 
+            
+            LE BARON, à
+            
+            part. 
+            
+            On m'a rendu compte des démarches de mon mari. 
+            
+            LA COMTESSE. 
+            
+            Quelle imprudence  ! 
+            
+            LE BARON, à part. 
+            
+            LA COMTESSE. 
+            
+            Il envoie chaque soir à la maison de campagne qu'habite
+            
+            la princesse d'Hohenloe. 
+            
+            Qu'entends – je  ! 
+            
+            LE BARON. 
+            
+            LA COMTESSE. 
+            
+            Son mari est absent, la princesse est jeune et belle. 
+            
+            LE BARON, à part. 
+            
+            Elle prend le change, tant mieux. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                                    LA COMTESSE. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : vaudeville de Psyché. 
+                </stage>
+            
+            
+              
+                    <l>La princesse, dans la retraite,</l>
+                    <l>Cherche, dit–on, à calmer ses ennuis.</l>
+                    <l>Elle est aimable, elle est coquette,</l>
+                    <l>Elle fut long–temps à Paris.</l>
+                    <l>En combattant pour la Prusse chérie,</l>
+                    <l>Que mon mari, par la gloire emporté,</l>
+                    <l>Brûle d'amour pour la patrie ;</l>
+                    <l>Je ne veux pas d'autre infidélité.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LE BARON. 
+            
+            Lui infidèle  ! ah  ! ma chère cousine, croyez que le comte
+            
+            vous trouve infiniment mieux
+            
+            que
+            
+            la princesse. 
+            
+            LA COMTESSE. 
+            
+            J'en serais sûre s'il n'était pas mon mari… mais enfin un
+            
+            ordre lui prescrit de se retirer dans ses terres. Pourquoi me
+            
+            laisse – t – il dans ce château, aux portes de la ville, lorsqu'il
+            sait que l'Empereur l'habite. 
+            
+            LE BARON. 
+            
+            C'est une preuve de confiance, et vous – même feriez bien de
+            
+            céder aux instances du vainqueur, qui, plusieurs fois a paru
+            
+            désirer de vous voir. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                                    LA COMTESSE. 
+                
+            
+            
+                
+                    Qui  ! moi  ? … jamais. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : vaudeville de l'Héritière. 
+                </stage>
+            
+            
+                    <l>Devant celui qui cause nos alarmes,</l>
+                    <l>Puis–je porter un front riant !</l>
+                    <l>Quand il brille par ses faits d'armes,</l>
+                    <l>Irais–je rendre, en ce moment,</l>
+                    <l>Son triomphe plus éclatant !</l>
+                    <l>Une femme modeste et sage</l>
+                    <l>Peut admirer ses ennemis ;</l>
+                    <l>Mais elle ne doit son hommage</l>
+                    <l>Qu'aux défenseurs de son pays.</l>
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            SCÈNE VII. 
+            
+            FRITZ, LA COMTESSE, LE BARON. 
+            
+            FRITZ, accourant. 
+            
+            Ah  ! mon Dieu  ! mon Dieu  ! ils n'en feront
+            
+            d'autres
+            
+            pas
+            
+            De qui parles – tu  ? 
+            
+            Des Français. 
+            
+            LE BARON. 
+            
+            FRITZ. 
+            
+            LA COMTESSE. 
+            
+            Qu'est – ce qu'ils ont fait  ? 
+            
+            FRITZ. 
+            
+            Ils ont enlevé ma prétendue… pauvre petite Nancy  ! 
+            
+            Explique – toi donc  ! 
+            
+            LA COMTESSE. 
+            
+            LE BARON. 
+            
+            Comment l'ont – ils enlevée  ? 
+            
+            FRITZ. 
+            
+            Dam' ! comme on enlève  ! Est – ce que je sais  ? 
+            
+            LA COMTESSE. 
+            
+            Tu ne les a donc pas vus  ? 
+            
+            FRITZ. 
+            
+            Pas bien, parce que je me suis sauvé. 
+            
+            LA COMTESSE. 
+            
+            Poltron  ! tu te sauves lorsqu'on enlève ta femme  ! 
+            
+            Ils étaient dix mille  ! 
+            
+            FRITZ. 
+            
+            Bon  ! 
+            
+            LE BARON, riant. 
+            
+            C'est bien malheureux
+            
+            FRITZ. 
+            
+            pour moi…
+            
+            LA COMTESSE. 
+            
+            Pauvre garçon  ! tu l'aimes donc bien  ? 
+            
+            FRITZ. 
+            
+            Je vous en réponds  ! … M. le comte lui donnait une grosse
+            
+            dot  ! …
+            
+            Ses regrets ne sont pas nobles. 
+            
+            LA COMTESSE, au baron. 
+            
+            LE BARON. 
+            
+            Que voulez – vous  ? ces vilains ont des idées qui leur res
+            
+            semblent. (On entend crier en dehors.) La voilàl la voilà  ! 
+            
+            – 15
+            
+            SCENE VIII. 
+            
+            LES MÊMES, NANCY, PAYSANS. 
+            
+            Qu'est – ce que c'est  ! 
+            
+            LE BARON. 
+            
+            FRITZ. 
+            
+            Tiens  ! c'est ina fiancée qu'on me ramène… déjà  ! 
+            
+            LE COMTESSE. 
+            
+            On vous avait donc enlevée, mon enfant ? 
+            
+            NANCY. 
+            
+            Non, madame la comtesse. 
+            
+            LA COMTESSE. 
+            
+            Qu'est donc venu nous conter Fritz  ? 
+            
+            FRITZ. 
+            
+            Comment, mamzelle Nancy, il n'y avait pas sur la route
+            
+            quatre ou cinq mille Français…
+            
+            NANCY. 
+            
+            Une vingtaine de maraudeurs, il n'y avait que ça ; nos
+            
+            Prussiens se sont tous enfuis ; alors ces hommes se sont ap
+            
+            prochés de moi, et ils m'ont ordonné de les suivre. J'étais
+            
+            toute tremblante, je pleurais et je marchais bien à contre
+            
+            caur, lorsque passant derrière le château, l'un d'eux s'est
+            
+            écrié : Ah  ! le voilà  ! – Qui  ? ont demandé les autres, la re
+            
+            dingote grise  ! —
+            
+            A ces mots, ils se sont sauvés, et moi j'ai
+            
+            vu un monsieur qui se promenait les mains derrière le dos ; 
+            
+            il avait sur la tête un petit chapeau à trois cornes, et il était ·
+            vêtu d'une redingote grise…
+            
+            FRITZ. 
+            
+            C'est la redingote au père Burmann. 
+            
+            
+            
+            NANCY. 
+            
+            Il s'est approché, et m'a dit : – – Qu'avez – vous mon enfant ? 
+            
+            – Oh  ! monsieur, ai – je dit, vous me sauvez la vie  ! – Non, 
+            
+            поп, 
+            
+            a – t – il repris… mais je suis heureux que ma présence ait
+            
+            fait fuir ces soldats. 
+            
+            Où alliez – vous ainsi  ? 
+            
+            Car j'ai
+            
+            en
+            
+            retenu ses paroles. 
+            
+            Au château, lui ai – je dit, où l'on va
+            
+            me marier… Un mariage  ! 
+            
+            C'est bien  ! Vous aimez beaucoup
+            
+            votre prétendu sans doute  ? 
+            
+            Non, monsieur, lui ai – je répondu. 
+            
+            FRITZ. 
+            
+            Comment, maizelle, vous lui avez dit cela  ? … 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                                    NANCY. 
+                
+            
+            
+                
+                    Dame moi, je suis franche, vous le savez, 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : vaudeville de Partie et Revanche, 
+                </stage>
+            
+            
+             
+                    <l>Je l'ai mis dans ma confidence :</l>
+                    <l>Au premier abord, il a vu</l>
+                    <l>Que c'était par obéissance</l>
+                    <l>Que j'épousais mon prétendu.</l>
+                    <l>Un' fille sag' se sacrifie,</l>
+                    <l>Quand son pèr' témoigne un désir ;</l>
+                    <l>Et vraiment quand on se marie,</l>
+                    <l>C' n'est pas toujours pour son plaisir.</l>
+                
+                </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+                LA COMTESSE. 
+            
+                Achevez donc votre récit. 
+            
+                NANCY. 
+            
+                Nous avons vu les gens de la noce qui rentraient au châ
+            
+                teau, je les ai appelés, et le monsieur à la redingote grise a
+            
+                disparu sans attendre mes remercimens. 
+            
+                FRITZ. 
+            
+                Ça n'est pas honnête, mais c'est drôle. 
+            
+                SCÈNE IX. 
+            
+                LES MÊMES, LUCIEN. 
+            
+                LUCIEN. 
+            
+                Où est – il', ce coquin de Fritz… tu ne périras que de ma
+            
+                main… Comment tu as laissé enlever ta femme…, tu m'en ré
+            
+                ponds sur ta tête. 
+            
+                FRITZ, 
+            
+                Un instant donc… la v'là. 
+            
+                Ma chère Nancy  ! 
+            
+                LUCIEN. 
+            
+                FRITZ. 
+            
+                Voltigeur  ! allez donc voltiger ailleurs, il n'y a pas de chère
+            
+                Nancy pour vous… Nous avons un protecteur mystérieux, 
+            
+                une redingote grise qui veille sur nous, et nous ne craignons
+            
+                rien ; allons chez le notaire. 
+            
+                Suivez – moi ma chère enfant. 
+            
+                LA COMTESSE. 
+            
+              
+            <div type="poem"> <lg>
+                <stage type="tune" id="AIR : Chœur de Rossini."> </stage>
+            
+                                    CHŒUR. 
+                
+            
+             
+                    <l>Amis, conduisons la future ;</l>
+                    <l>L' bonheur la ramène en ce séjour :</l>
+                    <l>Aujourd'hui la signature,</l>
+                    <l>Et demain mes amis, et demain le grand jour.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Ils sortent.)
+            
+            SCENE X. 
+            
+            <div type="poem"> <lg>
+            
+                                    LUCIEN
+                
+                
+, seul. 
+                
+            
+            
+            
+                
+                    Il faut que je sois venu en Prusse pour tomber amoureux, 
+            
+                    moi qui jusqu'alors n'avais été que mauvais sujet  ! mais je ne
+            
+                    renonce pas à Nancy, mon général a fait la conquête de la
+            
+                    – 15 %
+            
+                    Prusse, c'est bien le moins que je fasse celle d'une jolie pe
+            
+                    tite Prussienne ; d'ailleurs, puisque je ne suis pas mort en dé
+            
+                    fendant mon drapeau, il faut que je sois destiné à quelque
+            
+                    chose d'heureux… Mon pauvre drapeau… en voilà un mor
+            
+                    ceau… (Il le tire de son sein.) Il neme quittera jamais… Je l'ai
+            
+                    mis là en disant : On percera les deux ensemble… Si l'empe
+            
+                    reur savait… bah  ! il y a tant de traits plus beaux, que cela
+            
+                    dans notre armée, et c'est si facile avec un tel chef. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air : de Figaro, de Rossini. (Il Barbiere.)
+                </stage>
+            
+            
+            
+                    <l>Vive à jamais ce fils de la victoire !</l>
+                    <l ana="unanalyzable">À jamais, etc.</l>
+                    <l>Nous le suivons, en chantant à la gloire !</l>
+                    <l ana="unanalyzable">En chantant, etc.</l>
+                    <l>Ah ! le grand homme ! quel général, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Que l' petit caporal</l>
+                
+            
+                
+                    <l>Si quelque roi lui déclare la guerre,</l>
+                    <l>Notr' général n'attend pas un instant,</l>
+                    <l>Il prend son trône, il le donne à quelqu' frère,</l>
+                    <l>C'est se conduire en bon parent. <stage type="repetition"> (bis.)</stage></l>
+                    <l>Mais si ce roi demande grâce,</l>
+                    <l>Notr' général sur son trôn' le replace,</l>
+                    <l>En lui disant : Soyez sag' désormais,</l>
+                    <l>Ou j' vous mettrai pour quinze jours aux arrêts.</l>
+                    <l>L' petit caporal sait se fair' justice ;</l>
+                    <l>Il met les rois à la sall' de police.</l>
+                    <l ana="unanalyzable">Ah ! le grand homme, etc.</l>
+                
+            
+                
+                    <l>V'là la paix, plus d'ennemis,</l>
+                    <l>Et j' vas rentrer dans mon pays ;</l>
+                    <l>Mais si quelqu' jour, de ce qui nous regarde,</l>
+                    <l>Les autr' voulaient s' mêler, soyons en garde.</l>
+                    <l>Sachons combattre avec fierté,</l>
+                    <l>Pour la gloire et la liberté.</l>
+                    <l>Ah ! soyons sourds à de lâches alarmes ;</l>
+                    <l>Jeunes Français, reprenons tous les armes.</l>
+                    <l>N'attendons pas aux bords du Rhin,</l>
+                    <l>Rentrons dans Vienne et dans Berlin.</l>
+                    <l>Au galop,</l>
+                    <l>Preste et tôt,</l>
+                <l>On nous verrait bientôt. <stage type="repetition">}bis. </stage></l>
+                <l>À la victoire, <stage type="repetition"> (bis.)</stage> on nous verrait courir soudain.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            Mais quel est cet original  ? … Comme il regarde de tous
+            
+            côtés ; ah  ! c'est ce diplomate manqué, ce conseiller de la lé
+            gation bavaroise, dont tout le monde se moque… il faut que
+            je fasse comme tout le monde. 
+            
+            SCENE XI. 
+            
+            LUCIEN, BITTERBRACK. 
+            
+            BITTERBRACK, à part. 
+            
+            Dire que depuis un mois que je suis conseiller de légation, 
+            
+            on nem'a pas encore demandé un seul conseil ! je me conso
+            
+            lerais si j'étais honoré d'un seul coup d'eil, d'une seule pa
+            
+            role du grand homme qui fait le destin de l'Europe  ! … de sa
+            
+            Majesté l'Empereur et Roi, protecteur de la confédération du
+            
+            Rhin, membre de la Légion d'honneur et de l'institut  ! Je ne
+            
+            l'ai encore vu que sur les pièces de cinq francs, et ça ne suf
+            
+            fit pas à ma satisfaction… Ah  ! voilà un de ses braves…
+            
+            Quelle caricature  ! 
+            
+            LUCIEN. 
+            
+            BITTERBRACK. 
+            
+            Ilsme connaissent tous… (A Lucien) . Jeune Français…
+            
+            Vieux Bavarois. 
+            
+            LUCIEN. 
+            
+            BITTER BRACK, 
+            
+            Je ne suis pas vieux, mes cheveux n'ont point blanchis
+            
+            dans le conseil… mais je suis poudré à blanc. 
+            
+            LUCIEN. 
+            
+            Je ne connais pas cette poudre là, moi. 
+            
+            BITTERBRACK. 
+            
+            Sans doute  ! jeune soldat, ton cour et ton bras, voilà ton
+            
+            apanage le mien, c'est la tête et l'esprit. 
+            
+. 
+            
+            LUCIEN. 
+            
+            Du diable, si je m'en serais douté. 
+            
+            BITTERBRACK. 
+            
+            Permettez – moi, jeune héros, jeune vainqueurdes Cimbres
+            
+            et des Teutons (1) … car vous ignorez peut – être que les Prus
+            
+            siens d'aujourd'hui sont les Cimbres et les Teutons d'autre
+            
+            fois. 
+            
+            LUCIEN
+            
+            Mon briquet ne leur a pas demandé leur nom quand il a
+            
+            tapé dessus comme sur une pierre à fusil. 
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                                    BITTERBRACK. 
+                
+            
+            
+                
+                    Très – bien  ! cependant  ! …
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : de la Colonne. 
+                </stage>
+            
+            
+            
+            
+             
+                    <l>Les Prussiens font très–bien la guerre ;</l>
+                    <l>Dans ce moment, ils sont vaincus ;</l>
+                    <l>Mais qui sait ce qu'ils peuvent faire ?</l>
+                    <l>Tous leurs soldats ne sont pas abattus ;</l>
+                    <l>Ils ont encor des canons, des obus.</l>
+                
+            
+            
+            
+            
+                                    LUCIEN. 
+                
+            
+               
+                    <l>Ah ! tant mieux, que leur bronze tonne,</l>
+                    <l>Il anim'ra nos bataillons,</l>
+                    <l>Et nous leur prendrons tant d' canons,</l>
+                    <l>Que nous en f'rons une colonne !</l>
+                
+            
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (1) On sait que les Cimbres occupaient la partie septentrionale d'une
+            
+            presqu'ile de Danemarck qui a pris le nom de Jut – Land, et que cette nation, 
+            
+            unie aux Teutons, est le premier peuple germanique qui ait osé attaquer les
+            
+            Romains. Les Teutons occupaient les bords de la Chersonèse – Cimbrique. Il
+            
+            est permis à M. Bitterbrack de croire que les Prussiens descendent de ces
+            peuples barbares. 
+            
+            – 17
+            
+            BITTERBRACK. 
+            
+            Vous en ferez ce que vous voudrez ; écoutez, mon brave, 
+            
+            je vais vous ouvrir non cœur, Je suis atteint d'une idée fixe, 
+            
+            d'une monomanie. 
+            
+            LUCIEN
+            
+            à part. 
+            
+            Je me doutais bien qu'il était fou. 
+            
+            BITTERBRACK. 
+            
+            Je ne mourrai content que quand j'aurai vu de près celui
+            
+            que j'oserai appeler l'hommedu destin. Echanger une parole
+            
+            avec lui, serait mon apogée  ! 
+            
+            LUCIEN. 
+            
+            Diable  ! vous avez de l'ambition. 
+            
+            PITTERBRACK. 
+            
+            Oui, je naquis ambitieux ; et quand je voudraimemarier, 
+            
+            je pourrai choisir entre plusieurs partis nationaux et étran
+            
+            gers, toujours dans la confédération ; l'hiver dernier on m'a
+            
+            offert une Palatine, mais j'aime mieux prendre une Bava
+            roise. 
+            
+            Où voulez – vous en venir  ? 
+            
+            LUCIEN. 
+            
+            BITTERBRACK. 
+            
+            Le voilà : je désire obtenir une faveur du grand homme…
+            
+            En ma qualité de diplomate émérite…
+            
+            Et mérite, à part. 
+            
+            LUCIEN. 
+            
+            BITTERBRACK. 
+            
+            Diplomate émérite ensemble  ! Savez – vous ce que c'est
+            
+            qu'un diplomate  ? … Pour faire un diplomate vous prenez un
+            homine…
+            
+            Un grand homme ? 
+            
+            La taille n'y fait rien. 
+            
+            LUCIEN. 
+            
+            BITTERBRACK. 
+            
+            LUCIEN. 
+            
+            Pourvu qu'il marche droit  ? 
+            
+            BITTERBRACK. 
+            
+            C'est encore inutile, nous en avons vu qui clochaient et
+            
+            qui n'arrivaient que plus vite… D'abord vous l'instruisez à
+            
+            jurer. 
+            
+            Un diplomate, ça jure  ? 
+            
+            LUCIEN
+            
+            3
+            
+            – 18
+            
+            BITTER BRACK. 
+            
+            Beaucoup… j'en connais qui n'ont fait que prêter des ser
+            
+            inens. 
+            
+            LUCIEN. 
+            
+            Et ça leur a – t – il rendu la jambe mieux faite  ? 
+            
+            BITTER BRACK. 
+            
+            Non… mais ça les a mis sur un bon pied  ! Le serment est
+            
+            la base, la pierre angulaire de la diplomatie, dit Machiavel. 
+            
+            Tenez… je suppose que mon pouce est un souverain, un gros
+            
+            sourerain… je lève la main devant le pouce, et je dis : Grand
+            
+            Roi, comptez surmon zèle, mon dévouement, je vous serai
+            
+            toujours fidèle… je le jure. 
+            
+            LUCIEN
+            
+            (Geste du serment.)
+            
+            Sans restriction  ? 
+            
+            BITTERBRACK. 
+            
+            Toujours  ! … c'est plus machiavélique. Le pouce tombe ; 
+            
+            l'index monte sur le trône… Te voilà donc charmant index, 
+            
+            nous attendions ton règne avec impatience, nous te serons
+            
+            fidèles… je le jure… L'index culbute, le medium monte sur
+            
+            le trône… Ah  ! grand medium, reçois nos voeux et nos ser
+            
+            mens  ! Toi seul peux faire le bonheur du peuple. Nous ren
+            
+            dons grâce à ton avènement inaitendu que nous attendions…
+            
+            mais surtout compte sur mon dévouement… je le jure  ! …. 
+            
+            Ainsi de suite, jusqu'à extinction de doigts et de poumons  ! 
+            
+            car ça fatigue beaucoup de jurer  ! 
+            
+            SCÈNE XII. 
+            
+            LES MÊMES, LE BARON. 
+            
+            LE BARON, à Lucien, 
+            
+            Eh bien  ! jeune homme, la danse va commencer, on boit
+            
+            le vin du Rhin, et vous vous amusez à causer avec monsieur
+            
+            le conseiller. 
+            
+            LUCIEN. 
+            
+            Oh  ! je ne m'amuse pas
+            
+            du tout ; la
+            
+            preuve, c'est que je m'en
+            
+            vas. 
+            
+            Bou, j'irai le retrouver. 
+            
+            LE BARON, à part. 
+            
+            SCÈNE XIII. 
+            
+            LE BARON, BITTERBRACK. 
+            
+            LE BARON. 
+            
+            Et vous, 
+            
+            Français…
+            
+            conseiller, vous causez imprudemment avec un
+            
+            – 19
+            
+            BITTERBRACK. 
+            
+            Dans l'intérêt de notre projet, je le sondais pour savoir…. 
+            
+            Mais vous ne devez rien savoir, 
+            
+            LE BARON. 
+            
+            BITTERBRACK, 
+            
+            Cependant, un homme de ma sorte ne peut pas agir comme
+            
+            une simple machine. 
+            
+            LE BARON. 
+            
+            Au contraire, c'est ce qu'il faut. 
+            
+            Vous croyez  ? 
+            
+            BITTERBRACK. 
+            
+            LE BARON. 
+            
+            Le moment est arrivé de vous faire connaître de Bonaparte. 
+            
+            Qu'est – ce que
+            
+            c'est
+            
+            que
+            
+            cela  ? 
+            
+            (Il luimontre une lettre.)
+            
+            BITTERBRACK, regarde et dit avecmalice : 
+            
+. 
+. 
+            
+            C'est une lettre  ! …
+            
+            Lisez la suscription. 
+            
+            LE BARON. 
+            
+            Au…. 
+            
+            Plus bas…
+            
+            BITTER BRACK, lisant très – haut. 
+            
+            LE BARON, mystérieusement, 
+            
+            BITTERBRACK. 
+            
+            J'entends : Au, très – bas. (A demi – voix.) Au jardinier du
+            
+            prince de Hohenloe… Que diable le comte d'Hatzfeldt peut – il
+            écrire à un jardinier  ?. 
+            
+            LE BARON. 
+            
+            C'est une ruse  ! … Le comte demande des caisses, des lau
+            
+            riers, (appuyant) des grenadiers…
+            
+            BITTERBRACK. 
+            
+            Ah  ! j'y suis  ! et ce sont des grenadiers avec des bonnets à
+            
+            poil… ô diplomatie  ! 
+            
+            LE BARON. 
+            
+            Il faut faire parvenir cette
+            même, par un moyen adroit. 
+            
+            lettre au prince aujourd'hui
+            
+            BITTERBRACK. 
+            
+            Oui, avec finesse, avec beaucoup de… Donnez, je vais la
+            
+            mettre à la poste. 
+            
+            LE BARON, reprenant la lettre. 
+            
+            Oui, pour que la lettre soit ouverte  ! 
+            
+            BITTERBRACK. 
+            
+            Vousme fermez la bouche ; il y a encore un moyen, 
+            
+            c'est
+            
+            de choisir un messager…
+            
+            Il faudrait le mettre dans le secret. 
+            
+            LE BARON. 
+            
+            BITTERBRACK. 
+            
+            Non. On prend un homme simple, une espèce d'imbécille
+            
+            qui ne se doute de rien… qui…
+            
+            J'ai jeté les yeux sur vous. 
+            
+            LE BARON, confidentiellement. 
+            
+            Sur moi  ! …
+            
+            BITTERBRACK. 
+            
+            LE BARON. 
+            
+            Songez comme cela vous mettra bien…
+            
+            BITTERBRACK. 
+            
+            Dans les papiers du grand homme ; mais le château du
+            
+            prince d'Hohenloe est à soixante lieues de Berlin… et quoi
+            
+            que j'aie envie d'aller loin…
+            
+            LE BARON. 
+            
+            Le prince n'est plus dans ses terres…
+            
+            Où est – il  ? …
+            
+            BITTERBRACK. 
+            
+            LE BARON. 
+            
+            Vous oubliez toujours, conseiller, que vous ne devez rien
+            
+            savoir. 
+            
+            Ah  ! oui, c'est vrai. 
+            
+            BITTERBRACK. 
+            
+            LE BARON. 
+            
+            A une lieue d'ici, sur la route de Dresde, l'on trouve une
+            
+            maison à droite… des jalousies vertes… une grille ; c'est là
+            
+            que réside incognito la princesse d'Hohenloe, c'est elle qui
+            
+            recevra la lettre. 
+            
+            BITTERBRACK. 
+            
+            Ah  ! c'est une très – jolie femme…
+            
+            Vous ne la verrez pas…
+            
+            LE BARON. 
+            
+            Bah  ! 
+            
+            BITTERBRACK. 
+            
+            LE BARON. 
+            
+            Vous frapperez cinq coups à la
+            
+            porte… Un homme avec
+            
+            une grande barbe viendra vous ouvrir. 
+            
+            J'aurais mieux aimé causer avec la princesse qu'avec la
+            
+            BITTERBRACK, 
+            
+            grande barbe. 
+            
+            LE BARON. 
+            
+            Vous ne devez rien dire ; voici la lettre, vous en répondez
+            
+            sur votre tête. Si vous nous trahissez… fusillé dans les vingt
+            
+            quatre heures. (à part.) Je le tiens, ma lettre sera remise. 
+            
+            (Il sort.)
+            
+            – 91
+            
+            SCENE XIV. 
+            
+            (Le jour baisse.)
+            
+            BITTERBRACK. 
+            
+            Fusillé dans les vingt – quatre heures, c'est dangereux…… 
+            
+            mais c'est de la haute politique… Partons… cependant la
+            
+            nuit commence à venir et je n'ai pas d'armes… je vais pren
+            
+            dre mon parapluie et ma redingote que j'ai laissés dans l'an
+            
+            tichambre… O grand homme… grand homme ! tu entendras
+            
+            parler demoi, ou tu y mettrasde la mauvaise volonté  ! 
+            
+            SCENE XV. 
+            
+            (Il sort à droite.)
+            
+            BURMANN, arrivant du fond, un papier à la main. 
+            
+            Je n'en reviens pas  ! il faut que mon protecteur soit dans ce
+            
+            château… Relisons ce billet : « Je t'ai sauvé la vie, mais j'ai
+            
+            promis de la rendre heureuse. Tu maries ta fille, je veux la
+            
+            « doter, cependant c'est à condition qu'elle aimera celui
+            
+            
+            
+            qu'elle épouse  ! » Je parcours tout le château pour rencon
+            
+            trer mon bienfaiteur… Quelqu'un vient  ! 
+            
+            SCENE XVI. 
+            
+            BITTERBRACK, BURMANN. 
+            
+            BITTERBRACK, revenant avec un surtout gris et un chapeau à
+            
+            cornes. 
+            
+            Me voilà convenablement vêtu pour commencer mon in
+            
+            cognito. 
+            
+            BURMANN, à part. 
+            
+            Un chapeau à cornes ; une redingote grise  ! serait – ce lui ? … 
+            
+            (Haut.) Ah  ! mon bienfaiteur, mon sauveur… je vous recon
+            
+            nais…
+            
+            BITTERBRACK, 
+            
+            Vous êtes plus avancé quemoi, car je ne vous reconnais
+            
+            pas. 
+            
+            BURMANN. 
+            
+            Rappelez – vous ce jour où vous m'avez sauvé la vie  ! …
+            
+            BITTERBRACK, à part. 
+            
+            Est – ce que je l'aurais sauvé sans le savoir  ! 
+            
+            BURMANN. 
+            
+            J'ai publié partout votre générosité  ! 
+            
+            BITTERBRACK, à part. 
+            
+            Voilà qui est admirable  ! si cela pouvait venir aux oreilles
+            
+            du grand homme  ! (Haut.) Je vous ai donc obligé : j'en suis
+            bien aise. 
+            
+            SCÈNE XVII. 
+            
+            BITTERBRACK, FRITZ, BURMANN. 
+            
+            Père Burmann, on vous demande là – bas. 
+            
+            FRITZ. 
+            
+            BURMANN. 
+            
+            Arrive donc, Fritz, et regarde cet homme généreux. 
+            
+            Je le regarde, beau – père. 
+            
+            FRITZ, 
+            
+            BURMANN. 
+            
+            Tu ne devines pas  ! … cette redingote grise…
+            
+            Ah  ! ça, mais, ils en veulent à ma redingote. 
+            
+            BITTERBRACK, 
+            
+            Dieu  ! … serait – ce  ! … le sauveur de Nancy  ! …
+            
+            FRITZ. 
+            
+            BURMANN. 
+            
+            Oui, mon ami, et monsieur se charge de doter ma fille. 
+            
+            Quel bonheur  ! …
+            
+            Je n'ai
+            
+            pas
+            
+            dit cela. 
+            
+            Vous l'avez écrit. 
+            
+            Ce n'est
+            
+            pas
+            
+            vrai. 
+            
+            Voilà votre lettre. 
+            
+            FRITZ. 
+            
+            BITTERBRACK. 
+            
+            BURMANN. 
+            
+            BITTERBRACK. 
+            
+            BURMANN. 
+            
+            BITTERBRACK. 
+            
+            Voyons ma lettre. (A part.) Commentme tirer de là  ! (Haut.)
+            € estmon écriture… diable j'ai de la peine à lire… hum, 
+            hum, hum, … 
+            
+            Je doterai ta
+            
+            fille à condition
+            
+            qu'elle
+            
+            aimera
+            
+            celui qu'elle
+            
+            épouse… 
+            
+            BURMANN, lisant. 
+            
+            BITTERBRACK. 
+            
+            Ah  ! oui, c'est très – lisible à condition
+            
+            qu'elle épousera celui
+            
+            qu'elle aime… Fort bien, elle ne peut pas vous aimer, nous
+            
+            sommes trop laid  ! 
+            
+            Comment nous sommes…
+            
+            FRITZ. 
+            
+            Non pas monsieur, mais toi, Fritz. 
+            
+            BURMANN. 
+            
+            C'est une figure que je vous fais. 
+            
+            BITTERBRACK. 
+            
+            Mais…
+            
+            FRITZ. 
+            
+            BURMANN. 
+            
+            Voulez – vous, monsieur, que ma fille s'explique devant
+            
+            vous  ? 
+            
+            BITTERBRACK. 
+            
+            Oui, j'en serais bien aise ; sans cela, je ne donne rien. 
+            
+            BURMANN. 
+            
+            Toute la noce est en bas, on va se mettre à table… Si vous
+            
+            daignez accepter  ? 
+            
+            BITTERBRACK. 
+            
+            Je suis forcé de m'éloigner pour deux ou trois heures…
+            
+            On restera à table toute la nuit. 
+            
+            FRITZ. 
+            
+            BITTERBRACK. 
+            
+            Bon, je reviendrai, mes bons amis, comptez sur ma pro
+            
+            tection, comptez sur la dot. (A part.) Suis – je machiavélique  ! 
+            
+            (Haut.) Allons, mes amis, je serai votre bienfaiteur, votre
+            
+            protecteur, mais serez – vous reconnaissans  ? …
+            
+            Ah  ! monsieur  ! …
+            
+            BURMANN et Fritz. 
+            
+            Jurez – le. 
+            
+            Nous le jurons. 
+            
+            BITTER BRACK. 
+            
+            BURMANN et Fritz. 
+            
+            BITTER BRACK. 
+            
+            Bon  ! … en voilà deux qui vont bien… Si vous manquez à
+            
+            votre parole, fusillés dans les vingt – quatre heures. Il est dix
+            heures et demie, demain à pareille heure… Adieu, mes en
+            
+            fans. 
+            
+            SCÈNE XVIII. 
+            
+            (Il sort.)
+            
+            BURMANN, FRITZ, ENSUITE LUCIEN qu'on vient de mettre
+            
+            en faction. 
+            
+            BURMANN. 
+            
+            Que je suis heureux d'avoir retrouvé celui qui m'a sauvé
+            
+            la
+            
+            vie. 
+            
+            Et qui m'a rendu ma petite Nancy. 
+            
+            FRITZ. 
+            
+            FRITZ, regardant du côté de Luçien. 
+            
+            Tiens, v'là qu'on met le voltigeur en faction  ! … il est tenu
+            
+            là
+            
+            le vainqueur  ! … je m'en vais être tout seul auprès de
+            
+            – 24
+            
+            Nancy. 
+            
+            BURMANN. 
+            
+            Dis donc  ? tantôt, tu avais de l'humeur. 
+            
+            FRITZ. 
+            
+            Pardine  ! on ne s'occupait que du soldat… M. le baron lui
+            
+            versait à boire lui – même, il lui versait même très – souvent. 
+            
+            Allons retrouver la noce. 
+            
+            BURMANN. 
+            
+            FRITZ. 
+            
+            C'est juste  ! (Remontant la scène.) Vous v'là donc en faction, 
+            
+            voltigeur  ? bien du plaisir, moi je vais auprès de Nancy…
+            
+            LUCIEN. 
+            
+            Je crois que ce lapin – là veut se moquer de moi. 
+            
+            FRITZ. 
+            
+            (Il arme son fusil.)
+            
+            Un instant… ne tirez pas… monsieur Burmann, mettez
+            
+            vous devant moi. 
+            
+            Veux – tu bien me laisser  ? 
+            
+            BURMANN, le
+            
+            poussant. 
+            
+            Au large  ! 
+            
+            LUCIEN. 
+            
+            Je me sauve… oh  ! la, la  ! 
+            
+            FRITZ, s'enfuyant. 
+            
+            (Il sort ; Burmann le suit.)
+            
+            SCENE XIX. 
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+            
+                                    LUCIEN
+                
+            
+                
+, remettant l'arme au bras, il s'est avancé un peu sur le
+            
+                    théâtre. 
+            
+                    Décampe… fais comme l'ennemi… oui, mais il est allé près
+            
+                    de Nancy… ah  ! bah  ? elle ne l'aime pas… il l'épouse demain, 
+            
+                    cependant  ! il est avec elle, il lui parle d'amour. 
+            
+                    (Il pose son fusil à terre, et s'accoude sur l'ouverture du canon.)
+                
+            
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : du deuxième acte de Fra Diavolo. 
+                </stage>
+            
+            
+            
+                    <l>La danse les appelle,</l>
+                    <l>Et Fritz est auprès d'elle,</l>
+                    <l>Tandis qu'en sentinelle,</l>
+                    <l>Ici je reste, hélas !</l>
+                    <l>Lucien, pourquoi ne peux – tu pas,</l>
+                    <l>Auprès d'elle porter tes pas ?</l>
+                    <l>Mais il te faut, hélas !</l>
+                    <l>Rester ici l'arme au bras.</l>
+                    <l>En valsant avec elle,</l>
+                    <l>Fritz la tient dans ses bras.</l>
+                25
+                    <l>Ah !</l>
+                    <l>Moi, je soupire, hélas !</l>
+                    <l>Et j'enrage tout bas.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            Eh  ! bien, qu'est – ce que j'ai donc  ? (Ouvrant les yeux et les
+            frottant.) Comment est – ce que le sommeil  ? … (Prenant vive
+            
+            ment son fusil et se promenant l'arme au bras.) Allons donc  ! …
+            le repos peut nous surprendre nous autres  ! (Se
+            est – ce que
+            
+            frottant les yeux.) C'est inconcevable, j'ai eu tort de boire…. 
+            
+            on me versait… mais ça ne m'a jamais fait cet effet là. (Il
+            
+            s'arréte, va pour mettre son fusil à terre et reporte l'arme vive
+            
+            ment.) Non, je ne céderai pas…
+            
+            (Il est arrivé près du fauteuil qui est à gauche, entre les deux
+            
+            portes ; tout – à – coup, il tombe malgré lui sur ce fauteuil, et
+            
+            succombe au sommeil. La musique continue en sourdine pen
+            
+            dant le monologue, et pendant la scène suivante.)
+            
+            SCÈNE XX. 
+            
+            LUCIEN endormi, NAPOLÉON. 
+            
+            (La porte du fond s'ouvre ; Napoléon paraît ; il s'avance lentement
+            
+            les mains derrière le dos, et arrive jusqu'au milieu du théâtre. 
+            
+            Surpris de ne pas voir le factionnaire,' il se retourne et s'aper
+            
+            çoit qu'il est endormi. Son premier mouvement est de mettre la
+            
+            main sur la garde de son épée. Il se rapproche de Lucien, aper
+            
+            çoit le morceau de drapeau que le jeune soldat a conservé sur sa
+            
+            poitrine ; il le saisit ; il entend du bruit : une porte latérale s'ou
+            
+            vre ; sur – le – champ, il prend l'arme du factionnaire, rentre dans
+            
+            la pièce du fond, et se trouve caché pour les acteurs, mais il est
+            
+            pu des spectateurs. Il garde l'attitude d'un soldat qui croise la
+            baïonnette.)
+            
+            SCÈNE XXI. 
+            
+            NAPOLÉON en
+            
+            faction, LE BARON D'OLBRUK, qui a
+            
+            ouvert doucement une porte qui donne sur le premier plan à
+            
+            gauche, appelle les conjurės ; ceux – ci paraissent et restent à
+            l'entrée de la coulisse. LUCIEN est toujours endormi. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                                    
+                
+            
+                
+                  CHŒUR.   — <stage type="tune">Air : Amis, déposons nos armes. (Beniowski.)
+                </stage>
+            
+            
+                    <l>Amis,</l>
+                    <l>Remplis d'espérance,</l>
+                    <l>Marchons en silence,</l>
+                    <l>Surprenons nos ennemis,</l>
+                    <l>Et sauvons notre pays !</l>
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LE BARON. 
+            
+            Je n'entends rien  ! … le factionnaire est endormi, j'en étais
+            
+            sûr… c'est moi – même qui ai versé l'opium dans son vin  ! … 
+            
+            (Mouvement de Napoléon.) Allons, mes amis, marchons. (Ils s'a
+            
+            vancent, Napoléon fait quelques pas et s'écric avec force :) Qui
+            
+            vive  ! 
+            
+            (Le baron et tous les conjurés effrayés s'enfuient, et disparais
+            
+            sent
+            
+            par la porte du premier plan.)
+            
+            4. 
+            
+            SCENE XXII. 
+            
+            NAPOLEON, LUCIEN, 
+            
+            (Le jour commence à paraltre. Napoléon va au jeune soldat, le
+            secoue fortement, remet son fusil entre ses bras et disparait.)
+            
+            SCÈNE XXIII. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                                    LUCIEN
+                
+            
+                
+, se réveillant. 
+                
+            
+            
+            
+                
+                    Ciel  ! j'aidormi ! … Que vois – je  ? quelqu'un s'éloigne à tra
+            
+                    vers la galerie  ! … si j'avais été surpris  ! … non  ! … 
+                
+            
+            
+            
+            
+            
+                <stage type="tune">
+                    Air : d'Aristipe. 
+                </stage>
+            
+              
+                    <l>C'est à tort que je m'épouvante</l>
+                    <l>De ce repos inattendu ;</l>
+                    <l>Et j'en ai la preuve évidente,</l>
+                    <l>Non, non, personne ne m'a vu…</l>
+                    <l>Le zèle ardent de mes chefs m'est connu ;</l>
+                    <l>Sur ce point–là jamais ils ne font grâce,</l>
+                    <l>Et pendant que j'ai sommeillé,</l>
+                    
+                        (Montrant la porte de l'Empereur.)
+                    
+                    <l>Si l'on m'avait surpris à cette place,</l>
+                    <l>Jamais je n' me serais réveillé !</l>
+                
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            Où donc est mon  ? drapeau je ne l'ai plus… Mais on vient…
+            
+            à mon poste  ! …
+            
+            SCÈNE XXIV. 
+            
+            BITTER BRACK, LUCIEN, dans la galerie se promenant
+            
+            Qui vive  ! 
+            
+            Diplomate. 
+            
+            l'arme au bras. 
+            
+            LUCIEN
+            
+            BITTER BRACK. 
+            
+            LUCIEN. 
+            
+            Ah  ! c'est cet imbécille  ! 
+            
+            (Il continue sa faction, et peu de temps après disparatt dans la
+            
+            galerie.)
+            
+            BITTERBRACK. 
+            
+            Impossible de passer, j'avais à peine fait une vingtaine de
+            
+            pas
+            
+            hors du château, qu'un petit conscrit m'a barré le che
+            
+            min avec sa baïonnette. Je n'ai eu que le temps de croisermon
+            
+            parapluie ; voilà la lettre, il faut pourtant que je trouve un
+            
+            moyen quelconque…
+            
+            SCÈNE XXV. 
+            
+            LA COMTESSE, BITTERBRACK
+            
+. 
+            
+            LA COMTESSE, 
+            
+            à
+            
+            part. 
+            
+            (Il fait jour tout – à – fait.)
+            
+            Voilà l'homme qu'on m'a signalé et qui porte les lettresde
+            
+            – 97
+            
+            mon mari à la princesse d'Hohenloe : effrayons – le pour
+            
+            savoir
+            
+            la vérité. 
+            
+            BITTERBRACK, sans voir la comtesse. 
+            
+            Cette lettre m'eût pourtant valu des récompenses flatteuses. 
+            
+            LA COMTESSE, 
+            
+            Je n'y tiens plus… Monsieur…
+            
+            Ah  ! ah  ! …. 
+            
+            BITTER BRACK. 
+            
+            LA COMTESSE. 
+            
+            Monsieur, je suis la comtesse d'Hatzfeld. 
+            
+            BITTERBRACK. 
+            
+            Je sais le nom de madame, sa personne m'était inconnue. 
+            
+            LA COMTESSE. 
+            
+            Monsieur, puis – je savoir qui vous êtes…. 
+            
+            BITTER BRACK. 
+            
+            Le conseiller Bitterbrack, Bavarois et allié du grand vain
+            
+            queur. 
+            
+            LA COMTESSE, à
+            
+            part. 
+            
+            Si je pouvais le déterminer à une livrer sa lettre… (Haut.)
+            de monsieur
+            
+            En attendant, vous vous faites
+            d'Hatzfeldt  ? 
+            
+            le messager
+            
+            Non, madame…. je suis envoyé extraordinaire… toujours
+            
+            BITTER BRACK. 
+            
+            dans le même but. 
+            
+            Mais cette lettre…
+            
+            LA COMTESSE. 
+            
+            BITTERBRACK. 
+            
+            Nous appelons cela une note diplomatique. 
+            
+            LA COMTESSE. 
+            
+            Vous savez ce qu'elle renferme  ? 
+            
+            BITTERBRACK. 
+            
+            Non, nous avons des diplomates qui sont instruits, 
+            
+            tres qui ne savent rien… je suis dans la deuxième cathégo
+            
+            d'au
+            
+            rie. 
+            
+            LA COMTESSE. 
+            
+            Si je vous disais que cette lettre peut causer le plus grand
+            
+            malheur…
+            
+            Il serait possible  ! … 
+            
+            BITTERBRACK. 
+            
+            LA COMTESSE. 
+            
+            Si la perte d'une noble personne y était attachée…. 
+            
+            Se peut – il  ! 
+            
+            BITTERBRACK. 
+            
+            LA COMTESSE. 
+            
+            Oui, monsieur le conseiller, on s'est moqué de vous. 
+            
+            – 28
+            
+            S'il était vrai  ! …
+            
+            BITTERBRACK, furieux. 
+            
+            LA COMTESSE. 
+            
+            Songez au mystère avec lequel ils ont conduit cette affaire. 
+            
+            BITTERBRACK. 
+            
+            Au fait, ils m'ont tout confié sans me rien dire. 
+            
+            LA COMTESSE. 
+            
+            Voyez le prince d'Hohenloe uniquement occupé de rallier
+            
+            les troupes, tandis que sa femme…
+            
+            BITTERBRACK. 
+            
+            C'est chez elle que je devais me rendre. 
+            
+            LA COMTESSE. 
+            
+            Ouvrez donc les yeux, monsieur. 
+            
+            BITTERBRACK, 
+            
+            Je les ouvre, madame, autant que leur nature me le per
+            
+            met…
+            
+            C'est une infâme trahison  ! 
+            
+            LA COMTESSE, éclatant. 
+            
+            BITTERBRACK, surpris. 
+            
+            Une trahison  ? … Je marchais sur un volcan, sur un cratère…
+            
+            si vous ne m'aviez arrêté, quel saut je faisais… je vais tout
+            
+            réparer, madame, et cette lettre  ! …
+            
+            LA COMTESSE, avançant la main. 
+            
+            C'est cela, monsieur…
+            
+            BITTERBRACK. 
+            
+            Non, non, je ne vous la reinettrai pas : inais dans un ins
+            
+            tant, 
+            
+            elle sera entre les inains du GRAND NAPOLÉON. 
+            
+            LA COMTESSE, étonnée. 
+            
+            (Il court vers la galerie.)
+            
+            De Napoléon…
+            
+            SCÈNE XXVI. 
+            
+            LA COMTESSE, LE BARON. 
+            
+            LE BARON. 
+            
+            Que s'est – il donc passé, madame ? et que parle – t – il de Na
+            
+            poléon  ? 
+            
+            LA COMTESSE. 
+            
+            Frappé de l'idée que mon mari était infidèle, je suis venue
+            
+            reprocher à cet homme la commission dont il s'était char
+            gé, et sur le motde trahison, il est sorti comme vous avez
+            
+            vu  ! …
+            
+            Grand Dieu  ! il faut courir après lui ! (Remontant la scène.)
+            
+            LE BARON. 
+            
+            – 29 %
+            
+            Il n'est plus temps… le voilà qui cause dans la galerie avec le
+            
+            grand – maréchal… (A la comtesse.) Ab  ! madame, qu'avez – vous
+            
+            fait  ? … cette lettre était un avis de votre mari au général Ho
+            
+            henloe pour le prévenir du coup de main que nous devions
+            
+            tenter cette nuit sur Napoléon. 
+            
+            LA COMTESSE, se laissant tomber sur un siége. 
+            
+            Grand Dieu  ! j'ai dénoncé mon mari  ! 
+            
+            SCÈNE XXVII. 
+            
+            LES MÊMES, FRITZ, NANCY, BURMANN, VILLAGEOIS, 
+            
+            VILLAGEOISES. 
+            
+            
+            
+            
+            
+            
+            
+<div type="poem"> <lg>         
+                      
+            
+            
+            <stage type="tune">
+                 CHŒUR d'il Turco'in Italia. (Rossini.)
+            </stage>
+            
+            
+           
+                <l>Célébrons tous ce mariage,</l>
+                <l>Et livrons nos cœurs au plaisir !</l>
+            
+            
+</lg> </div>
+            
+            
+            
+            
+            
+            
+            LE BARON, sévèrement. 
+            
+            Taisez – vous  ! 
+            
+            FRITZ, à part. 
+            
+            Je n'y comprends rien… monsieur le baron qui était si
+            
+            pressé…
+            
+            Silence, malheureux  ! 
+            
+            LE BARON, frappantdu pied. 
+            
+            (On entend battre la générale.)
+            
+            FRITZ, 
+            
+            Ah  ! mon Dieu  ! est – ce qu'il va y avoir une bataille  ? 
+            
+            BURMANN, regardant. 
+            
+            Toute la galerie se remplit de militaires  ! 
+            
+            SCENE XXVIII. 
+            
+            LES MÊMES, BITTERBRACK. 
+            
+            BITTERBRACK, arrivant avec empressement. 
+            
+            Gare  ! gare  ! l'Empereur va passer par ici  ! … Vous ne savez
+            
+            donc
+            
+            pas la nouvelle  ? …
+            
+            Quelle nouvelle  ? 
+            
+            TOUS. 
+            
+            BITTERBRACK. 
+            
+            On a voulu enlever l'Empereur cette nuit. 
+            
+            Enlever l'Empereur  ! 
+            
+            TOUS. 
+            
+            BITTERBRACK. 
+            
+            C'est moi qui ai tout découvert… grâce à ma diplomatie…
+            
+            Au baron.) Vous vouliez m'en donner à garder, mais je vous
+            
+            ai déviné. 
+            
+            Vous êtes un sot  ! 
+            
+            LE BARON. 
+            
+            BITTERERAGK. 
+            
+            Je suis diplomate…
+            
+            LE BARON, lui serrant le bras. 
+            
+            Nous nous reverrons, monsieur  ! 
+            
+            (Il sort.)
+            
+            Le comte d'Hatzfeldt est arrêté…
+            
+            BITTERBRACK. 
+            
+            O ciel  ! …
+            
+            Il est arrêté  ! …
+            
+            LA COMTESSE. 
+            
+            TOUS
+            
+            BITTER BRACK. 
+            
+            La commission militaire s'assemble. 
+            
+            LA COMTESSE. 
+            
+            Et c'est par ma faute  ! …
+            
+            BITTERBRACK, 
+            
+            Le grand – maréchal et moi nous avons arrangé tout cela en
+            
+            une minute. 
+            
+            (On entend battre aux champs.)
+            
+            Quel est ce bruit  ? 
+            
+            LA COMTESSE. 
+            
+            BITTERBRACK. 
+            
+            C'est l'Empereur… il se rend au conseil de guerre. 
+            
+            LA COMTESSE, vivement. 
+            
+            Je n'ai pas un instant à perdre. 
+            
+            (Elle court au fond vers la galerie, et dans le moment où
+            
+            Napoléon arrive, elle se jette à ses pieds.)
+            
+            SCENE XXIX. 
+            
+            Les MÊMES, NAPOLÉON, SON ÉTAT – MAJOR, LUCIEN au fond. 
+            
+            LA COMTESSE. 
+            
+            Sire, la comtesse d'Hatzfeldt est à vos pieds. 
+            
+            (Napoléon la relève, et descend la scène en lui donnant la main.)
+            
+            NAPOLÉON, à la comtesse. 
+            
+            Que demandez – vous, madame ? 
+            
+            LA COMTESSE. 
+            
+            La grâce du comte d'Hatzfeldt  ! 
+            
+            NAPOLÉON. 
+            
+            La commission militaire est assemblée pour le juger. 
+            
+            Sire, mon mari n'est pas coupable. 
+            
+            LA COMTESSE. 
+            
+            – 
+            
+            1 – 
+            
+            NAPOLÉON, lui montrant une lettre. 
+            
+            Connaissez – vous cette écriture  ? 
+            
+            LA COMTESSE, au désespoir. 
+            
+            C'est celle de mon époux  ! 
+            
+            NAPOLÉON. 
+            
+            Cette lettre seule l'accuse. 
+            
+            LA COMTESSE. 
+            
+            Grand Dieu  ! 
+            
+            NAPOLÉON, lui remettant la lettre. 
+            
+            Si elle
+            
+            était détruite, il n'y aurait plus de preuves…
+            
+            LA COMTESSE. 
+            
+            Se peut – il ? …
+            
+            Ah  ! 
+            
+            (Napoléon luimontre la cheminée.)
+            
+            LA COMTESSE, avec élan. 
+            
+            (Elle jette la lettre au feu.)
+            
+            NAPOLÉON. 
+            
+            Maréchal, faites remettre en liberté le comte d'Hatzfeldt. 
+            
+            LA COMTESSE, à ses genoux. 
+            
+            Ah  ! sire, vous enchaînez les cours par la reconnaissance. 
+            
+            Absolument commemoi. 
+            
+            BITTERBRACK, à part. 
+            
+            (La comtesse, restantaux genoux de Napoléon, cherche à lui
+            
+            saisir les mains.)
+            
+            NAPOLÉON, la relève. 
+            
+            Allez embrasser votre époux. 
+            
+            (Il la reconduit jusqu'au fond ; elle sort.)
+            
+            SCENE XXX. 
+            
+            LES MÊMES, excepté LA COMTESSE. 
+            
+            BITTERBRACK. 
+            
+            A mon tour, il vame parler. 
+            
+            NAPOLÉON. 
+            
+            Il y avait ici une fête, une noce…, Meunier Burmann  ! 
+            
+            BURMANN, s'inclinant. 
+            
+            C'est sa voix  ! … Ah  ! sire  ! …
+            
+            NAPOLÉON. 
+            
+            J'ai promis une dot à votre fille. 
+            
+            NANCY, 
+            
+            C'est lui  ! 
+            
+            NAPOLÉON, à Nancy. 
+            
+            Approchez, mon enfant, n'ayez pas peur ; le bonheur d'une
+            
+            famille ne m'est pas indifférent. Qui aimez – vous  ? 
+            
+            39
+            
+            LUCIEN, la main au shakos. 
+            
+            Présent : 
+            
+            NAPOLÉON, le regardant. 
+            
+            Ah  ! ah  ! … (A Nancy.) Eh  ! bien  ? 
+            
+            NANCY. 
+            
+            Sire… c'est qu'on n'ose pas
+            
+            dire qu'on aime un soldat. 
+            
+            LUCIEN, s'enhardissant et se mettant à
+            au shakos. 
+            
+            la pose militaire, la main
+            
+            Mais un soldat peut dire qu'il aimeune jolie fille ; n'est – ce
+            
+            pas, mon général  ? 
+            
+            NAPOLÉON. 
+            
+            Oui, quand il a sauvé son drapeau…
+            
+            LUCIEN. 
+            
+            C'est lui qui m'a réveillé  ! (Il se jette à ses pieds.) Sire  ! …
+            
+            NAPOLÉON, le retenant. 
+            
+            Tu n'es pas coupable, je le sais… je te rends cette preuve
+            
+            de ton courage… (Illui rend le morceau de drapeau.) etj'y joins
+            
+            la croix d'honneur avec le gradede lieutenant ; ce sera ta dot. 
+            
+            Ah  ! mon général  ! 
+            
+            LUCIEN
+            
+            NAPOLÉON, se retournant vers son état – major. 
+            
+            Messieurs, point de commission militaire aujourd'hui. 
+            
+            Suivez – moi au
+            
+            conseil ; nous nous occuperons de quelques
+            
+            articles du Code. 
+            
+            (Il fait quelques pas pour sortir.)
+            
+            BITTERBRACK, à part. 
+            
+            Guerrier législateur  ! … il me regarle, il va me parler… il
+            
+            va me dire quelque chose d'adınirable…. 
+            
+            (Il salue profondément.)
+            
+            NAPOLÉON. 
+            
+            Que voulez – vous  ? …
+            
+            BITTERBRACK, embarrassé. 
+            
+            Sire, nos cours épanouis… l'explosion… (Napoléon lui
+            
+            tourne le dos et sort.) C'est égal, c'est un grand homme  ! …. 
+            Vive l'Empereur  ! 
+            
+            Vive l'Empereur  ! 
+            
+            TOUS. 
+            
+            FIN. 
+            
+            IMPRIMERIE DE DAVID, BOULEVARD POISSONNIÈRE, N ° 6. 
+            
+            ح
+            ي
+            ا
+            
+            – 
+            
+            7
+        </body>
+    </text>
+</TEI>

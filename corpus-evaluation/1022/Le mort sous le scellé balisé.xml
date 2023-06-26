@@ -1,0 +1,3047 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE MORT SOUS LE SCELLÉ</title>
+                <title type="sub">FOLIE EN UN ACTE, MÊLÉE DE COUPLETS</title>
+                <author key="THO" sort="1">
+                    <name>
+                        <forename>Mathieu Barthélemy</forename>
+                        <surname>Thouin</surname>
+                        <addname type="pen_name">Barthélemy</addname>
+                    </name>
+                </author>
+                <author key="LVY" sort="2">
+                    <name>
+                        <forename>Léon-Victor</forename>
+                        <surname>Lévy</surname>
+                        <addname type="pen_name">Victor Lhérie</addname>
+                        <addname type="pen_name">Lhérie</addname>
+                    </name>
+                </author>
+                <author key="VID" sort="3">
+                    <name>
+                        <forename>Léon-Jérôme</forename>
+                        <surname>Vidal</surname>
+                        <addname type="pen_name">Céran</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE MORT SOUS LE SCELLÉ</title>
+                        <author>BARTHÉLEMY, LHÉRIE ET CÉRAN</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=mSlMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102EE0E4</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-12-08">8 DÉCEMBRE 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES NOUVEAUTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NATIONALBIBLIOTHEK
+            
+            IN WIEN
+            
+            133011-B
+            
+            ALT
+            
+            18. Fr
+            
+            LE MORT
+            
+            SOUS LE SCELLÉ, 
+            
+            Folie en un acte, mêlée de couplets, 
+            
+            PAR MM. BARTHÉLEMY, LHÉRIE ET CÉRAN, 
+            
+            REPRÉSENTÉE POUR LA PREMIÈRE POIS
+            
+            SUR LE THÉATRE DES NOUVEAUTÉS, 
+            
+            LE 8 DÉCEMBRE 1831. 
+            
+-
+            
+            OOO
+            
+            PRIX : 
+            
+            1 FR. 50
+            
+. 
+            
+            PARIS. 
+            
+            J. N. BARBA, LIBRAIRE, 
+            
+            PALAIS-ROYAL, GRANDE COUR, DERRIÈRE LE THÉATRE-FRANÇAIS. 
+            
+            1832
+            
+            123011
+            
+            wwwwwwwwwwwwwwwwwwwwwwww
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            WILLIAMS, peintre. 
+            
+            MORTHOMBE, médecin. 
+            
+            LAVENETT, huissier. 
+            
+            LUSTRILL, fabriquant de cirage. 
+            
+            ANNA, femme de Williams. 
+            
+            DANIELS, rapin. 
+            
+            MM. André. 
+            
+            LEVASSOR. 
+            
+            DUBOURJAL. 
+            
+            ARMAND. 
+            
+            M ". CLORINDE. 
+            
+            Félicité. 
+            
+            La Scène se passe en Angleterre. 
+            
+            IMPRIMERIE DE E. DUVERGER, 
+            
+            KUE DE TERNEUIL, A. 4. 
+            
+            LE MORT
+            
+            SOUS LE SGELLÉ, 
+            
+            FOLIE EN UN ACTE. 
+            
+            • мимимимимимии
+            
+            Le théâtre représente un atelier de peinture. A droite, une table et un cheva
+            
+            let ; à gauche, un lit de modèle ; porte conduisant à la chambre de Wil
+            
+            liams ; à droite, une croisée et une cheminée, plusieurs chaises. 
+            
+            SCENE PREMIERE. 
+            
+            WILLIAMS, ANNA, DANIELS. 
+            
+            WILLIAMS, occupé à peindre une enseigne. 
+            
+            Eh bien ! ma pauvre Anna, tu vois à quoi je suis réduit… moi, 
+            
+            peintre distingué de Brecknoc, et avantageusement connu dans
+            
+            la principauté de Galles ! Pour exister, 
+            
+            il faut que je rabaisse
+            
+            mon pinceau à faire des enseignes ! 
+            
+            Peut-être y
+            
+            ANNA, brodant auprès de la table. 
+            a-t-il de la faute ; tu n'as pas toujours su con
+            
+            tenter tes pratiques. 
+            
+            C'est vrai. 
+            
+            WILLIAMS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Restez, restez, troupe jolie. </stage>
+            
+                    <l>Vieux céladon, vieille coquette, </l>
+                    <l>Chacun voulait être flatté ; </l>
+                    <l>Mais je broyais sur ma palette</l>
+                    <l>Les couleurs de la vérité. </l>
+                    <l>J'ai peint plus d'un haut personnage, </l>
+                    <l>Des grands seigneurs, des courtisans, </l>
+                    <l>Ils trouvaient affreux mon ouvrage. </l>
+            
+                    ANNA. 
+            
+                    <l>Tu les faisais trop ressemblans. </l>
+                </lg>
+            </div>
+            
+            
+            WILLIAMS. 
+            
+            Allons ! prenons mon parti, tant pis ; de la gaîté ! Daniels, 
+            broye du noir, que j'achève l' enseigne de sir Lustrill, le mar
+            chand de cirage. 
+            
+            Il a eu là une drôle d' idée. 
+            
+            ANNA. 
+            
+            WILLIAMS. 
+            
+            Quel charlatanisme ! Pour prouver l'excellence de son vernis, 
+            
+            son enseigne représente un homme qui se fait la barbe dans
+            une botte. 
+            
+            ANNA. 
+            
+            Et combien lui fais-tu payer ce beau chef-d'oeuvre ? 
+            
+. 
+            
+            WILLIAMS. 
+            
+            Vingt-cinq schelings … que veux-tu ? il faut bien vivre ; la mi
+            
+            niature ne donne plus. 
+            
+            ANNA. 
+            
+            Je crains toujours qu'on ne vienne t'arrêter ; tes créanciers
+            
+            peuvent d'un moment à l'autre obtenir une prise de corps con
+            tre toi. 
+            
+            WILLIAMS. 
+            
+            Ils n'ont pas voulu m'accorder un nouveau délai ; j'ai em
+            j'ai inême proposé à chacun d'eux de
+            
+            ployé tous les moyens, 
+            
+            faire le portrait de sa femme ; ils m
+            
+'ont dit qu'ils avaient assez
+            
+            de l'original. 
+            
+            Je tremble qu'ils n'aient pris pour huissier sir
+            
+            Lavenett : c' est l'homme le plus intraitable de tout Brecknoc ; 
+            
+            il n'y a pas jusqu'à mon médecin, M. Morthombe, avec sa gaîté, 
+            son petit air jovial et ses flonflons, qui ne me harcèle aussi ; 
+            
+            quand je le vois, j'ai la fièvre. 
+            
+            ANNA. 
+            
+            C' est commemoi, lorsque M. Lustrill vient ici ; il m'ennuie
+            
+            avec ses complimens et ses prévenances. 
+            
+            WILLIAMS. 
+            
+            Heureusement, ma chère amie, je ne suis pas jaloux de lui. 
+            
+            ANNA. 
+            
+            Bien plus, il m'envoie des cadeaux. 
+            
+            WILLIAMS. 
+            
+            Des cadeaux ? Ceci passe la plaisanterie. 
+            
+            ANNA. 
+            
+            Hier encore, il m'a fait parvenir un panier de bouteilles de
+            cirage, avec ce billet-doux… Écoute : ce sont des vers de sa
+            façon …. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    À madame W***
+            
+            
+                    <l>Oui, je veux devenir le coq</l>
+                    <l>De la plus belle de Brecknoc. </l>
+                    <l>Le teint frais et vermeil de votre beau visage</l>
+                    <l>Efface tout l'éclat de mon brillant cirage. </l>
+                    <l>En amour je suis encor neuf ; </l>
+                    <l>De mes rivaux redoutez le langage, </l>
+                    <l>Il éblouit d'abord, ce n'est que du cirage</l>
+                    <l>À l'œuf. </l>
+                </lg>
+            </div>
+            
+            
+            WILLIAMS, riant. 
+            
+            Ah ! Ah ! …, maintenant que je connais son style, je lui permets
+            
+            de l'écrire, pourvu qu'il affranchisse ses verz … Après tout, ce
+            
+            n'est pas la petite poste qui me ruine. …
+            J'ai écrit à tousmes
+            annis dans quelle fâcheuse position je me trouvais ; je n'ai pas
+            
+            encore reçu de réponse … j'en ai oublié un seul, l'ami Dickson ; 
+            j' irai le voir aujourd'hui …. ce sera madernière ressource ; si elle
+            me manque, ma foi, au petit bonheur … Oh ! une idée lumi
+            
+            neuse ! j'achète un boisscau de charbon et nous nous asphyxions
+            conjugalement. 
+            
+            Ah ! mon ami, quelle idée noire ! …
+            
+            WILLIAMS. 
+            
+            ANNA. 
+            
+. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Je lui plairai. </stage>
+            
+                    <l>Si j'étais mort, <stage type="repetition">bis. </stage></l>
+                    <l>J'aurais du talent, du génie ; </l>
+                    <l>Si j'étais mort, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Mes ouvrages vaudraient de l'or ; </l>
+                    <l>Mon sort serait digne d'envie, </l>
+                    <l>Je passerais gaiment ma vie, </l>
+                    <l>Si j'étais mort. <stage type="repetition">bis. </stage></l>
+                </lg>
+            </div>
+            
+            
+            DANIELS. 
+            
+            A propos de mort, voici le docteur Morthombe.'
+            
+            SCENE II. 
+            
+            LES MÊMES, MORTHOMBE. 
+            
+            MORTAOMBE, entrant gaiment. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : flon, flon, flon. </stage>
+            
+            
+                    <l>Voyons, que faut-il faire ? </l>
+                    <l>Faut-il saigner soudain ? </l>
+                    <l>Faut-il vous mettre en terre ? </l>
+                    <l>Voilà le médecin ! </l>
+                    <l ana="unanalyzable">Flon, flon, etc. </l>
+            
+                    <l>J'ai, par mon gai langage, </l>
+                    <l>Fait rire un vieux rentier ; </l>
+                    <l>Mais j'ai fait davantage</l>
+                    <l>Rire son héritier. </l>
+                    <l ana="unanalyzable">Flon, flon, etc. </l>
+            
+                    <l>La vie est un passage ; </l>
+                    <l>Je dis au moribond : </l>
+                    <l>Gaîment, pliez bagage, </l>
+                    <l>Descendez chez Pluton. </l>
+                    <l ana="unanalyzable">Flon, flon, etc. </l>
+                </lg>
+            </div>
+            
+            
+            Ne vous dérangez pas, mon cher Williams ; mes respects å
+            
+            madame…. Et la santé, mes amis ? …
+            WILLIAMS. 
+            
+            Elle est assez bonne, dieu merci. 
+            
+            MORTHOMBE, riant. 
+            
+            Vous me la devez …. et mon mémoire aussi. (Il ricane.)
+            
+            Nous y voilà. 
+            
+            Comment faire ? 
+            
+            WILLIAMS, à part. 
+            
+            ANNA, à part. 
+            
+            MORTHOMRE. 
+            
+            Vous m'aviez promis de l'argent pour aujourd'hui… êtes
+            
+            vous en fonds ? Voici la note détaillée de mes visites : 
+            
+            1° Pour avoir vaccinémademoiselle Williams, qui depuis est
+            morte de la petite-vérole, une livre deux schelings ;-29 Pour
+            avoir examiné la langue de monsieur… huit schelings ;-
+            3° Pour avoir guéri örois indigestions à monsieur… dix
+            livres ; 
+            l'heure de la
+            
+-De plus, pour m' être informé tout à
+            
+            santé de madame… 
+            
+            trois schelings. Total : onze livres
+            
+            treize schelings. 
+            
+            WILLIAMS. 
+            
+            Monsieur Morthoinbe, ne pourriez-vous pas attendre encore
+            
+            un peu ? …. Ce tableau, que je finis, pourra m'acquitter. 
+            
+            MORTHOMBE. 
+            
+            Mon cher ami, je suis las de tous ces délais… (ricanant.) Mé
+            
+            nagez-moi, car vous allez avoir bientôt besoin de mes secours…
+            
+            ANNA. 
+            
+            Personne de nous n' est malade, et nous espérons bien… 
+            
+            NORTHOMBĖ. 
+            
+            Vous ne savez donc pas la nouvelle ? ignorez-vous ce qui ar
+            
+            rive à Londres ? … 
+            
+            WILLIAMS. 
+            
+            Est-ce quelque révolution au sujet du bill de réforme ? 
+            
+            MORTHOMBE. 
+            
+            Non, il n' y a qu'à Bristol qu'on brise tout… il est enfin arrivé
+            
+            de Russie ex-abrupto. 
+            
+            Arrivé ? qui ? 
+            
+            WILLIAMS, 
+            
+            MORTHOMBE. 
+            
+            Après avoir visilé Saint-Pétersbourg, Berlin, Amsterdam et
+            
+            Sunderland, il vient enfin d'élire domicile à Londres. 
+            
+            WILLIAMS. 
+            
+            Mais quel est donc ce voyageur ? …
+            
+            MORTHOMBE, se frottant les mains. 
+            
+            Le choléra-morbus. 
+            
+            (Il ricane.)
+            
+            Ah ! mon Dieu ! …
+            
+            TOUS. 
+            
+            WILLIAMS. 
+            
+            Comment ! malgré… les cordons sanitaires ? …
+            
+            MORTAOMBE. 
+            
+            On a malheureusement oublié d' en établir contre les cor
+            
+            bcaux, les alouettes, et tous les oiseaux de passage. 
+            
+            C'est peut-être aussi quelquemaladie en l'air. 
+            
+            ANNA. 
+            
+            MORTAOMBE, tirantu njournal. 
+            
+            Précisément… Voici ce que raconte le Morning-Chronicle…
+            (Il ricane.) Il vient d'éclater à Londres
+            « Choléra-Morbus. —
+            
+            « dans la cité. Un chasseur des environs de la ville, croyant tuer
+            a un canard sauvage, abat un corbeau qui transmet le typhus au
+            « chien, qui le transmet au cheval de son maître, et de bête en
+            
+            « bête le chasseur lui-même en est attaqué, et à
+            
+            la suite d'une
+            
+            « fluxion de poitrine il est mort… du choléra…) 
+            
+            On dit que la fumée de tabac est excellente contre ce fléau. 
+            
+            WILLIAMS. 
+            
+            MORTHOMBE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Des fraises. </stage>
+            
+            
+                    <l>À fumer d'tous les tabacs, </l>
+                    <l>Les Anglais se consument ; </l>
+                    <l>Les Français ne l'craignent pas, </l>
+                    <l>Car, d'puis un an, l'arme au bras, </l>
+                    <l>Ils fument. <stage type="repetition">ter. </stage></l>
+                </lg>
+            </div>
+            
+            
+            ii. 
+            
+            si
+            
+            i
+            
+            D'un moment à l'autre il faut vous attendre …
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR de Partie et Revanche. </stage>
+            
+            
+                    <l>Croyez-moi, cette épidémie, </l>
+                    <l>Quand elle met chaque peuple aux abois, </l>
+                    <l>Me fait l'effet d'la liberté chérie</l>
+                    <l>Qui fit trembler en juillet tous les rois. </l>
+                    <l>Pour l'un nous l'aurons à la ronde, </l>
+                    <l>Pour l'aut', mon cher, c'est différent : </l>
+                    <l>Le choléra fera le tour du monde, </l>
+                    <l>La liberté n'en fera pas autant. </l>
+                </lg>
+            </div>
+            
+            
+            : 
+            
+. 
+            
+            : ; 
+            
+            On frappe. 
+            
+            Serait-ce déjà lui ? 
+            
+            DANIELS… ? 
+            
+            ANNA, , effrayée. 
+            
+            WILLIAMS. 
+            
+            Ça m'est égal, pourvu que ce ne soit pas un créancier ! …''
+            
+            SCENE III. 
+            
+            LES MÊMES, LUSTRILL. 
+            
+… 
+            
+            Soyez le bienvenu, monsieur Lustrill ! … On vous prenait
+            
+. 
+            
+            pour le choléra …. 
+            
+            LUSTRILL, presque effrayé. 
+            
+            blance avec ce vilain monsieur-là ? …. Mais non …. on m'a assuré
+            que c'était un grand pâle qui avait toujours la colique…. 
+            
+            (d Anna.) Salut à la charmante Anna ! … (bas.) Vous avez reçu
+            mon envoi, délicieuse créature ? …
+            (haut.) Ah ! çà, mon cher
+            
+            artiste, 
+            
+            je viens vous consacrer une quatrième et dernière
+            
+            séance. … Je vais, comme nous en sommes convenus, poser
+            
+            pour mes bottes…
+            
+            J'étais en train de leur donner le dernier coup de pinceau. 
+            
+            WILLIAMS, ailant à son chevalet. 
+            
+            LUSTRILL, se plaçant. 
+            
+            Toujours de profil, n'est-ce pas ? à la troisième position. …
+            
+            j'y suis… Regardez, docteur, comme ce portrait est ressem
+            blant des pieds à la tête. 
+            
+            MORTAOMBE, à Williams. 
+            
+            En ce cas, j'attendrai que vous ayez fini. … Je vous préviens
+            
+            que je ne sors pas que je ne sors payé. 
+            
+            (Il va s'asseoir à Pautre bout du théâtre.)
+            
+            A propos, mon cher Williams, en venant chez vous j'ai ren
+            dit qu'il allait se rendre ici pour
+            
+            contré sir Lavenett, qui m'a
+            
+            LUSTRILL. 
+            
+            terminer certaine affaire… 
+            
+            Williams, à part. 
+            L'huissier Lavenett ! …. je suis perdu ! 
+            
+            : 
+            
+            ANNA, à part. 
+            
+            Il vient pour l'arrêter, c'est sûr. 
+            
+            LUSTRILL. 
+            
+            Est-ce que vous faites son portrait ? …, faites-le payer cher, 
+            
+            car il est fort laid. 
+            
+            Ma foi, je n'ai pas un
+            
+            mon amiDickson. 
+            
+            instant à perdre ; courons vite chez
+            (Il fait signe à Daniels de le suivre.)
+            
+            Cela avance-t-il ? 
+            
+            LUSTRILL. 
+            
+            WILLIAMS. 
+            
+            Dans un instant… tournez un peu la tête à droite. (à part.)
+            
+            Tant pis ! laissons-le poser. 
+            
+            (Il fait un signe d' intelligence d sa femme, et s'esquive avec Daniels, 
+            
+            sans être aperçu de Lustrill ni de Morthombe.)
+            
+            9
+            
+. 
+            
+            : 
+            
+            SCENE IV. 
+            
+            LES MÊMES, exceptė WILLIAMS et DANIELS. 
+            
+            Dieu ! que cette position est gênante ! mes bottes finiront
+            
+            par une donner un torticolis… Vous parlicz donc, docteur, du
+            
+            LUSTRILL. 
+            
+            in
+            
+            seinem
+            
+            choléra quand je suis entré …. 
+            
+            ·
+            
+            MORTAOMBE, avec gaité. 
+            
+            Vous ne savez pas ? … il est à Londres. 
+            
+            LUSTRILL. 
+            
+. 
+            
+. 
+            
+            Eh bien ! je l'aurais parié. … c'est décidé, je ne sors plus sans
+            chlore ; j' en mets partout, dans mes cheveux, dansmes habits, 
+            dansmon linge, dansma soupe et dans unes beftecks… j' en in
+            troduirai même dans mon cirage pour en assurer le débit, et
+            je l'intitulerai : cirage anti-cholérique. 
+. Pozry ". MORTHOMBE. 9
+            
+            úsili ! 
+            
+            3
+            
+            o
+            
+            Oh ! personne ne peut se flatter d' échapper à ce fléau ; il fait
+            
+            des progrès effrayans. 
+            
+, 
+            
+'
+            
+            ILUSTRILL. …"
+            
+, 
+            
+            I
+            
+            Ah ! çà, tout le monde va donc le gagner ? … 
+            
+            ; Dolor :. 
+            
+            3
+            
+            * MORTAOMBE, 
+            
+            i, 
+            
+. 
+            
+            visl
+            
+. 
+            
+. 
+            
+            ; 
+            
+            i
+            
+            si
+            
+            Ça ne se gagne pas. 
+            
+            JALUSTRILLAS
+            
+            Ça s'attrape, peut-être ? 
+            
+            "
+            
+… ! ! ! 
+            
+… 
+            
+. ! 
+            
+            ! ! 
+            
+            Etes-vous contagionisté ou épidémiste ? 
+            
+            1
+            
+. * ** ! ! 
+            
+            "
+            
+            MORTHOMBE. 
+            
+            LUSTRILL. 
+            
+            { " Je suis Ciragiste ; je n'ai pas d'opinion politique ; cependant
+            je me suis laissé dire que cet horrible fléau se composait de
+            petits atômes imperceptibles qui s'introduisaient furtivement
+            et sans faire quarantaine dans tous les'pores de notre indi
+            vidu… 
+            
+            MORTHOMBE. 
+            
+            Votre définition est absurde. … tenez, je voudrais que vous
+            
+            fussiez cholérique, je vous disséquerais, j'analyserais vos intes
+            
+            lins, 
+            seriez un bon sujet. …
+            
+            et je vous prouverais la non-contagion … En effet, vous
+            
+-? ^. 
+            
+            ! 
+            
+… ! " LUSTRIĽL,'Pun "air'satisfait. 
+            
+            Les femmes pensent toutes le contraire. 
+            
+            MORTHOMBE. 
+            
+            * De toute antiquité, il a existe des' épidémies ; lisez plutôt le
+            fameux : Solem quis dicere falsum audeat ! dans les Bucoliques
+            de Virgile…
+            
+. 
+            
+. 
+            
+'
+            
+            "
+            
+            LUSTRILL. 
+            
+. 
+            
+. 
+            
+            Virgile avait donc aussi des coliques ? 
+            
+            Le Mort sous le scellé. 
+            
+            10
+            
+            MORTEOMBE. 
+            
+            Mon cher amni, vous n' y entendez rien …. terminons ce dé
+            
+            bat. 
+            
+            Vous avez raison, il faut le clore … aussi bien cette savante
+            
+            LUSTRILL. …
+            
+            discusion ne doit pas égayer madame. 
+            
+' ANNA. 
+            
+            Ne faites pas attention, messieurs, continuez. 
+            
+            LUSTRILL, regardant Anna et lui faisant les dous yeux. 
+            
+'
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la Baronne. </stage>
+            
+            
+                    <l>L'épidémie</l>
+                    <l>Doit venir régner en ces lieux ; </l>
+                    <l>Fièvr' d'amour consume ma vie : </l>
+                    <l>J'ai déjà pris dans deux beaux yeux</l>
+                    <l>L'épidémie. </l>
+                </lg>
+            </div>
+            
+            
+. 
+            
+. 
+            
+            In
+            
+            is, i
+            
+. 
+            
+            in
+            Eh bien ! où est donc Williains ? il me laisse comme ça. 
+            
+            
+            Lepruemcem
+            
+. 
+            
+. 
+            
+. 
+            
+… 
+            
+,' ANNA. 
+            
+-
+            
+. 
+            
+            Mon mari va revenir bientôt. 
+            
+            no
+            
+            rii, .', 
+            
+            LUSTRILL, bas à Anna. 
+            
+            Profitons de son absence … Pourquoi diable cet importun
+            
+            docteur est-il là ! j'aurais tant de choses spirituelles à vous
+            
+            dire…. 
+            
+            ANNA, bas à Lustrill. 
+            
+            Y pensez-vous, inon mari, le monde, cet étranger…'
+            
+            LUSTRILL, à part. 
+            
+            Du mystère ! amour…. elle est à moi. 
+            
+. 
+            
+. 
+            
+            i
+            
+'
+            
+            Ah ! çà, monsieur Williamstarde bien à reparaître … et mon
+            
+            MORTAOMBE. 
+            
+            inémoire ? …. 
+            
+. LUŞTRILL. 
+            
+. 
+            
+            Et mon portrait qu'il devait me livrer aujourd'hui… ? 
+            
+            SCENE V. 
+            
+            LES MÊMES, DANIELS, une lettre à la main. 1, 5
+            
+            mm
+            
+            Madame, voici une lettre très pressée … On m'a dit de vous
+            
+            annoncer qu'il s'agit d'une affaire iinportante, 
+            
+            adorin, 
+            
+            DANIELS. 
+            
+, ANNA. 
+            
+            Messieurs, veuillez permettre que je prenne connais
+            
+            sance, . …
+            
+            LUSTRILL : 
+            
+            Je comprends, madame, j'ai le vernis du monde… Allons, 
+            
+            venez-vous, docteur ? 
+            
+            11
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Robin des Bois. </stage>
+            
+                    <l>Nous savons vivre ; adieu, madame, </l>
+                    <l>Avec regret nous vous quittons ; </l>
+                    <l>Une affaire ailleurs nous réclame, </l>
+                    <l>Bientôt ici nous reviendrons. </l>
+            
+                    MORTHONBE. 
+            
+                    <l>À mon dévoûment daignez croire ; </l>
+                    <l>Quand votre époux va revenir, </l>
+                    <l>Rappelez-lui bien mon mémoire. </l>
+            
+                    LUSTRILL, bas Anna. 
+            
+                    <l>Je me rappelle à votr' souvenir. </l>
+            
+                    Reprise. 
+            
+                    <l>Nous savons vivre ; adieu, madame. </l>
+                </lg>
+            </div>
+            
+            
+            SCENE VI. 
+            
+            ANNA, DANIELS. 
+            
+            ANNA, dècachetant la lettre. 
+            
+            C' est l'écriture de mon mari. (lisant.) « Ma chère amie, 
+            
+            « ne sois pas inquiète, je suis mort…. » Grand Dieu ! « J'ai été
+            
+            « attaqué du choléra, et de désespoir je me suis jeté à
+            
+            « l' eau. … Fais part de cette douloureuse nouvelle à mes amis
+            
+            « et connaissances, et surtout à nos créanciers. … Au reste, ina
+            
+            u mort memet à l'abri de leurs poursuites, et, à l'exemple de
+            
+            « celle de Téniers, fera doubler le prix de mes tableaux, ainsi
+            
+            « tu ne peux manquer d'acquitter les dettes du défunt… Ré
+            
+            « ponse de suite ; et par la même occasion, envoie-moi chez
+            
+            « l'ami Dickson, où nous buvons à ma mémoire, trois chemi
+            
+            « ses et un bonnet de coton. …
+            
+            « Pour la vie, feu ton époux, 
+            
+            « WILLIAMS. D. 
+            
+            Quelle lettre singulière ! …
+            
+            est-il devenu fou ? … Ah ! il y a
+            
+            un post-scriplum « Instructions à suivre, » 
+            
+            (Elle lil des yeux.)
+            
+            Est-il possible !. … si ça pouvait réussir ! … Quelle folie ! … ce
+            
+            pendant essayons, puisqu'il me nomme son exécuteur testa
+            inentaire, 
+            
+            DANIELS, de la fenêtre, 
+            
+            Madame, qu'est-ce que je vois là-bas ! … l'huissier Lavenett
+            qui descend de voiture avec deux homines de inauvaise mine ; 
+            
+            il entre seul chez nous. 
+            
+            ANNA. 
+            
+            ! ! 
+            
+            ! ! 
+            
+            Il vient sans doute pour s'emparer de Williams. Toi, Daniels, 
+            
+            reste là. 
+            
+            Qu'est-ce que je vais lui dire ? 
+            
+            : 
+            
+            "
+            
+            ib
+            
+            DANIELS. 
+            
+            12
+            
+            ANNA. 
+            
+            S'il t'interroge, réponds-lui par des pleurs… Quant à moi, 
+            
+            je vais me mettre en deuil. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Amis, voici la riante semaine. </stage>
+            
+            
+                    <l>Ces voiles noirs et ce funèbre emblème</l>
+                    <l>N'effacent pas les ris ni les amours ; </l>
+                    <l>Et nous savons, grace à notre système, </l>
+                    <l>Long-temps encor prolonger nos beaux jours. </l>
+                    <l>Lorsque l'on a le malheur d'être veuve, </l>
+                    <l>Vite l'on prend un modeste maintien ; </l>
+                    <l>Le deuil toujours est la dernière preuve</l>
+                    <l>De notre amour… et puis ça nous va bien. </l>
+                </lg>
+            </div>
+            
+            
+            Reçois-le ; je m' enferme dansma chambre, et j'en sortirai quand
+            il le faudra. 
+            
+            SCENE VII. 
+            
+            ANI ELS, puis LAVENETT. 
+            
+            Mon petit ami, votre maître est-il ici ? 
+            
+            LAVENETT. 
+            
+            Ah ! ah ! …. 
+            
+            DANIELS, pleurant. 
+            
+            LAVENETT. 
+            
+            Qu'est-ce que tu as donc ? est-ce qu'il t'aurait battu ? 
+            
+            Ah ! ah ! … 
+            
+            DANIỆLS, de même. 
+            
+            LAVENETT. 
+            
+            Est-ce ma présence qui te fait peur ? rassure-toi, je ne veux
+            faire de mal à personne : dis-moi seulement ou est ton mai
+            tre ? 
+            
+            Ah ! ah ! ah ! … 
+            
+            DANIELS. 
+            
+            Dis-moi qù est lamaîtresse ? 
+            
+            LAVENETT. 
+            
+            Ah ! ah ! ah ! … 
+            
+            DANIELS, 
+            
+            SCENE VIII. 
+            
+            " E
+            
+            LES MÊmes, ANNA en deuil. 
+            
+. 
+            
+            Je vous salue, mistriss. 
+            
+            LAVENETT. 
+            
+            •
+            
+'
+            
+            ANNA, pleurant. 
+            
+            Ah ! ah ! …
+            
+            LAVENETt, à part. 
+            
+            Ah ! çà, elle aussi… La charade se complique… Je crois
+            
+            avoir trouvé le mot. (haut.) Ne craignez rien, madame, c'est
+            avec tous les égards dus à un galant homme que je vais empoi. 
+            gner votre époux. On m'a dit qu'il était ici… Voici le jugement
+            obtenu contre lui, pour la somme de trois cents livres ster
+            
+            ling. Veuillez lui annoncer mon intéressante visite…'
+            
+            Ah ! ah ! …. 
+            
+            ANNA. 
+            
+            LAVENETT. 
+            
+            Madame, la douleur vous égare, je vais moi-inême l'inviter
+            
+            à me suivre. 
+            
+            Ablmonsieur, n'entrez pas… redoutez…
+            
+            LAVENETT. 
+            
+            ANNA. 
+            
+            Voudrait-il résister, employer la violence ? … 
+            
+            J'y suis fait, 
+            et ça ne m' épouvante pas. …
+            J'ai reçu dans ma vie six cents
+            soufflets, autant de coups de pieds dans le. … ventre, et cent
+            vingt-neuf coups de poings sur le nez, toujours avec le sourire. 
+            sur les lèvres. 
+            liams, au nom de la loi, sortez… 
+            
+            (allant à la porte de la chambre.) Monsieur Wil
+            
+            Mon mari vient d'expirer ! …
+            
+            ANNA. 
+            
+            Allons donc ! 
+            
+            Dans mes bras…
+            
+            LAVENETT. 
+            
+            ANNA. 
+            
+            LAVENETT. 
+            
+            Comment se fait-il ? La dernière fois que je l'ai vu, il y a six
+            
+            mois, il se portait parfaitement. 
+            
+            ANNA. 
+            
+            Vous me voyez dans les larmes. 
+            
+            LAVENETT. 
+            
+            En ce cas, je dois remplir mon devoir… je vais entrer. 
+            
+-Arrêtez ! 
+            
+            ANNA. 
+            
+, LAVENETT. 
+            
+            Non ! non ! … Il faut que je m'assure par moi-même. 
+            
+            Il estmort du choléra. 
+            
+            ANNA. 
+            
+            · Du choléra ? …. 
+            
+            · LAVenett, tremblant. 
+            
+            ANNA. 
+            
+-
+            
+            Morbus, monsieur… Eh bien ! entrezmaintenant si vous le
+            
+            voulez. 
+            
+            LAVENETT, trouble. 
+            
+            Je vous crois, madame ; ne m'approchez pas, je vous en
+            prie …. Vous ne m'avez pas touché en entrant, n'est-ce pas ? …
+            Où est donc mon chapeau ? 
+            
+            14
+            
+            DANIELS. 
+            
+            Tenez ! monsieur, le voici. 
+            
+            i
+            
+            LAVENETT. 
+            
+            Ne portez pas la main sur mes effets… (à part.) Allons pré
+            venir le docteur Morthombe pour qu'il dresse procès-verbal
+            sur-le-champ. (à Anna.) Il est inutile que vous me reconduisiez. 
+            
+            (Il sort à reculons.)
+            
+            SCENE IX. 
+            
+            ANNA, DANIELS. 
+            
+            ANNA, riant. 
+            
+            Ah ! quelle peur nous lui avons faite ! Allons, cela va bien
+            
+            jusqu'à présent…
+            
+            DANIELS. 
+            
+            Mais, madame, monsieur le docteur va venir… il n'aura
+            
+            peut-être pas autant de frayeur que lui…. 
+            
+            C'est vrai, 
+            
+            tu
+            
+            m'y
+            
+            ANNA. 
+            fais penser…
+            
+            Il voudra s'assurer par ses
+            
+            yeux … Comment faire ?. …
+            
+            C' est qu'ils vont arriver …. 
+            
+            SCENE X. 
+            
+            LES MÊMes, LUSTRILL. 
+            
+            LUSTRILL, passant la tête à la porte du fond. 
+            
+. 
+            
+            Est-il rentré monsieur Williams ? … 
+            
+            ANNA, 
+            
+            à part. 
+            
+            Lustrill ! nous sommes sauvés ! …
+            
+            DANIELS, à
+            
+            L'istrill. 
+            
+            Non, vous pouvez venir…
+            
+            LUSTRILL. 
+            
+            Je puis donc enfin vous parler seul ; (car je ne regarde pas
+            
+            ce mioche comme un témoin …) Je puis donc faire éclater tout
+            le désordre de mon ame… Mais pourquoi cet air de tristesse ? …
+            ces habits noirs ? … Je vois ce que c'est… Ah ! coquette, c'est
+            
+            pour rehausser la blancheur de votre teint. … Séduisant charla
+            
+            tanisine !. …
+            
+            ANNA. 
+            
+            Comment ! vous ne comprenez pas ? ce sont des habits de
+            
+            deuil. 
+            
+            Auriez-vous perdu quelques-uns de vos aïeux ? …. 
+            
+            LUSTRILL. 
+            
+            Ce bon Williams !, vous l'avez connu ? …
+            
+            ANNA, tristement. 
+            
+            LUSTRILL, étonné. 
+            
+. 
+            
+            Pourquoi ce discours ? 
+            
+            1 5
+            
+            ANNA. 
+            
+            Ce matin encore vous lui pressiez la main, 
+            
+            Eh bien ! …
+            
+            TRILL. 
+            
+            ANNA. 
+            
+            Je n'aurai jamais la force de vous dire ! …
+            
+            Parlez ! … 
+            Parlez ! …
+            
+. 
+            
+            Il n'est plus ! 
+            
+            LUSTRILL. 
+            
+            ANNA. 
+            
+            LUSTRILL. 
+            
+            Quel bonheur ! …' (se reprenant.) Quel malheur !. … Com
+            si peu de temps… Mortels que nous
+            
+            ment se fait-il… en
+            sommes ! …
+            
+            Il était chez un de ses amis à boire du punch, 
+            
+            ; 
+            
+.,
+            
+            ANNA. 
+            
+            Le malheureux ! …
+            
+            LUSTRILL. 
+            
+. ANNA. 
+            
+            Tout à coup un mal affreux ! … le choléra le saisit. 
+            
+            Que m'apprenez-vous là ? 
+            
+            ANNA. 
+            
+            LUSTRILL. 
+            
+            Le désespoir dans l'ame, il in'écrit cette lettre et ya se jeter
+            
+            dans la rivière. 
+            
+            LUSTRILL
+            
+            Etmoi qui viens de manger une carpe frite ! 
+            
+            ANNA. 
+            
+            Je n'ai plus de soutien, je n'ai plus d'ami ! 
+            
+            LUSTRIL, avec orgueil. 
+            
+            Et ne suis-je pas là, moi ? 
+            
+            C' est vrai ; vous seul, monsieur Lustril. 
+            
+            ANNA. 
+            
+            LUSTRILL. 
+            
+            Parlez, dites un mot, et je dépose mon coeur, ma fortune, 
+            
+            ma inain et mon cirage à vos pieds. 
+            
+            · ANNA. 
+            
+            C' est votre amitié que je demande.'.'. 
+            
+            LUSTRILL. 
+            
+            Mon amitié ! je croyais avoir autre chose à vous offrir. … En
+            
+            vain vous résistez ; je veux être votre projecteur. 
+            
+            Y pensez-vous ? si promptement ? mais les convenances, le
+            
+            ANNA, 
+            
+            monde, la société…
+            
+            ·
+            
+            LUSTRILE. 
+            
+            Je n'écoute que la voix de la nature. 
+            
+. 
+            
+            Si j'étais sûre que cet amour fût sincère. 
+            
+. 
+            
+. 
+            
+'
+            
+, 
+            
+            ANNA. 
+            
+            LUSTRILL. 
+            
+            En doutez-vous ? qu'elles preuves faut-il vous en donner ? 
+            A quels périls faut-il courir ? Faut-il signer de mon sang la pro
+            messe de vous adorer à jamais ? … Parlez, mon existence est
+            entre vos mains. 
+            
+            Je la prends. 
+            
+            ANNA, vivement. 
+            
+            Hein !. … Pas de bêtises ; je ne comprends pas.,
+            
+            LUSTRILL, étonné. 
+            
+            in
+            
+. 
+            
+            ANNA. 
+            
+            Ecoutez-moi : le docteur Morthombe doit venir à l'instant
+            à qui j'ai fait accroire que
+            j'ai voulu épar
+            
+            même, envoyé par sir Lavenett, 
+            mon mari était inort ici, dans mes bras ; 
+            gner à sa mémoire la honte d'un suicide. 
+            
+            Que puis-je faire en cette occurence ? 
+            
+            LUSTRILL. 
+            
+            Remplacer mon époux. 
+            
+            ΑΝΝΑ. 
+            
+            LUSTRILL. 
+            
+            Eh ! je ne demande pas mieux. 
+            ANNA. 
+            
+            Faites le mort à sa place. 
+            
+. 
+            
+            i
+            
+            LUSTRILL. 
+            
+            it
+            
+'
+            
+            Comment ? vous voulez, madame… on ne doit pas plaisanter
+            
+            avec ces choses-là … ça peut-être dangereux. 
+            
+            ANNA. 
+            
+            Cependant, tout à l'heure, vous juriez de mourir pour inoi. 
+            
+            Ce n'est pas une raison ; c'est un mot qui se dit. i "
+            
+. 
+            
+            LUSTRILL. 
+            
+            ANNA. i
+            
+            bi
+            
+            nocoust
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : du premier prix. </stage>
+            
+            
+                    <l>C'est une preuve de tendresse ! </l>
+                    <l>Que je veux obtenir de vous. </l>
+            
+                    LUSTRILL. 
+            
+                    <l>Ah ! quelle voix enchanteresse ! </l>
+                    <l>Je cède à des accens si doux. </l>
+            
+                    ANNA. 
+            
+                    <l>Minuit sonné, seule en silence ! </l>
+                    <l>Je viens, fidèle à mon serment, </l>
+                    <l>Rendre le mort à l'espérance. </l>
+            
+                    LUSTRILL. 
+            
+                    <l>Vous le trouverez bon vivant. </l>
+                </lg>
+            </div>
+            
+            
+            ANNA. 
+            
+            Voyez cependant ; je voulais mettre à la place un mannequin, 
+            
+            et je vous ai préféré. 
+            
+            Quelle aimable attention ! … Elle m'aime, cette femme, elle
+            
+            LUSTRILL, à part. 
+            
+            m'aime. 
+            
+            ANNA. 
+            
+            Nous n'avons pas un instant à perdre. Daniels, donne le
+            
+            bonnet de coton, la robe de chambre et les pantoufles de mon
+            
+            mari. 
+            
+            LUSIRILL, ôtant ses bottes. 
+            
+            Voilà de la bouffonnerie… quel rôle ou me fait jouer ! si je
+            (s'habillant.) Si vous
+            
+            faute, amour. 
+            
+            suis
+            
+            ridicule
+            
+            c'est ta
+            
+            aviez pu me prévenir ce matin, j'aurais fait ma barbe… une
+            idée…. Mais je ne lui ressemble pas, à votre mari. 
+            
+            DANIELS. 
+            
+            Dites donc, madame, j'y songe, avec quelques coups de
+            pinceau sur sa figure, ça fera la charge demonsieur Williams. 
+            
+            · Pas de mauvaise charge. 
+            
+            LUSTILL. 
+            
+            ANNA. 
+            
+            Si fait, si fait ; avec un peu de blanc. … Il faut vous donner
+            
+            la pâleur convenable. 
+            
+            Daniels, lui peignant la figure. 
+            
+            C'est l'affaire d'un moment. 
+            
+            Ne me faites pas trop laid … O ma fraîcheur, comme on
+            
+            LUSTRILL. 
+            
+. 
+            
+, 
+            
+'
+            
+            ; 
+            
+            l'arrange ! 
+            
+            ANNA. 
+            
+            J'entends du bruit … votre rôle commence. 
+            
+… 
+            
+, 
+            
+            Je vais faire le mort de mon mieux ; si je suis gauche, ayez
+            
+            de l'indulgence pour un homme qui n' en a pas l'habitude. 
+            
+            LUSTRILL. 
+            
+            Couchez-vous sur ce lit de modèle ; pas un mot, pas un
+            est à ce prix … Da
+            
+            geste, jusqu'à l'heure convenue ; ma inain
+            
+            ANNA
+            
+            niels, couvre-le de ce tapis. 
+            
+            LUSTRILL, sous le tapis. 
+            
+            J'étouffe là-dessous. 
+            
+            Tâchez de ne pas respirer. 
+            
+            DANIELS. 
+            
+            SCENE XI. 
+            
+, 
+            
+            LES NÊMES, MORTHOMBE. 
+            
+            Eh quoi ! madame, ce que sir Lavenett vient de in'ap
+            
+            MORTHOMBE. 
+            
+            prendre serait-il vrai ? … Ce pauvre Williams ! …
+            
+            Le Mori sous le scellé. 
+            
+. 
+            
+            DANIELS. 
+            
+            : 
+            
+            o
+            
+, 
+            
+            Il est là, monsieur. 
+            
+. 
+            
+. 
+            
+. 
+            
+' MORTHOMBÉ… 
+            
+.,
+            
+' ? ;. 
+            
+            Mort du choléra, dites-vous ? (à part.) Bien, très bien ; ma
+            fortune commence. (haut.) Eh bien ! madame, ce matin il y
+            avait dans ses traits tous les symptômes de la dissolulion ; la
+            véritable figure hippocratique. " Voyons, Daniels, levez ce ta
+            pis, que je constale …. 
+            
+… 
+            
+… 
+            ANNA, à part. 21
+            
+            Ah ! mon Dieu ! il va tout découvrir''
+            
+            one
+            
+            1. 1 MORTHONBE, examinant Lustrill. 
+            
+. 
+            
+            ii
+            
+            Comme cette maladie défigure ;'je ne le reconnais plus, il
+            
+            est hideux ! 
+            
+            oder
+            
+… ! ! 
+            
+            On t'en ferå des inorts comme ca. 
+            
+. 
+            
+, 
+            
+… p ? title
+            
+'
+            
+. 
+            
+. 
+            
+. 
+            
+            ANNA, à part. 
+            
+            ; 
+            
+            sit. 
+            
+. 
+            
+            o
+            
+'
+            
+            5
+            
+            LUSTRILL, 
+            
+            part. 
+            
+            Encore un de trompé. 
+            
+            ut
+            
+            i
+            
+            MORTHOMBE, à part. 
+            
+            fin. Jis "
+            
+            Ma réputation devient européenne si elle
+            
+            y, consent. 
+            Anna.) Vous aimiez donc bien votre inari ? ; Pisasi
+            
+            (à
+            
+            C' était mon devoir. 
+            
+] 1. 
+            
+            ANNA. 
+… 15
+            
+            usd, 
+            
+            jas
+            
+. 
+            
+            MURTHOMBE.'
+            
+'
+            
+            Je l'ai toujours fort estimé ; mais avec tout cela voilà ma
+            créance perdue ; mon mémoire n'est pas acquitté, il n' y aurait
+            qu'un moyen. (à part.) Abordons la question. 
+            
+            s
+            
+            e
+            
+            Où en veut-il venir ? 
+            
+            ANNA, 
+            
+            à part. 
+            
+. 
+            
+… 
+            
+            i', ini
+            
+, 
+            
+            MORTAOMBE. 
+            
+            Madaine, l'humanité, la civilisation, l' intérêt général ; bref, 
+            tout vous fait un devoir d'accueillir ma propoşilion, iais
+            
+            ΑΝΝΑ. 
+            
+            Quelle est donc cette proposition ? 
+            
+            LUSTRILL, 
+            
+            à parti
+            
+            ! "
+            
+-
+            
+            Je crois qu'il lui conte fleurette. 
+            
+            MORTHOMBE… 
+            
+. 
+            
+            osios. 
+            
+. …
+            
+            Le défunt est mort cholérique, il serait bon de rechercher les
+            causes de cette maladie pour en mieux combattre les terribles
+            effets. Vous connaissez la
+            difficulté que nous éprouvons en
+            Angleterre pour nous procurer des sujets ; vous pourriez, sans
+            marquer à
+            la mémoire de votre époux, et pour acquitter sa
+            créance, l'abandonner à la science chirurgicale ? 
+            
+            LUSTRILL, à part. 
+            
+            ·
+            
+            Il est sans gêne, ce monsieur ; il veut tailler dans le vif. 
+            
+. 
+            
+            J'ai envie de rire … vendre ce pauvre garçon ! 
+            
+            MORTHOMBE. 
+            
+            ANNA, à part. 
+            
+            Je pourrai mêmevous offrir en sustrente ou quarante guinées. 
+            
+            19
+            
+            ANNA, å parl. 
+            
+            Je ne sais si je dois …
+            
+            · LUSTRILE, d roix basse. 
+            
+. 
+            
+. 
+            
+. 
+            
+. 
+            
+            Je ne veux pas être vendu. 
+            
+… 
+            
+            (Anna lui fait signe de se tenir tranquille.), 
+            
+            MORTAOMBE. 
+            
+            Allons, allons, l'affaire est faite : voici des banks-nots ; pour
+            ménager votre douleur, je le ferai transporter cette nuit chez
+            moi. 
+            
+            LUSTRILL, à part. 
+            
+            Comptes-y, nous nous boxerons plutôt.,
+            
+            ; 
+            
+. 
+            
+            Hitri
+            
+            DANIELS. 
+            
+            Voici monsieur Lavenell. 
+            
+. 
+            
+. 1
+            
+            : 
+            
+. 
+            
+. 
+            
+            MORTHOMBE. 
+            
+            Remettons sur le défunt ce tapis, ce poltron d'huissier n'ose
+            
+            rait pas entrer.', 
+            
+            Tree'
+            
+            SCENE XII… 
+            
+, tin
+            
+, 
+            
+… 
+            
+            LES MÊMES, LAVENETT, suivi de DEUX RECORS. 
+            
+-
+            
+            LAVENETT, sur le seuil de la porte. 
+            
+            Docteur, vous m'assurez bien qu'il n'y a pas de danger ? 
+            
+            : 
+            
+            NORTHOMBE. ; 
+            
+            ;,'11 !) .
+            
+-
+            
+            Entrez sans crainte, je prends tout sur moi. 
+            
+            i
+            
+            ! 
+            
+            LAVENETT. 
+            
+. 
+            
+. 
+            
+            "
+            
+            En ce cas, instrumentons. 
+            
+            Qu'allez-vous faire ? 
+            
+            ANNA, 
+            
+            LAVENETT. 
+            
+. 
+            
+            Au nom de la loi, je m' einpare de la personne de monsicur
+            
+            Williams mort ou vif. 
+            
+            ANNA. 
+            
+            Comment, vous oseriez ! …
+            
+. 
+            
+.,'
+            
+            resh ! 
+            
+            A
+            
+            iii. … : :. LAVENETT. 
+            
+… 
+            
+            ! ! 
+            
+            ! Tillash
+            
+            Cela se fait tous les jours en Angleterre ;, un de mes con
+            
+            frères a bien saisi le corps du célèbre Sheridan … Qu' il paie, ce
+            
+            qu'il doit, s'il veut qu'on lui rende les derniers devoirs. 
+            
+            LANNA… 
+            
+            Mais vous voyez bien que je suis une pauvre veure, sansres
+            
+            source. 
+            
+            LAYENETT. 
+            
+            Il a sans doute des parens qui ne souffriront pas cet outrage
+            sa cendre. 
+            
+            à
+            
+            Ś
+            
+            …
+            
+            ANNA'
+            
+', ; *
+            
+            13011-20
+            
+            Il y a long-temps qu'ils ne veulent plus'vien faire pour lui. 
+            
+            20
+            
+            LAVENETt. 
+            
+            Bah ! bah ! ils y viendront. En attendant, je le saisis au nom
+            
+            de ses créanciers, et je le garde à vue jusqu'à nouvel ordre. Me
+            
+            voilà installé ; or sus, verbalisons. 
+            
+            (Il s'assied à une table.)
+            
+            MORTBOMBE, sur le devant de la scène, et bas à Anna. 
+            
+            Ah ! çà, mais ceci ne fait pas mon comple, ce sujet m'appar
+            tient, vous me l'avez vendu ; je dois l'envoyer chercher cette
+            
+            nuit. … cominent faire ? cet homine quile garde…
+            
+            Si on pouvait l'éloigner ? 
+            
+            MORTHOMBE. 
+            
+            ANNA, bas. 
+            
+            Je ne vois pas le moyen. 
+            
+            ANNA. 
+            
+            Il est poltron … si on pouvait l'effrayer ? 
+            
+            MORTHONBE. 
+            
+            Vous me donnez une idée … Quand nous étudions en mé
+            
+            decine, nous faisions des tours. … tenez… laissez seulement la
+            
+            porte d' entrée ouverte cette nuit, je me charge du reste. 
+            
+            LAVENETT, aux deux recors. 
+            
+            Vous pouvez vous retirer, mais ne manquez pas de revenir
+            
+            demain inatin. 
+            
+            MORTHOMBE, se disposant à sortir. 
+            
+            Allons, je vous souhaite une bonne nuit, monsieur Lavenett ; 
+            
+            surtout pas de mauvais rêve. 
+            
+            LAVENETT
+            
+            Bonsoir, monsieurMorthombe… ab ! çà, je me fie à vous, je
+            (Morthombe sort arec les deux recors.)
+            
+            n'ai rien à craindre ? 
+            
+            SCENE XIII. 
+            
+            LES MÊMES, excepte MOR THOMBE et LES RBCORS. 
+            
+            LAVENETT. 
+            
+            Ah ! dans ma préoccupation j'oubliais l'essentiel, l'apposition
+            
+            des scellés, j'ai la cire et le sceau sur moi…. Qu'est-ce qui vous
+            fait rire, monsieur Daniels ? Allons, petit drôle, donne-moi
+            
+            du papier pour que je fasse unebandelette. 
+            
+. 
+            
+            …
+            
+            LUSTRILL, à part. 
+            
+            C'est attenter à ma liberté individuelle, à l'habeas corpus. 
+            
+            ANNA, s'approchant de lui pendant que Lavenett découpe un
+            
+            Laissez faire, et songez qu'à minuit…
+            
+            LAVENETT. 
+            
+            papier. 
+            
+            Ou allons-nous apposer le cachet ? …. Daniels, tiens la chan
+            
+            delle …. Si je l'appliquais sur l'ail gauche … Approche ici, Da
+            
+            niels, que j'allume la cire. 
+            
+            21
+            
+            LUSTRILL, d part. 
+            Il va m'en cuire. … c'est par trop fort. 
+            
+            LAVENETT. 
+            
+            Mais non, je pourrais l'endommager, et il appartient à ses
+            
+            créanciers ; employons la cire blanche. (Il lui colle sur le front
+            
+            un bout de la bandelette de papier qui tient par l'autre bout au lit
+            
+            de modele.) Par ce moyen le voilà en sûreté, car la
+            
+            loi fait
+            
+            pendre quiconque brise les scellés. 
+            
+            Vraiment, j'ai pitié de ce pauvre homme. 
+            
+            ANNA, à part. 
+            
+            Me voilà cacheté comme une lettre à la poste. 
+            
+            LUSTRILL, à part. 
+            
+            LAVENETT. 
+            
+            Madame, vous devez me traiter comme un garnisaire ; en
+            conséquence, vous allez avoir la bonté de me faire servir à sou
+            
+            per. 
+            
+            Je ne suis pas difficile, donnez-moi la moindre chose …
+            
+            úne tranche de rosbif, du pouding, du pâté, de la
+            
+            volaille, du
+            
+            fromage, des pruneaux. 
+            
+            ANNA. 
+            
+            Daniels, sers à monsieur ce qu'il y a dans le garde-manger. 
+            (à part.) Je ne sais pas trop comment finira cette folie …. ar
+            rive qui pourra. … à tout hasard, courons porter à mon mari les
+            et souper gaîment avec lui chez notre
+            guinées du médecin, 
+            
+            amiDikson. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR des Rendez-vous. </stage>
+            
+            
+                    <l>Un moment de gêne, </l>
+                    <l>Un moment de peine, </l>
+                    <l>Nous fait mieux sentir</l>
+                    <l>L'instant du plaisir. </l>
+            
+                   (bas à Lustrill.)
+            
+                    <l>En amant bien tendre, </l>
+                    <l>Sans vous affliger, </l>
+                    <l>Il vous faut attendre</l>
+                    <l>L'heure du berger. </l>
+            
+                    LUSTRIL, à part. 
+            
+                    <l>Ma couche n'est pas trop tendre ; </l>
+                    <l>Mais pour ce soir contraignons-nous. </l>
+                    <l>Oui, pour l'amour tout semble doux. </l>
+            
+            
+                    <stage type="repetition"> (Reprise.)</stage>
+            
+            
+                    ANKA, LUSTRILL, LAYENETT, assis à la table servie. 
+            
+                    <l>Moi, je suis sans gêne, </l>
+                    <l>Et je vais, sans peine, </l>
+                    <l>Boire et bien manger</l>
+                    <l>Sans me déranger. </l>
+            
+                    22
+            
+                    <l>Ce poulet bien tendre, </l>
+                    <l>Ce rosbif léger</l>
+                    <l>Me feront attendre</l>
+                    <l>L'heur' de déloger. </l>
+                </lg>
+            </div>
+            
+            
+            (Anna s' esquive avec Daniels, qui a préparé pendant l'ensemble te
+            
+            souper de Lavenett ; la table est placée près du lit de Lustrill.)
+            
+            SCENE XIV. 
+            
+. 
+            
+            LAVENETT, LUSTRILL. 
+            
+            LUSTRILL, d part. 
+            
+            Il paraît qu'il va faire faction auprès de moi ; beureusement
+            
+            qu'à minuit l'amour viendra le relever. 
+            
+            deref :. 
+            
+            …
+            
+. 
+            
+. :. 
+            
+. 
+            
+            * *
+            
+            LAVENETT. 
+            
+            Voyons ce qu'ils m'ont donné à manger… pas mauvais ; ils
+            Il faut que je dise deux inots à
+            
+            ont assez bien fait les choses. 
+            
+            ce pâlé … Dieu ! quel silence, et quel affreux tête-à-tête ! … bu
+            vons un coup de porter, ça ne ragaillardira … Quel chien de
+            métier que le mien ! … 
+            
+            J'ai un appétit d'enfer. 
+            
+            LUSTRILL. 
+            
+            LAVENETT. 
+            
+            Quel vilain
+            
+            convive j'ai là ! on dirait qu'il me fait la gri
+            
+            mace. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Léocadie. </stage>
+            
+                    <l>Ah ! j'ai besoin de ma philosophie</l>
+                    <l>Pour regarder cet homme sans frémir. </l>
+                    <l>Naguère encore il était plein de vie ; </l>
+                    <l>Il était gai, jeune, plein d'avenir : </l>
+                    <l>Cela pensait, avait de la mémoire, </l>
+                    <l>Cela pouvait priser, fumer et boire ; </l>
+                    <l>Il est déjà froid, laid, défiguré : </l>
+                    <l>Voilà pourtant comme je serai. <stage type="repetition"> (bis.)</stage></l>
+            
+                </lg>
+            </div>
+            
+            LUSTRILL, à part. 
+            
+            "
+            
+            Toujours la même position ! que c'est gênant !. … je commence
+            
+            à
+            
+            in'ennuyer d'être ainsi…. Quelle existence monotone que
+            
+            celle d'un mort ! 
+            
+            ; 
+            
+. 
+            
+            ! 
+            
+            LAVENETT. I… 
+            
+            J'ai des idées noires…. je voudrais pouvoir m'endormir… Si
+            
+            j'avais quelques livres… voyons dans cette bibliothèque… je
+            
+            voudrais nourrir mon esprit de quelque lecture solide. 
+            
+            soli. 
+            
+            (Il se lève.)
+            
+            LUSTRILL, à part., lä
+            
+            Dieu que j'ai faim ! j'ai des crampes d'estomac … je ne suis
+            
+            ! ! " Ubonne foi
+            
+            23
+            
+            pas dans mon assiette ordinaire … Si je pouvais lui chiper
+            une aile de yolaille …. pas moven …. le voilà. 
+            
+            : 
+            
+. 
+            
+. : 
+            
+            LAVENETT, avec des livres. 
+            
+            : 
+            
+            :. « Manuel du peintre », je n'y entends rien ; « l'Art de payer
+            
+            ses dettes », les pages ne sont pas encore coupées ; « le Moine, 
+            
+            por Lewis o ; ah ! ah ! ça doit être aniusant. (It s'assied, tire se
+            
+            tabatière, la pose sur la table etmet ses besicles.) «. … Cependant, 
+            
+            « Alonzo et son amante se rendent dans la grotte du vieillard.)
+            
+            (Lustrill allonge le bras
+            
+            et lui dérobe'une prise de tabac.)
+            
+            « Là, 
+            
+            ils jurent d'être
+            
+            fidèles
+            
+            l'un à
+            
+            l'autre, 
+            
+            ils
+            
+            s'age
+            
+            « nouillent, le vénérable ermite étend les mains sur ce couple
+            
+            « fortune, en leur disant : soyez heureux et que Dieu vous bé
+            
+            « nisse. …) 
+            
+            (Lustrill éternue.) Qui vive ?. … qu' est-ce que
+            
+            c'est ? …. que je suis bête ! je demande qui vive à un mort…. c' est
+            
+            sans doute le vent qui siffle. 
+            
+            LUSTRILL, à part. 
+            
+            Ila, ma foi, du bon tabac dans sa tabatière. 
+            iii. 
+            
+            LAVENETT,'
+            
+… 
+            
+            C','D
+            
+… 
+            
+            "
+            
+            po' s ! 
+            
+            Relisons…. « Minuit sonnait à la chapelle de St-Julien, le fos
+            
+            « soyeur, assis tristement et pensif, appuyé sur sa bêche et la
+            
+            « tête penchée sur sa poitrine ; regardait le ciel ;'son ombre se
+            
+            a projetait sur le vieux donjon de la tourelle ; on n'entendait
+            
+            « que les cris de l'orfraie, c'était l'heure solennelle ou la victime
+            « se débat dans le tombeau, 
+            
+            SIA
+            
+            : 
+            
+            : LUSTRILL, à part. 
+            
+            : 
+            
+… ! ! 
+            
+            Est-ce qu'il va long-temps m' embêter comme ça ? 
+            
+            LAVENETt, s'assoupissant. 
+            
+            « Soudain une voix sépulcrale tinte dans lesairs… Alonzo ! 
+            
+            « Alonzo ! Alonzo ! » (murmurant.) Alonzo ! 
+            
+. 
+            
+. 
+            
+            Allons au pâté, si c'est possible. 
+            
+            LUSTRILL, à part. 
+            
+            i
+            
+. 
+            
+            avec coracité, puis il dérore une aile de poulet.)
+            
+            J'étouffe, buvons un coup. 
+            
+            LAVENETT, murmurant dans son sommeil… 
+            
+            Alonzo ! … Alonzo ! 
+            
+            ! 
+            
+            ! 
+            
+            (Lustrill veutremettre ta bouteille sur la table, elle tombe par terre.)
+            
+            Ah ! ah ! ah ! qui va là ? qu'est-ce que c'est que ça ? Ahl ce
+            
+            rien, il n'y
+            
+            a personne ; j'avais le cauchemar, 
+            
+            n'est
+            j'ai
+            rêvé qu'Alonzo m'étranglait… Ah ! … cette bouteille, je l'aurai
+            renversée en me débattantcontre Alonzo …. Eh bien ! où est donc
+            inon pâté ? et mon aile de poulet, se serait-elle envolée ? Il y a
+            des farfadets ici. (Ilmouche la chandelle en tremblant, il regarde
+            
+            avec inquiétude autour de lui, ses yeux s'arrêtent sur la figure de
+            Listrill qui a encore la bouche pleine.)
+            
+            24
+            
+            Qu'est-ce que je vois mon mort enfle à vue d' oeil. … il a unc
+            
+            fluxion … comme il me regarde ! (Il recule sur sa chaise par de
+            
+            grés.) Sic'était un vampire ? je ne suis pasà mon aise, ilme prend
+            
+            des sueurs froides. … voilà qu'il remue la mâchoire. … Ab ! ah ! 
+            
+            mon affaire est faite… je suis perdu… allons… allons, c'est une
+            vision, 
+            c'est un jeu fantastique de mon imagination roma
+            
+            nesque et de mes besicles ; poltron ! lâche, homme pusilla
+            
+            nime, de quoi as-tu peur ? mais regarde donc, gredin que tu
+            
+            es, 
+            
+            il est bien mort. (Il s'approche de Lustrill, 
+            
+            et promène la
+            
+            chandelle sur sa figure de très près. Lustrill, 
+            souffle.)
+            
+            se sentant brûler, la
+            
+            Ma chandelle est morte ! 
+            
+. 
+            
+. 
+            
+            Il n'a plus de feu. 
+            
+            LUSTRILL, ù part. 
+            
+            MORTAOMBE, dans la coulisse, d'une voix sépulcrale. 
+            
+            Ouvrez-moi la porte. 
+            
+            LAVENETT. 
+            
+            Pour l'amour de Dieu ! Quels sont ces affreux gémissemens ? 
+            
+            Je vais tomber en syncope, je ne peux plus me soutenir. 
+            
+            LUSTRILL, effrayé. 
+            
+            Mes jambes se dérobent sous moi (Bruit de chaines.)
+            
+            LAVENÉtt. 
+            
+            C'est quelque envoyé de Lucifer. 
+            
+            LUSTRILL, 
+            
+            à part. 
+            
+            Je voudrais être à cent pieds sous terre. 
+            
+            SCENE XV.'
+            
+            (La porte s'ouvre ; Morthombe parait sur le seuil, une lanterne
+            
+            sourde à la main ; il a des cornes et une queue.)
+            
+            Lavenett. 
+            C'est le diable ! … Sauve qui peut. 
+            
+            (Il se blottit dans la cheminée.)
+            
+            LUSTRILL. 
+            
+            Grand Dieu ! ne in' abandonnez pas. 
+            
+. 
+            
+.'
+            
+            MORTHOMBE, 
+            
+            à part. 
+            
+            (Il descend gravement sur le devant de la scène.)
+            
+            J'ai réussi à l'éloigner ; mon costume a produit son effet. Ma
+            femme a eu l'heureuse idée deme faire une queue et de m' im
+            proviser une paire de cornes…. Je suis seul, dépêchons-nous. 
+            
+            (Il s'approche de Lustrill.)
+            
+            LUSTHILL, à part. 
+            
+            Mon sang se fige. Je ne puis pas crier ; le ciel veut me punir. 
+            
+            Ah ! ab ! on a mis les scellés. 
+            
+            VORTAOMBE. 
+            MORTAOMBS. 
+            
+            i
+            
+. 
+            
+            25
+            
+            LUSTRILL, à part. 
+            
+            Il paraît que le diable a peur d'être pendu. 
+            
+            Je n'ose les briser. 
+            
+            MORTAOMBE. 
+            
+            LUSTRILL. 
+            
+            Ah ! je respire un peu.'
+            
+            MORTAOMBE. 
+            
+            C'est égal… opérons à l'instant… Tironsma trousse. 
+            
+            (Il tire de sa trousse plusieurs instrumers de chirurgie) .
+            
+            C'en
+            
+            est fait, j'ai le diable à mes trousses. 
+            
+            LUSTRILL. 
+            
+            MORTHOMBE. 
+            
+            Par où commencerai-je ? J'y pense, il me suffira de faire une
+            petite ouverture … Je vais lui fendre l'estomac, en retirer les
+            
+            pouinons et disséquer son foie, sauf après à lui recoudre le
+            
+            ventre très proprement. 
+            
+            LUSTRILL, criant. 
+            
+            A la gardel on m'assassine ! 
+            
+            (Le docteur recule épouvanté et jette un cri ; 
+            
+            Lustrill assis sur
+            
+            son séant en position de boxeur, lui allonge un coup de poing.). 
+            
+            MORTHOMBE. 
+            
+            Au secours ! qu'est-ce que c'est que ça. … il n'y va pas de
+            
+            main-morte, 
+            
+            Monsieur le diable, je vous en supplie, ne m'emportez pas. 
+            
+            LUSTEILL, à genoux. 
+            
+            Monsieur le mort, je vous demande pardon de la
+            
+            liberté
+            
+            MORTHONBE, aussi vigenoux. 
+            
+            que je prenais. 
+            
+            LUSTRILL, à part. 
+            
+            Tiens ! Lucifer connaît la civilité. 
+            
+            MORTHOMBE. 
+            
+            Mais cette voix ne m'est pas inconnue, et cependant ce n' est
+            pas celle de Williams. Monsieur, entre-nous, seriez-vous encore
+            
+            de ce monde ? 
+            
+            LUSTRILL. 
+            
+            Et vous ? est-ce que par hasard vous ne reviendriez pas de
+            
+            l'autre ? 
+            
+            Je n'en reviens paz ! mais c'est monsieur Lustrill ! 
+            
+            MORTHOMBE. 
+            
+            Moi-même, parole d'honneur ! Et vous, Satan ? 
+            
+            Je ne suis que le docteur Morthombe. 
+            
+            LUSTRILL. 
+            
+            · MORTHOMBE. 
+            
+            Je commence à
+            
+            respirer. … Mais ces cornes, cette queue…. 
+            
+            Et ces habits, cette pâleur ? 
+            
+. MORTHOMBE. 
+            
+            Le Mort sous le scellé. 
+            
+            Oh ! oh ! oh ! J'étouffe, là-haut…, 
+            
+            LaVexett, dans la cheminée, 
+            
+            LUSTRILL, épouvantė. 
+            
+            Dites-moi, docteur, d' ou partent ces cris épouvantables ? 
+            
+            Ça sort de là ; allez donc voir. 
+            
+            MORTHOMBE. 
+            
+            LUSTRILL. 
+            
+            Non ; allez-y, vous. 
+            
+            LAVENETT, sortant de la cheminée, la figure noire de'suie. 
+            
+            Ah ! ouf… Hou ! … hou …
+            
+            C'est un loup-garou… 
+            
+            LUSTRILL. 
+            
+            LAVENETT. 
+            
+            Eh ! von, non, mes amis ; j' étais là, j'ai tout'entendu … re
+            
+            connaissez-moi. 
+            
+            Eh ! c' est monsieur Lavenett ! 
+            
+            LUSTRILL. 
+            
+            tous. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Quelle singulière aventure. </stage>
+            
+            
+                    <l>Qu'ai-je vu là ? … surprise extrême ! </l>
+                    <l>Je suis vraiment tout interdit. </l>
+                    <l>C'est Lavenett ! oui, c'est lui<del hand="TK" type="alternative" reason="analysis">moi</del>-même. </l>
+                    <l>Je le prenais pour un esprit. </l>
+                    <l>Et je ne suis point un esprit. </l>
+                </lg>
+            </div>
+            
+            
+            LAVENETT. 
+            
+            Ah ! mes amis, ce ne peut être qu' une mystification. 
+            
+            Dont tous les trois nous avons été dupes. 
+            
+            LUSTRILL. 
+            
+            MORTHOMBE. 
+            
+            C'est unemauvaise plaisanterie ; jeme sens encore la colique. 
+            
+            J'ai failli avoir un coup de sang. 
+            
+            MORTHONBE. 
+            
+            LAVEneir, cherchant à rire. 
+            
+            Il faut avouer que vous êtes de fameux poltrons. 
+            
+            LUSTRILL. 
+            
+            J'ai bien besoin de reprendre des forces. 
+            
+            LAVENETT. 
+            
+            Je puis vous offrir les débris demon souper. 
+            
+            J'y tope. Allons, à table, le diable, le mort et l'huissier ; et
+            
+            MORTHOMBE. 
+            
+            désormais plus de frayeur. 
+            
+            LA VENETT. 
+            
+            Quel est ce bruit ? Je crois reconnaître cette voix. 
+            
+            LUSTRILL. 
+            
+            Ab ! mon Dieu, c'est celle du véritable défunt ! 
+            
+            (On entend rire derrière la cou lisse.). 
+            
+            2 7
+            
+            SCENE XVI, 
+            
+            LES MÊMES, ANNA, WILLIAMS, DANIELS, 
+            
+            les rires contia
+            
+            nuent ; les trois convives. se regardent avec consternation. 
+            
+            WILLIAMS, grossissant » sa pois. 
+            
+            Bon appétit, messieurs ; ne vous dérangez pas. 
+            
+            TOUS TROIS, se levant précipitamment de table. 
+            
+            Grace, monsieur le défunt ? 
+            
+            WILLIAMS. 
+            
+. 
+            
+            : 
+            
+. 
+            
+            Russurez-vous, mes amis, je suis rendu à la vie, et pour le
+            
+            prouver je viens payer mes créanciers. 
+            
+            LAVENETT, commençant à revenir de sa frayeur. 
+            
+            Tout ceci n'était donc qu'une ruse ? 
+            
+            WILLIAMS. 
+            
+            Qui m'a parfaitement réussi. Dickson a trouvé un amateur
+            de tableaux qui, à la nouvelle de ma mort, a acheté tout mon
+            cabinet quatre cents guinées. Monsieur Lavenett, voici d'abord
+            pour mes créanciers ; tenez, approchez. Oh ! n'ayez plus peur, 
+            c'est de la réalité. Docteur, voici vos vingt-cinq guinées. Quant
+            à vous, monsieur Lustrill, je vous fais cadeau de cette en
+            
+            seigne. 
+            
+            LOSTRILL. 
+            
+            Allons ! mes amis, que tout cela ne s'ébruite pas, 
+            
+            et que
+            
+            ça reste mort entre nous. 
+            
+          
+            
+            WORTHOMBR. 
+            
+. 
+            
+            <div type="poem">
+                <lg>
+            
+            VAUDEVILLE. 
+            
+                    <stage type="tune">AIR : C'est l'amour. </stage>
+            
+            
+                    <l>C'est la peur <stage type="repetition"> (bis.)</stage></l>
+                    <l>Dont s'moqu' le monde</l>
+                    <l>À la ronde. </l>
+                    <l>On s'vante d'avoir du cœur, </l>
+                    <l>Et dans l'fond' on a peur. </l>
+                    <l>Qu'éprouv' l'auteur d'la pièc' qu'on donne, </l>
+                    <l>L'jeune avocat d'vant l'tribunal ? </l>
+                    <l>Et quand tout à coup minuit sonne, </l>
+                    <l>Qu'éprouv' la mariée au bal ? </l>
+                    <l>L'premier jour de bataille, </l>
+                    <l>Qui fait qu'à son début : </l>
+                    <l>L'conscrit, sous la mitraille, </l>
+                    <l>Paie aussi son tribut ? </l>
+                    <l ana="unanalyzable">C'est la peur, etc. </l>
+            
+                    LAVENETT. 
+            
+                    <l>Voyez la gentille Émilie, </l>
+                    <l>L'amour sur elle a plus d'un droi</l>
+                    <l>Mais elle a vu, de son amie, </l>
+                    <l>Le corset devenir étroit. </l>
+                    <l>En vain son amant grille</l>
+                    <l>D'avoir un tel tresor : </l>
+                    <l>Qui fait qu'la jeune fille</l>
+                    <l>Aime et résiste encor ? </l>
+                    <l ana="unanalyzable">C'est la peur, etc. </l>
+            
+                    LUSTRILL. 
+            
+                    <l>Parlons un peu de politique : </l>
+                    <l>Qui met l'émoi dans le quartier ? </l>
+                    <l>Qui fait fermer sitôt boutique</l>
+                    <l>À la fruitière, à l'épicier ? </l>
+                    <l>Qui fait l'fond du langage</l>
+                    <l>D'un célèbre avocat ? </l>
+                    <l>Qui fait tout le courage</l>
+                    <l>De nos hommes d'état ? </l>
+                    <l ana="unanalyzable">C'est la peur, etc. </l>
+            
+                    ANNA, aux hommes. 
+            
+                    <l>Allons, messieurs, de l'éloquence. </l>
+                    MORTAOMBE, à Lavenett. 
+            
+                    <l>Mon cher voisin, avancez donc. </l>
+            
+                    LAVENETT. 
+            
+                    <l>J'crains qu'ma frayeur ne recommence. </l>
+            
+                    LUSTRILL. 
+            
+                    <l>Quant à moi, je suis trop poltron. </l>
+            
+                    ANNA. 
+            
+                    <l>Quoi ! pas un ne réclame</l>
+                    <l>L'indulgence pour l'auteur ! </l>
+                    <l>Faudra-t-il qu'une femme</l>
+                    <l>Pour vous trois ait du cœur ? </l>
+            
+                    LES TROIS HOMMES. 
+            
+                    <l>Que voulez-vous ! c'est la peur</l>
+                    <l>Que l'parterre</l>
+                    <l>Ne s'montr' sévère. </l>
+            
+                    ANNA. 
+            
+                    <l>Si nous pouvions, par bonheur, </l>
+                    <l>En êtr' quitt's pour la peur ! </l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">C'est la peur, etc. </l>
+            
+                </lg>
+            </div>
+            
+            FIN. 
+            
+            Österreichische Nationalbibliothek
+            
+            + Z160380608
+        </body>
+    </text>
+</TEI>

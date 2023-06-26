@@ -1,0 +1,3066 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">M. CHAPOLARD, OU LE LOVELACE DANS UN GRAND EMBARRAS</title>
+                <title type="sub">COMÉDIE-VAUDEVILLE EN UN ACTE</title>
+                <author key="DUV" sort="1">
+                    <name>
+                        <forename>Félix-Auguste</forename>
+                        <surname>Duvert</surname>
+                    </name>
+                </author>
+                 <author key="DLV" sort="2">
+                    <name>
+                        <forename>Augustin Théodore</forename>
+                        <surname>De Lauzanne de Vauroussel</surname>
+                        <addname type="pen_name">De Lauzanne de Vaux-Roussel</addname>
+                        <addname type="pen_name">Lauzanne</addname>
+                    </name>
+                </author>
+                <author key="GOM" sort="3">
+                    <name>
+                        <forename>Paul-Auguste</forename>
+                        <surname>Gombault</surname>
+                        <addname type="pen_name">Paulin</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                    <respStmt>
+					<resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="PP">
+						<forename>Petr</forename>
+						<surname>Plecháč</surname>
+					</name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">M. CHAPOLARD, OU LE LOVELACE DANS UN GRAND EMBARRAS</title>
+                        <author>DUVERT, LAUZANNE ET PAULIN</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=3jBMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102E85DD</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-06-25">25 JUIN 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES VARIÉTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+           	<normalization>
+					<p>Les majuscules accentuées ont été restituées.</p>
+					<p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+					<p>La ponctuation a été normalisée.</p>
+				    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+				</normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NATIONALBIBLIOTHEK
+            
+            IN WIEN
+            
+            131554-B
+            
+            ALT
+            
+            1
+            
+            |
+            
+            |
+            
+            |
+            
+            1
+            
+            rif. Ditoy
+            
+            M. 
+            
+            CHAPOLARD, 
+            
+            OU
+            
+            DANS UN @RAND EMBARRAS, 
+            
+            COMÉDIE-VAUDEVILLE EN UN ACTE, 
+            
+            +
+            
+            PAR
+            
+            MM. DUVERT, LAUZANNE ET PAULIN. 
+            
+            REPRÉSENTÉE POUR LA PREMJÈRE FOIS, SUR LE THÉATRE DES VARIÉTÉS, 
+            
+            1
+            
+            LR 25 JUIN 1831. 
+            
+            Prix : 1 fr. 50 c. 
+            
+            Paris, 
+            
+            CHEZ J.-N. BARBA, LIBRAIRE, PALAIS-ROYAL, 
+            
+            GRANDE-COUR, DERRIÈRE LE THÉATRE-FRANÇAIS. 
+            
+            1831. 
+            
+            131554-B
+            
+            PERSONNAGES. 
+            
+            ACTEURS
+            
+            CHAPOLARD, maître d'hôtel garni. 
+            
+            M. ODRY. 
+            
+            ÉDOUARD D'AUBIGNY, substitut du procureur
+            
+            du roi. 
+            
+            M. ALERME. 
+            
+            ÉMILIE DUTILLEUL, jeune veuve. 
+            
+            Mlle CAYOT. 
+            
+            Mme CHAPOLARD. 
+            
+            PIERRETTE, domestique. 
+            
+            UN GENDARME. 
+            
+            Mlle CAALBOS. 
+            
+            M He Émilie. 
+            
+            M. CHARLET. 
+            
+            La scène se passe à Grenoble, dans un hôtel garni. 
+            
+            Nota. Les personnages sont indiqués dans l'ordre où ils doivent être placés en
+            
+            scène, le premier à gauche du spectateur. 
+            
+            s'adresser, pour la musique de cet
+            
+            ouvrage, à M. TOLBECQUE, chef d'or
+            
+            chestre du théâtre des Variétés. 
+            
+            IMPRIMERIB DE A. BARBIER, RUE DES MARAIS 3.-G., n. 19. 
+            
+            M. 
+            
+            CHAPOLARD, 
+            
+            OU
+            
+            LE LOVELACE
+            
+            DANS UN GRAND EMBARRAS. 
+            
+            Le théâtre représente un salon commun d'hôtel garni, trois portes au fond, 
+            
+            deux portes latérales ; à gauche du spectateur, ur
+            
+            table sur laquelle il y
+            
+            a tout ce qu'il faut pour écrire, un registre ouvert, un journal et une
+            
+            sonnelle ; à droite, une psyché placée de manière à réfléchir la porte du
+            
+            cabinet qui est à gauche. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            ÉMILIE, MADAME CHAPOLARD. 
+            
+            Comment, madame ! c'est vous ? …
+            
+            MADAME CHAPOLARD. 
+            
+            EMILIE. 
+            
+            Eh ! mon Dieu oui, ma pauvre Louison, c'est moi
+            
+            même ; j'arrive de Paris ; on m'a ordonné de venir respirer
+            
+            pendant quelque temps l'air de mon pays, et me voici
+            
+            revenue à Grenoble … Mais à mon lour, je ne reviens pas
+            
+            de ma surprise ; je ne m'attendais pas, en descendant à
+            
+            l'hôtel des Trois-Rois, à t'en trouver dameet maîtresse ! …
+            
+            Et
+            
+            у a-t-il long-temps que tu as quitté le service de ma
+            
+            dame Bigotin, ma maitresse de pension ? 
+            
+            MADAME CHAPOLARD. 
+            
+            Trois ans environ, un an après votre mariage … Ça
+            
+            (4) 
+            
+            m'ennuyait de servir : j'ai fait un petit héritage, j'ai acheté
+            
+            le fonds de l'hôtel garni que vous voyez, et grâce à mon
+            
+            activité, à ma prévenance pour les voyageurs, et à l'in
+            
+            souciance de mon mari, tout va le mieux du monde …
+            
+            EMILIE. 
+            
+            Ah cà mais … țų es done mariée ? 
+            
+            MADAME CHAPOLARD. 
+            
+            Oui, vraiment ! depuis plus d'un an j'ai épousé quel
+            
+            qu'un de votre connaissance. 
+            
+            EMILIE, 
+            
+            Qui donc ? 
+            
+            MADAME CHAPOLARD. 
+            
+            Le père Chapolard …
+            
+            EMILIE. 
+            
+            Le maitre d'écriture de la pension ? …
+            
+            MADAME CHAPOLARD. 
+            
+            Lui-même 1
+            
+            EMILIE. 
+            
+            Quoi ! … ce vilain ? …
+            
+            MADAME CHAPOLARD. 
+            
+            C'est vrai qu'il n'est pas beau … mais en revanche, c'est
+            
+            le plus ennuyeux des hommes, 
+            
+            EMILIE. 
+            
+            A-t-il toujours la manie de croire que toutes les femmes
+            
+            sont éprises de lui ? 
+            
+            MADAME CHAPOLĄRD. 
+            
+            Plus que jamais ; c'est ce qui l'a fait renvoyer de la
+            
+            pension ; il s'imaginait que son physique avait mis toute la
+            
+            maison en rumeur. Aussi je le retiens le plus possible …
+            
+            de peur de quelque escapade de galanterie … Dès qu'il voit
+            
+            un bonnet, c'est un cheval échappé … L'été dernier
+            
+            même, sa folie était désolante, il courait la ville avec un
+            
+            manteau à grand collet, et il cachait sa figure pour ne
+            
+            pas troubler, disait-il, le repos public … Eh ! mon Dieu
+            
+            oui, voilà le mari que j'ai pris … Mais vous, madame, 
+            
+            qu'avez-vous donc fait du vôtre ? 
+            
+            EMILIE, gaimeut. 
+            
+            Je suis veuve, ma pauvre Louison, veuve depuis un
+            
+            an … i. 
+            
+            (5) 
+            
+            MADAME CHAPOLARD. 
+            
+            Ah ! mon Dieu ! … Et vous l'avez bien regretté, ce di
+            
+            gne monsieur Dutilleul ! 
+            
+            EMILIE. 
+            
+            Oh I assurément, et je le regretté bien encore : 
+            
+            MADAME CHAPOLARD, à parti. 
+            
+            C'est juste … on a treize mois. 
+            
+            EMILIE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : du Piége. </stage>
+            
+            
+                    <l>Mais le temps commence aujourd'hui</l>
+                    <l>À calmer ma douleur amère,</l>
+                    <l>Car j'étais bien jeune pour lui ;</l>
+                    <l>On le prenait pour mon grand-père.</l>
+            
+                    MADAME CHAPOI. ARD. 
+            
+                    <l>En conscience, ce n'est rien</l>
+                    <l>Que perdre un mari de cet âge !</l>
+                    <l>Et puis quand le noir nous va bien</l>
+                    <l>Ça nous console du veuvage.</l>
+                </lg>
+            </div>
+            
+            
+            Et depuis ce temps, y a-t-il eu quelque passion sous jeu ? 
+            
+            EMILIE. 
+            
+            Vas I tu te moquerais de moi ! …
+            
+            MADÁME CHAPOLARDI
+            
+            Allons donc, je n'en suis pas capable …
+            
+            EMILIE. 
+            
+            C'est qu'il s'agit d'un amour fantastique… ridicule …
+            
+            MADAME CHAPOLARD. 
+            
+            Parlez toujours ; j'ai épousé Chapolard, je dois être in
+            
+            dulgente. 
+            
+            EMILIE
+            
+            Te rappelles-tu Adéle d'Aubigny ? 
+            
+            MADAMB CUAPOLARI : 
+            
+            Adèle d'Aubigny ? 
+            
+            EMILIE. 
+            
+            Oui, cette jeune personne qui s'était fait présenter chez
+            
+            ma tante par un ami de la famille il y a quatre ou cinq ans ? 
+            
+            MADAME OHAPOLARD. 
+            
+            Et qui faisait de la musique avec vous ? 
+            
+            Précisément ! 
+            
+            EMILIE. 
+            
+            (6) 
+            
+            MADAME CHAPOLARD. 
+            
+            Je ne l'ai jamais vue. N'avait-elle pas un frère ? 
+            
+            EMILIE. 
+            
+            A ce qu'elle m'a dit
+            
+            car je ne le connais pas ; tout ce
+            
+            que je sais c'est qu'il lui ressemble beaucoup, ce qui veut
+            
+            dire
+            
+            que c'est un fort joli garçon, car elle était fort bien
+            
+            sa seur, quoique un peu grande …
+            
+            MADAME CHAPOLARD. 
+            
+            Et qu'est-elle devenue, elle ? 
+            
+            EMILIE. 
+            
+            Je l'ignore … Quand elle quitta Grenoble pour retourner
+            
+            à Paris dans sa famille, elle me laissa ce portrait en té
+            
+            moignage d'amitié. 
+            
+            MADAME CHAPOLARD. 
+            
+            Et depuis ce temps vous n'avez plus entendu parler
+            
+            d'elle ? …
+            
+            EMILIE
+            
+            Non ! … eh bien, malgré cet oubli, je ne puis regarder
+            
+            son portrait sans éprouver des regrets … sans penser à ce
+            
+            frère dont elle m'a parlé, et que ma folle imagination a
+            
+            /
+            
+            doué de toutes les qualités. 
+            
+            MADAME CHAPOLARD. 
+            
+            Ah ! bien, par exemple… en voilà une bonne ! …
+            
+            EMILIE. 
+            
+            Surtout, Louison, pas un mot de cela à ton mari. 
+            
+            MADAME CHAPOLARD. 
+            
+            A lui, Madame ? … ce serait donc pour que toute la
+            
+            ville le sût : … il est bavard comme un grand journal, et
+            
+            médisant comme un petit … (On entend Chapolard qui
+            
+            parle dans le fond.) Mais le voici lui-même … Voyons s'il
+            
+            vous reconnaitra … Eh bien ! avec qui donc est-il en
+            
+            dispute ? …
+            
+            (7) 
+            
+            SCÈNE II. 
+            
+            EMILIE, CHAPOLARD, MADAME CHAPOLARD. 
+            
+            (Au moment où Chapolard paraîtau fond il est aux prises
+            
+            avec Pierrette, et lui dérobe violemment un baiser ; 
+            
+            celle-ci, furieuse, lui dit : Avisez-vous de recommen
+            
+            cer ! …) 
+            
+            CHAPOLARD, à Pierrette qui est lors de vue. 
+            
+            Qu'est-ce que tu feras si je recommence ? … lu feras, tu. 
+            
+            feras la chatte ! v'la ce que tu feras … (Il aperçoit sa
+            
+            femme.)Mafemme ! (Pendant que Chapolard descend la
+            
+            scene, Emilie s'assied près de la table et n'est pas vue dę
+            
+            lui.)
+            
+            MADAME CHAPOLAR D. 
+            
+            Qu'est-ce que c'est donc, monsieur Chapolard ? … à qui
+            
+            donc en avez-vous ? …
+            
+            CHAPOLARD. 
+            
+            Oh ! rien … c'est que je riais avec Pierrette …
+            
+            MADAME CHAPOLABD. 
+            
+            C'est que vous avez une manière de rire qui ne plait
+            
+            pas à tout le monde … votre galanterie …
+            
+            CHAPOLARD, avec énergie. 
+            
+            C'est vrai, madame Chapolard …, j'ai ce malheur-là …
+            
+            je suis galant ; … les femmes ! … les ſeinmes ! … c'est ma
+            
+            mort : … il faut que je sois né dans un mois terrible, sous
+            
+            le signe du bélier, qui est un fameux animal pour la ten
+            
+            dresse et les attentions. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Du premier Prix. </stage>
+            
+            
+                    <l>Un feu cruel brûle mon ame…</l>
+                    <l>Ah ! c'est un tourment sans égal ?</l>
+                    <l>Depuis que vous êtes ma femme,</l>
+                    <l>J'aim' tout le sexe en général…</l>
+                    <l>Oui, j'adore l'espèce entière,</l>
+                    <l>Et c' n'est pas étonnant, Louison,</l>
+            
+                    (D'un air tendre et lui prenant la main.)
+            
+                    <l>Puisque je suis propriétaire</l>
+                    <l>D'un si superbe échantillon !</l>
+                </lg>
+            </div>
+            
+            
+            MADAME CHAPOLARD, 
+            
+            le repoussant. 
+            
+            Au lieu de me dire de pareilles bêtises, vous feriez mieux
+            
+            (8) 
+            
+            de saluer Madame qui nous fait l'honneur de descendre
+            
+            chez nous …
+            
+            CHAPOLARD, saluant Emilie. 
+            
+            Madame, je vous demande … (A part.) Ah ! mon Dieu ! 
+            
+            esl-ce une illusion ? … ou un effet d'optique ? … je connais
+            
+            celle tête-là ! …
+            
+            (A Emilie.) Madame ! j'ai l'avantage de
+            
+            connaître vos traits … vos traits me sont connus. i …
+            
+            Cherchez bien. 
+            
+            EMILIE, 
+            
+            en riant. 
+            
+            MADAME CHAPOLARD, à son mári. 
+            
+            Mademoiselle Emilie de Montgérån. 
+            
+            CHA POLARD. 
+            
+            Juste ! … qui a quitté la pension pour épouser M. Dutil
+            
+            ſeul, un vieux pas beau … Comment se porte-t-il ? …
+            
+            (D'un air piteux.)
+            
+            Il était bien maigre ! … ah ! il était
+            
+            bien maigre ! …
+            
+            MADAME CHAPOLARD, bas à Chapotard : 
+            
+            Veux-tu te taire, elle est veuve ! 
+            
+            CHAPOLARD, à sa femme. 
+            
+            Veuve ! … ce que c'est que de nous ! … c'est le cas de dire, 
+            
+            on meurt à tout âge … (A part.) Mais j'y pense … dans le
+            
+            temps … est-ce que, par hasard, mon physique … ah ! 
+            
+            voilà une aventure étonnante ! … Eloignons ma femme…
+            
+            (Haut.) Mais, madame Chapolard, pourquoi donc n'êtes
+            
+            vous pas au salon des voyageurs ? … il vient d'en arriver
+            
+            un qui a un train magnifique, deux domestiques, berline
+            
+            à quatre chevaux … c'est au moins un ambassadeur de
+            
+            quelque grande puissance, ou un employé des messageries
+            
+            Laffitte et Caillard … tenez, regardez dans la cour. 
+            
+            MADAME CHAPOLARD, allant vers le fond et regardant en dehors. 
+            
+            En effet … et moi qui n'avais rien entendu ! … (Pendant
+            
+            que madame Chapotard remonte la scène, Chapolard
+            
+            lance des villades à Emilie qui ne s'en aperçoit pas.)
+            
+            COAPOLARD. 
+            
+            Allez vite, madame Chapolard, allez vite, pour l'amour
+            
+            de Dieu ! … moi je vais offrir la main à Madame, pour la
+            
+            conduire à son appartement. A quel numéro la mettez : 
+            
+            vous ? 
+            
+            (9) 
+            
+            MADAME CHAPOLARD. 
+            
+            Au'n ° 16. (A Emilie.) C'est la plus belle chambre et
+            
+            la plus commode…
+            
+            ÉMILIE. 
+            
+            Avec grand plaisir, car j'ai besoin de repos. 
+            
+            · CHAPOLARD, à part. 
+            
+            Plus de doute… elle en tient … O amour ! … que tu
+            
+            es cocasse dans tes combinaisons ! 
+            
+            (il prend la main
+            
+            d'Emilie et la caresse.)
+            
+            EMILIE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Mon cœur à l'espoir s'abandonne. </stage>
+            
+            
+                    <l>Vous m'offrez la main, et sans doute</l>
+                    <l>Je ne saurais la refuser,</l>
+                    <l>Car des fatigues de la route</l>
+                    <l>J'ai besoin de me reposer.</l>
+            
+                    CHAPOLARD et MADAME CHAPOLARD. 
+            
+                    <l>Cette offre n'a rien qui me <del hand="TK" type="alternative" reason="analysis"> lui</del> coûte…</l>
+                    <l>Daignez ne pas la refuser,</l>
+                    <l>Et des fatigues de la route,</l>
+                    <l>Madame, allez vous reposer !</l>
+            
+                    CHAPOL ARD, à part. 
+            
+                    <l>Sa main dans la mienne est tremblante :</l>
+                    <l>C'est la pudeur, et c'est l'amour surtout ;</l>
+                    <l>Oui, certes, ce n'est qu'une amante</l>
+                    <l>Qui peut trembler ainsi dans le mois d'août.</l>
+            
+                    EMILIE. 
+            
+                    CHAPOLARD, à madame Chapolard. 
+            
+                    <l ana="unanalyzable">Vous m'offrez la main, etc,</l>
+            
+                    <l ana="unanalyzable">Cette offre n'a rien, etc.</l>
+                </lg>
+            </div>
+            
+            
+            (Ghapolard sort par le fond avec Emilie.)
+            
+            SCÈNE III. 
+            
+            Madame CHAPOLARD, seule. 
+            
+            Chapolard a raison … ce jeune homme a une tournure
+            
+            distinguée … Ah ! mon Dieu ! … mon bonnet me va comme
+            
+            une horreur ! (Elle se met devant la psyche.)
+            
+            (10) 
+            
+            SCÈNE IV. 
+            
+            EDOUARD, PIERRETTE, madame CHAPOLARD, 
+            
+            PIERRETTE, entrant la première. 
+            
+            Madame, voici le voyageur qui vient d'arriver ; quelle
+            
+            chambre faut-il donner à Monsieur ! 
+            
+            MADAME CHAPOLARD. 
+            
+            Le nº 12. 
+            
+            (A Edouard.) Monsieur, c'est la plus belle
+            
+            chambre, la plus commode. 
+            
+            LA SERVANTE, à part. 
+            
+            Toujours. 
+            
+            (Elle sort.)
+            
+            SCÈNE V. 
+            
+            EDOUARD, madame CHAPOLARD. 
+            
+            EDOUARD. 
+            
+            Mille remerciemens, belle hôtesse ! je compte m'arrêter
+            
+            ici quel que temps. 
+            
+            MADAME CHAPOLARD. 
+            
+            Monsieur, ce sera nous faire beaucoup d'honneur …
+            
+            d'autant plus que je suis dans l'usage de loger des persona
+            
+            nes de la plus haule distinction ; c'est ici que descendent
+            
+            les grandes diligences et les pataches de Lyon … L'année
+            
+            dernière j'ai logé deux mylords anglais, avec deux dames, 
+            
+            artistes-danseuses de l'Académie-royale … elles sont même
+            
+            revenues cette année avec d'autres étrangers. Nous avons
+            
+            très-bonne compagnie ici. 
+            
+            EDOUARD. 
+            
+            Madame, dites-moi, je vous prie … quel est ce brave
+            
+            homme que j'ai trouvé dans la cour ? … une espèce de
+            
+            magot …
+            
+            qui a l'air d'être de la maison … Sa figure no
+            
+            m'est
+            
+            pas inconnue. 
+            
+            MADAME CHAPOLARD, un peu piquée. 
+            
+            I
+            1
+            
+            Monsieur, c'est … c'est mon mari. 
+            
+            (
+            
+            1
+            
+) 
+            
+            EDOUARD. 
+            
+            Ah ! pardon, Madame ! alors, vous devez le connaitre …
+            
+            n'a-t-il pas été autrefois maitre d'écriture ? 
+            
+            MADAME CHAPOL. ARD. 
+            
+            Oui, Monsieur, et distingué, encore … si vous voyiez les
+            
+            billets qu'il m'écrivait avant notre mariage ! … cet être-là
+            
+            ne pouvait pas écrire trois mots sans faire un oiseau ou un
+            
+            tire-bouchon superbe ! …
+            
+            EDOUARD. 
+            
+            C'est un agréable talent. 
+            
+            MADAME CHIAPOLARD. 
+            
+            C'est à peu près tout ce qu'il sait faire ! 
+            
+            EDOUARD. 
+            
+            N'a-t-il pas professé dans une maison d'éducation de
+            
+            cette ville 2
+            
+            MADAME CHAPOLARD. 
+            
+            Qui, mais il a quitté …
+            
+            il a donné sa démission …
+            
+            EDOUARD, å part. 
+            
+            Diable ! sa démission ! (Flaut.) Et a-t-il conservé quelques
+            
+            relations avec cette maison ? … (Apart.) C'est que cela pour
+            
+            rait m'être fort utile. 
+            
+            MADAME CHAPOLARD. 
+            
+            Non, Monsieur … mais moi, j'y connais encore beau
+            
+            coup de monde ; je suis été presque élevée dans la maison. 
+            
+            Vous ? 
+            
+            EDOUARD. 
+            
+            MADAME CHAPOLARD. 
+            
+            Pas comme pensionnaire ; j'étais demoiselle de con
+            
+            fiance. 
+            
+            EDOUARD, à part. 
+            
+            Oui, la bonne… j'entends … C'est drôlé, je ne me la
+            
+            rappelle pas. (Haut.) Je serais flatté de renouer connaissance
+            
+            avec M … M. Chapolard ! 
+            
+            MADAME CHAPOLARD. 
+            
+            Je vais vous l'envoyer à Monsieur … et donner des
+            
+            ordres pour le logement de Monsieur ! 
+            
+            (12) 
+            
+            EDOUARN. 
+            
+            Vous avez tout le temps : voilà ce qu'il me faut pour
+            
+            écrire … tout est au mieux …
+            
+            MADAME CHAPOLARD, tandis qu'Edouard s'approche de la table. 
+            
+            Il est fort bien, fort bien ce jeune homme. Ah ! j'ou
+            
+            bliais … Monsieur voudrait-il avoir la bonté d'écrire son
+            
+            nom sur mon registre … Nous sommes obligés …
+            
+            EDOUARD. 
+            
+            Comment, madame ! … (Il écrit sur le registre.)
+            
+            MADAME CHAPOLÁRD, li sant. 
+            
+            Edouard d'Aubigny ! le nom de la jeune personne ! …
+            
+            Allons vite en prévenir madame Dutilleul. 
+            
+            (Elle sort.)
+            
+            SCÈNE VI. 
+            
+            ÉDOUARD, seul. 
+            
+            Allons vite … un mot au procureur du roi. (Écrivant.)
+            
+            « Mon cher ami, les journaux vous auront oppris qu'une
+            
+            » ordonnance ministérielle vient de m'arracher à l'obscu
+            
+            » rité du barreau pour m'envoyer à Grenoble comme votre
+            
+            » substitut. J'aprends, en arrivant, que la Cour royale a
+            
+            » fixé à demain l'audience de mon installation ; mais je n'ai
+            
+            » point encore mon costume. Je m'adresse à vous, mon
+            
+            » ancien condisciple, pour vous prier de m'en prêter un
+            
+            des vôtres. Mille remerciemens par avance, et croyez, etc.,
+            
+            » etc. » (Il plie la lettre, met l'adresse et sonne : Pierrette
+            
+            entre.) Portez cette lettre à son adresse. (Pierrette sort.)
+            
+            Qui croirait que dans cette même ville de Grenoble, où jé
+            
+            viens, par état, me constituer le défenseur obligé de la mo
+            
+            rale, j'avais ébauché il y a quatre ans la plus jolie intri
+            
+            gue, grâce à des habits de femme qui m'allaient à ravir. 
+            
+            Sans mon damné d'oncle, je serais peut-être maintenant
+            
+            le mari d'Emilie, je serais heureux … Mais non ! venir
+            
+            m'enlever sans me donner le temps de déclarer ni mon
+            
+            amour ni mon nom ! c'est une indignité ! ! Je dois passer
+            
+            aux yeux d'Emilie pour un … ou plutôt pour une intri
+            
+            gante … Oh ! je veux la revoir ! Oui, je me présenterai à
+            
+            (13
+            
+) 
+            
+            elle comme si j'étais le frère de son amie : pas de danger
+            
+            qu'elle soupçonne la ruse ; d'abord, je suis grandi, et puis
+            
+            j'ai mis des favoris postiches pour remplacer ceux que la
+            
+            nalure m'a refusés ; j'en ai même plusieurs paires de re
+            
+            change en cas d'accident : il ne s'agit plus que de la trou
+            
+            ver … Autant que je puiş me rappeler ce Chapolard, c'est
+            
+            un vieil imbécille …
+            
+            Il faut le questionner adroitement
+            
+            sans me faire reconnaitre, car il m'a vu souvent sous mon
+            
+            accoutrement ſéminin … Le voici ! laissons-le venir. 
+            
+            (Il prend un journal et se met à lire.)
+            
+            SCÈNE VII. 
+            
+            EDOUARD, CHAPOLARD, (il entre sans voir Édouard.)
+            
+            CHAPOL. D, à part et riant. 
+            
+            Voilà l'incident le plus étrange qui me soit arrivé depuis
+            
+            ma naissance. Nous arrivons à la fenêtre du corridor ; elle
+            
+            regarde dans la cour … elle aperçoit ce voyageur …
+            
+            Crac ! … la voilà qui tombe dans mes bras, évanouie subi-, 
+            
+            dement, comme une bougie sur laquelle vous planteriez
+            
+            l'éteignoir, Quel tableau ! une femme évanouie sur mon
+            
+            bras …, $ i je p'avais été vêtu que d'un bouclier, on aurait
+            
+            dit un groupe de l'enlèvement des Sabines, c'était une fa
+            
+            meuse occasion ! Mais ma légitime est arrivée, il n'y a pas
+            
+            eu moyen. Elle est jalouse, et nous aurions eu des diffi
+            
+            cultés ensemble. Si ce n'étaient que des mots, bon ! mais
+            
+            avec elle, ça finit toujours par une scène de gymnastique, 
+            et c'est toujours à mon visage qu'elle en a : elle a une idée
+            
+            fixe cette femme-là ! elle voudrait me défigurer, me rendre
+            
+            affreux ! Ah ! farceuse que tu es ! que je connais bien ton
+            
+            fil ! (Apercevant Edouard.) C'est le voyageur à la ber
+            
+            line. 
+            
+            EDOUARD, assis. 
+            
+            Oui, monsieur, c'est moi-même ! 
+            
+            CHAPOĻABD, à panie
+            
+            Oh ! cette petite voix flûtée qu'il a …
+            
+            EDOUARD. 
+            
+            Vous avez une femme charmante …
+            
+            (14) 
+            
+            CHAPOLARO. 
+            
+            Oh ! oh ! … oui, ce n'est pas l'embarras … elle est assez
+            
+            drôle dans la conversation. 
+            
+            EDOUARD. 
+            
+            Elle m'a appris que vous n'êtes pas seulement un ex
+            
+            cellent aubergisle, mais un artiste très-distingué. 
+            
+            CHAPOLARD. 
+            
+            C'est vrai, mais j'ai quitté … J'avais quelque chose
+            
+            contre moi qui me faisait beaucoup de tort …
+            
+            Ah ! ah ! 
+            
+            EDOUARD, riant. 
+            
+            CHA POLARO. 
+            
+            Oui, je professais dans les pensionnats de demoiselles, 
+            
+            et mon physique, qui n'est pas absolument disgrâcié de la
+            
+            nature, donnait des distractions à mes élèves. Et c'est
+            
+            drôle, dans ma famille ils sont tous laids, laids … Il n'y
+            
+            a
+            
+            que moi … C'est un jeu de la nature …
+            
+            EDOUARD, d'un air goguenard. 
+            
+            Je vous crois sans peine … vous êtes en effet très-bien. 
+            
+            CHA POLARD. 
+            
+            Cela me rend très-malheureux, car ma femme est d'une
+            
+            jalousie ! ah ! … mais, je ne peux pas me mettre dans une
+            
+            boîte, n'est-ce pas ? … L'hiver, je me mets la tête dans
+            
+            mon manteau … cela va encore … Mais dans la belle sai
+            
+            son, ma foi tant pis, le physique est à l'air, le physique est
+            
+            dehors, sauve qui peut. 
+            
+            EDOUARD, à part. 
+            
+            Ah çà mais, c'est une seconde édition du vieillard
+            
+            d'Hernani, il est stupide. 
+            
+            CHAPOLARD, à part. 
+            
+            Je suis sûr qu'il m'apprécie. C'est drôle, j'ai vu cette
+            
+            figure-là quelque part … ou ailleurs ! …
+            
+            EDOUARD. 
+            
+            Monsieur Chapolard, 
+            
+            j'ai quelques renseignemens à
+            
+            prendre sur une personne de cette ville. 
+            
+            Parlez ! …
+            
+            CHAPOLARD. 
+            
+            EDOUARD. 
+            
+            Tout le monde n'est pas aussi heureux que vous, il est
+            
+            (15) 
+            
+            des hommes qui sont forces de soupirer long-temps sans
+            
+            se faire aimer …
+            
+            CHAPOLARD. 
+            
+            C'est pourtant vrai qu'il y en a comme ça ! Nous avons
+            
+            des hommes qui soupirent six mois, sept mois, d'autres
+            
+            quinze, seize ans …
+            
+            EDOUARD. 
+            
+            Je suis, je vous l'avouerai, un de ces hommes-là …
+            
+            J'aime une dame de cette ville et je ne suis pas certain
+            
+            d'être payé de retour. 
+            
+            CHAPOLARD. 
+            
+            Dam ! que puis-je faire pour vous ? 
+            
+            EDOUARD. 
+            
+            M'accompagner sur le cours ; si nous la rencontrons, 
+            
+            vous l'aborderez, vous lui parlerez … je me charge du
+            
+            reste. 
+            
+            CHAPOLARD. 
+            
+            J'entends ! Mais il faudra que vous me l'indiquiez … car
+            
+            enfin, je ne puis pas aller chercher, comme l'âne savant
+            
+            qui trouve la personne la plus amoureuse de la société, 
+            
+            et sans savoir son nom ; il dit aussi l'heure qu'il est : vous
+            
+            lui demandez l'heure qu'il est, il tape du pied comme ça
+            
+            (Il donne trois coups de pied par terre.) : il est trois
+            heures. 
+            
+            EDOUARD. 
+            
+            Bien entendu ! je vous l'indiquerai…
+            
+            CUAPOLARD, lui tendant la main. 
+            
+            Touchez là … à la vie … à la mort … Vous êtes amou
+            
+            roux … je vous protége, j'aime les
+            
+            intrigues d'amour, 
+            
+            c'est amusant ; et puis j'en ai l'habitude. Je ferai tout pour
+            
+            vous ; mais pas un mot de cela à madame Chapolard ! …
+            
+            si elle savait que je suis fourré dans une affaire d'amour …
+            
+            c'est une bonne femme, c'est une excellente femme ! elle
+            
+            a le cæur sur la main … mais son cøur me sauterait à la
+            
+            figure, et je n'aime pas ça … Silence ! … la voici, je con
+            
+            sens à tout … (A part.) Bien sûr, je le connais… mais
+            
+            je ne peux pas me rappeler l'endroit …
+            
+            (16) 
+            
+            SCÈNE VIII. 
+            
+            ÉDOUARD, MADAME CHAPOLARD, CHAPOLARD. 
+            
+            MADAME CHAPOLARD. 
+            
+            Monsieur, tout est prêt… votre appartement vous at
+            
+            tend … le domestique va vous y conduire …
+            
+            EDOUARD. 
+            
+            Mille remerciemens, aimable hôtesse
+            
+            (Il touche la
+            
+            main à Chapolard.) C'est bien conyeņu ? 
+            
+            Oui, cher ami …
+            
+            CHAPOLARD. 
+            
+            SCÈNE IX. 
+            
+            MADAME CHAPOLARD, CHAPOLARD. 
+            
+            MADAME CHAPOLARD. 
+            
+            Qu'est-ce que c'est que cher ami ? 
+            
+            CHAPOLARD. 
+            
+            Cher ami… cher amil c'est une expression d'amitié
+            
+            qu'on emploie entre particulier ; on dit : Oui, cher ami ; 
+            
+            oui, cher ami ! 
+            
+            MADAME CHAPOLARD. 
+            
+            Et que signifie ce c'est convenu qu'il vous a adressé en
+            
+            sortant … et de quoi êtes-vous donc conyenus ensemble ? 
+            
+            CHAPOLARD. 
+            
+            D'aller faire un tour de promenade, pas davantage…
+            
+            MADAME CHAPOLARD. 
+            
+            Un tour de promenadel un tour de promenade é seul
+            
+            avec lui ? 
+            
+            CHAPOLARD. 
+            
+            Et pourquoi pas ? Qu'est-ce qu'il a donc pour qu'on ne
+            
+            sorte pas avec lui ? Il est mis proprement ce voyageur, 
+            
+            MADAME CHAPOLARD. 
+            
+            Chapnlard, vous me trompez …
+            
+            CBAPOLARD, étonné. 
+            
+            Moi ? je vous … je jure …
+            
+            (17) 
+            
+            MADAME CIAPOL ARD. 
+            
+            Je sais à quoi m'en tenir. 
+            
+            CHAPOLARD. 
+            
+            Et à quoi vous en tenez-vous ? 
+            
+            MADAME CHAPOLARD, 
+            
+            J'ai dévoilé le mystère. 
+            
+            CHAPOLARD. 
+            
+            Vous avez dévoilé le ministère ? 
+            
+            MADAME CHAPOLARD. 
+            
+            Eh bien, je veux vous confondre… regardez ce portrait. 
+            
+            CHAPOLARD, , prenant le portrait. 
+            
+            C'est un portrait de femme ! eh bien ? 
+            
+            MADAME CHAPOLARD, 
+            
+            Mais c'est le sien … la ressemblance est frappante, seu
+            
+            lement elle est un peu plus jeune …
+            
+            CHAPOLARD, à part, regardant le portrajt. 
+            
+            Qu'ai-je vu ? C'est cette petite parisienne d'il y a quatre
+            
+            ans … Encore une qui m'arrive. 
+            
+            MADAME CHAPOL ARD. 
+            
+            Eh bien ! conviendrez-vous maintenant que ce prétendu
+            
+            jeune homme n'est qu'une femme déguisée ? 
+            
+            CHAPOLARD. 
+            
+            Mais, madame, attendez donc que je me remette un
+            
+            peu, je tombe de mon haut ! je n'en peux plus de surprise ! 
+            
+            MADAME CHA POL ARD. 
+            
+            Oui ! oui ! jouez la surprise, vous ! le complice d'une in
+            
+            trigante ! 
+            
+            CHAPOLARD. 
+            
+            Madame Chapolard, vos soupçons n'ont pas le sens
+            
+            commun ; 
+            
+            (Madame Chapolard fait un geste menaçant ; 
+            
+            Chapolard s'éloigne en cherchant à parer
+            
+            le
+            
+            coup.) Par
+            
+            don de l'expression, ce voyageur a des favoris, ah ! 
+            
+            MADAME CHAPOLARD. 
+            
+            Précisément ! elle en a même encore deux paires de re
+            
+            change dans son porte-manteau. 
+            
+            2
+            
+            (18) 
+            
+            CHAPOLARD, à part. 
+            
+            Deux paires ! Que ces Parisiennes sont romanesques, 
+            
+            mon Dieu ! mon Dieu … Elle a deux paires de favoris ! Il y
+            
+            en a une qui manque, crac, elle en met une autre ! (Haut.)
+            
+            Eh bien ! voyons, j'admets que ses favoris soient posliches ; 
+            
+            qu'est-ce que cela prouve ? Je ne connais pas d'ordonnance
+            
+            qui empêche un homme de mettre des favoris postiches …
+            
+            quand la nature ne lui a pas donné son suffisant… Si cette
+            
+            malheureuse nature fait des injustices, il faut bien les ré
+            
+            parer. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Sur votre table quand on porte. </stage>
+            
+            
+                    <l>L'un d'une épaisse chevelure</l>
+                    <l>Se voit pourvu comme Absalon,</l>
+                    <l>L'autre n'a pas un cheveu pour coiffure,</l>
+                    <l>Ou n'a pas de barbe au menton :</l>
+                    <l>D'y suppléer pourquoi le blâme-t-on ?</l>
+                    <l>Moi, par bonheur, j'ai des mollets d'Hercule,</l>
+                    <l>Mais mon voisin peut avoir des fuseaux :</l>
+                    <l>Il faut que l'art égalise les lots,</l>
+                    <l>Puisque, d'ailleurs, la Charte, en sa formule,</l>
+                    <l>Veut que les Français soient égaux.</l>
+                </lg>
+            </div>
+            
+            
+            MADAME CHAPOLARD. 
+            
+            Je ne prends pas le change, c'est une femme… el une
+            
+            femme qui vient d'écrire au procureur du roi ! Vous savez
+            
+            que monsieur le procureur du roi passe pour être très-ga
+            lant. 
+            
+            CHAPOLARD. 
+            
+            Je sais qu'il est quelque peu
+            
+            farceur, le procureur du roi. 
+            
+            MADAME CHAPOLARD. 
+            
+            Et comme ma maison, Dieu merci, a été jusqu'à pré
+            
+            sent à l'abri de tout reproche, je vais lui signifier que
+            
+            de
+            
+            main …
+            
+            CHAPOLARD. 
+            
+            Madame Chapolard ! vous êtes la femme la plus soup
+            
+            çonneuse des quatre parties du monde ! Et qui vous a
+            
+            donné le droit d'aller ſouiller dans les effets de cette de
+            
+            moiselle … ou de ce monsieur, car vous me faites dire des
+            
+            bêtises que je ne sais plus où j'en suis… Il pourrait vous
+            
+            attaquer en violation de porte-manteau. 
+            
+'Et yous voulez sortir ? 
+            
+            MADAME CHAPOLARD. 
+            
+            (19) 
+            
+            CHAPOLARD
+            
+            Oui, je veux sortir avec elle … c'est-à-dire avec lui. Le
+            
+            moyen de m'en dispenser ? C'est peut-être une mauvaise
+            
+            têle ! … Lui manquer de parole, c'est m'exposer à une
+            
+            querelle ! D'ailleurs, si c'est une femme, vous savez com
+            
+            ment j'ai toujours agi avec le beau sexe… Je ne puis pas
+            
+            me conduire comme un butor … Il faut que mon ramage
+            
+            se ressemble à mon image et à mon plumage, madame
+            
+            Chapolard ! 
+            
+            MADAME CHAPOLARD. 
+            
+            Allez ! M. Chapolard, allez ! ne croyez pas que je sois
+            
+            jalouse, au moins ; si je le suis, c'est de votre réputation, 
+            
+            et pas d'autre chose. 
+            
+            EDOUARD, dans la coulisse. 
+            
+            M. Chapolard, je suis prêt. 
+            
+            CHAPOLARD. 
+            
+            Me voilà ! me voilà ! Vous le voyez bien, madame, ce
+            
+            jeune homme m'attend … Je ne puis me dispenser … (A
+            
+            part.) O amour, protéye-moi ! 
+            
+            (Il sort.)
+            
+            MADAME CHAPOLARD, 
+            
+            Je ne vous retiens pas. Je ne veux pas faire de scène
+            
+            devant les voyageurs, mais vous me le paierez. 
+            
+            SCÈNE X. 
+            
+            ÉMILIE, MADAME CHAPOLARD, entrant par la
+            
+            porte de côté. 
+            
+            EMILIE. 
+            
+            Ma bonne amie, plus de doute, c'est lui ! le frère
+            
+            d'Adèle ! 
+            
+            MADAME CHA POLARD. 
+            
+            Dites donc que c'est elle-même ! 
+            
+            EMILIE. 
+            
+            Tu crois ? … As-tu remarqué s'il a un signe sur la joue
+            
+            comme Adèle ? 
+            
+            MADAME CHAPOLARD. 
+            
+            Un signe ? j'y regarderai. 
+            
+            (20) 
+            
+            EMILIE, 
+            
+            Quoi ! ce jeune Édouard d'Aubigny…
+            
+            MADAME CHAPOLARD. 
+            
+            N'est autre que mademoiselle Adèle d'Aubigny, quoi ·
+            
+            qu'elle soit sans doute changée depuis quatre ans. 
+            
+            EMILIE. 
+            
+            Elle serait donc bien grandie ? 
+            
+            MADAME CHAPOLARD. 
+            
+            A son âge, cela n'est pas étonnant ; et puis, elle a re
+            
+            nouvelé connaissance avec monsieur Chapolard …, tandis
+            
+            que son frère n'est jamais venu à Grenoble, et n'a jamais
+            
+            eu de rapports avec mon mari …
+            
+            EMILIE, après un moment de réflexion. 
+            
+            Écoute, Louison ! tous nos doutes peuvent être éclair
+            
+            cis …
+            
+            MADAME CHAPOL ARD. 
+            
+            Et par quel moyen ? 
+            
+            EMILIE. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune" id="AIR : Avec lui prends l'air séducteur.">AIR nouveau de M. Casimir Gide. </stage>
+            
+            
+                    <l>Avec lui prends l'air séducteur :</l>
+                    <l>S'il en profite, c'est le frère ;</l>
+                    <l>S'il veut s'éloigner, au contraire,</l>
+                    <l>Sois bien sûre que c'est la sœur. <stage type="repetition">Bis. </stage></l>
+                    <l>Car près de femme aimable et vive,</l>
+                    <l>Quand l'instant du bonheur arrive, <stage type="repetition">Bis. </stage></l>
+                    <l>Un homme, le fait est certain,</l>
+                    <l>Ne s'arrête pas en chemin. <stage type="repetition">Bis. </stage></l>
+            
+                    MADAME CHAPOLARD, étonnée. 
+            
+                    Mais que me proposez-vous là ? 
+            
+                    EMILIE. 
+            
+                    <l>Que crains tu ? ne suis-je pas là ?</l>
+                    <l>Allons, faut-il qu'un rien t'émeuve ?</l>
+                    <l>Songe à bien conduire l'épreuve</l>
+                    <l>Qui seule nous éclairera. <stage type="repetition">Bis. </stage></l>
+                    <l>Surtout, pour acquérir, ma chère,</l>
+                    <l>Une conviction entière, <stage type="repetition">Bis. </stage></l>
+                    <l>Ne va pas trahir mon dessein ;</l>
+                    <l>Ne l'arrête pas en chemin. <stage type="repetition">Bis. </stage></l>
+                </lg>
+            </div>
+            
+            
+            MADAME CHAPOLARD. 
+            
+            
+            
+            
+            J'entends du bruit … Allons, je me décide, ne fût-ce
+            
+            (21) 
+            
+            que pour venger notre sexe ! Une femme prendre des habits
+            
+            d'homme ! 
+            
+            EMILIE et MADAME CHAPOLÁRD, å demi-voix. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : du Hussard de Felsheim. </stage>
+            
+            
+                    <l>Ne lui laissons pas de refuge,</l>
+                    <l>Ne lui laissons pas de repos ;</l>
+                    <l>Il faut punir une transfuge</l>
+                    <l>D'avoir déserté nos drapeaux.</l>
+            
+                    EMILIE, à madame Chapolard. 
+            
+                    <l>Le succès bientôt, je le pense,</l>
+                    <l>Doit couronner ce noble effort…</l>
+            
+                    MADAME CHAPOLARD, à part. 
+            
+                    <l>On voit qu'il s'agit de vengeance,</l>
+                    <l>Puisque deux femmes sont d'accord.</l>
+            
+                    (Ensemble.)
+            
+                    <l ana="unanalyzable">Ne lui laissons, etc.</l>
+                </lg>
+            </div>
+            
+            
+            (Émilie entre dans le cabinet à gauche.)
+            
+            SCÈNE XI. 
+            
+            MADAME CHAPOLARD, ÉDOUARD, entrant
+            
+            par le fond. 
+            
+            EDOUARD, entrant d'on air de mauvaise humeur. 
+            
+            Quel homme insupportable que ce Chapolard ! Je suis
+            
+            bien aise que la pluie m'ait servi de prétexte pour rentrer …
+            
+            Ne pas vouloir quitter mon bras ! m'accabler de petits soins
+            
+            ridicules ! … A-t-on jamais vu chose pareille ? Appuyez-vous
+            
+            sur moi ! Prenez garde de tomber ! Ne marchez pas si vite ! ! 
+            
+            Enfin, jusqu'à vouloir me prendre dans ses bras, pour
+            
+            traverser un ruisseau ! Cela ressemblait à une mystification. 
+            
+            MADAME CHAPOLARD. 
+            
+            Déjà de retour, monsieur ! (A part.) Elle a le signe sur
+            
+            la joue … Je ne risque rien. 
+            
+            EDOU ARD
+            
+            Ma foi, oui, belle hôtesse. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : du Baiser au porteur. </stage>
+            
+            
+                    <l>La promenade est agréable ;</l>
+                    <l>Mais, vous concevrez ma raison,</l>
+            
+                    (22) 
+            
+                    <l>Il fait un temps épouvantable,</l>
+                    <l>J'ai dû regagner la maison :</l>
+                    <l>C'est la faute de la saison.</l>
+            
+                    (Il se place devant la Psyché et arrange ses cheveur.)
+            
+                    MADAME CHAPOLARD. 
+            
+                    <l>Loin de maudire ce nuage</l>
+                    <l>Qui vient de causer votre effroi,</l>
+                    <l>Je dois rendre grâce à l'orage,</l>
+                    <l>Il vous ramène auprès de moi !</l>
+                </lg>
+            </div>
+            
+            
+            EDOUARD, à part. 
+            
+            Ah çà ! qu'est-ce qu'elle a donc ? (Haut.) Madame, je
+            
+            suis confus de votre politesse et de celle de votre mari, 
+            
+            qui tout-à-l'heure m'accablait de ses attentions et de ses
+            
+            prévenances. 
+            
+            MADAME CHAPOLARD, à part. 
+            
+            Mon mari ! le traître ! Preuve qu'il est sûr que
+            
+            c'est une
+            
+            femme. (Haut.) Ah ! monsieur, il peut être en fonds d'a
+            
+            mabilité pourles autres, car il fait assez d'économies avec
+            
+            moi. 
+            
+            Comment ? 
+            
+            Hélas ! 
+            
+            EDOUARD. 
+            
+            MADAME CHAPOLAR1) , le regardant. 
+            
+            EDOUARD, à part. 
+            
+            Un soupir ! comme elle me regarde ! le drôle de mé
+            
+            nage ! 
+            
+            MADAME
+            
+            OLARD. 
+            
+            Oui, monsieur, je vous fais juge entre nous … Il trouve
+            
+            que je ne suis pas assez bien pour lui. 
+            
+            EDOUARD. 
+            
+            Il est difficile ! … et que vous reproche-t-il ? 
+            
+            MADAME CHAPOLARD, montrant sa main. 
+            
+            Que sais-je ? Ne m'accusait-il pas l'autre jour d'avoir la
+            
+            main mal faite ! 
+            
+            EDOUARD. 
+            
+            Voyons. (Il lui prend la main.) Je le condamne. 
+            
+            (Il lui
+            
+            baise la main.) Et je signe mon arrêt. 
+            
+            MADAME CHAPOLARD à part. 
+            
+            Comme il appuie ! serait-ce un homme ! 
+            
+            (Haut.) N'a
+            
+            joute-t-il pas encore que j'ai la taille mal prise ! 
+            
+            (23) 
+            
+            EDOUARD. 
+            
+            Mais pas du tout, au contraire … je la trouve très-. 
+            
+            bien prise … et très-agréable à prendre. 
+            
+            (Il lui prend
+            
+            la taille.)
+            
+            MADAME CHAPOL ARD, à part et effrayée. 
+            
+            Un homme n'agirait pas autrement. 
+            
+            EDOU SRD. 
+            
+            Et n'a-t-il pas encore d'autre grief ? 
+            
+            MADAME CHAPOLARD. 
+            
+            Ah ! mon Dieu oui. 
+            
+            EDOUARD, à part. 
+            
+            Ça commence à devenir fort piquant. 
+            
+            MADAME CHAPOLARD. 
+            
+            Il trouve que ma figure manque de fraicheur. 
+            
+            EDOUARD. 
+            
+            Ah ! … En ma qualité de juge… il faut que j'examine de
+            
+            près. 
+            
+            (Il veut l'embrasser.)
+            
+            MADAME CHAPOLARD, reculant. 
+            
+            Monsieur. 
+            
+            (A part.) Il persiste ! …
+            
+            EDOUARD. 
+            
+            Allons ! belle hôtesse ! ne fût-ce que pour vous venger
+            
+            de lui …
+            
+            MADAME CHAPOLARD. 
+            
+            Non, non … S'il nous surprenait. 
+            
+            EDOUARD. 
+            
+            Je vais voir ! … Il serait bien drôle que … Ma foi …
+            
+            (Il
+            
+            va voir si toutes les portes sont fermées : pendant ce
+            
+            temps, Émilie entr'ouvre la porte du cabinet.)
+            
+            MADAME CHAPOLARD, à Émilie. 
+            
+            Madame, arrangez-vous … j'y renonce. 
+            
+            Va donc toujours. 
+            
+            EMILIE, bas, 
+            
+            MADAME CHAPOLARD. 
+            
+            C'est que le danger …
+            
+            EMILIE, d'un air suppliant. 
+            
+            Encore une épreuve ! 
+            
+            (24) 
+            
+            EDOUARD, revenant. 
+            
+            Personne … et nous pouvons… (En prononçant ce dernier
+            
+            mot, il aperçoit dans la Psyché Emilie qui referme vive
+            
+            ment la porte du cabinet.) Ciel ! dans cette glace … l'i
+            
+            mage d'Emilie … Ah ! … cette chambre ! 
+            
+            (11 frappe à la
+            
+            porte à coups redoublés.)
+            
+            MADAME CHAPOLARD. 
+            
+            Eh ! bien … il me laisse là. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : La voix de la patrie. </stage>
+            
+            
+                    EDOUARD. 
+            
+                    <l>Ah ! mon âme est saisie</l>
+                    <l>De trouble et de plaisir !</l>
+                    <l>L'image d'Emilie</l>
+                    <l>À mes regards vient de s'offrir.</l>
+            
+            
+                    MADAME CHAPOLARD. 
+            
+                    <l>Est-ce un trait de folie ?</l>
+                    <l>Me faire ainsi languir !</l>
+                    <l>D'une femme jolie</l>
+                    <l>Un baiser doit-il faire fuir ?</l>
+                </lg>
+            </div>
+            
+            
+            EDOUARD, hors de lui. 
+            
+            Elle n'ouvre pas ! N'importe ! je parviendrai jusqu'à
+            
+            elle, dussé-je passer par la fenêtre ! 
+            
+            (
+            
+            I sort en courant par le fond.)
+            
+            SCÈNE XII. 
+            
+            EMILIE, sortant de la chambre, MADAME
+            
+            CHAPOLARD. 
+            
+            Eh bien ! 
+            
+            EMILIE, restant sur la porte de la chambre. 
+            
+            MADAME CHAPOLARD. 
+            
+            Eh bien ! madame. 
+            
+            Se sauver ainsi ! 
+            
+            EMILIE. 
+            
+            MADAME CHAPOLARD. 
+            
+            Sans doute … conime je cédais toujours, ça lui a fait
+            
+            peur. 
+            
+            EMILIE. 
+            
+            Plus de doute … c'est bien Adèle : quel changement
+            
+            dans sa voix, dans ses manières ! 
+            
+            MADAME CHAPOLARD. 
+            
+            Il est certain que pour une jeune personne, elle a des
+            
+            manières bien étranges. (On entend Chapolard dans la
+            coulisse.) Mais … voici mon mari. Maintenant que nous
+            
+            sommes sûres de notre fait, je vais le confondre, et il le
+            
+            (25) 
+            
+            mérite bien … le drôle qu'il est ! 
+            
+            EMILIE. 
+            
+            Oui, oui, c'est une affaire de ménage, je te laisse …
+            
+            MADAME COAPOLARD. 
+            
+            Oh ! ne craignez rien …
+            
+            EMILIE. 
+            
+            N'importe. Je crois plus prudent de quitter le champ de
+            
+            bataille. (Elle sort par la porte du fond à gauche.)
+            
+            SCÈNE XIII. 
+            
+            CHAPOLARD, entrant par le fond, MADAME
+            
+            CHAPOLARD …
+            
+            MADAME CHAPOLARD. 
+            
+            Ah ! vous voilà, monsieur ! êtes-vous enfin désabusé sur
+            
+            le compte de ce voyageur de ce matin ? 
+            
+            CHAPOLARD. 
+            
+            Ce voyageur de ce matin ? si je suis désabusé ? ma foi
+            
+            non ! je suis toujours dans le même état …
+            
+            MADAME CHAPOLARD. 
+            
+            Eh bien, moi, monsieur, je sais la vérité. J'ai fait des
+            
+            avances … on y a répondu …
+            
+            CHAPOLARD, à part. 
+            
+            Délicieux. 
+            
+            (Haut.) Après ? 
+            
+            MADAME CHAPOL ARD. 
+            
+            Après ? on m'a serré la main ; et quand je l'ai eu mis au
+            
+            pied du mur, on s'est échappé. 
+            
+            CHAPOLARD. 
+            
+            Vous l'avez mis au pied du mur ? … Alors je l'ai échappé
+            
+            belle ! …
+            
+            MADAME CHAPOLARD, avec un geste menaçant. 
+            
+            Chapolard, vous êtes un insolent ! 
+            
+            CHAPOLARD, reculant. 
+            
+            Louison ! pas de gestes ! bornons-nous à dialoguer, car
+            
+            (26) 
+            
+            enfin, il me semble que si ce voyayeur n'était pas parti …
+            
+            je me trouvais faire les honneurs de ma maison à la ma
+            
+            nière des Lapons, qui donnent aux étrangers la table, 
+            
+            le
+            
+            logement, et tout ce qui peut les flatler en général et leur
+            
+            procurer de l'agrément en particulier. 
+            
+            MADAME CHAPOLARD. 
+            
+            Imbécille ! (Elle lui donne des tapes sur les bras.)
+            
+            CHAPOLARD. 
+            
+            Bien ! bien ! très-bien ! sur les bras tant que vous vou
+            
+            drez : ça n'abîme rien. 
+            
+            MADAME CHAPOLARD, sortant. 
+            
+            Allez, je vous déteste, infâme homme que vous êtes. 
+            
+            Elle le frappe avec force.) Oai, infâme homme que vous
+            
+            êtes …
+            
+            (Elle sort en colère.)
+            
+            SCÈNE XIV. 
+            
+            CHAPOLARD seul. 
+            
+            Infâme bomme ! infâme homme ! elle est si en colère, 
+            
+            qu'elle me dit des sottises en latin ! Voyez-vous la jalousie
+            
+            effrénée de cette femme ? Ah çà mais, c'est donc à dire que
+            
+            toutes les femmes … toutes … A quoi sert mon physique
+            
+            ici ? je mets toute la ville en révolution ! c'est hideux, une
+            
+            situation comme ça ! J'allume la guerre civile … je suis un
+            
+            gueux ! un scélérat ! va-t'en donc ! infâme gueux que tu
+            
+            es ! 
+            
+            il n'y a pas de mot dans le dictionnaire qui corresponde à
+            
+            ce que je suis. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Un page aimait la jeune Adèle. </stage>
+            
+            
+                    <l>Sur mon destin il faut que l'on s'accorde.</l>
+                    <l>Dans Grenoble, pour mon malheur,</l>
+                    <l>Je suis un brandon de discorde ;</l>
+                    <l>Je suis la pomm' qui met tout en rumeur :</l>
+                    <l>Est-il au monde un plus malheureux homme ?</l>
+                    <l>Dieu ! que la grâce est un funeste don !</l>
+                    <l>Ah ! dites-moi si je suis une pomme,</l>
+                    <l>Ou bien si je suis un brandon.</l>
+                </lg>
+            </div>
+            
+            
+            Parole d'honneur ! … Il
+            
+            a
+            
+            у
+            
+            des momens où je voudrais
+            
+            être laid comme une chenille … Quoique ça, me voilà
+            
+            (27) 
+            
+            dans une drôle de passe : cette petite qui en tient pour moi
+            
+            et d'une fauneuse force …
+            
+            SCÈNE XV. 
+            
+            LE GENDARME, apportant un grand carton carré, 
+            
+            CHAPOLARD. 
+            
+            LE GENDARME. 
+            
+            C'est ici l'hôtel des Trois-Rois ? 
+            
+            CHA POLARD. 
+            
+            Ici même, mon respectable camarade. 
+            
+            LE GENDARME. 
+            
+            C'est que j'ai oublié le nom de la personne…
+            
+            COAPOLARD. 
+            
+            Voyons ! qu'est-ce que vous apporlez sous votre invinci
+            
+            ble bras ? 
+            
+            LE GENDARME. 
+            
+            C'est de la part de M. le procureur du roi. 
+            
+            CHAPOLARD. 
+            
+            Gendarme, faites-moi l'honneur de vous asseoir … je
+            
+            sais pour qui est ce carton … qu'est-ce qu'il y a de
+            
+            dans ? 
+            
+            LE GENDARME. 
+            
+            Dam ! je n'y ai pas regardé, le carton est ficelé comme
+            
+            un soldat prussien, on m'a dit qu'il y avait dedans une
+            
+            robe et une toque. 
+            
+            CHAPOLARD, 
+            
+            à
+            
+            part. 
+            
+            Une robe et une toque ! ah ! farceur de procureur du roi, 
+            
+            tu envoies des cadeaux … tu voudrais me la souffler. (Haut.)
+            
+            Mon bon ami, dites à ce vertueux magistrat que sa com
+            
+            mission' sera faite, et que ce sera remis exactement à
+            M. d'Aubigny. 
+            
+            LE GENDARME. 
+            
+            D'Aubigny ! c'est ça ! voilà le nom, 
+            
+            il m'a dit M. d'Au
+            
+            bigny ! 
+            
+            CHAPOLARD, avec intention. 
+            
+            Il vous a dit : Monsieur ? 
+            
+            (28) 
+            
+            LE GENDARME. 
+            
+            Il me semble que oui. 
+            
+            CHAPOLARD) , à demi-voix. 
+            
+            ! 
+            
+            Dites donc, gendarme ! là, entre-nous, vous ne trouvez
+            
+            pas ça cocasse ? un procureur du roi qui envoie une robe
+            
+            et une toque à une tierce personne … qu'est-ce que vous
+            
+            avez pensé, 
+            
+            là, franchement ? 
+            
+            LE GENDARME, 
+            
+            Dès lorsque je me trouve de planton pour porter les or
+            
+            donnances, je ne me permets point aucune chose à l'é
+            
+            gard des magistrats. 
+            
+            CHAPOLARD. 
+            
+            A la bonne heure … mais enfin, on a une idée …
+            
+            Je suis gendarme. 
+            
+            LE GENDARME. 
+            
+            CHAPOLARD. 
+            
+            Ça ne vous a pas fait rire ? 
+            
+            LE GENDARME. 
+            
+            Jamais dans le service …
+            
+            je ne ris que dès lorsque j'ai
+            
+            descendu la garde. 
+            
+            CHAPOL ARD, à
+            
+            part et s'éloignant. 
+            
+            Ah çà, mais, il est bête comme une oie, cet animal-là. 
+            
+            (Haut.) Mon ami, il n'y a pasmoyen de raisonner avec vous : 
+            
+            laissez-lå votre carton, et allez-vous-en … je sais pour qui
+            
+            il est, ça suffit… Allez ! allez ! vous me fatiguez. 
+            
+            LE GENDARME place le carton sur la table. 
+            
+            Dès-lors, bourgeois ! je vous présente mes respects. 
+            
+            Allez ! allez donc ! 
+            
+            (il sort.)
+            
+            CHAPOLARD. 
+            
+            SCÈNE XVI. 
+            
+            CHAPOLARD seul. 
+            
+            Ainsi, 
+            
+            il est clair que j'ai le procureur du roi pour ri
+            
+            val. J'ai bien envie de regarder les cadeaux qu'il lui fait. 
+            
+            (Au moment où il va ouvrir le carton on entend un grand
+            
+            bruit de vitres cassées dans le cabinet à droite de l'acteur.)
+            
+            (29) 
+            
+            Qu'est-ce que
+            
+            c'est que ça ! on brise mon établissement ! (Il
+            
+            regarde par la serrure.) La jeune personne qui entre par
+            
+            la fenêtre ! ! ! Est-il possible ? Ah ! c'est trop fort ! ce n'est
+            
+            plus de l'amour, c'est du délire, c'est de la rage … elle
+            
+            aura craint de rencontrer ma femme dans l'escalier (11
+            
+            parle par la serrure.) Je suis ld, mon ange ! elle ne m'en
+            
+            tend pas ! (Il crie plus fort.) Ho ! hé ! mon cher ange, ho ! 
+            
+            hé, par ici, je suis par la serrure … Elle vient ! elle appro
+            
+            che ! j'entends le bruit de ses bottes sur le parquet … éloi
+            
+            gnons-nous, n'ayons l'air de rien. 
+            descend sur l'avant-scène :) O loi, être incommensurable
+            
+            (Il prend le carton et
+            
+            qui présides à tout ce qui se passe, écoute bien ce que je
+            
+            vais te dire : tâche que ma femme ne vienne pas, entends
+            
+            tu ? je te serai infiniment obligé…
+            
+            (Il va se cacher derrière la Psyché.)
+            
+            SCÈNE XVII. 
+            
+            EDOUARD, sortant du cabinet ; CHAPOLARD. 
+            
+            EDOUARD. 
+            
+            Personne ! 
+            
+            a-t-on plus de malheur que moi ? Tenter
+            
+            l'escalade au risque de me rompre le cou, et trouver la
+            
+            place déserte ! 
+            
+            CBAPOLARD, à part. 
+            
+            Imprudente ! imprudente que tu es ! …
+            
+            va ! 
+            
+            EDOUARD. 
+            
+            Mais je saurai à quoi m'en tenir … Il est impossible que
+            
+            je me sois abusé à ce point … Pas moyen d'interroger ma
+            
+            dame Chapolard … Elle doit être furieuse contre moi ! 
+            
+            CHAPOLARD, à part. 
+            
+            Parle, va ! parle toute seule … Tu ne m'échapperas pas, 
+            
+            ; avec tes favoris postiches ; on connait ça, petite blondi-
+            
+            nette. 
+            
+            EDOUARD. 
+            
+            Si je m'adressais à Chapolard ! 
+            
+            Elle parle de moi. 
+            
+            CHAPOLARD, à part, 
+            
+            (30) 
+            
+            EDOUARD. 
+            
+            C'est un sot … et de plus un bavard ! 
+            
+            CHAPOLARD, à part. 
+            
+            Comment dit-elle ? je n'ai pas entendu ; parle donc
+            
+            plus haut … gaillarde ! 
+            
+            EDOUARD. 
+            
+            Il me sera facile de le faire jaser, mais il faut de la pru
+            
+            dence … il ne faut me confier à lui qu'avec circonspec
+            
+            tion … et par degrés. 
+            
+            COAPOLARD, à part. 
+            
+            Voyez-vous ça ? il faut peut-être que ça soit moi qui
+            
+            cominence …
+            
+            EDOUARD. 
+            
+            En ne lui laissant pas pénétrer mon motif, en lui ca
+            
+            chanı l'amour que je ressens … je pourrai…, 
+            
+            CHAPOLARD, à part. 
+            
+            Elle veut me cacher son amour ! O malice cousue d'un
+            
+            fil d'une entière blancheur … Approchons ! Je crois le mo
+            
+            ment favorable. 
+            
+            (Il tousse.)
+            
+            EDOUARD, avec empressement. 
+            
+            Ah ! vous voilà, Chapolard ! c'est le ciel qui vous en
+            
+            voie … Je suis enchanté de vous voir ! 
+            
+            CHAPOLARD. 
+            
+            Et moi, donc ! Tenez, donnez-moi la main. (Il prend la
+            
+            main d'Édouard, et la place sur son ceur.) Sentez-vous
+            comme il bat ? 
+            
+            EDOUARD, étonné. 
+            
+            Vous avez donc bien. couru ! 
+            
+            O sexe astucieux ! 
+            
+            CHAPOLARI) , à part. 
+            
+            EDCUARD. 
+            
+            Ecoutez, Chapolard, nous avons peu de temps ; il faut
+            
+            que je vous révèle un mystère …
+            
+            Nous y voilà. 
+            
+            CHAPOLARD, à part. 
+            
+            EDOUARD. 
+            
+            Le moment est venu de vous le confier, je ne puis gar
+            
+            der plus long-temps ce secret ! Mais, puis-je compter sur
+            votre discrétion ? 
+            
+            (31) 
+            
+            CHAPOLARD, avec leu et à demi-voix. 
+            
+            Moil si on peut compter sur ma discrétion ? Quand on m'a
+            
+            confié un secret, le préfet, le procureur du roi, le rece
+            
+            veur des contributions, le garde-champêtre… la garde
+            
+            municipale ; enfin, tout ce qu'il y a de plus élevé dans l'or
+            
+            dre social, viendrait chez moi pour me séduire, en me
+            
+            disant : Chapolard, vous savez un secret, dites-nous-le …
+            
+            Rien ! N'y a pas de punition, n'y a pas de ci, n'y a pas de
+            
+            ça : l'échafaud, l'échafaud … et même 16 francs d'amende ; 
+            
+            je ne céderais pas … Voilà ce que je suis pour les secrets. 
+            
+            (D'un air tendre.) Allez ! allez à présent … O vous, qui
+            
+            voulez épancher vos chagrins dans le sein d'un véritable
+            
+            ami, vous voyez à qui vous avez affaire …
+            
+            EDOUARD. 
+            
+            Songez qu'il s'agit de la réputation d'une femme ! et
+            
+            c'est une chose si délicate …
+            
+            CHAPOLARD. 
+            
+            Moi ! la compromettre ! … Non ! jeune ami, non ! Je con
+            
+            pais l'amour. O scélérat ! que je te connais particulière
+            
+            ment ! C'est une branche du caur humain que j'ai un peu
+            
+            exploitée pour ma part, je m'en flalte ! Et la femme qui me
+            
+            confiera son secret est sûre de n'être jamais trahie …
+            
+            jamais ! oh ! jamais. ! 
+            
+            EDOUARD. 
+            
+            Eh bien, d'abord, sommes-nous bien seuls ? 
+            
+            CHAPOLARD remonte la scène et en redescend d'un air triomphant. 
+            
+            Nous sommes seuls ! (A part.) Oh ! quel événement ! 
+            
+            EDOUARD. 
+            
+            Apprenez toute la vérité. (Avec feu.) J'aime, Chapolard, 
+            
+            j'aime à l'adoration …
+            
+            CHAPOLARD) , d'un air suppliant. 
+            
+            Ne me nommez pas ! j'ai peur que ma femme … Dites
+            
+            tout bonnement : j'aime ! je sais de qui vous voulez parler. 
+            
+            Vous le savez ? 
+            
+            EDOUARD. 
+            
+            CHAPOLARL. 
+            
+            Est-ce que l'amour peut se cacher ? 
+            
+            EDOUARD. 
+            
+            Jugez de ma souffrance ! … nous sommes ici ensemble, 
+            
+            (32) 
+            
+            sous le même toit … et nous ne pouvons nous entendre ! 
+            
+            CUAPOLARD, marchant à grands pas. 
+            
+            C'est vrai ! … il faudrait tâcher de prendre un rendez…
+            
+            vous ailleurs ! …
+            
+            EDOUARD. 
+            
+            Ab ! si madame Chapolard voulait s'y prêter ! 
+            
+            CHAPOLARD, vivement. 
+            
+            Pas un mot de ça ! … elle vous arracherait les yeux, 
+            
+            el à
+            
+            moi aussi …
+            
+            EDOUARD. 
+            
+            Mais vous ne savez pas tout : … un affreux mariage nous
+            
+            sépare à jamais l'un de l'autre …'
+            
+            CHAPOLARD, marcbant toujours. 
+            
+            Que voulez-vous ? … le divorce est aboli ! … c'est un mal
+            
+            heur ; … on m'a abîmé mon Code civil ! …
+            
+            EDOUARD
+            
+            Mais, qu'avez-vous donc, Chapolard ? … vous avez l'air
+            
+            égaré … vous marchez comme un fou ! …
+            
+            CHAPOLARD. 
+            
+            C'est que j'aij'ai peur que ma femme ne vienne … parlons
+            
+            bas ! … (A demi-voix.) De manière que, depuis plusieurs
+            
+            années, vous soupirez pour la personne en question …
+            
+            parlons bas ! …
+            
+            EDOUARD. 
+            
+            Depuis quatre ans, cher Chapolard ! 
+            
+            CHAPOLARD. 
+            
+            Ne me nommez pas, ne me nommez pas Chapolard …
+            
+            (Tendrement.) Appelez-moi Adolphe l … oh ! appelez-moi
+            
+            Adolphe ! …
+            
+            EDOUARD. 
+            
+            Depuis quatre ans … cette image chériemepoursuit par
+            
+            tout ; le jour, la nuit … elle exalte mes idées … égare ma
+            
+            raison …
+            
+            CHAPOLARD. 
+            
+            Bien ! … bien ! … (A part.) Dans quel état je l'ai ré
+            
+            duite ! …
+            
+            EDOUARD. 
+            
+            La nuit dernière encore, un songe délicieux m'a retracé
+            
+            (33) 
+            
+            cet objet chéri, sous le costume simple et modeste où je
+            
+            l'aperçus pour la première fois ! …
+            
+            CHAPOLARD, lui prenant la main. 
+            
+            Je m'en souviens … Il faisait un temps de chien … il
+            
+            pleuvait à verse, quand je suis arrivé pour donner ma le
+            
+            çon … j'étais fait comme un caniche …'
+            
+            EDOUARD. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Une surtout fraîche et jolie. (Visite à Bedlam.)</stage>
+            
+            
+                    <l>Oui, devant moi je vois encore</l>
+                    <l>Ses yeux si doux, ses jolis traits,</l>
+                    <l>Son pied charmant que le satin décore</l>
+                    <l>Et sa couronne de bluets ;</l>
+            
+                    (Chapolard commence à être déconeerté.)
+            
+                    <l>De légers plis de mousseline</l>
+                    <l>Dessinaient sa taille divine.</l>
+                    <l>Quel doux mo ment ! <stage type="repetition">Bis. </stage></l>
+                    <l>Pour moi, quel souvenir charmant !</l>
+            
+                    CHAPOLARD, d'un air étonné. 
+            
+                    <l>Jamais, vraiment, <stage type="repetition">Bis. </stage></l>
+                    <l>Je n'eus un pareil vêtement !</l>
+            
+                    Cher ami, vous n'y êtes pas
+            
+                    ! 
+            
+                    Même air. 
+            
+                    <l>L'objet d'une flamme si pure</l>
+                    <l>Portait l'habit et le pantalon verts.</l>
+            
+                    EDOUARD. 
+            
+                    <l part="I">Que dites-vous ?</l>
+            
+                    CHAPOLARD. 
+            
+                    <l part="F">Et sa chaussure :</l>
+            
+                    <l>C'étaient des bottes à revers !</l>
+                    <l>Voilà quelle était sa toilette…</l>
+            
+                    EDOUARD, à part. 
+            
+                    <l>Aurait-il donc perdu la tête ?</l>
+                    <l>Assurément, <stage type="repetition">Bis. </stage></l>
+                    <l>Il devient fou complètement.</l>
+                    
+            
+                    CHAPOLARD. 
+            
+                    2
+            
+                    <l>Assurément, <stage type="repetition">Bis. </stage></l>
+                    <l>C'était là son ajustement.</l>
+                </lg>
+            </div>
+            
+            
+            EDOUARD. 
+            
+            5
+            
+            Je ne comprends pas du tout ce que vous voulez dire ! …
+            
+            CHAPOLARD, s'animani. 
+            
+            Plus de détours… parlons bas … Je sais qui vous êtes … i
+            
+            3
+            
+            (34) 
+            
+            vous êtes cette jeune personne que j'ai vue il y a quatre
+            
+            ans dans le pensionnat …
+            
+            EDOUARD. 
+            
+            C'est moi-même … et le déguisement que j'ai pris …
+            
+            CHAPOLARD. 
+            
+            Inutile ! … l'amour a des yeux de chal-huant … je vous
+            
+            ai reconnue …
+            
+            Bahl …
+            
+            EDOUARD
+            
+            CHAPOLARD. 
+            
+            Nos cæurs se sont entendus … Je tremble que ma
+            
+            femme ne vienne ! …
+            
+            Ah ça ! … mais …
+            
+            EDOUARD, surpris. 
+            
+            CHAPOLARD. 
+            
+            Vous aimez ! … on vous aime aussi ! … parlons bas ! …
+            
+            EDOUARD, transporté. 
+            
+            Vous êtes sûr ! … quoi ! Chapolard …
+            
+            CHAPOLARD. 
+            
+            Vous adore ! … cessez donc de vous déguiser à ses yeux …
+            
+            Ôtez ces favoris qui peuvent abuser tout le monde excepté
+            
+            lui … Ah ! Mademoiselle ! … (Il se jette aux pieds d'E
+            
+            douard.)
+            
+            Que vois-je ! …
+            
+            MADAME CHAPOLARD, entrant. 
+            
+            CHAPOLARD, se relevant vivement. 
+            
+            Ma femme ! … elle va m'exterminer. 
+            
+            SCÈNE XVIII. 
+            
+            ÉDOUARD, MAD. CHAPOLARD, CHAPOLARD. 
+            
+            EDOUARD
+            
+            Madame Chapolard, est-ce que votre malheureux mari
+            
+            est sujet à des vertiges ? il me conte des douceurs … il se
+            
+            jette à mes genoux ; … la tête n'y est plus du tout …
+            
+            CHAPOLARD, 
+            
+            à
+            
+            part. 
+            
+            Je suis dans une position ridicule. (Haut, passant à la
+            
+            droite de sa femme.) Mademoiselle, je déclare que c'est
+            
+            vous qui tout-à-l'heure me faisiez une déclaration. 
+            
+            Allons, décidément, il faut le faire enfermer … la tête
+            
+            (35) 
+            
+            EDOUARD. 
+            
+            est complètement déménagée ! …
+            
+            MADAME CHAPOLARD. 
+            
+            Il suffit … je sais à quoi m'en tenir. 
+            
+            CHAPOLARD. 
+            
+            Comment ça ? 
+            
+            MADAME CHAPOLARD, passant à droite de son mari. 
+            
+            Mademoiselle ! 
+            
+            Elle aussi ! 
+            
+            EDOUARD. 
+            
+            MADAME CHAPOLARD. 
+            
+            Je dois vous dire que je ne suis pas dans l'usage de rece
+            
+            voir chez moi des personnes … des personnes qu'on ne sait
+            
+            pas au juste ce que c'est … et alors j'ai disposé de votre
+            
+            chambre. 
+            
+            EDOUARD. 
+            
+            Ah ! … mais un instant… si votre mari à le timbre felé, 
+            
+            j'en suis bien fâché, mais il est dans cette maison quel
+            
+            qu'un de qui je suis connu et je vais …
+            
+            MADAME CHAPOLARD. 
+            
+            C'est inutile … la personne dont vous voulez parler, 
+            
+            madame veuve Dutilleul, part à l'instant. 
+            
+            SCÈNE XIX, 
+            
+            ÉDOUARD, ÉMILIE, entrant par le fond ; M * CHA
+            
+            POLARD et CHAPOLARD. 
+            
+            Veuve, dites-vous ? … veuve ! … et elle s'en va … Emi
+            
+            lie ! … c'est vous, c'est vous que je revois ! … (Il se jette à
+            
+            EDOUARD. 
+            
+            ses pieds.)
+            
+            CHAPOLARD. 
+            
+            Oh ! elle se jette aux pieds de l'autre ! … la farce est
+            
+            très-bonne ! 
+            
+            EMILIE. 
+            
+            Relevez-vous, Mademoiselle. 
+            
+            Ah ! à la fin …
+            
+            EDOUARD, impatienté. 
+            
+            (36) 
+            
+            EMILIE. 
+            
+            Sans chercher à pénétrer les motifs qui vous engagent
+            
+            à voyager sous un pareil costume, je me bornerai à vous
+            
+            prier de ne faire désormais aucune tentative pour vous
+            
+            rapprocher de moi ! …
+            
+            EDOUARD, l'arrêtant. 
+            
+            Emilie, je vous ai abusée, il est vrai ! mais ce n'est pas
+            
+            aujourd'hui, c'est il y a quatre ans, lorsque je me présentai
+            
+            à votre tante, à vous-même, sous le nom de ma sœur …
+            
+            CHAPOLARD, qui pendant ce temps a été chercher le carton derrière la psyché. 
+            
+            Eh bien ! non ! … c'est encore une imposture … je vais
+            
+            tout dévoiler … Ah ! vous êtes le frère … et vous recevez
+            
+            des cadeaux du procureur du roi ! …
+            
+            27
+            
+            Que voulez-vous dire ? …
+            
+            CHAPOLARD. 
+            
+            EMILIE. 
+            
+            Voilà une parure complète que ce galant magistrat vous
+            
+            envoie par le canal d'un gendarme. 
+            
+            EDOUARD, à part. 
+            
+            Je suis sauvé … (Haut.) Eh bien ! monsieur Chapolard, 
+            
+            ouvrez ce carton. 
+            
+            CHAPOLARD : 
+            
+            Ah ! ah ! nous allons rire à la fin … nous allons avoir un
+            
+            instant d'agrément ! (Il ouvre le carton avec empresse
+            
+            ment et en retire une robe et une toque de magistrat.)
+            
+            Que vois-je ? 
+            
+            TOUS, 
+            
+            E DOUARD. 
+            
+            C'est une robe et une toque que le procureur du roi me
+            
+            prête pour mon installation, je suis son substitut. 
+            
+            CHAPOLARD, s'éloignant avec la toque à la main. 
+            
+            J'ai une colique affreuse, je suis dans le plus grand em
+            
+            barras. 
+            
+            (A Edouard.) Mademoiselle le substitut', c'est un
+            
+            événement qui s'est passé à huis-clos : il est inutile d'aller
+            
+            bavarder. 
+            
+            EDOU ARD. 
+            
+            Je vous promets le secret. 
+            
+            Vous mériteriez bien …
+            
+            MADAME CUAPOL ARD) .
+            
+            (37) 
+            
+            CHAPOLARD. 
+            
+            Si vous parlez, je parlerai', Louison. 
+            
+            MADAME CHAPOLARD. 
+            
+            Vous parlerez ; … qu'est-ce que vous direz ? …
+            
+            CHAPOLARD. 
+            
+            Je dirai que vous vous êtes fait faire la cour par toute la
+            
+            magistrature, (Il met la toque sur sa tête.) et par plusieurs
+            
+            jeunes gens de Grenoble, notamment deux maréchaux de
+            
+            logis de gendarmerie, vous savez ? … Je dirai que votre
+            
+            mari … ah ! celui-là … il peut bien se flatter ; … en voilà un
+            
+            par exemple qui peut dire … Ah ! le malheureux ! … Voilà
+            
+            ce que je dirai ; … je vous perdrai de réputation, Louison. 
+            
+            MADAME CHAPOLARD. 
+            
+            Vous êtes un indigne ! 
+            
+            En ce cas, taisez-vous. 
+            
+            CHAPOLARD. 
+            
+         
+            
+            <div type="poem">
+                <lg>
+            
+            VAUDEVILLE. 
+            
+                    <stage type="tune">AIR du vaudeville de la Loge du portier. </stage>
+            
+            
+                    EMILIE
+            
+                    <l>Par ses discours <stage type="repetition"> (bis) </stage> , par sa tournure,</l>
+                    <l>Si mon esprit fut abusé,</l>
+                    <l>Dois-je en rougir ? sous sa parure</l>
+                    <l>Il était si bien déguisé ! <stage type="repetition">Bis. </stage></l>
+                    <l>Et puis prendre un air d'innocence,</l>
+                    <l>Déclamer contre l'inconstance,</l>
+                    <l>Un homme prêcher la vertu ! <stage type="repetition"> Bis. </stage></l>
+                    <l>Qui jamais l'aurait cru ?</l>
+                    <l>Qui jamais s'y serait attendu ?</l>
+            
+                    MADAME CHAPOLARD. 
+            
+                    <l>Comm' j'ai changé <stage type="repetition"> (bis) </stage> de caractère !</l>
+                    <l>Je n'en r'viens pas, en vérité !</l>
+                    <l>En nous mariant, monsieur le maire</l>
+                    <l>Me fit jurer fidélité</l>
+                    <l>À l'époux qu' j'avais adopté…</l>
+                    <l>Eh bien ! depuis plus d'une année</l>
+                    <l>Qu'à l'hymen je suis condamnée,</l>
+                    <l>Ce serment-là je l'ai tenu.</l>
+            
+                    CHAPOLARD. 
+            
+                    <l>Qui jamais l'aurait cru ?</l>
+                    <l>Qui jamais s'y serait attendu ?</l>
+            
+                    (38) 
+            
+                    EDOUARD. 
+            
+                    <l>Ces Polonais <stage type="repetition"> (bis) </stage> pleins de vaillance,</l>
+                    <l>Que de sang ils ont répandu !</l>
+                    <l>« À nous le ciel ! à nous la France !</l>
+                    <l>Disaient-ils, tout n'est pas perdu ! »</l>
+                    <l>Mais le ciel seul a répondu !</l>
+                    <l>Par milliers le czar les moissonne,</l>
+                    <l>Et la France les abandonne,</l>
+                    <l>Eux qui pour elle ont combattu !</l>
+                    <l>Qui jamais l'aurait cru ?</l>
+                    <l>Qui jamais s'y serait attendu ?</l>
+            
+                    CHAPOLARD, au public. 
+            
+                    <l>Sexe charmant <stage type="repetition"> (bis) </stage> , à toi j' m'adresse,</l>
+                    <l>Ne te montre pas inhumain</l>
+                    <l>À propos de cett' petit' pièce</l>
+                    <l>Qui n' peut supporter l'examen ;</l>
+                    <l>Je voudrais pouvoir dir' demain :</l>
+                    <l>La pièc' d'hier n'est qu'un' bluette ;</l>
+                    <l>Mais grâce aux grâc's de l'interprète,</l>
+                    <l>Par le sex' l'ouvrag' fut bien r'çu !</l>
+                    <l>Qui l'eût cru ?</l>
+                    <l>Qui jamais s'y serait attendu ?</l>
+                </lg>
+            </div>
+            
+            
+            FIN
+            
+            重
+            
+            Österreichische Nationalbibliothek
+            
+            + Z160892504
+        </body>
+    </text>
+</TEI>

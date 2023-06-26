@@ -1,0 +1,64 @@
+Airs candidats: 18                
+Airs manuellement filtrés : 16                
+Airs réelement présents : 17                
+Précision: 0.89                
+Rappel: 0.94                
+Mesure-F1: 0.91
+Non attrapé: Air : 
+Non attrapé: 
+Supplémentaire: La victoire est à nous.
+
+***Airs du xml***:
+AIR : Garde à vous. 
+AIR : Elle aime à rire, elle aime à boire. 
+AIR : Restez, restez troupe jolie. 
+AIR : Ce magistrat irréprochable. 
+AIR : Je guette un petit de mon âge. 
+AIR : Trou la la. 
+AIR : Un page aimait la jeune Adelle. 
+AIR : De la Muette. 
+AIR de la Mauvaise Langue de village. 
+AIR : Le cordon s'il vous plaît. 
+AIR : Que d'établissemens nouveaux. 
+AIR : Vos maris en Palestine. 
+AIR : Et voilà comme tout ça s'arrange. 
+AIR : Du pas redoublé. 
+Air : du vaudeville de Turenne.
+Air : 
+AIR : La victoire est à nous pour le peuple de France.
+AIR de la Marseillaise.
+
+***Airs identifiés dans le txt***:
+AIR : Garde à vous.
+AIR : Elle aime à rire, elle aime à boire.
+AIR : Restez, restez troupe jolie.
+AIR : Ce magistrat irréprochable.
+AIR : Je guette un petit de mon âge.
+AIR : Trou la la.
+AIR : Un page aimait la jeune Adelle.
+AIR : De la Muette,
+AIR de la Mauvaise Langue de village.
+AIR : Le cordon s'il vous plaît.
+AIR : Que d'établissemens nouveaux.
+AIR : Vos maris en Palestine.
+AIR : Et voilà comme tout ça s'arrange.
+AIR : Du pas redoublé.
+Air : du vaudeville de Turenne,
+La victoire est à nous.
+
+***Airs du txt validés dans le xml***:
+AIR : Garde à vous. 
+AIR : Elle aime à rire, elle aime à boire. 
+AIR : Restez, restez troupe jolie. 
+AIR : Ce magistrat irréprochable. 
+AIR : Je guette un petit de mon âge. 
+AIR : Trou la la. 
+AIR : Un page aimait la jeune Adelle. 
+AIR : De la Muette. 
+AIR de la Mauvaise Langue de village. 
+AIR : Le cordon s'il vous plaît. 
+AIR : Que d'établissemens nouveaux. 
+AIR : Vos maris en Palestine. 
+AIR : Et voilà comme tout ça s'arrange. 
+AIR : Du pas redoublé. 
+Air : du vaudeville de Turenne.

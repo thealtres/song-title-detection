@@ -79,8 +79,8 @@ def nettoyage(id_work):
         if os.stat(d).st_size == 0:
             os.remove(d)
 if __name__ == '__main__':
-    idWork = "82"
+    idWork = "62"
     #idWork = input("entrez le nb id")
     #detect.extract(idWork)
-    extraction_dossier(idWork)
-    nettoyage(idWork)
+    #extraction_dossier(idWork)
+    #nettoyage(idWork)

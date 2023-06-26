@@ -1,0 +1,4896 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">BONAPARTE LIEUTENANT D'ARTILLERIE, OU 1789 ET 1800</title>
+				<title type="sub">COMÉDIE HISTORIQUE EN DEUX ACTES, MÊLÉE DE COUPLETS</title>
+				<author key="BON" sort="1">
+					<name>
+						<forename>Joseph-Xavier</forename>
+						<surname>Boniface</surname>
+						<addname type="pen_name">Saintine</addname>
+						<addname type="pen_name">Xavier</addname>
+						<addname type="pen_name">Ernest</addname>
+					</name>
+				</author>
+				<author key="DUV" sort="2">
+					<name>
+						<forename>Félix-Auguste</forename>
+						<surname>Duvert</surname>
+					</name>
+				</author>
+				<author key="DEN" sort="3">
+					<name>
+						<forename>Jean-Pierre-Laurent</forename>
+						<surname>Denombret</surname>
+						<addname type="pen_name">Charles Nombret de Saint-Laurent</addname>
+						<addname type="pen_name">Charles Nombret Saint-Laurent</addname>
+						<addname type="pen_name">Saint-Laurent</addname>
+					</name>
+				</author>
+				<editor>Le Rire des vers, Université de Bâle</editor>
+				<respStmt>
+					<resp>Préparation du texte (Le Rire des vers, Université de Bâle)</resp>
+					<name id="LN">
+						<forename>Lara</forename>
+						<surname>Nugues</surname>
+					</name>
+				</respStmt>
+				<respStmt>
+						<resp>Encodage en XML (Le Rire des vers, Université de Bâle, CRISCO, Université de Caen)</resp>
+                    <name id="LN">
+						<forename>Lara</forename>
+						<surname>Nugues</surname>
+					</name>
+					<name id="LG">
+						<forename>Louis-Geoffrey</forename>
+						<surname>Gousset</surname>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="PP">
+						<forename>Petr</forename>
+						<surname>Plecháč</surname>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<extent/>
+			<publicationStmt>
+				<publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+				<availability status="free">
+					<p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblFull>
+					<titleStmt>
+						<title>Bonaparte lieutenant d'artillerie</title>
+						<author>XAVIER, DUVERT ET SAINT-LAURENT</author>
+					</titleStmt>
+					<publicationStmt>
+						<publisher>Google Books</publisher>
+						<idno type="URL">https://books.google.ch/books?vid=NWU:35556007830409</idno>
+					</publicationStmt>
+					<sourceDesc>
+						<biblStruct>
+							<monogr>
+								<repository>Northwestern university</repository>
+								<idno type="URL">https://babel.hathitrust.org/cgi/pt?id=ien.35556007830409</idno>
+							</monogr>
+						</biblStruct>
+					</sourceDesc>
+				</biblFull>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1830-10-09">9 OCTOBRE 1830</date>
+				<placeName>
+					<settlement>THÉÂTRE NATIONAL DU VAUDEVILLE</settlement>
+				</placeName>
+			</creation>
+		</profileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>
+					Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.
+				</p>
+			</projectDesc>
+			<samplingDecl>
+				<p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+			</samplingDecl>
+			<editorialDecl>
+					<normalization>
+					<p>Les majuscules accentuées ont été restituées.</p>
+					<p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+					<p>La ponctuation a été normalisée.</p>
+				    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+<text>
+<body>
+
+BONAPARTE, 
+
+LIEUTENANT D'ARTILLERIE, 
+
+OU
+
+1789 ET. 1800, 
+
+COMÉDIE HISTORIQUE EN DEUX ACTES, 
+
+MÊLÉE DE COUPLETS. 
+
+PAR MM. 
+
+XAVIER, DUVERT ET ST-LAURENT, 
+
+REPRÉSENTÉE, POUR LA PREMIÈRE FOIS
+
+A PARIS, 
+
+SUR LE THÉATRE NATIONAL DU VAUDEVILLE, 
+
+LE 9 OCTOBRE 1830. 
+
+PRIX : 2 FRANCS. 
+
+PARIS. 
+
+BEZOU, LIBRAIBE, 
+
+BOULEVARD SAINT-MARTIN, 
+
+Nº. 29
+
+vis-à-vis le nouveau théâtre de l'Ambigu-Comique. 
+
+1830. 
+
+ 842. 0
+
+5157 b
+
+
+PERSONNAGES DU 1er ACTE. ACTEURS. 
+
+NAPOLÉON BONAPARTE, lieutenant au 4e régiment d'artillerie ; 20 ans. M. PERRIN. 
+
+Le Comte DE GERMILLY, gentil-homme provincial ; 50 ans… M, DEROUVÈRE. 
+
+L'Abbé DE LORIS, 25 ans … M. FONTENAY. 
+
+DELAUNAY, conseiller au parlement de Grenoble ; 25 ans …. M, HIPOLYTE. 
+
+Le Marquis DE COURVOLLE, colonel de cavalerie. M. PROSPER. 
+
+CABOURDIN, maître de danse … M. BERNARD-Léon. 
+
+Mme DU COLOMBIER, sœur du comte de Germilly. Mme GUILLEMIN. 
+
+VICTORINE DU COLOMBIER, petite-fille de Mme du Colombier … Mme THÉNARD. 
+
+Six OFFICIERS DE CAVALERIE. 
+
+UN MARÉCHAL-DES-LOGIS D'ARTILLERIE … M. CASSEL. 
+
+UN DOMESTIQUE. 
+
+
+La Scène se passe à Valence, en Dauphiné, chez  Mme du Colombier. 
+
+
+NOTA. 
+
+Les Personnages sont indiqués dans l'ordre où ils doivent être placés, par rapport au Spectateur. 
+
+AVIS. 
+
+Voir à la fin de la Pièce pour les caractères et costumes des Personnages. 
+
+
+DE L'IMPRIMERIE DE CHASSAIGNON, RUE GIT-LE-C @ UR, 
+
+N ° 7. 
+
+ V
+
+BONAPARTE, 
+
+LIEUTENANT D'ARTILLERIE, 
+
+COMÉDIE HISTORIQUE EN DEUX ACTES, 
+
+
+
+		ACTE PREMIER. 
+
+Le Théâtre représente un salon donnant sur le jardin. 
+
+Au
+
+fond ; une porte vitrée, et deux portes pleines. — Deux autres
+
+portes latérales au troisième plan ; et deux autres fenêtres au
+
+deuxième plan, décorées de rideaux rouges : l'ameublement est
+
+riche. 
+
+Au-dessus de la porte du fond, on remarque un por
+
+trait de Louis XVI, grandeur naturelle. 
+
+A droite du spectateur, une table couverte d'un tapis.-A gauche
+
+un guéridon. Dans le fond, un métier à broder, un tambour à
+
+faire de la dentelle ; plusieurs morceaux de tapisserie qui ne
+
+sont point achevés. 
+
+Au lever du rideau, Germilly est assis à la table, et lit un jour
+
+nal. Madame du Colombier est assise devant le guéridon, et
+
+consulle les cartes. 
+
+
+
+
+			SCÈNE PREMIÈRE. 
+
+	Mme DU COLOMBIER, GERMILLY. 
+GERMILLY jetant le journal avec humeur. 
+
+Ces gazetiers sont d'une insolence ! croiriez-vous, ma
+
+sour ? … Mais nop ! vous voilà toute occupée de vos car
+
+tes ! depuis hier que nous sommes de retour à Valence, ii
+
+n'y a plus moyen de vous parler. 
+
+Mme DU COLOMBIER, 
+
+sans le
+
+regarder. 
+
+Que voulez-vous ? mon cher Germilly ! c'est un goût que
+
+$ 89821
+
+ j'ai conservé du couvent : la bonne mère Sainte Cécile ne
+
+manquait jamais de nous faire les cartes le soir, avant la
+
+prière ; et, après tout, croyez-vous que ce ne soit pas plus
+
+agréable que de lire les gazettes ? 
+
+
+
+Ma sœur, cela dépend. 
+
+			<div type="poem">
+				<lg><stage type="tune">Air du Vaudeville de la Somnambule. </stage>
+			
+					GERMILLY, avec humeur. 
+					<l>Mais quel plaisir y trouvez-vous, mon frère ?</l>
+					<l>Quand, tous les jours, un article nouveau</l>
+					<l>Vient retremper votre colère</l>
+					<l>Contre Necker ou contre Mirabeau.</l>
+					<l>Bien mieux que vous, je sais donc me conduire ?</l>
+					<l>Autour de nous, quand tout est effrayant,</l>
+					<l>Dans l'avenir, eh bien ! je cherche à lire,</l>
+					<l>Pour me consoler du présent.</l></lg>
+				
+			</div>
+
+
+GERMILLY, se levant. 
+
+Oh ! l'avenir, je ne le vois que trop ! et si j'étais à la place du roi, j'irais à ces Etats-Généraux, un bon fouet de poste à la main… 
+
+Mme DU COLOMBIER, se levant à son tour. 
+
+Ah ! mon frère ! fi donc, vous devenez un homme dange
+
+reux ; vous-même ne les avez-vous pas demandés, ces Etats
+
+Généraux ? 
+
+GERMILLY. 
+
+Eh parbleu ! sans doute, je les ai demandés ; mais alors, 
+
+je croyais que la noblesse du Dauphiné m'appellerait à
+
+l'honneur de la représenter. 
+
+Mme DU COLOMBIER. 
+
+Ah ! voilà ! Allons, allons, question d'amour-propre ! 
+
+GERMILLY. 
+
+Non, ma sœur, non ; mais on s'est écarté de nos instruc
+
+tions ; aussi, voyez ce qui en résulte … de l'agitation par
+
+tout ! N'a-t-on pas été obligé de faire venir à Valence, 
+
+Royal-Cravatte, indépendamment du régiment d'artillerie
+
+qui y tient garnison ? et, à ce sujet, j'ai à vous parler, ma
+
+scar ! 
+
+A moi ? 
+
+Mme DU COLOMBIER. 
+
+GERMILLY. 
+
+Oui, sur les gens qne vous recevez chez vous. 
+
+ Mme DU COLOMBIER. 
+
+Qu'y troavez-vous à reprendre ? … Est-ce le conseiller
+
+au parlement de Grenoble, Delaunay, notre parent ? 
+
+Non, je sais que vous avez des projets sur lui, pour
+
+GERMILLY. 
+
+Victorine. 
+
+Est-ce l'abbé de Loris, chanoine régulier de Saint
+
+Mme DU COLOMBIER. 
+
+Victor ? 
+
+GERMILLY, d'un air de doute. 
+
+Oh ! régulier ! … Enfin, il est aimable et gai, c'est quel
+
+que chose. 
+
+Mme DU COLOMBIER. 
+
+Quelques officiers de Royal-Cravatte, qui nous ont été
+
+présentés hier par leur colonel, le marquis de Courvolle, 
+
+votre ancien ami, qui vient d'acheter ce régiment ? 
+
+GERMILLY. 
+
+Non, ceux-là sont des gens bien nés, et on les connaît du
+
+moins ; mais quel est ce nouveau-venu, que vous avez ren
+
+contré ce matin dans le jardin, et que vous avez invité à se
+
+présenter chez vous ? 
+
+Mme DU COLOMBIER. 
+
+Ah ! c'est un petit lieutenant du régiment d'artillerie, qui
+
+est venu visiter son camarade malade, M. de Lariboissière, 
+
+notre pensionnaire. 
+
+GERMILLY. 
+
+Et d'où le connaissez-voas ? 
+
+Mme DU COLOMBIERA
+
+C'est un jeane homme fort honnêté …
+
+GERMILLY. 
+
+Mais encore ? …
+
+Mme DU COLOMBIER. 
+
+Victorine dit qu'il a de fort bonnes manières. 
+
+Mais, ma sœur, je vous demande d'où vous le connais
+
+GERMILLY, s'impatientant. 
+
+sez ?., …
+
+Mme DU COLOMBIER. 
+
+Moi ? je ne le connais pas. 
+
+GERMILLY. 
+
+Ah ! …
+
+  (4) 
+
+M m e
+
+DU COLOMBIER. 
+
+Je l'ai rencontré dans ce bal, donné par les officiers de
+
+la garnison, et où j'ai conduit ma petite-6lle. Victorine l'a
+
+vait déjà vu souvent, à la promenade ; mais je le trouve
+
+fort aimable : il témoigne beaucoup d'égards aux vieilles
+
+femmes, et c'est un mérite assez rare aujourd'hui : Il a fait
+
+mon boston one partie de la nuit ; il est depuis peu
+
+de
+
+temps
+
+à Valence, et se nomme… 
+
+Attendez donc… Timoléon …
+
+Tipoléon … Enfin ses camarades l'appellent simplement
+
+Léon … Son nom de famille est italien, je ne l'ai pas re
+
+tenu. 
+
+GERMILLY. 
+
+C'est cela, corbleu ! vous le connaissez à peine, et il fait
+
+déjà la cour à votre petite-fille. 
+
+Mme DU COLOMBIER. 
+
+Non, non … il n'en est rien. 
+
+GERMILLY. 
+
+Je m'y connais ; et je viens de la rencontrer au jardin
+
+causant avec ce petit lieutenant … cela n'est pas sortable ! 
+
+Il ne me revient pas du tout, ce Monsieur ; … un teint de
+
+safran, le visage maigre, des manières de l'autre monde …
+
+De plus, je l'ai entenda causer sur les événemens ; il est
+
+tranchant, comme tous ces gens-là. 
+
+Mme DU COLOMBIER. 
+
+Ah ! il tient pour les innovations ? 
+
+GERMILLY. 
+
+Creux, et faisant le profond ; tranchons le mot, c'est un
+
+sot … Rapportez-vous en à mon expérience. 
+
+MMO DU COLOMBIER. 
+
+Vous le jugez bien vite ! car, à peine si vous avez eu le
+
+temps de l'entrevoir … Mais … silence … voici quel
+
+qu'un ! 
+
+  (5) 
+
+
+		
+
+			SCÈNE II. 
+
+
+LES MÊMES, L'ABBÉ DE LORIS, DELAUNAY, LE MARQUIS DE COURVOLLE. 
+ (Delaunay se place à droite.-Courvolle salue madame du Colombier qui est à gauche, et reste près d'elle. Loris est au milieu, à la gauche de Gernilly.)
+
+ 
+
+			<div type="poem">
+				<lg><stage type="tune">AIR : Eh ! lon lan la, landerirette. </stage>
+			
+					LORIS, entre gaîment. 
+					<l>Que l'Amour et le Champagne,</l>
+					<l>Exaltent seuls nos esprits !</l>
+					<l>Vous battez tous la compagne,</l>
+					<l>Grâce aux journaux de Paris !</l>
+					<l>Et lon lan la,</l>
+					<l>Cela se gagne,</l>
+					<l>Et lon lan la,</l>
+					<l>Restons en là !</l>
+				
+				
+					<l>Passons gaîment notre vie !</l>
+					<l>Le trajet en est si court !</l>
+					<l>Vivent le vin, la folie !</l>
+					<l>Disait feu l'abbé Grécourt.</l>
+					<l>Et lon lan la,</l>
+					<l>Dans cette vie,</l>
+					<l>Et lon lan la,</l>
+					<l>Je n'sors pas d'la.</l></lg>
+				
+			</div>
+
+
+
+Mme DU COLOMBIER. 
+
+A la bonne heure ! au moins vous, M. l'Abbé, vous ne parlez pas de cette vilaine politique ! 
+
+
+
+Vive dieu ! je m'en garderais bien ! 
+
+			<div type="poem">
+				<lg><stage type="tune">AIR : Et voilà comme tout s'arrange ! </stage>
+			
+					LORIS. 
+					<l>Qu'au garde-des-sceaux Barentin</l>
+					<l>On reproche une dette énorme ;</l>
+					<l>Qu'avec Necker, le puritain,</l>
+					<l>Les états prêchent la réforme,</l>
+					
+					 (6) 
+					
+					<l>Que le monde régénéré</l>
+					<l>Soit le rêve de notre époque,</l>
+					<l>Pourvu qu'on me laisse à mon gré</l>
+					<l>Rire et boire à mon prieuré,</l>
+					<l>Ma foi, du reste je me moque</l>
+					<l>Comme de Marie Alacoque.</l>
+					<l>Oui, mes amis, oui, je m'en moque</l>
+					<l>Comme de Marie Alacoque.</l>
+				</lg>
+			</div>
+
+
+COURVOLLE, d'un air sérieux. 
+
+Monsieur l'Abbé, on ne plaisante pas sur ces choses-là. 
+
+LORIS, d'un ton goguenard. 
+
+Je sais trop mon monde, M. le Marquis, pour me per
+
+mettre la moindre plaisanterie sar Royal-Cravatte, qui a
+
+l'honneur d'être commandé par vous. 
+
+Oh ! excellent ! excellent ! … Je ne connais pas d'ecclé
+
+Mme DU COLOMBIER. 
+
+siastique plus aimable que M. l'abbé de Loris. 
+
+LORIS. 
+
+Madame, 
+
+c'est que vous n'avez jamais vu l'évêque
+
+d'Autun. 
+
+GERMILLY, avec mauvaise humeur. 
+
+Arrière ! … M. d'Autun ! il ne marche
+
+pas droit. 
+
+LORIS. 
+
+Que voulez-vous ? j'ai le dessein de vous convertir …
+
+tout le monde s'en mêle, jusqu'à ce petit docteur qui, au
+
+lieu de me guérir de la fièvre, voulait, disait-il, meguérir
+
+de ma routine monarchique. 
+
+Bah ! 
+
+COURVOLLE. 
+
+LORIS, 
+
+Oui, l'an dernier, à Paris, j'étais tombé malade, à la
+
+suite d'un souper avec le chevalier de Parny, le petit
+
+abbé de Boufflers, et quelques autres jeunes gens de bonne
+
+humeur … Je logeais en hôtel garni … j'avais demandé
+
+un docteur du voisinage, et l'on m'amena celui-là, médecin
+
+des écuries de M. le comte d'Artois. 
+
+Un médecin des écuries à M. l'abbé de Loris ? 
+
+DELAUNAY, riant. 
+
+LORIS
+
+J'avais une fièvre de cheval … Ce docteur, qu'on nomme
+
+  (7) 
+
+Marat, est, d'aillleurs, un jeune homme fort doux, fort
+
+gentil. et paraît très-attaché à son maître. 
+
+Mme DU COLOMBIER. 
+
+Vous avez bien fait de venir, Pabbé ; car votre présence
+
+nous réjouit toujours. Mais vous n'avez donc pas amené
+
+avec yons M. Léon ? 
+
+DELAUNAY. 
+
+Ah ! ce jeune officier ? … nous l'avons laissé au jardin ; 
+
+il se promenait d'un air pensif …
+
+LORIS. 
+
+C'est un maintien … Il composait sans doute quelque
+
+bouquet à Cloris. 
+
+GERMILLY. 
+
+Ce n'est guère probable ; je ne le crois pas capable de
+
+grand chose. 
+
+DELAUNAY. 
+
+Ne pariez pas. J'ai oui dire qu'il a concouru pour le prix
+
+proposé par l'académie de Lyon, sur cette question de
+
+Raynal : Quels sont les moyens à employer poter rendre les
+
+peuples heureux ? C'est une question de philosopbie politique
+
+assez ardue … On dit son mémoire fort remarquable. 
+
+Mme DU COLOMBIER. 
+
+Vous voyez, mon frère ! 
+
+Impossible ! 
+
+GERMILLY. 
+
+DELAUNAY. 
+
+Et je sais qu'il travaille à un Voyage au Mont-Cénis, 
+
+dans le
+
+genre
+
+de Sterne. 
+
+LORIS. 
+
+Fort joli genre, fort joli genre ! ennuyeux, par exem
+
+ple ! …
+
+GERMILLY. 
+
+Ah ! s'il se pique d'être auteur, je ne m'étonne plus de
+
+ses mauvaises opinions. 
+
+CCURVOLLE, d'un air de mepris. 
+
+C'est un novateur. 
+
+DELAUNAY. 
+
+Oui, sans doute. Cependant il m'a semblé doué d'un es
+
+prit éclairé est juste ; je l'ai rencontré une fois, à une
+
+soirée, chez le commandant de la place ; et je vous assure, 
+
+  (8) 
+
+Messieurs, que, dans une discussion que nous avons éue, 
+
+il m'a surpris, et même …
+
+COURVOLLE. 
+
+Allons, voilà M. le conseiller Delaunay, démocrate !'
+
+DELAUNAY. 
+
+Non ; mais il est de mon devoir de rendre justice à qui
+
+de droit. 
+
+LORIS. 
+
+Il est de votre devoir de vous occuper de votre jolie cou
+
+sine … et la voici. 
+
+
+		
+		
+			SCÈNE III. 
+
+
+LES MÊMES, VICTORINE. 
+VICTORINE, saltant avec gráce. 
+
+Que je ne vous dérange pas, Messieurs …
+
+mme DU COLOMBIER, lui donnant un baiser sur le front. 
+
+Mon enfant, tu as bien tardé. La toilette, sans doute …
+
+VICTORINE. 
+
+Bonne maman ! je me suis arrêtée au jardin …
+
+GERMILLY, de loin, à madame du Colombier. 
+
+Ah ! ah ! 
+
+Mme
+
+DU COLOMBIER. 
+
+Et too maître de danse ? 
+
+M. Cabourdin ? je l'attends. 
+
+VICTORINE. 
+
+Ah ! l'illustre M. Cabourdin ! 
+
+COURVOLLE, ironiquement. 
+
+Mme DU COLOMBIER. 
+
+Que voulez-vous ? …
+
+			<div type="poem">
+				<lg><stage type="tune">Air du Vaudeville de Partie et Revanche. </stage>
+			
+					MAD. DU COLOMBIER. 
+					<l>Nous n'avons pas, dans la province,</l>
+					<l>Les premiers maîtres d'entrechats ;</l>
+					<l>Son talent, je l'avoue, est mince.</l>
+				
+					LORIS. 
+					<l>Mais sa personne ne l'est pas.</l>
+				
+				
+					COURVOLLE. 
+					<l>Non, sa personne ne l'est pas.</l>
+				
+				
+					MAD. DU COLOMBIER. 
+					<l>C'est une injustice, je pense ;</l>
+					<l>Paris retient par ses bravos</l>
+					<l>Les plus grands professeurs de danse,</l>
+					<l>Et nous n'avons que les plus gros.</l></lg>
+				
+			</div>
+
+
+GERMILLY. 
+
+Le voilà peut-être. 
+
+LORIS. 
+
+Pas précisément … C'est le nouveau venu, le petit lieu
+
+tenant d'artillerie. 
+
+DELAUNAY. 
+
+Celui-là, ce n'est pas a'n danseur, c'est un penseur. 
+
+Si tant est qu'il pense. 
+
+GERMILLY, à Delaunay. 
+
+
+		
+		
+			SCÈNE IV. 
+
+			COURVOLLE, LORIS, Mme DU COLOMBIER, 
+
+			VICTORINE, BONAPARTE, GERMILLY, DE
+
+				
+LAUNAY. 
+M m e
+
+DU COLOMBIER. 
+
+Eh bien ! Monsieur … Léon … oui, Léon ! comment va
+
+votre ami ? 
+
+BONAPARTE, 
+
+la saluant. 
+
+Beaucoup mieux, Madame, je vous rends grâces …
+
+GERMILLY. 
+
+On nous menace, Monsieur, de vous perdre … on dit
+
+que vous quittez Valence ? 
+
+BONAPARTE. 
+
+On le dit ; oui, Monsieur. 
+
+VICTORINE. 
+
+Quoi ! M. Léon, vous partiriez ? …
+
+BONAPARTE. 
+
+Avec regret, Mademoiselle. 
+
+COURVOLLE, 
+
+à Bonaparle… 
+
+Il me semble que ce serait fort impolitique de vous re
+
+Bonaparte. 
+
+2
+
+ tirer de cette ville, au moment où les têtes sont mon
+
+ (10) 
+
+tées …
+
+BONAPARTE, froidement. 
+
+Pas plus qu'ailleurs. 
+
+GERMILLY. 
+
+Eh ! corblen ! si les têtes sont montées, on les démon
+
+tera ! …
+
+BONAPARTE, 
+
+Avec quoi, s'il vous plaît ? 
+
+COURVOLLE. 
+
+N'avons-nous pas nos armes ? 
+
+Oh ! 
+
+DELAUNAY
+
+LORIS
+
+Marquis, ne parlez donc pas de ça devant ces dames, 
+
+vous nous faites peur. 
+
+BONAPARTE, à Courvolle. 
+
+Vous tourneriez contre les citoyens des armes qui vous
+
+ont été confiées pour les protéger ? 
+
+GERMILLY. 
+
+Je ne connais point de citoyens … je ne connais que des
+
+bourgeois et des paysans qu'il faut mettre à la raison, 
+
+quand ils se comportent mal. 
+
+Et la patrie ? 
+
+BONAPARTE. 
+
+COURVOLLE, 
+
+La patrie est un mot … Le trône avant tout ! 
+
+BONAPARTE. 
+
+Vous comprenez un roi sans peuple ? … Si la patrie
+
+est un mot, qu'est-ce que le trône ? quatre morceaux de
+
+hois recouverts d'un morceau de velour's. 
+
+GERMILLY, sévèrement. 
+
+Monsieur le lieutenant, vous avez là des idées …
+
+DELAUNAY. 
+
+Ce
+
+que Monsieur a dit me semble juste. 
+
+GERMILLY. 
+
+Au diable ! avec votre justice et votre justesse. 
+
+Mme DU COLOMBIER. 
+
+Allons, allons …
+
+  (
+
+u
+
+) 
+
+LORIS. 
+
+Grâce à dieu ! voici le maître de danse qui va vous met
+
+tre tous d'accord, s'il peut s'y mettre lui-même. 
+
+ (Cabourdin entre d'un air effaré.)
+
+
+		
+		
+			SCÈNE V. 
+
+			COURVOLLE, J'ABBÉ DE LORIS, Mme DU COLOM
+
+			BIER, VICTORINE, BONAPARTE, CABOURDIN, 
+
+
+GERMILLY, DELAUNAY. 
+DU COLOMBIER. 
+
+Arrivez donc, M. Cabourdin ! 
+
+GERMILLY, sévèrement. 
+
+Vous vous êtes fait attendre, Monsieur ; cela n'est ni de
+
+cent pi convenable. 
+
+LORIS. 
+
+Ah ! mon dieu ! mais il a l'air tout renversé ! 
+
+CABOURDIN. 
+
+Conime toute la ville. 
+
+TOUS. 
+
+Que voulez-vous dire ? 
+
+COURVOLLE. 
+
+Y-a-t-il une nonvelle ? 
+
+CABOURDIN. 
+
+Deux, qui arriventde Paris. Le ministère est changé …
+
+M. Nègre renvoyé. 
+
+GERMILLY, avec joie. 
+
+Serait-il possible ? Necker est renvoyé ? 
+
+COURVOLLE, de même. 
+
+Le Genevois chassé ? … Vive le roi ! 
+
+GERMILLY. 
+
+Vous en êtes bien sûr, M. Cabourdin ? 
+
+CABOURDIN. 
+
+J'étais à la poste à l'arrivée du courrier. Je l'ai vu de mes
+
+deux yeax ; je l'ai entendu de mes deux oreilles ; et l'un et
+
+l'autre organes sont dignes de votre confiance, M. le
+
+comte. 
+
+Les oreilles surtout. 
+
+LORIS, à Courvolle. 
+
+  (12) 
+
+GERMIELY, avec joie et surprise. 
+
+Necker à bas ! 
+
+CABOURDIN. 
+
+C'est donc une bonne chose ? 
+
+COURVOLLE. 
+
+La chose la plus heureuse qui pût nous arriver. 
+
+GERMILLY. 
+
+Si on l'eût seulement fait pendre ! d'honneur, je vous
+
+embrasserais, mon cher Cabourdin ! ! 
+
+C'est un charlatan ! 
+
+Un hérétique ! 
+
+LORIS. 
+
+COURVOLLE. 
+
+CABOURDIN, effrayé. 
+
+Un huguenot ! ah ! mon dieu ! 
+
+LORIS. 
+
+J'avone que, depuis le dernier concert, rien ne m'a fait
+
+plus de plaisir. 
+
+GERMILLY. 
+
+Allons, M. Cabourdin,'un événement comme celui là
+
+met le cœur à la danse. Donnez votre leçon à ma nièce, 
+
+M. le conseiller Delaunay va aller aux informalions…
+Nous l'attendrons ici. 
+
+J'y cours ! 
+
+ (Il sorl.)
+
+DELAUNAY. 
+
+
+		
+	
+			SCÈNE VI. 
+
+COURVOLLE, LORIS, Mme DU COLOMBIER, VICTORINE, BONAPARTE, CABOURDIN, GERMILLY, SIX OFFICIERS, UN DOMESTIQUE. 
+
+LE DOMESTIQUE, annonçant pendant la ritournelle. 
+
+Messieurs les officiers de Royal-Cravate ! 
+
+ (Aussitôt après l'annonce, madame du Colombier, Victorine et Germilly remontent la scène pour recevoir les officiers, qui saluent profondément, en chantant le chœur d'entrée.)
+
+	
+			<div type="poem">
+				<lg><stage type="tune">Air du Concert à la cour. </stage>
+				
+					CHŒUR DES OFFICIERS. 
+					<l>D'un accueil qui nous flatte,</l>
+					<l>Le souvenir ne peut être effacé,</l>
+					<l>Et de nouveau, Royal-Cravatte</l>
+					<l>Vient vous offrir son hommage empressé.</l>
+				
+				
+					ENSEMBLE. 
+			
+						MAD. DUCOLOMBIER, GERMILLY et VICTORINE. 
+						
+						<l>Votre hommage nous flatte.</l>
+						<l>Le souvenir n'en peut être effacé,</l>
+						<l>Puisqu'en ces lieux, Royal-Cravatte</l>
+						<l>Vient nous offrir son hommage empressé.</l>
+					
+				
+						CHŒUR DES OFFICIERS. 
+						<l ana="unanalyzable"> D'un accueil qui nous flatte,</l>
+						<l ana="unanalyzable"> Etc., etc.</l></lg>
+				
+			</div>
+
+
+GERMILLY. 
+
+Vous savez la nouvelle ? Allons, Messieurs, il nous faut passer la journée ensemble, pour nous réjouir. N'est-il pas vrai, ma sœur ? Cela n'empêchera pas ma nièce de prendre sa leçon … Ces Messieurs sont des amis. 
+
+Mme DU COLOMBIER, aux officiers. 
+
+Eh bien ! occapez-vous de votre côté … Reprenez votre
+
+ouvrage d'hier … Voici la tapisserie. 
+
+COURVOLLE, ďun air prétentieur. 
+
+Moi, je suis pour la dentelle …
+
+Mme DU COLOMBIER. 
+
+A votre aise ! 
+
+ (Chacun des officiers prend un métier à broder, ou un mor
+
+ceau de tapisserie ; Courvolle prend un métier à dentelle, 
+
+et tous se groupent daas le fond du théâtre à droite et à
+
+gauche ; Loris va et vient en souriant à chacun, et se rap
+
+proche ensuite de Victorine.-Bonaparte s'éloigne de tout
+
+le monde, et se place en avant à l'extrême droite du theatre, 
+
+en regardant cette scène d'un air de pitié.)
+
+LORIS. 
+
+Vous le voyez, belle Victorine, le brave a déposé le
+
+glaive popr prendre l'aiguille et le fuseau. 
+
+COURVOLLE, 
+
+Le soldat Français est prêt à tout. 
+
+GERMILLY. 
+
+C'est Alcibiade à la cour de je ne sais plus quel po
+
+tentat. 
+
+ Dites donc Hercule aux pieds d'Omphale. 
+
+LORIS. 
+
+GERMILLY. 
+
+C'est juste, et plus honorable pour le corps des offi
+
+ciers. 
+
+Mme DU COLOMBIER, offrant de loin à Bonaparte un mor
+
+ceau de canevas, 
+
+Eh bien ! M. Léon …
+
+BONAPARTE, se rapprochant de madame du Columbier. 
+
+Madame, je sors de l'école d'artillerie de Lafère, et
+
+n'y ai point appris à broder. (A part.) Et ce sont là
+
+des hommes ! des soldats ! 
+
+M
+
+DU COLOMBIER. 
+
+Eh bien ! alors, je vais vous faire les cartes … c'est une
+
+occupation commeune autre, et vous avez une figure qui
+
+promet. 
+
+Ah ! Madame… 
+
+BONAPARTE. 
+
+Mme DU COLOMBIER. 
+
+Si, je le veux … Voici justement les cartes toutes prêtes. 
+
+ (Elle le prend par la main. — Bonaparte a l'air de céder
+
+malgré lui.) Je le veux, vous dis-je ; venez ! venez ! 
+
+ (Madame du Colombier s'assied devant le guéridon, comme
+à la scène première.-Bonaparle s'assied de l'autre côté
+
+du guéridon.-Madame du Colombier et Bonaparte se
+
+placent à l'extrême gauche du théatre.)
+
+CABOURDIN, accordant la pochette. 
+
+Je suis aux ordres de Mademoiselle. (Victorine se dis
+
+pose à prendre sa leçon.) Troisième position … Mais par
+
+don, Mesdames et Messieurs, je crois que dans le trouble
+
+où j'étais en entrant, je me suis abstenu de vous faire ma
+
+révérence. J'ai bien l'honneur de vous offrir l'hommage
+
+empressé de mon respect. 
+
+ (Il fait une salutation ridicule, et retourne à sa place, 
+
+à
+
+droite du spectateur.)
+
+GERMILLY. 
+
+C'est bon, c'est bon, M. Cabourdin, occupez-vous de
+
+Victorine. 
+
+  (15) 
+
+BONAPARTE, à part, les bras croisés, et paraissant regarder
+
+avec intérêt Madame du Colombier, qui prépare les car
+
+1
+
+tes.)
+
+Elle a des traits de ma mère ! 
+
+CABOURDIN. 
+
+Voyons, Mademoiselle, rentrons ce petit pied là … la
+
+pointe bien en dehors … plus de souplesse dans le jar
+
+ret … pliez-moi bien le genou, comme ceci … (1 fait le
+
+mouvement avec ses doigts sur une lable…) J'ai dit comme
+
+ceci … Etudiez-moi donc, s'il vous plaît. 
+
+Cela vous est bien facile à vous, M. Cabourdin. 
+
+VICTORINE, en riant. 
+
+LORIS, riant. 
+
+Ah ! ah ! c'est fort plaisant ! il montre à danser avec ses
+
+doigts. 
+
+ (Tout le monde rit. 
+
+) 
+
+
+	
+			<div type="poem">
+				<lg><stage type="tune">AIR : Le luth galant. </stage>
+					
+						CABOURDIN. 
+						<l>Riez, Messieurs, vous en avez le droit ;</l>
+						 (Jetant les yeux sur son ventre.) 
+						<l>Mais regardez ! … ma raison se conçoit :</l>
+						<l>Ma danse serait lourde, et je la rends légère.</l>
+						<l>Enfin par ce moyen, mieux que pas un confrère,</l>
+						<l>Je prouve à mes clients que je sais mon affaire</l>
+						<l>Sur le bout de mon doigt.</l>
+					</lg>
+				</div>
+
+
+LORIS. 
+
+Bravo ! bravo ! Monsieur le danseur ! Est-ce que vous auriez de l'esprit, par hasard ? 
+
+
+CABOURDIN. 
+
+ (On rit.)
+
+Vous êtes bien bon. (A Victorine.) Allons, Mademoi
+
+selle, après avoir fléchi le genou comme ceci… là …
+
+là … c'est mieux … c'est bien, parfaitement. Dressons
+
+nous maintenant sur les pointes comme ceci … (Il fait le
+
+mouvement avec ses doigts sur la table.) et couronnons le tout
+
+par un entrechat… avec volubilité … de l'entraînement, 
+
+du brillant ! … (Même jeu.) Tenez, ce n'est que cela …
+
+  (16) 
+
+Ah ! non, non, permettez … vous avez fait comme ceci …
+
+c'était comme cela ; mais enfin c'est égal. (On rit de nou
+
+veau ; il parait piqué, et dit d'un air sec.) Allons au fait. Si
+
+un de ces Messieurs veut offrir la main à Mademoiselle …
+
+Allons, Monsieur le lieutenant …
+
+COURVOLLE, à Bonaparte. 
+
+Mme DU COLOMBIER. 
+
+Laissez-nous ! laissez-vous ! nous sommes occupés. Cala
+
+vient bien, M. Léon. 
+
+Eh bien ! Monsiear' ? …
+
+GERMILLY, à Bonaparte. 
+
+BONAPARTE, à Gérmilly. 
+
+Je ne puis …
+
+VICTORINE, avec gråce, à Bonaparte. 
+
+Vous refusez de me servir de cavalier ? 
+
+Je ne danse jamais … je ne sais pas danser. 
+
+BONAPARTE. 
+
+COURVOLLE, à Germilly, avec surprise. 
+
+Il ne sait pas danser ! 
+
+CABOURDIN ; à part, en accordant sa pochette. 
+
+Malheureux jeune hommme ! il ne sait pas danser ! il ne
+
+ſera jamais rien. 
+
+COURVOLLE, bas à Germilly. 
+
+Ah ! ça, mais il ne sait donc rien ? …
+
+GERMILLY, bd's. 
+
+Je vous dis que c'est un sót. (Haut.) Allons, marquis, 
+
+conduisez ma nièce. 
+
+ (Courvolle quilte sa place, s'avance galamment vers Vic
+
+torine, lorsque Loris se place entr'eux et s'empare de la
+
+main de Victorine.)
+
+LORIS. 
+
+Non pas ! … vous le savez, préséance au clergé, … 
+
+Cedant armá loge. On m'a nommé le directeur des belles, 
+
+et je suis à mon emploi. 
+
+Donnez la main à Mademoiselle. 
+
+CABOURDIN. 
+
+ (Loris et Victorine dansent. 
+
+Cabourdin joue sur sa po
+
+chette l'air du pas d'Armide.)
+
+  (17) 
+
+GERMILLY, après avoir parlé bas aur officiers. 
+
+Cabourdin a vu le courrier. 
+
+CABOURDIN, admirant les danseurs. 
+
+Pas, charmant ! il est de Dauberval. 
+
+GERMILLY, à Cabourdin. 
+
+N'est-ce pas, Cabourdin, vous l'avez vu ? 
+
+CABOURDIN, jouant de la pochette. 
+
+Dauberval ? J'ai eu cet honneur. 
+
+L'imbécile ! 
+
+GERMILLY. 
+
+CABOURDIN. 
+
+Non pas, non pas ! ce n'était pas un imbécile ! (A Loris.)
+
+Bien, bien, beaucoup de grâce, M. l'Abbé. 
+
+COURVOLLE, à Germilly. 
+
+Le mouvement de la cour n'est pas assez vif. 
+
+CABOURDIN, toujou
+
+occupé de la danse. 
+
+Messieurs, c'est une mesure à deux temps. 
+
+COURVOLLE. 
+
+Qu'est-ce que vous dites ? 
+
+CABOURDIN. 
+
+Vous parlez du menuet de la cour… (Aux danseurs.)
+
+Les petits pas d'Eté … l'Abbé ! … Flic, flac… les si sol
+
+de rigueur … A présent, nous allons marcher. 
+
+ (. 1l marche à reculons. 
+
+Loris et Victorine le suivent en
+
+dansant toujo : : rs pour terminer le pas.)
+
+GERMILLY, parlant loujours aux officiers. 
+
+Il faut que le roi se prononce
+
+. 
+
+LORIS, en dansant. 
+
+Sans doute, il faut que le roi se prononce … (Faisant
+
+un lour de main avec Victorine.) Si ce scandale continuait, 
+
+on finirait par méconnaître les droits du trône et de l'au
+
+tel … (Il fait un entrechat.) Il faut agir. 
+
+GERMILLY. 
+
+Et nous agirons. 
+
+CABOURDIN, aux danseurs. 
+
+Mettez-y plos de vigueur. 
+
+GERMILLY, inpatienté. 
+
+M. Cabourdin ! ne vous mêlez pas de notre conver
+
+sation. 
+
+VICTORINE. 
+
+Mais c'est à nous, mon oncle, qu'il parle. 
+
+Bonaparte. 
+
+3
+
+  (18) 
+
+CABOURDIN. 
+
+C'est à n'y pas tenir. La politique et la danse … on
+
+mêle tous les beaux arts. 
+
+ (A partir de ce moment, jusqu'au couplet de Victorine, Ca
+
+bourdin et Loris sont à la droite du théâtre. 
+
+Cabourdin
+
+démontre des pas à Loris, et celui-ci les exécute.)
+
+Ah ! mon dieu ! 
+
+Mme DU COLOMBIER. 
+
+TOUT LE MONDE, se lève et se rapproche. 
+
+Quoi donc ? qu'y a-t-il ? 
+
+Mme DU COLOMBIER. 
+
+Voilà un singulier horoscope. J'ai beau refaire les cartes, 
+
+elles m'annoncent toujours la même chose. M. Léon, vous
+
+aurez une couronne ! 
+
+TOUS. 
+
+Une couronne ! 
+
+BONAPARTE, à
+
+part. 
+
+J'aurais le prix ? … L'académie me couronnerait ? …. 
+
+Mais quelle faiblesse ! 
+
+Mme DU COLOMBIER. 
+
+Qui sait ? on a vu des rois …
+
+CABOURDIN, indiquant un pas à Loris. 
+
+Jeté-battu, et chassez … (Loris exécute le pas.) C'est
+
+ça …. 
+
+
+
+Quoi ! l'académie vous couronnerait ? … Ah ! tant mieux ! 
+
+ (Pendant le couplet, les officiers forment divers groupes dans le fond ; 
+quelques-uns causent avec Germilly.-Loris s'est étendu nonchalemment
+dans le fauteuil, à droite, derrière la table ;  il s'évente avec son
+mouchoir, et cause avec Courvolle et madame du Colombier.)
+	
+			<div type="poem">
+			<lg>	<stage type="tune">Air de une nuit du duc de Montfort. </stage>
+				
+						VICTORINE, allant auprès de Bonaparte, <lb/>et l'amenant au milieu du théâtre.)
+						<l>À cet oracle, eh bien ! j'ai confiance,</l>
+						<l>Ce beau laurier, vous pouvez l'espérer.</l>
+						<l>De la couronne offerte à la science,</l>
+						<l>Je vois déjà votre front se parer.</l>
+						<l>Nous le savons, celle dont on hérite,</l>
+						<l>Par des soucis se fait trop acheter ;</l>
+						<l>Mais la couronne accordée au mérite,</l>
+						<l>Est plus légère et plus douce à porter.</l>
+					</lg>
+				</div>
+
+
+
+GERMILLY. 
+
+Ah ! voici Delaunay … Nous apporte-t-il des nouvelles ? 
+
+
+		
+		
+			SCÈNE VII. 
+
+	Mme DU COLOMBIER, LORIS, BONAPARTE, VIG
+
+TORINE, GERMILLY, DELAUNAY, COURVOLLE, 
+OFFICIERS, dans le fond. 
+
+Ce que vous
+
+dit M. Cabourdin, est exact. 
+
+DELAUNAY. 
+
+Ah ! 
+
+Ainsi soit-il ! 
+
+TOUS. 
+
+LORIS. 
+
+DELAUNAY. 
+
+Mais il ne nous a pas dit qu'à la suite du renvoi de
+
+M. Necker, il y a eu un soulèvement dans Paris, et
+
+que
+
+le
+
+prince de Lambesc a chargé le peuple sur la place Louis
+
+XV, et jusque dans les Tuileries. 
+
+GERMILLY. 
+
+A la bonne heure ! le prince de Lambesc est un digne
+
+gentilhomme ! 
+
+Quelle horreur ! 
+
+BONAPARTE, 
+
+à part. 
+
+LORIS, bas à Bonaparte. 
+
+Allons, allons, jeune homme, vous êtes officier ; pensez
+
+ce que vous voudrez, mais ne vous comproineltez pas … 
+
+Orate et silete. 
+
+Une autre nouvelle. 
+
+Voyons ! voyons ! 
+
+DELAUNAY. 
+
+TOUS. 
+
+DELAUNAY. 
+
+Le général Tilmont, beau-frère du prince de Lambesc, 
+
+ et qui partage ses opinions, est nommé gouverneur du Dau
+
+ (20') 
+
+phiné. 
+
+Vivat ! vivat ! 
+
+TOUS. 
+
+GEMILLY. 
+
+Nons pouvons compter sur celui-là ; il a déjà mis à la
+
+raison les mutins de Grenoble. 
+
+BONAPARTE, à part, 
+
+Oui, en les faisant mitrailler. 
+
+DELAUNAY. 
+
+Il arrive aujourd'hui même dans nos mars, à deux heu
+
+res … 
+
+GERMILLY. 
+
+Nous irons au-devant de lui, pour lui faire honneur. 
+
+Qui ! oui ! nous irons tous ! 
+
+TOUS. 
+
+LORIS. 
+
+Oui, pour faire honneur à M. de Tilmont, et pour
+
+nous faire plaisir, nous irons au-devant de lui jnsqu'à
+
+Monlin-Joli … avec le corps d'officiers … Nous boirons du
+
+lait ; ce sera charmant. 
+
+VICTORINE, avec joie. 
+
+Bien pensé ! … Moulin-Joli ! … ma promenade favorite. 
+
+Bonne maman, allons nous préparer. 
+
+ (Victorine passe près de madamedu Colombier.)
+
+Mme DU COLOMBIER. 
+
+Oui, ma Victorine. M. Léon, vous serez des nôtres ? 
+
+GERMILLY. 
+
+Comment ? c'est un devoir …. Coinne militaire, Mon
+
+sieur doit aller au-devant du
+
+gouverneur. 
+
+BONAPARTE. 
+
+Je n'ai point reçu d'ordre de mes chefs, et j'espère bien
+
+n'en pas recevoir. Je n'irai point. 
+
+GERMILLY. 
+
+A votre aise, Movsieur, à votre aise. Ma seus reçoit chez
+
+elle qui bon lui semble, je n'ai que cela à vous dire. Allons, 
+
+Messieurs, allons nous préparer. 
+
+L'insolent ! 
+
+BONAPARTE, à
+
+part. 
+
+ (Germilly remonte la scène, et parle aux officiers qui sont
+
+rangés à droite. — Bonaparte reste en place, vers le milieu
+
+  (21) 
+
+du théâtre.-Madame du Colombier prend le bras de De
+
+launay, et l'emmène à l'écart, à gauche du spectateur. —
+
+Victorine prend l'aulre main de Delaunay, ei suit le mou
+
+vement.)
+
+Mme pu COLOMBIER, , bas à Delaunay. 
+
+Mon cher Delaunay, ce jeune homme a du bon ; je m'in
+
+téresse à lui. Mais il me semble pencher un peu trop du
+
+côté des idées nouvelles ; je vous charge de sa conversion, 
+
+parlez-lui raison … C'est jeune … vous en viendrez faci
+
+lement à bout. 
+
+J'essaierai, Madame. 
+
+DELAUNAY
+
+VICTORINE. 
+
+Oui, non cousin, essayez. Que va-t-on penser de ses sentimens s'il ne vient pas à Moulin-Joli ? 
+
+			<div type="poem">
+			<lg>	<stage type="tune">AIR : Walse de Robin des Bois. </stage>
+				
+						GERMILLY. 
+						<l>Je vais marcher à votre tête,</l>
+						<l>Montrez du zèle et de l'ardeur …</l>
+						<l>Dans un instant que l'on s'apprête</l>
+						<l>Pour faire honneur</l>
+						<l>Au gouverneur.</l>
+					
+				
+						VICTORINE, à Delaunay. 
+						<l>En vous, cousin, j'ai confiance,</l>
+						<l>De ses erreurs, faites-le revenir.</l>
+					
+				
+						MAD. DU COLOMBIER, à Delaunay : 
+						<l>Je me fie à votre éloquence,</l>
+						<l>Vous saurez bien le convertir.</l>
+					
+						ENSEMBLE. 
+					
+							CHŒUR
+							<l>Il va marcher à notre tête,</l>
+							<l>Montrons du zèle et de l'ardeur !</l>
+							<l>Dans un instant que l'on s'apprête</l>
+							<l>Pour faire honneur</l>
+							<l>Au gouverneur !</l>
+						
+						
+							GERMILLY. 
+							<l ana="unanalyzable"> Je vais marcher à votre tête,</l>
+							<l ana="unanalyzable"> Etc., etc.</l>
+								</lg>
+								
+				</div>
+
+
+
+ (Ils sortent.) 
+
+  (22) 
+
+		
+		
+			SCÈNE VIII. 
+
+BONAPARTE, DELAUNAY, 
+
+Vous paraissez irrité, Monsieur ? 
+
+DELAUNAY. 
+
+Comment ne le serais-je pas ? 
+
+BONAPARTE. 
+
+DELAUNAY. 
+
+Jeune homme ! peut-être heurtez-vous avec trop de fou
+
+gue des idées qu'il faut respecter ; car elles tendent à con
+
+. 
+
+server le bon ordre. 
+
+Le bon ordre ! 
+
+BONAPARTE. 
+
+DELAUNAY : 
+
+Oui, Monsieur ; et si tous les hommes d'honneur ne se
+
+prêtent appui mutuellement, tout est compromis ; car, il ne
+
+faut plus pous le dissimuler, tout est menacé. Je ne leur
+
+ai point tout dit, Monsieur ; j'ai craint de les effrayer. Mais
+
+quelles que soient vos opinions, vous en conviendrez avec
+
+nous, l'avenir est effrayant. 
+
+Pourquoi ? 
+
+BONAPARTE. 
+
+DELAUNAY. 
+
+Paris est en pleine insurrection. Plus de dix mille per
+
+sonnes se sont rassemblées dans le Palais-Royal. Là, un
+
+inconnu, un jeune homme nommé, dit-on, Camille Des
+
+moulins, monte sur une table, un pistolet à la main. « Le
+
+ « renvoi de M. Necker est le tocsin d'une Saint-Barthélemy
+
+ » de patriotes, s'écrie-t-il ; aux armes ! » Ce jeune homme
+
+propose des cocardes pour se reconnaître… « Adoptons, 
+
+ » dit-il, le vert, couleur de l'espérance. » 
+
+Il attache une
+
+feuille d'arbre à son chapeau, chacun suit son exemple ; 
+
+les maronniers du Palais-Royal sont dépouillés, et la foule, 
+
+après avoir promené en triomphe le buste de M. Necker
+
+poursuivie par les troupes, les repousse à coups de pier
+res … C'est alorsque le prince de Lambesc … (D'un ton
+
+moins a suré.) fit son devoir. 
+
+  (23) 
+
+BONAPARTE, avec indignation. 
+
+Son dévoir ? Eh bien ! le peuple aussi, fera le sien ! Vous, 
+
+Monsieur, qui semblez digne du caractère honorable dont
+
+vous êtes revêtu, pouvez-vous encore rester dans des rangs
+
+où l'égoïsme et l'orgueil ont étouffé tont ce que le cour de
+
+l'homme renferme de noble et de vrai ? Ecoutez-les … avec
+
+quel mépris ils parlent du peuple ! et cependant ce peuple, 
+
+c'est par lui qu'ils existent ; il est le maître ; tout vient de
+
+lui, tout doit retourner à lui. Vos administrateurs, que sont
+
+ils ? sinon ses intendans ; vos soldats, unc force qu'il puise
+
+dans son sein, et qu'il paie pour le protéger ; vous autres
+
+magistrats, si vous pouvez rendre justice à chacun, alsou
+
+dre ou châlier, c'est que la grande famille vous a remis ses
+
+droits, c'est que vous êtes armés de la loi, et que la loi est
+
+au-dessus de tout. 
+
+DELAUNAY. 
+
+Sans doute ; mais si ce peuple, par fougue, par caprice, 
+
+s'écarte violemment des voies ordinaires, n'est-il pas du
+
+devoir de l'homme sage de chercher à l'y faire rentrer ? 
+
+BONAPARTE. 
+
+Mais si ce qu'il demande est juste ? si ce qu'il réclame ést
+
+un besoin pour lui ? la liberté n'est-elle pas son premier
+
+patrimoine ? ceux qui l'en ont dépossédé ont-ils le droit
+
+d'invoquer la prescription contre lui ? …. La nature a fait
+
+l'homme libre. 
+
+DELAUNAY, avec un commencernent d'hésitation. 
+
+Oui, mais malheureux. 
+
+BONAPARTE, avec force. 
+
+Eh bien, le but de la société est de le conserver libre et
+
+fort, mais heureux. 
+
+DELAUNAY. 
+
+Cependant, jusqu'à présent, la liberté, bannie de nos
+
+mieurs, ne fut la passion que de quelques hommes … plus
+
+philosophes que citoyens ; il faut attendre que leurs pré
+
+ceptes aient pénétré plus avant, que le temps de la rai
+
+son …. 
+
+
+
+Ce temps est venu. Par la progression des idées, une volonté forte s'est manifestée parmi le peuple. Ne vous inquiétez plus sur les moyens à employer pour contenir cette volonté : (Avec force.) le peuple veut. 
+
+			<div type="poem">
+			<lg>	<stage type="tune">Air des trois Couleurs. (de M. Vogel.)</stage>
+				
+					BONAPARTE. 
+					<l>Que servirait une vaine colère ?</l>
+					<l>D'un fol espoir n'allez pas vous flatter !</l>
+					<l>Regardez bien … c'est le flot populaire,</l>
+					<l>Malheur à qui prétendrait l'arrêter !</l>
+					<l>Conjurons-le … c'est la seule ressource,</l>
+					<l>Les gens de cœur doivent se réunir ;</l>
+					<l>Sachons guider le torrent dans sa course,</l>
+					<l>Ou sa fureur viendra nous engloutir …</l>
+				</lg>
+			</div>
+
+
+DELAUNAY, qui s'est ému progressivement pendant le couplet. 
+
+Ah ! Monsieur, s'il était vrai…
+
+BONAPARTE, vivement. 
+
+N'en doutez pas ! Jetez les yeux autour de nous ! qu'y
+
+voyez-vous ? tous les élémens d'une commotion inévitable. 
+
+Des soldats découragés, des officiers de boudoir ; un clerge
+
+incredule et intolérant ; des traitans avides ; une magistra
+
+ture vénale ; l'intrigue et la corruption aspirant à tous les
+emplois, et les obtenant tous, voilà la France, Monsieur, 
+
+la France telle que l'ont faite le despotisme qui commande, 
+
+et la sottise qui obéit. La société est à refaire, la liberté s'en
+
+chargera ! 
+
+
+
+La liberté ! eh bien ! je n'en doute plus ! …
+
+
+			<div type="poem">
+				<lg><stage type="tune">AIR : De votre bonté généreuse. </stage>
+				
+					DELAUNAY, avec exaltation. 
+					<l>À vos accens, je vois qu'il faut se rendre,</l>
+					<l>Dans vos élans je me sens de moitié ;</l>
+					<l>Oui, je suis digne enfin de vous comprendre,</l>
+					<l>Accordez-moi, Monsieur, votre amitié.</l>
+				
+				 (Il lui tend la main ; Bonaparte la reçoit en la serrant avec cordialité.)
+				
+					<l>Avec orgueil, mon âme, libre et fière,</l>
+					<l>Des préjugés rejette le fardeau.</l>
+					<l>À mes regards ils cachaient la lumière,</l>
+					<l>Et vous venez d'arracher le bandeau.</l></lg>
+				
+			</div>
+
+M. Léon ! comptez sur moi ; je suis des vôtres à jamais. 
+
+BONAPARTE. 
+
+J'en suis fier ! 
+
+  (25) 
+
+DELAUNAY, à part. 
+
+Etmoiqui voulais le convertir ! …
+
+BONAPARTE. 
+
+Je monte chez Lariboissière, pour lui faire part des nou
+
+velles de Paris … Au revoir, M. Delaunay ! … 
+
+DELAUNAY. 
+
+Et moi, je retourne à la ville ; si j'appreuds quelque
+
+chose de nouveau, je vous en informerai… Au revoir ! 
+
+ (
+
+Il sort par le fond. 
+
+Bonaparle fait un mouvement pour
+
+sortir par la droite. 
+
+Victorine entre
+
+par
+
+la
+
+porte à gaus
+
+che, et l'arrête.)
+
+		
+		
+			SCÈNE IX. 
+
+VICTORINE, BONAPARTE. 
+
+VICTORINE. 
+
+En quoi ! M. Léon, vous n'êtes point encore prêt ? 
+
+BONAPARTE, se dé ouvrant et s'inclinani. 
+
+A quoi faire, Mademoiselle ? 
+
+VICTORINE. 
+
+A nous accompagner à Moulin-Joli ; mon cousin Delau
+
+nay s'était chargé de vous y décider. 
+
+BONAPARTE. 
+
+Il ne m'en a point dit un mot. 
+
+VICTORINE. 
+
+Vraiment ! … Voyez si l'on peut compter sur la parole de
+
+ces gens de robe… Eh bien ! il faut donc que ce soit moi qni
+
+m'en charge. (Avec gentillesse.) Vous viendrez, n'est-ce pas ? 
+
+5-BONAPARTE, avec hésitation. 
+
+Je ne puis, Mademoiselle. 
+
+VICTORINE. 
+
+Et qui vous le défend ? 
+
+BONAPARTE. 
+
+Ma conscience. Sans cela eussé-je hésité ? puisque je m'y
+
+serais trouvé … avec vous. Ah ! ne craignez point d'enten
+
+dre l'expression d'un sentiment bien pur. Depuis long-temps
+
+séparé de ma mère, de mes frères, d'aujourd'hui seulement
+
+je commence à croire qu'on peut être heureux
+
+même
+
+Bonaparte. 
+
+4
+
+  (26) 
+
+loin de sa famille ; oui, ce bonheur … il me semble qu'il
+
+m'attend … ici ! ici, où je ne suis cependant encore qu'un
+
+étranger ; ici, où j'ai déjà supporté des affronts ! …
+
+
+
+Ah ! Monsieur, pardonnez à mon oncle ! il m'a fait bien de la peine … mais il a cru que, comme militaire, votre devoir était de vous rendre au-devant du général Tilmont ;  et pourquoi n'y pas aller ? 
+
+ (Bonaparte fait de nouveau un mouvement de refus.)
+
+			<div type="poem">
+				<lg><stage type="tune">AIR : Vaudeville de la Haine d'une femme. </stage>
+				
+					VICTORINE. 
+					<l>Pour vaincre votre résistance,</l>
+					<l>Faut-il prendre un air solennel ?</l>
+					<l>Que n'ai-je, en cette circonstance,</l>
+					<l>La voix de votre colonel !</l>
+					<l>Si, par un ordre, il le réclame,</l>
+					<l>Vous obéirez aujourd'hui …</l>
+					<l>Moi je vous prie, et je suis femme… <stage type="repetition"> (bis.)</stage></l>
+					<l>Obtiendrai-je donc moins que lui ?</l>
+				</lg>
+			</div>
+
+
+
+BONAPARTE, avec embarras. 
+
+Mademoiselle …
+
+VICTORINE. 
+
+Vous me refusez ? 
+
+BONAPARTE. 
+
+L'état militaire nous défend une volonté autre que
+
+celle
+
+de notre chef. Aussi, je le sens, il est des momens où cet
+
+état devient pour moi un jong iosupportable. 
+
+VICTORINL. 
+
+A votre âge, avec des talens, il est d'autres carrières
+
+ouvertes devant vous ; car, quelle est l'existence d'un offi
+
+cier ? changeant sans cesse de place, ne formant des liens
+
+que pour les briser …
+
+BONAPARTE. 
+
+Cette position est affreuse, n'est-ce pas ? surtout pour
+
+moi, qui ai rêvé un bonheur calme et tranquille … Mes
+
+goûts sont simples ; l'étude, des occupations paisibles, une
+
+compagne adorée, heureuse par moi, comme je le serais
+
+par elle, voilà ce que j'ai rêvé … Ce rêve, il pourrait se
+
+réaliser encore ; 
+
+car cet objet de mon choix, celle qui, 
+
+pour la première fois m'a fait connaître l'amour, je l'ai
+
+  (27) 
+
+trouvée, je la vois, elle m'entend ; un mot de sa bouche
+
+pourrait me rendre le plus heureux des hommes ! …
+
+M'aime-t-elle ? … Vous ne répondez pas, Mademoiselle ? 
+
+VICTORINE, en souriant. 
+
+Je vous répondrai en allant ensemble au-devant du géné
+
+ral. 
+
+BONAPARTE, d'un ton froid et ferme. 
+
+Je n'irai pas, Mademoiselle. 
+
+Qu'il en soit ainsi, Monsieur. 
+
+VICTORINE, avec fierté. 
+
+ (Elle lui fait une révérence et sort par la porte à gauche.)
+
+SCÈNE X. 
+
+BONAPARTE, ensuite UN MARÉCHAL DES LOGIS
+
+D'ARTILLERIE. 
+
+BONAPARTE. 
+
+Elle me fuit ! elle me méprise, parce que j'obéis à un
+
+instint d'honneur, parce que je ne veox pointme courber
+
+devant un des oppresseurs de mon pays ! …
+
+LE MARÉCHAL DES LOGIS, entrant. 
+
+Je vous cherchais, mon lieutenant ; voici une lettre pour
+
+vous …
+
+elle est de Lyon. 
+
+BONAPARTE. 
+
+De Lyon ! … (Ouvrant la lettre.) De l'académie ! 
+
+LE MARÉCHAL DES LOGIS, 
+
+Mon lieutenant, on vient de sonner à l'ordre tout
+
+à-l'heure. Le régiment quitte Valence demain. 
+
+BONAPARTE, avec explosion. 
+
+ (Il sort.)
+
+J'ai le prix ! … Je ne m'étais donc pas abusé ? … j'ai du
+
+talent…
+
+Je
+
+romps tous les liens qui me gènent … je veux
+
+être libre ! … J'adopte une carrière où l'homme est tout
+
+par lui-même, où le mérite ne trouve pas la faveur à la
+
+traverse. Une plume, c'est une puissance aujourd'hui …
+
+Je défendrai les droits du peuple dans mes écrits, dans les
+
+journaux … Je dépose l'épée … je renonce … (On en
+· Il porle la main
+
+tend battre la générale dans le lointain, 
+
+  (28) 
+
+sur la garde de son épée, et s'arréle tout-à-coup.) La géné
+
+rale ! …
+
+ (On entend des cris tumultueux à l' térieur.-Bonaparte
+
+s'élance vers la porte et rencontre Delaunay.)
+
+
+		
+		
+				SCÈNE XI. 
+
+BONAPARTE, DELAUNAY. 
+DELAUNAY, accourant. 
+
+Entendez-vous ces cris ? … Le peuple se soulève ! …
+
+Comment ? 
+
+BONAPARTE. 
+
+DELAUNAY. 
+
+A l'imitation des braves Parisiens, il court aux armes ! 
+
+Ce matin, une partie seulement des nouvelles avait trans
+
+piré : on sait tout maintenant ! 
+
+
+		
+		
+			SCÈNE XII. 
+
+LORIS, BONAPARTE, Mme DU COLOMBIER, VIC
+
+				
+TORINE, COURVOLLE, DELAUNAY, OFFICIERS. 
+ (La générale bat en s'éloignant progressivement jusqu'au
+
+couplet de la Scène XIII. 
+
+mme du COLOMBIER, effrayée. 
+
+Qu'y a-t-il donc ? que se passe-t-il ? 
+
+DELAUNAY. 
+
+Les Gardes-Françaises se sont prononcées pour le peu
+
+ple … Une milice bourgeoise s'est organisée à Paris ; les
+
+clercs du Châtelet, ceux du Palais, les élèves en chirurgie, 
+
+toute la jeunesse, tous les bons citoyens, tout s'est armé. 
+
+LORIS. 
+
+Les bons citoyens ! … Il est devenu fou, ce pauvre De
+
+launay ! 
+
+DELAUNAY. 
+
+Aux Etats-Généraux, la noblesse fait cause commune
+
+avec le Tiers-Etat, et renonce à ses titres ! 
+
+ A ses titres ! 
+
+ (23) 
+
+COURVOLLE. 
+
+DELAUNAY. 
+
+La constitation sera faite ou nous ne serons plus ! s'est
+
+écrié le duc de Larochefoucauld ! … On a nommé pour
+
+vice-président de l'assemblée l'ami de Washington. 
+
+Lafayette ! 
+
+TOUS. 
+
+LORIS. 
+
+Ah ! ça, mais c'est fort carieax ! 
+
+DELAUNAY. 
+
+Enfin, les Parisiens se sont emparés de la Bastille. 
+
+De la Bastille ? 
+
+TOUS. 
+
+LORIS. 
+
+Diable ! … les gaillards ! …
+
+
+		
+		
+			SCÈNE XIII. 
+
+LES MÊMES, GERMILLY, entrant vivement et se plaçant à
+la gauche, entre Loris et Bonaparte. 
+
+GERMILLY. 
+
+Oui… un coup de tête ! … Eh bien ! s'il le faut, l'épée
+
+en décidera ! 
+
+BONAPARTE, jetant à ses pieds la lettre qu'il tient encore. 
+
+Oui, l'épée en décidera ! Honte à qui la quitterait dans un
+
+pareil inoment ! 
+
+Ce ne sera rien … c'est une révolte ! 
+
+GERMILLY. 
+
+
+Non, Monsieur, c'est une révolution ! 
+
+			<div type="poem">
+			<lg>	<stage type="tune">Air du Magistrat irréprochable. </stage>
+			
+					BONAPARTE, se tournant vers lui, et avec l'accent de la plus profonde conviction. 
+					
+				<l>Pour le salut de la grande famille,</l>
+					<l>Abjurons un lâche repos ;</l>
+					<l>Car le canon qui brisa la Bastille,</l>
+					<l>Trouvera partout des échos. <stage type="repetition"> (bis.)</stage></l>
+					<l>Près de nous, l'orage qui gronde,</l>
+					<l>Va réveiller le genre humain ;</l>
+					<l>La liberté fera le tour du monde,</l>
+					<l>Et la voilà qui se met en chemin.</l></lg>
+				
+			</div>
+
+ (Dès l'avant-dernier vers du couplet précédent, on a entendu de nouveau le bruit des tambours, les cris du peuple et quelques coups de fusil. — Tout le monde se groupe auprès de la fenêtre à gauche.  — Loris monte sur une chaise, pour mieux voir dans la rue.  — Bonaparte et Delaunay restent sur l'avant-scène, à droite.)
+
+			<div type="poem">
+				<lg><stage type="tune" id="AIR : Que chacun au roi soit fidèle !">AIR de M. Doche. </stage>
+			
+					GERMILLY. 
+					<l>Voyez-vous là bas sur la place,</l>
+					<l>Et ce peuple et ces bataillons ?</l>
+					<l>Le peuple va demander grâce.</l>
+				
+			
+					LES OFFICIERS. 
+					<l>Il faut combattre … Eh bien ! marchons !</l>
+				
+				
+					GERMILLY et COURVOLLE. 
+					<l>Armons-nous. <stage type="repetition"> (bis.)</stage> Guerre à mort à ce peuple rebelle !</l>
+				
+				
+					BONAPARTE et DELAUNAY, à part. 
+					<l>Ils ont dit : guerre au peuple … eh bien ! guerre aux tyrans !</l>
+				
+				
+					LES OFFICIERS, tirant leurs épées. 
+					<l part="I">Aux armes ! aux armes ! aux armes !</l>
+				
+			
+					BONAPARTE et DELAUNAY, bas. 
+					<l part="F">Aux armes !</l>
+					<l>Ami ! le peuple nous appelle,</l>
+					<l>Armons-nous, et guerre aux tyrans !</l>
+				
+			
+					CHŒUR, 
+					<l>Que chacun au roi soit fidèle,</l>
+					<l>Armons-nous et serrons nos rangs.</l>
+				
+					ENSEMBLE. 
+				
+						BONAPARTE et DELAUNAY. 
+						<l>Ami ! le peuple nous appelle.</l>
+						<l>Armons-nous, et guerre aux tyrans !</l>
+					
+				
+						CHŒUR. 
+						<l>Que chacun au roi soit fidèle !</l>
+						<l>Armons-nous, et serrons nos rangs !</l></lg>
+					
+				
+			</div>
+
+ (Courvolle, Germilly et les officiers sortent tumultueusement par le fond.-Bonaparte et Delaunay sortent ensemble par la droite.-Mad. du Colombier et Victorine sortent par la gauche, en témoignant la plus vive inquiétude.)
+FIN DU PREMIER ACTE. 
+
+	
+
+	
+
+PERSONNAGES DU 2me ACTE. ACTEURS. 
+
+BONAPARTE, Premier Consul de la République française…M. PERRIN. 
+
+DELAUNAY, rentier … M. HYPPOLITE. 
+
+LOR'S, capitaine de hussards … M. FONTENAY. 
+
+CABOURDIN, munitionnaire de l'armée d'Italie, … M. BERNARD-LÉON. 
+
+MICHEL, domestique de Madame du Colombier… M. ARNAL. 
+
+Mme DU COLOMBIER, rentière… Mme GUILLEMIN. 
+
+Mme DELAUNAY, femme de Delaunay … Mme THÉNARD. 
+
+OFFICIERS EE L'ÉTAT-MAJOR DU PREMIER CONSUL. 
+
+UN MAMELUCK. 
+
+UN DOMESTIQUE. 
+
+
+La Scène se passe à Valence, chez Delaunay. 
+
+  (33) 
+
+0000000000000000000 
+
+
+
+		ACTE DEUXIÈME. 
+
+Le Théâtre représente le même salon qu'au premier acte ; mais
+
+l'ameublement en a été changé. Les rideaux sont blancs ; la
+
+porte du fond est vitrée ; le portrait de Louis XVI a été rem
+
+un
+
+placépar
+
+Arcole. 
+
+tableau de bataille, sur le cadre duquel on lit :. 
+
+D **
+
+
+
+			SCÈNE PREMIÈRE. 
+
+DELAUNAY, soul, marchant d'un air agité, une lettre à la
+main. 
+
+Loris est ici ! 
+
+il vient raffermir ma résolution chance
+
+lante… il n'hésitera pas, lui ! … Depuis quatre jours à
+
+peine, j'ai quitté Paris, et déjà il m'apporte cette fatale
+
+missive, qui me somme de tenir mon serment, Mon ser
+
+ment ! … j'ai pu le prononcer ! et je suis époux et père ! … 
+
+Ma Victorine ! que deviendra-t-elle ? Victorine ! à qui je
+
+n'ai jamais pu cacher une seule pensée de mon âme ! dois. 
+
+je donc lai apprendre ? … Qui vient la ? 
+
+
+		
+
+			SCÈNE II. 
+
+DELAUNAY, MICHEL
+MICHEL
+
+C'est moi, Monsieur, n'ayez pas pepr ! 
+
+DELAUNAY, d'un air préoccupé. 
+
+Où est ma femme ? 
+
+MICHEL. 
+
+Elle est sur la terrasse, qu'elle promène sa mère ; car
+
+Bonaparte. 
+
+5
+
+ vous savez que depuis que c'te pauvre Madame du Colom
+
+ (34) 
+
+bier est devenue aveugle …
+
+DELAUNAY. 
+
+C'est bon ! …
+
+
+
+C'est bon ! c'est bon ! ce n'est déjà pas si bon ; surtout pour moi, qui suis chargé de la conduire partout, qui suis son Antigone … comme elle dit quelquefois à sa fille …Enfin, elle me paie pour ça … Cependant il y a quelque chose qui m'embarrasse. 
+
+			<div type="poem">
+				<lg><stage type="tune">Air de l'Écu de six francs. </stage>
+			
+					Michel, à part. 
+					
+					<l>Tantôt c'est mes yeux qu'ell' consulte,</l>
+					<l>Tantôt elle s'appui' sur moi ;</l>
+					<l>De ces deux choses il résulte</l>
+					<l>Qu'je n' sais plus quel est mon emploi. <stage type="repetition"> (bis.)</stage></l>
+					<l>Cert' tous les états sont honnêtes ;</l>
+					<l>Mais j'veux savoir, dans la maison,</l>
+					<l>Si j'suis r'gardé comme un bâton,</l>
+					<l>Ou bien comme un' pair' de lunettes.</l></lg>
+				
+			</div>
+
+
+DELAUNAY. 
+
+Que me veux-tu ?  
+
+MICHEL. 
+
+Monsieur, c'esť qu'on dit comme ça que le premier
+
+consul, qui arrive directement de la bataille de Marengo, 
+
+passe à Valence ce matin … (Mouvement de Delaunay.) et
+
+comme je n'ai pas le plaisir de le connaître, ni madame
+
+du Colombier non plus, si vous vouliez, j'irais y faire un
+
+tour, voir les troupes … pour me faire une idée de la
+
+guerre…
+
+et pour que madame du Colombier s'en fasse
+
+une idée aussi ; parce que ni moi, ni madame du Colom
+
+bier nous n'avons pas la moindre idée …
+
+DELAUNAY, avec impatience. 
+
+Va-t-en ! 
+
+MICHEL. 
+
+Oui, Monsieur, j'y vais. Merci. 
+
+
+
+
+			SCÈNE III. 
+
+LES MÊMES, VICTORINE, entrant par la gauche. 
+… VICTORINE, à Delaunay. 
+
+Te voilà, mon ami, tu es seul ? 
+
+ i 35) 
+
+MICHEL, qui croit que c'est à lui qu'elle s'adresse. 
+
+Non, Madame, Monsieur me tenait compagnie ; mais
+
+puisque vous voilà …
+
+ : (Il sort.)
+
+VICTORINE. 
+
+Que viens-je d'apprendre ? … M. de Loris est arrivé ? 
+
+Ce matin. 
+
+DELAUNAY… 
+
+VICTORINE. 
+
+Que j'aurais de plaisir à le revoir ! car depuis bientôt
+
+sept ans que nous sommes mariés, à peine si nous avons
+
+revu un seul de nos anciens amis ; tous ont été dispersés. 
+
+Les uns ont émigré, les antres sont dans les armées. 
+
+Loris est de ces derniers. 
+
+DELAUNAY. 
+
+VICTORINE, avec la plus grande surprise et en riant. 
+
+Militaire ? lui ? l'abbé de Loris ? 
+
+DELAUNAY. 
+
+Je l'ai retrouvé à Paris. 
+
+VICTORINE. 
+
+ (Il soupire.)
+
+Mais qu'as-tu donc, mon ami ? Depuis ton retour auprès
+de nous, je ne te reconnais plus. Tu es sombre, silen
+
+cieux ; qu'as-tu ? 
+
+DELAUNAY, lui prenant la main. 
+
+Ma Victorine ! 
+
+VICTORINE. 
+
+T'a m'effraies ! Ah ! cette odieuse politique va-telle venir
+
+encore troubler notre bonheur ? Maudit soit celui qui, 
+
+le
+
+premier, mit dans ton cœur ce sentiment fatal de pa
+
+triotisme ! 
+
+DELAUNAY. 
+
+Tu semblas pourtant applaudir toi-même au caractère
+
+indompté de ce jeune Léon. 
+
+VICTORINE. 
+
+Léon ? … Oui, ce fut lui ! … Qui sait si ce caractère si
+
+fier ne s'est pas démenti ? peut-être a-t-il déjà déserté la
+
+cause de la nation ! Tous ces officiers d'artillerie étaient si
+
+entichés de leur noblesse ! … Presque tous ont émigré …
+
+Mais qu'importe ? … Es-tu donc menacé de quelque mal
+
+heur ? 
+
+  (36) 
+
+DELAUNAY, d'une voix concentree. 
+
+Oui, j'ai là un poids affreux qui m'oppresse, qui me
+
+tue … un secret …
+
+VICTORINE, d'un air de reproche. 
+
+Pour moi ! Ah ! …
+
+DELAUNAY. 
+
+Tu vas le connaître … et cependant que penseras-tu de
+
+moi ? 
+
+Parle ! 
+
+je t'écoute. 
+
+VICTORINB. 
+
+DELAUNAY. 
+
+Depuis long-temps je suis affilié, ta le sais, à la société
+
+des Théophilantropes
+. 
+
+VICTORINE, 
+
+Cette société compte dans son sein des hommes hono
+
+rables. 
+
+DELAUNAY, vivement. 
+
+Il est vrai ; et si ses principes ne l'étaient pas, je ne les
+
+eusse point adoptés … Mais parfois, mon amie, un principe, 
+
+quelque noble qu'il soit … peut entraîner … et la fata
+
+lité.,. 
+
+Mais quel désordre dans tes idées ! …
+
+VICTORINE. 
+
+DELAUNAY, après avoir regardé autour de lui. 
+
+Apprends tout. Un jour, nous étions réunis en petit
+
+nombre … Parmi nous, se trouvaient de ces hommes ri
+
+gides, enthousiastes, emportés, qui, sans hésiter, sacri
+
+fieraient leur vie à leur croyance politique. On parla de
+
+Bonaparte. A son retour d'Egypte, nous avions admiré ses
+
+talens, son génie, le prestige de gloire dont il avait su
+
+nous éblouir ; mais le voile était tombé. Sous ses faux sem
+
+blans de républicanisme, nous devinâmes son ambition
+
+9
+
+plus grande encore que son génie. La nation abusée, qui
+
+l'éleva sur le pavois, ne vit en lui qu'un chef, nous y vîmes
+
+un maître : il avait renversé le Directoire qui l'avait élevé ; 
+
+nous résolûmes de le renverser à son tour. 
+
+ 
+
+Quel rêve d'insensés ! … Que pouvez-vous contre ce héros ? 
+
+			<div type="poem">
+				<lg><stage type="tune">Air d'Yelva. </stage>
+				
+					VICTORINE, effrayée. 
+					
+					<l>De tels projets ne sont qu'une chimère,</l>
+					<l>Voulez-vous tous vous briser contre lui ?</l>
+					<l>Lorsqu'aujourd'hui la France, libre et fière,</l>
+					<l>S'enorgueillit d'être son noble appui.</l>
+				
+					DELAUNAY, prenant le bras de sa femme, et à demi-voix. 
+					
+					<l>Sur cette liberté nouvelle,</l>
+					<l>Long-temps peut-être encore il s'appuiera ;</l>
+					<l>Mais c'est en s'appuyant sur elle,</l>
+					<l>Qu'un jour sa main l'écrasera.</l></lg>
+				
+			</div>
+
+
+VICTORINE. 
+
+Et quand cela serait, qu'y pouvez-vous ? Pour renverser le premier consul, avez-vous des armées à lui opposer ? 
+
+DELAUNAY, d'une voix mal assurée. 
+
+Un seul bras peut suffire …
+
+Qu'as-tu dit ? 
+
+VICTORINE, avec horreur. 
+
+
+
+
+Ah ! tu ne sais pas tout…
+
+			<div type="poem">
+				<lg><stage type="tune">AIR : Le choix que fait tout le village. </stage>
+			
+			
+					DELAUNAY, au désespoir. 
+					
+					<l>Oui, l'autre jour, au milieu de nos frères,</l>
+					<l>J'ai de ma voix appuyé ce dessein ;</l>
+					<l>Mais parmi nous, républicains sévères,</l>
+					<l>On chercherait en vain un assassin.</l>
+					<l>Pour accomplir la mission sanglante,</l>
+					<l>On invoqua le décret du hasard ;</l>
+					<l>Et c'est … frémis ! … dans cette main tremblante,</l>
+					<l>Que le destin a placé le poignard.</l>
+					<l ana="unanalyzable">Oui, c'est, hélas ! dans, etc.</l></lg>
+				
+			</div>
+
+
+
+VICTORINE, se cachant la figure de ses mains. 
+
+Ah ! que je suis malheureuse ! 
+
+DELAUNAY, la prenant dans ses bras. 
+
+Ma Victorine … ne m'accable pas ! … j'ai déjà assez de
+
+combats à soutenir ! … (S'éloignant de sa femme.) Je ne
+
+pourrai jamais ! … et cependant je l'ai jure ! …
+
+VICTORINE, se rapprochant de Delaunay. 
+
+Tu l'as juré ? toi ! si bon, si sensible ! … Tu avais donc
+
+  (38) 
+
+oublié la femme et ton enfant ? … Tu as juré de frapper un
+
+grand bomme, up héros, celui qui, pour la seconde fois, 
+
+vient de sauver la France… (D'un lon prophétique.) Ah ! 
+
+crois-moi, l'exécration du monde poursuivra ceux qui cau
+
+seront sa mort ! 
+
+DELAUNAY. 
+
+Fatal entraînement ! un moment d'enthousiasme a tout
+
+fait. Aujourd'hui, la victoire de Marengo le ramène dans
+
+nos murs, sa gloire nouvelle accroîtra encore l'exaltation
+
+populaire ; la liberté est perdue … (D'un air découragé.)
+
+Eh bien ! qu'un autre … (Revenant à lui.) Cependant je l'ai
+
+juré ! … et ce capitaine Loris ! …
+
+VICTORINE. 
+
+Eh bien ! ce Loris ? …
+
+DELAUNAY. 
+
+Sous son apparence de légèreté, d'insouciance, il cache
+
+une haine profonde contre le premier consul, qu'il n'a même
+
+jamais va, car il arrive de l'armée du Rhin ; mais l'esprit
+
+jaloux du chef a passé dans tous les rangs de cette armée. 
+
+VICTORINE, avec inquiétude. 
+
+Et ce Loris connaît ta position ? 
+
+DELAUNAY. 
+
+Il la partage, (Mouvement de Victorine.) et ne vient ici
+
+que pour me surveiller, m'affermir, me seconder ! 
+
+Grand dieu ! 
+
+VICTORINE. 
+
+LORIS, dehors. 
+
+Eh corblea ! j'espère que votre maitresse est visible, à
+
+présent ! 
+
+Le voici … Victorine … de la prudence. 
+
+DELAUNAY. 
+
+
+		
+		
+			SCÈNE IV. 
+
+VICTORINE, LORIS, DELAUNAY. 
+UN DOMESTIQUE, annonçant. 
+
+Monsieur le capitaine de Loris ! 
+
+LORIS, gaiement. 
+
+Mon ami, je vous fais grâce de la particule ; prenez-la
+
+pour vous, si vous voolez, je vous la donne. (Le domestique
+
+  (59) 
+
+sort.) Madame ! je suis ravi de pouvoir renouveler connais
+
+sance avec vous. Tout a bien changé depuis que nous ne nous
+
+sommes vus, tout, jusqu'à mon costume, comme vous
+
+voyez. 
+
+VICTORINE, avec une politesse froide. 
+
+J'étais prévenue de votre arrivée, Monsieur. 
+
+LORIS. 
+
+J'avais déjà vu Delaunay, mais l'heure ne m'a pas été
+
+favorable pour me, présenter devant vous ; nous n'avons
+
+plus nos entrées au petit lever des dames. (Bas à Delau
+
+nay.) Il est à Valence, je viens d'en recevoir la nouvelle. 
+
+ (Haut.) J'ai été pour faire visite à nos ancieus amis ; mais
+
+que le diable me mette en fourrière, si j'en ai rencontré un
+
+seul, excepté ce Cabourdin, que j'ai aperçu ce matin … Je
+
+sais que Germilly et Courvolle sont en Allemagne ; mais les
+
+autres, ont-ils donc tous émigré ? 
+
+DELAUNAY. 
+
+Plusieurs sont morts …
+
+De peur ? 
+
+Non ! à l'armée ! 
+
+LORIS, vivement. 
+
+DELAUNAY. 
+
+VICTORINE, avec une intention marquée. 
+
+D'autres, moins glorieusement, compromis dans des
+
+conspirations …
+
+LORIS. 
+
+Ah ! quand on perd la partie, il faut payer … que ce soit
+
+de sa tête ou de sa bourse ; le tout est d'être bon joueur, et
+
+de cacher son jeu … Mais pardon, Madame, je n'ai pas en
+
+core vu la bonne maman du Colombier : j'ai appris avec
+
+peine qu'elle avait perdu la vue ; mais morbleu ! le cœur
+
+suffit pour reconnaître ses amis…
+
+
+		
+		
+			SCÈNE V. 
+
+VICTORINE, Mme DU COLOMBIER, conduite par un
+domestique, et entrant par la porte à gauche ; LORIS, 
+
+DELAUNAY. 
+
+Mme DU COLOMBIER. 
+
+Le cour, dites-vous ? … pas tout-à-fait, mais l'oreille …
+
+  (40) 
+
+et je reconnais votre voix, … Non, je ne me trompe pas, 
+
+c'est M. de Loris. 
+
+Lui-même ! 
+
+LORIS, en riant. 
+
+Mme DU COLOMBIER. 
+
+Eh ! mon cher abbé, venez donc m'embrasser. 
+
+Bien volontiers, mainan du Colombier. 
+
+LORIS. 
+
+Mme DU COLOMBIER. 
+
+Ce pauvre abbé ! 
+
+ (Sentant le shakos de Loris.) Ah ! mon
+
+ (Il l'embrasse.)
+
+dien ! qu'est-ce qne c'est que ça ? 
+
+Eh bien ! c'est mon shakos, 
+
+LORIS. 
+
+Mme DU COLOMBIER. 
+
+Comment ? les abbés portent des shakos, à présent ? 
+
+DELAUNAY. 
+
+Non, ma mère ; mais M. de Loris est aujourd'hui dans un
+
+régiment …
+
+Troisième bouzards ! 
+
+LORIS, articulant fortement. 
+
+M m e
+
+DU COLOMBIER. 
+
+Ah ! … je comprends. On a rétabli les aumôniers, j'en
+
+suis bien aise …
+
+
+
+Fi donc ! je suis capitaine, capitaine de houzards ; mais abbé ou militaire, je suis toujours le même, corbleu ! bon vivant et franc républicain. 
+	
+			<div type="poem">
+				<lg><stage type="tune">Air des Frères de lait. </stage>
+			
+					LORIS. 
+					<l>Rien n'est changé, croyez-en ma parole,</l>
+					<l>Je suis toujours de la divinité</l>
+					<l>Prêtre fervent ; mais changé d'idole :</l>
+					<l>La mienne, c'est la liberté,</l>
+					<l>J'ai pris l'habit à son culte affecté.</l>
+					<l>Au lieu de mouche, employant la moustache,</l>
+					<l>Mon teint bruni, du ciel reçoit son fard ;</l>
+					<l>Pour chapelet, j'ai pris la sabredache,</l>
+					<l>Et pour soutane, un dolman de houzard.</l></lg>
+				
+			</div>
+
+
+  (41) 
+
+M** DU COLOMBIER. 
+
+Tout cela est bien singulier… mais rous vivons dans un
+
+temps plus singulier encore. Dites-moi, l'abbé …
+
+Capitaine …
+
+LORIS, impatiente. 
+
+Mme DU COLOMBIER. 
+
+Oui … oui … Capitaine, dites-moi, qu'est-ce que le
+
+pape a dû penser …
+
+LORIS. 
+
+Allons, le pape à présent ; que diable venez
+
+VOUS me
+
+parler de votre pape ! … le pape ! le pape ! … il n'est plus
+
+mon général en chef. 
+
+… j'en ai eu dix autres depuis ce
+
+temps-là. 
+
+MMÅ DU COLOMBIER. 
+
+Allons, allons, ça vous fâche…, n'en parlons pas. Vic
+
+torine ! condais-moi sur ma terrasse ; veux-tu ? 
+
+VICTORINE, lui prenant le bras. 
+
+Bonne mère ! 
+
+Mme DU COLOMBIER. 
+
+Au revoir, monsieur l'abbé … Viens, Victorine. (A part.)
+
+Quel changement ! chanoine au troisième de hussards …
+
+Ah ! mon dieu ! mon dieu ! …
+
+LORIS, à part. 
+
+Chanoine, à présent … Que le diable emporte la vieille, 
+
+avec ses papes et ses chanoines ! (Se rapprochant vivement
+
+de Delaunay.) C'est demain qu'il quitte Valence. Vous
+
+sentez-vous du cœur ? 
+
+DELAUNAY. 
+
+N'avait-il pas d'abord été question de l'enlever …
+
+LORIS, d'un air railleur. 
+
+A nous deux ? au milieu de son armée ? … Une belle af
+
+faire ! 
+
+DELAUNAY. 
+
+Mais, vous même, ne m'avez-vous pas assuré qu'au milien
+
+de cette armée, nous comptions des amis ? … (L'orchestre
+
+exécute piano l'air da Muletier. – Delaunay s'inter ompt
+
+tout-à-coup.) Silence, voici quelqu'un. 
+
+Bonaparte. 
+
+6
+
+  (42) 
+
+
+		
+		
+			SCÈNE VI. 
+
+			DELAUNAY, LORIS, BONAPARTE, conduisant
+
+				
+Mm. DU COLOMBIER, VICTORINE. 
+VICTORINE. 
+
+Quoi, bonne maman ! vous ne le reconnaissez pas ? 
+
+BONAPARTE. 
+
+C'est un ancien ami, qui s'est ressoavena de Valence. 
+
+Mme DU COLOMBIER. 
+
+Attendez … cette voix ! …
+
+VICTORINE. 
+
+Il est resté si peu de temps près de pous ! … C'était le
+
+jour où l'on nous apprit que la Bastille …
+
+BONAPARTE. 
+
+Devinez …
+
+Mme DU COLOMBIER. 
+
+M'y voilà ! … C'est M. Léon !, … 
+
+BONAPARTE. 
+
+Oui ! c'est moi-même. 
+
+Mme DU COLOMBIEN, avec joie. 
+
+ (La musique cesse.)
+
+Comment, c'est vous, mon petit ami ? … Vous le voyez, 
+
+ce ne sont pas les plus longues connaissances qui sont les
+
+meilleures ; car vous n'avez fait que passer parmi nous. 
+
+BONAPARTE. 
+
+Oui, bonne madame du Colombier ; je n'ai point oublié, 
+
+cependant le bon accueil que j'ai reçu ici, et je viens en
+
+core vous en remercier. On aime ses souvenirs de jeu-, 
+nesse. 
+
+M m e
+
+DU COLOMBIER : 
+
+Je pensais que vous nous aviez mis de côté, comme les
+
+antres, ou que vous aviez péri. On s'est tant baltu sur le
+Rhin, en Egypte, en Italie ! …
+
+BONAPARTE. 
+
+Eh bien ! me voici … et je n'ai oublié personne. 
+
+DELAUNAY. 
+
+Vous arrivez à la suite du premier consul, Monsieur ? 
+
+BONAPARTE, le regardant fixément. 
+
+Oai, M. Delaunay ! 
+
+  (43) 
+
+DELAUNAY, surpris. 
+
+Vous me reconnaissez ? Vous avez une mémoire …
+
+BONAPARTE, 
+
+Assez fidèle ; on le dit. 
+
+LORIS, en riant, 
+
+Et moi, mon officier ? 
+
+Mme DU COLOMBIER. 
+
+C'est l'abbé de Loris. 
+
+ (Mouvement d'impatience de Loris, qui tourne subitement
+
+le dos.)
+
+VICTORINE. 
+
+Pardon, M. Léon ; mais puis-je vous demander si le sort
+
+vous a été favorable ? 
+
+. 
+
+BONAPARTE, en souriant, 
+
+Mais … je n'ai point à me plaindre. 
+
+VICTORINE
+
+Vous aviez des goûts si simples ! … Vous occupez-vous
+
+toujours de littérature ? 
+
+BONAPARTE. 
+
+D'histoire ; oui, Mademoiselle. 
+
+Mademoiselle ? Vous ne savez donc pas ? elle est mariée ; 
+
+O DU COLOMBIER. 
+
+elle a épousé Delaunay. 
+
+LORIS, à Delaunay, en battant son briquet. 
+
+On peut fumer à la fenêtre, n'est-ce pas ? 
+
+ (Il ouvre la fenêtre à gauche, et se met à fumer. Delaunay
+
+33' ! …, 
+
+est près de lni.)
+
+Mme " Pt COLOMBIER. 
+
+Aujourd'hui je jouis de leur bonheur, quoique je n'en
+
+puisse être le témoio. Je suis devenue aveugle … ou trop
+
+tôt ou trop tard ; car il s'est passé de bien tristes choses
+
+depuis que nous ne nous sonimes vus …
+
+BONAPARTE. 
+
+Rassurez-vous ; espéronsqu'aujourd'hui, Dieu protège la
+
+France. 
+
+
+
+			<div type="poem">
+				<lg><stage type="tune">AIR : Muse des bois. </stage>
+			
+					MAD. DU COLOMBIER, 
+					<l>J'ai vu ces jours de terreur, de souffrance,</l>
+					<l>Mes yeux ouverts pleuraient sur nos destins ;</l>
+					<l>Quand un ciel pur vint briller sur la France,</l>
+					<l>Las de pleurer, mes yeux se sont éteints.</l>
+					<l>Ainsi du sort j'essuie un double outrage !</l>
+					<l>Le ciel devait, par pitié pour mes ans,</l>
+					<l>Fermer mes yeux pendant les jours d'orage,</l>
+					<l>Ou me les rendre au retour du beau temps.</l></lg>
+				
+			</div>
+
+
+LORIS, à part. 
+
+Elle est anacréontique, la bonne mère ! Et le tabac de ce pays-ci ne vaut pas le diable ! 
+
+ (Il vide sa pipe, et se retourne vers Bonaparte.)
+
+MME DU COLOMBIER. 
+
+Ma fille ! conduis-moi à mon fauteuil. 
+
+ (Vietorine fait asseoir madame du Colombier sur le fau
+
+teuil à droite, et s'assied près d'elle.)
+
+LORIS. 
+
+Il y a long-temps que vous servez, Monsieur ? 
+
+Quatorze ans. 
+
+BONAPARTE. 
+
+LORIS. 
+
+Vous êtes déjà mon ancien. Toujours dans l'artillerie ? 
+
+belle arme ! très-belle arme ! Avez-vous fait la campagne
+
+d'Egypte ? 
+
+Oui. 
+
+BONAPARTE. 
+
+LORIS. 
+
+Vous êtes donc revenu avec Bonaparte ? 
+
+Oui. 
+
+BONAPARTE. "
+
+Etiez-vous à Arcole ? 
+
+99 ; 5 : 6, 1, 07
+
+BONAPARTE, 
+
+Suriniai
+
+LORIS. 7
+
+, 5
+
+3iii. 
+
+Oui. 
+
+
+
+Touchez là ! … Moi j'arrive de l'armée de Rhin et Moselle. 
+
+			<div type="poem">
+				<lg><stage type="tune">AIR : J'en guette un petit de mon âge. </stage>
+				
+					LORIS, lui tendant la main, 
+					
+					<l>Je fus toujours dans le nord de la France ;</l>
+					<l>Car, à Jemmappe, en chargeant les houlans,</l>
+					<l>De Dumouriez, officier d'ordonnance,</l>
+					<l>Je combattais près d'un fils d'Orléans,</l>
+				
+		
+					DELAUNAY, avec surprise. 
+					<l part="I">Un d'Orléans !</l>
+				
+		
+					LORIS. 
+					<l part="F">Brave, par parenthèse,</l>
+					<l>Par maint exploit son bras se signala.</l>
+				
+		
+					BONAPARTE. 
+					<l>Je n'en suis pas surpris ; car celui-là</l>
+					<l>A toujours eu l'âme française.</l></lg>
+				
+			</div>
+
+
+C'est une brave armée, que cette armée du Nord. 
+
+LORIS. 
+
+Sans doute. Cela n'empêche pas que les grades et les faveurs pleuvent sur l'armée d'Italie, tandis que nous : ite ! missa est ; nous sommes sous le parapluie. 
+
+BONAPARTE. 
+
+C'est une prévention que je crois mal fondée. 
+
+Ah ! corblea ! je sais bien ce que je dis. 
+
+LORIS. 
+
+BONAPARTE. 
+
+A quelle cause attribueriez-vous cette injustice ? 
+
+***
+
+LORIS. 
+
+Cela vient de ce que nous n'avons pas un …. un Bona
+
+parte pous nous commander. Jourdan et Moreau ont des
+
+talens, mais ils n'entendent rien à l'intrigue. 
+
+BONAPARTE. 
+
+Vous êtes sévère, Monsieur. 
+
+LORIS. 
+
+Je suis juste. Bonaparte vise à la dictature … S'il a vaincu, 
+
+c'est grâce à cette brave armée d'Italie, qui l'a suivi jus
+
+qu'aux pieds des Pyramides. La victoire fat-elle due à lui
+
+seul ? corbleu ! pourquoi seal veut-il s'en réserver le prix ? 
+
+BONAPARTE. 
+
+Qui vous a dit que ce fût là son projet ? Quel est son
+crime ? est-ce d'avoir délivré la France de ce gouverne
+
+ment d'agioteurs et d'intrigans qui pesait sur elle ? la loi
+
+fut-elle jamais plus respectée, plus forte ? Après tant de
+
+secousses de convulsions, la république a besoin de repos : 
+
+elle l'aura ! et celui qui chercherait à le troubler, non-seu
+
+lement serait un insensé, mais un mauvais citoyen. 
+
+ VICTORINE, se levant avec vivacité, et allant vers Buna
+
+ ! 46) 
+
+Ah ! M. Léon, oui … vous avez dit vrai. 
+
+BONAPARTE. 
+
+parte. 
+
+On se plaint, on murmure, on conspire peut-être ! et
+
+quels sont les mécontens ? des ambitieux trompés, des
+
+monarchistes déguisés, des fapatiques, des songe-creux, des
+
+gens sans talens, qui, s'exagérant leur faible mérite, s'indi
+
+gnent de ne point se voir placés aux premiers postes de
+
+l'Etat ; tout cela s'ameute, s'agite, prend l'opinion de sa co
+
+terie pour
+
+celle de la France … (D'un ton plus solennel.)
+
+Qu'importe ? le temps et le bon sens du peuple en feront
+
+justice, 
+
+ĻORIS, avec brusquerie. 
+
+Corbleu ! Monsieur, permis à vous…
+
+MM, DU COLOMBIER, se levant, et allant vers Loris. 
+
+Allons, monsieur l'abbé, tout ce que vous avez dit là est
+
+intéressant… c'est fort intéressant ; mais devant des daines, 
+
+il ne faut pas trop long-temps parler politique. 
+
+Que vous avez bien fait de venir ! 
+
+VICTORINE, bas à Bonaparte. 
+
+Mme DU COLOMBIER, à Loris. 
+
+Discutons maintenant un point plus important … Vous
+
+déjeûnez avec nous, n'est-ce pas ?, .--M
+
+ : : 
+
+LORIS, 
+
+A la bonne bepre : Tope, maman du Colombier ; pourvu
+
+qu'il y ait du Champagne ! je veux faire émigrer deux bou
+
+chons à votre santé, mais ventrebleu ! ne m'appelez plus
+
+abbé … Tenez … tấtez ! … j'ai un sabre …
+
+ (Il lui met dans la main la poignée de son sabre.)
+
+5
+
+Mme DU COLOMBIEK. 
+
+Bien, bien, je tâcherai … (A Bonaparte.) Et vous
+
+mon
+
+jeúne ami, vous serez ides nôtres 2 : 51 !' ! 
+
+BONAPARTE. 
+
+#
+
+Mon repas est fait, Madame ; et je dois bientôt prendre
+
+congé de vous. 
+
+M "
+
+DU COLOMBIER. 
+
+Quoil déjà pous quitter ? 
+
+VICTORINE, bas à Bonaparte. 
+
+Restez encore ! je vous en supplie, 
+
+o
+
+ :, 
+
+1996 : 
+
+3 ! ! 
+
+-
+
+Mme DU COLOMBIER, à Victorine's
+
+Va, ma fille, va donner les ordres. (Victorine sort par la
+
+  (47) 
+
+droite. 
+
+A Bonaparte.) Votre visite nous a fait du bien, et
+
+les cartes me l'avaient annoncée ; cependant c'est la visite
+
+d'un ami qui nous arrivait, et les cartes semblaient nous
+
+annoncer celle d'un grand personnage …
+
+
+		
+	
+			SCÈNE VII. 
+
+DELAUNAY, CABOURDIN, LORIS, Mmé DU COLOM
+
+BIER, BONAPARTE. 
+ (Bonaparte est place à l'extrême droite, de manière à n'étre
+
+point vu de Cabourdin.)
+
+CABOURDIN, entrant. 
+
+Un grand personnage annoncé par les cartes ? c'est moi, 
+
+mes amis, me voilà …
+
+TOUS, excepté Bonaparte. 
+
+M. Cabourdin ! 
+
+Lui-même. 
+
+CABOURDIN. 
+
+Mme DU COLOMBIER. 
+
+Eh ! c'est notre maître de danse ! 
+
+CABOURDIN. 
+
+Fi donc ! C'est Cabourdin. Il y a une heure encore, mu
+
+nitionnaire de l'armée d'Italie, et pour le présent, rien du
+
+tout. 
+
+Vous aviez la place de munitionnaire ? 
+
+DELAUNAY, surpris. 
+
+LORIS, riant, 
+
+Pourquoi pas ? Il fallait un calculateur, ce fut un danseur
+
+qui l'obtint, comme dit Figaro. 
+
+CABOURDIN. 
+
+Aussi, c'est comme danseur que je l'avais eue. 
+
+Bah ! 
+
+LORIS. 
+
+CABOURDIN. 
+
+Oui ! j'avais donné des leçons de grâces à une déesse de
+
+la Raison, qui était la maitresse d'un représentant du peu
+
+ple …. 
+
+  (48) 
+
+LORIS. 
+
+Je comprends, je comprends. 
+
+ 
+
+Eh bien ! je suis destitué, mes amis, destitué par cet original de premier consul. Avez-vous jamais vu chose pareille ? il prétend que mes bordereaux sont trop forts, et mes bottes de foin trop faibles … C'est cependant le seul moyen d'établir une compensation. 
+	
+			<div type="poem">
+		<lg>		<stage type="tune">Air de Julie. </stage>
+					
+						CABOURDIN. 
+						<l>Pour obtenir une balance,</l>
+						<l>J'avais trouvé, je crois, le vrai moyen,</l>
+						<l>Et, quoiqu'en dise l'ordonnance,</l>
+						<l>Les chevaux s'en trouvaient très-bien.</l>
+						<l>D'accord ; que les lois nous contraignent</l>
+						<l>À mettre le poids à nos foins ;</l>
+						<l>Mais, de grâce, attendez du moins</l>
+						<l>Que les consommateurs se plaignent.</l>
+					</lg>
+				</div>
+
+
+LORIS. 
+
+Cependant, ordinairement les fournisseurs mettent trop de foin dans leurs bottes. 
+
+CABOURDIN. 
+
+Moi, c'est tout le contraire … mais je ne me tiens pas
+
+pour battu … Le premier consul est à Valeuce ; je vais à
+
+sa rencontre, et je lui dirai crûment son fait… ah ! ah ! 
+
+c'est que je ne me gêne pas avec lui. Lorsqu'il m'a fait venir
+
+au quartier-général, la veille de Marengo, il me dit : Citoyen
+Cabourdin ! vous êtes un …. 
+
+Je ne veux pas répéter l'ex
+
+pression devant Madame. 
+
+LORIS. 
+
+Et vous lui avez répondu vigoureusement ? 
+
+CABOURDIN. 
+
+Si je lui ai répondu vigoureusement ? je crois bien, que
+
+je lui ai répondu vigoureusement … c'est-à-dire, non, non, 
+
+pas ce jour là, parce qu'il m'a dit le mot en italien ; mais
+
+corbleu ! s'il me l'eûtdit en français ! oh ! s'il me l'eût dit en
+
+français … (Pendant la fin de cette phrase, Bonaparte s'est
+
+avancé un peu.-Cabourdin le reconnait, s'interrompt tout
+
+à-coup, ôte son chapeau, et se retire à la gauche du théâtre, 
+
+en donnant les signes de la plus grande stupéfaction.) C'est
+
+une trahison ! …. on prévient ; on n'expose pas un fonc
+
+  (49) 
+
+tionnaire à tomber dans le piège comme un lapin de ga
+
+renne. 
+
+Eh bien ! qu'avez-vous donc, M. Cabourdin ? 
+
+DELAUNAY. 
+
+ (Cabour din, sans répondre, reste comme pétrifié dans sori
+
+Mais qu'a-t-il donc ? 
+
+coin.)
+
+TOUS. 
+
+
+		
+		
+			SCÈNE VIII. 
+
+CABOURDIN, MICHEL, DELAUNAY, LORIS, 
+Mme DU COLOMBIER, BONAPARTE. 
+
+Eh bien ! j'ai tout vu … tout ! 
+
+MICHEL. 
+
+Qu'as-tu vu ? 
+
+LORIS. 
+
+MICHEL. 
+
+Je vous dis : tout. Y en avait-il, des soldats ? Enfin, ça
+
+ne fait que de finir. 
+
+Mme DU COLOMBIER. 
+
+Et le premier consul ? 
+
+MICHEL
+
+Je l'ai vu aussi, … Bel homme ! oh ! le bel homme ! …
+
+une figure …
+
+ (Bonaparte sourit à part.)
+
+LORIS. 
+
+Tu avais la vue troublée, mon garçon ; le premier consul
+
+est petit. 
+
+MICHEL. 
+
+Le premier consul est petit ? … oh ! non pas ; si on vous
+
+a dit ça, on vous a induit. 
+puis des grands pantalons ; des grosses épaulettes, des
+
+Il a trois grands plamets, et
+
+gros
+
+favoris … Il marchait à la tête … (Il imite l'allure préten
+
+tieuse d'un tambour-major.) C'était le plus beau. 
+
+LORIS, en riant. 
+
+A pied, n'est-ce pas ? … une grosse canne à la main ? 
+
+MICHEL
+
+Avec une grosse pomme d'argent … une canne superbc …
+
+Bonaparte. 
+
+7
+
+  (50) 
+
+qui a dû lui coûter bonne … Il la jetait en l'air. ö. comme
+
+ça … et puis il la retenait de là … (Il figure tous les mou
+
+vemens, et finit par rester en position, la maia gauche sur
+
+la hanche, et le bras doit en l'air.) Ah ! c'est un bien bel
+
+homme ! 
+
+Est-il bele ! …
+
+CA BOURDIN, à part. 
+
+MICHEL, qui a entendu Cabourdin. 
+
+Hein ? … s'il est béte ? … Je ne sais pas ; je n'ai pas causé
+
+avec lui … (Apercevant Bonaparte.) Ab ! 
+
+CABOURDIN, à parl. 
+
+Est-ce qu'il le reconnaît ? 
+
+MICHEL, désignant Bonaparte. 
+
+Il me semble avoir eu le plaisir de voir Monsieur ce ma
+
+tin, défiler au cortége. (A part.) Je le reconnais : c'était le
+
+plus mal mis. (Haut.) Bonjour, Monsieur ; j'ai bien l'hon
+
+neur de vous saluer. 
+
+me DU COLOMBIER. 
+
+Allons, mon pauvre Michel, je vois qu'avec de bons
+
+yeux on peut mal voir … ça me console … Va l'informer
+
+si l'on va servir. 
+
+ (Michel sort.) Et mon petit officier, où
+
+est-il ? 
+
+LORIS, à madanie du Colombier. 
+
+Par le flanc gauche. 
+
+Près de vous, Madame. 
+
+BONAPARTE, s'avançant. 
+
+Mme DU COLOMBIER. 
+
+Comment ? vous ne voulez pas déjeûner ? 
+
+CABOURDIN. 
+
+Si fait … déjeûnons ! 
+
+ (Delaunay et Loris causent ensemble, et sont placés de ma
+
+nière à ne point voir bonaparte, qui cause avec madame
+
+du Colombier.-Bonaparte fait un geste impératif, pour
+
+ordonner à Cabourdin de sortir.-Cabourdin seul a vu ce
+
+mouvement, et s'éloigne.)
+
+CABOURDIN, à part. 
+
+Oh ! despote ! va ! … mais je reviendrai … Il s'agit de
+
+réparer ma bévue … vne glissade en arrière, trois si sol, 
+
+et une échappée ! 
+
+ (Il sort en sautillant.)
+
+  (51
+
+
+
+	
+			SCÈNE IX. 
+
+LES MÊMES, excepté CABOURDIN. 
+LORIS, bas à Delaunay. 
+
+Vous
+
+voyez qu'il est temps' Déjeûnons vite et bien … et
+
+in manus tuas, Domine ! Allons ! … quoi ! hésitez-vous en
+
+core ? 
+
+DELAUNAY, avec intention. 
+
+Non ! non ! je n'hésite plus ! 
+
+
+		
+		
+			SCÈNE X. 
+
+LES MÊMES, MICHEL, dans le fond. 
+Le déjeaner est servi ! 
+
+Très-bien ! corbleu ! 
+
+MICHEL
+
+LORIS. 
+
+Mme DU COLOMBIER, à Bonaparte. 
+
+Vous ne partirez pas sans nous dire adieu. 
+
+ (A Loris.)
+
+Donnez-moi le bras, monsieur l'ab …. 
+
+LORIS, l'interrompant vivement. 
+
+Capitaine donc ! ventrebleu ! 
+
+Mme DU COLOMBIER. 
+
+Capitaine, capitaine, c'est juste …
+
+ 
+
+			<div type="poem">
+			<lg>	<stage type="tune">AIR : Amis, amis, le soleil va paraître. (de la Muette.)</stage>
+			
+					ENSEMBLE. 
+					<l>Amis, amis, la table nous appelle ;</l>
+					<l>Par l'amitié chacun est invité,</l>
+					<l>Et chacun doit, républicain fidèle,</l>
+					<l>Porter un toast à notre liberté !</l>
+				</lg>
+			</div>
+
+
+ (Tout le monde sort, excepté Bonaparte.)
+
+  (52) 
+
+
+		
+	
+			SCÈNE XI. 
+
+BONAPARTE, seul. 
+ (C'est ici seulement que Bonaparte de'boutonne sa redingotte, 
+
+et laisse apercevoir l'uniforme qu'il porte en dessous. =
+
+Il place sa main droile dans son gilet, la gauche dans la
+
+poche de son habit, et se promène d'un air pensif.)
+
+Ce capitaine Loris me paraît être un homme dangereux. 
+
+Il y a encore du prêtre sous cet uniforme… Je vise à la
+
+dictature, dit-il … La dictature ! à quoi bon ; pour un pou
+
+voir éphémère, affronter tant de haines et de périls ? non ! 
+
+si les faisceaux consulaires doivent m'échapper un jour, ce
+
+ne sont pas ceux de dictateur qui les remplaceront… La
+
+France commence à se lasser de toutes ces formes répu
+
+blicaines … et peut-être ! …. ín a prononcé ce dernier
+
+mot avec plus d'accent que le reste.-Il porte la main à
+
+son
+
+front, reste un instant dans cette position, et parait tout-à
+
+coup revenir à d'autres pensées.) Mais quelles idées me préoc
+
+cupent ? … Ici ! … où je n'ai connu autrefois que des rêves
+
+de paix, de tranquillité … d'amour même… (Souriant.)
+
+Qui, mon premier amour … Il a passé bien vite. N'im
+
+porte ! je me trouve à l'aise en ces lieux … j'y snis aimé, 
+
+et mon rang pourtant n'y est point connu, Partout quelque
+
+danger semble exister près de moi, ici je me sens calme…
+
+comme aux jours de ma jeunesse.' (Avec un sentiment de
+
+bonheur.) J'y crois encore être siniple lieutenant d'artille
+
+rie, et faire visite à mon ami Lariboissière …
+
+
+		
+	
+			SCÈNE XII. 
+
+BONAPARTE, VICTORINE, venant par la droite, 
+VICTORINE, s'approchant timidement, et paraissant agitée
+
+Monsieur Léon …'
+
+de la plus vive inquiétude. 
+
+1
+
+  (53) 
+
+BONAPARTE, se découvrant. 
+
+Ah ! … c'est vous, Madame. 
+
+VICTORINE. 
+
+J'avais besoin de vous trouver seul … de vous parler, 
+
+BONAPARTE, remettant son chapeau.-
+
+A moi ? … de quoi s'agit-il ? 
+
+VICTORINE. 
+
+De mon mari … de son repos, de son bonhear, 
+
+de son
+
+existence, peut-être …
+
+BONAPARTE. 
+
+Parlez, ne craignez point de vous confier à moi ; car je
+
+suis toujours resté votre ami. 
+
+J'aime à le croire ; et, après une si longue absence, la
+
+VICTORINE, avec effusion. 
+
+confiance sarnatorelle que vous m'inspirez, l'espèce d'en
+
+traînement qui me porte à vous ouvrir mon cœur, tout me
+
+semble être un avis secret da ciel. 
+
+BONAPARTE, lui prenant affectueusement la main. 
+
+Madame ! …
+
+VICTORINE. 
+
+Ah ! cet empire … cette espèce de fascination, vous l'avez
+
+exercée sur M. Delaunay lui-même… Aujourd'hui, seul, 
+
+yous pouvez peut-être le sauver de sa perte. 
+
+BONAPARTE. 
+
+Quelque grand malheur le menace-t-il ? 
+
+VICTORINE, à demi-voix, et avec force. 
+
+Lui ! … moi ! … la France, peut-être ! 
+
+BONAPARTE, avec un grand mouvement de surprise. 
+
+La France ! (Plus doucement.) Expliquez-vous. 
+
+VICTORINE. 
+
+Mais ce secret … car c'en est un ! … un bien grand ! …
+
+c'est à un ami … à un ami seul que je le confie … je puis
+
+compter sur son silence ? … Vous le jurez ? 
+
+BONAPARTE, après un moment d'hésitation. 
+
+Je vous le jure. 
+
+VICTORINE. 
+
+Eh bien ! ce premier consul, ce Bonaparte, dont, avec
+
+tant de sympathie, je vous ai entendu justifier la conduite, 
+
+on conspire contre lui. 
+
+  (54) 
+
+ ! 
+
+BONAPARTE, reculantd'un pas, et avec un mouvement de co
+
+lère, qu'il réprime aussitôt. 
+
+Encore ? …
+
+VICTORINE. 
+
+On lui reproche sa grandeur, la chûte du Directoire, son
+
+ambition, tout ! jusqu'à la mort de Désaix ! 
+
+BONAPARTE, avec horreur. 
+
+La mort de Désaix ? Atroce calomnie ! Ils ne veulent
+
+donc pas lai accorder un seal sentiment humain. Désaix ! 
+
+le brave, le vertueux Désaix, son ami, son compagnon
+
+d'armes, celui qui revint de l'Egypte où ils avaient com
+
+battu ensemble, pour le sauver à Marengo, il l'aurait tué ! 
+Pourquoi ? par ambition ? Un ambitieux brise-t-il ainsi les
+
+plus solides instrumens de sa
+
+gloire ? … un ambitieux
+
+n'a-t-il donc pas un cœur ? 
+
+VICTORINE. 
+
+Non, ils n'ont pu le croire ! mais il fallait contre Bona
+
+parte soulever les passions, les haines, égarer les âmes
+
+honnêtes … (Levant les yeux au ciel avec expression.) mais
+
+ardentes ! …
+
+BONAPARTE, d'un lon plus bref. 
+
+Et votre mari s'est laissé tromper ? 
+
+VICTORINE. 
+
+Un moment d'oubli, d'exaltation ! … Aujourd'hui, il dé
+
+plore son erreur. 
+
+Eh bien ? 
+
+BONAPARTE. 
+
+VICTORINE. 
+
+Il se croit enchaîné par un serment …mais vous saurez
+
+le dissuader. C'est vous qui, le premier, lai avez fait com
+
+prendre les maximes de la liberté ; vous êtes la cause pre
+
+mière de sa faute, vous l'empêcherez de l'achever ; il vous
+
+entendra, vous le détournerez de cet odieux projet. 
+
+Il
+
+est déjà presque convaincu pår moi … Mais un homme a
+
+toujours honte de céder, sur une question d'honneur, aux
+
+conseils d'une faible femme. 
+
+BONAPARTE. 
+
+Mais ceux-là qui l'ont entraîné dans leurs projets de bou
+
+leversemens, qui sont-ils ? … Vous ne répondez point ? …
+
+Ce capitaine, sans doute ? …
+
+  (55) 
+
+
+ 
+
+M. Léon, le nom des autres … le nom de ses complices … je ne le connais point … je ne dois point le connaître … Je vous ai livré le sort de mon mari … que cela vous suffise ! 
+
+			<div type="poem">
+				<lg><stage type="tune">AIR : Ce que j'éprouve en vous voyant. </stage>
+				
+					VICTORINE, avec dignité. 
+					
+					<l>Oui, c'est lui seul que je puis exposer ;</l>
+					<l>C'est un malheur pour lui, peut-être ;</l>
+					<l>De son secret vous voilà maître,</l>
+					<l>Et dussiez-vous en abuser,</l>
+					<l>Je me suis cru le droit d'en disposer.</l>
+					<l>Sur l'avenir je me rassure.</l>
+					<l>Si, quand j'implore votre appui,</l>
+					<l>Je le compromets aujourd'hui,</l>
+					<l>Il pardonnera, j'en suis sûre ;</l>
+					<l>Car s'il meurt, je meurs avec lui. <stage type="repetition"> (bis.)</stage></l>
+				
+					
+		
+
+
+BONAPARTE. 
+
+Je parlerai à M. Delaunay, Madame … non pas aujourd'hui …
+
+VICTORINE, avec une espèce d'garcment. 
+
+Aujourd'huimême… à l'instant ! … Demain, peut-être, 
+
+il ne serait plus temps ! 
+
+BONAPARTE, surpris. 
+
+Quoi ! 
+
+VICTORINE. 
+
+C'est à Valence qu'ils doivent …
+
+BONAPARTE. hors de lui. 
+
+Les misérables ! … (Il s'éloigne rapidement de Victorine, 
+
+se croise les bras avec indignation, et parcourt le théâtre à
+
+grands pas. 
+
+Victorine suit des yeux tous ses mouvemens
+
+el reste immobile, comme frappée de stupeur.) Et ils seraient
+
+épargnés ! … (Il se promène vivement sur le devant de la
+
+scène, tandis que Victorine qui s'est reculée sur un plan plus
+
+éloigné, conserve son immobilité.) Et ils seraient épar
+
+gnés ! … Ainsi donc, partoutdes conspirateurs … Tous, 
+
+ils ont juré la perte du premier consul… Eh bien ! tous, 
+
+ils seront forcés de se courber devant lui ! 
+
+ (Il coniinue à marcher. 
+
+Victorine a constamment les yeux
+
+fixés sur lui. 
+
+) 
+
+  (56) 
+
+
+
+
+			SCÈNE XIII
+
+LES MÊMES, CABOURDIN, entrant par le fond, une lettre
+à la main. 
+
+CABOURDIN. 
+
+Ah ! mon dien ! il est là ! en tête-à-tête … (A Victorine, 
+à demi-voir.) Madame ! … Je suis horriblement compro
+
+mis ! 
+
+VICTORINE, sans le regarder. 
+
+Que voulez-vous ? 
+
+CABOURDIN. 
+
+Mais, lui remettre ce petit placet … Et puisque vous êtes
+
+si bien avec lui …
+
+VICTORINE, 
+
+méme jeu. 
+
+Ce placet ? … A qui ? …
+
+CABOURDIN, désignant Bonaparte. 
+
+An général … Ça peut rétablir mes affaires. 
+
+VICTORINE, étonnéc. 
+
+Au général ? 
+
+CABOURDIN. 
+
+Je crois qu'il est de bonne humeur … profitez-en. 
+
+ (Il sort par la droite.)
+
+
+	
+			SCÈNE XIV. 
+
+BONAPARTE, VICTORINE. 
+VICTORINE, à part. 
+
+Il est général ! … (Jelant les yeux sur l'adresse du pla
+cet.) Grand dieu ! (Lisant.) « Au citoyen, premier con
+
+ » sul, le général Bonaparte, » Est-ce bien à lui qu'elle s'a
+
+dresse ? (Elle s'avance avec résolution vers Bonaparte, et
+
+lui présente le placet, en consultant avec inquiétude les re
+
+gards du consul.) Voici une lettre. 
+
+BONAPARTE, après avoir regardé la suscription. 
+
+Une lettre pour moi ? 
+
+ (Il la décachette vivement.)
+
+  (57) 
+
+VICTORINE, en poussant un čri. 
+
+C'est lui ! … (Tombant à ses pieds avec l'accent du dé
+
+sespoir.) Grâce ! grâce ! … Mon mari est perdu ! 
+
+BONAPARTE, cherchant à la retenir : 
+
+Que faites-vous, Madame ? 
+
+ 
+
+Ah ! général ! 
+
+			Même air que le couplet précédent ; mais beaucoup plus vite. 
+				
+					VICTORINE. 
+					<l>Son crime, sans doute, est bien grand ;</l>
+					<l>Si vous parlez, il perd la vie !</l>
+					<l>C'est moi, c'est moi qui vous supplie</l>
+					<l>De conserver un père à mon enfant.</l>
+					<l>Ah ! conservez un père à mon enfant !</l>
+					 (Elle tombe tout-à-fait à genoux.)
+					<l>Songez, hélas ! que cette pauvre femme,</l>
+					<l>Dans un ami, crut trouver un soutien.</l>
+			
+					BONAPARTE, avec dignité. 
+					<l>J'ai promis le secret… Eh bien !</l>
+					<l>Votre ami seul sait tout, Madame ;</l>
+					<l>Mais le consul n'en saura rien,</l>
+					<l>Non, Madame, il n'en saura rien.</l>
+				
+					VICTORINE, levant les mains d'un air suppliant. 
+					<l>De grâce ! qu'il n'en sache rien !</l>
+				</lg>
+			</div>
+
+
+ (Elle sanglotte, et saisit avec transport les mains de Bonaparte, qui essaie vainement de la relever.)
+
+Ah ! voyez mes larmes ; elles sont de reconnaissance, d'admiration ! 
+
+
+
+		
+			SCÈNE XV. 
+
+
+LES MÊMES, LORIS, puis DELAUNAY, venant par la
+droite. 
+
+LORIS, apercevant Victorine aux pieds de Bonaparte. 
+
+Qu'est-ce à dire ? … Eh bien ? 
+
+DELAUNAY, entrant, 
+
+Monsieur ! qñe sigaifie ? … Oubliant les droits sacrés de
+
+Bonaparte. 
+
+8
+
+  (58) 
+
+l'hospitalité … (A Victorine avec fermeté, mais sans
+
+brusquerie.) Eloignez-vous, Madame. 
+
+VICTORINE, à part, avec une inquiétude marquée. 
+
+M'éloigner ! …
+
+BONAPARTE, à Victorine. 
+
+C'est à moi de mettre votre honneur à couvert. (A De
+
+launay.) Ne vous hâtez pas, Monsieur, de former des
+
+sonpçons injurieax ni snr moi, ni sur elle ! L'épouse de
+
+M. Delaunay n'a rendu hommage ici qu'au caractère dont
+
+je suis revêtu ; car je suis …
+
+VICTORINE, se précipitant entre lui et Loris. 
+
+Ah ! non ! non ! de grâce ! …
+
+BONAPARTE, en souriant. 
+
+Que craignez-vous ? … que pouvez-vous craindre ? …
+
+ (Il l'éloigne doucement, et prend sa place auprès de Loris.)
+
+Ai-je donc un danger à courir ? Je ne le crois pas. Depois
+
+long-temps je sais lire dans le cœur des hommes ; je sais
+
+que, parfois, dans l'effervescence d'un patriotisme mal
+
+compris, on promet plus qu'on ne peut tenir ; mais, tels
+
+qui ont juré la perte d'un homme indignement calomnié… 
+
+du chef de l'Etat … Si cet homme se présentait et qu'il
+
+leur dit : Vous conspirez au nom de la patrie ? … Où donc
+
+est le mandat dont elle vous a chargé ? Si le peuple est
+
+opprinié, si le peuple souffre, pourquoi ne se lève-t-il pas
+
+contre son oppresseur ? seul le peuple a la force, seal il a
+
+le droit. Pensez-vous, par un crime de plus assurer la gloire
+
+de la France ? Si vous le pensez, je suis devant vous ; car
+
+le premier consul, Napoléon Bonaparte, c'est moi ! 
+
+Lui ! 
+
+DELAUNAY, à
+
+part. 
+
+ (Delaunay et Loris paraissent stupéfaits, et se regardent
+
+sans
+
+rien dire.)
+
+faits, 
+
+BONAPARTE. 
+
+L'oseriez-vous frapper ? (Victorine se place vivement
+
+devant Bonaparte, comme pour lui faire un rempart de son
+
+corps. — Bonaparte l'éloigne avec dignité.) Vour le voyez
+
+bien, Madaine, ils ne l'oseront pas. (Å Delaunay, qui
+
+parait être dans la plus grande confusion.) M. Delaunay ! 
+
+je ne croyais point pouvoir garder l'incognito chez vous ; 
+
+l'occasion seule a tout fait …
+
+ xamen 15
+
+ (59) 
+
+DELAUNAY, passant devant Loris, et se rapprochant de
+
+Bonaparte. 
+
+Ah ! vous pouviez vous y présenter sous votre véritable
+
+nom ; mon hôte m'eût toujours été sacré ! … (Avec inten
+
+tion, en regardant Loris.) il me le sera toujours. 
+
+Je le crois …
+
+BONAPARTE. 
+
+LORIS, à part. 
+
+Allons, en voilà encore une de manquée ! … La liberté
+
+est morte … et voilà celui qui conduira le convoi ! … Le
+destin est
+
+lui ! …
+
+pour
+
+BONAPARTE. 
+
+Quant à vous, capitaine Loris …
+
+LORIS, au salut militaire. 
+
+Général ! …
+
+BONAPARTE. 
+
+Vous vous êtes plaint du peu d'avancement qu'il y avait
+
+dans les armées du Nord ? …
+
+LORIS. 
+
+Oh ! manière de conversation. 
+
+BONAPARTE. 
+
+Je vous fournirai l'occasion de vous distinguer. La vic
+
+toire d'Héliopolis a, de nouveau, rendu Kléber maître de
+
+l'Egypte : il faut qu'un message important lui parvienne à
+
+travers la croisière Anglaise. Vous en chargerez-vous ? 
+
+LORIS, d'une voix ferme. 
+
+Oui, général. 
+
+BONAPARTE. 
+
+Un navire vous attend à Toulon … Si votre traversée
+
+est heureuse, Kléber se charge de vous ; si les Anglais
+
+vous attaquent …
+
+LORIS. 
+
+La victoire ou la mort ! … Je comprends … (A part.)
+
+Ibi morieris ! Psaume soixante, verset quatorze. 
+
+
+
+			SCÈNE XVI ET DERNIÈRE. 
+
+LES MÊMES, Mme DU COLOMBIER, MICHEL, puis
+CABOURDIN. 
+
+ (On entend dans le lointain une musique militaire, qui exé
+
+cute l'air : Veillons au salut de l'Empire.)
+
+Mme DU COLOMBIER, conduite par Michel. 
+
+Ah ! mon dieu ! mon dieu ! … Est-ce bien vrai ce que
+
+  (60) 
+
+vient de me dire le maître de danse ? … Quoi ! mon petit
+
+officier d'artillerie, c'est le premier consul ? …
+
+MICHEL. 
+
+Pas possible ! 
+
+VICTORINE-avec une expression de bonheur. 
+
+Oui, bonne mère ! 
+
+BONAPARTE, luiprenant la main. 
+
+Oui, madame du Colombier. 
+
+MICHEL
+
+Bah ! … f A parto) Et ils appellent ça un grand homme ? 
+
+L'autre était mieux. 
+
+CABOURDIN, arrivant et se glissant, sans étre vu de Bona
+
+parle, jusqu'auprès de Victorine. 
+
+Et mon placet ? … (L'apercevant à terre.) Oh ! à terre ! 
+
+Il ne l'a seulement pas lu … C'est égal, 
+
+j'y mettrai une
+
+autre enveloppe, et nous verrons…
+
+VICTORINE, qui entend la musique plus rapprochée. 
+
+Qu'est-ce que cela ? 
+
+CABOURDIN. 
+
+Vous ne savez donc pas ? … il y a déjà des soldats plein
+
+la cour. 
+
+ (Bonaparte aperçoit Cabourdin et lui fait de nouveau un signe
+
+impératif pour lui ordonner de sortir.)
+
+Encore ! … Oh ! despote, va ! 
+
+CABOURDIN. 
+
+Mme DU COLOMBIER, à Bonaparte. 
+
+ (Il sort.)
+
+Premier consul ? … Ah ! vous souvenez-voas de ma pré
+
+diction ? … Je vous avais promis une. ó. 
+
+BONAPARTE, à demi-voix, et l'interrompant vivement. 
+
+Silence ! 
+
+ (Aussitôt que Bonaparte a prononcé ce dernier mot, la mu
+
+sique se fait entendre avec plus de force. 
+
+ – La porte du
+
+fond s'ouvre, l'état-major, composé de généraux, d'offi
+
+ciers de tous grades, et d'un mameluck paraissent dans le
+
+fond. 
+
+Tout le monde s'incline. 
+
+Bonaparte salue, et
+
+le rideau tombe, au moment où le premier consul dis
+
+paraít.)
+
+		
+
+FIN DU DEUXIÈME ET DERNIER ACTE. 
+
+	
+
+ CARACTÈRES ET COSTUMES DES PERSONNAGES DU 1er ACTE. 
+
+NAPOLÉON BONAPARTE. (Caractère sérieux ; mais qui doitlaisser percer quelquefois l'impétuosité du jeune homme.)
+
+Habit long queue de morue, poche en large, veste et culotte bleu-clair, paremens et colet de velours noir, passe-poils rouges, retroussis rouges, avec fleurs de lys en or, bottes à revers foncés, attachées aux boutons de culotte, épée, chapeau à trois cornes, cocarde blanche. 
+
+Le Comte DE GERMILLY. (Caractère hautain, avec l'aisance de la bonne compagnie.)
+
+Habit de velours plein, gilet brodé, culotte de soie noire,  bas de soie blancs, souliers à boucles de brillans, perruque poudrée à bourse. 
+
+L'abbé DE LORIS. (Caractère léger, de la gaité, une prononciation affectée, manières prétentieuses.)
+
+Habit complet d'abbé. 
+
+DELAUNAY. (Caractère grave, un débit posé, sans affectation.)
+
+Habit de ville noir, dessous noir, boucles d'argent, perruque à la conseillère. 
+
+Le Marquis DE COURVOLLE. (Manières élégantes, habitude du monde.)
+
+Habit de cavalerie vert, à longues basques, revers, paremens, colet et retroussis jonquille, culotte de casimir blanc, bas de soie, boucles d'or, perruque poudrée, à queue, aiguillettes et épaulettes du grade. 
+
+CABOURDIN. (Imbécille, tout entier à son art, prenant souvent des poses, et sautillant au lieu de marcher.) 
+
+Habit de soie gorge de pigeon, culotte de nankin, gilet blanc carré à franges, bas chinés, souliers à boucles d'argent, large perruque poudrée à crapaud, une pochette à la main. 
+
+Mad. DU COLOMBIER : (Caractère simple et bon.) 
+
+Petit bonnet à bec, de vieille ; perruque poudrée, robe retroussée et jupon de Perse à falbalas de mousseline blanche, festonés. Bouffants sur le col, très-petit fichu ponceau, mitaines noires et bracelets, collier de velours noir et un Saint-Esprit en diamans. Souliers de soie, rayés. 
+
+VICTORINE DU COLOMBIER. (Caractère gai, beaucoup d'enjouement et d'ingénuité.) 
+
+Robe d'organdi, deux volans, dessous de percale, corsage à pointe, fichu demi-menteur, manches plates jusqu'au coude, et manchettes ; gants blancs, bracelets de velours noir, avec plaques d'or, perruque poudrée à grand chignon, une rose et un ruban rose sur la tête. Souliers pointus à talons, en satin noir. 
+
+Six OFFICIERS DE CAVALERIE. Même uniforme que le marquis de Courvolle, épaulettes de différens grades. 
+
+Un MARÉCHAL-DES-LOGIS. D'ARTILLLERIE, Même uniforme que Bonaparte, un galon d'argent sur le bras, grandes guêtres
+noires. 
+
+ Costumes du deuxième Acte. 
+
+BONAPARTE. Habit de petite tenue des chasseurs à cheval, gilet blanc carré, à boutons pareils, pantalon blanc collant,  bottes à revers fort longs et tombant, éperons blancs, col noir,  redingotte grise par-dessus l'uniforme, gants jaunes, cheveux longs par derrière, petit chapeau sans ganse avec une très-petite cocarde tricolore. 
+
+DELAUNAY. (Caractère plus sombre qu'au premier acte.) 
+
+Redingotte longue couleur brun rouge, à larges revers tombant vers les épaules, gilet blanc dont les revers tombent sur ceux de la redingotte, pantalon gris de perle, colant, avec un gros nœud de jarretière, bottes à revers à grands tirants, perruque poudrée à queue. 
+
+LORIS. (Manières brusques d'un vieux soldat.)
+
+Dolman et pantalon bleu-ciel, pelisse rouge, bottes galonnées, perruque à tresses sur les tempes et à queue. 
+
+CABOURDIN. 
+
+ (Même caractère ; mais plus d'aplomb qu'au premier acte.) 
+
+Habit bleu, large, à boutons d'or, gilet blanc, à grands re
+
+vers tombant sur l'habit, pantalon de casimir chamois, bottes à
+
+la hussarde avec éperons et glands d'argent, ceinturon de cuir
+
+noir par dessus le gilet, grand sabre de cavalerie légère, cra
+
+vatte noire forthaute avec passepoil blanc, perruque dite à oreilles
+
+de chien, poudrée, queue fort longue, terminée par une houppe, 
+
+chapeau-claque très-grand, à glands d'argent. 
+
+x
+
+MICHEL. (Niais.)
+
+Habit vert pomme, forme Jocrisse, gilet d'indienne croisé, 
+
+culotte grise, bas blanc, perruque poudrée à rouleaux sur les
+
+tempes et à queue. 
+
+Mad. DU COLOMBIER. Bonnet monté de satin blanc, avec
+
+mentonnière, tour pondre à tire-bouchons, robe de soie brune
+
+à demi-queue, et à manches longues, fichu de linon en dedans, 
+
+et par dessus un grand fichu de gaze-mousseline garni de den
+
+telle, souliers noirs, 
+
+Mad. DELAUNAY. Robe en gros de Naples gris, demi-queue, 
+
+taille courte, corsage plat et décolleté, garni d'un petit tulle
+
+manches três-courtes, gants longs passes-coudes jaunes, petit
+
+fichu vert noué autour du cou, souliers plats un peu pointus, 
+
+coiffure avec grecque rouge derrière, cheveux relevés en tresse
+
+sur la tête, peu de cheveux sur le front, des tire-bouchous de
+
+chaque côté. 
+		</body>
+	</text>
+</TEI>

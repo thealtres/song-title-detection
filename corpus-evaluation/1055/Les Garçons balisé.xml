@@ -1,0 +1,4792 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LES GARÇONS ET LES GENS MARIÉS</title>
+                <title type="sub">COMÉDIE EN DEUX ACTES MÊLÉE DE COUPLETS</title>
+                <author key="DUM" sort="1">
+                    <name>
+                        <forename>Théophile Marion</forename>
+                        <surname>Dumersan</surname>
+                    </name>
+                </author>
+                <author key="BRA" sort="2">
+                    <name>
+                        <forename>Nicolas</forename>
+                        <surname>Brazier</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LES GARÇONS ET LES GENS MARIÉS</title>
+                        <author>DUMERSAN ET BRAZIER</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=oGBoAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>The British Library</repository>
+                                <idno type="URL">http://access.bl.uk/item/viewer/ark:/81055/vdc_100032985288.0x000001</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1832-11-03">3 NOVEMBRE 1832</date>
+                <placeName>
+                    <settlement>THÉÂTRE DU PALAIS-ROYAL</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                   <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            LES
+            
+            GARÇONS 5
+            
+            É t
+            
+            LES GENS MABIÉS, 
+            
+            COMÉDIE EN DEUX ACTES
+            
+            MÊLÉE DE COUPLETS, 
+            
+            k
+            
+            PAR MM. DUMERSAN ET BRAZIER. 
+            
+            REPRÉSENTÉE, POUR LA PREMIÈRE fois, 
+            
+            SUR LE THÉATRE DU PALAIS-ROYAL, 
+            
+            LE 3 NOVEMBRE 1832. 
+            
+            POO
+            
+            PRIX : 
+            
+            1 FR. 50 C. 
+            
+            : : 21…
+            
+            PARIS. 
+            
+            J.-N. BARBA, LIBRAIRE, 
+            
+            PALAIS ROYAL, GRANDE COUR, 
+            
+            DERRIÈRE LE ThéatrE PRANÇAIS. 
+            
+            1832
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            RIBOULEAU, garçon d'une cinquantaine
+            
+            d'années. 
+            
+            M M. PEILIPPE. 
+            
+            DUCHEMIN, son ami, autre garçon un
+            
+            peu plus vieux. 
+            
+            BOUTIN. 
+            
+            COQUET, bourgeois de Paris, 50 ans. 
+            
+            DORMEUIL. 
+            
+            JOLI, son cousin, 30
+            
+            ans. 
+            
+            AUGUSTE, neveu de Ribouleau. 
+            
+            LEVASSOR. 
+            
+            BEAU. 
+            
+            MADAME COQUET, 45 ans. 
+            
+            Mmes Tobi. 
+            
+            EULALIE, sa fille. 
+            
+            Lili-BOURGOIN. 
+            
+            MADAME JOLI, femme à prétentions, 25
+            
+            ans. 
+            
+            DucheMIN. 
+            
+            MANETTE, gouvernante de Ribouleau *. 
+            
+            COUTURIER. 
+            
+            ELISABETH, cuisinière de M * Coquet. 
+            
+            LECLERCO. 
+            
+            Deux COMMISSIONNAIRES dont un parlant. 
+            
+            UN GARÇON TRAITEUR. 
+            
+            * Ce rôle doit être joué par une Dugazon. 
+            
+            E
+            
+            T
+            
+            U
+            
+            S
+            
+            D
+            
+            E
+            
+            S
+            
+            La scène se passe à Paris dans le quartier du jardin des Plantes. 
+            
+            00
+            
+            Nota. Les personnages sont placés en tête de chaque scène comme ils doi. 
+            
+            vent l'être au théâtre : le premier occupe la gauche du spectateur. 
+            
+            IMPRIMERIE DE E. DUVERGER, 
+            
+            ROB DE VERNEUIL, Nº 4. 
+            
+            LES GARÇONS
+            
+            ET LES GENS MARIÉS, 
+            
+            COMÉDIE MÊLÉE DE COUPLETS. 
+            
+            ACTE I. 
+            
+            Un salon. Une porte à gauche qui est celle de la salle à manger ; trois porles
+            
+            au fond : celle du milieu pour le dehors, celle de gauche pour Eulalie, celle
+            
+            de droite pour M. Coquet. A droite, une cheminée sur laquelle est une
+            
+            pendule avec une cage de verre ; à gauche, au premier plan, une petite
+            
+            table. Deux fauteuils, quelques chaises. 
+            
+            1
+            
+            SCENE PREMIERE. 
+            
+            EULALIE *, ÉLISABETH, essuyant des verres de champagne, 
+            
+            près de la petite table à gauche du spectateur. 
+            
+            Il y a long-temps qu'ils n'ont servi, les verres à champagne ! 
+            
+            depuis deux ans que je suis ici, c'est
+            
+            la première fois qu'on
+            
+            ÉLISABETA, 
+            
+            donne un grand dîner. 
+            
+            EULALIE. 
+            
+            Dame ! mes parens ne sont pas riches, Élisabeth. 
+            
+            ELISABETH. 
+            
+            Ce n'est pas une raison ; aujourd'hui on donne des dîners
+            
+            pour le devenir. Mais quand on veut marier une fille, on met, 
+            
+            comme on dit, les petits plats dans les grands. Prenez donc
+            
+            garde, mam'selle, vous avez manqué de casser ce verre. 
+            
+            EULALIE, jetant la serviette. 
+            
+            1
+            
+            Ça m'ennuie d'essuyer comme ça. 
+            ÉLISABETH. 
+            
+            Il faut pourtant vous habituer au ménage. Il me semble que
+            
+            pour une jeune fille que l'on va marier vous n'êtes pas gaie du
+            
+            tout. 
+            
+            EULALIE. 
+            
+            Je crois bien ! épouser monsieur Ribouleau, un vieux garçon
+            
+            de cinquante ans. 
+            
+            * Elle a une petite robe de fantaisie, un tablier de soie qu'elle ôte pour sa
+            
+            seconde entrée. 
+            
+            1
+            
+            ÉLISABETA. 
+            
+            Comment donc ! un gros papa de bonne humeur, qui ne fait
+            
+            quc rire et chapter. 
+            
+            Ce sera bien amusant ! 
+            
+            BULALIE. 
+            
+            ELISABETH
+            
+            Et puis, vous ne me dites pas le fin mot. 
+            
+            Quoi ? 
+            
+            EULALIE, étonnée. 
+            
+            ÉLISABETH. 
+            
+            Est-ce que vous croyez que je n'ai pas vu que vous aiiniez
+            
+            monsieur Auguste, ce jeune horloger qui vient remonter les
+            
+            pendules ici et chez madame Joli. 
+            
+            EULALIE. 
+            
+            Monsieur Auguste ? 
+            
+            ÉLISABETH, l'imitant. 
+            
+            Oui, monsieur Auguste. C'est mal de me faire des cachote
+            
+            ries ; dans toutes les maisons ou j'ai servi, j'avais la confiance des
+            
+            jeunes personnes, et je ne disais jamais rien à leurs parens, 
+            
+            Chacun a sa petite politique, voyez-vous. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Et voilà comme tout s'arrange. </stage>
+            
+            
+                    <l>Recevoir le secret de l'un,</l>
+                    <l>Et ne jamais le dire à l'autre,</l>
+                    <l>Mon Dieu ! mam'selle, c'est bien commun</l>
+                    <l>Dans un siècle comme le nôtre.</l>
+                    <l>Ne penser qu'à son p'tit budget,</l>
+                    <l>Qu'on administre ou qu'on fricasse,</l>
+                    <l>Et ménager chaque intérêt,</l>
+                    <l>Qu'on soit cuisinière ou préfet…</l>
+                    <l>Voilà comme l'on reste en place.</l>
+                </lg>
+            </div>
+            
+            
+            EULALIE. 
+            
+            Ah ! ma pauvre Élisabeth, je suis bien malheureuse ! …
+            
+            ÉLISABETH. 
+            
+            Malheureuse ? vos parens vous adorent, 
+            
+            ils vous donnent
+            
+            tout ce que vous voulez. 
+            
+            EVLALIE
+            
+            Et même ce que je ne veux pas. Ce n'est pas moi qui leur ai
+            
+            demandé monsieur Ribouleau. 
+            
+            ÉLISABETA. 
+            
+' Il est vrai qu'il n'est pas beau, Je lui trouve un physique
+            
+            grotexe. 
+            
+            EULALIE, pleurant. 
+            
+            Je ferai tout pour ne pas être la femme de monsieur Ribou
+            
+            leau. Je n'en veux pas, ça ne sera pas. 
+            
+            5
+            
+            ELISABETA. 
+            
+            Allons, voilà qu'elle pleure à présent ! 
+            
+            EULALIE, pleurant plus fort. 
+            
+            Quand je le vois, je suis dans un étát…
+            
+            ÉLISABETH. 
+            
+            Voyons, ne faites pas l'enfant ; si inonsieur Auguste venait, 
+            
+            il verrait que vous pleurez. 
+            
+            Ça m'est bien égal ! 
+            
+            EULALIE, 
+            
+            ÉLISABETH. 
+            
+            Il se douterait que c'est à cause de lui ; ça lui donnerait de
+            
+            l'amour-propre, et les hommes n'en ont déjà que de trop. Te
+            
+            nez, le voilà. Essuyez vos yeux. 
+            
+            EULALIE. 
+            
+            Non : je veux qu'il voie que j'ai pleuré. 
+            
+            SCENE II. 
+            
+            ÉLISABETH, AUGUSTE, EULALIE. 
+            
+            AUGUSTE. 
+            
+            Mademoiselle Eulalie, j'ai l'honneur de vous présenter mes
+            
+            devoirs. Bonjour, Élisabeth ! 
+            
+            ÉLISABETH. 
+            
+            Bonjour, monsieur Auguste ! toujours exact. 
+            
+            AUGUSTE, ôtant le verre de dessus la pendule. 
+            
+            Un horloger doit être à la minute, (à Élisabeth.) Qu'est-ce
+            
+            qu'elle a donc, mademoiselle Eulalie ? 
+            
+            ÉLISABETH. 
+            
+            Nous avons le cæur gros. 
+            
+            AUGUSTE, s'approchant d'elle. 
+            
+            Vous avez pleuré, mademoiselle ? 
+            
+            ÉLISABETH. 
+            
+            Non, pon. 
+            
+            Si ; j'ai pleuré : pourquoi mentir ! 
+            
+            EULALIE, vivement. 
+            
+            Je le vois bien ; vous avez les yeux rouges. 
+            
+            AUGUSTE, 
+            
+            EULALIE, 
+            
+            Monsieur Auguste, vous pouvez, à dater d'aujourd'hui, par
+            
+            ler devant Elisabeth. Elle a ma confiance. 
+            
+            ÉLISABETH. 
+            
+            Oui : apprenez qu'on veut marier mam'selle. 
+            
+            AUGUSTE. 
+            
+            Dieu ! n'y a-t-il pas de moyen ? …
+            
+            Quelles sont vos intentions, jeune homme ? 
+            
+            ÉLISABETA, arec importance. 
+            
+            6
+            
+            AUGUSTE, timidement. 
+            
+            Mes intention's seraient de m'établir, et mon bourgeois m'a
+            
+            dit que si je trouvais huit à dix mille francs, il me recéderait
+            son fonds. 
+            
+            EULALIE. 
+            
+            Oui, mais celui que mes parens ont choisi me prend pour
+            
+            rien. 
+            
+            AUGUSTE. 
+            
+            Ah ! mademoiselle Eulalie… tâchez de retarder le plus que
+            
+            vous pourrez ! Je monte chez madame Joli… car si jen'arran
+            
+            geais pas sa pendule, elle jeterait de beaux cris. 
+            
+            ÉLISABETA. 
+            
+            Mon Dieu ! …' depuis quinze jours qu'elle a une pendule…
+            
+            elle la fait sonner bien haut. 
+            
+            AUGUSTE. 
+            
+            C'est mon horloger qui la leur a vendue ; ils le paient à tant
+            
+            par mois. 
+            
+            Élisabeta. 
+            
+            Je crois bien, Ça fait de l'embarras, et son mari a une place
+            
+            de deux mille francs à l'entrepôt des vins… (On entend madame
+            
+            Coquet dans la coulisse.) Mais j'entends madame qui monte. 
+            
+            AUGUSTE. 
+            
+            Mademoiselle Eulalie, pensez à moi…
+            
+            (Il sort.)
+            
+            Monsieur Augusle, ne m'oubliez pas…
+            
+            EULALIE. 
+            
+            SCENE III. 
+            
+            ELISABETH, UN COMMISSIONNAIRE, portant un panier, MADAME
+            
+            COQUET, EULALIE. 
+            
+            MADAME COQUET, entrant par la porte de gauche. 
+            
+            Par ici, par ici ; levez le pied, il y a un pas…
+            
+            LE COMMISSIONNAIRE. 
+            
+            N'ayez pas peur, la bourgeoise. 
+            
+            MADAME COQUET. 
+            
+            Posez ça là : voilà quatre sols. 
+            
+            LE COMMISSIONNAIRE. 
+            
+            Ah ! faire venir un homme du marché aux chevaux pour
+            
+            quatre sols ! …
+            
+            MADAME COQUET. 
+            
+            Quand je vais à la halle, pour six sols je reviens en om-'
+            
+            nibus. 
+            
+            LE COMMISSIONNAIRE. 
+            
+            Eh bien ! payez-moi comme un omnibus, 
+            
+            7
+            
+            MADAME COQUET. 
+            
+            Tenez, voilà vos deux sols : tout le monde aujourd'hui veut
+            
+            rouler dans l'or et dans l'argent. 
+            
+            Ce n'est pas pour moi que vous dites ça. Salut, la bourgeoise. 
+            
+            LE COMMISSIONNAIRE. 
+            
+            MADAME COQUET. 
+            
+            (Il sort.)
+            
+            Tenez, Elisabeth, voilà des prunes, des pêches, des poires ; 
+            
+            vous les arrangerez dans des assiettes, avec des feuilles de
+            
+            vigne. Et vous, Eulalie… pourquoi n'êtes-vous pas habillée ? …
+            
+            J'y allais, maman. 
+            
+            EULALIE. 
+            
+            MADAME COQUET. 
+            
+            J'espère que vous ne ferez pas la maussade devant monsieur
+            
+            Ribouleau. Vous savez quelles sont nos idées sur lui ? …
+            
+            Mais, maman…
+            
+            EULALIE. 
+            
+            MADAME COQUET. 
+            
+            Ne raisonnez pas, comme vous le faites toujours. 
+            
+            (Eulalie sort.)
+            
+            SCENE IV. 
+            
+            ÉLISABETH, MADAME COQUET. 
+            
+            MADAME COQUET. 
+            
+            L'horloger est venu, à ce que m'a dit la portière… Où est-il
+            
+            donc ? 
+            
+            ÉLISABETH. 
+            
+            Il vient de monter chez madame Joli. Il a bien arrangé la
+            
+            pendule, madame ; il est resté ici une grande demi-heure. 
+            
+            MADAMB Coquet, voyant le verre à côté. 
+            
+            Oui, il l'a bien arrangée : il n'a seulement pas remis le verre
+            
+            dessus. 
+            
+            C'est qu'il l'a oublié. 
+            
+            ÉLISABETH. 
+            
+            MADAME COQUET. 
+            
+            Cette bêtise ! … Certainement, c'est qu'il l'a oublié. (Elle
+            
+            écoute.) Ah ! çà, mais elle ne va pas, cette pendule. 
+            
+            ÉLISABETH. 
+            
+            Il aura peut-être oublié de faire aller le balancier. 
+            
+            Je suis très mécontente ; dernièrement il a cassé le verre, au
+            
+            MADAME COQUET. 
+            
+            jourd'hui il a oublié le balancier…
+            
+            8
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Qu'il est flatteur d'épouser celle. </stage>
+            
+            
+                    <l>Ce jeune homme a la tête folle !</l>
+                    <l>À quoi diable peut-il songer ?</l>
+                    <l>J'irai, j'en donne ma parole,</l>
+                    <l>Me plaindre chez mon horloger.</l>
+                    <l>C'est qu'à la fin c'est ridicule !</l>
+                    <l>Ce bel ouvrier me déplait :</l>
+                    <l>Depuis qu'il monte ma pendule,</l>
+                    <l>Je ne sait plus l'heure qu'il est.</l>
+                </lg>
+            </div>
+            
+            
+. 
+            
+            Et monsieur Coquet a-t-il été à la care ? …
+            
+            ÉLISABETH. 
+            
+            Non, madame, il lit le journal, que j'ai été chercher au ca
+            
+            binet littéraire vis-à-vis la Pilié. 
+            
+            MADAME COQUET. 
+            
+            C'est vous qui me faites pitié ; allez à votre cuisine. (Elle
+            
+            appelle.) Monsieur Coquet ! …
+            
+            ÉLISABETH, à part. 
+            
+            Elle est dans ses jours de rabachage… C'est monsieur qui va
+            
+            recevoir la bordée. 
+            
+            (Elle sort à gauche.)
+            
+            MADAME Coquet, appelant. 
+            
+            Monsieur Coquet ! 
+            
+            SCENE V. 
+            
+            MADAME COQUET, MONSIEUR COQUET. 
+            
+            COQUET, paraissant le journal à la main. 
+            
+            Me voilà… Qu'est-ce que tu veux, Clorinde ? …
+            
+            MADAME COQUET. 
+            
+            Déjà avec vos journaux ! … (Elle tire le journal et le déchire. 
+            
+            Ah ! tu as bien travaillé ; en voilà pour mes huit sols. 
+            
+            MADAME COQUET. 
+            
+            COQUET. 
+            
+            Avez-vous été chez le notaire prendre les renseignemens
+            
+            sur monsieur Ribouleau ? …
+            
+            Pas encore…
+            
+            COQUET. 
+            
+            MADAME COQUET. 
+            
+            Pas encore, pas encore… C'est toujours la même chanson. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville de Haine aux Femmes. </stage>
+            
+            
+                    <l>Vous êtes calme, et moi je bouts</l>
+                    <l>Lorsque je vois votre indolence ;</l>
+                    <l>Grand Dieu ! qu'il faut de patience</l>
+                    <l>Avec un mari comme vous !</l>
+                    <l>Je ne me plains jamais sans causes ;</l>
+            
+                    9
+            
+                    <l>Dès long-temps je vous connais bien :</l>
+                    <l>Vous commencez toujours les choses,</l>
+                    <l>Et vous ne finissez à rien.</l>
+                </lg>
+            </div>
+            
+            
+            COQUET, ricanant. 
+            
+            Je ne finis à rien… Clorinde, ça te plaît à dire…
+            
+            MADAME COQUET. 
+            
+            Si vous n'avez pas été chez le notaire, vous êtes monté chez
+            
+            la cousine Joli la prier de nous prêter sa cafetière de plaqué ? 
+            
+            Je rye suis pas sorti. 
+            
+            COQUET. 
+            
+            MADAME COQUET. 
+            
+            Il faut que je fasse tout ici ; que j'aille, que je vienne, que je
+            
+            crie, que je gronde votre cuisinière, votre fille… Vous ne m'ai
+            
+            deriez pas dans le plus petit détail ! 
+            
+            Coquet, élevant la voix. 
+            
+            Tu deviens despote. Ah ! ça, si je criais aussi ? 
+            
+            MADAME COQUET. 
+            
+            Criez, si vous voulez. 
+            
+            COQUET, criant. 
+            
+            Allons, en voilà assez. 
+            
+            MADAME COQUET. 
+            
+            Très bien ! continuez. Vous allez donner à notre gendre futur
+            
+            une belle idée du bonheur conjugal ; vous savez cependant tout
+            
+            le mal que j'ai eu pour le déterminer à renoncer au célibat. 
+            
+            COQPET, 
+            
+            Dame ! 
+            
+            il prétend qu'il n'y a de bonheur que pour les gar
+            
+            çons ; et au fait, je conçois cela…
+            
+            MADAME COQUET. 
+            
+            Comment ! vous concevez cela ? 
+            
+            COQUET. 
+            
+            Sans doute, ce cher Ribouleau ne peut pas apprécier ce qu'il
+            
+            ne connaît pas ; par exemple, s'il pouvait être témoin des char
+            
+            mes que nous goûtons chaque jour dans notre intérieur…
+            
+            MADAME COQUET. 
+            
+            Oui, 
+            
+            il verrait qu'avec vous il faut s'arıner d'une fière pa
+            
+            tience ; mais il ne s'agit pas de tout cela : j'ai vu les Joli, ils
+            
+            connaissent nos projets pour Eulalie ; je les ai invités à dîner
+            
+            avec nous… ils vont redoubler, devant Pibouleau, de soins et
+            
+            de tendresse l'un pour l'autre ; inoi, je lâcherai d'oublier com
+            
+            bien vous êtes bizarre, ennuyeux, maussade, eten voyant notre
+            
+            union et notre bon accord, il sera bien forcé de convenir que
+            
+            l'on n'est heureux qu'en ménage, et que ce qu'il peut faire de
+            
+            mieux c'est d'épouser au plus tôt votre fille. 
+            
+            Et tu t'imagines que tu pourras te contenir une journée en
+            
+            COQUET. 
+            
+            tière ? 
+            
+            Les Garçons. 
+            
+            10
+            
+            MADAME COQUET. 
+            
+            Monsieur Coquet, vous êtes un impertinent. 
+            
+            COQUET, se radoucissant. 
+            
+            Voyons, voyons, calme-toi ; il n'y a pas besoin que les voi
+            
+            sins nous entendent. On vient, j'entends quelqu'un… c'est le
+            voisin Ribouleau. 
+            
+            SCENE VI. 
+            
+            MADAME COQUET, RIBOULEAU, M. COQUET. 
+            
+            RIBOULEAU, gaiment, entrant par le fond. 
+            
+            Bonjour, les gens mariés. Eh bien ! mes amis, je me rends
+            
+            à votre invitation ; je viens assister chez vous au spectacle du
+            
+            bonheur conjugal. 
+            
+            COQUET. 
+            
+            Tu ne le connais pas encore, le bonheur conjugal. 
+            
+            RIBOULEAU. 
+            
+            Je le connaîtrai bientôt, puisque… mais je regretterai peut
+            
+            être ma vie de garçon. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : J'aime le son du canon. </stage>
+            
+            
+                    <l>C'est un bon état</l>
+                    <l>Que le célibat,</l>
+                    <l>Quoi qu'on en dise :</l>
+                    <l>Aussi, j'ai pris pour devise :</l>
+                    <l>Que c'est bon, bon, bon, <stage type="repetition"> (bis.)</stage></l>
+                    <l>De passer ses jours en garçon !</l>
+            
+                    <l>Libre et joyeux, dans ma demeure,</l>
+                    <l>Lorsque je veux sortir, je sors ;</l>
+                    <l>Si je veux rester, je demeure ;</l>
+                    <l>Et si je veux dormir, je dors.</l>
+                    <l ana="unanalyzable">C'est un bon état, etc.</l>
+            
+                    <l>Si Paris m'ennuie, au village</l>
+                    <l>Je vais m'asseoir sous un tilleul ;</l>
+                    <l>Et j'ai, s'il arrive un orage,</l>
+                    <l>Mon parapluie à moi tout seul.</l>
+                    <l ana="unanalyzable">C'est un bon état, etc.</l>
+            
+                    <l>Faisant la cour à mainte dame,</l>
+                    <l>Changeant d'objet comme de vin,</l>
+                    <l>Par le fait je n'ai pas de femme,</l>
+                    <l>Et si ça me plait j'en ai vingt.</l>
+                    <l ana="unanalyzable">C'est un bon état, etc.</l>
+            
+                </lg>
+            </div>
+            
+            11
+            
+            COQUET. 
+            
+            Ah ! tu reviendras de ces idées-là. 
+            
+            RIBOULEAU. 
+            
+            Possible. Si je trouve une personne aimable, douce, préve
+            
+            nante, je me risquerais comme tant d'autres ; c'est l'état de
+            
+            mari qui ine fait peur. 
+            
+            Pourquoi ? 
+            
+            MADAME COQUBT. 
+            
+            RIBOULEAU. 
+            
+            Parce que… il me semble que c'est un état mixte. 
+            
+            Mixte ? 
+            
+            Oui. 
+            
+            COQUET. 
+            
+            RIBOULEAU. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Depuis long-temps j'aimais Adèle. </stage>
+            
+            
+                    <l>Moi, par goût et par habitude,</l>
+                    <l>J'aime à savoir sur quoi compter ;</l>
+                    <l>L'hymen me paraît une étude</l>
+                    <l>Qui nous force à toujours douter.</l>
+                    <l>On sait avant de se mettre en ménage</l>
+                    <l>Que l'on est garçon tout-à-fait ;</l>
+                    <l>Au lieu qu'après le mariage</l>
+                    <l>On ne sait plus ce que l'on est.</l>
+            
+                </lg>
+            </div>
+            
+            MADAME COQUET. 
+            
+            Demandez à monsieur Coquet ; 
+            
+            il sait bien ce qu'il est, lui. 
+            
+            COQUET. 
+            
+            Oui, je suis heureux ; et en t'invitant à dîner, 
+            
+            j'ai voulu te
+            
+            faire jouir du tableau de mon bonheur. 
+            
+            RIBOULEAU. 
+            
+            Fort bien ; mais si j'ai accepté votre invitation, mes chers
+            
+            voisins, c'est à la condition que vous accepterez aussi la mienne ; 
+            
+            il est bien convenu que demain vous viendrez partager le dé
+            jeuner du célibataire, et vous serez obligés de convenir que si
+            
+            l'on goûte en ménage certaines jouissances, l'état de garçon ne
+            Jaisse
+            
+            pas d'avoir aussi ses agrémens et surtout son indépen
+            
+            dance. 
+            
+            COQUET. 
+            
+            Je ne serais pas éloigné de partager le système du voisin
+            
+            Ribouleau. 
+            
+            MADAME COQUET, à part. 
+            
+            Comme c'est adroit ce qu'il dit là ! 
+            
+            RIBOULEAU. 
+            
+            D'ailleurs, mes amis, au moment de terminer avec vous, il
+            
+            m'est bien permis de faire des petites réflexions. Je veux étudier
+            
+            ma future, savoir si nous sympathiserons ensemble. 
+            
+            12
+            
+            MADAME Coquet, avec prétention. 
+            
+            Quand on épouse une fille élevée par de bons parens, on est
+            
+            sûr d'avance…
+            
+            RIBOULEAU. 
+            
+            On n'est sûr de rien, voyez-vous. 
+            
+            COQUET. 
+            
+            Une jeune fille est un arbrisseau que l'on dirige à son gré. 
+            
+            RIBOULEAU. 
+            
+            Oui, c'est un arbrisseau : aussi, quand on se marie, il faut
+            
+            dire : arrive qui plante… (Il rit…) Ah ! ah ! ah ! Pardon, les gens
+            
+            mariés ! 
+            
+            SCENE VII. 
+            
+            MADAME JOLI, M. JOLI, RIBOULEAU, M. COQUET, 
+            
+            MADAME COQUET. 
+            
+            Voici la cousine Joli ! 
+            
+            COQUET. 
+            
+            MADAME JOLI, entrant par le fond. 
+            
+            Oui, j'apporte à ma cousine ma cafetière d'argent qu'elle
+            
+            m'a envoyé demander ce matin. 
+            
+            MADAMB COQUET, à part. 
+            
+            Elle apporte ça devant lui. 
+            
+            (haut et prenant la cafetière.)
+            
+            Merci, cousine… c'est que ma cafetière ne tient que six demi
+            
+            tasses. 
+            
+            Bonjour, le vieux garçon. 
+            
+            JOLI, à Ribouleau. 
+            
+            RIBOULEAU, lui frappant sur l'épaule. 
+            
+            Bonjour, le jeune marié. 
+            
+            MADAME JOLI. 
+            
+            Oh ! jeune marié ! bientôt deux ans ! 
+            
+            JOLI. 
+            
+            Mais nous nous aimons comme le premier jour. 
+            
+            MADAME JOLI, prenant le bras de son mari. 
+            
+            Je suis bien heureuse avec mon petit Joli. 
+            
+            JOLI. 
+            
+            Ma femme est si douce, si gentille ! Allons, Ribouleau, fai
+            
+            tes comme nous : inariez-vous. Cousin Coquet, j'ai encore
+            
+            parlé hier de ma petite cousine Eulalie à monsieur Ribouleau ; 
+            
+            il n'a pas dit non. 
+            
+            RIBOULEAU, riant. 
+            
+            C'est vrai ; mais je n'ai pas encore dit oui. 
+            
+            MADAMB JOLI. 
+            
+            Il faut le marier ; c'est dangereux dans une maison un gros
+            
+            célibataire comme ça ! 
+            
+            RIBOULEAU. 
+            
+            Oh ! oh ! dangereux… à cinquante ans…
+            
+            13
+            
+            MADAME JOLI. 
+            
+            Il y a des hommes qui sont encore fort agréables à cet
+            
+            age-la…
+            
+              
+            <div type="poem">
+                <lg>
+            RIBOULEAU. 
+            
+          <stage type="tune" id="AIR : Il est certains barbons."></stage>
+                    Oui ; comme dit la chanson : 
+            
+                    <l>« Il est certains barbons</l>
+                    <l>« Qui sont encor bien bons. »</l>
+                </lg>
+            </div>
+            
+            
+            MADAME JOLI, minaudant. 
+            
+            Ou est donc la petite cousine ? 
+            
+            MADAME COQUET. 
+            
+            Elle s'habille. 
+            
+            MADAME JOLI, avec intention. 
+            
+            Je trouve que depuis quelques mois elle se forme beaucoup, 
+            
+            Eulalie. 
+            
+            Un caractère égal. 
+            
+            JÓLI, de même. 
+            
+            MADAME COQUET, regardant Ribouleau. 
+            
+            Je crois que ça fera une bonne femme de ménage. 
+            
+            COQUET. 
+            
+            Fort soumise, très respectueuse pour les auteurs de ses
+            
+            jours. 
+            
+            JOLI. 
+            
+            Économne, entendue…
+            
+            Ça fait tout soi-même. 
+            
+            MADAME COQUET, 
+            
+            SCENE VIII, 
+            
+            LES MÊMES, EULALIE *. 
+            
+            EULALIE. 
+            
+            Me voilà, maman… tiens ! que de monde ! …
+            
+            Elle est gentille, il faut être juste. 
+            
+            RIBOULEAU, à part. 
+            
+            MADAME COQUET, avec humeur. 
+            
+            Comme vous êtes mal coiffée ! venez donc ici…
+            
+            EULALIE. 
+            
+            Dame ! ça n'est pas aisé de se coiffer toute seule ; aussi, 
+            
+            quand je serai mariée, j'aurai un coiffeur qui viendra tous les
+            
+            jours…
+            
+            Taisez-vous donc ! 
+            
+            MADAME COQUET. 
+            
+            COQUET. 
+            
+            Elle dit ça parce qu'elle voit mon perruquier venir le matin
+            
+            * Joli, mad. Joli, Ribouleau, mad. Coquet, Eulalie, Coquet. 
+            
+            14
+            
+            RIBOULEAU, d part. 
+            
+            Un coiffeur… tous les jours… merci ! commencement d'éco
+            
+            nomie. 
+            
+            Saluez donc…
+            
+            MADAME COQUET. 
+            
+            EULALIE, saluant gauchement. 
+            
+            Bonjour, monsieur Ribouleau. 
+            
+            MADAME COQUET. 
+            
+            Mieux que cela. 
+            
+            EULALIB, avec un mouvement d'humeur. 
+            
+            Est-ce que je ne sais pas faire la révérence, à présent ! 
+            
+            MADAME JOLI. 
+            
+            Ne l'intimidez pas ; elle est si douce, ma petite cousine… tou
+            
+            jours gaie. 
+            
+            Je persiste, elle est gentille, mais elle a l'air grognon. 
+            
+            RIBOULEAU, à part. 
+            
+            Et des talens ! des talens ! 
+            
+            JOLI. 
+            
+            COQUET. 
+            
+            Je crois bien, elle nous a assez coûté, des mâitres d'agré
+            
+            ment à six francs par mois. 
+            
+            Voyons, Eulalie, chantez. 
+            
+            MADAME COQUET. 
+            
+            Quoi ? 
+            
+            EULALIE. 
+            
+            MADAME COQuet. 
+            
+            Cette jolie romance que vous étudiiez hier soir. 
+            
+            Je ne la sais pas encore. 
+            
+            EULALIE. 
+            
+            COQUET. 
+            
+            Alors, chante-nous celle que tu sais bien. 
+            
+            EULALIE. 
+            
+            C'est que je ne la sais pas non plus. 
+            
+            Eh bien ! chantez-nous l'autre. 
+            
+            RIBOULEAU, riant. p
+            
+            MADAME COQUET, à son mari. 
+            
+            On n'est pas plus sotte que votre fille ; 
+            
+            je la souffleterais de
+            
+            bon coeur. 
+            
+            COQUET, d sa femme. 
+            
+            Quand nous serons en famille, å la boone heure. (hant.)
+            
+            Allons, puisque tu ne sais pas ta romance, joue-nous ta sonate. 
+            
+            Le piano est faux. 
+            
+            EULALIE. 
+            
+            RIBOULEAU. 
+            
+            S'il est faux, c'est juste. 
+            
+            15
+            
+            COQUET. 
+            
+            Il y a six mois qu'on a donné trois francs à l'accordeur. C'est
+            
+            un cadeau que ma feinme lui a fait à sa fête, un piano d'occa
+            
+            sion qui nous a coûté cent écus ; il lui fait le même effet qu'un
+            
+            piano de quinze cents francs. 
+            
+            Oui, pour ce qu'elle en fait…
+            
+            RIBOULEAU, à part. 
+            
+            MADAME COQUET, bas à Eulalie. 
+            
+            Vous me paierez cela, petite bégueule. 
+            
+            (haut.) Alez voir si
+            
+            rien ne manque au couvert. 
+            
+            EULALIE. 
+            
+            Oui, maman. (à part en sortant.) Si monsieur Ribouleau de
+            
+            vient fou de moi, j'aurai bien du malheur. (Elle sort.)
+            
+            SCENE IX. 
+            
+            LES MÊMES, excepté EULALIE. 
+            
+            JOLI. 
+            
+            Parbleu ! mon cher Ribouleau, vous êtes un heureux coquin. 
+            
+            MADAME JOLI, riant. 
+            
+            Je vous plaindrais bien si vous aviez une petite femine
+            
+            comme ça. 
+            
+            COQUET. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Il vaut mieux tenir que courir. </stage>
+            
+            
+                    <l>Vous voyez qu'elle a des talens.</l>
+            
+                    JOLI. 
+            
+                    <l>Qu'elle a beaucoup de gentillesse.</l>
+            
+                    MADAME COQUET. 
+            
+                    <l>Vous avez vu sa politesse…</l>
+            
+                    COQUET. 
+            
+                    <l>Et son respect pour ses parens.</l>
+            
+                    MADAME JOLI. 
+            
+                    <l>Enfin vous avez vu sa grace…</l>
+            
+                    JOLI. 
+            
+                    <l>Vous avez vu l'esprit qu'elle a.</l>
+            
+                    RIBOULBAU, à part. 
+            
+                    <l>Mon Dieu ! ma vue est donc bien basse,</l>
+                    <l>Je n'ai rien vu de tout cela.</l>
+                </lg>
+            </div>
+            
+            
+            MADAME COQUET, à son inari. 
+            
+            Coquet, vas donc à la cave, petit. 
+            
+-coquer, à part. 
+            
+            Ce n'est pas comme ça qu'elle me parlait tout à l'heure, 
+            
+            la
+            
+            tartufe. 
+            
+            16
+            
+            RIBOULEAU, 
+            
+            Tiens, c'est vous qui allez à la cave, voisin ? chez moi, c'est
+            
+            ma gouvernante. 
+            
+            coquet, sèchement. 
+            
+            Oui ; mais on ne, ine vole pas mon vin. 
+            
+            MADAME COQUET, à demi-voix. 
+            
+            Cousine Joli, venez donc dans ma chambre voir la jolie robe
+            
+            que la couturière m'a rapportée. 
+            
+            MADAME JOLI, à Joli. 
+            
+            Tu veux bien, mon poulot ? 
+            
+            RIBOULEAU, riant. 
+            
+            Oh ! son poulot ! 
+            
+            Allons, va vite à la cave, mon bichon. 
+            
+            MADAME Coquet, à son mari. 
+            
+            RIBOULEAU, riant plus fort. 
+            
+            Son bichon ! 
+            
+            si une femme m'appelait bichon… Sont-ils
+            
+            drôles ces gens mariés ! 
+            
+            MADAME COQUET, bas à madame Joli. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Ménage de garçon. </stage>
+            
+            
+                    <l>Cousine, venez voir ma robe :</l>
+                    <l>Elle a coûté quatre-vingts francs.</l>
+            
+                    (Elles sortent par le fond d gauche.)
+            
+                    COQUET. 
+            
+                    <l>De peur qu'on ne me le dérobe,</l>
+                    <l>Pour chercher mon vin je descends…</l>
+            
+                    (Il sort par le fond, au milieu.)
+            
+                    RIBOULEAU, 
+            
+                    part, sur le devant. 
+            
+                    <l>Que ces détails sont amusans !</l>
+                    <l>Tu fais bien d'aller à la cave :</l>
+                    <l>Économiser est urgent,</l>
+                    <l>Car les robes de bal, mon brave,</l>
+                    <l>Font joliment danser l'argent.</l>
+                </lg>
+            </div>
+            
+            
+            SCENE X, 
+            
+            JOLI, RIBOULEAU. 
+            
+            JOLI. 
+            
+            Ce sont de fort bonnes gens, ces Coquet. 
+            
+            RIBOULEAU. 
+            
+            Oui, de fort bonnes gens… la femme est un peu raide. 
+            
+            Mais le inari…
+            
+            JOLI, 
+            
+            17
+            
+            RIBOULEAU. 
+            
+            C'est différent : le mari est un peu bonacé. 
+            
+            C'est un bon ménage. 
+            
+            JOLI. 
+            
+            RIBOULEAU. 
+            
+            Oui, mais ils disputent souvent : je les entends de ma fenêtre. 
+            
+            JOLI. 
+            
+            Oh ! 
+            
+            ils disputent… il faut bien faire quelque chose… ces
+            
+            gens qui sont retirés des a'faires… Leur Eulalie est gentille. 
+            
+            RIBOULEAU. 
+            
+            Très gentille… un peu maussade. 
+            
+            JOLI. 
+            
+            Maussade n'est pas le mot : elle n'a pas osé devant vous…
+            
+            Aimeriez-vous mieux la voir chanter avec un aplomb, comme
+            
+            une Malibran ? 
+            
+            RIBOULEAU. 
+            
+            : 
+            
+            Oh ! il n'y a pas de danger ; je suis tranquille là-dessus. 
+            
+            JOLI. 
+            
+            Vous n'en voudriez pas. Tenez, Ribouleau, voilà long-temps
+            
+            que je vous connais : vous avez une fortune agréable… c'est
+            
+            pour votre bien que je veux vous marier. 
+            
+            RIBOULEAU. 
+            
+            Pour mon bien ? c'est toujours pour cela qu'on épouse les
+            
+            vieux célibataires… Cette petite, qu'est-ce qu'elle aura de dot ? 
+            
+            JOLI. 
+            
+            Les voilà bien ! tous la même chose : Qu'est-ce qu'elle aura ? 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Ils sont les mieux placés. </stage>
+            
+            
+                    <l>Elle aura sa jeunesse,</l>
+                    <l>Elle aura ses talens,</l>
+                    <l>Elle aura sa sagesse</l>
+                    <l>Et puis mille agrémens.</l>
+            
+                    RJBOULEAU. 
+            
+                    <l>Mais par-devant notaire</l>
+                    <l>C'est moins intéressant,</l>
+                    <l>Car ça ne se peut guère</l>
+                    <l>Placer à neuf pour cent.</l>
+            
+                </lg>
+            </div>
+            
+            JOLI, se récriant. 
+            
+            Oh ! à neuf ! ce n'est pas le taux de la loi… vous passeriez
+            
+            pour un usurier. 
+            
+            RIBOULEAU. 
+            
+            Et je n'ai jainais été que commissaire-priseur. 
+            
+            JOLI, avec chaleur. 
+            
+            Ribouleau, voyez mon ménage. Madame Joli ne m'a pas
+            apporté une grosse dot ; est-ce que j'en suis moins heureux ? 
+            
+            au contraire : elle ne peut pas me jeter sa dot au nez comme
+            
+            Les Garçons. 
+            
+            3
+            
+            18
+            
+            font toutes ces demoiselles qu'on a épousées pour leur fortune, 
+            
+            mais aussi elle est éconoine, elle ne court pas après le plaisir, 
+            
+            elle fait toutes mes volontés ; voilà le bonbeur ! 
+            
+            RIBOULEAU. 
+            
+            Ce diable de Joli, il a de l'éloquence ; il parle comme un
+            
+            député qui veut faire passer une loi. Vrai, vous avez de l'esprit
+            
+            à l'Entrepôt ; il paraît qu'il n'y a pas que des cruches par-là. 
+            
+            Vous me tentez, vous m'avez presque converti. (Il chante.)
+            
+           <div type="poem">
+               
+               <stage type="tune" id="AIR : Oui, c'en est fait, je me marie !"></stage>
+            
+            <lg><l>« Oui, c'en est fait, je me marie !</l>
+            <l>« Je veux vivre comme un Caton. »</l></lg>
+            </div>
+            
+            JOLI. 
+            
+            A la bonne heure ! …
+            
+            Cependant, Joli… motu… rijbruitons pas ça encore… Je
+            
+            RIBOULEAU, arec mystère. 
+            
+            ne voudrais pas que Manette. 
+            
+            Coinment, Manette ! 
+            
+            JOLI. 
+            
+            RIBOULEAU. 
+            
+            Oui, ma gouvernante… Ça pourrait lui faire de la peine…
+            
+            voilà dix ans qu'elle est avec moi…
+            
+            JOLI, riant. 
+            
+            Oui, oui, c'est bon, j'entends… Chut, voilà la maman. 
+            
+            SCENE XI. 
+            
+            LES MÊMES, MADAME JOLI, MADAME COQUET. 
+            
+            Mon ami, je viens de voir la robe de madame Coquet, 
+            
+            elle
+            
+            MADAME JOLI. 
+            
+            est charmante ; il m'en faut une pareille. 
+            
+            JOLI. 
+            
+            Ah ! te voilà bien ! Dès que tu vois quelque chose de nouveau, 
+            
+            il t'en faut une pareille ! 
+            
+            MADAME JOLI. 
+            
+            Quand c'est quelque chose de joli…
+            
+            RIBOULEAU. 
+            
+            Quelque chose qui vous resseinble, n'est-ce pas ? 
+            
+            SCENE XII. 
+            
+            LES NÊMES, COQUET, remontant de la cave avec un panier et
+            
+            Voilà le vin. 
+            
+            une chandelle éteinte. 
+            
+            Coquet. 
+            
+            MADAME COQUET. 
+            
+            Vous avez été bien long-temps à cette caye. 
+            
+            19
+            
+            COQUET. 
+            
+            Ma chandelle s'est éteinte, je ne savais plus comment sor
+            
+            tir de la cave ; j'ai cru que l'on m'en tirerait en pièces ! 
+            
+            Que vous êtes maladroit ! voilà une chandelle toute cassée…
+            
+            MADAME COQUET. 
+            
+            Tu vas plaindre la chandelle, quand j'ai manqué me casser
+            
+            COQUET. 
+            
+            les jambes. 
+            
+            RIBOULEAU, à part. 
+            
+            Elle est gentille. Allez donc à la cave vous-inême ! 
+            
+            (haut.)
+            
+            Ça ne vous empêchera pas de danser…
+            
+            COQUET. 
+            
+            Il y a long-temps que je ne danse plus. 
+            
+            Mais vous allez au bal…
+            
+            RIBOULEAU. 
+            
+            Ma foi, non ; qu'est-ce que j'y ferais ? 
+            
+            COQUET. 
+            
+            Pour y conduire votre femme, 
+            
+            RIBOULEAU, goguenardant. 
+            
+            Par exemple, est-ce que ? …
+            
+            MADAME COQUET. 
+            
+            COQUET. 
+            
+            J'y compte beaucoup, monsieur Coquet, et je me suis fait
+            
+            faire une très jolie robe de crêpe. 
+            
+            JOLI. 
+            
+            Nous parlerons de bal une autre fois ; pour le moment il faut
+            
+' nous mettre à table. 
+            
+            coquet, appelant. 
+            
+            Elisabeth, Elisabeth… venez prendre ce panier, Elisabeth…
+            
+            SCENE XIII. 
+            
+            LES MÊMES, ÉLISABETH. 
+            
+            ŚLISABETH. 
+            
+            Comune vous criez donc, monsieur ! …
+            
+            MADAME COQUET. 
+            
+            Pourquoi ne venez-vous pas quand on vous appelle ? 
+            
+            ÉLISABETA. 
+            
+            Je faisais mon roux. Je ne peux pas tenir ma castrole, et
+            
+            être ici. 
+            
+            RIBOULEAU. 
+            
+            Elle a raison, cette fille, elle faisait son roux. 
+            
+            20
+            
+            MADAME COQUET. 
+            
+            Et elle est seule ; cela me fait penser à une chose. Mon voi
+            
+            sin, vous devriez bien nous prêter votre bonne pour servir à
+            table ? …
+            
+            ÉLISABETH, 
+            
+            Ça me fera bien plaisir, au moins je ne quitterai pas mes
+            
+            fourneaux. 
+            
+            (Elle sort en emportant le panier de vin.)
+            
+            RIBOULEAU, 
+            
+            embarrassé. 
+            
+            Vous prêter ma boone ? … Je ne sais pas trop si elle est à la
+            
+            maison. 
+            
+            MADAME COQUET. 
+            
+            Est-ce que vous lui avez permis de sortir ? 
+            
+            RIBOULEAU. 
+            
+            Oh ! oh ! quand je ne dîne pas chez moi…
+            
+            MADAME COQUET. 
+            
+            C'est égal, une bonne ne doit pas sortir saus permission. 
+            
+            RIBOULEAU. 
+            
+            Non, non. Je vais moi-même lui parler. 
+            
+            (d part.) Je ne sais
+            
+            pas trop comment elle prendra ça. " (haut.) J'y vais, j'y vais. 
+            
+            (Il sort.)
+            
+            SCENE XIV. 
+            
+            LES MÊMES, excepté RIBOULEAU. 
+            
+            coquet, mystérieusement. 
+            
+            Eh bien ! cousin Joli, lui avez-vous parlé d'Eulalie ? 
+            
+            JOLI, avec mystère. 
+            
+            Oui, ça a l'air de prendre ; mais tâchez donc qu'Eulalie soit
+            
+            plus raisonnable que tout à l'heure. 
+            
+            MADAME COQUET. 
+            
+            Il est vrai que cette petite sotle est insupportable. 
+            
+. 
+            
+            MADAME JOLI. 
+            
+            Est-ce qu'elle aurait une inclination ? 
+            
+            Je ne crois pas. 
+            
+            COQUET. 
+            
+            MADAME COQUET. 
+            
+            Mais quand elle en aurait une, il faudra qu'elle obéisse. 
+            
+            Certainement. 
+            
+            COQUET. 
+            
+            MADAME COQUET. 
+            
+            On la mettra à table à côté de lui. 
+            
+            MADAME JOLI. 
+            
+            Ça le forcera d'être galant. 
+            
+            MADANE COQUET. 
+            
+            Et vous ordonnerez à votre fille d'être aimable. 
+            
+            21
+            
+            COQUET. 
+            
+            Je le lui recommanderai. 
+            
+            MADAME Coquet. 
+            
+            Vous auriez peur de lui donner des ordres. Elle a un carac
+            
+            tère… bum ! 
+            
+            COQUET. 
+            
+            Voilà les reproches qui vont commencer. 
+            
+            MADAME JOLI. 
+            
+            Ribouleau va revenir ; 
+            
+            s'il vous trouve disputant, ça ne lui
+            
+            donnera pas le goût du mariage. 
+            
+            JOLI. 
+            
+            Parbleu ! vous êtes si exigeantes. 
+            
+            MADAME COQUET. 
+            
+            M. Coquet m'a appris depuis long-temps à ne plus l'être. 
+            
+            Vous n'êtes jamais contente. 
+            
+            COQUET. 
+            
+            MADAME JOLI, élevant la voix. 
+            
+            Si vous êtes des tyrans dans le particulier, soyez au moins
+            
+            politiques devant le monde. 
+            
+            COQUET, criant aussi. 
+            
+            Oh ! nous sommes des tyrans ! c'est un peu fort ! 
+            
+            Vous ne voulez
+            
+            pas nous laisser aller au bal ! 
+            
+            MADAME COQUET, criant. 
+            
+            COQUET. 
+            
+            Au bal pour faire tapisserie. 
+            
+            MADAME JOLI. 
+            
+            Vous me refusez une robe ? 
+            
+            Mais, ma femme, vous avez tort. 
+            
+            JOLI et coquéT. 
+            
+            MADAME JOLI, criant plus fort. 
+            
+            Tort ou raison, nous ferons à notre tête ! 
+            
+            MADAME COQUET, de même. 
+            
+            A notre tête ! 
+            
+            Nous verrons ! 
+            
+            LES DEUX MARIS, de même. 
+            
+            JOLI. 
+            
+            Voilà Ribouleau ! chut ! 
+            
+            (Ils prennent un air riant.)
+            
+            SCENE XV. 
+            
+            LES MÊMES, RIBOULEAU. 
+            
+            RIBOULEAU. 
+            
+            Heim ? qu'est-ce qu'il y a donc ? 
+            
+            JOLI. 
+            
+            Rien. 
+            
+            22
+            
+            RIBOULEAU. 
+            
+            J'ai cru entendre disputer. 
+            
+            MADAME JOLI. 
+            
+            Au contraire ; mon mari me grondait de ne pas avoir fait ve
+            
+            nir la couturière. 
+            
+            Le mien me parlait du plaisir que nous aurons au bal. 
+            
+            MADAME COQUET. 
+            
+            C'est bien. 
+            
+            Et votre bonne ? 
+            
+            RIBOULEAU, doutant. 
+            
+            MADAME COQUET. 
+            
+            RIBOULEAU, riant. 
+            
+            Qu'est-ce que je vous disais ? elle est sortie. 
+            
+            MADAME COQUET, 
+            
+            Vous êtes bien servi, Oh ! un pauyre homme seul ! 
+            
+            Allons, allons ! à table ! 
+            
+            JOLI. 
+            
+            COQUET. 
+            
+            Oui, à table ! vive la gaîté ! 
+            
+            SCENE XVI. 
+            
+            LES MÊMES, EULALIE, ELISABETH. 
+            
+            ÉLISABETH. 
+            
+            Messieurs, mesdames, la soupe est servie. 
+            
+            RIBOULEAU. 
+            
+            Bonne nouvelle ! … je dînerai comme six, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la Tentation. </stage>
+            
+            
+                    <l>Ce dîner qu'on proclame</l>
+                    <l>À l'instant nous réclame :</l>
+                    <l>La main</l>
+                    <l>À chaque dame</l>
+                    <l>Pour aller au festin.</l>
+            
+                    JOLI, bas à Eulalie, 
+            
+                    <l>Soyez donc plus gentille :</l>
+                    <l>Pour cesser d'être fille,</l>
+                    <l>Causer à sa famille</l>
+                    <l>Du chagrin,</l>
+                    <l>C'est vilain.</l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Ce dîner qu'on proclame, etc.</l>
+            
+                </lg>
+            </div>
+            
+            (Ils sortent.)
+            
+            23
+            
+            SCENE XVII. 
+            
+            ELISABETH, seule. 
+            
+            Pauvre jeunesse ! ils vont la sacrifier. Les parens n'en font
+            
+            pas d'autres ! et puis on vient dire : « Ils font mauvais ménage, 
+            
+            c'est la faute de la feinme. » Moi, je dis que c'est la faute du
+            
+            mari, et si j'en prends un, je le choisirai à mon goût. 
+            
+            SCENE XVIII. 
+            
+            ÉLISABETH, MANETTE, en toilette, en chapeau, et schall
+            
+            sous le bras. 
+            
+            MANETTE. 
+            
+            Bonjour, mam'selle Élisabeth. 
+            
+            ÉLISABETH. 
+            
+            Bonjour, mam'selle Manette… tiens, vous voilà ! on disait
+            
+            que vous étiez sortie… Vous venez donc m'aider ? 
+            
+            MANETTE. 
+            
+            Moi ? du tout ; je vais dîner en ville, et j'apporte la clé à mon
+            
+            sieur, parce que je sais pas à quelle heure que je rentrerai. 
+            
+            Vous avez là unjolisc hall, mam'selle Manette. 
+            
+            ÉLISABETA. 
+            
+            MANBTTE. 
+            
+            Oui, c'est monsieur qui me l'a donné pour sa fête. 
+            
+            Vous êtes bien heureuse ! 
+            
+            MANETTE. 
+            
+            ÉLISABETA. 
+            
+            Sous ce rapport-là, je ne peux pas dire qu'il est chiche ; mais
+            
+            j'ai assez à faire auprès de lui, 
+            
+            allez. 
+            
+            ELISABETH. 
+            
+            Et moi, donc, avec trois personnes, un chien, un chat et un
+            
+            perroquet. 
+            
+            Ça fait six. 
+            
+            MANETTE, riant. 
+            
+            ÉLISABETA. 
+            
+            Sans compter deux serins et un poisson rouge. Heureuse
+            
+            ment que l'écureuil est mort l'hiver dernière. 
+            
+            C'est donc la ménagerie chez vous ? 
+            
+            MANETTE. 
+            
+            ÉLISABETA. 
+            
+            Il ne manque pas de bêtes… avec ça qu'ils reçoivent souvent
+            
+            du monde… Vous devez être bien chez monsieur Ribouleau : il
+            
+            n'a pas de famille, n'est-ce pas ? 
+            
+            2+
+            
+            MANETTE. 
+            
+            Si, il y a des cousins, un neveu ; mais il ne voit pas tout ça, 
+            
+            j'y ai mis bon ordre. 
+            
+            ŚLISABETH. 
+            
+            Vous avez bien fait ; (avec mystère.) mais, par exemple, vous
+            
+            allez avoir une bourgeoise. 
+            
+            Bah ! qu'est-ce que vous me dites donc là ?'
+            
+            MANETTE, effrayée. 
+            
+            ÉLISABET) , de même. 
+            
+            Ils cherchent à placer leur fille. 
+            
+            MANETTE. 
+            
+            Comment ! et vous croyez que ?.,. 
+            
+            ÉLISABETH. 
+            
+            C'est les Joli qui arrangent ça. 
+            
+            MANETTE. 
+            
+            Voyez-vous ca… de quoi se mêlent-ils ? 
+            
+            Madame Joli est leur cousine. 
+            
+            ÉLISABETA. 
+            
+            MANETTE. 
+            
+            Bon ! bon ! je l'arrangerai bien ; quand elle sera à sa fenêtre, 
+            
+            je secouerai mon tapis sur elle. 
+            
+            ÁLISABETH. 
+            
+            Oh ! mais n'allez pas dire que je vous ai dit cela. 
+            
+            MANETTE. 
+            
+            Soyez tranquille ; et votre demoiselle ? 
+            
+            ÉLISABETA. 
+            
+            Elle n'est pas contente…
+            
+            Je le crois…
+            
+            MANETTE. 
+            
+            ÉLISABETÁ. 
+            
+            Et puis, il y a une affaire de cour…
+            
+            MANETTE, 
+            
+            Tant mieux ; contez-moi donc ça ? 
+            
+            Un jeune homme…
+            
+            ÉLISABETO. 
+            
+            MANETTE, oirement. 
+            
+            Ils s'aiment, ces enfans : il faut les encourager, les protéger ; 
+            
+            je suis si sensible, moi…
+            
+            ÉLISABETH. 
+            
+            Ma foi, quand on parle du loup… Entrez, monsieur Au
+            
+            guste. 
+            
+            1
+            
+            25
+            
+            SCENE XIX. 
+            
+            LES MÊMES, AUGUSTE. 
+            
+            AUGUSTE, timidement. 
+            
+            Je reviens… pour…
+            
+            ÉLISABETH. 
+            
+            Je sais bien pourquoi ; dites done, vous aviez joliment ar
+            
+            rangé la pendule. 
+            
+            C'est à quoi j'ai pensé. 
+            
+            AUGUSTE. 
+            
+            ÉLISABETA. 
+            
+            Aussi, madame a bougonné…
+            
+            On est à table, n'est-ce
+            
+            AUGUSTE. 
+            
+            p a s : 
+            ÉLISABETH. 
+            
+            Oui. 
+            
+            (On entend sonner.) Attendez, que je leur porte le se
+            
+            cond service ; je reviens. 
+            
+            (Elle sort.)
+            
+            SCENE XX. 
+            
+            MANETTE, AUGUSTE. 
+            
+            MANETTE, avec une révérence. 
+            
+            Pardon, jeune homme, si je me mélasse de ce qui ne me
+            
+            regarde pas. 
+            
+            Je suis la gouvernante de celui à qui l'on veut
+            
+            faire épouser votre bonne amie, monsieur Ribouleau. 
+            
+            Vous êtes la gouvernante de mon oncle ? : …
+            
+            AUGUSTE, surpris. 
+            
+            MANETTE, étonnée. 
+            
+            Comment, votre oncle ! vous seriez le neveu de monsieur
+            
+            Ribouleau ? …
+            
+            AUGUSTE en colère. 
+            
+            Certainement
+            
+, c'est donc vous qui empêchez mon oncle de
+            
+            me recevoir ? 
+            
+            MANETTE
+            
+            se récriant. 
+            
+            Moi ! empêcher que monsieur Ribouleau reçusse sa famille ; 
+            
+            ça n'est pas dans mes principes. 
+            
+            AUGUSTE. 
+            
+            Cependant le portier dit toujours qu'il n'y est pas, et quand
+            
+            je lui écris je ne reçois pas de réponse ; et l'on m'a bien assuré
+            
+            qu'il se laissait mener par une femme qui avait pris sur lui un
+            
+            empire… une intrigante ! 
+            
+            MANETTE, piquée. 
+            
+            Une intrigante ! … monsieur ! … une intrigante ! … on m'a
+            
+            calomniée. 
+            
+            Les Garçons. 
+            
+            26
+            
+            AUGUSTE. 
+            
+            Je ne dis pas que c'est vous. 
+            
+            MANETTE. 
+            
+            Il n'y a que moi chez lui, el pour vous prouver que l'on
+            
+            vous a trompé sur mon comple, venez me voir, jeune homme, 
+            
+            venez me voir ; dès demain, je veux que nous nous expliquas
+            
+            sions avec vous. 
+            
+            (Ici l'on entend crier dans la salle voisine.)
+            
+            SCENE XXI. 
+            
+            LES MÊMES, ELISABETH. 
+            
+            ÉLISABETH, sortant de la salle à manger. 
+            
+            Les entendez-vous ? ils chamaillent là-dedans. 
+            
+            MANETTE. 
+            
+            Dites donc, en voilà d'une drôle ! … l'amoureux de votre
+            
+            demoiselle qui est le neveu de mon monsieur. 
+            
+            ÉLISABETH. 
+            
+            Tiens, vous ne nous aviez pas dit ça. 
+            
+            MANETTE. 
+            
+            Il faut protéger leurs amours. 
+            
+            AUGUSTE. 
+            
+            Vraiment ! vous espérez m'être utile ? 
+            
+            MANETTE. 
+            
+            Oui, jeune homme, quoique vous m'ayez dil des choses
+            
+            durés. 
+            
+            Pardonnez-moi, madein oiselle…
+            
+            MANETTE. 
+            
+            AUGUSTE. 
+            
+            Je vous pardonne ; monsieur Ribouleau paiera pour tous…
+            
+            (Le bruit redouble dans la salle à manger.)
+            
+            Qu'est-ce que j'entends donc ? 
+            
+            ÉLISABETA. 
+            
+            AUGUSTE. 
+            
+            C'est eux qui redisputent ; les voilà qui se lèvent de table ; 
+            
+            ils sont furieux… ils viennent par ici…
+            
+            Je me sauve…
+            
+            AUGUSTE. 
+            
+            MANETTE. 
+            
+            Moi aussi ; à demain matin, jeune homme. (Elle sort.)
+            
+            Je n'y manquerai pas. 
+            
+            (Il sort.)
+            
+            AUGUSTE, 
+            
+            27
+            
+            SCENE XXII. 
+            
+            EULALIE, MONSIEUR ET MADAME COQUET, RIBOU
+            
+            LEAU, MONSIEUR ET MADAME JOLI, ELISABETH, 
+            
+            au fond. 
+            
+            C'est affreux ! …
+            
+            MADAME JOLI, en colère. 
+            
+            MADAME COQUET, en colère. 
+            
+            C'est abominable ! …
+            
+            Vous avez tort. 
+            
+            JOLI. 
+            
+            COQUET. 
+            
+            Nous ne céderons pas ; soutenez-moi, Joli. 
+            
+            RIBOULEAU
+            
+            à part. 
+            
+            Voilà un joli dessert ! j'ai cru qu'ils allaient se jeter les as
+            
+            siettes à la tête. 
+            
+            JOLI. 
+            
+            Vous ne songez qu'à la toilette ! 
+            
+            MADAME JOLI. 
+            
+            Je crois bien ; vous me refusez tout. 
+            
+            A votre âge, penser au bal ! 
+            
+            COQUET
+            
+            MADAME COQUET ; 
+            
+            Comment ! à mon âge…
+            
+            JOLI. 
+            
+            Quand on n'a pas apporté de dot…
+            
+            MADAME JOLI…
+            
+            Mais ma farnille vous a fait avoir une bonne place. 
+            
+            Les reproches sont aimables ! 
+            
+            RIBOULEAU, à part. 
+            
+            Je n'oublierai jamais cette scène-là. 
+            
+            MADAME JOLI, pleurant. 
+            
+            MADAME COQUET. 
+            
+            J'en aurai une attaque de nerfs. 
+            
+            RIBOULEAU, à part. 
+            
+            Je voudrais voir l'attaque de nerfs, ça me ferait rire. 
+            
+            JOLI et COQUET. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Ah ! j'étouffe de colère (du Dieu et la Bayadère.)</stage>
+            
+            
+                    <l>Parbleu ! voilà bien les femmes :</l>
+                    <l>Il faut céder à ces dames.</l>
+            
+                    MADAME JOLI et MADAME COQUET. 
+            
+                    <l>Voilà bien les maris !</l>
+                    <l>Voyez comme ils sont gentils.</l>
+            
+                    28
+            
+                    MADAME COQUET. 
+            
+                    <l>Ah ! je suis d'une colère ! …</l>
+            
+                    EULALIE. 
+            
+                    <l>Apaisez-vous donc, ma mère !</l>
+            
+                    COQUET. 
+            
+                    <l>Tout cela finira.</l>
+            
+                    EULALIE. 
+            
+                    <l>Apaisez-vous donc, papa.</l>
+            
+                    MADAME JOLI. 
+            
+                    <l>Ah ! quel horrible despotisme !</l>
+                    <l>Mais c'est abuser de ses droits.</l>
+            
+                    MADAME COQUET. 
+            
+                    <l>Oui, contre un tel absolutisme</l>
+                    <l>On devrait bien faire des lois…</l>
+            
+                    MADAME JOLI. 
+            
+                    <l>Oh ! nous saurons briser nos chaînes !</l>
+            
+                    MADAME COQUET. 
+            
+                    <l>De l'esclavage l'on est las…</l>
+            
+                    RIBOULEAU. 
+            
+                    <l>Ah ! ce sont des républicaines !</l>
+                    <l>Du bien je ne m'y connais pas.</l>
+            
+                    RIBOULEAU, JOLI, COQUET. 
+            
+                    <l>Parbleu ! voilà bien les femmes !</l>
+                    <l>Il faut céder à ces dames ;</l>
+                    <l>Et les pauvres maris</l>
+                    <l>Sont bien heureux à Paris !</l>
+                    <l>Ah ! vive le mariage !</l>
+                    <l>Qu'il est doux d'être en ménage !</l>
+                    <l>Mariez-vous,</l>
+                    <l>Mariez-vous,</l>
+                    <l>Pour avoir la paix chez vous.</l>
+            
+                    MESDAMES. COQUET
+            
+, JOLI, EULALIE, ÉLISABETH
+            
+                    <l>Voilà donc le sort des femmes !</l>
+                    <l>Oui, c'est notre lot, mesdames ;</l>
+                    <l>Les maris, les maris</l>
+                    <l>Sont aimables à Paris.</l>
+                    <l>Ah ! vive le mariage !</l>
+                    <l>Qu'il est doux d'être en ménage !</l>
+                    <l>Mariez-vous,</l>
+                    <l>Mariez-vous</l>
+                    <l>Pour avoir la paix chez vous.</l>
+                </lg>
+            </div>
+            
+            
+            29
+            
+            MADAME JOLI, tombant sur un fauteuil à droite. 
+            
+            Ah ! je me trouve mal ! 
+            
+            MADAME COQUET, tombant sur un fauteuil d gauche, 
+            
+            Je m'évanouis ! 
+            
+            Ma femme ! 
+            
+            Mon amie ! 
+            
+            Céleste ! 
+            
+            Clorinde ! 
+            
+            JOLI, 
+            
+            courant. 
+            
+            COQUET, courant. 
+            
+            JOLI. 
+            
+            COQUET. 
+            
+            JOLI. 
+            
+            Élisabeth, de l'eau ! (
+            
+            Ribouleau.) Monsieur Ribouleau, au
+            
+            riez-vous des sels, un flacon ? …
+            
+            RIBOULEAU, riant. 
+            
+            Je n'ai pas de ces bêtises-là… ah ! ah ! les gens mariés, 
+            
+            TABLEAU. 
+            
+            FIN DU PREMIER ACTE, 
+            
+            ACTE II. 
+            
+            Une salle à manger chez Ribouleau. A gauche, la porte du salon ; au fond, å
+            
+            gauche, la porte de la chambre de Ribouleau ; au milieu, le poêle ; à droile, 
+            
+            un buffet. Au deuxième plan, à droite, la porte d'entrée, et au premier
+            
+            plan, une petite table sur laquelle sont des assiettes, une corbeille avec des
+            
+            verres à champagne, etc. Au fond, une table longue pour sept couverts est
+            
+            à moitié servie : la nappe, les serviettes, les couteaux, les petits pains, deux
+            
+            carafes, deux bouteilles sont en place.' ; 
+            
+            SCENE PREMIERE. 
+            
+            RIBOULEAU, seul, en robe de chambre. 
+            
+            (Il appelle avant de paraitre.) Manette ! Manette ! 
+            
+            (Il entre.)
+            
+            Où diable est-elle donc ? quand, 
+            
+            par hasard, j'ai besoin de
+            
+            cette fille, je ne l'ai jamais sous la main. J'ai invité hier ces
+            
+            deux ménages, 
+            
+            il faut qu'elle prépare un joli déjeuner. Pen
+            
+            dant que je suis seul, réfléchissonsun peu : ils veulent absolument
+            
+            me marier… Ma foi, le tableau d'hier ne m'en donne pas
+            
+            l'envie ; 
+            
+            ils n'ont fait que disputer : Coquet voulait blanc, sa femme vou
+            
+            lait noir ; Joli parlait coquelicot, sa femme répondait… trico
+            
+            lore… et les robes de quatre-vingts francs, et les bals… Non, 
+            
+            non ; moi, je suis indépendant. Il n'y a qu'une seule chambre
+            
+            qui m'a fait quelquefois penser que j'aimerais à être deux. Quel
+            
+            est le ménage où il n'y a pas quelque petit nuage… quelque
+            
+            petit orage… Cette petite Coquet est fort jolie ; ça vous a dix
+            
+            huit ans, et si j'ai avec elle quelques mauvais momens, je puis
+            
+            avoir de fort jolis quarts-d'heure… cependant cachons encore
+            
+            à Manette… cette fille a pris un ascendant… Chut… la voilà…
+            
+            SCÈNE II. 
+            
+            RIBOULEAU, MANETTE, entrant de droite ; un commission
+            
+            naire portant un grand panier. 
+            
+            MANETTE. 
+            
+            (Elle joue toute cette scène de mauvaise humeur.)
+            
+            Posez là ce panier. (Il le met près de la petite table.)
+            
+            D'où viens-tu donc, Manette ? 
+            
+            RIBOULEAU. 
+            
+            31
+            
+            MANETTE…
+            
+            Du marché, puisque vous avez du monde à dîner. 
+            
+            A déjeuner…
+            
+            RIBOULEAU. 
+            
+            MANETTE
+            
+            Non, un déjeuner c'est désagréable, ça coupe la journée ; 
+            
+            on a faim le soir… j'ai mieux aimé faire un dîner. 
+            
+            RIBOULEAU, 
+            
+            Ces gens que j'ai invités pour une heure ! 
+            
+            MANETTE. 
+            
+            Ils attendront jusqu'à trois. Avez-vous quinze sous demon
+            
+            naie pour ce cominissionnaire qui m'a porté mon panier ? 
+            
+            RIBOULEAU. 
+            
+            Quinze sous, c'est bien cher ! Tu ne peux donc pas porter ton
+            
+            panier toi-même ? 
+            
+            (Il donne de l'argent.)
+            
+            MANETTE. 
+            
+            Je n'ai pas besoin de m'éreinter… Tenez, Jean. 
+            
+            RIBOULEAU, se retournant. 
+            
+            C'est un beau garçon, ce Jean. 
+            
+            1
+            
+            MANETTE. 
+            
+            C'est lui qui fait mes commissions ; adieu, Jean. 
+            
+            RIBOULEAU. 
+            
+            (Jean sort.)
+            
+            Qu'est-ce que tu apportes là ? 
+            
+            MANETTE. 
+            
+-Les hors-d'oeuvres et le dessert. 
+            
+            RIBOULEAU. 
+            
+            Tu parles d'un dîner… est-ce que tu vas mettre le pot au feu, 
+            
+            un rôti, une volaille ? 
+            
+            MANETTE, 
+            
+            Par exemple ! 
+            
+            j'ai commandé votre dîner chez le traiteur en
+            
+            : 
+            
+            face : si vous croyez que je vais me brûler la figure et m'abi
+            
+            mer les mains pour faire la cuisine à ces gens-là ! 
+            
+            RIBOULEAU. 
+            
+            Voyons, voyons ; tu'as de l'humeur, pourquoi ? …
+            
+            MANETTE. 
+            
+            Pourquoi donc que je n'en aurais pas ? 
+            
+            (Elle met des gâteau : t sur une assiette et les porte sur la
+            
+            table pendant que Ribouleau parle.)
+            
+            RIBOULEAU
+            
+            câlinant. 
+            
+            Eh bien ! je ne te gronde pas. Tu as bien fait de faire faire
+            
+            le dîner dehors ; mais, je te le répète, j'aurais mieux aimé un
+            
+            déjeuner ; c'est plus gai… plus économique. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : du Calife de Bagdad. </stage>
+            
+            
+                    <l>On n'est pas obligé de faire</l>
+                    <l>De dépenses ni de façon ;</l>
+            
+                    32
+            
+                    <l>Aussi, rien ne me plaît, ma chère,</l>
+                    <l>Comme un déjeuner de garçon :</l>
+                    <l>On chante, on rit, on fait l'aimable ;</l>
+            
+                    (Manette revient près de lui.)
+            
+                    <l>On met les coudes sur la table ;</l>
+                    <l>L'étiquette invite à dîner,</l>
+                    <l>Le plaisir donne à déjeuner.</l>
+            
+                </lg>
+            </div>
+            
+            MANETTE, à part. 
+            
+            Tu t'amuseras
+            
+            bien, va ! (Elle met des fruits sur une assiette.)
+            
+            Ah ! çà, tu n'as pas fait de folies ? 
+            
+            RIBOULEAU. 
+            
+            MANETTE, 
+            
+            tout en arrangeant ses fruits. 
+            
+            J'ai fait tout ce que j'ai voulu ; je n'ai pas de raisons pour
+            
+            prendre vos intérêts, pour ménager votre bourse ; comme ce
+            
+            n'est pas la mienne…
+            
+            Cependant…
+            
+            RIBOULEAU. 
+            
+            Quand vous aurez une femme', elle économisera, elle…
+            
+            MANETTE, avec intention. 
+            
+            (Elle porte son assiette sur la table :) 
+            
+            RIBOULEAU, à part. 
+            
+            Est-ce qu'elle se douterait…
+            
+            (haut, 
+            
+            et riant.) Manette, 
+            
+            veux-tu me donner de l'eau chaude, que j'aille faire ma barbe ? 
+            
+            MANETTE. 
+            
+            Je n'ai pas de feu ; rasez-vous à l'eau froide, ça vous ra
+            
+            fra îchira. 
+            
+            C'est que les rasoirs coupent moins bien. 
+            
+            RIBOULEAU. 
+            
+            MANETTE. 
+            
+            Prenez garde de vous écorcher ; 
+            
+            il faut avoir le teint frais
+            
+            quand on reçoit des dames. 
+            
+            Décidément elle se doute de quelque chose. (haut.) Tu vas
+            
+            RIBOULEAU, à part. 
+            
+            me donner une chemise à jabot, n'est-ce pas ? 
+            
+            Ah ! ma foi, les jabots ne sont pas repassés. 
+            
+            MANETTE. 
+            
+            1
+            
+            Repas se-m'en un. 
+            
+            RIBOULEAU, câlinant. 
+            
+            MANETTE. 
+            
+            Si vous croyez que je n'ai que cela à faire… il faut que je
+            
+            dresse von dessert. Ah ! çà, ils amèneront sûrement leur
+            
+            bonne, pour donner des assiettes ? 
+            
+            RIBOULEAU. 
+            
+            Comme tu n'as pas voulu venir hier chez eux…
+            
+            33
+            
+            MANETTE. 
+            
+            Ce n'est pas mon métier. Je ne suis pas cuisinière, moi ; je
+            
+            suis femme de confiance, dame de compagnie…
+            
+            C'est bon, c'est bon… Tu m'ennuies. 
+            
+            RIBOULEAU, anec humeur. 
+            
+            Comment ? …
+            
+            MANETTE. 
+            
+            RIBOULEAU. 
+            
+            Oui, tu m'ennuies, avec tes observations. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Ah ! mon ami Thomas ! </stage>
+            
+            
+                    <l>Obéis, enfin.</l>
+            
+                    MANBTTE. 
+            
+                    <l>Dieu ! comme on me traite !</l>
+                    <l>Et quel ton hautain !</l>
+                    <l>Monsieur s'monte la tête !</l>
+                    <l>Vous n'parliez pas comm' ça</l>
+                    <l>Jadis à la pauvr' Manette…</l>
+            
+                    RIBOULEAU. 
+            
+                    <l>Sois plus gentill' que ça,</l>
+                    <l>Et peut-être que ça r'viendra.</l>
+            
+                    MANETTE
+            
+                    <l>J'noublîrai jamais</l>
+                    <l>Vot' ton malhonnête…</l>
+            
+                    RIBOULEAU. 
+            
+                    <l>Viens, faisons la paix.</l>
+            
+                    MANETTE. 
+            
+                    <l>Non, pas d'ça, Lisette…</l>
+            
+                    RIBOULEAU. 
+            
+                    <l>Mais ce n'est pas comm' ça</l>
+                    <l>Que tous les jours on me traite.</l>
+            
+                    MANETTE. 
+            
+                    <l>Conduisez-vous mieux qu'ça,</l>
+                    <l>Et peut-être que ça r'viendra.</l>
+                </lg>
+            </div>
+            
+            
+            RIBOULEAU. 
+            
+            Adieu, méchante… Je vais m'habiller. 
+            
+            (Il entre dans sa chambre.)
+            
+            SCENE III. 
+            
+            MANETTE, seule. 
+            
+            Je n'y manquerai pas de lui faire faire jabot, et de l'aider à
+            
+            se marier. On sait qu'il a du bien, et il laisse son jeune neveu
+            
+            travailler sans l'aider, c'est une horreur ! ce jeune homme
+            
+            aime la jeune personne… Oh ! si je pouvais arranger ce mariage
+            
+            jà, ça dérangerait le sien. 
+            
+            Les Garçons. 
+            
+            31
+            
+            SCENE IV. 
+            
+            MANETTE, AUGUSTE. 
+            
+            (Augusle frappe doucement à la porte, Manette va ouvrir.)
+            
+            Ah ! vous voili, monsieur ! 
+            
+            MANETTE, mystérieusement. 
+            
+            AUGUSTE. 
+            
+            Oui, mademoiselle ; vous m'avez promis de vous intéresser
+            
+            à moi. Est-ce que vous allez me présenter à mon oncle ? 
+            
+            MANETTE, vivement. 
+            
+            Il n'est pas encore temps, il vous recevrait mal dans ce mo
+            
+            ment-ici ; laissez-moi le préparer à vous voir. 
+            
+            AUGUSTE. 
+            
+            Mais si nous tardons à melire quelque obstacle à son mariage, 
+            
+            jesuis perdu ! 
+            
+            MANETTE. 
+            
+            Soyez tranquille : je m'intéresse autant que vous à ce que ce
+            
+            mariage ne se fasse pas. 
+            
+            AUGUSTE. 
+            
+            Je ne suis pas encore établi faute de huit ou dix mille
+            
+            francs. 
+            
+            MANETTE. 
+            
+            Il faudra bien que votre oncle les donne, je m'en charge. 
+            
+            (On entend tourner Ribouleau.) Chut ! je l'entends. Passez dans
+            
+            lesalon ; siquelqu'un y entrait, cachez-vous derrière le paravent. 
+            
+            AUGUSTE. 
+            
+            Oui, mademoiselle. Vous êtes aussi bonne que jolie ! 
+            
+            (Il entre dans le salon à gauche du spectateur. Manette repousse la
+            
+            porte qui doit ouvrir sur le théâtre.)
+            
+            SCENE V. 
+            
+            MANETTE, RIBOULEAU. 
+            
+            RIBOULEAU, sortant de sa chambre et regardant du côté de la porte
+            
+            d'entrée à droite. 
+            
+            Avec qui parlais-tu donc là ? 
+            
+            MANETTE. 
+            
+            Je me parlais toute seule. 
+            
+            RIBOULEAU, 
+            
+            J'ai entendu une voix d'homme. 
+            
+            MANETTE. 
+            
+            Qu'est ce que cela peut vous faire ? est-ce que je n'ai pas
+            
+            le
+            
+            droit de recevoir qui bon me semble ? 
+            
+            35
+            
+            RIBOULEAU. 
+            
+            Ah ! c'était quelque marchand, quelque fournisseur ? …
+            
+            MANETTE,'appuyant. 
+            
+            Non, c'était un jeune homme qui est venu me voir…
+            
+            RIBOULEAU. 
+            
+            Un jeune homme ! En effet on m'avait déjà dit que tu recevais
+            
+            des jeunes gens. 
+            
+            MANETTE. 
+            
+            Pourquoi n'en recevrais-je pas ? êtes-vous jaloux ? Je ne suis
+            
+            pas votre feinme : vous n'avez pas envie de m'épouser, n'est
+            
+            ce pas ? 
+            
+            RIBOULEAU, embarrassé. 
+            
+            Mais… dame…
+            
+            je ne crois pas que… Est-ce que tu trouves
+            
+            que je ne suis pas trop vieux pour memarier ? 
+            
+            MANETTE, s'adoucissant. 
+            
+            Ça dépend de la femme que vous épouseriez. 
+            
+            (On sonne *.)
+            
+            RIBOULEAU. 
+            
+            Tiens ! qui est-ce qui sonne ? 
+            
+            MANETTE, allant à la petite table. 
+            
+            Voyez donc. 
+            
+            Ah ! c'est vrai… elle est occupée. (On sonne encore.)
+            
+            RIBOULEAU, surpris. 
+            
+            MANETTE. 
+            
+            Mais on resonne : allez donc ouvrir. 
+            
+            RIBOULEAU, allant ouvrir
+            
+            Tiens ! c'est l'ami Duchemin. 
+            
+            SCENE VI. 
+            
+            LES MÊMES, DUCHEMIN. 
+            
+            DUCHEMIN, galment. 
+            
+            Bonjour, mon vieux. 
+            
+            RIBOULEAU. 
+            
+            Ne m'appelle donc pas comme ça ! 
+            
+            Ça le vexe ! 
+            
+            MANETTE, à part. 
+            
+            DUCHEMIN. 
+            
+            J'ai su que tu avais du monde, et je viens. 
+            
+            Sois le bienvenu. 
+            
+            RIBOULEAU. 
+            
+            DUCHEMIN, poliment. 
+            
+            Bonjour, mam'selle Manette. 
+            
+            RIBOULEAU. 
+            
+            Ne la tourmente pas ; elle a de l'humeur. 
+            
+            * Le souffleur se chargera de sonner pour que la réplique ne manque pas. 
+            
+            36
+            
+            MANETTE, allant et venant. 
+            
+            Coinment va mam'selle Thérèse, monsieur Duchemin ? 
+            
+            DUCHEMIN. 
+            
+            Pas mal ; elle est allée passer huit jours à Coulommiers, dans
+            
+            son pays… Et vous, mam'selle Manette, vous ne maigrissez
+            
+            pas. 
+            
+            MANETTE. 
+            
+            Non, je me porte bien. 
+            
+            DUCHEMIN, d Ribouleau. 
+            
+            Qu'est-ce qu'on m'a donc dit ? c'est un repas d'accordailles ? 
+            
+            tu vas te marier ? 
+            
+            RIBOULEAU, le poussant. 
+            
+            Tais-toi dono ! il n'est pas question de ça. 
+            
+            C'est la nouvelle du quartier. 
+            
+            DUCHEMIN. 
+            
+            Paix donc ! 
+            
+            RIBOULEAU, le poussant encore. 
+            
+            DUCHEMIN, parlant plus fort. 
+            
+            Ah ! oui, à cause de mademoiselle Manette. 
+            
+            RIBOULEAU, le poussant plus fort. 
+            
+            Mais tais-toi donc, animal ! …
+            
+            MANETTE, qui écoutait *
+            
+            Quand vous pousserez monsieur Ducheinin ! 
+            
+            je sais tout, 
+            
+            allez… c'est bien, monsieur, 
+            
+            il faut que j'apprenne ça par une
+            
+            personne tierce ! 
+            
+            RIBOULEAU. 
+            
+            On aura fait
+            
+            cancans… il n'y a rie
+            
+            de fait encore. 
+            
+            Non, 
+            
+            je
+            
+            te jure qu'on en parle très sérieusement… on
+            
+            DUCHEMIN, appuyant. 
+            
+            nomme la fille de monsieur Coquet. 
+            
+            MANETTE. 
+            
+            Qu'est-ce qu'on dira ? Vous avez un neveu, 
+            
+            le fils de votre
+            
+            propre soeur… Vous allez le déshériter, c'est du beau… c'est
+            
+            du superbe ! 
+            
+            RIBOUL EAU. 
+            
+            Un joli sujet que mon neveu ! un étourdi que j'avais inis en
+            
+. 
+            
+            apprentissage… et qui a été renvoyé de chez trois horlogers où
+            
+            je l'avais placé…
+            
+            MANETTE. 
+            
+            Ah ! … un jeune homme peut commettre des inconséquences
+            
+            et n'être pas un mauvais sujet pour ça. 
+            
+            RIBOULEAU. 
+            
+            Mais, Manette, tu ne m'en as pas toujours dit du bien. 
+            
+            *
+            
+            Ribouleau, Duchemin, Manette. 
+            
+            37
+            
+            MANETTE, d'un air patelin. 
+            
+            C'est qu'on m'a dit que depuis quelque temps, 
+            
+            il s'occupait
+            
+            beaucoup de son élat…
+            
+            RIBOULEAU. 
+            
+            Oui, pas mal : c'est un petit mauvais sujet, un coureur…
+            
+            DUCAEMIN. 
+            
+            Que veux-tu ? il est jeune, il est horloger, 
+            
+            il doit être du
+            
+            mouvement ! 
+            
+            RIBOULEAU. 
+            
+            Le mouvement ine fatigue… moi.'
+            
+            DUCHEMIN. 
+            
+            Parce que nous sommes vieux. 
+            
+            MANETTE, avec dėdain. 
+            
+            Du reste, monsieur, je ne sais pas pourquoi je m'occupe en
+            core de vous, de votre famille… vous êtes lasse d'être heureux ; 
+            
+            mariez-vous, épousez une jeune femme qui vous tyrannisera ; 
+            
+            il lui faudra des robes, des chapeaux à celle-là. 
+            
+            RIBOULEAU, riant. 
+            
+            Nous n'en sommes pas là. 
+            
+            MANETTE, avec sentiment. 
+            
+            Au surplus, je devais m'y attendre, ça finit toujours comme
+            
+            ça : j'aurai passé ici ma jeunesse, et c'est un autre qui récol
+            
+            tera… Les jeunes filles sont bien sottes de s'attacher à des maî
+            
+            tres qui ne se gênent pas pour les planter là. (Elle pleure.)
+            
+            RIBOULEAU. 
+            
+            Voyons, Manette, pas de bêtises. 
+            
+            DUCAEMIN, emimenant Ribouleau, à part. 
+            
+            Au fait, tu l'as eue bien jeune… Je crois la voir encore quand
+            
+            elle est arrivée, avec son peti bonnet norinand ; elle était toute
+            
+            drolette ! Sais-tu qu'il y a dix ans de cela ! 
+            
+            RIBOULEAU, bas à Duchemin. 
+            
+            Laisse-moi donc tranquille avec tes souvenirs ; je le sais bien
+            
+            qu'elle est jolie, je le sais mieux que toi, peut-être. 
+            
+            DUCHEMIN, haut. 
+            
+            Non, c'est que ça me fait de la peine, cette bonne made
+            
+            moiselle Manette…
+            
+            RIBOULEAU, le poussant. 
+            
+            Hein ! … vieux courtisan, vieux diplomate ! Manette, je vais
+            
+            chercher un homard. Je reviens, entends-tu. 
+            
+            Allez, allez…
+            
+            (Il sort.). 
+            
+            MANETTE avec humeur. 
+            
+            &gt; 
+            
+            38
+            
+            SCENE VII. 
+            
+            DUCHEMIN, MANETTE. 
+            
+            MANETTE. 
+            
+            Voyons, monsieur Duchemin, vous qui êtes galant, aidez
+            
+            moi à finir mon couvert ; je n'ai de coeur à rien aujourd'hui. 
+            
+            Oui, je conçois…
+            
+            DUCHEMIN. 
+            
+            MANETTE. 
+            
+            Tenez, les assiettes sont sur la petite table. 
+            
+            DUCAEMIN. 
+            
+            Oui, en voilà une pile ; pourvu que je n'aille pas faire de
+            
+            maladresse. (Il prend les assiettes et les porte sur la table.)
+            
+            MANETTE, tout en arrangeant le couvert. 
+            
+            Dites donc, monsieur Duchemin…
+            
+            DUCHEMIN. 
+            
+            Quoi, mam'selle Manette ? 
+            
+            MANETTE. 
+            
+            Quand donc en finissez-vous avec inademoiselle Thérèse : …
+            
+            Vous deviez l'épouser l'année dernière, et puis c'est encore
+            
+            tombé dans l'eau. 
+            
+            DUCHEMIN. 
+            
+            Ah ! ah ! je ne suis pas jeune…
+            
+            (Il veut lui prendre la taille.)
+            
+            MANETTE. 
+            
+            Finissez donc, monsieur Duchemin…
+            
+            DU CHEMIN. 
+            
+            Je ris… je plaisante…
+            
+            MANETTE, revenant sur le devant de la scène. 
+            
+            Si vous ne me laissez pas tranquille, je le dirai à votre bonne ; 
+            
+            c'est qu'elle ne rirait pas, mam'selle Thérèse…
+            
+            DU CHEMIN. 
+            
+            Vous pouvez bien lui dire si vous voulez. Je suis libre de
+            
+            mesactions. 
+            
+            MANETTE, 
+            
+            Ah ! coinme vous êtes brave quand elle n'est pas là : vous
+            
+            rappelez-vous cette fois que vous ne voulussiez pas qu'elle aille
+            
+            danser, et qu'elle y a été tout de même, et qu'elle avait la clé, 
+            
+            et que vous avez été obligé d'attendre jusqu'à dix heures chez
+            
+            1
+            
+            lap ortière, quelle mine vous faisiez ! 
+            
+            DUCHEMIN. 
+            
+            Ah ! c'est bon pour une fois…
+            
+            MANETTE. 
+            
+            Pour une fois… pour une fois… vous êtes joliment petit gar
+            
+            çon devantelle. 
+            
+            39
+            
+            DUCHEMIN. 
+            
+            Thérèse est bonne fille. J'ai l'air de me laisser mener ; mais
+            
+            quand je fais ma grosse voix, ah ! oh !. 
+            
+. 
+            
+            MANETTE. 
+            
+            Elle vous rit joliment au nez. 
+            
+            DUCHEMIN. 
+            
+            Vous êtes méchante comme un diable ! Manette, je vais vous
+            
+            embrasser pour la peine. 
+            
+            (Il veut l'embrusser.)
+            
+            MANETTE, le repoussant. 
+            
+            Monsieur Duchemin, pas de gestes. 
+            
+            (On sonne.) Voici du
+            
+            monde. 
+            
+            (à part.) Qu'est-ce qu'il a donc, ce vieux tou ? Elle
+            
+            ouvre la porte.)
+            
+            SCENE VIII. 
+            
+            DUCHEMIN, MANETTE, M. ET MADAME COQUET, 
+            
+            EULALIE, en toilette. 
+            
+            DUCHEMIN, à Manette. 
+            
+            Ah ! ah ! c'est la petite future ; 
+            
+            elle
+            
+            est gentille ; c'est tout
+            
+            jeune ! 
+            
+            Vous trouvez…'
+            
+            MANETTE. 
+            
+            COQUET. 
+            
+            Est-ce que monsieur Ribouleau n'y est pas, mademoiselle
+            
+            Manette ? 
+            
+            MANETTE, d'un air de mauvaise humeur. 
+            
+            Non, il est sorti ; asseyez-vous, il va revenir. 
+            
+            COQUET. 
+            
+            Je le croyais chez lui. (Madame Coquet s'assied.)
+            
+            MANETTE. 
+            
+            Vous arrivez de bien bonne heure, aussi. 
+            
+            COQUET. 
+            
+            Dame ! il avait dit que c'était un déjeuner. 
+            
+            MANETTB, sèchement. 
+            
+            Un déjeuner dinatoire. 
+            
+            MADAME COQUET, à son mari. 
+            
+            Voilà une bonne qui me paraît fort insolente. 
+            
+            Nous la chasserons après le mariage. 
+            
+            COQUET, bas à sa femme. 
+            
+            DUCHEMIN. 
+            
+            Dites donc, mam'selle Manette, 
+            
+            si vous faisiez entrer au
+            
+            salon ? 
+            
+            Il n'y a pas de feu. 
+            
+            MANETTE. 
+            
+            coquet, surpris. 
+            
+            Il n'y a pas de ſeu ! … A quelle heure dînera-t-on ? 
+            
+            40
+            
+            MANETTE. 
+            
+            Pas avant trois heures. Le traiteur n'est prévenu que pour
+            
+            cette heure-là. 
+            
+            MADAME COQUET, à son mari, 
+            
+            Quel mauvais ton ? … une domestique parler comme ça ! 
+            
+            (haut.) Vous prenez chez le traiteur ? ça n'est pas économique. 
+            
+            MANETTE. 
+            
+            Oui ; mais c'est plus tôt fait, et ça donne moins de mal. 
+            
+            coquet. 
+            
+            Mam'selle Manette, Élisabeth va venir vous aider. 
+            
+            MANETTE. 
+            
+            Comme elle voudra, qu'elle ne se gêne pas. 
+            
+            MADAME COQUET, se levant. 
+            
+            C'est à n'y pas tenir ! 
+            
+            SCENE IX. 
+            
+            DUCHEMIN, MANETTE, RIBOULEAU, EULALIE, 
+            
+            MADAME COQUET, M. COQUET. 
+            
+            BIBOULEAU, galment. 
+            
+            Me voilà ! me voilà ! j'étais allé chercher un homard. 
+            
+            (Il le
+            
+            pose sur la table.) Comment ! on ne vous a pas fait entrer dans
+            
+            le salon ? 
+            
+            Il n'y a pas de feu dans ton salon. 
+            
+            RIBOULEAU, bas à Manette. 
+            
+            COQUET. 
+            
+            Ah ! cả, Manette, es-tu folle ? 
+            
+            MANETTE. 
+            
+            Je ne les ai pas empêchés d'y aller. 
+            
+            RIBOULEAU, bas. 
+            
+            Voyons, ne va pas faire la mauvaise tête. 
+            
+            (saluant Eulalie.)
+            
+            Bonjour, mademoiselle
+            
+            Eulalie, sommes-nous un peu remise
+            
+            des petites contrariétés d'hier ? (d part.) Elle est gentille…
+            
+            Oui, inonsieur. 
+            
+            EULALIE. 
+            
+            RIBOULEAU. 
+            
+            Fort jolie ! cette coiffure vous va très bien. 
+            
+            MANETTE, à Duchemin. 
+            
+            Il veut faire son gentil ; ça lui va bien avec son gros ventre. 
+            
+            Charmante Eulalie ! (voyant Manette qui le regarde.) Ma
+            
+            RIBOULEAU, toujours galant. 
+            
+            nette, si tu allais chez le traiteur ? 
+            
+            MANETTE. 
+            
+            J'aurais beau y aller, ça ne le fera pas venir plus vite. 
+            
+            COQUET. 
+            
+            En attendant le dîner, si nous causions un peu de l'affaire en
+            
+            question, mon cher Ribouleau ? 
+            
+            41
+            
+            RIBOULEAU, embarrassé. 
+            
+            Certainement… pourquoi pas ? …
+            
+            (d Manette.) Manette, va
+            
+            donc voir si le traiteur…
+            
+            Il sonnera. 
+            
+            MANETTE, impatientée. 
+            
+            RIBOULEAU. 
+            
+            Mais les Joli n'arrivent pas ; mon Dieu ! les vilaines gens pour
+            
+            se faire attendre ! 
+            
+            coquer, apercevant le traiteur qui entre. 
+            
+            Ah ! voilà le traiteur ! 
+            
+            RIBOULEAU, 
+            
+            Soyez le bienvenu. 
+            
+            SCENE X. 
+            
+            DUCHEMIN, M. ET MADAME JOLI, RIBOULEAU, M. ET
+            
+            MADAME COQUET, EULALIE ; au fond, MANETTE et
+            
+            LE TRAITEUR, servant les plats et la soupière. 
+            
+            COQUET. 
+            
+            Eh ! arrivez donc, lambins ! comme vous venez tard ! 
+            
+            MADAME JOLI, minaudant. 
+            
+            C'est Joli qui n'en finit pas de lacer mon corset
+            
+            JOLI. 
+            
+            C'est ma femme qui n'en finit jamais de me mettre ma cra
+            
+            vate. 
+            
+            Diable ! voilà de la galanterie. 
+            
+            RIBOULEAU. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR du Fleuve de la vie. </stage>
+            
+            
+                    <l>Tous ces petits soins-là, madame,</l>
+                    <l>Font honneur à votre mari…</l>
+                    <l>Comment ! vous lacez votre femme ?</l>
+            
+                    COQUET. 
+            
+                    <l>Moi je lace la mienne aussi.</l>
+            
+                    MADAME COQUET. 
+            
+                    <l part="I">Taisez-vous donc !</l>
+            
+                    COQUET. 
+            
+                    <l part="F">Pas vrai, bobonne ?</l>
+            
+                    RIBOULEAU. 
+            
+                    <l>Moi, loin d'avoir un tel bonheur,</l>
+                    <l>Comme garçon j'ai le malheur</l>
+                    <l>De ne lacer personne.</l>
+                </lg>
+            </div>
+            
+            
+            Ça viendra, Ribouleau. 
+            
+            COQUET. 
+            
+            Les Garçons. 
+            
+            6
+            
+            12
+            
+            JOLI. 
+            
+            Ah ! çà, voilà un couvert qui a fort bonne mine, nous allons
+            
+            réparer le temps perdu. 
+            
+            RIBOULEAU. 
+            
+            Mes amis, vous serez indulgent ; c'est un dîner de garçon, 
+            
+            un véritable ambigu, tout est servi à la fois… nous tâcherons
+            
+            d'être gais. 
+            
+            COQUET. 
+            
+            A table ! je ineurs de faim. 
+            
+            TOUS. 
+            
+            Oui, oui. 
+            
+            (Manette et le traiteur avancent la table vers l'avant-soine.)
+            
+            CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la Muette. </stage>
+            
+            
+                    <l>À table ! allons, mettons-nous vite à table !</l>
+                    <l>Les plats sont chauds, les vins sont frais ;</l>
+                    <l>On fait toujours un repas agréable</l>
+                    <l>Quand l'appétit assaisonne les mets.</l>
+                </lg>
+            </div>
+            
+            
+            RIBOULEAU, plaçant son monde *. 
+            
+            Charmante Eulalie, au bout. 
+            
+            DUCAEMIN, riant. 
+            
+            C'est la place de la mariée, ah ! ah ! 
+            
+            NADAME COQUET. 
+            
+            Nous n'en sommes pas là. 
+            
+            Je l'espère bien. 
+            
+            MANETTE, à part. 
+            
+            RIBOULEAU, plaçant. 
+            
+            Monsieur Coquet et madame Juli. 
+            
+            DUCHEMIN. 
+            
+            Et moi, où me mets-tu ? 
+            
+            RIBOULEAU. 
+            
+            Au milieu, entre ces deux daines ; songe à avoir soin de tes
+            
+            voisines. Joli, mettez-vous là… j'espère que je vous donne un
+            
+            charmant vis-à-vis. 
+            
+            DUCHEMIN. 
+            
+            Ma foi ! je m'asseois ; j'ai, comme on dit, les dents d'une aune. 
+            
+            Allons, Duchemin, sers le potage. 
+            
+            RIBOULEAU. 
+            
+            DUCAEMIN, debout et servant. 
+            
+            Je ne suis
+            
+            pas
+            
+            fort adroit. Chez inoi, c'est Thérèse qui sert…
+            
+            faites passer. (Les assiettes circulent ; on se fait des politesses.)
+            
+            Places à table : Eulalie, Ribouleau, madame Joli, Duchemin, madame
+            
+            Coquet, Joli, Coquet ; les bonnes derrière. 
+            
+            Après vous. 
+            
+            43
+            
+            Coquet, à Joli. 
+            
+            MADAME JOLI. 
+            
+            Voilà un excellent potage. 
+            
+            DUCHEMIN. 
+            
+            Tout le monde est-il servi ? 
+            
+            Oui, 
+            
+            TOUS. 
+            
+            DUCAEMIN. 
+            
+            A moi, maintenant. 
+            
+            (Il tient d'une main son assietle, de lau
+            
+            tre sa cuillère ; on sonne ; il reste en suspens.)
+            
+            On sonne. Qui est-ce qui est là ? 
+            
+            RIBOULEAU. 
+            
+            SCENE XI. 
+            
+            &gt; 
+            
+            LES MÊMES, ÉLISABETH. 
+            
+            ÉLISABETH. 
+            
+            Monsieur Duchemin, c'est la portière qui vient de la part de
+            
+' votre bonne qui arrive de la cainpagne. 
+            
+            DUCHEMIN, posant son assiette et tirant une clé, 
+            
+            C'est bon, voilà la clé. (Il reprend son assiette.)
+            
+            ÉLISABETH. 
+            
+            Non. Elle a dit à la portière que vous veniez vous-même. 
+            
+            Diable ! 
+            
+            DUCAEMIN avec humeur. 
+            
+            Je parie qu'il va y aller. 
+            
+            JOLI, bas a Coquet. 
+            
+            Sont-ils drôles avec leurs gouvernantes
+            
+            ! 
+            
+            COQUET, riant. 
+            
+            ÉLISABETH. 
+            
+            Dépêchez-vous donc, monsieur Duchemin, mam'selle Thé
+            
+            rèse attend chez la portière. 
+            
+            DUCHEMIN, se levant de table, embarrassé. 
+            
+            Il faut qu'il y ait quelque chose…
+            
+            Faites, faites, monsieur Duchemin. 
+            
+            JOLI, riant et mangeant. 
+            
+            DUCHEMIN, allant prendre son chapeau', dit, à part, sur le devant
+            
+            de la scène. 
+            
+            C'est pourtant bien terrible de vivre sous le despotisıne d'une
+            
+            cuisinière. 
+            
+            (haut.) Je vais revenir. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : J'ons un curé patriote. </stage>
+            
+            
+                    <l>Mesdames, qu'on me pardonne</l>
+                    <l>Si je vous quitte un instant.</l>
+            
+                    1
+            
+                    JOLI. 
+            
+                    <l>Allez trouver votre bonne.</l>
+            
+                    COQUET. 
+            
+                    <l>Courez, elle vous attend.</l>
+            
+                    DUCHEMIN. 
+            
+                    <l>Je n'irais pas, croyez bien,</l>
+                    <l>Que cela n'y ferait rien.</l>
+            
+                    TOUS. 
+            
+                    <l>Allez donc,</l>
+                    <l>Courez donc !</l>
+                    <l>Ce que c'est qu'un vieux garçon !</l>
+                    <l>Ah ! que c'est drôle un vieux garçon !</l>
+                </lg>
+            </div>
+            
+            
+            SCENE XII
+            
+            LES MÊMES, exceptė DUCHEMIN. 
+            
+            JOLI, se levant. 
+            
+            Je vais prendre sa place. 
+            
+            (Il s'assied au milieu.)
+            
+            COQUET, riant. 
+            
+            Il ne reviendra pas, il est avec sa bonne. 
+            
+            RIBOULEAU. 
+            
+            Faute d'un moine, l'abbaye ne manque pas. 
+            
+            COQUET. 
+            
+            Voyons, Ribouleau, vous qui êtes gai, dites-nous quelque
+            
+            gaudriole. 
+            
+            MADAME JOLI. 
+            
+            Messieurs, surtout pas de mots à double entente ; songez qu'il
+            
+            y a ici des dames. 
+            
+            RIBOULEAU. 
+            
+            Je me vante de posséder le sentiment des convenances…
+            
+            monsieur Coquet, voulez-vous une côtelette ? 
+            
+            Volontiers. 
+            
+            COQUET. 
+            
+            MADAME COQUET. 
+            
+            Ayez des égards pour les dames. 
+            
+            RIBOULEAU, à Coquet. 
+            
+            Avec un peu de moutarde ? 
+            
+            JOLI, riant. 
+            
+            Ah ! des égards avec un peu de moutarde… il n'en démor
+            
+            dra pas ! 
+            
+            RIBOULEAU. 
+            
+            A table, ce n'est pas le moment de démordre. 
+            
+            (Il rit.) Ah ! 
+            
+            ah ! ah ! 
+            
+            COQUET. 
+            
+            Diable de foul va, 
+            
+            il a manqué me faire étrangler ; il est
+            
+            cause que j'ai avalé de travers. 
+            
+            45
+            
+            SCENE XIII. 
+            
+            LES MÊMES, AUGUSTE, entr'ouvrant la porte du salon qui le cache
+            
+            aux acteurs, 
+            
+            AUGUSTE, à part. 
+            
+            Ils mangent, et moi, je suis prisonnier là ! je meurs de faim ! 
+            
+            JOLI, à Ribouleau, lui montrant le rôti. 
+            
+            Attaquez-moi donc ce gaillard-là. 
+            
+            AUGUSTE, croyant qu'on parle de lui, referme la porte. 
+            
+            Ciel ! 
+            
+            Quel gaillard ? 
+            
+            RIBOULEAU. 
+            
+            JOLI. 
+            
+            Eh bien ! cet animal qui attend qu'on lui coupe bras et
+            
+            jambes. 
+            
+            AUGUSTE, reparaissant. 
+            
+            J'ai cru qu'il parlait de moi. 
+            
+            RIBOULEAU. 
+            
+            Ah ! c'est que je ne suis pas fort sur la découpure ; c'est
+            
+            ordinairement Manette qui taille, qui sert… Tiens, Manette, 
+            
+            coupe-nous ça. 
+            
+            MANETTE, prenant le plat entre monsieur et madame Coquet avec un
+            
+            mouvement d'humour. 
+            
+            COQUET. 
+            
+            Prenez donc garde à la sauce ! Ah ! mon habit ! 
+            
+            MADAME COQUET. 
+            
+            Ma robe ! que vous êtes maladroite ! 
+            
+            MANETTE. 
+            
+            Dame ! c'est pas de ma faute. 
+            
+            JOLI. 
+            
+            Je vais servir le pâté… diable ! des perdreaux ! (Il découpe.)
+            
+            Dieux ! qu'ils sont durs. 
+            
+            (Il en fait passer à Eulalie.)
+            
+            RIBOULEAU. 
+            
+            Ils sont durs… dis donc, Manette ? 
+            
+            MANETTE. 
+            
+            Je ne suis pas dedans. 
+            
+            RIBOULEAU, riant. 
+            
+            Si tu étais dedans, ils seraient plus tendres. 
+            
+            MANETTE. 
+            
+            C'est bon ! (Pendant qu'on mange, Auguste risque de s'avancer
+            
+            près d'Eulalie qui se trouve placée près de la porte.)
+            
+            Mademoiselle Eulalie, ayez pitié de moi ! 
+            
+            AUGUSTE, bas. 
+            
+            Ah ! 
+            
+            EULALIE, surprise. 
+            
+            Je tombe d'inapition ! 
+            
+            46
+            
+            AUGUSTE, bas. 
+            
+            EULALIE. 
+            
+            Tenez. 
+            
+            (Elle lui donne son assiette où l'on venait de servir la
+            
+            moitié d'un perdreau ; Manette lui en donne une blanche. 
+            
+            AUGUSTE. 
+            
+            Je ne veut vivre que pour vous. (Il rentre.)
+            
+            Mademoiselle Eulalie ne fait rien. 
+            
+            JOLI. 
+            
+            RIBOULEAU. 
+            
+            Si fait, je viens de lui servir la moitié d'unpe rdreau. 
+            
+            EULALIE, embarrassée. 
+            
+            Je l'ai mangée, mon cousin. 
+            
+            RIBOULEAU. 
+            
+            Ça été bientôt fait, vous devez étouffer. Buvons donc ; Joli, 
+            
+            vous av ezle vin de votre côté ; à moi un bon verre… pur ! 
+            
+            (Joli verse à boire en commençant par le verre de Ribouleau, qui
+            
+            présente ensuite celui d'Eulalie, pendant ce temps-ld, Auguste
+            
+            vide le verre de Ribouleau qu'Eulalie lui a passė ; Manette en met
+            
+            un autre.)
+            
+            COQUET. 
+            
+            Si nous buvions à la santé de l'Amphytrion ? 
+            
+            TOI'S. 
+            
+            Oui, oui ; à votre santé, monsieur Ribouleau ! 
+            
+            RIBOULEAU, prenant son verre qu'il croit plein. 
+            
+            A la vôtre, mes chers convives ! (Il va pour boire.) Eh bien ! 
+            
+            ma petite voisine, vous avez vidé mon verre au lieu du vôtre. 
+            
+            Comment ! un grand verre de vin pur ! 
+            
+            COQUET. 
+            
+            RIBOULEAU. 
+            
+            Ah ! vous avez hu dans mon verre ! je saurai votre pensée. 
+            
+            Il saura que je le déteste. 
+            
+            EULALIE, a part. 
+            
+            MADAME COQUET. 
+            
+            Ma fille, prenez garde aux distractions. 
+            
+            RIBOULEAU. 
+            
+            Si c'était du champagne, ce serait inoins dangereux ; c'est le
+            
+            vin des dames. Ah ! à propos de champagne, Manette, tu vas
+            
+            nous en faire boire. 
+            
+            Bonne idée… vive le champagne ! 
+            
+            JOLI. 
+            
+            MANETTE, sur le devant de la scène, à gauche. 
+            
+            J'en suis fâchée, monsieur, 
+            
+            il n'y en a pas de monté. 
+            
+            MADAME COQUET. 
+            
+            Eh bien ! puisque c'est mademoiselle qui va à la cave…
+            
+            47
+            
+            MANETTE. 
+            
+            La cave est fraîche et j'ai trop chaud ; je ne peux pas y des
+            
+            cendre. 
+            
+            COQUET. 
+            
+            Allons, Ribouleau, vous ferez comme moi, vous irez vous
+            
+            même. 
+            
+            RIBOULEAU, se levant. 
+            
+            Je ne sais seulement pas où elle est. (Il va près de Manette.)
+            
+            Manette, il faut descendre à la cave. 
+            
+            MANETTE, bas. 
+            
+            Je n'y descendrai pas. 
+            
+            RIBOULRAU, se fâchant, mais à demi-voix. 
+            
+            C'est ridicule aussi ! 
+            
+            JOLJ. 
+            
+            On attend le champagne demandé. 
+            
+            RIBOULEAU, bas à Manette. 
+            
+            Mauvaise tête ! (haut.) Ah ! je me rappelle qu'il y
+            
+            en a une
+            
+            bouteille de montée. (Il se lève et va la chercher au buffet.)
+            
+            Il y va lui-même. 
+            
+            coquet, à Joli. 
+            
+            RIBOULEAU, 
+            
+            Tu nous feras au moins la grace de nous donner des verres. 
+            
+            MANETTE. 
+            
+            Élisabeth, ils sont là, sur la petite table. 
+            
+            RIBOULEAU. 
+            
+            Et tu nous feras bien le plaisir de déboucher la bouteille. 
+            
+            (Manette débouche la bouteille, Élisabeth place les verres. 
+            
+            JOLI. 
+            
+            Et șervez-nous dans le genre mousseux ! 
+            
+            RIBOULEAU. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Si les dés vident notre bourse (du Régent).</stage>
+            
+            
+                    <l>Point de gaîté, point de refrain</l>
+                    <l>Sans quelques verres de champagne :</l>
+                    <l>C'est le vrai charme d'un festin,</l>
+                    <l>C'est le bouquet qui l'accompagne.</l>
+                    <l>Lorsque de ce joli vin-là</l>
+                    <l>Pétille la mousse légère,</l>
+                    <l>L'étiquette aussitôt s'en va,</l>
+                    <l>La beauté devient moins sévère. <stage type="repetition"> (bis.)</stage></l>
+                    <l>Mes amis, tendez votre verre,</l>
+                    <l>Manette vous le remplira.</l>
+                </lg>
+            </div>
+            
+            
+            Charmante future, permettez…
+            
+            (Il présente le verre d'Eulalie.)
+            
+            18
+            
+            MANETTE, hors d'elle. 
+            
+            Sa future ! c'est trop fort. (Madame Joli tend son verre ; Ma
+            
+            nette répant dil champagne sur sa robe.)
+            
+            MADAME JOLI, furieuse. 
+            
+            Mais, Manette, vous m'abîmez… cette fille est insupportable ! 
+            
+            RIBOULEAU, prenant la bouteille des mains de Manette…
+            
+            Nanette, c'est trop fort à la fin ! … je verserai moi-même. 
+            
+            MANETTE. 
+            
+            Eh bien ! versez. (Elle va s'asseoir dans un coin à droite et pleure.)
+            
+            RIBOULEAU. 
+            
+            Ça ne sera rien ; une petite chanson, et vous ferez chorus. 
+            
+            (On passe la bouteille de main en main.)
+            
+            MADAME JOLI, 
+            
+            Chantez-nous quelque chose d'aimable. 
+            
+            Du Béranger. 
+            
+            Pas de politique. 
+            
+            COQUET. 
+            
+            MADAME COQUET. 
+            
+            RIBOULEAU. 
+            
+            Voulez-vous Frétillon ? Mon lait de poule et mon bonnet de nuit ? 
+            
+            MADAME COQUET. 
+            
+            Prenez garde, 
+            
+            elle est très croustilleuse… ce n'est pas pour
+            
+            moi que je dis ça ; mais ma fille…
+            
+            MADAME JOLI. 
+            
+            Oui, cette jeune personne…
+            
+            il est plus prudent de l'éloi
+            
+            gner. 
+            
+            COQUET, 
+            
+            D'ailleurs, les demoiselles ne restent pas au dessert ; va, Eu
+            
+            lalie, va au salon, inon enfanı. 
+            
+            EULALIE, se levant. 
+            
+            Mais, maman, 
+            
+            c'est que…
+            
+            MADAME COQUET. 
+            
+            Allez au salon, quand on vous le dit. 
+            
+            EULALIE, sur la porte du salon et n'osant pas entrer. 
+            
+            Je voudrais…
+            
+            RIBOULEAU. 
+            
+            Elle voudrait m'entendre chanter. 
+            
+            MADAME coquer, se levant de table, et la poussant dans le salon. 
+            
+            Obéissez donc !. 
+            
+            EULALIE, rencontrant Augaste. 
+            
+            Ah ! 
+            
+            Qu'est-ce que c'est ? 
+            
+            TOUS. 
+            
+            AUGUSTE, paraissant. 
+            
+            Je me sauve ! 
+            
+            (Il traverse le salon en courant.)
+            
+            49
+            
+            TOUS. 
+            
+            Au voleur ! 
+            
+            (Élisabeth et Coquet reculent la table au fond du
+            
+            théâtre.)
+            
+            SCENE XIV ET DERNIÈRE. 
+            
+            Les mêmes, DUCHEMIN, rumenant AUGUSTE, qu'il tient au
+            
+            collet *. 
+            
+            AUGUSTE, se débattant. 
+            
+            Laissez-moi, monsieur. 
+            
+            DUCHEMIN. 
+            
+            Non, parbleu ! je ne vous lâcherai pas ; j'ai la poigne bonne. 
+            
+            Ah ! ah ! que
+            
+            un voleur ? 
+            
+            Mon oncle ! 
+            
+            RIBOULEAU. 
+            
+            veniez-vous faire chez moi ? êtes-vous vraiment
+            
+            AUGUSTE, honteux, 
+            
+            RIBOULEAU. 
+            
+            Comment ! c'est mon neveu, Auguste Pichard ! et que fais-lu
+            
+            caché ici ? et. Manette qui savait ! … quel soupçon ! 
+            
+            MADAME COQUET, vivement
+            
+            Mais, c'est mon petit horloger. 
+            
+            C'est le mien aussi. 
+            
+            MADAME JOLI. 
+            
+            RIBOULEAU. 
+            
+            Voyons ! que faisais-tu là-dedans ? 
+            
+            AUGUSTE, embarrassé. 
+            
+            Mon oncle, j'arrangeais la pendule de votre salon. 
+            
+            RIBOULEAU. 
+            
+            Mais voilà deux heures que tu es là-dedans… et Manette ! 
+            
+            MANETTE, toujours assise et pleurant. 
+            
+            Quoi ! monsieur, vous me soupçonnez ? c'est une horreur ! 
+            
+            ÉLISABETH, criant. 
+            
+            Ah ! mon Dieu ! mam'selle Manette qui se trouve mal. 
+            
+            RIBOULEAU, courant à elle. 
+            
+            Ah ! mon Dieu ! de l'eau, ouvrez la fenêtre ! madame Coquet, 
+            
+            auriez-vous un flacon sur vous ! 
+            
+            (Il lui tape dans les mains.) Ma
+            
+            nette, je n'ai pas voulu te faire de la peine. 
+            
+            C'est d'une indécence ! …
+            
+            MADAME COQUET. 
+            
+            C'est d'une immoralité profonde. 
+            
+            MADAME JOLI. 
+            
+            * Joli, madame Joli, Eulalie, madame Coquet, Coquet, Ribouleau, Auguste, 
+            
+            Duchemin, Manette assise, Élisabeth. 
+            
+            Les Garçons. 
+            
+            7
+            
+            RIBOULEAU, très ému. 
+            
+            Ça va-t-il mieux, Manette ? 
+            
+            MANETTE, se levant. 
+            
+            Oui : laissez-moi tranquille, ce n'est pas de moi que mon
+            
+            sieur Auguste est amoureux, c'est de mam'selle Eulalie. 
+            
+            M. et MADAME COQUET. 
+            
+            Est-il possible ! vous êtes une impertinente ! cela n'est pas
+            
+            vrai. 
+            
+            Si, maman, cela est vrai. 
+            
+            EULALIE, naivement, 
+            
+            Par exemple ! …
+            
+            RIBOULEAU. 
+            
+            DUCHEMIN, riant. 
+            
+            Quelle candeur ! épouse-la, mon ami ! celle-là ne te trompera
+            
+            pas. 
+            
+            MADAME COQUET. 
+            
+            Mais, ma fille, vous vous trompez. 
+            
+            EULALIE. 
+            
+            Non, maman ; demandez plutôt à Élisabeth. 
+            
+            ÉLISABETA. 
+            
+            Oui, madame, ces jeunes gens s'aiinent, et si M. Auguste
+            
+            avait dix mille francs, son bourgeois lui vendrait son fonds. 
+            
+            RIBOULEAU, gravement. 
+            
+            (Elle sort.)
+            
+            Comment, monsieur, vous n'avez pas eu confiance dans
+            
+            votre oncle, dans votre bon oncle, dans votre excellent oocle ! 
+            
+            AUGUSTE. 
+            
+            Mais, mon oncle, je me suis présenté vingt fois, et l'on m'a
+            
+            toujours dit que vous n'y étiez pas. 
+            
+            RIBOULEAU, regardant Manette qui lui pousse le coude. 
+            
+            C'est qu'apparemment j'étais sorti. Il fallait m'écrire, mon
+            
+            sieur. 
+            
+            AUGUSTE. 
+            
+            Je vous ai écrit au jour de l'an et à votre fête, je n'ai pas reçu
+            
+            de réponse. 
+            
+            RIBOULEAU. 
+            
+            La poste est tellement inexacte ! 
+            
+            MANETTE, à part, à Duchemin. 
+            
+            C'est moi qui les gardais. 
+            
+            RIBOULEAU. 
+            
+            Allons, en voilà assez ; je vais vous établir. Monsieur et ma
+            
+            dame Coquet, consentez à l'échange ; 
+            
+            il est plus jeune que
+            
+            moi…
+            
+            Qu'en penses-tu, madame Coquet ? 
+            
+            COQUET. 
+            
+            51
+            
+            MADAME COQUET. 
+            
+            Du moment qu'il les établit ! … (Auguste passe entre Eulalie
+            
+            et madame Coquet.)
+            
+            JOLI, 
+            
+            C'est le plus sage. Ribouleau, vous leur servirez de père, 
+            
+            vous demeurerez avec eux, en famille…
+            
+            MANETTE. 
+            
+            De quoi vous mêlez-vous ? Chacun chez soi, on est plus
+            
+            libre. 
+            
+            RIBOULEAU. 
+            
+            Oui, oui, Manette a raison ; chacun chez soi, on est plus
+            
+            libre *. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Veillons au salut de l'empire.</stage>
+            
+            
+                    <l>Décidément je me prononce ;</l>
+                    <l>Mon ami, je fais comme toi :</l>
+                    <l>À me marier je renonce ;</l>
+                    <l>Mon indépendance est ma loi.</l>
+                    <l>Liberté ! liberté !</l>
+                    <l>À toi seule je rends hommage !</l>
+            
+                    DUCAEMIN, électrisé. 
+            
+                    <l>Liberté ! liberté !</l>
+                    <l>C'est toi qu'ici nous chérissons…</l>
+            
+                    RIBOULEAU. 
+            
+                    <l>Plutôt la mort que l'esclavage !</l>
+                    <l>C'est la devise des garçons.</l>
+            
+                </lg>
+            </div>
+            
+            ÉLISABETH, entrant. 
+            
+            Monsieur Duchemin, mam'selle Thérèse est là qui vous de
+            
+            mande. 
+            
+            Encore Thérèse ! mais c'est une persécution ! qu'est-ce qu'elle
+            
+            DUCHEMIN, furieux. 
+            
+            veut ? 
+            
+            ÉLISABETA. 
+            
+            Elle dit qu'elle est fatiguée de la voiture, et qu'elle veut se
+            
+            coucher de bonne heure. 
+            
+            Si elle est fatiguée…
+            
+            Au fait…
+            
+            MANETTB
+            
+            RIBOULEAU. 
+            
+            MADAME COQUET. 
+            
+            C'est d'un révoltant…, la société se décompose…
+            
+            Dites à Thérèse que j'y vas. 
+            
+            DUCHEMIN. 
+            
+            * Joli, madame Joli, Eulalie, Auguste, madame Coquet, Coquet, Ribouleau, 
+            
+            Duchemin, Manette. 
+            
+            52
+            
+            COQUET, riant. 
+            
+            Oh ! les garçons, comme ils sont libres ! (Tous les acteurs du
+            
+            côté gauche rient en regardant et montrant au doigt les delec gar
+            
+            çons et Manette.)
+            
+            MADAME COQUET, sèchement. 
+            
+            Ah ! çà, messieurs, rentrons : nous allons nous habiller pour
+            
+            ce bal (appuyant.) ou vous nous conduirez. 
+            
+            COQUET et JOLI. 
+            
+            Comment ! comment… ! 
+            
+            RIBOULEAU, riant. 
+            
+            Oh ! les gens mariés ! comme ils sont indépendans ! (Les deux
+            
+            groupes se regardent en se moquant i'un de l'antre.). 
+            
+            CHOEUR GÉNÉRAL. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Joconde. </stage>
+            
+            
+                    <l>Vive à jamais l'indépendance !</l>
+                    <l>On la prône de cent façons :</l>
+                    <l>Il faut, pour en jouir en France,</l>
+                    <l>N'être ni maris ni garçons.</l>
+                </lg>
+            </div>
+            
+            
+            RIBOULEAU, au public. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Julie. </stage>
+            
+            
+                    <l>Nos deux tableaux sont peu de chose :</l>
+                    <l>C'est en riant qu'on donne des leçons ;</l>
+                    <l>Et nous n'avons fâché, je le suppose,</l>
+                    <l>Ni les maris, ni les garçons.</l>
+                    <l>Pour que nos scènes réussissent,</l>
+                    <l>Le vrai moyen, je vous le dis tout bas,</l>
+                    <l>C'est qu'aujourd'hui les maris ne sifflent pas,</l>
+                    <l>Et que les garçons applaudissent.</l>
+            
+                    Ou bien, si vous aimez mieux : 
+            
+                    <l>Que les garçons ne sifflent pas,</l>
+                    <l>Et que les maris applaudissent.</l>
+            
+                </lg>
+            </div>
+            
+            I
+            
+            1
+            
+            20 i C2
+            
+            FIN. 
+        </body>
+    </text>
+</TEI>

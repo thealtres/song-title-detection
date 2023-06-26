@@ -1,0 +1,4655 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">SOLDATS, VOILA CATIN</title>
+                <title type="sub">, CROQUIS MILITAIRE EN DEUX ACTES, MÊLÉ DE COUPLETS</title>
+                <author key="DVR" sort="1">
+                    <name>
+                        <forename>Armand-Sacré</forename>
+                        <surname>Chapeau</surname>
+                        <addname type="pen_name">Desvergers</addname>
+                        <addname type="pen_name">Louis</addname>
+                    </name>
+                </author>
+                <author key="BGS" sort="2">
+                    <name>
+                        <forename>Auguste-Anicet</forename>
+                        <surname>Bourgeois</surname>
+                        <addname type="pen_name">Anicet-Bourgeois</addname>
+                        <addname type="pen_name">Anicet</addname>                    
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="PL">
+                        <forename>Pascaline</forename>
+                        <surname>Loricourt</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                </respStmt>
+                 <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+                   	<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">SOLDATS, VOILA CATIN</title>
+                        <author>Desvergers et Anicet-Bourgeois</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=RTNMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102E9B3C</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-12-14">14 DÉCEMBRE 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DU VAUDEVILLE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.
+                </p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui – ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NATIONALBIBLIOTHEK
+            
+            IN WIEN
+            
+            131434 – B
+            
+            ALT
+            
+            0
+            
+            1
+            
+            1
+            
+            128. 2. 48
+            
+            SOLDATS, 
+            
+            VOILA CATIN.,
+            
+            CROQUIS MILITAIRE EN DEUX ACTES, 
+            
+            MÊLÉ DE COUPLETS ; 
+            
+            Par MM. Desvergers et Anicet – Bourgeois ; 
+            
+            REPRÉSENTÉ, POUR LA PREMIÈRE FOIS, 
+            
+            SUR LE THÉATRE DU VAUDEVILLE, 
+            
+            LE 14 DÉCEMBRE 1830. 
+            
+            PRIX : 2 FR. 
+            
+            PARIS. 
+            
+            R. RIGA, LIBRAIRE, 
+            
+            FAUBOURG POISSONNIÈRE, N ° 1. 
+            
+            J. – N. BARBA, EDITEUR, PALAIS – ROYAL. 
+            
+            M DCCC XXXI. 
+            
+            131434 – B
+            
+. 
+            
+            PERSONNAGES. 
+            
+            ACTEURS
+            
+            CATHERINE, vivandière. 
+            
+            ADRIEN, fourrier d'infanterie. 
+            
+            BONIFACE. 
+            
+            ROBERT, brigadier de dragons. 
+            
+            Mme Albert. 
+            
+            M. HYPPOLITE. 
+            
+            M. ARNAL. 
+            
+            M. FONTENAY. 
+            
+            GIRARDOT, attaché à
+            
+            commission d'Egypte. 
+            
+            M. LBPEINTRE, jeune. 
+            
+            BARCOFF. 
+            
+            UN SERGENT. 
+            
+            UN PAYSAN RUSSE
+            
+            PLUSIEURS SOLDATS, PARLANS. 
+            
+            Deux Cosaques, 
+            
+            SOLDATS FRANÇAIS. 
+            
+            M. Cassel. 
+            
+            M. EMMANUEL
+            
+            M. THÉODORE
+            
+            Au premier acte, la scène se passe en Egypte en 1798 ; au second, en Russie
+            
+            en 1812.)
+            
+            1
+            
+            /
+            
+            IMPRIMERIE DE DAVID, BOULEVARD POISSONNIÈRE, N. 6. 
+            
+            SOLDATS, 
+            
+            VOILA CATIN. 
+            
+            AOFI PRIMIÉR. 
+            
+            (Le théâtre représente un site en Égypte ; on voit dans le lointain les Pyramides ; 
+            des deux côtés de la scène sont des tentes ; à droite, un peu sur le devant, 
+            
+            celle du général.)
+            
+            SCÈNE PREMIÈRE. 
+            
+            ROBERT, ADRIEN, QUELQUES SOUS – OFFICIERS, UN FACTION
+            
+            NAIRE devant la tente du général. Au lever du rideau, Adrien, tenant
+            
+            en main le Moniteur est entouré par les autres sous – officiers. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Ah ! quel honneur pour notre maître. (de Leycester.)
+                </stage>
+            
+            
+                
+                    <l>La républiqu', pour nous quell' gloire !</l>
+                    <l>Daigne applaudir à notr' valeur ;</l>
+                    <l>Par mainte nouvelle victoire,</l>
+                    <l>Rendons nous dignes d'un tel honneur.</l>
+                
+            
+            
+            
+                
+            
+            
+            
+                    ROBERT
+            
+                    Voyons donc, petit… continue… il y a encore quelque chose
+            
+                    dans le Moniteur. 
+            
+                    ADRIEN. 
+            
+                    Oui, écoutez…
+            
+                    (Il lit.) « Extrait du discours prononcé par le
+            
+                    citoyen Chenier, au Conseil des cinq cents, dans la séance du 30
+            
+                    fructidor an VI. » 
+            
+                    ROBERT. 
+            
+                    Le citoyen Chénier, c'est un malin, celui – là…
+            
+                    ADRIEN, lisant. 
+            
+                    « L'armée de la république, triomphante en Égypte, va rétablir
+            
+                    les sciences et les arts dans leur antique patrie. De si rapides succès
+                    épuisent l'aduniration moins encore que les moyens de l'exprimer ; 
+            
+                    toutes les voix ont proféré le cri de la reconnaissance ; je me borne
+                    À proposer la résolution suivante : l'armée française, victorieuse en
+            
+                    Égypte, a bien mérité de la patrie. 
+            
+                    ROBERT. 
+            
+                    A bien mérité de la patrie ! et elle a été adoptée cette résolution – là ? 
+            
+                    Certainement, à l'unanimité. 
+            
+                    ROBERT. 
+            
+                    ADRIEN. 
+            
+                    Ah ! les braves gens… mais le Moniteur est fini et les travaux
+            
+                    du camp ne le sont pas…allons, vous autres, le devoir vous appelle
+            
+                    à l'ouvrage. 
+            
+            
+            
+                
+            
+            
+            
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l ana="unanalyzable">La France, pour nous quelle gloire ! etc.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            officiers sortent.)
+            
+            SCÈNE 11. 
+            
+            ROBERT, ADRIEN. 
+            
+            ROBERT. 
+            
+            Oh ! petit… tu seras joliment, fier, hein ! … quand tu diras au re
+            
+            tour : J'étais de l'expédition d'Egypte. 
+            
+            ADRIEN, 
+            
+            Il est sûr que c'est beau la gloire… mais c'est fatigant sous la
+            
+            zône torride. 
+            
+            ROBERT. 
+            
+            Comment que tu dis ça, petit ? qu'est – ce que ça signifie, ce
+            
+            mot – là ? 
+            
+            Ça signifie, brigadier, qu'il fait chaud en Égypte. 
+            
+            ROBERT. 
+            
+            ADRIEN. 
+            
+            C'est vrai que le baromètre est au très – sec… et qu'il y a disette
+            
+            de liquide pour humecter la poussière…
+            
+            Voilà ! … 
+            
+            ADRIEN. 
+            
+            ROBERT. 
+            
+            Mais je te conseille de te plaindre, toi : à peine débarqué dans ces
+            
+            parages, tu es devenu caporal, puis fourrier ; et au lieu de faire
+            
+            des corvées comme nos camarades, de remuer les sables pour faire
+            
+            des redoutes et retrancher le canıp, toute la journée sur la chaise, 
+            
+            tu griffonnes des ordres du jour… on ne se tue pas à ce métier – là…, 
+            
+            Ah ! (iam ! quand on a été bien élevé ! 
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    ADRIEN. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : On dit que je suis sans malice. 
+                </stage>
+            
+            
+                
+                    <l>Je suis très – fort sur la lecture,</l>
+                    <l>J' possèd' proprement l'écriture.</l>
+                
+            
+                
+                    ROBERT. 
+                
+            
+                
+                    <l>Moi, je n' sais rien, mais j'ai l' talent</l>
+                    <l>D' donner un coup d' sabr' proprement.</l>
+                
+            
+                
+                    ADRIEN. 
+                
+            
+                
+                    <l>La science est toujours nécessaire,</l>
+                    <l>Ça mène loin, m' disait mon père.</l>
+                
+            
+                
+                    ROBERT. 
+                
+            
+            
+                
+                    <l>Puisqu'ici, tous deux nous voilà,</l>
+                    <l>Tu vois bien qu'on va loin sans ça.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            ADRIEN. 
+            
+            La plaisanterie est bonne, brigadier, mais il ne faut pas qu'savoir
+            
+            donner des coups de sabre pour être secrétaire d'un colonel, et je
+            
+            suis heureux aujourd'hui d'avoir reçu une certaine éducation ; j'en
+            
+            ai l'obligation au comte d'Arbel, le seigneur de mon village. 
+            
+            ROBERT. 
+            
+            L'ex – ci – devant, tu veux dire ? 
+            
+            ADRIEN
+            
+            Oui, d'autant plus qu'i' – émigré… 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ROBERT. 
+                
+            
+            
+                
+                    V'là z'un mot qui m'déplaît furieusement… j'comprends pas
+            
+                    qu'il soit Français…malgré c' qu'il a fait pour toi, ton comte d'Arbe ! 
+            
+                    ne vaut pas mieux que les autres. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : J'en cherche un petit de mon âge. 
+                </stage>
+            
+            
+                
+                    <l>Les voilà bien ces nobles sans courage,</l>
+                    <l>Tous si petits pour porter leurs grands noms,</l>
+                    <l>Mais chez l'ennemi, pendant nos jours d'orage,</l>
+                    <l>Ils ont couru cacher leurs vieux blasons ;</l>
+                    <l>Ils n'ont trouvé sur la rive étrangère</l>
+                    <l>Qu'une pitié qui tenait du mépris :</l>
+                    <l>Quand l' malheur vient, honte éternelle au fils</l>
+                    <l>Qui peut abandonner sa mère !</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            ADRIEN. 
+            
+            Que voulez – vous ! ils tiennent à leur vieille cocarde. 
+            
+            ROBERT. 
+            
+            J'ai bien quitté celle que je portais en Amérique. 
+            
+            ADRIEN. 
+            
+            Comment, vous êtes allé en Amérique ! 
+            
+            ROBERT. 
+            
+            Un peu, petit… les citoyens de ce pays – là voulaient de la liberté
+            
+            tant et plus…nous leur avons dit : Nous n'en avons pas pour nous, 
+            
+            mais c'est égal, nous allons vous en donner… ma foi ça nous a mis
+            
+            en goût, et nous avons fini par nous servir nous – mêmes…
+            
+            ADRIEN. 
+            
+            Vous êtes bien heureux vous, d'avoir comme ça l'habitude de la
+            
+            guerre et de ses désag : 11 : ens… je vous avoue que, sans les petites
+            douceurs que j'ai su ine procurer, le militaire ne serait pas fort de
+            
+            mon goût…
+            
+            ROBERT. 
+            
+            Alors, pourquoi t'as – tu fait soldat ? 
+            
+            ADRIEN, 
+            
+            Est – ce que tout le monde ne l'est pas quand la patrie est en
+            
+            danger ? … et puis d'ailleurs, la réquisition… mais c'est égal… je re
+            
+            grette mon village, j'y avais de l'agrément. 
+            
+            ROBERT. 
+            
+            Ah ! je conçois… t'es ben tourné… joli garçon, ma foi… et l'a
+            
+            mour…
+            
+            ADRIEN. 
+            
+            Voilà… ici, le sexe ne donne pas… et moi qui aime à faire des
+            
+            malheureuses…
+            
+            ROBERT. 
+            
+            Est – ce que, dans les anciennes, n'y en a pas qui te tiennent au
+            
+            coeur ? 
+            
+            ADRIEN. 
+            
+            Si fait… une seule… un peu comme ça parce qu'elle m'avait
+            
+            donné plus de peine que les autres… la fille de l'aubergiste de
+            
+            chez nous… une appelée Catherine, une drôle de petite tête… al
+            
+            lez… brigadier, ne s'était – elle pas mis dans l'esprit de partir avec
+            moi ? … 
+            
+            Bah ! …
+            
+            ROBERT. 
+            
+            ADRIEN. 
+            
+            Je ne jurerais pas qu'elle ne m'ait suivi…. 
+            
+            ROBERT. 
+            
+            Pas jusqu'ici, par exemple… la diligence n'y vient pas. 
+            
+. et c'est
+            
+            I
+            
+            fort heureux… car, vois – tu, l'amour, c'est bon en cantonnement…
+            
+            mais en campagne, c'est du superflu…
+            
+            ADRIEN. 
+            
+            Sans doute… ct puis quand on a de l'ambition… c'est gênant une
+            
+            femme. 
+            
+            ROBERT. 
+            
+            Ah ! tu es ambitieux, petit… au fait, tu ne vas pas mal jusqu'ici…
+            
+            et je crois que tu t'éleveras… mais prends – y garde… il y a plusieurs
+            
+            routes… et quand on prend un chemin sale et bourbeux… on
+            
+            rive quelquefois, inais les taches restent. 
+            
+            ADRIEN. 
+            
+            Soyez tranquille, brigadier, mon colonel est l'ami du général en
+            
+            chef, il me veut du bien, et j'espère que protégé par lui…
+            
+            ROBERT. 
+            
+            A propos, on ne l'a pas vu ce inatin, le général. 
+            
+            ADRIEN. 
+            
+            Vous savez þien que le bâtiment qui amène les membres de la
+            
+            commission d'Égypte a dû entrer cette nuit dans le port d'Alexan
+            
+            drie, le général est allé les recevoir. 
+            
+            ROBERT. 
+            
+            En voilà un qui s'est élevé, et Dieu sait jusqu'où il montera…
+            
+            (Regardant dans iucoulisse.) Mais, dis donc, qu'est – ce que c'est donc
+            
+            que cette jeune fille qui traverse le camp en regardant de tous
+            
+            côtés ? 
+            
+            Ah ! mon Dieu ! 
+            
+            ADRIEN, regardant… 
+            
+            ROBERT
+            
+            Elle nous a vus… elle accourt…
+            
+            ADRIEN. 
+            
+            C'est elle…
+            
+            SCÈNE III. 
+            
+            LES MÊMES, CATHERINE
+            
+, accourant. 
+            
+            CATHERINE, se jetant dans les bras d'Adrien. 
+            
+            Adrien ! … 
+            
+            Catherine ! …
+            
+            ADRIEN. 
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    ROBERT. 
+                
+            
+                
+                    Il l'avait parbleu deviné. 
+                
+            
+            
+                <stage type="tune">
+                    Air de la Mazourka. 
+                </stage>
+            
+            
+                
+                    ADRIEN. 
+                
+            
+                
+                    <l>Eh ! quoi,</l>
+                    <l>C'est toi.</l>
+                
+            
+                
+                    CATHERINE. 
+                
+            
+                
+                    <l>Enfin je te revoi :</l>
+                    <l>Qui ! c'est moi,</l>
+                    <l>C'est moi–même ;</l>
+                    <l>Plaisir extrême.</l>
+                    <l>Ah ! pour te retrouver</l>
+                    <l>J'aurais su tout braver.</l>
+                    <l>Oui ! j'ai tout quitté,</l>
+                    <l>J'aurais été</l>
+                    <l>Au bout du monde.</l>
+                    <l>Enfin te voilà,</l>
+                    <l>Mes maux sont oubliés déjà.</l>
+                    <l>J'ai reçu ta foi.</l>
+                    <l>Avec toi,</l>
+                    <l>Sur la terre et l'onde</l>
+                    <l>Je veux voyager,</l>
+                    <l>Partager</l>
+                    <l>Plaisir et danger.</l>
+                
+            
+                
+                    ENSEMBLE. 
+                
+            
+                
+                    <l>Oui, c'est bien moi,</l>
+                    <l>Enfin, je te revoi !</l>
+                    <l>Oui, c'est moi,</l>
+                    <l>C'est moi–même.</l>
+                    <l>Plaisir extrême !</l>
+                    <l>Ah ! pour te retrouver</l>
+                    <l>J'aurais su tout braver.</l>
+                
+            
+                
+                    ADRIEN. 
+                
+            
+                
+                    <l>Eh ! quoi,</l>
+                    <l>C'est toi,</l>
+                    <l>Qu'en ces lieux je revoi !</l>
+                    <l>Ma surprise est extrême.</l>
+                    <l>C'est pour moi–même</l>
+                    <l>Et pour me retrouver</l>
+                    <l>Qu'elle a su tout braver.</l>
+                
+            
+                
+                    ROBERT. 
+                
+            
+                
+                    <l>Oh ! sur ma foi,</l>
+                    <l>À peine je le croi :</l>
+                    <l>Oui, c'est bien elle–même,</l>
+                    <l>Surprise extrême !</l>
+                    <l>C'est pour le retrouver</l>
+                    <l>Qu'elle a su tout braver.</l>
+                
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            CATHERINE. 
+            
+            Ah ! que je suis contente ! 
+            
+            ADRIEN. 
+            
+            Eh ! grand Dieu ! … Catherine, que viens – tu faire si loin ? 
+            
+            Vivre près de toi. 
+            
+            Mais comment ? 
+            
+            CATHERINE. 
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            Je n'en sais rien, mais me voilà ! 
+            
+            ADRIEN. 
+            
+            Et par quel moyen as – tu su où j'étais ? 
+            
+            CATHERINE. 
+            
+            Faut te dire d'abord que quand tu as été parti… j'ai fait ce que
+            
+            j'ai pu pour t'oublier… mais impossible, les pieds me brûlaient au
+            
+            pays : orpheline, rien ne m'y attachait… je n'ai que toi seul au
+            
+            monde, et un beau matin de bonne heure, je suis allé à Paris au
+            
+            ministère de la guerre demander ton adresse… j'ai repris ma course
+            
+            à pied, et je suis venu à Toulon. 
+            
+            A pied ? 
+            
+            Pauyre petite ! 
+            
+            ADRIEN. 
+            
+            ROBERT. 
+            
+            Ma foi…. il y a loin et je n'aurais pas pu continuer comme ça
+            
+            CATHERINE. 
+            
+            jusqu'ici…
+            
+            RUBERT. 
+            
+            Je crois bien… avec ça que ce n'est pas pavé. 
+            
+            CATHERINE. 
+            
+            Heureusement que j'ai trouvé un vaisseau qui amenait des sa
+            
+            vans… ils sont très – polis, ces messieurs… Quand ils ont vu que j'é
+            
+            tais décidée, ils ont bien voulu m'emmener ; avec ça qu'ils sont
+            
+            gourmands les savans, et qu'ils ont pensé que je ferais mieux la cui
+            
+            sine
+            
+            que le coq du navire, comme ils disent : nous sommes débar
+            
+            qués ce matin, et j'ai eu le bonheur de ne pas te chercher long
+            
+            temps, ce dont j'avais bien peur, vu qu'au ministère ils m'avaient
+            
+            bien dit que tu étais en Egypte, mais ils ne m'avaient donné ni le
+            
+            nom de la rue, ni le numéro. Sais – tu, Adrien, que tu es joliment
+            
+            gentil avec cet habit – là ? 
+            
+            Tu trouves ? 
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            Ah ! 
+            
+            ça, tu n'as
+            
+            pas l'air aussi heureux que moi. Qu'as – tu donc ? 
+            
+            Rien… rien… Catherine ! c'est que…
+            
+            ADRIEN, embarrassé. 
+            
+            CATHERINE. 
+            
+            Est – ce que c'est comme ça qu'on accueille une payse ? 
+            
+            ROBERT. 
+            
+            Pardon, la belle enfant, si je me mêle de la conversation… Je
+            
+            suis l'ami d'Adrien, et comme tout – à – l'heure, en causant tous deux, 
+            
+            nous étions sur votre article… je m'en vas vous dire ce qui l'em
+            
+            barrasse inopinément. 
+            
+            Robert ! 
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            Vous parliez de moi… Allez, allez, monsieur, dites, vous me pa
+            
+            raissez un bon enfant, vous. 
+            
+            ROBERT, 
+            
+            C'est que… voyez – vous… dans l'armée d'Orient on n'admet pas
+            
+            les payses… et si Adrien veut vous conserver près de lui… il ne faut
+            
+            pas qu'il vous donne ce titre – là devant les chefs. 
+            
+            Voilà ! 
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            Par exemple, si je dis que je suis la payse de mon pays, on m'em
+            
+            pêchera de le voir, moi qui ai ſait tant de chemin pour ça… Sont
+            
+            ils bêtes vos chefs ? … 
+            
+            Tais – toi donc… si on t'eutendait…
+            
+            ADRIEN, effrayé. 
+            
+            ROBERT. 
+            
+            Mon enfant… ici, l'amour n'est rien… et du moment qu'il n'est
+            
+            dans l'ordonnance…
+            
+            pas
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                   CATHERINE. 
+                
+            
+            
+                
+                    Comment ! … vous croyez qu'on n'a du cour que pour aimr ? …
+            
+                    c'est à cause de l'habit que vous dites ça, mais je peux en chan
+            
+                    ger… je ne serai pas la première et vous verrez. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Des coups de poing. 
+                </stage> 
+            
+                
+                    <l>Je m' battrai,</l>
+                    <l>J' servirai ;</l>
+                    <l>Allez, j' n' s'rai</l>
+                    <l>Pas timide ;</l>
+                    <l>Au combat</l>
+                    <l>Intrépide,</l>
+                    <l>Moi, j'aim' l'état</l>
+                    <l>De soldat.</l>
+                
+            
+                
+                    <l>J' n'ai pas encor</l>
+                    <l>La taill' d'un tambour–major,</l>
+                    <l>Mais d' moi l'on f'ra</l>
+                    <l>Tambour, fifre ou c' qu'on voudra.</l>
+                
+            
+            
+                
+                    <l>Sans ambition, sans effroi,</l>
+                    <l>Le costume de l'emploi</l>
+                    <l>Me donn'ra l'air guerrier</l>
+                    <l>D'un bon p'tit troupier.</l>
+                
+            
+                
+                    <l>Adrien, d' m'instruir', j'espère,</l>
+                    <l>Commenc'ra dès aujourd'hui ;</l>
+                    <l>Le trépas ne m'effrai'ra guère,</l>
+                <l>Pourvu que j' meur' près de lui. <stage type="repetition"> (ter) </stage></l>
+                
+            
+                
+                    <l ana="unanalyzable">Je m' battrai,</l>
+                    <l ana="unanalyzable">J' servirai, etc.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            Mais tu n'y penses pas ! 
+            
+            ADRIEN. 
+            
+            ROBERT. 
+            
+            Milzieux ! la petite luronne ! … Ma foi, Adrien, son amour pour
+            
+            toi, son caractère vif et mutin…, elle m'intéresse et il me vient une
+            
+            idée… Oui, il n'y a qu'un moyen de rester avec nous ; et si vous
+            voulez m'en croire, vous l'emploierez… mais, d'avance, je vous
+            
+            avertis qu'il n'y a pas que
+            
+            des roses à recueillir. 
+            
+            CATHERINE. 
+            
+            Dites toujours, mon brave homme… dites toujours, je n'en
+            
+            rapporte à vous. 
+            
+            ROBERT. 
+            
+            Eh ! bien ! … l'honnête madame Pichard, notre cantinière, a de
+            
+            la besogne dans ce climat chaud, où l'on a souvent recours au ro
+            
+            gome pour se rafraîchir ; elle se fait vieille, cette femme ; un peu
+            d'aide ne lui fera pas de mal… Il faut qu'elle s'adjoigne Mlle Ca
+            therine. 
+            
+            Quoi ! tu veux…
+            
+            Laisse – le donc dire…
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            ROBERT. 
+            
+            Pourquoi pas… Elle versera la goutte aux bons enfans, leur fera
+            
+            cuire des saucisses et des côtelettes quand ils en trouveront, et si
+            
+            ça l'amuse, elle raccommodera les sous – de – pieds de guêtre. 
+            
+            Ah ! que c'est gentil…
+            
+            CATHERINE, galment. 
+            
+            2
+            
+            – 10
+            
+            ROBERT. 
+            
+            Mais comme je vous l'ai dit, la p'tite mère, tout n'est pas rose, 
+            
+            dans l'état : quand le drapeau marche, il faut le suivre. 
+            
+            CATHERINE. 
+            
+            Eh bien ! rantanplan, je suivrai le drapeau. 
+            
+            ROBERT. 
+            
+            Quand on tirera des coups de fusil, quand on se battra…
+            
+            Je panserai les blessés. 
+            
+            CATHERINE. 
+            
+            ROBERT. 
+            
+            Il y a des quarts – d'heure où le pain manque. 
+            
+            CATHERINE. 
+            
+            Quand je n'en aurai pas, j'embrasserai Adrien. 
+            
+            Les malins vous feront les yeux
+            
+            doux. 
+            
+            CATHERINE. 
+            
+            ROBERT. 
+            
+            Si je suis contente d'Adrien, je n'écouterai pas les malins. 
+            
+            ROBERT. 
+            
+            Elle a réponse à tout ; va donc comme il est dit, vous serez can
+            
+            tinière honoraire et surnuméraire. 
+            
+            CATHERINE. 
+            
+            Dis donc, Adrien, nous ne nous quitterons plus, que je suis
+            
+            contente ! est – ce que tu ne partages pas ma joie ? 
+            
+            ADRIEN, 
+            
+            Ne pas la partager, ma chère Catherine, après tant de preuves de
+            
+            tendresse ! 
+            
+            ROBERT. 
+            
+            Marquez le pas, mes tourtereaux, on vient relever les postes. 
+            
+            (Pendant ces mots, on est venu relever la sentinelle.)
+            
+            CATHERINE, regardant. 
+            
+            Tiens, qu'est – ce qu'ils se disent donc comme ça tout bas ? … 
+            
+            ROBERT
+            
+            Ils donnent le mot d'ordre, parce que, voyez – vous, la petite, on
+            
+            ne peut pas entrer chez le général sans le savoir. 
+            
+            Ah ! … 
+            
+            CATHERINE. 
+            
+            ROBERT. 
+            
+            Mais, allons trouver la mère Pichard, j'ai de l'influence sur
+            
+            elle, l'affaire sera bientôt arrangée. 
+            
+            CATHERINE. 
+            
+            C'est ça… (à Adrien.) A propos, tout au plaisir de té revoir…
+            
+            j'avais oublié une rencontre que j'ai faite… Quelqu'un que tu con
+            
+            nais qui a couru après moi, comme moi après toi…
+            
+            Qui donc ? 
+            
+            ADRIEN, 
+            
+            CATHERINE. 
+            
+            Je te conterai ça en route : partons. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ROBERT. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Quand nous y vivions ensemble, etc, 
+                </stage>
+            
+            
+                
+                    <l>Chez la vieille cantinière,</l>
+                    <l>Allons, et dans quelqu's instans</l>
+                    <l>La nouvelle vivandière</l>
+                    <l>Fera venir les chalands</l>
+                    <l>À la cantin' de la gloire.</l>
+                    <l>Qu'il s'ra doux d' trouver chaqu' jour</l>
+                    <l>L'automn' pour donner à boire,</l>
+                    <l>Le printemps pour fair' l'amour.</l>
+                
+            
+                
+                    TOUS TROIS. 
+                
+            
+                
+                    <l ana="unanalyzable">Chez la vieille cantinière,</l>
+                    <l ana="unanalyzable">Etc., etc.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Ils
+            
+            sortent par la droiie.)
+            
+            SCÈNE IV. 
+            
+            GIRARDOT, BONIFACE, LE FACTIONNAIRE. 
+            
+            GIRARDOT, encore dans la coulisse. 
+            
+            Par ici, par ici, jeune homme… voici quelqu'un qui nous indi
+            
+            quera sans doute. 
+            
+            BONIFACE, entrant après Girardot, et regardant partout. 
+            
+            Dites donc, M. Girardot…. Ehl ben, vous y v'là. Dieu, il y en a
+            
+            t – il des Pyramides ! 
+            
+            Où donc ? 
+            
+            GIRARDOT. 
+            
+            BONIFACE. 
+            
+            Mais dam ! … tout ça… une, deux, trois, c'est en coutil… 
+            
+            Les Pyramides ? 
+            
+            Oui. 
+            
+            GIRARDO'S. 
+            
+            BONIFACE. 
+            
+            GIRARDOT. 
+            
+            Ah ! il prend des tentes pour…. 
+            
+            BONIFACE. 
+            
+            Ca n'est pas moi… vous me les montriez de là – bas. 
+            
+            GIRARDOT, lui indiquant le fond. 
+            
+            Tenez, regardez ! … hein ! c'est bien autre chose. 
+            
+            BONIFACE. 
+            
+            Ma foi, n'y a pas tant de différence, ça paraît plus gros, parce que
+            
+            c'est plus loin… voilà tout…
+            
+            GIRARDOT, à part. 
+            
+            Ca n'a pas le moindre principe d'optique. (Au factionnaire.) Sen
+            
+            tinelle, pourriez – vous me dire…. 
+            
+            LE FACTIONNAIRE, brusquement. 
+            
+            On ne parle pas en faction. 
+            
+            GIRARDOT. 
+            
+            Allons, il faut attendre que quelqu'un vienne de ce côté… ou
+            
+            diable aussi ai – je été m'amuser à faire l'anatonie d'un scarabée
+            
+            d'une espèce inconnue ? … Ces messieurs m'ont devancé, et je ne sais
+            où les rejoindre. 
+            
+            BONIFACE. 
+            
+            Dites donc, M. Girardot, il paraît qu'il y a beaucoup de sapeurs
+            
+            dans ce pays – ci ? 
+            
+            Comment ? 
+            
+            GIRARDOT. 
+            
+            – 12
+            
+            BONIFACE. 
+            
+            Tous les indigènes que nous avons rencontrés depuis ce matin
+            
+            ont des barbes superbes. 
+            
+            C'est la mode en Egypte. 
+            
+            GIRARDOT. 
+            
+            BONIFACE. 
+            
+            Ah ! il y en a un vieux surtout, qui a passé près de moi pendant
+            
+            que vous examiniez vos carabis…
+            
+            Scarabées, mon ami…
+            
+            GIRARDOT. 
+            
+            BONIFACE. 
+            
+            Scarabées… comme vous voudrez ; il en avait une au moins de
+            
+            dix pouces et demi, on dirait du Père éternel…
+            
+            C'est un derviche, sans doute. 
+            
+            GIRARDOT. 
+            
+            Un barbiche ! …
+            
+            BONIFACE. 
+            
+            GIRARDOT. 
+            
+            Derviche ! c'est un prêtre musulman…. oui, nous venons… c'est
+            
+            à – dire ces messieurs, car moi je ne suis qu'un amateur indigne, que
+            
+            N. Denon, chef de la comission d'Egypte a bien voulu amener pour
+            empailler et emballer ses précieuses collections. Ces messieurs, dis
+            
+            je, viennent pour visiter les antiquités de ce pays et s'instruire des
+            
+            procédés que le : anciens employaient pour la construction de leurs
+            
+            monumens, pour l'ensevelissement de leurs momies, pour….'
+            
+            BONIFACE. 
+            
+            Se faire pousser de la barbe peut – être…
+            
+            GIRARDOT. 
+            
+            Du tout… il est bien question de ça…
+            
+            BONIFACE. 
+            
+            Ecoutez donc… ça serait fort utile ; moi je vas joliment profiter
+            
+            de l'occasion… fant vous dire, M. l'antiquitaire, que depuis quelque
+            
+            temps, j'ai une idée permanente. 
+            
+            GIRARDOT. 
+            
+            Une idée fixe… vous voulez dire…
+            
+            BONIFACE. 
+            
+            C'est possible… voila… y en a qui courent après des momies, 
+            
+            des prêtres et des carabis. 
+            
+            Scarabées, 
+            
+            GIRARDOT. 
+            
+            BONIFACE. 
+            
+            Scarabées, ne vous fâchez pas, vous avez une idée permanente
+            
+            aussi vous. Moi j'ai une ambition… je veux être sapeur… il a passé
+            
+            une fois un régiment dans le pays. Quand j'ai vu ces douze barbes
+            
+            à la file… de front… j'ai été saisi ; je me suis dit… Dieu ! … la belle
+            
+            création ! … Boniface, tu seras sapeur. 
+            
+            GIRARDOT. 
+            
+            Ce motif seul ne vous amène pas ici, car sur le bâtiment je vous
+            
+            vous voyais toujours auprès de cette jeune fille, qui a fait la tra
+            
+            versée avec nous ; elle paraissait même ne pas trop bien vous trai
+            ter, 
+            
+            – 13
+            
+            BONIFACE. 
+            
+            C'est qu'elle ne peut pas me sentir. 
+            
+            Vraiment ! 
+            
+            GIRARDOT
+            
+            BONIFACE
+            
+            C'est si étonnant le beau sexe… mais elle en aime un autre… un mi
+            
+            litaire qui est soldat…. dans l'armée d'Orient… Elle a fait la folie de
+            
+            s'expatrier pour le rejoindre. 
+            
+            Et vous ? 
+            
+            GIRARDOT. 
+            
+            BONIFACE. 
+            
+            Moi je l'ai suivie… C'est elle que je cherche, comme vous cher
+            
+            chez vos messieurs… mais à peine debarquée, je l'ai perdue de
+            
+            vue… et pensant bien qu'elle était venue au camp, je me dirigeais
+            
+            par ici, quand je vous ai rencontré examinant vos carabis. 
+            
+            GIRARDOT. 
+            
+            Allons, encore ! je ne le répéterai plus, c'est inutile ; personne ne
+            
+            vient, excusez – moi, mon cher Boniface, je vais aller à la décou
+            
+            verte. 
+            
+            Au revoir, monsieur Girardot…
+            
+            BONIFACE. 
+            
+            (Girardot sort.)
+            
+            SCÈNE v. 
+            
+            BONIFACE, LA SENTINELLE. 
+            
+            <div type="poem"> <lg>
+            
+                
+                    BONIFACE. 
+                
+            
+            
+                
+                    C'est donc ici l'Égypte ! comme le jeune et beau Dunois, je suis
+            
+                    parti pour la Syrie et m'y v'là ! Dieu ! ce beau ciel ! c'est vivifiant ! 
+            
+                    c'est voluptueux ! … je sens déjà l'influence du climat… Catherine ! 
+            
+                    ô Catherine ! où es – tu ? 
+                
+            
+                <stage type="tune">
+                    Air des Amazônes. 
+                </stage>
+            
+            
+                
+                    <l>C'est vainement qu'ell' me déchire l'âme,</l>
+                    <l>En poursuivant un rival qui m' déplaît,</l>
+                    <l>Dieu des amours, prend pitié de ma flamme,</l>
+                    <l>De ma passion fais–moi r'trouver l'objet,</l>
+                    <l>Dirig' mes r'gards vers ce cruel objet.</l>
+                    <l>Eh ! mais, au pied d'un palmier solitaire,</l>
+                    <l>Que vois–je là–bas ? c'est elle… et lui, grands dieux !</l>
+                    <l>Ô toi qui viens d'exaucer ma prière,</l>
+                    <l>Amour, mets–moi ton bandeau sur les yeux.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Il met ses mains sur ses yeux et entr'ouvre les doigts.)
+            
+            Ils s'ernbrassent, eh bien, si j'ai fait 4 ou 5 mille lieues par terre et
+            
+            par mer pour voir ça… Dieu ! je les entends… inon sang bouillonne, 
+            
+            SCENE VI. 
+            
+            LES MÊMES, CATHERINE, ADRIEN. 
+            
+            CATHERINE, à Adrien. 
+            
+            Tiens, quand je te le disais… c'est bien lui…
+            
+            ADRIEN. 
+            
+            Ma foi, oui… ce brave Boniface… comment ça va – t – il, pays ? 
+            
+            Bien, militaire, et vous ? 
+            
+            BONIFACE. 
+            
+            CATHERINE. 
+            
+            Ah ! mon Dieu, comme il est troublé… Est – ce que vous avez vu
+            
+            quelque chose qui vous a fait peur ? 
+            
+            BONIFACE. 
+            
+            Oui, oui, mamzelle, j'ai vu quelque chose ; il paraît qu'il vous
+            
+            aime toujours, Adrien, et vous aussi ? 
+            
+            Si je l'aime ! … je crois bien. 
+            
+            Vous ne vous quitterez plus ? 
+            
+            BONIFACE. 
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            Oh ! jamais, n'est – ce pas, Adrien ? 
+            
+            Non, non, Catherine, jamais…
+            
+            ADRIEN. 
+            
+            Eh bien : alors faut qu'il vous épouse. 
+            
+            BONIFACE. 
+            
+            Comment ! 
+            
+            ADRIEN. 
+            
+            BONIFACE. 
+            
+            Il y a trop long – temps que j'ai de l'espoir… je n'en veux plus. 
+            
+            CATHERINE. 
+            
+            Si ce n'est que ça, mon pauvre Boniface… Adrien vient de me
+            
+            faire cadeau de cette bague… Nous sommes fiancés… et dès qu'il
+            
+            aura l'épaulette…
+            
+            BONIFACE. 
+            
+            Et si elle n'arrive pas l'épaulette ? je veux que ça finisse… je
+            
+            veux qu'il vous épouse tout de suite. 
+            
+            CATHERINE. 
+            
+            Qu'est – ce qu'il lui prend donc ? … Mais c'est impossible, il n'y a
+            
+            pas de prêtres en Egypte. 
+            
+            BONIFACE. 
+            
+            Il
+            
+            у
+            
+            en a, 
+            
+            mamzelle… j'en ai vu un ce matin ; on n'a même dit
+            
+            comment ça s'appelle dans ce pays – ci, ça s'appelle un barbiche. 
+            
+            ! 
+            
+            Un… ah ! ah ! ah ! 
+            
+            CATHERINE, riant. 
+            
+            BONIFACE. 
+            
+            Oui, parce qu'ils ont une grande barbe : c'est fort beau… j'en
+            
+            aurai une comme ça quand je serai sapeur. 
+            
+            CATHERINE. 
+            
+            Sapeur, toi… ce blanc blec ! 
+            
+            BONIFACE. 
+            
+            C'est une insulte, ça, Catherine… Mais c'est pas à vous que j
+            
+            m'en prends ; Adrien a un sabre au côté… moi j'en trouverai un…
+            
+            et une…, deux. 
+            
+            Nous battre…
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            Je voudrais bien voir ça, par exemple. 
+            
+            BONIFACE. 
+            
+            Vous le verrez, soyez tranquille, vous le verrez. 
+            
+            – 15
+            
+            SCENE VII. 
+            
+            LES MÉMES, GIRARDOT, effrayé. 
+            
+            Ah ! mon Dieu. 
+            
+            GIRARDOT, entrant. 
+            
+            BONIFACE. 
+            
+            Tiens, vous v'là encore, 
+            
+            M. Girardot ? 
+            
+            GIRARDOT. 
+            
+            Ah ! c'est vous, Boniface ? 
+            
+            CATHERINE. 
+            
+            Qu'est – ce qu'il a donc, c'gros – là avec son air eſfaré ? 
+            
+            GIRARDOT. 
+            
+            Ce que j'ai… les Arabes qui s'approchent. 
+            
+            Les Arabes ! 
+            
+            ADRIEN. 
+            
+            BONIFACE. 
+            
+            Les Arabes… militaire… oublions nos querelles intestines pour
+            
+            nous réunir contre l'ennemi coinmun. 
+            
+            GIRARDOT. 
+            
+            Voilà une partie de l'armée qui se dispose à aller à leur ren
+            
+            cuntre. 
+            
+            On va se battre. 
+            
+            CATHERINE. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    GIRARDOT. 
+                
+            
+            
+                
+                    Certainement ! tenez…
+            
+                    (On entend un tambour éloigné.)
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Entendez-vous, c'est le tambour ! Air nouveau de Doche. 
+                </stage>
+            
+            
+                
+                    <l>Entendez–vous, c'est le tambour !</l>
+                    <l>Voici le signal des alarmes,</l>
+                    <l>Tous les Français courent aux armes,</l>
+                    <l>Nous aurons encore un grand jour.</l>
+                
+            
+                
+                    BONIFACE
+                
+                
+, à Girardot. 
+                
+            
+            
+                
+            
+                    <l>Pèr Girardot, v'nez vous battre.</l>
+            
+                    
+                        GIRARDOT. 
+                    
+            
+                    <l>Grand Dieu ! ce n'est pas mon état !</l>
+            
+                    
+                        BONIFACE. 
+                    
+            
+                    <l>Moi je me battrai comme quatre</l>
+                    <l>Afin d'avoir après le combat</l>
+                    <l>L'honneur d'être nommé soldat !</l>
+                
+            
+                
+                    GIRARDOT. 
+                
+            
+                
+            
+                    <l>Entendez-vous, c'est le tambour !</l>
+            
+                    
+                        LES TROIS AUTRES. 
+                    
+            
+                    <l>Ça donn' du cœur l' bruit du tambour,</l>
+            
+                    <l>Allons<del hand="LN" type="alternative" reason="analysis">Allez {</del> gaîment et point d'alarmes,</l>
+            
+                    <l>Avec les autres prenoms <del hand="LN" type="alternative" reason="analysis">prenez{</del> les armes :</l>
+                    <l>Nous aurons encore un grand jour.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Adrien et Boniface sortent.)
+            
+            16 – 
+            
+            SCÈNE VIII. 
+            
+            CATHERINE, GIRARDOT, LE FACTIONNAIRE. 
+            
+            CATHERINE, les suivant des yeux. 
+            
+            Allez, allez, mes braves… mon Adrien va peut – être gagner un
+            
+            grade de plus…
+            
+            GIRARDOT. 
+            
+            Mademoiselle, est – ce que vous ne quittez pas cet endroit dan
+            
+            géreux ? 
+            
+            GATHERINE. 
+            
+            Moi ? où voulez – vous que j'aille ? 
+            
+            GIRARDOT. 
+            
+            Comment ! vous n'avez pas de domicile ? 
+            
+            CATHERINE. 
+            
+            C'est ici mon domicile, je fais partie de l'armee. 
+            
+            Vous êtes ? 
+            
+            GIRARDOT. 
+            
+            CATHERINE. 
+            
+            Vivandière surnuméraire…
+            
+            GIRARDOT. 
+            
+            Vivandière… quel métier ! 
+            
+            LE FACTIONNAIRE, regardant à gauche et apprétant son arme. 
+            
+            Qui vive ! 
+            
+            Ah ! mon Dieu ! 
+            
+            GIRARDOT. 
+            
+            CATHERINE. 
+            
+            Ne tremblez donc pas comme ça, 
+            
+            c'est bète. 
+            
+            (Deux ou trois coups de feu partent de la coulisse gauche, le faction
+            
+            naire tombe et lâche son arme en jetant un cri.)
+            
+            GIRARDOT, tremblant plus fort. 
+            
+            Ah ! 
+            
+            CATHERINE, qui a été regarder. 
+            
+            Ah : les gueux ! les voilà qui s'enfuient à présent, parce qu'ils
+            
+            ont aperçu quelques dragons qui courent après eux. (Voyant le
+            
+            factionnaire étendu.) EL bien ! qu'est – ce qu'il a donc celui – là ? (Elle
+            
+            court à lui.) Dieu, il est mort. 
+            
+            (Elle lui met la main sur le côur.)
+            
+            Il est mort ! 
+            
+            GIRARDOT, s'approchant avec précaution. 
+            
+            Non, non, 
+            
+            son coeur bat… il n'est que blessé, sans doute. Ah ! 
+            
+            CATHERINE, avec joie. 
+            
+            oui… une balle qui lui a traversé le bras… pauvre garçon ! … (Elle
+            
+            lui soulève la tête et l'appuic sur son genou.) Vous n'auriez pas sur vous
+            quelque fiole de vinaigre pour le faire revenir ? 
+            
+            GIRARDOT. 
+            
+            Hélas ! non… je n'ai que mon flacon d'essence de thérébentine
+            
+            qui me sert à empailler des oiseaux. 
+            
+            CATHERINE. 
+            
+            Ah ! il revient… il ouvre les yeux… mais il ne peut plus conti
+            
+            nuer la faction comme ça. 
+            
+            C'est clair. 
+            
+            GIRARDOT. 
+            
+            CATHERINE. 
+            
+            Tenez, monsieur…
+            
+            s'il peut se soutenir, s'il peut marcher…
+            
+            conduisez – le à la cantine… à quelques pas d'ici… la mère Pichard
+            
+            en prendra soin. 
+            
+            Eh bien ! … et vous ? 
+            
+            GIRARDOT. 
+            
+            CATII ERINE. 
+            
+            Moi ! … moi ! … eh bien ! morbleu ! … je monterai la garde à sa
+            
+            place. 
+            
+            GIRARDOT. 
+            
+            Voyez – vous la petite gaillarde ! 
+            
+            CATHERINE, au factionnaire. 
+            
+            Pouvez – vous vous lever, mon brave… et faire quelques pas ? 
+            
+            LE FACTIONNAIR E. 
+            
+            Je crois qu'oui, mamzelle. 
+            
+            CATHERINE. 
+            
+            Voyons. (Elle l'aide ainsi que Girardot.) Là, soutenez – le, mon
+            
+            sieur le savant, et marchez tout doucement… (Elle ramassa le
+            
+            fusil.) Une minute, et le mot d'ordre, camarade. 
+            
+            C'est vrai… le mot d'ordre…
+            
+            GIRARDOT. 
+            
+            CATHERINE, présentant les armes au factionnaire qui s'avance pour
+            
+            lui dire le mot d'ordre. 
+            
+            Tout bas… faut pas qu'un autre l'entende… Bien… allez à pre
+            
+            sent… au revoir, et soyez tranquille, je serai solide au poste. 
+            
+            (Girardot sort avec le factionnaire.)
+            
+            SCÈNE IX. 
+            
+            <div type="poem"> <lg>
+            
+                
+                    CATHERINE
+                
+                
+, seule. 
+            
+                    (Depuis le milieude la scène précédente on entend de temps en temps le
+            
+                    bruit éloigné du canon. Catherine se promène le fusil sur l'épaule.)
+            
+                    Je crois bien que je serai solide…ça donne du poids un fusil de
+            
+                    munition. (Elle le change d'épaule.) C'est plus lourd que je ne pen
+            
+                    sais ; mais c'est égal, on s'y fait, et il me semble déjà qu'avec ça
+            
+                    j'ai un air… Certainement je dois avoir l'air brave. Ca va bien lå
+            
+                    bas, 
+            
+                    le brutal gronde toujours… Tiens ! on peut bien un instant
+            
+                    se reposer sur les armes. (Elle s'arréte et s'appuie sur son arme.) Per
+            
+                    sonne ne vient, il n'y a pas de danger, et puis d'ailleurs avant d'en
+            
+                    trer, faut qu'on dise le inot d'ordre. Ah ! je ne l'oublierai pas. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Beau ciel de Provence. 
+                </stage>
+            
+            
+                
+                    <l>Ce mot–là présage</l>
+                    <l>De nobles succès,</l>
+                    <l>Amour et courage</l>
+                    <l>C'est l' mot d'ordr' français.</l>
+                
+            
+                
+                    <l>Cette devise–là</l>
+                    <l>M' semble douce et sage,</l>
+                    <l>Et toujours ça s'ra</l>
+                    <l>La mienne en ménage.</l>
+                    <l>Avec Adrien</l>
+                    <l>J' m'en souviendrai bien,</l>
+                    <l>Et soir et matin</l>
+                    <l>Ça s'ra notr' refrain.</l>
+                <l ana="unanalyzable">Car c' mot–là présage, etc.</l>
+                
+            
+                
+                    <l>Quand ils vont r'venir</l>
+                    <l>Et m' voir en guerrière,</l>
+                    <l>Ça leur f'ra plaisir,</l>
+                    <l>Moi j'en serai fière.</l>
+                    <l>J' leur dirai d'abord</l>
+                    <l>L' mot d'ordr' ou la mort.</l>
+                    <l>J' suis sûr qu'ils riront,</l>
+                    <l>Mais tous le diront.</l>
+                
+            
+                
+                    <l>Car c' mot–là présage</l>
+                    <l>Les plus doux succès.</l>
+                    <l>Amour et courage</l>
+                    <l>C'est si bon français !</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            Mais je n'entends plus le canon, et à la place le tambour se rap
+            
+            proche. Est – ce que la bataille est finie ? (Elle court vers lefond et re
+            
+            garde.) Eh oui, ma foi, voilà les amis qui reviennent. Cachons – nous
+            
+            un instant ; ils croiront que la sentinelle a déserté. 
+            
+            (Elle entre un peu dans la tente.)
+            
+            SCENE X. 
+            
+            CATHERINE cachée, BONIFACE, ADRIEN, ROBERT, 
+            
+            SOUS – OFFICIERS ET SOLDATS. 
+            
+            (Boniface arrive conduit en triomphe par Adrien et Robert ; ils tiennent fière
+            
+            ment un étendard turc d'une main et une hache de l'autre.)
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Du comte Ory. 
+                </stage>
+            
+            
+                
+                    <l>Victoir', victoir' et chantons tous gaîment :</l>
+                    <l>Honneur, honneur, au conscrit triomphant !</l>
+                    <l>Parmi nous, mes amis,</l>
+                    <l>Qu'il soit sur l'heure admis.</l>
+                
+            
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l>Au milieu d' la bataille</l>
+                    <l>Il a, bravé et gaillard,</l>
+                    <l>Malgré l' feu, la mitraille,</l>
+                    <l>D' l'ennemi pris l'étendard.</l>
+                
+            
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l>Honneur, honneur et gloire ;</l>
+                    <l>D' nos soldats triomphans,</l>
+                    <l>Il est par c'te victoire</l>
+                    <l>Dign' d'entrer dans les rangs.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            BONIFACE. 
+            
+            Il est sûr que j'étais fièrement animé, c'est l'influence du climat…
+            
+            Allons, petit… viens déposer ton trophée dans la tente du gé
+            
+            ROBERT. 
+            
+            néral…
+            
+            Allons ! … 
+            
+            BONIFACE. 
+            
+            (Au moment où ils sont près de la tente, Catherine en sort et leur
+            
+            présente la baïonnette.)
+            
+            CATHERINE. 
+            
+            On ne passe pas…
+            
+            – 19 – 
+            
+            ROBERT. 
+            
+            Tiens… qu'est – ce que c'est que ça ? 
+            
+            Catherine ! … 
+            
+            Mamzelle Catherine. 
+            
+            Ah ! ah ! ah ! 
+            
+            ADRIEN
+            
+            BONIFACE. 
+            
+            TOUS, 
+            
+            riant. 
+            
+            CATHERINE, riant aussi. 
+            
+            Oui… c'est moi… ce pauvre factionnaire a reçu une balle dans
+            
+            le bras… je l'ai envoyé à la cantine et j'ai pris sa place pour qu'on
+            n'entre pas sans donner le mot d'ordre, coinme vous n'avez dit ce
+            
+            matin, vous savez bien, M. Robert ! 
+            
+            C'est bien, mon enfant. 
+            
+            ROBERT. 
+            
+            CATHERINE. 
+            
+            Vous voilà donc encore vainqueurs, et il ne t'es rien arrivé, 
+            
+            Adrien ? 
+            
+            Non, ma chèrc Catherine. 
+            
+            ADRIEN. 
+            
+            ROBERT, montrant Boniface. 
+            
+            Grâce à ce jeune cadet, qui, armé d'une hache qu'il a trouvée je
+            
+            ne sais où, a rendu manchot un mainelouck qui allait faire passer
+            
+            un mauvais quart – d'heure à Adrien. 
+            
+            CATHERINE. 
+            
+            Vraiment, il t'a sauvé la vie ! 
+            
+            ADRIEN. 
+            
+            Oui, ce bon Boniface ! Aussi…
+            
+            ROBERT
+            
+            (11 lui serre la main.)
+            
+            Et ce n'est pas tout… Il a enlevé un étendard. 
+            
+            CATHERINE. 
+            
+            Brave garçon ! faut que je t'embrasse. 
+            
+            BONIFACE. 
+            
+            Vrai ! Oh ! mamzelle Catherine ! prenez garde…
+            
+            je suis déjà
+            
+            dans les transports, voyez – vous… et ma foi…
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    CATHERINE. 
+                
+            
+                
+                    C'est égal. (Elle lui saute au cou.) C'est pour Adrien… Il ne peut
+            
+                    pas en être jaloux. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : C'était de mon temps. 
+                </stage>
+            
+            
+                
+                    <l>Maint'nant, mes amis,</l>
+                    <l>J'ouvre un bon avis</l>
+                    <l>Qu' vous suivrez si vous voulez m' croire :</l>
+                    <l>L'air chaud du climat,</l>
+                    <l>Le feu du combat</l>
+                    <l>Doivent donner du cœur à boire !</l>
+                    <l>Oui, du vin le meilleur,</l>
+                    <l>D' la plus douce liqueur,</l>
+                    <l>Que gaîment chez la cantinière</l>
+                    <l>La victoire se désaltère.</l>
+                    <l>En avant, marchons !</l>
+                    <l>Vidons ses caissons !</l>
+                    <l>Braquons d'autres canons.</l>
+                
+            
+            
+                
+            
+                    90
+            
+                    ROBERT. 
+            
+                    C'est ça… milzieux ! … 
+                
+            
+            
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l>En avant, marchons !</l>
+                    <l>Vidons les caissons !</l>
+                    <l>Braquons d'autres canons.</l>
+                
+            
+            </lg> </div>
+            
+            (Comme ils vont pour partir on entend dans la coulisse.)
+            
+            GIRARDOT, criant. 
+            
+            Au secours ! … au secours ! … 
+            
+            Est – ce qu'on nous attaquerait encore ? 
+            
+            ROBERT. 
+            
+            (Tout le monde s'arrête.)
+            
+            SCÈNE XI. 
+            
+            LES MÊMES, GIRARDOT, avec un petit baril. 
+            
+            Qu'est – ce qu'il y a ? 
+            
+            ROBERT. 
+            
+            GIRARDOT. 
+            
+            Ne vous dérangez pas… il n'est plus temps… ils sont partis ! 
+            
+            Qui donc ? 
+            
+            Les Bédouins ! 
+            
+            Les Bédouins ! 
+            
+            TOUS. 
+            
+            GERARDOT. 
+            
+            TOUS. 
+            
+            GIRARDOT. 
+            
+            Ils sont tombés subito, une douzaine sur la cantine et ils ont
+            
+            tout pillé ; je n'ai pu sauver que ce baril d'excellent cognac que je
+            
+            goûtais alors. 
+            
+            Ah ! mon Dieu ! … et la mère Picard ! 
+            
+            CATHERINE, 
+            
+            GIRARDOT. 
+            
+            La mère Pichard… Ah ! oui… Q : Bédouin l'a mise en croupe sur
+            
+            son cheval… et il court encore…
+            
+            BONIFACE. 
+            
+            C'est sûr…
+            
+            il va la vendre au grand – turc… Ça sera la sultane
+            
+            favorite ; c'est fort avantageux pour elle. 
+            ROBERT, riant, 
+            
+            Ah ! ah ! aki ! une sultane de soixante ans. 
+            
+            CATHERINE. 
+            
+            Dites donc, père Robert, voil' la place vacante. 
+            
+            ROBERT. 
+            
+            C'est vrai, mille noins d'une pipe et cela te revient de droit, ma
+            
+            petite Catin… Pardon, excuse… c'est un petit nom d'amitié… par
+            
+            abréviation. 
+            
+            BONIFACE. 
+            
+            Quoi ! … mamzelle Catherine serait vivandière en titre ? 
+            
+            ROBERT. 
+            
+            Un peu… et je suis bien sûr que personne ne s'y oppose ; allons, 
+            
+            les insignes de l'emploi. 
+            
+            (Pendant le cheur suivant on attache une courroie au baril apporté par
+            
+            Girardot, et on le passe au cou de Catherinc. En même temps Boniface
+            
+            lui met sur la tête un chapeau rond.)
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : de la Muette. 
+                </stage>
+            
+            
+                
+                    <l>Oui, chacun pour lui plaire,</l>
+                    <l>Ici lui donn' sa voix,</l>
+                    <l>La gentill' vivandière</l>
+                    <l>Partag'ra nos exploits !</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            CATHERINE, se redressant. 
+            
+            Mercil… merci ! mes braves, de l'honneur que vous me faites. 
+            
+            N'aies pas peur, Adrien, va, 
+            
+            je n'en serai pas plus fière… Tâche
+            
+            toujours d'être capitaine le plus tôt possible. 
+            
+            Ca viendra, j'espère. 
+            
+            BONIFACE. 
+            
+            ADRIEN, réfléchissant. 
+            
+            Et moi aussi, ça viendra… Je serai sapeur… quand je devrais
+            
+            me raser tous les jours, et plutôt deux fois qu'une…
+            
+            ROBERT. 
+            
+            Quelqu'un a – t – il un verre, une tasse, un gobelet ? … Je veux être
+            
+            le premier à qui elle versera à boire…
+            
+            GIRARDOT
+            
+            Militaire, j'ai là une tasse de cuir, si elle peut vous être agréable…
+            
+            BONIFACE. 
+            
+            (Il la lui donne.)
+            
+            Dites donc, père Girardot, vous n'avez pas mis là – dedans quel
+            
+            qu's – uns de vos carabis ? …
+            
+            GIRARDOT, criant, en colère. 
+            
+            Scarabées ! 
+            
+            Allons, ma petite Catberine. 
+            
+            CATHERINE. 
+            
+            ROBERT
+            
+            Plus de Catherine… J'adopte le petit nom d'amitié. 
+            
+            ROBERT. 
+            
+            Vrai ! est – elle gentille ! 
+            
+            ADRIEN, 
+            
+            à
+            
+            part, en réfléchissant… 
+            
+            Capitaine ! … et épouser une vivandière ! 
+            
+            ROBERT. 
+            
+            Allons, mes amis, allons à la cantine célébrer sa nomination. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CATHERINE. 
+                
+            
+                <stage type="tune" id="Air de la Vivandière." id2="Demain matin, au point du jour, on bat la générale.">AIR :</stage>
+            
+            
+                
+                    <l>Vivandière du régiment,</l>
+                    <l>C'est Catin qu'on me nomme ;</l>
+                    <l>J' vendrai, j' donn'rai, j' boirai gaîment</l>
+                    <l>Mon vin et mon rogome.</l>
+                    <l>J'ai le pied leste et l'œil mutin,</l>
+                    <l>Tin ! tin ! tin ! tin ! tin ! tin ! rin ! tin ! tin !</l>
+                    <l>J'ai le pied leste et l'œil mutin :</l>
+                    <l>Soldats, voilà Catin !</l>
+                
+            
+            
+                
+                    (Tout en chantant, Catherine a retourné à son baril et ouvert la petite ca
+            
+                    nelle ; Robert avance le bras et tient la tasse dessous.)
+                
+            
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l>Elle a l' pied leste et l'œil mutin,</l>
+                    <l>Tin ! tin ! etc.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Tout le monde est groupé autour d'elle ; le rideau tombe.)
+            
+            FIN DU PREMIER ACTE. 
+            
+            ACFI DHUZIIMI. 
+            
+            (Le théâtre représente une grande salle d'une chaumière russe. Deux portes latérales, 
+            
+            une porte dans le fond, qui, étant ouverte, laisse voir un escalier grossier montant
+            
+            de gauche à droite à un premier étage ; le dessous de l'escalier est garni de fagots ; 
+            
+            sur le devant de la scène une table et ce qu'il faut pour écrire ; quelques chaises.)
+            
+            SCÈNE PREMIÈRE. 
+            
+            BARKOFF, PAYSANS ET PAYSANNES RUSSES, entrant par la
+            
+            droite du spectateur et portant des paniers. 
+            
+            Il fait petit jour. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CHŒUR. 
+                
+            
+            
+                <stage type="tune" id="AIR : Ô mes amis ! avançons en silence.">Air d'Amédée.</stage>
+            
+            
+                
+                    <l>Ô mes amis ! avançons en silence,</l>
+                    <l>Car le sommeil calme encor leurs maux.</l>
+                    <l>Tâchons d'adoucir leur souffrance</l>
+                    <l>Mais ne troublons pas leur repos.</l>
+                    <l>Naguère bien loin de les plaindre</l>
+                    <l>Nous ne pouvions tous que les craindre ;</l>
+                    <l>La victoire guidait leurs pas</l>
+                    <l>Mais le malheur vient les atteindre,</l>
+                    <l>Tristes victimes des combats,</l>
+                    <l>Secourons de pauvres soldats.</l>
+                
+            
+            
+            
+            
+            
+            
+            
+            
+                
+                    BARCOFF. 
+            
+                    Hum ! pourquoi faut – il être obligé de donner de pareils soins à
+            
+                    des Français ? 
+            
+                    Dam ! … c'est l'ordre de ma lemoiselle. 
+            
+                    BARKOFF. 
+            
+                    UN PAYSAN. 
+            
+                    Oui, elle est la fille d'un officier français… mais je suis Russe, moi ! 
+            
+                    et si monsieur le comte d'Arbel, son honorable père, était ici… ça
+            
+                    se passerait autrement. 
+            
+                    UN PAYSAN. 
+            
+                    Dites donc, monsieur Barkoff, y a là un planton de soldats… et
+            
+                    et qui ne sont malades, ceux – là. 
+            
+                    BARKOFF. 
+            
+                    Je n'ai pas peur… on prétend que leur infernal maréchal Ney
+            
+                    doit venir visiter les blessés… Qu'on me laisse faire… il y restera…
+            
+                    allons, montez, vous autres. 
+                
+            
+            
+            
+            
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l>Tristes victimes des combats,</l>
+                    <l>Secourons de pauvres soldats.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Ils montent l'escalier du fond.)
+            
+            SCÈNE 11. 
+            
+            BARCOFF, puis BONIFACE. 
+            
+            BONIFACE, paraissant à la porte de gauche, 
+            
+            la figure barbouilléc de
+            
+            savon et un rasoir à la main. 
+            
+            Il me semble qu'on a chuchotté par ici. 
+            
+            (1) On peut supprimer ce cheur à la représentation
+            
+            1
+            
+            Un soldat…
+            
+            – 20
+            
+            BARKOFF. 
+            
+            BONIFACE. 
+            
+            Dieu ! … l'intendant du propriétaire d'ici. (S'essuyant la figure.)
+            
+            Fautque je laisse ma barbc à moitié faite… c'est dans le cas de ré
+            
+            tarder la végétation…
+            
+            BÀRCOFF. 
+            
+            Qu'avez – vous donc, soldat ? on dirait que vous tremblez…
+            
+            BONIFACE. 
+            
+            C'est que voyez – vous, dans le département de la Moscovie, il ne
+            
+            fait
+            
+            pas chaud à se raser avec de la neige fondue. 
+            
+            BARCOFF. 
+            
+            Mais puisqu'on a tout mis à votre disposition… pourquoi ne pas
+            
+            faire demander…
+            
+            BONIFACE. 
+            
+            Il est vrai de dire qu'on n'a pas trop ses aises dans votre Russie, 
+            
+            depuis qu'ils brûlent tout, les Vandales. 
+            
+            C'est pour sauver leur patric…
+            
+            BONIFACE. 
+            
+            BARCOFF. 
+            
+            Ah ! leur patrie ! … un pays de loup… Pardonnez – moi l'expression, 
+            
+            c'est une hyperbole comme disait un savant que j'ai connu dans
+            
+            les pays chauds… depuis quatorze ans que je suis militaire, j'en ai
+            
+            vu des déserts non habités… mais pas comme ça… Il est unique ce
+            
+            pays… on ne peut pas se tenir sur le verglas quand il gêle… on
+            
+            enfonce dans les marais quand il ne gêle pas… et ils appellent ça une
+            
+            patrie… les Vandales ! 
+            
+            Boniface ! … Boniface ! 
+            
+            SOLDATS, appelant à gauche en dehors. 
+            
+            V'là qu'ils s'éveillent les autres…
+            
+            BARKOFF. 
+            
+            BONIFACE. 
+            
+            Vos camarades vous appellent. Je vous laisse. 
+            
+            BONIFACE. 
+            
+            (Il sort par la droite.)
+            
+            Tu ne fais pas mal toi… car sauf ta barbe qui est fort belle… ta
+            
+            figure ne me revient guère…
+            
+            (Ils montent l'escalier du fond, un sergent et quelques soldats entrent
+            
+            par la gauche.)
+            
+            SCÈNE III. 
+            
+            BONIFACE, LE SERGENT, SOLDATS. 
+            
+            Eh ! Boniface ! 
+            
+            LE SERGENT. 
+            
+            BONIFACE. 
+            
+            Qu'est – ce
+            
+            que
+            
+            vous avez donc à crier comme ça vous autres ? … 
+            
+            vous avez effarouché l'intendant du propriétaire, je me mettais
+            
+            bien avec lui pour en obtenir…
+            
+            LE SERGENT, 
+            
+            Quoi donc ? 
+            
+            – 24
+            
+            BONIFACE. 
+            
+            Un
+            
+            peu d'eau chaude pour le matin. 
+            L'E SERGENT. 
+            
+            Ce pauvre Boniface, il ne pense qu'a sa barbe. 
+            
+            <div type="poem"> <lg>
+            
+                
+                    BONIFACE. 
+                
+            
+            
+                
+                    C'est que j'y tiens… depuis quatorze ans que je me rase deux
+            
+                    fois par jour, et pour rien encore… ça ne pousse pas… j'ai beau me
+            
+                    faire des estaffes… voyez plutôt ! c'est – il vexant pour un homme
+            
+                    qui nourrit depuis si long – temps la noble ambition de devenir sa
+            
+                    peur…
+                
+            
+            
+            
+            
+                
+                    <stage type="tune">Air de Turenne.</stage>
+                
+            
+                
+                    <l>Ah ! de bon cœur, vraiment j'enrage,</l>
+                    <l>D'n'obtenir aucun résultat,</l>
+                    <l>Et cependant avec courage</l>
+                    <l>Matin et soir à ce terroir ingrat.</l>
+                    <l>Le fer en main j' livre un nouveau combat,</l>
+                    <l>Oui, la natur' me fait des injustices</l>
+                    <l>J'deviens hideux, balafré comme je l' suis</l>
+                    <l>N'obtiendrais – je donc jamais le prix</l>
+                    <l>De tant de nobles cicatrices ?</l>
+                
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LE SERGENT, dans le fond. 
+            
+            Tiens, dis done, Boniface ! … voilà celle pour qui tu t'mets à la
+            
+            torture, qui vient ici en trotlant sur la ueige. 
+            
+            Catherine ! 
+            
+            Entends – tu sa chanson ? 
+            
+            BONIFACE. 
+            
+            LE SERGENT. 
+            
+            BONIFACE. 
+            
+            C'est elle… Dieu ! rien que sa voix… ça me bouleverse… qu'e'est
+            
+            bête d'êtr' nerveux comme ça ! 
+            
+            SCÈNE IV. 
+            
+            LES MÊMES, CATHERINE. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CATHERINE. 
+                
+            
+            
+               <stage type="tune" id="Air de la Vivandière." id2="Demain matin, au point du jour, on bat la générale.">AIR :</stage>
+            
+            
+                
+                    <l>Depuis l'Égypte je vous sers</l>
+                    <l>Je me mis jeune en route,</l>
+                    <l>À quatorze ans dans les déserts</l>
+                    <l>Je vous versais la goute ;</l>
+                    <l>Puis j'entrai dans Vienne un matin,</l>
+                    <l>Tin, tin, tin, tin, tin, tin,</l>
+                    <l>Puis j'entrai dans Vienne un matin,</l>
+                    <l>Soldats, voilà Catin !</l>
+                
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LE SERGENT. 
+            
+            Bravo ! … la gaité arrive toujours avec elle. 
+            
+            BONIFACE. 
+            
+            Vous avez déjà fini votre tournée, mademoiselle Catherine ! … 
+            
+            vous êtes diligente. 
+            
+            CATHERINE. 
+            
+            Dites donc, les amis, v'là des provisions toutes fraîches aujour
+            
+            d'hui… C'est Murat qui régale… aussi je vous apporte ce qu'on a
+            
+            pu trouver de meilleur. 
+            
+            LE SERGENT. 
+            
+            Ca arrive bien… allons vous autres à vos rangs, j'vas faire la
+            
+            distribution. 
+            
+            (Ils se placent au tour de la table.)
+            
+            BONIFACE. 
+            
+            Un peu de pain et un oignon, v'là mon affaire… c'est tonique. 
+            
+            (Il mange.) Qu'est – ce que vous avez donc, mamzelle Catherine…. 
+            
+            vous avez l'air tout guilleret ce matin. 
+            
+            CATHERINE. 
+            
+            Je suis contente, mon bon petit Boniface, nous allons remar
+            
+            cher en avant. Kutuzoff a peur, il recule, et en le poursuivant nous
+            
+            nous irons à Pétersbourg. 
+            
+            BONIFACE. 
+            
+            En passant, ça se pourrait bien. 
+            
+            CATHERINE. 
+            
+            J'espère qu'enfin mon Adrien, qui n'est encore que lieutenant, 
+            
+            aura ses épaulettes de capitaine. 
+            
+            BONIFACE. 
+            
+            Et vous me dites ça à moi ! 
+            
+            Pourquoi pas ! 
+            
+            CATA ERINE. 
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    BONIFACE. 
+                
+            
+            
+                
+                    Ah ! … Catherine ! … Catherine ! … vous avez donc un cour de co
+            
+                    saque ? 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Vos Maris en Palestine. 
+                </stage>
+            
+            
+                
+                    <l>Dans not' beau pays de France,</l>
+                    <l>J' m'enflammai pour vos appas,</l>
+                    <l>Et malgré tant de constance,</l>
+                    <l>Sans rien obtenir hélas !</l>
+                    <l>J'ai toujours suivi vos pas ;</l>
+                    <l>Par votre froideur extrême,</l>
+                    <l>Que d'amans désespérés</l>
+                    <l>Verraient leurs feux tempérés !</l>
+                    <l>Moi, pour vous je brûl' tout d'même,</l>
+                    <l>Par un froid d' vingt–six degrés.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            CATHERINE. 
+            
+            Ah ! tu te plains ; je voudrais bien être échauffée comme ça, 
+            
+            moi… ça ne ne ferait pas d' mal pour
+            hum ! … 
+            
+            le
+            
+            quart d'heure. Hum ! … 
+            
+            BONIFACE. 
+            
+            Vous avez froid, Catherine ? vous avez froid ?. 
+            
+            Cette question ! j'ai les pieds à la glace. 
+            
+            BONIFACE. 
+            
+            CATHERINE. 
+            
+            Comm' votre cour, n'est – ce pas ? C'est pas l'embarras, je les ai
+            
+            aussi un peu engourdis. Ah ! satané pays ! 
+            
+            Ah ! une idée ! Dis donc, Boniface, veux – tu en quatre temps ? … 
+            
+            (Il frappe des pieds par terre comme Catherine.)
+            
+            CATHERINE. 
+            
+            Comment, Catherine, vous voulez avec moi ? 
+            
+            BONIFACE. 
+            
+            4
+            
+            – 26 %
+            
+            CATHERINE. 
+            
+            Allons, voyons, dépêche – toi donc ; j'ai les pieds sans connais
+            
+            sance. 
+            
+            Dieu ! que je suis heureux ! Prenez garde à mes engelures. 
+            
+            BONIFACE. 
+            
+            Y es – tu ? 
+            
+            CATHERINE. 
+            
+            BONIFACE. 
+            
+            M'y v'là ! … (Ils battent la semelle.) Ahl qu'c'est voluptueux la se
+            
+            melle avec celle qu'on aime…
+            
+            CATHERINE, 
+            
+            Va donc, n'aies pas peur. 
+            
+            BONIFACE. 
+            
+            Ca n' sera donc toujours que du marbre, votre cœur ; ils sont
+            
+            ferrés vos souliers. C'est égal, je vous plains. 
+            
+            De quoi ? 
+            
+            CATHERINE. 
+            
+            BONIFACE. 
+            
+            Ah ! prenez donc garde ; vous tapez dans les os des jambes, et
+            
+            par la gelée, c'est casuel. 
+            
+            CATHERINE. 
+            
+            Pourquoi me plains – tu, voyons ? 
+            
+            A cause de votre amour
+            
+            Parce que…
+            
+            BONIFACE. 
+            
+            pour Adrien. 
+            CATHERINE. 
+            
+            BONIFACE. 
+            
+            Pare' que
+            
+            il y a quelque chose de nouveau… Votre amoureux, 
+            
+            qui fait tant le fier à présent, a trouvé une connaissance ici… le
+            
+            comte d'Arbel, l'ancien seigneur d' chez nous, qui a une fille… et
+            
+            un château qu'il a prêté, malgré lui, pour servir d'ambulance. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CATHERINE. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Vaudevile de Farinelli. 
+                </stage>
+            
+            
+                
+            
+                    <l>Qu'importe le comte et son château.</l>
+            
+                    
+                        BONIFACE. 
+                    
+            
+                    <l>Vous avez tort d'être si tranquille…</l>
+                    <l>renez gard' d'apprendre bientôt</l>
+                    <l>Combien l'amour est volatille…</l>
+                
+            
+            
+                
+                    CATHERINE. 
+                
+            
+            
+                
+                    <l>D'Adrien l' comt' fut l' protecteur.</l>
+            
+                    
+                        BONIFACE. 
+                    
+            
+                    <l>Oui, mais du comt' la fille est belle.</l>
+            
+                    
+                        CATHERINE. 
+                    
+            
+                    <l part="I">Qu'est – ce que ça m' fait ? …</l>
+            
+                    
+                        BONIFACE. 
+                    
+                    <l part="F">De la d'moiselle</l>
+                    <l>Adrien, pour échauffer l'cœur,</l>
+                    <l>N'a pas eu besoin de battr' la semelle.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            CATHERINE, lui donnant un coup de pied. 
+            
+            Qu'est – ce que tu dis ? 
+            
+            BONIFACE. 
+            
+            Bon… bien… juste à la cheville…
+            
+            ! 
+            
+            – 27
+            
+            CATHERINE. 
+            
+            O mon petit Boniface, est – ce que tu t'es aperçu de quelque
+            
+            chose ? 
+            
+            BONIFACE. 
+            
+            Certainement ; merci, ma guêtre en est coupée. 
+            
+            CATHERINE. 
+            
+            Je te la raccommoderai ; mais, dis – moi vite, Adrien voit donc
+            
+            souvent cette demoiselle ? 
+            
+            BONIFACE. 
+            
+            Souvent… plus que ça… tous les jours. 
+            
+            CATHERINE. 
+            
+            Elle est donc bien jolie…
+            
+            BONIFACE. 
+            
+            Oui, ma foi… pour la Russie…
+            
+            CATHERINE. 
+            
+            Elle est mieux que inoi, n'est – ce pas ! 
+            
+            Ah ! Catherine !. 
+            
+            BONIFACE. 
+            
+            CATHERINE. 
+            
+            J'en suis sûre… et puis elle doit être pimpante, tirée à quatre
+            
+            épingles, au lieu que inoi. 
+            
+            BONIFACE. 
+            
+            Ah ! vous êtes comme notre gloire, un peu
+            
+            chiffonnée. 
+            
+            CATHERINE. 
+            
+            Ah ! que ça fait mal, la jalousie ; je brûle à présent, j'suis sûre
+            
+            que j'ai la fièvre… Adrien va venir… Eh ben… je veux savoir tout
+            
+            de suite à quoi m'en tenir… Ah ! il me trompe…
+            
+            LE SERGENT. 
+            
+            V'là le lieutenant…
+            
+            CATHERINE. 
+            
+            C'est lui… surtout qu'il ne se doute de rien. 
+            
+            BONIFACE. 
+            
+            Soyez tranquille, je feins très – bien. 
+            
+            (Catherine se place derrière un groupe de soldats.)
+            
+            SCENE V. 
+            
+            LES MÊMES, ADRIEN. 
+            
+            ADRIEN. 
+            
+            Soldats, le général de la division va venir visiter cette ambu
+            
+            lance, préparez – vous à le recevoir…
+            
+            Oui, mon lieutenant. 
+            
+            LE SERGENT. 
+            
+            CATHERINE, bas. 
+            
+            Il ne me voit pas, tant mieux… il ne se doutera pas que je
+            
+            veille sur lui. 
+            
+            Allons, camarades… à nos armes ! … 
+            
+            LE SERGENT. 
+            
+            Vous ne venez pas…
+            
+            $
+            
+            BONIFACE, bas à Catherine. 
+            
+            Non… laisse – moi ! …
+            
+            CATHERINE. 
+            
+            (Boniface et les soldats rentrent par la gau' ne. Catherine s'éloigne par la
+            
+            porte du fond et reparaît ensuite.)
+            
+            SCÈNE VI
+            
+            ADRIEN, puis CATHERINE. 
+            
+            ADRIEN, agité. 
+            
+            Le comte veut avoir la réponse à sa lettre. Il m'offre, pour prix
+            
+            du service qu'il me demande, le partage de sa fortune et la main
+            
+            de sa fille… de sa fille, si belle, et qui paie déjà ma tendresse du
+            
+            plus charmant retour… Mais qu'il faut acheter chèrement tout
+            
+            cela. Officier d'ordonnance, secrétaire particulier du maréchal, je
+            
+            puis, sans doute… un grade, une fortune, une femme charmante…
+            
+            qui pourrait résister ? … (Il s'assied, et rejette la plume.) Eh ! pour
+            
+            tant j'hésite encore… Allons, le sort en est jeté… (Il reprend en
+            
+            suite vivement, et écrit.) Avec des renseignemens aussi exacts… Cette
+            
+            lettre ne laissera plus aucun doute sur mon dévouement. 
+            
+            CATHERINE, entrant doucement et à part. 
+            
+            Il écrit ! … A qui douc ? 
+            
+            ADRIEN, écrivant toujours. 
+            
+            Le comte ne pourra me refuser sa fille. 
+            
+            CATHERINE, s'écriant. 
+            
+            Il la demande en mariage ! … 
+            
+            ADRIEN, se détournant et se levant hors de lui. 
+            
+            Catherine ! … 
+            
+            CATHERINE. 
+            
+            Oui… Catherine ! … qui vient de vous écouter. 
+            
+            Toi ! … et
+            
+            que sais – tu ? 
+            
+            Tout…
+            
+            Ciel ! 
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            ADRIEN. 
+            
+            CATHERINE, 
+            
+            Pouvez – vous trahir ainsi…
+            
+            ADRIEN. 
+            
+            Plus bas, Catherine, plus bas…
+            
+            Je veux crier, moi ! … 
+            
+            CATHERINE. 
+            
+            ADRIEN. 
+            
+            Tu vas me perdre… me faire fusiller…
+            
+            CATHERINE, pleurant. 
+            
+            Il a encore le coeur de se moquer de moi… Comme si les conseils
+            de guerre s'assemblaient pour ces trahisons là… Ce ne sont pas les
+            
+            femines qui ont fait le code militaire…
+            
+            ADRIEN, à
+            
+            part. 
+            
+            Je respire ! 
+            
+            – 29
+            
+            CATHERINE, 
+            
+            C'est donc décidé… vous ne m'aimez plus ? C'est une autre… Si
+            
+            elle était vivandière, encore, oh ! ça ne se passerait pas comme ça. 
+            
+            ADRIEN, qui s'est rassuré. 
+            
+            Que veux – tu dire ? 
+            
+            CATHERINE. 
+            
+            Est – ce que je n'ai pas mon briquet, donc ? 
+            
+            Quoi ! 
+            
+            ADRIEN, souriant. 
+            
+            
+) 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CATHERINE. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Comme il m'aimait. 
+                </stage>
+            
+            
+                
+                    <l>J' la provoquerais,</l>
+                    <l>Je la tuerais :</l>
+                    <l>Vivandièr' d' la gard' impériale,</l>
+                    <l>Pistolets, sabres ou fleurets,</l>
+                    <l>D' l'escrim' je sais tous les secrets !</l>
+                    <l>Ah ! mil zieux pourquoi ma rivale</l>
+                    <l>N'a–t–ell' pas au moins dix ans d' salle ?</l>
+                    <l>Je la tuerais ! <stage type="repetition"> (bis.)</stage></l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            ADRIEN, riant. 
+            Ah ! ab ! ah ! ah ! … 
+            
+            CATHERINE. 
+            
+            Tiens, Adrien, ne ris pas comme ça, 
+            
+            je t'en prie… tu vas encore
+            
+            me faire pleurer, mon ami… Est – ce donc bien vrai… tu n'm'aimes
+            
+            plus du tout ? … tu veux épouser cette p'tite mijaurée ? 
+            
+            ADRIEN. 
+            
+            Tu as mal entendu, Catherine, je te jure…
+            
+            CATHERINE
+            
+            Ne jure pas… j'ai l'oreille fine… et d'ailleurs… n'ai – je pas une
+            
+            preuve ? 
+            
+            Une preuve ! … 
+            
+            Oui ! 
+            
+            Et laquelle ! 
+            
+. 
+            
+            ADRIEN. 
+            
+            CATHERINE. 
+            
+            ADRIEN
+            
+            CATHERINE. 
+            
+            Tu veux le savoir. (Elle court à la table et prend une lettre.) Tiens, 
+            
+            la voilà ! 
+            
+            Catherine ! 
+            
+            que fais – tu ? 
+            
+            ADRIEN
+            
+            CATHERINE. 
+            
+            C'est la demande en mariage, j'en suis sûre. 
+            
+            ADRIEN. 
+            
+            Rends – moi, cette lettre ! 
+            
+            CATII ERINE. 
+            
+            Non… je veux la lire… je veux…
+            
+            Catherine ! 
+            
+            ADRIEN, fortement. 
+            
+            (Elle jette les yeux dessus.)
+            
+            30
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    CATHERINE
+                
+                
+, avec surprise et douleur. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : C'était Renaud de Montaubau. 
+                </stage>
+            
+            
+                <l>Ciel ! qu'ai–je lu ? l'aurais–je pu penser…</l>
+                <l>Adrien, tu livres tes frères…</l>
+                <l>De c' dernier coup j' sens mon cæur se briser,</l>
+                <l>Mes larmes s'ront bien plus amères !</l>
+                <l>Le malheureux, ah ! qu'a–t–il fait ?</l>
+                <l>Il déshonore son épée !</l>
+                <l>Lorsque par lui je me croyais trompée</l>
+                <l>C'est son pays qu'il trahissait !</l>
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            ADRIEN. 
+            
+            Maintenant ma vie ou ma mort sont entre tes mains…
+            
+            CATHERINE. 
+            
+            Rassurez – vous… vos jours sont en sûreté…, mais cette lettre fam
+            
+            tale n'ira pas à son adresse…
+            
+            ADRIEN. 
+            
+            (Elle la déchire.)
+            
+            Catherine… je t'en conjure… quitte ce pays… je puis t'en offrir
+            
+            les moyens…
+            
+            CATHERINE. 
+            
+            Assez… assez… que vous iinporte mon sort… quelque rang, quel
+            
+            que fortune qui vous attendent… la pauvre vivandière est bien au
+            dessus de vous… (Arrachantsa bague.) Tenez ! … elle vous délie des
+            
+            sermens que vous lui avez faits…. que sont – ils auprès de ceux que
+            vous voulez trahir ? … 
+            
+            (On entend la ritournelle du morceau suivant.)
+            
+            ADRIEN, prenant vivement la main qui lui présente l'anneau. 
+            
+            Écoutez ! … 
+            
+            CATHERINE, se débarrassant d'Adrien et courant vers le fond. 
+            
+            C'est la voix de Robert ! … 
+            
+            SCENE VII. 
+            
+            LES MÊMES, BARCOFF, ROBERT ET PLUSIEURS SOLDATS. 
+            
+            (Barcoff entre mystérieusement par la droite et s'approche d'Adrien.)
+            
+            (Suite du morceau.)
+            
+            BARCOFF
+            
+            Notre maître arrive, il vous attend…
+            
+            ADRIEN. 
+            
+            O ciel ! … allons, plus d'hésitation, je vous suis. 
+            
+            (Il sort par la droite avec Barcoff.)
+            
+            SCÈNE VIII. 
+            
+            ROBERT, CATHERINE, SEPGENS ET SOLDATS. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ROBERT. 
+                
+            
+                <stage type="tune" id="AIR : Amis, cette heureuse nouvelle.">  </stage>
+                    <l>Amis, cette heureuse nouvelle</l>
+                    <l>Nous met tous en train,</l>
+                    <l>La gloire nous appelle,</l>
+                    <l>Heureuse nouvelle !</l>
+                    <l>Oui, nous nous battrons demain !</l>
+                
+            
+            
+                
+            
+            
+            
+            
+                    Mon vieux Robert ! 
+            
+                    CATHERINE, après le chæur. 
+            
+                    ROBERT. 
+            
+                    Bon jour, ma petite Catin ! … Oui, mes amis, le brave maréchal
+            
+                    Ney sera ici dans quelques instans… Il vient visiter les blessés ! 
+            
+                    Le inaréchal ! 
+            
+                    CATHERINE. 
+            
+                    ROBERT. 
+            
+                    Lui – même ! … mais il me semblait avoir aperçu, en entrant, le
+            
+                    lieutenant Adrien… Il est parti comune ca sans seulement jeter les
+            
+                    yeux sur nous…
+            
+                    CATHERINE. 
+            
+                    C'est qu'il ne rencontrerait dans les iniens que du mépris…, 
+            
+                    ROBERT. 
+            
+                    Ah ! je comprends… il n'a pas attendu qu'il soit capitaine pour
+            
+                    être parjure…
+            
+                    CATHERINE, avec amertume. 
+            
+                    Parjure ! … oui…
+            
+                    ROBERT. 
+            
+                    Et alors, le brave Boniface va entrer en activité…
+            
+                    CATHERINE. 
+            
+                    Ne parlons plus de ça, mon vieux Robert, je ne veux plus ine ma
+            
+                    rier… plus d'amans, de l'amitié… d'la bonne amitié… pour mes
+                    vieux grognards… ils sont fidèles, ceux – là…
+            
+                    ROBERT. 
+            
+                    Qu'est – ce que c'est que ça, Catin ; nous donnons dans la mélan
+            
+                    colie, mon enfant…, et aujourd'hui encore… allons donc… Vive
+            
+                    la joie, morbleu ! … 
+            
+                    CATHERINE. 
+            
+                    Tu as raison… Vive la joie, et oublions le reste… Le maréchal
+            
+                    Ney va venir… je ne l'ai jamais vu de si près… il me remarquera
+            
+                    peut – être…
+            
+                    ROBERT. 
+            
+                    Tu es bien faite pour ça ! 
+            
+                    CATHERINE. 
+            
+                    Si je lui offrais un petit verre…
+            
+                    ROBERT
+            
+                    Il ne ferait pas le dégoûté, va ! … 
+            
+                    CATHERINE, 
+            
+                    Vrai… oh ! que je serai contente… il boirait de mon rogome…
+            
+                    dans le verre que je lui présenterais… oh ! personne n'y boira plus
+                    après lui. 
+            
+                    Brave fille ! 
+            
+                    ROBERT. 
+            
+                    CATHERINE. 
+            
+                    Je vas me mettre en grande tenue, mon baril en sautoir… Et je
+            
+                    me placerai sur son passage. 
+            
+                    ROBERT. 
+            
+                    C'est ça ! … et nous, mes amis… allons au – devant de notre gé
+            
+                    néral ! 
+            
+                
+            
+                
+                    REPRISE DU
+                
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l ana="unanalyzable">Amis, cette heureuse nouvelle,</l>
+                
+            
+            </lg> </div>
+            
+            (Ils sortent par le fond.)
+            
+            – 32
+            
+            SCÈNE IX. 
+            
+            CATHERINE, seule. 
+            
+            Quelle bonne idée que j'ai eue là l… La joie que ça me donne…
+            
+            Oh ! oui, je l'espère, j'oublierai tout – à – fait ce inalheureux. Elle
+            
+            prend son baril.) La ! … je n'ai là – d'dans que de cette mauvaise eau
+            
+            de – vie de grains… De l'eau – de – vie russe à un maréchal de France…
+            
+            ça ne va pas. Est – ce qu'il n'y auraitpas dans les caves du château
+            
+            quelqu'autre bonne chose… Un émigré ! il doit avoir conservé le
+            
+            goût du vin du pays… Si j'allais… Tiens, au fait, en pays con
+            
+            quis, c'est d'bonne prise. (Elle s'approche de la porte de droite, et
+            
+            s'arréte en écoutant.) Ah ! mon Dieu, qu'est – ce que j'entends là ? 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CHŒUR
+                
+                
+                    dans la coulisse. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR de Fra Diavolo. 
+                </stage>
+            
+            
+                
+                    <l>De la prudence,</l>
+                    <l>Et parlons bas :</l>
+                    <l>Que la vengeance</l>
+                    <l>Soit sous leurs pas.</l>
+                
+            
+            
+            
+            
+                
+                    CATHERINE. 
+            
+                    Qu'est – ce donc ? … cachons – nous. 
+            
+                    (Elle entre vivement avec son baril dans la chambre gauche, dont elle
+            
+                    laisse la porte entr'ouverte.)
+            
+                    SCÈNE X. 
+            
+                    CATHERINE cachée, BARKOFF, puis deux COSAQUES, dont l'un
+            
+                    porte un baril de poudre. 
+            
+                    BARKOFF, aux cosaques. 
+            
+                    (Suite du morceau.)
+            
+                    Entrons… Non… Personne ! 
+            
+                    Je ne sais pourquoi je frissonne
+            
+                    01
+            
+                    CATHERINE, à part. 
+            
+            
+                
+            
+            
+                
+                    BARKOFF ET LES COSAQUES. 
+                
+            
+            
+                
+                    ENSEMBLE. {
+                
+            
+            
+                
+                    <l>De la prudence,</l>
+                    <l>Et parlons bas :</l>
+                    <l>Que la vengeance</l>
+                    <l>Soit sous leurs pas.</l>
+                
+            
+                
+                    CATHERINE. 
+                
+            
+                
+                    <l>De la prudence,</l>
+                    <l>Ne bougeons pas,</l>
+                    <l>Car la vengeance</l>
+                    <l>Guide leurs pas !</l>
+                
+            
+            
+                
+                    (Un des cosaques a mis le baril de poudre par terre, près de la chambre
+            
+                    où est Catherine. Barkoff, qui a été vers le fond et ouvert les portes, 
+            
+                    désigne le dessous de l'escalier.)
+                
+            
+            
+            
+                
+                    BARCOFF
+                
+                
+, aux cosaques qui obéissent. 
+                
+            
+            
+                
+            
+                    <l>Ôtez de là tout ce qui gêne…</l>
+                    <l part="I">Pour placer ce salpêtre ! …</l>
+            
+                    
+                        CATHERINE. 
+                    
+            
+                    <l part="F">Ô ciel ! …</l>
+            
+                    
+                        BARCOFF. 
+                    
+            
+                    <l>Avant peu leur chef immortel</l>
+                    <l>Va venir… sa perte est certaine…</l>
+                
+            
+            
+                
+            
+                    
+                        CATHERINE. 
+                    
+            
+                    <l part="I">Que faire ?</l>
+            
+                    
+                        BARCOFF
+                    
+                    
+, dans le fond. regarde les cosaques qui debarrassent le dessous de l'escalier. 
+                    
+            
+            
+                    <l part="M">Il ne saurait échapper !</l>
+            
+                    
+                        CATHERINE. 
+                    
+            
+                    <l part="F">Quel projet !</l>
+                    <l part="I">Le ciel m'inspire…</l>
+            
+            
+                    
+                        (Pendant que les autres tournent le dos, elle sort vivement et met sôn
+                        baril à la place de celui qui est par terre et qu'elle emporte.)
+                    
+            
+            
+                    
+                        BARCOFF. 
+                    
+            
+                    <l part="F">C'en est fait…</l>
+                    <l>Maintenant ce baril, sans retard qu'on le place,</l>
+            
+                    
+                        (Un cosaque vient le prendre et le porte sous l'escalier.)
+                    
+            
+                    <l>Bientôt le reste sera prêt !</l>
+            
+                    
+                        CATHERINE
+                    
+                    
+, cachée et se jettant à genoux. 
+                    
+            
+            
+                    <l>Ô mon Dieu ! … je te rends grace !</l>
+            
+                
+            
+            
+            
+                
+                    ENSEMBLE. {
+                
+            
+            
+            
+                
+                    <l>De la prudence,</l>
+                    <l>Ne bougeons pas</l>
+                    <l>Oui, la vengeance</l>
+                    <l>Guidait leurs pas…</l>
+                
+            
+                
+                    LES COSAQUES ET BARCOFF. 
+                
+            
+                
+                    <l>Oui, la prudence</l>
+                    <l>Veut son trépas,</l>
+                    <l>Notre vengeance</l>
+                    <l>Est sous ses pas.</l>
+                
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Sur cet ensemble, Barcoff et les cosaques se retirent par le fond à droite
+            
+            et fermant la porte.)
+            
+            SCÈNE XI. 
+            
+            CATHERINE, seule. 
+            
+            Je n'ai
+            
+            pas une goutte
+            
+            de
+            
+            sang
+            
+            dans les veines… Les misérables, 
+            
+            faire sauter le maréchal ! … (On entend dans le fond le tambour battre
+            
+            aux champs.) Le tambour… Serait – ce déjà lui ! ah mon Dieu ! et
+            
+            mon eau – de – vie… plus moyen de lui offrir…, Ah ! c'est égal, j'ai
+            
+            sauvé ses jours, cet hongeur – là vaut bien celui de lui verser à
+            
+            boire…
+            
+            SCÈNE XII. 
+            
+            CATHERINE, BONFACE, entrant par le fond et laissant
+            
+            la porte ouverte. 
+            
+            BONIFACE. 
+            
+            Ah ! vous v'là, mamzelle ! 
+            
+            Qu'as – tu donc ? 
+            
+            CATHERINE. 
+            
+            BONIFACE. 
+            
+            Се que j'ai ! est – ce que vous n'entendez pas ? 
+            
+            (On entend du bruit dans le fond.)
+            
+            5
+            
+            IT
+            
+            Le maréchal. 
+            
+            CATHERINE. 
+            
+            BONIFACE. 
+            
+            Eh ! oui, c'est lui ! c'est le brave des braves ! 
+            
+            SCENE XIII. 
+            
+            LES MÊMES, ROBERT, SOLDAŢs. Ils se rangent dans le fond au – delà
+            
+            de l'escalier ; puis LE MARÉCHAL et quelques OFFICIERS SUPÉ
+            
+            RIEURS. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+            
+                
+                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Introduction de Léocadie. 
+                </stage>
+            
+                
+                
+                
+                    <l>Ah ! c'est pour nous encore un jour de gloire,</l>
+                    <l>Puisqu'il nous fait cet honneur sans égal ;</l>
+                    <l>Il nous guida toujours à la victoire,</l>
+                    <l>Vive à jamais, viv' notre général !</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Pendant ce cheur, le maréchal et ses officiers montent l'escalier, 
+            
+            et disparaissent.)
+            
+            BONIFACE, dans le plus grand effroi. 
+            
+            Ciel : qu'est – ce que je vois… Une traînée de poudre qu'on al
+            
+            lume : nous allons tous sauter, et le maréchal aussi. 
+            
+            Sauter ! 
+            
+            ROBERT, et les soldats s'approchent. 
+            
+            CATHERINE, éclatant de rire. 
+            
+            Ah ! ali ! ah ! ah ! 
+            
+            Ca vous fait rire ! 
+            
+            BONIFACE. 
+            
+            ROBERT, qui s'est précipité sur le baril, l'apportant sur le
+            
+            devant de la scène. 
+            
+            Ce n'est pas encore son dernier jour… Enfans, ça
+            
+            n'a pas pris. 
+            
+            CATHERINE
+            
+. 
+            
+            Eh ! non, c'est de la poudre humide ; il n'y a pas mèche ; ta
+            
+            mine est éventée. 
+            
+            Comment ! 
+            
+            TOUS. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CATHERINE. 
+                
+            
+            
+                <stage type="tune">
+                    Air de la Sentinelle. 
+                </stage>
+            
+            
+                
+                    <l>Oui, mes amis, le plus lâche complot</l>
+                    <l>Dans la tristesse allait plonger la France ;</l>
+                    <l>Mais l' ciel veillait, et Cath'rine bientôt</l>
+                    <l>Sut des méchans déjouer l'espérance.</l>
+                    <l>Ils n' croyaient pas voir leurs projets déçus ;</l>
+                    <l>Mais par un' ruse bien calculée,</l>
+                    <l>Leurs soins ont été superflus,</l>
+                    <l>Et l' feu qn'iis ont mis n' pouvait plus</l>
+                    <l>Qu' fair' du punch ou d' l'eau d' vie brûlée.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            C'est fort adroit. 
+            
+            BONIFACE. 
+            
+            ROBERT. 
+            
+            O brave et dix mille fois brave Catin ! Mais j'ai mon idée. Il ne
+            
+            faut pas qu'un si beau trait reste sans récompense… Attendez – moi
+            
+            là, mes amis… Vive notre brave vivandière ! 
+            
+            (Il sort par le fond, et monte l'escalier.)
+            
+            Vive notre vivandière ! 
+            
+            – 35
+            
+            TOUS. 
+            
+            CATHERINE. 
+            
+            Tiens ! … où va – t – il donc comme ça, le père Robert ! 
+            
+            BONIFACE. 
+            
+            Au fait… comme il s'éclipse… avec son idée… quoi donc
+            
+            que ça
+            
+            peut être son idée ? … ah ! j'y suis… il va raconter vos exploits…
+            
+            A qui donc ? 
+            
+            CATHERINE. 
+            
+            BONIFACE. 
+            
+            A votre amoureux ! … mon rival ! … monsieur Adrien. 
+            
+            CATHERINE. 
+            
+            Oh ! … non, je l'espère… il sait bien que je veux l'oublier…
+            
+            BONIFACE. 
+            
+            Tous voulez ! … oh Catherine, honneur de ton sexe et de la can
+            
+            tine ! Je suis dans l'enthousiasme… Ils en ont eu des Catherine en
+            
+            Russie ; Catherine I, Catherine II… mais ils n'en ont pas eu, ils
+            
+            n'en auront jamais de ton numéro ! 
+            
+            ROBERT, revenant. 
+            
+            " Tiens… lis… lis. 
+            
+. ma petite Catherine. 
+            
+            CATHERINE, lisant. 
+            
+            (Il lui remet un papier.)
+            
+            Pour prix de sa belle conduite et de son intrépidité, j'accorde au
+            
+            nom de l'empereur, à Catherine Bernard, vivandière de la grande
+            
+            armée, la croix de la légion d'honneur. 
+            
+            ROBERT. 
+            
+            Signé : Maréchal Ney, prince de la Moscowa. 
+            
+            CATHERINE. 
+            
+            Il se pourrait… la croix, à moi ! 
+            
+            La croix ! 
+            
+            TOUS. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ROBERT. 
+                
+            
+            
+                
+                    Ah ! ma petite Catherine, 
+            
+                    il n'y a pas de bijoutier dans le pays…
+            
+                    mais c'est égal, je veux que tu la portes à l'instant… v'là la mienne. 
+            
+                    (Il la détache de son habit. Je ne peux pas te faire un cadeau plus
+            
+                    précieux ! 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air : À soixante ans. 
+                </stage>
+            
+            
+                
+                    <l>Tiens, mon enfant, tiens, prends et sois–en fière,</l>
+                    <l>C'est à Wagram, au milieu du combat,</l>
+                    <l>Que l'empereur l'ôta de sa boutonnière</l>
+                    <l>Pour décorer le sein du vieux soldat.</l>
+            
+            
+                    
+                        CATHERINE. 
+                    
+            
+            
+                    <l>Ah ! comme nous, j'en soutiendrai l'éclat…</l>
+                    <l>Oui, quoique femme, ami, j'en serai digne…</l>
+                    <l>Et de l'amour, abjurant la douceur,</l>
+                    <l>La vivandière affermira son cœur…</l>
+                    <l>Car désormais, sous un si noble signe,</l>
+                    <l>Il ne doit plus battre que pour l'honneur.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            – 56
+            
+            SCÈNE XIV. 
+            
+            LES MÊMES, LE SERGENT, accourant. 
+            
+            LE SERGENT. 
+            
+            Mes amis, je vous apporte une nouvelle… le lieutenant Adrien…
+            
+            TOUS. 
+            
+            Adrien ! …
+            
+            Aurait – on découvert ? 
+            
+            CATHERINE, à
+            
+            part. 
+            
+            LE SERGENT. 
+            
+            Je viens de le voir partir dans une belle chaise de poste, avec le
+            
+            vieil émigré, et sa fille ! 
+            
+            CATHERINE
+            
+            Il est parti ! ah tant mieux ! 
+            
+            BONIFACE. 
+            
+            Taut mieux ! c'est – il possible, Catherine, je pourrais espérer…
+            
+            quoique vous ayez… (il indique la croix.) et que je n'aie pas…
+            
+            (Il
+            
+            indique sa barbe.)
+            
+            ROBERT. 
+            
+            Eh ! oui, petit, tâches seulement d'en gagner autant qu'elle, et
+            
+            je suis bien sûr qu'elle te dispensera du reste. 
+            
+            BONIFACE. 
+            
+            Au fait, c'est peut – être plus facile ! … 
+            
+            CATHERINE. 
+            
+            Nous verrons ça, après la campagne, mon garçon… En atten
+            
+            dant, ne pensons qu'à la bataille qui doit se donner demain. De
+            
+            puis quelque temps, nous avons eu bien de la misère, les finances
+            
+            ne vont pas… Soyons vainqueurs, et nous recueillerons aux dépens
+            
+            des Russes. 
+            
+            ROBERT. 
+            
+            Oui, nous serons vainqueurs ! … Hein ! ai – je bien fait d'enrôler
+            
+            cette petite femme – là… elle nous fait honneur, et quelque jour, 
+            
+            j'en suis sur, le nom de la vivandière rappellera la grande armée ! 
+            
+            <div type="poem"> <lg>
+            
+                
+                    CATHERINE. 
+                
+            
+            
+            
+                
+                    Oui, mes enfans. 
+                
+            
+            
+            
+                <stage type="tune" id="Air de la Vivandière." id2="Demain matin, au point du jour, on bat la générale.">AIR :</stage>
+            
+            
+            
+                
+                    <l>Oui, nos ennemis ont de l'or,</l>
+                    <l>Ils nous payeront à boire,</l>
+                    <l>Car pour nous doit briller encor</l>
+                    <l>Le jour de la victoire.</l>
+                    <l>J'en serai le réveil–matin,</l> <l ana="unanalyzable">Tin, tin, etc.</l>
+                    <l>J'en serai le réveil–matin,</l>
+                    <l>Soldats ! voilà Catin !</l>
+                
+            
+            
+                
+                    TOUS. 
+                
+            
+            
+                
+                    <l>Elle en s'ra le réveil–matin,</l>
+                    <l ana="unanalyzable">Tin, tin, etc.</l>
+                    <l>Elle en s'ra le réveil–matin,</l>
+                    <l>Soldats ! voilà Catin !</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+, 
+            (Pendant la reprise, le maréchal Ney et l'état – major reparaissent sur
+            
+            l'escalier et complèttent le tableau.)
+            
+            FIN. 
+            
+            1
+            
+            了
+            
+            Österrelchische Nationalbibliothek
+            
+            1
+            
+            +Z160880502
+        </body>
+    </text>
+</TEI>

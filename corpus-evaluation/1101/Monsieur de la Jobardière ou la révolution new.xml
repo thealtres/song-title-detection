@@ -1,0 +1,3111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">MONSIEUR DE LA JONBARDIÈRE, OU LA RÉVOLUTION IMPROMPTU</title>
+                <title type="sub">COMÉDIE EN UN ACTE MÊLÉE DE COUPLETS</title>
+                <author key="DUM" sort="1">
+                    <name>
+                        <forename>Théophile Marion</forename>
+                        <surname>Dumersan</surname>
+                    </name>
+                </author>
+                <author key="DPN" sort="2">
+                    <name>
+                        <forename>Jean-Henri</forename>
+                        <surname>Dupin</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="PL">
+                        <forename>Pascaline</forename>
+                        <surname>Loricourt</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">MONSIEUR DE LA JONBARDIÈRE, OU LA RÉVOLUTION IMPROMPTU</title>
+                        <author>DUMERSAN ET DUPIN</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=dDVMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102E898D</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-08-19">19 AOÛT 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES VARIÉTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.
+                </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                 <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui – ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NATIONALBIBLIOTHEK
+            
+            IN WIEN
+            
+            131474 – B
+            
+            ALT
+            
+            ร่
+            
+            2
+            
+            1
+            
+            1
+            
+            128
+            
+            X
+            
+            2
+            
+            MONSIEUR
+            
+            DE LA JOBARDIÈRE, 
+            
+            OU
+            
+            LA RÉVOLUTION IMPROMPTU, 
+            
+            COMÉDIE EN UN ACTE, MÊLÉE DE COUPLETS, 
+            
+            PAR MM. DUMERSAN ET DUPIN. 
+            
+            REPRÉSENTÉE POUR LA PREMIÈRE FOIS, A PARIS, SUR LE THÉATRE
+            
+            DES VARIÉTÉS, LE JEUDI 19 Aout 1830. 
+            
+            Prix : 
+            
+            1 fr. 50 C. 
+            
+            PARIS. 
+            
+            CHEZ J. – N. BARBA, 
+            
+            PALAIS – ROYAL, GRANDE COUR, CÔTÉ DÇ THÉATRE – FRANÇAIS. 
+            
+            1830. 
+            
+            131174 – B
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            Le marquis DE LA JOBARDIÈRE. 
+            
+            M. 
+            
+            CLÉMENT. 
+            
+            La marquise DE LA JOBARDIÈRE. 
+            
+            Mme. VAUTRIN. 
+            
+            AMÉLIE leur fille. 
+            
+            Mlle. MANTO. 
+            
+            EUGÈNE DE SURVILLE, étudiant en
+            
+            droit. 
+            
+            MM. SAINT – ANGE. 
+            
+            BOURGEOIS, médecin et capitaine de
+            
+            la garde nationale. 
+            
+            DESGRES, paveur. 
+            
+            ROBERT son fils, frotteur. 
+            
+            DAUDEL. 
+            
+            LEFÈVRE. 
+            
+            LHÉRIC. 
+            
+            JUSTINE, femme de chambre d'Amélie. Mme. HERFORT. 
+            
+            La scène est au Marais, à Paris. 
+            
+            3
+            
+            IMPRIMERIE DI 8. DUTERGER, 
+            
+            rue de Verwewil, w. 4. 
+            
+            : 
+            
+            MONSIEUR
+            
+            DE LA
+            
+            JOBARDIÈRE, 
+            
+            COMÉDIE EN UN ACTE. 
+            
+            Le théâtre représente un salon donnant sur un jardin. 
+            
+            SCENE I. 
+            
+            JUSTINE, AMELIE, arrivant l'une d'un côté, l'autre de l'autre (1) 
+            
+            (1) Les personnages sont en tête de chaque scène comme ils. 
+            
+            doivent être placés au théâtre
+            
+            AMÉLIE. 
+            
+            Ah ! ma pauvre Justine ! 
+            
+            JUSTINE. 
+            
+            Ah ! mademoiselle Amélie ! 
+            
+            AMÉLIE. 
+            
+            En as – tu des nouvelles ? 
+            
+            JUSTINE. 
+            
+            Mon dieu non ! 
+            
+            AMÉLIE. 
+            
+            Que je suis inquiète ! 
+            
+            JUSTINE. 
+            
+            Et moi, donc ! 
+            
+            AMÉLIE. 
+            
+            Trois jours sans entendre parler d'Eugène ! 
+            
+            JUSTINE. 
+            
+            Trois jours sans savoir ce qu'est devenu Robert ! 
+            
+            AMÉLIE. 
+            
+            Il se sera exposé, j'en suis sûre ! 
+            
+            JUSTINE. 
+            
+            Il se sera battu comme un diable. 
+            
+            AMÉLIE. 
+            
+            En me quittant, mardi dernier, il avait tant de chagrin. 
+            
+            du refus de mon père, qu'il me dit en partant : Je ne puis
+            
+            être heureux, je ne tiens plus à la vie ; mais au moins je la
+            
+            perdrai glorieusement. 
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    JUSTINE. 
+                
+            
+            
+                
+                    Et mon pauvre Robert, donc ! 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air : Le soir après pénible ouvrage. 
+                </stage>
+            
+            
+            
+                    <l>Je ne sais pas la politique,</l>
+                    <l>Mais Robert raisonne si bien</l>
+                    <l>Quand sur le journal il s'explique,</l>
+                    <l>Que son sentiment est le mien.</l>
+                    <l>Ah ! disait–il, dans l'ardeur qui me presse,</l>
+                    <l>Je dois combattre avec honneur</l>
+                    <l>Pour la liberté de la presse,</l>
+                    <l>Puisque mon frère est imprimeur.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            AMÉLIE. 
+            
+            Au milieu du mouvement extraordinaire qui a agité Pa
+            
+            ris, je ne conçois pas le sommeil de mon père et de ma
+            
+            mère. 
+            
+            JUSTINE. 
+            
+            Il est vrai qu'il est singulier ! … Un sommeil de soixante
+            
+            et douze heures. En vérité, j'aurais cru que monsieur et
+            
+            madame de la Jobardière, vos respectables parens, étaient
+            
+            morts, si je ne les avais entendus ronfler presque aussi fort
+            
+            que le canon. 
+            
+            AMÉLIE. 
+            
+            Heureusement que monsieur Bourgeois, notre médecin, 
+            
+            m'avait prévenue de ne pas avoir d'inquiétude. 
+            
+            JUSTINE. 
+            
+            Il leur aura joué un tour de son métier. C'est un bon
+            
+            garçon ; je l'aime, moi, monsieur Bourgeois ! Pour un mé
+            
+            decin, il est gai, bon vivant ! 
+            
+            AMÉLIE. 
+            
+            Il est fort aimable… Et puis, c'est l'intime ami d'Eugène…. 
+            
+            JUSTINE. 
+            
+            Il encourage vos ainours. 
+            
+            AMÉLIE. 
+            
+            Mais mon père est inflexible. C'est un homme qui n'a
+            
+            aucune idée nouvelle, qui rêve continuellement le retour
+            
+            de l'ancien ordre de choses, qui ne comprend pas que l'es
+            
+            prit humain puisse faire des progrès…
+            
+            JUSTINE. 
+            
+            Parce que le sien ne peut pas en faire. 
+            
+            AMÉLIE. 
+            
+            Il refuse de donner ma main à Eugène, parce qu'il est
+            
+            étudiant en droit…
+            
+            JUSTINE. 
+            
+            Et que votre père n'a jamais fait aucune étude. 
+            
+            AMÉLIE. 
+            
+            Cependant Eugène à servi ; il était lieutenant lorsqu'il a
+            
+            été obligé de quitter son régiment. 
+            
+            JUSTINE. 
+            
+            Je sais… à cause de son opinion. 
+            
+            AMÉLIE. 
+            
+            Elle était honorable. 
+            
+            JUSTINE. 
+            
+            Vous aimez monsieur Eugène comme j'aime Robert. 
+            
+            SCENE II. 
+            
+            JUSTINE, EUGÈNE, AMÉLIE. 
+            
+            AMÉLIE, voyant arriver Eugène. 
+            
+            Le voilà ! …
+            
+            JUSTINE, vivement, 
+            
+            Robert ? 
+            
+            AMÉLIE. 
+            
+            Eh non ! … Eugène ! …
+            
+            EUGÈNE. 
+            
+            Ma chère Amélie ! …
+            
+            AMÉLIE. 
+            
+            Que j'étais inquiète de vous ! 
+            
+            EUGÈNE, gaîment. 
+            
+            Bah ! … Je n'ai presque rien risqué ! … Quand on a tant
+            
+            de camarades, ça va tout seul. Et puis, on avait tant de
+            
+            bonne volonté ! … Ma parole d'honneur ! je n'ai jamais rien
+            
+            yu de pareil. 
+            
+            AMÉLIE. 
+            
+            Et ça ne se reverra pas de sitôt. 
+            
+            JUSTINE. 
+            
+            Et Robert ? …
+            
+            EUGÈNE. 
+            
+            Robert ? … Le frotteur ? …
+            
+            JUSTINE. 
+            
+            Oui… Qui vient ici deux fois par semaine. 
+            
+            EUGÈNE. 
+            
+            Il ne m'a pas quitté, et je te réponds qu'il s'est bien con
+            
+            duit. 
+            
+            JUSTINE. 
+            
+            Et il est bien portant ? …
+            
+            EUGÈNE. 
+            
+            Comme la dernière fois que vous l'avez vu. 
+            
+            JUSTINE. 
+            
+            Me voilà tout – à fait rassurée. 
+            
+            AMÉLIE, à Eugène, avec inquiétude et sentiment. 
+            
+            Eugène, est – ce fini ?'
+            
+            EUGÈNE. 
+            
+            A peu près ! … On ne sait pas encore positivement à qui
+            
+            sera confié le poste glorieux qui reste vacant, mais on parle
+            
+            déjà de quelqu'un qui remplirait parfaitement la place ! 
+            
+            AMÉLIE. 
+            
+            Qui donc ? …
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    EUGÈNE. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Traitant l'amour sans pitié. 
+                </stage>
+            
+            
+            
+            
+                    <l>C'est quelqu'un d'un très grand nom,</l>
+                    <l>Qui, malgré son opulence,</l>
+                    <l>Parmi nous sans défiance,</l>
+                    <l>Vivait sans ambition.</l>
+                    <l>Il possède une famille</l>
+                    <l>Nombreuse et vraiment gentille ;</l>
+                    <l>Par ses qualités il brille,</l>
+                    <l>On peut le vanter tout haut.</l>
+                    <l>De notre sang économe,</l>
+                    <l>Enfin c'est un honnête homme.</l>
+            
+            
+                    
+                        JUSTINE
+                    
+            
+                    
+, vivement. 
+                    
+            
+            
+                    <l>Ah ! c'est l'homme qu'il nous faut.</l>
+            
+            
+                    
+                        TOUS. 
+                    
+            
+                    <l>Oui, c'est l'homme qu'il nous faut.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            EUGÈNE. 
+            
+            Qui, ma chère Amélie, l'avenir le plus beau se prépare
+            
+            pour la France, et la liberté la plus douce va régner sur
+            
+            nous. 
+            
+            AMÉLIE. 
+            
+            Eugène ! croyez que je partage votre enthousiasme ! 
+            
+            JUSTINE. 
+            
+            Et moi donol. in oh la liberté ! 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    AMÉLIE. 
+                
+            
+            
+                <stage type="tune">
+                    Air de Louise. 
+                </stage>
+            
+            
+               
+                    <l>La France est aussi ma patrie,</l>
+                    <l>Ses succès font battre mon cœur ;</l>
+                    <l>Mais pour rendre heureuse ma vie,</l>
+                    <l>Le ciel me doit une faveur.</l>
+                    <l>Par un regard, par un sourire,</l>
+                    <l>J'ai la liberté de charmer,</l>
+                    <l>Et maintenant moi je désire</l>
+                    <l>La liberté de vous aimer.</l>
+                
+            
+                
+                    EUGÈNE. 
+                
+            
+            
+                             Même air. 
+            
+            
+                    <l>Sans frayeur je livre mon ame</l>
+                    <l>À l'espoir qui vient me ravir ;</l>
+                    <l>Rien ne peut éteindre ma flamme,</l>
+                    <l>Je suis libre de vous chérir.</l>
+                    <l>L'amour auquel je m'abandonne</l>
+                    <l>Pour vous me ferait tout braver :</l>
+                    <l>Mais j'attends que l'hymen me donne</l>
+                    <l>La liberté de le prouver.</l>
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            JUSTINE, qui a été écouter à la porte de M. de la Jobardière et
+            
+            à celle de madame de la Jobardière. 
+            
+            M. et madame de la Jobardière sont réveillés chacun de
+            
+            leur côté ! … 
+            
+            EUGÈNE, vivement à Amélie. 
+            
+            Votre père m'a défendu de me présenter devant lui…
+            
+            évitons de le mettre en colère… Mais aujourd'hui que tout
+            
+            est changé, il aura peut – être d'autres idées. 
+            
+            JUSTINE, vivement. 
+            
+            Vous vous direz tout cela autre part qu'ici… Ne trou
+            
+            blons pas le plaisir de leur réveil ! 
+            
+            (Ils sortent en silence par le fond, M. et madame de la Jobar
+            
+            dière ouvrent chacun leur porte.)
+            
+            SCENE III. 
+            
+            M. DE LA JOBARDIÈRE, arrivant de droite, ET MADAME
+            
+            DE LA JOBARDIÈRE, de gauche, l'un en robe de cham
+            
+            bre, l'autre en pet en l'air. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Il me semble que j'ai dormi bien long – temps. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Je crois que je me lève un peu tard. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Ah ! voici ma femme. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Ah ! voilà mon mari. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Je vous trouve, madame de la Jobardière, 
+            
+            « Dans le simple appareil
+            
+            « D'une beauté qu'on vient d'arracher au sommeil. » 
+            
+            MADAME DE LA JOBARDIÈRe. 
+            
+            Vous vous présentez à moi, M. de la Jobardière, dans
+            
+            un négligé galant qui sent son homme de cour. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Comment avez – vous passé la nuit, mignonne ? 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            J'ai été fort agitée. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Quelle sympathie ! Quoique séparé de vous, comme le
+            
+            bel usage l'exige, je n'ai fait que remuer toute la nuit dans
+            
+            mon lit. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            J'ai fait des rêves singuliers. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Moi aussi : vous vous rappelez que nous avions lu en
+            
+            semble les fameuses ordonnances. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Oui, nous nous sommes endormis dessus. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    M. DE LA JOBARDÈIRE. 
+                
+            
+            
+                
+                    Eh bien ! 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air : J'ai rêvé toute la nuit. 
+                </stage>
+            
+            
+         
+                    <l>J'ai rêvé qu'à ce décret</l>
+                    <l>Le peuple se soumettait ;</l>
+                    <l>Que tout se rajeunissait :</l>
+                    <l>Ton maintien coquet,</l>
+                    <l>Ton joli corset…</l>
+                    <l>Que j'avais tout retrouvé.</l>
+            
+                    
+                        MADAME DE LA JOBARDIÈRE. 
+                    
+            
+                    <l>Ah ! vous avez bien rêvé.</l>
+                
+         
+            
+            
+                
+                    Quant à moi, 
+                
+            
+            
+                <l>J'ai rêvé d'élections</l>
+                <l>Et de destitutions.</l>
+                <l>De la Charte l'on se moquait,</l>
+                <l>On vous faisait préfet.</l>
+                <l>Ce rêve m'enchantait :</l>
+                <l>Deux baisers l'ont achevé.</l>
+            
+            
+                
+                    M. DE LA JOBARDIÈRE. 
+                
+            
+                <l>Ah ! vous avez bien rêvé.</l>
+               
+            
+            </lg> </div>
+            
+            
+            
+            MADAME DE LA JOBARDIÈRR. 
+            
+            Ah ! çà, mon ami, vous m'avez promis de me dire les rai. 
+            
+            sons pour lesquelles le jeune Eugène de Surville ne con
+            
+            vient pas à notre Amélie ? 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Vous savez, comme moi, qu'Eugène de Surville est un
+            
+            cadet de famille qui n'aura nulle fortune, attendu que
+            
+            l'on va représenter incessamment la loi sur le droit d'aînesse, 
+            
+            et que cette fois – ci elle passera à l'unanimité. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            C'est juste. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Je veux un gendre militaire. Je ne donnerai pas ma fille
+            
+            à moins qu'à un capitaine. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Il faut soutenir l'honneur de notre maison. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Surtout dans un moment où tout va redevenir comme
+            
+            autrefois ! 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Où les anciennes institutions vont refleurir. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Où les droits féodaux vont reprendre vigueur… Voyons
+            
+            donc ce que disent aujourd'hui mes journaux. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Les voilà sur cette table. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Qu'est – ce que c'est que celà ! l'Indépendant, le Patriote ! 
+            
+            la Révolution ! … Est – ce que je rêve encore ? 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Aurions – nous rétrogradé, et serions – nous retournés à
+            
+            mil – sept – cent – quatre – vingt – dix. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            En vous regardant je ne le pense pas. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Et quel désordre ici ! Cet appartement n'est pas fait. Ho
+            
+            là ! quelqu'un ! Saint – Jean…
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Julien, Lafleur ! Où sont donc ces marauds ? 
+            
+            (Il sonne.)
+            
+            SCÈNE IV. 
+            
+            LES MÊMES, JUSTINE. 
+            
+            JUSTINE. 
+            
+            Ah ! 
+            
+            c'est monsieur et madame ; vous voilà donc ré
+            
+            veillés ! 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Est – ce que nous avons dormi long – temps ? 
+            
+            JUSTINE. 
+            
+            Oh ! sûrement. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Il ne s'agit pas de cela : où sont mes gens ? 
+            
+            JUSTINE. 
+            
+            Madame, ils sont tous sortis : Saint – Jean est allé à la
+            
+            Chambre des Députés. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Qu'est – ce que vous dites ? La Chambre est dissoute. 
+            
+            JUSTINE. 
+            
+            Julien n'est pas encore revenu de Rambouillet. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Quel diable de galimatias ! Et ce parquet, 
+            
+            il a l'air de
+            
+            ne pas avoir été frotté de trois jours. 
+            
+            JUSTINE. 
+            
+            C'est que c'est vrai, monsieur ; Robert a eu bien autre
+            
+            chose à faire ! 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Où est – il, ce, petit drôle de Robert ? 
+            
+            SCENE V. 
+            
+            MADAME DE LA JOBARDIÈRE, M. DE LA JOBAR
+            
+            DIÈRE, ROBERT, avec un bonnet de grenadier, et deux
+            
+            pistolets à sa ceinture attachés avec un mouchoir, JUSTINE. 
+            
+            ROBERT. 
+            
+            Qui est – ce qui parle de moi ? me voilà. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Ahl mon dieu ! qu'est – ce que c'est que cela ? 
+            
+            JUSTINE. 
+            
+            C'est Robert. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            C'est donc Robert, chef de brigands. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    ROBERT. 
+                
+            
+            
+                
+                    Non pas, monsieur de la Jobardière ; on a fait son de
+            
+                    voir bravement ; mais il n'y a eu ni vol, ni pillage. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air du comte Ory. 
+                </stage>
+            
+            
+        
+                    <l>Pendant c'te lutt' meurtrière</l>
+                    <l>C'est qu'nous n'étions pas absens,</l>
+                    <l>Et sur la classe ouvrière</l>
+                    <l>N'faut plus qu'on fass' de cancans.</l>
+                    <l>Si pour l'or qu'on y dépense</l>
+                    <l>L' quartier d'Antin est cité,</l>
+                    <l>L' faubourg Saint–Marceau, je pense,</l>
+                    <l>Le s'ra pour sa probité.</l>
+                    <l>Dans c'te noble entreprise,</l>
+                    <l>Telle était notr' devise :</l>
+                    <l>J' tap' partout, je n' prends rien,</l>
+                    <l>Je suis faubourien.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            D'où venez – vous, ainsi fait ? 
+            
+            ROBERT. 
+            
+            De me battre. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            De te battre ! Un petit poltron qui avait
+            
+            peur des revenans, de son ombre, de…
+            
+            ROBERT. 
+            
+            Oui, c'est vrai ; mais il y a des occasions où l'on n'a peur
+            
+            de rien, et ces deux pistolets – là ont fait feu, je vous en ré
+            
+            ponds. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Est – ce qu'ils sont chargés ? Otez cela d'ici ; j'ai peur des
+            
+            armes à feu. 
+            
+            ROBERT. 
+            
+            Ah ! pardon, madame, je n'y pensais pas ; je vais les
+            
+            décharger, 
+            
+            (Il les tire par la fenêtre.)
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Ah ! mon dieu, au secours ! je suis morte. 
+            
+            (Elle s'évanouit et tombe dans les bras de M. de la Jobardière.)
+            
+            M, DE LA JOBARDIÈRE. 
+            
+            Des sels ! …, frottez – lui les tempes, frappez – lui dans les
+            
+            mains ! … Petit malheureux, tu me réponds de ses jours ! 
+            
+            ROBERT. 
+            
+            Excusez, monsieur de la Jobardière, c'est que quand on
+            
+            est en train…
+            
+            M. DE LA JOBARDIÈRE, 
+            
+            Tu as bu. 
+            
+            ROBERT. 
+            
+            Rien que de l'abondance pendant trois jours. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Mais d'où viens – tu encore une fois ? 
+            
+            ROBERT. 
+            
+            D'avec les autres. Dieu ! je suis – t'y content de m'être mis
+            
+            avec le peuple ! C'est que le peuple a été admirable ! 
+            
+            M. DE LA JOBARDIÈRB. 
+            
+            Qui est – ce qui dit ça ? 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    ROBERT. 
+                
+            
+            
+                
+                    Tout le monde ! Vous ne savez donc pas ce qui s'est
+            
+                    passé ? Je vais vous le conter. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR d'Azémia. 
+                </stage>
+            
+            
+            
+                    <l>Un peuple qu'on rendait esclave.</l>
+                    <l>Avec honneur s'est révolté ;</l>
+                    <l>Il a montré qu'il était brave</l>
+                    <l>Quand il s'agissait d' liberté.</l>
+                    <l>Pour peu comptant sa vie,</l>
+                    <l>Et pour tout la patrie,</l>
+                    <l>On a dit nous mourrons,</l>
+                    <l>Ou nous vaincrons.</l>
+                    <l>Chacun de nous marche à la gloire</l>
+                    <l>Avec de jeunes généraux ;</l>
+                    <l>Et soldats nouveaux,</l>
+                    <l>Gaiment nous courons</l>
+                    <l>Malgré les canons</l>
+                
+                13
+                
+                    <l>On voit dans nos rangs</l>
+                    <l>Des femm's, des enfans ;</l>
+                    <l>Quelques vieux soldats</l>
+                    <l>Nous prêtent leurs bras,</l>
+                    <l>Nous enfonçons hommes, chevaux…</l>
+                
+            
+            
+            
+            
+            
+            
+            
+            Le feu continue : celui qui tombe est remplacé par un
+            
+            autre ; l'indignation double le courage : on enfonce un
+            
+            poste, on repousse un régiment ; les barricades servent
+            
+            de redoute, les maisons de forteresses. Bientôt tout est
+            
+            chassé, vaincu, le peuple est maître de Paris. On s'écrie
+            
+            alors : 
+            
+            
+            <l>Victoire ! victoire !</l> 
+            <l>Et l'on r'prend ses travaux</l>
+                    </lg>
+            </div>
+            et je viens frotter votre appartement. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Comment, tu t'es battu ? 
+            
+            ROBERT. 
+            
+            Il le fallait bien. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Contre des troupes réglées ? 
+            
+            ROBERT. 
+            
+            Qui, M. de la Jobardière. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Et vous avez été vainqueurs ? 
+            
+            ROBERT. 
+            
+            Comme j'ai l'honneur de vous le dire. 
+            
+            M. de LA JOBARDIÈRE. 
+            
+            Mais vous n'aviez point de tactique. 
+            
+            ROBERT. 
+            
+            Nous avions du courage. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Point de discipline. 
+            
+            ROBERT. 
+            
+            Nous avions le bon droit. 
+            
+            M. DE LA JABARDIÈRE. 
+            
+            Point d'uniformes. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ROBERT. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air du vaudeville de l'Anonyme. 
+                </stage>
+            
+            
+           
+                    <l>Est–ce l'habit qui fait le militaire ?</l>
+                    <l>À la parade, on sait bien que ça sert :</l>
+                    <l>Mais l'uniforme était peu nécessaire,</l>
+                    <l>Et nos poitrin's étaient à découvert.</l>
+                14
+                
+                    <l>Les Parisiens savaient bien se r'connaître,</l>
+                    <l>Sur l' front d' chacun on lisait son honneur,</l>
+                    <l>Et l'ouvrier a su faire paraître</l>
+                    <l>Que sous un' veste on peut avoir du cœur.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Je n'en reviens pas : … que des hommes du peuple…
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ROBERT. 
+                
+            
+            
+                
+                    Arrêtez, M. de la Jobardière, 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air de Julie. 
+                </stage>
+            
+            
+            
+                    <l>Croyez–vous me dire une injure,</l>
+                    <l>Moi j' la prends pour un compliment.</l>
+                    <l>Je ne chang'rais pas, je vous jure,</l>
+                    <l>Ma position en ce moment.</l>
+                    <l>J' vois ben quelle idée est la vôtre ;</l>
+                    <l>Mais j' vous l' dis malgré vot' grand air,</l>
+                    <l>D'être homm' du peuple on peut êtr' fier</l>
+                    <l>Chez un peuple comme le nôtre.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Je rêve encore, je ne suis pas bien réveillé… Ma tête
+            
+            n'est pas dans son assiette ordinaire. Justine, allez bien vite
+            
+            me chercher mon médecin. 
+            
+            JUSTINE. 
+            
+            Votre médecin, monsieur ? tenez, je l'entends lui – mème. 
+            
+            SCENE VI. 
+            
+            MADAME DE LA JOBARDIÈRE, M. DE LA JOBARDIÈRE, M. BOURGEOIS, en capitaine de la Garde natio
+            
+            nale, JUSTINE, ROBERT. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Arrivez, M. le docteur ; 
+            
+            j'ai besoin d'une ordonnance. 
+            
+            BOURGEOIS. 
+            
+            Ne parlons pas d'ordonnances dans ce moment – ci. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Que vois – je ! 
+            
+            BOURGEOIS. 
+            
+            Comment, M. de la Jobardière, vous ne me reconnais
+            
+            sez pas ? 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Qu'est – ce que cela signifie ? Est – ce que vous n'êtes plus
+            
+            médecin ? 
+            
+            BOURGEOIS. 
+            
+            Si fait ; mais je cumule : je suis capitaine de la garde
+            
+            nationale, et je reviens du combat. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Je n'en reviens pas… Vous, militaire ! 
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    BOURGEOIS. 
+                
+            
+            
+                <stage type="tune">
+                    Air : Il n'est pas temps de nous quitter. 
+                </stage>
+            
+            
+            
+                    <l>Oui, mon ami, je suis soldat</l>
+                    <l>Le jour où je puis être utile ;</l>
+                    <l>Et le lendemain du combat</l>
+                    <l>Je suis citoyen de la ville.</l>
+                    <l>Connaissez notre régiment,</l>
+                    <l>L'ordre est son seul cri de victoire,</l>
+                    <l>L'honneur est notre engagement</l>
+                    <l>Et notre solde un peu de gloire.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Mais, mon cher docteur, la garde nationale a été suppri
+            
+            mée par l'ordonnance de 1827. 
+            
+            BOURGEOIS. 
+            
+            Elle s'est réorganisée d'elle – même, le 28 juillet 1830. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            D'elle – même ? 
+            
+            ROBERT. 
+            
+            Pour se joindre au peuple. 
+            
+            MADAME DE LA JOBAR DIÈRE. 
+            
+            Mon ami, voilà qui passe l'imagination. 
+            
+            BOURGEOIS. 
+            
+            Vous en verr ez bien d'autres ! 
+            
+            SCENE VII. 
+            
+            les mêmes, AMÉLIE, avec une ceinture tricolore. 
+            
+            
+            AMÉLIE, entre M. et madame de la Jobardière
+            
+            Mon père, je viens vous souhaiter le bonjour (elle l'em
+            
+            brasse) . Ma mère…
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Que vois – je ! ma fille avec une ceinture tricolore ! 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Je vais de surprise en surprise. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Malheureuse enfant, tu portes ces couleurs proscrites ! 
+            
+            Tu vas faire mettre ton père à Vincennes. 
+            
+            AMÉLIE. 
+            
+            Ne craignez rien, mon père, tout le monde les a reprises. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    M. DE LA JOBARDIÈRE. 
+                
+            
+            
+                <stage type="tune">
+                    Air de la petite Gouvernante. 
+                </stage>
+            
+            
+                         
+                    <l>Se pourrait–il, France trop insensée !</l>
+                    <l>Je vais revoir la révolution.</l>
+            
+                    
+                        BOURGEOIS. 
+                    
+            
+                    <l>Ne craignez rien, une seule pensée</l>
+                    <l>Guide aujourd'hui toute la nation.</l>
+                    <l>Au même but je la vois ramenée.</l>
+                    <l>Tous sont unis, et ce n'est pas par peur</l>
+                    <l>Que l'on a pu voir dans cette journée</l>
+                    <l>Beaucoup de gens qui changeaient de couleur.</l>
+            
+            </lg> </div>
+            
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Pouvez – vous m'expliquer…
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    BOURGEOIS. 
+                
+            
+            
+                
+                    L'emblème que présentent ces couleurs ? oui, monsieur… 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : J'en guette un petit de mon âge. 
+                </stage>
+            
+            
+           
+                    <l>Dans cette union tutélaire</l>
+                    <l>Voyez un gage de succès.</l>
+                    <l>Le rouge a l'éclat de la guerre ;</l>
+                    <l>Il guide au combat les Français.</l>
+                    <l>Le blanc retrace l'innocence ;</l>
+                    <l>Le bleu, symbole d'un ciel pur,</l>
+                    <l>Nous annonce par son azur</l>
+                    <l>Qu'il n'est plus d'orages en France.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Voilà des changemens auxquels je ne puis croire ! 
+            
+            BOURGEOIS. 
+            
+            Écoutez – moi, M. de la Jobardière ; il faut vous avouer
+            
+            le fait : il y a eu en France une immense révolution : mais
+            
+            pendant qu'elle s'est opérée, vous avez dormi. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            J'ai dormi ! 
+            
+            BOURGEOIS. 
+            
+            Connaissant votre caractère, vos principes ; voyant votre
+            
+            joie inconsidérée quand les ordonnances ont paru, j'ai
+            
+            tremblé pour vous, j'ai voulu vous sauver ; et, profitant
+            
+            des connaissances de mon art, je vous ai préparé un breu
+            
+            vage soporifique, que vous avez partagé avec madame de
+            
+            la Jobardière. 
+            
+            M. DE LA JOBARDIÈRE, 
+            
+            Alors, je suis un nouvel Épiménide, et j'ai dormi au. 
+            
+            moins cent ans ! 
+            
+            BOURGEOIS. 
+            
+            Moins que cela. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Un demi – siècle ? 
+            
+            BOURGEOIS. 
+            
+            Pas du tout. 
+            
+            M. DE LA JOBARDIÈRE
+            
+            Pour voir tant de changemens incompréhensibles, un
+            
+            bouleverseinent si complet, il a fallu dix ans ! 
+            
+            BOURGEOIS. 
+            
+            Non. 
+            
+            Cinq ans ? 
+            
+            Non. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            BOURGEOIS. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Alors, monsieur, ce sont au moins les cent jours ! 
+            
+            BOURGEOIS. 
+            
+            Non, monsieur, ce sont les trois jours ! 
+            
+            M. ET MADAME DE LA JOBARDIÈRE. 
+            
+            Trois jours ! 
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    BOURGEOIS. 
+                
+            
+            
+                
+                    Ce temps a suffi pour tout renverser et tout relever. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air du vaudeville de Jadis et Aujourd'hui. 
+                </stage>
+            
+            
+              
+                    <l>Venger la plus belle des causes</l>
+                    <l>Combattre, vaincre à l'impromptu,</l>
+                    <l>Si peu de temps et tant de choses,</l>
+                    <l>Cela ne s'était jamais vu.</l>
+                
+            
+                
+                    ROBERT. 
+                
+            
+                
+                    <l>Tout détruire et r'construir' si vite,</l>
+                    <l>Pour un' pareille opération,</l>
+                    <l>J'espèr' que le peuple mérite</l>
+                    <l>Un fier brevet d'invention.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Mon ami, je veux aller par la ville voir tout cela moi
+            
+            même, et je vous en rendrai compte. Que l'on mette mes
+            chevaux. 
+            
+            ROBERT. 
+            
+            Madame, votre voiture ne pourra guère marcher dans
+            
+            Paris, à cause des barricades. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Comment, je suis barricadée ! Eh bien ! j'irai à pied. Je
+            
+            passerai chez mon cousin le vicomte de Beauvallon : il me
+            
+            donnera des nouvelles certaines ; c'est un homme qui pense
+            
+            très bien. 
+            
+            BOURGEOIS. 
+            
+            Il est en faction dans ce moment au poste que je commande. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            En faction, un vicomte ! 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Et commandé par un simple bourgeois ! 
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    BOURGEOIS. 
+                
+            
+            
+                <stage type="tune">
+                    Air du Verre. 
+                </stage>
+            
+            
+              
+                    <l>Madame, c'est l'ordre du jour :</l>
+                    <l>Dans la garde nationale</l>
+                    <l>Nous sommes élus tour à tour</l>
+                    <l>Et sans intrigue et sans cabale.</l>
+                
+            
+                
+                    ROBERT. 
+                
+            
+              
+                    <l>C' n'est pas comme ailleurs ben souvent :</l>
+                    <l>Et dans cette troupe d'élite</l>
+                    <l>On ne met jamais en avant</l>
+                    <l>Que le talent et le mérite.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            MADANE DE LA JOBARDIÈRE. 
+            
+            Puisqu'il faut aller à pied, M. le capitaine, vous m'of
+            
+            frirez votre bras ; je vais faire ma toilette et aller avec vous
+            
+            (soupirant.) au corps de garde. (Elle sort.)
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Ma femme au corps de garde ! …
+            
+            BOURGEOIs, à M. de la Jobardière. 
+            
+            Soyez tranquille, monsieur, il ne lui arrivera rien. Tout
+            
+            est déjà dans l'ordre le plus parfait. 
+            
+            ROBERT. 
+            
+            Et ça marchera de mieux en mieux. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    BOURGEOIS. 
+                
+            
+                
+                    Oui, mes amis. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air des jolis Soldats. 
+                </stage>
+            
+            
+              
+            
+                    <l>Ah ! comm' ça va ! <stage type="repetition"> (ter.)</stage></l>
+                    <l>Ayons espérance</l>
+                
+                19
+                
+                    <l>Et confiance.</l>
+                    <l>Ah ! comm' ça va ! <stage type="repetition"> (ter.)</stage></l>
+                    <l>Partout le bon ordre renaîtra.</l>
+                    <l>On écrira comme l'on pense.</l>
+            
+                    
+                        ROBERT. 
+                    
+            
+                    <l>On pensera comme on voudra.</l>
+            
+            
+                    
+                        JUSTINE. 
+                    
+            
+                    <l>On verra naître l'abondance.</l>
+            
+            
+                    
+                        AMÉLIE. 
+                    
+            
+                    <l>Le commerce fleurira.</l>
+            
+            
+                    
+                        ROBERT. 
+                    
+            
+                    <l>On sera libre sans licence.</l>
+            
+            
+                    
+                        BOURGEOIS. 
+                    
+            
+                    <l>On choisira son député :</l>
+                    <l>Plus jamais d'étrangers en France…</l>
+            
+                    
+                        ROBERT. 
+                    
+            
+                    <l>La Charte est un' vérité.</l>
+                
+            
+            
+                
+                    TOUS
+                
+            
+             <l ana="unanalyzable">Ah ! comm' ça va ! etc.</l>
+            
+            </lg> </div>
+            
+            
+            
+            SCENE VIII. 
+            
+            M. DE LA JOBARDIÈRE, seul. 
+            
+            Il faut que je m'habille aussi, et que j'aille savoir par
+            
+            moi – même ce qui se passe dans la capitale. Holà, quel
+            
+            qu'un ! … Saint – Jean… (Saint – Jean paraît avec un sabre de
+            
+            cavalerie d son côté.) mon valet avec des armes ! voulez – vous
+            
+            quitter ce grand vilain sabre ! 
+            
+            SAINT – JEAN. 
+            
+            Je ne quitte pas mes armes. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Allons, passez – moi mon habit… (Il parle tout seul en
+            
+            s'habillant.) il est impossible qu'un ramas de factieux, 
+            
+            qu'une poignée de séditieux ait fait trembler le noble fau
+            
+            bourg, moi qui les ai vus tous il y a trois jours… J'ai
+            
+            passé la soirée avec une Excellence ; tout en jouant à l'é
+            
+            carté, je lui développais ma politique, il ne me répondait
+            
+            que Goddem… (à Saint – Jean.) fais – moi passer la manche…
+            
+            Nous nous entendions bien, et je ne conçois pas qu'ils. 
+            
+            aient pu perdre la partie. Ah si je n'avais pas dormi ! 
+            
+            SCENE IX. 
+            
+            M. DE LA JOBARDIÈRE, DESGRÈS. 
+            
+            DESGRÈS, chantant en dehors. 
+            
+            <div type="poem">
+                
+                <stage type="tune" id="AIR : Honneur au vainqueur !"></stage>
+                <lg>
+           <l>Honneur au vainqueur !</l>          
+           <l>Honneur au paveur !</l> </lg></div>
+            
+            (Il ouvre la porte.)
+            
+            Libertė, libertas… ouyre ta porte ou je la casse…
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Quel est ce manant ? 
+            
+            DESGRÈS. 
+            
+            Pardon, excuse, notre bourgeois ; c'est que je ne suis
+            
+            pas venu ici depuis la dernière fois, et que j'ai oublié
+            
+            quelque chose : c'est ma demoiselle que j'ai laissée dans
+            
+            un coin de vot' cour, et j'en suis bien inquiet. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            N'ayez aucune peur pour votre demoiselle, si elle est
+            
+            chez moi elle est en sûreté. 
+            
+            DESGRÈS. 
+            
+            C'est que j'ai peur que quelqu'un ne s'en soit emparé…
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Pourquoi la laissez – vous seule courir les rues ? 
+            
+            DESGRÈS. 
+            
+            Elle y est habituée. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Il fallait emmener votre demoiselle avec vous. 
+            
+            DESGRÈS. 
+            
+            C'est bientôt dit… mais le poids… elle n'est pas légère…
+            
+            Vous n'en trouveriez pas une aussi lourde dans tout Paris ! 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Il paraît que c'est une demoiselle dans le genre de ma
+            
+            femme ! 
+            
+            DESGRÈS. 
+            
+            C'est égal… si on me l'a prise pour servir la patrie, un
+            
+            confrère m'en prêtera une, vu qu'à présent il faut rétablir
+            
+            la circulation, ça va faire de l'ouvrage. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Ah ! çà, mon cher ! quelle espèce d'homme êtes – vous donc ? 
+            
+            DESGRÈS. 
+            
+            Vous ne me reconnaissez donc pas… Desgrès… c'est moi
+            
+            qui suis votre paveur, et qui ai déparé toute votre cour…
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Dépavé ma cour ! vous avez bien travaillé. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    DESGRÈS. 
+                
+            
+            
+                
+                    N'est – ce pas que nous avons bien travaillé ? mais ce n'est
+            
+                    pas tout : 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Puisque tout le monde s'en mêle. 
+                </stage>
+            
+            
+           
+                    <l>Pour la défense de Paris</l>
+                    <l>Les tonneaux servaient de barricades ;</l>
+                    <l>Des arbr' on f'sait des abattis</l>
+                    <l>Pour abriter les fusillades,</l>
+                    <l>Tout ça me semblait prudent,</l>
+                    <l>Mais ce que j' trouve étonnant,</l>
+                    <l>C'est que soient précisément</l>
+                    <l>Les amis des lumières</l>
+                    <l>Qu'aient cassé tous les réverbères.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Vous me direz peut – être, monsieur, ce que vous venez
+            
+            faire chez moi. 
+            
+            DESGRÈS. 
+            
+            J'viens savoir des nouvelles de mon garçon. 
+            
+            M. DE LA JOBARDIÈRE, 
+            
+            Et tout à l'heure c'était votre demoiselle ! 
+            
+            DESGRÈS. 
+            
+            C'est l'un et l'autre. Mon fils c'est Robert. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Cet énergumène ! 
+            
+            DESGRÈS. 
+            
+            Il est point énergumène, 
+            
+            il est frotteur, lui z'et moi
+            
+            nous avons sauvé la République. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Vous voulez dire le royaume. 
+            
+            DESGRÈS. 
+            
+            La République, j'y tiens, M. de la Jobardière… vous êtes
+            
+            riche, je n'ai pas le sou ; vous n'avez pas beaucoup d'es
+            
+            prit, je n'en ai pas du tout, mais nous sommes égaux…
+            
+            égalité, égalitas, tont l'monde peut arriver aux places ; 
+            
+            nous ne voulons plus de gérontocratie. 
+            
+            M. DE LA JOBAR DIÈRE. 
+            
+            Qu'est – ce que vous voulez dire par ce mot – là ? 
+            
+            DESGRÈS. 
+            
+            Je n'en sais rien, je l'ai lu dans le journal, et ils disent
+            
+            que les prolétaires…
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            C'est vous qui êtes un prolétaire. 
+            
+            DESCRÈS. 
+            
+            Je n'en sais rien, tout ce que je sais c'est que je me
+            
+            battais pour la justice ; pourquoi qu'ils ont cassé la loi ! 
+            
+            SCENE X. 
+            
+            DESGRÈS, EUGÈNE, M. DE LA JOBARDIÈRE, 
+            
+            AMÉLIÉ, JUSTINE. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Il faut que je fasse jeter ce malotru par les fenêtres. Ju
+            
+            lien, Lafleur ! Ah ! voilà ma fille, elle n'est pas seule ! com
+            
+            ment, M. Eugène, vous osez vous représenter devant moi. 
+            
+            EUGÈNE. 
+            
+            Qu'ai – je fait, monsieur, pour mériter votre colère ? 
+            
+            N. DE LA JOBARDIÈRE. 
+            
+            Monsieur, je n'ai point de colère, mais j'ai des principes. 
+            
+            DESGRÈS. 
+            
+            Est – ce que c'est l'amoureux de votre fille, dites donc ? 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Laissez – moi tranquille, vous. 
+            
+            AMÉLIE. 
+            
+            Mon père ! 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Taisez – vous. 
+            
+            EUGÈNE
+            
+            Monsieur ! 
+            
+            M. DE LA JOBARDIERE. 
+            
+            Silence. 
+            
+            DESGRÈs. 
+            
+            Mais s'ils s'aiment, ces enfans. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Paix. 
+            
+            JUSTINE. 
+            
+            Mais enfin, monsieur…
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Au diable. 
+            
+            EUGÈNE. 
+            
+            Vous ne me permettez même pas de m'expliquer. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            C'est inutile ; depuis trois cents ans mes aïeux ont porté
+            
+            l'épée, et jamais un étudiant en droit n'entrera dans ma
+            
+            famille. Voilà mon ultimatum. 
+            
+            DESGRÈS. 
+            
+            Volonté, volontas ! le papa est – il cocasse ! 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            C'est en faisant craindre son pouvoir qu'on le fait res
+            
+            pecter. Je suis roi dans ma famille. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    EUGÈNE. 
+                
+            
+            
+                
+                    Ah, monsieur ! 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Romance de Ketly. 
+                </stage>
+            
+            
+            
+                    <l>Est–ce avec la sévérité</l>
+                    <l>Que l'on obtient l'obéissance ?</l>
+                    <l>Par l'abus de l'autorité</l>
+                    <l>On provoque la résistance.</l>
+                    <l>Lorsque l'on propose une loi,</l>
+                    <l>La faire aimer est nécessaire.</l>
+                    <l>Si l'on dit qu'un père est un roi,</l>
+                    <l>C'est qu'un roi doit être un bon père.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            DESGRÈS. 
+            
+            C'est tapé, ça, bravo ! 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Monsieur, je vous l'ai dit et je vous le redis, les de la
+            
+            Jobardière ne s'uniront jamais qu'à de la noblesse d'épée. 
+            
+            EUGÈNE. 
+            
+            En ce cas, monsieur, je me retire. 
+            
+            (Il sort.)
+            
+            DESGRÈS. 
+            
+            Allons, vous êtes un absolutif ! …
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Et vous, Justine, conduisez ma fille chez madame Tar
+            
+            tufi, la maîtresse de pension qui loge au bout de mon jar
+            
+            din. Elle y restera jusqu'à nouvel ordre ! 
+            
+            (Elles sortent.)
+            
+            SCENE XI. 
+            
+            DESGRÈS, ROBERT, M. DE LA JOBARDIÈRE. 
+            
+            DESGRÈS. 
+            
+            Tiens, v'là mon gamin. 
+            
+            ROBERT. 
+            
+            Mon père, que je vous embrasse ! 
+            
+            M. DE LA JOBARDIÈRE, s'asseyant. 
+            
+            A l'autre ! Quelle société je reçois ici. 
+            
+            ROBERT. 
+            
+            J'étais inquiet de vous. Je savais que vous aviez été au
+            
+            pont de Sèvres. 
+            
+            DESGRÈS. 
+            
+            Oui, que j'y étais au pont de Sèvres ! au moment le plus
+            
+            chaud… J'y ai pris trois canons. 
+            
+            ROBERT
+            
+            A vous seul ? 
+            
+            DESGRÈS. 
+            
+            Non, avec deux amis, chez le marchand de vin du coin
+            
+            du pont. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Quel mauvais ton ! 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    DESGRÈS. 
+                
+            
+            
+                
+                    Quant à toi, mon fils, j'ai eu de tes nouvelles. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air de la bonne aventure. 
+                </stage>
+            
+                    <l>Tu n'as pas suivi, vaurien,</l>
+                    <l>L'avis d' la prudence,</l>
+                    <l>Et du frotteur parisien</l>
+                    <l>On cite la vaillance ;</l>
+                    <l>On dit que tu n' boudais pas</l>
+                    <l>Au milieu d' tous ces combats,</l>
+                    <l>Et qu'en un mot tu les as</l>
+                    <l>Frottés d'importance.</l>
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Les voilà établis chez moi ; pas moyen de s'en débar
+            
+            rasser. 
+            
+            ROBERT. 
+            
+            Mon père, il n'est plus question de cela, tout est pacifié, 
+            
+            tranquille, … excepté mon cœur qui bat la générale. 
+            
+            DESGRÈS. 
+            
+            Pour qui qu'il bat ? 
+            
+            ROBERT. 
+            
+            Vous allez le voir. Venez, mamezelle Justine. 
+            
+            SCENE XII. 
+            
+            LES MÊMES, JUSTINE. 
+            
+            ROBERT, la lui présentant. 
+            
+            Mon père, vous la voyez, n'est – ce pas ? Eh bien ! ell' me
+            
+            convient depuis deux ans. 
+            
+            DESGRÈS, à Justine. 
+            
+            Et vous convient – il ? 
+            
+            JUSTINE. 
+            
+            Il me convient de la même époque. 
+            
+            DESGRÈS. 
+            
+            Eh bien ! alors tout est convenu ? 
+            
+            ROBERT. 
+            
+            Non, mon père, rien n'est convenu, si ça ne vous con
+            
+            vient pas. 
+            
+            JUSTINE. 
+            
+            Nous ne voulons rien faire sans vous. 
+            
+            DĚSGRÈS. 
+            
+            Vous les entendez, monsieur l'absolutif : (à Robert.) Mais, 
+            
+            mon fils, t'es major, t'as tes vingt – cinq ans, t'es un homme
+            
+            libre. 
+            
+            ROBERT. 
+            
+            Il n'y a pas d'âge qui dispense de ce qu'on doit à son
+            
+            père ! 
+            
+            M. DE LA JOBARDIÈRE, se levant. 
+            
+            Mais tout à l'heure tu étais indépendant. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ROBERT. 
+                
+            
+            
+                
+                    J'étais indépendant parce que j'étais dans mon droit ; 
+            
+                    mais faut de l'ordre. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Époux imprudent. 
+                </stage>
+            
+            
+            
+                    <l>Un' justic' naturell' m'éclaire.</l>
+            
+            
+                    
+                        (Mettant la main sur son cœur.)
+                    
+            
+            
+                    <l>Il est un' loi qui me dit là :</l>
+                    <l>Ce que tu feras pour ton père</l>
+                    <l>Pour toi quelqu' jour on le fera. <stage type="repetition"> (bis.)</stage></l>
+                    <l>Avant d'épouser cell' que j'aime,</l>
+                    <l>J' viens vous d'mander vot' consent'ment,</l>
+                    <l>Et je me montre obéissant</l>
+                    <l>Pour que mes enfans l' soient de même.</l>
+                
+            
+            </lg> </div>
+            
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Où as – tu appris tout cela ? 
+            
+            ROBERT. 
+            
+            A l'enseignement mutuel. 
+            
+            DESGRÈs, à M. de la Jobardière. 
+            
+            Eh bien ! monsieur, c'est – y penser', ça… Vous le voyez, 
+            
+            il faut laisser les enfans libres afin qu'ils nous obéissent. 
+            
+            Mon fils… ma fille, viens dans mes bras, 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Ils n'ont pas le sens commun. 
+            
+            SCENE XIII. 
+            
+            LE MÊMES, MADAME DE LA JOBARDIÈRE, arrivant aussi
+            
+            vite qu'elle peut ; elle a une cocarde tricoloré sur le sein
+            
+            gauche. 
+            
+            MADAME DE LA JODARDIÈRE, près de son mari. 
+            
+            Me voilà ! me voilà. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Qu'avez – vous, madame de la Jobardière ? 
+            
+            MADAME DE LA JOBARDIÈRE, soufflant. 
+            
+            Je suis tout essoufflée. 
+            
+            M. DE LA JOBARDIÈRE, 
+            
+            Que vois – je ? … La cocarde tricolore sur votre sein ? 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Dites sur mon cœur ! … Eh bien ! mon ami, c'est la vé – ! 
+            
+            rité, la révolution a eu lieu. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            La révolution ! 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Oui : je viens de voir le vicomte de Beauvallon ; il mon
+            
+            tait sa garde avec des hommes en veste, en blouse, en
+            
+            chemise, mais beaucoup meilleure compagnie que je ne
+            
+            l'aurais cru. Il n'y avait pas de chaise dans le corps de
+            
+            garde, ils m'ont offert de m'asseoir sur la grosse caisse. 
+            
+            ROBERT. 
+            
+            Et vous ne l'avez pas enfoncée ? 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            C'est inconcevable ! et tout est fini, tout est tranquille ? 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Absolument. 
+            
+            (Ici on entend une détonation comme une fusillade.)
+            
+            TOUS. 
+            
+            Qu'est – ce que c'est que ça ! 
+            
+            (Seconde detonation.)
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Je me meurs… (Elle tombe dans un fauteuil.)
+            
+            DESGRÈS. 
+            
+            Ce n'est pas fini, mon fils…
+            
+            ROBERT. 
+            
+            Mon père, aux armes ! … Aux armes ! …
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    DESGRÈS, ROBERT, JUSTINE. 
+                
+            
+            
+                <stage type="tune">
+                    Air de Wallace. 
+                </stage>
+            
+            
+            
+                
+                    <l>L'amour de la patrie</l>
+                    <l>Enflamme tous les cœurs.</l>
+                    <l>Cette mère chérie</l>
+                    <l>Aura des défenseurs.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            (Ils sortent tous, à l'exception de monsieur et de madame
+            
+            de la Jobardière.)
+            
+            SCENE XIV. 
+            
+            M. ET MADAME DE LA JOBARDIÈRE. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Je me doutais bien que nous n'avions pas pu céder aussi
+            
+            promptement ! 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Mon ami, allons nous cacher… (à son mari qui se dispose
+            
+            à sortir.) Eh bien ! que faites – vous ? … Où allez – vous ? …
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Je vais prendre mon épée… Le canon m'appelle… Je ne
+            
+            peux pas être sourd. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Je vous connais, vous n'êtes pas adroit, vous allez vous
+            
+            blesser. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Ma présence suffira pour faire fuir cette canaille. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Où est donc mon chien Palafox ? Palafox ! vous n'irez pas, 
+            
+            je vous sauverai tous les deux. (Elle l'arrête par son habit.)
+            
+            M. DE LA JUBARDIÈRE. 
+            
+            Madame, ne me retenez pas, j'irai. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Vous n'irez pas… Palafox… Cruel homme ! 
+            
+            (Madame de la Jobardière làche le pan de l'habit de son mari
+            
+            et tombe dans un fauteuil.)
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Quoi ! … Vous ne me retenez donc plus, madame…
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Les forces me manquent. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Eh bien ! je cède au cri de la nature… Ou te proposes – tu
+            
+            de te cacher ? 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Dans la cave. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Dans la cave ! … Le devoir, l'honneur m'ordonnent de
+            
+            t'y suivre… (On entend une décharge de mousqueterie.) Dépê
+            
+            chons – nous. 
+            
+            SCENE XV. 
+            
+            JUSTINE, PLUSIEURS JEUNES FILLES, AMÉLIE, 
+            
+            M. ET MADAME DE LA JOBARDIÈRE. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    TOUTES LES JEUNES FILLES. 
+                
+            
+            
+                <stage type="tune">
+                    Air de la Muette de Portici. 
+                </stage>
+            
+            
+            
+                    <l>Ayez pitié d'une troupe tremblante,</l>
+                    <l>Entendez–vous les fusils, le canon ?</l>
+                    <l>Notre maîtresse, hélas ! par trop prudente,</l>
+                    <l>Vient de quitter soudain la pension.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            SCENE XVI. 
+            
+            JUSTINE, ROBERT, DESGRÈS, BOURGEOIS, AMÉLIE, 
+            
+            M. ET MADAME DE LA JOBARDIÈRE. 
+            
+            DESGRÈS. 
+            
+            C'était une fausse alerte. 
+            
+            BOURGEOIS. 
+            
+            Ne craignez rien, le bruit que vous avez entendu était
+            
+            celui d'un feu de réjouissances. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Ce n'était donc pas le canon ? 
+            
+            ROBERT. 
+            
+            Non, c'étaient des pétards. 
+            
+            DESGRÈS. 
+            Des artichaux. 
+            
+            BOURGEOIS. 
+            
+            On célèbre l'élection du nouveau roi. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Du nouveau roi ! …
+            
+            <div type="poem"> <lg>
+            
+                
+                    BOURGEOIS. 
+                
+            
+            
+                
+                    Le général Lafayette vient de le présenter au peuple ; si
+            
+                    vous aviez vu, quel tableau ! …
+                
+            
+            
+                <stage type="tune">
+                    AIR : Un jeune Grec (de Blanchard).
+                </stage>
+            
+            
+             
+                    <l>À la chambre des députés</l>
+                    <l>Tous deux ils viennent de se rendre :</l>
+                    <l>Ce Nestor de nos libertés</l>
+                    <l>Disait en route, à qui voulait l'entendre :</l>
+                    <l>C'est d'Orléans ; choisissez celui – là.</l>
+                    <l>Je vous réponds de sa vertu civique :</l>
+                    <l>Vos trois couleurs il les porta.</l>
+                    <l>En vous donnant un roi comme cela,</l>
+                    <l>C'est la meilleure république.</l>
+                
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            DESGRÈS. 
+            
+            Du moment que c'est une république, vive le roi ! 
+            
+            BOURGEOIS. 
+            
+            Il a aussi versé son sang pour la patrie, il était à Jem
+            
+            mapes. 
+            
+            DESGRÈS. 
+            
+            Eh ben ! moi, j'étais à Fleurus. 
+            
+            BOURGEOIS. 
+            
+            Ce n'est pas tout, monsieur le marquis, sa majesté dé
+            
+            sire vous voir. 
+            
+            M. DE LA JOBARDIÈRE, enthousiasme. 
+            
+            Vive le roi ! Ma femme, prête – moi ta cocarde. 
+            
+            BOURGEOIS. 
+            
+            Et vous allez lui être présenté par quelqu'un dont il dé
+            
+            sire que vous fassiez votre gendre. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Je n'ai rien à refuser à un roi quelconque. 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Et quel est cet homme pour prétendre…
+            
+            BOURGEOIS. 
+            
+            C'est un jeune capitaine décoré. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Un capitaine ! à la bonne heure ! 
+            
+            AMÉLIE. 
+            
+            Mon père, je n'épouserai jamais qu'Eugène. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Taisez – vous, mademoiselle ; quand le roi veut bien vous
+            
+            marier lui – même…
+            
+            AMÉLIE. 
+            
+            Ça m'est égal, il n'a pas le droit de tyranniser mon cœur. 
+            
+            BOURGEOIS. 
+            
+            Calmez – vous, mademoiselle, et fiez – vous à moi. Vous
+            
+            savez que la garde nationale est faite pour ramener la paix
+            
+            dans l'intérieur… Venez, venez, mon ami. 
+            
+            SCENE XVII. 
+            
+            LES PRÉCÉDENS, EUGÈNE, en uniforme. 
+            
+            TOUS. 
+            
+            Eugène ! …
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Eugène ! comment se fait – il ? …
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    EUGÈNE. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Le canon de Navarin, Ou Connaissez mieux le grand Eugène. 
+                </stage>
+            
+            
+               
+                    <l>Le vieux général Lafayette,</l>
+                    <l>Témoin de mes jeunes succès,</l>
+                    <l>M'a dit : Reçois cette épaulette,</l>
+                    <l>Et désormais sers le roi des Français.</l>
+                    <l>Si tu vois quelque croix donnée</l>
+                    <l>Pour Montmirail, pour Austerlitz,</l>
+                    <l>Sois fier et dis : Pour moi je l'ai gagnée</l>
+                    <l>À la bataille de Paris.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            BOURGEOIS. 
+            
+            La France reconnaît S. M. Louis – Philippe Ier, et Vin
+            
+            cennes vient d'ouvrir ses portes…
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Madame de la Jobardière, puisque la citadelle de Vin
+            
+            cennes s'est rendue…
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Je me rends… Cependant nous allons un peu vite. 
+            
+            ROBERT. 
+            
+            Comme la révolution. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    BOURGEOIS. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air des bonnes Gens. 
+                </stage>
+            
+            
+            
+              
+                    <l>De cette effervescence</l>
+                    <l>Chacun craignait les effets ;</l>
+                
+                31
+                
+                    <l>Mais notre expérience</l>
+                    <l>Nous a sauvés des excès.</l>
+                    <l>Quelle conduite plus belle</l>
+                    <l>Dans ces dangereux instans !</l>
+            
+                    
+                        ROBERT. 
+                    
+                    <l>La révolution nouvelle</l>
+                    <l>Est cell' des honnêtes gens.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            (On entend un grand bruit en dehors au fond du théâtre.)
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Encore du bruit : 
+            
+            serait – ce une émeute populaire ! Ce
+            
+            diable de peuple, quand il est en train…
+            
+            DESGRÈS, qui a été voir. 
+            
+            C'est une députation qui đemande à entrer. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Une députation ! ouvrez les trois portes… Oh ! oh ! c'est
+            
+            du tiers – état…
+            
+            SCENE XVIII. 
+            
+            TOUS LES AMIS DE ROBERT, HOMMES ET FEMMES DU
+            
+            peuple, portant deux drapeaux tricolores. 
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CHŒUR. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air de la Parisienne. 
+                </stage>
+            
+            
+            
+                
+                    <l>En avant, marchons</l>
+                    <l>Contre leurs canons,</l>
+                    <l>À travers le fer, le feu des bataillons</l>
+                    <l>Courons à la victoire.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            UN HOMME DU PEUPLE. 
+            
+            Robert, nous venons te chercher. Tu sais que le Roi a
+            
+            dit qu'il y aurait des croix pour le peuple comme pour les
+            
+            autres. 
+            
+            ROBERT. 
+            
+            Qui ça, les autres ? 
+            
+            EUGÈNE. 
+            
+            Les élèves de l'école polytechnique. 
+            
+            ROBERT. 
+            
+            Ils ont refusé ! …
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    EUGÈNE. 
+                
+            
+            
+                
+                    C'est vrai. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Ami, crois-moi, défendre sa patrie. 
+                </stage>
+            
+            
+            
+            
+           
+                    <l>Ah ! quel beau jour pour nous se lève !</l>
+                    <l>Jusqu'à présent on avait cru prouver</l>
+                    <l>Que l'égalité n'est qu'un rêve.</l>
+                    <l>Voyez pourtant ce qui vient d'arriver :</l>
+                32
+                    <l>Ces jeunes gens, de l'honneur seul esclaves,</l>
+                    <l>Se sont conduits en vrais héros.</l>
+                    <l>On leur a dit : Nommez–nous les plus braves,</l>
+                    <l>Ils se sont trouvés tous égaux.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            ROBERT. 
+            
+            V'là un bel exemple, je veux le uivre. 
+            
+            DESGRÈS. 
+            
+            T'as raison, mon fils, fais comme les élèves de l'école
+            
+            politique. 
+            
+            M. DE LA JOBARDIÈRE. 
+            
+            Polytechnique… Imbécile ! 
+            
+            DESGRÈS. 
+            
+            Merci, notre bourgeois. Vive l'école polytechnique ! 
+            
+            MADAME DE LA JOBARDIÈRE. 
+            
+            Si ces messieurs voulaient prendre quelques rafraîchis
+            
+            semens ! …
+            
+            TOUS. 
+            
+            Adopté. 
+            
+            DESGRÈS. 
+            
+            Unanimité, unanimitas, le petit verre et la demi – tasse. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    VAUDEVILLE. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air du Dilettante d'Avignon. 
+                </stage>
+            
+            
+                
+                    BOURGEOIS. 
+                
+            
+           
+                    <l>Vive ! vive notre France !</l>
+                    <l>Pour les arts et la vaillance,</l>
+                    <l>La gloire et l'indépendance,</l>
+                    <l>Vive ! vive notre France !</l>
+                
+            
+                
+                
+                
+                    CHŒUR. 
+                
+            
+             
+                    <l ana="unanalyzable">Vive ! vive notre France ! etc.</l>
+                
+            
+            
+                
+                    EUGÈNE. 
+                
+            
+                    <l>Liberté sans licence,</l>
+                    <l>La justice égale pour tous,</l>
+                    <l>Désormais la puissance</l>
+                    <l>Va tenir sa force de nous.</l>
+            
+                
+                    BOURGEOIS. 
+                
+            
+                
+                    <l>Le peuple cette fois</l>
+                    <l>En paix jouira de ses droits.</l>
+                    <l>Plus d'abus clandestins,</l>
+                    <l>De cafards ni d'ignorantins.</l>
+                
+            
+                
+                    TOUS. 
+                
+            
+                
+                    <l ana="unanalyzable">Vive ! vive notre France ! etc.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            FIN. 
+            
+            
+            
+            
+            
+            
+            Österreichische Nationalbibliothek
+            
+            +Z160884507
+        </body>
+    </text>
+</TEI>

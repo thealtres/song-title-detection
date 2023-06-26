@@ -1,0 +1,3327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE FILS DU COLONEL</title>
+                <title type="sub">DRAME EN UN ACTE, MÊLÉ DE COUPLETS</title>
+                <author key="DUV" sort="1">
+                    <name>
+                        <forename>Félix-Auguste</forename>
+                        <surname>Duvert</surname>
+                    </name>
+                </author>
+                <author key="TUL" sort="2">
+                    <name>
+                        <forename>Jules-Henry</forename>
+                        <surname>De Bunel de Tully</surname>
+                        <addname type="pen_name">Henry de Tully</addname>
+                        <addname type="pen_name">Henry</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE FILS DU COLONEL</title>
+                        <author>DUVERT ET HENRY</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=oi5MAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102EE3CB</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-10-31">31 OCTOBRE 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE NATIONAL DU VAUDEVILLE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                 <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body> A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            124. 37 532
+            
+            LE FILS
+            
+            DU
+            
+            COLONEL
+            
+            Drame en un Acte, 
+            
+            MÊLÉ DE COUPLETS ; 
+            
+            PAR
+            
+            MM. DUVERT ET HENRY. 
+            
+            REPRÉSENTÉ, POUR LA PREMIÈRE fois, A PARIS, 
+            
+            SUR LE
+            
+            THÉATRE NATIONAL DU VAUDEVILLE
+            
+            LE 31 OCTOBRE 1831. 
+            
+            Prix : 1 t. 50 c. 
+            
+            N
+            O
+            D
+            
+            PARIS
+            
+            J.-N. BARBA, LIBRAIRE, 
+            
+            PALAIS-ROYAL, GRANDE COUR, DERRIÈRE LE THÉATRE FRANÇAIS. 
+            
+            1831
+            
+            132957-B
+            
+            Personnages : 
+            
+            Acteurs : 
+            
+            EUGENE. 
+            
+            ADOLPHE *. 
+            
+            M. Perrin, 
+            
+            M. Emile Taigny, 
+            
+            MAURICE, vieux soldat au service de la
+            
+            "
+            
+            maison de Varange. 
+            
+            M. Fontenay. 
+            
+            Le Baron GERBEL, chirurgien militaire
+            
+            retraité et décoré. 
+            
+            La Comtesse de VARANGE. 
+            
+            M. DerouvÈRE, 
+            
+            Mme Doche. 
+            
+            GERTRUDE, vieille domestique, femme
+            
+            de Maurice. 
+            
+            Mme GUILLEMIN. 
+            
+            La scène se passe chez madame de Varange, dans une
+            
+            maison de campagne à cinq lieues de Paris. 
+            
+            Les Personnages doivent être placés en scène dans l'ordre où ils sont
+            
+            désignés, le premier à gauche, 
+            
+            * Ce rôle doit être joué par un très-jeune amoureux, et dans aucun cas ne
+            
+            pourrait être convenablement rempli par une femme. 
+            
+            IMPRIMERIE DE HENRI DUPUY, 
+            
+            SUCCESSEUR DE J. TASTU, 
+            
+            RUE DE LA MONNAIE. 
+            
+            LE
+            
+            FILS DU COLONEL. 
+            
+            Le théâtre représente un salon au rez-de-chaussée, une porte et deux fe
+            pêtres au fond donnant sur un jardin ; deux portes latérales ; à droite
+            au premier plan un guéridon, près duquel est un fauteuil ; à gauche, un
+            autre fauteuil près d'une chiffonnière. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            MME DE VARANGE, assise à droite du spectateur et occupée
+            
+            à broder, puisGERTRUDE, entrant par la gauche. 
+            
+            MADAME DE VARANGE appelant, 
+            
+            GERTRUDE enti ant. 
+            
+            Gertrude ! 
+            
+            Madame ! 
+            
+            MADAME DE VARANGE, 
+            
+            C'est inconcevable ! ton mari ne revient pas ! 
+            
+            GERTRUDE. 
+            
+            Dame, Madame, cinq lieues, c'est une course, et s' il est re
+            parti de Paris ce matin à huit heures, il n'y a pas de temps
+            
+            perdu. Et puis Maurice n'est plus jeune. 
+            
+            MADAME DE VARANGE… 
+            
+            Mon beau-frère aurait-il mal accueilli ma lettre ? 
+            
+            Elle a dû bien l'étonner. 
+            
+            GERTRUDE, 
+            
+            MADAME DE VARANGE. 
+            
+            Je ne pouvais luị cacher plus long-temps ee secret ; le bon
+            
+            heur de mes enfans en dépendait ; et, au moment où mon Eu
+            gène va épouser sa cousine, cette révélation devenait indis
+            pensable. 
+            
+            GERTRUDE. 
+            
+            Je comprends très-bien que M. de Varange ne peut pas
+            
+            donner sa fille à M. Eugène, le croyant son neven, si réelle
+            ment il ne l' est pas. Pauvre M. Eugène ! aime-t-il sa cousine ! 
+            l'aime-t-il ! Ah ! madame, ça me rappelle les temps où feu le
+            colonel de Varange vous faisait la cour. 
+            
+            MADAME DE VARANGE. 
+            
+            Quel souvenir, ma bonne Gertrude ! Pauvre colonel ! périr
+            
+            si jeune ! 
+            
+            GERTRUDE. 
+            
+            Et vous ! … rester veuve et mère à dix-sept ans ! … Ah ! mau
+            
+            dite campagne de Russie ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Vos maris en Palestine. </stage>
+            
+            
+                    <l>En reportant ma pensée</l>
+                    <l>Vers ce temps si malheureux, </l>
+                    <l>Je sens mon ame oppressée, </l>
+                    <l>Et des pleurs mouillent mes yeux ; </l>
+                    <l>Car, dans ces jours désastreux, </l>
+                    <l>Hélas ! autant l'une que l'autre, </l>
+                    <l>Le sort injuste nous frappa, </l>
+                    <l>Dans nos époux il nous frappa : </l>
+                    <l>Vous y perdîtes le vôtre, </l>
+                    <l>Et le mien en réchappa. <stage type="repetition"> (ter.)</stage></l>
+            
+                </lg>
+            </div>
+            
+            
+            echappa. 
+            
+. 
+            
+            
+            MADAME DE VARANGE se levant. 
+            
+            Comment, Gertrude, est-ce que Maurice te rendrait mal
+            
+            heureuse ? 
+            
+            GERTRUDE. 
+            
+            Ah ! madame, je ne dis pas ça. Mais quand un homme est
+            
+            grondeur, jureur, fumeur… Ab ! quel désagrément ! 
+            
+            MADAME DE VARANGE. 
+            
+            Mais depuis près de vingt ans qu'il est ton mari, tu as eu le
+            temps de t'babituer à ses défauts, et d'ailleurs ilne te les avait
+            
+            pas cachés. 
+            
+            GERTRUDE. 
+            
+            Eh ! madame, l'amour est aveugle. Vous savez que quand
+            M. votre mari fit notre mariage, Maurice était sapeur dans le
+            régiment, et homme de confiance du colonel ; brosseur qu'ils
+            appellent ça … Dieu ! quelle belle barbe il avait ! Ah ! cet être
+            d'un beau rouge ! ça m'a
+            lå avait une bien belle barbe ! 
+            
+            et
+            
+            éblouie ; j'ai fermé les yeux sur tout le reste, et je suis devenue
+            madame Maurice ; ah ! 
+            
+            MADAME DE VARANGE. 
+            
+            Pourquoi donc ce soupir ? 
+            
+            (5) 
+            
+            GERTRUDE. 
+            
+            Croiriez-vous que depuis dix-huit ans, depuis l'événement des
+            
+            deux enfans, il n'a pas cessé un seul jour de me reprocher ma
+            
+            maladresse, ma négligence ; dès qu' il a les yeux ouverts, c'est
+            pourme dire desmots …. que je ne veux pas répéler…. et des ju
+            
+            rons. … à faire crouler la maison. (Elle imite le geste.) « Oui ! …
+            
+            » vous êtes la cause de tout…
+            
+            si vous n'aviez pas été occupéc
+            
+            » à bavarder, ça ne serait pas arrivé, et ces jeunes gens-là ne
+            » seront jamais heureux, etmoi, je veux qu'ils le soient. J'ai
+            dit au moment de… (Pendant
+            » ordre du colonel qui me l'a
+            
+            guc Gertrude prononce ces dernières phrases, la physionomic
+            
+            de madame de Varange s'est rembrunie, Gertrude s'en aper
+            
+            çoit et
+            
+            s'arréte tout-à-coup.) Pardon, madame, je vous afflige. 
+            
+            MADAME DE VARANGE. 
+            
+            Oui, ce sujet de conversation …
+            
+. 
+            
+            GERTRUDE. 
+            
+            Voilà justement l'effet que ça fait sur Maurice ; dès qu'on lui
+            parle de son colonel, 
+            il pleure… et ça donne à toute la maison
+            un air de tristesse ; d'un autre côté, M. Adolphe qui ne rit ja
+            mais et qui est toujours sombre. 
+            
+            MADAME DE VARANGE. 
+            
+            Sa tristesse me donne bien du chagrin, Gertrude, et im
+            
+            possible d'en découvrir la cause. 
+            
+            GERTRUDE. 
+            
+            Il y a des caractères comme ça … tout triste ou tout gai. 
+            Voyez M. Eugène, … toujours riant, lui… Ah ! il est bien facile
+            de voir qu' ils ne sont frères qu'en apparence. Ah ! mon Dieu, 
+            madame, j'allais oublier de vous dire que M. Gerbel est venu
+            la chasse aujourd'hui, 
+            dès le grand matin me dire qu'il allait à
+            ct il m'a demandé si vous iriez vous promener du côté du petit
+            bois. 
+            
+            MADAME DE VARANGE. 
+            
+            Oh ! non, sans doute, je suis trop tourmentée pourmelivrer
+            
+            à aucun plaisir. 
+            
+            GERTRUDE. 
+            
+            C'est encore un bien drôle de corps que M. le baron Ger
+            
+            bel… Pour un ancien chirurgien en chef de l'armée, il est gai
+            
+            comme un jeune sous-lieutenant. Je crois que la femme qui
+            l'épousera sera heureuse, très-heureuse, (avec intention) et, en
+            
+            conscience, elle le mérite bien. 
+            
+            (6) 
+            
+            MADAME DE VARANGÉ. 
+            
+            Ab ! Gertrude, tu sais donc ? …
+            
+            GERTRUDE. 
+            
+            Le moyen de l'ignorer ? N'est-ce pas pour se rapprocher de
+            
+            vous qu'il a acheté, et payé trois fois ce qu'elle vaut, cette bi
+            coque qui est au bout du parc ? …
+            
+            MADAME DE VARANGE. 
+            
+            Silence sur ce chapitre, Gertrude ! comme rien n'est décidé
+            
+            encore… 
+            
+            GERTRUDE. 
+            
+            Bah ! … M. Eugène sait déjà tout, et il en est enchanté. Il
+            compose déjà des couplets pour votre mariage et pour le sien. 
+            Tenez ! le voilà qui vient par ici, je vous laisse pour songer au
+            
+            déjeuner. 
+            
+            (Elle sort par la gauche.)
+            
+            SCÈNE II. 
+            
+            ÉUGÈNE, accourant par le fond, Mme DE VARANGE. 
+            
+            EUGÈNE, une lettre ouverte à la main. 
+            
+            Ah ! ma bonne mère, il n'y a plus à reculer. Je reçois une
+            
+            lettre de mon oncle …. Tiens, vois ce qu'il m' écrit. « Mon cher
+            
+            · Eugène, ne perds pas un instant pour m'envoyer ton acte de
+            » naissance ; tu sais que je pars la semaine prochaine pour l' I
+            
+            » talie. Si tu tardais à me faire parvenir cette pièce nécessaire à la
+            
+            &gt; publication de tes bans, ton mariage avec Lilia serait re
+            
+            » tardé de six mois. Mille complimens à
+            
+            ta mère : Le comte
+            
+            » Eugène de Varange. » Juge un peu ! s'il faut maintenant
+            il faut
+            écrire à Eisenach pour avoir cet acte de naissance, 
+            
+            quinze jours pour obtenir uneréponse ; je suis un hommeperdu. 
+            
+            MADAME DE VARANGE. 
+            
+            Aujourd'hui, aujourd'hui même, tu l'auras. 
+            
+            EUGÈNE, avec joie. 
+            
+            Tu me le promets ? 
+            
+            MADAME' DE VARANGE. 
+            
+            Je te le promets. 
+            
+            (7) 
+            
+            EUGÈNE. 
+            
+            J'y compte. Ce bon M. de Varange ! je vais donc devenir
+            
+            son gendre ! son beau-fils ! Quel avancement ! moi qui jus
+            
+            qu'ici n'étais que son neveu et son filleul ! 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air : Des Frères de lait. </stage>
+            
+            
+                    <l>Oncle et parrain il faut bien que je l'aime ! </l>
+                    <l>Pour moi surtout il fut toujours si bon ! </l>
+                    <l>C'est pourtant vrai ; le jour de mon baptême, </l>
+                    <l>C'est sur l'autel qu'il m'a donné son nom, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Et, sans sortir de la famille. </l>
+                    <l>Pour mon bonheur les cieux l'ont ordonné, </l>
+                    <l>Moi, je m'acquitte en rendant à la fille</l>
+                    <l>Ce qu'autrefois le père m'a donné. <stage type="repetition"> } (bis.)</stage></l>
+                </lg>
+            </div>
+            
+            
+            MADAME DE VARANGE. 
+            
+            Tu l'aimes donc bien ta cousine ? 
+            
+            EUGÈNE, prenant la main de madame de Varange. 
+            
+            Sije l'aime ? … toi, elle et mon frère, voilà ce que j'aime le
+            
+            mieux au monde ! 
+            
+            MADAME DE VARANGE. 
+            
+            Que ton amitié me rend heureuse et fière ! … … Mais ton
+            
+            frère ! je ne l'ai pas encore vu aujourd'hui. 
+            
+            "
+            
+            EUGÈNE, légèrement. 
+            
+            Adolphe ? il est sans doute au jardin dans quelque coin obs
+            
+            cur, 
+            
+            à
+            
+            faire la conversation tout seul. Sa vie entière est un
+            
+            grand monologue. Ça se passera, voilà le beau temps ! 
+            
+            MADAME DE VARANGE. 
+            
+            T'a-t-il quelquefois laissé entrevoir la cause de cette tris
+            
+            tesse ! 
+            
+            EUGÈNE. 
+            
+            Lui ? … … est-ce qu'il laisse entrevoir quelque chose, à moins
+            
+            que ce ne soit par signes ? … … Ah ça ! il faudra pourtant qu'il
+            
+            se mette en frais de gaîté. Je veux qu'il danse à ma noce. A
+            propos (d'un air malin) 
+            
+            ferons-nous les deux noces le même
+            
+            jour ? 
+            
+            MADAME DE VARANGE, surprise.'
+            
+            Eugène ! qui t'a dit ? …
+            
+            EUGÈNE. 
+            
+            · Personne. Mais je le sais, et j'en suis bien aise : je l'aimeas
+            
+            sez, 
+            M. Gerbel ; il est gai, il a de l' instruction ; c'est un ma
+            riage convenable sous tous les rapports ; une veuve de ton âge
+            
+            (8) 
+            
+            n'est pas à dédaigner, et un docteur qui prend femme, c'est
+            une dette qu' il acquitte. 
+            
+            MADAME DE VARANGE, souriant. 
+            
+            Que veux-tu dire par-là ? 
+            
+            EUGÈNE. 
+            
+            Si j'étais législateur, je ferais une guerre à mort au célibat, 
+            
+            surtout à celui des médecins. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Sur votre table quand on porte. (du Savetier et le Financier.)</stage>
+            
+            
+                    <l>Oui, je rendrais une loi très-sévère ; </l>
+                    <l>Tout médecin devrait se marier, </l>
+                    <l>C'est une horreur ! rester célibataire</l>
+                    <l>Quand on exerce un état meurtrier ! </l>
+                    <l>Toujours soustraire et pas multiplier ! </l>
+                    <l>Pour que l'État y trouve sa balance, </l>
+                    <l>Leur célibat ne saurait s'approuver, </l>
+                    <l>Les médecins, c'est facile à prouver, </l>
+                    <l>Doivent tenir compte à la France</l>
+                    <l>Du déficit qu'ils lui font éprouver. <stage type="repetition"> (ter.)</stage></l>
+            
+                </lg>
+            </div>
+            
+            (On entend sonner) .
+            
+            On sonne à la grille (il remonte la scène, et regarde à l'ex
+            
+            térieur) c'est Maurice ! Gertrude va lui ouvrir. 
+            
+            MADAME DE VARANGE, avec émotion. 
+            
+            Maurice ! je tremble malgré moi. 
+            
+            EUGÈNE. 
+            
+            Il accourt par ici…
+            
+            MADAME DE VARANGE. 
+            
+            Eugène ! laisse-moi un instant. 
+            
+. 
+            
+            EUGÈNE, à part. 
+            
+            Quel mystère y
+            
+            a-t-il donc ? 
+            
+            (d'un air gai) ab ! bah ! ma
+            
+            mère est du complot, je n'ai rien à craindre. 
+            
+            (Il sortpar la gauche) .
+            
+            SCÈNE III. 
+            
+            M » DE VARANGE, MAURICE, entrant par le fond. 
+            
+            MADAME DE VARANGE. 
+            
+            Ah ! Maurice, c'est vous, eh bien ! 
+            
+            (9
+            
+) 
+            
+            MAURICE. 
+            
+            J'ai remis votre lettre à M. de Varange, il l'a lue devant moi. 
+            Il est devenu pâle. …. pâle comme un déserteur devant le con
+            
+            seil de guerre, et il m'a dit : « Demain à midi, je serai chez ma
+            
+            belle-sæur. Alors je m'en allais quand il m'a appelé par mon
+            nom, en me disant : « Tu étais dans le secret ?-Qui, M. le
+            
+            » Comte.-
+            » 
+            
+            as jamais parlé à personne ?-Non, 
+            le Comte.-Tu m'as donc trompé aussi ?. ….-Qui, 
+            
+            M. 
+            
+            Tu
+            
+            n'en
+            
+            » 
+            
+            M. le Comte. » Et puis il m'a dit : « Va-t-en ! » J'ai obéi, et
+            
+            me voilà. 
+            
+            MADAME DE VARANGE. 
+            
+            Il veut me voir ! pauvre Eugène ! pourvu que cette révéla
+            
+            tion ne brise pas leur union ! M. de Varange si haut, si fier, 
+            
+            consentira-t-il à donner sa fille. …
+            
+'
+            
+            MAURICE. 
+            
+            Ah ! voilà ce que je me disais tout le long du chemin …
+            mais milzieux ! s'il s'entête à ça, je le renie, oui, je le renie
+            pour le frère de mon colonel, qui était si bon, si… pas fier. 
+            Ce serait une indignité. …. un homme comme lui ne peut pas
+            faire une chose comme ça. 
+            
+            MADAME DE VARANGE. 
+            
+            Je connais son caractère, et c'est pour cela que jusqu'à pré
+            sent j'avais hésité ; mais je ne pouvais plus différer, il faut pro-
+            duire l'acte de naissance d'Eugène. 
+            
+. 
+            
+            MAURICE. 
+            
+            Ab ! je sens bien l'embarras, 
+            
+            l'un des deux enfans n'est pas
+            
+            le vôtre. La position
+            
+            est difficile, vu qu'il n'y en a qu'un à
+            
+            quivous puissiez appliquer l'acte de naissance qui porte votre
+            
+            nom. Alors l'autre ne se trouvera plus être que le fils d'une
+            
+            pauvre paysanne… … c'est dur…… quoiqu'au fond ça soit la
+            même chose. 
+            
+            MADAME DE VARANGE. 
+            
+            Quelle affreuse incertitude ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Le choix que fait tout le village. </stage>
+            
+            
+                    <l>Quel est mon fils ? est-ce Adolphe ? est-ce Eugène ? </l>
+                    <l>Auquel des deux ai-je donné le jour ? </l>
+                    <l>Rien ne peut donc mettre un terme à ma peine ? </l>
+                    <l>N'ont-ils pas droit tous deux à mon amour ? </l>
+                    <l>Depuis l'instant qui les vit naître, </l>
+                    <l>Ce doute affreux, tout vient l'entretenir. </l>
+                    <l>Je cherche un fils, et ne puis le connaître ; </l>
+                    <l>Car mon cœur ne saurait choisir. </l>
+            
+                </lg>
+            </div>
+            
+            (10) 
+            
+            MAURICE. 
+            
+            Je sais bien ça, … mais moi qui juge avec mes yeux et avec
+            
+            mes souvenirs, je gagerais que je ne me trompe pas…
+            
+            MADAME DE VARANGE. 
+            
+            Et vous croyez quemon fils…
+            
+            MAURICE. 
+            
+            C'est Eugène ! … c'est Eugène ! … j'en mettrais la main au
+            il est gai, 
+            
+            feu …. C'est tout le caractère du pauvre colonel…
+            
+            obligeant, un peu. … bambocheur … incapable de vexer un
+            troupier…Ce n'est pas que M. Adolphe. … jour de Dieu ! Ma
+            dame, je les aime autant l'un que l'autre, au moins : c'est par
+            ordre du colonel… Je le vois encore là, ce pauvre colonel, au
+            bord de la Bérésina, au moment où… (Il essaie de cacher son
+            émotion.)
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air d'Yelva. </stage>
+            
+            
+                    <l>Mauric', qu'il m' dit, tel sort que soit le nôtre, </l>
+                    <l>L' vœu d'un mourant doit toujours êt' sacré ; </l>
+                    <l>Rejoins mes fils, aim'-les autant l'un qu' l'autre. </l>
+                    <l>Mon colonel ! que j' dis : j'obéirai. </l>
+                    <l>De ma consign' j'ai pas voulu démordre ; </l>
+                    <l>Je les chéris comm' ça m'est ordonné ; </l>
+                    <l>Et je n' cess'rai d'exécuter mon ordre</l>
+                    <l>Qu'en rejoignant celui qui m' l'a donné. <stage type="repetition">} bis. </stage></l>
+                </lg>
+            </div>
+            
+            
+            MADAME DE VARANGE, avec bonté. 
+            
+            Je connais, Maurice, votre amitié pour eux. 
+            
+            MAURICE. 
+            
+            Oh ! oui, et si quelque chose m'afflige, c'est de voir ce pau
+            vre Adolphe tourner au chagrin comme il fait. Si j'étais de
+            vous je consulterais M. Gerbel sur cet enfant-là. C' est un an
+            cien, lui, il est savant dans les maladies, et il vous dirait peut
+            être …. 
+            
+            MADAME DE VARANGE. 
+            
+            Mon pauvre Maurice ! vous ne savez pas tout le mal qu'il me
+            
+            fait. 
+            
+            MAURICE. 
+            
+            Je m'en doute bien, quoique je ne sois pas sa mère. 
+            
+. 
+            
+. MADAME DE VARANGE. 
+            
+            Retournez près de lui… lâchez de savoir… oui, peut-être
+            
+            obtiendrez-vous un aveu qu'il nous refuse. 
+            
+            (11) 
+            
+            MAURICE, d'un air de doute. 
+            
+            Ob ! quant à ça, je l'ai retourné de toutes les façons. Dur à
+            
+            la détente comme un fusil rouillé. 
+            
+            MADAME DE VARANGE. 
+            
+            Et si Eugène vous parle de son projet d'aller aujourd'hui
+            
+            voir son oncle, Maurice, c'est vous que je charge du soin de le
+            
+            pressentir sur le sort qui le menace… Je sens que je n'aurais
+            
+            pas la force de lui dire que peut-être il n'a plus sa mère. 
+            
+            MAURICE, faisant le salutmilitaire. 
+            
+            Madame, dès lors que vousme l'ordonnez, je lui causerai à
+            
+            ce sujet. 
+            
+            (On entend Gerbeldiscuter avec Gertrude.)
+            
+            MADAME DE VARANGE. 
+            
+            J'entends, je crois, la voix de M. Gerbel… Oui, c' est lui. 
+            
+            (Maurice sort par la gauche, Gerbel arrive par le fond.)
+            
+            SCÈNE IV. 
+            
+            MME DE VARANGE, GERBEL. (Il a un fusil et une
+            
+            carnassière) .
+            
+            GERBEL, dans la coulisse. 
+            
+            C'est bon, c'est bon, Gertrude ! … du moment que madame
+            cela suffit, parbleu ! (Entrant.) Serviteur ! belle
+            
+            est visible, 
+            
+            dame ! Cette brave Gertrude ! elle voulait à toute force me
+            faire faire antichambre, à moi ! et dans le jardin encore ! …. 
+            
+            (Il pose son fusil dans un coin, et sa carnassière sur le guéri
+            don à droite.)
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air : Au temps heureux de la chevalerie. </stage>
+            
+            
+                    <l>Concevez-vous cette vieille manie ? </l>
+                    <l>En conscience, il n'est point de raison</l>
+                    <l>Pour m'annoncer avec cérémonie, </l>
+                    <l>Moi, le voisin, l'ami de la maison. </l>
+                    <l>C'est inutile, il faut qu'on en convienne, </l>
+                    <l>À cet usage on devrait renoncer ; </l>
+                    <l>Je me souviens qu'à Berlin comme à Vienne, <stage type="repetition">} bis. </stage></l>
+                    <l>Nous entrions sans nous faire annoncer. </l>
+            
+                    
+                </lg>
+            </div>
+            
+            
+. 
+            
+. 
+            
+            MADAME DE VARANGE, souriant. 
+            
+            Mais… vous étiez en pays conquis. 
+            
+            (12) 
+            
+            GERBEL, lui baisant la main. 
+            
+            Il est vrai, belle dame, et ici je n'aique les droits de l'amitié. 
+            
+            SCÈNE V. 
+            
+            MME DE VARANGE, GERBEL, EUGÈNE. 
+            
+            EUGÈNE, entrant au moment où Gerbel baise la main de
+            
+            madame de Varange. 
+            
+            Ah ! 
+            
+            la
+            
+            consigne est levée ? je reviens. Bonjour, baron
+            
+            Gerbel ! 
+            
+            GERBEL. 
+            
+            Bonjour à l'amiEugène. 
+            
+            EUGÈNE. 
+            
+            Eh ! bon dieu, vous allez chasser ! … vous voilà armé jus
+            
+            qu'aux dents. 
+            
+            GERBEL. 
+            
+            Oui, mon ami, 
+            
+            j'ai passé une grande partie de la nuit à
+            
+            écrire, et ma foi. …. 
+            
+            EUGÈNE. 
+            
+            Ah ! à
+            
+            écrire vos mémoires ? … Vous avez raison, papa
+            
+            Gerbel, quand on
+            
+            a
+            
+            couru le monde comme vous avec. …. 
+            
+            c'est-à-dire derrière nos braves, comme chirurgien en chef, 
+            
+            on doit à
+            
+            la
+            
+            postérité le tribut de ses souvenirs. Vous devez
+            
+            en savoir plus que personne sur les opérations de l'armée. 
+            
+            GERBEL, riant. 
+            
+            Ah ! ah !. … J'ai écrit cette nuit tout un chapitre, je vous le
+            
+            lirai ce
+            
+            soir, si Madame veut bien le permetlre. C'est une
+            
+            anecdote fort singulière et quine månque pas d'un certain in
+            térêt. 
+            
+            MADAME DE VARANGE. 
+            
+            Vous savez, monsieur le baron, que nous avons toujours
+            
+            grand plaisir à vous entendre. 
+            
+            EUGÈNE. 
+            
+            Et pour vous reposer, vous avez pris un fusil. 
+            
+            GERBEL. 
+            
+            Ah ! je vais vous dire ! …
+            
+            J'ai à une demie-lieuc d'ici un
+            
+            (13) 
+            
+            de mes amis qui est au lit … c'est moi qui l'ai toujours traité, 
+            il est mon malade depuis dix ans…
+            
+            EUGÈNE, d'un air goguenard. 
+            
+            Et vous l'entretenez dans ces fonctions-là. 
+            
+            GERBEL. 
+            
+            Etpour m'amuser en route, j'ai pris un fusil. 
+            
+            EUGÈNE. 
+            
+            Vous avez donc bien peur qu'il n'en réchappe ? 
+            
+            GERBEL. 
+            
+            Ab ! ah ! toujours jovial, toujours plaisant, l'amiEugènc. 
+            
+            Excellent précepte d'hygiène, mon bon ami, excellent pré
+            
+            cepte… n'est-il pas vrai, belle dame ? 
+            
+            MADAME DE VARANGE. 
+            
+            Personne, mon cher baron, n'a le caractère plus heureux
+            
+            que vous. 
+            
+            GERBEL. 
+            
+            N'ai-je pas raison ? pour moi, je maintiens qu'il faut tou
+            
+            jour être gai, et je prêche d'exemple. Je serais gai parrégimc, 
+            si je ne l' étais par tempérament. 
+            
+            EUGÈNE. 
+            
+            Vous devriez bien prêler un peu de votre philosophie à no
+            
+            tre pauvre Adolphe. 
+            
+. GERBEL. 
+            
+            A lui ? Oh ! j'y perdrais mon latin … je crois, (je ne sais
+            pas si je me trompe, remarquez bien que ce n'est qu'une sup
+            position) je crois que c'est lemoral qui est affectéchez lui ; oui, 
+            que sais-je ? à son âge …. quelque annour contrarié, quelque
+            projet d'ambition déçu ; (bas à Madame de Varange) aussi
+            lorsque j'aurai près de lui un autre titre que le titre d'ami, je
+            
+            compte entreprendre cette guérison, et il ne tiendrait qu'à
+            vous que le traitement commençat dès demain. 
+            
+            MADAME DE VARANGE. 
+            
+            Je vous l'ai dit, mon cher baron, (nous pouvons en parler
+            
+            devant Eugène, il connaît nos projets) (Eugène serre affec
+            tueusement la main de Gerbel) je
+            n'engagerai ma main quc
+            
+            quand mes deux fils seront établis et heureux. 
+            
+            Voilà la moitié de la besogne faite. Le mariage de l'ami
+            
+            GERBEL. 
+            
+            (14) 
+            
+            Eugène-fixe son avenir. Quant à Adolphe, ne m'avez vous
+            pas dit que le ministre des affaires étrangères lui proposait
+            la place
+            de secrétaire d'ambassade ? Eh bien ! c'est le pied à
+            l' étrier … … secrétaire d'ambassade, puis ambassadeur. … peut
+            être un jour aura-t-il l'agrément de rédiger des protocoles, et
+            de faire battre toutes les nations entre elles …. qui sait ? …… 
+            C'est, ma foi, fort agréable, j'aimerais beaucoup ça. 
+            
+            MADAME DE VARANGE. 
+            
+            Je sais que cette place est à sa disposition ; mais me séparer
+            
+            de lui ! … Oh ! non, M. Gerbel. 
+            
+            GERBEL. 
+            
+            Ainsi donc, Madame, vous ajournez notre union à l'époque
+            
+            où votre second fils aura pris un parti … je suis désolé de cela, 
+            
+            · Une fois mes enfansheureux, je suis à vous, baron. 
+            
+            MADAME DE VARANGE. 
+            
+            GERBEL. 
+            
+            Ah ! le prix est trop beau pour que je ne m'attache pas à le
+            
+            mériter ; et dans l'instant je vais l'interroger. 
+            
+            |
+            
+            Le voilà qui se dirige de ce côté, restez seul avec lui. 
+            
+            MADAME DE VARANGE. 
+            
+            EUGÈNE, bas à Gerbel. 
+            
+            Vous ne la connaissez pas, vous, Lilia, ma cousine ? Elle
+            la
+            
+            est charmante, jolie comme un ange. … Allons, allons à
+            
+            chasse de mon acte de naissance, et puis en route pour Paris. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">Air : Travaillons, Mesdemoiselles (de la Fiancée).</stage>
+            
+            
+                    <l>Pour que notre amour sincère</l>
+                    <l>Par la loi soit couronné, </l>
+                    <l>Il faut à monsieur le maire</l>
+                    <l>La preuve que je suis né. </l>
+            
+                    GERBEL ET MADAME DE VARANGE, 
+            
+                    <l>Pour que son amour sincère</l>
+                    <l>Par la loi soit couronné, </l>
+                    <l>Il faut à monsieur le maire</l>
+                    <l>Une preuve qu'il est né. </l>
+                </lg>
+            </div>
+            
+            
+            (Pendant la reprise, Gerbel offre są main à madame de Va
+            
+            range, la conduit jusqu'a la porte à gauche, et revient. Eu
+            
+            gène sort par le fond et se dirige à gauche.)
+            
+            (15) 
+            
+            SCÈNE VI. 
+            
+            GERBEL scul. 
+            
+            A moins que le diable ne s'en mêle il faudra que j'en vienne
+            
+            à bout ; il faudra qu'ilme dise … Ce n'est pas l'embarras, l'en
+            
+            treprise… le jeune homme est peu communicatif… Voilà mon
+            
+            malade ! attention ! 
+            
+            SCÈNE VII. 
+            
+            ADOLPHE (entrant lentement et comme plongé dans ses
+            
+            réflexions) , GERBEL. 
+            
+            ADOLPHE. 
+            
+            J'avais fait le projet de lui écrire. … (il s' arrête) écrire quoi ? 
+            
+            et à qui ? 
+            
+            Gerbel, à part, au fond à droite. 
+            
+            A qui diable en a-t-il ? 
+            
+            ADOLPHE, s'asseyant sur le fauteuil à gauche. 
+            
+            Non, Eugène va se marier … c'est un jour de bonheur, un
+            
+            jour de joie pour tout le monde, pour mon frère, et j'irais le
+            
+            troubler ! je serais un monstre… Non, non, je ne le veux pas. 
+            
+            GERBEL, à part. 
+            
+            J'ai beau chercher à démêler le sens de ce qu'il veut dire, 
+            
+            je n'y comprends rien, abordons-le. (Iltousse ei feint d'arriver
+            
+            par le fond.)
+            
+            Ah ! c'est vous, M. Gerbel. 
+            
+            ADOLPHE. 
+            
+            GERBEL, lui prenant la main. 
+            
+            Oui, mon cher ami ; eh bien ! comment gouvernons-nous
+            
+            cette santé ? 
+            
+            Mais…, bien. 
+            
+            ADOLPHE. 
+            
+            GERBEL, lui tâtant le pouls. 
+            
+            Cependant, mon cher ami, vous avez le pouls fort agité. 
+            
+            Ecoutez, Adolphe, il faut vous distraire. 
+            
+            •
+            
+            (16) 
+            
+            ADOLPHE, se levant et d'un air réservé. 
+            
+            Qui vous a dit, Monsieur, que j'eusse besoin de distraction ? 
+            
+            GERBEL. 
+            
+            Parbleu ! avons-nous besoin qu'on nous dise : j'éprouve ci
+            
+            ou ça ? Je vous dis que vous vous occupez trop de choscs sé
+            
+            rieuses, de lectures graves…
+            
+            L'étude est une bonne chose ; 
+            
+            mais il ne faut pas que cela compromette la santé. 
+            
+            ADOLPHE, avec une sorte de fierté. 
+            
+            Ilmesemble, Monsieur, que je ne me suis plaint à personne. 
+            
+            GERBEL. 
+            
+            · Sans doute, mais sans le vouloir, vous alarmez tout ce qui, 
+            vous environne, tout ce qui vous aime ; votre mère, votre
+            bonne mère, vous ne l'aimez donc pas ? 
+            
+            Moi ! 
+            
+            ADOLPHE. 
+            
+            GERBEL. 
+            
+            Si vous l'aimez, pourquoi semblez-vous prendre à tâche de
+            briser son cœur ? … Vous avez un chagrin secret ; (mouvement
+            d' Adolphe) ne cherchez pas à le nier, on
+            
+            le sait. 
+            
+            Qui donc ? 
+            
+            Moi. 
+            
+            ADOLPHE, vivement. 
+            
+            GERBEL. 
+            
+            ADOLPHE, de même. 
+            
+            Vous ? … (Se reprenant et avec un sourire amer.) Oh ! non, 
+            
+            cela est impossible. 
+            
+            GEKBEL. 
+            
+            On n'abuse pas facilement une expérience comme la mienne, 
+            
+            un homine habitué à chercher les causes dans les effets. Vous
+            
+            aimez (mouvement d' Adolphe) , vous aimez, vous dis-je. 
+            
+            M. Gerbel ! 
+            
+            ADOLPHE. 
+            
+            GERBEL, à part. 
+            
+            J'ai deviné. (haut) Et vous ne voyez, pas imprudent jeune
+            homme, que cette passion qui vous subjugue vous mène lente
+            
+            ment à votre perte ? A votre âge, est-ce ainsi qu' il faut traiter
+            l'amour ? Et pourquoi ne pas confier vos peines à votre mère ? 
+            
+            Peut-être d'un mot elle pourrait tout concilier. Celle que vous
+            
+            aimez est-elle placée si haut que vous ne puissiez aspirer à
+            
+            l'obtenir ? ou bien est-elle dans une condition indigne de votre
+            
+            (17) 
+            
+            Monsieur, ma mère ne peut rien pour mon bonheur. 
+            
+            ADOLPHE… 
+            
+            Qu'en savez-vous ? 
+            
+            GERBEL. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air du Vaud. du Maître du Château. </stage>
+            
+            
+                    <l>Que n'avez-vous imité votre frère ? </l>
+                    <l>Dès qu'il connut ce sentiment si doux, </l>
+                    <l>Son premier soin fut de dire à sa mère : </l>
+                    <l>Je suis amant, je voudrais être époux. </l>
+            
+                    ADOLPHE. 
+            
+                    <l>Que dites-vous ? ah ! quelle différence ! </l>
+                    <l>Sachez, Monsieur, que si parfois, hélas ! </l>
+                    <l>On est coupable en gardant le silence, </l>
+                    <l>On l'est bien plus en ne le gardant pas. <stage type="repetition"> (Bis.)</stage></l>
+            
+                </lg>
+            </div>
+            
+            Je ne vous comprends pas. 
+            
+            GERBEL. 
+            
+            ADOLPAE, avec plus de douceur. 
+            
+            Mais je vous remercie, M. le baron, de l'intention affec
+            
+            tueuse qui vous porte à sonder la plaie de mon coeur. Elle est
+            trop profonde, trop vive ; les secours de l'art n'y peuvent rien ; 
+            
+            j'attendrai tout du temps. 
+            
+            GERBEL, à part. 
+            
+            Il attendra … il attendra … mais c'est que nous attendrons
+            tous les deux. (Haut.) Eh bien ! moi, je vous dis que je sais un
+            
+            moyen de concilier votre bonheur et celui de tout le monde. 
+            
+. 
+            
+. 
+            
+            Oh ! …
+            
+            ADOLPHE, d'un air de doute. "
+            ADOLPH
+            
+            GERBEL. 
+            
+            Il vous faut voyager … les distractions, c'est ce qu'il y a de
+            mieux. Prenez la poste, traversez les Alpes, allez passer quel
+            Italie. Pays superbe ! air excellent ! un ciel…
+            ques mois en
+            fait exprès pour les malades. 
+            
+            ADOLPHE, qui est resté pensif.'
+            
+            Moi, m'en aller ! 
+            
+            Pourquoi non ? 
+            
+            GERBEL. 
+            
+            (18) 
+            
+. 
+            
+. 
+            
+. ADOLPHE, avec résolution. 
+            
+. ! …
+            
+            I
+            
+'
+            
+            !' ". 
+            
+            Jamais !. 
+            
+            CERBEL, se rapprochent de lui et d'un air mystérieur. 
+            
+            Et si l'existence de votre mère en dépendait ? … : : * *
+            
+            De ma mère ? 
+            
+            ADOLPue, avec émotion. 
+            
+            GERBEL, demême. 
+            
+            Oui ; car enfin vous la faites mourir de chagrin, d'inquié
+            tude. Ecoutez-moi, Adolphe, ce que je vous dis là est plus
+            
+            sérieux que vous ne le pensez…
+            J'ai traité légèrement celte
+            question avec vous jusqu'ici… (D'un ton solennel. Maintenant
+            c'est au nom de votre mère que je viens vous parler. C'est elle, 
+            
+            elle qui m'a chargé de sonder votre coeur, de lire dans votre
+            
+            ame…. je suis l'ami de votre famille, vous le savez ; me faut-il
+            
+            un titre de plus à votre confiance ? … Bientôt, j'aurai presque
+            celui de votre père. 
+            
+            Comment ? 
+            
+. 
+            
+            ADOLPHE, ému. 
+            
+            GERBEL. 
+            
+            Bientôt, madame de Varange, en acceptantma main …. 
+            
+            (Adolphe comme stupéfait passe avec effort son mouchoir sur
+            
+            son front, et se dirige vers la droite du théâtre.) Eh bien ! qu'a. 
+            
+            vez-vous dono ? … Vous avez pâli d'unemanière effrayante. 
+            
+… 
+            
+            ADOLPHE. 
+            
+            Rien, rien … (Avec contrainte.) Ainsi, Monsieur… ma mère
+            vous a chargé de savoir …. de'moi…. (Il saisit avec force la
+            main de Gerbel. 
+            
+            je consen
+            m'éloigner de cette maison ? … Elle sera satisfaite, et
+            tirais à
+            puisqu'elle a
+            placé en vous toute sa confiance … tout son
+            avenir. … venez, Monsieur, venez, je vais vous donner ma ré
+            
+            Elle vous a chargé de savoir
+            
+            si
+            
+            ponse. 
+            
+            GERBEL, effrayé et cherchant à dégager sa main. 
+            
+            A
+            
+            la bonne heure, mais ce n'est pas une raison pour me
+            
+            luxer le carpe. 
+… 
+            
+            : 
+            
+            ÁDOLPHE. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air : La voix de la patrie (de Wallace).</stage>
+            
+                    <l>Venez ! venez ! vous dis-je ! </l>
+                    <l>On m'en fait un devoir, </l>
+                    <l>Venez ! puisqu'on l'exige, </l>
+                    <l>Vous allez tout savoir, </l>
+                    <l>Venez ! vous allez tout savoir <stage type="repetition"> (Bis !) </stage></l>
+            
+. 
+            
+. 
+            
+                    (19) 
+            
+… 
+            
+. GERBEL. 
+            
+                    <l>Bien que cela m'afllige</l>
+                    <l>Tout m'en fait un devoir ; </l>
+                    <l>Oui, mon bonheur l'exige</l>
+                    <l>Et je vais tout savoir</l>
+                    <l>Enfin, je vais donc tout savoir ! </l>
+            
+                </lg>
+            </div>
+            
+           
+            
+            (Adolphe entraîne violemment Gerbel dans le cabinet à droite ; 
+            Maurice entre par la gauche avant qu'ils aient disparu, et les re
+            
+            garde avec intérét, tandis qu'Eugène entre par le fond.)
+            
+            SCÈNE VIII. 
+            
+            MAURICE, EUGÈNE. 
+            
+            EUGÈNE. 
+            
+            et
+            
+            Ah ! mon cher Maurice, conçois-tu mon chagrin ? … J'ai
+            cherché partout… impossible de découvrir mon acte de nais
+            sance ! …
+            il faut quinze jours pour en avoir un autre …
+            Mon oncle qui part la semaine prochaine. …mon mariage re
+            tardé de six mois, peut-être rompu tout-à-fait. … Tiens, Maurice, 
+            je suis le plus malheureux des hommes… il n'y a que toi qui
+            puisses me tirer de là. 
+            
+            Comment ça ? 
+            
+            · MAURICE. 
+            
+            EUGÈNE, avec beaucoup de volubilité. 
+            
+            Tu yas venir avec moi chez mon oncle… je lui expliquerai
+            ma cruelle position …. il m'entendra, ilme plaindra, il m'ac
+            cordera sept ou huit jours ; et toi tu partiras à franc-étrier ; 
+            dans trois jours tu as passé le Rhin, tu vas au village où je suis
+            lèves mon acte de naissance, tu reviens au galop, j'é
+            né ; 
+            pouse Lilia, je suis heureux, tu es heureux, nous sommes tous
+            heureux, Maurice ! 
+            
+            tu
+            
+            MAURICE, avec beaucoup de flegme. 
+            
+            Minute ! minute ! … il n'y a pas besoin d'aller le chercher
+            
+            si loin, votre papier de naissance. Il est ici, je sais l'endroit. 
+            
+            Tu le sais, et tu nous laisses chercher ? 
+            
+. 
+            
+            EUGÈNE. 
+            
+            MAURICE. 
+            
+            J'ai mes motifs … Avant de vous le donner, j'ai une petite
+            
+            anecdote à vous raconter. 
+            
+            2 *
+            
+            (20) 
+            
+            EUGÈNE, avec impatience. 
+            
+            Allons ! tu choisis bien ton moment ! 
+            
+            MAURICE. 
+            
+            C'est une chose qui est arrivée. 
+            
+            EUGÈNE. 
+            
+            Une aventure de soldat ! … mais, Maurice, tu m'as conle
+            
+            toutes tes histoires ; je sais par cour tout ton répertoire de
+            bivouac. 
+            
+            MAURICE. 
+            
+            C'est une histoire de soldat, c'est vrai ; mais celle-là
+            
+            je me
+            suis privé de vous la raconter jusqu'à présent. Il y avait em
+            
+            pêchement par ordre. 
+            
+            EUGÈNE. 
+            
+            Tu me fais souffrir. (A part) Ces vieux soldats sont mania
+            ques de narrations. (Haut) Eh ! bien voyons ! … je t'écoute…
+            mais dépêche-toi. 
+            
+            i
+            
+            MAURICE, à part. 
+            
+            C'est une position qu'il faut que j'enlève à la baïonnelte ! 
+            
+            pauvre garçon ! … enfin j'ai ordre. (Haut) C'était l'année de la
+            
+            comète… même que je la regardais quelquefois, le soir, avec
+            
+            un appelé Bégot, qui se trouvait sergent dans le 131€. 
+            
+            EUGÈNE, s'agitantavec beaucoup d' impatience. 
+            
+. 
+            
+            En 1811, l'époque n'y fait rien. Passons sur les dates. 
+            
+            MAURICE. 
+            
+            Pardon, 
+            
+            fait beaucoup. Il pouvait y avoir neuf à dis
+            mois que le colonel était marié, lorsque le régiment se trouva
+            
+            ça
+            
+            y
+            
+            partir pour Vienne en Autriche, laissant son épouse à Paris
+            
+            sur le point d'être mère. 
+            
+            Mais je sais tout ça ! … pour l'amour de Dieu ! …
+            
+            EUGÈNE. 
+            
+            MAURICE. 
+            
+            Moi, je n'avais pas suivi le régiment, ayant momentanément
+            une blessure que je
+            m' étais procurée à Tarragone. Au bout
+            d'un mois, madame de Varange s'impatiente d'être loin de son
+            mari, et elle s'imagine d'aller le rejoindre à Vienne en Autri
+            che. Il est un fait qu'une personne de seize ans n'aime pas à
+            avoir son mari à quatre cents lieues de l'endroit. 
+            
+            (21) 
+            
+            EUGENE. 
+            
+            Mais, mon pauvre Maurice, tu me contes là ce que mamère
+            
+            m'a dit cent fois. … tu me fais mourir tout debout. 
+            
+            (Il va s'asseoir auprès du guéridon à droite ; il tourne presa
+            
+            que le dos à Maurice qui a l'air de ne pas s'en apercevoir.)
+            
+, MAURICE. 
+            
+            Elle me propose donc de faire le voyage sur le siége
+            
+            de la
+            berline…. j'accepte … et en route ! Nous voilà partis, moi sur
+            le siége, et Madame avec Gertrude dans la voiture. En arrivant
+            
+            dans un petit village auprès de Francfort, la voiture allait au
+            pas, vu que ça montait ; nous entendons des cris de femme
+            
+            dans une chaumière. … Madame dit au postillon d'arrêter. Nous
+            
+            frappons… on n'ouvre pas ; et, comme on criait toujours, j'en
+. Eugène…. elle ne criait plus la pauvre
+            fonce la porte… Ah ! M
+            
+            femme ! … elle n'avait plus besoin de nous… elle était morte. 
+            
+            EUGÈNE, se tournant vers Maurice. 
+            
+            · Morte ! 
+            
+            MAURICE. 
+            
+            Sans secours. … sans témoins…. en mettant au monde un pe
+            
+            tit être qui était là sur son
+            
+            lit… Oh ! pauvre petit chou ! va ! 
+            
+… 
+            
+, EUGÈNE.-
+            
+            Malheureux enfant ! … 
+            
+            iii
+            
+. 
+            
+. 
+            
+            ? 
+            
+            MAURICE. 
+            
+            Et si vous aviez vu la bicoque ! … c'était la grêle… la misère, 
+            fin du monde. … pas un chiffon pour vêtir ce pauvre mioche… 
+            
+            la
+            
+            Votre mère est bonne, elle se met à pleurer de voir ça… 
+            
+            et vite
+            
+            elle
+            
+            fait déballer à Gertrude tout ce qui était dans la berline ; 
+            
+            car vu son état elle avait tout le fourniment d'un nouveau né. 
+            En un instant, l'enfant est réchauffé, habillé, soigné, ni plus
+            ni moins que s' il avait eu unemère … etmoi, je m'occupe de
+            courir le village pour trouver une nourrice et prendre des ren
+            seignemens. (Eugène se lève et s'approche de Maurice avec
+            
+            intérét.)
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Vaud. d'Elle et Lui. </stage>
+            
+            
+                    <l>J'apprends que de la pauvre mère</l>
+                    <l>Le mari sert sous nos drapeaux ; </l>
+                    <l>Quoi ! c'est la femm' d'un militaire ! </l>
+                    <l>J' veux l'escorter au champ d' repos. <stage type="repetition"> (Bis.)</stage></l>
+                    <l>Oui, jusque-là, sans craindre qu'on le raille, </l>
+                    <l>Le vieux soldat la conduira…</l>
+                    <l>Peut-être un jour sur le champ de bataille, </l>
+                    <l>Peut-être un jour son mari me l' rendra, </l>
+                    <l>Peut-être sur le champ d'bataille</l>
+                    <l>Un jour son mari me l' rendra. </l>
+            
+                </lg>
+            </div>
+            
+            (22) 
+            
+            EUGÈNE. 
+            
+            Ton récit m'intéresse, Maurice ; jamais ma mère ne m'avait
+            
+            conté. …
+            
+            MAURICE. 
+            
+            Mon premier soin fut de faire reconnaître le petit sous le
+            
+            nom de son père, Pierre Muller. 
+            
+            EUGÈNE. 
+            
+. 
+            
+            Et ce pauvre enfant, sais-tu ce qu'il est devenu ?, 
+            
+            MAURICE, en le regardant fixement, avec une intention
+            
+. 
+            
+            marquée. 
+            
+            Oui, oui, oui, je le sais… Nous allions repartir lorsque, 
+            
+            soit l' effet de l' émotion, soit que le moment fût yenu, madame
+            votre mère commence à sentir de fortes douleurs. Voilà un fa
+            meux embarras pour moi ! voilà un fameux inconvénient, 
+            
+            dans un village où il
+            
+            n' y
+            
+            a ni sage-femme, nimédecin, ni
+            
+            tremblement, ni rien du tout. … Je me désole, je cours comme
+            
+            un ahuri, on aurait dit que j'étais en ribotte. Par bonheur
+            
+            un régiment d'infanterie traversait le village ; la première
+            
+            personne que je
+            
+            vois, c'est un appelé Papon (mouvement
+            
+            d'impatience d' Eugène) , un appelé Papon, que j'avais connu
+            
+            dans le 105°, et qui était passé sapeur au 19€ léger. Hé ! Pa
+            
+            pon ! que je lui crie ; Papon, ché ! arrive donc par ici ! Il n' y
+            
+            a pas de bon Dieu ! il faut que tu m'embouches avec le cérugien
+            
+            de ton régiment. J'ai de l'ouvrage à lui procurer ; j'ai l'épouse
+            
+            demon colonel qui est dans le grand tralala … Il me mène au
+            
+            major, un jeune homme qui avait, ma foi, un bandeau noir
+            
+            sur l'œil gauche… 
+            
+            Je
+            
+            l'amène à
+            
+            la bicoquc ; en un rien de
+            
+            temps, c'est fini… Il emmaillotte le poupon, le plante dans
+            
+            le berceau à côté de l'autre, monte à cheval et s'en va avec son
+            
+            régiment. 
+            
+            EUGÈNE, avec une émotion croissante. 
+            
+            Il me vient un étrange soupçon ! 
+            
+            Ils étaient là …, tous deux, couchés dans le même berceau, 
+            
+            couverts des mêmes vêtemens…
+            
+            MAURICE. 
+            
+            Que dis-tu, Maurice ? 
+            
+            EUGÈNE, 
+            
+            MAURICE. 
+            
+            L'un n'avait que peu d'heures de plus que l'autre … A cet
+            
+            âge-là tous les enfans ont la même figure… ça ne ressemble à
+            
+            (23) 
+            
+            rien du tout… Quand Madame demanda son fils à Gertrude, 
+            
+            il fut impossible de distinguer l'un de l'autre, i
+            
+            i. 
+            
+            EUGÈNE, d'un accent douloureux. 
+            
+            Grand Dieu ! 
+            
+            MAURICE. 
+            
+            Choisir entre eux, c'était s'exposer à abandonner son en
+            
+            fant… mieux valait encore adopter l' étranger, elle les allaita
+            
+            tous les deux. 
+            
+… 
+            
+. 
+            
+            EUGÈNE. 
+            
+            Ah ! Maurice ! l'un de nous n'aurait plus de mère ! 
+            
+            I
+            
+            MAURICE
+            
+            Moi, je partis pour Vienne en Autriche, huit jours après ; 
+            
+            et, par ordre de Madame, je trompas mon colonel, en lui
+            
+            annonçant qu'il était père de deux gémeaux ; et un an après
+            
+            (d'une voix altérée) , il m'a quitté en me recommandant d'ai
+            
+            mer ses fils. Vous savez si j'ai gardé fidèlement le secret de Ma
+            
+            dame, et si j'ai obéi aux ordres du colonel (lui prenant la main
+            
+            avec affection) ; vous savez, Eugène, si j'ai obéi… aux ordres
+            
+            du colonel. 
+            
+            EUGÈNE-, lui serrant la main à son tour. 
+            
+            : : 
+            
+            Maurice ! tu viens de me porter un' coup mortel ; mais mon
+            amitié, une amitié éternelle, voilà le prix de ta conduite et de
+            
+            ton attachement. 
+            
+            MAURICE. 
+            
+            Quant aux actes de naissance des enfans, les voilà tous les
+            « Adolphe-Eugène de Va
+            
+            Il les tire de sa poche) .
+            
+            (
+            
+            deux. 
+            range et Pierre Muller. » Vous pouvez choisir. 
+            
+            EUGÈNE, examinant les papiers. 
+            
+            Choisir ! Adolphe n'est plus mon frère ! … lui ! … Ah ! je ne
+            
+            pourrai jamais me faire à cette idée-là. Maurice, je n'y survi-, 
+            
+            vrai pas. 
+            
+            MAURICE, s'efforçantdemontrer de la fermeté. 
+            
+            Allons, allons, consolez-vous ! et quand vous seriez le fils
+            
+            d'un soldat… c' était un brave, il était sergent quand il resta
+            
+            sur le champ de bataille de Champ-Aubert. 
+            
+            EUGÈNE, à part, et douloureusement. 
+            
+            Lui aussi !. 
+            
+            …
+            
+. 
+            
+. 
+            
+.'
+            
+            (
+            
+            24) 
+            
+            MAURICE. 
+            
+            Il était sergent tout de même, il n'y a pas à en rougir an
+            
+            moins. 
+            
+            EUGÈNE, vivement. 
+            
+            En rougir ! … va, Maurice, si
+            n'est paslewanis cenomere. Son
+            
+            peraurice, 
+            
+            je déplore ma position, ce
+            
+            n' est pas le vain regret d'un nom que j'aurais, je crois, honoré
+            
+            un jour… Mais à ce nom la main de Lilia est attachée. Si je
+            
+            perds l'un, je perdrai l'autre. Son père, homme fier de sa no
+            
+            blesse … je le connais, je le connais, Maurice, il sera inflexible. 
+            
+            MAURICE. 
+            
+            Entendez-vous avec Adolphe. 
+            
+. 
+            
+            EUGENE. 
+            
+-
+            
+-Avec lui ! … Oh ! garde toi de lui en parler, cette révélation
+            lui ferait trop de mal. 
+            
+            Voilà deux ans qu'il sait tout. 
+            
+            MAURICE. 
+            
+            Lui ! qui le lui a dit ? 
+            
+            EUGENE. 
+            
+            MAURICE. 
+            
+            Oh ! Gertrude qui aura bavardé… une langue ! 
+            
+            Il sait tout ! …
+            
+            Il sait tout. 
+            
+            EUGENE. 
+            
+            MAURICE. 
+            
+            EUGÈNE. 
+            
+            Il suffit, laisse-moi, Maurice ! (Eugènc se jette dans le fau
+            
+            teuil à droite et parait accablé.) Il sait tout ! … Ah ! tout est
+            
+            perdu pour moi. 
+            
+            MAURICE, s'approchant de lui avec bonté. 
+            
+            Si vous voulez aller voir votre oncle, j' irai avec vous… si
+            vous voulez aller voir votre oncle … (le voyant absorbé, il s'é
+            
+            loigne, ct dit à part) il a mieux pris ça queje necroyais. (Haut) 
+            Je vous ai dit la chose … voilà ! (Il sortpár le cabinel à gauche.)
+            
+            SCÈNE IX. 
+            
+            EUGENE seul. 
+            
+            Un instant a donc changé toute ma destinée ! Incertain dé
+            
+            (25) 
+            
+            sormais du nom qui in'appartient, je perds Lilia … (Il se lève.)
+            Et quand encore madame de Varange consentirait à me doter
+            du nom de sa famille, et Adolphe… Adolphe ! … que dirait-il, 
+            lui ? Avec ses idées, pourrait-il jamais pardonner une préfé
+            rence quile chargerait d'un nom pauvre et obscur ? Non, non, 
+            il n'y faut pas songer ; et ma mère ! ma mère … Non, jamais
+            position ne fut plus cruelle que la mienne. 
+            
+. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air d'Antoine (d'Ad. Adam.)</stage>
+            
+            
+                    <l>Quoi ! mon hymen ! quoi ! l'espoir du bonheur</l>
+                    <l>Peut-être, hélas ! n'est plus qu'une chimère…</l>
+                    <l>Vous, qui voyez ma crainte et ma douleur, </l>
+                    <l>Sur mon berceau jetez quelque lumière ! </l>
+                    <l>Du haut des cieux, soldat ou colonel ! </l>
+                    <l>Pauvre soldat, ou noble colonel ! </l>
+                    <l>Protégez-moi d'un regard paternel. <stage type="repetition"> (ter.)</stage></l>
+            
+                    <l>Pauvre orphelin, pour moi tout peut changer ; </l>
+                    <l>D'illusions si j'ai bercé ma vie, </l>
+                    <l>Fuyant ces lieux où je suis étranger, </l>
+                    <l>J'irai servir mon prince et ma patrie ! </l>
+                    <l ana="unanalyzable">Du haut des cieux, etc., etc. </l>
+                </lg>
+            </div>
+            
+            
+            (Il va se rasseoir, lorsque Gerbel entre par la droite.)
+            
+            · SCÈNE X. 
+            
+            GERBEL, EUGÈNE. 
+            
+            GERBEL, une lettre à la main. 
+            
+            Quel assaut ! … Enfin je le tiens, ce mot qui doit éclairer ma
+            dame de Varange ; ça n'a pas été sans peine, il n'a pas voulu
+            
+            me montrer ce qu'il avait écrit … Mais n'importe, l'essentiel
+            
+            est que j'aie obtenu l'aveu que je voulais. Il faut espérer main
+            
+            tenant que madame de Varange, une fois tranquillisée de ce
+            côté-là, accélérera les préparatifs de notre mariage, puisque
+            
+            c'est là la condition … Ah ! c'est vous, Eugène ? 
+            
+            EUGÈNE, sans le regarder. 
+            
+            Oui, M. Gerbel. 
+            
+            VERBEL. 
+            
+            Eh ! bon Dieu, qu'avez-vous ? … vous êtes tout défait ; voyons
+            
+            votre pouls. (Il lui táte le pouls.)
+            
+            EUGÈNE, avec contrainte. 
+            
+            J'ai des chagrins… oui… une contrariété que je viens d'é
+            
+            prouver. 
+            
+            (26
+            
+) .
+            
+. 
+            
+. 
+            
+            i
+            
+            ;. 
+            
+            GERBEL. 
+            
+. 
+            
+. 
+            
+. 
+            
+. 
+            
+. 
+            
+            A p a r t. 
+            
+            Que le
+            
+            o
+            
+            c
+            
+            m
+            
+            e
+            diable soit de ça ! … pour l'amour de Dieu, mon
+            
+            d e
+            
+            s a l. 
+            
+            l a i s s e z
+            
+            n
+            
+            bon ami, n'en laissez rien paraître, ça me reculerait encore. 
+            (A part.) C'est l'enfer qui s'en mêle. 
+            
+            EUGÈNE, se levant et allant à lui. 
+            
+            Vous quittez Adolphe à l'instant ? 
+            
+            GÉRBEL. 
+            
+            A
+            
+            l'instant. Tenez le voilà qui se promène à grands pas à
+            côté des orangers…
+            Il est dans une agitation, ce diable de
+            jeune homme ! …. C'est le ciel qui lui a inspiré l'idée d'aller se
+            promener du côté de la fleur d'orange… c'est un anti-spasmo
+            dique très-puissant. (Madamede Parange entre par le cabinet
+            à gauche. Eugène la regarde avec un sentiment d'inquiétude, 
+            et sort par la droite. Elle le suit des yeux avec surprise.)
+            
+            SCÈNE XI. 
+            
+            MM DE VARANGE, GERBEL. 
+            
+            MADAME DE VARANGE. 
+            
+            Eh bien ! mon cher M. Gerbel, qu'a dit mon Adolphe ? 
+            
+            GERBEL. 
+            
+            Rien, pas un mot … mais il m'a investi d'un nouvel emploi. 
+            
+            MADAME DE VARANGE. 
+            
+            Que voulez-vous dire, mon ami ? 
+            
+            GERBEL. 
+            
+            C'est vrai, je cumule toutes les charges dans cette maison. 
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : On dit que je suis sans malice. </stage>
+            
+            
+                    <l>Je questionne, j'interroge, </l>
+                    <l>Je devrais avoir une toge, </l>
+                    <l>Car je remplis la fonction</l>
+                    <l>D'un vrai juge d'instruction. </l>
+                    <l>Or, dès que la santé chancelle, </l>
+                    <l>C'est encor moi que l'on appelle, </l>
+                    <l>Je suis magistrat et docteur, </l>
+            
+                    (Lui remettant la lettre.)
+            
+                    <l>Maintenant me voilà facteur. <stage type="repetition"> (bis.)</stage></l>
+            
+                </lg>
+            </div>
+            
+. 
+            
+            MADAME DE VARANGE. 
+            
+            Un billet… quelle idée ! … (Elle lit) « Lorsque madame de
+            
+            (27) 
+            
+            » Varange changera de nom, elle n'aura plus qu'un fils … » 
+            Grand Dicu ! que signifie cet écrit ? 
+            
+            GERBEL.'
+            
+. 
+            
+            Mais c'est affreux, c'est une conspiration contre moi ! 
+            
+            MADAME DE VARANGÉ avec effroi. …
+            
+            Mon Dieu ! … il semble annoncer un dessein funieste. 
+            
+. 
+            
+, GERBEL. 
+            
+. 
+            
+. 
+            
+            Ca ne se conçoit pas… ce jeune homme ne jouit pas de la
+            
+            plénitude de sa raison … l'air de ce pays lui est contraire. 
+            
+            MADAME DE VARANGE. 
+            
+            : : : : : 
+            
+            M. Gerbel ! que je suis désespérée … il faut que je lui parle, 
+            
+            qu'il m'explique lui-même le sens de cet étrange billet…. Ah ! 
+            
+            aidez moi de vos conseils, n'abandonnez pas une pauvre mère
+            
+            qui n'espère qu'en vous. 
+            
+            • XII. 
+            SCÈNE XII. 
+            
+. 
+            
+. 
+            
+… 
+            
+. 
+            
+            GERTRUDE (accourant par le fond) , Mme DE VARANGE, 
+            
+            GERBEL. 
+            
+            GERTRUDE. 
+            
+            Madame ! madame ! ils sont là tous les deux dans le jardin. 
+            
+            Qui ? 
+            
+            GERBEL. 
+            
+. 
+            
+', 
+            
+            Gertrude. 
+            
+            Nos jeunes gens… Je ne sais pas ce qui est arrivé à M. Adol
+            
+            phe… mais il est tout défait ; il dit qu' il
+            
+            est le plus malheu
+            
+            reux des hommes ; il marche, il lève les yeux au ciel. 
+            
+            MADAME DE VARANGE, à Gerbel. 
+            
+            Que faire ? tous les jours mes craintes augmentent. Parlez, 
+            
+            M. le baron, parlez ! 
+            
+            GERBEL. 
+            
+            Madame, il n'y a qu'un seul parti à prendre, il faut qu'il
+            parte ; qu'il aille occuper le poste qu'on lui donne dans le Le
+            
+            vant ; c'est nécessaire, je ne vous le cache pas. 
+            
+            MADAME DE VARANGE. 
+            
+            Me séparer de lui ? … ah ! Monsieur, je ne le pourrai jamais. 
+            
+            (28) 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : De votre bonté généreuse. </stage>
+            
+            
+                    GERBEL. 
+            
+                    <l>De quelle crainte êtes-vous donc saisie ? </l>
+                    <l>Votre fils, jeune homme exalté. </l>
+                    <l>Retrouvera, sous le ciel de l'Asie, </l>
+                    <l>Et sa raison, et sa sérénité ; </l>
+                    <l>Ne craignez pas une trop longue absence, </l>
+                    <l>Loin de vous du moins il vivra. </l>
+              
+           
+            
+            
+            MADAME DE VARANGE., vivement. 
+            
+            … "
+            
+. 
+            
+. <l>Que dites-vous ? quoi ! s'il restait en France…</l>
+            
+            ; GERBEL, avec force. 
+            
+            <l part="I">Il périrait.</l>
+            
+            :, , MADAME DE VARANGE, douloureusement. 
+            
+            …. 
+            
+. 
+            
+            <l part="F"> Il partira,</l> 
+            
+            <l>Ah ! pauvre mère ! il partira ! </l>
+                </lg>
+            </div>
+            
+            Gertrude ! Gertrude ! dis-lui de venir me parler. 
+            
+            GERBEL. 
+            
+            Cachez-lui autant que possible lemotif qui vous fait agir, il
+            
+            ne faut pas lui frapper l'imagination. 
+            
+            · MADAME DE VARANGE. 
+            
+            Soyez tranquille, mon ami. 
+            
+            GERTRUDE. 
+            
+            Justement il vient de ce côté. 
+            
+            GERBEL. 
+            
+            Allons ! allons ! rappelez-vous mes avis. 
+            
+            GERTRUDE ET GERBEL : 
+            
+. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air : Ma sœur chérie (du Roman par lettres).</stage>
+            
+            
+                    <l>Point de faiblesse, </l>
+                    <l>Votre tendresse</l>
+                    <l>Doit bien sentir combien ça l'intéresse. </l>
+                    <l>Oui ! du courage ! </l>
+                    <l>Votre langage</l>
+                    <l>Doit l'exhorter</l>
+                    <l>À vous quitter. </l>
+            
+                    MADAME DE VARANGE. 
+            
+                    7
+            
+'
+            
+                    <l>Point de faiblesse ! </l>
+                    <l>Que ma tendresse</l>
+                    <l>Reste en ce cœur que la douleur oppresse ! </l>
+                    <l>Qui ! du courage, </l>
+                    <l>Dans mon langage, </l>
+                    <l>Pour l'exhorter</l>
+                    <l>À me quitter ! </l>
+            
+                    (A part, tandis que Gerbel et Gertrude regardent en dehors pour
+            
+                    (29) 
+            
+                    voir venir Adolphe.)
+            
+                    <l>Cachons-lui ma douleur amère, </l>
+                    <l>Oui, son bonheur m'impose cette loi ! </l>
+                    <l>Il souffrirait près de sa mère ; </l>
+                    <l>Ah ! qu'il soit heureux loin de moi. </l>
+            
+                    Tous à demi-voix. 
+            
+. 
+            
+                    <l ana="unanalyzable">Point de faiblesse, etc. </l>
+            
+                </lg>
+            </div>
+            
+            (Gertrude sort par le cabinet à gauche, el Gerbel par le ca
+            
+            binet à droite.)
+            
+            SCÈNE XIII. 
+            
+            ADOLPHE, Mme DE VARANGE. (Adolphe, dont le cos
+            
+            tume est en désordre, entre lentement. Il aperçoit madame
+            
+            de Varange ; après avoir fait quelques pas dans le salon, 
+            
+            il recule comme s' il voulait rétrograder.)
+            
+            Ma mère ! 
+            
+            ADOLPHE, 
+            
+            à part. 
+            
+            MADAME DE VARANGE, avec douceur. 
+            
+            Mon ami ! tu viens de te promener dans le jardin ? 
+            
+            ADOLPHE. 
+            
+            Oui, ma mère. … je viens… du jardin. 
+            
+            MADAME DE VARANGE. 
+            
+            Tu étais avec ton frère ? 
+            
+            Avec… mon frère… oui. 
+            
+            ADOLPHE. 
+            
+            MADAME DE VARANGE. 
+            
+            J'allais te rejoindre. 
+            
+            Vous ? 
+            
+            ADOLPHE, surpris, 
+            
+            MADAME DE VARANGE, prenant une chaise et la plaçant près
+            
+            : du fauteuil qui est à droite du spectateur. 
+            
+            Mon ami ! je voulais causer avec toi, tranquillement, 
+            
+            là
+            
+            (il
+            
+            s'assied, madame de Varange lui prend la main) comme
+            
+            une amie, comme ta meilleure amie. … comme une mère. 
+            
+            (30) 
+            
+            s
+            
+            ii
+            
+. 
+            
+            ADOLPHE. 
+            
+… 
+            
+            "
+            
+            Je vous écoute. 
+            
+            MADAME DE VARANGE, avec beaucoup de douceur et comme
+            
+            cherchant à interroger les regards d'Adolphe. 
+            
+            Depuis long-temps, Adolphe, tu me fuis, tu sembles crain
+            
+            dre ma présence ; depuis plus d'un an tu as renoncé avec moi
+            
+            au langage de l'amitié ; tu ne me dis plus : toi. Qu'ai-je donc
+            fait pour cela ? Je n'ai plus la confiance, Adolphe ! tu ne m'ai
+            
+            mes plus. 
+            
+            ADOLPHE, vivement. 
+            
+            Oh ! ne le pensez pas, je serais un monstre. 
+            
+            MADAME DE VARANGE. 
+            
+            Ce n'est pas un reproche que je t'adresse, non, mon ami…
+            c'est une plainte. Dis moi que je me suis trompée et je serai la
+            
+            plus heureuse des mères. 
+            
+            Ah ! vous vous êtes abuséc. 
+            
+            · ADOLPHE. 
+            
+            MADAME DE. VARANGE, avec inquiétude. 
+            
+            Mais une chose sur laquelle je n'ai pu meméprendre … ce
+            
+            billet… mon Adolphe ! qu'as-tu voulu me dire ? 
+            
+            ADOLPHE. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air d'Aristippe. </stage>
+            
+            
+                    <l>Oui, ce billet que vous venez de lire, </l>
+                    <l>Il est obscur : je n'en suis pas surpris. </l>
+                    <l>Ah ! pardonnez un moment de délire ; </l>
+                    <l>Je rougirais que vous l'eussiez compris. <stage type="repetition"> (bis.)</stage></l>
+                    <l>Ma main tremblante et si mal assurée</l>
+                    <l>A pu former des mots sans liaison. </l>
+                    <l>Oui ! ma plume s'est égarée, </l>
+            
+                    (à part.)
+            
+                    <l>Elle aura suivi ma raison. <stage type="repetition"> (bis.)</stage></l>
+                </lg>
+            </div>
+            
+            
+            MADAME DE VARANGE. 
+            
+            Tu as des chagrins, mon Adolphe ! et qui peut les cau
+            
+            ser ? … Tout le monde ici te chérit ; environné d'amis, tu sem
+            
+            bles te défier de tout ce qui t'entoure. Parle-moi, as-tu quelque
+            
+            projet… pour lequel une partie de ma fortune te serait né
+            
+            cessaire ? 
+            
+            ADOLPAB, vivement. 
+            
+            Ah ! gardez votre or. 
+            
+            (31) 
+            
+            MADAME DE VARANGE. 
+            
+            Ton cæur est-il agité par l'ambition
+            
+            par l'amour ? 
+            
+            ADOLPHE, se levant et s'éloignant, brusquement de sa mère. 
+            
+            L'amour ! Oh ! non, non, je n'ai d'amour pour personne. 
+            
+            MADAME DE VARANGE, le suivant. 
+            
+            Pourquoi donc cette sombre inquiétude qui te rend mal
+            
+            heureux, qui t'éloigne de tous les plaisirs de ton âge ? Il me
+            serait si doux de te voir tel que tu dois être, tel que ton frère. 
+            
+            (Adolphe est devenu réveur et ne regarde pas madamede Va
+            
+            range.) Je crois… (Elle lui touche doucement le bras comme
+            
+            pour rappeler son attention.) Adolphe ! ! je crois (avec hésita
+            
+            tion) qu'un … voyage te serait nécessaire, 
+            
+            ADOLPHE, avec émotion. 
+            
+            Un voyage, pourquoi ? 
+            
+            MADAME DE VARANGE. 
+            
+            Tu sais que le ministre t'a nommé secrétaire d'ambassade
+            
+            dans le Levant. 
+            
+            · ADOLPHE, amèrement. 
+            
+            Oui, je le sais, et vous désirez que j'accepte ? 
+            
+… 
+            
+            MADAME DE VARANGE, d'une voix émue. 
+            
+            Il le faut, mon ami, je ne te dirai pas quel sacrifice je m'im
+            
+            pose en t'éloignant de moi ; mais sois-en sûr, un séjour, ne fût
+            
+            il que d'une année, sous un ciel étranger, te rendra le calme et
+            
+            le bonheur. 
+            
+            ADOLPHE, avec amertume. 
+            
+            Le bonheur ! … ilne dépend pas de vous de me le rendre. 
+            
+            MADAME DE VARANGE. 
+            
+            Que dis-tu ? 
+            
+            A DOLPHE. 
+            
+            Mais vous croyez que je n'ai plus d'attachement pour vous ; 
+            
+            et yous'm'éloignez. 
+            
+            MADAME DE VARANGE. 
+            
+            Adolphe ! peux-tu concevoir cette affreuse pensée ? 
+            
+            ADODPHE. 
+            
+            Ah ! je sens que ma présence ici formeun contraste pénible
+            
+            avec le bonheur qu'on y ressent. 
+            
+            (32) 
+            
+            MADAME DE VARANGE,'avec tendresse. 
+            
+            Et qui donc est heureux autour de toi ? 
+            
+            ADOLPHE. 
+            
+…, 
+            
+            Eugène va se marier … il peut épouser celle qu'il aime. 
+            
+            MADAME DE VARANGE, à part et comme frappée d'un trait de
+            
+            Quel soupçon !. 
+            
+, 
+            
+            lumière. 
+            
+            ADOLPHE. 
+            
+. 
+            
+            Vous-même allez contracter de nouveaux liens, l'image du
+            
+            bonheur va vous environner de toutes parts. Ah ! que le vôtre
+            
+            soit complet, je partirai… je partirai ce soir. Soyez heureuse ! 
+            
+            heureuse toujours. … et oubliez-moi ! 
+            
+            MADAME DE VARANGE. 
+            
+            Heureuse en t'oubliant ! moi, t'oublier ! Ingrat, ne suis-je pas
+            
+            ta mère ? 
+            
+            ADOLPHE, avec force, et s'éloignant d'elle. 
+            
+            Ne dites pas cemot, il me tue ! 
+            
+            MADAME DE VARANGE, effrayée. 
+            
+            Mon fils ! que veux-tu dire ? 
+            
+            ADOLPHE, revenant à lui. 
+            
+            Ah ! madame… ma mère, pardon ; oui, je vais partir, ce
+            
+            soir. …
+            
+            il faut que je
+            
+            m' éloigne. … Je suis bien malheureux… 
+            
+            Mais quand je serai loin. … ah ! promettez-moi que mon nom
+            ne vous sera point en horreur, promettez-moi que vous neme
+            
+            maudirez pas ! 
+            
+            MADAME DE VARANGE. 
+            
+            Te maudire, moi ? … ah ! (Elle lui tend les bras, il va pour
+            
+            s'y précipiter, mais il s'arrête tout-à-coup.)
+            
+            ADOLPHE, au désespoir. 
+            
+            Non, non, ne me dites pas adieu ! je veux vous revoir encore. 
+            
+            { Il s'éloigne désespéré et sort par la porte du fond, en se
+            
+            dirigeant à droite. Madame de Varange reste comme pétrifiée
+            
+            à sa place.)
+            
+            (33) 
+            
+            SCÈNE XIV. 
+            
+            Mme DE VARANGE seule. 
+            
+            Malheureux enfant ! comme sa tête est égarée ! Un soupçon
+            
+            cruel… aimerait-il Lilia ? le mariage d'Eugène serait-il la cause
+            
+            de son désespoir ? Jamais un mot sorti de sa bouche ne m'avait
+            
+            laissé deviner … Eugène ! Adolphe ! vous ennemis ? Ah ! je ne
+            
+            puis supporter cette pensée. … et Eugènę ! il adore Lilia, il
+            l'aime…. comme on aime à son âge …. La lui ravir, rompre cette
+            
+            union, c'est déchirer son coeur, c'est lui arracher la vie ; je le
+            
+            sens, l'absence seule pourra éteindre dans le cour d'Adolphe
+            
+            cette passion funeste. Oui, qui, M. Gerbel avait raison. (Vayant
+            
+            Eugène qui entre par le fond venant de la droite) . Eugène, 
+            
+            c'est toi. … ah ! viens, viens me consoler … ta mère est bien mal
+            
+            heureuse ! (Elle se jette dans ses brus.)
+            
+            SCÈNE XV. 
+            
+            EUGÈNE, MME DE VARANGE. 
+            
+            EUGENE, fort agité. 
+            
+            Mamère ! est-il vrai ? Maurice prépare tout pour son dé
+            
+            part et celui d'Adolphe ? Adolphe va partir ? lui, nous quit
+            ter ? …. 
+            
+            MADAME DE VARANGE. 
+            
+            Mon Eugène, il le faut ! Cette séparation … (avec force) sa
+            
+            vie en dépend ! 
+            
+            EUGENE. 
+            
+            Sa vie ? Et c'est moi qui serais la cause de son malheur ! de
+            
+            sa mort peut-être ! 
+            
+            MADAME DE VARANGE. 
+            
+            Toi, dis-tu ? (A pari.) Soupçonnerait-il ? …
+            
+            EUGENE. 
+            
+            A l'instant je viens de le voir, là, il marchait d'un air éga
+            
+            ré, vers son appartement ; il m'aperçoit… reste devantmoi les
+            
+            yeux fixes, immobiles… me presse la main, en me disant : 
+            
+            « Eugène ! tu vas te marier ; tu vas être heureux ; qu'elle soit heu
+            
+            reuse aussi ! Je pars, je
+            
+            n' en
+            
+            vais, vous ne me verrez plus ! » 
+            
+            N'en doute pas, mamère, n'en doute pas, j'ai lu dans ses yeux, 
+            
+            dans ses gestes, dans son cour ; il aime Lilia. 
+            
+            (34) 
+            
+            MADAME DE VARANGE. 
+            
+            Ah ! mon Eugène ! 
+            
+            EUGENE, avec sentiment. 
+            
+            Et tu me l'as caché ! … et lui, lui… et pour prix de sa géné
+            rosité je souffrirais qu' il s'exilât, qu' il allât traîner une vie
+            
+            malheureuse sur une terre étrangère, loin de moi, loin de sa
+            mère ? Jamais, jamais ! serais-je heureux quand il ne le serait
+            pas ? L'idée de son malheur flétrirait tousmes jours ? Il me haï
+            je n'aurais plus de frère : 
+            rait peut-être, j'aurais une épouse, 
+            plutôtmourir. Oui, je renonce à la main de ma cousine ; qu'elle
+            soit à lui, j'y consens. Mamère ! cours verslui, dis-lui… … dis-lui
+            que je n'aime pas Lilia, dis-lui que leur union fera mon bon
+            heur, qu'il comble les voeux de mon oncle, qu'il donne un nom
+            illustre à sa fille ! Que ton cour n'hésite plus ! c'est moi, moi
+            qui veux être l'étranger, moi, le fils du pauvre sergent ! 
+, 
+            
+            MADAME DE VARANGE, au comble de l'émotion. 
+            
+            Eugène ! que dis-tu ? 
+            
+            EUGENE, vivement. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Un page aimait la jeune Adèle. </stage>
+            
+            
+-
+            
+                    <l>Ne repoussez pas ma prière, </l>
+                    <l>Bonne mère ! entendez ma voix ! </l>
+                    <l>Si je vous nomme encor ma mère, </l>
+                    <l>Pardon ! c'est la dernière fois. </l>
+                    <l>Je renonce à votre richesse, </l>
+                    <l>D'un grand nom j'abjure l'éclat, </l>
+                    <l>Pourvu que la noble comtesse</l>
+            
+            
+            
+                    (Se jetant dans les bras de Mad. de Varange.)
+            
+                    <l>Aime encor le fils du soldat. <stage type="repetition"> (bis) </stage></l>
+                </lg>
+            </div>
+            
+            
+            n
+            
+. 
+            
+            MADAME DE VARANGE, le pressant dans ses bras. 
+            
+            Tu connaissais donc mon secret ? 
+            
+            (Gerbel paraît au fond un manuscrit à la main.)
+            
+            EUGENE. 
+            
+            Je sais tout… je sais que le jour où tu donnas la vie à l'un
+            de nous, une pauvre femme mit au monde un fils, que les en
+            
+            fans furent confondus, qne ta tendresse les adopta tous les
+            
+            deux, que les seuls témoins de cet événement, ce fut Maurice, 
+            
+            Gertrude et un médecin … …. 
+            
+            (35) 
+            
+            SCÈNE XVI. 
+            
+            · GERBEL, EUGENE, Mm. DE VARANGE. 
+            
+            C'estmoi ! 
+            
+            Vous, docteur ? 
+            
+. Vous ? 
+            
+            GEKBEL. 
+            
+            EUGENÉ. 
+            
+            MADAME DE VARANGE. 
+            
+            GERBEL. 
+            
+            A Eisenach près Francfort, en 1811. 
+            
+            C'est ce que je dois
+            vous lire ce soir ; le fait est consigné dansmes Mémoires. Tenez
+            
+            (il feuillette son manuscrit) , l'un de ces deux enfans portait
+            
+            sur la poitrine. …
+            
+            SCÈNE XVII. 
+            
+            GERBEL, EUGÈNE, ADOLPHE, entrant par le fond ; il
+            
+            a les cheveux épars, la cravate presque dénouée, la figure
+            pále, les traits décomposés ; 
+            il a un chapeau à la main. 
+            
+            Mme DE VARANGE, puis MAURICE. 
+            
+            EUGENE, vivement. 
+            
+            Silence, voici Adolphe ! (Gerbel referme précipitamment son
+            
+            manuscrit.)
+            
+            ADOLPHE, tendant la main à Eugène et
+            
+'une voix émue. 
+            
+            Adieu ! 
+            
+            EUGENE. 
+            
+            Oh non ! pas encore. Parle… parle à notre mère. Vencz, 
+            
+            venez, docteur ! 
+            
+            (Il entre précipitamment avec Gerbel dans le cabinet à
+            
+            droite. Maurice paraît à la porte du fond, il porte une valise. 
+            
+            sur l'épaule, et la dépose en dehors ; il entre avec un manteau
+            
+            sur le bras.)
+            
+            : 
+            
+            MAURICE. 
+            
+            Nous voilà prêts. (Frappant sur l'épaule d' Adolphe) . Al
+            
+            lons, allons, un peu de fermelé. Madame, vous m'avez chargé
+            d'accompagner Adolphe ? 
+            
+            (36) 
+            
+            MADAME DE VARANGE. 
+            
+            Ce n'est pas un serviteur, c'est un amique je lui conserve. 
+            
+            MAURICE. 
+            
+            Oh ! oui… quoique ça, si je vous disais que ça ne me fait
+            
+. 
+            
+            pas quelque chose de partir ; oh ! si… il n' y a qu'une raison qui
+            
+            me console, c'est que je n'emmène pas Gertrude. 
+            
+            MADAME DE VARANGE. 
+            
+            Maurice, je vous le recommande, lâchez de le distraire. 
+            
+            MAURICE. 
+            
+            Oh ! ce n'est pas ça qui lui manquera. Nous irons faire une
+            
+            petite tournée en Egypte, je lui montrerai tout ce qui en
+            
+            est : 
+            
+            le champ de bataille des Pyramides, l'endroit où les Mame
+            
+            lucks ont eu le désagrément de se noyer dans le Nil, le point
+            
+            sur lequel nous débarquèrent avec la division Reynier, l'en
+            
+            droit où nous allions à la chasse aux cocodrilles, et où je fus
+            
+            blessé avec un appelé Piquenot, du 3e dragons ; enfin je le dis
+            
+            trairai, quoi ! j'ai ordre. 
+            
+            ADOLPHE, lui donnant son chapeau. 
+            
+            Maurice, laisse-nous un instant.'
+            
+            : 
+            
+            MAURICE. 
+            
+            Vous me retrouverez là. (Il sort par le fond.)
+            
+            SCÈNE XVIII. 
+            
+            ADOLPHE, Mme DE VARANGE. 
+            
+. 
+            
+            ADOLPHE. 
+            
+            Mamère ! avant de partir, avant de me résigner à cette sé
+            
+            paration … nécessaire à votre bonheur…
+            
+            MADAME DE VARANGE, avec amertume. 
+            
+            A mon bonheur, ingrat ! 
+            
+            ADOLPHE. 
+            
+            Ou, du inoins, au mien. J'ai voulu vous ouvrir mon coeur ; il
+            
+            a bien souffert depuis deux ans : le repos, le bonheur, tout a
+            
+            fui loin de moi ; la mesure est comblée aujourd'hui… vous
+            m'éloignez de vous ! 
+            
+            MADAME DE VARANGE. 
+            
+            Adolphe ! j'ai cru cette séparation nécessaire… (appuyant) 
+            
+            nécessaire pour toi. 
+            
+            (37) 
+            
+            ADOLPHE. 
+            
+            J' ai besoin, en partant, d'emporter l'idée que je ne vous suis
+            
+            point odieus. 
+            
+            MADAME DE VARANGE, avec sentiment. 
+            
+            Odieux à ta mère ! 
+            
+            ADOLPHE, vivementet d'une voix basse. 
+            
+            Je le suis à moi-même, j'ai besoin d'emporter mon pardon. 
+            
+            : 
+            
+            MADAME DE VARANGE. 
+            
+            Qu'ai-je donc à te pardonner ? 
+            
+            ADOLPHE, avec passion. 
+            
+            Oui, depuis deuxans, un amour… un amour funeste, a égaré
+            
+            ma raison. J'aime. … j'aime à l'adoration. 
+            
+. 
+            
+            MADAME DE VARANGE… 
+            
+            Je le sais. 
+            
+            Vous le savez ? 
+            
+            ADOLPHE. 
+            
+            MADAME DE VARANGE. 
+            
+            : 
+            
+            Eugène a découvert ton amour ; moi, je l'avais deviné. 
+            
+            Vous ! … et vous neme repoussez pas ? 
+            
+            ADOLPHE, avec délire. 
+            
+            MADAME DE VARANGE. 
+            
+            Mon ami, reviens à toi ! si cette union seule peut faire ton
+            
+            bonheur, elle n'est pas impossible. 
+            
+            ADOLPHE, avec force. 
+            
+            Quoi ! je ne serais pas votre fils ! 
+            
+            MADAME DE VARANGE. 
+            
+            Que dis-tu ? quel soupçon ? 
+            
+            Qui donc croyez-vous que j'aime ? 
+            
+            ADOLPHE. 
+            
+            MADAME DE VARANGE. 
+            
+            N'est-ce pas Lilia ? 
+            
+            ADOLPHE, s'éloignantavec désespoir. 
+            
+            Malheureux ! ! je me suis trahi moi-même ! 
+            
+            MADAME DE VARANGE, s'éloignant à son tour, et avec horreur. 
+            
+            Quel langage, grands dieux ! 
+            
+            (38) 
+            
+            ADOLPHE, hors de lui, se rapprochant de madame de
+            
+            Varange. 
+            
+            Apprenez tout : depuis deux ans je sais qu'un de nous deux
+            
+            ne vous doit pas la vie. 
+            
+            MADAME DE VARANGE. 
+            
+            Eh bien ! 
+            
+            Eugène est votre fils. 
+            
+            ADOLPHE. 
+            
+            MADAME DE VARANGE, vivement. 
+            
+            Quelle preuve en as-tu ? 
+            
+            ADOLPHE, prenant la main de madame de Varange et la
+            
+            tenant fortement appuyée sur son cæur. 
+            
+            La preuve est là… là … dans mon cøur. 
+            
+            MADAME DE VARANGE, le regardant d'un air effrayé. 
+            
+            Tu t'égares ! 
+            
+            ADOLPHE, au comble de l'exaltation. 
+            
+            Oui ! si vous étiez ma mère, le ciel n'eût-il pas placé dans
+            
+            ce cour les sentimens d' un fils ? Mais non, mon cœur me dit : 
+            Elle n'est pas ta mère, elle ne peut pas l'être. Oh ! dites-moi, 
+            dites-moi que vous n'êtes pasma mère ! 
+            
+            (Il se jette aux pieds demadame de Varange.)
+            
+            MADAME DE VARANGE, se cachant la figure de ses mains et se
+            
+            détournant avec horreur. 
+            
+            Ah ! le malheureux ! 
+            
+            SCÈNE XIX. 
+            
+            Les mêmes, EUGENE, GERBEL, sortant du cabinet à droite. 
+            
+            EUGENE, accourant et avec joie. 
+            
+            C'est lui, c'est lui qui est ton fils ; en voici la preuve ! (Ma
+            
+            damede Varange jette un cri d'effroi et tombe sur le fauteuil.)
+            
+            Adolphe ! mon ami, sois heureux ; c'est toi, toi qui es le fils
+            
+            du comte de Varange !. 
+            
+. 
+            
+'
+            
+            GERBEL, montrant son manuscrit. 
+            
+            J'en jure sur l'honneur ! 
+            
+            (39) 
+            
+            MADAME DE VARANGE
+            
+            Quelle horrible situation ! 
+            
+            Vous en avez la preuve ? il suffit, adieu ! 
+            
+. 
+            
+            ADOLPHE', attéré. 
+            
+            is
+            
+            in
+            
+            EUGENE.'
+            
+. 
+            
+            Non, non, tu ne partiras pas. 
+            
+            MADAME DE VARANGE, vivement à Eugène. 
+            
+            Silence ! 
+            
+            (Eugène regarde Gerbel d'un air interdit :) 
+            
+            ADOLPHE. 
+            
+            Adieu ! ma mère ; nous nous reverrons un jour…. heureux …
+            tous ! (Il montre le ciel ; personne ne remarque ce mouvement.)
+            
+            MA DAME DE VARANGE. 
+            
+            Adieu ! … (Elle semble hésiter, puis lui tend la main qu'il
+            
+            baise avec transport) Adieu ! mon fils ! … adieu ! (il sort d'un
+            
+            air égare) .
+            
+            SCÈNE XX. 
+            
+            GERBEL, EUGENE, 
+            
+            M » DE VARANGE. 
+            
+            EUGENE, voulant s'élancer après lui. 
+            
+            Où vas-tu, Adolphe ? arrête ! J'ai renoncé à sa main ! Igno. 
+            
+            res-tu ? …. 
+            
+            GERBEL, le retenant. 
+            
+            Ne craignez pas qu' il s'éloigne ! J'ai fait fermer toutes les
+            
+            portes. 
+            
+            (L'orchestre exécute piano jusqu'à la fin de la pièce.)
+            
+            EUGENE. 
+            
+            Ah ! Madame ! vous qui, depuis ma naissance m'avez tenu
+            
+            lieu de mère ! accordez-moi encore cette grâce ! Allons tous
+            
+            ensemble trouver M. de Varange, qu'il donne sa fille à Adol
+            
+            et puisque ce sacrifice est nécessaire, qu'il épouse celle
+            
+            phe, 
+            qu' il aime ! 
+            
+            MADAME DE VARANGE, d'une voix étouffée. 
+            
+            Celle qu'il aime ! celle qu'il aime ! Apprenez l'affreuse vérité…
+            (Elle se lève et s' appréte à parler lorsqu'on entend un coup de
+            feu. Madame de Varange jette un cri perçant.)
+            
+            (40) 
+            
+            EUGENE ET GERBEL. 
+            
+            …
+            
+            Grand Dicu ! 
+            
+            (Tous trois restent en place comme frappés de stupeur. Les
+            
+            domestiques traversent en courant le fond du théâtre ; à peine
+            
+            sont-ils hors de vue, qu'on les entend pousser un cri d'effroi.)
+            
+            MADAME DE VARANGE, tombant évanouie dans les bras de
+            
+            Ah ! je n'ai plus de fils ! 
+            
+. 
+            
+            Gerbel. 
+            
+            EUGENE égaré, se précipitant vers la porte du fond. 
+            
+            Adolphe ! Adolphe ! où est-il ? 
+            
+            SCÈNE XXI ET DERNIÈRE. 
+            
+            EUGÈNE, MAURICE, MME DE VARANGE évanouie, 
+            
+            · GERBEL. 
+            
+            MAURICE, accourant et lui barrant le passage. 
+            
+            Avec son père maintenant. 
+            
+            FIN. 
+            
+            Österreichische Nationalbibliothek
+            
+            +Z160369601
+          
+        </body>
+    </text>
+</TEI>

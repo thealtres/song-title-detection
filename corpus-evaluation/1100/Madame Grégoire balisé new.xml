@@ -1,0 +1,5669 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">MADAME GRÉGOIRE, OU LE CABARET DE LA POMME DE PIN</title>
+                <title type="sub">CHANSON EN DEUX ACTES</title>
+                <author key="RLY" sort="1">
+                    <name>
+                        <forename>Claude-Louis-Marie</forename>
+                        <surname>Rochefort-Luçay</surname>
+                        <addname type="pen_name">Edmond Rochefort</addname>
+                        <addname type="pen_name">Rochefort</addname>
+                        <addname type="pen_name">Le docteur Mesenthère</addname>
+                    </name>
+                </author>
+                <author key="DPY" sort="2">
+                    <name>
+                        <forename>Charles Désiré</forename>
+                        <surname>Dupeuty</surname>
+                    </name>
+                </author>
+                <author key="SDL" sort="3">
+                    <name>
+                        <forename>Charles</forename>
+                        <surname>Sanguin de Livry</surname>
+                        <addname type="pen_name">Charles</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">MADAME GRÉGOIRE, OU LE CABARET DE LA POMME DE PIN</title>
+                        <author>ROCHEFORT, DUPEUTY ET CHARLES</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=k8VoAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>The British Library</repository>
+                                <idno type="URL">http://access.bl.uk/item/viewer/ark:/81055/vdc_100034310687.0x000001#?c=0</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-05-21">21 MAI 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE NATIONAL DU VAUDEVILLE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+                        A propos de ce livre
+            
+                        Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+                        précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+                        ligne. 
+                        Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+                        “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+                        expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+                        autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+                        trop souvent difﬁcilement accessibles au public. 
+                        Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+                        du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+                        Consignes d'utilisation
+            
+                        Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+                        ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+                        Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+                        dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+                        contraintes techniques relatives aux requêtes automatisées. 
+                        Nous vous demandons également de : 
+            
+                        + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+                        Ils ne sauraient en effet être employés dans un
+            
+                        Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+                        quelconque but commercial. 
+            
+                        + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+                        des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+                        d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+                        ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+                        + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+                        et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+                        aucun cas. 
+            
+                        + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+                        veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+                        les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+                        les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+                        Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+                        vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+                        À propos du service Google Recherche de Livres
+            
+                        En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+                        contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+                        aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+                        des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+                        MADAME GRÉGOIRE, 
+            
+, 
+            
+                        OU
+            
+                        LE CABARET DE LA POMME DE PIN, 
+            
+                        CHANSON EN DEUX ACTES, 
+            
+                        PAR MM. ROCHEFORT, DUPEUTY ET CHARLES ; 
+            
+                        the SENTER, 
+            
+                        REPRÉSENTÉE, POUR LA PREMIÈRE FOIS, 
+            
+                        SUR LE THÉATRE NATIONAL DU VAUDEVILLE, 
+            
+                        LE 21 MAR 1830. 
+            
+                        i
+            
+                        NOUVELLE ÉDITION. 
+            
+                        PRIX : 2 FRANCS. 
+            
+                        PARIS. 
+            
+                        BEZOU, LIBRAIRE, 
+            
+                        BOULEVARD SAINT-MARTIN, Nº. 29, 
+            
+                        vis-a-vis le nouveau théâtre de l'Ambigu-Comique. 
+            
+                        1831. 
+            
+                        PERSONNAGES. 
+            
+                        ACTEURS. 
+            
+                        D'AUBERVAL, danseur de l'Opéra. 
+            
+                        M. FONTENAY. 
+            
+                        BELROSE, sergent du guet… 
+            
+                        M. LAFONT. 
+            
+                        D'ESPARVILLE, financier… 
+            
+                        M. LEPEINTRE, je
+            
+                        LUQUET, Md. verrier… 
+            
+                        M. ARNAL. 
+            
+'
+            
+                        BENOIT, fallot de l'Opéra… 
+            
+                        M. ARMAND. 
+            
+                        Mme GRÉGOIRE,'cabaretière… Mme DOCHE. 
+            
+                        FANCHETTE, auvergnatte, et femme
+            
+                        supposée de Benoît… 
+            
+                        Mlle WILLEMIN. 
+            
+                        MANON GIROUX, blanchisseuse… Mme LACAZE. 
+            
+                        GIROUX, son mari, batelier… M. CAşsel. 
+            
+                        MARIOTTE, servante… 
+            
+                        Mlle GEORGINA. 
+            
+                        UN CAPORAL DU GUET… 
+            
+… 
+            
+                        M. EMILIEN. 
+            
+                        Hommes, Femmes da people. 
+            
+                        Soldats. 
+            
+                        La Scène est à Paris, en 176o. 
+            
+                        DE L'IMPRIMERÍE DE CHASSAIGNON, RUE GIT-LE-CŒUR, 
+            
+                        N° 7
+            
+                        MADAME GRÉGOIRE, 
+            
+                        OU
+            
+                        LE CABARET DE LA POMME DE PIN, 
+            
+                        CHANSON EN DEUX ACTES, 
+            
+                        AGTE PREMIER. 
+            
+                        Le Théâtre représente le jardin d'une guinguette ; des tables dans
+                        Près de la coulisse de droite
+            
+                        le fond, à droite et à gauche. 
+            
+                        une petite séparation en clairevoie, qui ferme à clé. Une maison
+            
+                        à gauche. 
+            
+                        SCÈNE PREMIÈRE. 
+            
+                        GIROUX, PLUSIEURS HOMMES DU PEUPLE boivent à des
+            
+                        tables à droite ; les dragons de la Reine et des gardes
+            
+                        Françaises boivent de l'autre côté ; les soldats jouent aux
+            
+                        cartes. 
+            
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                
+                                    CHŒUR GÉNÉRAL À DEUX PARTIES. 
+                                
+            
+            
+                                <stage type="tune">
+                                    AIR du Temps. 
+                                </stage>
+            
+            
+            
+                                <l>Mes amis, pour bien servir l'amour,</l>
+                                <l>Il faut boire. <stage type="repetition"> (ter.)</stage></l>
+                                <l>Mes amis, pour bien servir l'amour,</l>
+                                <l>Il faut boire la nuit et le jour.</l>
+                            
+                            
+                                
+                                    GIROUX. 
+                                
+            
+                                <l>Gnia pas d'autre gloire,</l>
+                                <l>Que de bien boire,</l>
+            
+            
+                                
+                                    (Il frappé sur la table, )
+            
+                                    id
+            
+                                    (4) 
+                                
+                                
+                                    TOUS. 
+                                
+            
+            
+                                
+                                    (Reprise.)
+                                
+            
+            
+            
+            
+                                <l>Mes amis, pour bien servir l'amour.</l>
+            
+                                
+                                    UN SOLDAT. 
+                                
+            
+                                <l>Moi qui suis sans chagrin,</l>
+                                <l>J'aime la fillette et le vin.</l>
+            
+            
+                                
+                                    (Frappant.) Une chopine ! 
+                                
+            
+                                
+                                    TOUS. 
+                                
+            
+                                <l ana="unanalyzable">Mes amis, pour bien servir, etc.</l>
+                            
+                        </lg> </div>
+            
+            
+                        MARIOTTE, accourant, et sorlant de la maison. 
+            
+                        Queu bruit de carillon que vous faites ? … Ici on n'a pas
+            
+                        le temps de courir, on est toujours en l'air comme un vo
+            
+                        lant ! 
+            
+                        A boire ! 
+            
+                        TOUS. 
+            
+                        MARIOTTE. 
+            
+                        Oui, à crédit ? Si madame Grégoire n'avait que des
+            
+                        pra
+            
+                        tiques comme vous, elle ne risquerait rien que de fermer
+            
+                        son cabaret de lu Pomme de Pin. 
+            
+                        GIROUX. 
+            
+                        Dis donc, poulette, tu chantes ben haut aujourd'hui… 
+            
+                        Mais il nous faut du liquide ! 
+            
+                        Holà ! la bourgeoise ! 
+            
+                        (Ils font du bruit
+            
+) 
+            
+                        TOUS. 
+            
+                        SCENE II. 
+            
+                        LES MÊMES, BELROSE, entrant par le fond. 
+            
+                        BELROSE. 
+            
+                        Quel est de ce bruit et de ce tapage ? Qui demande la. 
+            
+                        bourgeoise ? 
+            
+                        MARIOTTE. 
+            
+                        Pardine, 
+            
+                        c'est des ivrognes' qui font leur train ordi
+            
+                        naire. 
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                
+                                    BELROSE. 
+                                
+            
+                                
+                                    Mauvaise société, ça finira mal. 
+                                    r
+            
+                                    (5) 
+                                
+            
+            
+            
+                                <stage type="tune">
+                                    AIR : J'arrive de la guerre. 
+                                </stage>
+            
+            
+            
+                                <l>J'suis l'sergent intrépide</l>
+                                <l>Du guet ;</l>
+                                <l>Ce corps n'est point timide,</l>
+                                <l>On l'sait.</l>
+                            
+                            
+                                
+                                    GIROUX. 
+                                
+            
+            
+                                <l>Oui, quand un voleur vient par là</l>
+                                <l>De l'aut'e côté le guet s'en va,</l>
+                                <l>Et voilà…</l>
+                            
+                            
+                                
+                                    BELROSE. 
+                                
+            
+            
+                                <l>Peuple sans politesse,</l>
+                                <l>Motus ;</l>
+                                <l>Gnia pas pour son espèce</l>
+                                <l>D'abus.</l>
+                                <l>Quand un marquis nous rossera,</l>
+                                <l>Sur tes épaul's on s'rattrapera,</l>
+                                <l>Et voilà.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+                        Par amour pour la discipline, le sergent Belrose vous in
+            
+                        vite à vous liquider et à vous'en aller ! 
+            
+                        GIROUX. 
+            
+                        Et si ça ne nous plaît pas ? 
+            
+                        BELROSE. 
+            
+                        Alors j'appellerai mon escouade, et on vous fera en
+            
+                        er
+            
+                        dehors sans façon. 
+            
+                        Nous voulons voir la bourgeoise ! 
+            
+                        BELROSE. 
+            
+                        GIROUX. 
+            
+                        La bourgeoise a de beaux yeux ; mais ça ne vous regarde
+            
+                        pas. J'ajouterai que si vous aviez le malheur de lui plaire, 
+            
+                        ça vous rapporterait plus de coups de sabre que de plaisir
+            
+                        véritable… chers amis, que vous êtes ! 
+            
+                        GIROUX. 
+            
+                        Ah ! le sergent attend que je m'en aille ! Eh ! les autres ! 
+            
+                        venez jouer au siam dans le fond du jardin, nous boirons
+            
+                        jusqu'à ce soir si ça veut, et en avant ! 
+                        (6) 
+            
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+            
+                                
+                                    CHŒUR. 
+                                
+                                <stage type="tune">
+                                    Air du Vaudeville des Cris de Paris. 
+                                </stage>
+            
+            
+            
+                                <l>Allons, mes enfans,</l>
+                                <l>En dépit des sergens,</l>
+                            
+                            (6) 
+                            
+                                <l>Que l'vin coule,</l>
+                                <l>Et que la boule</l>
+                                <l>Roule</l>
+                                <l>La bas,</l>
+                                <l>Par en bas,</l>
+                                <l>La boule roulera,</l>
+                                <l>Et par en haut, tout le vin coulera.</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+                        (Les gens du peuple s'en vont à droite avec Mariotte ; les mili
+            
+                        faires sortent par le fond.)
+            
+                        SCENE III. 
+            
+                        BELROSE, et peu après Mmo GRÉGOIRE. 
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    BELROSE. 
+                                
+            
+            
+                                
+                                    C'est étonnant comme les gens sans éducation manquent
+            
+                                    de tenue ; il vient ici des tas de peuple qui font frémir à en
+            
+                                    tendre ! … (Regardant.) Mais voilà un objet qui ne fait
+            
+                                    pas frémir à voir… c'est madame Grégoire ! 
+            
+                                    MAD. GRÉGOIRE sortant de chez elle, et saluant Belrose de
+            
+                                    la main… 
+            
+                                    2
+            
+                                    1
+            
+                                
+            
+            
+            
+                                <stage type="tune">
+                                    AIR : C'est le gros Thomas. 
+                                </stage>
+            
+            
+            
+                                <l>Si j'ai du bonheur,</l>
+                                <l>Mes bénéfices sont modiques ;</l>
+                                <l>Par ma bonne humeur.</l>
+                                <l>Je charme toutes mes pratiques.</l>
+                                <l>Mon vin est bien pur,</l>
+                                <l>Mon cœur est bien sûr ;</l>
+                                <l>Ici jamais rien de postiche,</l>
+                                <l>J'prête au pauvre et j'emprunte au riche,</l>
+                                <l>Et chacun voudrait</l>
+                                <l>Boire à mon cabaret.</l>
+                            
+            
+                            
+                                <l>J'fais un peu de bien,</l>
+                                <l>Même au médisant qui me fronde ;</l>
+                                <l>Si j'avais l' moyen,</l>
+                                <l>J'voudrais en faire à tout le monde.</l>
+                                <l>Ici l'indigent</l>
+                                <l>Viendrait sans argent,</l>
+            
+            
+            
+                                
+                                    (7) 
+                                
+            
+            
+                                <l>Et, trouvant du vin sans mélange,</l>
+                                <l>Même quand manqu'rait la vendange,</l>
+                                <l>Gratis il pourrait</l>
+                                <l>Boire à mon cabaret.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        BELROSE. 
+            
+                        Avec ça que vous êtes toujours gaie, toujours superbe
+            
+                        femme ! 
+            
+                        Mme GRÉGOIRE. 
+            
+                        | M. Belrose, vous me tourmentez chaque jour de vos
+            
+                        complimens… je les écoute, parce que je ne risque rien ; 
+            
+                        mais on m'a assuré que vous profitiez de ça pour vous
+            
+                        vanter de me plaire ? 
+            
+                        BELROSE. 
+            
+                        Eh bien ! où serait l'offense ? 
+            
+                        G R É G O I R E
+            
+. 
+            
+                        r e
+            
+, 
+            
+                        Ainsi vous allez dire à tous vos camarades que je vous
+            
+                        aime à la folie ? 
+            
+                        BELROSE. 
+            
+                        La plus belle des créatures, il y a la moitié de vrai dans
+            
+                        ce que vous dites là. J'ai insinué que vous m'aimiez ; mais
+            
+                        je n'ai pas été jusqu'à la folie ! 
+            
+                        mme GRÉGOIRE. 
+            
+                        Mais, Monsieur, de pareils propos peuvent me faire
+            
+                        beaucoup de tort. 
+            
+                        BELROSE. 
+            
+                        Du tort i oh ! oh ! ceci est une injure personnelle pour
+            
+                        mon physique ! ça m'étonne extrêmement : car je suis le
+            
+                        plus beau des dix-sept enfans que ma mère se plût à mettre
+            
+                        au monde ! en outre je suis sergent du guèt, j'ai hạit sous
+            
+                        par jour, et un héritage de 1, 900 livres, quand la mort
+            
+                        aura frappé ma tante. J'ai pensé qu'avec tant d'opulence je
+            
+                        pouvais aspirer à l'amour, et inopinément j'ai conclu avec
+            
+                        moi-même qu'un de ces quatre matins je vous offrirais mon
+            
+                        c o e u r
+            
+                        a v e c
+            
+                        m a' m
+            
+                        Mme GRÉGOIRE. 
+            
+                        Ah ! vous avez arrangé ça tont seal ? 
+            
+                        A la sonrdine. 
+            
+                        BELROSE. 
+            
+                        (8) 
+            
+                        MM GRÉGOIRE. 
+            
+                        Eh bien ! M. Belrose, je vais vous répondre franche
+            
+                        ment. Vous êtes sans doute aimable, galant, brave, et très
+            
+                        capable de faire le bonheur d'une femme ; mais j'ai bien
+            
+                        résolu de ne pas me donner un maître, et de rester votre
+            
+                        très-humble servante. 
+            
+                        BELROSE, étonné. 
+            
+                        Bah ! pourtant jusqu'à ce jour j'ai été fort betreax dans
+                        mes inclinations ; partout où j'ai porté ma gloire avec le
+            
+                        vainqueur de Mahon, j'ai trouvé de très-belles Vénus qui
+            
+                        se sont éprises de moi : j'en ai plus de cent dont je vous en
+            
+                        montrerai les cheveux, si ça vous fait plaisir ? 
+            
+                        Merci ! je ne suis pas curieuse. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        BELROSE. 
+            
+                        Histoire seulement de vous certifier mes conquêtes, c'é
+            
+                        tait la tactique du vainqueur de Mahon ! 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Le vainqueur de Mahon et vous ça fait deux ! 
+            
+                        BELROSE. 
+            
+                        Oui, ça fait deux/ vainqueurs ! Au surplus, vous'avez beau
+            
+                        dire, une veave a besoin d'un protecteur comme le sceptre
+            
+                        de vigne a besoin d'échalas. 
+            
+                        Je me protége toute seule ; d'ailleurs,' êtes-vous bien sûr
+            
+                        Mme GRÉGOIRE, 
+            
+                        que je sois veave ? 
+            
+                        C'est la rumeur populaire. 
+            
+                        BELROSE, 
+            
+                        Mme GRÉGOIRÉ. 
+            
+                        Et si je ne l'étais pas ? 
+            
+                        Vous me l'auriez dit. 
+            
+                        BELROSE. 
+            
+                        MWI, GRÉGOIRE. 
+            
+                        Du tout ; car c'est mon secret ; et c'est en le gardant que
+            
+                        je me fais respecter. 
+            
+                        BELROSE. 
+            
+                        Tout ça n'est pas clair et limpide. Tenez, madame Gré
+            
+                        goire, ça finira mal ; vous recevez chez vous une ribam
+            
+                        belle de freluquets… 
+            
+                        (9) 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Comment des frelaquets ? 
+            
+                        BELROSE. 
+            
+                        Oui, oui, le nomméd'Auberval, bean danseur de l'Opéra ; 
+            
+                        ! 
+            
+                        le gros d'Esparville, cet avide maltotier de la rue Quincama
+            
+                        poix ; et même ce petit muguet de Luquet, le marchand de
+            
+                        bouteilles de la rue de la Verrerie… 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Il est vrai, ce sont des pratiques qui dépensaient beau
+            
+                        coup d'argent chez moi autrefois, mais qui n'y viennent
+            
+                        plus du tout. 
+            
+                        SCENE IV. 
+            
+                        LES MÊMES, LUQUET, entrant avec aplomb, et s'arrétant
+            
+                        au milieu du théâtre. 
+            
+                        BELROSE. 
+            
+                        Ah ! ah !'voyez-vous comme il ne revient pas. (A part.)
+            
+                        Observons-le miputieusement. 
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    LUQUET
+                                
+                                
+, une grosse rose à la main. 
+                                
+            
+            
+            
+            
+            
+                                <stage type="tune">
+                                    AIR : C'est une ruse. (Fragment de l'ouverture du jeune Henri.)
+                                </stage>
+            
+            
+            
+                                <l>Reine des Grâces,</l>
+                                <l>Je viens à mon tour</l>
+                                <l>Dans ta cour !</l>
+                                <l>Et sur mes traces</l>
+                                <l>J'amène aussi l'Amour !</l>
+                            
+            
+                        </lg> </div>
+            
+            
+            
+                        BELROSE, prenant la rose de Luquet. 
+            
+                        Voyez-vous. 
+            
+                        LUQUET. 
+            
+                        Mais c'est inconvenant, ça… Bien le bonjour, madame
+            
+                        Grégoire ; je viens d'après l'ordre de maman, vous savez, 
+            
+                        maman ? 
+            
+                        Mme GRÉGOIRE. 
+            
+                        N'est-ce pas pour un envoi de bouteilles ? 
+            
+                        LUQUET, après avoir jete' un regard sur Belrose. 
+            
+                        Oui, elles sont là… (A part.) Dieu ! qu'elle est belle
+            
+                        femme ! 
+            
+                        Mad. Grégoire. 
+            
+                        2
+            
+                        (10) 
+            
+                        BELROSE. 
+            
+                        (A part.) V'là un coup-d'oeil louche. (Haut.) Ah ! c'est
+            
+                        de la part de votre respectable mère… 
+            
+                        LUQUET. 
+            
+                        Certainement, je suis son premier commis, à mamao. 
+            
+                        Est-il d'une bêtise in vétérée avec sa maman. 
+            
+                        BELROSE. 
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    LUQUET. 
+                                
+            
+            
+            
+            
+                                <stage type="tune">
+                                    AIR : J'avais mis mon petit chapeau. 
+                                </stage>
+            
+            
+            
+                                <l>Nous avons des correspondans,</l>
+                                <l>C'est moi qui tiens les écritures,</l>
+                                <l>Et chez tous nos petits marchands,</l>
+                                <l>C'est moi qui porte les factures,</l>
+                                <l>Et qui reçois le prix des fournitures.</l>
+                                <l>Travaillant les jours et les nuits,</l>
+                                <l>Je me consume dans les veilles ;</l>
+                                <l>Car nous fournissons des bouteilles <stage type="repetition"> (bis.)</stage></l>
+                                <l>À tous les bouchons de Paris.</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+                        Madame Grégoire, j'ai fait déposer la marchandise dans
+            
+                        la petite cour. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Bien, bien, je vais la faire ranger. 
+            
+                        Avez-vous besoin de moi ? 
+            
+                        LUQUET. 
+            
+                        Mme GRÉGOIRE, rentrant. 
+            
+                        Non, non, vous êtes trop maladroit. 
+            
+                        J'irai avec vous à la cave. 
+            
+                        LUQUET, la suivant. 
+            
+                        SCENE V. 
+            
+                        LUQUET, BELROSE. 
+            
+                        BELROSE, lui prenant la main. 
+            
+                        Du out, petit… on ne va pas avec la boargeoise dans
+            
+                        les recoins obscurs. 
+            
+                        (11.)
+            
+                        · LUQUET. 
+            
+                        Qu'est-ce qu'il a donc, ce sergent ? (A part.) Dieu ! qu'elle
+            
+                        est belle de loin comme de près. 
+            
+                        BELROSE, le tirant par le bras. 
+            
+                        Marchand de verres cassés, retournez chez votre ma
+            
+                        man. 
+            
+                        Laissez-moi donc tranquille, je ne veax pas rire avec
+            
+                        LUQUET. 
+            
+                        Vons. 
+            
+                        BELROSE. 
+            
+                        Ni moi non plus ; le guet ne rit jamais ! 
+            
+                        LUQUET. 
+            
+                        Ab ça ! dites donc ? parce que vous êtes militaire, faut
+            
+                        pas croire que vous me faites peur ; … sans maman je se
+            
+                        rais soldat aussi, moi ! … je voulais m'engager. 
+            
+                        BELROSE. 
+            
+                        Ceci est différent, jeune homme, je ne vous en estime
+            
+                        que d'autant plus. (A parl.) Un plan ! si je pouvais l'é
+            
+                        mincer de ce séjour… Rusons ! (Haut.) Fils de famille, 
+            
+                        je n'ignore pas les efforts que font les parens pour vous
+            
+                        couper le chemin de la fortune ; mais soyez plus sages que
+            
+                        les papas et les mamans ! Par exemple, est-ce que vous
+            
+                        n'auriez jamais eu envie d'aller aux Colonies, vous ? 
+            
+                        Aux Colonies ? 
+            
+                        LUQUET. 
+            
+                        BELROSE. 
+            
+                        Oui… Comme qui dirait Marie Galande, Martinicle, 
+            
+                        Guadeloupe, ou tout autre continent de l'Amérique Méri
+            
+                        mionalde. 
+            
+                        Ma foi non. C'est donc bien beau, ces endroits-là ? 
+            
+                        LUQUET. 
+            
+                        C'est le pays des dieux et de la castonnade ! 
+            
+                        BELROSE, 
+            
+                        Bah ! 
+            
+                        LUQUET. 
+            
+                        BELROSE. 
+            
+                        Je me suis dit en vous envisageant : v'là z'un gaillard que
+            
+                        je veux faire aller loin ; et comme on organise dans ce mo
+                        ment ici des bataillons colonials, si vous voulez, je vous
+            
+                        1
+            
+                        (
+            
+                        12) 
+            
+                        reconimanderai à un recruteur du quai de la Ferraille, qui
+            
+                        se fera un vrai plaisir de vous mettre dedans. 
+            
+                        Dedans ? comment l'entendez-vous ? 
+            
+            
+            
+                        LUQUET. 
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    BELROSE. 
+                                
+            
+                                
+                                    Il n'est pas que vous n'ayez ouï parler de la cantate héo
+            
+                                    rïque composée à ce sujet ? … c'est une poésie délirante ! … 
+            
+                                    écoutez. 
+                                
+            
+            
+            
+            
+            
+                                <stage type="tune" id="AIR : J'entendis battre la caisse.">AIR :</stage>
+            
+            
+                                <l>J'entendis battre la caisse</l>
+                                <l>Sur la plac', par un sergent ;</l>
+                                <l>Aussitôt je m'y adresse,</l>
+                                <l>Pour entrer dans l'régiment.</l>
+                                <l>Il m'dit : t'as cinq pieds trois pouces,</l>
+                                <l>Ta porteras le fusil ;</l>
+                                <l>Tiens, voilà d'l'argent en bourse,</l>
+                                <l>Signe-toi ton nom par écrit.</l>
+                            
+                            
+                                <l>Fai-toi faire une cocarde,</l>
+                                <l>Des guêtres, aussi des souliers ;</l>
+                                <l>Vas avec tes camarades,</l>
+                                <l>Que j'ai déjà engagés.</l>
+                                <l>Je me suis fait faire une cocarde,</l>
+                                <l>Des guêtr's, aussi des souliers ;</l>
+                                <l>Je me suis fait prom'ner en fiacre,</l>
+                                <l>Trois jours cela a duré.</l>
+                            
+                            
+                                <l>Dix ecus je veux avoire,</l>
+                                <l>Puisque c'est l'ordre de la loi ;</l>
+                                <l>Et puis dix autres pour boire,</l>
+                                <l>Avec mes amis en joie.</l>
+                                <l>C'est pour y prendre d' la bière,</l>
+                                <l>Du vin et du brandevin ;</l>
+                                <l>À la santé de ma belle,</l>
+                                <l>Qui pour moi prend du chagrin.</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        Sergent, ce n'est pas pour vous bumilier, mais je fais
+            
+                        LUQUET. 
+            
+                        des vers d'une qualité supérieure. 
+            
+                        BELROSE. 
+            
+                        La question n'est point là… Aimez-vous les écus de
+            
+                        trois livres ? 
+            
+                        (13) 
+            
+                        LUQUET. 
+            
+                        1
+            
+                        Tiens ! cette bêtise ? … Je les aime d'autant plas, que
+            
+                        j'en ai moins. 
+            
+                        BELROSE. 
+            
+                        Alors… allez aux Colonies ; il y en a comme des cham
+            
+                        pignons dans la plaine des Vertas. 
+            
+                        Le pays produit des petits écas ? 
+            
+                        LUQUET. 
+            
+                        BELROSE. 
+            
+                        Naturellement, et sans culture. Autre question : aimez
+            
+                        vous ce sexe enchanteur qui parsème de fleurs le chemin
+            
+                        de la vie ? 
+            
+            
+            
+                        LUQUET. 
+            
+                        Qui ça ? les femmes ? je les idolâtre ! 
+            
+                        BELROSE. 
+            
+                        Allez aux Colonies ! … Là bas, elles sont folles des Euro
+            
+                        péens ; les beaux et les pas beaux ; ainsi vous êtes sûr de
+            
+                        votre affaire. 
+            
+                        Diable ! si je savais ça… 
+            
+                        LUQUET. 
+            
+                        BELROSE, 
+            
+                        Je le sais, moi, jeune homme. Tenez, un supposé : vous
+            
+                        v'là embarqué avec Son Excellence… Monseigneur le
+            
+                        bailli de Suffren ; vous voguez sur les ondes amères, vous
+            
+                        êtes couché dans des z'bamacs, et pendant la traversée, on
+            
+                        ne vous nourrit que de biscuits… 
+            
+                        LUQUET. 
+            
+                        Dieux ! moi qui adore la pâtisserie ! 
+            
+                        BELROSE. 
+            
+                        Silence ! écoutez et n'interrompez plus mon dialogue : 
+            
+                        Vous arrivez dans ce pays fabuleux, alors, vous avez un
+            
+                        nègre, un superbe esclave qui vous débarrasse de votre
+            
+                        fusil en entrant, et monte la garde pour vous pendant que
+                        vous prenez da café dans du coco, ó. 
+            
+                        Coco ? 
+            
+                        LUQUET. 
+            
+                        BELROSE. 
+            
+                        Porcelaine à l'usage de ces contrées… Il y a aussi des
+            
+                        superbes ombrages, une végétation qui fait honte à nos
+            
+                        i
+            
+                        (14) 
+            
+                        forêts ; des perroquets qui raisonnent mieux que vous et
+            
+                        moi, et des champs de canne à sucre qui vous fournissent de
+            
+                        l'eau sucrée quand il pleut. Pour ce qui touche les diamans, 
+            
+                        saphirs et autres rubis, on en trouve à remuer à la pelle, 
+            
+                        et ça se vend au boisseau, comme des haricots. Quant an
+            
+                        service, il consiste à ne rien faire, seulement, une fois
+            
+                        par an, grande revue, dont il est impossible de se dispen
+            
+                        ser, à moins qu'on n'en ait obtenu la permission, et on ne
+            
+                        la refuse jamais. Conclusion. Chaque serviteur de l'Etat a
+            
+                        de droit trois magnifiques Africaines au teint d'ébène, et
+            
+                        ceux qui sont bien sages, on leur z'y donne des négresses
+                        blanches les dimanches. 
+            
+                        Ah ! par exemple ! celle-là est trop forte ! 
+            
+                        BELROSE. 
+            
+                        LUQUET. 
+            
+                        Eh bien ! mon jeune camarade, qu'est-ce que vous dites
+            
+                        de ça ? 
+            
+                        LUQUET. 
+            
+                        Je dis que je me fais une demande : Pourquoi le sergent, 
+            
+                        qui aime aussi les diamans, l'eau sucrée et les négresses
+            
+                        blanches, ne va-t-il pas les chercher lui-même au lieu de
+            
+                        m'y envoyer ? 
+            
+                        BELROSE. 
+            
+                        Ah ! 
+            
+                        ça, dis donc, mon petit bourgeois, est-ce que tu
+            
+                        voudrais faire le malin avec le militaire, toi ? 
+            
+                        LUQUET. 
+            
+                        Du tout, je vous demande la raison… 
+            
+                        Ah ! tu me demandes raison ? 
+            
+                        BELROSE, en colère. 
+            
+                        Mais
+            
+                        pon… 
+            
+                        vous ne comprenez pas… Je vous demande
+            
+                        LOQUET. 
+            
+                        la raison pour laquelle ? … 
+            
+                        BELROSE, le secouant. 
+            
+                        Je te dis que je t'ai insulté et que tu exiges satisfaction. 
+            
+                        Allons sous l'Arche-Marion, je vais te découper en mor
+            
+                        ceaux, 
+            
+                        comme l'arlequin de la comédie italienne. 
+            
+                        LUQUET, criant très-fort. 
+            
+                        Voulez-vous bien me lâcher ! … Sergent, je vas crier ! 
+            
+                        SCENE VI, 
+            
+                        LES MÊMES, Mme GREGOIRE. 
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                
+                                    MAD. GRÉGOIRE. 
+                                
+            
+            
+                                <stage type="tune">
+                                    AIR : Vaudeville de l'Écu de six francs. 
+                                </stage>
+            
+            
+                                <l>Eh bien ! quel est donc ce tapage ?</l>
+            
+                                
+                                    BELROSE. 
+                                
+            
+                                <l>Il n'y a pas de quoi s'effrayer ;</l>
+                                <l>J'lui conseille un petit voyage…</l>
+            
+                                
+                                    MAD. GRÉGOIRE. 
+                                
+            
+                                <l>Mais pour le faire ainsi crier,</l>
+                                <l>Où voulez-vous donc l'envoyer ?</l>
+            
+                                
+                                    LUQUET, 
+                                
+            
+            
+                                <l>Qu'a jamais le ciel le confonde !</l>
+                                <l>Délivrez-moi d'ce furieux,</l>
+                                <l>Qui veut m'faire partir de ces lieux</l>
+                                <l>Pour m'envoyer dans l'autre monde.</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+                        Mme GRÉGOIRE. 
+            
+                        M. Belrose, je suis très-mécontente de vous… En fai
+            
+                        sant des scènes comme ça, vous finirez par chasser toutes
+            
+                        mes pratiques. 
+            
+                        BELROSE. 
+            
+                        C'est vrai que j'ai le naturel un peu tapageur. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        En ce cas, j'aime autant voir vos talons que votre vi
+            
+                        sage. 
+            
+                        BELROSE. 
+            
+                        Si je ne me fais pas illusion, je comprends, par ces
+            
+                        paroles, que vous m'accordez une permission de sortir… 
+            
+                        J'espère, jeune homme, que vous en profiterez avec
+            
+                        moi… 
+            
+                        LUQUET. 
+            
+                        Un instant… 
+            
+                        J'ai quelque chose… une facture à re
+            
+                        mettre à madame Grégoire (Bas, lui remettant le papier.)
+            
+                        (16) 
+            
+                        Belle cabaretière ! je me flatte que vous serez contente de
+            
+                        la qualité. 
+            
+                        Mme GRÉGOIRE, prenant le papier. 
+            
+                        Tiens, comme il me regarde ! 
+            
+                        BELROSE. 
+            
+                        Adien, ravissante tigresse ! 
+            
+                        LUQUET, à
+            
+                        part. 
+            
+                        Je retourne chez maman… Attends-moi sous l'arche. 
+            
+                        (Il se sauve à toutes jambes.)
+            
+                        1
+            
+                        SCÈNE VII. 
+            
+                        Mme GRÉGOIRE, BELROSE, et peu après D'ESPAR
+            
+                        VILLE et D'AUBERVAL. 
+            
+                        J'espère que vous ne m'en voulez plus des sottises que
+            
+                        BELROSE. 
+            
+                        vous m'avez proférées. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Laissez-moi tranquille. 
+            
+                        BELROSE, regardant. 
+            
+                        Bon ! vous allez me payer ça, mon petit jeune homme. 
+            
+                        lieps, plus personne… (A part.) Au fait, bon débar
+            
+                        raş, me v'là maître du terrain, comme le vainqueur de
+            
+                        Mahon. 
+            
+                        D'ESPARVILLE, en dehors. 
+            
+                        Madame Grégoire où est madame Grégoire ? 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Eh ! c'est la voix du financier, … d'Esparville ! 
+            
+                        BELROSE. 
+            
+                        Allons ! un de parti, un autre de revenu ! 
+            
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                
+                                    D'ESPARVILLE
+                                
+                                
+, entrant. 
+                                
+            
+            
+                                <stage type="tune">
+                                    Air du Menuet d'Exaudet. 
+                                </stage>
+            
+            
+            
+                                <l>Vrai Mondor,</l>
+                                <l>Matador</l>
+                                <l>De finance,</l>
+                            
+                            (17) 
+                            
+                                <l>J'ai de l'esprit, de l'argent,</l>
+                                <l>Et le prouve en faisant</l>
+                                <l>Bombance.</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+                        Bonjour, bonjour, syrène de la Pomme de Pin. 
+            
+                        Eh bien ! personne ici… La fille ! 
+            
+                        D'AUBERVAL, du dehors. 
+            
+                        D'ESPARVILLE. 
+            
+                        Dieu me damne ! je crois que c'est ce vaurien de d'Au
+            
+                        berval. 
+            
+                        Le danseur de l'Opéra ? Et de deux… Je bouillonne ! 
+            
+                        BELROSE. 
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                D'AUVERVAL
+                            
+                            
+, gaiement. 
+                            
+            
+            
+            
+                            <stage type="tune">
+                                AIR de Psyché. 
+                            </stage>
+            
+            
+                            
+                                <l>Zéphir,</l>
+                                <l>Pour saisir</l>
+                                <l>Le plaisir</l>
+                                <l>Qui peut fuir,</l>
+                                <l>Sur l'aîle du désir</l>
+                                <l>S'empresse d'accourir !</l>
+                                <l>Léger</l>
+                                <l>Messager</l>
+                                <l>Des amours,</l>
+                                <l>Des beaux jours,</l>
+                                <l>Changer</l>
+                                <l>Et voltiger</l>
+                                <l>C'est ma loi,</l>
+                                <l>Mon emploi.</l>
+                                <l>Adieu, les</l>
+                                <l>Palais,</l>
+                                <l>Les héros de ballets.</l>
+                                <l>Ah ! que sont leurs banquets</l>
+                                <l>Auprès</l>
+                                <l>Des cabarets !</l>
+                                <l>Dieux</l>
+                                <l>Et demi-dieux,</l>
+                                <l>Ris et jeux</l>
+                                <l>Fabuleux,</l>
+                                <l>Gardez votre nectar…</l>
+                                <l>J'aime mieux le Pommard.</l>
+            
+            
+                                <l ana="unanalyzable">Zéphir, etc.</l>
+                            
+                        </lg> </div>
+            
+            
+                        Mad. Grégoire. 
+            
+                        3
+            
+            
+            
+                        18) 
+            
+                        Mme GRÉGOIRE
+            
+                        Toujours folâtre et sautillant, M. d'Auberval. 
+            
+                        Et vous toujours éblouissante, mon Iris ! 
+            
+                        D'AUBERVAL. 
+            
+                        (Il serre la main à d'Esparville.)
+            
+                        BELROSE. 
+            
+                        Son Iris ! il est sans gène, le Zéphir. 
+            
+                        D'AUBERVAL, regardant Belrose. 
+            
+                        Eh quoi ! qu'est-ce que c'est que ça ? 
+            
+                        BELROSE
+            
+                        Ça, c'est rien, c'est seulement le vainqueur de Mahon, 
+            
+                        qui vous cède le champ de bataille pour le moment ; mais
+            
+                        qui vous engage à ne pas vous attarder dans ces parages… 
+            
+                        sans ça, gare la patrouille ! 
+            
+                        (Les saluant.) Au plaisir de
+            
+                        ne jamais vous revoir. 
+            
+                        (Il sort majestueusement.)
+            
+                        SCÈNE VIII. 
+            
+                        LES MÊMES, excepté BELROSE. 
+            
+                        Ah ! ah ! ah ! Qu'a-t-il donc, ce bas-officier ? 
+            
+                        D'ESPARVILLE, riant. 
+            
+                        D'AUBERVAL. 
+            
+                        Le drôle est sans doute pris de vin. 
+            
+                        me GRÉGOIRE. 
+            
+                        MM
+            
+                        Ne faites pas attention.'s. 
+            
+                        c'est un original… Ah ! ça, 
+            
+                        Messieurs, quel heureux, hasard vous amène ici tous
+            
+                        deux ? 
+            
+                        D'ESPARVILLE. 
+            
+                        Ce n'est pas le hasard, , c'est le plaisir… Ma femme
+            
+                        est à la campagne, et je me sais dit : Voilà le moment de
+            
+                        m'amuser ! 
+            
+                        D'AUBERVAL. 
+            
+                        Ah ! le mauvais sujet ! Moi, je me suis arraché inhumai
+            
+                        nement des bras de toutes. ces daines… elles voulaient me
+            
+                        retenir…, mais, en qualité de Zéphir, flic, flac, je m'en
+            
+                        vole, et me voilà ! 
+            
+                        (19) 
+            
+                        D'ESPARTICLE. 
+            
+                        On ne s'amuse qu'ici… la Pomme de Pin ! … Par la
+            
+                        sembleu ! c'est une enseigne qui mérite attention, quand
+            
+                        on vous voit, madame Grégoire ! 
+            
+                        D'AUBERVAL. 
+            
+                        Diable ! il est galant, le financier ! 
+            
+                        D'ESPARVILLE. 
+            
+                        Oui, depuis que j'ai acheté une savongette à vilain, j'ai
+            
+                        de l'esprit ; je couvre mon jabot de tabac, je vais ad ea
+            
+                        baret, je m'encanaille, c'est très-bon ton. 
+            
+                        D'AUBERVAL. 
+            
+                        Ma foi, vivent les jolies femmes et l'indépendance ! On
+            
+                        se voit, on se plaît, on s'adore, et le lendemain, flic, flac, 
+            
+                        une pirouette, et c'est fini. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        On dit cependant que vous devez épouser mademoiselle
+            
+                        Dubois, cette jolie actrice de la Comédie Française ? 
+            
+                        : 
+            
+                        ! 
+            
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                
+                                    D'AUBERVAL. 
+                                
+            
+            
+                                
+                                    La petite Dubois, mon Hermionne ? … Le fait est que
+            
+                                    nous nous idolâtrons… Nous sommes en procès dans
+            
+                                    ce moment-ci. 
+                                
+            
+            
+            
+                                <stage type="tune">
+                                    AIR : Qu'est qu'tas donc, mon petit Hypolite. 
+                                </stage>
+            
+            
+            
+                                <l>Pour m'obtenir en mariage,</l>
+                                <l>Voyez le bizarre projet !</l>
+                                <l>De plaider elle a le courage,</l>
+                                <l>Et veut m'enchaîner tout-à-fait,</l>
+                                <l>Par un ordre du Châtelet.</l>
+                            
+                            
+                                
+                                    MAD. GRÉGOIRE. 
+                                
+            
+            
+                                <l>Pour un mari, pareille esclandre !</l>
+                                <l>Je concevrais qu'on pût plaider,</l>
+                                <l>Si c'était pour ne pas le prendre,</l>
+                                <l>Ou bien pour ne pas le garder.</l>
+                            
+            
+            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+                        D'AUBERVAL, 
+            
+                        Braro ! méchante, voilà des principes ! … Comme wa
+            
+                        helle plaideuse me cherche partout, je viens me cacher
+            
+                        an cabaret, et je vous prie de me faire préparer pour mie
+            
+                        nuit un souper succulent. 
+            
+                        (20) 
+            
+                        D'ESPARVILLE. 
+            
+                        Tiens ! je venais vous en commander un dans le même
+            
+                        i
+            
+                        genre. (A part.) Pourvu qu'il ne se doute de rien. 
+            
+                        D'AUBERVAL, à part. 
+            
+                        Est-ce qu'il viendrait aussi pour ? … Oh ! non,'un gros
+            
+                        gourmand comme lui, ça ne pense qu'à la table. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Eh bien ! qu'avez-vous donc tous les deux ? 
+            
+                        D'ESPARVILLE. 
+            
+                        Oh ! rien, rien ; c'est que j'avais l'intention de ne pas
+            
+                        souper seul. 
+            
+                        D'AUBERVAL. 
+            
+                        Absolument comme moi. 
+            
+                        D'ESPARVILLE. 
+            
+                        Et je voudrais confier à madame Grégoire… 
+            
+                        D'AUBERVAL, s'éloignant. 
+            
+                        A votre aise, mon cher, je suis votre valet… Flic ! 
+            
+                        flac ! 
+            
+                        (D'Esparville parle bas à madame Grégoire.)
+            
+                        Mme GRÉGOIRE. 
+            
+                        Bah ! vraiment… M. d'Esparville, vous êtes bien bon. 
+            
+                        (Riant.) Ah ! ah ! ah ! 
+            
+                        D'ESPARVILLE, à part. 
+            
+                        J'étais sûr qu'elle prendrait la chose gaiement. (Remon
+            
+                        tant la scène.) Il faut avouer que je suis un coquin bien
+            
+                        heureux. 
+            
+                        D'AUBERVAL, bas à madame Grégoire. 
+            
+                        Je parierais que d'Esparville vous a dit quelque lourde
+            
+                        bêtise… Moi j'ai quelque chose de plus sérieux à vous
+                        demander. 
+            
+                        (Il lui parle à l'oreille.)
+            
+                        Lui aussi. 
+            
+                        MM GRÉGOIRE, à part. 
+            
+                        D'AUBERVAL, à part. 
+            
+                        Chut ! … elle est émue ! … Je produis le même effet sur
+            
+                        toutes les femmes. Haut.) Je vais passer là-dedans, écrire
+            
+                        un mot à l'Opéra, pour prévenir que je ne serai pas de la
+            
+                        fin du ballet, par indisposition. 
+            
+                        (21) 
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+            
+            
+                            
+                                
+                                    D'ESPARVILLE. 
+                                
+            
+            
+                                
+                                    Et moi, je vais à l'office, méditer le menu de mod sodper ; 
+            
+                                    c'est de la plus haute importance. 
+            
+                                    (Ensemble en sortant.)
+                                
+            
+            
+            
+                                <stage type="tune" id="AIR : Laissons aux salons l'étiquette.">
+                                    AIR : 
+                                </stage>
+            
+            
+            
+                                <l>Laissons</l>
+                                <l>Aux salons</l>
+                                <l>L'étiquette</l>
+                                <l>Et la coquette :</l>
+                                <l>Le plaisir parfait</l>
+                                <l>N'est vraiment qu'au cabaret.</l>
+                            
+            
+                        </lg> </div>
+            
+                        (Ils entrent dans la maison.)
+            
+            
+            
+            
+            
+                        SCÈNE IX. 
+            
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                
+                                    Mme GRÉGOIRÉ
+                                
+                                
+, seule. 
+            
+                                    A-t-on jamais vu ça ! me proposer de souper en tête à
+            
+                                    tête avec eux ? ils ne sont pas gênés… Sous prétexte qu'ils
+            
+                                    paient, ils se figurent que le cabaret et la cabaretière, c'est
+                                    tout un… 
+            
+                                    Oh ! ils ne savent pas à qui ils s'adressent. 
+                                
+            
+            
+                                <stage type="tune">
+                                    AIR : Autrefois je pleurais. (Le Mari et l'Amant.)
+                                </stage>
+            
+            
+                                <l>Si chez moi je reçois,</l>
+                                <l>Si je vois</l>
+                                <l>À la fois,</l>
+                                <l>Tour à tour,</l>
+                                <l>Chaque jour,</l>
+                                <l>Et la ville et la cour,</l>
+                                <l>Riches, petits et grands.</l>
+                                <l>Je prends</l>
+                                <l>De tous les rangs,</l>
+                                <l>Sans effort, sans façon,</l>
+                                <l>Le langage et le ton. <stage type="repetition"> (bis.)</stage></l>
+                                <l>Qu'un galant talon rouge,</l>
+                                <l>Qui de chez moi ne bouge,</l>
+                                <l>Souriant,</l>
+                                <l>Sautillant,</l>
+            
+            
+                                
+                                    (22) 
+                                
+            
+                                <l>Me dise : sur l'honneur,</l>
+                                <l>Vous avez pris mon cœur</l>
+                                <l>Au voleur ! au voleur !</l>
+                            
+            
+            
+            
+                            
+                                (Prenant un ton manièré.) Moi, monsieur le marquis, lui
+            
+                                dis-je en prenant un air dégagé, on sait trop son monde
+            
+                                pour se rendre coupable d'une pareille friponnerie ! 
+                            
+            
+            
+            
+                            
+                                <l>Mais voilà que soudain</l>
+                                <l>Vient un gai boute en train ;</l>
+                                <l>Son patois</l>
+                                <l>Est grivois,</l>
+                                <l>Il élève la voix :</l>
+                                <l>Votre vin est frelaté,</l>
+                                <l>C' n'est pas comm' vot' beauté,</l>
+                                <l>J'aim'rais mieux vot' minois.</l>
+                                <l>Tu r'pass'ras un' autre fois, <stage type="repetition"> (bis.)</stage></l>
+                                <l>Chez Madame Grégoire</l>
+                                <l>On ne vient que pour boire.</l>
+                                <l>Eh ! dis donc,</l>
+                                <l>Mon garçon,</l>
+                                <l>Que ta cloch' change de son',</l>
+                                <l>Ou j'te donne une leçon.</l>
+                            
+            
+                        
+            
+            
+            
+            
+                        Ah ! c'est que j'ai le propos et la main leiste ; je réponds aux
+            
+                        complimens par des douceurs, et aux insolences par des
+            
+                        gestes ; tiens, voilà pour toi ; il faut être poli avec tout le
+            
+                        monde. 
+            
+                        <l ana="unanalyzable"> Car chez moi, etc.</l>
+                        
+                        </lg> </div>
+            
+                        SCENE X, 
+            
+                        Mme GRÉGOIRE, BENOIT, FANCHETTE, entrant en
+            
+                        se disputant. 
+            
+                        FANCIIETTE. 
+            
+                        Je te dis que tu n'entreras pas. 
+            
+                        BENOIT, 
+            
+                        Tant pis, j'ai soif, et je suis un honnête homme. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Ah ! c'est encore cet ivrogne de Benoit, le falot de l'Opéra, 
+            
+                        qui boit jusqu'au dernier sou. 
+            
+                        (23) 
+            
+                        BENOIT. 
+            
+                        Je snis un honnête homme, je veux à boire. 
+            
+                        Du tout, tu en as assez pour aujourd'hui. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        FANCHETTE. 
+            
+                        Ma chère dame, vous êtes bien bonne ; et vous cheriez
+            
+                        encore plus meilleure, si vous mettiez mon homme à la
+            
+                        porte. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Votre homme ? comment vous êtes… Je savais bien qu'il
+            
+                        avait pour femme une auvergnate ; mais elle ne vous res
+                        semblait pas. 
+            
+                        BANCHETTE. Elle parait d'abord enbarrassée, et répond
+            
+                        vivement. 
+            
+                        Oh ! je m'en vas vous dire… chest que je chuis sa se
+            
+                        conde ; … le schélérat a fait mourir la première de cha
+            
+                        grin. 
+            
+                        BENOIT, allendri. 
+            
+                        C'est la pure vérité ! … Ma pauvre première ! va ! … A
+            
+                        boire ! 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Non… V'là pourtant comme ils sont tous. 
+            
+                        FANCHETTE. 
+            
+                        C'hest un mange-tout, on panier percé, qui me mettra
+            
+                        chur la paille. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Allons, voyons, il ne faut pas pleurer ; je vous promets
+            
+                        que s'il remet les pieds ici, c'est à moi qu'il aura affaire. 
+            
+                        BENOIT. 
+            
+                        Ah ! je vois ce que c'est, vous me refusez des rafraîchis
+            
+                        semens, parce que je redois c'hier onze sous six deniers… 
+            
+                        Tenez, v'là un petit écu, pa yez-vous, et rayez-moi de dessus
+                        l'ardoise
+            
+                        Mme GRÉGOIRE. 
+            
+                        Comment tu asde l'argent… par quel hasard ? 
+            
+                        BENOIT. 
+            
+                        C'est pas l'hasard ; c'est mademoiselle Dubois de la Co
+            
+                        médie Française… 
+            
+                        (24) 
+            
+                        PANCHETTE, l'interrompant vivement. 
+            
+                        C'hest cha… trois livres dans sa poche, et pas un liard
+            
+                        à la maison. 
+            
+                        Mme GRÉGOIRE, brusquement. 
+            
+                        Eh bien ! donne ! on va te rendre. 
+            
+                        BENOIT, tendant la main. 
+            
+                        Ma monnaie. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Tenez, ma pauvre femme, la voilà. 
+            
+                        BENOIT. 
+            
+                        Du tout, je n'entends pas ces comptes-là, moi ? 
+            
+                        Ah ! mon dieu, vous vous cherez trompée, madame Gré
+            
+                        goire ; il vous donne un petit écu, et vous m'en remettez
+            
+                        FANCHETTE. 
+            
+                        deux. 
+            
+, 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Je ne me trompe jamais, vous avez votre compte. 
+            
+                        FANCHETTE… 
+            
+                        Mais je vous assure… 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Silence, ne dites rien à ce raurien là… Toi, tu vas me
+            
+                        faire le plaisir de décamper, et plus vite que ça. 
+            
+                        BENOIT. 
+            
+                        Ne vous fâchez pas, on s'en va ; mais ce soir mon épouse
+            
+                        me le paiera. 
+            
+                        FANCHETTE, à Benoit qui est passé près d'elle. 
+            
+                        Oui, comme dimanche passé. (Changeantde voix.) Tiens, 
+            
+                        prends tout, et laisse-nous maintenant. 
+            
+                        (Madame Grégoire le met à la porte.)
+            
+                        BENOIT, en s'en allant. 
+            
+                        Tu me le paieras, mon épouse ; tu me le paieras plus cher
+            
+                        qu'un écu
+            
+                        Il sort.)
+            
+                        SCENE XI. 
+            
+                        Mmo GRÉGOIRE, FANCHETTE. 
+            
+                        Mariez-vous donc après ça… Ah ! ben oui, les hom
+            
+                        Mme GRÉGOIRE, 
+            
+                        (25) 
+            
+                        mes… •
+            
+                        j'ai bien fait de ne vouloir jamais en prendre un… 
+            
+                        D'abord tous ces beaux Messieurs qui viennent ici me faire
+            
+                        la cour, disparaîtraient si j'étais mariée. Si j'étais veuve, 
+            
+                        ils se jetteraient à mes pieds, et il faudrait me décider… 
+            
+                        Je trouve plas de bénéfice à les laisser dans le doute… 
+            
+                        (Apercevant Fanchette, qui est restée timidement dans le
+            
+                        fond.) Eh bien ! qu'est-ce que vous faites-là, vous ? 
+            
+                        FANCHETTE, 
+            
+                        Ah ! c'hest que voyez-vous, madame Grégoire, après
+            
+                        che que mon homme il m'a promis, je n'ose plus retourna
+            
+                        à la maison ; il me battrait, et je me souviens encore de
+                        dimanche. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Mais, ma bonnc, qu'est-ce que vous voulez que j'y
+            
+                        fasse ? 
+            
+                        FANCHETTE. 
+            
+                        Vous qui avez toujours besoin de quelqu'un… chi vous
+            
+                        vouliez me garda pour la nourriture, seulement ? 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Vous garda, vous garda ! Mais qu'est-ce que vous savez
+            
+                        faire ? 
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    FANCHETTE. 
+                                
+            
+                                
+                                    Dam' ! pas grand chose. 
+                                
+            
+            
+            
+            
+                                <stage type="tune">
+                                    AIR : Ah ! tiens, toi, ma femme. (Air auvergnat.)
+                                </stage>
+            
+            
+            
+                                <l>Pourtant j'ai bonn' tête,</l>
+                                <l>Quoiqu'j'ai l'air ben lourd ;</l>
+                                <l>On n'est pas chi bête,</l>
+                                <l>Quand on est d'Chaint-Flour ! ;</l>
+                                <l>Grâce à mon grand-père,</l>
+                                <l>Qui me l'encheigna,</l>
+                                <l>J'connais ma grammaire</l>
+                                <l>Et le charabia.</l>
+                                <l>En Auvergne, oui dà,</l>
+                                <l>C'hest beaucoup d'chavoir cha,</l>
+                                <l>Tra la la, la la,</l>
+                                <l>C'hest beaucoup de chavoir cha.</l>
+                            
+            
+                            
+                                <l>Pus loin qu'la lecture,</l>
+                                <l>On m'a fait alla ;</l>
+                                <l>J'connais l'écriture,</l>
+                                <l>Je sais calcula ;</l>
+            
+            
+            
+                                
+                                    Mad. Grégoire. 
+            
+                                    4
+            
+                                    (26) 
+                                
+            
+            
+                                <l>Je n'sais pas en traitre,</l>
+                                <l>Mentir, ni trompa.</l>
+                                <l>À Paris, peut-être,</l>
+                                <l>On me l'apprendra.</l>
+                                <l>En Auvergne, oui dà,</l>
+                                <l>On n'sait pas encore cha,</l>
+                                <l>Tra la la, la la,</l>
+                                <l>On n'saura jamais cha.</l>
+            
+                            
+                        </lg> </div>
+            
+            
+            
+                        Mme GRÉGOIRE. 
+            
+                        Allons, c'est bien, je ne veux pas que votre mari voas
+            
+                        batte… Restez… vous m'aiderez, vous ferez ce que vous
+            
+                        pourrez. 
+            
+                        FANCHETTE. "
+            
+                        Ah ! Madame, que vous j'êtes donc bonne ! 
+            
+                        mm GRÉGOIRE, lui remettant le papier de Luquet. 
+            
+                        Non, je ne suis pas bonne. Mais voyons, pour commen
+            
+                        cer, tenez, additionnez cette facture-là, et voyez si le
+            
+                        compte est juste. 
+            
+                        FANCHETTE, s'assey ant. 
+            
+                        Oui, Madame, tout de chuite. (A part, quittant l'accent
+            
+                        auvergnat.) Bon ! me voilà installée dans la maison, et je
+            
+                        verrai bien si ce qu'on m'a dit est vrai. 
+            
+                        (Elle s'occupe à compter.)
+            
+                        Mme GRÉGOIRE, à pari, regardani Fanchette. 
+            
+                        Cette pauvre femme ! si je pouvais trouver moyen de lui
+            
+                        faire une petite fortune… Eb ! mais j'y pense… quelle
+            
+                        idée ! … Ces deux beaux Messieurs qui m'ont proposé tout
+            
+                        à-l'heure… Oh ! ce serait charmant ! Justement les lote
+            
+                        ries sont à la mode ! 
+            
+                        Ah ! ah ! ah ! 
+            
+                        FANCHETTE, riant. 
+            
+                        Mme GRÉGOIRE, 
+            
+                        Qu'avez-vous donc ? 
+            
+                        FANCHETTE. 
+            
+                        Mais, Madame, che n'est pas une factune, cha… c'hest
+            
+                        une déclaration d'amour, et bien drôle encore. 
+            
+            
+            
+            
+            
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    Mme GRÉGOIRE. 
+                                
+            
+                                
+                                    Vraiment ? Voyons donc. (Lisant.)
+                                    (27) 
+                                
+            
+            
+            
+                                    Enigme amoureuse et en vers. 
+                                
+            
+            
+            
+                                <l>Je ne sais pas comment, je ne sais pas pourquoi</l>
+                                <l>J'adore une bergère</l>
+                                <l>Qui ne s'en doute guère ;</l>
+                                <l>Je ne sais pas comment,</l>
+                                <l>Je ne sais pas pourquoi ;</l>
+                                <l>Mais je sais seulement,</l>
+                                <l>Que pour je ne sais qui, je sens je ne sais quoi.</l>
+                            
+            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        Signé LUQUET, fabricant, rue de la Verrerie. 
+            
+                        Qu'est-ce que ça veut dire ? Ah ! … Post-criptum… « En at
+            
+                        &amp; amp ; gt ; &amp; amp ; gt ; tendant l'honneur de la vôtre, je voudrais souper ce soir
+            
+                        » chez vous, en tête-à-tête, pour vous dire le mot de l'é
+            
+                        » nigme. » (A part.) Comment, et lui aussi ? … ce petit
+            
+                        nigaud ! … Eh bien ! tantmieux, au fait, il sera traité comme
+            
+                        les autres. (Haut.) Ma brave femme, passez dans ma cham
+            
+                        bre, et attendez-moi… D'ici à demain, vous serez peut
+            
+                        être plus riche que vous ne croyez. 
+            
+                        Plaît-il, Madame ? 
+            
+                        FANCHETTE. 
+            
+                        mme GRÉGOIRE. 
+            
+                        Allez, allez, je n'ai pas de temps à perdre. 
+            
+                        FANCHETTE, à part, en sortant. 
+            
+                        Que veut-elle dire ? Ayons les yeux sur cette femme et
+            
+                        sur lui. (Haut.) Je vous chalue, madame Grégoire. 
+            
+                        Elle sort.)
+            
+                        SCENE XII. 
+            
+                        MM. GREGOIRE, puis LUQUET. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        En vérité, on n'a pas d'idée de ça… On dirait qu'ils se
+            
+                        sont tous donné le mot aujourd'hui… C'est drôle, une dé
+            
+                        claration… ça vous offense… ça vous met en colère, et
+            
+                        cependant ça fait plaisir. 
+            
+                        (28) 
+            
+                        LUQUET, qui est entré au milieu de ce qui précède. 
+            
+                        Je viens chercher la réponse au post-scriptum. 
+            
+                        Mme GRÉGOIRE, feignant d'étre émue. 
+            
+                        Ah ! 
+            
+                        LUQUET. 
+            
+                        Ne cherchez pas à cacher mon poulet… vous l'avez la, 
+            
+                        ce poulet que l'amour vous a présenté sous la forme d'une
+            
+                        facture… c'est vous dire que mon ardeur voudrait être
+            
+                        payée comptant, ou tout au plus à vingt-quatre heures de
+                        date, belle cabaretière ! 
+            
+                        Vous êtes pressant, monsieur Luquet. 
+            
+                        Mme GRÉGOIRE, 
+            
+                        LŪQUET. 
+            
+                        Nous sommes tous comme ça dans la rue de la Ver
+            
+                        rerie. 
+            
+                        Vous me demandez an rendez-vous, 
+            
+                        Mme GRÉGOIRE. 
+            
+                        un tête-à-tête ? 
+            
+                        Oui, si ça vous est égal… 
+            
+                        LUQUET. 
+            
+                        Mme GRÉGOIRE, baissant les yeux. 
+            
+                        Si ça m'était égal, ça n'aurait pas grand prix. 
+            
+                        Dieux ! ça ne vous est pas égal… ni à moi non plus, pa
+            
+                        LUQUET. 
+            
+                        role d'honneur ! 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Chut ! ne parlons plus de ça, on pourrait nous entendre… 
+            
+                        Dans ce moment-ci, la maison est pleine de monde ; mais à
+            
+                        l'heure du souper, un peu avant minuit… 
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    LUQUET. 
+                                
+            
+                                
+                                    Il n'y aura plus personne. 
+            
+                                    Je vous comprends, divine
+                                    détaillante… Dieu ! de dieu ! vais-je être heureax ! le vais
+            
+                                    je être… Me voilà lancé… j'ai fait une conquête ! O ma
+            
+                                    man ! 
+            
+                                    (A madame Grégoire, qui lui fait signe de se taire.)
+            
+                                    MORCEAU D'ENSEMBLE. (29) 
+                                
+            
+            
+            
+            
+            
+            
+            
+            
+                                <stage type="tune" id="AIR : Du mystère !">
+                                    AIR de M. Doche. 
+                                </stage>
+            
+            
+            
+                                <l>Aussi vrai que vous êt's belle femme,</l>
+                                <l>Aussi vrai que j'suis beau garçon,</l>
+                            
+                            (29) 
+                            
+                                <l>J' réponds d' renfermer dans mon âme</l>
+                                <l>Mon sentiment et ma passion.</l>
+                            
+                            
+                                
+                                    MAD. GRÉGOIRE. 
+                                
+            
+                                <l>Mais on vient, le plus grand mystère,</l>
+                                <l>Sur tout cela taisez-vous bien…</l>
+            
+                                
+                                    LUQUET. 
+                                
+            
+            
+                                <l>Soyez tranquille, ici, j'espère</l>
+                                <l>Qu'on ne pourra s' douter de rien.</l>
+                                
+                                    (Remontant la scène.)
+                                
+                                <l>Tenez, je n' fais semblant de rien,</l>
+                                <l>Regardez, je n'ai l'air de rien.</l>
+                            
+            
+                       
+            
+            
+            
+            
+            
+            
+            
+                        SCENE XIII. 
+            
+                        LES MÊMES, D'ESPARVILLĖ, puis D'AUBERVAL. 
+            
+            
+            
+            
+            
+                        
+                                Suite du morceau. 
+                       
+                            
+            
+                                
+                                    D'ESPARVILLE
+                                
+                                
+, bas à madame Grégoire. 
+                                
+            
+            
+                                <l>Avez-vous réfléchi, ma chère ?</l>
+            
+                                
+                                    MAD. GRÉGOIRE
+                                
+            
+                                
+, de même. 
+                                
+            
+            
+                                <l>Ce soir, à minuit !</l>
+            
+            
+                                
+                                    (Elle lui fait signe que d'Auberval vient d'entrer. 
+                                    Il s'éloigne en se rengorgeant.)
+                                
+            
+            
+                                
+                                    D'AUBERVAL
+                                
+                                
+, bas à madame Grégoire. 
+                                
+            
+            
+                                <l>Ensemble irons-nous à Cythere ?</l>
+            
+                                
+                                    MAD. GRÉGOIRE
+                                
+                                
+, de méme. 
+                                
+            
+            
+                                <l>Ce soir, après minuit…</l>
+                                <l>Surtout soyez discret,</l>
+                                <l>Gardez bien le secret. <stage type="repetition"> (Bis.)</stage></l>
+            
+            
+            
+                                
+                                    TOUS
+                                
+            
+            
+                                
+, à part. 
+                                
+            
+            
+                                <l>Du mystère !</l>
+                                <l>Du mystère !</l>
+                                <l>Je suis sûr de lui plaire !</l>
+                                <l>Je réponds du succès,</l>
+                                <l>Et je la tiens dans mes filets !</l>
+            
+            
+                                
+                                    (30) 
+                                
+            
+            
+                                
+                                    MAD. GRÉGOIRÉ, 
+                                
+            
+                                <l>Du mystère !</l>
+                                <l>Du mystère !</l>
+                                <l>Je les tiens, je l'espère !</l>
+                                <l>Je réponds du succès…</l>
+                                <l>Ils tomberont dans mes filets !</l>
+                            
+            
+            
+                        </lg> </div>
+            
+            
+            
+            
+                        D'ESPARTILLE, saluant. 
+            
+                        Madame Grégoire, je suis votre valet… 
+            
+                        D'AUBERVAL. 
+            
+                        Le diable m'emporte si je ne suis pas tout votre ! … 
+            
+                        LUQUET, bas à madame Grégoire. 
+            
+                        A minuit… il fera clair de lune, et Phébé guidera Ca
+            
+                        pidon ! (Du bruit en dehors.) Oh ! la
+            
+                        la ! qu'est-ce que c'est
+            
+                        que ça ? 
+            
+                        (Ils reviennent tous trois.)
+            
+                        SCENE XIV. 
+            
+                        LES MÊMES, FEMMES DU PEUPLE, entrant parle fond, 
+            
+                        en se disputant. 
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+            
+                                
+                                    CHŒUR. 
+                                
+            
+            
+                                <stage type="tune">
+                                    AIR : C'est la rage. 
+                                </stage>
+            
+            
+            
+                                <l>Du tapage, <stage type="repetition"> (bis.)</stage></l>
+                                <l>On trouble notre ménage.</l>
+                                <l>Du tapage, <stage type="repetition"> (bis.)</stage></l>
+                                <l>Ou rendez-nous</l>
+                                <l>Nos époux.</l>
+                            
+            
+            
+            
+            
+            
+            
+                            
+                                MANON GIROUX, à Mad. Grégoire. 
+            
+                                <l>Rends-nous nos homm's, ou gare une querelle,</l> 
+                                <l>Ils n'sont ici qu'pour lorgner tes appas.</l> 
+            
+                                MAD. GRÉGOIRE. 
+            
+                                <l>Au cabaret, s'ils vienn'nt pour ça, ma belle,</l> 
+                                <l>C'est que chez eux sans doute ils n'en trouv'nt pas.</l> 
+            
+                                (31) 
+            
+                                SCÈNE XV. 
+            
+                                LES MÊMES, GIROUX, et tous les autres HOMMES DU
+            
+                                PEUPLE, venant du jardin. 
+            
+                                ENSEMBLE. 
+            
+                                LES HOMMES. 
+            
+            
+            
+            
+                                Reprise du Cheur. 
+                            
+            
+            
+            
+                            
+                                <l>Quelle rage !</l>
+                                <l>Quel tapage</l>
+                                <l>Trouble ici le voisinage ?</l>
+                                <l>Quel tapage ! <stage type="repetition"> (bis.)</stage></l>
+                                <l>Appaisons tous</l>
+                                <l>Leur courroux.</l>
+            
+            
+            
+                                
+                                    LES FEMMES. 
+                                
+            
+                                <l>Du tapage ! <stage type="repetition"> (bis.)</stage></l>
+                            
+            
+                            
+                                
+                                    D'AUBERVAL, D'ESPARVILLE, LUQUET. 
+                                
+                                <l>Quel tapage ! <stage type="repetition"> (bis.)</stage></l>
+                                <l>Ici Phymen fait rayage,</l>
+                                <l>Quelle rage ! <stage type="repetition"> (bis.)</stage></l>
+                                <l>Auprès d'elle tenons nous</l>
+                                <l>Tous.</l>
+                            
+            
+                        </lg> </div>
+            
+            
+                        Mme GRÉGOIRE. 
+            
+                        Ah ! ça, après tout, à qui en avez-vous, Mesdames ? 
+            
+, 
+            
+                        GIROUX. 
+            
+                        Oui, c'est vrai, quoique vons avez, z'harpies ? 
+            
+                        MANON GIROUX. 
+            
+                        Tais-toi, sans cour et sans foi ! laisse parler ton épouse. 
+            
+                        A nous deux, la belle Grégoire, je vas te dégoiser ton his
+            
+                        toire… Dans ta conduite gnia du louche, ma petite Sainte
+            
+                        Nitoache ! tu ne veux pas te marier, et t'as chez toi la moitié
+            
+                        de tous les hommes du quartier. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Vos hommes ! on se moque bien d'eux ! 
+            
+                        MANON GIROUX. 
+            
+                        Laisse donc, péronnelle, c'est toi qui les ensorcelle, avec
+            
+                        ta prunelle et ta dentelle, Pompadour du faubourg. 
+            
+                        (32) 
+            
+                        Mme GRÉGOIRE : 
+            
+                        Vous m'impatientez, à la fin ; voilà de jolis Magots pour
+            
+                        qu'on vous les enlève. 
+            
+                        GIROUX. 
+            
+                        Magots ! … 
+            
+                        MANON GIROUX. 
+            
+                        Tiens, madame Mijaurée, qui fait sa sacrée parce qu'elle
+            
+                        est bien parée, dirait-on pas que c'est grand chose que sa
+            
+                        buvette ; attends que je lui taille une bavette, à cette mar
+            
+                        chande de piquette. 
+            
+                        D'AUBERVAL, vivement. 
+            
+                        Ah ça ! ma chère, vous êtes bien osée ? … 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Ne vous en mêlez pas, monsieur d'Auberval : puisqu'elle
+            
+                        le prend sur ce ton là, je vais lui répondre de même. Met
+            
+                        tant le poing sur la hanche.) Ah ça ! crois-tu, ma commère, 
+            
+                        qne je ne me souviens plus d'être la fille de ma mère, et
+            
+                        qu'une harangère me fera taire ? A-t-on jamais vu ça ? une
+            
+                        marchande de ratafiat me reprocher mon état ! … c'est
+            
+                        parce que tu bois sec que t'as si bon bec ! … c'est le jus de
+            
+                        raisin qui te fait un si beau teint ; retourne à ta boutique
+            
+                        avec toate ta clique, je ne veux pas de pratique de ta fa
+            
+                        brique, madame Rustique. 
+            
+                        D'ESPARVILLE. 
+            
+                        Bravo ! bravo ! par là, samblea, je ne vous connaissais
+            
+                        pas ce talent-là ! 
+            
+                        MANON GIROUX. 
+            
+                        Ah ! tu m'appèles madame Rustique ? prends garde à ton
+            
+                        physique. (Elle fait un mouvement.) Ne me retiens pas, 
+            
+                        Giroux, je suis en courroux ; je veux lai donner un à tout. 
+            
+                        D'AUBERVAL. 
+            
+                        Allons, financier, flamberge au vent ; et chassons d'ici
+            
+                        toute cette canaille. 
+            
+                        GIROUX. 
+            
+                        Canaille ! nous allons voir qu'est-ce qu'en est. (Ils se me
+            
+                        nacent.) Arrive donc, avec ta brette. 
+            
+                        V'là la garde du poste voisin. 
+            
+                        LUQUET. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        La garde ! en ce cas faisons la paix, plus de dispute. 
+            
+                        (33) 
+            
+                        MANON GIROUX. 
+            
+                        Oui, oui, touche-là ; t'es pas fière, ma petite Grégoire, 
+            
+                        tu ne crains pas de t'agonir avec une ancienne connais
+            
+                        sance. 
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    Tous. 
+                                
+            
+            
+            
+            
+                                <stage type="tune">
+                                    AIR : Garde à vous ! 
+                                </stage>
+            
+            
+            
+                                <l>C'est le guet ! <stage type="repetition"> (bis.)</stage></l>
+                                <l>Le voilà qui s'avance,</l>
+                                <l>Amis, faisons silence,</l>
+                                <l>Plus de bruit indiscret,</l>
+                                <l>C'est le guet ! <stage type="repetition"> (bis.)</stage></l>
+                                <l>Cette troupe sévère,</l>
+                                <l>Bientôt nous ferait taire,</l>
+                                <l>Et sous clé nous mettrait.</l>
+                                <l>Plus de bruit, c'est le guet !</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+                        SCENE XVI. 
+            
+                        LES MÊMES, BELROSE, SOLDATS. 
+            
+                        (D'Auberval, d'Esparville et Luquet se retirent à l'écart, 
+            
+                        derrière les gens du peuple, sur un signe de madame Gré
+            
+                        goire.)
+            
+                        Ah ! c'est Belrose. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        BELROSE. 
+            
+                        Quel silence énigmatique ! … Ça ne ressemble pas da
+            
+                        tout au tapage qui a frappé l'ouïe de la force armée. 
+            
+                        mm GRÉGOIRE. 
+            
+                        Vous savez bien, monsieur Belrose, qu'on ne fait jamais
+            
+                        de bruit chez moi. 
+            
+                        BELROSE. 
+            
+                        Je sais, je sais, qu'il y a dans ce lieu bachique, trois che
+            
+                        valiers du quai des Morfondos, qui tronblent la tranquillité
+            
+                        publique, et la mienne particulière. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Ah ! par exemple… Voyez plutôt tous ces braves
+            
+                        gens… 
+            
+                        Mad. Grégoire. 
+            
+                        5
+            
+                        1
+            
+                        (34) 
+            
+                        MANON GIROUX. 
+            
+                        Sages comme des images. 
+            
+                        BELROSE. 
+            
+                        Il se peut ; mais dans mon opinion, c'est pas ça… Je
+            
+                        dois ici trouver les papillons qui voltigent indirectement
+            
+                        près de ma rose… Vous savez bien qui que je veux dire. 
+            
+                        Au fait, quand ça serait, que feriez-vous ? 
+            
+                        ume GRÉGOIRE. 
+            
+                        BELROSE. 
+            
+                        Je les coffrerais ! c'est le droit de ma prérogative, vu le
+            
+                        bacchanal matinal qui a retenti jusqu'aux oreilles du corps
+            
+                        de-garde… Voyons, la petite mère, où sont-ils, les tour
+            
+                        tereaux, que je les insère dansla cage des humains ? 
+            
+                        Mme GRÉGOIRE, 
+            
+                        Où ils sont ? Eh bien l puisqu'on ne peut rien vous ca
+            
+                        cher, (Prenant Belrose par la main, et lui indiquant la claire
+            
+                        voie.) ils sont là ! 
+            
+                        BELROSE. 
+            
+                        Suffit. Je vous avais bien dit que le champ de bataille me
+            
+                        resterait ; on n'est pas pour rien le vainqueur de Mahon… 
+            
+                        Suivez-moi, guerriers invincibles ! 
+            
+                        (11 entre avec les soldats, madame Grégoire ferme brusque
+            
+                        ment la porte.)
+            
+                        TOUS, riant. 
+            
+                        Victoire ! victoire ! nous tenons le guet. 
+            
+                        Ingénieuse héroïne, va ! 
+            
+                        D'AUBERVAL. 
+            
+                        LUQUET. 
+            
+                        Du vin à tous ces braves gens, c'est moi qui régale ; c'est
+            
+                        le financier qui paie. 
+            
+                        D'ESPARVILLE. 
+            
+                        Oui ! … Vive la mauvaise compagnie, c'est la bonne so
+            
+                        ciété ! 
+            
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                
+                                    LUQUET, D'AUBERVAL, D'ESTARVILLE, 
+                                
+            
+            
+                                <stage type="tune">
+                                    AIR : Amis, il nous faut faire pause. 
+                                </stage>
+            
+            
+            
+                                <l>Allons, du vin pour tout le monde !</l>
+                                <l>Que l'on remplisse les flacons !</l>
+                                <l>Ensemble nous les viderons,</l>
+            
+            
+            
+                                
+                                    (35) 
+                                
+            
+            
+                                <l>Pendant que le guet fait sa ronde.</l>
+                                <l>Au bruit du verre, il est si doux</l>
+                                <l>De fêter madame Grégoire !</l>
+                                <l>Elle aime à rire, elle aime à boire,</l>
+                                <l>Elle aime à chanter comme nous !</l>
+            
+                                
+                                    TOUS. 
+                                
+            
+                                <l ana="unanalyzable">Elle aime, etc.</l>
+                            
+                            
+                                
+                                    BELROSE et LA GARDE
+                                
+            
+                                
+, reparaissant dans la claire-voie. 
+                                
+            
+            
+                                <l>Ici nous n'avons vu personne ;</l>
+                                <l>Mais là-bas je les aperçois.</l>
+            
+                                
+                                    (Essayant d'ouvrir.)
+                                
+            
+                                <l>Je vais les coffrer tous les trois.</l>
+                                <l>Eh quoi ! c'est nous qu'on emprisonne !</l>
+            
+                                
+                                    (Avec colère.)
+                                
+            
+                                <l>Qui nous retient sous les verroux ?</l>
+                                
+                                    MAD. GRÉGOIRE. 
+                                
+                                <l>Sergent, c'est madame Grégoire.</l>
+            
+            
+            
+            
+            
+            
+                                
+                                    BELROSE, parlant. 
+                                    Comment, on ose arrêter la garde ! 
+            
+            
+            
+                                    D'ESPARVILLE, un verre à la main. 
+            
+                                    A votre santé, habile général ! 
+            
+                                    D'AUBERVAL. 
+            
+                                    Vainqueur de Mahon ! 
+            
+                                    Racoleur des Colonies ! 
+            
+                                    LUQURT. 
+            
+                                    BELROSE. 
+            
+                                    A la garde ! à la garde ! 
+            
+                                    TOUS, chantant el trinquant, 
+                                
+            
+            
+            
+                                <l>Elle aime à rire, elle aime à boire,</l>
+                                <l>Elle aime à chanter comme nous !</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+                        (Pendant ces couplets, Panchette est restée en observation
+            
+                        sur le pas de la porte de la inaison, Belrose frappe à
+            
+                        coups redoublés pour sortir. 
+            
+                        Tous les personnagesrient
+            
+                        et boivent sur le théâtre.)
+            
+                        FIN DU PREMIER ACTE. 
+            
+                        (
+            
+                        56
+            
+) 
+            
+                        0000000000000
+            
+                        ACTE DEUXIÈME. 
+            
+                        Le Théâtre représente un intérieur de chambre à coucher fort
+            
+                        simple. 
+            
+                        Au fond, nn lit à rideanx entièrement fermés et à
+            
+                        baldaquin. 
+            
+                        A gauche, une fenêtre. 
+            
+-A côté, une porte
+            
+                        donnant sur la rue. 
+            
+-
+            
+                        A droite, sur un des côtés de la scène, 
+            
+                        une table avec des lumières dessus, et deux couverts au fond. 
+            
+                        A côté du lit, une autre porte d'entrée donnant sur la rue. 
+            
+-Au troisième plan, un cabinet. 
+            
+                        SCÈNE PREMIÈRE. 
+            
+                        Mme GRÉGOIRE, FANCHETTE, portant des assiettes
+            
+                        et des plats, et sortant du cabinet. 
+            
+                        Mme GRÉGOIRE, entrant. 
+            
+                        Par ici, Fanchette, par ici ! Posez tout ca là… Bien. 
+            
+                        Ah ! ça, ma fille, vous voilà chez moi… La maison est
+            
+                        bonne, tâchez de vous
+            
+                        tenir. 
+            
+                        у
+            
+                        FANCHETTE. 
+            
+                        J'espère que Madame chera contente… Je ne suis
+            
+                        si bête ni si maladroite que j'en ai l'air, allez. 
+            
+                        pas
+            
+                        Mme GRÉGOIRE. 
+            
+                        Vous allez nous servir à table pendant le souper. 
+            
+                        FANCHETTE. 
+            
+                        Le souper ? … A propos, est-ce que c'est bien vrai que
+            
+                        M. d'Auberval il en chera ? 
+            
+                        M. d'Auberval ? 
+            
+                        Mme GRÉGOIRE. 
+            
+                        (57) 
+            
+                        FANCHETTE. 
+            
+                        Un si mauvais sujet ! 
+            
+                        Vous le connaissez ? 
+            
+                        Mme GRÉGOIRE. 
+            
+                        FANCHETTE. 
+            
+                        Je l'ai vu quelquefois chez mam'zelle Dubois, où mon
+                        homme et moi nous fesions des commissions… Figurez
+            
+                        vous, Madame, qu'elle est folle de lui, la pauvre demoi
+            
+                        selle… Eh bien ! cha ne l'empêche pas, che beau Mon
+            
+                        sieur là, d'en conter à toutes les femmes, et si vous ne
+            
+                        prenez pas garde à vous… 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Oh ! je ne le crains pas ! Mais, dites-moi, vous avez fait
+            
+                        là-dedans tous nos petits préparatifs ? 
+            
+                        Oui, Madame. 
+            
+                        FANCHETTE. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Vous n'avez rien oublié ? 
+            
+                        FANCHETTE. 
+            
+                        Non, Madame, rien… Ah ! si pourtant… (Prenant
+            
+                        une petite boîte sur une chaise à droite.) J'ai oublié de vous
+            
+                        remettre nne boîte qu'on a apportée tout-à-l'heure pour
+            
+                        vous. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Une boite ! De quelle part ? 
+            
+                        FANCHETTE. 
+            
+                        Oh ! je chais pas… Mais v'là' une lettre qui était avec. 
+            
+                        mme GRÉGOIRE. 
+            
+                        Donnez… (Ouvrant la lettre.) Qui peut m'écrire à une
+            
+                        pareille heure ? … (Avec étonnement.) Mademoiselle Du-. 
+            
+                        bois ! … 
+            
+                        Bah ! c'est mam'zelle Dubois ? 
+            
+                        FANCHETTE. 
+            
+                        Mme GRÉGOIRE, après avoir parcouru la lettre. 
+            
+                        C'est singulier ! … Qui a pa l'instruire ? … Je n'ai pour
+            
+                        tant parlé de mon projet à personne… N'importe : cela
+            
+                        vaudra mieux. Il y a sans doute là-dessous quelque chose
+            
+                        de plaisant, et ça nous amusera. Voyons celte boîte. (Elle
+            
+                        (38) 
+            
+                        l'ouvre.) C'est bien cela… rien n'y manque, et je rem
+            
+                        plirai fidèlement ses intentions… Fanchette, mettez ces
+            
+                        objets avec les autres… vous rapporterez le tout au des
+                        sert. 
+            
+                        FANCHETTE… 
+            
+                        Cha suffit, Madame. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Attendez ; attendez, je vais arranger tout ça avec vous. 
+            
+                        Je craios quelque maladresse… 
+            
+                        (Elle rentre dans le cabinet à droite. ** En ce monient, 
+            
+                        Belrose ouvre la fenêtre à gauche, et se fait voir) 
+            
+                        SCÈNE II. 
+            
+                        <div type="poem"> <lg>
+                            
+                                
+                                    BELROSE
+                                
+                                
+, seul. 
+            
+                                    Personne ne m'a vu… J'ai endossé le manteau de Mu
+            
+                                    raille, je me suis métamorphosé en Lézard, et ne pouvant
+            
+                                    m'insinuer dans la placé par la porte
+            
+                                    je m'y glisse par la
+            
+                                    fenêtre, comme le vainqueur de Mahon… Ah Grégoire, 
+            
+                                    ma mignonne, vous vous moquez du sergeot du guet, vous
+            
+                                    l'enferinez dans l'exercice de ses fonctions… Patience ! 
+            
+                                    je vous mettrai peut-être à mon tour dans les fers de
+            
+                                    l'hyménée. D'abord, je vais tellement la compromettre, 
+            
+                                    que je la forcerai bien…, d'autant plus que maintenant je
+            
+                                    suis sûr qu'elle n'est pas mariées a.' Oh ! Oh ! oh ! qu'aper
+            
+                                    cevois-je ? une table et deux couverts illuminés ! … Est-ce
+            
+                                    que je serais compromis moi-même ? (N s'approche de la
+            
+                                    table.) Ceci m'a tout l'air d'un festin équivoque… V'là
+            
+                                    déjà la colère qui me dévore… ça me prend à la gorge. 
+            
+                                    je sens là comme des charbons ardens… avec ça que j'ai
+            
+                                    bu tantôt onze petits verres de rhum pour me rafraîchir ! 
+            
+                                    Je suis hors de moi ! cabaretière fallacieuse et multiface ! 
+                                
+            
+            
+            
+            
+            
+            
+                                <stage type="tune">
+                                    Tyrolienne de Guillaume Tell. 
+                                </stage>
+            
+            
+            
+                                <l>Quel est l'oiseau qui suit tes pas ?</l>
+                                <l>Ah ! ah ! ah ! ah !</l>
+                                <l>Je l' f'rai chanter plus bas.</l>
+                                <l>S'rein ou corbeau.</l>
+            
+            
+                                
+                                    (39) 
+                                
+            
+            
+                                <l>À mon gluau,</l>
+                                <l>Oh ! oh ! oh ! oh !</l>
+                                <l>J'pinc'rai l'oiseau.</l>
+                                <l>Pigeon rebelle,</l>
+                                <l>Près d' ma tourterelle,</l>
+                                <l>Si tu bats d' l'aile,</l>
+                                <l>On te la coupera…</l>
+                                <l>Ah ! ah ! ah ! ah !</l>
+                                <l>Vilain oiseau…</l>
+                                <l>Oh ! oh ! oh ! oh !</l>
+                                <l>On t'en doun'ra…</l>
+                                <l>Ah ! ah ! ah ! ah !</l>
+            
+                                <l ana="unanalyzable">Quel est l'oiseau, etc.</l>
+                            
+                        </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+                        J'ai des éblouissemens d'indignation ! ça me donne des ver
+            
+                        tiges ! … Ah ! si je tenais, n'importe qui ! … 
+            
+                        SCÈNE III. 
+            
+                        BELROSE, LUQUET, entrant aussi par la fenêtre. 
+            
+                        LUQUET, une bouteille sous chaque bras. 
+            
+                        M'y voici ! (Il descend dans la chambre.) La fenêtre on
+            
+                        vertę… one échelle… Bon, je suis en honne fortune… 
+                        c'est comme dans les romans… Ah ! voilà bien une autre
+            
+                        histoire… Comment se trouve-t-il là ? 
+            
+                        BELROBE, le voyant aussi. 
+            
+                        (Chantant.) « Quel est l'oisean qui suit tes pas ? … » 
+            
+                        Encore ce petit Luquet ! 
+            
+                        LUQUET, monte et descend le théâtre en fredonnant. 
+            
+                        « Ta, ta, ta, tra la, tra la… * (A part.) Toujours et
+            
+                        partout ce Belrose ! 
+            
+                        BELROSE, à
+            
+                        part. 
+            
+                        C'ť enfant-là me donne des envies de taper dessns, qui
+            
+                        fait frémir ! Soyons prudens, et de la douceur… (Haut.)
+            
+                        Je ne soupçonnais pas, Monsieur, que le tiers-état se per
+            
+                        mît de grimper les écbelles à l'heure qui sonne ? 
+            
+                        LUQUET, embarrassé. 
+            
+                        C'est vrai qu'op pourrait croire, et pourtant… (A part.)
+            
+                        Mon dieu ! mon dieu ! que j'ai c't homme là en horreur ! 
+            
+                        (40) 
+            
+                        BELROSE. 
+            
+                        Est-ce encore pour apporter de la verroterie que vous
+            
+                        vous introduisez ici fructivement ? 
+            
+                        C'est
+            
+                        ça inême… Vous
+            
+                        voyez bien deux échantillons de
+            
+                        Bordeaux : c'est ce qu'on nomme les longs bouchons. 
+            
+                        LUQUET. 
+            
+                        BELROSE, prinant les deux bouteilles. 
+            
+                        Verrier, vous ne devez débiter que des bouteilles vides, 
+            
+                        et celles-là sont pleines ? 
+            
+                        LUQUET. 
+            
+                        Bah ! vous croyez ? … Alors c'est une erreur. 
+            
+                        BELROSE, débouchant une bouteille et vidant un verre. 
+            
+                        Si c'est une erreur, il faut la réparer. 
+                        4
+            
+                        LUQUET. 
+            
+                        Eh ben ! eh ben ! vous buvez mon vin ! 
+            
+                        Oui, à votre santé, et poliment ! 
+            
+                        BELROSE. 
+            
+                        C'est igal… c'est très-malhonnête ! 
+            
+                        LUQUET. 
+            
+                        BELROSE, après avoir bu. 
+            
+                        C'est comme une aune de velours qui vous passe dans le
+            
+                        gosier… Ecootez, 
+            
+                        je trouve que votre présence est su
+            
+                        perflue et fastidieuse… Allez-vous-en, heim ! sans céré
+                        monie. 
+            
+                        LUQUET. 
+            
+                        Encore comme ce matin ? … Sergent, vous êtes bien
+            
+                        insupportable ! 
+            
+                        BELROSE. 
+            
+                        La différence, vous ; c'est que vous êtes horriblement
+            
+                        embêtant ! 
+            
+                        LUQUET. 
+            
+                        Eh ben ! ponr lors, si vous me laissiez tranquille… Je
+            
+                        ne vous retiens pas ici, moi ? 
+            
+                        BELROSE. 
+            
+                        Ni moi non plus. 
+            
+                        • LUQUET, à part. 
+            
+                        Un plan ! … Rusons à mon tour ! … (Haut.) Sergent, 
+            
+                        savez-vous que j'ai réfléchi à ce que vous m'avez dit sur
+                        les Colonies ? … 
+            
+                        Eh bien ! ensuite ? 
+            
+                        1
+            
+                        (61) 
+            
+                        BELROSE. 
+            
+                        LUQUET. 
+            
+                        J'ai envie de m'engager. 
+            
+                        BELROSE. 
+            
+                        Aimable enfant, je vous loue de tout mon coeur ! Vous
+            
+                        vous amuserez cent fois plus qu'à Paris ! 
+            
+                        LUQUET
+            
+                        Avec ça que je ne m'amuse guères, même dans ce mo
+            
+                        ment ici avec vous. 
+            
+                        BELROSE. 
+            
+                        Je ne vous ai pas encore tout dit sur le compte des
+            
+                        îles ! 
+            
+                        LUQUET. 
+            
+                        Si, si, je sais, je sais… je suis tout-à-fait décidé… Allez
+            
+                        me chercher le recruteur tout de suite. 
+            
+                        BELROSE, avec intention. 
+            
+                        Non, uon, ça ne peut pas s'organiser de c'te manière-là. 
+            
+                        Il faut que vous vous y transportiez ensemble avec moi. 
+            
+                        LUQUET, à
+            
+                        part. 
+            
+                        J'aime toujours mieux ça ; je le quitterai en chemin, 
+            
+                        e t
+            
+                        je reviendrai quand je m'en serai débarrassé. 
+            
+                        L'enfant malin me prend pour un gobe-mouche… 
+            
+                        BELROSE, à part. 
+            
+                        N'ayons pas l'air de suspecter ses finesses. 
+            
+                        Allons, marchons, mon brave ! 
+            
+                        LUQUET : 
+            
+                        BELROSE', ouvrant. 
+            
+                        Après vous, jeune verrier. (Luquet sort le premier. 
+            
+                        Belrose ferme la porte sur lui.) Excusez si je ne vous re
+            
+                        conduis pas. 
+            
+                        Yia trois marches… 
+            
+                        prenez la
+            
+                        rampe. 
+            
+                        Sergent ! sergent ! 
+            
+                        LUQUET, frappant. 
+            
+                        BELROSE. 
+            
+                        Il fait du train, on va venir ! Il faut me cacher… sous
+            
+                        cette table… pas possible… je ne tiendrai pas, je suis
+            
+                        trop bel homme ! … Ah ! là-bas, près de la porte, v'là
+            
+                        c' qu'il me faut. 
+            
+                        (Il se dirige d'un pas chancelant vers le lit, et disparaît dans
+            
+                        la ruelle.)
+            
+                        Mad. Grégoire. 
+            
+                        6
+            
+                        $ 2) 
+            
+                        SCENE IV. 
+            
+                        Mm. GRÉGOIRE, puis LUQUET. 
+            
+                        (Liquet frappe en dehors.)
+            
+                        Mme GRÉGOIRE. 
+            
+                        On à frappé, je crois… (Elle ouvrre.) C'est vous, 
+            
+                        M. Luquet ? 
+            
+                        LUQUET. 
+            
+                        Eh quoi ! il n'y est plus… il sera sorti par-là. 
+            
+                        (Indiquant la fenêtre.)
+            
+                        Mme GRÉGOIRE. 
+            
+                        Soyez le bien vend. 
+            
+                        Dieax ! comme mon cœur bat ! 
+            
+                        LUQUET. 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Qu'est-ce que vous avez ? 
+            
+                        LUQUET. 
+            
+                        Deux couverts ! … Oh ! la, la, la, le tictac ! 
+            
+                        MHE GRÉGOIRE. 
+            
+                        Est-ce que vous ne m'avez pas demandé de souper en
+            
+                        tête-à-tête avec moi ? 
+            
+                        LUQUET. 
+            
+                        Si fait, si fait… Mais, voyez-vous, c'est la première
+            
+                        fois que je me trouve aussi tard avec une personne du
+            
+                        sexe, ça me fait un drôle d'effet ! Imaginez-vous que j'ai
+            
+                        joué un tour à maman ; elle me croit dans mon lit depuis
+            
+                        deux heures ; mais pas si bête… J'ai gagné la servante, 
+            
+                        en lui faisant cadeau d'une paire de jaretière, et elle m'a
+            
+                        ouvert la porte, quand tout le monde a été couché… Dieu ! 
+            
+                        si maman savait où je suis ! 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Elle vous mettrait en pénitence ? 
+            
+                        LUQUET, timidement. 
+            
+                        Oh ! oh ! madame Grégoire ! 
+            
+                        Mme GRÉGOIRE. 
+            
+                        Eh bien ! qu'avez-vous donc ? 
+            
+                        (43) 
+            
+                        LUQUET. 
+            
+                        Rien… c'est quand je vous regarde… brr ! brr ! …, 
+            
+                        mais ça va se passer. 
+            
+                        <div type="poem"> <lg>
+            
+                            
+                                
+                                    Mme GRÉGOIRE
+                                
+                                
+, à parl, 
+            
+                                    Pauvre innocent ! … Il n'est pas à craindre, celui-là. 
+                                
+            
+            
+            
+            
+                                <stage type="tune">
+                                    AIR : Lisez-vous bien ? 
+                                </stage>
+            
+            
+                                <l>Allons, n'ayez pas peur.</l>
+                                <l>Pourquoi cette frayeur ?</l>
+                                <l><stage> (À part.)</stage> Mon dieu, qu'il a l'air bête !</l>
+                                <l><stage> (Haut.)</stage> Quoi, vous tremblez déjà ?</l>
+            
+                                
+                                    LUQUET. 
+                                
+            
+                                <l>On est toujours comme ça</l>
+                                <l>Au premier tête-à-tête.</l>
+            
+                                
+                                    MAD. GRÉGOIRE. 
+                                
+            
+                                <l part="I">Approchez…</l>
+            
+                                
+                                    LUQUET. 
+                                
+            
+                                <l part="F">Non.</l>
+            
+            
+                                
+                                   
+                                
+            
+            
+                                <l>J'en perdrai la raison,</l>
+                                <l><stage> (À part.)</stage> Mais un peu de courage…</l>
+                                <l><stage> (Il s'avance.)</stage> Prenons sa main,</l>
+                                <l>Ça va m' mettre en bon ch'min</l>
+                                <l>Pour mon apprentissage.</l>
+            
+                            
+            
+            
+            
+                            
+                                (Il lui prend la main. 
+            
+                                Madame Grégoire le regarde. 
+            
+                                Il la
+            
+                                quitte aussitôt. 
+            
+                                ENSEMBLE. 
+                            
+            
+                            
+                                
+                                    LUQUET. 
+                                
+            
+            
+                                <l>Il me semble que j'ai moins peur.</l>
+                                <l>Allons, plus de frayeur…</l>
+                                <l>J' dois avoir l'air si bête !</l>
+                                <l>Quelqu'chose me dit là</l>
+                                <l>Qu'il n' faut pas êtr' comm' ça</l>
+                                <l>Quand on s' trouv' tête-à-tête.</l>
+            
+            
+                                
+                                    MAD. GRÉGOIRE. 
+                                
+            
+                                <l ana="unanalyzable"> Allons, etc.</l>
+                                <l>Il n' faut pas être comme ça</l>
+                                <l>Quand on s' trouve tête-à-tête.</l>
+                            
+                       
+            
+            
+            
+                        1
+            
+                        (44) 
+            
+                        LUQUET. 
+            
+                        Ma foi, tant pire, je me lance ; je vous aime au superla
+            
+                        tif, vous êtes d'une part, moi je suis de l'autre… Enfin je
+            
+                        ne sais plus ce que je dis, mais pour mieux me faire com
+            
+                        prendre, je vais vous embrasser. 
+            
+                        Par exemple, je voudrais bien voir ça. 
+            
+                        1
+            
+                        Mme GRÉGOIRE. 
+            
+            
+            
+            
+                                
+                                    LUQUET. 
+                                
+            
+                                
+                                    Eh bien ! vous le verrez. 
+                                
+            
+
+            
+                               
+                                    Même air. 
+                                
+            
+            
+            
+                                <l>Je veux vous embrasser.</l>
+                                <l>Ma peur vient de cesser…</l>
+                                <l>Je me sens intrépide !</l>
+                            
+            
+                            
+                                MAD. GRÉGOIRE
+                            
+            
+                            
+, à part. 
+                            
+							
+                            <l>Vraiment, j'ai peur de lui,</l>
+                            <l>Moi qui d'abord ai ri</l>
+                            <l>D' son air gauche et timide.</l>
+            
+                            
+                                LUQUET, 
+                            
+            
+                            <l part="I">Un baiser ?</l>
+            
+                            
+                                MAD. GRÉGOIRE. 
+                            
+            
+                            <l part="F">Non,</l>
+                            <l>Pour ma réputation,</l>
+                            <l>Je n' veux pas qu'on le prenne.</l>
+            
+                            
+                                LUQUET. 
+                            
+            
+                            <l>Moi, justement,</l>
+                            <l>J'y tiens en ce moment,</l>
+                            <l>Pour établir la mienne.</l>
+                        
+            
+            
+            
+            
+                        
+                            (Il lui dérobe un baiser. 
+            
+) 
+            
+                            Attrappe ! 
+            
+                            Mme GRÉGOIRE. 
+            
+                            (Parlé.) Eh bien ! Monsieur. 
+            
+                            ENSEMBLE. 
+                        
+            
+                        
+                            
+                                LUQUET
+                            
+                            
+, triomphant. 
+                            
+            
+            
+                            <l>Je viens de l'embrasser,</l>
+                            <l>Et vais recommencer…</l>
+                            <l>Je me sens intrépide !</l>
+            
+            
+                            
+                                (45) 
+                            
+            
+                            <l>De ma peur elle a ri ;</l>
+                            <l>Mais maintenant, ici,</l>
+                            <l>C'est moi qui l'intimide.</l>
+            
+                            
+                                MAD. GRÉGOIRE. 
+                            
+            
+            
+                            <l>Il ose m'embrasser,</l>
+                            <l>Et peut recommencer ;</l>
+                            <l>Car il est intrépide.</l>
+                            <l>Vraiment j'ai peur de lui,</l>
+                            <l>Moi qui d'abord ai ri</l>
+                            <l>D' son air gauche et timide.</l>
+                        
+             </lg> </div>
+            
+            
+            
+            
+                    (Luquet veut encore l'embrasser.)
+            
+                    (On frappe.)
+            
+                    Mme GRÉGOIRE. 
+            
+                    Entrez ! … (A part.) C'est bien heureux. 
+            
+                    Comme c'est bête… ça commençait si bien. 
+            
+                    LUQUET, à part. 
+            
+                    SCENE V. 
+            
+                    LES MÊMES, D'ESPARVILLE, puis FANCHETTE. 
+            
+            
+                    <div type="poem"> <lg>
+                        
+                            
+                                D'ESPARVILLE
+                            
+            
+            
+                            
+                                sans voir Luquet. 
+                            
+            
+            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Me voilà ! 
+                            </stage>
+            
+            
+            
+                            <l>Me voilà ! <stage type="repetition"> (ter.)</stage></l>
+                            <l>Joyeux convive,</l>
+                            <l>Ici j'arrive…</l>
+                            <l>Me voilà ! <stage type="repetition"> (ter.)</stage></l>
+                             <l>Voyons si tout est prêt déjà.</l>
+                        
+                    </lg> </div>
+            
+            
+            
+            
+            
+                 
+                               
+                    (Il regarde la table. 
+            
+) 
+            
+                    LUQUET, à part. 
+            
+                    C'est bien agréable, voilà mon tête-à-tête flambé. 
+            
+                    D'ESPARVILLE, l'apercevant. 
+            
+                    Tiens, c'est le petit verrier ! … Qu'est-ce qu'il vient donc
+            
+                    faire ici ? 
+            
+                    Il vient souper avee nous. 
+            
+                    Mme GRÉGOIRE. 
+            
+                    (46) 
+            
+                    D'ESPARVILLE, bas. 
+            
+                    Avec nous ! … Vous m'aviez dit que nous ne serions que
+            
+                    deux. 
+            
+                    Mm6 GRÉGOIRL. 
+            
+                    Eh bien ! nous serons trois. (Appelant.)Fanchette ! un
+            
+                    couvert de plus ! 
+            
+                    FANCHETTE, entrant. 
+            
+                    Me v'là, Madame. (A part.) Ce n'est pas encore d'Aa
+            
+                    berval. 
+            
+                    D'ESPARVILLE. 
+            
+                    Diable ! diable ! … ça ne m'arrange guère, ce trio-là. 
+            
+                    LUQUET. 
+            
+                    11 bisque, le gros ; et moi aussi. 
+            
+                    D'ESPARVILLE. 
+            
+                    Savez-vous, madame Grégoire, que j'ai refusé pour
+            
+                    vons un souper délicieux, chez Beaujon, le fermier-gé
+            
+                    néral ? 
+            
+                    C'est bien gentil de votre part. 
+            
+                    Mme GRÉGOIAE. 
+            
+                    D'ESPARVILLE. 
+            
+                    Noas nous réunissonscomme cela une fois par semaine ; 
+            
+                    tous noms célèbres : Cagliostro, le baron d'Holbach, la pe
+            
+                    tite Guimard, Adrienne Lecouvreur, M. de Bièvre, M. de
+            
+                    la Palisse… 
+            
+                    Monsieur de la Palisse ? … M. de la Palisse est mort. 
+            
+                    LUQUET, l'interrompant. 
+            
+                    D'ESPARVILLE. 
+            
+                    Ce n'est pas celui-là ! … Enfin, tout ce qu'il y a de mieux ; 
+            
+                    l'Encyclopédie et le vin de Tokai ; le génie et la finance ; 
+            
+                    des philosophes vertueux et des danseuses de l'Opéra. 
+            
+                    Mme GRÉGOIRE. 
+            
+                    Comment vous avez laissé tout ce monde-là
+            
+                    pour
+            
+                    moi ? 
+            
+                    D'ESPARVILLE
+            
+                    Tenez, d'Auberval était là, quand j'ai fait dire à Beavjon
+            
+                    qu'il ne m'aurait pas. 
+            
+                    Mme GRÉGOIRE. 
+            
+                    Est-ce que vous ayez vu M. d'Auberval, ce soir ? 
+            
+                    D'ESPARVILLE. 
+            
+                    Il n'y a qu'un moment, dans les coulisses de l'Opéra… 
+            
+                    Il était d'assez maavaise humeur, pour je ne sais quel pas
+            
+                    (47) 
+            
+                    qu'on veut lui faire danser malgré lui. 
+            
+                    Mme GRÉGOIRE, à part. 
+            
+                    Quelle contrariété ! il ne pourra pas venir. 
+            
+                    D'ESPARVILLE. 
+            
+                    Mais je crois qu'il est temps de dire deux mots au souper. 
+            
+                    (A part.) J'espère que ce petit nigaud décampera au des
+            
+                    sert. 
+            
+                    LUQUET. 
+            
+                    Je me flatte que ce gros glouton disparaîtra quand il n'y
+            
+                    aura plus rien à manger. 
+            
+                    D'ESPARVILLE. 
+            
+                    Allons, allons, à table… (Ils vont pour s'asseoir, on en
+            
+                    tend frapper.) Qu'est-ce que c'est que ça ? 
+            
+                    Si c'était maman ! 
+            
+                    Entrez. 
+            
+                    LUQUET. 
+            
+                    mme GRÉGOIRE. 
+            
+                    Est-ce maman ? 
+            
+                    LUQUET, sans regarder. 
+            
+                    SCÈNE VI. 
+            
+                    LES MÊMES, D'AUBER VAL, enveloppé d'un manteau. 
+            
+                    D'AUBERVAL, entrant. 
+            
+                    Je n'entends plus rien ; j'ai cru qu'on me poursuivait. 
+            
+                    mmo GRÉGOIRE, à part. 
+            
+                    Ah ! c'est lai. 
+            
+                    LUQUET, regardant d'Aubenval. 
+            
+                    Tiens ! 
+            
+                    Tiens ! 
+            
+                    D'ESPAAVILLE, méme jeu. 
+            
+                    D'AUBERVAL. 
+            
+                    Tiens… pourquoi donc êtes-vous ici, vous autres ? 
+            
+                    Pour souper. 
+            
+                    TOUS DEUX, 
+            
+                    D'AUBERVAL. 
+            
+                    Vrai ! … Et moi aussi. 
+            
+                    (48) 
+            
+                    D'ESPARVILLE. 
+            
+                    Comment, encore un ? 
+            
+                    Mme GRÉGOIRE, 
+            
+                    C'est une surprise agréable que je vous ménageais. 
+            
+                    Ah ! c'est une surprise. 
+            
+                    D'ESPARVILLE. 
+            
+                    Mme GRÉGOIRE. 
+            
+                    Sans doute ; une femme en l'absence d'un mari peut bien
+            
+                    profiter des priviléges d'une veuve ; mais pour sa réputa
+            
+                    tion, elle ne doit donner des rendez-vous qu'en présence
+            
+                    de témoins. 
+            
+                    D'ESPARVILLE, aux autres. 
+            
+                    Un mari… Je n'ai jamais connu Grégoire, moi. 
+            
+                    Ni moi. 
+            
+                    Ni moi aussi, 
+            
+                    D'AUBERVAL. 
+            
+                    LUQUET. 
+            
+                    D'AUBERVAL, à part. 
+            
+                    Elle se moque d'eux, c'est sûr. (Haut.) Enchanté de la
+            
+                    rencontre, mon cher financier. 
+            
+                    D'ESPARVILLE. 
+            
+                    C'est moi qui suis ravi, transporté… (A part.) Que le
+            
+                    diable l'emporte ! 
+            
+                    LUQUET, saluant ridiculement. 
+            
+                    Et moi donc, Messieurs ; c'est un honneur, un bonheur… 
+            
+                    (Il leurserre la main.) Voulez-vous bien me permettre… 
+            
+                    i A part.) S'ils avaient pu se casser le cou en montant. 
+            
+                    D'ESPARVILLE. 
+            
+                    Ab ça ! d'Auberval, vous êtes donc sorcier ; je viens de
+            
+                    vous laisser en Triton… 
+            
+                    D'AUBERVAL. 
+            
+                    Eh ! parbleu, j'y suis bien encore. 
+            
+                    (11 jette son manteau, et paraít vétu en Triton.)
+            
+                    Ob ! le beau poisson ! … On parle de poisson, j'espère
+            
+                    LUQUET. 
+            
+                    qu'en voilà un beau poisson. 
+            
+                    D'AUBERVAL. 
+            
+                    Jeune homme, respect au fleuve Scamandre. 
+            
+                    (49) 
+            
+                    Mme GRÉGOIRE. 
+            
+                    Messieurs, vous êtes servis ! 
+            
+                    (On se met à table. 
+            
+            
+                    <div type="poem"> <lg>
+            
+                        
+                            
+                                CHŒUR. 
+                            
+            
+            
+                            <stage type="tune">
+                                AIR : Vive l'Italie. 
+                            </stage>
+            
+            
+            
+                            <l>Mes amis, vive la table !</l>
+                            <l>Grâce au banquet délectable,</l>
+                            <l>Du bon vin que l'on y sable,</l>
+                            <l>La beauté devient traitable.</l>
+                            <l>Vive la table !</l>
+                        
+            
+            
+                    </lg> </div>
+            
+            
+            
+                    D'AUBERVAL. 
+            
+                    Figurez-vous que ces animaux-là voulaient me faire
+            
+                    danser de force, un pas ajouté au ballet des Elémens. J'a
+            
+                    vais beau lear dire que j'avais ce soir des affaires de famille, 
+            
+                    pas moyen, 
+            
+                    ils ne voulaient
+            
+                    pas me lâcher, c'est ce qui fait
+            
+                    que je n'ai pas eu le temps de changer de costume. 
+            
+                    D'ESPARVILLE. 
+            
+                    Voilà une escapade qui pourrait bien vous mener au fort
+            
+                    l'Evêque. 
+            
+                    D'AUBERVAL. 
+            
+                    Diable, je n'y avais pas pensé. À boire. Peste ! une dinde
+            
+                    de Périgord. 
+            
+                    D'ESPARVILLE. 
+            
+                    Bravo. (A part.) On megêne dans mes amours ; el bien ! 
+            
+                    je me vengerai sur la diade, je vais la dévorer ! 
+            
+                    LUQUET, à part. 
+            
+                    Il me vient une idée : puisque je ne peux pas faire de
+            
+                    phrases à ma bien-aimée, je lui donnerai des petits coups
+            
+                    de pied par dessous la table, ça la flattera infiniment. 
+            
+                    (Tout le monde s'est assis.-Fanchette, debout près de 1
+            
+                    table, est occupée à servir.-D'Auberval découpe.)
+            
+                    D'AUBERVAL, remettant à Fanchette une assiette servie. 
+            
+                    La fille, portez ça à M. d'Esp… (Il s'interrompt tout
+            
+                    à-coup en la regardant.) Tiens, c'est singulier. 
+            
+                    Mad. Grégoire. 
+            
+                    7
+            
+                    (10) 
+            
+                    Mme GRÉGOIRE. 
+            
+                    Qu'avez-vous donc ? 
+            
+                    D'AUBERVAL. 
+            
+                    Oh ! rien… rien… Mais il me semble… Je cherche à
+            
+                    me rappeler… 
+            
+                    FANCHETTE. 
+            
+                    Ah cha ! quoiqu'il a donc à me regarder comme cha… 
+            
+                    che beau Monsieur, avecque chez écailles ? 
+            
+                    Fanchette… 
+            
+                    Mme GRÉGOIRE. 
+            
+                    FANCHETTE. 
+            
+                    Ah ! c'hest qne j'aime pas qu'on me reluque comme une
+            
+                    bête curieuse… Entendez-vous cha, mochieux Triton ? 
+            
+                    D'AUBERVAL, à lui-même. 
+            
+                    Oh ! mais c'est inconcevable, et si ce n'était cet accent… 
+            
+                    (Portant vivement la main sous la table.) Aie ! prenez donc
+            
+                    garde, d'Esparville, vous ine donnez des coups de pied dans
+            
+                    les jambes. 
+            
+                    (Luquet baisse la tête sur son assiette, et dévore.)
+            
+                    D'ESPARVILLE. 
+            
+                    Moi ? je mange. (Faisant un mouvement sur sa chaise.)
+            
+                    Oh ! la ! la… pas de mauvaises plaisanteries… D'Auber
+            
+                    val, vous n'estropiez à votre tour. 
+            
+                    LUQUET, à demi-voix, d madame Grégoire. 
+            
+                    C'est moi, c'est moi. 
+            
+                    D'ESPARVILLE. 
+            
+                    Comment, c'est vous ? 
+            
+                    LUQUET. 
+            
+                    Non, non… c'est une erreur… Je voulais dire… 
+            
+                    (A part.) Il parait que je me suis trompé d'adresse. 
+            
+                    Madame, est-ce le moment pour ce que vous m'avez de
+            
+                    FANCHETTE. 
+            
+                    mandé ? 
+            
+                    Oui. 
+            
+                    Mme GRÉGOIRE. 
+            
+                    (Fanchette entre dans le cabinet.)
+            
+                    Quoi donc ? quoi donc ? 
+            
+                    TOUS. 
+            
+                    (51) 
+            
+                    Mme GRÉGOIRE. 
+            
+                    Messieurs, vous ne pouvez voirs figurer combien je suis
+            
+                    contente de vous voir réuuis ici tous les trois ; mais ce n'n'est
+            
+                    pas là le seul plaisir que je vous réserve, et vous ne vous
+            
+                    doutez pas que vous êtes tous venus ici pour une bonne
+                    action. 
+            
+                    D'AUBERVAL, à part. 
+            
+                    Par exemple, je m'attendais bien à venir ici pour quel
+            
+                    que chose, mais pas pour ça. 
+            
+                    (Luquet se met à rire ridiculernent.)
+            
+                    Mme GRÉGOIRE. 
+            
+                    Je m'intéresse beaucoup à une pauvre femme, (Avec in
+            
+                    tention, et regardant d'Esparville.) dont le mari est très
+                    mauvais sujet. 
+            
+                    Attrape ! 
+            
+                    D'AUBERVAL. 
+            
+                    M
+            
+                    me GRÉGOIRE. 
+            
+                    Et j'ai pensé que vous voudriez bied ni'aider à lui être utile. 
+            
+                    (Montrant Fanchette qui rentre, en tenant à la main une roue
+            
+                    de loterie, et une boite de l'autre.) Voici une loterie où tous
+            
+                    les numéros gagnient ; j'ai divisé par lots quelques bagatel
+            
+                    les, dont je destine le produit à ma protégée… C'està vous, 
+            
+                    Messieurs, de faire le reste. 
+            
+                    J'en suis ! j'en sais ! 
+            
+                    LUQUET. 
+            
+                    D'AUBERVAL et D'ESPARVILLE. 
+            
+                    Nous en sommes ! 
+            
+                    LUQUET, &amp; amp ; amp ; part. 
+            
+                    Quel bonhear ! j'aurai quelque chose d'elle. (Mettant de
+            
+                    l'argent sur la table.) Voilà deux écus de six livres, (A part.)
+            
+                    que maman m'a donnés pour acheter un parapluie. 
+            
+                    D'ESPARVILLE, ouvrant sa bourse. 
+            
+                    Tenez, tenez, voilà de l'or ; je n'ai jamais de monnaie
+            
+                    blanche, moi. 
+            
+                    D'AUBERVAL. 
+            
+                    Diable ! j'ai laissé ma bourse dans mon habit de ville… 
+            
+                    Dites donc, financier, mettez pour moi ; je vous rendrai ça
+            
+                    quand je serai en bourgeois et en fonds. 
+            
+                    (52) .
+            
+                    Mme GRÉGOIRE. 
+            
+                    Voyons, Messieurs, qui est-ce qui commence ? 
+            
+            
+                    <div type="poem"> <lg>
+                        
+                            
+                                LUQUET
+                            
+                            
+, se levant. 
+            
+                                Moi ! moi ! j'ai la main heureuse. 
+                            
+            
+            
+            
+            
+            
+                            <stage type="tune">
+                                AIR : Change-moi, Brama. 
+                            </stage>
+            
+            
+            
+                            <l>Tournez, tournez donc ;</l>
+                            <l>L'bonheur est au fond,</l>
+                            <l>Je le parie.</l>
+            
+            
+                            
+                                MAD. GRÉGOIRE. 
+                            
+            
+                            <l>Vous saurez bientôt</l>
+                            <l>Gagner à cette loterie</l>
+                            <l>Le meilleur lot !</l>
+                        
+            
+                        
+                            Nº 9. 
+            
+                            LUQUET. 
+                        
+						
+                        
+                            MAD. GRÉGOIRE. 
+                        
+            
+            
+                        
+                            (Lui donnant un petit livre.)
+                        
+            
+                        <l>Voilà ce qui vous r'vient.</l>
+            
+                        
+                            LUQUET. 
+                        
+                        <l>Un livre ! qu'est-c' qu'il contient ?</l>
+            
+                        
+                            (Il l'ouvre et lit.)
+                        
+            
+                        <l>« Le Novice en amour ! »</l>
+            
+                        
+                            D'ESPARTILLE et D'AUBERVAL, 
+                        
+                        <l>Ah ! le bon tour.</l>
+            
+                        
+                            LUQUET. 
+                        
+                        <l>C'est un conte moral.</l>
+            
+                        
+                            MAD. GRÉGOIRE. 
+                        
+                        <l>Qui n'vous convient pas mal.</l>
+            
+                        
+                            D'AUBERVAL ET D'ESPARVILLE
+                        
+                        
+, riant à part. 
+                        
+            
+                        <l>A t-il l'air courroucé !</l>
+            
+                        
+                            LUQUET
+                        
+                        
+, à part. 
+                        
+            
+                        <l>Je suis vexé !</l>
+            
+                    
+                    
+                        (53') .
+                    
+            
+                    
+                        
+                            D'ESPARVILLE
+                        
+                        
+, reprenant. 
+                        
+            
+            
+                        <l>Tournez, tournez donc,</l>
+                        <l>Moi le second ;</l>
+                        <l>J'ai l'espérance</l>
+                        <l>Que ma main aura</l>
+                        <l>Sans doute une meilleure chance</l>
+                        <l>À ce jeu là.</l>
+            
+            
+                        
+                            ENSEMBLE. 
+                        
+            
+            
+                        
+                            MAD. GRÉGOIRE. 
+                        
+                        <l>Tournons, tournons donc,</l>
+                        <l>Vous le second.</l>
+                        <l>J'ai l'espérance</l>
+                        <l>Que votre main aura</l>
+                        <l>Sans doute une meilleure chance</l>
+                        <l>À ce jeu là.</l>
+                    
+            
+                    
+                        D'ESPARVILLE. 
+                        N ° 13. 
+                    
+            
+            
+                    
+            
+                        
+                            MAD. GRÉGOIRE. 
+                        
+            
+                        <l part="I">C'est un portrait !</l>
+            
+                        
+                            D'ESPARVILLE. 
+                        
+            
+                        <l part="F">Vraiment ?</l>
+            
+            
+                        
+                            (A part.)
+                        
+            
+            
+                        <l>Le sien apparemment.</l>
+                        <l>Ah ! quel présent</l>
+                        <l>Charmant</l>
+                        <l>Pour un amant.</l>
+            
+            
+                        
+                            (Il regarde le portrait.)
+                        
+            
+            
+                        <l>Mais que vois-je ? grands dieux !</l>
+                        <l>Ma femme ! c'est affreux !</l>
+                        <l>Le tour est déplacé.</l>
+            
+                        
+                            LUQUET
+                        
+                        
+, à part. 
+                        
+            
+                        <l>Second vexé ! …</l>
+            
+                    
+            
+            
+            
+            
+                    
+                        D'ESPARVILLE, en colère. 
+            
+                        (Parlé.) Ma femme en loterie !. Madame Grégoire, je
+            
+                        vous somme de m'expliquer… 1
+            
+                        (54) 
+                    
+            
+            
+            
+                    
+                        
+                            MAD. GRÉGOIRE ET D'AUBERVAL. 
+                        
+            
+            
+                        
+                            ENSEMBLE. 
+            
+                            N ° 11. 
+                        
+            
+            
+            
+                        <l ana="unanalyzable">Tournons, etc.</l>
+                        <l>Qu'un heureux don</l>
+                        <l>Enfin pous vienne ;</l>
+                        <l>Vot' main choisira,</l>
+                        <l>Et gagnera</l>
+                        <l>Mieux que la sienne</l>
+                        <l>À ce jeu là.</l>
+                    
+                    
+                        <l>Tournez, tournez donc,</l>
+                        <l>Qu'un heureux don</l>
+                        <l>Enfin me vienne ;</l>
+                        <l>Ma main choisira</l>
+                        <l>Et gagnera</l>
+                        <l>Mieux que la sienne</l>
+                        <l>À ce jeu la.</l>
+                    
+            
+            
+                    
+                        D'AUBERTAL. 
+                    
+            
+            
+                    
+                        MAD. GRÉGOIRE. 
+                    
+            
+                    <l>C'est un beau souvenir.</l>
+                    <l>Hâtez-vous de l'ouvrir.</l>
+            
+                    
+                        D'AUBERVAL
+                    
+                    
+, l'ouvrant. 
+                    
+            
+            
+                    <l>Quoi ! l'extrait</l>
+                    <l>D'un arrêt</l>
+                    <l>Du Châtelet ?</l>
+            
+                    
+                        D'ESPARVILLE
+                    
+                    
+, lisant par-dessus son épaule. 
+                    
+            
+            
+                    <l>» À l'actrice Dubois,</l>
+                    <l>» D'Auberval, dans un mois,</l>
+                    <l>» De s'unir est forcé. »</l>
+            
+                    
+                        LUQUET. 
+                    
+                    <l>C'est le plus vexe</l>
+                
+            
+            
+            
+            
+            
+                
+                    Mme GRÉGOIRE. 
+            
+                    Messieurs, si vous voulez continuer, il y a encore beau
+            
+                    coup de choses à gagner… 
+                
+				
+            
+                TOUS TROIS, 
+            
+            
+                Merci ! 
+            
+                Reprise. 
+            
+            
+            
+            <l>C'est une leçon</l>
+            <l>Qui nous confond.</l>
+            
+            
+                (55) 
+            
+            
+            
+            <l>Ah ! je le jure,</l>
+            <l>On s'en souviendra ;</l>
+            <l>Mais nul de nous, de l'aventure</l>
+            <l>Ne parlera.</l>
+            
+            
+                FANCHETTE, MAD. GRÉGOIRE. 
+            
+            
+            <l>C'est une leçon</l>
+            <l>Qui les confond.</l>
+            <l>Ah ! je le jure,</l>
+            <l>On s'en souviendra,</l>
+            <l>Et nul d'entre eux de l'aventure</l>
+            <l>Ne parlera.</l>
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            Mme GRÉGOIRE, prenant l'argent. 
+            
+            Tenez, Fanchette, vous remettrez cela de notre part à
+            
+            la femme du falot. 
+            
+            FANCHETTE. 
+            
+            (Elle lui donne.)
+            
+            Bien obligé, Messieurs, 
+            
+            (Elle sort précipitamment en riant aux éclats, par la porte
+            
+            qui conduit au dehors.)
+            
+            D'AUBERVAL, la regardant sortir. 
+            
+            Serais-je mystifié ? 
+            
+            Ah ! ça, madame Grégoire… 
+            
+            1
+            
+            LUQUET. 
+            
+            D'ESPARVILLE. 
+            
+            Qui vous a remis ce portrait ? 
+            
+            D'AUBERVAL. 
+            
+            Qui vous a donné ce souvenir ? 
+            
+            (En ce moment on frappe très-fort à la porte du fond.)
+            
+            Ouvrez, au nom du Roi. 
+            
+            UNE VOIX, en dehors. 
+            
+            
+            
+            
+            
+            Mme GRÉGOIRE. 
+            
+            
+            
+            
+            Silence ! 
+            
+            
+            
+            <div type="poem"><lg>
+                
+            <stage type="tune">
+            AIR : Entendez-vous ? 
+            </stage>
+            
+            
+            
+            <l>Entendez-vous ? <stage type="repetition"> (bis.)</stage></l>
+            <l>C'est la garde qui veut qu'on ouvre.</l>
+            
+            
+            
+            TOUS. 
+            
+            
+            <l>Si dans ces lieux on nous découvre,</l>
+            <l>Le danger nous menace tous.</l>
+            
+            
+            
+     
+            
+            
+            Ouvrez ! 
+            
+            LE CAPORAL, au dehors. 
+            
+            (56) 
+            
+            D'ESPARVILLE. 
+            
+            Gardez-vous en bien ! … Quel scandale pour la finance ! 
+            
+            Et ma femme ! … 
+            
+            Et maman ! 
+            
+            LUQUET. 
+            
+. 
+            
+            D'AUBERVAL. 
+            
+            Et le fort l'Évêque ! 
+            
+. 
+            
+            
+      
+            
+            
+            
+            Mme GRÉGOIRE. 
+            
+            
+            Encore un trait de Belrose… Mon dieu, mon dieu, que
+            
+            faire ? … Ah ! … 
+            
+            (Montrant son lit.)
+            
+            
+            
+            
+            Suite de l'air. 
+            
+            
+            
+            <l>Tenez, ici l'on ne vous verra pas.</l>   
+             <l><stage> (À part.) </stage> En cacher un, ce serait bien coupable ;</l>
+            <l>Mais quelque chose ici me dit tout bas :</l>
+            <l>En cacher trois, ce n'est que charitable.</l>
+            (On frappe de nouveau.)
+            
+            
+            TOUS. 
+            
+            
+            <l>Entendez-vous ? <stage type="repetition"> (bis.)</stage></l>
+            <l>C'est toujours la garde qui frappe.</l>
+            <l>Quel malheur si l'on nous attrape !</l>
+            <l>Ah ! bien vite, ici cachons-nous !</l>
+		
+            
+            (Ils passent tous les trois derrière le lit.)
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            7
+            
+            Mm6 GRÉGOIRE, au caporal qui frappe toujours. 
+            
+            Un instant ! on y va ! (Regardant du côté du lit.) Bien, je
+            
+            puis oùyrir maintenant. 
+            
+            (Elle ouvre la porte.)
+            
+            SCÈNE VII. 
+            
+            LES MÊMES, cachés, Mme GRÉGOIRE, LE CAPORAL, 
+            
+            SOLDATS DU GUET. 
+            
+            mme GRÉGOIRE, à part, avec crainte. 
+            
+            Ce n'est pas Belrose ! … Tenons-nous bien. 
+            
+            LE CAPORAL, en entrant. 
+            
+            Que diable ! la petite mère, vous faites bien des cérémo
+            
+            nies. Ah ! j'étais sûr que je vous y prendrais… Une table, 
+            
+            (57) 
+            
+            un souper, et des lumières à une heure indue ; vous êtes
+            
+            en flagrant délire ! 
+            
+            Mme GRÉGOIRE. 
+            
+            Par exemple ! est-ce que je ne suis pas libre de souper
+            
+            chez moi à toute heure ? 
+            
+            LE CAPORAL. 
+            
+            Et d'y recevoir du monde, pas vrai ; malgré les régle
+            
+            mens ? 
+            
+            Mme GRÉGOIRE. 
+            
+            Vous voyez bien que je suis seule. 
+            
+            LE CAPORAL. 
+            
+            Vous êtes seule, et vous êtes quatre couverts ! 
+            
+            Mme GRÉGOIRI. 
+            
+            Je soupais… avec mes servantės. 
+            
+            LE CAPORAL. 
+            
+            C'est bon ! c'est bon ! je ferai mon rapport au sergent
+            
+            Belrose, qui m'a chargé d'avoir l'oeil sur vons. 
+            
+            MMO GRÉGOIRE, avec impatienc •
+            
+            1
+            
+            Allez vous promener ! … Je vous répète qu'il n'y a per : 
+            
+            sonne ici… d'ailleurs regardez-y vous-même. (Elle ouvre
+            
+            la
+            
+            porte
+            
+            du cabinet.) Estrez, entrez. 
+            
+            LE CAPORAL. 
+            
+            Plus souvent ! pour me faire coffrer comme le sergent, 
+            
+            à ce matin ; je vais seulement insinuer un coup-d'ail dans le
+            
+            cabinet. Vous autres, gardez scrupuleusement les issues. 
+            
+            (Il regarde dans le cabinet, dont madame Grégoire a ouvert
+            
+            la porte.) Pas le moindre individu. 
+            
+            Mme GRÉGOIRE. 
+            
+            Quand je vous le disais… 
+            
+            LE CAPORAL. 
+            
+            Pour lors, il faut filer. 
+            
+            Regardant la table.) Mais c'est
+            
+            égal, vous mangez toujours de fameuses Jindes avec vos
+            
+            servantes… (Aux soldats.) Demi-tour à droite, et allons
+            
+            croquer nos pommes de terre. (Au moment où ils veulent
+            
+            sortir, on entend un ronflement très-fort qui part du lit.) Oh ! 
+            
+            oh ! minute, écoutez. 
+            
+            (Nouveau ronflement.)
+            
+            mme GRÉGOIRE, à part. 
+            
+            Ah ! mon dieu' ! 
+            
+            Ab ! c'est comme ça qu'il n'y a personne ici ? 
+            
+            LE CAPORAL, re enant. 
+            
+            (Il se dirige vers le lit, ouvre vivement le rideau, et laisse
+            
+            Mad. Grégoire. 
+            
+            8
+            
+            (58) 
+            
+            voir Belrose dans l'attitude d'un homme réveillé en sur
+            
+            saut. — D'Esparville au fond, dans la ruelle. — D'Au
+            
+            berval dessous, laisse voir sa tête, et Luquet parait au
+            
+            dessus du lit, sur le baldaquin. — Tableau.)
+            
+            LE CAPORAL. 
+            
+            Quatre coupables ! 
+            
+            
+            
+            
+            CHŒUR GÉNERAL. 
+            
+            <div type="poem"><lg><stage type="tune">AIR : Je vous rends votre parole. (Fausse Agnès.)</stage>
+            
+            <l>Ah ! grand dieu ! que de scandale !</l>
+            <l>Cette aventure fatale,</l>
+            <l>Aux médisans nous signale !</l>
+            <l>Nous voilà surpris</l>
+            <l>Et pris !</l>
+            
+            SCÈNE VIII. 
+            
+            LES MÊMES, GARÇONS, SERVANTES, VOISINS, VOISINES, 
+            
+            tenant des flambeaux, et entrant par les deux portes. 
+            
+            Reprise du chœur. 
+            
+            <l>Ah ! grand dieu ! que de scaudale !</l>
+            <l>Cette aventure fatale,</l>
+            <l>Aux médisans la signale !</l>
+            <l>Les voilà surpris</l>
+            <l>Et pris !</l>
+            </lg></div>
+            
+            
+            
+            
+            
+            (Pendant ce chæur, Belrose et d'Esparpille ; d'Auberval
+            et Luquet ont quitté l'endroit od ils étaient cachés, et ont
+            
+            redescendus la scène.)
+            
+            LE CAPORAL, sa main à son chapeau. 
+            
+            C'est le sergent ! 
+            
+            Vous ici, M. Belrose ? … Quelle audace ! 
+            
+            Mme GRÉGOIRE. 
+            
+            BELROSE. 
+            
+            Je m'étais endormi sans le vouloir et sans le savoir, 
+            
+            mmé GRÉGOIRE. 
+            
+            Je ne vous aurais jamais cru capable… 
+            
+            BELROSE
+            
+            Ni vous non plus, madame Grégoire… Mais il va t'y
+            
+            avoir une explication… 
+            
+            (59) 
+            
+            D'ESPARVILLE, à part. 
+            
+            LUQUET, même jeu. 
+            
+            O ma femme ! 
+            
+            O mnaman ! 
+            
+            D'AUBERVAL, méine jeu. 
+            
+            o le fort l'Evêque ! 
+            
+            BELROSE. 
+            
+            Maintenant pourrait on savoir ce qu'est venu faire ici ce
+            
+            trio nocturne ? 
+            
+            Mme GRÉGOIRE. 
+            
+            Eh ! mon dieu ! c'est tout bonnement la suite d'un acte de
+            
+            bienfaisance. 
+            
+            BELROSE. 
+            
+            Laissez donc ; la finance, la verrerie et la mythologie
+            
+            c'est de l'amphybologie. D'abord pourquoi ce fleuve a-t-il
+            
+            Mme GRÉGOIRE
+            
+            Rien de plus simple, et je vais vous dire… 
+            
+            SCENE IX. 
+            
+            LES MÊMES, LE FALLOT, avec' sa lanterne ; il est à
+            
+            inoitié gris. 
+            
+            LE FALLOT, en entrunt : 
+            
+            Place ! place ! place ! où est-elle, cte brave dhinë, pour
+            
+            que je la contemple pour la remercier… 
+            
+            BELROSE. "
+            
+            Que nons veut cet ivrogne, avec son lampion ? 
+            
+            L'É' FALLOT
+            
+            Ah ! madame Grégoire, quel trait magáffique ! Les'v'là, 
+            
+            ces jaunets que vous m'avez envolyés pour ma pauvre
+            
+            femme : … je lui : … donnerai tout' ; excepté ce'… que je
+            boirai. 
+            
+            Mme GRÉGOIRE. 
+            
+            Qui t'a donc remis c't' argent ? 
+            
+            LE FALLOT. 
+            
+            Eh bien ! la personne que v'là ! 
+            
+            (60) 
+            
+            1
+            
+            SCÈNE X. 
+            
+            LES MÊMES, Mlle DUBOIS, en grande toilette, 
+            
+            Mme GRÉGOIRE. 
+            
+            Que vois-je ? Fanchette ! 
+            
+            D'AUBERVAL
+            
+            Mademoiselle Dubois ! 
+            
+            TOUS. 
+            
+            Mademoiselle Dubois ! 
+            
+            LUQUET, vivement. 
+            
+            La Dubois, l'actrice ? 
+            
+            Mlle DUBQIS. 
+            
+            Oui, Messieurs, elle-même, qui, sous l'habit de Fan
+            
+            chette, était bien aise de surveiller M. d'Auberval, contre
+            
+            lequel elle a obtenu sentence. Je vous félicite tous les trois
+            
+            du bonheur que vous avez à la loterie, 
+            
+            D'ESPARVILLE. 
+            
+            Ah ! tout s'éclaircit ! … On s'est inoqué de vous. 
+            
+            Ça me fait cet effet là. 
+            
+            lle
+            
+            M ? 
+            
+            DUBOIS. 
+            
+            LUQUET, 
+            
+            J'espère que madame Grégoire voudra bien me pardon
+            
+            ner de m'être introduite chez elle. 
+            
+            M
+            
+            me GRÉGOIRE. 
+            
+            J'en suis d'autant plus contente, que vous avez été té
+            
+            moiu de tout ce qui s'est passé. 
+            
+            D'ESPARVILLE. 
+            
+            Vous avez beau dire, madame Grégoire, votre situation
+            
+            est très-délicate. 
+            
+            mme GRÉGOIRE, vivement. 
+            
+            Comment, Monsieur ? … 
+            
+            D'ESPARVILLE. 
+            
+            Nous, c'est bien ; mais Monsieur, là-bas, qui ne dit
+            
+            rieu ? … 
+            
+            (Il montre Belrose.)
+            
+            Oui, oui, le ronfleur… 
+            
+            LUQUET. 
+            
+            D'AUBERVAL
+            
+            Qu'est-oe qu'il venait faire ici à son tour ? 
+            
+            (61) 
+            
+            mlle DUBOIS, 
+            
+            en riant. 
+            
+            Il est vrai que la rencontre est singulière, et difficile à
+            
+            expliquer. 
+            
+            Mme GRÉGOIRE, à part. 
+            
+            J'en pleurerais de dépit ! … Me voilà compromise devant
+            
+            tout le monde. 
+            
+            Tant mieux ! frappons le dernier coup. 
+            
+            BELROSE, à part. 
+            
+            Mme GRÉGOIRE, avec embarras. 
+            
+            Messieurs, je vous assure… 
+            
+            BELROSE. 
+            
+            MadameGrégoire, il n'y a qu'un moyen plausible, c'est
+            
+            de cesser de feindre. 
+            
+            Mme GRÉGOIRE, à part. 
+            
+            Que veut-il dire ? 
+            
+            BELROSE. 
+            
+            Messieurs, jusqu'à ce jour on n'a cru ce que je ne suis
+            
+            pas, et on ne m'a pas cru ce que je suis ! … Si j'ai pénétré
+            
+            dans ce domicile, c'est que j'en ai le droit… La réputation
+            
+            de la cabaretière est intacte !' je le soutiens et je le prouve, 
+            
+            car je suis son mari ! 
+            
+            TOUS. 
+            
+            Son mari ! 
+            
+            BELROSE, bas à madame Grégoire. 
+            
+            x
+            
+            Si vous le voulez. 
+            
+            Mme GRÉGOIRE, étonnée, à parl, 
+            
+            Ah ! par exemple ! … 
+            
+            BELROSE, bas à madame Grégoire. 
+            
+            Vous êtes perdue si vous reculez… 
+            
+            Mme GRÉGOIRE, à part. 
+            
+            Allons ! … il le faut ; mais il me le paiera… (Haut.)
+            
+            Eh bien ! oui, Messieurs, (Donnant la main à Belrose.)
+            voilà mon mari. 
+            
+            Grégoire, , dit Belrose ! (A part. 
+            
+) J'ai triomphé comnie
+            
+            BELROSE. 
+            
+            le vainqueur de Mabon ! 
+            
+            LUQUET. 
+            
+            Mais si vous êtes son mari, pourquoi ne nous l'avez
+            
+            vous jamais dit ? 
+            
+            BELROSE. 
+            
+            Ça, 
+            
+            c'est des affaires de ménage qui ne regardent per
+            
+            162) 
+            
+            sonne. Si vous n'êtes pas encore content, je le suis, moi, 
+            
+            et je vous'en rendrai ruisoti… quand' ça me fera plaisir : 
+            
+            Ce n'est pas la peine. 
+            
+            LUQUET. 
+            
+            aller DUBðrs ", à d'Esparville. 
+            
+            Mon cher financier, le carosse de madamo d'Esparville
+            
+            est en bas. 
+            
+            Oh ! bravo ! bravo ! 
+            
+            la Dubois ! 
+            
+            LUQUET, riant. 
+            
+            D'ESPARVÍLLÉ. 
+            
+            Ma femme est prévenue "… Je suis anéanti ! 
+            
+            Mlle DUBOIS
+            
+            M. Luquet, votre maman vons envoie une chaise'd por
+            
+            teurs. 
+            
+            Maman sait tout ! … Quelle darfse je vais recevoir ! 
+            
+            Mlle DUBOIS. 
+            
+            LUQUET. 
+            
+            Quant à vous, M. d'Auberval', vous savez qu'e' vous êtes
+            
+            condamné… 
+            
+            D'AUBERVAL, lui baisant la main. 
+            
+            Je n'en appellerai pas ! Nous ferons le repas dé' noce d'
+            
+            la Pomme de Pin. 
+            
+            <div type="poem"> <lg>
+            
+            
+            
+            D'ESPARVILLE. 
+            
+            
+            
+            Bravo ! nous en seronstous ! Et vous, betlé "Grégoire, 
+            
+            votre nom deviendra célèbre ; et quelque jour peut-être', 
+            
+            un nouveau Collé dira de vous : 
+            
+            
+            
+            VAUDEVILLE. 
+            
+            
+            
+            
+            <stage type="tune">
+            AIR : Le gros Thomas. 
+            </stage>
+            
+            
+            
+            <l>» C'était de mon temps</l>
+            <l>» Que brillait madame Grégoire</l>
+            <l>» J'allais, à vingt ans,</l>
+            <l>» À son cabaret rire et boire.</l>
+            <l>» Elle attirait les gens</l>
+            <l>» Par des airs engageans,</l>
+            <l>» Plus d'un blondin à taille fine,</l>
+            <l>» Avait là crédit sur la mine…</l>
+            <l>» Ah ! comme on entrait !</l>
+            <l>» Boire à son cabaret !</l>
+            
+            
+            
+            
+            LUQUET. 
+            
+            
+            
+            <l>» D'un certain époux,</l>
+            <l>» Bien qu'elle pleura la mémoire,</l>
+                
+                (63)
+            <l>» Personne de nous</l>
+            <l>» N'avait connu défunt Grégoire ;</l>
+            <l>» Mais à le remplacer,</l>
+            <l>» Qui n'eût voulu penser ? …</l>
+            
+            
+            (Montrant la table.)
+            
+            
+            
+            <l>» Heureux l'écot où la commère</l>
+            <l>» Apportait sa pinte et son verre !</l>
+            <l>» Ah ! comme on entrait</l>
+            <l>» Boire à son cabaret !</l>
+            
+            
+            
+            
+            MLLE. DUBOIS. 
+            
+            
+            <l>» Je crois voir encor</l>
+            <l>» Sa gaîté si pleine de charmes !</l>
+            <l>Élle avait peu d'or ;</l>
+            <l>Mais elle séchait bien des larmes.</l>
+            <l>De ses bienfaits nombreux,</l>
+            <l>Parlez aux malheureux,</l>
+            <l>» Au comptoir, la sensible brune,</l>
+            <l>» Leur rendait deux pièces pour une.</l>
+            <l>» Ah ! comme on entrait</l>
+            <l>» Boire à son cabaret !</l>
+            
+            
+            
+            
+            D'AUBERVAL. 
+            
+            
+            
+            <l>» Des buveurs grivois</l>
+            <l>» Les femmes lui cherchaient querelle.</l>
+            <l>» Que j'ai vu de fois</l>
+            <l>» Des galans se battre pour elle !</l>
+            <l>» La garde et les amours</l>
+            <l>» Se chamaillant toujours.</l>
+            <l>» Elle, en femme des plus capables,</l>
+            <l>» Sous son lit cachait les coupables.</l>
+            <l>» Ah ! comme on entrait</l>
+            <l>» Boire à son cabaret !</l>
+            
+            
+            
+            
+            BELROSE. 
+            
+            
+            
+            <l>» Quand ce fut mon tour</l>
+            <l>» D'être en tout le maître chez elle,</l>
+            <l>J'prenais chaque jour</l>
+            <l>De ma femme un' leçon nouvelle.</l>
+            <l>Au marquis freluquet</l>
+            <l>Ell' donnait son paquet.</l>
+            <l>Ell' tenait tête à la poisarde,</l>
+            <l>Et même elle enfermait la garde.</l>
+            <l>Ah ! comme on entrait</l>
+            <l>Boire à son cabaret !</l>
+            
+            
+            
+            
+            (64) 
+            
+            
+            
+            
+            MAD. GRÉGOIRE
+            
+            
+, au public. ·
+            
+            
+            
+            
+            <l>À la Pomme de Pin</l>
+            <l>V'nait jadis la cour et la ville.</l>
+            <l>Changeant de destin,</l>
+            <l>C'cabaret se r'trouve au Vaudeville.</l>
+            <l>Madame Grégoire aussi</l>
+            <l>Vient s'établir ici,</l>
+            <l>Et, comme en mille sept cent cinquante,</l>
+            <l>Puissiez-vous dire en dix-huit cent trente.</l>
+            <l>Tout Paris voudrait</l>
+            <l>Rire à son cabaret !</l>
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            FIN. 
+            
+            NOTE ESSENTIELLE. 
+            
+            Messieurs les Directeurs de Province ne peuvent porter trop
+            
+            d'attention à l'exécution des costuines. Grâces aux recherches de
+            
+            M. H. Monnier et de M. Hyp. Lecomte, qui les ont dessinés, ces
+            
+            costumes sont rigoureusement ceux de 1750, et cette exactitude
+            
+            peut seule donner à la Pièce la couleur du temps de Louis XV. 
+            
+            Mad. Grégoire, Marmotte et Mlle. Dubois doivent porter de la
+            
+            poudre. (Cette dernière seulement dans son second costume.)
+            
+            Belrose, d'Auberval et d'Esparville ont aussi de la poudre ; 
+            
+            Luquet porte une perruque blonde à queue, et l'épée horizontale. 
+            
+            Pour la Scène du lit, au second acte, il sera bon de consulter
+            
+            la lytographie de M. H. Monnier, comme aussi celle où il a re
+            
+            produit la physionomie du sergent Belrose. 
+            
+            Au second acte, d'Auberval doit conserver, avec son costume
+            
+            de Fleuve, sa perruque de ville. Belrose, en entrant par la fe
+            
+            nêtre, au même acte, doit avoir un manteau" brun ouvert, par
+            
+            dessus son uniforme. Le caporal du guet doit être vieux, et coîffé
+            
+            en ailes de pigeon, et surtout éviter de parler son rôle comme le
+            
+            sergent Belrose. 
+            
+-Pour le second costume de Mlle. Dubois, celui
+            
+            du Fleuve et du Financier, il sera bien de consulter la collection
+            
+            publiée par M. H. Lecomte. 
+            
+            (Règne de Louis XV.)
+        
+        </body>
+    </text>
+</TEI>

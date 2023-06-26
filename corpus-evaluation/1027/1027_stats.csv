@@ -1,0 +1,90 @@
+Airs candidats: 28                
+Airs manuellement filtrés : 26                
+Airs réelement présents : 26                
+Précision: 0.93                
+Rappel: 1.00                
+Mesure-F1: 0.96
+
+***Airs du xml***:
+AIR : Ces postillons sont d'une maladresse. 
+AIR : J'avais mis mon petit chapeau. 
+AIR : Tendres échos errans dans ces valons. 
+AIR : De Turenne. 
+Air : Au temps heureux de la chevalerie. 
+AIR. Merveilleuse dans ses vertus. 
+AIR : Du magistrat irréprochable. 
+AIR : Faut l'oublier. 
+AIR : De l'orage, du Barbier. 
+Air De l'Enfant du régiment. 
+Air : Tape, frappe. 
+AIR : Du château perdu. 
+AIR : Je loge au quatrième étage. 
+Air : Elle aime à rire, elle aime à boire. 
+Air : Au galop ! au galop ! 
+AIR de Caleb. 
+AIR : Tra la la. 
+AIR de la Parisienne. 
+AIR : du Code et l'Amour. 
+AIR : de Marianne. 
+AIR : Du baiser au porteur. 
+Air : Du premier prix. 
+AIR : Un page aimait la jeune Adèle. 
+AIR : J'en guette un petit de mon âge. 
+AIR : Restez, restez, troupe jolie. 
+AIR : Gai, gai, mariez-vous. 
+
+***Airs identifiés dans le txt***:
+AIR : Ces postillons sont d'une maladresse.
+AIR : J'avais mis mon petit chapeau.
+AIR : Tendres échos errans dans ces valons.
+AIR : De Turenne.
+Air : Au temps heureux de la chevalerie.
+AIR. Merveilleuse dans ses vertus.
+AIR : Du magistrat irréprochable.
+AIR : Faut l'oublier.
+AIR : De l'orage, du Barbier.
+Air De l'Enfant du régiment.
+Air : Tape, frappe.
+AIR : Du château perdu.
+AIR : Je loge au quatrième étage.
+Air : Elle aime à rire, elle aime à boire.
+Air : Au galop ! au galop !
+AIR de Caleb.
+AIR : Tra la la.
+AIR de la Parisienne.
+AIR : du Code et l'Amour.
+AIR : de Marianne.
+AIR : Du baiser au porteur.
+Air : Du premier prix.
+AIR : Un page aimait la jeune Adèle.
+AIR : J'en guette un petit de mon âge.
+AIR : Restez, restez, troupe jolie.
+AIR : Gai, gai, mariez-vous.
+
+***Airs du txt validés dans le xml***:
+AIR : Ces postillons sont d'une maladresse. 
+AIR : J'avais mis mon petit chapeau. 
+AIR : Tendres échos errans dans ces valons. 
+AIR : De Turenne. 
+Air : Au temps heureux de la chevalerie. 
+AIR. Merveilleuse dans ses vertus. 
+AIR : Du magistrat irréprochable. 
+AIR : Faut l'oublier. 
+AIR : De l'orage, du Barbier. 
+Air De l'Enfant du régiment. 
+Air : Tape, frappe. 
+AIR : Du château perdu. 
+AIR : Je loge au quatrième étage. 
+Air : Elle aime à rire, elle aime à boire. 
+Air : Au galop ! au galop ! 
+AIR de Caleb. 
+AIR : Tra la la. 
+AIR de la Parisienne. 
+AIR : du Code et l'Amour. 
+AIR : de Marianne. 
+AIR : Du baiser au porteur. 
+Air : Du premier prix. 
+AIR : Un page aimait la jeune Adèle. 
+AIR : J'en guette un petit de mon âge. 
+AIR : Restez, restez, troupe jolie. 
+AIR : Gai, gai, mariez-vous. 

@@ -1,0 +1,3611 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LES BRIOCHES A LA MODE, OU LE PATISSIER ANGLAIS</title>
+                <title type="sub">CAMARADERIE EN DEUX TABLEAUX, MÊLÉE DE COUPLETS, ORNÉE D'UNE BALLADE</title>
+                <author key="DUM" sort="1">
+                    <name>
+                        <forename>Théophile Marion</forename>
+                        <surname>Dumersan</surname>
+                    </name>                
+                </author>
+                <author key="BRA" sort="2">
+                    <name>
+                        <forename>Nicolas</forename>
+                        <surname>Brazier</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="PL">
+                        <forename>Pascaline</forename>
+                        <surname>Loricourt</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LES BRIOCHES A LA MODE, OU LE PATISSIER ANGLAIS</title>
+                        <author>DUMERSAN ET BRAZIER</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=EV5oAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>The British Library</repository>
+                                <idno type="URL">http://access.bl.uk/item/viewer/ark:/81055/vdc_100032960401.0x000001#?c=0</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-06-08">8 juin 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES VARIÉTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.
+                </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+               <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+A propos de ce livre
+
+Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+ligne. 
+Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+“appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+trop souvent difﬁcilement accessibles au public. 
+Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+
+Consignes d'utilisation
+
+Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+contraintes techniques relatives aux requêtes automatisées. 
+Nous vous demandons également de : 
+
++ Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+Ils ne sauraient en effet être employés dans un
+
+Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+quelconque but commercial. 
+
++ Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+
++ Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+aucun cas. 
+
++ Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+Recherche de Livres signiﬁe que celui – ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+
+À propos du service Google Recherche de Livres
+
+En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+
+
+
+ LES BRIOCHES A LA MODE 
+
+OU
+
+LE PATISSIER ANGLAIS, 
+
+CAMARADERIE
+
+EN DEUX TABLEAUX, MÊLÉE DE COUPLETS, 
+
+ORNÉE D'UNE BALLADE, 
+
+PRÉCÉDÉE D'UNE
+
+DÉDICACE A MAITRE ANDRÉ ; 
+
+ET D'UNE PRÉFACE, 
+
+Suivie d'une Post – Iace, et accompagnée de notes explicatives, 
+
+PAR MM. DUMERSAN ET BRAZIER
+
+P A
+
+REPRÉSENTÉE, POUR LA PREMIÈRE FOIS, A PARIS, 
+
+SUR LE THEATRE DES VARIÉTÉS, 
+
+LE 8 JUIN 1830. 
+
+To be or not to be. 
+
+SHAKESPEARE. 
+
+PRIX : 
+
+I FR. 50 c. 
+
+PARIS. 
+
+QUOY, LIBRAIRE – ÉDITEUR, 
+
+AU MAGASIN GÉNÉRAL DE PIÈCES DE THÉ ATRE, 
+
+boulevard Saint – Martin, no 18. 
+
+1830. 
+
+
+
+S
+
+O
+
+T
+
+1
+
+De l'Imprimerie de CHASSAIGNON, rue Git – le – Caur, nº
+
+DEUX MOTS, 
+
+OU ESPÈCE DE PRÉFACE, 
+
+1
+
+L'UNIVERS a peut – être cru qne nous avions
+
+voulu faire une pièce classique, à propos du ro
+
+mantisme ; mais l'univers s'est trompé (1) . Nous
+
+avons voulu tout bonnement fronder le ridicule
+
+du moment, et faire rire aujourd'hui d'une mode
+
+qui sera morte demain. Nous sommes loin d'être
+
+les ennemis de toutes sortes de progrès ; nous
+
+désirons seulement que la littérature n'avance pas
+
+à la manière des écrevisses. Quant à notre bluette, 
+
+elle n'est peut – être pas aussi large et aussi forte (2) 
+
+que le comportait un aussi fort et aussi large
+
+sujet, mais elle a réussi : et qu'il nous soit permis
+
+de remercier publiquement les comédiens qui
+
+nous ont prêté. l'appui de leurs talens. 
+
+A toi d'abord, Odry, dont le masque grotesque. 
+
+cache si bien l'homme d'esprit ; Odry, auteur
+
+d'une foule de gentillesses, Odry, à qui il ne
+
+manquerait que de la mélancolie pour être un
+
+homme complet à la façon d'aujourd'hui (3) .
+
+A toi, Vernet, bossu par excellence, el qui. 
+
+fais si bien donner le public dans la bosse. 
+
+ (1) On nous taxera peut – être d'amour proprè ; mais lisez toutes
+
+les préfaces des dramés modernes. 
+
+ (2) Expressions nouvellement consacrées. 
+
+ (3) Ou à la façon de Barbari, notre ami. 
+
+ (4) 
+
+A toi, Bosquier, qui chantes le couplet de ma
+
+nière à le faire entendre, chose rare en tout
+
+temps ! 
+
+A toi, l'Héric, si féminin dans Groom, si mas
+
+culin dans la jolie Berlinische ! 
+
+A toi, jeune Ferville qui, à sept ans, es pres
+
+que un homme complet ! Un long avenir se dé
+
+roule devant toi, cours – y, et prends garde de
+
+tomber. 
+
+A vous, Daudel, Flore. Augustine, si aimables, si
+
+entraînans, si…… Que de si je pourrais ajouter ! 
+
+A toi, souffleur, homme utile et modeste qui, 
+
+de ton trou, diriges tant d'intelligences ! 
+
+A vous, choristes, qui chantez si juste ! 
+
+A vous surtout, machiniste ingénieux, qui
+
+élevez si bien RACINE, au moyen d'une corde et
+
+de deux poulies ! 
+
+Maintenant le succès est vôtre ; il ne nous reste
+
+plus rien : pas même ce qui a fait rire, puisque
+
+nos mots les plus comiques, nous les avons pris
+
+dans les œuvres de nos confrères les romantiques ; 
+
+et nous disons nos confrères, car on verra dans
+
+notre œuvre que nous n'avons suivi aucun vieux
+
+système, que nous n'avons ni unité d'action, 
+
+ni unité de lien ; que nous avons aussi brisé
+
+cette vieille machine dramatique, semblable à la
+
+machine de Marly : 
+
+ (1) que nous avons tracé nos
+
+vers sans nous arrêter à la niaiserie de la césure
+
+et à la routine de l'hémistiche, et que nous avons
+
+bâti notre plan tout en dehors de l'ornière du bon
+
+sens. 
+
+ (1) Préface du More de Venise. 
+
+DÉDICACE
+
+A MAITRE
+
+ANDRÉ. 
+
+C'est à toi, poète et perruquier, à toi, auteur défunt du
+
+Tremblement de terre de Lisbonne, que nous dédions notre
+
+œuvre. Tu as dédaigné l'ex – systéme (1) de tragédie de Cor
+
+neille et de Voltaire ; tu avais deviné
+
+romantisme. Tu as
+
+été le précurseur de nos hardis jeunes hommes. Comme
+
+eux, tu as déshabillé le style, secoué les langes de la
+
+grammaire, brisé les barrières de la syntaxe, sauté par
+
+dessus les préjugés de l'art poétique. Tu étudiais la nature, 
+
+et tu la peignais dans sa naïveté forte, et dans sa nudité
+
+vraie. C'est de toi que doit dater l'ère nouvelle du pro
+
+saïsme en vers et de la poésie en prose. Ce que tu as fait, ils
+
+le font maintenant. Ils se disent noyateurs, ils t'imitent…
+
+Aussi voulons – nous te rendre la justice à toi due. Ton génie
+
+fut inapprécié, tu es venu trop tôt : le siècle n'était pas
+
+mur pour toi. Cependant nos jeunes honimes, qui se vieil
+
+lissent en se ronsardisant, paraissent à quelques – uns des
+
+enfans en perruques ! 
+
+Et qu'aurais – tu dit, Maître André, si tu avais vu leurs
+
+barbes, toi qui rasais tous les poètes et tous les philoso
+
+phes du dix – huitième siècle ? …
+
+Mais, dans notre causerie avec toi, nous nous oublions, 
+
+et faut nous arrêter, car nous eu aurions trop à dire ! 
+
+Salut à toi, Maître André ! 
+
+ (1) Mot harmonieux de la préface du More de Venise. 
+
+00000000000
+
+PERSONNAGES. 
+
+ACTEURS. 
+
+1
+
+THÉOBALD, enthousiaste du romantisme ; 
+
+barbe à la Henri III, chapeau pointu, gilet
+
+ouvert, toute la caricature de : Si j'avais
+vécu du temps de Racine, etc.,
+
+…. 
+
+M. DAUDEL. 
+
+M. MATHIEU, costume simple, perruque à
+
+la Titus grisonnante. 
+
+M. BOSQUIER. 
+
+CARAMEL, maître d'hôtel de Théobald, 
+
+même costume que lui, plus exagéré… ó. 
+
+M. ODRY. 
+
+vin
+
+GROOM, jokey de Théobald, petite livrée à
+
+la mode, barbe pointue
+
+M. LĐERIC. 
+
+WALTER SCOTT, pâtissier de Londres, un, 
+
+peu bossu, bonne caricature anglaise, 
+
+M. VERNET. 
+
+MANETTE, femme de charge, jouant ensuite
+
+Christine… 
+
+Mlle. FLORE. :, ,, 
+
+JUSTINE, femme de chambre. 
+
+Mlle AUGUSTINE. 
+
+Deux femmes habillées en Christinę… 
+
+HERNANI, joué par un enfant de højt à dix
+
+ans…
+
+UN PETIT NÈGRE. 
+
+UNE CHANTEUSE ALLEMANDE, jouée
+
+par GROOM. 
+
+Trois ASSASSINS
+
+. 
+
+20. 63
+
+Mlle EMILIE, 
+
+ : 
+
+Mlle JENNY. 
+
+Le petit FERVILLE
+
+M. BOUGNOL
+
+Plusieurs domestiques en livrée, un jardinier, etc., tous avec des
+Femmes du château. Amis de Théobald, costu
+
+barbes. 
+
+més comme lui. 
+
+La scène est à Pantin, dans le chateau de Theobald. 
+
+LES
+
+BRIOCHES A LA MODE. 
+
+CAMARADERIE EN DEUX TABLEAUX. 
+
+PREMIER TABLEAU. 
+
+Le Théâtre représente un salon. 
+
+A droite, une fenêtre, un ca
+
+napé ; à gauche, un paravent. 
+
+*
+
+SCÈNE PREMIÈRE. 
+
+THÉOBALD, seul. 
+
+Quel beau jour pour moi ! pour toute la nouvelle littéra
+
+ture ! … Recevoir dans mon château l'illustre romancier
+
+dont la plame féconde, autant qu'originale, a tracé d'une
+
+manière si pittoresque les mœurs montagnardes de la vieille
+
+Ecosse. Oh ! moi, je suis romantique de la tête aux pieds, 
+
+inclusivement ; je n'écris rien, c'est vrai, mais je marche, 
+
+je stimule ! … et puis il faut voir mon extase dans les sa
+
+lons, et mes transports dans les spectacles… Je trépigne, 
+
+je gesticule, quand mes voisins ont l'air de critiquer nos
+
+vers… parce qu'ils n'ont pas l'air d'être des vers (1) ! Mais
+
+nous allons porter le dernier coup… voyons si tout mon
+
+monde est à son poste. 
+
+ (Il sonne.)
+
+ (1) Historique. 
+
+ (8) 
+
+SCENE II. 
+
+THÉOBALD, GROOM. 
+
+GROOM. 
+
+Monsieur a sonné… et je vole vers lui avec la sponta
+
+néité de l'éclair. 
+
+THÉO BALD, 
+
+Comme cela parle ! … Ce n'est qu'un Groom, et cela
+
+vous fait une métaphore comme un Orientaliste. 
+
+GROOM. 
+
+Dam', Monsieur, on se forme chez vous. Comme je lis
+
+dans le cabriolet pendant que vous conduisez…
+
+THÉOBALD. 
+
+Cela m'est à satisfaction. 
+
+GROOM
+
+Je sais bien qu'ainsi j'oublie quelquefois de crier gare, 
+
+et que nous renversons quelques passans…
+
+THÉOBALD. 
+
+N'importe. T'u grandis ton cour, et tu élargis ta tête (1) .
+
+Le reste est un détail puéril ! 
+
+GROOM. 
+
+Et comme Monsieurme permet de faire garder le cheval
+
+et d'entrer au spectacle, j'orne ma mémoire des phrases
+
+harmonieuses du bourreau Raphnël, ct des beautés poéti
+
+qnes de Shaylock. 
+
+
+<div type="poem"> <lg>
+ 
+
+THÉOBALD. 
+
+Oui, nous sentons les besoins de l'époque, et nous lui
+
+donnons des beautés tout – à – fait neuves. 
+
+
+<stage type="tune">AIR : Chaque soir au boulevard du Temple. </stage>
+
+<l>Nous avons bien changé le style</l>
+<l>Et de Voltaire et de Boileau.</l>
+<l>Comme la langue se distille</l>
+<l>Dans Hernani, dans Othello !</l>
+
+    
+
+    GROOM
+
+<l>Mais il faut de la patience,</l>
+<l>Encor trois ou quatre succès,</l>
+<l>Et nous espérons bien qu'en France</l>
+<l>On ne parlera plus français.</l>
+</lg> </div>
+
+
+THÉOBALD. 
+
+Ah ça ! où sont tous tes camarades ? sommes – nous bien
+
+tôt prêts ? 
+
+Oui, Monsieur. 
+
+GROOM. 
+
+THÉOBALD. 
+
+Bravo ! fais – les venir ; … que je jage de cela par moi
+
+même. 
+
+Je vais leur donner le signal. 
+
+GROOM. 
+
+ (Il sonne d'un cor anglais, qu'il porte en bandoulière :) 
+
+SCÈNE II. 
+
+LES MÊMES, MANETTE, JUSTINE, UN PETIT CUISI
+
+NIER NÈGRE, PLUSIEURS DOMESTIQUES, ayant des
+
+barbes à la Henri III. 
+
+
+
+
+<div type="poem"> <lg>
+    CHŒUR. 
+
+<stage type="tune">AIR de la Dame Blanche. </stage>
+
+<l>Voilà, voilà le signal, mes amis.</l>
+<l>Not' maître <stage type="repetition"> (bis.)</stage> vos ordres sont suivis…</l>
+<l>Tous vos acteurs sont réunis !</l>
+
+    THÉOBALD. 
+
+<l>De cet élan</l>
+<l>Je suis bien aise,</l>
+<l>Et d'une montagne écossaise,</l>
+<l>Je crois voir arriver un clan.</l>
+
+    CHŒUR. 
+
+<l ana="unanalyzable">Voilà, voilà le signal, mes amis, etc.</l>
+</lg> </div>
+
+
+
+
+
+Les Brioches. 
+
+ (10) 
+
+THÉOBALD. 
+
+Mais je ne vois pas Caramel, mon cuisinier ? 
+
+MANETTE. 
+
+Mon mari ! est – ce que je sais jamais où il est, ce mauvais
+
+sujet – là ! 
+
+GROMM. 
+
+Allons, voilà madamie Caramel qui va dire du mal de son
+
+époux. 
+
+MANETTE. 
+
+Ne fant – il pas se gêner ? avec ça qu'il est aimable ! …… 
+
+Dieux ! que je suis malheureuse d'avoir épousé un cuisinier
+
+romanesque. 
+
+GROOM, d'un air galant. 
+
+Surtout naïve comme vous l'êtes ! c'est le mariage d'une
+
+Sylphide avec un Méphistophélès. 
+
+MANETTE. 
+
+Ne me
+
+dites pas
+
+de ces galanteries là… Vous savez
+
+comme M. Caramel est jaloux, comme il m'a traitée le mois
+
+dernier, lorsque M. Théobald nous a fait jouer Othello en
+
+français, à ce qu'il nous a dit, pour l'anniversaire de la
+
+naissance de M. Chatqu'expire. 
+
+THÉOBALD. 
+
+ : Que vous a – t – il donc fait, madame Caramel ? 
+
+
+<div type="poem"> <lg>
+MANETTE. 
+
+
+<stage type="tune">AIR : Vaudeville des Scytes et des Amazones. </stage>
+
+<l>Si vous croyez que j'ai trouvé ça drôle,</l>
+<l>D' jouer avec lui votre Dédesinona…</l>
+<l>Pendant huit jours qu'il étudiait son rôle,</l>
+<l>Vous n' savez pas c' que m'a fait c' gaillard – là ? <stage type="repetition"> (bis.)</stage></l>
+<l>De sa fureur il m' tourmentait sans cesse.</l>
+
+    THÉOBALD. 
+
+<l>Le Maure ainsi prouve sa passion.</l>
+
+    MANETTE. 
+<l>Il pouvait m' tuer l' jour qu'il jouait la pièce ;</l>
+<l>Mais non pas m' battre à la répétition.</l>
+
+</lg> </div>
+
+
+Ah ! je lui revandrai ça. 
+
+GROOM. 
+
+Voici M. Caramel lui – même. 
+
+ (
+
+u
+
+) 
+
+SCENE IV. 
+
+LES MÊMES, CARAMEL. 
+
+GROOM. 
+
+Arrivez donc, Caramel ! 
+
+Allons donc, allons donc, Caramel ! 
+
+TOUS. 
+
+CARAMEL. 
+
+Qu'est – ce qu'y a – t – il ? que me vent – on ? Caramel ! ils en
+
+ont plein la bouche. 
+
+GROOM, durement. 
+
+Voilà une heure que l'on vous attend ; vous mérite
+
+riez…
+
+CARAMEL. 
+
+Quoi ! 
+
+s'il vous plait ? vous me traitez comme on Ilote. 
+
+Je suis coisinier, mais je snis homme ; je fais de la fricassée
+
+par état, et de la littérature par passion ; enfin je cherche à
+
+flatter tous les goûts… Né dans l'une des cinq parties da
+
+monde civilisé, vulgairement appelée l'Amérique septen
+
+trionale, j'ai quitté la république du Sud pour la république
+
+des lettres. 
+
+THÉOBALD. 
+
+Je vous fais justice, Caramel ; je counais votre indépen
+
+dance en cuisine comme en littérature. 
+
+
+<div type="poem"> <lg>
+    
+CARAMEL. 
+
+Et en philantropie donc…… Vous savez comme je me
+
+suis conduit vis – à – vis de ce petit négrillon que j'ai amené de
+
+force avec moi. Je lui ai dit : Négrillon…
+
+ (Il fait approcher le petit nègre.)
+
+
+<stage type="tune">AIR de Belisaire (de Garat.)</stage>
+
+<l>Malgré ton teint un peu plombé,</l>
+<l>Sois l'ami de l'indépendance ;</l>
+<l>Viens, quitte le Mescacébé,</l>
+<l>Pour les rivages de la France,</l>
+<l>D'être libre connais le prix :</l>
+<l>Fuis avec moi de l'Amérique…</l>
+<l>Tu s'rais esclave en ton pays,</l>
+<l>En France tu s'ras domestique.</l>
+
+</lg> </div>
+
+THÉOBALD. 
+
+Je n'ai qu'à me louer de la manière dont vous comprenez
+
+un dîner. 
+
+CARAMEL. 
+
+Je crois qu'il y a de l'historique dans mes ragoûts, du
+
+positif dans mes rôtis, de la sensibilité dans mes vol – au
+
+vent, et de la mélancolie dans mes œufs à la neige. 
+
+THÉOBALD. 
+
+Comme dans notre nouvelle école. 
+
+CARAMEL
+
+Il faut oser en poésie comme en cuisine… Quelquefois
+
+on brûle une sauce, et on manque une tragédie ; ça arrive. 
+C'est arrivé dernièrement à chose… à…
+à plusieurs, 
+
+même. 
+
+THÉOBALD. 
+
+Laissons cela. Apprenez devant qui vous allez être les re
+
+présentans de tout ce qu'a de plus beau notre jeune littéra
+
+tare. Un illustre Ecossais, le premier romancier moderne…
+
+Walter Scott enfin, quitte les montagnes que lui ont inspiré
+
+dernièrement la Fille des brouillards…
+
+CARAMEL. 
+
+Pour venir saluer les brouillards de la Seine…… c'est
+
+bien. 
+
+TRÉOBALD. 
+
+J'ai compris tout de suite combien il était urgent que ce
+
+grand homme fût compté dans nos rangs. 
+
+GROOM. 
+
+Ça en fera au moins un. 
+
+THÉOBALD. 
+
+Ayant reçu l'avis que le grand Scott devait s'embarquer
+
+le 10 sur le bâteau à vapeur le Childe Harold…
+
+Nous autres, nous n'allons que par
+
+la vapeur. 
+
+THÉOBALD. 
+
+CARAMEL. 
+
+Que le 12, il devait prendre la malle – poste, et que le 13
+
+il serait au relai de Pantin, qui est au bas de mon parc, j'ai
+
+formé le projet de l'enlever, pour être le premier à fêter
+
+ (15) 
+
+dignement ce génie Calédonien. 
+
+GROOM
+
+Qu'est – ce que c'est que cela, Calédonien ? 
+
+THÉOBALD. 
+
+Ecossais, si vous aimez mieux. 
+
+CARAMEL. 
+
+Nous recevrons chaudement votre Ecossais… Je suis un
+
+exalté, demandez à madame Caramel. 
+
+MANETTE. 
+
+Que trop, cuisinier romantique et barbare ! 
+
+CARAMEL. 
+
+C'est vrai, quand la jalousie m'égare, mon bras est désor
+
+donné. 
+
+GROQM. 
+
+M. Caramel, c'est vilain de battre une jolie femme comme
+
+la vôtre. 
+
+CARAMEL. 
+
+M. Groom, mêlez – vous de vos affaires ; vous étrillez vos
+
+chevaux, je fais à ma femme ce qui me plait. 
+
+Toi, Caramel, 
+
+tu es bien l'homme de fer du moyen
+
+THROBALD. 
+
+áge (1) .
+
+CARAMEL. 
+
+Oui, de trente – cinq à quarante – cinq ans. 
+
+THÉOBALD. 
+
+Allez, mes jeunes hommes de théâtre, une poignée de
+
+main amicale et franche. 
+
+Entre moi et vous, c'est au re
+
+voir (2) 
+
+
+
+<div type="poem"> <lg>
+
+CHŒUR. 
+
+    <stage type="tune" id="AIR de la Dame Blanche."></stage>
+    
+<l ana="unanalyzable">Not' maitre, vos ordres sont suivis, etc.</l>
+    
+</lg> </div>
+
+
+
+
+ (Ils sortent, excepté Justine et Theobald.)
+
+t1) Post – scriptum de Stokholm et Fontainebleau. 
+
+ (3) Loco citato. 
+
+ (
+
+ii
+
+) 
+
+SCENE V. 
+
+THEOBALD, JUSTINE. 
+
+15
+
+THÉOBALD. 
+
+Eh bien ! Justine, pourquoi ne suivez – vous pas vos ca
+
+marades ? 
+
+JUSTINE. 
+
+Monsieur, c'est que je ne voulais pas vous rendre mon
+
+rôle devant eux, parce que c'est d'un mauvais exemple. 
+
+Comment, ta rends aussi des rôles, toi ? tu fais comme
+
+les premiers sujets. 
+
+THÉOBALD. 
+
+JUSTINE. 
+
+Oui, Monsieur. Je ne peux pas figurer dans votre comé
+
+die, parce que mon oncle Vol – au – Vent, le pâtissier, vient
+
+de m'envoyer chercher pour me marier. 
+
+Pour te marier ! avec qui ? 
+
+THÉOBALD. 
+
+JUSTINE. 
+
+Avec un de ses confrères, un pâtissier Anglais, qui arrive
+
+de Londres aujourd'hui même, exprès pour m'épouser. 
+
+Tu vas épouser un pâtissier Anglais ! 
+
+THÉOBALD. 
+
+JUSTINE. 
+
+Ah oui ! mais il vient se fixer en France pour profiter de
+
+la vogue ; le vent est aux produetions Anglaises, aujour
+d'hai. 
+
+THÉOBALD. 
+
+Est – ce un pâtissier dans les nouvelles doctrines ? 
+
+JUSTINE. 
+
+Ah ! je vous en réponds ! il invente des chosesd'un co
+casse… et il leur donne des noms… ah ! mais des noms
+
+qui n'ont pas
+
+de nom. 
+
+C'est un pâtissier novateur. 
+
+THÉOBALD. 
+
+ (15) 
+
+JUSTINE. 
+
+Et un joli garçon. (A part.) C'est donimage qu'il soit
+
+un peu
+
+bossu. 
+
+THÉO BALD. 
+
+Mais qui est – ce qui représentera ma Christine ? 
+
+
+<div type="poem"> <lg>
+    
+JUSTINE. 
+
+J'ai trouvé votre affaire, not maître… Madame Caramel la jouera. 
+
+
+<stage type="tune">AIR : Vaudeville du Petit Courrier. </stage>
+
+<l>Cette Christine, à Fontainebleau,</l>
+<l>Pour un' petite inconséquence,</l>
+<l>A fait égorger, par vengeance,</l>
+<l>Son amant qu'était jeune et beau.</l>
+<l>Ce rôle que chacun renomme,</l>
+<l>Si j' le jouais, je vous en préviens,</l>
+<l>Il n' faudrait fair' mourir un homme,</l>
+<l>Et ça n'est pas dans mes moyens.</l>
+    
+</lg> </div>
+
+
+THÉOBALD. 
+
+La difficulté est tranchée, l'ouvre s'accomplira (1) . Va te
+
+marier, et bonne chance…
+
+JUSTINE. 
+
+Merci, notr' maître. 
+
+ (Elle sort.)
+
+SCÈNE VI. 
+
+THÉOBALD, GROOM. 
+
+GROOM, accourant. 
+
+Le voilà ! le voilà ! 
+
+Qui ? …, Walter Scott ? 
+
+GRQOM. 
+
+THÉOBALD. 
+
+Lui – même, Monsieur. Nous l'avons arrêté comme il
+
+ (1) Préface d'Hernani. 
+
+descendait de la malle – poste… Il nous a donné du fil à
+
+ (16) 
+
+retordre… Quel homme ! 
+
+THÉOBALD. 
+
+Il s'est roidi contre vous ? 
+
+GROOM. 
+
+Il s'est roidi comme un chêne ! Mais nous nous sommes
+
+rués sur lui… et quand nous avons vu qu'il ne voulait pas
+
+tenir de bonne grâce, nous l'avons enlevé de force, et
+
+on vous l'apporte en triomphe. 
+
+voix, dans la coulisse. 
+
+Vive Walter Scott ! vive Walter Scott ! 
+
+THÉOBALD. 
+
+C'est lui ! c'est le grand homme : l'homme géant ! …
+
+SCÈNE VII. 
+
+LES MÊMES, WALTER SCOTT, PAYSANS, 
+
+DOMESTIQUES. 
+
+
+
+<div type="poem"> <lg>
+CHŒUR. 
+
+<stage type="tune">AIR : Final du Hussard de Felshem. </stage>
+
+<l>Honneur ! honneur au grand génie</l>
+<l>Qui vient visiter les Français !</l>
+<l>C'est honorer notre patrie,</l>
+<l>Que rendre hommage à ses succès !</l>
+
+</lg> </div>
+
+
+THÉOBALD, à part. 
+
+Il n'est pas si grand que je me le figurais… c'est une
+
+✓
+
+âme de huit pieds dans un corps de cinq pieds deux pou
+
+ces…
+
+SCOTT, se débarrassantdedeux hommes qui le tiennent. 
+
+Qu'est – ce que cela veut dire, Messieurs ? On n'arrête
+
+pas ainsi un paisible voyageur. 
+
+THÉOBALD. 
+
+Monsieur, on ne veut vous faire aucun mal… Laissez
+
+vous aller. 
+
+ (17) 
+
+SCOTT. 
+
+Dites donc qu'on me laisse aller… (Aux paysans :) 
+
+Voyons… lâchez – moi…
+
+THÉOBALD, à part. 
+
+Quelle noble indépendance ! (Haul.) C'est à M. Walter
+
+Scott qne j'ai l'honneur de parler ? 
+
+SCOTT. 
+
+Oui, Monsieur, c'est moi ; mais ce n'est pas une raison
+
+pour me déchirer mon habit. 
+
+ (Il se retourne et montre les basques de son habit.)
+
+THÉOBALD, à part. 
+
+Je ne savais pas qu'il était bossu… mais c'est la bosse
+
+du génie ! 
+
+SCOTT. 
+
+Monsieur, je croyais qu'en France on avait plus d'égards
+
+pour les étrangers. 
+
+THÉOBALD, avec enthousiasme. 
+
+Vous n'êtes pas un étranger pour nous. 
+
+SCOTT. 
+
+C'est possible… mais vous êtes un étranger pour
+
+moi. 
+
+THÉOBALD, à part. 
+
+Quelle vivacité de réparties ! et pourtant quelle simpli
+
+cité : imitons – là. (Haut.) Honorable insulaire ! apprenez
+
+que vous êtes ici chez l'un des plus chauds admirateurs de
+
+vos ouvrages. 
+
+SCOTT. 
+
+De mes oavrages ? … (A part.) Il paraît que ce Mon
+
+sieur aime la pâtisserie… ça me rassure. 
+
+Et vous allez vous trouver au milieu de vos plas fameux
+
+confrères de la capitale. 
+
+THÉOBALD. 
+
+SCOTT, 
+
+à part : 
+
+Je vais me trouver avec des pâtissiers de Paris. 
+
+THÉOBALD. 
+
+Et c'est pour vous prier d'accepter une petite fête im
+
+promptu, et un dîner de camarades… que nous nous
+
+sommes permis de vous inviter…
+
+Les Brioches. 
+
+3
+
+ (18) 
+
+SCOTT. 
+
+Vous avez une singulière manière de faire vos invita
+
+tions ! 
+
+THÉOSALD. 
+
+" Nous ne fésons rien comme les autres. 
+
+SCOTT. 
+
+C'est ce que je vois. Ah ! ça, les confrères savaient donc
+
+que j'arrivais ? 
+
+THÉOBALD. 
+
+Ils en ont été avertis par les journaux, 
+
+SCOTT. 
+
+Diable ! on n'a pas perdu de temps ! Vous dites donc que
+
+mes confrères veulent me donner une fête ? 
+
+THÉOBALD. 
+
+Oui, M. Scott. Je n'ai pas besoin de vous demander si
+
+votis aimez le romantique ? …
+
+SCOTT. 
+
+Beaucoup ! … Monsieur, il n'y a rien de meilleur, quand
+
+il est bien por. 
+
+THÉOBALD. 
+
+Oh ! le nôtre est d'une pureté incompréhensible ! 
+
+SGOTT. 
+
+Je vous promets d'y
+
+faire honneur… Nous autres
+
+Anglais, nous aimons les liqueurs fortes. 
+
+THÉOBALD, riant. 
+
+Ah ! M. Scott fait des calembourgs… Eh bien ! nous
+
+nous en servirons. 
+
+SCOTT. 
+
+Vous verrez comme j'avale ça. 
+
+THÉO BALD. 
+
+Vous adoptez notre nouveau systéme ? 
+
+SCOTT. 
+
+Tout ce qui est moderne me plaît… et je travaille en ce
+
+moment à un certain baba ! …
+
+THÉOBALD. 
+
+Un baba ! … (A part.) C'est un ouvrage dans le genre
+
+des Mille et une Nuit… Ali Baba ! 
+
+SCOTT. 
+
+Si on ne trouve pas celui – là bon, c'est qu'on y mettra de
+
+la mauvaise volonté… tout en sera soigné… recherché
+
+dans les plus petits détails… une jolie forme…, une cou
+
+ (
+
+19
+
+) 
+
+leur vaporeuse, l'idéalisme de la henuté naturelle… vous
+
+comprenez ? …
+
+20497 25 25 THÉOBA ED ! " ; ! 
+
+16. 1
+
+. :) 
+
+Oh ! parfaitement ! 
+
+ (
+
+1
+
+) 
+
+SCOTT. 
+
+Et puis il faudra voir mes châteaux aériens, mes co
+
+lonnes irrégulières et mes ruines du moyen âge. 
+
+THÉOBALD… 
+
+ ? 
+
+Je sais que vous excellez dans le gothiqué. 
+
+SCOTT, vivement. 
+
+Je vous en réponds. Nut mieux que moi ne pétrit la ma
+
+tière ; j'en fais une pâte qui prend sous mes doigts toutes
+
+les figures qu'il plaît å mon imaginatiad fantastique de lui
+
+donner. 
+
+THÉOBALD. 
+
+Et les classiques ? …. 
+
+SCOTT. 
+
+Les classiques, dans la branche des arts que nous culti
+
+vons, j'ai pour eux le mépris le plus profond ! … Savez
+
+vous comment je vois les classiques, quand je les vois ; car
+
+je ne peux pas les voir… De temps à autre, la main des
+
+fées me perche sur la spirale des enchantemens, tout en
+
+haut ! tout en haut ! alors elle me montre un petit trou tout
+
+en bas… J'y regarde, j'y vois une multitude de vermis
+
+seadx, de molécules, d'atômés. 
+
+je reconnais les clas
+
+siques. Voilà comme je vois ces Messieurs ! (1) 
+
+THÉOBALD. 
+
+C'est cela, c'est cela même ! Oh ! M. Scott, que je suis
+
+fier de vous posséder chez moi ! …'. Mais vous devez avoir
+
+besoin de prendre quelque chose ? … : 
+
+Je suis un pen altéré. 
+
+SCOTT
+
+
+<div type="poem"> <lg>
+THÉOBALD. 
+
+Veuillez passer dans cette bibliothèque…
+
+
+<stage type="tune">AIR du Galop. </stage>
+
+<l>Je vais, Monsieur, ordonner</l>
+<l>Un dîner</l>
+<l>Gothique</l>
+<l>Et romantique.</l>
+<l>Quand vous aurez pris un peu de repos,</l>
+<l>Vous serez plus dispos.</l>
+
+<l>Je veux vous fêter</l>
+<l>Et vous traiter</l>
+<l>En gastronome…</l>
+<l>Vous n'aurez jamais</l>
+<l>Goûté de tels vins, de tels mets !</l>
+
+    SCOTT. 
+∑
+<l>Ma foi, je me rends,</l>
+<l>Et j'y consens…</l>
+<l>Je suis votre homme ;</l>
+<l>Car jamais je n'ai</l>
+<l>Su refuser un bon dîné.</l>
+
+    ENSEMBLE. 
+
+<l ana="unanalyzable">Allez, Monsieur, ordonner, etc.</l>
+<l ana="unanalyzable">Je vais, Monsieur, etc.</l>
+
+</lg> </div>
+
+
+
+ (Scott sort.)
+
+SCENE VIII, 
+
+THÉOBALD, seul. 
+
+, 
+
+1
+
+1
+
+ ! 
+
+Tous ces grands hommes sont originaux ! … Celui – ci a
+
+dans la physionomie le cachet de ses ouvrages. Quelle vi
+
+vacité dans ses yeux ! quel feu dans ses discours ! c'est une
+
+áme complète ! … O Scott ! Scott ! je t'aurais reconnu au
+
+milieu de vingt mille hommes ! 
+
+SCENE IX. 
+
+THÉORALD, MATHIEU, UN DOMESTIQUE. 
+
+M. Mathieu arrive à l'instant. 
+
+LE DOMESTIQUE, annonçant. 
+
+THÉOBALD. 
+
+M. Mathieu ! … Ah ! parblea ! il arrive bien ! un vieux
+
+ (21) 
+
+classique, un homme incorrigible ! … Je vais le mettre aux
+
+prises avec mes camarades… nous allons le mystifier…
+
+ (Se retournant.) Eh ! bonjour, mon vieil ami ! mon cher
+
+M. Mathieu ! … Qu'est – ce qui vous amène ? 
+
+MATHIEU. 
+
+Mon cher ami, ma gouvernante dîne en ville, et j'ai pro
+
+fité de l'occasion pour venir vous demander la soupe. 
+
+THÉOBALD. 
+
+j
+
+La soupe ! … Qu'est – ce qui dit la soupé aujourd'hui ? 
+
+MATHIEU, gaiement. 
+
+Hé bien ! aimez – vous mieux le pot au feu ? la fortune du
+
+pot ? ça m'est égal. 
+
+THÉOBALD. 
+
+Ab ! qu'importe ! vous savez que je reçois toujours avec
+
+plaisir l'ancien ami de ma famille ; mais je crains qu'anjour
+
+d'hui vous ne soyez mal tombé. 
+
+MATHIEU. 
+
+Pourquoi ? est – ce que vous attendez quelqu'un qui ferait
+
+refroidir le dîner ? 
+
+<div type="poem">
+<lg><l>« Ah ! souvenez–vous bien</l>
+<l>» Qu'un dîner réchauffé ne valût jamais rien. »</l></lg></div>
+
+
+
+THÉOBALD. 
+
+ (
+
+A part.) Le voilà déjà avec son Boileau. (Haut.) Vous
+
+vous trouverez ici avec des convives qui ne vous amuse
+
+ront peut – être pas. 
+
+MATHIEU. 
+
+Je m'amuse avec tout le monde, moi. 
+
+Même avec des romantiques ? 
+
+THÉOBALD. 
+
+MATHIEU. 
+
+Plas avec eux qu'avec d'autres ; ils sont drôles. 
+
+THÉOBALD. 
+
+Alors vous allez être en partie de plaisir, car je traite
+
+aujourd'hui toute l'école moderne. Je donne une fête en
+
+l'honneur d'un grand génie, qui se trouve être des nôtres. 
+
+MATHIEU. 
+
+Parbleu, voilà on hasard bien heureux. (A part.) Il pa
+
+raît que ma lettre a fait son effet. 
+
+ (22) 
+
+THÉOBALD, 
+
+ki
+
+smo
+
+i ini
+
+Apprenez que Walter Scott est chez moi…
+
+En vérité ! 
+
+ ! " MATHIEU. 
+
+THÉOBALD. 
+
+S'il pouvait vous convertir ! 
+
+MATHIEU. 
+
+1
+
+Je ne demande pas mieux. Pour me convertir au roman
+
+tisme, je n'attends qu'un chef – d'œuvre. 
+
+1
+
+On en fait. 
+
+THEOBALD. 
+
+MATHIEU. 
+
+do : 1 ;, 
+
+*
+
+Qu'on se dépêche, done ! 
+
+THÉOBALD. 
+
+Ab ! dame ! nous commençons par abattre le vieux, avant
+
+de faire da neuf ; voyez d'abord la musique… Grétry n'est
+
+plus que de la Saint – Jean ; et ce pauvre Jean – Jacques
+
+Rousseau ! … on a jeté l'été dernier une perruque à son
+
+Devin du village. 
+
+DE 1 : Direylogen
+
+<div type="poem"> <lg>
+    
+MATHIEU. 
+
+<stage type="tune">AIR : Vaudeville de l'Anonyme. </stage>
+
+<l>Je m'en souviens, oui, j'étais dans la salle,</l>
+<l>Lorsqu'à Rousseau l'on a fait cet affront ;</l>
+<l>Et j'ai rougi de voir un tel scandale…</l>
+<l>C'est un laurier que mérite son front.</l>
+<l>Oui, c'était faire au génie un outrage :</l>
+<l>On pouvait bien, lui sauvant ce mépris,</l>
+<l>Laissez passer son Devin du village</l>
+<l>À la faveur de tant de beaux écrits !</l>
+
+    
+</lg> </div>   
+
+THÉOBALD. 
+
+Mon cher M. Mathieu, la jeune France ne veut plus de
+
+tout cela. 
+
+
+<div type="poem"> <lg>
+    
+MATHIEU. 
+
+Eh ! Monsieur, est – ce que la jeune France ne se compose que
+de faiseurs de ballades, de romans, de tragédies, et de vaudevilles ? 
+
+
+<stage type="tune">AIR : Il me faudra quitter l'Empire. </stage>
+
+<l>Le jeune élève en médecine,</l>
+<l>Le jeune étudiant en droit,</l>
+<l>Le jeune homme qui se destine</l>
+<l>Au commerce… et par lui l'on voit</l>
+<l>Que du pays la richesse s'accroît :</l>
+<l>Le jeune soldat qui s'élance</l>
+<l>D'un pas rapide et glorieux,</l>
+<l>Le jeune artiste ardent et généreux…</l>
+<l>Voilà, Monsieur, voilà la jeune France,</l>
+<l>Qui respecte encore ses aïeux.</l>
+
+
+</lg> </div>
+    
+THÉOBALD. 
+
+Il faut absolument refaire la littérature. 
+
+MATHIEU, riant. 
+
+Elle n'était poartant pas trop mal. 
+
+<div type="poem"> <lg>
+    
+THÉOBALD. 
+
+Fi donc ! 
+
+
+<stage type="tune">AIR : Vaudeville de Partie et Revanche. </stage>
+    
+
+<l>Votre Thalie, hélas ! était bien terne,</l>
+<l>Et vos auteurs bien arriérés…</l>
+<l>Nous allons voir, par l'école moderne,</l>
+<l>Les théâtres régénérés…</l>
+
+    MATHIEU. 
+
+<l>Les théâtres régénérés !</l>
+
+    THÉOBALD. 
+
+<l>Grâce à la nouvelle manière,</l>
+<l>Qui surgit de tous les côtés,</l>
+<l>De jour en jour ils sortent de l'ornière…</l>
+
+    MATHIEU. 
+
+<l>Ils sont pourtant diablement cahotés !</l>
+
+
+</lg> </div>
+
+THÉOBALD. 
+
+C'est que
+
+la route n'est pas encore aplanie ; on en viendra
+
+à bout ; c'est une entreprise comme une autre. 
+
+La mettrez – vous en actions ? 
+
+MATHIEU. 
+
+THÉOBALD. 
+
+Pourquoi pas ! toutes les entreprises se font comme
+
+cela. 
+
+ (24) 
+
+
+<div type="poem"> <lg>
+
+MATHIEU. 
+
+<stage type="tune">AIR : Voilà le Parnasse des Dames. </stage>
+
+<l>La mode, qui fait des miracles,</l>
+<l>Veut que l'on mette maintenant</l>
+<l>En actions jeux et spectacles,</l>
+<l>Journal, banque, desséchement…</l>
+<l>On y met, dans la capitale,</l>
+<l>Le gaz, les voitures, les ponts…</l>
+<l>Et je ne vois que la morale</l>
+<l>Qu'on ne met pas en actions !</l>
+
+</lg> </div>
+
+
+THÉO BALD. 
+
+Il ne faut désespérer de rien. 
+
+MATHIEU. 
+
+Je ne désespère pas non plus ; 
+
+et du train dont vous
+
+marchez…
+
+THÉOBALD. 
+
+Nos jeunes gens vous prouveront…
+
+MATHIEU. 
+
+Ils ont déjà prouvé que c'est en imitant qu'on crée, en
+
+traduisant qu'on invente, 
+
+en copiant qu'on devient ori
+
+ginal. 
+
+
+<div type="poem"> <lg>
+    
+THÉOBALD. 
+
+Qu'appelez – vous ! Monsieur, on fait da neuf aussi. 
+
+<stage type="tune">AIR de la Petite Poste de Paris. </stage>
+
+<l>On fait des révélations,</l>
+<l>On fait des lamentions,</l>
+<l>On fait des contemplations,</l>
+<l>On fait des consolations…</l>
+
+    MATHIEU. 
+
+<l>Tous ces volumes en tions</l>
+<l>Sont des mystifications.</l>
+
+</lg> </div>
+
+
+<div type="poem"> <lg>
+    
+THÉOBALD. 
+
+M. Mathieu est bien intolérant ! 
+
+<stage type="tune">AIR du Passe Partout. </stage>
+
+<l>Nous ferons la barbe à Molière,</l>
+<l>Nous ferons la barbe à Boileau,</l>
+<l>Nous ferons la barbe à Voltaire,</l>
+<l>Nous ferons la barbe à Rousseau.</l>
+
+    MATHIEU. 
+
+<l>Les dames du siècle où nous sommes</l>
+<l>Pourraient dire, qu'avant d'oser</l>
+<l>Faire la barbe à nos grands hommes,</l>
+<l>Vous feriez bien, Messieurs, de vous raser.</l>
+
+</lg> </div>
+
+
+
+THÉOBALD. 
+
+Il faut être aussi encroûté que vous l'êtes…
+
+Moi, encroûté ! 
+
+MATHIEU. 
+
+SCENE X. 
+
+LES MÊMES, WALTER SCOTT : 
+
+'SCOTT. 
+
+Qu'est – ce qui parle de croûte ? j'en casserais bien une
+
+moi. 
+
+THÉOBALD. 
+
+M. Walter Scott, permettez – moi de vous présenter un
+
+de mes vieux amis ! (Bas à Scott.) un peu perruque. 
+
+SCOTT, bas à Théobald. 
+
+Je vois ça. (Haut, et saluant M. Mathieu.) Monsieur, 
+
+votre serviteur ! (A part.) Bonne tête bourgeoise. 
+
+MATHIEU, saluant. 
+
+Monsieur, je suis le vôtre ! (A part.) Bonne figure de pâ
+
+tissier. 
+
+En attendant que tous mes amis de Paris arrivent, je vais
+
+THÉOBALD. 
+
+donner le signal pour notre petile fête. 
+
+SCOTT. 
+
+Si vous pouviez commencer par le dîner, ça me ferait
+
+plaisir, parce que je m'en irais après. (A pari.) Je vais me
+
+marier, et j'ai un appétit du diable. 
+
+Les Brioches. 
+
+4
+
+ (26) 
+
+THÉOBALD
+
+Vous ne sortirez pas d'ici, que vous n'ayez juré d'être
+
+des nôtres ; et je vais donner des ordres pour que vous ne
+
+puissiez pas nous échapper. 
+
+ (Il sort.)
+
+SCÈNE XI. 
+
+MATHIEU, SCOTT. 
+
+SCOTT, effrayé. 
+
+Pour que je ne puisse pas m'échapper ! qu'est – ce que cela
+
+veut dire ? (Il court à la porte.) Eh bien ! il a fermé la porte ! 
+
+où suis – je ? … Mon cher Monsieur, vous qui connaissez
+
+l'endroit, est – ce qu'il y a ici du danger ? est – ce qu'on atten
+
+terait à ma liberté individuelle ? 
+
+MATHIEU, le prenant parle bras. 
+
+Chut ! 
+
+Quoi donc ? 
+
+SCOTT, effrayé. 
+
+MATHIEU, regardant autour de lui. 
+
+Malheurenx étranger ! 
+
+SCOTT. 
+
+Vous me faites frémir ! je suis brave ; mais je frémis à
+
+la moindre chose. 
+
+Vous ne savez pas avec qui vous êtes ici ? 
+
+MATHIEU, avec mystère. 
+
+SCOTT. 
+
+Non !' c'est ce que je voudrais savoir. 
+
+MATHIEU. 
+
+Chut ! … Connaissez – vous quelques sociétés secrètes ? 
+
+Oui. 
+
+Les Francs – Mâcons ? 
+
+SCOTT. 
+
+MATHIEU. 
+
+SCOTT. 
+
+Oui, je connais les Francs – Maçons. J'ai un de ines oncles
+
+qui a manqué de l'être. 
+
+ (27) 
+
+MATHIEU. 
+
+Eh bien ! ce n'est pas ça… Connaissez
+
+vous la société
+
+de's Carbonari ? 
+
+SCOTT. 
+
+J'en ai beaucoup entendu parler. N'est – ce pas des espè
+
+ces de charbonniers politiques ? 
+
+Eh bien ! ce n'est pas encore ça. 
+
+MATHIEU. 
+
+Diable ! 
+
+SCOTT. 
+
+MATHIEU. 
+
+Connaissez – vous la Camaraderie ? 
+
+SCOTT. 
+
+Comment dites – vous, la Canarderie ? 
+
+La Camaraderie…
+
+MATHIEU. 
+
+SCOTT, effrayé. 
+
+Non ! je ne connais pas cette société – là. 
+
+MATIIEU. 
+
+Eh bien ! vous êtes dedans. 
+
+SCOTT. 
+
+Je suis dedans… Mais qu'est – ce que ces gens – là veulent
+
+faire de moi ? 
+
+Ils veulent vous engager dans leur troope. 
+
+MATHIEU. 
+
+Pourquoi faire ? 
+
+SCOTT. 
+
+MATHIEU. 
+
+Pour faire comme eux. 
+
+SCOTT. 
+
+Pour faire comme eux… Oh ! je fais bien mes brioches. 
+
+moi – même ; je suis un homme tout rond, au morat comme
+
+au physique… ils peuvent choisir une autre bosse que la
+
+mienne
+
+pour
+
+politesse. 
+
+la mettre à leur tête… Je vais leur brûler la
+
+MATHIEU. 
+
+Vous savez qu'ils ont fait fermer toutes les portes. 
+
+SCOTT. 
+
+Moncher Monsieur, vous m'avez l'air d'un brave homme, 
+
+ue me quittez pas ; je m'accroche à vous…… Vous n'êtes, 
+
+pas des leurs, n'est – ce pas ? 
+
+ (28) 
+
+MATHIEU. 
+
+Non, non, faites comme moi, dissimulez ; le danger n'est
+
+peut – être pas aussi grand que vous le pensez. 
+
+SCOTT. 
+
+Je meurs de frayeur ! donnez – ınoi le bras. (Coup de tam
+
+lam.) On vient. C'est un homme qui a l'air touteffrayé aussi. 
+Cachons – nous. 
+
+MATHIEU. 
+
+Derrière le paravent. (A part.) Voilà la fête qui com
+
+mence. 
+
+SCÈNE XII. 
+
+LES MÊMES, CARAMEL, en Monasdelchi, accourant avec
+
+frayeur. 
+
+<div type="poem"><lg>
+CARAMEL. 
+
+<l>Où fuir ? où me cacher ? Pauvre Monasdelchi !(1)</l> 
+<l>Trois ou quatre assassins vont me mettre en hachi.</l>
+<l>Je suis donc condamné, par cette femme infâme,</l>
+<l>À mourir, à périr, et même à rendre l'âme ;</l>
+<l>Mais pour la rendre encor, il faudrait en avoir,</l>
+<l>Et je suis un sans cœur, c'est bien facile à voir.</l>
+<l>Si je sautais, pour me — sauver, par la fenêtre…</l>
+<l>Elle est bien haute, et je — me ferais mal peut–être ;</l> 
+<l>Et je crains fort ; car ces sauts – ci sont périlleux ! (2)</l>
+<l>Mais, pour ne pas me voir, je puis fermer les yeux.</l>
+<l>Je suis un fier capon ! … Pourtant, si j'en réchappe,</l>
+<l>Du diable si jamais Christine m'y rattrappe.</l>
+
+
+ (Coup de tam – lam.)
+
+ (1) La rime indique assez la prononciation. 
+
+ (2) Ces deux césures doivent être indiquées par l'acteur ; quoi
+
+que les romantiques dédaignent cette vieille méthode. 
+
+ (29) 
+
+SCÈNE XIII. 
+
+LES MÊMES, MANETTE, en Christine ; DEUX AUTRES
+
+FEMMES, en Christine. 
+
+
+
+
+    MANETTE, au fond. 
+
+<l>J'aperçois mon gaillard, une bonne volée</l>
+<l>Va tomber sur son dos ! il ne l'a pas volée.</l>
+
+    Les TROIS CHRISTINES, criant. 
+
+<l part="I"> Arrête !</l>
+
+    CARAMEL. 
+
+<l part="F"> Trois Christine ! Ah ! grand dieu ! je suis mort ! …</l>
+<l>Mesdames, dites–moi du moins quel est mon tort ?</l>
+
+    MANETTE. 
+
+<l>Ton tort est d'être un lâche, un trompeur, un perfide,</l>
+<l>Un traître, un cornichon, un drôle ! un homicide !</l>
+
+    CARAMEL. 
+
+<l>Madame, ayez pitié de ce joli marquis,</l>
+<l>Que pour amant autre—fois vous trouviez exquis.(1)v</l> 
+
+    MANETTE et les deux CHRISTINE. 
+
+<l>Non, vingt coups de bâton paieront la perfidie !</l>
+
+    MANETTE. 
+
+<l>Ah ! de coups de bâton, c'est une trilogie !</l>
+
+    CARAMEL. 
+
+<l>Vous, Mesdames, au fond, tenez–vous un moment ;</l>
+<l>Laissez–moi, pour nous trois, sabouler notre amant.</l>                    (Elles sortent et referment la porte.)
+
+
+
+SCOTT, passantsa téte par – dessus le paravent. 
+
+Elle va le sabouler ! 
+
+
+
+    MANETTE. 
+
+<l>Nous voila seuls, marquis, parlez à votre reine,</l>
+<l>Et justifiez-vous : vous aurez de la peine.</l>
+
+    CARAMEL. 
+
+<l>Oui, je dois l'avouer, je suis embarrassé…</l>
+<l>Si j'osais, je dirais que je suis enfonce !</l>
+
+    MANETTE. 
+
+<l>Et moi donc, je t'aimais, quoique tu sois infâme !</l>
+<l>L'as–tu bien déchiré mon pauvre sœur de femme ?</l>
+
+    CARAMEL. 
+
+<l>De mes jeunes écarts vous voulez me punir :</l>
+<l>Bientôt vos assassins ici s'en vont venir.</l>
+<l>Tuez–moi noblement, plutôt que l'on m'assomme.</l>
+        (Avec délire.)
+<l>Enfonce ton poignard dans ma poitrine d'homme.</l>
+
+    MANETTE, 
+
+<l>Oui, je l'enfoncerai ; mais tu sauras pourquoi.</l>
+<l>Apprends donc qui je suis : je suis la femme roi.</l>
+<l part="I">Je decends…</l>
+            
+    CARAMEL. 
+
+<l part="M"> De la haut ?</l>
+
+    MANETTE. 
+
+<l part="F"> Non, de l'Eric Lebègue,</l>
+<l>Jadis roi de Suède (1), royaume qu'il me lègue…</l>
+<l>Je formais le projet, encor hier au soir,</l>
+<l>Sur mon trône, avec moi, de te faire un jour seoir ;</l>
+<l>Mais Monsieur le marquis est un amant inique !</l>
+<l>Il n'aime plus la reine, aussitôt qu'elle abdique.</l>
+<l>Souviens–toi cependant du coche de Montreau…</l>
+<l>Quand nous allions demeu — rer à Fontainebleau,</l>
+<l>Souviens–toi qu'à l'hori — zon surgit un orage…</l>
+<l>Nous tombons dedans l'eau : Pour me sauver, je nage…</l>
+<l>Mais toi tu barbottais le long de la vapeur,</l>
+<l>Tu t'accrochais à moi ! Canaille, (2) avais–tu peur !</l>
+
+    CARAMEL. 
+
+<l>Ne sachant pas nager, c'est ce qu'il fallait faire.</l>   
+            (Avec âme.)
+<l>Mourir deux, est si doux, dans la même rivière !</l>
+    MANETTE. 
+
+<l part="I"> Eh bien ! tu mourras seul.</l>
+
+    CARAMEL. 
+
+<l part="F"> Ah ! malédiction !</l>
+<l>Abomination et désolation !</l>
+    MANETTE. 
+
+<l>Tu mérites ton sort… Anathème ! anathème !</l>
+
+    CARAMEL. 
+
+<l>Anathème ! aujourd'hui toujours le même thême.(1)</l>
+            
+    MANETTE, allant s'asseoir sur le canapé. 
+
+<l>Allons, lâche marquis, tu vas sauter le pas !</l>
+
+    CARAMEL, à ses pieds. 
+
+<l>Je mourrais volontiers, si c'était dans tes bras !</l>
+<l>Regarde ton amant… Révoque l'anathème.</l>
+<l>Ah ! regarde mes yeux, ils te disent je t'aime !</l>
+<l>Je t'aime ! … Rosse–moi… Je t'aime… Assomme–moi.</l>
+<l>Je t'aime, t'aime, t'aime, et n'aimerai que toi !</l>
+
+                    (Il se penche sur Christine avec amour.)
+
+    SCOTT, passant sa tête par – dessus le paravenl. 
+
+Eh bien ! eh bien ! 
+
+    CARAMEL. 
+
+Est – ce qu'il y a quelqu'on là ? 
+
+    MANETTE, se levant. 
+
+<l>C'est assez. Revenez, mesdames les Christine,</l>
+<l>Et que, pour en finir, ici l'on l'assassine.</l>
+<l part="I"> Appelons nos soudards.</l>
+
+    2me CHRISTINE. 
+
+<l part="M"> Gulrick !</l>
+
+    3me CHRISTINE. 
+
+<l part="M"> Gulrack !</l>
+
+    MANETTE. 
+<l part="F"> Gulrock !</l>
+            
+    CARAMEL. 
+
+<l>Elles ont loutes trois le cæur dur comme un roc !</l></lg></div>
+                (Musique – Trois assassins entrent avec des gourdins, l'entourent, et sans parler, le menaçent du geste. Il frémit, et les regarde sous le nez avec efroi. En vain il veut fuir, les femmes lui font le geste impérieur de rester.)
+
+    CARAMEL. 
+
+Oh ! là ! Ja ! mes amis… de grâce un peu de trève ! 
+
+    LES DEUX CHRISTINE. 
+
+Ayons pitié de lui ! 
+
+    MANETTE. 
+
+J'y consens… Qu'on l'achève ! 
+
+                  (Les trois assassins le rossent. Il s'enfuit suivi des trois Christine.)
+
+
+
+
+
+
+scott, effrayé. 
+
+Comment diable ! on assassine un homme ! 
+
+C'est à l'anglaise, absolument. 
+
+MATHIEU, 
+
+SCOTT, criant. 
+
+A la garde ! à la garde ! 
+
+ (Il se sauve, Mathieu le suit. 
+
+Musique.)
+
+FIN DU PREMIER TABLEAU. 
+
+ (35) 
+
+DEUXIÈME TABLEAU. 
+
+Le Théâtre représente un parc. Au milieu le buste de Racine sur
+
+un piedestal. – A gauche, une chaise de jardin. 
+
+SCÈNE PREMIÈRE. 
+
+WALTER SCOTT, arrivant effrayé. 
+
+Ah ! mon dieu ! je l'échappe belle ! je ne sais où je sois ? 
+
+Quelle aventure diabolique… Me voilà sorti de cette mai
+
+son où les femmes assassinent les hommes. En bonne po
+
+lice, ces femmes – là mériteraient les travaux forcés à per
+
+pétoité. Mais où suis – je ? je suis dans un bois, peut – être
+
+dans la forêt de Bondi… je ne connais pas les routes. Que
+
+le diable emporte la société secrète et la Camaraderie…
+
+Ma pauvre petite femme qui attend son prétendu, et qui
+
+devait venir avec son oncle au – devant de moi, qu'est – ce
+
+qu'elle va dire ? … Avec tout ça ils m'ont promis à dîner, 
+
+et je n'ai pas encore mis un morceau sous ma dent ; si j'a
+
+yais seulement une côtelette ou un æuf à la coque ! 
+
+SCENE II. 
+
+HERNANI, WALTER SCOTT. 
+
+ (Il paraît un gros œuf, dans un énorme coquetier.)
+
+Tiens, en parlant d'œuf, en voilà un fameux ! D'où diable
+
+vient – il donc ? c'est un ouf d'autruche… n'importe, cas
+
+SCOTT. 
+
+Les Brioches. 
+
+5
+
+ (34 : 
+
+sons – le ; par exemple il faudra une fameuse mouillette. 
+
+C'est égal, cassons, cassons. (Il casse læuf ; 
+
+il en sort un
+
+enfant habillé comme Hernani.) Ah ! mon dieu ! qu'est – ce
+
+que c'est que ça ? 
+
+
+<div type="poem"> <lg>
+
+    HERNANI. 
+
+<stage type="tune">AIR connu. </stage>
+
+<l>Je suis le héros d'aujourd'hui.</l>
+
+    SCOTT. 
+
+<l>Mon dieu ! quel homme !</l>
+<l>Quel petit homme !</l>
+
+    HERNANI. 
+
+<l>Et je possède un grand esprit.</l>
+
+     SCOTT. 
+
+<l>Voyez donc comme</l>
+<l>Il est petit !</l>
+
+    HERNANI. 
+
+<l>Monsieur, le chemin que je suis</l>
+<l>Élargit l'époque où nous sommes.</l>
+<l>Apprenez que c'est moi qui suis</l>
+<l>Le plus grand de nos jeunes hommes.</l>
+
+<l ana="unanalyzable">Je suis le héros d'aujourd'hui, etc.</l>
+
+</lg> </div>
+
+SCOTT. 
+
+Je vous aurais pris pour un enfant. 
+
+HERNANI, 
+
+Les enfans sont supprimés. 
+
+En vérité ! 
+
+SCOTT. 
+
+
+HERNANI. 
+
+Nous voilà sortis de la vieille forme sociale. 
+
+SCOTT. 
+
+Il n'y a plus d'enfans ! et vous sortez de votre coque. 
+
+HERNANI, 
+
+ « De ma coque, coquin ! quand ta main déloyale
+
+ » Vient d'écraser dans l'euf mon aigle impériale ! 
+
+) )
+
+ (35) 
+
+SCOTT. 
+
+Ah ! par exemple ! vous n'êtes pas un aigle. 
+
+HERNANI. 
+
+Je suis ce que je suis, tu ne peux pas me comprendre. 
+
+SCOTT. 
+
+Vous êtes donc une énigme ? 
+
+HERNANI. 
+
+Non ; je suis une charade, devine – moi. 
+
+Voyons. 
+
+SCOTT. 
+
+HERNANI. 
+
+<div type="poem">
+    
+<lg><l>« Mon premier est ce que chaque jour on respire,</l>
+<l>» Mon second est ce que la beauté doit te dire,</l>
+<l>» Et mon tout est ce que tout camarade admire. »</l></lg>
+
+</div>
+
+SCOTT. 
+
+C'est tarte à la crême on macaroni. 
+
+HERNANI. 
+
+Eh non ! imbécille ! c'est Hernani. Qu'est – ce que tu res
+
+pires ? de l'air. Qu'est – ce que te répond une femme à qui tu
+
+demandes un baiser ? nani. 
+
+SCOTT. 
+
+Vous vous trompez, elle répond je veux bien ! 
+
+1
+
+HERNANI. 
+
+Et qu'est – ce que tout le monde admire ? c'est Hernani. 
+
+Je n'aurais jamais deviné cela. 
+
+HERNANI. 
+
+SCOTT. 
+
+C'est une charade, avec l'ortographe de M. Marle. Adieu, 
+
+tu m'as vu. Je m'en vais dans le tombeau de Charlemagne, 
+
+jouer un petit air de cor de chasse. 
+
+ (17 fait à Scott un geste menaçant, et sort en jouant sur son
+
+petit cor, l'air : J'ai du bon tabac, dans ma tabatière.)
+
+SCOTT. 
+
+Quel drôle de petit corps ! Ah ! voilà une femme. D'après
+
+ce que j'ai vu tout – à – l'heure, je ne sais pas si cela doit me
+
+rassurer. 
+
+5
+
+ (36) 
+
+SCENE III. 
+
+WALTER SCOTT, GROOM, en jeune dame allemande, 
+
+une rose à la main. 
+
+GROMM. 
+
+Gut morguen, mein herr, vie befinden zie zich ? … gout ! 
+
+ich bin fon das zoufrienden. 
+
+Qu'est – ce qu'elle me chante là ? 
+
+GROOM. 
+
+SCOTT, 
+
+Zie sprechen nicht deitsch ? (Baragouinant.) Vous ne
+
+parlez pas allemand ? 
+
+SCOTT
+
+Je ne crois pas. Pourrais – je savoir à qui j'ai l'honneur de
+
+parler ? 
+
+GROOM, baragouinant. 
+
+Je suis une cantatrice allemande, qui viept donner des
+
+représentations au théâtre Favart. Les Français n'aiment
+
+plus que notre musique… c'est noas seuls qui avous le
+
+sier romantique ; 
+
+la langue française est trop dure aussi
+
+pour la mélodie… Voyez : vous dites en francoz…
+
+en
+
+français : « Mam'zelle, je vous aime ! » Comme c'est rude ! 
+
+Nous, c'est plus gentil : « Ah ! mein goth ! zie haben ein
+
+schoëne kopff, ich liebe
+
+sie acht und achtzech moht. » 
+
+Comme c'est doux, agréable et amoureux ! 
+
+SCOTT. 
+
+Qu'est – ce qu'on joue à votre théâtre ? 
+
+GROOM. 
+
+On joue un acte der Freychutz et Oberon. Avez
+
+vous
+
+entendu M. Haitzinger, madame Fischer, madame Schreu
+
+der – Devrient ? Moi, je m'appèle. Tundertentronkfisch ; ça
+
+veut dire Félicité. Je dois débuter demain avec les chan
+
+teurs Tiroliens, dans die Schoëne Berlinische, la jolie Berli
+
+noise. Je suis de Berlin, où on m'adore ; on aimé mon petit
+
+air timide, ma petite pudeur tremblante, ma petite conte
+
+pance réservée. 
+
+ (37) 
+
+SCOTT, à part. 
+
+Elle a pourtant l'air d'ane fière dégourdie. 
+
+<div type="poem"> <lg>
+
+GROOM. 
+    
+J'ai beaucoup de sagesse, ma parole d'honneur ! 
+
+
+
+<stage type="tune">AIR : Vaudeville de la Somnambule. </stage>
+
+<l>Monsieur, j'ai des talens uniques,</l>
+<l>Pour m'entendre on forme des vœux,</l>
+<l>Avec mes gammes chromatiques</l>
+<l>Je gagne tout ce que je veux.</l>
+<l>Que de chanteuses je dégote !</l>
+<l>Mais je n' chant' pas pour mon plaisir ;</l>
+<l>J'ai cinq cents francs pour une note,</l>
+<l>Et mille écus pour un soupir. <stage type="repetition"> (bis.)</stage></l>
+
+</lg> </div>
+
+
+
+
+C'est un prix fait comme des petits pâtés. 
+
+SCOTT. 
+
+GROOM. 
+
+Voulez – vous entendre une scène de la Berlinische ? Voyez
+
+vous, je suis comme ça dans la douleur ; je crois que mon
+
+amant ne viendra pas, peut – être parce que je l'ai désespéré
+
+par mon rigueur… Ce n'est pas ma faute, c'est dans la
+
+pièce. 
+
+ (Elle chante.)
+
+<div type="poem">
+    
+    <stage type="tune" id="AIR : Mein libschafs."></stage>
+    
+    <lg><l>Mein libschafs</l>
+<l>Comm, nicht</l>
+<l>Liebt er mir nor.</l>
+ (Tyrolienne.)
+
+<l>La, la, la, la, oh ! la, la, la, oh ! la, la, oh !</l>
+
+Pendant deux heures je fais comme ça, ça veut dire que je
+
+suis triste ; la, la, oh ! … Arrive le bien – aimé ; il a un
+
+bien beau gosier ! Il ne chante que de poitrine. 
+
+ (Il chante de poitrine, avec vigueur.)
+
+    <l>Komm, of mein hert, meine schœne medechen, houp. <stage type="repetition"> } (bis.)</stage></l> 
+<l>Kom, of mein hert, clarisse houp.</l>
+, 
+
+Tout de poitrine, comme quand les cochers crient : Gare ! 
+
+houp ! … Mon amant, il veut me prendre la taille ; mais
+
+ (38) 
+
+je walse, (Il walse.) el je lui dis : Nicht, nicht, nicht. Il
+
+me demande aussi mon bouquet, et je lui chante : 
+
+<l>Das ich vil nicht queben.</l>
+
+. 
+
+C'est comme vous, quand vous chantez : Tu n'auras pasma
+
+rose. Arrive le pasteur, qui nous unit nos mains, et qui
+
+chante avec beaucoup d'onction. 
+
+ (Basse taitle.)
+
+<l>Mein kinder, <stage type="repetition"> (ter.)</stage></l>
+    <l>Zie geiklich. <stage type="repetition">} (bis) </stage></l> 
+
+Puis nous reprenons tous en chœur : 
+
+ (Tyrolienne.)
+
+<l>La, la, la, la, oh ! la, la, la, la, oh !</l>
+</lg></div>
+    
+Commedes rossignols, des petites fauvettes. 
+
+SCOTT
+
+J'aurais cru entendre desgarçons tailleurs. 
+
+SCENE IV ET DERNIÈRE. 
+
+TOUS LES ACTEURS, six d'entr'eux portent des
+
+bannières, sur lesquelles on lit : LE DÉLUGE, MANON
+
+L'ESCAUT, L'ANE MORT, LE ROI DE BOHÈME ET SES
+
+SEPT
+
+CHATEAUX, LES CONTEMPLATIONS DU CHAT
+
+MURR, LE MARCHAND DE VENISE. 
+
+Au – dessous de
+
+chaque titre est peinte une grosse brioche. 
+
+
+
+<div type="poem"> <lg>
+CHŒUR. 
+
+<stage type="tune">AIR du Siège de Corinthe. </stage>
+
+<l>Amis, le tambour bat !</l>
+<l>Préludons au combat</l>
+<l>Par un joyeux débat,</l>
+<l>Et Fêtons le sabat !</l>
+
+</lg> </div>
+   
+   
+   
+    SCOTT, 
+
+Ah ! voilà la Camaraderie ! au secours au secours ! 
+
+THÉOBALD. 
+
+Qu'avez – vous, illustre Scott ? 
+
+SCOTT. 
+
+Laissez – moi tranquille avec votre illustration. Avec quels
+
+gens sais – je ici ? 
+
+Oh ! 
+
+VOUS
+
+n'êtes pas au bout de votre rouleau. 
+
+THÉOBALD. 
+
+SCOTT. 
+
+Comment, pas au bout de mon rouleau ? (A part.) Je suis
+
+toujours avec des pâtissiers. 
+
+THÉOBALD. 
+
+Illustre Walter Scott, vous allez recevoir le prix que
+
+vous méritez. 
+
+CARAMEL, avec une couronnie. 
+
+<div type="poem"><lg><l>Ô homme de talent ! reçois cette couronne ;</l>
+<l>Le bon goût la mérite, et c'est moi qui la donne.</l>
+</lg></div>
+    
+Vive le Camarade ! 
+
+TOUS. 
+
+ (Tous se prennent par la main, et chantent la ronde sui
+
+vante, en dansant autour du buste de Racine.)
+
+
+
+<div type="poem"> <lg>
+
+CHŒUR. 
+
+<stage type="tune">AIR de Rossini (Siége de Corinthe) .</stage>
+    
+<l>Que tout soit renversé !</l>
+<l>Que tout soit remplacé !</l>
+<l>À bas le temps passé !</l>
+<l>Racine est enfoncé !</l>
+
+    THÉOBALD. 
+
+<l>À bas Iphigénie !</l>
+<l>À bas Britannicus !</l>
+<l>À bas Phèdre, Athalie !</l>
+<l>Car on n'en fera plus !</l>
+
+    CHŒUR. 
+
+<l ana="unanalyzable">Que tout soit renversé, etc.</l>
+
+    (40)
+    
+    CARAMEL. 
+    
+
+<l>Maître Boileau rabache,</l>
+<l>Corneille est un barbon,</l>
+<l>Voltaire une ganache,</l>
+<l>Racine un polisson ! (1)</l>
+
+    CHŒUR. 
+
+<l ana="unanalyzable">Que tout soit renversé, etc.</l>
+
+
+
+
+A bas ! à bas ! 
+
+TOUS. 
+
+CARAMEL. 
+
+Renversons le buste de ce drôle – là ! 
+
+TOUS. 
+
+A bas ! à bas ! 
+
+ (Ils se retournent, etvoient le buste de Racine grandir, s'éa
+
+lever, et devenir une slalue gigantesque (2) .
+
+Le scélérat ! 
+
+CARAMEL. 
+
+GROOM. 
+
+Comme il est au – dessus de nous. 
+
+
+
+CHŒUR. 
+
+<l>Est–ce un prestige, est–ce un fantôme, un rêve ?</l>
+<l>Par quel hasard nous paraît–il si grand ?</l>
+<l>C'est étonnant, voyez comme il s'élève,</l>
+<l>Auprès de nous, Racine est un géant.</l>
+
+</lg> </div>
+
+
+
+Il a l'air de se moquer de vous, 
+
+avec sa grande per
+
+SCOTT. 
+
+raque. 
+
+Assiégeons – le ! 
+
+CARAMÉL. 
+
+ (1) Expression d'un Séide du nouveau systéme. 
+
+ (2) Ce mécanisme est très – simple : la statue sort du piédestal, 
+
+et s'élève par le moyen d'une poulie. 
+
+ (41) 
+
+GROOM. 
+
+А coups de pierres. 
+
+ (Tous ramassent ce qu'ils trouvent sous leurs mains. 
+
+Le
+
+piédestal s'ouvre, M. Mathieu en sort.)
+
+Arrêtez, Messieurs ! 
+
+'
+
+M. Mathieu ! 
+
+MATHIEU. 
+
+TOU S. 
+
+
+<div type="poem"> <lg>
+MATHIEU. 
+
+<stage type="tune">AIR : Si des devoirs de la chevalerie. </stage>
+
+<l>Que vous a fait ce malheureux Racine,</l>
+<l>Qui pour son temps n'écrivait pas trop mal ?</l>
+<l>Employez mieux l'ardeur qui vous domine,</l>
+<l>Et méritez d'avoir un piédestal.</l>
+<l>Vous l'outragez de plus d'une manière,</l>
+<l>Vous le vouliez renverser aujourd'hui ;</l>
+<l>Et maintenant vous lui jetez la pierre,</l>
+<l>Ne pouvant pas atteindre jusqu'à lui.</l>
+
+
+</lg> </div>
+
+
+
+THÉO BÁLD. 
+
+C'est an tour de M. Mathieu ! 
+
+SCOTT. 
+
+Voyez – vous le vieux malin. 
+
+MATHIEU. 
+
+Ce n'est pas tout, vous n'y êtes pas. 
+
+SCOTT
+
+Est – ce qu'il y a encore quelque chose là – dessous ? 
+
+· Venez, Justine. 
+
+MATHIEU, ouvrant te piedestal. 
+
+SCOTT. 
+
+Dieux ! má prétendae. Ele était dans l'armoire ! 
+
+CARAMEL. 
+
+Comme Charles – Qaint dans Hernani. 
+
+SCOTT, l'embrassant. 
+
+Ma chère Justine ! … Messieurs, permettez que Walter
+
+Scott vous présente sa fiancée. 
+
+GROOM. 
+
+La Fiancée de Lammermoor ? 
+
+Les Brioches. 
+
+ (12) 
+
+MATHIEU. 
+
+Eh non ! la fiancée de Pantin. 
+
+" : 1, qlzit :') A
+
+THÉOBÁLD, à Scot, avec colère. 
+
+sirri Hot
+
+Monsieur, vous n'êtes donc pas Walter Scoft ? 
+
+Si fait : Walter Scott, 
+
+SCOTT : 5, autrement dit pâtissier
+
+anglais. 
+
+Un pâtissier ! …
+
+TOUS. 
+
+CARAMEL. 
+
+usid
+
+M
+
+Quelle boulette ! 
+
+Sci. 
+
+) S. 
+
+Comment, Messieurs, est – ce que vous n'êtes pas des pa
+
+tissiers ? 
+
+31 30 30q in
+
+THÉOBALD, 
+
+wurolmur. 
+
+
+
+1
+
+Juurene
+
+
+<div type="poem"> <lg>
+    
+THÉOBALD. 
+
+Fidonc ! nous sommes des poètes des littérateursconnus, 
+
+célèbres. 
+
+
+<stage type="tune">AIR du Calife. </stage>
+
+<l>Au siècle fameux qui s'avance,</l>
+<l>Voulant faire passer nos traits,</l>
+<l>Nous avons songé, par prudence,</l>
+<l>À nous munir de nos portraits.</l>
+<l>Nous voilà déjà plus de onze</l>
+<l>Qu'on a très–bien moulés en bronze.</l>
+                    (Il tire une médaille de sa poche.)
+    
+MATHIEU
+
+<l>Ils me disent qu'ils sont moulés,</l>
+<l>Et moi je crois qu'ils sont coulés.</l>
+
+</lg> </div>
+
+CARAMEL. 
+
+Pâtissier de Londres, nous vous demandons bien pardon
+
+de vous avoir pris pour un grand homme ! rendez la cou
+
+
+ronne, s'il vous plaît. 
+
+SCOTT, la lui jelant au nez. 
+
+3
+
+Tiens, la voilà, ta couronne, 
+
+CARAMEL
+
+C'est un tour de classique ; c'est bien vieux, bien ro
+
+coco ! 
+
+SCOTT. 
+
+Ça ne vous a pas empêché de donner dedans. 
+
+ : 43) 
+
+CARAMEL. 
+
+Vieillard stupide, tu es ignorant des choses de l'art ; il
+
+n'est jamais féte dans ton imagination (1) .
+
+6
+
+SCOTT. 
+
+ser 118 %
+
+0, 1
+
+Qa'est – ce que vous dites donc la ? je n'y comprends
+
+rien. 
+
+CARAMEL. 
+
+0
+
+Ni moi non plus. A art nouveau, langue nouvelle ! mais
+
+pour convertir cet homme des anciens jours, je vais lai
+
+téciter la ballade que je composai hier au clair de la lane. 
+
+Entourez – moi, ô mes camarades ! et encouragez – moi. 
+
+
+BALLADE À ELLE. 
+
+Première Strophe. 
+<div type="poem"><lg>
+<l>J'aime le spectre long d'une aune,</l>
+<l>Dont la prunelle roule un feu.</l>
+<l>Combien j'aime à voir un corps jaune</l>
+<l>S'enlaçant avec un corps bleu.</l>
+
+
+
+SCOTT. 
+
+Corbleu est fort joli, mais j'aimerais mieux ventrebleu. 
+
+Eh bien ! corps bleu'
+
+. 
+
+tout s'y trouve. 
+
+CABAMEL. 
+
+
+
+Deuxième Strophe. 
+
+<l>J'aime une sorcière accroupie,</l>
+<l>Sur le manche d'un vieux balai ;</l>
+<l>J'aime à voir couler l'eau croupie,</l>
+<l>Quand d'amour je médite un lai.</l>
+
+
+
+SQQTT. 
+
+Eh bien ! je n'aime pas votre eau groupie. 
+
+C'est pourtant délicieux. 
+
+CARAMEL. 
+
+ (1) Préface d'Hernani. 
+
+
+
+
+Troisième Strophe, 
+
+<l>J'aime aussi que mon cœur se nâvre,</l>
+<l>À l'aspect d'un beau corps noyé.</l>
+<l>J'aime à contempler un cadâvre,</l>
+<l>Dont les membres ont verdoyé.</l>
+
+
+
+
+SCOTT. 
+
+C'est bien ! dans la première strophe vops aviez du jaune
+
+et du bleu, maintenant vous avez du vert ; voas fạites des
+
+yers de coulear ! 
+
+
+    CARAMEL. 
+
+Quatrième Strophe. 
+
+<l>Mais elle, quand je dois l'attendre,</l>
+<l>Quand sur un tronc je me vais seoir,</l>
+<l>Ah ! que c'est pitié de m'entendre,</l>
+<l>Oh ! que c'est pitié de me voir !</l>
+
+Cinquième et dernière Strophe. 
+
+<l>Je brûle ! … j'ai du vague à l'âme,</l>
+<l>J'aurai dix–neuf ans vienne l'oût.</l>
+<l>Je demande un baiser de femme,</l>
+<l>Comme un pauvre demande un sou !</l>
+</lg>
+</div>
+
+Bravo ! bravo ! 
+
+TOUS. 
+
+ (On applaudit Caramel ; et tous les Camarades transporte's, 
+
+tombent dans les bras les uns des autres, en poussant des
+
+cris d'admiration.)
+
+Vive le romantique ! 
+
+Et les brioches ! 
+
+MATHIEU. 
+
+SCOTT. 
+
+TOUS. 
+
+Vive le romantique et les brioches ! 
+
+ (15) 
+
+
+<div type="poem"> <lg>
+
+ VAUDEVILLE FINAL. 
+
+
+<stage type="tune">AIR : dų Vaudeville de Flore et Zéphire. </stage>
+
+    THÉOBALD. 
+
+<l>Tous ces faiseurs de musique en i,</l>
+<l>Entassent des triple–croches</l>
+<l>Ils veulent faire du Rossini,</l>
+<l>Ils ne font que des brioches.</l>
+
+    MANETTE. 
+    
+<l>Les peintres romantiqu's ont beau j' crois,</l>
+<l>Fair' sonner toutes leurs cloches ;</l>
+<l>Ils disent qu'on f'sait des croût's autrefois,</l>
+<l>Ils font de fières brioches.</l>
+
+    MATHIEU. 
+
+<l>Si le Théâtre–Français s'obstine à</l>
+<l>Jouer des pièces bancroches ;</l>
+<l>Sur son fronton bientôt on mettra :</l>
+<l>Magasin de brioches.</l>
+    
+
+    SCOTT. 
+
+<l>Une comète, à ce que l'on dit,</l>
+<l>Pour nous griller s'approche ;</l>
+<l>Ça f'ra, quand le globe sera cuit,</l>
+<l>Une fameuse brioche.</l>
+
+    HERNANI. 
+
+<l>Je n' demande pas de gros appoint'mens,</l>
+<l>Vu que je n' suis qu'un mioche ;</l>
+<l>Y a des acteurs qui veulent vingt mille francs,</l>
+<l>Moi je n' veux qu'une brioche…</l>
+
+    GROOM
+
+<l>Jeun's gens, méfiez–vous des attraits,</l>
+<l>Qui semblent sans reproches ;</l>
+<l>C'est étonnant comme les corsets,</l>
+<l>Font faire des brioches.</l>
+
+    
+    SCOTT, à Caramel. 
+
+<l>À vot' théâtre, c'est facile à voir,</l>
+<l>On n' dit que des bamboches.</l>
+    CARAMEL. 
+
+<l>Eh bien ! tant mieux, qu'on vienn' chaque soir,</l>
+<l>Avaler nos brioches.</l>
+
+</lg> </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***9. 194 EN
+
+. 
+
+Bola
+
+dziud
+
+…
+
+… 20
+
+ani ! 
+
+al
+
+FIN DU DEUXIÈME ET DERNIER TABLEAU. 
+
+E
+
+1
+
+1
+
+8. gr
+
+. 
+
+ !) 
+
+1
+
+000000000000000
+
+POST – FACE. 
+
+ (1) 
+
+MORO 80+
+
+Et la pièce étant faite, censurée, jote, elle fut ap
+
+plaudie, et nous l'avons fait imprimer, et nous l'offrons
+
+à ce public qui veut qu'on l'amuse n'importe comment ; et
+
+il verra que nous avons pris dans notre large main (1) beau
+
+coup de licences dramatiques, et que nous avons épigram
+
+matisé, calembourgisé, sanspersonnaliser ! Toutes fois, nous
+
+nous sommes permis de mettre sur nos bannières à brio
+
+ches, le ROI DE BOHÈME, wuvre rabelaisienne d'un homme
+
+plein de science et de bonté ; d'y appendre aussi le titre du
+
+ballet de MANON LESCAUT, poëme – pantomime d'un au
+
+teur qui fait parler si spirituellement ses personnages dra
+
+matiques. En leur compagnie se voit L'Ane mort qui, de
+
+nos yeux, a tiré quelques larmes, tandis que nous voyons
+
+sans sourciller tant d'ânes vivans ! … Et qae ces écrivains
+
+ne se formalisent pas de notre hardiesse grande. Beaucoup
+
+de gens font des brioches ; peu en font qui soient à la
+
+mode. 
+
+ (1) On troavera peut – être ce néologisme hardi : mais pourquoi
+
+ne pas enrichir la langue ? 
+
+ (2) Préface du More de Venise. 
+
+
+
+رانر : : : ما » 
+
+ : 
+
+ : : 
+
+ : 
+
+ :) ؟
+
+ : 
+
+4 (
+
+ (
+
+) ). 1
+
+م
+
+؟4
+
+ ! 
+
+… }}
+
+زاید : « ام
+
+17 ( ! {. ! {) 
+
+3 : 4
+
+"
+
+ : : : 
+
+ور
+ (. دل
+
+أن؟؟ ( : 
+
+و
+
+م1}{}{ين
+
+م
+
+. 
+
+, 
+
+1
+
+) 10 (
+
+1
+
+ : 
+
+4 ،،
+
+دورانوزا…) 
+
+''
+
+"13" ! 
+
+. 
+
+… 
+
+ : ( (
+
+'
+
+وہدار
+
+{}
+
+, ,ا
+
+1116
+
+ (1
+
+) 11
+
+34
+
+… زن35
+
+"؟" : 2 : 60
+
+) 
+
+بیت
+
+) )
+
+. 2
+
+1 4
+
+. 3
+
+ – 2
+
+ (دو
+
+اد : 3
+
+0
+
+) 
+
+, )،
+
+) 
+
+م 1
+
+11 – 20
+
+ (f – – 
+
+،،،س :. الا, پین
+
+،،،،،،
+
+،
+
+،،
+
+،،
+
+ ! ،
+
+ ! 
+
+امأن
+
+ةا
+
+وا
+
+ا
+
+ ; 4
+
+روز, 
+
+, 
+
+ (وفر} ; …
+
+دا{هنا
+
+ :. 
+
+۰۰۰۰
+
+هدد
+
+و{14}
+فر
+
+ ( (
+
+و
+
+) 
+
+T
+
+و،د
+
+ : 
+
+رادواردز
+
+ما      </body>
+    </text>
+</TEI>

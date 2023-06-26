@@ -1,0 +1,75 @@
+Airs candidats: 25                
+Airs manuellement filtrés : 21                
+Airs réelement présents : 21                
+Précision: 0.84                
+Rappel: 1.00                
+Mesure-F1: 0.91
+
+***Airs du xml***:
+Air : Au marché qui vient de s'ouvrir. 
+Air : de Mazaniello (Pour nous quel avenir s'apprête !) 
+Air : Un homme pour faire un tableau. 
+AIR de Marianne. 
+AIR : Vaudeville des Frères de lait. 
+Air de Téniers. 
+Air : Vaudeville de l'Écu de six francs. 
+Air : De sommeiller encor, ma chère. 
+Air : Vaudeville des Gascons. 
+AIR : Que de mal, que de tourment ! (De la Fiancée.)
+AIR de l' Avare. 
+AIR : Moi je flane. 
+Air : Quand l'amour nous guide. 
+Air : Il me faudra quitter l'empire. 
+AIR : C'est le tambour. 
+AIR : Vaudeville de Partie et Revanche. 
+Air du Petit Courrier. 
+Air : Connaissez mieux le grand Eugène. 
+Air : C'est cela, c'est cela. 
+Air de la Sentinelle. 
+Air de la Boulangère. 
+
+***Airs identifiés dans le txt***:
+Air : Au marché qui vient de s'ouvrir .
+Air : de Mazaniello ( Pour nous quel avenir s'apprête ! )
+Air : Un homme pour faire un tableau .
+AIR de Marianne.
+AIR : Vaudeville des Frères de lait .
+Air de Tériers .
+Air : Vaudeville de l'Écu de six francs .
+Air : De sommeiller encor, ma chère .
+Air : Vaudevilie des Gascons.
+AIR : Que de mal, que de tourment ! (De la Fiancée .)
+AIR de l' Avare .
+AIR : Moi je flane .
+Air : Quand l'amour nous guide.
+Air : Il me faudra quitter l'empire.
+AIR : C'est le tambour .
+AIR : Vaudeville de Partie et Revanche.
+Air du Petit Courrier .
+Air : Connaissez mieux le grand Eugène.
+Air : C'est cela , c'est cela .
+Air de la Sentinelle.
+Air de la Boulangère.
+
+***Airs du txt validés dans le xml***:
+Air : Au marché qui vient de s'ouvrir. 
+Air : de Mazaniello (Pour nous quel avenir s'apprête !) 
+Air : Un homme pour faire un tableau. 
+AIR de Marianne. 
+AIR : Vaudeville des Frères de lait. 
+Air de Téniers. 
+Air : Vaudeville de l'Écu de six francs. 
+Air : De sommeiller encor, ma chère. 
+Air : Vaudeville des Gascons. 
+AIR : Que de mal, que de tourment ! (De la Fiancée.)
+AIR de l' Avare. 
+AIR : Moi je flane. 
+Air : Quand l'amour nous guide. 
+Air : Il me faudra quitter l'empire. 
+AIR : C'est le tambour. 
+AIR : Vaudeville de Partie et Revanche. 
+Air du Petit Courrier. 
+Air : Connaissez mieux le grand Eugène. 
+Air : C'est cela, c'est cela. 
+Air de la Sentinelle. 
+Air de la Boulangère. 

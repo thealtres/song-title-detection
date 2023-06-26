@@ -1,0 +1,74 @@
+Airs candidats: 19                
+Airs manuellement filtrés : 19                
+Airs réelement présents : 21                
+Précision: 1.00                
+Rappel: 0.90                
+Mesure-F1: 0.95
+Non attrapé: AIR : Je suis sergent (du Philtre de M. Auber) .
+Non attrapé: AIR du Vaudeville de l'Ours et le Pacha. 
+Non attrapé: AIR du Matelot (de Madame Duchambge).
+Supplémentaire: COUPLET .
+
+***Airs du xml***:
+AIR du Carnaval de Béranger. 
+AIR : On dit que je suis sans malice. 
+AIR : Je suis sergent (du Philtre de M. Auber) .
+AIR : Que le seul mérite (de Zoé).
+AIR : Il faut souscrire à mes lois (Zampa).
+AIR : Et voilà comme tout s'arrange. 
+AIR : Chasseur joyeux, il faut partir. 
+AIR du Ménage de Garçon. 
+AIR de la Fête du village voisin. 
+AIR : Douce jouvencelle (de Zampa).
+AIR de Baroco. 
+AIR du Vaudeville de l'Ours et le Pacha. 
+AIR : Un soir dans la forêt voisine (de Zoé).
+AIR : Cessez de vous en défendre (du Bouffon du Prince).
+AIR : Plus qu'un millionnaire. 
+AIR : Je n'ai guère d'attraits (de Zoé).
+AIR : Encore un quart'ron, Claudine. 
+AIR : D'une simple fleur. 
+AIR du Matelot (de Madame Duchambge).
+AIR de la Fiancée. 
+AIR du Vaudeville des Couturières. 
+
+***Airs identifiés dans le txt***:
+Air du Carnaval de Béranger . “
+Air : On dit que je suis sans malice .
+AIR : Que le seul mérite ( de Zoé) .
+Air : Il faut souscrire å mes lois (Zampa ).
+AIR : Et voilà comme tout s'arrange.
+Air : Chasseur joyeux, il faut partir.
+AIR du Ménage de Garçon.
+Air de la Féte du village voisin .
+AIR : Douce jouvencelle ( de Zampa ) .
+AIR de Baroco .
+AIR : Un soir dans la forêt voisine ( de Zoé) .
+COUPLET .
+AIR : Cessez de vous en défendre (du Bouffon du Prince ).
+AIR : Plus qu'un millionnaire.
+AIR : Je n'ai guère d'attraits (de Zoé).
+AIR : Encore un quart'ron , Claudine.
+AIR : D'ane simple fleur.
+AIR de la Fiancée.
+AIR du Vaudeville des Couturières .
+
+***Airs du txt validés dans le xml***:
+AIR du Carnaval de Béranger. 
+AIR : On dit que je suis sans malice. 
+AIR : Que le seul mérite (de Zoé).
+AIR : Il faut souscrire à mes lois (Zampa).
+AIR : Et voilà comme tout s'arrange. 
+AIR : Chasseur joyeux, il faut partir. 
+AIR du Ménage de Garçon. 
+AIR de la Fête du village voisin. 
+AIR : Douce jouvencelle (de Zampa).
+AIR de Baroco. 
+AIR : Un soir dans la forêt voisine (de Zoé).
+AIR : Cessez de vous en défendre (du Bouffon du Prince).
+AIR : Plus qu'un millionnaire. 
+AIR : Je n'ai guère d'attraits (de Zoé).
+AIR : Encore un quart'ron, Claudine. 
+AIR : D'une simple fleur. 
+AIR de la Fiancée. 
+AIR du Vaudeville des Couturières. 

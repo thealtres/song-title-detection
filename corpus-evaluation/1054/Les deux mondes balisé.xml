@@ -1,0 +1,3771 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LES DEUX MONDES</title>
+                <title type="sub">PARADE EN DEUX ACTES, MÊLÉE DE OCUPLETS</title>
+                <author key="GDL" sort="1">
+                    <name>
+                        <forename>Jules-Joseph-Gabriel</forename>
+                        <surname>Gonyn de Lurieu</surname>
+                        <addname type="pen_name">Gabriel</addname>
+                        <addname type="pen_name">Gabriel de Lurieu</addname>
+                    </name>
+                </author>               
+                <author key=" GMS" sort="2">
+                    <name>
+                        <forename>Auguste-Michel-Benoît</forename>
+                        <surname>Gaudichot-Masson</surname>
+                        <addname type="pen_name">Michel Masson</addname>
+                        <addname type="pen_name">Masson</addname>
+                        <addname type="pen_name">Le docteur Mesenthère</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                    <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>	
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LES DEUX MONDES</title>
+                        <author>GABRIEL ET MASSON</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.co.zm/books?id=DTFMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>La Bibliothèque nationale autrichienne</repository>
+                                <idno type="URL">https://onb.digital/result/102EDFE5</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-09-26">26 SEPTEMBRE 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DU PALAIS-ROYAL</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                 <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            133003-B
+            
+            ALT
+            
+            128. 75/5. 
+            
+            LES
+            
+            DEUX MONDES. 
+            
+            PARADE EN DEUX ACTES, 
+            
+            MÊLÉE DE COUPLETS, 
+            
+, 
+            
+            Par MM. Gabriel et Masson, 
+            
+            REPRÉSENTÉE, POUR LA PREMIÈRE FOIS, A PARIS, 
+            
+            SUR LE THÉATRE DU PALAIS-ROYAL, 
+            
+            LE 26 SEPTEMBRE 1831. 
+            
+            PRIX : | FR. 50 C. 
+            
+            PARIS. 
+            
+            J. N. BARBA, LIBRAIRE, 
+            
+            PALAIS-ROYAL, GRANDE COUR, DERRIÈRE LE THÉATRB-FRANÇAIS. 
+            
+            1831
+            
+            133003-B
+            
+            wwwwwwww
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            DANS LE PREMIER ACTE. 
+            
+            RIGOLO. 
+            
+            HÉLÈNE. 
+            
+            MICHEL. 
+            
+            BERTRAND. 
+            
+            BRISQUILLO. 
+            
+            LINA. 
+            
+            Tkois MATELOTS. 
+            
+            Hommes et femmes du Hâyre. 
+            
+            La scène est au Havre. 
+            
+            DANS LE SECOND ACTE. 
+            
+            KISAGASOUGAH, chef de la tribu. 
+            
+            BRISQUILLO. 
+            
+            LINA. 
+            
+            MIANGAH, jeune sauvage. 
+            
+            KROCMICK, cuisinier de la tribu. 
+            
+            MICHEL, grand orateur de la tribu. 
+            
+            RIGOLO. 
+            
+            HÉLÈNE. 
+            
+            BERTRAND. 
+            
+            Sauvages. 
+            
+            Matelors. 
+            
+            La scène se passe à Cocaibo. 
+            
+            M
+            
+. LEPEINTRE. 
+            
+            M " ÉLÉONORE. 
+            
+            M. Paul. 
+            
+            M. SAINVILLE. 
+            
+            M. Gaston. 
+            
+            Mlle PERNON. 
+            
+            M. Préval. 
+            
+            M. Gaston. 
+            
+            Mlle Pernon. 
+            
+            M "le AGLAÉ. 
+            
+            M. BOURDON. 
+            
+            M. Paul. 
+            
+            M. LEPEINTRE. 
+            
+            M'le ÉLÉONORE. 
+            
+            M. SAINVILLE. 
+            
+            Nota. 
+            
+            Les acteurs sont placés en
+            
+            tête de chaque scège comme ils
+            
+            doivent l' être au théâtre : le premier occupe la gauche du spectateur. 
+            
+            IMPRIMERJE DE E. DU VERGER, 
+            
+            rue de Verneuil, 
+            
+            n. 
+            
+            4. 
+            
+            LES DEUX MONDES, 
+            
+            PARADE EN DEUX ACTES. 
+            
+            wwwmmmmmmmmmmmemoramuonymummmmm
+            
+            Le théâtre représente une cour d'auberge, fermée par une grille. A gauche, 
+            
+            une grande maison. Deux arbres sur le troisième plan. A droite, un hangar, 
+            
+            fermé par un grand rideau. Au fond, au milieu de la grille, une porte qui
+            
+            donne sur le port. Tout près de la porte, un petit bureau sur lequel on
+            
+            lit : Prix des places : Prénières 10 sous ; deuxièmes 5 sous. 
+            
+            SCENE PREMIÈRE… 
+            
+            BERTRAND, MICHEL, une trompette à la main. 
+            
+            BERTRAND, entrantpar le fond et tirant Michel par sa redingote. 
+            
+            Eh bien ! viens donc ! ne vas-tu pas me laisser en panne, ů
+            
+            présent que nous sommes arrivés ? 
+            
+            Ne vous fâchez pas, me voilà ! 
+            
+            BERTRAND. 
+            
+            MICHEL. 
+            
+            Comment, je te rencontre sur le port au moment où tu ar
+            
+            rives au Hâyre, tu me demandes si je connais la demeure de
+            
+            la veuve Hélène Flonflon, je te conduis à l'auberge des Trois
+            
+            Couronnes, où elle loge, et voilà qu'à la porte, tu n'oses pas
+            
+            entrer ! 
+            
+            MICHEL
+            
+            Si fait, 
+            
+            j'ose bien, père Bertrand ; mais c'est que j'ai si
+            
+            envie de la voir que je crains de la rencontrer tout de suite. 
+            
+            BERTRAND. 
+            
+            Il paraîtrait, non pauvre Michel, que tu
+            
+            es aussi bête
+            
+            qu'autrefois. 
+            
+-J'aimême quelque chose de plus… je suis amoureux… je
+            
+            peux vous conter ça à vous qui avez fait ina première édu
+            
+            MICHEL. 
+            
+            cation. 
+            
+            BERTRAND. 
+            
+            T'étais un fameux petit mousse, je m'en flatte, tu grimpais
+            
+            joliment ! 
+            
+            MICHEL. 
+            
+            Et quand je ne grimpais pas, hein ? les bonnes volées que
+            
+            vous me donniez ! 
+            
+            C' est toujours moi qui suis chargé d'instruire les mousses sur
+            
+            le bâtiment. On sait que j'aime la jeunesse. 
+            
+            BERTRAND. 
+            
+            <div type="poem"> <lg> 
+                
+            
+                    <stage type="tune">Air : Ah ! si madame voyait. </stage>
+                    
+                       
+                        <l>Jamais mon amour ne s'endort,</l>
+                        <l>Pour ces enfans qu'on me confie,</l>
+                        <l>Et tout's les fois que j'les châtie</l>
+                        <l>Mon bras et mon cœur sont d'accord.</l>
+                    
+                    
+                        MICHEL. 
+                    
+                    <l>Ah ! de mon temps, que vot' cœur battait fort !</l>
+                    
+                      
+                        BERTRAND. 
+                    
+                    <l>Plus j'les aime et moins j'ai d'faiblesse ;</l>
+                    <l>Aussi pour mieux les élever,</l>
+                    <l>Quand j'les accable d'ma tendresse,</l>
+                    <l>Ils ont d'la peine à s'en r'lever. <stage type="repetition"> (bis.)</stage></l>
+                
+                
+                
+            </lg></div>
+            
+-
+            
+            MICHEL. 
+            
+            ça c'est vrai, il faut vous rendre cette justice-là. 
+            
+            BERTRAND. 
+            
+            Tu as été mon élève, je t'ai battu, je t'aime… aussi, toutes
+            
+            les fois que je pourrai te rendre un service, compte sur moi… 
+            voyons, que fais-tu maintenant ? 
+            
+            MICHEL, ouvrant sa redingote qui cache un costume de paillasse. 
+            
+            Vous le voyez, 
+            
+            je suis artiste d'agilité… 
+            
+            c'est en exerçant
+            
+            cette profession plus honorable qu'on ne le croit généralement, 
+            que j'ai connu la ravissante Hélène. 
+            
+            Celle qui est en
+            
+            ce moment la coqueluche du Parc-aux
+            
+            BERTRAND. 
+            
+            Huîtres ? 
+            
+            MICHEL. 
+            
+            Qui, père Bertrand, c'est une femme superbe. C'est le plus
+            
+            beau port du Hâyre ! 
+            
+            <div type="poem"> <lg> 
+                
+                   <stage type="tune">AIR : Une robe légère. </stage>
+                
+                
+                    <l>Un habit d'amazone,</l>
+                    <l>Une agréable ampleur,</l>
+                    <l>Des cheveux long d'une aune,</l>
+                    <l>D'une entière noirceur ;</l>
+                    <l>Elle a tout en partage,</l>
+                    <l>Et son nez bien planté,</l>
+                    <l>Au milieu d'son visage,</l>
+                    <l>Embellit sa beauté.</l></lg>
+                
+            </div>
+            
+            C'est à la foire aux Loges, il y a deux ans, que s'alluma la pasa
+            
+            sion qui me dévore. 
+            
+            J'avais établi mon spectacle sur la grande
+            
+            place où elle vendait ses chansons avec Jérôme Flonflon, son
+            
+            époux. Fallait voir tout le monde accourir pour entendre sa
+            
+            jolie voix, et s'épanouir aux accords mélodieux de son tambour
+            de basque… pendant qu'elle chantait : Ah ! qu'on est fier d' être
+            
+            Francé quand on regarde la colonne ; elle me regardait en des
+            sous… v'là que son mari s'aperçoit de la couleur ; elle me le
+            
+            fit comprendre sur l'air du Garde à vous ! Vous sentez bien que
+            j'ai deviné la charade ; mais je ne savais pas à qui j'avais af
+            
+            faire, et sans la mort du défunt qui est décédé il y a trois mois, 
+            
+            je n'aurais peut-être pas encore d'espérance. 
+            
+            BERTRAND
+            
+            Ah ! son mari est mort ? je le croyais en voyage. 
+            
+            Non, père Bertrand, les chants ont cessé. 
+            
+            BERTRAND. 
+            
+            MICAEL. 
+            
+            Je te vois venir, tu veux captiver la chanteuse et te fixer au
+            
+            Hãyre ? 
+            
+            MICHEL. 
+            
+            Au Hâyre, j' tiens… ou autre part, ça m'est égal… je suis
+            
+            cosmopolite, vous le savez bien. 
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune">Air des Amazones. </stage>
+                
+                
+                    <l>Mon pèr' naquit aux bords de la Garonne,</l>
+                    <l>C'était, dit-on, un fier escamoteur.</l>
+                    <l>Dans un voyag' qu'il a fait à Lisbonne,</l>
+                    <l>Il y connut ma mèr', pour mon bonheur,</l>
+                    <l>Et je suis né sur un brick à vapeur.</l>
+                    <l>Être amphibi' j'vis sur mer et sur terre,</l>
+                    <l>Aussi, pourvu qu'on me traite à mon goût,</l>
+                    <l>Je vais chantant ce refrain de mon père :</l>
+                    <l>Je suis Gascon, mon pays est partout ! <stage type="repetition"> (quatre fois.)</stage></l>
+                
+                                    
+            </lg></div>
+            
+            BERTRAND. 
+            
+            Puisque tu veux renouer avec Hélène, méfie-toi d'un certain
+            individu qui vient d'amener ici deux naturels des Indes, qu'il
+            a pêchés je ne sais ou… Comme son spectacle fait l'admiration
+            des badauds du Hâyre, je crois que la veuve guête ce Rigolo
+            et ses deux Indiens. 
+            
+            MICHEL
+            
+            Vous avez nomméRigolo ? … attendez donc… un grand blond
+            tirant sur le roux, figure de casse-noisette… un habit vert, 
+            des yeux noirs, et un chapeau gris. 
+            
+            Juste ! 
+            
+            BERTRAND. 
+            
+            MICHEL
+            
+            Je l'ai connu à Paris ; ilmontrait des phénomènes… à telle
+            enseigne qu'une fois qu'il en manquait, il a voulu m'engager. 
+            
+            ·
+            
+            BERTRAND. 
+            
+            C'est un malin, et un beau parleur qui fait toujours des
+            
+            phrases ; quel banquiste que celui-là 1… 
+            
+            MICAEL. 
+            
+            Je vois qu'il n'y a pas de temps à perdre… il faut que je fasse
+            
+            savoir le plus tôt possible à ma passion que je suis auprès d'elle. 
+            Elle se rappellera ce signal-là… elle connaît si bien mon em
+            
+            bouchure ! … 
+            
+            (Il sonne de la trompette.)
+            
+            Silence ! je l'aperçois. 
+            
+. 
+            
+            ·
+            
+            BERTRAND, l'arrêtant. 
+            
+            C'est elle ! v'là la peur qui me prend. 
+            
+            MICAEL. 
+            
+            SCENE II. 
+            
+            BERTRAND, MICHEL, HÉLÈNE en costume d'amazone, un
+            
+            petit chapeau à plumes. 
+            
+-AÉLÈNE, à la cantonade, 
+            
+            Préparez les billets pour le spectacle de ce soir, nous don
+            
+            nerons deux brillantes représentations… 
+            
+            Amour et constance ! 
+            
+            MICAEL. 
+            
+            Ah ! mon Dieu ! si je n'ai pas la berlue, c'est… 
+            
+            HÉLÈNE, se retournant. 
+            
+            MICAEL. 
+            
+            Michel, qui vient de faire soixante lieues pour consoler une
+            
+            veuve qui demande un remplaçant. 
+            
+            HÉLÈNE. 
+            
+            Vous avez donc reçu
+            
+            la nouvelle du malheur qui n'est
+            
+            arrivé ? 
+            
+            MICHEL
+            
+            Ça m'a fait bien plaisir… vous n'ignorez pas que depuis deux
+            
+            ans, je vis d'espoir. 
+            
+            HÉLÈNE. 
+            
+            Ça vous a profité, vous avez assez bonne mine. 
+            
+            MICHEL. 
+            
+            Vous êtes bien honnête, mais si je vous épouse, je ne veux
+            
+            pas en rester là. 
+            
+            HÉLÈNE. 
+            
+            C'est aller un peu. vite en besogne. 
+            
+, 
+            
+            MICHEL. 
+            
+-N'auricz-vous pas, par hasard, assez pleuré le défunt ? 
+            
+            HÉLÈNE. 
+            
+            Le défunt, Dieu veuille avoir son ame ! je ne l'ai pas pleuré
+            
+            du tout, c'était un brutal quime battait ! 
+            
+            michel. 
+            
+            Il vous battail… (à Bertrand.) Il la battait ! … (à Hélène.)
+            
+            Ah ! que mes sentimens sont différens des siens… dans notre
+            
+            inénage, c'est moi, au contraire, qui veut être battu ! 
+            
+. 
+            
+            HÉLÈNE. 
+            
+            Tout cela est bien séduisant, avec ça que j'aurais des dispo
+            
+            sitions… mais, depuis que je vous ai écrit, on m'a fait changer
+            d'idée. 
+            
+            BERTRAND, bas à Michel. 
+            
+            Quand je te disais… 
+            
+            MICHEL. 
+            
+            Il est iinpossible, qu' en si peu de temps, vous ayez pu dis
+            poser de la main qui m' était promise par votre lettre du 12. 
+            
+            Nous sommes au 20, vous voyez que je ne me suis pas amusé
+            
+            en route. 
+            
+            AÉLÈNE. 
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune">Air d'Aristippe. </stage>
+                    
+                        
+                        <l>Il faut qu'ici j'vous parle avec franchise :</l>
+                        <l>J'en aime un autre et j'l'épouse demain ;</l>
+                        <l>Mais, croyez-moi, si l'sort le favorise,</l>
+                        <l>Mon cher ami, c'est qu'pour avoir ma main,</l>
+                        <l>Ainsi que vous il fit beaucoup d'chemin ;</l>
+                        <l>Vous avez bien marché, sans doute,</l>
+                        <l>Mais la distance a causé vot' malheur ;</l>
+                        <l>Car, à chaqu' pas qu' vous faisiez sur la route,</l>
+                        <l>Le scélérat en f'sait un dans mon cœur. <stage type="repetition"> (bis.)</stage></l></lg>
+                       
+                    
+                
+            </div>
+            
+            Ainsi je n'aurai voyagé que pour ma santé ? 
+            
+            BERTRAND. 
+            
+            MICAEL. 
+            
+            Tu vois, mon pauvre garçon, que tu n'as plus qu'à t'en re
+            
+            tourner comme tu es venu. 
+            
+            Eh bien ! non ! … 
+            
+            je ne m'en retournerai pas. Père Bertrand, 
+            
+            MICHEL. 
+            
+            vous êtes mon ami ? 
+            
+            C'est convenu, puisque je t'ai battu. 
+            
+            BERTRAND. 
+            
+            MICHEL. 
+            
+            Il faut que vousme receviez à votre bord. Je m'expatrie, je
+            
+            redeviens mousse de mer. 
+            
+            BEKTRAND. 
+            
+. Ça va ; un mot au capitaine, et tu es encore des nôtres. 
+            
+            Michel, je veux que vous restiez… Pai à vous parler, fou-
+            
+            AÉLÈNE. 
+            
+            gueux jeune homme ! 
+            
+            Allons, allons, en avant ! 
+            
+            MICHEL. 
+            
+            BERTRAND, 
+            
+            Elle a à me parler… alfez toujours, je vous rejoindrai plus
+            
+            lard. 
+            
+            BERTRAND
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune">Air du Crédit et de la Fortune. </stage>
+                    
+                        
+                        <l>Allons, mon enfant, du courage,</l>
+                        <l>Pas de soucis, ni de chagrin</l>
+                        <l>Près d'un' bell' si tu fais naufrage,</l>
+                        <l>Tu n'subis que l'sort du marin.</l>
+                    
+                    
+                        MICHEL. 
+                    
+                    <l>Dieu ! que j'l'aimais ! c'était de tout' mon ame ;</l>
+                    <l>N'y pensons plus, car, si je perds, hélas !</l>
+                    <l>Malgré ma flamme,</l>
+                    <l>La main d'un' femme,</l>
+                    <l>Pour m'consoler la mer me tend les bras.</l>
+                    
+                        ENSEMBLE
+                    
+                    
+                        BERTRAND. 
+                    
+                    <l ana="unanalyzable">Allons, mon enfant, du courage, etc.</l>
+                    
+                       
+                    
+                        MICHEL. 
+                    
+                    <l>Croyez-moi, j'aurai du courage,</l>
+                    <l>Et je n'demand', dans mon chagrin,</l>
+                    <l>Si comme amant j'fais un naufrage,</l>
+                    <l>De n'pas en fair' comme marin.</l>
+                    
+                        
+                        Helène. 
+                    
+                    <l>Je dois lui donner du courage,</l>
+                    <l>Puisque j'ai causé son chagrin ;</l>
+                    <l>Il f'rait un pauvr' mari, je gage,</l>
+                    <l>Il peut faire un très bon marin.</l>
+                
+            </lg></div>
+            
+            (Bertrand sort.)
+            
+            SCENE III. 
+            
+            HÉLÈNE, MICHEL. 
+            
+            MICHEL. 
+            
+            Voyons, Hélène, que voulez-vous ? Si vous aviez au moins
+            
+            de bonnes raisons à me donner. 
+            
+            HÉLÈNE. 
+            
+            Vous ne savez pas dans quelle position je me suis trouvée
+            
+            après la mort de mon mari ? 
+            
+            MICHEL. 
+            
+            Je le devine, vous vous êtes trouvée veuye. 
+            
+            HÉLÈNE. 
+            
+            Comme vous dites ; mais ce n'est pas tout, mon commerce
+            n'allait plus que d'une aile ; on se bouchait les oreilles devant
+            
+            9
+            
+            l'orgue de Barbarie, et l'on tournait le dos au tambour de bas
+            que. En fait de chansons, j'avais cependant un joli répertoire, 
+            et quand je roucoulais avec mon petit filet de voix : 
+            
+            <div type="poem"> 
+                <stage type="tune" id="AIR : Connaissez-vous les hussards de la garde."></stage>
+                <lg> 
+                
+                    <l>« Connaissez-vous les hussards de la garde,</l>
+                    <l>« Les bons enfans</l>
+                    <l>« De ce beau régiment ? …</l></lg>
+                
+            </div>
+            
+            <div type="poem"> 
+                
+                
+                <stage type="tune" id="AIR : Ah ! quelle scie d'être en maison."></stage><lg> 
+                
+                    ou : (changeant d'air et de voix.)
+            
+                    <l>« Ah ! quelle scie d'être en maison. <stage type="repetition"> (bis.)</stage></l>
+            </lg></div>
+                      <div type="poem"><lg>  
+                          
+                          ou bien, ce qui était mon triomphe. (même jeu.)
+                    <stage type="tune" id="AIR :Dans mon hameau restons sans cesse."></stage>
+                          
+                    <l>« Dans mon hameau restons sans cesse,</l>
+                    <l>« Son aspect fait battre mon cœur :</l>
+                    <l>« C'est là qu'est ma maîtresse,</l>
+                    <l>« C'est là qu'est le bonheur.</l></lg></div>
+                
+          
+            
+. 
+            
+. Michel, riant. 
+            
+            Ah ! ah ! ah ! comme c'est ça ! 
+            
+'
+            
+            HÉLÈNE. 
+            
+            Eh bien ! maintenant, n, i, ni, la chanson ne donne plus. 
+            
+            Aussi, je dois de la reconnaissance à l'homme qui, me voyant
+            
+            dépérir à vue d'oeil, est venu mettre à mes pieds les trésors de
+            
+            l'Inde. 
+            
+            Comment, tant que ça ? 
+            
+            MICHEL
+            
+            HÉLÈNE. 
+            
+            Des trésors inépuisables ! puisque nous pouvonsmettre tous
+            les jours quinze francs cinquante de côté. Rigolo est encore, 
+            
+            au moment où je vous parle, dans une des premières maisons
+            
+            de la ville, où on l'a fait appeler avec ses deux Indiens, inale
+            et femelle. 
+            
+            C'est donc des curiosités bien curieuses ? 
+            
+            HÉLÈNE. 
+            
+            MICHEL. 
+            
+            Oui ! ils sont sur le point de se marier ; la femme est blanche
+            
+            coinine du lait, et le mari est couleur de moutarde. 
+            
+            Le mari est jaune ? … alors, ça se rapproche des nations eu
+            
+            MICAEL. 
+            
+            ropéennes. 
+            
+            AÉLÈNE. 
+            
+            Mais j'ai envie que vous restiez, pour faire leur connais
+            
+            sance. 
+            
+            MICHEL. 
+            
+            Que je reste ? oh ! non ; je n'aurai jamais ce coeur-là, et ce
+            
+            pendant je sens que j'ai besoin de vous voir. 
+            
+            HÉLÈNE. 
+            
+            Ça peut s'arranger… Rigolo est bon enfant ; proposez-lui
+            
+            d'être… 
+            
+            D'être… quoi ? 
+            
+            10
+            
+            MICHEL
+            
+            HÉLÈNE. 
+            
+            Tous lesmoyens sont bons, et vousn'avez pas à choisir. Pro
+            
+            posez-lui d'être… son pailalsse. 
+            
+            MICAEL. 
+            
+            Quelle proposition humiliante pour un être indépendant ! 
+            
+            HÉLÈNE. 
+            
+            Pourtant, si vous tenerà rester près de moi… 
+            
+            (Cris de la foule en dehors.)
+            
+            Ah ! les voilà ! … les voilà ! 
+            
+            HÉLÈNE. 
+            
+            Entendez-vous ? 
+            
+            c'est lui qui revient, entouré d' une foule
+            
+            admirateurs. 
+            
+            MICAEL. 
+            
+            Au fait, si je restais, je vous verrais tous les jours. 
+            
+            HÉLÈNE. 
+            
+            Mais, que ça ne vous donne aucun espoir, je vous l'ai pro
+            
+            mis ; je ne vous aimerai pas pluspour ça. 
+            
+            MICHEL. 
+            
+            Allons, parlez-lui. 
+            
+            SCENE IV. 
+            
+            LES MÊNES, RIGOLO, foule d' hommes et de femmes de l' autre côté
+            
+            de la grille. 
+            
+            RIGOLO. 
+            
+            Je vous dis que l'heure du spectacle n'est pas encore arrivée ; 
+            vous ne verrez rien. Allons, garçons, fermez les portes, op
+            posez une digue aux flots des curieux. (Il ferme la porte.) Je
+            
+            tiens la vogue, et je ne la laisserai pas échapper, 
+            
+            Comment ! vous êtes seul ? et vos deux Indiens ? 
+            
+            HÉLÈNÉ. 
+            
+            RIGOLO. 
+            
+            Je les ai fait entrer par la porte de derrière, pour les sous
+            
+            traire aux regards des curieux. Oui, ma chère Hélène, je vous
+            
+            dirai que nos deux Indiens viennent de faire l'admiration des
+            
+            illustres spectateurs qui les avaient fait demander. Comment, 
+            
+            ils reviennent de l'Inde ? répétait l'inspecteur de l'octroi, qui
+            
+            n'en revenait pas. 
+            sait le notaire, qui est veuf depuis huit jours ; et jusqu'à
+            
+            J' aimerais beaucoup la petite sauvage, di
+            la
+            
+            femme du receveur des contributions, qui prétend que inon in
+            
+            sulaire ressemble à son mari. 
+            
+            HÉLÈNE. 
+            
+            Notre fortune est faite ! Mon cher Rigolo, je vous présente
+            
+            une ancienne connaissance. (Ellemontre Michel.)
+            
+            A qui ? … à vous ? 
+            
+            Oui, à elle. 
+            
+            11
+            
+            RIGOLO. 
+            
+            MICAEL. 
+            
+            BIGOLO. 
+            
+            Parbleu ! et à moi aussi… c'est Michel ! le petit sauteur, que
+            
+            j'ai perdu de vue depuis si long-temps… Qu'est-ce qui t'amène
+            
+            au Havre ? 
+            
+            HÉLÈNE. 
+            
+            Voilà ce que c'est… Il vient ici pour avoir un engagement… 
+            
+            et si vous y consentez, il fera l'annonce de votre spectacle ; il
+            
+            donne très bien de la trompette. 
+            
+            MICHEL. 
+            
+            Tenez, j'ai déjà le costume de rigueur. 
+            
+            RIGOLO. 
+            
+            C' est à merveille, mais tu es t'en retard ; tu ne sais donc pas
+            que les Paillasses sont prohibés, coulés, enfoncés dans le troi
+            sième dessous… On ne veut plus de saltimbanque, mon cher ; 
+            depuis la révolution, 
+            la France les repousse de son sein : c'est
+            une race de Parias. 
+            
+            Laissez donc ! 
+            
+            MICHEL. 
+            
+            RIGOLO. 
+            
+            C'est comme je te le dis, nous n'en voulons plus ; en vois
+            tu maintenant quelque part ? Parle franchement, tu ne vois
+            
+            plus de Paillasses. 
+            
+            Cependant, quand je meregarde… 
+            
+            RIGOLO. 
+            
+            MICAEL. 
+            
+            La belle preuve ! tu existes frauduleusement. 
+            
+-En voici bien d'une autre ! 
+            
+… 
+            
+            RIGOLO. 
+            
+            MICHEL. 
+            
+            Tu n'es que le rejeton d'un vieux tronc usé, un être oublié
+            
+            par erreur dans la vie. 
+            
+            L'erreur, c' est vous qui la faites. 
+            
+            MICHEL
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune">Air : J'ai vu le Parnasse des dames. </stage>
+                    
+                      
+                        <l>Oui, vous vous trompez fort, je pense,</l>
+                        <l>Quand vous osez me soutenir</l>
+                        <l>Qu'on n'voit plus d'paillass's en France ;</l>
+                        <l>C'est un' rac' qui n'peut pas mourir.</l>
+                        <l>Moi, j'prétends que l'pèr' des paillasses</l>
+                        <l>Aura toujours des descendans ;</l>
+                        <l>Si l'on en voit moins sur les places,</l>
+                        <l>C'est qu'ils travaillent en dedans. <stage type="repetition"> (bis.)</stage></l></lg>
+                     
+                
+            </div>
+            
+            1 2
+            
+            RIGOLO. 
+            
+            C'est possible… mais comme j'ai renoncé à ce charlatanisme
+            là, tu ne peux pas espérer que je te mette à la porte, voilà
+            pourquoi je te prie de t'en aller. 
+            
+            C'est votre dernier mot ? 
+            
+. 
+            
+            RIGOLO. 
+            
+            MICHEL, à Rigolo. 
+            
+            Va marcher sur les mains dans un autre département. 
+            
+            MICHEL, changeant de ton. 
+            
+            Eh bien ! tant mieux pour toi ; tu fais ton bonheur en ne me
+            prenant pas… Je suis bien aise de te dire que j'aime ton Hé-
+            Iène à en devenir fou, et que je ne venais ici que pour te la
+            
+… 
+            
+            souffler. 
+            
+            Me la souffler ! … tu voulais me souffler ma daine ? 
+            
+            RIGOLO. 
+            
+            Voilà qu' ils vont se disputer ! 
+            
+            RIGOLO. 
+            
+            AÉLÈNE. 
+            
+            | Eh bien ! j'aime mieux ça… tu
+            suis bien aise d' obtenir cette marque de confiance. (Il lui donne
+            
+            m'apprends tes desseins, je
+            
+            i
+            
+            la main, Michel refuse de lui donner la sienne.) Comme tu vou
+            
+            dras. Maintenant, tire-moi tà révérence. 
+            
+            Michel. 
+            
+            ·
+            
+            Sois paisible, ça ne sera pas long ; je veux aussi que tu saches
+            qu'Hélène avait une inclination pour Michel, et que si tu ne
+            t'étais pas présenté, c'est moi qu'elle aurait préféré. 
+            
+            Toi ? … et qu'est-ce que tu pouvais lui apporter en échange
+            de sá main ? … gamin, la première souplesse, le saut péril
+            
+            RIGOLO. 
+            
+            leux… 
+            
+            Par exemple ! 
+            
+            MICHEL
+            
+            RIGOLO. 
+            
+            Quand tu avalerais même des cailloux, de la filasse et autres
+            futilités passées de mode, je te traitemis de Roccoco, de clas
+            
+            sique de boulevards… 
+            
+            MICAEL. 
+            
+            Classique de boulevards ! … 
+            
+. 
+            
+            RIGOLO. 
+            
+            L'acrobate, vois-tu, est déshérité de l'estime publique, et
+            les danseurs de corde, même sans balancier, tombent sans
+            
+            trouver personne pour les ramasser. 
+            
+            Toi, qui m'appelles classique de boulevards, quels sont tes
+            titres pour l'emporter sur moi, romantique de placespublique ? 
+            
+            MICHEL. 
+            
+            Mes titres ? … tu vas les connaître… un moment… c'est qu'il
+            
+            RIGOLO. 
+            
+            faut payer pour les voir. 
+            
+            1 3
+            
+            MICAEL. 
+            
+            Tu veux parler de ces malheureux Indiens… devrait-on
+            
+            montrer des humains comme des bêtes curieuses ! 
+            
+            Ils sont au monde pour se faire voir. 
+            
+            MICAEL. 
+            
+            RIGOLO. 
+            
+            Si l'on en disait autant de toi, hein ? … mais, il n'y a pas de
+            
+            danger. 
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune">Air de Céline. </stage>
+                    
+                      
+                        <l>J'crois qu'on n'y trouv'rait pas son compte,</l>
+                        <l>Si l'on t'faisait voir en payant.</l>
+                    
+                    
+                        RIGOLO. 
+                    
+                    <l>Eh bien ! moi, je l'avoûrai sans honte,</l>
+                    <l>Je crois que j'f'rais fair' de l'argent.</l>
+                    <l>Pour voir accourir la pratique,</l>
+                    <l>Pour obtenir un succès prolongé,</l>
+                    <l>Il n'faut souvent qu'un beau physique,</l>
+                    <l>Et j'suis assez bien partagé. <stage type="repetition"> (bis.)</stage></l></lg>
+               
+                
+            </div>
+            
+            (Pendant ce couplet les deua : Indiens sortent du hangar et montent
+            
+            sur les arbres.)
+            
+            AÉLÈNE, à Rigolo. 
+            
+            Montrez-lui donc vos titres, et que ça finisse… 
+            
+… 
+            
+            RIGOLO. 
+            
+            Vous avez
+            
+            raison, je vais l' écraser… 
+            
+            (allant au hangar.)
+            
+            Tiens, paradiste déchu, voilà mes titres ; regarde, et humilie
+            
+            toi. 
+            
+            (Il ouvre le rideau, on ne voit rien.) Dieu ! 
+            
+            il
+            
+            n' y
+            
+            a plus
+            
+            personne ! 
+            
+            Les oiseaux seraient dénichés ? 
+            
+            RIGOLO. 
+            
+            MICHEL. 
+            
+            J'ai perdu mes insulaires, on me les aura volés en route. 
+            
+            AÉLÈNE. 
+            
+            Ça n'est pas possible… Vous les avez peut-être oubliés quel
+            
+            que part, allez voir. 
+            
+            MICAEL. 
+            
+            Ils ont su reconquérir leur liberté, ils sont dans leurs droits. 
+            
+            Nous voilà ruinés ! 
+            
+            HÉLÈNE. 
+            
+            RIGOLO, 
+            
+            Du tout ! … il faut qu' ils se retrouvent… je vais donner leur
+            
+            signalement, les faire afficher même, s'il le faut ; je promettrai
+            
+            une récompense honnête… Rentrez, Hélène… 
+            
+            (à Michel.) Et
+            
+            toi, va sauter z'ailleurs… Je crois que je ferais le tour du monde
+            
+            pour les retrouver. : (Il sort.)
+            
+, 
+            
+            14
+            
+            AÉLÈNE. 
+            
+            Allez, Rigolo ; quant à vous, Michel, votre arrivée en ces
+            lieux nous porte trop de guignon pour que je consente jamais å
+            vous revoir. 
+            
+            (Elle rentre.)
+            
+            SCENE V. 
+            
+            MICHEL, BRISQUILLO ET LINA, sur les deux arbres. 
+            
+            MICAEL. 
+            
+            Allez, allez, couple intéressé, qui ne sentez battre votre
+            
+            cour que pour les pièces de cent sous… vous êtes ruiné ! … 
+            C' est drôle, tout de même ; qu'est-ce qu'ils sont devenus ces
+            
+            deux Indiens ? … ils ne peuvent pas s'être envolés. 
+            
+            BRISQUILLO, paraissant sur l'arbre. 
+            
+            Pichl… pich ! 
+            
+            Hein ? … qu'est-ce qui appelle ? 
+            
+            MICHEL. 
+            
+            Pich l… pich ! 
+            
+            LINA, de même. 
+            
+            MICHEL. 
+            
+            De quel côté fait-on phchit, phchit ? … 
+            
+            Par ici. 
+            
+            Etmoi par lá. 
+            
+. 
+            
+            BRISQUILLO. 
+            
+            LINA, 
+            
+            MICHEL. 
+            
+            Comment ! en
+            
+            l'air… (levant les yeux.) Ah ! mon Dieu ! 
+            
+            ; 
+            
+            qu'est-ce que c'est que ces oiseaux-là ? … 
+            
+            C'est Brisquillo ! 
+            
+            BRISQUILLO. 
+            
+            LINA. 
+            
+            C'est Lina… Si tu veux promettre de ne pas nous faire de
+            
+            mal, nous allons descendre. 
+            
+            MICHEL. 
+            
+            Brisquillo ! … Lina ! … plus de doute, voilà les Indiens de
+            Rigolo ; quel drôle de costume ! Descendez bien vite, mes amis. 
+            
+            Tu n'as pas l'air terrible, loi. (Il égratigne Michel.)
+            
+            BRISQUILLO, d terre. 
+            
+            Ahl vous in'égratignez. 
+            
+. 
+            
+            LINA, à terre. 
+            
+            MICHEL. 
+            
+            Tu as l'air bien bon, bien doux. (Elle le caresse.). 
+            
+            MICHEL. 
+            
+            A
+            
+            la bonne heure ! … Moi, je suis doux comme un mouton. 
+            
+            Ah ! çà, vous êtes les objets que Rigolo a perdus ? 
+            
+            15
+            
+            BRISQUILLO. 
+            
+            Oui, nous sommes des objets bien mécontens d'être tou
+            
+            jours en cage. 
+            
+            LINA. 
+            
+            Et toujours regrettant notre climat, nos savanes… 
+            
+            Et le coco. 
+            
+            BRISQUILLO. 
+            
+            MICAEL. 
+            
+            Je conçois, quand on a l'habitude du coco… Comme ça, 
+            
+            vous ne seriez pas fâchés de revoir les cocos de chez vous ? 
+            
+            Nous serions bien heureux au contraire, si nous pouvions
+            
+            LIŅA. 
+            
+            retrouver les huttes de Cocaibo. 
+            
+            MICAEL. 
+            
+            Ils m'intéressent, moi… Je conçois le chagrin qu' ils éprouvent
+            
+            loin de l'hutte du sol natal. 
+            
+            LINA. 
+            
+            Si tu voulais m'aider à sortir d'esclavage ? 
+            
+            La petite n'a pas l'air sauvage du tout… 
+            
+            MICAEL, à part. 
+            
+            Compte sur la reconnaissance du prince de Cocaibo, mon
+            
+            BRISQUILLO. 
+            
+            père. 
+            
+            MICAEL. 
+            
+            Comment, vous êtes fils d' un prince ! … Des jeunes gens de
+            
+            si bonne famille qu'on fait voir pour cinq sous ! 
+            
+            Et moi, donc ! mon père est roi dans son pays. 
+            
+            LINA. 
+            
+            Michel, chantant. 
+            
+            <div type="poem"> <lg>
+                
+                    <stage type="tune">AIR : Récitatif d'un duo de Gulistan. </stage>
+                    
+                       
+                        <l>« Noble étranger ! comptez sur moi,</l>
+                        <l>« Je désire vous être utile…</l>
+                    
+                
+            </lg></div>
+            
+            Vous détestez Rigolo ? 
+            
+            BRISQUILLO. 
+            
+            Bien sûr ! puisqu'au lieu de nous conduire à Paris, pour nous
+            montrer les curiosités. comme il l'avait promis au capitaine
+            français qui nous a amenés de Cocaibo, c' est lui qui nous fait
+            voir. 
+            
+            MICHEL. 
+            
+            Ça lui rapporte davantage. 
+            
+. 
+            
+            BRISQUILLO. 
+            
+            Mais, je lui garde une dent… 
+            
+            MICAEL, à part. 
+            
+            Est-ce qu'il serait un peu anthropophage ? … Je crois qu'il
+            
+            mangerait du Rigolo avec plaisii. 
+            
+            16
+            
+            LINA. 
+            
+            Si tu nous fais sauver, nous t'aimerons bien. 
+            
+            Ah ! la bonne idée… Bertrand est inon ami… il ne demande
+            qu'à me rendre service ; ses coinpagnons vontmettre à la voile… 
+            Attendez-moi ici, et je reviens pour nous venger tous les trois. 
+            
+            MICAEL. 
+            
+            Pour ta récompense, je te dirai la chanson du pays. 
+            
+. 
+            
+            BRISQUILLO. 
+            
+            · MICHEL. 
+            
+. Merci ; je n'ai pas de temps à perdre ; nous parlerons de ca
+            plus tard… Quoique ça, je ne vous en tiens pas quilte…, vous
+            la chanterez, mon prince, et nous ferons chorus avec la prin
+            cesse… Je vous quitte et reviens bientôt. (d part) Me voilà
+            
+-
+            
+            dans les grandeurs jusqu'au cou. (Il sort.)
+            
+            SCENE VI. 
+            
+            BRISQUILLO, LINA. 
+            
+            Si nous pouvions revoir notre pays ! 
+            
+            LINA. 
+            
+, 
+            
+            BRISQUILLO… 
+            
+. 
+            
+. 
+            
+            Et nous unir ensemble ! 
+            
+            Nous sommes libres ! quel bonheur ! 
+            
+            LINA, sautant. 
+            
+            SCENE VII. 
+            
+            LES MÊMES, RIGOLO, entrant subitement. 
+            
+            Certainement, que nous sommes libres, et bien libres, en
+            
+            BRISQUILLO, sans le voir. 
+            
+            core ! … 
+            
+,'
+            
+            RIGOLO, se montrant
+            
+            C'est ça, on vous en donnera de la liberté pour en faire cet
+            usage-là, pour me causer de pareilles souleurs, pour m'em
+            
+            porter ma recette. 
+            
+            LINA. 
+            
+            C' est bien mal à toi d' être revenu tout de suite. 
+            
+            N'êtes-vous pas bien à plaindre ? … Tous les jours je vous
+            conduis dans les meilleures maisons, vous recevez chaqué soir
+            
+            RIGOLO. 
+            
+            la société la plus distinguée… 
+            
+            BRISQUILLO. 
+            
+            Nous ne voulons plus voir personne. 
+            
+            RIGOLO.'
+            
+            On vous accable de présens… Hier, on vous a donné deux
+            
+            bouteilles de vin du Rhin que j'ai bues à mon déjeuner… au
+            
+            jourd'hui, vous avez reçu des petits fromages et des biscuits que
+            
+            je mangerai à mon dîner… Que vous faut-il de plus ? … parlez, 
+            
+            je tâcherai de vous le procurer. 
+            
+            Revoir Cocaïbo. 
+            
+            LINA. 
+            
+            RIGOLO. 
+            
+            Cocaibo… Cocaibo… quand vous serez usés ici, je ne dis
+            
+            pas non ; mais vous faites encore recette, et c'est rare par le
+            
+            temps qui court ; 
+            
+            je ne peux pas vous abandonner… Faites-inoi
+            
+            le plaisir de rentrer chez vous ; l'heure du spectacle approche… 
+            
+            si quelqu'un vous voyait gratis, ça vous ferait du tort et à moi
+            
+            aussi… (Il les conduit au hangar, qu' il ferme avec précaution. 
+            
+            Voilà déjà des amateurs qui nous arrivent, il ne faut pas les
+            
+            faire attendre, (Helènerentre.) (à Hélène) Je les tiens… ils sont là. 
+            
+            (Hélène se place à la porte et reçoit l'argent.)
+            
+            SCENE VIII. 
+            
+            MICHEL, BERTRAND, TROIS MATELOTS, HOMMES ET FEMMES
+            
+            DU HAVRE. 
+            
+            LE CHOEUR. 
+            
+            <div type="poem"> <lg> 
+                    <stage type="tune">Air : Il est plus dangereux de glisser. </stage>
+                    
+                        
+                        <l>Nous accourons pour voir, en payant,</l>
+                        <l>Un couple qui nous intéresse,</l>
+                        <l>On dit qu'il est tell'ment</l>
+                        <l>Surprenant</l>
+                        <l>Qu'on n'peut pas r'gretter son argent.</l>
+                    
+                    
+                        BERTRAND, bas aux matelots. 
+                    
+                    <l>Agissons avec finesse ;</l>
+                    <l>Quoi qu'il puisse arriver,</l>
+                    <l>Il faut les enlever.</l>
+                    
+                        MICHEL, de même. 
+                    
+                    <l>Oui, je compte sur vot' promesse.</l>
+                    <l>Puisque votre vaisseau</l>
+                    <l>Passe à Cocaïbo,</l>
+                    <l>Partez le cœur joyeux,</l>
+                    <l>Vous faites deux</l>
+                    <l>Heureux,</l>
+                    
+                    
+                    
+                       3. 
+                    
+                   18
+                    
+                    <l>Et vous rendez, amis,</l>
+                    <l>Un prince à son pays !</l>
+                    
+                      
+                       LE CHOEUR. 
+                    
+                    <l ana="unanalyzable">Nous accourons, etc.</l>
+            </lg>
+                
+            </div>
+            
+            (Musique.) Rigolo montre la toile déroulée sur laquelle les deux
+            Indiens sont représentés ; au-dessous est écrit en grosses lettres : 
+            l' Indien malle et sa femel arrivan de Lamerique septentri
+            monial.). 
+            
+            SCENE IX. 
+            
+            : 
+            
+            MICHEL, BERTRAND, RIGOLO, HÉLÈNE, ensuite BRIS
+            
+            QUILLO ET LINA, SPECTATEURS ET MATELOTS. 
+            
+            RIGOLO, prenant une baguette, 
+            
+            Nous allons avoir l'honneur de vous donner une brillante
+            représentation des exercices surprenans de Brisquillo, prince
+            de Cocaibo, et de son intéressante compagne la jeune Lina. La
+            peau cuivrée du prince sera, j'ose le dire, admirée des appré
+            ciateurs de la belle nature. 
+            
+            Tout le monde a passé au bureau. 
+            
+            RIGOLO, avec emphase. ”
+            
+            HÉLÈNE. 
+            
+            Amateurs des deux sexes, ne vous attendez pas à voir des
+            Indiens de la Villette ou des Caraïbes du faubourg du Temple… 
+            
+            j'offre à l'admiralion des connaisseurs deux individus mâle et
+            femelle venantdirectement de l'Amériqueseptentrimoniale. Les
+            
+            personnes qui parlent comme des sauvages, et il doit s'en trou
+            ver dans l'aimable société, peuvent interroger mes deux phé
+            ils répondront à toutes les questions hydrauliques, 
+            nomènes ; 
+            
+            scientifiques et politiques… Paraissez, jeunes princes de Co
+            caibo ! … allez, la musique ! … Tirez la fieclle, ma femme. 
+            (Le
+            
+            rideau s'ouvre, Brisquillo et Lina sont assis sur une natte élevée sur
+            
+            deux tréteaur.) Jeune prince de Cocaibo, et vous, princesse
+            du même lieu, saluez l'aimable société. (Ils saluent.) Je prie
+            les spectateurs de remarquer la manière dont saluent mes deux
+            
+            insulaires… Descendez au milieu de ce cercle choisi. (Ils des
+            
+            cendent. 
+            
+            Ils vont coinmencer par figurer les pas les plus nou
+            
+            veaux de leur pays… Un peu de place, messieurs… (Il fait jouer
+            son bâton pour faire reculer.) Attention ! (Brisquillo et Lina dan
+            
+            sent un pas de leur pays) . (Pendant la danse.) Messieurs et'ines
+            dames, pour vous parler en bon français, j'aurai l'avantage de
+            vous observer que cetle danse pittoresque, qui a pris naissance
+            sous le quarante-deuxième degré de latitude ouest-ouest-sud
+            
+            ouest, a été importée pour la première fois en France par mes
+            
+            deux insulaires… Remarquez, je vous prie, que cette danse, 
+            malgré ses poses voluptueuses, n'a rien qui blesse la chasteté
+            
+            19. 
+            
+            de nos mours ; elle respire au contraire la inorale la plus pure ; 
+            
+            et, j'ose le dire avec tous les moralistes français, depuis le divin
+            
+            Socrate jusqu'à Fénélon et madame de Genlis, la mère en pres
+            
+            crira le spectacle à sa fille. Non, non, la brillante société qui
+            m'entoure ne confondra pas un exercice utile et décent avec
+            cette autre danse française que la pudeur m'empêche de nom
+            
+            mer, et que, par respect pour moi-même, je distinguerai sous
+            
+            le nom équivoque de cancan. Le cancan, messieurs, générale
+            
+            ment improuvé par son excellence le ministre de la justice, in
+            
+            connu jusqu'à ce jour à ces peuplades innocentes et anthro
+            pophages, a été poursuivi par M. le procureur du roi, et con
+            
+            damné par la septième chambre de police correctionnelte à
+            
+            cinquante francs d'amende et six mois de prison, le 24 juillet
+            
+            1830. Les malheureux danseurs, calicotiers de leur état, se
+            
+            voyaient réduits à la plus affreuse misère sans notre glorieuse
+            
+            révolution, qui a mis un terme à leur captivité et cominué leur
+            
+            peine en une liberté pleine et entière. (On entend crier dans
+            
+            l'auberge : Au feu ! au feu ! au feu !) 
+            
+. 
+            
+            Le feu serait dans l'auberge ! 
+            
+            AÉLÈNE. 
+            
+            RIGOLO. 
+            
+            Les cris partentde ce côté… je crois que c'est dans la cuisine. 
+            
+            Et notre salle de spectacle qui n' est pas assuréc ! 
+            
+            |
+            
+            RIGOLO. 
+            
+            Au feu ! au feu ! 
+            
+            TOUT LE MONDE. 
+            
+            RIGOLO. 
+            
+            Ils ne pouvaient pas attendre la fin de la représentation ! … 
+            
+, 
+            
+            LE CHOEUR. 
+            
+            ; 
+            
+            ; 
+            
+. 
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune"> AIR de Fernand Cortez. </stage>
+                    
+                       
+                        <l>Au feu ! au feu ! au feu !</l>
+                        <l>Il faut éteindre l'incendie !</l>
+                        <l>Au feu ! au feu ! au feu !</l>
+                    
+                   
+                    
+                        <l>BERTRAND, d part, aux matelols. * 11.</l>
+                    
+                    
+                    
+                    <l>Pour nous ce n'est qu'un jeu.</l>
+                    
+                      
+                     LE CHOEUR. 
+                    
+                    <l>Au feu ! au feu ! au feu !</l>
+                    
+                       
+                       LES MATBLOTS. 
+                   
+                    
+                    <l>Pour nous ce n'est qu'un jeu.</l>
+            </lg>
+                
+            </div>
+            
+' a'
+            
+            : 
+            
+. 
+            
+,'
+            
+            (On entre dans l'auberge. Rigolo et Hélène suivent la foule, après
+            avoir fait rentrer Brisquillo et Lina dans le hangar, sans le
+            fermer.). 
+            
+            2 0
+            
+            SCENE X. 
+            
+'
+            
+            BERTRAND, MICHEL, TROIS MATELOTs. si
+            
+            MICHEL, ourrant la porte du hangar. 
+            
+            Eh vite ! vite ! la rusc a réussi… partez vite, mon prince. 
+            
+            (On coudre Lina et Brisquillo avec de grandsmanteaus.)
+            
+            LINA. 
+            
+            Nous pouvons nous sauver ? 
+            
+            MICHEL. 
+            
+            Oui, princesse, et je pars avec vous. 
+            
+            Vous venez à Cocaibo ? 
+            
+            BRISQUILLO. 
+            
+            MICHEL
+            
+            J'en fais la farce ; puisque le monde me repousse de sûn sein, 
+            
+            la fortune m'attend peut-être dans une île déserte. 
+            
+-
+            
+            BERTRAND, à Michel. 
+            
+            Je vais les faire embarquer. 
+            
+            MICHEL. 
+            
+            Je les rejoindrai bientôt dans ta petite chaloupe. 
+            
+. 
+            
+            (Bertrand, Brisquillo et Lina sortent suivis par les trois matelots.)
+            
+            SCENE XI. 
+            
+            MICHEL, ensuite RIGOLO, HÉLÈNE, ET LES SPECTATEURS. 
+            
+            MICHEL.'
+            
+            Ah ! je respire l… je suis vengé ! … voilà la fortune de mon
+            
+            rival qui s'en
+            
+            va dans l'autre monde… 
+            
+            je reste ici encore un
+            
+            inoment pour être témoin de sà déconfituve. 
+            
+            (Il se place derrière le rideau sur la natte, où étaient les deres
+            
+            Indiens.)
+            
+            : 
+            
+            RIGOLO, sortantde l'auberge. 
+            
+            : 
+            
+            J'en
+            
+            étais sûr ! il n' y
+            
+            a de feu nulle part. Je voudrais bien
+            connaître celui qui est venu interrompre une représentation
+            aussi intéressante ! (à
+            la foule.) Que tout le monde reprenne
+            ses places, nous allons continuer les exercices de nos jeunes in
+            sulaires. Vous allez les voir maintenant prendre la nourriture
+            
+            de leurs climats, et savourer tour à tour des pruneaux de Tours, 
+            du miel de Narbonne et des quatre-mendians de leur pays, vul
+            gairement appelés dattes. Ensuite je
+            instrumens. Avancez, couple fortuné. (Il ouvre le rideau.)
+            
+            les ferai jouer de divers
+            
+            (Surprise de tous les personnages.)
+            
+            MICHEL. 
+            
+            : 
+            
+            : 
+            
+. 
+            
+            Le couple fortuné est allé faire fortune ailleurs. 
+            
+            Ils n'y sont plus ! 
+            
+            21. 
+            
+            RIGOLO. 
+            
+            MICHEL. 
+            
+            Je t'engage à mettre une bande sur ton affiche : Relâche par
+            
+            indisposition. 
+            
+            Je n'y comprends rien. 
+            
+            HÉLÈNE. 
+            
+            RIGOLO. 
+            
+            Tu les aurais fait sauver ? 
+            
+            (Coup de canon.)
+            
+            1
+            
+            MICAEL. 
+            
+… 
+            
+            : : 
+            
+            Entends-tu le signal de leur départ, ils sont en pleine mer… 
+            
+            ils jouissent de la liberté individuelle, vive la Charte ! … 
+            
+            (Il sort en courant.)
+            
+            · RIGOLO. 
+            
+            N'en croyez pas un mot, messieurs etmesdames. 
+            
+            Ah ! çà, dites-moi donc, nous n'avons pas tout vu, vous
+            
+            UN SPECTATEUR. 
+            
+            allez nous rendre notre argent ! 
+            
+            Mon argent / mon argent ! 
+            
+. 
+            
+            TOUS. 
+            
+. 
+            
+… 
+            
+. 
+            
+. 
+            
+            Pour qui nous prenez-vous, messieurs ? 
+            
+            RIGOLO. 
+            
+            LB CHOEUR. 
+            
+            <div type="poem">  <lg>
+                
+                    <stage type="tune">AIR Sortez à l'instant, sortez. </stage>
+                    
+                    
+                        <l>C'est trop long-temps nous duper,</l>
+                        <l>Tu n'pourras nous échapper ;</l>
+                        <l>Armons-nous, c'est urgent,</l>
+                        <l>Contre un abus outrageant.</l>
+                        <l>Au public trop indulgent,</l>
+                        <l>D'rendr' le spectacle, ou l'argent,</l>
+                        <l>À l'instant nous t'sommons,</l>
+                        <l>Ou sinon nous t'assommons.</l>
+                    
+                    
+                     RIGOLO. 
+                    
+                    <l>N'croyez pas que j'triche ;</l>
+                    <l>Lisez mon affiche,</l>
+                    <l>Elle dit : que jamais</l>
+                    <l>Nous n'rendons l'prix des billets.</l>
+                    <l>Ainsi plus d'menace,</l>
+                    <l>Filez doux, de grace ;</l>
+                    <l>Car, si j'gard' les gros sous,</l>
+                    <l>J'vous préviens que j'rends les coups.</l>
+                    
+                     
+                     22
+                       (Pendant ce couplet, Rigolo s' est mis en garde avec son bâton, H ė
+                       lène est à sa gauche, les spectateurs veulent s'approcher de Rigolo, 
+                      qui les tient en respect en faisant le moulinet.)
+                    
+                    
+                       moli
+                    
+                     ". ENSEMBLE. 
+                    
+                    
+                       LE CHOEUR. 
+                    
+                    <l ana="unanalyzable">C'est trop long-temps, etc.</l>
+                    
+                        HÉLÈNE et BIGOLO. 
+                    
+                    <l>On n'peut donc pas les duper !</l>
+                    <l>S'il pouvait <del hand="TK" type="alternative" reason="analysis">Ou du moins</del> leur échapper !</l>
+                    <l>C'est vraiment enrageant</l>
+                    <l>D'voir un public exigeant ;</l>
+                    <l>À nous <del hand="TK" type="alternative" reason="analysis">À moi</del> gendarme ou sergent !</l>
+                    <l>Conduisez-les, c'est urgent,</l>
+                    <l>À l'instant en prison,</l>
+                    <l>Pour les mettre à la raison.</l>
+                
+            </lg></div>
+            
+            (Hélène se trouve mal et tombe dans les bras de Rigolo, quise tient. 
+            
+            toujours en garde avec le bras droit.)
+            
+            (On baisse le rideau, et l'on voit s' élever du trou du souffleur un
+            écriteau sur lequel on lit : Le public est prévenu que l' entr'acte
+            dure un an.). 
+            
+            FIN DU PREMIER ACTE. 
+            
+            ACTE II. 
+            
+            Le théâtre représente un site pittoresque de-l'Ile de Cocaibo. Quelques arbres
+            étrangers sont réunis par des lianes. A droite, est une hulle très apparente. 
+            
+            A gauche, un petit tertre élevé entre deux palmiers. Au fond, la mer, 
+            
+            SCENE PREMIERE. 
+            
+            LINA, MIANGAH, JEUNES FILLES DE LA TRIBU. 
+            
+            CROEUR DE JEUNES FILLES. Leon
+            
+            <div type="poem"><lg>
+                
+                    
+                        <stage type="tune">Air : Travaillons, mesdemoiselles. </stage>
+                    
+                    <l>De retour dans nos cabanes,</l>
+                    <l>Toi que protégea le sort,</l>
+                    <l>Aux filles de nos savanes</l>
+                    <l>De la France parle encor !</l></lg>
+                
+            </div>
+            
+            in
+            
+. 
+            
+            i
+            
+' LINA. 
+            
+. 
+            
+… 
+            
+… 
+            
+. 
+            
+. 
+            
+. 
+            
+. ; 
+            
+            Je le veux bien ; mais, sans reproche, voilà dix fois, depuis
+            
+            mon retour à Cocaibo, que je vous répète la même chose. 
+            
+            Dix fois en un an, ce n'est pas trop ; les coutumes euro
+            
+            péennes ont tant d'attraits pour nous ! 
+            
+            MIANGAH. 
+            
+            Ecoutez… 
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune" id="AIR : N'allez pas, jeunes sauvages.">Air : </stage>
+                    
+                        LINA. 
+                    
+                    <l>N'allez pas, jeunes sauvages,</l>
+                    <l>Quand je vais vous raconter</l>
+                    <l>El leurs mœurs et leurs usages,</l>
+                    <l>Songer à les imiter.</l>
+                    
+                       
+                        <l>Ici secours, assistance,</l>
+                        <l>S'offrent au chasseur errant ;</l>
+                        <l>Sans espoir de récompense,</l>
+                        <l>Là-bas c'est bien différent :</l>
+                        <l>Les cæurs n'y sont pas de pierre ;</l>
+                        <l>Mais ce qui rend obligeant</l>
+                        <l>Dans la France hospitalière,</l>
+                        <l>Ça s'appelle : de l'argent.</l>
+                    
+                    
+                       24
+                    
+                    <l>Chez nous, d'une ardeur extrême</l>
+                    <l>Lorsque notre cæur se prend,</l>
+                    <l>Nous aimons toujours le même ;</l>
+                    <l>Là-bas c'est bien différent :</l>
+                    <l>J'ai vu beauté vive et tendre</l>
+                    <l>À dix amans tour à tour</l>
+                    <l>Donner son cæur, le reprendre,</l>
+                    <l>Ils nomment ça de l'amour.</l>
+                    
+                      
+                        <l>Dans nos jeux, dans notre ivresse,</l>
+                        <l>Notre plaisir le plus grand</l>
+                        <l>Est de joûter de vitesse ;</l>
+                        <l>Là-bas c'est bien différent :</l>
+                        <l>Ils ont le bon ton qui glace</l>
+                        <l>Le plus innocent désir ;</l>
+                        <l>Danser sans bouger de place,</l>
+                        <l>Ils nomment ça du plaisir.</l>
+                    
+                    <l>Chez nous, d'un sentiment tendre</l>
+                    <l>Nous faisons l'aveu bien franc,</l>
+                    <l>À tous on voudrait l'apprendre ;</l>
+                    <l>Là-bas c'est bien différent :</l>
+                    <l>En rougir devant sa mère,</l>
+                    <l>Cela s'appelle pudeur ;</l>
+                    <l>Ne s'aimer qu'avec mystère,</l>
+                    <l>Ils nomment ça du bonheur.</l>
+                    
+                       
+                        <l>Pour les mœurs et les usages</l>
+                        <l>Vive notre sol chéri !</l>
+                        <l>Ah ! restons, filles sauvages,</l>
+                        <l>Sur les bords du Missouri.</l></lg>
+                    
+                
+            </div>
+            
+            MIANGAP. 
+            
+            Ainsi, Lina, te voilà bien contente d'être revenue parini
+            
+            nous ? 
+            
+            LINA. 
+            
+            " Sans doute, et c'est à ce bon Michel que je dois cela. Le
+            
+            grand chef l'en a bien récompensé. D'abord, il l'a
+            par tous les honneurs… 
+            
+            fait passer
+            l'a nommé ministre et grand ora
+            
+            il
+            
+            teur de la tribu ; mais depuis quelque temps le crédit de Michel
+            
+            paraît baisser. 
+            
+            :) 
+            
+            Prisnive ! 
+            
+            MIANGAH. 
+            
+. 
+            
+… 
+            
+. 
+            
+. 
+            
+. 
+            
+. i
+            
+            hema's
+            
+            C'est lui qui va prononcer aujourd'hui ton union avec Bris
+            
+            quillo. 
+            
+            LINA. 
+            
+            Il se fait bien attendre, il sera sans doute allé avec toute la
+            
+            25
+            
+            tribu recueillir les débris du vaisseau naufragé ce matin sur la
+            côte. 
+            
+            Ecoutez, mes amies…, n'entendez-vous pas ? … 
+            
+            LINA, 
+            
+            MIANGAR. 
+            
+            Mais oui, ce sont eux… Michel, Brisquillo, le grand chef
+            
+            Kisagasougah, avec des habitans de Cocaibo… voilà l'instant de
+            
+            mon mariage. (à Miangah.) Croirais-tu qu'à
+            
+            ce moment les
+            
+            jeunes filles de l'Europe ont l'habitude de pleurer ! je ne coin
+            
+            prendrai jamais rien à ces meurs-là., so wie
+            
+            (Lina, Miangah, et toutes les jeunes filles se placent sur un rang.)
+            
+            SCENE II. 
+            
+            vii
+            
+. 
+            
+            LES MÊMES, KISAGASOUGAH, MICHEL, en
+            
+            saurage, 
+            
+            BRISQUILLO, KROCMICK, PADOUKAS. 
+            
+            (Le grand chef et Michel sont tatouës. Les sauvages doivent être
+            
+            très laids, ils ont de longues barbes, et portent des casse-têtes.)
+            
+            LE
+            
+            CA @EUR.'
+            
+, .
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune">Air du Baril d'olives. </stage>
+                    
+                    
+                        <l>Cet air guerrier annonce un mariage,</l>
+                        <l>C'est le refrain chéri des Padoukas ;</l>
+                        <l>Ne doit-on pas,</l>
+                        <l>Quand on entre en ménage,</l>
+                        <l>Choisir la marche des combats ?</l></lg>
+                    
+                
+            </div>
+            
+            LE GRAND CHEF. 
+            
+            Ah ! çà, mes chers enfans, nous ne sommes pas ici pour nous
+            amuser ; il s'agit de vousmettre en ménage… voilà notre grand
+            orateur qui va vous dire tout ce qu'il faut faire. 
+            
+            MICHEL, soupirant… 
+            
+            : Ah ! grand chef ; je ne peux pas prononcer un mariage sans
+            penser à celui que j'ai manqué, il y a deux ans, au Hâyre, 
+            
+            Eh bien ! pour te consoler ne t'ai-je pas comblé d'honneurs, 
+            
+            de dignités ? tu n'es jamais content… prends garde à toi… 
+            
+. 
+            
+            ·
+            
+            LE GRAND CHEF. 
+            
+            LI, MICHEL. 
+            
+            Certainement, vous n'avez mis le grand serpent autour du
+            cou, des colibris sur les bras, des pattes de léopard sur les
+            épaules, et une tête de crocodile sur l'estomac… mais tout cela
+            ne touche pasmon cour, ,, 
+            
+            Tu es bien difficile. 
+            
+, 
+            
+            KROCMICK. 
+            
+            " MICAEL. 
+            
+            Je sais que tout le inonde dit en me regardant : v'là un
+            
+            26
+            
+            jeune homme qui sc met bien… mais si mon amour-propre est
+            flatté, ia passion n'est pas satisfaite. 
+            LE GRAND CHEF. 
+            
+. 
+            
+            Tais-toi, grand orateur, je ne te dis que ça… tu dois savoir
+            a un sort qui me
+            
+            que je t'en veux… depuis que tu es ici, il y
+            
+            poursuit… mes forces diminuent, ma vigueur m'abandonne, 
+            ina vue s'affaiblit de jour en jour… 
+            MICAEL. 
+            
+            C'est la faute de votre âge respectable, vieillard supersti
+            
+            tieux… vous m'accusez, moi qui ai voulu propager les lu
+            mières ici. 
+            
+            LE GRAND CHEF. 
+            
+            C'est justement depuis le progrès des lumières que je n'y
+            vois plus du tout… mais j'ai fait consulter mon grand Fétiche ; 
+            
+            en attendant sa réponse, songe à être gentil, Michel… je suis
+            venu ici pour unecérémonie… ilmela faut. 
+            
+            BRISQUILLO, prenant Lina par la main. 
+            
+            Grand chef, nous demandons le mariage. 
+            
+            LE GRAND CHEF. 
+            
+            Vous allez être satisfaits. Avance, Michel, mon premier mi
+            
+            nistre, et toi Krocmik, grand cuisinier de la tribu, je vous au
+            torise à bénir cette union. 
+            
+            KROCMICK, 
+            
+            à part, 
+            
+            Toujours ce Michel en ayant ! … 
+            
+            MICHEL : 
+            
+            Brisquillo, Lina, enfans de Cocaibo, prosternez-vous. Avec
+            la
+            
+            la permission du grand chef, je vais vous lire le code de
+            
+            tribu. (à Krocmick.) Donnez-moi le manuel des mariages. 
+            
+            Voilà ! 
+            
+            (Il donne à Michel une corne de rhinocéros.)
+            
+            NICARL lit, en tournant la corne, les caractères qui sont tracés tout
+            
+            KROCNICK. 
+            
+            autour. 
+            
+            « Premier versel.-Vous êtes unis pour la vie, à moins ce
+            « pendant que vous ne vous ennuyiez d'être ensemble. Alors
+            
+            « celui ou celle qui voudrait quitter l'autre, est tenu de l'aver
+            
+            « tir au premier croissant de la lune, attendu qu'en ménage on
+            á se doit des égards. 
+            « Deuxième verset. 
+            
+            La femme doit suivre son mari partout, 
+            « à moins que ça ne le fatigue ; elle est libre alors de le laisser
+            
+            « en route, ce qui arrive souvent dans les contrées civilisées. 
+            
+            « Troisième et dernier verset.--Le mari est naturellement le
+            « père de ses enfans ; s'il y a doute, l'usage veut qu'on s'en rap
+            
+            « porte à sa femme. » 
+            
+            Jurez vous de vous conforuner à ces recommandations né
+            
+            cessaires au bonheur des ménages ? 
+            
+            BRISQUILLO ET LINA. 
+            
+            Nous le jurons ! 
+            
+            27
+            
+            LE GRAND cher, étendant lesmains sur leurs têtes, 
+            
+            Vous êtes mari et femme ; voilà votre cabane, vous y trou
+            
+            verez vos armes de chasse : tuez beaucoup de bêtes, donnez
+            beaucoup de frères à la tribu, et vivez en paix le plus long
+            temps possible. 
+            
+            Toujours ! 
+            
+            BRISQUILLO ET LINA. 
+            
+            (Kisagasougah donne la main à Brisquillo et d Lina. Ils pont se
+            
+            placer sur le petit tertre élevé entre les deux palmiers.)
+            
+            CHƠEUR DE SAUVAGES, en frappant la terre de leurs casse-têtes. 
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune" id="AIR : Pan, pan, cette journée.">Air : </stage>
+                    
+                        
+                        <l>Pan, pan, cette journée</l>
+                        <l>Pan, pan, fait deux heureux,</l>
+                        <l>Pan, pan, de l'hymenée</l>
+                        <l>Pan, pan, chantons les næuds.</l>
+                    
+                    
+                       BRISQUILLO. 
+                    
+                    <l>Ici dans chaqu' ménage</l>
+                    <l>L'hymen est éprouvé,</l>
+                    <l>L'époux d'un' femm' sauvage</l>
+                    <l>Peut marcher le front levé.</l>
+                    
+                       
+                        LE CHOEUR. 
+                    
+                    <l ana="unanalyzable">Pan, pan, cette journée, etc.</l>
+                    
+                        MICHEL, d Brisquillo. 
+                    
+                    <l>Tout p'tit j'fis des culbutes,</l>
+                    <l>Mais toi, tu fais bien mieux,</l>
+                    <l>En t'mariant tu débutes</l>
+                    <l>Par le saut périlleux.</l>
+                    
+                      
+                    
+                     LE CHOEUR. 
+                    
+                    <l ana="unanalyzable">Pan, pan, cette journée, etc.</l> </lg>
+                
+            </div>
+            
+            (A la fin du chæur on entend le tonnerre.)
+            
+            LE GRAND CHEF. 
+            
+            Enfans, le tonnerre gronde, entrons dans cette habitation
+            pour attendre la réponse du grand Fétiche. Nous y tiendrons
+            conseil, et nous tâcherons d'y rassembler nos idées, si nous en
+            trouvons. 
+            
+            LE CHOEUR. 
+            
+            <div type="poem"> <lg> 
+                
+                    <stage type="tune">AIR : Sonnez, cors et musettes. </stage>
+                    
+                        
+                        <l>L'orage <stage type="repetition"> (bis.)</stage></l>
+                        <l>À rentrer nous engage,</l>
+                        <l>L'orage <stage type="repetition"> (bis.)</stage></l>
+                        <l>Chasse le daim sauvage.</l>
+                
+                        28
+                    
+                    <l>Guerre aux habitans des forêts !</l>
+                    <l>Ils seront pris dans nos filets.</l></lg>
+                
+            </div>
+            
+            (L'orage éctate, Michel et tous les sauvages entrentdans la cabane.)
+            
+            SCENE III. 
+            
+            BERTRAND, MATELOTS, puis RIGOLO ET HÉLÈNE. 
+            
+            Celle-ci a relevé sa robe sur sa tête et sur celle de Rigolo a la
+            
+            manière de Paul et Virginie ; deux matelots les suivent en
+            
+            portant une cassette. 
+            
+            Par ici l… il n'y
+            
+            a personne ; inais cependant ne vous y fiez
+            
+            BERTRAND, d la cantonade. 
+            
+            pas. 
+            
+            RIGOLO. 
+            
+            Dieu ! comme il pleut fort dans cepays-ci ! 
+            
+. 
+            
+            BERTRAND. 
+            
+            Bah ! c'est un grain… 
+            
+            in
+            
+. 
+            
+            Alors c'est un gros grain. 
+            
+. 
+            
+            RIGOLO. 
+            
+            HÉLÈNE. 
+            
+            Courez donc les mers pour chercher des phénomènes et at
+            
+            traper des naufrages. Mais en définitive, où sommes-nous main
+            
+            tenant ? 
+            
+            • BERTRAND. 
+            
+            Attendez que je m'oriente : où est le midi ? 
+            
+. 
+            
+            RIGOLO, tirant sa montre. 
+            
+            Je te vas dire ça… ah ! mon Dieu, ma nontre est arrêtée ! 
+            
+            BERTRAND. 
+            
+            » 
+            
+            Tout ce que je peux vous dire, d'après ines calculs, c'est que
+            
+            et inhabitée. 
+            
+            Dans une île déserte ! 
+            
+            HÉLÈNE. 
+            
+            ·
+            
+            CHUR DES SAUVAGES, dans la cabane. 
+            
+            1
+            
+. 
+            
+            <div type="poem"> <lg>
+                
+                 <stage type="tune" id="AIR : Pan, pan, cette journée."></stage>
+                
+                    <l>Pan, pan, cette journée</l>
+                    <l>Pan, pan, fait deux heureux,</l>
+                    <l>Pan, pan, de l'hymenée</l>
+                    <l>Pan, pan, chantons les næuds.</l>
+                
+            </lg></div>
+            
+            (Étonnement de tous les personnages.)
+            
+            BIGOLO, à Bertrand. 
+            
+. 
+            
+            D'après ce que j'entends, et ce que tu viens de nous dire, je
+            
+            vois que c'est une île déserte où il y a beaucoup de inonde. 
+            
+. 
+            
+            Je sens l'odeur de la cuisine. 
+            
+            BERTRAND. 
+            
+            29
+            
+            RIGOLO. 
+            
+            Je mangerais bien quelque chose, et toi ? 
+            
+            BERTRAND. 
+            
+            Attends, je vas pousser ma recoonaissance. 
+            
+            (Bertrand va regarder d travers les fentes de la porte de la cabane.)
+            
+            Je parierais que c'est la demeure de quelque honnête fer
+            
+            RIGOLO. 
+            
+            mier… 
+            
+            i
+            
+            Ça ressemble à une caverne de voleurs. 
+            
+            RIGOLO. 
+            
+            BERTRAND. 
+            
+            Il est là entouré de son innocente famille ; ils ont tous des
+            
+            mines riantes… 
+            
+. 
+            
+            BERTRAND. 
+            
+            Je ne les vois que dans le dos. 
+            
+            HÉLÈNE. 
+            
+            Si nous frappions à la porte ? 
+            
+            BERTRAND. 
+            
+            Gardons-nous-en bien, c'est quelque peuplade qui pourrait
+            nous faire un mauvais parti… Je connais mieux que vous ces
+            farceurs-là… 
+            
+            AÉLÈNE. 
+            
+            Mais qu'allons-nous devenir dans ce pays de loups et de dro
+            
+            madaires ? 
+            
+            RIGOLO. 
+            
+            Un instant… j' entrevois un coup de fortune… Resterons
+            
+            nous ici comme des poules mouillées, quand il y a là bon feu
+            et bonne table ? Il ne faut que du génie pour se tirer d'affaire… 
+            
+            Je tiens le noyen. 
+            
+            Quel est-il ? 
+            
+            HÉLÈNE. 
+            
+            BERTRAND. 
+            
+            Encore un tour de ton métier. 
+            
+            RIGOLO. 
+            
+            La banque ! … il n'y a que ça pour réussir aujourd'hui… 
+            Grace à la marée montante, les caisses les plus précieuses de
+            notre embarcation ont été sauvées ; va les chercher avec tes
+            matelots… nous t'attendons ici de pied ferıne. Si quelqu'un se
+            
+            présente, je me donne pour un prince détrôné, qui voyage in
+            cognito, enfin ce qui me passera par la tête… On m'accueille, 
+            
+            on me fête, tu arrives avec ta pacotille, nous avons de quoi
+            subjuguer toute la tribu. 
+            
+, 
+            
+. 
+            
+            C'est dit. Au revoir. 
+            
+            (Il sort.)
+            
+            BERTRAND. 
+            
+            30
+            
+            SCENE IV. 
+            
+            RIGOLO, HÉLÈNE. 
+            
+            RIGOLO. 
+            
+            Allons, tout n'est pas perdu, il y a là-dedans des mines d'or
+            à exploiter ; si j'avais tous ces gaillards-là à Paris… je mettrais
+            les stalles à cent sous, et tous mes billets de faveur paieraient
+            double. 
+            
+            Taisez-vous, ou ouvre la porte. 
+            
+            L
+            
+'
+            
+            AÉLÈNE. 
+            
+            RIGOLO. 
+            
+            Ne les perdons pas de vue. 
+            
+            (Ils s'éloignent au fond.)
+            
+            SCENE V. 
+            
+            LES MÊMES, MICHEL. 
+            
+            MICHEL entre la tête basse, les bras croisés en parcourant le
+            
+            théâtre. 
+            
+            Je ne m'abuse pas… je fais des jaloux… les courtisans me
+            
+. 
+            
+            travaillent en-dessous. Le grand cuisinier voudrait me sup
+            
+            planter, et cependant dans le conseil il est d'une bêtise à cou
+            
+            per au couteau. Quant à Kisagasougab, le brave homine n' est
+            pas fort ; si je pouvais seulement lui jeter de la poudre aux
+            yeux, ça ne lui rendrait pas la vue, mais ça l'éblouirait sur mon
+            mérite. Il faudrait pour ça trouver de l'extraordinaire… une
+            
+            fête ! … quelque chose qu'on n'ait jamais vu à Cocaïbo ! 
+            
+            Nous sommes à Cocaïbo ? 
+            
+            AÉLÈNE, à Rigolo. 
+            
+            Michel, continuant. 
+            
+            Oui ; mais ou diable me procurer du nouveau, quand on
+            n' en trouve nulle part ? Il m'en faut pourtant, ou je ne suis
+            plus ministre. 
+            
+            RIGOLO. 
+            
+            C'est un ministre l… un ministre chez les sauvages ! … 
+            
+            Il
+            
+            paraît qu' il y en a partout… Prenez vos grands airs… je vais
+            déployer toutes mes ruses diplomatiques… voilà le moment de
+) Monseigneur… nous
+            profiter de mon idée. 
+            vous demandons pardon de vous déranger… nous cherchions
+            un huissier pour nous annoncer. 
+            
+            (s'avançant. 
+            
+            Que vois-je, Hélène et Rigolo ! …, mes yeux sont-ils bien ou
+            
+            MICHEL, d part. 
+            
+            verts ? 
+            
+… 
+            
+            ? 
+            
+, 
+            
+            NÉLÈNE, à Rigolo. 
+            
+            Qu'allez-vous lui dire ? 
+            
+. Qui êtes-vous ? 
+            
+            31
+            
+            MICHEL, après un silence, 
+            
+            RIGOLO. 
+            
+. Vous voyez en moi l'envoyé extraordinaire du grand duc de
+            Banquistimbourg, qui profite de l' occasion d'une tempête pour
+            venir vous proposer un traité de commerce avantageux pour
+            
+            nos deux puissances. 
+            
+            : 
+            
+            MICHEL, à part. 
+            
+            Une tempête ! … comment, 
+            
+            (regardant
+            Hélène.) C'est qu'elle est très bien comme ça, l'ingrate beauté. 
+            
+            c'était eux ! … 
+            
+            (haut.) Qu'avez-vous à nous offrir ? 
+            
+            RIGOLO. 
+            
+            Monseigneur, les produits agricoles
+            
+            de notre duché con
+            sistent en raisiné, en chaufferettes et en souricières, que nous
+            échangerions volontiers contre de la pierre à détacher et du
+            corail pour blanchir les dents. 
+            
+. 
+            
+            · Je le vois venir ; il ne me reconnaît pas, et il croit que je
+            
+            MICHBL, à part. 
+            
+            donnerai dedans, avec ses souricières ! 
+            
+            RIGOLO. 
+            
+            Mon idée lui sonrit… Répondez à nos voeux les plus chers : 
+. nous grillons, moi et mon épouse, d'être présentés à votre
+            
+            gracieux souverain.'
+            
+            Vous voulez être présentés ? c'est facile. (à purt.) Je cher
+            chais des curiosités, v'là mon affaire ; je tiens le bouquet de ma
+            fête extraordinaire. (haut.) Mais vous ne pouvez pas être ad
+            
+            MICAEL. 
+            
+            mis faits comme vous l'êtes. 
+            
+            RIGOLO, 
+            
+            Il me semble que nous ne sommes pas trop mal pour des
+            
+            gens noyés depuis ce matin. 
+            
+            Comment, noyés ? 
+            
+            · Oui, en effigie. 
+            
+            MICHEL. 
+            
+            HÉLÈNE. 
+            
+            Il y avait sur le bâtiment un farceur d'artiste qui nous avait
+            
+. 
+            
+. 
+            
+            RIGOLO. 
+            
+'
+            
+. 
+            
+            peints sur une grande voile… 
+            
+            Avec nos habits des dimanches que nous avons sauvés du
+            
+            HÉLENE. 
+            
+            naufrage. 
+            
+            MICHEL, d. part. 
+            
+            En ce cas monsieur l'ambassadeur vous serez satisfait, mais
+            il faut avant tout aller mettre vos costumes, je vous prépare
+            une brillante réception… comptez sur inoi. 
+            
+            Est-ce qu'il y aurait des cabinets de toilette ici ? 
+            
+            RIGOLO. 
+            
+. 
+            
+            32
+            
+            MICAEL. 
+            
+            On va vous y conduire. 
+            
+            (appelant.) Koulouf ! Miangah ! 
+            
+            (Miangah et Koulouf paraissent, Michel leur parle bas.)
+            
+. 
+            
+            RIGOLO. 
+            
+            Bravo ! j'ai gagné sa confiance ; si Bertrand veutme seconder, 
+            
+            notre fortune est faite, nous emmenons toute la tribu. 
+            
+            Voilà votre valet, et votre femme de chambre. 
+            
+            MICAEL. 
+            
+            <div type="poem">  <lg>
+                
+                    <stage type="tune" id="AIR : Bientôt ici vous reviendrez briller.">Air : </stage>
+                    
+                        
+                        <l>Bientôt ici vous reviendrez briller,</l>
+                        <l>Mais pour ne pas vous faire attendre</l>
+                        <l>Dans la cabane, où vous devez vous rendre,</l>
+                        <l>Il faut d'abord aller vous habiller.</l>
+                    
+                    
+                      (d part.)
+                    
+                    <l>Dans son théâtre, construit en plein vent,</l>
+                    <l>Au Havre, à Paris, à Marseille,</l>
+                    <l>Il annonça les autres trop souvent</l>
+                    <l>Pour qu'on n'lui rend' pas la pareille.</l>
+                    
+                      &gt;ENSEMBLE. 
+                    
+                    <l ana="unanalyzable">Bientôt ici vous reviendrez <del hand="LN" type="alternative" reason="analysis">nous reviendrons</del> briller, etc.</l>
+                
+                
+                
+            </lg></div>
+            
+            me
+            
+            (Hélène et Rigolo sortent conduits par Koulouf et Miangah.)
+            
+. 
+            
+            SCENE VI. 
+            
+            MICHEL, seul. 
+            
+            Heureux Michel… 
+            
+            c' est à ton
+            
+            tour… 
+            
+            je
+            
+            vais faire
+            
+            d'une
+            
+            pierre deux coups… me venger d'une ingrate et conserver ma
+            
+            place, ce qui est assez difficile par le temps qui court. 
+            <div type="poem">  <lg>
+                
+                    <stage type="tune">Air : Vaudeville de l'Intérieur de l'étude. </stage>
+                    
+                        
+                        <l>Jadis, sous l'habit de paillasse,</l>
+                        <l>Dans l'autre mond' j'ai su briller,</l>
+                        <l>Malgré mes dignités, ma place,</l>
+                        <l>Je n'pourrai jamais l'oublier ;</l>
+                        <l>Si pour amuser et pour plaire,</l>
+                        <l>J'fus sauteur, banquiste, on verra</l>
+                        <l>Qu'c'n'est pas dans un ministère</l>
+                        <l>Qu'on désapprend ce métier-là.</l>
+                    
+                
+            </lg></div>
+            
+            Maintenant, prévenons les chefs de la tribu et toutes lesautorités
+            constituées qui sont en train de fumer là-dedans. 
+            
+            (allant à la
+            
+            porte.) Arriver, mes amis, arriyez ! 
+            
+            33
+            
+            SCENE VII., Los
+            
+            MICHEL, KISAGASOUGAH, KROCMICK, BRISQUILLO, 
+            
+            LINA, LES SAUVAGES. 
+            
+… 
+            
+            MICAEL. 
+            <div type="poem">  <lg>
+                
+                    <stage type="tune">AIR de la Fête du village voisin. </stage>
+                    
+                    <l>Accourez tous pour un nouveau spectacle,</l>
+                    <l>Vous allez voir des objets étonnans :</l>
+                    <l>Grand souverain, pour plair' à vos ch'veux blancs</l>
+                    <l>Michel ne connait plus d'obstacle.</l>
+                    
+                       LE GRAND cher. 
+  
+                    <l>De m'plair' t'as l'espoir,</l>
+                    <l>Nous allons ben voir</l>
+                    <l>Si t'auras l'pouvoir</l>
+                    <l>De m'fair' crier : miracle !</l>
+                
+                    MICABL. 
+                    
+                    <l>Mes originaux</l>
+                    <l>Vaudraient deux cocos,</l>
+                    <l>Mais à mes amis</l>
+                    <l>J'les montre gratis.</l>
+                    <l>Vous paieriez plus cher pour les voir à Paris,</l>
+                    <l>Car dans ce pays où le plaisir se vend,</l>
+                    <l>L'public n'en a pas toujours pour son argent.</l>
+                
+            </lg></div>
+            Placez-vous tous… que le grand chef se mette sur son trône. 
+            
+            LE GRAND CAEF. 
+            
+            C' est ça, apportez-moi mon trône. (Deux sauvages apportent
+            
+            une peau de bête.) Nous disons donc que tu vas m'amuser ? **
+            
+            ii. 
+            
+. 
+            
+. 
+            
+. 
+            
+. 
+            
+            MICHEL. 
+            
+            : 
+            
+. 
+            
+            : 
+            
+            : 
+            
+            0, 
+            
+            0
+            
+            Oui, illustre prince, je m'en flatte. a
+            
+            jin
+            
+            s
+            
+            Tube
+            
+            LB GRAND CHEF, 
+            
+            Je te préviens que la réponse du grand Fétiche ne t'a pas été
+            
+            favorable ; ainsi dépêche-toi deme faire rire, sinón… 
+            
+'.'
+            
+. nq, 1
+            
+. 11. 11
+            
+'
+            
+            in
+            
+            (It s' assied.)
+            
+. 
+            
+            MICHEL… 
+            
+… 
+            
+            ! 
+            
+            Oui, je sais que dans ce pays-ci, la responsabilité minisié-, 
+            
+            rielle n'est pas une plaisanterie. Vsi
+            
+            LE GRAND CHEF… 
+            
+            Arrange-toi donc pour que je sois content, 
+            
+            MICHEL, d part. 
+            
+            ? 
+            
+            En ce cas-là, il faudra que Rigolo soit amusant ou il dira
+            
+            pourquoi… (à un sauvage.) Par ici la grande voile… toi, Kri
+            
+            noff, tiens-toi" là, påvec ton casse-tête… Les voila… allez, ta mu
+            
+            sique… 
+            
+            3 : 4
+            
+            (Un sauvage apporle une grande voile qu'il plante près des deux
+            palmiers. Quatre sauvages frappent sur leurs tambours de bas
+            
+            que. Rigolo et Hélène paraissent sur le petit tertre élevé entre
+            les deux palmiers, ils portent des costumes du jour. On lit au
+            dessous des deux portraits peints sur la voile : Le France mal
+            
+            et sa femel arivan d'Eu Rope. Ce tableau doit présenter une
+            
+            contre-partie bien exacte de celui du premier acte.)
+            
+            Hélène ! 
+            
+            Rigolo ! 
+            
+            LÉ CAOEUR
+            <div type="poem">  <lg>
+                
+                    <stage type="tune">Air : Cocu mon père. </stage>
+                    
+                       
+                        <l>Quell' drôle de tournure,</l>
+                        <l>Quell' drôle de figure,</l>
+                        <l>J'crois qu'on ne vit jamais</l>
+                        <l>Leurs pareils dans nos forêts.</l>
+                    
+                    
+                      BRISQUILLO. 
+                    
+                    Hélène ! 
+                    
+                      LINA. 
+                      
+                      Rigolo ! 
+                    
+                    
+                        <l>LE GRAND CHEF, à Michel.</l>
+                    
+                    <l>Gnia qu'un' chos' qui me vexe,</l>
+                    <l>Je n'devin' pas le sexe ;</l>
+                    <l>Dis-moi, mon cher ami,</l>
+                    <l>Quelle est la femme ou l'mari ?</l>
+                    
+                      LE CHOEUR. 
+                    
+                    <l ana="unanalyzable">Quell' drôle de tournure, etc.</l>
+                
+            </lg></div>
+            
+            (Rigolo et Hélène se donnent des graces pendant la fin de ce mor
+            
+            ceau.)
+            
+            RIGOLO, à Hélène, après avoir salué les sauvages, croyant qu'ils lui
+            
+            rendent hommage. 
+            
+            Par exemple, je ne croyais pas que nous serions aussi bien
+            reçus. (haut.) Aimables insulaires, je suis vivement touché
+            d'un accueil aussi distingué, et d'autant plus étonné de votre
+            
+            politesse, que je m'attendais à trouver en vous, pardonnez-moi
+            
+            ma franchise, de véritables bêtes sauvages qui ont l'indélicatesse
+            
+            de manger les étrangers. 
+            
+            LE GRAND CHEF. 
+            
+            Tu ne t'es pas trompé. 
+            
+            HÉLÈNE. 
+            
+            Ah ! mon Dieu ! 
+            
+            LE GRAND CHEF. 
+            
+            Oui, quand les étrangers n'ont pas le bonheur de me plaire, 
+            
+            voilà Krocmick, le cuisinier de notre tribu, qui se charge de
+            les accommoder à ma guise. 
+            
+            35
+            
+            RIGOLO. 
+            
+            Vous me permettrez de vous dire cependant qu'un ambassa
+            
+            deur et son épouse sont inviolables… 
+            
+            MICHEL, prenant une baguette et imitant Rigolo au premier acte. 
+            
+            Illustres habitans de Cocaïbo et séduisantes Cocaïbotes, que
+            
+            la nouveauté de mon spectacle a réunis ici… 
+            
+            Comment, un spectacle ! 
+            
+            MICHEL. 
+            
+            RLGOLO, surpris. 
+            
+            Chacun son tour… reconnais-tu ceux que tu as montrés en
+            
+            France ? 
+            
+            Brisquillo et Lina ! 
+            
+            HÉLÈNE. 
+            
+            • RIGOLO. 
+            
+            C'est juste… je suis forcé d'en convenir… je les ai montrés, 
+            
+. 
+            
+            c'est vrai, mais j'avais une permission de M. le maire. 
+            
+            HÉLÈNE. 
+            
+            Nous montrer en spectacle ! c'est affreux ! 
+            
+            NICHEL. 
+            
+            J'offre donc à l'admiration de la société deux individus, mâle
+            
+            et femelle, venant directement d'Europe. 
+            
+            RIGOLO. 
+            
+            Un moment ! je n'ai pas mis de charlatanisme avec eux, 
+            
+            j'ai
+            
+            le droit d'exiger les mêmes égards. Ah ! c'est qu'il s'agit de
+            
+            faire honorablement son état, 
+            visages aussi respectables que ceux de ces messieurs. 
+            
+            et non pas d'en imposer à des
+            
+            (Il indique les sauvages, )
+            
+            I
+            
+            MICHEL. 
+            
+            Je vais maintenant vous donner les détails des talens de so
+            
+            ciété que possède cet intéressant quadrupède… j'espère que
+            vous serez contens de lui. 
+            
+            Dans le cas contraire, nous lui ferons dire deux mots par le
+            
+            LE GRAND CHEF. 
+            
+            cuisinier. 
+            
+            RIGOLO. 
+            
+. 
+            
+            Le cuisinier ! … Messieurs, je vous en conjure, faites comme
+            
+            chez nous… Dans notre pays on respecte les devoirs de l'hos
+            pitalité. 
+            
+            MICHEL. 
+            
+            ·
+            
+            Silence ! incomparable Rigolo, et vous, intéressante Hélène, 
+            saluez la société. (Ils saluent.) Je vous prie de remarquer la
+            
+            manière gracieuse avec laquelle saluent mes Européens… En
+            
+            trez dans ce cercle choisi. 
+            
+            Ils vont commencer tous les deux
+            
+            par le saut du cerceau et la danse de corde. Je vous prie de
+            
+            remarquer leur souplesse. 
+            
+            Messieurs et mesdames, il vous en impose, je suis votre pri-
+            
+, 
+            
+            RIGOLO. 
+            
+. 
+            
+. 
+            
+. 
+            
+. 
+            
+… 
+            
+            3 6
+            
+            sonnier, votre propriété, tout ce qu'il vous plaira ; mais je ne
+            danserai pas sur la corde. 
+            
+'
+            
+            w ! ! 
+            HÉLÈNÉ… 
+            
+… 
+            
+            1
+            
+            Cependant, mon ami, pour nous tirer de lå… 
+            
+            •
+            
+            it BIGOLO. 
+            
+. 
+            
+. 
+            
+            in
+            
+            pollinis
+            
+            Écoutez, si vous voulez danser vous n'avez qu'à
+            
+            le dire. 
+            
+            (aux sauvages.) Madame demande à danser sur la corde. 
+            
+            Du tout, je n'ai pas l'habitude d'un pareil élément. 
+            
+            LE GRAND CHEF. 
+            
+            HÉLÈNE. 
+            
+            Ah ! ilsne veulent pas danser sur la corde ; avance, Krocmick. 
+            
+. 
+            
+            RIGOLO, à part. 
+            
+            Si le grand cuisinier s' en mêle, nous sommes cuits, et c't'a
+            
+            nimal de Bertrand qui n'arrivera qu'au dessert. (haut.) Braves
+            
+            insulaires, vous n'êtes pas des cannibales, je
+            
+            le lis dans les
+            
+            yeux de votre chef. 
+            
+            LE GRAND chef. 
+            
+            Je n'écoute plus rien ; Michel a trompé ma confiance ; il
+            
+            s'était engagé à me faire voir quelque chose, je n'ai presque
+            je veux voir ; il faut que je voie, ou sinon qu'on
+            rien vu et
+            attache ces trois Européens à ces arbres, et qu'on préparemon
+            grand couvert. 
+            
+            Comment, nous sommes trois ? 
+            
+            MICHEL. 
+            
+            RIGOLO. 
+            
+            Hélas ! oui, je suis Michel le sauteur, sauvage de contre
+            
+            bande. 
+            
+. 
+            
+. 
+            
+            AÉLÈNE. 
+            
+            Etje ne l'avais pas reconnu ! … 
+            
+            LE GRAND CAEF. 
+            
+            Krocmick, fais exécuter mes ordres. 
+            
+            (Mouvement des suuvages.)
+            
+            Je me trouve mal. 
+            
+            HÉLÈNE. 
+            
+            RIGOLO. 
+            
+            Parbleu ! et moi aussi ; mais écoutez…'
+            
+. 
+            
+            (On entend la ritournelledu chour suivant.)
+            
+            Qui vient nous déranger ? 
+            
+. 
+            
+            LE GRAND CAEF. 
+            
+            RIGOLÓ ; avec joie. 
+            
+            C'est lui ! … 
+            
+            c'est Bertrand ! … 
+            
+            Ổ mes amnis, quel espoir ! 
+            
+            (aux sauvages.) Nobles insulaires, je vous ai dit que j'étais
+            un ambassadeur ; voilà mon cortégé qui s'avance, l'heure de
+            mon triomphe approche, et votre stupidité va paraître dans
+            tout son jour. (criant.) Par ici, les autres… Accourez ! 
+            
+            37
+            
+            SCENE VIII ET DERNIERE. 
+            
+            LES mêmes, BERTRAND, Deux MATELOTS, portant une grande
+            
+            malle, qui renferme divers objets. 
+            
+            CHOEUR DE SAUVAGES. 
+            <div type="poem"> <lg>
+                
+                    <stage type="tune">Air : Finale du deuxième acte du Hussard. </stage>
+                    
+                       
+                        <l>Allons, sans tarder davantage,</l>
+                        <l>Écoutons cet ambassadeur ;</l>
+                        <l>Si nous recevons son hommage,</l>
+                        <l>C'est lui faire beaucoup d'honneur.</l>
+                    
+                
+            </lg></div>
+            
+            LE GRAND CHEF, aux sauvages. 
+            
+            Veillez toujours sur ces trois Européens, et voyons ce que les
+            
+            autres ont à nous offrir. 
+            
+            BERTRAND. 
+            
+            Tous les produits de l' industrie européenne. 
+            RIGOLO, faisant sa distribution, 
+            
+. 
+            
+            Allons, mes amis, répandez à grands flots les trésors du
+            
+            bazar Montesquieu… Il y en aura pour tout le monde… Une
+            
+            chaufferette à monsieur… une bassinoire à madame… Qui est
+            
+            ce qui a demandé un soufflet ? 
+            
+            ? "
+            
+            LE GRAND CHEF. 
+            
+            9
+            
+            ; 
+            
+            Mais tout ça ne me rend pas la vue… et comme il n' est pas
+            
+            en votre pouvoir… 
+            
+            RIGOLO. 
+            
+            ". 
+            
+            Eh bien ! c'est ce qui te trompe, sublimeKisagasougah ;. par
+            la puissance de mon art, je prétends te rendre la lumière du
+            jour. 
+            
+            En vérité ! … 
+            
+, 
+            
+            LE GRAND CHEF. 
+            
+            RIGOLO. 
+            
+            Je vais à l'instant opérer ce prodige, et je ne crains pas de le
+            
+            dire : avant qu'il soit un quart d'heure, vous me prendrez pour
+            un génie… vous me dresserez des autels… vous m'adorerez
+            comme un dieu… : et si vous êtes contens et satisfaits, voilà
+            mon adresse à Paris, rue du Grand-Hurleur, n. 53 ; ôn ne re
+            
+            çoit que les lettres affranchies. 
+            
+            (aus matelots.) Distribuez des
+            
+            adresses à ces messieurs, 
+            
+            (Les sauvages prennent les adresses.)
+            
+-
+            LE COEUR. 
+            <div type="poem">  <lg>
+                
+                MORCEAU D'ENSEMBLE. 
+                
+                
+                    <stage type="tune">Air des Empiriques d'autrefois. </stage>
+                    
+                     
+                        <l>En ces lieux la tribu toute entière</l>
+                        <l>Attend l'effet de ses discours ;</l>
+                
+                38
+                
+                        <l>Au grand chef s'il rend la lumière,</l>
+                        <l>Oui, ce sera le plus beau de ses jours.</l>
+                    
+                    
+                     LE GRAND CHEF. 
+                    
+                    <l>Savant, songe qu'si tu m'abuses,</l>
+                    <l>Je n'écout'rai pas tes excuses.</l>
+                    
+                        RIGOLO. 
+                    
+                    <l>Grand chef, en vain vous m'effrayez,</l>
+                    <l>Vous verrez bien si vous voyez…</l>
+                    
+                       
+                    
+                    
+                       HÉLÈNE. 
+                    
+                    <l>Pensez-y donc… vous vous flattez en vain</l>
+                    <l>D'rendre la vue au grand chef de cette île.</l>
+                    
+                       RIGOLO. 
+                    
+                    <l>Je l'ai rendue un jour au quinze-vingt,</l>
+                    <l>C'était, je crois, un peu plus difficile ;</l>
+                    <l>Puis-je la refuser au roi ! …</l>
+                    
+                       
+                    
+                    MICAEL, 
+                    
+                    à part. 
+                    
+                    <l>Son aplomb me glace d'effroi…</l>
+                    
+                        BERTRAND, de même. 
+                    
+                    <l>Il se croit en place publique.</l>
+                    
+                       RIGOLO. 
+                    
+                    <l>Grand chef, avancez près de moi.</l>
+                    
+                       (à Bertrand.)
+                    
+                    
+                       
+                    
+                    <l>Allumez ces flambeaux… L'art auquel je m'applique</l>
+                    <l>A besoin de clartés… je suis un charlatan</l>
+                    <l part="I">Qui travaille au grand jour…</l>
+                    
+                        BERTRAND, à part. 
+                    
+                    <l part="F">Quel banquiste étonnant !</l>
+                    
+                    
+                    
+                      RIGOLO. 
+                    
+                    <l>Silence !</l>
+                    <l>Je commence…</l>
+                    
+                        (Il prend une torche qu'il agite de temps en temps.)
+                    
+                    <l>Écoutez mes accens, ô puissant Zoroastres !</l>
+                    <l>Divin Mathieu Lansberg, astrologue fameux !</l>
+                    <l>Dans Kisagasougah j'vous adresse mes vœux :</l>
+                    <l>C'n'est pas pour lire dans les astres ;</l>
+                    <l>Mais plus loin que le bout d'son né,</l>
+                    <l>C'prince infortuné</l>
+                    <l>Voudrait pouvoir porter sa vue,</l>
+                    <l>Afin d'éviter maint' bévue…</l>
+                    
+                        LE CHOE UR. 
+                    
+                    <l>C'est vrai qu'il fait mainte bévue</l>
+                    <l>Depuis qu'il a perdu la vue.</l>
+                    
+                       39
+                    
+                    
+                       RIGOLO, agitant sa torche. 
+                    
+                    
+                       
+                   
+                    <l>Génie, rendez-lui la vue !</l>
+                
+                    LB CHOEUR
+                    
+                    <l>Génie, rendez-lui la vue !</l>
+                    
+                        RIGOLO, de même. 
+                    
+                    <l>Génie, obéis à ma voix !</l>
+                    
+                        LE CHOEUR. 
+                    
+                    <l>Génie, obéis à ma voix !</l>
+                    
+                        RIGOLO. 
+                    
+                    <l>Lumièr', je te tiens dans mes doigts.</l>
+                    
+                        LE CHOEUR. 
+                    
+                    <l>Silence, il la tient dans ses doigts.</l>
+                    
+                        RIGOLO. 
+                    
+                    <l>Lumière ! lumière !</l>
+                    <l>Lumière ! lumière !</l>
+                    
+                        RIGOLO, élevant une paire de lunettes. 
+                    
+                    <l part="I">La voici.</l>
+                    
+                        (Il met des lunettes sur le nez du grand chef.)
+                    
+                    
+                       LB GRAND CHEF. 
+                    
+                    <l part="F">Dieu ! voilà que je vois !</l>
+                    
+                    
+                        <l>Quel miracle étonnant ! je vois,</l>
+                        <l>Je vois comme autrefois.</l>
+                    
+                    
+                       CHOEUR GÉNÉRAL. 
+                    
+                    
+                     (pendant lequel Rigolo se promène d'un air triomphant.)
+                    
+                    <l>Ah ! quelle fortune imprévue !</l>
+                    <l>Chantons le savant Rigolo,</l>
+                    <l>À ce grand prince il rend la vue.</l>
+                    <l>Bravo ! bravo !</l>
+                    <l>C'est bien son numéro.</l>
+                
+            </lg></div>
+            RIGOLO. 
+            
+            Maintenant, grand chef, vous ne pouvez plus nous refuser
+            
+-votre amitié, et la permission de partir avec mon épouse. 
+            
+            Bien plus, je mets à ta disposition les mines d'or de mon
+            
+            KISAGASOUGAR. 
+            
+            royaume, s'il y en a. 
+            
+            RIGOLO. 
+            
+            En ce cas-là, je me contenterai de la inine du grand cuisinier ; 
+            et si vous voulez me permettre de l'emmener, je vous promets
+            de lui faire faire son tour de France. 
+            
+            Je te le cède… et pour terminer gaîment la journée, que les
+            
+            deux mondes se donnent la main. 
+            
+            LE GRAND CHEF. 
+            
+            40
+            
+            ! 
+            
+            (En ce moment toutes les petites sauvages donnent le bras aux
+            
+            matelots, elles agitent leurs miroirs et forment des danses, en
+            
+            chantant le chæur suivants :) *, 
+            
+            LE CHOEUR. 
+            <div type="poem"> <lg>
+                
+            <stage type="tune"> AIR : En avant, bon courage (de Trois jours dans une heure).</stage>
+            
+            
+                    <l>Ici formons des rondes,</l>
+                    <l>Dansons jusqu'à demain,</l>
+                    <l>Et qu'enfin les deux mondes</l>
+                    <l>Chez nous se donn'nt la main.</l>
+                
+            </lg></div>
+            
+            FIN DU DEUXIÈME ET DERNIER ACTE. 
+            
+            Österreichische Nationalbibliothek
+            
+            + Z160379801
+        </body>
+    </text>
+</TEI>

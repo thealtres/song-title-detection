@@ -1,0 +1,2829 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE FOSSÉ DES TUILERIES</title>
+                <title type="sub">REVUE-VAUDEVILLE EN UN ACTE</title>
+                <author key="DNR" sort="1">
+                    <name>
+                        <forename>Philippe-François</forename>
+                        <surname>Pinel</surname>
+                        <addname type="pen_name">Dumanoir</addname>
+                        <addname type="pen_name">Philippe Dumanoir</addname>
+                        <addname type="pen_name">Philippe D.</addname>
+                        <addname type="pen_name">Philippe D***</addname>
+                    </name>
+                </author>
+                <author key="DML" sort="2">
+                    <name>
+                        <forename>Julien Étienne Charles</forename>
+                        <surname>De Maillan</surname>
+                        <addname type="pen_name">Julien</addname>
+                        <addname type="pen_name">Julien de M.</addname>
+                        <addname type="pen_name">Julien de M***</addname>
+                    </name>
+                </author>
+                <author key="LVY" sort="3">
+                    <name>
+                        <forename>Léon-Victor</forename>
+                        <surname>Lévy</surname>
+                        <addname type="pen_name">Victor Lhérie</addname>
+                        <addname type="pen_name">Lhérie</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+               <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE FOSSÉ DES TUILERIES</title>
+                        <author>PHILIPPE D***, JULIEN DE M** ET LHÉRIE</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=WV1oAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>The British Library</repository>
+                                <idno type="URL">http://access.bl.uk/item/viewer/ark:/81055/vdc_100032941213.0x000001#?c=0</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-12-10">10 DÉCEMBRE 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES VARIÉTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            LE FOSSÉ
+            
+            DES TUILERIES, 
+            
+            REVUE-VAUDEVILLE EN UN ACTE, 
+            
+            k
+            
+            Par MM. Philippe D ***, Julien de M** et Chérie, 
+            
+            REPRÉSENTÉE, POUR LA PREMIÈRE Fois, 
+            
+            SUR LE THÉATRE DES VARIÉTÉS, le 10 DÉCEMBRE 11831. 
+            
+            Avec les scènes supprimées par ordonnance
+            
+            de la CENSURE de 1831. 
+            
+            Art. 7 de la Charte de 1830. 
+            
+            « La Censure ne pourra
+            
+            « jamais être rétablie. 
+            
+            &amp; gt ;) 
+            
+            PRIX : 1 FR. 50 c. 
+            
+            PARIS. 
+            
+            J. N. BARBA, LIBRAIRE, 
+            
+            PALAIS-ROYAL
+            
+            7
+            
+            GRANDE COUR, DEGRIÈRE LE THÉATRE-FRANÇAIS. 
+            
+            1832
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            LE PARISIEN. 
+            
+            W R I T I S H
+            
+            MONSIEUR DUCROC. 
+            
+            CROC
+            
+            ROBERT-LE-DIABLE, 
+            
+            LA CONFÉRENCE DE LONDRES, 
+            
+            LE JUIF ERRANT. 
+            
+            LE BUDGET. 
+            
+            UN BOULANGER. 
+            
+            PREMIER BOURGEOIS. 
+            
+            DEUXIÈME BOURGEOIS. 
+            
+            UN FACTIONNAIRE. 
+            
+            MM. DAUDEL. 
+            
+            BRUNET. 
+            
+            ODRY. 
+            
+            LAÉRIE. 
+            
+            Cazor. 
+            
+            Lefèvre. 
+            
+            DUBREUIL. 
+            
+            MANUEL. 
+            
+            GEORGES. 
+            
+            LE LUTIN DES TUILERIES, 
+            
+            Mmes ÉLISA-JACOPS. 
+            
+            ASPASIE, cantatrice. 
+            
+            SAUTERELLE, danseuse. 
+            
+            JENNY-OLIVIER. 
+            
+            CÉLINE-CAYOT. 
+            
+            CALYPSO, modiste. 
+            
+            Augustine. 
+            
+            TROIS ESCROCS. 
+            
+            CAOEUR DE BOURGEOIS. 
+            
+            La scène se passe au jardin des Tuileries. 
+            
+            S'adresser, pour avoir la musique de cet ouvrage, à M. Ch. TOLBECQUE, 
+            
+            chef d'orchestre du Théâtre des Variétés : 
+            
+            IMPRIMERJE DE E. DU VERGER
+            
+            rue de Verneuil, n, l. 
+            
+            28 r0888
+            
+            DES TUILERIES, 
+            
+            REVUE-VAUDEVILLE. 
+            
+            SCENE PREMIERE. 
+            
+            LE PARISIEN, MONSIEUR DUCROC, MADAME DUCROC, 
+            
+            FOULE DE CURIEUX. 
+            
+            CHOEUR DE CURIEUX, tournés du côté du fossé. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR des Gardes marines. </stage>
+            
+            
+                    <l>Ce fossé, ce fossé</l>
+                    <l>Dont l'aspect nous désespère, <stage type="repetition"> }bis. </stage></l>
+                    <l>Et qu'on creuse avec mystère, </l>
+                    <l>Ce fossé, pourquoi le faire ? </l>
+                    <l>Ce travail, qu'on dit pressé, </l>
+                    <l>Pourquoi fut-il commencé ? </l>
+                </lg>
+            </div>
+            
+            
+            LE PARISIEN, les rassemblant autour de lui. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR Vaudeville des Maris ont tort. </stage>
+            
+            
+                    <l>C'est un mystère impénétrable</l>
+                    <l>Et que nous devons respecter ; </l>
+                    <l>Oui, que chacun soit raisonnable</l>
+                    <l>Et cesse de s'inquiéter. </l>
+                    <l>Le gouvernement veut se taire ; </l>
+                    <l>Soit : que deviendrait son crédit, </l>
+                    <l>S'il disait tout ce qu'il veut faire…</l>
+                    <l>Et s'il faisait tout ce qu'il dit ? </l>
+            
+                </lg>
+            </div>
+            
+            DUCROC, entrant par la droite de l'acteur et s'adressant de sa femme
+            
+            qui le suit. 
+            
+            Par ici, Bibiche… par ici ! … Si je ne me trompe, nous voilà
+            
+            aux Tuileries, sous les gros maronniers… Ah ! que je suis in
+            quiet, et qu'il me tarde d'éclaircir mes doutes ! … 
+            
+            Ce monsieur parait bien agité. 
+            
+            LE PARISIEN, à part. 
+            
+            DUCROC, allant d lui. 
+            
+            Pardon, monsieur, si je vous aborde un peu cavalièrement… 
+            
+            mais j'arrive à l'instant par la barrière de l'Étoile, en coucou, 
+            
+            avec mon épouse, que je vous présente… Dieu ! monsieur, 
+            
+            4
+            
+            quelle est belle ! 
+            
+            LE PARISIEN. 
+            
+            Madame votre épouse ? 
+            
+            DUCROC. 
+            
+            Eh ! non, monsieur… la barrière de l'Étoile… Cette avenue
+            
+            des Champs-Élysées, ce Garde-meubles, cette Chambre des dé
+            
+            putés qui fait face… 
+            
+            LE PARISIEN. 
+            
+            Comment dites-vous cela ? 
+            
+            Je dis : qui fait face… 
+            
+            DU CROC. 
+            
+            LE PARISIEN. 
+            
+            Ah ! oui… à toutes les dépenses, à tous les besoins de l'Etat. 
+            
+            DUCROC… 
+            
+            Eh ! non, monsieur, qui fait face au garde-meubles… je vous
+            
+            le répète, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : J'ai vu le Parnasse des dames. </stage>
+            
+            
+                    <l>C'est vraiment un coup d'œil magique, </l>
+                    <l>Et fait pour enchanter les yeux : </l>
+                    <l>Le monument est magnifique ; </l>
+                    <l>Et son abord majestueux. </l>
+                    <l>Ce pont… cette blanche cohorte</l>
+                    <l>De grands hommes placés en rangs…</l>
+            
+                    LE PARISIEN. 
+            
+                    <l>Les grands hommes sont à la porte. </l>
+            
+                    DUCROC. 
+            
+                    <l>Mais qu'est-ce donc qu'on met dedans ? </l>
+                </lg>
+            </div>
+            
+            
+            LE PARISIEN. 
+            
+            Ah ! ma foi, quant à ceux qu'on met dedans, ça ne manque
+            
+            pas, je vous en réponds… et si vous venez pour cela… 
+            
+            DUCROC. 
+            
+            Non, pas positivement… Je viens, comme je vous le disais, 
+            
+            pour m'assurer, visu sensuque, de l'exactitude de certaine his
+            
+            toire qui fait furieusement jaser dans mon endroit… Est-il vrai, 
+            
+            monsieur, qu'on fortifie le palais des Tuileries ? 
+            
+            LE PARISIEN, étonné, 
+            
+            On fortifie les Tuileries ! 
+            
+            DUCROC. 
+            
+            Les remparts sont-ils achevés ? … commence-t-on à les garnir
+            
+            d'artillerie ? 
+            
+            Vous voulez rire. 
+            
+            LE PARISIEN. 
+            
+            DUCROC. 
+            
+            Rire, avec des fortifications ! … du tout, monsieur, du tout ; 
+            
+            5
+            
+            je vous parle très sérieusement… Il n'est question dans toute
+            
+            la banlieue que de palissades, de fossés… 
+            
+            LE PARISIEN. 
+            
+            Là ! encore ce malheureux fossé ! … nous n'en sortirons ja
+            
+            mais. 
+            
+            DUCROC. 
+            
+            Ah ! çà, il en existe donc réellement un ? 
+            
+            LE PARISIEN. 
+            
+            Oui, certes ; mais quant aux fortifications… 
+            
+            DUCROC. 
+            
+            C'est égal, monsieur, c'est égal ; vous en convenez… il y a
+            
+            un fossé ! 
+            
+            UN BOURGEOIS. 
+            
+            De trente-six pieds, monsieur ! 
+            
+            DEUXIÈME BOURGEOIS. 
+            
+            Que dites-vous, monsieur P… 
+            
+            il a soixante-douze pieds de
+            
+            profondeur, et quant à la largeur… 
+            
+            DUCROC. 
+            
+            Oh ! qu'est-ce que j'entends là ? … et sait-on dans quel but il
+            
+            est fait ? 
+            
+            DEUXIÈME BOURGEOIS. 
+            
+            Pour loger la giraffe. 
+            
+            DUCROC. 
+            
+            Allons donc ! … c'est peut-être bien pour faire un réservoir, 
+            
+            dans le cas où la Seine viendrait à se dessécher l'été prochain. 
+            
+            LE PARISIEN. 
+            
+            Vous n'y êtes pas, messieurs… Un motif grave, auquel la po
+            
+            litique n'est pas étrangère, nécessite-ces importans travaux… 
+            
+            En cas de guerre, en cas d'invasion, n'a-t-on
+            
+            pas
+            
+            dú songer à
+            
+            soustraire notre gloire nationale au vandalisme de l'ennemi ? …, 
+            
+            que faire pour cela ? … l'éloigner de leurs regards, l'enterrer. 
+            
+            DUCROC. 
+            
+            Ah ! on veut enterrer notre gloire ? … 
+            
+            LE PARISIEN. 
+            
+            On s'en occupe… et c'est dans ce fossé qu'on cachera la co
+            
+            lonne de la place Vendôme. 
+            
+            DUCROC. 
+            
+            La colonne de la place Vendôme ! … ah ! par exemple, quand
+            
+            vous me ferez avaler celle-là… 
+            
+            On en avale bien d'autres maintenant. 
+            
+            LE PARISIEN. 
+            
+            (On entend un grand bruit, au milieu duquel on distingue la voix
+            
+            du lutin.)
+            
+            TOUS. 
+            
+            O mon Dieu ! qu'y a-t-il ? 
+            
+            En effet… 
+            
+            6
+            
+            DUCROC. 
+            
+            LE PARISIEN. 
+            
+            On accourt de ce côté… quel étrange personnage ! … 
+            
+            SCENE II. 
+            
+            LES MÊMES, LE LUTIN DES TUILERIES, vêtu de rouge… 
+            
+            LE LUTIN. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR des Poletais. </stage>
+            
+            
+                    <l>Dépêchons ; <stage type="repetition"> (ter.)</stage></l>
+                    <l>Oui, j'ai pris bien vite</l>
+                    <l>La fuite. </l>
+                    <l>Dépêchons ; <stage type="repetition"> (ter.)</stage></l>
+                    <l>Grace au ciel, nous leur échappons. </l>
+            
+            
+                    Qui êtes-vous donc ? 
+            
+                    LE PARISIEN. 
+            
+                    LR LUTIN. 
+            
+                    Le génie protecteur de ces lieux, le lutin des Tuileries. 
+            
+                    Un lutin ! … un génie ! … 
+            
+                    TOUS. 
+            
+                    LE LUTIN. 
+            
+                    <l>Amis, n'ayez pas peur ; </l>
+                    <l>Car c'est le malheur</l>
+                    <l>Qui vers vous ici</l>
+                    <l>Me conduit ainsi. </l>
+                    <l>Ah ! par charité, </l>
+                    <l>Donnez-moi l'hospitalité. </l>
+            
+                    TOUS. 
+            
+                    <l>Dépêchons ; <stage type="repetition"> (ter.)</stage></l>
+                    <l>Sur votre fuite</l>
+                    <l>Parlez vite. </l>
+                    <l>Dépêchons ; <stage type="repetition"> (ter.)</stage></l>
+                    <l>Parlez et nous vous écoutons. </l>
+                </lg>
+            </div>
+            
+            LE LUTIN. 
+            
+            Eh bien ! mes amis, apprenez que je suis proscrit, chassé de
+            
+            ma retraite. 
+            
+            De votre retraite ? 
+            
+            LE PARISIEN. 
+            
+            7
+            
+            LE LUTIN. 
+            
+            Oui, d'un coffre, portant
+            
+            la date de 1631, 
+            
+            et
+            
+            qu'on
+            
+            vient de retirer des fouilles qui se pratiquent en ce moment. 
+            
+            Comment ! vous étiez dans le coffre depuis 1631 ? 
+            
+            LE LUTIN. 
+            
+            DUCROC. 
+            
+            Oui, mon vieux, j'étais coffré depuis ce temps-là. 
+            
+            DUCROC. 
+            
+            Alors, mon jeune, vous devez être fièrement arriéré. 
+            
+            2
+            
+            LE LUTIN. 
+            
+            Mais pas trop… attendu que je pouvais parcourir librement le
+            
+            jardin, le château, et me tenir à la hauteur du siècle… Que de
+            
+            galans rendez-vous, que de secrets d'amour j'ai surpris, là… 
+            
+            sousces ombrages… et au palais, que de fois je me suis assis à
+            
+            la table et au conseil des rois ! … 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR du Malade par circonstance. </stage>
+            
+            
+                    <l>Grand Dieu ! que j'ai vu de choses</l>
+                    <l>Et compté d'événemens ! </l>
+                    <l>Combien de métamorphoses, </l>
+                    <l>Et combien de changemens ! </l>
+                    <l>Dans ces salons magnifiques</l>
+                    <l>L'ancien régime d'abord, </l>
+                    <l>Avec ses pompes antiques, </l>
+                    <l>Avec son luxe et son or. </l>
+                    <l>Puis, pour se montrer habile, </l>
+                    <l>J'ai vu la Convention</l>
+                    <l>Y fixer son domicile…</l>
+                    <l>Mais le bail ne fut pas long. </l>
+                    <l>Puis, après mainte équipée, </l>
+                    <l>Remplissant tout de son nom</l>
+                    <l>Et ceint de sa grande épée, </l>
+                    <l>L'Empereur Napoléon ! </l>
+                    <l>Alors, des plans de campagne, </l>
+                    <l>Des routes et des canaux ; </l>
+                    <l>La Victoire pour compagne, </l>
+                    <l>Autour de moi des héros ! </l>
+                    <l>Puis, l'orage qui désole</l>
+                    <l>Éclatant sur le château, </l>
+                    <l>Puis, un aigle qui s'envole</l>
+                    <l>En emportant un drapeau…</l>
+                    <l>Grand Dieu, que j'ai vu de choses</l>
+                    <l>Et compté d'événemens ! </l>
+                    <l>Combien de métamorphoses, </l>
+                    <l>Et combien de changemens ! </l>
+            
+                </lg>
+            </div>
+            
+            8
+            
+            LE PARISIEN. 
+            
+            En ce cas, vous savez ce qui s'est passé en juillet ? 
+            
+            LE LUTIN. 
+            
+            Je le crois bien ! … Je n'ai eu que le temps de regagnerma ca
+            
+            chette, et je n'en suis sorti que lorsque j'ai aperçu par le trou
+            
+            de la serrure… (en confidence.) des habits brodés, des galons… 
+            
+            enfin, des courtisans, au milieu desquels je ne tardai pas à dis
+            
+            tinguer quelques figures de connaissance… qui dataient au moins
+            
+            du directoire ou de l'empire. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Turenne. </stage>
+            
+                    <l>Chez nous il est certaine race, </l>
+                    <l>Bravant les révolutions, </l>
+                    <l>Tenant ferme, restant en place, </l>
+                    <l>N'ayant d'autres opinions</l>
+                    <l>Que celle de leurs pensions. </l>
+                    <l>Variant sans cess' leur allure, </l>
+                    <l>Ce sont des gens vraiment adroits, </l>
+                    <l>Qui chang'nt de visage vingt fois…</l>
+                    <l>Et font toujours la mêm' figure. </l>
+            
+                </lg>
+            </div>
+            
+            Toujours les mêmes ? 
+            
+            DUCROC. 
+            
+            LE LUTIN. 
+            
+            Toujours… Ils sont restés à leurs places, eux, tandis que
+            
+            moi… me voilà sans refuge, sans asile… 
+            
+            LE PARISIEN. 
+            
+            Comptez sur nous. 
+            
+            Oui, comptez sur nous ! 
+            
+            TOUS. 
+            
+            LE LUTJN. 
+            
+            Eh bien ! donc, vengez-moi ! 
+            
+            LE PARISIEN. 
+            
+            Vous venger ! … et comment ? 
+            
+            LE LUTIN. 
+            
+            En comblant ce vilain fossé qui vous inquiète tant, et qui a
+            
+            été la cause de ma ruine. 
+            
+            LE PARISIEN. 
+            
+            Le combler ! et avec quoi ? 
+            
+            C'est bien facile… Jetez-y toutes les mauvaises choses… tou
+            
+            tes celles qui sont passées de mode… enfin, tout ce qu'il y a de
+            
+            LE LUTIN. 
+            
+            1
+            
+            trop en France. 
+            
+            DUCROC. 
+            
+            Diable ! nous aurons de l'ouvrage. 
+            
+            LE LUTIN. 
+            
+            M'approuvez-vous, mes amis ? 
+            
+            Oui, oui ! 
+            
+            9
+            
+            TOUS. 
+            
+            LE LUTIN. 
+            
+            Alerte, donc ! et ne perdons pas de temps. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : J'ai d'l'argent. </stage>
+            
+            
+                    <l>Au fossé ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Tout c'qui de mode est passé ! </l>
+                    <l>Au fossé ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Que l'mauvais soit enfoncé ! </l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Au fossé, etc. <stage type="repetition"> (bis.)</stage></l>
+            
+                    LE PARISIEN. 
+            
+                    <l>Les billets à terme échus, </l>
+                    <l>Les billets-doux non reçus, </l>
+                    <l>Les billets de garde encor…</l>
+                    <l>Avec le sergent-major. </l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Au fossé, etc. <stage type="repetition"> (bis.)</stage></l>
+            
+                    LB LUTIN. 
+            
+                    <l>Ce roman leste et nouveau</l>
+                    <l>Affiché sur chaqu' carreau, </l>
+                    <l>Et dont le titre imprévu</l>
+                    <l>Des maris est trop connu…</l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Au fossé, etc. <stage type="repetition"> (bis.)</stage></l>
+                </lg>
+            </div>
+            
+            
+            LE PARISIEN. 
+            
+            Mais quel est ce gros homme qui nous arrive ? … Eh ! je le
+            
+            reconnais… c'est le Budget ! 
+            
+            SCENE IIS. 
+            
+            LES MÊMES, M. BUDGET, DEUX ENFANS. 
+            
+            (M. Budget est d'une grosseur enorme, vêtu très richement, et
+            
+            porte pour coiffure un sac de mille francs, surmonté d'une plume ; 
+            
+            d'autres sacs pleins d'écus sortent de ses poches. Les deux enfans, 
+            
+            couverts de toile grise de la tête aux pieds, figurent deux grands
+            
+            sacs, avec cette inscription : 100 millions ; ils sont coiffés comme
+            M. Budget.)
+            
+            M. BUDGET. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Faut d'la vertu, pas trop n'en faut.</stage>
+            
+            
+                    <l>À peine puis-je faire un pas ; </l>
+            
+                    Le Fossé des Tuileries. 
+            
+                    10
+            
+                    <l>Je suis si gros, je suis si gras ! </l>
+                    <l>Mes amis, voilà le Budget, </l>
+                    <l>Tel que la Chambre vous l'a fait. </l>
+            
+                    <l>Ils m'ont fait tant manger au centre, </l>
+                    <l>Que j'crains les indigestions : </l>
+                    <l>Rien n'fatigu' l'estomac et l'ventre</l>
+                    <l>Comme des contributions. </l>
+                    <l ana="unanalyzable">À peine puis-je faire un pas, etc. </l>
+            
+                    <l>Ces messieurs s'sont dit, et pour cause : </l>
+                    <l>Engraissons c't excellent milliard ; </l>
+                    <l>Pour lui si nous f'sons quelque chose, </l>
+                    <l>Il nous rendra cela plus tard…</l>
+                    <l ana="unanalyzable">À peine puis-je faire un pas, etc. </l>
+                </lg>
+            </div>
+            
+            
+            LE PARISIEN. 
+            
+            Comment ça va-t-il, seigneur Budget ? 
+            
+            M. BUDGET. 
+            
+            Pas mal, comme vous voyez… ça ne fait que croître et em
+            
+            bellir. 
+            
+            LE PARISIEN. 
+            
+            Et quels sont ces deux petits particuliers qui vous suivent ? 
+            
+            Ce sont deux petits crèdits supplémentaires ». qui se tiennent
+            
+            M. BUDGET. 
+            
+            tout prêts. 
+            
+            LE PARISIEN. 
+            
+            Voilà des petits drôles que je n'aime guère… Quand cesse
+            
+            rons-nous d'entendre parler de vous, Budget ? 
+            
+            M. BUDGET. 
+            
+            Jamais… je suis inamovible, à perpétuité. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Je loge au quatrième étage. </stage>
+            
+            
+                    <l>Les trônes tombent, les rois passent, </l>
+                    <l>Des destins on change le cours, </l>
+                    <l>Les fleurs de Lis même s'effacent ; </l>
+                    <l>Mais le Budget reste toujours. </l>
+                    <l>Lorsque le ciel, dans sa colère, </l>
+                    <l>Brisera notre globe abject, </l>
+                    <l>Le dernier homme sur la terre</l>
+                    <l>Viendra s'payer l'impôt direct. </l>
+            
+                </lg>
+            </div>
+            
+            · LE LUTIN. 
+            
+            Monsieur Budget, la France vous trouve trop gros de moitié, 
+            
+            et, pour vous faire maigrir, je vous condamne au fossé. 
+            
+            O ciel ! 
+            
+            M. BUDGET. 
+            
+            11
+            
+            SCENE IV. 
+            
+            LES MÊMES, ASPASIE, SAUTERELLE, CALYPSO. 
+            
+            TOUTES TROIS, courant à Budget, qu'elles entourent. 
+            
+            Le voilà ! … le voilà ! … 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Valse de Léocadie. </stage>
+            
+            
+                    <l>Budget aimable ! </l>
+                    <l>Crésus adorable ! </l>
+                    <l>Viens au secours</l>
+                    <l>Des pauvres amours. </l>
+                </lg>
+            </div>
+            
+            
+            M. BUDGET. 
+            
+            Qui êtes-vous, mesdemoiselles ? … M'apportez-vous de l'ar
+            
+            gent ? 
+            
+            De l'argent ! 
+            
+            TOUTES TROIS. 
+            
+            ASPASIE, 
+            
+            Je suis Aspasie, cantatrice. 
+            
+            SAUTER ELLE. 
+            
+            Moi, Sauterelle, danseuse de l'Opéra. 
+            
+            CALYPSO. 
+            
+            Et moi, Calypso, marchande de modes… toutes trois artistes, 
+            
+            comme vous voyez. 
+            
+            M. BUDGET. 
+            
+            Artistes ! …, alors, vous venez m'en demander… Vous de
+            
+            vriez en avoir, mesdemoiselles… vous êtes dans les contribu
+            
+            tions indirectes. 
+            
+            ASPASIE. 
+            
+            Nous sommes des victimes de la révolution ! 
+            
+            SAUTEKELLE. 
+            
+            Les théâtres sont vides, et les cabinets de lecture sont pleins. 
+            
+            ASPASIE. 
+            
+            C'est vrai… ces messieurs ne s'occupent plus que de poli
+            
+            tique. 
+            
+            CALYPSO. 
+            
+            Ils ne viennent plus, le soir, regarder aux carreaux de la
+            
+            boutique… Avec ça, j'ai perdu mon petit lieutenant de la garde
+            
+            royale. 
+            
+            SAUTERELLE. 
+            
+            Cette pauvre Calypso ! elle ne peut se consoler du départ
+            
+            d'Ulysse. 
+            
+            12
+            
+            ASPASIE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Tra, là, là. </stage>
+            
+            
+                    <l>Ça n'va plus ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Nos efforts sont superflus. </l>
+                    <l>Ça n'va plus ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Le bon temps n'existe plus. </l>
+            
+                    TOUTES TROIS. 
+            
+                    <l ana="unanalyzable">Ça n'va plus ! etc. </l>
+            
+                    ASPASIE. 
+            
+                    <l>Par nos accents enchanteurs</l>
+                    <l>Nous ne charmons plus les cœurs : </l>
+                    <l>La cadence, le fausset…</l>
+                    <l>C'est comme si l'on chantait. </l>
+                    <l>Ça n'va plus ! <stage type="repetition"> (bis.)</stage></l>
+                    <l>Nos efforts sont superflus. </l>
+            
+                    CALYPSO, 
+            
+                    SAUTERELLE. FR
+            
+                    <l>Ça n'va plus. <stage type="repetition"> (bis.)</stage></l>
+                    <l>Le bon temps n'existe plus. </l>
+            
+                    SAUTERE LLE. 
+            
+                    <l>Dans un ballet gracieux, </l>
+                    <l>Nous déployons à leurs yeux</l>
+                    <l>Un pas brillant et léger…</l>
+                    <l>Ils lisent le Messager ! </l>
+                    <l ana="unanalyzable">Ça n'va plus, etc. </l>
+            
+                    CALYPSO. 
+            
+                    <l>Je possède pour amant</l>
+                    <l>Un clerc d'notaire charmant : </l>
+                    <l>Jadis il était tout d'feu…</l>
+                    <l>D'puis qu'il est juste milieu…</l>
+                    <l ana="unanalyzable">Ça n'va plus, etc. <stage type="repetition"> (bis.)</stage></l>
+                </lg>
+            </div>
+            
+            
+            MONSIEUR BUDGET, gravement. HERHAVEN
+            
+            Tout ça ne me regarde pas… je pense à mes douzièmes pro
+            visoires… et à mettre un impôt sur les gardes nationaux qui
+            
+            vont aux exercices à feu. 
+            
+-iloc
+            
+            auto
+            
+            ASPASIE. 
+            
+            Voyons, monsieur Budget, faites quelque chose pour les
+            
+            arts. 
+            
+            Chante pour lui, séduis-le. 
+            
+            SAUTERELLE, d Aspasie. 
+            
+            PhotoDTS
+            
+            ASPASIE. 
+            
+            PREMIER COUPLET. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de M. Etienne Thénard (dans le Brigand napolitain.)</stage>
+            
+            
+                    <l>Sois donc aimable et tendre, </l>
+            
+                    13
+            
+                    <l>Budget, entends nos vœux : </l>
+                    <l>Tu devrais bien comprendre</l>
+                    <l>De toi ce que je veux. </l>
+                    <l>Ne va pas t'en défendre ; </l>
+                    <l>Nos cœurs n'sont pas ingrats, </l>
+                    <l>Et nous saurons te rendre</l>
+                    <l>Ce que tu nous donn'ras. </l>
+                    <l ana="unanalyzable">Tra, là, là, là, etc. </l>
+            
+                    DEUXIÈME COUPLET. 
+            
+                    <l>Pour plaire, la toilette</l>
+                    <l>Seconde les appas : </l>
+                    <l>Dame, artiste, ou grisette</l>
+                    <l>Chacune est dans ce cas. </l>
+                    <l>Ah ! je te le répète, </l>
+                    <l>Nos cœurs n'sont pas ingrats : </l>
+                    <l>Nous mettrons en toilette</l>
+                    <l>Ce que tu nous donn'ras. </l>
+                    <l ana="unanalyzable">Tra, la, la, la, là, etc. </l>
+                </lg>
+            </div>
+            
+            
+            LES TROIS Femmes, d monsieur Budget. 
+            
+            Eh bien ? … 
+            
+            MONSIEUR BUDGET. 
+            
+            J'aimerais mieux un impôt sur les homards. 
+            
+            ASPASIE, à Sauterelle. 
+            
+            Danse pour lui, séduis-le. 
+            
+            (Sauterelle danse un pas.)
+            
+            LES TROIS FEMMES, d monsieur Budget, après la danse. 
+            
+            Eh bien ? … 
+            
+            MONSIEUR BUDGET. 
+            
+            J'aimerais mieux un impôt sur les omelettes soufflées. 
+            
+            CALYPSO, s'avançant et faisant la révérence. 
+            
+            Quant à moi, qui suis marchande de modes… 
+            
+            « Daignez m'épargner le reste. » 
+            
+            MONSIEUR BUDGET, fredonnant. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    (Reprise du chœur.)
+            
+                <stage type="tune" id="AIR de la Valse de Léocadie."></stage>
+                    LES TROIS FEMMES. 
+            
+                    <l ana="unanalyzable">Budget aimable, etc. </l>
+                </lg>
+            </div>
+            
+            
+            MONSIEUR BUDGET. 
+            
+            Laissez-moi, je n'ai pas de monnaie ! 
+            
+            Au fossé, le gros Budget ! 
+            
+            LE LUTIN, indigné. 
+            
+            (On le pousse vers le fossé. Les trois femmes saisissent et entraînent
+            
+            les crédits supplémentaires.)
+            
+            
+            
+            <div type="poem">
+                <lg>
+                   (Reprise du chœur.)
+             <stage type="tune" id="AIR : J'ai d' l'argent."></stage>
+            
+                    <l ana="unanalyzable">Au fossé, etc. </l>
+                </lg>
+            </div>
+            
+            
+            14
+            
+            SCENE V. 
+            
+            Les mêmes, hors M. BUDGET, ASPASIE, SAUTERELLE
+            
+            ET CALYPSO. 
+            
+            LA CONFÉRENCE DE LONDRES, UN ANGLAIS, UN RUSSE, UK. 
+            
+            Prussien et un AUTRICHIEN, distingués par leurs uniformes. 
+            
+            L'Anglais conduit en lesse le Russe, le Prussien et l'Autrichien, 
+            
+            auxquels il fait faire plusieurs saluts. L'orchestre joue l'air : God
+            
+            save the King. 
+            
+            Quels sont ces messieurs ? 
+            
+            L'ANGLAIS *. 
+            
+            LUTIN. 
+            
+            Quel est ce petit être hétérogène et fantastique ? 
+            
+            LE LUTIN. 
+            
+            Le Lutin des Tuileries, qui veut savoir ce qui vous amène en
+            
+            ces lieux. 
+            
+            L'ANGLAIS
+            
+            Petit être, je suis la Conférence de Londres en personne… 
+            
+            c'est-à-dire, en cinq personnes, qui ont de l'esprit comme… 
+            
+            LE PARISIEN. 
+            
+            Mais vous n'êtes que quatre. 
+            
+            L'ANGLAIS. 
+            
+            Voilà ce que c'est… ce diable de Français ne se laisse pas
+            
+            toujours conduire. (montrant un 4 * ruban qui pend.) Il n'a pas
+            
+            voulu de cette faveur
+            
+            LE LUTIN. 
+            
+            Et que venez-vous faire ici ? 
+            
+            L'ANGLAIS. 
+            
+            Des protocoles… un tas de protocoles ! (appelant.) Une table
+            
+            et ses accessoires ! (on apporte une table, avec plumes, etc.)
+            
+            (L'Anglais, le Russe, le Prussien et l'Autrichien prennent place ; 
+            
+            le Lutin sort avec la foule.)
+            
+            LE PARISIEN. 
+            
+            Pendant l'absence du Français ? … Ce n'est pas juste… je ré
+            
+            clame sa place. 
+            
+            L'ANGLAIS. 
+            
+            Avec plaisir, Français… Assieds-toi là, grand peuple ! peuple
+            
+            généreux ! grand combattant… toi qui as donné des coups de
+            
+            sabre dans la figure de tous les peuples de l'Europe… veux-tu
+            
+            un tabouret sous les pieds, nation héroïque ? 
+            
+            LE PARISIEN. 
+            
+            Allons, voyons, pas tant de politesse… ça ne prend plus. 
+            
+            L'ANGLAIS. 
+            
+            Mes enfans', nous ne sommes pas ici pour rire… ni pour faire
+            
+            * Ce rôle se joue en baragouinant. 
+            
+            15
+            
+            des farces, mais pour faire des protocoles… Il faut que chacun
+            
+            mette la main à l'oeuvre… Russe, prends le grattoir et les pains
+            
+            à cacheter… Prussien, tiens l'encrier… Autrichien, la sandara
+            
+            que… Toi, Français, prends le canif… Non ! pas de fer dans tes
+            
+            mains… à toi la plume, peuple frivole et léger… Moi, je me
+            
+            réserve la pensée, et ceci… 
+            
+            (Il prend la poudrière.) Le premier
+            
+            point, en politique, est de jeter de la poudre aux yeux. (Il jette
+            
+            de la poudre aux yeux du Russe, du Prussien et de l'Autrichien ; 
+            
+            le lutin, reparaissant, étend sa baguette et le Parisien s'endort.)
+            
+            PREMIER COUPLET. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : C'est l'Angleterre. </stage>
+            
+            
+                    <l>C'est l'Angleterre</l>
+                    <l>Qui m'donn' ce rôle intéressant, </l>
+                    <l>Et je veux de toute la terre</l>
+                    <l>Fair' le bonheur… en commençant</l>
+                    <l>Par l'Angleterre. </l>
+            
+                    DEUXIÈME COUPLET. 
+            
+                    <l>C'est l'Angleterre</l>
+                    <l>Qui termin' tous les différends : </l>
+                    <l>Pour un pays on s'fait la guerre ; </l>
+                    <l>J'arrang' l'affaire… et je le prends</l>
+                    <l>Pour l'Angleterre. </l>
+                </lg>
+            </div>
+            
+            
+            (Arec emphase.)
+            
+            Mes amis, la Sainte-Alliance et ses riantes conséquences ont
+            
+            déjà… Tiens ! il s'est endormi, le Français ? (Les autres font un
+            
+            moutement.) Ne l'éveillez pas ! que ce caprice ne change rien à
+            
+            nos délibérations… il fait acte de présence… tout est dans les
+            
+            règles… Il s'agit donc, mes enfans, de la Belgique et de la Hol
+            
+            lande… il s'agit de cimenter l'amitié de deux peuples qui se haïs
+            
+            sent cordialement… La Conférence déclare d'abord
+            
+            que
+            
+            la Bel
+            
+            gique est située au sud de la Hollande… bien ! très bien ! … de plus, 
+            
+            que la Hollande est située au nord de la Belgique… parfait ! … 
+            
+            Y a-t-il objection ? Non… adopté à l'unanimité… Si au contraire
+            
+            la Hollande était au sud de la Belgique, ce serait bien différent, 
+            
+            et vous auriez raison… mais remarquez qu'elle pourrait être
+            
+            aussi à l'ouest… Eh bien ! et le Rhin ? … car vous n'y pensez pas, 
+            
+            au Rhin… il coulerait donc à contre-sens, le Rhin ? … Noustom
+            
+            berions dans l'absurde, et toute l'Europe dirait : voila cinqim
+            
+            bécilles… Comment sortir de là ? … Il y a un moyen infaillible, 
+            
+            un moyen charmant : que la France cède Alger à l'Angleterre… 
+            
+            adopté… signons. (Le Parisien, toujours endormi, commence à s'a
+            
+            giter.) Un instant ! … entre peuplescivilisésil faut être honnête… 
+            
+            Je vais lui en toucher deux mots… il dort, mais ça ne fait rien… 
+            
+            (Il se penche vers le Parisien endormi.) Vous devriez bien nous
+            
+            céder Alger, voisin ? … Les petits cadeaux entretiennent l'amitié… 
+            
+            16
+            
+            C'est un bien vilain pays que votre Alger ! … Un pays ou les cou
+            
+            leuvres viennent manger votre soupe, et ou les Bédoins prennent
+            
+            votre montre pour aller au café… ils sont bien embêtans, les Bé
+            
+            doins ! bien désagréables en société… Peuple charmant, qu'as
+            
+            tu besoin de commerce et de colonies ? Fais des vaudevilles, 
+            
+            troubadour de peuple ! … Allons, c'est convenu, vous nous cédez
+            
+            Alger. (Le Lutin reparaissant, étend sa baguette, le Parisien s'éveille
+            
+            tout à coup.)
+            
+            Vous céder Alger ! … 
+            
+            LE PARISIEN. 
+            
+            L'ANGLAIS. 
+            
+            Allons ! voilà le lion qui s'éveille… enfoncé ! 
+            
+            LE PARISIEN. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville du Baiser au porteur. </stage>
+            
+                    <l>Jetés là-bas, sur cette plage, </l>
+                    <l>Où les attendait maint danger, </l>
+                    <l>Nos soldats, doublant de courage, </l>
+                    <l>Surent enfin soumettre Alger. </l>
+                    <l>Seuls, ils ont pu soumettre Alger ! </l>
+                    <l>Mais, victime de cette guerre, </l>
+                    <l>Plus d'un périt dans les combats…</l>
+                    <l>À l'étranger peut-on livrer la terre</l>
+                    <l>Qui fume encor du sang de nos soldats ? </l>
+                    <l>À l'étranger ne livrons pas la terre</l>
+                    <l>Qui fume encor du sang de nos soldats ! </l>
+                </lg>
+            </div>
+            
+            
+            LE LUTIN
+            
+            Au fossé, la Conférence de Londres ! (La foule accourt.)
+            
+            L'ANGLAIS, se débat tant et entraînant avec lui la table. 
+            
+            Respectez la Conférence de Londres, l'aimable, la ravissante, 
+            
+            la séduisante Conférence ! … 
+            
+            
+            <div type="poem">
+                <lg>
+                    
+                    <stage type="tune" id="AIR : J'ai d' l'argent."></stage>
+                    (Reprise du chœur.)
+            
+                    <l ana="unanalyzable">Au fossé, etc. </l>
+                </lg>
+            </div>
+            
+            
+            (On le pousse au fossé.)
+            
+            SCENE VI. 
+            
+            LES MÊMES, hors LA CONFÉRENCE, UN BOULANGER. 
+            
+            LE BOULANGER, portant sur sa pelle des petits mannequins
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la Boulangère.</stage>
+            
+            
+                    <l>V'là que j'reprends, preste et léger, </l>
+                    <l>Ma pelle abandonnée ; </l>
+                    <l>Du ministèr' j'suis boulanger, </l>
+                    <l>Et j'travaille à l'année. </l>
+            
+                    17
+            
+                    <l>Au moindre besoin je suis là…</l>
+                    <l>Encore une fournée, </l>
+                    <l>La voilà ! </l>
+                    <l>Encore une fournée. </l>
+                </lg>
+            </div>
+            
+            
+            (Il enfourne les petits mannequins dans le trou du souffleur.)
+            
+            LE PARISIEN. 
+            
+            De quelle fournée parles-tu, mitron ? 
+            
+            LE BOULANGER. 
+            
+            De la dernière… celle des trente et quelques… enfin, un nom
+            
+            bre pair. 
+            
+            LE LUTIN, indiquant le trou du souffleur. 
+            
+            C'est bien, ça… mais où est donc ton grand four ? 
+            
+            LE BOULANGER. 
+            
+            De l'autre côté de l'eau, au Luxembourg… boulangerie cen
+            
+            trale de France… C'est que je suis toujours resté fidèle à la pelle, 
+            
+            moi… c'est pas la façon qui coûte maintenant, c'est la matière
+            
+            première qui manque. 
+            
+            LE PARISIEN. 
+            
+            C'est vrai. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Je ne veux pas qu'on me prenne. </stage>
+            
+            
+                    <l>Je ne veux qu'on me prenne, </l>
+                    <l>Se dit chacun en tremblant ; </l>
+                    <l>Car ça donne trop de peine</l>
+                    <l>Et pas assez d'agrément. </l>
+                    <l>Loin d'vouloir courir la chance, </l>
+                    <l>Tous redoutent le danger…</l>
+                    <l>Et pour faire un pair de France</l>
+                    <l>Faudra prendre l'dey d'Alger. </l>
+            
+                    TOUS. 
+            
+                    <l>Oui, pour faire un pair de France</l>
+                    <l>Faudra prendre l'dey d'Alger. </l>
+                </lg>
+            </div>
+            
+            
+            LE BOULANGER. 
+            
+            Chut ! attendez, je crois que c'est cuit. (It remet sa pelle dans
+            
+            le trou du souffleur, et la retire couverte de brioches.) Adieu, mes
+            
+            enfans, je pars pour l'Angleterre, ou ils ont besoin d'une four
+            
+            née pour la réforme
+            
+            LUTIN. 
+            
+            Tu n'iras pas plus loin… au fossé, toi et toutes tes fournées ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune" id="AIR : J'ai d'l'argent."></stage>
+                    (Reprise du chœur.)
+            
+            
+                    <l ana="unanalyzable">Au fossé, etc. <stage type="repetition"> (bis.)</stage></l>
+                </lg>
+            </div>
+            
+            
+            
+            
+            (On le pousse du côté du fossé.)
+            
+            Le Fossé des Tuileries. 
+            
+            3
+            
+            18
+            
+            LE PARISIEN. 
+            
+            Mais quelles sont ces figures sinistres et patibulaires ? … Ils
+            
+            ont l'air des brigands de l'Auberge des Adrets. 
+            
+            LE LUTIN. 
+            
+            Ils s'avancent avec mystère… cachons-nous, et écoutons. 
+            
+            SCENE VII. 
+            
+            LES TROIS ESCROCS. 
+            
+            (Ils apportent un creuset sur un fourneau.)
+            
+            LE CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Travaillons (du Maçon).</stage>
+            
+            
+                    <l>Travaillons ; <stage type="repetition"> (bis.)</stage></l>
+                    <l>Amis, de la prudence ! </l>
+                    <l>Travaillons ; <stage type="repetition"> (bis.)</stage></l>
+                    <l>Mais surtout en silence ! </l>
+                    <l>Fondons, forgeons, limons, </l>
+                    <l>Travaillons, </l>
+                    <l>Bons compagnons. </l>
+            
+                </lg>
+            </div>
+            
+            SCENE VIII. 
+            
+            LES MÊMES, LE JUIF ERRANT *. 
+            
+            (Il traderse le théâtre en courant d'un air effaré et en regardant
+            
+            derrière lui ; il a une boite sous le bras gauche, et un gros sac
+            
+            plein à la main.)
+            
+            Le bonjour, le bonjour, mes amis… notre fortune est faite ! 
+            
+            (Tous l'entourent.) Voilà toutes les médailles d'or de la Biblio
+            
+            thèque… regardez combien il y en a. 
+            
+            (Il compte en allemand.)
+            
+            Voyez tout le Bas-Empire, les Césars, les rois de France ! … Oh ! 
+            
+            j'aime les antiquités, les médailles curieuses… surtout quand on
+            
+            peut en faire des petits lingots ! … C'est que je m'y suis bien pris… 
+            
+            j'y allais depuis long-temps, comme pour lire… je demandais des
+            
+            livres hébreux… j'ai lu Hernani ; j'avais l'air de le comprendre, 
+            
+            ils me prenaient pour un savant… En v'là au moins pour trois
+            
+            centmille francs. (Les escrocs vont pour prendre le sac.) Un ins
+            
+            tant ! … avant de les fondre, je veux vous expliquer tous ces mes
+            
+            sieurs… Je suis le Juif errant… je les ai beaucoup connus… Çit
+            
+            sera curieux, un'tas de voleurs qui font un cours d'histoire. 
+            
+            Si l'on nous surprenait ? … 
+            
+            UN ESCROC. 
+            
+            (*) Ce role se joue en baragouinant l'allemand. 
+            
+            13
+            
+            LE JUIF ERRANT. 
+            
+            Ah ! bien oui ! ils ont bien autre chose à penser. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+            
+            
+                    <stage type="tune">AIR des Amazones. </stage>
+            
+            
+            
+            
+                    <l>On chang' maint'nant de préfet de police</l>
+                    <l>Comme l'on change de chapeau. </l>
+                    <l>Pour les voleurs aussi quel temps propice ! </l>
+                    <l>Nous sommes tous comm' le poisson dans l'eau ; </l>
+                    <l>On nous laisse aller à vau-l'eau. </l>
+                    <l>La préfectur', que sans cesse l'on raille, </l>
+                    <l>N'est plus l'effroi des hommes resolus…</l>
+                    <l>Et si l' préfet était une médaille, </l>
+                    <l>Depuis long-temps j'aurais mis la main d'ssus. </l>
+                </lg>
+            </div>
+            
+            
+            Mais je n'aurais pas pu le faire fondre. (Tirant une médaille du
+            
+            sac.) Voilà d'abord un roi fainéant, le bon roi Dagobert, qui
+            
+            passait tout son temps à mettre sa culotte… au creuset ! 
+            
+            (
+            
+            Il la
+            
+            jette au creuset. Prenant une deuxième médaille.) Charles
+            
+            Neuf ! … bonjour, Charles-Neuf, bonjour… Ah ! celui-là, je
+            
+            l'ai beaucoup connu… c'était un petit jeune homme bien
+            
+            gentil, bon fils et bon citoyen… c'est dommage, un peu
+            
+            enfant gâté… On dit qu'il a tiré sur le peuple de la petite
+            
+            croisée du Louvre, au premier… 
+            
+            c'est une calomnie ! … il
+            
+            a tiré du second au-dessus de l'entresol… Mettez-le dans le
+            
+            creuset. 
+            
+            (Il le jette au creuset. Prenant une troisième mė
+            
+            daille.) Ah ! 
+            
+            v'la Henri-Quatre ! (s'adressant d la médaille avec
+            
+            attendrissement.) Écoute-moi, mon vieil ami… J'étais à Pa
+            
+            ris en 1594, quand tu l'as assiégé… Au lieu de nous envoyer des
+            
+            balles et des boulets, toi, tu nous as envoyé du bon pain de
+            
+            Gonesse… Je ne temêlerai pas avec ces messieurs, or pur que tu
+            es ! (Il la met dans sa poche, et prenu une quatrième médaille.)
+            
+            Louis-Quinze ! … Ah ! tu étais un fameux farceur, toi… tu t'es
+            
+            bien amusé… Te rappelles-tu ? c'est moi qui fournissais le parc
+            
+            aux-cerfs… libertin… Eh ! bien, jete pardonnerais la Pompa
+            
+            dour et la'Dubarry… mais tu as laissé faire le partage de la
+            
+            Pologne… au creuset, pour ta pénitence ! 
+            
+            (Il prend le médailler qu'il a sous le bras et l'ouvre.)
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR Vaudeville de l'Île des Noirs. </stage>
+            
+            
+                    <l>Mais quelle est cette pièce immense</l>
+                    <l>Qui remplit seule un médaillon ? …</l>
+                    <l>Lisons : « Dieu protége la France » …</l>
+                    <l>Ah ! c'est le grand Napoléon. </l>
+            
+                    (Tenant d'une main le sac, et de l'autre la médaille deNapoléon.)
+            
+                    <l>Effet magique de la gloire ! </l>
+                    <l>Dans ma balance, voyez-vous ? </l>
+            
+                    20
+            
+                    <l>Comme dans celle de l'Histoire, </l>
+                    <l>Il pèse à lui seul plus qu'eux tous ! </l>
+                </lg>
+            </div>
+            
+            
+            Oui, mais il n'y a rien de parfait sur la terre. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR Vaudeville de la Famille du porteur d'eau. </stage>
+            
+            
+                    <l>Examinons un peu tout bas</l>
+                    <l>Cette figur' noble et sévère…</l>
+                    <l>Dis-moi, mon ancien, n'as-tu pas</l>
+                    <l>Quelques reproches à te faire ? </l>
+            
+                    (Il retourne la médaille.). 
+            
+                    <l>Le despotisme à chaque pas, </l>
+                    <l>Un' polic' qui dans l'ombre travaille ; </l>
+                    <l>Trop d'sang versé dans les combats, </l>
+                    <l>La Liberté qu'il étouffe en ses bras…</l>
+                    <l>V'là le revers de la médaille. </l>
+                </lg>
+            </div>
+            
+            
+            Soufflons, soufflons, le lingot est formé. 
+            
+            (Ils entourent le fourneau.)
+            
+            (Il la met dans sa poche.)
+            
+            
+            
+            <div type="poem">
+                <lg>
+                   (Reprise du chœur.)
+            
+                   <stage type="tune" id="AIR : Travaillons."></stage>
+                    <l ana="unanalyzable">Travaillons, etc. </l>
+                </lg>
+            </div>
+            
+            
+            (Le Lutin, le Parisien et la foule reparaissent, et interrompent ce
+            
+            chæur.)
+            
+            LE LUTIN. 
+            
+            • Au fossé, les voleurs de médailles ! 
+            
+            (On les entraine.)
+            
+            SCENE IX. 
+            
+            LES MÊMES, hors LE JUIF ERRANT et les TROIS ESCROCS. 
+            
+            DUCROC. 
+            
+            Ces maudits voleurs… leur charbon m'a porté à la gorge
+            
+            d'une façon déplorable. (au Parisien.) Donnez-moi donc une
+            
+            prise. 
+            
+            LE PARISIEN. 
+            
+            J'ai oublié ma tabatière. 
+            
+            LE LUTIN, étendant sa baguette. 
+            
+            En voici une ! 
+            
+            (Une énorme tabatière paraît au milieu du théâtre.)
+            
+            DUCROC. 
+            
+            Vous appelez ça une tabatière ? … c'est un entrepot de tabac. 
+            
+            (Il lève le couvercle, Robert-le-Diable en sort, semblable d ces
+            
+            diables qui sortentdes tabatières à ressorts.) Ah' farceur de Luc
+            
+            tin ! … j'aurais da me douter de l'attrape. 
+            
+            21
+            
+            SCENE X. 
+            
+            LES MÊMES, ROBERT-LE-DIABLE. 
+            
+            ROBERT. 
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune" id="AIR : Me voici, chers amis, je suis Robert-le-Diable !">RÉCITATIF.</stage>
+            
+                    <l>Me voici, chers amis, je suis Robert-le-Diable ! </l>
+                    <l>Je viens de l'Opéra, ce lieu de tentation. </l>
+                    <l>Admirez-moi, j'dois être bien aimable : </l>
+                    <l>Je coût' cent mille francs à l'administration ! </l></lg></div>
+            
+                    LE PARISIEN. 
+            
+                    Mon cher démon, vous êtes diablement laid. 
+            
+                    ROBERT. 
+            
+                    Vous me trouvez laid P… Changement à vue ! 
+            
+                    (Il se change en troubadour, couvert de croix et de rubans ; deux
+            
+                    petits balais sont suspendus à sa ceinture.)
+            
+                    A la bonne heure ! en troubadour. 
+            
+                    LE PARISIEN. 
+                    <div type="poem"> <lg>
+                    ROBERT. 
+            
+                    <stage type="tune" id="AIR : Je crois que le public doit me trouver joli.">RÉCITATIF.</stage> 
+            
+                    <l>Je crois que le public doit me trouver joli ; </l>
+                    <l>Car je suis bien couvert, bien frais et bien nourri. </l>
+                </lg>
+            </div>
+            
+            
+            DUCROC, montrant les croix et les rubans. 
+            
+            Qu'est-ce que c'est que tout ça ? 
+            
+            ROBERT. 
+            
+            Ce sont mes décorations… Je ne pourrais pas marcher sans
+            
+            ça. 
+            
+            LE PARISIEN. 
+            
+            Il pleut donc des décorations aussi chez vous ? 
+            
+            LE LUTIN, montrant les deux petits balais. 
+            
+            Et ceci ? 
+            
+            Ce sont mes balais. 
+            
+            ROBERT. 
+            
+            LE PARISIEN. 
+            
+            Ils sont propres, vos balais. 
+            
+            ROBERT. 
+            
+            Je suis parfaitementde votre avis ; ils ne sont pas de la pre
+            
+            mière qualité… mais ils vont bien avec mes paroles… Voyez
+            
+            plutôt. (Il présente la brochure.) Oh ! vous pouvez les lire… que
+            
+            le diable m'emporte si vous y comprenez quelque chose ! 
+            
+            22
+            
+            LE PARISIEN. 
+            
+            Dans un grand opera, 
+            
+            CC
+            
+            <div type="poem">
+                <lg>
+                    <l> « Il faut des actions et non pas des paroles. » </l>
+                </lg>
+            </div>
+            
+            2
+            
+            ROBERT. 
+            
+            Écoutez mes chants ! … J'ai une bien jolie voix… il n'y en a
+            
+            qu'une là-dessus… mais j'ai aussi un bon chour… Vous allez
+            
+            entendre quelque chose de doux et de terrible à la fois… 
+            
+            d'effroyable et d'enchanteur… c'est le murmure du jeune ruis
+            
+            seau et le saut du Niagara… c'est la plaintive tourterelle et la
+            
+            hiène de monsieur Martin… Prête l'oreille, public éclairé, pu
+            
+            blic connaisseur, public payant… car les entrées de faveur sont
+            
+            généralement suspendues… Avancez, chœur diabolique. (Un
+            
+            chour de diables escécute avec des cornets : J'ai du bon tabac, etc.)
+            
+            LE LUTIN. 
+            
+            Est-ce tout ce que vous avez pour plaire ? 
+            
+            ROBERT. 
+            
+            Non, j'ai encore mon cimetière d'amour… le voilà. 
+            
+            (Un tombeau paraît, sur lequel une jeune fille est couchée.)
+            
+            CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : C'est notre ami Blondel. </stage>
+            
+            
+                    <l>C'est un spectacle nouveau. </l>
+                    <l>Admirons tous ce tombeau ! </l>
+                    <l>Dieu ! que c'est beau ! </l>
+                </lg>
+            </div>
+            
+            
+            (La pierre du tombeau se soulève lentement, 
+            
+            et la jeune fille
+            
+            se trouve debout.)
+            
+            ROBERT. 
+            
+            Les autres ! 
+            
+            (Plusieurs autres femmes sortent du tombeau.)
+            
+            CHOEUR DES FEMMES. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR Eh ! gai, gai, gai, mon officier. </stage>
+            
+                    <l>Hoé ! hoé ! hoé ! hoé ! </l>
+                    <l>Nous sommes</l>
+                    <l>Fait's pour les hommes. </l>
+                    <l>Hoé ! hoé ! hoé ! hoé ! </l>
+                    <l>Pour vous</l>
+                    <l>Nous v'nons d'là-d'ssous. </l>
+                </lg></div>
+            
+                    DU CROC. 
+            
+                    Desreyenantes
+            
+                    ! … je n'en
+            
+                    reviens
+            
+                    pas. 
+            
+                    ROBERT. 
+            
+                    rentourent… elles me cajolent… elles m'assomment
+            
+                    m
+            
+                    de
+            
+                    Elles
+                    volupté
+                    nonnes ! … 
+                    manque
+                    çaise
+            
+                    q
+            
+                    m
+            
+                    e
+            
+                    I… Je leur dis alors : Éloignez-vous, scélérates de
+            
+                    C'est absolument la tentation de saintAntoine ; il n'y
+            
+                    u
+            
+'
+            
+                    u
+            
+                    n
+            
+                    seul
+            
+                    personnage
+            
+… 
+            
+                    celui
+            
+                    que
+            
+                    la politesse
+            
+                    fran
+            
+                    le fend de nommer… cet être insociable et grognon, 
+            
+                    23
+            
+                    qui s'illustra par la découverte des truffes, et auquel nous de
+            
+                    vons le fromage d'Italie. 
+            
+                    LES FEMMES, entourant Robert et dansant. 
+            <div type="poem">
+                
+                <stage type="tune" id="AIR de la Monaco."></stage>
+                <lg>
+                    <l>À la monaco l'on chasse, l'on déchasse, </l>
+                    <l ana="unanalyzable">À la monaco, etc. </l>
+                </lg>
+            </div>
+            
+            
+            Voilà mon ballet. 
+            
+            Il est joliment rococo. 
+            
+            ROBERT. 
+            
+            LE PARISIEN. 
+            
+            ROBERT. 
+            
+            Je ne puis mieux terminer mon'apparition diabolique qu'en
+            
+            dansant le pas de schal avec un boa… afin qu'on s'écrie : Ah ! 
+            que c'est beau ! … ah ! 
+            
+            (PAS DU BOA, de la composition de M. Odry, dansé par Robert
+            
+            et la jeune fille du tombeall. A la fin de ce pas, Robert
+            
+            prend la jeune fille dans ses bras et l'emporte du côté du fosse.)
+            
+            Casse-cou ! … casse-cou ! … Vous allez tomber ! … 
+            
+            DUCROC, criant. 
+            
+            SCENE XI. 
+            
+            LES MÊMES, hors ROBERT-LE-DIABLE. 
+            
+            LE PARISIEN. 
+            
+            Là… le voilà dedans… Mais tout n'est pas tombé… (ramas
+            
+            sant un volume de musique.) Qu'est-ce que c'est que ça ? 
+            
+            LE LUTIN. 
+            
+            La partition… r le chef-d'oeuvre de Meyerbeer ! 
+            
+            LE PARISIEN. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : J'en guette un petit de mon âge. </stage>
+            
+            
+                    <l>Si, comme nous, toute l'Europe admire</l>
+                    <l>Notre Boïeldieu, notre Auber, </l>
+                    <l>De Rossini nous adoptons la lyre…</l>
+                    <l>Salut encore aux chants de Meyerbeer ! </l>
+                    <l>Chez nous de tout temps le génie</l>
+                    <l>A reçu l'bospitalité…</l>
+                    <l>Quand pour la France une muse a chanté, </l>
+                    <l>La France devient sa patrie. </l>
+                </lg>
+            </div>
+            
+            
+            (Tout d coup le tonnerre gronde et la pluie tombe par torrens. 
+            
+            Les uns se coiffent de leurs mouchoirs, les autres ouvrent leurs
+            
+            parapluies ou se rangent sous les arbres.)
+            
+            LE
+            
+            CA OEUR. 
+            hey
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Barbier de Séville. </stage>
+            
+            
+                    <l>Ah ! j'entends gronder l'orage, </l>
+                    <l>Quelle averse ! quel tapage ! </l>
+                    <l>Le ciel se fond en eau</l>
+                    <l>C'est un déluge nouveau. </l>
+                </lg>
+            </div>
+            
+            
+            24
+            
+            SCENE XII. 
+            
+            LES PRÉCÉDENS, TOUS LES PERSONNAGES ÉPISODIQUES. 
+            
+            Nous revoilà ! nous revoilà ! 
+            
+            LE JUIF ERRANT. 
+            
+            TOUS. 
+            
+            Le bonjour, le bonjour… Nous voilà tous… l'orage a rempli
+            
+            le fossé… et nous sommes remontés, en faisant la planche. 
+            
+            ROBERT. 
+            
+            Moi, j'ai été soutenu par mes décorations. 
+            
+            M. BUDGET, maigre et pâle. 
+            
+            Et moi, j'ai été pillé dans le fossé… Voyez dans quel état on
+            
+            m'a mis ! 
+            
+            LE LUTIN. 
+            
+            Bon ! … Voilà pourtant comme les mauvaises choses revien
+            
+            nent toujours sur l'eau. 
+            
+            CBOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR des Hussards de Felsheim. </stage>
+            
+            
+                    <l>Le bien disparaît dans l'orage, </l>
+                    <l>Voilà l'histoire de nos jours ; </l>
+                    <l>Mais, luttant contre le naufrage, </l>
+                    <l>Le mauvais surnage toujours. </l>
+            
+                </lg>
+            </div>
+         
+            
+            <div type="poem">
+                <lg>
+            
+            
+            VAUDEVILLE. 
+            
+            LE LUTIN. 
+            
+                    <stage type="tune">AIR : Allez-vous-en, gens de la noce. </stage>
+            
+            
+                    <l>Amis, dans not' belle patrie</l>
+                    <l>Je crois qu'tout deviendra meilleur ; </l>
+                    <l>Nous f'rons, grace à notre industrie, </l>
+                    <l>Des grands hommes à la vapeur. </l>
+                    <l>Je sais qu'un Jeune-France veille</l>
+                    <l>Et nous broche un drame nouveau…</l>
+                    <l>Que ce s'ra beau ! </l>
+                    <l>Le jeun' corbeau</l>
+                    <l>Doit abattre le vieux Corneille…</l>
+                    <l>Comptez là-d'ssus, et buvez d'l'eau. </l>
+            
+                    MONSIEUR DUCROC. 
+            
+                    <l>Dans le département de l'Oise</l>
+                    <l>On travaille d'un train d'enfer : </l>
+                    <l>Bientôt pour aller à Pontoise</l>
+                    <l>Nous aurons un chemin de fer. </l>
+            
+                    25
+            
+                    <l>De plus, l'gouvernement s'arrange</l>
+                    <l>Pour nous faire voir un vaisseau ; </l>
+                    <l>L'canal nouveau, </l>
+                    <l>Qui s'ra fort beau, </l>
+                    <l>Doit m'ner la mer au Pont-au-Change…</l>
+                    <l>Comptez là-d'ssus, et buvez d'l'eau. </l>
+            
+                    ASPASIE. 
+            
+                    <l>Messieurs, il faut qu'on nous renomme</l>
+                    <l>Pour nos vertus… et cœtera ; </l>
+                    <l>Nous n'aurons plus de p'tit jeune homme</l>
+                    <l>Que dans l'armoire on cachera. </l>
+                    <l>Le sentiment seul nous inspire ; </l>
+                    <l>Nous n'demand'rons plus de cadeau. </l>
+            
+                    CALYPSO. 
+            
+                    <l>Plus de chapeau. </l>
+            
+                    SAUTER ELLE. 
+            
+                    <l>D'bijou nouveau. </l>
+                    <l>Nous vous aim'rons mieux qu'un cach'mire…</l>
+            
+                    LE LUTIN. 
+            
+                    <l>Comptez là-d'ssus, et buvez d'l'eau. </l>
+            
+                    LE PARISIEN. 
+            
+                    <l> « Enfans, votre pèr' vous pardonne ! » </l>
+                    <l>A dit le Czar aux Polonais ; </l>
+                    <l> « Non, je ne veux punir personne ; </l>
+                    <l> « Pour tous oubli, clémence et paix. </l>
+                    <l> « Je promets complète amnistie, </l>
+                    <l> « Je veux être un Titus nouveau ; </l>
+                    <l> « Abritez-vous sous mon drapeau : </l>
+                    <l> « Plus de voyage en Sibérie… » </l>
+                    <l>Comptez là-d'ssus, et buvez d'l'eau. </l>
+            
+                    LE BUDGET. 
+            
+                    <l>À la pitié j'suis accessible : </l>
+                    <l>Brave peuple, j'entends tes cris ; </l>
+                    <l>Le Budget n'est point insensible…</l>
+                    <l>J'abolis les Droits réunis. </l>
+                    <l>Je veux que la semaine entière</l>
+                    <l>Le Parisien boive à gogo : </l>
+                    <l>Vieux ou nouveau, </l>
+                    <l>Dans son tonneau, </l>
+                    <l>L'vin n'paiera plus à la barrière…</l>
+                    <l>Comptez là-d'ssus, et buvez d'l'eau. </l>
+            
+                    LE BOULANGER. 
+            
+                    <l>Messieurs, v'là l'nouveau ministère</l>
+            
+                    Le Fossé des Tuileries. 
+            
+                    26
+            
+                    <l>Que nous annonc' le Moniteur…</l>
+                    <l>M'sieur CATINAT est à la guerre, </l>
+                    <l>Monsieur COLBERT à l'intérieur. </l>
+                    <l>À la justice, on le devine, </l>
+                    <l>Nous aurons monsieur D'AGUESSEAU ; </l>
+                    <l>Pour compléter l'conseil nouveau, </l>
+                    <l>Monsieur JEAN-BART prend la marine…</l>
+                    <l>Comptez là-d'ssus, et buvez d'l'eau. </l>
+            
+                    LE JUIF ERRANT. 
+            
+                    <l>J'lis dans l'av'nir… Braves Cosaques, </l>
+                    <l>J'vous vois sous la porte Saint-D'nis ; </l>
+                    <l>Chacun redoute vos attaques, </l>
+                    <l>Et tout se cache dans Paris. </l>
+                    <l>La capital', qu'on abandonne, </l>
+                    <l>Ell' voit flotter votre drapeau ; </l>
+                    <l>On se dispers' comme un troupeau…</l>
+                    <l>Vous faites fondre la colonne ! …</l>
+                    <l>Comptez là-d'ssus, et buvez d'l'eau. </l>
+            
+                    ODRY, au public. 
+            
+                    <l>Je vas vous faire des surprises ; </l>
+                    <l>Messieurs du parterre, écoutez ! …</l>
+                    <l>Je ne dirai plus de bêtises, </l>
+                    <l>Je quitte les Variétés. </l>
+                    <l>Noble soutien de Melpomène, </l>
+                    <l>Au lieu du paysan Palaud, </l>
+                    <l>Talma nouveau, </l>
+                    <l>Je deviens beau : </l>
+                    <l>Mon nez s'allonge à la romaine…</l>
+                    <l>Comptez là-d'ssus, et buvez d'l'eau. </l>
+                </lg>
+            </div>
+            
+            
+            FIN. 
+            
+            EXTRAIT
+            
+            d'un Journal du 14 décembre. 
+            
+            Cette pièce avait éveillé l'attention de la police, et Dieu sait
+            
+            tout ce qui avait été pratiqué d'abord pour obtenir des auteurs
+            
+            les plus fortes modifications à leur ouvrage. Cependant la pièce
+            
+            fut jouée, et elle obtint un grand succès. On y traite de tout : 
+            
+            la fournée des pairs, le budget, les médailles, les fusils-Gis
+            
+            quet, etc. Grand scandale à la cour et au ministère. 
+            
+            Ce matin M. Dartois, le directeur, est mandé à sept heures
+            
+            et demie au cabinet du ministre, M. d'Argout. « Monsieur, vous
+            
+            aviez promis de supprinner telle expression, et cependant l'ac
+            
+            teur l'a dite.-Non, Monsieur. » M. d'Argout appelle : Gisquel ! 
+            
+            Apparaît aussitôt M. le préfet de police. Le directeur lui assure
+            
+            qu'il a donné l'ordre de supprimer une expression qui avait paru
+            
+            déplaisante à la police. Bientôt M. d'Argout dit à M. Dartois : 
+            
+            « Monsieur, IL ME FAUT LE MANUSCRIT DE CETTE PIÈCE DANS UNE
+            
+            BETRB, OU JE FAIS FERMER VOTRE THÉATRE CE SOIR. 
+            
+            Monsieur le
+            
+            ministre, je ne puis pas vous l'apporter. » Le ministre renouvelle
+            
+            ses menaces, et M. Dartois est obligé de céder. 
+            
+            Le manuscrit est apporté. La colère de M. d'Argout ne l'avait
+            
+            pas encore abandonné. Après avoir effacé, retranché plusieurs
+            
+            parties du dialogue, il est venu enfin à la scène des fusils-Gis
+            
+            quet, et il a dit à M Dartois : 
+            
+            « J'exige LA SUPPRESSION ENTIÈRE
+            
+            DE CETTE SCÈNE, OU BIEN VOUS NE JOUEBEZ PAS LA PIÈCE CE SOIR. 
+            
+            Mais, monsieur le ministre…-Je ferai fermer votre théâtre. » 
+            
+            M. Dartois a vainement insisté : force a été de se soumettre, 
+            
+            et la scène entière a été retranchée. 
+            
+            Une résistance plus opiniâtre aurait sans doute élé dans les
+            
+            devoirs du directeur ; mais l'exemple récent du théâtre des
+            
+            Nouveautés était là. Les violences sont familières aux ministres ; 
+            
+            et que n'aurait pas fait la police de M. Gisquet pour défendre
+            
+            2
+            
+            la cause personnelle de son patron ? … Ainsi, voilà la censure
+            
+            rétablie de fait, au mépris de nos lois, au mépris de cette
+            
+            Charte, que ceux mêmes qui l'ont remise à neuf ne savent pas
+            
+            faire respecter ! Combien de fois déja l'Opposition, à la Chambres
+            
+            n'a-t-elle pas eu l'occasion de réclamer contre les actes arbi
+            
+            traires des ministres à propos des théâtres, qui sont aussi d'im
+            
+            portans objets d'art et d'industrie ! 
+            
+            Qu'a fait l'opposition ? elle a laissé paisiblement passer l'ar
+            
+            bitraire. Et quand les hommes protecteurs de nos garanties souf
+            
+            frent qu'elles nous soient ravies une à une, on exigerait quelque
+            
+            courage dans les citoyens isolés, quelque force dans leurs actes ! 
+            
+            1
+            
+            SUPPLÉMENT. 
+            
+            Scène supprimée par la censure. 
+            
+            (Cette scène était jouée par M. Lhérie, avant celle du Budget.)
+            
+            LE LUTIN, LE PARISIEN, MAYEUX, son fusil sur l'épaule, 
+            
+            UN FACTIONNAIRE. 
+            
+            LB FACTIONNAIRE, courant après lui et l'arrêtant. 
+            
+            On n'entre pas avec des armes ! 
+            
+            Je n'en ai pas. 
+            
+            MAYEUX. 
+            
+            LE FACTIONNAIRE. 
+            
+            Qu'est-ce que c'est que ça ? (Il montre le fusil.)
+            
+            MAYEUX. 
+            
+            Ça ? … c'est un fusil anglais. 
+            
+            LE PACTIONNAIRE. 
+            
+            Un fusil anglais ! c'est différent… passez. (Il sort.)
+            
+            MAYEUX. 
+            
+            Cet imbécillel… il veut m'empêcher d'entrer avec cet innocent
+            
+            là, comme si on n'entrait pas avec des cannes et des parapluies… 
+            
+            Ah ! je suis fatigué… depuis un an je suis de tous les exercices, 
+            
+            de toutes les revues… je suis bon citoyen, tonnerre de D… Ce
+            
+            pendant, ils font des charges contre moi, des caricatures. 
+            
+            Et vous en avez plein le dos. 
+            
+            MAYEUX. 
+            
+            LE PARISIEN. 
+            
+            Je m'en moque… je suis de la mobile, je veux entrer dans
+            
+            Vienne et dans Berlin, baionnette en avant. (Il marche en croi
+            
+            sant la baionnette.) Ran ! plan ! plan ! plau ! (regardant ses mains, 
+            
+            qui sont toutes noires.) Diable de fusil, comme il se déteint ! 
+            
+            Dieu me pardonne, c'est du sapin peint en chêne… il faudra le
+            
+            renvoyer tous lesmois chez le teinturier… Je serais beau avec, 
+            
+            en face d'une charge de Cosaques… ça ne fait rien, je suis Fran
+            
+            çais ! ça doit être terrible dans les mains de la valeur… voilà
+            
+            une charge de cavalerie. (au Parisien.) Commandez-moi, soyez
+            
+            mon colonel provisoire. 
+            
+            LE PARISIEN. 
+            
+            Voyons… garde à vous ! portez armes ! présentez armes ! por
+            
+            tez armes ! apprêtez armes ! … 
+            
+            30
+            
+            MAYEUX, faisant mille efforts. 
+            
+            Colonel, ça ne se peut pas, le chien anglais est entêté… (IL
+            
+            essaie inutilement d armer le fusil, et finit par monter sur le chien.)
+            
+            Pas moyen. 
+            
+            LB PARISIEN. 
+            
+            Pendant ce temps-là, ils vous enverront des prunes. 
+            
+            Et votre carré est en foncé. 
+            
+            LE LUTIN. 
+            
+            MAYEUX… 
+            
+            Eh bien ! nous avons de fameux fusils… merci du présent des
+            
+            Anglais… Timeo Danaos, vel dona ferentes, tonnerre de D… Je
+            
+            crois, diable m'emporte, qu'ils ont servi à Fernand-Cortez pour
+            
+            faire la conquête du Mexique. 
+            
+            Ce n'est pas le Pérou. 
+            
+            LE PARISIEN. 
+            
+            MAYBUX. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du vaudeville de Fanchon. </stage>
+            
+            
+                    <l>Contr' l'émeute indocile</l>
+                    <l>La cross' peut être utile, </l>
+                    <l>Mais c'n'est bon que pour cette fois : </l>
+                    <l>Dans un jour de bataille</l>
+                    <l>J'aimerais autant, je le crois, </l>
+                    <l>Un bon pistolet d'paille, </l>
+                    <l>Un bon sabre de bois. </l>
+                </lg>
+            </div>
+            
+            
+            Eh bien ! avec tout ça, il a du bon, ce fusil-là. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Halte là ! </stage>
+            
+            
+                    <l>J'aime la petite guerre ; </l>
+                    <l>Mais montrons-nous y prudens : </l>
+                    <l>C't'exercice salulaire</l>
+                    <l>Est fertile en accidens. </l>
+                    <l>Dans la bagarre infernale, </l>
+                    <l>J'ai reçu dans mon gilet</l>
+                    <l>À bout portant une balle…</l>
+                    <l>Par bonheur elle sortait</l>
+                    <l>D'un fusil à la…</l>
+                    <l>Finissez pour moi l'couplet. </l>
+                </lg>
+            </div>
+            
+            
+            LE LUTIN. 
+            
+            Au fossé, le bossu, avec ces fusils anglais ! (On veut le saisir.)
+            
+            MAYEUX, croisant la baionnette. 
+            
+            Ne m'approchez pas ! … comme Curtius, tonnerre de D… (IT
+            
+            saute dans le fossé.)
+            
+            31
+            
+            Scène primitive de la Fournée. 
+            
+            LE LUTIN, LE PARISIEN, UN BOULANGER. 
+            
+            (Le commencement comme dans la pièce, jusqu'à boulangerie cen
+            
+            trale de France.)
+            
+            LE LUTIN. 
+            
+            Et en êtes-vous content, de vos trente et quelques ? 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Verre. </stage>
+            
+            
+                    <l>Croyez-vous qu'on les aval'ra ? </l>
+            
+                    LE BOULANGER. 
+            
+                    <l>Sans difficulté, je m'en flatte ; </l>
+                    <l>Car, voyez-vous, ces trent'-six-là, </l>
+                    <l>J'dis qu'ils sont d'une bonne pâte. </l>
+            
+                    LE PARISIEN. 
+            
+                    <l>Mais toi qui les as mis dedans, </l>
+                    <l>Tu pourrais éclaircir mon doute : </l>
+                    <l>Dis-moi donc un peu, sont-ils blancs ? </l>
+            
+                    LE BOULANGER. 
+            
+                    <l>Dam' ! ça, c'est caché sous la croûte. </l>
+                    
+                </lg>
+            </div>
+            
+            
+            
+            LE PARISIEN. 
+            
+            Ce n'est pas d'aujourd'hui que tu travailles ? 
+            
+            Ce n'est
+            
+            pas
+            
+            même d'hier. 
+            
+            LE BOULANGER. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Piége. </stage>
+            
+            
+                    <l>Quand j'ai commencé mon état, </l>
+                    <l>Ça m'a donné tout d'suite du courage : </l>
+                    <l>C'est sous l'empire, avec éclat, </l>
+                    <l>Que j'ai fait mon apprentissage. </l>
+                    <l>Au temps du fameux conquérant, </l>
+                    <l>Que les affaires étaient bonnes ! </l>
+                    <l>Ce n'étaient pas des flût's comm' maintenant, </l>
+                    <l>C'étaient des fournées de couronnes ! </l>
+                </lg>
+            </div>
+            
+            
+            Et après ? 
+            
+            LE PARISIEN. 
+            
+            LE BOULANGER. 
+            
+            Daml… l'ancien a disparu, … moi, je suis resté toujours fidèle à
+            
+            la pelle… seulement je suis tombé dans les pains mollets, et
+            
+            les chapelés… témoin la grande fournée des soixante-seize, il
+            
+            y a deux ans… parce que, voyez-vous, quand ils font des bê
+            
+            tises, c'est moi qui suis dans le pétrin. 
+            
+            32
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Vaudeville de l'Artiste. </stage>
+            
+            
+                    <l>C'était le temps des truffes : </l>
+                    <l>Il fallut tout changer, </l>
+                    <l>Quand d'messieurs les Tartuffes</l>
+                    <l>J'devins le boulanger. </l>
+                    <l>La gloire avait son terme, </l>
+                    <l>Quand l'grand règne finit…</l>
+                    <l>Il n'y avait plus d'pat' ferme, </l>
+                    <l>J'enfournais l'pain bénit. </l>
+                </lg>
+            </div>
+            
+            
+            LE PARISIEN. 
+            
+            Celui-là était le plus dur à digérer. 
+            
+            DUCROC. 
+            
+            Il y avait trop de cricris. 
+            
+            LE BOULANGER. 
+            
+            Il y a quelque temps, j'avais encore bon espoir ; je disais : le
+            
+            four va chauffer pour du bon, cette fois. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Ce boudoir est mon Parnasse. </stage>
+            
+            
+                    <l>Partout on parlait de guerres ; </l>
+                    <l>On croyait de bonne foi</l>
+                    <l>Qu'nous r'prendrions nos frontières ; </l>
+                    <l>Et je disas à part moi : </l>
+                    <l>En avant ! bonne espérance ! </l>
+                    <l>Faut saisir l'occasion ; </l>
+                    <l>Et, pour les soldats d'la France</l>
+                    <l>J'vas fair' du pain d'munition. </l>
+                </lg>
+            </div>
+            
+            
+            Tout ça a manqué, et au bout du compte j'en arrive à ma
+            
+            fournée des 36… quelle boulette ! … C'est pas la façon qui coûte
+            
+            maintenant, c'est la matière première qui manque. 
+            
+            LE PARISIEN. 
+            
+            C'est vrai. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Je ne veux pas qu'on me prenne. </stage>
+            
+            
+                    <l>Je ne veux pas qu'on me prenne, </l>
+                    <l>Se dit chacun en tremblant ; </l>
+                    <l>Car ça donne trop de peine</l>
+                    <l>Et pas assez d'agrément. </l>
+                    <l>Loin d'vouloir courir la chance, </l>
+                    <l>Tous redoutent le danger…</l>
+                    <l>Et, pour faire un pair de France, </l>
+                    <l>Faudra prendre l' dey d'Alger. </l>
+                </lg>
+            </div>
+            
+            
+            (Finir la scène comme dans la pièce.)
+            
+            20160
+            
+            FIN DU SUPPLÉMENT. 
+        </body>
+    </text>
+</TEI>

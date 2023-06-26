@@ -1,0 +1,46 @@
+Airs candidats: 11                
+Airs manuellement filtrés : 11                
+Airs réelement présents : 11                
+Précision: 1.00                
+Rappel: 1.00                
+Mesure-F1: 1.00
+Non attrapé: AIR : du Baiser au porteur. 
+Supplémentaire: Air : du Baiser au poitciii.
+
+***Airs du xml***:
+AIR : du Piége. 
+AIR : Du premier Prix. 
+AIR : Mon cœur à l'espoir s'abandonne. 
+AIR : Sur votre table quand on porte. 
+AIR nouveau de M. Casimir Gide. 
+AIR : du Hussard de Felsheim. 
+AIR : du Baiser au porteur. 
+AIR : La voix de la patrie. 
+AIR : Un page aimait la jeune Adèle. 
+AIR : Une surtout fraîche et jolie. (Visite à Bedlam.)
+AIR du vaudeville de la Loge du portier. AIR : Avec lui prends l'air séducteur.
+
+***Airs identifiés dans le txt***:
+AIR : du Piége.
+Ara : Du premier Prix .
+AIR : Mon cæur à l'espoir s'abandonne.
+AIR : Sur votre table quand on porte.
+AIR nouveau de M. Casimir Gide .
+AIR : du Hussard de Felsheim .
+Air : du Baiser au poitciii.
+AIR : La voix de la patrie.
+AIR : Un page aimait la jeune Adèle.
+Air : Une surtout fraiche et jolie. ( Visite à Bedlam .)
+Arr du vaudeville de la Loge du portier.
+
+***Airs du txt validés dans le xml***:
+AIR : du Piége. 
+AIR : Du premier Prix. 
+AIR : Mon cœur à l'espoir s'abandonne. 
+AIR : Sur votre table quand on porte. 
+AIR nouveau de M. Casimir Gide. 
+AIR : du Hussard de Felsheim. 
+AIR : La voix de la patrie. 
+AIR : Un page aimait la jeune Adèle. 
+AIR : Une surtout fraîche et jolie. (Visite à Bedlam.)
+AIR du vaudeville de la Loge du portier. 

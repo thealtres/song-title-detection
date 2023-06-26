@@ -1,0 +1,1729 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LES PEUPLES AU CABARET, OU CHACUN SON ÉCOT</title>
+                <title type="sub">SCÈNES CONTEMPORAINES, MÊLÉES DE COUPLETS</title>
+                <author key="DUM" sort="1">
+                    <name>
+                        <forename>Théophile Marion</forename>
+                        <surname>Dumersan</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LES PEUPLES AU CABARET, OU CHACUN SON ÉCOT</title>
+                        <author>DUMERSAN</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=Ti1MAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102EE818</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-07-27">27 JUILLET 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES VARIÉTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+              <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            132945-B
+            
+            ALT
+            
+            18. F. sy
+            
+            LES PEUPLES
+            
+            AU CABARET. 
+            
+            IMPRIMERIE DE DAVID, 
+            
+            Boulevard Poissonnière, 
+            
+            D. 
+            
+. 
+            6. 
+            
+            LES PEUPLES
+            
+            … a0 CABARET, 
+            
+            ΟΙoc
+            
+            : : :-CHACUN SON ÉCOT, 
+            
+            SCENES GONTEMPORAINES, MÊLÉES DE COUPLETS, 
+            
+. 
+            
+            : 
+            
+            : 
+            
+            PAR M. DUMERSAN. 
+            
+            REPRÉSENTÉES, POUR LA PREMIÈRE FOIS, 
+            
+            SUR LE THÉATRE DES VARIÉTÉS, 
+            
+            LE 29 JUILLET 1831. 
+            
+. …. 
+            
+            531331
+            
+            Paris. 
+            
+            R. RIGA, LIBRAIRE, 
+            
+            FAUBOURG POISSONNIÈRE, N° 1. 
+            
+            2.-N. BARBA, PALAIS-ROYAL
+            
+            1831
+            
+            132945-B
+            
+            M
+            
+            PERSONNAGES. 
+            
+            : 
+            
+. 
+            
+. 
+            
+            ACTEURS. 
+            
+            LEFRANC, homme du peupłe. 
+            
+            JOHN BULL, Anglais. 
+            
+            M. LHÉRIE. 
+            
+. M. Opry. 
+            
+            SOBIESKI, Polonais. 
+            
+            is, H
+            
+… 
+            
+            ! ! 
+            
+            M. DAUDEL. 
+            
+            MAZANIELLO, Italien, 
+            
+            je
+            
+. 
+            
+            M. HIPPOLYTE. 
+            
+            BROUKER, Belge. 
+            
+            ce
+            
+            " ? ? ! 
+            
+            mi ? 
+            
+' T
+            
+            M. LEFÈVRE. 
+            
+            FERNAMBOUC, Brésilien, personnage muet. 
+            
+            FÉLICITÉ
+            
+            Mlle CAYOT. 
+            
+            HOMMES ET FEMMES DU PEUPLE. 
+            
+            La scène est dans un cabaret, près d'une barrière de Paris. 
+            
+            : 
+            
+            LES PEUPLES AU CABARET. 
+            
+            WOWOWOWOCOWODOSIS COUSCOC10303 … … … … … … … … 000. 000. 000. 000. 000
+            
+            VNOVOOTVOR 260. 09comow
+            
+            a
+            
+            ne
+            
+            Le théâtre représenteune campagne ; à droite, un cabaret sur lequel on lit : Lu mero
+            
+            Lafrance donne à boire el a manger. A gauche, un bâtiment, portant pour en
+            seigne : Atelier d' Aris et Métiers. 
+            
+            …
+            
+            SCÈNE PREMIÈRE. 
+            
+            ii, 
+            
+            LEFRANC, sortant du cabaret. 
+            
+… 
+            
+            Oui, mère Lafrance, oui, ne vous dérangez pas. Restez chez
+            vous, soyez tranquille …. Mon dîné est commandé, ça suffit. C'te
+            
+            pauvre nière Lafrance, elle a du chagrin, c'est l'anniversaire de
+            
+            la mort de plusieurs de ses enfans… (il essuye ses yeux.) Moi aussi
+            
+            j'aidu chagrin … Je les regréite. Mais un lommene doit pas pleu
+            rer comme une femme… Cependant…. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Le magistrat irréprochable. </stage>
+            
+            
+                    <l>Oui, lorsque le héros succombe,</l>
+                    <l>Lorsqu'on lui rend les funèbres honneurs,</l>
+                    <l>Le laurier planté sur sa tombe</l>
+                    <l>Doit être arrosé par nos pleurs.</l>
+                    <l>Mais bientôt succède aux alarmes</l>
+                    <l>Le sentiment d'une noble fierté ;</l>
+                    <l>La gloire sèche bien des larmes</l>
+                    <l>Quand on meurt pour la liberté.</l>
+                </lg>
+            </div>
+            
+            
+            Je quitte tout aujourd' hui pour être utile à
+            
+            c'te brave femme. 
+            D'ailleurs aujourd'hui, tout doit être tranquille, 
+            et les pavés
+            aussi. Pas de travail ! … Mais je dis pas de travail… pour un jour
+            seulement, parce que le travail, c' est la vie. … c' est le pain de l'ou
+            vrier … c'est son bonheur …. Mon Dieu, à propos de bonheur, il
+            manque quelque chose au mien. Qui ! pas de bonheur sans Féli
+            
+            cité ! Cette Félicité que je cherche depuis un an !. … où est-elle ? Je
+            l'ai aperçue un momeni après la révolution de l'année dernière ; 
+            elle n'a fait que paraître et disparaître. J'en suis amoureux, cepen
+            dant…. Oh ! il faut que je la trouve, cette Félicité après laquelle
+            tout le monde court. J'ai été au bureau des renseignemens : les
+            uns m'ont dit qu'elle avait pris la diligence de Bruxelles, cher
+            les frères Touchard ; les autres, qu'elle était en route pour Turin, 
+. Laffitte. Le fait est qu' elle est bien. cachée
+            par les voitures de M
+            
+            dans ce moment-ci. … Elle est peut-être bien loin' ! Ah ! ah ! j'ap
+            
+            perçois la voisine, cette petite femme que le manufacturier a mise
+            à la tête de son atelier. 
+            
+            SCÈNE II. 
+            
+            LEFRANC, FÉLICITÉ, sous le nom de DÉSIRÉE ; elle est vérue en
+            
+            paysanne et sort de l' Atelier. 
+            
+            Bonjour mamzelle Désirée. 
+            
+. 
+            
+. 
+            
+            LEFRANC. 
+            
+            T
+            
+            : 
+            
+            DÉSIRÉE, vivement. :) 
+            
+            Ah ! c'est vous, M. Lefranc. Bonjour, bonjour ! (Ala cantonnade.)
+            Je reviens à l'instant, je ne vais qu'au marché, j'apporterai tout
+            ce qu'il faut. Ne soyez pas inquiète de l'ouvrage, je le ferai en
+            rentrant. 
+            
+            Mon Dieu ! mon Dieu ! quelle vivacité ! toujours au travail, pas
+            
+            LEFRANC. 
+            
+            un moment de repos ! 
+            
+            Ah ! dame ! c'est que je suis là au milieu d'une cinquantaine
+            
+            d'ouvriers ; il faut que tout ça vive, et pour ça, il ne faut pas de
+            
+            * DÉSIRÉE. 
+            
+            paresse. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Voulant par ses œuvres. </stage>
+            
+            
+                    <l>Le travail est l'ami de l'homme,</l>
+                    <l>C'est son appui, c'est son soutien ;</l>
+                    <l>Ce n'est qu'en travaillant en somme,</l>
+                    <l>Que l'on peut amasser du bien !</l>
+                    <l>Mais pour le paresseux, je tremble,</l>
+                    <l>Son avenir est bien chanceux !</l>
+            
+                    LEFRANCO
+            
+                    <l>Je ne s'rai jamais paresseux</l>
+                    <l>Pourvu qu' nous travaillions ensemble.</l>
+                </lg>
+            </div>
+            
+            
+            Mais il y a des jours de repos, des jours de fête ; aujourd'hui, 
+            
+            par exemple, nous célébrous un glorieux anniversaire, 
+            animer la fête, vous devriez bien elre des nôtres. …
+            
+            et pour
+            
+. 
+            
+            ; 
+            
+            Je ne peux pas quitter la maison. On a confiance en moi. 
+            
+            DÉSIRÉ E. 
+            
+            ! "
+            
+            Mais la plupart de vos ouvriers vont être debors. Restez avec
+            
+            nous. J'ai rendez-vous pour un pique-nique avec de bous enfans, 
+            
+            quoique que ce ne soient pas des compatriotes, ; ;. 
+            
+            LEFRANC. 
+            
+            DÉSIRÉE… 
+            
+            Ah ! je sais, je sais, des hommes de divers pays : un Belge, un
+            
+            Italien, un Anglais, un Brésilien, un Polonais. 
+            
+            Tiens ! vous savez ça ? 
+            
+. 
+            
+            LEFRANC. 
+            
+            DÉSIRÉE… 
+            
+. 
+            
+. 
+            
+            Je sais tout, moi. 
+            
+            Mais comment ? …
+            
+            LEFRANC. 
+            
+            "
+            
+. 
+            
+            DÉSIRÉE. 
+            
+            Ils viennent pour fraterniser avec nous, et chacun d'eux repré
+            
+            sente un brave peuple qui a suivi votre généreux élan. 
+            
+. 
+            
+            LEFRANC. 
+            
+. C'est vrai ; nous allons trinquer tous ensemble : Chacun son écot, 
+            le vin n'est pas cher. 
+            
+            ·
+            
+            Prenez garde à eux ! … Ils sont tous amoureux de votre Félicité. 
+            
+            DÉSIRÉE. 
+            
+            Vous savez donc ? 
+            
+            LEFRANC. 
+            
+            DÉSIRÉE. 
+            
+            Je vous ai dit que je savais tout. 
+            
+            LEFRANC. 
+            
+'
+            
+, 
+            
+            Alors vous savez que je ne peux pas mettre la main dessus ? 
+            
+            C'est que vous ne la cherchez peut-être pas où elle est ! 
+            
+            DÉSIRÉE. 
+            
+            Je la cherche partout. 
+            
+            LEFRANC.,
+            
+            DESIRÉE. 
+            
+            ". 
+            
+            Seriez-vousbien sûr de la reconnaître ? 
+            
+            LEFRANC, 
+            
+            Parbleu, je crois bien : une figúre de prospérité. La joie et
+            l'abondance avaientl'air de la suivre ; c'est ce qui m'a donné l'en
+            vie d' être du cortége. 
+            
+            Et comment l'ayez-vous perdu de vue ? tenke nye
+            
+            ml. * DESIRÉE : 
+            
+            1
+            
+. 3
+            
+            LEFRANC. 
+            
+            Je ne sais pas comment ça c'est fait ; ça marchait bien : tout-à
+            
+            coup il y a des maladroits qui ont voulu se mêler de la conduire ; 
+            
+            ils ont pris unemauvaise route ; ils se sont fourrés dans les ornières, 
+            
+            ça a fait de l'encombrement ; on est accouru de tous côtés, les at
+            
+            troupemens s' en sont suivis …. l'un tirait à dia, l'autre à hu… on a
+            
+            crié : Avancez ! reculez ! On n'a pu ni recaler ni : avancer…, et au
+            inilieu de tout ça notre Félicité a disparu, 
+            
+            Ne vousdésespérez pas, mon petit homme, elle reparaîtra peut
+            
+            être au moment où l'on s'y attendra le moins. Adieu, je vais à mon
+            
+            ouvrage, 
+            
+            DÉSIRÉE. 
+            
+            SCENE III. 
+            
+. 
+            
+            1 ! 
+            
+. LEFRANC. 
+            
+            C'est drôle ! cette petite femme-là a une figuré… il me semble
+            
+            que je l'ai vue quelque part. … ? 
+            
+- (On entend chanter :) 
+            
+            
+           <div type="poem">
+               
+               
+               <stage type="tune" id="AIR : Amis, la matinée est belle."></stage>
+               
+               <lg><l>« Le roi des Mers ne m'échappera pas. »</l></lg></div>
+            
+-
+            
+           
+            SCÈNE IV. 
+            
+            LEFRANC, MAZANIELLO, même costume que dans la Muelle de
+            
+            Portici. 
+            
+            •
+            
+            LEFRANCO
+            
+            Eh ! v'là
+            
+            l'Italien … Eh bien ! mon ami, tu n'as donc pas été. 
+            
+            heureux ? 
+            
+            1 MAZANIELLO. 
+            
+            · Tu vois, mon garçon, le pécheur a manqué son premier coup
+            de filet ; mais ce n'est que partie remise … Une tempête essuyée. 
+            
+            n'empêche pas un bon matelotde se remettre en mer. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR des deux Créoles (Berton).</stage>
+            
+            
+                    <l>Nous avons levé la tête</l>
+                    <l>À l'exemple des Français ;</l>
+                    <l>Une cruelle tempête</l>
+                    <l>A renversé nos projets,</l>
+            
+                    A
+            
+                    _
+            
+                    <l>Mais de la noble Italie,</l>
+                    <l>Dieu soutiendra les efforts ;</l>
+                    <l>Et la liberté bannie</l>
+                    <l>Viendra régner sur ses bords.</l>
+                    <l>Pêcheurs, soldats,</l>
+                    <l>Nous unirons nos bras <stage type="repetition"> (bis) </stage> .</l>
+                    <l>Vogue, vogụe mon bateau,</l>
+                    <l>Nous vaincrons la tyrannie</l>
+                    <l>Et nous reviendrons sur l'eau.</l>
+                </lg>
+            </div>
+            
+            
+, 
+            
+            LEFRANC. 
+            
+            Bien, mon brave ; inais prénez garde à ceux qui mènent votre
+            
+            barque. 
+            
+            MAZANIELLO. 
+            
+, 
+            
+            Nous sommes tranquilles de ce côté-là …. seulement nous avions' …
+            
+            conipte que vous viendriez nous pousser un peu. 
+            
+            Ce n'est pas la volonté qui nousmanquait. 
+            
+. 
+            
+            LEFRANC
+            
+            MAZANIELLO.' ; 
+            
+            Je sais ce que vous voulez dire … le peuple français est bon là …
+            
+            (Il lui donne une poignée de main.) C'te bourasque m'a fait bien'du
+            tort ; elle m'a enlevée une petite connaissance que j'avais faite à
+            Turin, et que je regrette bien … Elle s'appelait Félicité. 
+            
+. 
+            
+. 
+            
+            Je sais ce que vous voulez diré … Vous n'êtes pas le seul qui vou
+            
+            *
+            
+            LEFRANC. 
+            
+            drait la tenir. 
+            
+            4. 1
+            
+. 
+            
+, 
+            
+            MAZANIELLO. 
+            
+            : 
+            
+            ? 
+            
+            Je croyais bien la rencontrer par ici. 
+            
+            LEFRANC. 
+            
+            Elle y viendra peut-être ; mais elle n'y est pas encore, 
+            
+            SCENE V. 
+            
+            I
+            
+            LES MÊMES BROUKER. "
+            
+            SO ! 63 BROUKER, criant. 
+            
+            Oh ! hou ! 
+            
+            Qu'est-ce que j'entends ? 
+            
+            LEFRANC. 
+            
+            MAZANIELLO. 
+            
+            Simone
+            
+            Eh ! c'est le père Brouker, le meilleur marchand de charbon de
+            
+            terre de toute la Belgique. 
+            
+            15 ! !. ", 
+            
+            Il a une bonne mine. 
+            
+            MAZANIELLO. 
+            
+            BROUKER. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Oui ! je suis soldat, moi ! </stage>
+            
+            
+                    <l>Me v'là donc Anglais, moi !</l>
+                    <l>C'est ça qui m'dégrise…</l>
+                    <l>Puisque l'on me donne un roi</l>
+                    <l>Qui vient de la Tamise.</l>
+                    <l>Être Français comme vous,</l>
+                    <l>C'était notre devise !</l>
+                    <l>Vous n'avez pas voulu d' nous ;</l>
+                    <l>Je crois qu' c'est un' bêtise</l>
+                    <l ana="unanalyzable">Me v'là donc, etc.</l>
+                </lg>
+            </div>
+            
+            
+            Asos'. …
+            
+            Est-ce que vous êtes de notre banquet, vous ? 
+            
+            * MÁZANIELLO. 
+            
+            ". 
+            
+. 
+            
+. 
+            
+            10A BROUKER. 
+            
+            Si j'en suis ! le banquet des amis de la Liberté ! tous les Belges
+            
+            ont le droit d' en être. 
+            
+, 5
+            
+' LEFRANC. 
+            
+. 
+            
+            *. Vous serez le bien-venu … C'est fini, n'est-ce pas, chez vous ? "
+            
+            Oh fini ! si l'on veut ! 
+            
+, BROUKER, 7V ; 
+            
+            : 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : J'aime ce mot de gentillesse. </stage>
+            
+            
+                    <l>On a beau faire, on a beau dire,</l>
+                    <l>Le langag' fait les citoyens.</l>
+                    <l>Dans vos auteurs j'appris à lire ;</l>
+                    <l>Vos usag', vos goûts sont les miens.</l>
+                    <l>Pour parler avec énergie,</l>
+                    <l>Tarteiff, goddem, s'ront sans succès ;</l>
+                    <l>Et pour répondre à la patrie,</l>
+                    <l>Nous parlerons toujours français.</l>
+                </lg>
+            </div>
+            
+            
+            DE BLÉFRANC. "
+            
+            C'est une langue qui s'est fourrée dans tous les pays. 
+            
+. 
+            
+            *** MAZANIELLO. 
+            
+            Elle serait bientôt devenue la langue universelle… "
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville de la Somnambule. </stage>
+            
+            
+                    LEFRANC. 
+            
+            
+                    <l>Il fut un temps où la Belgique entière</l>
+                    <l>Comptait dans nos départemens,</l>
+                    <l>Où l'Italie abaissant sa frontière,</l>
+                    <l>Vit se mêler ses peuples dans nos rangs.</l>
+                    <l>Rome, Amsterdam et Venise et Mayence,</l>
+                    <l>Tous ces pays que frappe un sort jaloux,</l>
+                    <l>Nous les croirions encor la France,</l>
+                    <l>S'ils étaient libres comme nous.</l>
+                </lg>
+            </div>
+            
+            
+. 
+            
+            BROUKER. 
+            
+            ; 
+            
+            ! 
+            
+            "
+            
+            Ça viendra peut-être un jour ; le bien marche lentement, mais
+            
+            il finit par arriver. 
+            
+. 
+            
+. 
+            
+. SCENE VI… 
+            
+            LES MÊMES, SOBIESKI, en faucheur polonais. 
+            
+            LEFRANC. 
+            
+            Eh ! voilà le brave Sobieski… Bonjour, notre ancien camarade. 
+            
+            SOBIESKI. 
+            
+            Tu me reconnais ! Je croyais que vous nous aviez tout-à-fait
+            
+            oubliés. 
+            
+            · LEFRANC. 
+            
+            Est-ce que le peuple peut avoir oublié ses frères d'armes ? 
+            
+            Non, nous vous rendons justice. 
+            
+            5. SOBIESKI. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeviļle de Psyché. </stage>
+            
+                    <l>Qu'avec bonheur, je revois cette France,</l>
+                    <l>Dont j'ai long-temps partagé les combats ;</l>
+                    <l>Ami, j'ai presque oublié ma souffrance,</l>
+                    <l>En me trouvant aujourd'hui dans vos bras.</l>
+            
+-8-
+            
+                    <l>Du despotisme innocente victime,</l>
+                    <l>Vous entendiez notre appel douloureux ;</l>
+                    <l>Du pouvoir seul notre mort est le crime,</l>
+                    <l>Et non celui d'un peuple généreux.</l>
+                </lg>
+            </div>
+            
+            
+            LEFRANC.'
+            
+            Ah ! quant au peuple, il est joliment pour les Polonais : va ! ce : 
+            
+            n' est pas sa faute si nous ne vous avons pas donné un coup de
+            main. 
+            
+            Quand nous inarchions ensemble, les Polonais étaient toujours
+            
+            SOBIESKI. 
+            
+            à l'avant-garde ; nous venons de reprendre notre rang. 
+            
+            Et le moment étaitbien choisi. 
+            
+            s
+            
+. … LEFRANC. 
+            
+. 
+            
+            in. 
+            
+            }
+            
+            S
+            
+            i
+            
+            in
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : À  soixante ans. </stage>
+            
+            
+                    <l>On vit le Nord préparant ses attaques,</l>
+                    <l>Se diriger vers nos heureux climats,</l>
+                    <l>Et nous lançant ses Russes, ses cosaques,</l>
+                    <l>Nous menacer des fers ou du trépas.</l>
+                    <l>Déjà vers nous ils marchaient à grands pas :</l>
+                    <l>Bientôt leur masse rétrograde !</l>
+                    <l>Entre eux et nous se lèvent des amis ! …</l>
+                    <l>Et la Pologne est une barricade</l>
+                    <l>Qui leur défend le chemin de Paris.</l>
+                </lg>
+            </div>
+            
+            
+            " BROUCKER. 
+            
+. 
+            
+, 
+            
+            Ah ! ça, nous voilà tous réunis, il est temps de nousmettre à
+            
+            table ! … 
+            
+            LEFRANC, appelant. 
+            
+            Di
+            
+            Oh là ! la
+            
+            inère Lafrance, envoyez-nous les comestibles. 
+            
+            jam
+            
+            (Deux garçons appartefit une table.)
+            
+            (On entend dehors :) Oh ! goddem ! où était le chambre à manger ? 
+            
+            Eh ! c'est John Bull … Le peuple anglais vent être aussi des
+            
+. 
+            
+. LEFRANC : 
+            
+            nôtres …. 
+            40test
+            
+. 
+            
+            i
+            
+            sisi fosili
+            
+            SCENE VII. 
+            
+            ! ", is
+            
+            LES MÊMES, JOHN BULL, amenant FERNAMBOUG. 
+            
+            Venez, venez, petit indépendant. Mes ainis, je présentait à
+            
+            vous ce citoyenn' qui représentait le Brésil…. 
+            
+            JOHN BULL. 
+            
+            Il n'est pas blanc. 
+            
+            : 
+            
+            B'RUCKER. 
+            
+            LEFRANC. 
+            
+            Eh oui ! les Brésiliens viennent aussi de faire leur révolution. 
+            
+            M. Fernambouc, 
+            
+            il est digne de s'asseoir à le table de la Li
+            
+            JOHN BULL. 
+            
+. 
+            
+            berté. 
+            
+            LEFRANC. 
+            
+            Et vous aussi, John Bull. 
+            
+, ens
+            JOHN BULL. 
+            
+. 
+            
+            Yès ! John Bull il avait la sympathie pour toute ce qui est beau
+            
+            et grand … Aurez-vous à dîner un gros rosbiff ? 
+            
+            Le diner sera cosmopolite.'
+            
+            LEFRANC. 
+            
+            On boira du porter ! 
+            
+            Et du vin de France. 
+            
+            JOAN BULL, 
+            
+            LEFRANC'
+            
+'
+            
+, 5
+            
+            " ! 
+            
+            JOHN BULL. 
+            
+            Oh ! oui. Beaucoup de vin. Il fallait que le vin coule en liberté. 
+            
+            Soyez le bien-venu, M. Fernanbouc. 10 $ 9X ESLODES
+            
+. 
+            
+            LLIRANO
+            
+            JOHN BULL, 
+            
+            Ne parlez pas à lui, ce serait de la langue perdue. Il n'entendait
+            pas un mot de le parlement français ; mais il entendait bien inan
+            ger. 
+            
+            gente Sang 1, V
+            
+            alir go) 
+            
+-En ce cas, à table. 
+            
+            MAZANIELLO. 
+            
+            M … ! 
+            
+… 
+            
+. 0
+            
+            …
+            
+. 
+            
+            (Ils s'assaient.)
+            
+            LEFRANG. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR de la Parisienne. </stage>
+            
+                    <l>Enfin dans notre belle France.</l>
+                    <l>Les temps de haine sont passés.</l>
+                    <l>Par le commerce et l'abondance,</l>
+                    <l>Que nos malheurs soient effacés.</l>
+                    <l>Mais pour mieux garder la mémoire</l>
+                    <l>Des jours brillans de notre gloire,</l>
+                    <l>Mes amis, buvons,</l>
+                    <l>Trinquons et chantons</l>
+                    <l>À travers les pots, les flacons, les canons,</l>
+                    <l>Buvons à la victoire.</l>
+                </lg>
+            </div>
+            
+            
+            ; 
+            
+            : 
+            
+. 
+            
+            in
+            
+            JOAN BULL. 
+            
+            (Ils trinquent.)
+            
+            Je approuvais, le toast ; mais il fallait en porter plusieurs beau
+            coup. Je proposais le premier, le toast des peuples ; le second, le
+            toast des citoyens ; le troisièine, le toast des patriotes…
+            
+. 
+            
+            BROUCKER.'
+            
+            Mais c'est toujours la même chose.-1
+            
+. …… 
+            
+. 
+            
+.,
+            
+            C'était pas le même chose, puisque nous boirons pas avec le
+            
+            JOHN BULL. 
+            
+            mêine vin. 
+            
+            SOBIESKI. 
+            
+. 
+            
+            C'est juste ! Ah ! vous êtes un gros réjoui, M. l'Anglais. 
+            
+            JOIN BULL. 
+            
+            Yes. J'ai fait exprès de n'être pas mince. Quand je avais vu par-
+            lout que les gros mangeaient les petits, je meavais fait gros pour
+            pas être mangé. 
+            
+            Vous devez être content ; à Loudres, vous aurez votre bill de
+            
+            SOBIESKI. 
+            
+-
+            
+            réforine. 
+            
+            Oui, les Anglais il avait dans le parlement beaucoup des hom
+            
+            JOHN BULL. 
+            
+            mes à bill ! …
+            
+            Tiens ! les Anglais qui font des calembourgs ! 
+            
+            LEFRANC. 
+            
+-10 —
+            
+            JOHN BULL. 
+            
+            Les Anglais, ils faisaient de tout ; et vous voyez qu'ils ont une
+            
+            bonne constitution. 
+            
+-Tous les peuples en auront, si nous nous soutenons bien. 
+            
+            PS
+            
+            MAZANIELLO. 
+            
+            iii
+            
+. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Amis, la matinée est belle (de la Muette.)</stage>
+            
+            
+                    <l>Amis, que notre cause est belle !</l>
+                    <l>Pour la défendre, unissons-nous !</l>
+                    <l>On ose traiter de rebelle</l>
+                    <l>Un peuple ardent comme vous tous.</l>
+                    <l>Mais c'est en vain qu'on nous outrage.</l>
+            
+. 
+            
+                    : 
+            
+                    : 
+            
+                    LEFKANG. 
+            
+                    <l>Amis, parlez bas.</l>
+            
+                    · MAZANIELLO. 
+            
+                    <l>Non ! nous doublerons de courage,</l>
+                    <l>L'honneur suit nos pas !</l>
+                    <l>La liberté ne nous échapp'ra pas.</l>
+                </lg>
+            </div>
+            
+            
+. … jettaja
+            
+. 
+            
+            LEFRANC. 
+            
+            Tous les peuples vioivent être unis par le mème lien. 
+            
+            JOHN BULL. 
+            
+            Et éclairés par un enseignement iutuel. 
+            
+            sy Lin'
+            
+            SOBIESKI. 
+            
+. 
+            
+… 
+            ie gerne
+            
+            ! 
+            
+            Alors ils briseront les chaînes dont on veut les charger. 
+            
+            JOHNOBULL !) .
+            
+            Itt miss the
+            
+            Il y avait long-temps que nous avions brisé la
+            ! 
+            
+            SOBIESKT. 
+            
+. 
+            
+            1' ; …. 
+            
+            chaîne anglaise, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Julie. </stage>
+            
+            
+                    <l>S'il est encore des rois despotes</l>
+                    <l>Qui combattent contre nos lois,</l>
+                    <l>On verra de vrais patriotes</l>
+                    <l>S'armer pour défendre nos droits.</l>
+                    <l>Nous leur rendrons guerres pour guerres.</l>
+                    <l>En repoussant leurs injustes desseins ;</l>
+                    <l>Puisque tous les rois sont cousins,</l>
+                    <l>Les peuples doivent être frères.</l>
+            
+                </lg>
+            </div>
+            
+            JOHN BULL. 
+            
+' n
+            
+'
+            
+. 
+            
+            Buvons le dernier toast'à la santé de tout le monde, l'un après
+            
+            l'autre. 
+            
+            su
+            
+            LEFRANC. 
+            
+'
+            
+. 
+            
+            i
+            
+            Ce serait trop long : buvons à tout le monde en masse. … (Ils boia
+            
+            vent.) A présent, je vais chercher la carte. 
+            
+            op
+            
+. 
+            
+            (Ils se lèvent de table, Lefranc sort.)
+            
+. 
+            
+            SCENE VITI. …
+            
+            BROUKER, MAZANIELLO, JOHN BULL, FERNANBOUC, 
+            
+            SOBIESKI. 
+            
+            BROUKER. 
+            
+            Ce n'est pas le tout deboire et de manger, il faut payer. (A Ma
+            
+            zaniello) Fais-moi le plaisir d'avancer ça pour moi, je
+            monnaie. 
+            
+            n'ai pas de.), 
+            
+            MAZANIELLO. 
+            
+            On te changera. 
+            
+. 
+            
+            sinirinn
+            
+-10, 1
+            
+            C'est que je n'ai pas de grosses pièces non plus. 
+            
+-
+            
+            MAZANIELLO. 
+            
+'
+            
+            BBOUKER. 
+            
+            ·
+            
+            Et moi, qui avais compté sur toi ! Voyons le Polonais. (A Sa : 
+            bieski.) Dis donc, toi, pourrais-tu payer pous nous ? nous te ren
+            drons ça. 
+            
+. 
+            
+            is
+            
+            * *
+            
+            Mes enfans, c'est que je n'ai pas reçu le prêt… sp
+            
+) 
+            
+            SOBIESKI. 
+            
+. 
+            
+            Parlons au Brésilien. 
+            
+            S
+            
+. MAZANIELLO. 
+            
+            Il y a desmines d'or dans ce pays-là, ilc
+            
+            o
+            
+            i ! 
+            
+            : 11
+            
+            BROUKER. 
+            
+            · Dites donc, l'ami, pourriez-vous nous avancer notre écot ? 
+            
+            MAZANIELLO. 
+            
+. 
+            
+            Ne demandez pas l'argent à lui, son pays était le Brésil : ce n' ém
+            
+            JOHN BULL. 
+            
+            tait pas le Pérou. 
+            
+            SOBIESKI. 
+            
+            Mais vous, l'Anglais, vous devez avoir des guinées. 
+            
+            Pat's rii
+            
+            Je avais tout donné pour le souscription de juillet. 
+            
+            SOBIESKI. 
+            
+            JOHN BULL. 
+            
+            Metod
+            
+            Nous voilà bien ! Lefranc va se moquer de nous : ne lui disons
+            
+            pas que nous n'avons pas le sou. 
+            
+            ! 
+            
+            ! ? … 
+            
+            BROUCKER. "
+            
+            Il paraît que nos révolutions de nous out pas enrichis ! 
+            
+            MAZANIELLO. 
+            
+            C'est un moment de gêne, mais l'argent reviendra. 
+            
+            SOBIESKI. 
+            
+            En attendant, il faut que l'un de nous se charge de la dette, 
+            
+            Yes, moi.,
+            
+            Moi. 
+            
+            Moi. 
+            
+            JOHN BULL
+            
+. ?' BROUCKER
+            
+            MAZANIELLO. 
+            
+            BROUCKEN. 
+            
+            Faisons mieux, et, pour ne pas faire de jaloux, tirons au sort, 
+            
+            Justement, voilà Lefranc. 
+            
+            MAZANIELLO. 
+            VAU
+            
+            L
+            
+. 
+            
+            1
+            
+            SCÈNE IX. 
+            
+            LES MÊMES, LEFRANC. 
+            
+            LEFRANC. 
+            
+            Trois francs cinquante centimes par tête ; allons, répondez à
+            
+            l'appel
+            
+            JOAN BULL. 
+            
+            Non, M. Lefranc, nous voulons régaler vous, et nous disputons
+            ici à qui payera. Je avais un bon idée. Nous allons couvrir le re
+            
+            gard à vous, et celui que vous attrapez, il est celui qui payait la
+            carte. 
+            
+            Bien, vous allez me faire joner å colin-maillard ! Allons, ça va ! 
+            
+            LEFRANC, riant. 
+            
+, JOAN BULL. 
+            
+            (On lui bande les yeux) .
+            
+            Combien je avais de doigts dans les mains ? 
+            
+. 
+            
+            Dix : 
+            
+            SS
+            
+            LEFRANC. 
+            
+            JOHN. 
+            
+            Je ne montrais que le poing. (Le poussant.) Pauvre aveugle, 
+            
+            cherche ta bâton. 
+            
+            (Ils s'éloignent tous de lui.)
+            
+            sia
+            
+            SCÈNE X. 
+            
+            LES MÊMES, FÉLICITÉ, en
+            
+            tunique blanche, écharpe et ceinture
+            
+            tricolore, coiffée d'un bonnet phrygien et d'une couronne d'épis. 
+            
+            LEFRANC. 
+            
+            Empat
+            
+            C'est une drôle de chose…, Vous criez casse-cou, n'est-ce pas ? …
+            Ah ! j'en tiens un … Voyons, il faut que je devine. Ce n'est pas l'An
+            n'a pas les
+            glais, il
+            mains si douces. Le Polonais à quelque chose de plus mâle !-
+            
+            n'a pas la taille si fine quç ça. Le Belge…
+            
+. 
+            
+            *
+            
+            30
+            
+            31 5*
+            
+            (Ils s'éloignent tous de luia) ,
+            
+            LEFRANC, saisissant Félicité dans ses bras. 
+            
+. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR de la Maison du faubourg. </stage>
+            
+                    <l>Qu'est-c' que je sens ? <stage type="repetition"> (bis) .</stage></l>
+                    <l>Mon cœur bat avec plus d'vitesse,</l>
+                    <l>Un trouble agite tous mes sens ;</l>
+                    <l>Ah ! sous cette main qui vous presse…</l>
+                    <l>Qu'est-c' que je sens ! …</l>
+            
+                    FÉLICITÉ. 
+            
+                    <l>Félicité, <stage type="repetition"> (bis) </stage></l>
+                    <l>N'est-ce pas ce que tu désires !</l>
+                    <l>Eh bien ! elle est à ton côté,</l>
+                    <l>Lorsque pour elle tu soupires ! …</l>
+            
+                    LEFRANC, arrachant son bandeau. 
+                    
+                    
+                    <l>Félicité ! <stage type="repetition"> (ter.)</stage></l>
+            
+                    Est-il possible ! lorsque je me croyais si loin de toi ! 
+            
+. 
+            
+            
+                </lg>
+            </div>
+            
+            ; 
+            
+            i
+            
+            (II l'embrasse.). 
+            
+            FÉLICITÉ. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Le soir après pénible ouvrage. </stage>
+            
+            
+                    <l>On fait grand bruit de sa prudence.</l>
+                    <l>Pourtant, ce qu'on cherche en tous lieux,</l>
+                    <l>Partout, on pourrait comme en France,</l>
+                    <l>Le trouver en fermant les yeux.</l>
+            
+                    JOHN BULL. 
+            
+                    <l>Moi, je comprenais bien, madame !</l>
+                    <l>Pour trouver, d' après vos leçons,</l>
+                    <l>Le bonheur avec une femme,</l>
+                    <l>Il faut le chercher à tâtons.</l>
+                </lg>
+            </div>
+            
+            
+            0430
+            
+            n baie
+            
+            : 
+            
+            Comme elle ressemble à celle que je cherchais ! 
+            
+. 
+            
+            •
+            
+            MAZANIELLU. 
+            
+            S
+            
+            Tob
+            
+            o
+            
+            SOBIESKI. 
+            
+            Alors, celle que tu cherches est bien gentille ! investidos
+            
+            J'aime aussi une Félicité, moi, mais c'est celle de mon pays : 
+            
+            na. BROUKER. 
+            
+            V
+            
+            FÉLICITÉ. 
+            
+            Nous sommes plusieurs sours qui nous ressemblons toutes : 
+            
+            chaque peuple nous désire ; il peut nous fixer chez lui comme le
+            peuple me fixera en France, par l'amour du travail, le respect aux
+            lois, l'oubli de toutes les erreurs, et l'union de tous les citoyens. 
+            
+            (Le théâtre change et représente une guinguette illuminée, et ornée de
+            guirlandes et de drapeaux tricolores. Des hommes et des femmes du
+            peuple chantent et dansent.)
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la danse de la Famille du Porteur d'eau. </stage>
+            
+            
+                    LEFRANC. 
+            
+            
+                    <l>Toujours en avant, c'est la devise</l>
+                    <l>Qu'on doit adopter chez les Français ;</l>
+                    <l>En amour, en guerre, il faut qu'on dise : ;</l>
+                    <l>Avançons toujours, ne r'culons jamais.</l>
+            
+                    MAZANIELLO. 
+            
+                    <l>Par l'honneur mérité,</l>
+                    <l>Qu'un titre en France</l>
+                    <l>Récompense,</l>
+                    <l>Que des droits l'égalité,</l>
+                    <l>Donne à tous la félicité.</l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Toujours, etc.</l>
+            
+            
+            
+                    BROUKER. 
+            
+                    <l>Au lieu d' subir la triste chance</l>
+                    <l>Des protocol's, sans loyauté,</l>
+                    <l>Être un jour unis à la France,</l>
+                    <l>C'eût été notr' félicité.</l>
+            
+                    TOUS. 
+                    <l ana="unanalyzable">Toujours, etc.</l>
+            
+            
+            
+                    JOHN BULL. 
+            
+                    <l>Quand je mets de côté</l>
+                    <l>La tactique</l>
+                    <l>Et la politique ;</l>
+                    <l>Un bifteck, un pâté,</l>
+                    <l>Il faisait mon félicité !</l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Toujours, etc.</l>
+            
+-14-
+                    SOBIESKI. 
+            
+                    <l>Dans la lutte qui nous engage ;</l>
+                    <l>Nous répétons avec fierté,</l>
+                    <l>Plutôt la mort que l'esclavage…</l>
+                    <l>Et là haut la felicité !</l>
+            
+                    <l ana="unanalyzable">Toujours, etc.</l>
+            
+                    TOUI. 
+            
+                    LEFRANC
+            
+                    <l>Si chaque député,</l>
+                    <l>Avec franchise,</l>
+                    <l>Économise</l>
+                    <l>Tous hors la liberté,</l>
+                    <l>Nous aurons la félicité !</l>
+            
+            
+            
+                    TOUS. 
+                    <l ana="unanalyzable">Toujours, etc.</l>
+            
+                    Fétiertk. 
+            
+                    <l>On promet à notre patrie,</l>
+                    <l>Abondance et prospérité.</l>
+                    <l>Vous n'êtes pas capable, je l'parie,</l>
+                    <l>De troubler sa félicité.</l>
+                    <l>Les mains en avant, c'est la devise</l>
+                    <l>Que nous adoptons pour les succès :</l>
+                    <l>Voilà le mot d'ordre ; il faut qu'on dise :</l>
+                    <l>Applaudissons toujours, ne sifflons jamais.</l>
+            
+            
+            
+                    TOUS. 
+                    <l ana="unanalyzable">Les mains en avant, etc.</l>
+                </lg>
+            </div>
+            
+            
+            Österreichische Nationalbibliothek
+            
+            + Z160368402
+        </body>
+    </text>
+</TEI>

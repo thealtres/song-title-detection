@@ -1,0 +1,97 @@
+Airs candidats: 31                
+Airs manuellement filtrés : 28                
+Airs réelement présents : 27                
+Précision: 0.90                
+Rappel: 1.00                
+Mesure-F1: 0.95
+Non attrapé: 
+Non attrapé: AIR : (Fragment de Diavolo, acte 2.)
+Supplémentaire: Oui , c'est demain , c'est demain ,
+Supplémentaire: AIR : Vaudeville de la visite à Bedlam .
+Supplémentaire: Air : En avant bon courage (d' A dam ).
+
+***Airs du xml***:
+AIR : Vaudeville de la robe et les bottes. 
+AIR : Au temps heureux de la chevalerie. 
+
+AIR : Clic clic clac. 
+AIR : Et pourtant papa. 
+AIR : Muse des bois. 
+AIR : T'en souviens-tu. 
+AIR : de Préville et de Taconnet. 
+AIR : Gymnasiens remettons à 15 ans. 
+AIR : (Fragment de Diavolo, acte 2.)
+AIR de Julie. 
+AIR : Eh non, non, non, ce n'est pas là Ninette. 
+Air : Chaqu' soir au boulevard du Temple. 
+Air : Vaud. de la Somnambule. 
+AIR : de l'Angelus. 
+AIR : Vaudeville de l'anonyme. 
+AIR : de Préville et Taconnet. 
+AIR : À soixante ans on ne doit pas. 
+AIR : Walse de Robin de bois. 
+Air : Comme il m'aimait (de M. Sans Gêne) .
+AIR : du Carnaval de Béranger. 
+AIR : faut l'oublier. 
+AIR de la Clochette. 
+AIR : d'Aristipe. 
+Air : Pourquoi pleurer, (du concert à la cour.)
+Air : depuis long-temps j'aimais Adèle. 
+Air : de la galope. AIR : Tu n'auras pas ma rose.
+
+***Airs identifiés dans le txt***:
+ATR : Vaudeville de la robe et les bottes.
+AIR : Au lempsheureux de la chevalerie .
+AIR : Clic clic clac .
+AIR : Et pourtant papa .
+AIR : Muse des bois.
+AIR : T'en souviens - tu .
+AIR : de Préville et de Taconnet.
+AIR : Gymnasiens remettons à 15 ans.
+Oui , c'est demain , c'est demain ,
+AIR : Vaudeville de la visite à Bedlam .
+AIR de Julie .
+AIR : Eh non , non , non , ce n'est pas là Ninette .
+Air : Chaqu ' soir au boulevard du Temple ,
+Air : Vaud . de la Somnambule .
+AIR : de l'Angelus .
+Air : En avant bon courage (d' A dam ).
+AIR : Vaudeville de l'anonyme.
+AIR : de Préville et Taconnet .
+AIR : A soixante ans on ne doit pas .
+AIR : Walse de Robin de bois .
+Air : Comme il m'aimait ( de M. Sans Gene ) .
+AIR : du Carnaval de Béranger .
+faut l'oublier .
+AIR de la Clochette .
+AIR : d'Aristipe .
+Arr : Pourquoi pleuror , ( du concert à la cour . )
+Arr : depuis long-temps j'aimais Adèle .
+Air : de la galope.
+
+***Airs du txt validés dans le xml***:
+AIR : Vaudeville de la robe et les bottes. 
+AIR : Au temps heureux de la chevalerie. 
+AIR : Clic clic clac. 
+AIR : Et pourtant papa. 
+AIR : Muse des bois. 
+AIR : T'en souviens-tu. 
+AIR : de Préville et de Taconnet. 
+AIR : Gymnasiens remettons à 15 ans. 
+AIR de Julie. 
+AIR : Eh non, non, non, ce n'est pas là Ninette. 
+Air : Chaqu' soir au boulevard du Temple. 
+Air : Vaud. de la Somnambule. 
+AIR : de l'Angelus. 
+AIR : Vaudeville de l'anonyme. 
+AIR : de Préville et Taconnet. 
+AIR : À soixante ans on ne doit pas. 
+AIR : Walse de Robin de bois. 
+Air : Comme il m'aimait (de M. Sans Gêne) .
+AIR : du Carnaval de Béranger. 
+AIR : faut l'oublier. 
+AIR de la Clochette. 
+AIR : d'Aristipe. 
+Air : Pourquoi pleurer, (du concert à la cour.)
+Air : depuis long-temps j'aimais Adèle. 
+Air : de la galope. 

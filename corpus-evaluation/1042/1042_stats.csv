@@ -1,0 +1,78 @@
+Airs candidats: 28                
+Airs manuellement filtrés : 22                
+Airs réelement présents : 22                
+Précision: 0.79                
+Rappel: 1.00                
+Mesure-F1: 0.88
+
+***Airs du xml***:
+Air du vaudeville des Jolis soldats. 
+Air : Fleuve du Tage. 
+Air de Marianne. 
+Air : Le premier pas. 
+Air : Vaudeville de l'Ours et le Pacha. 
+Air : Vaudeville de la Halle au Blé.
+Air : Barcelonne si belle. (de Plantade.)
+Air : Je sens couler mes pleurs. (d'Emmeline.)
+Air : Le beau Lycas aimait Thêmire. 
+Air : Tenez moi, je suis un brave homme. 
+Air du Siége de Corinthe. 
+Air : Nous nous marierons dimanche. 
+Air ds Riquet à la Houpe. 
+Air : Rendez-moi mon joli bateau. 
+Air : Dans un amoureux délire. 
+Air : Je suis sergent. 
+Air : Tu n'auras pas ma rose. 
+Air : Connaissez-vous les hussards de la garde. 
+Air de la lune de Miel. 
+Air de la Fricassée. 
+Air des Trois jours. 
+Air : Un jeune troubadour. 
+
+***Airs identifiés dans le txt***:
+Air du vaudeville des Jolis soldats .
+Air : Flouve du Tage.
+Air de Marianne .
+Air : Le premier pas.
+Air : Vaudevitte de l'Ours et le Pasha .
+Air : Vaudeville de la Halle au Ble ..
+Air : Barcelonne si belle. ( de Plantade. )
+Air : Je sens couler mes pleurs. (d'Emmeline . )
+Air : Le beau Lycas aimait Themire .
+Air : Tenez moi , je suis un brave homme,
+Air du Şiége de Corinthe .
+Air : Nous nous marierons dimanche.
+Air dsPiquet à la Houpe.
+Air : Rendez - moi mon joli bateau ,
+Air : Dans nn amoureux délire.
+Air : Je suis sergent.
+Air : Tu n'auras pas ma rosca
+Air : Connaissez - vous les hussards de la garde.
+Air de la lune de Miel.
+Air de la Fricassés ,
+Air des Trois jours.
+Air : Un jeune troubadour.
+
+***Airs du txt validés dans le xml***:
+Air du vaudeville des Jolis soldats. 
+Air : Fleuve du Tage. 
+Air de Marianne. 
+Air : Le premier pas. 
+Air : Vaudeville de l'Ours et le Pacha. 
+Air : Vaudeville de la Halle au Blé.
+Air : Barcelonne si belle. (de Plantade.)
+Air : Je sens couler mes pleurs. (d'Emmeline.)
+Air : Le beau Lycas aimait Thêmire. 
+Air : Tenez moi, je suis un brave homme. 
+Air du Siége de Corinthe. 
+Air : Nous nous marierons dimanche. 
+Air ds Riquet à la Houpe. 
+Air : Rendez-moi mon joli bateau. 
+Air : Dans un amoureux délire. 
+Air : Je suis sergent. 
+Air : Tu n'auras pas ma rose. 
+Air : Connaissez-vous les hussards de la garde. 
+Air de la lune de Miel. 
+Air de la Fricassée. 
+Air des Trois jours. 
+Air : Un jeune troubadour. 

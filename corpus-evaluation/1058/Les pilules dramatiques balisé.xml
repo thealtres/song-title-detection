@@ -1,0 +1,2823 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LES PILULES DRAMATIQUES, OU LE CHOLÉRA-MORBUS</title>
+                <title type="sub">REVUE CRITIQUE ET POLITIQUE EN UN ACTE</title>
+                <author key="RIB" sort="1">
+                    <name>
+                        <forename>Adolphe</forename>
+                        <surname>Ribbing</surname>
+                        <addname type="pen_name">Adolphe de Leuven</addname>
+                        <addname type="pen_name">Le docteur Mesenthère</addname>
+                    </name>
+                </author>
+                <author key="GMS" sort="2">
+                        <name>
+                            <forename>Auguste-Michel-Benoît</forename>
+                            <surname>Gaudichot-Masson</surname>
+                            <addname type="pen_name">Michel Masson</addname>
+                            <addname type="pen_name">Masson</addname>
+                            <addname type="pen_name">Le docteur Mesenthère</addname>
+                        </name>
+                    </author>
+                    <author key="RLY" sort="3">
+                    <name>
+                        <forename>Claude-Louis-Marie</forename>
+                        <surname>Rochefort-Luçay</surname>
+                        <addname type="pen_name">Edmond Rochefort</addname>
+                        <addname type="pen_name">Rochefort</addname>
+                        <addname type="pen_name">Le docteur Mesenthère</addname>
+                    </name>
+                </author>
+                    <author key="VDV" sort="4">
+                    <name>
+                        <forename>Théodore-Ferdinand</forename>
+                        <surname>Vallou de Villeneuve</surname>
+                        <addname type="pen_name">Villeneuve</addname>
+                        <addname type="pen_name">Ferdinand de Villeneuve</addname>
+                        <addname type="pen_name">De Villeneuve</addname>
+                        <addname type="pen_name">Devilleneuve</addname>
+                        <addname type="pen_name">Le docteur Mesenthère</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le rire de vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+              <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LES PILULES DRAMATIQUES, OU LE CHOLÉRA-MORBUS</title>
+                        <author>LE DOCTEUR MESENTHÈRE</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=OjNMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102E77F4</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-02-11">11 FÉVRIER 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES NOUVEAUTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                 <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NATIONALBIBLIOTHEK
+            
+            IN WIEN
+            
+            131432-B
+            
+            ALT
+            
+            |
+            
+            1
+            
+            2
+            
+            کے
+            
+            DRAMATIQUES, ,
+            
+            PIECES NOUVELLES EN VENTE
+            
+            Chez RIGA, libraire, faubourg Poissonnière, n. 1. 
+            
+            1760, ou LA MATINÉE D'UN GRAND SEIGNEUR, comédie en un
+            
+            acte et en vers, par M. Alexandre de Longpré, représentée sur le
+            Prix : 2 fr. 5o c. 
+            
+            Théâtre-Français. 
+            
+            YSEULT RAIMBAUD, drame en quatre actes, en vers, par M. Paul
+            
+            Foucher, représenté sur le théâtre de l'Odéon. 
+            
+            Prix : 3 fr. 
+            
+            LE FILS DE L'HOMME, drame en un acte, par M. Paul de Lussan, 
+            
+            représenté sur le théâtre des Nouveautés. 
+            
+            Prix : 
+            
+            1 fr. 5o c. 
+            
+            QUONIAM, vaudeville anecdotique en deux actes, par MM. Desver
+            
+            ger et Jadin, réprésenté sur le théâtre des Nouveautés. Prix : 2 fr. 
+            
+            LES TROIS CATHERINE, 
+            
+            esquisses historiques du règne de
+            
+            Henri VIII, par MM. Duport et Monnais, réprésentées sur le théâtre
+            
+            des Nouveautés. 
+            
+            Prix : 3 fr. 
+            
+            L'ENTREVUE, ou Les Deux IMPÉRATRICES, vaudeville en un acte, 
+            
+            par MM. Villeneuve, Masson et Xavier, représenté sur le théâtre
+            1 fr. 50 c. 
+            
+            du Vaudeville. 
+            
+            Prix : 
+            
+            LES PILULES DRAMATIQUES, OU LE CHOLERA-Morbus, revue
+            Prix : 1 fr. 50 c. 
+            
+            critique et politique en un acte. 
+            
+            L'ANGE-GARDIEN, ou Soeue Marie, comédie-vaudeville en deux
+            
+            actes, de M. Casimir, 
+            
+            représentée sur le théâtre des Variétés. 
+            
+            Prix : 2 fr. 
+            
+            LE NOBLE ET L'ARTISAN, vaudeville en deux actes, par MM. Théo
+            
+            dore Anne et Réné, représenté sur le théâtre du Vaudeville. Prix : 2 fr. 
+            
+            JULIETTE, comédie-vaudeville en deux actes, par M. Morel, repré
+            Prix : 2 fr. 
+            
+            sentée sur le théâtre des Nouveautés. 
+            
+            LES VARIÉTÉS DE 1830, revue en un acte, par MM. F. de Courcy, 
+            
+            Brazier et Rougemont, représentée sur le théâtre des Variétés. 
+            1 fr. 50 c. 
+            
+            Prix : 
+            
+            ANGELIQUE ET JEANNETON, comédie-vaudeville en quatre actes, 
+            
+            imitée de M. Pigault-Lebrun ; par MM. Ferdinand de Villeneuve, 
+            Dupeuty et Xavier, représentée sur le théâtre du Vaudeville. 
+            2 fr. 
+            
+            LA SÉPARATION, comédie en trois actes et en prose, par MM. Mé
+            
+            1
+            
+            lesville et Carmouche, représentée sur le théâtre de l'Odéon. 
+            Prix : 2 fr. 
+            
+            L'ONCLE RIVAL, comédie-vaudeville, par M. Mélesville, réprésen
+            Prix : 1 fr. 5o c. 
+            
+            tée sur le théâtre du Gymnase dramatique. 
+            
+            LA MONNAIE DE SINGE, ou le LOYER DE LA DANSEUSE
+            
+            proverbe
+            
+            mêlé de chants, représenté sur le théâtre des Variétés. 
+            
+            Prix : : 
+            
+            i fr. 5o c. 
+            
+            SOLDATS, VOILA CATIN, croquis militaire en deux parties, par
+            MM Desvergers et Anicet-Bourgeois, représenté sur le théâtre du
+            Vaudeville. 
+            
+            Prix : 2 fr. 
+            
+            NAPOLÉON A BERLIN, ou la RedingOTE GRISE, comédie-vaude
+            ville, par MM. Dumersan et Dupin, représentée sur le théâtre des
+            1 fr. 5o c. 
+            Variétés. 
+            
+            Prix : 
+            
+            LE MARCHAND DE LA RUE SAINT-DENIS, ou LE MAGASIN, LA
+            MAIRIE ET LA COUR D'assises, comédie-vaudeville en trois actes, 
+            
+            par MM. de Villeneuve, Brazier et Emile Vanderburch, représen
+            Prix : 2 fr. 
+            
+            tée sur le théâtre des Nouveautés. 
+            
+            LA DEMANDE EN MARIAGE, OU LE JÉSUITE RETOURNÉ, comédie
+            
+            vaudeville en un acte, par M. Monnais, représentée sur le théâtre
+            
+            des Variétés. 
+            
+            Prix : 1 fr. 5o c. 
+            
+            LE CARNAVAL ET LES ARRÊTS, vaudeville en un acte, de
+            Prix : i fr. 50. 
+            
+            M. Adolphe Jadin. 
+            
+            LES
+            
+            PILULES
+            
+            DRAMATIQUES, 
+            
+            OU
+            
+            LI CHOLÍRA-MORBUS, 
+            
+            Revue Critique et Politique en un Acte, 
+            
+            PAR
+            
+            M. LE DOCTEUR MESENTHÈRE ; 
+            
+            REPRÉSENTÉE POUR LA PREMIÈRE FOIS, 
+            
+            SUR LE THÉATRE DES NOUVEAUTÉS, 
+            
+            LE II FÉVRIER 1831. 
+            
+            PARIS
+            
+            R. RIGA, LIBRAIRE, 
+            
+            POULEVARD POISSONNIÈRE, N. 1. 
+            
+            1831
+            
+            131432-B
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            SCARLATIN, médecin des théâtres. 
+            
+            BOURGEOIS, vieil assureur dramatique. 
+            
+            CHICOTIN, garçon pharmacien. 
+            
+            LA DISCORDE, de l'Opéra. 
+            
+            LE GLORIEUX, des Français. 
+            
+            L'ILLUSION, de l'Opéra-Comique. 
+            
+            LA COMTESSE D'AREZZO, du Gymnase. 
+            
+            AGRIPPINE, de l'Odéon. 
+            
+            JOVIAL, des Nouveautés. 
+            
+            LE PÈRE PANGRAÇE, des Variétés. 
+            
+            TRESTAILLONS, de la Porte-Saint-Martin. 
+            
+            LA COMÈTE. 
+            
+            M. MATHIEU. 
+            
+            M. DUBOURJAL. 
+            
+            M, AUGUSTE. 
+            
+            M. PERLET, 
+            
+            M. THÉNARD. 
+            
+            Mlle DÉJAZET. 
+            
+            Mlle CLORINDE. 
+            
+            Mlle Félicie. 
+            
+            M. PHILIPPE. 
+            
+            M, LACAZE. 
+            
+            M. ARMAND. 
+            
+            Mlle DÉJAZET. 
+            
+            LA Mendiante, du Vaudeville ; La GAITÉ, L'AMBIGU, 
+            
+            LE CENTAURE, du Cirque ; LES FOLIES DRAMATIQUES, PERSONNAGES
+            
+            LES THÉATRES MONTANSIER ET MOLIÈRE, Mme Saqui, 
+            
+            MUETS. 
+            
+            LES FUNAMDULES. 
+            
+            La scène est à Pantin, dans la maison de santé
+            
+            du ảocteur Scarlatin, 
+            
+            IMPRIMERIE DE DAVID, BOULEVARD POISSONNIÈRE, N. 6. 
+            
+            LES
+            
+            PILULES DRAMATIQUES. 
+            
+            Le théâtre représente un jardin ; à droite du public, une petite officine ; à gauche, 
+            
+            la porte d'une maison ; une fenêtre praticable. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            Au lever du rideau, BOURGEOIS, la main à la. sonnetle, sonne avec
+            
+            force, CHICOTIN. 
+            
+            BOURGEOIS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR de la Sabottière. </stage>
+            
+            
+            
+            
+                    <l>Din ! din ! ouvrez la porte !</l>
+                    <l>Din ! din ! c'est par trop long.</l>
+                    <l>Tin ! tin ! vite qu'on sorte !</l>
+                    <l>Din ! don ! ouvrez-moi donc ! …</l>
+            
+            
+                    CHICOTIN, à lu fenêtre. 
+            
+                    <l>Sonnerez-vous jusqu'à demain ?</l>
+                    <l>Est-ce pour me faire une niche ?</l>
+            
+                    (A Bourgeois quisonne.)
+            
+                    <l>Prenez donc garde au pied de biche,</l>
+                    <l>Il va vous rester dans la main.</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS. 
+            
+            (Il se retire.)
+            
+            Il m'importe peu… 
+            
+            Din ! din ! ouvrez la porte ! 
+            
+            (Il sonne.)
+            
+            (A Chicotin qui paraît.) Monsieur, agréez l'assurance de ma consi
+            
+            dération… je veux parler au docteur-médecin qui habite ce local ; 
+            
+            et je voudrais savoir si c'est vous pour ne pas faire d'amphibo
+            
+            logie. 
+            
+            CHICOTIN. 
+            
+            Je n'ai pas l'air d'un médecin, moi, je suis Chicotin, aide-phar
+            
+            macien de M. Scarlatin. 
+            
+            BOURGEOIS. 
+            
+            Je viens de Paris à Pantin, exprès pour le consulter et lui faire
+            
+            agréer l'assurance… 
+            
+            CHICOTIN, le regardant. 
+            
+            Tiens… est-ee que vous avez gagné aussi l'épidémie ? 
+            
+            Quelle epidemie ? … 
+            
+            BOURGEOIS. 
+            
+            CHICOTIN. 
+            
+            Le choléra-morbus ! … on ne traite que ça dans notre maison. 
+            
+            BOURGEOIS. 
+            
+            Je ne suis frappé d'aucune sorte de choléra-morbus que ce soit. 
+            
+            Je suis assureur dramatique… je n'ai point l'avantage d'être ina
+            lade. 
+            
+            Tant pis. 
+            
+            CHICOTIN. 
+            
+            Tant mieux, ventrebleu ! Mais faites-moi venir votre patron. 
+            
+            BOURGEOIS. 
+            
+            Justement, le voilà. 
+            
+            CHICOTIN. 
+            
+            SCÈNE II. 
+            
+            LES MÊMES, SCARLATIN. 
+            
+            SCARLATIN, à la cantonnade. 
+            
+            C'est très-bien, messieurs, je suis enchanté de votre fermeté ; 
+            
+            vous avez tous été de mon avis, 
+            
+            il faut trancher dans le vif… 
+            
+            Tiens, Chicotin, prends ce papier et prépare-moi une effroyable
+            
+            quantité de pilules, suivant l'ordonnance. 
+            
+            Ça suffit… je vas me mettre au pilon. 
+            
+            CHICOTIN. 
+            
+            (Il s'éloigne et va dans la pharmacie, où il travaille.)
+            
+. 
+            
+            Monsieur, qu'y a-t-il pour votre service ? 
+            
+            SCARLATIN, à Bourgeois. 
+            
+            BOURGEOIS, saluant. 
+            
+            Avant tout, monsieur, agréez l'assurance ; je me nomme Bour
+            
+            geois, je suis capitaliste. J'ai appris que vous avez été nommé mé
+            decin des théâtres. 
+            
+            Et c'est une clientelle, qui m'occupe jour et nuit je finirai par
+            
+            SCARĻATIN. 
+            
+            en tomber malade, monsieur… 
+            
+            BOURGEOIS. 
+            
+            Oh ! monsieur, cela vous plaît à dire… Pour revenir donc à mon
+            
+            exposé, il m'est venu en tête d'avoir une idée… 
+            
+            SCARLATIN. 
+            
+            Une idée ! … ce n'est pas trop ; mais ça vaut toujours mieux que
+            
+            rien… 
+            
+            ROURGEOIS. 
+            
+            Ne sachant que faire de mon argent, voyant la rente en proie à
+            
+            la fièvre intermittente, je me décide à fuir les coulisses de la
+            
+            Bourse pour une jeter dans les coulisses des théâtres. 
+            
+            SCARLATIN. 
+            
+            Prenez garde… je saisis votre pensée ; vous voulez vous faire ac
+            
+            tionnaire… 
+            
+            BOURGEOIS. 
+            
+            Pas si dupe… je craindrais d'avoir à me reprocher trop de mau-. 
+            
+            vaises actions ; mon but unique est d'assurer toutes les entreprises
+            
+            dramatiques. 
+            
+            Contre le feu ? 
+            
+            SGARLATIN. 
+            
+            BOURGEOIS. 
+            
+            Et surtout contre le froid. 
+            
+            SCARLALIN, riant. 
+            
+            Ah ! oui, à cause des pièces. 
+            
+            BOURGEOIS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : On dit que je suis sans malice. </stage>
+            
+            
+                    <l>Je veux assurer les actrices,</l>
+                    <l>Les directeurs, les directrices ;</l>
+                    
+                    7
+                    
+                    <l>Des employés, des courtisans,</l>
+                    <l>Je veux assurer les sermens !</l>
+            
+                    SCARLATIN. 
+            
+                    <l>Pour être utile à la patrie,</l>
+                    <l>Ah ! contre la diplomatie,</l>
+                    <l>Vous devriez, en même temps,</l>
+                    <l>Assurer les gouvernemens.</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS. 
+            
+            Ce n'est pas de mon ressort… mais avant de m'engager plus
+            
+            avant, je viens vous consulter sur la situation physique et morale
+            
+            des théâtres. 
+            
+            SCARLATIN. 
+            
+            Au physique ils font de la peine, et au moral ils font pitié… Les
+            
+            malheureux sont dévorés par le choléra-morbus… cette maladie
+            
+            du Nord… 
+            
+            BOURGEOIS. 
+            
+            Qui a été inventée par les Russes : Bien, et croyez-vous que vos
+            
+            cliens dramatiques aient le projet d'en mourir ? 
+            
+            SCARLATIN. 
+            
+            Oh ! non… depuis qu'ils sont entre mes mains, ils vont déjà
+            
+            beaucoup mieux. 
+            
+            BOURGEOIS. 
+            
+            Je conçois, la liberté leur a été favorable. 
+            
+            SCARLRTIN, vivement. 
+            
+            Eh ! monsieur, que dites-vous là ? C'est la liberté qui a pensé les
+            
+            tuer tout-à-fait. 
+            
+            BOURGEOIS. 
+            
+            Mais cependant les théâtres ne peuvent pas s'en passer… on leur
+            
+            a donné la liberté, c'est pour qu'ils s'en servent, 
+            
+            SCARLATIN. 
+            
+            Du tout, ça l'use… aussi je viens de faire une bonne ordon
+            
+            nance à ce sujet ; vous comprenez bien qu'on ne doit pas
+            tout dire sur la scène. 
+            
+            laisser
+            
+            BOURGEOIS. 
+            
+            J'avoue qu'on est audacieux ; mais aucun malheur n'est cepen
+            
+            dant arrivé. 
+            
+            SCARLATIN. 
+            
+            Ces ouvrages nouveaux allument l'opinion. 
+            
+            Elle s'éteint avec les quinquets… 
+            
+            BOURGEOIS. 
+            
+            On
+            
+            expose en public des hommes vivans. 
+            
+            BOURGEOIS. 
+            
+            SCARLATIN. 
+            
+            Et vous êtes pour les morts, vous, docteur ; diable, je tremble
+            
+            pour mes assurances. 
+            
+            SCARLATIN. 
+            
+            N'y renoncez pas… les théâtres vont venir ici en consultation… 
+            
+            vous jugerez par vous-même. 
+            
+            (On entend un cornet à bouquin.)
+            
+            BOURGEOIS. 
+            
+            Qu'est-ce que c'est que ça ? 
+            
+            Dites donc, not' maître, v'là qu'il nous arrive une citadine pleine
+            
+            de théâtres ; on dirait d'un chariot du mardi-gras. 
+            
+            CHICOTIN, entrant. 
+            
+            Fais entrer. 
+            
+            SCARLATIN. 
+            
+            SCÈNE III. 
+            
+            LES MÊMES, LE PÈRE PANCRACE, LA MENDIANTE, LA GAITÉ, 
+            
+            LE CENTAURE, L'AMBIGU. 
+            
+            CHOEUR. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : La belle Nuit. </stage>
+            
+            
+                    <l>Chez le docteur, dont la science</l>
+                    <l>Doit en ce jour guérir le théâtre en souffrance,</l>
+                    <l>Chez le docteur,</l>
+                    <l>Nous venons tous conter notre douleur.</l>
+            
+                </lg>
+            </div>
+            
+            BOURGEOIS. 
+            
+            Pardon, bon père, est-ce que vous seriez un théâtre ? 
+            
+            PANCRACE. 
+            
+            Oui, mon frère, le théâtre des Variétés, sous la robe du père
+            
+            Pancrace, de Voltaire chez les capucins. 
+            
+            BOURGEOIS. 
+            
+            Ah ! le théâtre des Variétés s'est fait capucin ? Pour rire, sans
+            
+            doute ? 
+            
+            Pour rire… pas trop… 
+            
+            PANCRACE. 
+            
+            LE DOCTEUR. 
+            
+            Et pourquoi avez-vous quitté le monde ? 
+            
+            PANCRACE. 
+            
+            Parce
+            
+            que le monde me quittait. Ne insultes miscris. 
+            
+            PANCRACE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Oh ! oh ! oh ! ah ! ah ! </stage>
+            
+            
+                    <l>Mais c'est égal ; oui, me voilà,</l>
+                    <l>Je viens avec ces dames,</l>
+                    <l>Vous demander du quinquina,</l>
+                    <l>Pour ma fièvre drames ;</l>
+                    <l>Dans mes couplets, j'ai l'esprit fin,</l>
+                    <l>Et je suis très-gai, très-malin,</l>
+                    <l>Ouin, ouin !</l>
+            
+                    TOUS. 
+            
+                    <l>Dans ses couplets, quel esprit fin !</l>
+                    <l>Ah ! qu'il est gai, qu'il est malin,</l>
+                    <l>Ouin, ouin !</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS. 
+            
+            Mais, mon ami, au lieu de cette vieille barbe et de ces sandales
+            
+            qui vous donnent tout-à-fait l'air d'un va-nu-pieds, que ne jouez
+            
+            vous de bonnes farces comme autrefois ? … 
+            
+            PANCRACE. 
+            
+            C'est trop mauvais ton… nous voulonsnous élever plus haut ; nous
+            
+            chantons la romance et l'opéra-comique comme des déterminés. 
+            
+            BOURGEOIS. 
+            
+            Je ne vous donnerai pas ma voix pour ce projet-là. 
+            
+            1
+            
+            Et
+            
+            que dit votre public ? 
+            
+            LE DOCTEUR. 
+            
+            PANCRACE. 
+            
+            Rien, puisqu'il reste chez lui. Mais nous voulons le forcer à s'oc
+            
+            cuper de nous ; nous avons offert des hals pendant le carnaval. 
+            
+            Et vous espériez faire du bruit ? 
+            
+            LE DOCTEUR. 
+            
+            Avec vos cinq bals ! 
+            
+            Ah ! c'est de l'Odry. 
+            
+            BOURGEOIS. 
+            
+            PANCRACE. 
+            
+            BOURGEOIS. 
+            
+            Croyez-moi, revenez à Pinson, à la Marchande de Goujons, et sur
+            
+            tout à l'Ours et le Pacha. 
+            
+            PANCRACE. 
+            
+            Je vous dis que nous ne rêvons que les pièces de grâce… 
+            
+            Prenez votre ours. 
+            
+            BOURGEOIS. 
+            
+            PANCRACE. 
+            
+            Nous voulons culbuter le Gymnase ! 
+            
+            Prenez votre ours… 
+            
+            LE DOCTEUR. 
+            
+            BOURGEOIS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Et lon lan la, etc. </stage>
+            
+            
+                    <l>Quittez cet habit burlesque</l>
+                    <l>Qui glace les spectateurs ;</l>
+                    <l>Laissez le ton pédantesque</l>
+                    <l>Qu'on retrouve assez ailleurs.</l>
+                    <l>Moquez-vous de la critique,</l>
+                    <l>Votre santé renaîtra.</l>
+                    <l>Et lon lan la,</l>
+                    <l>Le franc comique,</l>
+                    <l>Et lon lan la,</l>
+                    <l>Vous guérira.</l>
+                </lg>
+            </div>
+            
+            
+            PANCRACE. 
+            
+            1
+            
+            Tout ce que vous dites-là est très-juste ; mais je n'en ferai rien, 
+            
+            et je me sauverai par la grâce divine… Beati pauperes. 
+            
+            Ah ça, et ces inuets qui sont là avec vous ? 
+            
+            PANCRACE. 
+            
+            BOURGEOIS. 
+            
+            Ce sont de braves gens qui ne font pas beaucoup de bruit : 
+            
+            celle-ci
+            
+            est la Mendiante de la rue de Chartres ; les autres sont
+            
+            l'Ambigụ, le Cirque et la Gaîté, trois célèbres criminels qui ont
+            
+            assassiné plus de personnes que le docteur n'en a guéri. 
+            
+            BOURGEOIS. 
+            
+            Ce sont de grands misérables. 
+            
+            PANCRACE. 
+            
+            Hélas ! je le suis autant qu'eux. 
+            
+            BOURGEOIS. 
+            
+            Quelle est cette dame qui s'avance ? 
+            
+            9 10 €
+            
+            SCÈNE IV. 
+            
+            LES MÊMES, L'ILLUSION. 
+            
+            L'ILLUSION. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Une robe légère. </stage>
+            
+            
+                    <l>De l'Opéra-Comique,</l>
+                    <l>Je suis le député ;</l>
+                    <l>On vante ma musique,</l>
+                    <l>Mon esprit, ma gaîté :</l>
+                    <l>Mes pièces sont bien faites,</l>
+                    <l>Et l'administration</l>
+                    <l>Fait d'énormes recettes.</l>
+            
+                    BOURGEOIS. 
+            
+                    <l>C'est bien l'Illusion.</l>
+            
+                    L'ILLUSION. 
+            
+                    <l>Oui, je fais des recettes,</l>
+                    <l>Je suis l'Illusion.</l>
+            
+                </lg>
+            </div>
+            
+-
+            
+            J'ai appris qu'il y avait dans votre maison un célèbre docteur
+            
+            oculiste. 
+            
+            C'est moi. 
+            
+            SCARLATIN. 
+            
+            L'IELUSION. 
+            
+            Et l'on m'assure que j'y vois tout de travers. 
+            
+            SCARLATIN. 
+            
+            Vous avez pourtant d'assez beaux yeux. 
+            
+            L'ILLUSION. 
+            
+            Pas si beaux que ceux de ma cassette ; car je suis à la tête d'un
+            
+            établissement superbe, place Ventadour, dix croisées de face au
+            
+            balcon. 
+            
+            BOURCEOIS. 
+            
+            Ah ! c'est ce grand bâtiment qui était fermé cet été. 
+            
+            L'ILLUSJON. 
+            
+            C'était
+            
+            pour tenir l'appartement frais. 
+            
+            BOURGEOIS. 
+            
+            Tiens, j'ai cru, moi, que c'était une maison à louer. 
+            
+            L'ILLUSION. 
+            
+            On ne loue pas l'Opéra-Comique comme un appartement
+            
+            garni. 
+            
+            BOURGEOIS. 
+            
+            Garni… je crois bien ; je vous le souhaite. 
+            
+            L'ILLUSION. 
+            
+            Ah ! ça ne nous empêche pas d'avoir tous les soirs deux mille
+            
+            huit cents francs. 
+            
+            Deux mille huit cents francs ! 
+            
+            BOURGEOIS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : vaudeville de Fanchon. </stage>
+            
+            
+                    <l>Ça s'rait un' belle affaire,</l>
+                    <l>Mais vous avez, ma chère,</l>
+                    <l>Des frais qui sont exorbitans :</l>
+                    <l>Toujours vot' recett' baisse ;</l>
+                    <l>C'est chaqu' soir deux mill' huit cent francs</l>
+                    <l>Qui sont hors de vot' caisse,</l>
+                    <l>Et c'est vous qu'êtes dedans.</l>
+                </lg>
+            </div>
+            
+            
+            Nous avons des frais, c'est vrai ; mais on ne saurait trop payer
+            
+            L'ILLUSION. 
+            
+            les talens. 
+            
+            Le fait est que vous en avez d'impayables. 
+            
+            L'ILLUSION. 
+            
+            BOURGEOIS. 
+            
+            II y a long-temps que nous les avons ceux-là, les jeunes pre
+            
+            miers surtout ; ils sont les doyens de l'ancienne société. 
+            
+            SCARLATIN. 
+            
+            Ah ! oui, j'étais en nourrice dans ce temps-là. 
+            
+            L'ILLUSION. 
+            
+            On prétend encore que les Italiens nous font du tort, on se
+            
+            trompe ; on croit qu'ils chantentmieux que nous ; mais quand nous
+            
+            chantons, tout le monde dit que c'est faux. 
+            
+            BOURGEOIS. 
+            
+            C'est juste, belle Illusion. 
+            
+            L'ILLUSION. 
+            
+            Tenez, voulez-vous que je vous donne une idée de ce qui se
+            
+            passe chez nous ? 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune" id="AIR : Pour voir chaqu' chose.">Air de M. Adam. </stage>
+            
+            
+                    <l>Que d'monde dans la salle !</l>
+                    <l>On s'amuse et l'on rit.</l>
+                    <l>Nous n'avons pas d'cabale,</l>
+                    <l>Et pourtant le public applaudit.</l>
+                    <l>Musique savante</l>
+                    <l>Qui n' caus' pas d'ennui,</l>
+                    <l>Car tout ce qu'on chante</l>
+                    <l>Est du Rossini.</l>
+                    <l>Chaque actrice</l>
+                    <l>Est novice !</l>
+                    <l>L'amoureux</l>
+                    <l>N'est pas vieux !</l>
+                    <l>Pour voir chaqu' chose</l>
+                    <l>Couleur de rose,</l>
+                    <l>Ayez, comme moi,</l>
+                    <l>Les yeux d'la foi.</l>
+                    <l>Ah ! ah ! ah ! ah ! ah ! ah ! ah ! ah ! ah !</l>
+                    
+                    <l>Nous n'avons que du zèle,</l>
+                    <l>Et nous montons toujours</l>
+                    <l>Une pièce nouvelle,</l>
+                    <l>Tout au plus <stage type="repetition"> (bis) </stage> en huit jours.</l>
+                    <l>Afin d'se soumettre</l>
+                    <l>À son jugement,</l>
+                    <l>Nous daignons admettre</l>
+                    <l>Le public payant.</l>
+                    <l>Jamais d'loge</l>
+                    <l>Pour l'éloge</l>
+                    <l>D'maint journal</l>
+                    <l>Impartial.</l>
+                    <l>Pour voir chaqu' chose</l>
+                    <l>Couleur de rose,</l>
+                    <l>Ayez, comm' moi,</l>
+                    <l>Les yeux d'la foi.</l>
+                    <l>Ah ! ah ! ah ! ah ! ah ! ah ! ah ! ah ! ah !</l>
+            
+                </lg>
+            </div>
+            
+            
+            
+            BOURGEOIS. 
+            
+            Ah ! ça, ma chère amie, voilà une heure que vous nous répé
+            
+            tez : Ah ! ah ! ah ! Qu'est-ce que ça veut dire ? 
+            
+            2
+            
+            9, 12 €
+            
+            L'ILLUSION. 
+            
+            C'est la plaisanterie locale, le véritable esprit de l'Opéra-Comi
+            
+            que… Le ah ! ah ! ah ! veut tout dire… Voulez-vous avoir l'air de
+            
+            refuser un galant qui vous fait des propositions ? vous lui chantez : 
+            
+            Ah ! ah ! ah ! ah ! c'est gentil, et ça n'engage à rien… Voulez-vous
+            
+            accorder un baiser å l'insu de votre mère ? vous chantez encore : 
+            
+            Ah ! ah ! ah ! ah ! ah ! … c'est gai et ça empêche d'entendre… Vou
+            
+            lez-vous prouver au public que vous faites des bouquets avec
+            
+            grâce, et que vous avez appris à danser ? vous chantez : Ah ! ah ! 
+            
+            ah ! ah ! … Enfin votre amant vousfait-il une infidélité, il vous reste
+            
+            une consolation ; c'est de chanter encore : Ah ! ah ! ah ! ah ! ah ! 
+            
+            SCARLATIN. 
+            
+            Pour vous guérir de toutes vos illusions, vous prendrez de mes
+            
+            pillules… Venez, belle dame, entrez avec les autres. 
+            
+            L'ILLUSION. 
+            
+            (Bruit.)
+            
+            Eh ! mais quel est ce bruit ? Ecoutez ! … 
+            
+            (On entend en dehors le chæur suivant :) 
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">
+                        Air du Maréchal Brune. </stage>
+            
+            
+                    <l>Trestaillons l'ordonne,</l>
+                    <l>N'épargnons personne :</l>
+                    <l>Vivent les chouans</l>
+                    <l>Et les bons blancs !</l>
+                </lg>
+            </div>
+            
+            
+            (Violent coup à la porte de côte.)
+            
+            SCARLATIN. 
+            
+            Qui est là ? 
+            
+            TRESTAILLONS, en dehors. 
+            
+            Jacques Dupont, dit Trestaillons. 
+            
+            L'ILLUSION. 
+            
+            Il faut le recevoir. 
+            
+            SCÈNE V. 
+            
+            TRESTAILLONS, avec l'accent provençal. 
+            
+            Adieu, tout le monde… Messieurs, mesdames, la compagnie. 
+            
+            Ah ! c'est la Porte-Saint-Martin… Comment va le maréchal
+            
+            BOURGEOIS, lui offrant du tabac. 
+            
+            Brune ? 
+            
+            Mal, depuis que je le tue tous les soirs. 
+            
+            TRESTÀILLONS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air Diavolo. </stage>
+            
+                    <l>J'arrive à pied de Nismes,</l>
+                    <l>Car je ne suis pas d'Avignon,</l>
+                    <l>En m'appuyant sur mon bâton,</l>
+                    <l>Je chante ma chanson.</l>
+                    <l>Je suis couvert de crimes,</l>
+                    <l>Et quand j'viens avec mes lurons,</l>
+                    <l>J'entends des loges, des balcons,</l>
+                    <l>Tout l'mond crier : Fuyons !</l>
+            
+                    (Faisant tourner sur sa tête son gros báton noueux.)
+            
+                    <l>Tremblez ! … Qui sait fair' un' sall' nette,</l>
+                    <l>Et tuer jusqu'à la r'cette ?</l>
+                    
+                    TOUS, à voix basse. 
+            
+                    <l>Trestaillons ! <stage type="repetition"> (bis) </stage></l>
+                   
+                </lg>
+            </div>
+            
+            
+            15
+            
+            €
+            
+            L'ILLUSION. 
+            
+            Vous êtes gentil, vous jouez bien votre rôle. 
+            
+            BOURGEOIS. 
+            
+            Mais pourquoi usurper un titre qui ne vous appartient pas, ce
+            
+            lui d'assassin du maréchal Brune ? 
+            
+            C'est de la fatuité. "
+            
+            L'ILLUSION. 
+            
+            TRESTAILLONS. 
+            
+            Ce n'est pas moi, tron de l'air, e'est mon théâtre. 
+            
+            SCARLATIN. 
+            
+            Vous mentez continuellement à l'histoire. 
+            
+            TRESTAILLONS. 
+            
+            Silence, bagasse ! je tue… mais je ne mens jamais ; c'est mon
+            
+            théâtre… Ecoutez plutôt mon anecdote : J'entre dans une hôtel
+            
+            lerie, et je frappe avec un gros bâton… 
+            
+            BOURGEOIS. 
+            
+            Voilà d'abord qui est assommant. 
+            
+            TRESTAILLONS. 
+            
+            Je me trouve dans Avignon ou je ne suis jamais été ; j'adore une
+            
+            Laurence que je n'ai jamais aimée ; je reconnais un maréchal de
+            
+            France que je n'ai jamais vu… Voilà pour l'historique… 
+            
+            BOURGEOIS. 
+            
+            Votre historique est bien chimérique… 
+            
+            L'ILLUSION. 
+            
+            Ah ! ça, mais pourquoi faites-vous tout ça ? … 
+            
+            TRESTAILLONS. 
+            
+            Pour détrôner une troisième fois ce gredin de Buonaparte qui
+            
+            se permet trois heures d'empire tous les soirs au boulevard Saint
+            
+            Martin… 
+            
+            C'est donc une conspiration ? … 
+            
+            BOURGEOIS. 
+            
+            C'est une abomination. 
+            
+            TRESTAILLONS. 
+            
+            L'ILLUSION. 
+            
+            Je fais une réflexion : c'est que vous cherchez à causer une révo
+            
+            lution. 
+            
+            Non, c'est une restauration. 
+            
+            TRESTAILLONS. 
+            
+            Chacun son opinion. 
+            
+            BOURGEOIS. 
+            
+            L'ILLUSION. 
+            
+            Mais vous excitez les passions. 
+            
+            C'est inon intention. 
+            
+            Une observation… 
+            
+            Pas de contradiction. 
+            
+            Fermons la discussion. 
+            
+            TRESTÁILLONS, 
+            
+            BOURGEOIS. 
+            
+            I'RESTAILLONS. 
+            
+            BOURGEOIS. 
+            
+            TRESTAILLONS, 
+            
+            Vous êtes un chien de modéré. 
+            
+            L'ILLUSION. 
+            
+            Monsieur, voulez-vous m'offrir la main pour me reconduirc ? 
+            
+            TRESTÁILLONS. 
+            
+            La voilà ; excusez si je m'y prends gauchement ; ma nature est
+            
+            un peu grossière. 
+            
+            (Ils sortent. On entend chanter en dehors : La clé, la clé, vive la clé.)
+            
+            SCARLATIN. 
+            
+            Tiens, c'est le théâtre des Nouveautés ; comme il est gai ; il
+            
+            y a
+            
+            quelque chose d'extraordinaire. 
+            
+            SCÈNE VI. 
+            
+            LES MÊMES, JOVIAL. 
+            
+            JOVIAL, en entrant, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Gai, gai. </stage>
+            
+            
+                    <l>Content,</l>
+                    <l>Toujours chantant,</l>
+                    <l>Bonne franchise,</l>
+                    <l>Est toujours ma devise,</l>
+                    <l>Content,</l>
+                    <l>Toujours chantant,</l>
+                    <l>Par mes refrains je sais payer comptant.</l>
+                    <l>Huissier, chansonnier,</l>
+                    <l>Sans sou ni dénier,</l>
+                    <l>En tout temps ma voix</l>
+                    <l>Chante mes exploits,</l>
+                    <l>Partout, bien ou mal,</l>
+                    <l>À pied, à cheval,</l>
+                    <l>Le sort m'est égal</l>
+                    <l>Je suis Jovial.</l>
+                    <l ana="unanalyzable">Content, etc.</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS. 
+            
+            Comment ! un gros gaillard de bonne mine comme vous… venir
+            
+            dans une maison de santé ? 
+            
+            JOVIAL. 
+            
+            Mon théâtre m'a dit qu'il était indisposé… et je viens me faire
+            
+            soigner pour lui. 
+            
+            BOURGEOIS. 
+            
+            (Il regarde autour de lui.)
+            
+            Qu'est-ce que vous cherchez donc ? 
+            
+            Je cherche un genre. 
+            
+            Mais vous les avez tous ! 
+            
+            JOVIAL. 
+            
+            BOURGEOIS. 
+            
+            JOVIAL. 
+            
+            C'est
+            
+            pour cela
+            
+            que je n'en ai
+            
+            pas. 
+            
+            Et vos pièces à musique ? 
+            
+            SCARLATIN : 
+            
+            JOVIAL. 
+            
+            Oh ! quelle scie ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Vaud. de l'écu de six francs. </stage>
+            
+            
+                    <l>Pour singer l'Opéra-Comique,</l>
+                    <l>Mon théâtre payait bien cher ;</l>
+                    <l>Mais assez souvent sa musique</l>
+                    <l>Lui donnait un fort mauvais air.</l>
+            
+                    15
+            
+                    <l>Pour le directeur quel scandale,</l>
+                    <l>Dans l'orchestre, je m'en souviens,</l>
+                    <l>J'ai vu plus de musiciens</l>
+                    <l>Que de spectateurs dans la salle ! …</l>
+                </lg>
+            </div>
+            
+            
+            Et puis nous avions aussi nos décorations, nos costumes historiques
+            
+            qui nous coûtaient beaucoup d'argent. 
+            
+            PANCRACE, 
+            
+            Et qui ne rapportaient que de l'ennui… 
+            
+            C'est ça même, père capucin… 
+            
+            JOVIAL. 
+            
+            BOURGEOIS. 
+            
+            Cependant j'ai vu chez vous une pièce d'un puissant intérêt. 
+            
+            C'est drôle, je n'en connais pas. 
+            
+            JOVIAL. 
+            
+            Elle était, je crois, imitée de Shaskspeare. 
+            
+            BOURGEOIS. 
+            
+            Henri VIII ? 
+            
+            Non, la Chatte blanche. 
+            
+            JOVIAL. 
+            
+            BOURGEOIS, 
+            
+            JOVIAL. 
+            
+            Oh ! oui… elle est encore pas inal bête votre chatte… j'ai fais
+            
+            une chanson là-dessus. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Turlurette. </stage>
+            
+            
+                    <l>En voyant leurs clowns anglais,</l>
+                    <l>À part moi je me disais :</l>
+                    <l>D'un succès si l'on se flatte,</l>
+                    <l>C'est la chatte, <stage type="repetition"> (bis) </stage></l>
+                    <l>La petite chatte.</l>
+            
+                    <l>L'administration qui</l>
+                    <l>Rit de madame Saqui,</l>
+                    <l>N'était pas un acrobate,</l>
+                    <l>C'est la chatte, <stage type="repetition"> (bis) </stage></l>
+                    <l>La petite chatte</l>
+                    
+                    <l>Henri cinq eut de l'esprit,</l>
+                    <l>Rafaël fit du profit,</l>
+                    <l>Isaure n'était pas plate</l>
+                    <l>C'est la chatte, <stage type="repetition"> (bis) </stage></l>
+                    <l>La petite chatte.</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS, 
+            
+            Mais, attendez donc… plus je vous regarde et plus je vous re
+            
+            connais ; je crois vous avoir vu au Vaudeville, il y a un lustre, 
+            
+            Il y a un lustre, … au Vaudeville, c'est possible. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaud. des Maris ont tort. </stage>
+            
+            
+                    JOVIAL. 
+            
+                    <l>C'était mon ancienne demeure.</l>
+            
+                    BOURGEOIS. 
+                    <l>De nouveau portez-y vos pas.</l>
+                    
+                    JOVIAL. 
+            
+                    <l>Non, car au Vaudeville on pleure</l>
+                    
+                    SCARLATIN. 
+                    
+                    <l>Aux Nouveautés on ne rit pas.</l>
+            
+                    
+    
+                    JOVIAL
+            
+                    <l>On se montrerait plus habile,</l>
+                    <l>Si l'on offrait des deux côtés,</l>
+                    9. 16 €
+                    <l>Des nouveautés au Vaudeville,</l>
+                    <l>Du vaudeville aux Nouveautés.</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS. 
+            
+            A propos de Nouveautés, il y a déjà long-temps qu'on ne vous y
+            
+            a vu ; d'où venez-vous donc ? 
+            
+            De me promener, j'ai fait mon tour d'Europe. 
+            
+            JOVIAL. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vivent les amours. </stage>
+            
+            
+                    <l>C'est moi, me voilà de retour,</l>
+                    <l>Chez l'étranger je viens de faire un tour :</l>
+                    <l>Par mes couplets j'ai tour à tour</l>
+                    <l>Su réjouir et la ville et la cour.</l>
+                    <l>À Moscou, j'ai chanté les Czars</l>
+                    <l>Leur beau Kremlin, le knout et les boyards,</l>
+                    <l>Et jusqu'au choléra-morbus,</l>
+                    <l>J'ai fait, ma foi, des chansons là-dessus.</l>
+                    <l>J'ai chanté chez les Hollandais</l>
+                    <l>Leur esprit lourd et leur brouillard épais,</l>
+                    <l>Leur crompires et leurs impôts,</l>
+                    <l>Leur bière… enfin les cruches et les pots.</l>
+                    <l>À Madrid, j'ai passé deux jours,</l>
+                    <l>Là j'ai chanté les saints et les amours ;</l>
+                    <l>Dans le pays de Rossini,</l>
+                    <l>Et la musique et le macaroni.</l>
+                    <l>À Vienne j'ai chanté le schnik,</l>
+                    <l>L'aigle d'Autriche et monsieur Metternich ;</l>
+                    <l>Mais en bon Français, à London,</l>
+                    <l>Je n'ai jamais pu chanter Wellington.</l>
+                    <l>Si dans Naples, à plein gosier,</l>
+                    <l>On m'entendit chanter Saint-Janvier,</l>
+                    <l>Au peuple tout bas j'ai chanté</l>
+                    <l>Tous les bienfaits de sainte Liberté.</l>
+                    <l>J'ai chanté la schlague à Berlin,</l>
+                    <l>Puis j'ai chanté la marmotte à Turin ;</l>
+                    <l>Et par contrainte en Portugal</l>
+                    <l>J'ai frédonné pour le tigre royal.</l>
+                    <l>Plus tard, chez le peuple romain,</l>
+                    <l>Dans un refrain j'ai chanté le lutrin ;</l>
+                    <l>Chez le Belge et le Polonais</l>
+                    <l>J'ai répété pour eux nos airs français,</l>
+                    <l>C'est moi, me voilà de retour,</l>
+                    <l>Chez l'étranger je viens de faire un tour :</l>
+                    <l>Par un couplet, j'ai tour à tour</l>
+                    <l>Su réjouir et la ville et la cour.</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS. 
+            
+            Ma foi, monsieur Jovial, vous avez raison de revenir à Paris, si
+            
+            vous ramenez avec vous la gaîté. 
+            
+            SCARLATIN. 
+            
+            D'abord vous allez prendre des pilules. 
+            
+            JOVIAL. 
+            
+            Avaler la pilule ? tiens, je viens de faire une chanson là-dessus. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air de la Boulangère. </stage>
+            
+            
+                    <l>Quand dans une société</l>
+                    <l>Un projet ridicule</l>
+                    <l>S'adopte à l'unanimité,</l>
+            
+                    1
+            
+                    +
+            
+                    917 e
+            
+                    <l>Sans crainte et sans scrupule,</l>
+                    <l>Le peuple alors, toujours bon-là,</l>
+                    <l>N'aval' pas la pilule, oui dà,</l>
+                    <l>N'aval' pas la pilule.</l>
+            
+                    <l>Que l'on dise que le Français</l>
+                    <l>Devant l'honneur recule,</l>
+                    <l>Pour défendre le Polonais</l>
+                    <l>Aux bords de la Vistule.</l>
+                    <l>Le peuple, alors toujours bon là</l>
+                    <l>N'aval' pas la pilule, oui dà,</l>
+                    <l>N'aval' pas la pilule.</l>
+            
+                    <l>On nous assure qu'au congrès,</l>
+                    <l>En conciliabule,</l>
+                    <l>Pour n'avoir pas un roi Français,</l>
+                    <l>Chaque Belge postule ;</l>
+                    <l>Mais le peuple, toujours bon là,</l>
+                    <l>N'aval' pas la pilule oui dà,</l>
+                    <l>N'aval' pas la pilule.</l>
+            
+            
+            
+                    LE DOCTEUR. 
+            
+                    Entrez là-dedans, monsieur Jovial, vous y trouverez des confrères. 
+            
+                    JOVIAL. 
+            
+                    Père Capucin, suivez-moi ; je vois l'Odéon et le Gymnase qui
+            
+                    s'avancent là-bas… allons rire plus loin. 
+            
+                    SCARLATON. 
+            
+                    Monsieur Bourgeois, vous m'enverrez tous ceux qui se présen
+            
+                    teront. 
+            
+                    JOVIAL, reprend. 
+            
+                    <l ana="unanalyzable">Content,</l>
+                    <l ana="unanalyzable">Toujours chantant, etc., etc.</l>
+                </lg>
+            </div>
+            (Ils entrent par la droite.)
+            
+            SCÈNE VII. 
+            
+            BOURGEOIS, AGRIPPINE, LA COMTESSE D'AREZZO. 
+            
+            LA COMTESSE, AGRIPPINE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Fernand Cortés. </stage>
+            
+            
+                    <l>Voyez notre tournure,</l>
+                    <l>Nous venons en voiture,</l>
+                    <l>De grâce, accueillez donc</l>
+                    <l>L' Gymnase et l'Odéon.</l>
+            
+                    LA COMTESSE. 
+            
+                    Je vous demande pardon de ne pas me faire annoncer par mes
+            
+                    laquais ; je suis la comtesse d'Arezzo du Gynınase, l'une des trois
+                    maîtresses. 
+            
+                    Donnez-vous la peine de vous asseoir, belle dame. 
+            
+                    LA COMTESSE. 
+            
+                    BOURGEOIS. 
+            
+                    Je ne suis pas fatiguée, je descends de mon landau. 
+            
+                    AGRIPPINE. 
+            
+                    <l>Moi qui suis malheureux, pour venir jusqu'à vous,</l>
+                    <l>Dans une Béarnaise il m'en coûta six sous.</l>
+                </lg>
+            </div>
+            
+            
+            LA COMTESSE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la Demoiselle à marier. </stage>
+            
+            
+                    <l>Coquet ;</l>
+                    <l>Muguet,</l>
+            
+                    18 €
+            
+                    <l>Je suis le Gymnase ;</l>
+                    <l>Galant,</l>
+                    <l>Brillant,</l>
+                    <l>Je vais pointillant.</l>
+            
+                    <l>J'ai dans chaque phrase</l>
+                    <l>Une intention</l>
+                    <l>Qui cause une extase</l>
+                    <l>De convention.</l>
+                    <l ana="unanalyzable"> Coquet, etc., etc.</l>
+            
+                    <l>Dans ma comédie</l>
+                    <l>Aux traits indécens,</l>
+                    <l>Je permets qu'on rie,</l>
+                    <l>Mais du bout des dents.</l>
+                    <l>Musqué,</l>
+                    <l>Busqué,</l>
+                    <l>J'amuse,</l>
+                    <l>J'abuse,</l>
+                    <l>Partout on dit</l>
+                    <l>Que j'ai trop d'esprit.</l>
+            
+                    AGRIPPINE… 
+            
+                    <l>Hélas ! ma chère enfant, nos beaux jours sont passés ;</l>
+                    <l>Vous aviez trop d'esprit, je n'en ai pas assez.</l>
+            
+            
+            
+                    ROURGEOIS. 
+            
+                    Parbleu ! belle comtesse, je me souviens du temps où l'on ne
+            
+                    pouvait jamais trouver de places chez vous… j'y allais souvent
+            
+                    avec des billets de faveur. 
+            
+                    LA COMTESSE. 
+            
+                    Des billets de faveur… oh ! j'en ai toujours sur moi. 
+            
+                    Ma bonne petite Agrippine, vous devriez donner aussi de ces bil
+            
+                    BOURGEOIS, à Agrippine. 
+            
+                    lets-la… 
+            
+            
+            
+                    AGRIPPINE. 
+                    <l>Nous les offrons de même, on les accepte ; mais…</l>
+                    <l>Le public dédaigneux ne nous les rend jamais.</l>
+                    <l>Pendant le grand procès la garde citoyenne</l>
+                    <l>Nous fit avoir au moins une bonne semaine ;</l>
+                    <l>Mais le bourgeois, fuyant même Napoléon,</l>
+                    <l>Croit voir la Sibérie en voyant l'Odéon.</l>
+                    <l>Nous endurons la faim… Il est cruel sans doute,</l>
+                    <l>Avec dix-neuf tableaux, de manquer d'une croûte.</l>
+                    <l>Pour plaire à tous venans je me suis requinqué,</l>
+                    <l>Le soir je suis théâtre et la nuit bal masqué.</l>
+                    <l>Aux frères Franconi nous jouons une niche,</l>
+                    <l>Sans prendre leur public nous prenons leur affiche.</l>
+                    <l>Un paillasse bientôt, dans chaque carrefour,</l>
+                    <l>Criera que l'Odéon est près du Luxembourg.</l>
+                    <l>Nous n'en ferons pas plus ; car dans notre long drame</l>
+                    <l>Nous avons mis de tout, faussetés, épigramme.</l>
+                    <l>Dignes fils de nos pairs, nous sommes généreux,</l>
+                    <l>Ils nous logent gratis, et nous nous moquons d'eux.</l>
+            
+                    Ce pauvre Odéon ! 
+            
+                    LA COMTESSE. 
+            
+                    AGRIPPINE
+            
+                    <l>Il vous sied bien, à vous, petite péronnelle,</l>
+                    <l>De vous moquer de moi ! quand, pour Bonne-Nouvelle,</l>
+                    <l>Toujours à mes dépens, par un rapt inhumain,</l>
+                    <l>Vous enlevez en bloc mon faubourg Saint-Germain.</l>
+                </lg>
+            </div>
+            9. 193
+            
+            LA COMTESSE. 
+            
+            Je ne dis pas le contraire ; il est de mes amis ; nous nous enten
+            
+            dons ensemble. 
+            
+            BOURGEOIS. 
+            
+            Oui, mais le noble faubourg n'ose plus traverser les rues depuis
+            
+            qu'on les a dépavées ; et sans lui vous n'êtes pas à la hauteur du
+            
+            siècle. 
+            
+            LA COMTESSE. 
+            
+            C'est vrai, quand les autres n'avaient pas le droit de parler… 
+            
+            moi j'avais l'esprit de tout dire. Maintenant que tout le monde
+            
+            peut avoir de l'esprit, je ne me sens plus à mon aise. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">
+                        AIR : Restez, restez, troupe jolie. 
+                    </stage>
+            
+                    <l>Sous le règne de la censure,</l>
+                    <l>Dieu sait combien j'avais d'esprit,</l>
+                    <l>J'en possédais outre mesure,</l>
+                    <l>Mais la Liberté me le prit,</l>
+                    <l>Vraiment la Liberté me nuit.</l>
+                    <l>Depuis six mois je parais fade,</l>
+                    <l>L'absolutisme me plaisait ;</l>
+                    <l>La charte m'a rendu malade,</l>
+                    <l>La république me tûrait.</l>
+            
+                    AGRIPPINE. 
+            
+                    <l>Je n'ai pas encore vu votre dernière pièce,</l>
+                    <l>Je la crois, mon enfant, d'une grande faiblesse ;</l>
+                    <l>Les uns la trouvaient mal, d'autres la trouvaient bien,</l>
+                    <l>Et tout ça m'a prouvé qu'elle ne prouvait rien.</l>
+                    <l>On dit qu'au dénouement, pour renforcer l'ouvrage,</l>
+                    <l>Chaque actrice au public chante : Fleuve du Tage.</l>
+                    <l>L'un le prend en ré, l'autre le prend en sol,</l>
+                    <l>Et l'esprit du couplet est dans le mi-bémol.</l>
+            
+                    ROURGEOIS, avec emphase. 
+            
+                    <l>Je connais la romance, elle est même un peu bête,</l>
+                    <l>Mes filleuls tous les ans me la chantent à ma fête.</l>
+            
+                    AGRIPPINE, à Bourgeois, en sortant avec la comtesse. 
+            
+                    <l>Ne parlez pas, mon cher, la langue poétique,</l>
+                    <l part="I">Ce vers a treize pieds…</l>
+            
+                    BOURGEOIS. 
+            
+                    <l part="F">Moi je suis romantique.</l>
+                </lg>
+            </div>
+            
+            
+            SCÈNE VIII. 
+            
+            BOURGEOIS, LE GLORIEUX. Il a un habit brodé, une culotte
+            
+            espagnole, il a pour chaussure une bottine et cothurne. 
+            
+            (Le Glorieux est très-påle ; il se soutient sur deux béquilles.)
+            
+            BOURGEOIS. 
+            
+            Quel est celui-ci ? … Dieu me pardonne, c'est le Théâtre-Fran
+            
+            çais. 
+            
+            LE GLORIEUX. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air du Cantique de Saint-Roch. </stage>
+            
+            
+                    <l>Ayez pitié de ma triste misère,</l>
+                    <l>Car dans ma caisse on ne voit plus sol.</l>
+                    <l>En trébuchant je poursuis ma carrière ;</l>
+                    <l>Pauvre, mais fier, tout comme un Espagnol.</l>
+                    <l>J'ai des guenilles,</l>
+                    <l>J'ai des béquilles,</l>
+            
+                    20 €
+            
+                    <l>Pour me vêtir</l>
+                    <l>Et pour me soutenir.</l>
+            
+                </lg>
+            </div>
+            
+            BOURGEOIS. 
+            
+            Comment, monsieur, vous nous représentez le Théâtre-Fran
+            
+            çais… Qu'il est pâle ! 
+            
+            LE GLORIEUX. 
+            
+            On m'a mis sur le dos l'habit du Glorieux pour soutenir l'hon
+            
+            neur de la maison
+            
+            Vous avez un drôle de costume. 
+            
+            LE GLORIEUX. 
+            
+            BOURGEOIS. 
+            
+            C'est que nous jouons du romantique… mais nous jouons aussi
+            
+            le classique par respect pour la mémoire de notre grand tragé
+            
+            dien. 
+            
+            BOURGEOIS. 
+            
+            Ca ne va donc
+            
+            pas
+            
+            mieux ? 
+            
+            LE GLORIEUX. 
+            
+            Au contraire, mon organisation se détruit tous les jours, le cho-, 
+            
+            Jéra-morbus me tient plus fort que les autres… je sens que je de
+            
+            viens momie… je vas me faire empailler. 
+            
+            BOURGEOIS. 
+            
+            Changez de régime… 
+            
+            LE GLORIEUX. 
+            
+            Nous avons essayé de toutes les drogues, nous sommes arrivés à
+            
+            la misère par le sublime ; romantiques, classiques, tout nous est
+            
+            bon, pourvu que tout soit mauvais. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Ô Pescator. </stage>
+            
+            
+                    <l>Nous avions pris pour hôte</l>
+                    <l>Hernani.</l>
+                    <l>Il est mort, par sa faute,</l>
+                    <l>Dans l'ennui.</l>
+                    <l>Nous préparons Antoni,</l>
+                    <l>Mais si</l>
+                    <l>Ce même Antoni,</l>
+                    <l>Embête autant qu'Hernani !</l>
+                    <l>Ni, ni,</l>
+                    <l>Tout s'ra fini !</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS. 
+            
+            Aussi, vous ne vous entendez pas… 
+            
+            LE GLORIEUX. 
+            
+            Nous sommes tous directeurs chez nous… c'est comme une ré
+            
+            publique, et nous demandons des subrentions à tous les rois quel
+            
+            conques… 
+            
+            BOURGEOIS. 
+            
+            Ils veulent tous de l'argent… c'est impayable… Je dirai au doc
+            
+            teur de vous donner quelques recettes. 
+            
+            LE GLORIEUX, avec chaleur. 
+            
+            Des recettes ! … Eh ! c'est ce que nous demandons à tout Paris ! … 
+            
+            Des recettes ! ce mot seul me ranime… je suis prêt à marcher à la
+            
+            gloire comme un grand garçon… Tenez, plus de béquilles… 
+            
+            Le malheureux l… il va faire une chute. 
+            
+            BOURGEOIS. 
+            
+            9216
+            
+            LE GLORIEUX. 
+            
+            Ne craignez rien, 
+            
+            j'en ai l'habitude… mais je me croyais plus
+            
+            fort… ce n'était qu'une illusion… 
+            
+            (Il va s'asseoir et prend du tabac.)
+            
+            SCÈNE IX. 
+            
+            LES MÊMES, LA DISCORDE, une torche à la main, elle est
+            
+            entourée de serpens. 
+            
+            LA DISCORDE. 
+            
+            <div type="poem">
+                <lg>
+            
+                    <l>Accourez à ma voix, teribles Euménides,</l>
+                    <l>Armez tous vos serpens.</l>
+            
+                </lg>
+            </div>
+                    · BOURGEOIS, chantant. 
+            
+                <div type="poem">
+                    <stage type="tune" id="AIR : Quelle figure atroce !"></stage>
+                <lg>
+                    <l>Quelle figure atroce ! et c'est ça l'Opéra !</l>
+                    <l>Agréez l'assurance, monsieur, et cætera.</l>
+                    
+                     </lg>
+            </div>
+            
+                    LA DISCORDE. 
+             <div type="poem">
+            
+                    <stage type="tune">Air : De Madelon Friquet. </stage>
+            
+            <lg>
+                    <l>Oui, morbleu, c'est l'Opéra</l>
+                    <l>Qui saute</l>
+                    <l>Et tombe par sa faute ;</l>
+                    <l>Oui, c'est le vieil Opéra</l>
+                    <l>Qui dit son mea culpa ;</l>
+                    <l>Mais tout cela m'est bien égal,</l>
+                    <l>Je danse</l>
+                    <l>Et je vais en cadence,</l>
+                    <l>Déchanter à l'hôpital.</l>
+                    <l ana="unanalyzable">Oui, morbleu, c'est l'Opéra,</l>
+                    <l ana="unanalyzable">Etc., etc.</l>
+                </lg>
+            </div>
+            
+            
+            BOURGEOIS. 
+            
+            Vous êtes bien gai aujourd'hui ? … 
+            
+            LA DISCORDE. 
+            
+            Je suis si triste les autres jours ! 
+            
+            BOURGEOIS. 
+            
+            : Mais épouvantable créature, pourquoi avez-vous pris cette forane
+            
+            venimeuse ? 
+            
+            LA DISCORDE. 
+            
+            C'est la seule qui me convienne. La Discorde est à présent la
+            
+            reine de l'Opéra… j'aurais pu venir en Bayadère, en Brahma, 
+            
+            en
+            
+            Muette, en Manon Lescaut… mais je n'en aurais pas été plus amu
+            
+            sante ! 
+            
+            BOURGEOIS. 
+            
+            Vous auriez été plus jolie… horrible Gorgonne ! … 
+            
+            LA DISCORDE. 
+            
+            Et d'ailleurs, comment voulez-vous que je fasse de la toilette… je
+            
+            n'ai pas dequoi ! Les petits théâtres mes sujets refusent de mepayer
+            
+            leur redevance… quant au docteur, je l'attaquerai en subvention. 
+            
+            Un instant… nous avons la liberté. 
+            
+            LA DISCORDE. 
+            
+            BOURGEOIS. 
+            
+            Des théâtres s'élèvent de tous côtés, ça nous fera du tort ! … 
+            
+            Nous avons la liberté ! 
+            
+            BOURGEOIS. 
+            
+            9 22 6
+            
+            LA DISCORDE. 
+            
+            Tous les genres sont confondus, on chante partout… 
+            
+            BOURGEOIS. 
+            
+            Excepté chez vous ! 
+            
+            Vous êtes un imbécille. 
+            
+            LA DISCORDE, le frappaut avec son serpent. 
+            
+            Prenez donc garde à votre boa, vipère ! 
+            
+            LE GLORIEUX. 
+            
+            BOURGEOIS. 
+            
+            Mais enfin, monstrueuse mégère, que fait-on à l'Opéra ? … 
+            
+            On y plaide… 
+            
+            LA DISCORDE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : De la Catacona. </stage>
+            
+            
+                    <l>Un beau chanteur veut qu'on l'augmente,</l>
+                    <l>Sous le prétexte qu'il grossit.</l>
+                    <l>Une danseuse nous tourmente</l>
+                    <l>Sous prétexte qu'elle maigrit.</l>
+                    <l>Une grâce des plus ingambes</l>
+                    <l>Veut voler vers d'autres climats.</l>
+                    <l>Taglioni, sans tes appas,</l>
+                    <l>Tes jolis pas…</l>
+                    <l>Que ferions-nous, hélas !</l>
+                    <l>Si nous avions perdu tes jambes,</l>
+                    <l>Il faudrait nous croiser les bras !</l>
+                </lg>
+            </div>
+            
+            
+            LE GLORIEUX. 
+            
+            Allons, je vois que vous êtes d'accord entre vous, comme l'or
+            
+            chestre de Feydeau. 
+            
+            LA DISCORDE. 
+            
+            Tout ce tapage-là m'ennuie, je veux que ça finisse, et je vous en : 
+            
+            joins de faire une ordonnance terrible contre tous les théâtres qui
+            
+            refusent de me donner l'argent qu'ils n'ont pas. 
+            
+            BOURGEOIS. 
+            
+            C'est infâme de leur part. 
+            
+            LA DISCORDE. 
+            
+            Quant à moi, je demande le monopole… supprimez les ballets du
+            
+            boulevard et qu'on me laisse faire seụle tout ce qui me passera par
+            
+            les jambes. 
+            
+            SCÈNE X. 
+            
+            Les MÊMES, CHICOTIN, tenant deux petits paquets. 
+            
+            L'Opéra et les Français ? 
+            
+            Présens ! 
+            
+            CHICOTIN. 
+            
+            TOUS DEUX
+            
+            CHICOTIN. 
+            
+            Voilà votre portion, anti-frénétique. Vos collègues ont leur af
+            
+            faire, avalez la pilule. 
+            
+            Ça passe comme un morceau d'ensemble. 
+            
+            LA DISCORDE, l'avalant. 
+            
+            CHICOTIN, bas à Bourgeois. 
+            
+            Vous ne savez pas ? … le remède a fait un drôle d'effet !., ils sont
+            
+            tous devenus fous là-dedans. 
+            
+            23 €
+            
+            LA DISCORDE, d'un air égaré. 
+            
+            Je ne me sens plus la même… ilme semble que je deviens folle ! 
+            
+            Et moi, imbécille ! 
+            
+            LE GLORIEUX. 
+            
+            CHICOTIN. 
+            
+            Tenez, voilà toute la troupe. 
+            
+            SCÈNE XI. 
+            
+            LES MÊMES, PANCRACE, une épée à la main et poursuivant LES
+            
+            THÉATRES DES BOULEVARDS ; LA COMTESSE D'AREZZO, les
+            
+            poings sur les hanches, suivi de TRESTAILLONS ; AGRIPPINE
+            
+            entre en valsant. 
+            
+            CHOEUR. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">Air : Du Charpentier. </stage>
+            
+            
+                    <l>Ah ! c'est vraiment</l>
+                    <l>Amusant !</l>
+                    <l>Quel moment</l>
+                    <l>Comique</l>
+                    <l>Et fantastique.</l>
+                    <l>Oui, tout chez nous</l>
+                    <l>Est sans dessus dessous,</l>
+                    <l>C'est la fête des fous !</l>
+            
+                </lg>
+            </div>
+            
+            1
+            
+            SCÈNE XII. 
+            
+            LES MÊMES, JOVIAL. 
+            
+            JOVIAL. 
+            
+            1
+            
+            
+            <div type="poem">
+                <lg>
+            
+                   <stage type="tune" id="AIR : Arrêtez ! arrêtez ! ici je vous accuse.">Récitatif burlesque. </stage>
+            
+            
+                    <l>Arrêtez ! arrêtez ! ici je vous accuse</l>
+                    <l>Pour vous juger tout seul je forme un tribunal ;</l>
+                    <l>Théâtres dangereux, j'ai l'ordonnance infuse :</l>
+                    <l>Je me nommeaujourd'hui, procureur général.</l>
+            
+                </lg>
+            </div>
+            
+            (Tous les Théâtres se rangent en demi-cercle autour de lui.)
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Vive la lithographie. </stage>
+            
+            
+                    <l>Je suis un bon doctrinaire</l>
+                    <l>Qui n'est pas très-exigeant ;</l>
+                    <l>Car je vous permets de faire</l>
+                    <l>Tout, excepté de l'argent.</l>
+                    <l>Vous vous tairez sur les rois,</l>
+                    <l>Vous n'parl'rez pas des bourgeois,</l>
+                    <l>Pas un mot sur les amans,</l>
+                    <l>Rien du tout sur les mamans.</l>
+                    <l>Vous n'cit'rez pas l' ridicule</l>
+                    <l>De maint et maint citoyen</l>
+                    <l>Qui vous donne la férule</l>
+                    <l>Et qui la mérit'rait bien.</l>
+                    <l>Vous n' parl'rez pas des vivans</l>
+                    <l>Qui n' sont morts que d'puis vingt ans ;</l>
+                    <l>Mais vingt-cinq ans révolus,</l>
+                    <l>Libre à vous de tomber d'ssus.</l>
+                    <l>Pour vous, le fait est notoire,</l>
+                    <l>Napoléon, d'après ça,</l>
+                    <l>Se voit rayé de l'histoire</l>
+            
+                    924
+            
+                    <l>Depuis cette ordonnanc' là.</l>
+                    <l>Comm' sur lui l'on a tout dit ;</l>
+                    <l>Notr' projet rempli d'esprit,</l>
+                    <l>A pour principel motif</l>
+                    <l>Un effet rétroactif.</l>
+                    <l>D'adord d'une grosse amende,</l>
+                    <l>On augment'ra vot' passif,</l>
+                    <l>C'est une grâce assez grande</l>
+                    <l>De n' pas vous brûler tout vif ;</l>
+                    <l>Si l'un d' vous recommençait,</l>
+                    <l>Je lui f'rais payer l' budget,</l>
+                    <l>Et même s'il est entêté,</l>
+                    <l>Un milliard d'indemnité.</l>
+                    <l>Vous voyez qu'un doctrinaire</l>
+                    <l>Ne s' montre pas exigeant,</l>
+                    <l>Car il vous permet de faire</l>
+                    <l>Tout, excepté de l'argent.</l>
+                </lg>
+            </div>
+            
+            
+            TOUS, en colèrc. 
+            
+            C'est une horreur ! … une infamie ! 
+            
+            SCÈNE XIII. 
+            
+            LES MÊMES, SCARLATIN. 
+            
+            SCARLATIN, les arrótant d'un geste. 
+            
+            Silence ! … ines amis, plus de cris, plus de colère… plus d'in
+            
+            quiétudes sur l'avenir… je vous apporte une nouvelle qui nous
+            
+            inettra tous d'accord. 
+            
+            Parlez ! 
+            
+            TOUS. 
+            
+            SCARLATIN. 
+            
+            J'ai le plaisir de vous annoncer la fin du monde. 
+            
+            O ciel ! 
+            
+            BOURGEOIS. 
+            
+            BOURGEOIS. 
+            
+            Je n'en attendais pas moins de vous, 
+            
+            docteur. 
+            
+            JOVIAL. 
+            
+            Il y travaille depuis long-temps, lui et ses confrères. 
+            
+            SCARLATIN. 
+            
+            Je viens de l'Observatoire, j'ai aperçu la comète… elle plane sur
+            
+            Paris… vous allez tous la voir. 
+            
+            Nous sommes perdus ! 
+            
+            TOUS. 
+            
+            SCARLATIN. 
+            
+            Il n'y a pas
+            
+            d'autre moyen de vous sauver. 
+            
+            JOVIAL. 
+            
+            Eh bien ! moi je veux faire une chanson là-dessus. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Du nouveau Pourceaugnac. </stage>
+            
+            
+                    <l>Tout est perdu,</l>
+                    <l>Éperdu,</l>
+                    <l>Confondu ;</l>
+                    <l>Tout se déplace</l>
+                    <l>Et passe</l>
+                    <l>Dans l'espace.</l>
+            
+                    25 €
+            
+                    <l>Le genre humain,</l>
+                    <l>Dès demain,</l>
+                    <l>C'est certain,</l>
+                    <l>Va se trouver dans son lit</l>
+                    <l>Frit !</l>
+                    <l>Vieux avares, vieux Crésus,</l>
+                    <l>Dépensez vos écus ;</l>
+                    <l>Et vous jeunes fillettes,</l>
+                    <l>Qui craignez les amourettes</l>
+                    <l>Le monde se dissout,</l>
+                    <l>Faites rafle partout.</l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Tout est perdu,</l>
+                    <l ana="unanalyzable">Etc., etc.</l>
+            
+                    JOVIAL. 
+            
+                    <l>Courtisans, rentiers,</l>
+                    <l>Banquiers,</l>
+                    <l>Votre bien</l>
+                    <l>N'est plus rien ;</l>
+                    <l>Et vous, buveurs insignes,</l>
+                    <l>Mourez sur des ceps de vignes,</l>
+                    <l>En tenant à la main</l>
+                    <l>Le dernier verre de vin.</l>
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Tout est perdu,</l>
+                    <l ana="unanalyzable">Etc.,etc.</l>
+                </lg>
+            </div>
+            
+            
+            JOVIAL. 
+            
+            (Coup de tonnerre.)
+            
+            Oh ! c'est la machine qui craque ! 
+            
+            (Ils tombent tous à genoux.)
+            
+            SCÈNE XIV. 
+            
+            LES MÊMES, LA COMÈTE. 
+            
+            (Le théâtre change et laisse voir dans le fond un rideau de mer qui remplit toute
+            
+            la hauteur du théâtre. La comète représenté par une femme ayant une étoile
+            lumineuse sur le front, descend lentement sur un nuage pendant que tout le
+            
+            monde est à genoux.)
+            
+            TOUS
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">Air : l'Amour (de Riquet à la Houpe).</stage>
+            
+            
+                    <l>Protège notre sort,</l>
+                    <l>Dieu qui sauvas les hommes,</l>
+                    <l>Tous pauvres que nous sommes,</l>
+                    <l>Nous voulons vivre encor.</l>
+            
+                    LA COMÈTE. 
+            
+                    <l>Quels vœux ambitieux !</l>
+                    <l>Mortels, point d'indulgence,</l>
+                    <l>J'apporte la sentence</l>
+                    <l>Des dieux !</l>
+                </lg>
+            </div>
+            
+            
+            (Parvenue à terre, elle descend de sa voiture aérienne.). 
+            
+            LA COMÈTE. 
+            
+            Quoi donc ! vous tremblez tous ici ? … levez-vous et regardez-moi… 
+            
+            point de craintes, de terreurs inutiles, ma mission ne doit pas
+            
+            vous
+            
+            causer tant d'effroi, car je viens terminer tous vos engagemens, 
+            
+            acquitter vos dettes, et vous affranchir des tourmens de la vie. 
+            
+            (Ils se lèvent.)
+            
+            9, 26 €
+            
+            SCARLATIN. 
+            
+            C'est bien aimable de votre part ! 
+            
+            BOURGEOIS… 
+            
+            Mais quand on a contracté l'habitude de vivre… on y tient. 
+            
+            LE GLORIEUX. 
+            
+            Et on ne voudrait pas s'en défaire. 
+            
+            JOVIAL. 
+            
+            Surtout la première fois… ça coûte. 
+            
+            LA COMÈTE. 
+            
+            Mes amis, vous n'êtes pas raisonnables, il y a long-temps que ça
+            
+            dure. 
+            
+            BOURGEOIS. 
+            
+            Et il n'y a pas moyen d'avoir un sursis ? 
+            
+            LA COMÈTE. 
+            
+            Cela m'est impossible, 
+            
+            il faut partir, je suis désolée de vous
+            
+            annoncer une décision qui paraît vous causer une légère contra
+            riété ; mais si vous voulez у réfléchir, vous conviendrez que c'est
+            
+            un spectacle assez curieux que la fin du monde et qu'on n'est pas
+            
+            fâche de voir ça une fois en sa vie. 
+            
+            LE GLORIEUX. 
+            
+            Mais je l'ai vu plus de cent fois dans la salle des Français, moi, 
+            
+            la fin du monde. 
+            
+            LA COMÈTE. 
+            
+            Et d'ailleurs, qu'avez-vous donc tant à regretter ici bas ? 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR des Blouses. 
+                    </stage>
+            
+                    <l>Partout la presse a jeté ses lumières,</l>
+                    <l>Et de ses feux le monde est ébloui ;</l>
+                    <l>Trop d'ignorance a régné sur vos pères,</l>
+                    <l>Trop de clarté doit vous perdre aujourd'hui.</l>
+                    <l>Tout se comprend, tout se dit, tout s'explique :</l>
+                    <l>Les peuples, fiers de conquérir des lois,</l>
+                    <l>Ont tout usé, royauté, république,</l>
+                    <l>Et l'on s'épuise à définir leurs droits.</l>
+                    <l>Regrettez-vous les plaisirs du jeune âge ;</l>
+                    <l>Mais à présent vous n'avez plus d'enfans :</l>
+                    <l>À dix-huit ans un élève est un sage ;</l>
+                    <l>C'est un barbon quand il a ses trente ans.</l>
+                    <l>Vous avez vu vos grands hommes vulgaires,</l>
+                    <l>Dans les combats, avec la liberté,</l>
+                    <l>Aller partout quêter des ministères</l>
+                    <l>Comme un mendiant quête la charité.</l>
+                    <l>Vous n'avez plus votre littérature,</l>
+                    <l>Du romantisme elle a pris les erreurs,</l>
+                    <l>Et ses écrits nous montrent la nature,</l>
+                    <l>Pauvre et vieille, au milieu des horreurs.</l>
+                    <l>Est-ce l'amour et son pouvoir magique</l>
+                    <l>Qu'avec regret ici vous rappelez,</l>
+                    <l>Tremblans d'effroi devant la politique,</l>
+                    <l>Tous les amours, hélas ! sont envolés.</l>
+                    <l>Enfin chez vous on trouve des déistes,</l>
+                    <l>Et, pour prouver leur pouvoir et le sien,</l>
+                    <l>Dieu détrôné par les Saints-Simonistes</l>
+                    <l>Détruit le monde et ne vous doit plus rien.</l>
+                </lg>
+            </div>
+            
+            
+. 27 €
+            
+            JOVIAL. 
+            
+            Ma foi, vous avez raison ! prenons la chose gaîment ; et vive la
+            
+            fin du monde ! 
+            
+            (Tonnerre, éclairs, etc., etc.)
+            
+            TOUS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air des Cancans. </stage>
+            
+            
+                    <l>Ça va bien ; <stage type="repetition"> (bis.)</stage></l>
+                    <l>Tout ne deviendra plus rien :</l>
+                    <l>Adieu donc, puisqu'enfin</l>
+                    <l>Le monde tire à sa fin.</l>
+            
+                    PANCRACE. 
+            
+                    <l>Sans attendre que les eaux</l>
+                    <l>Nous plongent tous dans l'cahos,</l>
+                    <l>Entonnons un gai refrain :</l>
+                    <l>Amis, donnons-nous la main,</l>
+                    <l ana="unanalyzable">Ça va bien, etc.</l>
+            
+                    BOURGEOIS. 
+            
+                    <l>Sur vos trônes ébranlés,</l>
+                    <l>Rois despotes qui tremblez,</l>
+                    <l>Pour vous tous, quel camouflet !</l>
+                    <l>Dieu fait son vingt-neuf juillet ! …</l>
+                    <l ana="unanalyzable">Ça va bien, etc.</l>
+            
+                    AGRIPPINE. 
+            
+                    <l>Ces romantiques si forts,</l>
+                    <l>Qui ne viv'nt qu'avec les morts,</l>
+                    <l>Auront enfin l'agrément</l>
+                    <l>D'causer avec le néant.</l>
+                    <l ana="unanalyzable">Ça va bien.</l>
+            
+                    SCARLATIN. 
+            
+                    <l>Saint Mathieu, dans ses versets,</l>
+                    <l>Dit qu'au jour du grand décès</l>
+                    <l>Chaqu' bavard s'ra mal noté ;</l>
+                    <l>J' voudrais pas êtr' député.</l>
+                    <l ana="unanalyzable">Ça va bien, etc.</l>
+            
+                    LA DISCORDE. 
+            
+                    <l>Je connais Monsieur un tel,</l>
+                    <l>Ce sauveur universel,</l>
+                    <l>Et j'ai peur que c' grand héros</l>
+                    <l>Ne se sauve entre deux eaux.</l>
+                    <l ana="unanalyzable">Ça va bien, etc.</l>
+            
+                    LE GLORIEUX. 
+            
+                    <l>De nos quarante immortels</l>
+                    <l>Si l'on renvers' les autels,</l>
+                    <l>L'Académie, à c' qu'on dit,</l>
+                    <l>Mourra sans rendre l'esprit.</l>
+                    <l ana="unanalyzable"> Ça va bien.</l>
+            
+                    LA COMTESSE. 
+            
+                    <l>Faut-il que l'arrêt des dieux</l>
+                    <l>Frapp' le genre gracieux :</l>
+                    <l>Marivaux, Dorat, Parny,</l>
+                    <l>Notre règne est donc fini ?</l>
+                    <l ana="unanalyzable">Ça va bien, etc.</l>
+            
+               
+            2
+            
+            4
+            
+            28
+            
+            JOVIAL. 
+            
+            1
+            
+            <l>Un' chos' m'inquiète ici-bas ;</l>
+            <l>Si nous sautons tous le pas,</l>
+            <l>Si nous f'sons le grand trajet,</l>
+            <l>Qu'est-c' donc qui paiera le budget ?</l>
+            <l ana="unanalyzable">Ça va bien, etc.</l>
+            
+            TRESTAILLONS. 
+            
+            <l>Les ministres mortifiés,</l>
+            <l>Par les Belges mystifiés,</l>
+            <l>Vont envoyer au congrès</l>
+            <l>Un roi qu'ils font faire exprès.</l>
+            <l ana="unanalyzable">Ça va bien, etc.</l>
+            
+            LA COMÈTE, au public. 
+            
+            <l>Si la pièce et les couplets</l>
+            <l>Ont mérité les sifflets,</l>
+            <l>Messieurs, ne vous gênez pas,</l>
+            <l>Car c'est le jour du trépas.</l>
+            <l>Ça va bien ;</l>
+            <l>Tout ne deviendra plus rien :</l>
+            <l>Sifflez fort, puisqu'enfin</l>
+            <l>Le monde tire à sa fin.</l>
+            
+             </lg>
+            </div>
+            
+            FIN. 
+            
+            1
+            
+            Österreichische Nationalbibliothek
+            
+            +Z160880307
+        </body>
+    </text>
+</TEI>

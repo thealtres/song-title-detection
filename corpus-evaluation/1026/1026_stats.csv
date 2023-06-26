@@ -1,0 +1,66 @@
+Airs candidats: 16                
+Airs manuellement filtrés : 16                
+Airs réelement présents : 17                
+Précision: 1.00                
+Rappel: 0.94                
+Mesure-F1: 0.97
+Non attrapé: 
+
+***Airs du xml***:
+AIR : Que d'établissemens nouveaux. 
+AIR : De Garrick. 
+AIR : Dans un castel, dame de haut lignage. 
+AIR : On m'avait vanté. 
+AIR : En amour comme en amitié. 
+AIR : Noble Dame. 
+AIR du vaudeville de l'Apothicaire. 
+AIR : Un cordon s'il vous plaît. 
+AIR : Valse de Robin. 
+AIR : Mon ami l'Établi. 
+
+AIR : De la Petite coquette. 
+
+                        AIR : Gentille Fiancée. 
+                    
+AIR de Caleb. 
+Air de la Haine d'une Femme. 
+AIR de Teniers. 
+AIR de la Vieille. AIR : Vive le vin, vive le franc buveur.
+
+***Airs identifiés dans le txt***:
+Air : Que d'établissemens nouveaux .
+AIR : De Garrick .
+Air : Dans un castel, dame de haut lignage.
+AIR : On m'avait vante .
+AIR : En amour comme en amitie.
+AIR : Noble Dame.
+Air du vaudeville de l’Apothicaire.
+AIR : Un cordon s'il vous plaît.
+AIR : Valse de Robin .
+Air : Mon ami l'Établi.
+AIR : De la Petite coquette .
+AIR : Gentille Fiancée.
+Air de Caleb .
+Air de la Haine d'une Femme.
+AiR de Teniers.
+Air de la Vieille.
+
+***Airs du txt validés dans le xml***:
+AIR : Que d'établissemens nouveaux. 
+AIR : De Garrick. 
+AIR : Dans un castel, dame de haut lignage. 
+AIR : On m'avait vanté. 
+AIR : En amour comme en amitié. 
+AIR : Noble Dame. 
+AIR du vaudeville de l'Apothicaire. 
+AIR : Un cordon s'il vous plaît. 
+AIR : Valse de Robin. 
+AIR : Mon ami l'Établi. 
+AIR : De la Petite coquette. 
+
+                        AIR : Gentille Fiancée. 
+                    
+AIR de Caleb. 
+Air de la Haine d'une Femme. 
+AIR de Teniers. 
+AIR de la Vieille. 

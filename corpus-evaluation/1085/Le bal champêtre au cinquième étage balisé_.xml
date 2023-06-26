@@ -1,0 +1,3529 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE BAL CHAMPÊTRE AU CINQUIÈME ÉTAGE, OU RIGOLARD CHEZ LUI</title>
+                <title type="sub">TABLEAU-VAUDEVILLE EN UN ACTE</title>
+                <author key="GRE" sort="1">
+                    <name>
+                        <forename>Achille</forename>
+                        <surname>Grégoire</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE BAL CHAMPÊTRE AU CINQUIÈME ÉTAGE, OU RIGOLARD CHEZ LUI</title>
+                        <author>ACHILLE GRÉGOIRE</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=AYIUAAAAQAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Université de Gand</repository>
+                                <idno type="URL">https://lib.ugent.be/catalog/bkt01:000098661</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-01-23">23 JANVIER 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES NOUVEAUTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.
+                </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+, A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui – ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            B. L. 9466
+            
+            LE
+            
+            BAL CHAMPÊTRE
+            
+            AU CINQUIÈME ÉTAGE, 
+            
+            OV
+            
+            : RIGOLARD CHEZ LUI. 
+            
+            TABLEAU – VAUDEVILLE EN UN ACTE, 
+            
+            PAR M. ACHILLE GRÉGOIRE, 
+            
+            REPRÉSENTÉ POUR LA PREMIÈRE FOIS A PARIS, SUR LE
+            
+            THÉATRE DES NOUVEAUTÉS, LE 23 JANVIER 1830…
+            
+            A BRUXELLES, 
+            
+            AU BUREAU DU RÉPERTOIRE, 
+            
+            CHEZ ODE ET WODON, IMPRIMEURS – LIBRAIRES, 
+            
+            RUE DES PIERRES, n° 54. 
+            
+            1830. 
+            
+            00000000000000000
+            
+            990000000000
+            
+            PERSONNAGES. 
+            
+            ACTEURS
+            
+            DE
+            
+            DE
+            
+            PARIS. 
+            
+            BRUXELLES
+            
+            MM. 
+            
+            MM. 
+            
+            RIGOLARD, maître de danse. 
+            
+            LOUFFE. 
+            
+            GUSTAVE, commis – marchand, 
+            
+            fashionable, personnage ridicule. Derval. 
+            ARMAND. 
+            
+            ÉTIENNE, garçon épicier. 
+            
+            Mmes
+            
+            Mmes
+            
+            ADÉLAIDE CHOPIN, nièce de
+            
+            Rigolard. 
+            
+            Désazer. 
+            
+            CONSTANCE, pupille de Rigolard. Félicie. 
+            ROSE, vieille gouvernante de Rigo
+            
+            lard. 
+            
+            DESPREZ, 
+            
+            ÉLÈVES DE DANSB des deux sexes. 
+            
+            OUVRIERS, 
+            
+            La scène se passe à Paris, rue Saint – Martin, ches
+            
+            Rigolard. 
+            
+            IMPRIMERIE DE ODE ET WODON, RUE DES PIERRES, N ° 54. 
+            
+            LE
+            
+            BAL CHAMPÊTRE
+            
+            AU CINQUIÈME ÉTAGE. 
+            
+            wwwwwwwwwwwwww
+            
+            Le théâtre représente une mansarde. Au – dessus de la
+            
+            porte du fond, un transparent où on lit : Bal cham
+            
+            pétre. A gauche de l'acteur, un poële, et la porte
+            
+            d'entrée ; à droite, une table de jardin et la porte de
+            
+            la chambre de Constance. De chaque côté de la porte
+            
+            du fond', sont trois ifs encaissés. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            ÉTIENNE ET AUTRES ÉLÈVES s'exercent sur le
+            
+            devant du théâlre ; dans le fond, la porte ouverte
+            
+            laisse voir une salle de bal, que des OUVRIERS
+            
+            préparent et ornent de guirlandes ; vis – à – vis la
+            
+            porte est l'orchestre, 
+            
+            <div type="poem"> <lg>
+                
+                    OUVRIERS
+                
+                
+                
+                    
+, dans le fond. 
+                    
+                
+                <stage type="tune">
+                    AIR : Travaillons (du Maçon.)
+                </stage>
+                
+               
+                    
+                        <l>Décorons <stage type="repetition"> (bis.)</stage></l>
+                        <l>Cette salle de danse.</l>
+                        <l>Préparons</l>
+                        <l>Et plaçons</l>
+                        <l>Ces bosquets,</l>
+                        <l>Ces quinquets.</l>
+                        <l>Hâtons–nous ; <stage type="repetition"> (bis.)</stage></l>
+                (4) 
+                
+                        <l>Déjà l'heure s'avance,</l>
+                        <l>Car ce bal,</l>
+                        <l>Sans égal,</l>
+                        <l>Va s'ouvrir</l>
+                        <l>Au plaisir.</l>
+                    
+                
+                
+                    ÉLÈVES
+                
+                
+                   
+                    
+, sur le devant. 
+                    
+                
+                
+                    <l>Répétons</l>
+                    <l>Nos leçons</l>
+                    <l>Avec persévérance ;</l>
+                    <l>Nos progrès</l>
+                    <l>Sont parfaits</l>
+                    <l>Après quinze cachets.</l>
+                    <l>Quel bonheur,</l>
+                    <l>Quel honneur,</l>
+                    <l>Lorsque notre élégance</l>
+                    <l>Fera dire partout :</l>
+                    <l>Quelle grâce, quel goût !</l>
+                
+                
+                   
+                
+            </lg> </div>
+            
+            (Reprise ensemble.)
+            
+            ÉTIENNE. 
+            
+            Dites donc, vous autres, puisque monsieur Rigo
+            lard ne vient pas, si nous jouions à quelque chose pour
+            nous amuser ? 
+            
+            PREMIÈRE DEMOISELLE. 
+            
+            Jouons à colin – maillard. 
+            
+            ÉTIENNE. 
+            
+            Non… on risque de se casser le cou. 
+            
+            DEUXIÈME DEMOISELLE. 
+            
+            Eh bien ! à la queue loup – loup ! 
+            
+            ÉTIENNE. 
+            
+            Ah ! oui… à la queue loup – loup ! Messieurs, met
+            
+            tez – vous tous à la queue loup – loup… derrière moi. 
+            
+            SCENE II. 
+            
+            TOUS. 
+            
+            5
+            
+            Oui, oui… à la queue loup – loup…
+            
+            (Ils se placent tous les uns derrière les autres.)
+            
+            ÉTIENNE. 
+            
+            Tiens ! … quelle bêtise ! si nous nous mettons tous
+            
+            comme ça… qui donc va faire la bête ? 
+            
+            SCÈNE II. 
+            
+            Les MÊMES, RIGOLARD, entrant et posant son
+            
+            chapeau sur une chaise, 
+            
+            RIGOLARD. 
+            
+            Me voilà, mes enfans ! me voilà… Je vous demande
+            
+            pardon de vous avoir fait attendre… ça ne m'arrive pas
+            
+            souvent, vous le savez… Cyprien Rigolard est cité
+            
+            pour son exactitude… Il est toujours en mesure, Cy
+            
+            prien Rigolard ! mais, aujourd'hui… j'ai eu tant de
+            
+            courses à faire pour l'ouverture de mon bal cham
+            
+            pètre ! … Oh ! mes pauvres amis, tout n'est pas roses
+            
+            dans ma noble profession… que de fausses démarches
+            
+            il faut risquer… et souvent que de pas perdus… mais, 
+            
+            c'est égal, je me console avec la gloire et l'amitié…
+            
+            (Il bat un entrechat.) Vive la gaîté française ! … Pro
+            
+            cédons à notre leçon : monsieur Etienne ! 
+            
+            Présent ! 
+            
+            ÉTIENNE. 
+            
+            RIGOLARD. 
+            
+            Mettons – nous à la première position… tenons les
+            
+            bras à la hauteur de la tête… bien ! … (Aux autres.)
+            
+            C'est une belle chose que la danse, mes enfans ! … et, 
+            
+            je ne saurais trop vous le répéter, ne négligez jamais
+            
+            cette partie si essentielle de l'éducation. Par la danse, 
+            
+            6
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            voyez – vous, on arrive à tout… et, sans aller chercher
+            
+            un exemple bien loin, sans vous parler de moi, qui
+            
+            ai fait joliment mon chemin, je vous citerai mon ne
+            
+            veu, Jean Durand, que vous connaissiez tous… Ce
+            
+            jeune homme, malgré ses excellentes dispositions…
+            
+            ÉTIENNE, loujours en position. 
+            
+            Quand vous voudrez., monsieur Rigolard ? C'est fa
+            
+            tigant en diable la première position. 
+            
+            RIGOLARD. 
+            
+            Reste, reste, mon garçon… il faut te briser. 
+            
+            ÉTIENNE. 
+            
+            Briser… c'est le mot… ça me disloque tous les
+            
+            membres. 
+            
+            RIGOLARD. 
+            
+            Ne bouge pas… je t'observe ! 
+            
+            (Aux autres.), Jean
+            
+            Durand, dis – je, mes enfans… malgré ses excellentes
+            
+            dispositions, avait long – temps refusé de les mettre à
+            
+            profit…
+            
+            il sacrifiait lout à ses plaisirs, toujours au
+            
+            café, au spectacle… au billard… il ne mettait presque
+            
+            jamais le pied dans mon école… Eulalie ! (Elle appro
+            
+            che.) A la première position… et les bras à la hauteur
+            
+            de la tête. 
+            
+            Étienne. 
+            
+            Mais, monsieur Rigolard…
+            
+            RIGOLARN. 
+            
+            Immobiles, mes enfans ! … cominedesconscrits. Pour
+            
+            en revenir à Jean, il mena, jusqu'à vingl aus, une vie
+            
+            que j'appellerai misérable…… mais il ouvrit enfin les
+            
+            yeux à la lumière, 
+            
+            il apprit à danser… et vous savez
+            
+            quelles furent pour lui les conséquences de ce chan
+            
+            gement de conduite… mariage honorable… maison de
+            
+            ville et de campagne… femme charmante et cabriolet. 
+            
+            SCENE II. 
+            
+            7
+            
+            (A Germain.) Monsieur Germain… à la première posi
+            tion… comme monsieur Etienne ! 
+            
+            (L'élève obéit.)
+            
+            ÉTIENNE, fatigué. 
+            
+            Monsieur Rigolard ! …
+            
+            RIGOLARD. 
+            
+            Va toujours ! … va toujours ! 
+            
+            ÉTIENNE. 
+            
+            Et dire que ça coûte cinq sous le cachet, cette po
+            
+            sition – là…
+            
+            RIGOL ARD. 
+            
+            Marion… Justin… Finette… la mème position…
+            
+            (Ils se placent tous.) Bien, mes enfans ! bien, cela ! …
+            
+            et maintenant… attention tout le monde… levez les
+            
+            pieds en même temps, et restez en l'air… rien de plus
+            facile…
+            
+            ÉTIENNE. 
+            
+            Lever les deux pieds en même temps, et rester en
+            
+            l'air… c'est facile…
+            
+            RIGOLARD. 
+            
+            Je vous demande, mes enfans, si j'ai dit cette bên
+            
+            tise – là, comme lui ? 
+            
+            Non ! …
+            
+            TOUS. 
+            
+            ÉTIENNE. 
+            
+            C'est que vous l'avez tournée autrement…
+            
+            RIGOLARD. 
+            
+            Je le répète, levez tous le pied en mênge temps… et
+            
+            restez en l'air. Sur le second temps… attention ! …
+            une, deux… partez. 
+            
+            (Il joue de la pochette, et tous, levant le pied en
+            
+            même temps, se donnent mutuellement des coups.)
+            
+            Oh ! là, 
+            
+            là…
+            
+            TOUS. 
+            
+            8 – 
+            
+            LE BAL CHAMPETRE, ETO. 
+            
+            Recommençons ca. 
+            
+            RIGOLARD. 
+            
+            ETIENNE…
+            
+            Comment recommencer… je suis sûr que j'ai la
+            
+            jambe écorchée…
+            
+            RIGOLARD. 
+            
+            Eh ! oui… recommençons… allons, écartons – nous
+            
+            les uns des autres… (Il joue de la pochetle, et les
+            
+            élèves exécutent un si – sol.) Bien, très – bien, mes en
+            
+            fans ! je suis content de ça… allez toujours… encore, 
+            
+            encore. 
+            
+            (Il joue toujours.)
+            
+            ÉTIENNE, harassé, tombe sur la banquette. 
+            
+            Ouf, oh ! en voilà assez… pour un dimanche… et
+            
+            puis, nous avons un bal tantôt… il faut ménager nos
+            
+            jarrets. 
+            
+            RIGOLARD : 
+            
+            Il a ma foi raison, il faut ménager nos jarrets… Eh
+            
+            bien ! mes enfans, à ce soir… J'espère que vous nous
+            
+            ferez honneur en montrant vos talents aux étrangers
+            
+            qui doivent nous honorer de leur présence… et sur
+            tout n'oubliez pas que l'art de la danse n'est, à pro
+            prement parler, que l'art de marcher à la fortune. 
+            
+            Vous voulez dire… de sauter à la forlune ? 
+            
+            ÉTIENNE. 
+            
+            <div type="poem"> <lg>
+                
+                    RIGOLARD. 
+                
+                
+                 
+                    
+                        Marcher… sauter… voler, si tu veux, mon garçon…
+            
+                        Nous ne sommes pas ici pour disputer sur les termes. 
+                        Allons, enfans… partez…
+                    
+                
+                <stage type="tune">
+                    AIR : On m'appelle. 
+                </stage>
+                
+                   
+                    
+                        <l>Flic, flac, <stage type="repetition"> (bis.)</stage></l>
+                        <l>Vive la cadence !</l>
+                        <l>Depuis le Pérou</l>
+                        <l>Jusqu'à Moscou</l>
+                        <l>Partout on danse.</l>
+                        <l>Flic, flac, <stage type="repetition"> (bis.)</stage></l>
+                        <l>Vive la cadence !</l>
+                        <l>Le monde est un bal</l>
+                        <l>Où chacun danse</l>
+                        <l>Bien ou mal.</l>
+                        <l>Au bruit des tamtams sauvages,</l>
+                        <l>Chez nous on vit autrefois</l>
+                        <l>Danser des princes osages,</l>
+                        <l>Valser un prince iroquois !</l>
+                        <l ana="unanalyzable">Flic, flac, etc.</l>
+                    
+                
+            </lg> </div>
+            
+            (Les élèves sortent.)
+            
+            SCÈNE III. 
+            
+            RIGOLARD, ÉTIENNE. 
+            
+            RIGOLARD. 
+            
+            Eh bien ! … tu ne les suis pas, Etienne… toi qui avais
+            
+            l'air si pressé ? 
+            
+            ÉTIENNE. 
+            
+            Pardon, monsieur Rigolard… c'est que j'ai deux
+            
+            choses à vous demander en particulier. 
+            
+            RIGOLARD. 
+            
+            Voyons… la première ? …
+            
+            ÉTIENNE. 
+            
+            Je voudrais savoir… si je suis assez fort pour risquer
+            
+            la contredanse ? 
+            
+            RIGOLARD. 
+            
+            Mais, oui, mon garçon ; tu le peux… tu es d'une
+            
+            jolie force à présent… Je ne te dirai pas que tu danses
+            
+            comne mademoiselle Taglioni… Vous n'avez pas le
+            
+            10
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            même genre ; mais, en t'observant bien, tu peux te
+            
+            lancer… Et le seconde chose que tu as à me dire ? …
+            
+            je suis pressé. 
+            
+            ÉTIENNE. 
+            
+            Pardon, excuse, monsieur Rigolard, si je vous de
+            
+            mande ça… mais je voudrais savoir si mademoiselle
+            
+            Adélaïde Chopin, votre nièce, viendra au bal ce soir ? 
+            
+            RIGOLARD. 
+            
+            Je voudrais bien voir qu'elle y manquâl ; elle sait
+            
+            trop qu'elle est l'ame… Que dis – je l'ame… la Therp
+            
+            sicore de mon bal champêtre… C'est elle qui met tout
+            le monde en train. 
+            
+            ÉTIENNE. 
+            
+            Ob ! pour ce qui est de ça, je m'en suis bien aperçu. 
+            
+            RIGOLARD. 
+            
+            Ah ! ah ! monsieur Etienne, est – ce que par hasard
+            
+            vous auriez des projets sur ma nièce Adélaïde ? … pre
+            
+            nez garde à vous, je vous en avertis… Je ne plaisante
+            pas avec les choses sérieuses. 
+            
+            ÉTIENNE. 
+            
+            Ni moi, monsieur Rigolard. 
+            
+            RIGOLARD. 
+            
+            Et vous faites bien, monsieur ; car, sur ce point, 
+            
+            voyez – vous… (Il fait un ployé.) Rigolard ne ploiera
+            
+            jamais. 
+            
+            ÉTIENNE. 
+            
+            Adieu, monsieur Rigolard. 
+            
+            RIGOLARD. 
+            
+            A ce soir, mon garçon ! … et surtout lâche d'avoir
+            
+            un
+            
+            peu d'oreille. 
+            
+            ÉTIENNE. 
+            
+            Oh ! … ce n'est pas ce qui me manque ; mais je me
+            
+            soignerai, car j'ai des intentions. 
+            
+            (Il sort en faisant un fic flac.)
+            
+            1
+            
+            SCENE V. 
+            
+            11
+            
+            SCENE IV. 
+            
+            RIGOLARD, seul. 
+            
+            Je les connais tes intentions, mon pauvre bon
+            
+            homme… ce n'est pas moi qu'on peut espérer de trom
+            
+            per… et tu fais les yeux doux à ina nièce, à cette
+            
+            superbe Adélaïde, que mon filleul a si cruellement
+            délaissée… Cette pauvre enfant va faire une jolie chute, 
+            
+            de mon filleul Jean Durand à ce couriaud de boutique ; 
+            
+            mais comme elle dit fort bien… elle le formera… et
+            
+            puis c'est un mari, et c'est quelque chose pour une
+            demoiselle bien née ! 
+            
+            SCÈNE V. 
+            
+            RIGOLARD, ROSE, avec un panier de marché. 
+            
+            ROSE, à la cantonade. 
+            
+            Taisez – vous, mam'zelle, laisez – vous ; vous êtes une
+            
+            coquette ! …
+            
+            RIGOLARD. 
+            
+            Allons, Rose ! te voilà déjà à crier contre Constance ? 
+            
+            Ça vous étonne ? 
+            
+            ROSE
+            
+            RIGOLARD. 
+            
+            Non, car c'est toujours la même chose… Relève la
+            
+            tête, ma pauvre Rose, et fais – moi le plaisir d'arrondir
+            
+            un peu ton bras… tu n'as pas. plus l'air de servir un
+            
+            maitre de danse… on dirait plutôt que lu sers un maçon
+            
+            ou un charpentier. 
+            
+            12
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            ROSE. 
+            
+            Il y a pourtant trente ans pour mes péchés que je
+            
+            Vous sers. 
+            
+            RIGOL ARD
+            
+            Pour tes péchés ! … Ah ! Rose, Rose, tu ne dis pas
+            
+            ce que tu
+            
+            corps. 
+            
+            penses… Détache un peu tes coudes de ton
+            
+            ROSE. 
+            
+            Eh ! laissez – moi tranquille… qu'est – ce que ça me
+            
+            fait ? 
+            
+            RIGOLARD. 
+            
+            Mais ça me fait beaucoup à moi ! … Tu disais
+            
+            donc…
+            
+            ROSE. 
+            
+            Je disais que mam'zelle Constance est une coquette
+            
+            qui ne pense qu'à sa parure, qui n'a pas d'ordre, pas
+            
+            d'économie, et qui oublie qu'elle doit toutà votre gé
+            nérosité. 
+            
+            RIGOLARD. 
+            
+            Tant mieux, morbleu, tant mieux ! … c'est la preuve
+            
+            que je ne le lui fais pas sentir… Il serait beau vrai
+            
+            ment qu'un maître de danse oubliât sa générosité na
+            
+            turelle pour reprocher à une orpheline, une jeunesse
+            
+            de vingt – cinq ans… ab ! Rose, tu méconnais le cæur
+            
+            de ton maître ! 
+            
+            ROSE. 
+            
+            Oh ! je sais bien que vous trouvez toujours moyen
+            
+            de l'excuser… Adieu, inonsieur, je m'en vais faire
+            
+            mes provisions pour notre bal champêtre de ce soir. 
+            
+            RIGOLARD
+            
+            A propos de notre bal champêtre, n'oublie pas de
+            
+            mettre un quinquet au quatrième étage ; il y a de quoi
+            
+            se casser' les jambes., et ça dérangerait mes écoliers. 
+            
+            SCENE V. 
+            
+            13
+            
+            ROSE. 
+            
+            Soyez en repos, j'ai songé à tout. 
+            
+            RIGOLARD. 
+            
+            C'est bien, Rose ! va, va, ma bonne fille, et ne te
+            
+            presse pas trop ; surtout fais en sorte que les échaudes
+            
+            soient plus tendres que la dernière fois : il en lomba
+            
+            un par terre, et je fis deux entrechats dessus sans pou
+            
+            voir parvenir à l'écraser. 
+            
+            ROSE. 
+            
+            Qu'est – ce que ça prouve ? 
+            
+            RIGOLARD. 
+            
+            Ça prouve qu'il était dur ! 
+            ROSE. 
+            
+            Du tout… ça prouve que vous êtes léger. 
+            
+            RIGOLARD. 
+            
+            Méchante… c'est possible, Rose ! c'est très – possible…
+            
+            j'ai encore toule mon élasticité, na fille ; regarde plu
+            
+            tôt… une, deux… enlevé. (Il saute et tombe lourde
+            
+            ment.) Un vrai pas de zéphir, quoi ! Va, Rose, va, 
+            
+            et
+            
+            surtout ne marche pas trop vite, entends – tu, car le
+            
+            pavé est mauvais… il fait glissant en diable… moi
+            
+            même, c'est tout au plus si je peux garder mon aplomb ; 
+            
+            pourlant j'en ai diablemenl. 
+            
+            (Rose va pour sortir.)
+            
+            Rose ! Rose ! 
+            
+            Monsieur ! 
+            
+            ROSE, s'arrétant. 
+            
+            RIGOLARD. 
+            
+            Les pieds en dehors, je t'en supplie. 
+            
+            ROSE. 
+            
+            C'est bon ! c'est bon ! … chacun a sa manière de
+            
+            marcher. 
+            
+            (Elle sort.)
+            
+            14
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            SCENE VI. 
+            
+            RIGOLARD, seul. 
+            
+            La yoilà partie ! J'espère qu'elle ne rentrera pas de
+            
+            si tôt, et que j'aurai le temps d'exécuter mon projet. Je
+            
+            ne sais pourquoi, mais mon pauvre cæur fait en ce
+            
+            moment un balancé qui lui était inconnu… Il faut
+            
+            pourtant en finir, le moment de chasser les huit est
+            
+            arrivé… Allons, voyons, un peu d'assurance ! (Ilap
+            
+            pelle.) Constance ! Constance ! 
+            
+            SCÈNE VII. 
+            
+            RIGOLARD, CONSTANCE. 
+            
+            RIGOLARD. 
+            
+            Te voilà, mon enfant. (Il l'embrasse. 
+            
+            – 
+            
+            A part.)
+            
+            Tous les matins je la trouve encore plus jolie. 
+            
+            (Haut.)
+            
+            Je crois avoir entendu Rose te gronder tout – à – l'heure. 
+            
+            CONSTANCE. 
+            
+            Elle avait raison, Rose ! … ma toilette a été un peu
+            
+            plus longue qu'à l'ordinaire… C'est aujourd'hui di
+            
+            manche, et je n'ai pu l'aider dans les occupations du
+            matin. 
+            
+            RIGOLARD, 
+            
+            à part. 
+            
+            Charmant petit caractère ! (Haut.) C'est pourtant à
+            
+            mes leçons, Constance, que tu dois en grande partie
+            
+            toutes tes perfections. 
+            
+            CONSTANCE. 
+            
+            Oh ! oui… c'est à votre générosité que je dois tout. 
+            
+            SCENE VII. 
+            
+            RIGOLARD. 
+            
+            15
+            
+            Veux – tu bien ne point parler de cela… Tu étais la
+            
+            fille d'un ancien confrère qui t'a laissée, en mourant, 
+            
+            sans appui, sans fortune ; en te prenant chez moi, je
+            
+            n'ai fait que remplir un devoir sacré. 
+            
+            CONSTANCE. 
+            
+            Vous avez eu pour moi toute la tendresse d'un père. 
+            
+            RIGOLARD. 
+            
+            D'un père ! … Écoute donc, Constance, c'est un peu
+            
+            vieux, un père… le temps n'a pas encore appesanti sa
+            
+            main de plomb sur mes jarrets ; si je ne bats plus faci
+            
+            lement un huit comme autrefois, je ne suis pas tout
+            
+            à – fait réduit aux terre – à – terrę. 
+            
+            Je ne dis pas cela. 
+            
+            CONSTANCE. 
+            
+            RIGOLARD. 
+            
+            Et puis, réfléchis donc, moi, père d'un enfant de
+            
+            vingt – cinq ans, d'un enfant en âge d'être marié ! car
+            
+            il faudra bientôt songer sérieusement au mariage. 
+            
+            CONSTANCE. 
+            
+            Je suis trop bien auprès de vous pour y penser
+            
+            maintenant. 
+            
+            RIGOLARD. 
+            
+            Cependant j'aurais bien du plaisir à te voir à la tête
+            
+            d'un établissement, d'une école de danse, par exemple. 
+            
+            Oh ! non, 
+            
+            1, pas d'une école de danse ; j'aimerais mieux
+            
+            CONSTANCE. 
+            
+            être dans un comploir. 
+            
+            RIGOLARD. 
+            
+            Dans un comptoir ! pourquoi cela ? 
+            
+            CONSTANCE. 
+            
+            C'est que monsieur Gustave est marchand. 
+            
+            16
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            RIGOLARD. 
+            
+            Gustave ! … quel est donc ce monsieur Gustave ? 
+            
+            CONSTANCE. 
+            
+            Un de vos meilleurs élèves au cachet. 
+            
+            RIGOLARD. 
+            
+            Ah ! ah ! oui, j'y suis, Gustave Ducroisé, le pre
+            
+            mier commis de la Fille mal gardée… ce superbe ma
+            
+            gasin de la rue de la Monnaie ? … Eh bien ! est – ce qu'il
+            
+            voudrait te conter fleurette, ce petit monsieur ! …
+            
+            Constance, crois – en mon expérience… ce n'est pas ce
+            
+            qui te convient, du tout, du tout… il te faudrait un
+            
+            homme comme moi… et, pour te dire franchement la
+            
+            vérité… je crois que tu ne pourrais pas mieux choisir…
+            
+            que Cyprien Rigolard. 
+            
+            Vous ? 
+            
+            CONSTANCE. 
+            
+            RIGOLARD. 
+            
+            Moi ! … regarde cette tournure, mon enfant… les
+            
+            hommes de ma trempe sont rares… Je ne te parle pas
+            
+            de mon talent ; la modestie…, d'ailleurs, tu le sais, 
+            
+            j'en ai beaucoup… – De plus je suis un homme excel
+            
+            lent… Si tu as de la raison et pas d'inclination… une, 
+            
+            deux… te voilà madame Rigolard… Qu'en dis – tu, 
+            
+            Constance ? 
+            
+            CONSTANCE. 
+            
+            Monsieur Rigolard… celte proposition me flatte, 
+            
+            mais…
+            
+            <div type="poem"> <lg>
+                
+                    RIGOLARD. 
+                
+                
+                  
+                    
+                        Mais, voyons… Explique – toi. 
+                    
+                
+                <stage type="tune">
+                    Air de la Vieille. 
+                </stage>
+                
+                   
+                    
+                        <l>Pourquoi donc garder le silence ?</l>
+                        <l>Il faut tout dire franchement ;</l>
+                        <l>Parle donc, ma chère Constance.</l>
+                    
+                    
+                        CONSTANCE. 
+                    
+                    
+                     
+                        <l>Je vous aime bien tendrement,</l>
+                        <l>Mais une pareille alliance</l>
+                        <l part="I">Doit m'effrayer.</l>
+                    
+                    
+                        RIGOLARD. 
+                    
+                    
+                      
+                        <l part="F">Dis, mon enfant,</l>
+                        <l>Que me trouves – tu d'effrayant ?</l>
+                        <l>J'ai cinquante ans, je le confesse,</l>
+                        <l>Mais, vois, Constance, ma souplesse ;</l>
+                    
+                    
+                        (Il danse.)
+                    
+                    
+                   
+                        <l>Vois mon aplomb, vois ma prestesse ;</l>
+                        <l>Je puis dire ma gentillesse.</l>
+                        <l>Tous mes hivers doivent être oubliés,</l>
+                        <l>Car le printemps est encor dans mes pieds.</l>
+                    
+                
+            </lg> </div>
+            
+            (Il fait un entrechat, et tombe aux pieds de Constance.)
+            
+            Que faites – vous ? 
+            
+            CONSTANCE. 
+            
+            RIGOLARD. 
+            
+            Constance, je suis Zéphir aux genoux de Flore…
+            
+            SCÈNE VIII. 
+            
+            LES MÊMES, GUSTAVE ; il a un claque à la
+            
+            mode, 
+            
+            GUSTAVE. 
+            
+            Fort bien… monsieur Rigolard. 
+            
+            CONSTANCE, avec un cri. 
+            
+            +
+            
+            Ab ! 
+            
+            (Elle se sauve.)
+            
+            2
+            
+            18
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            SCÈNE IX. 
+            
+            RIGOLARD, toujours à genoux, 
+            
+            GUSTAVE. 
+            
+            GUSTAVE. 
+            
+            C'est délicieux ! je vous surprends aux genoux d'une
+            
+            belle… comme dans une Heure de mariage. 
+            
+            RIGOLARD, à genoux. 
+            
+            Qu'est – ce que c'est, monsieur, qu'est – ce que c'est ? …
+            
+            et pourquoi m'interrompez – vous dans mes leçons, s'il
+            
+            vous plaît ? 
+            
+            GUSTAVE. 
+            
+            Singulière leçon, ma parole d'honneur ! Le maltre
+            
+            aux genoux de son élève ! 
+            
+            RIGOLARD, se levant. 
+            
+            Aux genoux de mon élève… c'est faux… C'est un
+            
+            pas nouveau que je lui montrais. 
+            
+            GUSTAVE. 
+            
+            N'allez – vous pas me faire croire que l'on danse sur
+            
+            les genoux à présent ? 
+            
+            RIGOLARD. 
+            
+            Oui, monsieur, on danse sur les genoux ; c'est un
+            
+            pas de cour, que vous ne connaissez pas… Du reste, 
+            
+            mon cher ami, je n'ai pas de compte à vous rendre…
+            
+            J'ai bien l'honneur de vous saluer. 
+            
+            (Il sort faisant un pas de deur.)
+            
+            SCÈNE X. 
+            
+            GUSTAVE, seul. 
+            
+            Il est clair que monsieur Rigolard est amoureux de
+            
+            sa pupille… comme Cassandre dans le Tableau par
+            
+            SCENE XI. 
+            
+            lant. Mais croirait – il l'emporter sur moi par
+            
+            19
+            
+            Lasard ? …
+            
+            Il est bien capable d'en avoir la prétention. Heureuse
+            
+            ment, j'ai fait hier ma déclaration dans une lettre que
+            
+            j'ai remise à Constance… et je viens chercher la ré
+            
+            ponse… je suis bien sûr qu'elle sera favorable… J'ai
+            
+            ébloui la petite par mon genre… un fashionable dans
+            
+            une école de danse de la rue Saint – Martin, ça devait
+            
+            faire sensation… et je ris en voyant toutes ces petites
+            
+            ouvrières me regarder avec de grands yeux… Il n'y a
+            
+            pas jusqu'à la nièce du maitre de danse, mademoiselle
+            
+            Adélaïde Chopin, qui ne me regarde avec un air…
+            parole d'honneur ! Il faudra que je l'aime un peu, dès
+            
+            que j'aurai fini d'aimer la petite Constance… Si je n'y
+            
+            prenais garde pourtant, cette petite fille – là me ferait
+            
+            tourner sérieusement la tête… Mais je serais perdu de
+            
+            réputation ; l'un des premiers cominis de la Fille mal
+            
+            gardée, avoir une passion rue Saint – Martin, au sixième
+            
+            étage ! … Il nous faut des amours plus relevés. Il n'est
+            
+            guère possible d'en trouver de plus élevés par exem
+            
+            ple… Mais, n'oublions pas que, pour l'avertir de mon
+            
+            arrivée, nous sommes convenus d'un petit coup frappé
+            
+            dans la main… près de cette porte… comme dans les
+            
+            Rendez – vous bourgeois. Qu'est – ce donc ? … A ce rire
+            
+            insatiable, je reconnais Adélaïde. 
+            
+            (On rit dehors.)
+            
+            SCÈNE XI. 
+            
+            GUSTAVE, ADÉLAIDE. 
+            
+            ADÉLAÏDE, riant aux éclats. 
+            
+            Ah ! ab ! ah ! … que c'est drôle… que c'est drôle ! …
+            
+            GUSTAVE. 
+            
+            Encore quelque malice de votre façon, estimable
+            
+            Adélaïde. 
+            
+            20
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            Adélaïde. 
+            
+            Des malices… on n'connaît qu' ça dans la rue aux
+            
+            Ours… Ah ! ah ! ah ! j'en ris encore quand j'y pense. 
+            
+            GUSTAVE. 
+            
+            Et peut – on savoir ? …
+            
+            Adélaïde. 
+            
+            Oh ! il n'y a pas de mystère… figmez – vous un petit
+            
+            courlaud de boutique qui me fait la cour…une espèce
+            
+            d'imbécile qui veut m'épouser… monsieur Étienne en
+            
+            fin… puisqu'il faut l'appeler par son nom… Il est venu
+            
+            me chercher dans mon estaminet, pour me conduire
+            
+            au bal… avec la permission de ma mère… Et, comme
+            
+            il commençait à pleuvoir, il offre de me payer un om
+            
+            nibus. 
+            
+            · Pourquoi pas un fiacre ? que je lui dis… Là
+            
+            dessus, il court en chercher un… Il m'y fait placer ; il
+            
+            paie d'avance… Et, au moment où il va y monter, 
+            
+            moi, qui ne voulais pas aller seule en fiacre avec un
+            
+            jeune homme, parce que… on connait ça… J'ai oublié
+            
+            mon mouchoir, que je lui dis. Il rentre dans le fond
+            
+            du café pour le prendre… Et, moi, je dis au cocher : 
+            
+            Fouettez, cocher, rue Saint – Martin, n ° 158… et v'lan, 
+            
+            nous voilà partis… mais si vite, que monsieur Étienne
+            
+            aura cru que les chevaux du fiacre avaient pris le mors
+            aux dents… Je le connais, il est assez bête pour ça. 
+            
+            GUSTAVE. 
+            
+            Et sans doule, espiègle Adélaïde, vous ne partagez
+            
+            pas l'amour du garçon épicier ? 
+            
+            <div type="poem"> <lg>
+                
+                    ADÉLAÏDE. 
+                
+                
+                   
+                    
+                        Ah ! bien oui, l'amour ! jolie bêtise, ma foi ! J'en ai
+            
+                        assez comme ca du sentiment. 
+                    
+                
+                <stage type="tune">
+                    Air de la Cariole. 
+                </stage>
+                
+                 
+                    
+                        <l>Naguère mon cœur confiant</l>
+                        <l>Écoutait parfois la fleurette ;</l>
+                        <l>Et, j' l'avoûrai, plus d'un amant</l>
+                        <l>Me trouva crédule ou coquette.</l>
+                        <l>Mais, ma foi, depuis l'an passé,</l>
+                        <l>Lorsqu'un soupirant empressé</l>
+                        <l>Vient me dire : Vive l'amour !</l>
+                        <l>Moi je lui réponds à mon tour :</l>
+                        <l>Vive le mariage !</l>
+                        <l>C'est le refrain d'une fille sage.</l>
+                        <l>Vive le mariage !</l>
+                        <l>Sans c' nœud charmant</l>
+                        <l>Point de vrai sentiment.</l>
+                    
+                
+                
+                    GUSTAVE. 
+                
+                
+                   
+                    
+                        Même air. 
+                   
+                
+                
+                    <l>Je dois vous en faire l'aveu,</l>
+                    <l>Depuis long – temps, mademoiselle,</l>
+                    <l>Près de vous mon cœur est de feu,</l>
+                    <l>Je vous trouve toujours plus belle.</l>
+                    <l part="I">Je sens là…</l>
+                    
+                      
+                        
+                            ADÉLAÏDE. 
+                        
+                    
+                    <l part="F">Je ne vous crois pas.</l>
+                    <l>Près de moi vous perdez vos pas.</l>
+                    
+                       
+                        
+                            GUSTAVE. 
+                        
+                    
+                    <l>Pourtant je viendrais avec vous</l>
+                    <l>Répéter ce refrain si doux.</l>
+                    
+                     
+                            ENSEMBLE. 
+                        
+                    
+                    <l ana="unanalyzable">Vive le mariage ! etc.</l>
+                
+                
+                    <l/>
+                
+            </lg> </div>
+            
+            (Après ce chant, Gustave veut embrasser Adélaïde, 
+            
+            qui lui donne un soufflet résonnant.)
+            
+            ADÉLAÏDE. 
+            
+            Dites donc… prenez toujours ça… je vous donnerai
+            
+            le reste plus tard. 
+            
+            (Elle se sauve.)
+            
+            GUSTAVE, la main sur la joue. 
+            
+            Merci ! … c'est un ange, en vérité. 
+            
+            22
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            SCÈNE XII. 
+            
+            GUSTAVE, CONSTANCE, ouvrant la petite porle. 
+            
+            CONSTANCE
+            
+            J'ai entendu le signal de monsieur Gustave…… un
+            
+            petit coup frappé dans la main… Oui, c'est bien lui. 
+            
+            GUSTAVE. 
+            
+            Ah ! c'est vous, adorable Constance ; je vous atten
+            
+            dais avec l'impatience la plus vive. (A part.) Ma lettre
+            
+            a produit son effet… je vois cela…
+            
+            CONSTANCE. 
+            
+            Monsieur Rigolard est occupé des apprêts de son
+            
+            bal… nous pouvons causer un instant. 
+            
+            GUSTAVE, avec fatuité. 
+            
+            Eh bien ! 
+            
+            que dites – vous de mon épitre en chanson ? 
+            
+            CONSTANCE. 
+            
+            Je ne j'ai pas lue, monsieur Gustave… je ne dois pas
+            
+            la lire. 
+            
+            GUSTAVE. 
+            
+            Comment, vous n'avez pas lu mes couplets ? Vous
+            
+            vous jouez donc de mes tourmens… de ma passion ? …
+            
+            En vain j'abandonne toutes les beautés de la Chaussée
+            
+            d'Antin, qui raffollent de moi… pour venir me perdre
+            
+            dans la foule plébéïenne des écoliers de monsieur Ri
+            
+            golard ! Vous ne me savez gré d'aucun sacrifice. 
+            
+            Monsieur ! …
+            
+            CONSTANCR. 
+            
+            <div type="poem"> <lg>
+                
+                    GUSTAVE. 
+                
+                
+                   
+                    
+                        Si vous croyez qu'ils sont amusans, les bals cham
+            
+                        pètres de monsieur Rigolard ! 
+            
+                        SCENE XII. 
+            
+                        23
+                    
+                
+                <stage type="tune">
+                    Air des Comédiens. 
+                </stage>
+                
+                 
+                    
+                        <l>Dans ce salon, que de caricatures !</l>
+                        <l>On voit ici, bondir comme un troupeau,</l>
+                        <l>Vingt élégans dont les tristes figures</l>
+                        <l>Ont de Monnier exercé le pinceau…</l>
+                        <l>Là, j'aperçois la modiste agaçante,</l>
+                        <l>Le front penché sous un bouquet touffu,</l>
+                        <l>Son manteau noir ou son châle amarante</l>
+                        <l>Cachent à peine un jupon décousu…</l>
+                        <l>Cet air musqué, ce geste dramatique,</l>
+                        <l>Me font connaître un coiffeur en renom,</l>
+                        <l>Et distingue un commis de boutique</l>
+                        <l>À son foulard moitié soie et coton.</l>
+                        <l>Voyez plus loin la timide lingère</l>
+                        <l>Baissant les yeux d'un air sentimental,</l>
+                        <l>Près de l'amant dont le cœur débonnaire</l>
+                        <l>Lui fit présent du costume de bal.</l>
+                        <l>Le parfumeur, aussi fier qu'un chimiste,</l>
+                        <l>Sur les mouchoirs épuise son flacon.</l>
+                        <l>Et le tailleur qui se croit un artiste,</l>
+                        <l>Fait circuler la pastille au citron.</l>
+                        <l>Un vieux rentier, que le malheur lutine,</l>
+                        <l>Perd, en grondant, six liards à l'écarté,</l>
+                        <l>Quand sa moitié, dans la salle voisine,</l>
+                        <l>Près d'un galant minaude en liberté.</l>
+                        <l>Trois amateurs, bourreaux de la musique,</l>
+                        <l>De leurs accords m'écorchent le tympan,</l>
+                        <l>Et la maman, malgré sa jambe étique,</l>
+                        <l>Vis–à–vis moi danse clopin clopan.</l>
+                        <l ana="unanalyzable">Dans votre bal que de caricatures, etc.</l>
+                    
+                
+            </lg> </div>
+            
+            CONSTANCE. 
+            
+            Si monsieur Rigolard vous entendait parler ainsi de
+            
+            son bal…
+            
+            24
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            GUSTAVE. 
+            
+            Aurait – il la prétention… dele croire bien composé ? …
+            
+            Cinq sous le billet d'entrée…
+            
+            CONSTANCE. 
+            
+            Pourquoi donc у venez – vous, monsieur ? 
+            
+            GUSTAVE. 
+            
+            Vous me le demandez, Constance… vous savez trop
+            
+            bien que je n'y viens que pour vous… je suis comme
+            l'amoureux de Maison à vendre…
+            
+           
+            <div type="poem"><lg>
+                
+                <stage type="tune" id="AIR : Toujours courant après ma belle."></stage>
+            <l>Toujours courant après ma belle,</l>  
+            <l>« Ainsi qu'un jeune troubadour ! »</l>
+                </lg>
+                </div>
+            
+            Vous savez que j'aime l'opéra – comique, de passion…
+            
+            je suis un vrai dilettanto pour la musique française…
+            
+            CONSTANCE. 
+            
+            Oui, je sais que vous êtes fait pour la romance ! …
+            
+            mais, enfin, quelles sont vos intentions à mon égard ? …
+            
+            Lisez mon Épître. 
+            
+            GUSTAVE. 
+            
+            CONSTANCE. 
+            
+            Mais ne pouvez – vous me dire vous – même ? 
+            
+            GUSTAVE. 
+            
+            Non, je ne le peux pas… je ne me suis pas pré
+            
+            paré… Et puis, moi, en fait d'amour, je n'ai d'esprit
+            
+            que la plume à la main, à tête reposée… Lisez mon
+            
+            Epître. 
+            
+            CONSTANCE. 
+            
+            C'est impossible… mon deroir me le défend. 
+            
+            GUSTAVE. 
+            
+            Et si je vous en priais, Constance… là… à vos ga
+            
+            noux ! … (Il s'y met.) Si je vous disais…
+            
+            SCENE XIV. 
+            
+            25
+            
+            SCÈNE XIII. 
+            
+            Les Mêmes, RIGOLARD. 
+            
+            RIGOLARD. 
+            
+            Eh bien ! ne vous gênez pas ! …
+            
+            CONSTANCE. 
+            
+            Ah ! mon Dieu ! …
+            
+            (Elle se sauve.)
+            
+            SCÈNE XIV. 
+            
+            GUSTAVE, RIGOLARD. 
+            
+            RIGOLARD. 
+            
+            Me direz – vous, monsieur… ce que vous faites – là ? 
+            
+            GUSTAVE, à genoux, 
+            
+            Eh ! … parbleu ! … vous le voyez bien, monsieur…
+            
+            je fais répéter à inademoiselle Constance cette danse en
+            
+            question…
+            
+            RIGOLARD. 
+            
+            Une danse à genoux ! …
+            
+            GUSTAVE. 
+            
+            Une danse de cour… vous savez bien. 
+            
+            RIGOLARD. 
+            
+            Monsieur, monsieur, vous vous moquez de moi. 
+            
+            GUSTAVE. 
+            
+. ; 
+            
+            Pas précisément, monsieur ! 
+            
+            RIGOLARD. 
+            
+            Je vous ordonne de sortir, monsieur…
+            
+            GUSTAVE. 
+            
+            Du tout… je suis dans un endroit public, un bal
+            
+            champêtre… et pour mes soixante quinze centimes, 
+            
+            j'ai le droit d'y rester. 
+            
+            26
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            RIGOLARD. 
+            
+            Le droit de rester chez moi… malgré moi ! … C'estce
+            
+            que nous verrons, monsieur… Je cours de ce pas chez
+            
+            le commissaire, et quand il saura que je vous ai sur
+            
+            pris aux genoux de ma pupille… Il estmoral, monsieur
+            
+            le commissaire… excessivement moral… et je suis là…
+            
+            (Bruit au – dehors.) Mais voilà la société qui arrive, je
+            
+            ne puis m'absenter… C'est égal, monsieur, j'aurai les
+            
+            yeux sur vous… et au premier pas douteux… je re
+            
+            quiers la force armée ! …
+            
+            SCÈNE XV. 
+            
+            Les MÊMES, CONSTANCE, ADÉLAIDE, DANSEURS
+            
+            (beaucoup unt des parapluies) ; puis ÉTIENNE, 
+            
+            tout mouillé, 
+            
+            <div type="poem"> <lg>
+                
+                    CHŒUR. 
+                
+                
+                  
+                    <stage type="tune">
+                        AIR : Livrons-nous à la danse.
+                    </stage>
+                
+                
+                    <l>Le plaisir nous rallie</l>
+                    <l>Sous ses joyeux drapeaux ;</l>
+                    <l>Que sur nous la folie</l>
+                    <l>Agite ses grelots.</l>
+                
+                
+                 
+                    
+                        ADÉLAÏDE. 
+                    
+                
+                
+                    <l>Amans sans espérance,</l>
+                    <l>Venez dans ce séjour :</l>
+                    <l>Vous verrez que la danse</l>
+                    <l>Est mère de l'amour !</l>
+                    <l ana="unanalyzable">Le plaisir nous rallie, etc.</l>
+                
+            </lg> </div>
+            
+            (Ils disparaissent par la porte du fond.)
+            
+            ÉTIENNE, tout mouillé. 
+            
+            Ah ! vous voilà, mamzelle Adélaïde ! que je suis
+            
+            SCENE XV. 
+            
+            27
+            
+            bien aise de vous voir ! … Ces maudits chevaux d'
+            
+            fiacre, qui se sont emportés… je n'aurais jamais cru
+            
+            ça de leur part…
+            
+            ADÉLAÏDE. 
+            
+            J'étais sûre qu'il le croirait… Est – il bon enfant, 
+            
+            celui – là ! …
+            
+            ÉTIENNE. 
+            
+            C'est égal… puisque je vous vois arrivée sans
+            accident… je ne me souviens plus que je suis venu à
+            
+            pied et qu'il pleut à verse… Les Omnibus étaient
+            
+            pleines et les Favorites aussi… aussi, je suis trempé…
+            mais trempé…
+            
+            (Il fait sortir de l'eau des pans de son habit.)
+            
+            ADÉLAÏDE. 
+            
+            Ne m'approchez pas, 
+            
+            ÉTIENNE. 
+            
+            Je voudrais pourtant bien danser la première con
+            
+            tredanse avec vous. 
+            
+            ADÉLAÏDE. 
+            
+            Du tout… quand vous serez sèche… vous m'abî
+            
+            meriez. 
+            
+            ÉTIENNE. 
+            
+            C'est juste ! … alors je vais rester près du poêle. 
+            
+            Vous m'avertirez quand je ne serai plus mouillé. 
+            
+            GUSTAVE. 
+            
+            1 Le nigaud ! …
+            
+            RIGOLARD, montant sur une table. 
+            
+            Un moment de silence ! … mes enfans ! … (Aur dan
+            
+            seurs qui sont groupes autour de la table.) Messieurs
+            
+            et mesdames ! … chaque année, à pareille époque, 
+            
+            nous ouvrons notre bal ; chaque année j'ai la satisfac
+            
+            tion de présider à vos plaisirs : fasse le ciel durer cette
+            
+            1
+            
+            satisfaction le plus long – temps possible… En atten
+            
+            28
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            dant, mes chers élèves, que toujours l'harmonie règne
+            
+            parmi vous… elle est la base essentielle du vrai bon
+            
+            heur… En parlant d'harmonie, j'ai cette fois ajouté un
+            
+            instrument à notre orchestre, instrument qui jusqu'ici
+            
+            nous avait manqué… la grosse caisse… C'est Rose, 
+            
+            ma cuisinière…
+            
+            ÉTIENNE. 
+            
+            Comment ! … c'est Rose qui est la grosse caisse ? 
+            
+            RIGOLARD. 
+            
+            L'autre bète ! … C'est Rose, ma cuisinière, qui en
+            
+            jouera… et si elle manque un peu la mesure, pour la
+            
+            première fois… je vous prie, mes enfaus, de vouloir
+            
+            bien avoir pour elle l'indulgence que lui méritent trenle
+            
+            ans de services…
+            
+            TOUS. 
+            
+            Vive monsieur Rigolard ! 
+            
+            <div type="poem"> <lg>
+                
+                    RIGOLARD
+                
+                
+, attendri. 
+            
+                    1
+            
+                    1
+            
+                    Et vous aussi, mes bons amis ! … vivez ! … vivez
+            
+                    pour la danse et le plaisir. (On entend la grosse caisse
+            
+                    et un violon dans le fond.) Voici le moment d'ouvrir
+                    le bal. 
+                
+                
+                  
+                    <stage type="tune">
+                        AIR : Entendez-vous ? (de la Fiancée.)
+                    </stage>
+                
+                
+                    <l>Entendez–vous ces accords enchanteurs ?</l>
+                    <l>Allons, allons… Que notre bal commence ;</l>
+                    <l>Et puissiez–vous, dans chaque contredanse,</l>
+                    <l>De la beauté mériter les faveurs !</l>
+                
+                
+               
+                    
+                        (À part.)
+                    
+                
+                
+                    <l>Je n'ai plus le cœur à la danse,</l>
+                    <l>J'éprouve un tourment inconnu,</l>
+                    <l>Car si Gustave aime Constance,</l>
+                    <l>Constance l'aime ! … Je l'ai vu !</l>
+                
+         
+            
+            SCENE XVI. 
+            
+            29
+            
+            ADÉLAÏDE. 
+            
+            Qu'est – ce que vous avez donc, mon oncle ? vous êtes
+            
+            tout blême. 
+            
+            RIGOLARD. 
+            
+            Qui ? moi ! … moi, je n'ai rien… je suis gai… très
+            
+            gai, et je vais vous donner l'exemple à tous. Allons, 
+            
+            Rigolard, mon ami, un pas de caractère, c'est – à – dire
+            
+            un peu de caractère. 
+            
+            (Il danse. On entend l'orchestre, il reprend.)
+            
+            
+            
+            <l ana="unanalyzable">Entendez–vous ces accords enchanteurs ! etc.</l>
+            
+               </lg> </div>
+            
+            (Tout le monde entre dans la salle de bal. Gustave re
+            
+            vient en scène. Étienne reste près du poële.)
+            
+            SCÈNE XVI. 
+            
+            GUSTAVE, ÉTIENNE. 
+            
+            GUSTAVE. 
+            
+            Le maître de danse est furieux ! d'honneur… c'est
+            
+            charmant. 
+            
+            ÉTIENNE. 
+            
+            Monsieur Gustave, pourriez – vous nie dire… si je suis
+            
+            déjà sèche de ce côté ? 
+            
+            GUSTAVE. 
+            
+            Comment, mon brave Etienne, vous vous laissez
+            
+            aussi cruellement mystifier par une grisette. 
+            
+            ÉTIENNE. 
+            
+            Grisette ! apprenez, monsieur, que mademoiselle
+            
+            Adélaïde Chopin n'est pas une griselle. 
+            
+            GUSTAVE. 
+            
+            Pour vous, 
+            
+            c'est possible ; mais pour moi…
+            
+            30
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            ÉTIENNE. 
+            
+            Elle n'est grisette pour personne, entendez – vous, 
+            
+            monsieur ? 
+            
+            GUSTAVE. 
+            
+            Pauvre garçon ! vous ſerez bien la meilleure pâte de
+            
+            mari ! …
+            
+            La meilleure påte ! … Qu'entendez – vous par ce ca
+            
+            ÉTIENNE. 
+            
+            lembourg, grand calicot ? – 
+            
+            GUSTAVE. 
+            
+            Dites donc, dites donc, vous vous émancipez, je
+            
+            crois, monsieur l'épicier ! 
+            
+            Chevalier de la demi – aune ! 
+            
+            ÉTIENNE. 
+            
+            GUSTAVE. 
+            
+            Là, là, calmez – vous : ce n'est pas contre moi qu'il
+            
+            faut vous emporter, mais bien contre mademoiselle
+            
+            * Adélaïde Chopin, qui se moque de vous. 
+            
+            Étienne. 
+            
+            Comment, elle se moque de moi ? …
+            
+            GUSTAVE. 
+            
+            Ne vous êtes – vous pas aperçu que c'est elle qui n'a
+            
+            pas voulu aller en fiacre avec vous, et que maintenant, 
+            
+            c'est pour avoir le plaisir de danser avec un autre
+            
+            qu'elle exige que vous restiez près de ce poèle ? 
+            
+            ÉTIENNE. 
+            
+            Si c'était vrai, pourtant ! … (Il ouvre la porte du
+            
+            fond.) En effet, elle danse avec un des commis de la
+            
+            Vestale. C'est une horreur, et je vais lui dire son fait. 
+            
+            Oh ! c'est que pour être un Champenois, je suis un
+            
+            vrai loup quelquefois. 
+            
+            GUSTAVE. 
+            
+            Je ne crois pourtant pas qu'en amour vous ayez
+            
+            jarnais croqué personne. 
+            
+            SCENE XVI. 
+            
+            ÉTIENNE. 
+            
+            31
+            
+            Oh ! non, pas encore, et pourtant, en Champagne, 
+            
+            j'étais un des malins les plus délurés, on m'appelait
+            
+            le petit Lovelace de Vitry – le – Français. 
+            
+            Parole d'honneur ? 
+            
+            En vérité. 
+            
+            GUSTAVE. 
+            
+            ÉTIENNE. 
+            
+            GUSTAVE. 
+            
+            Ici, mon garçon, ce n'est pas tout – à – fait la même
+            
+            chose. 
+            
+            ÉTIENNE. 
+            
+            Dites – moi, monsieur Gustave, qu'est – ce qu'il faut
+            
+            faire ? 
+            
+            GUSTAVE. 
+            
+            Rien de plus facile… on envoie avant tout un billet
+            
+            joliment tourné, dans lequel on explique clairement
+            
+            ses intentions. 
+            
+            ÉTIENNE. 
+            
+            Un billet… un billet écrit ? 
+            
+            GUSTAVE. 
+            
+            Sans doute… C'est de tous les moyens le plus sûr et
+            
+            le plus commode… il me réussit toujours à moi. 
+            
+            1
+            
+            Vraiment ? 
+            
+            ÉTIENNE. 
+            
+            GUSTAVE. 
+            
+            Il n'y a pas de femme qui sache résister à la lecture
+            
+            d'un billet doux bien tourné. 
+            
+            1
+            
+            ÉTIENNE. 
+            
+            Ah ! voilà… Je n'aurai jamais assez d'esprit pour
+            
+            tourner ça commeil faut ; je n'ai jamais écrit que des
+            
+            mémoires d'épicerie, et je suis sûr que si j'écrivais un
+            
+            32
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            billet doux, j'y. glisserais, sans le vouloir, de la mé
+            lasse ou de la castonnade. 
+            
+            Eh bien, mais je puis vous écrire ça, moi…
+            
+            GUSTAVE. 
+            
+            Vraiment ? 
+            
+            ÉTIENNE. 
+            
+            GUSTAVE
+            
+            Ne sommes – nous pas de la même classe ? 
+            
+            (Il s'assied.)
+            
+            ÉTIENNE. 
+            
+            C'est juste ! élèves du même professeur, à vingt – cing
+            
+            centimes la leçon. 
+            
+            GUSTAVE, à part. 
+            
+            Profitons de cela pour risquer une déclaration en
+            
+            règle à mademoiselle Adélaïde… le duplicata de mon
+            épître à Constance. 
+            
+            Ça va – t – il ? 
+            
+            M'y voilà. 
+            
+            ÉTIENNE. 
+            
+            GUSTAVE. 
+            
+            <div type="poem"> <lg>
+                
+                    ÉTIENNE. 
+                
+                
+                    
+                    <stage type="tune">
+                        AIR : Que je suis content. (Baiser au porteur.)
+                    </stage>
+                
+                
+                    <l>Que j' suis content ! … Quell' bonn' malice !</l>
+                    <l>Ah ! c'est charmant ! oui, c'est charmant !</l>
+                    <l>À mon objet il faut que j' glisse.</l>
+                    <l>Ce billet doux tout doucement.</l>
+                    
+                       
+                        
+                            ENSEMBLE. 
+                        
+                    
+                    <l>Que j' suis content !</l>
+                    <l>Ah ! ah ! que je suis content !</l>
+                    
+                      
+                        GUSTAVE. 
+                    
+                    <l>Qu'il est content.</l>
+                    <l>Ah ! ah ! qu'il est content !</l>
+                
+       
+            
+            SCENE XVII. 
+            
+            ÉTIENNE. 
+            
+            33
+            
+            Est – ce que vous n'allez pas me dire ce qu'il y a
+            
+            dedans ? 
+            
+            GUSTAVE. 
+            
+            Nous n'avons pas le temps… la contredanse va finir ! 
+            
+            C'est juste ! …
+            
+            ÉTIENNE. 
+            
+            GUSTAVE. 
+            
+            Tâchez de lui glisser ce billet… bien adroitement. 
+            
+         
+                
+                    ÉTIENNE. 
+                
+                
+                 
+                    
+                        Laissez – moi faire. 
+                    
+                
+              
+                    Même air. 
+                
+                
+                 
+                    
+                        <l>En catimini je m'approch'rai d'elle,</l>
+                        <l>Et j' lui dirai bien prudemment :</l>
+                        <l>Tenez, prenez, mademoiselle,</l>
+                        <l>Ce billet plein de sentiment.</l>
+                    
+                    
+                        ENSEMBLE. 
+                    
+                    
+                  
+                        <l>Que j' suis content !</l>
+                        <l>Ah ! ah ! que j' suis content !</l>
+                    
+                    
+                        GUSTAVE. 
+                    
+                    
+                      
+                        <l>Comme il est content !</l>
+                        <l>Oui, vraiment, il est content</l> ! 
+                    
+                
+            </lg></div>
+            
+            
+            SCÈNE XVII. 
+            
+            Les MÊMES, RIGOLARD. 
+            
+            RIGOLARD. 
+            
+            Eh ! bien, messieurs… eh ! bien… comment ! les
+            
+            dames sont par là… et vous êtes ici… est – ce là le fruit
+            
+            des leçons que je vous ai données… vous, monsieur
+            
+            3
+            
+            34
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            Étienne… surtout, vous, sur qui je comptais pour
+            
+            me faire honneur ! 
+            
+            ÉTIENNE. 
+            
+            Me voilà, monsieur Rigolard, me voilà. 
+            
+, 
+            
+            RIGOLARD. 
+            
+            Allons donc… que diable, non cher, vous êtes là à
+            
+            vous rôtir les jambes près du poêle… Vous n'êtes pas
+            
+            champêtre du tout aujourd'hui. 
+            
+            GUSTAVE. 
+            
+            Pour moi, je préfère rester ici. 
+            
+            RIGOLARD. 
+            
+            Restez où vous voudrez… cela m'est bien égal, je
+            
+            vous l'assure… j'ai assez d'élèves qui me feront hon
+            
+            neur sans vous ! … et je vous déclare que je professe
+            
+            pour vos talens la plus complète indifférence ! … Ar
+            
+            rondissez – moi donc lesbras… vous portez votre claque
+            
+            comme vous porteriez une pièce de jaconas… Voyez
+            
+            ceci. 
+            
+            (Il lui arrange son claque sous le bras.)
+            
+            Comme cela ? 
+            
+            GUSTAVE. 
+            
+            RIGOLARD. 
+            
+            C'est beaucoup mieux… mais, au surplus, ça m'est
+            
+            bien égal… et je puis vous protester, monsieur, que
+            
+            désormais… (On entend la musique.) En place pour
+            
+            la contrédanse ! …
+            
+            (Il entre dans le bal, suivi d'Etienne.)
+            
+            SCÈNE XVIII. 
+            
+            GUSTAVE, seul. 
+            
+            Le bonhomme est fou, en vérité ! … (La musique
+            
+            continue.) Voyons si ce pauvre Étienne fait la coin
+            
+            SCENE XVIII. 
+            
+            35
+            
+            mission dont je l'ai chargé pour sa maîtresse ! (Il re
+            
+            garde par le trou de la serrure.) Bon ! le voilà qui
+            
+            s'approche d'Adélaïde ! Oh ! le maladroit… il lui donne
+            le billet devant tout le monde ! … ah ! elle le met dans
+            
+            son sein… Étienne est triomphant, il revient. 
+            
+            ÉTIENNE, rentrant tout joycux. 
+            
+            Dites donc… c'est fait ! …
+            
+            GUSTAVE. 
+            
+            La contredanse finit… ces demoiselles viennent par
+            
+            ici, ne nous montrons pas. 
+            
+            ÉTIENNE
+            
+            C'est ça, 
+            
+            cachons – pouš. 
+            
+            Où ? 
+            
+            GUSTAVE. 
+            
+            ÉTIENNE. 
+            
+            Derrière les ifs ; dites donc, monsieur Gustave, voilà
+            le moment décisif… Des six ifs… Ah ! ah ! celui – là
+            n'est pas mal, pour un épicier…
+            
+            GUSTAVE. 
+            
+            Est – ce qu'il est de vous le calembourg ? 
+            
+            Parole d'honneur. 
+            
+            ÉTIENNE. 
+            
+            GUSTAVE, 
+            
+            Ah ! malin, vous les aviez comptés d'avance. 
+            
+            (Ils se cachent derrière les ifs, et sortent sans bruit
+            
+            aussitôt que Constance et Adélaïde sont entrées. 
+            
+            La musique cesse. 
+            
+            36
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            SCÈNE XIX. 
+            
+            CONSTANCE, ADÉLAIDE. 
+            
+            CONSTANCE. 
+            
+            Qu'as – tu donc à rire aussi fort, Adélaïde ? 
+            
+            ADÉLAÏDE. 
+            
+            Oh ! les hommes ! les hommes ! … ce sontdesmonstres ! 
+            
+            Dis – tu ça pour
+            
+            Étienne ? 
+            
+            CONSTANCE. 
+            
+            ADÉLAïbe. 
+            
+            Ah ! ben, oui, Étienne ! … il s'agit joliment de lui ! …
+            
+            apprends, ma chère, qu'au moment où tu venais me
+            
+            confier que monsieur Gustave t'avait écrit, et que je te
+            
+            conseillais de lire sa lettre, parce qu'il faut toujours
+            
+            savoir ce qu'on nous veut… au moment, enfin, où tū
+            étais allée chercher cette lettre pour me la montrer…
+            
+            La voilà ! …
+            
+            CONSTANCE. 
+            
+            ADÉLAÏDE. 
+            
+            Apprends que monsieur Etienne s'est approché de
+            
+            moi, et m'a remis un papier presque devant tout le
+            
+            monde… j'ai cru d'abord que c'était une lettre de lui, 
+            
+            et je l'ai décachetée pour rire de sa bêtise… mais juge
+            
+            de mon étonnement, c'est de ton jeune homme, de
+            
+            monsieur Gustave Ducroisé…
+            
+            CONSTANCE. 
+            
+            Gustave ! 
+            
+            ADÉLAÏDI. 
+            
+            Regarde plutôt… une chanson et sa signature. 
+            
+            CONSTANCE. 
+            
+            Le perfide ! 
+            
+            SCENE XIX. 
+            
+            ADÉLAÏDE. 
+            
+            37
+            
+            Une chanson… et sur l'air du Petit Blanc ; un air
+            
+            que je sais, encore… l'attention est délicate… Écoute ! …
+            
+            A la superbe Adélaïde ! 
+            
+            CONSTANCE, lisant la suscription de la sienne. 
+            
+            A la divine Constance ! 
+            
+            <div type="poem"> <lg>
+                
+                    ADÉLAÏDE. 
+                
+                
+                  
+                    <stage type="tune">
+                        Air : Petit Blanc. 
+                    </stage>
+                
+                
+                    <l>Sur vos riantes traces,</l>
+                    <l>En ces lieux, tous les jours,</l>
+                    <l>Je vois voler les grâces,</l>
+                    <l>Les ris et les amours.</l>
+                    <l>Par un doux privilége,</l>
+                    <l>Au gré de vos désirs,</l>
+                    <l>Souffrez qu'à ce cortége</l>
+                    <l>J'amène les plaisirs.</l>
+                    <l>D'une chaîne éternelle</l>
+                    <l>Unissons–nous à l'instant,</l>
+                    <l>Car vous seule êtes belle,</l>
+                    <l>Et seul je suis content.</l>
+                
+                
+                 
+                    
+                        CONSTANCE. 
+            
+                        Mais c'est la même chose. 
+            
+                        ADÉLAÏDE. 
+            
+                        Deuxième couplet ! 
+            
+                        Le sensible Gustave…
+            
+                        CONSTANCE. 
+            
+                        Attends ! … je puis te le chanter, car le voici…
+            
+                        Vraiment ? 
+            
+                        Tu vas voir. 
+            
+                        ADÉLAÏDE. 
+                    
+                
+                
+                    CONSTANCE. 
+                
+                
+                  
+                    
+                        38
+            
+                        LE BAL CHAMPETRE, ETC. 
+                    
+                
+                
+                    <l>Le sensible Gustave</l>
+                    <l>Veut être votre époux,</l>
+                    <l>Et pour lui point d'entrave,</l>
+                    <l>Car il n'aime que vous.</l>
+                    <l>Par les amours guidée,</l>
+                    <l>Ah ! daignez être enfin</l>
+                    <l>La Fille mal gardée</l>
+                    <l>De votre magasin.</l>
+                
+                
+                 
+                
+            </lg> </div>
+            
+            ADÉLAÏDE. 
+            
+            C'est bien ça ! 
+            
+            D'une chaîne éternelle, etc. 
+            
+            CONSTANCE, 
+            
+            Et moi… qui l'aimais presque déjà… mais cette
+            
+            perfidie m'éclaire, ma bonne Adélaïde ! … et je sais ce
+            
+            qu'il me reste à faire…
+            
+            Adélaïde. 
+            
+            Oui, mais en attendant, on dirait que tu soupires…
+            
+            est – ce que tu le regretterais, par hasard ? … je te lo
+            
+            conseille…
+            
+            il en vaut joliment la peine ! …
+            
+            CONSTANCE. 
+            
+            Il est si cruel d'être trompée pour la première fois ! 
+            
+            Oui…
+            
+            ç a n' e s t
+            
+            pas amusant d'être trompée ! et j'ai
+            
+            ADÉLAÏDE. 
+            
+            passé par là, moi… souvent, même ! … et comme ça
+            
+            me fit du chagrin, quand monsieur Jean en épousa
+            
+            une autre ! Oh ! Dicu ! ai – je eu du chagrin ! mais aussi me
+            
+            préférer une autre femme parce qu'elle avait soixante
+            mille francs de rente… ça n'a pas
+            
+            de nom…
+            
+            1… j'ai cru que
+            
+            j'en mourrais… heureusement… ça m'a passé de l'idée…
+            et tu dois faire comme moi. Tiens ! … si tu veux…
+            
+            nous profiterons de ça pour nous amuser des préten
+            tions de ce merliflor de commis… les hommes, vois – lu, 
+            
+            SCENE XX. 
+            
+            39
+            
+            Constance, sont faits pour qu'on s'amuse d'eux, parce
+            
+            qu'ils ne se gênent pas avec nous… veux – tu rire aux
+            
+            dépens de celui – là ? 
+            
+            CONSTANCE. 
+            
+            Oui… oui ! je le veux bien… j'en aurai le courage…
+            
+            tiens ! je sens que je ne l'aime plus…
+            
+            Adélaïde. 
+            
+            A la bonne heure ! voilà qui s'appelle prendre son
+            
+            parti… Justement… le voici ! cachons ses lettres… et
+            laissons – le aller… ca doit être drôle ! …
+            
+            SCÈNE XX. 
+            
+            Les MÊMES, GUSTAVE. 
+            
+            GUSTAVE. 
+            
+            Eh ! quoi, mes belles demoiselles ! … vous faites faux
+            
+            bond à la contredanse ? … les Ris, 
+            
+            les Jeux… les
+            
+            Amours… et les Zephirs, dans la personne de mon
+            
+            sieur Rigolard, s'impatientent de ne pas vous voir…
+            
+            Mais, que se passe – t – il donc… aimables nymphes de
+            
+            ce bal champêtre ? … vous avez l'air tout je ne sais
+            
+            comrnent…
+            
+            Adélaïde. 
+            
+            C'est que… nous venons de nous, disputer, Con
+            
+            stance… et moi. 
+            
+            GUSTAVE. 
+            
+            Comment, vous, bonne Constance, dont le caractère
+            
+            céleste… et vous, Adélaïde, un ange de douceur…
+            
+            (Il a la main sur sa joue.)
+            
+            ADÉLAÏDE. 
+            
+            Je suis douce… c'est vrai… mais je n'aime pas qu'on
+            
+            40
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            ait un air… et Constance a celui de me dire
+            
+            que je
+            suis plus jolie qu'elle… inoi, je n'veux pas d' ça…
+            
+            parce qu'elle semble se moquer de moi… et je soutiens
+            
+            que c'est elle qui est la plus jolie. 
+            
+            CONSTANCE. 
+            
+            Moi, 
+            
+            je soutiens que c'est Adélaïde, j'en prends
+            
+            monsieur Gustave pour juge, il est connaisseur, mon
+            sieur Gustave…
+            
+            ADÉLAÏDE. 
+            
+            Laisse donc ! … si monsieur s'y connaît… il dira que
+            c'est toi… regardez – la un peu… et convenez que si
+            
+            vous aviez une déclaration à faire, ce serait plutôt à
+            
+            Constance qu'à moi. 
+            
+            Ah ! monsieur a trop bon goût……
+            
+            CONSTANCE. 
+            
+            GUSTAVE, d
+            
+            parl. 
+            
+            Par exemple ! … voilà une singulière dispute… je
+            
+            parierais… trente sous qu'elles plaident le faux pour
+            savoir le vrai…
+            
+            ADÉLAÏDE, à part. 
+            
+            Il me fait l'effet d'être joliment embarrassé… le com
+            
+            mis marchand, il nous mesure des yeux…
+            
+            <div type="poem"> <lg>
+                
+                    TRIO. 
+                
+                
+                  
+                    <stage type="tune">
+                        AIR de Joconde (deuxième acte.)
+                    </stage>
+                    
+                        <l>Je voudrais bien vous dire quelque chose.</l>
+                    
+                    
+                        GUSTAVE. 
+                    
+                    
+                    
+                        <l>Excusez–moi, mesdames, je vous prie.</l>
+                    
+                    
+                        · A chaque interpellation de Constance et Adélaïde, 
+            
+                        Gustave (Derval) , répond par des oh ! oh ! … ab ! ah ! …
+            
+                        qui font à la scène un effet très – comique. 
+                    
+                    
+                    
+                        
+                            CONSTANCE et ADÉLAÏDE. 
+                        
+                    
+                    <l>Quelle est, quelle est la plus jolie ?</l>
+                    <l>Allons, monsieur, expliquez–vous.</l>
+                    
+                      
+                        
+                            GUSTAVE. 
+                        
+                    
+                    <l>Quoi ! vous voulez, quelle folie !</l>
+                    <l>Que je nomme la plus jolie ?</l>
+                    
+                       
+                        
+                            CONSTANCE et ADÉLAÏDE. 
+                        
+                    
+                    <l>Il faut prononcer entre nous.</l>
+                    
+                     
+                            GUSTAVE. 
+                        
+                    
+                    <l>Excusez–moi, je vous en prie…</l>
+                    
+                       
+                        
+                            (À part.)
+                        
+                    
+                    <l>Chacune veut un jugement ;</l>
+                    <l>Pour moi, la ruse est assez claire :</l>
+                    <l>Si je disais, en ce moment, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Quelle est celle que je préfère,</l>
+                    <l>L'autre serait trop en courroux.</l>
+                    
+                        CONSTANCE et ADÉLAÏDE. 
+                    
+                    <l>Allons, monsieur, expliquez–vous !</l>
+                    
+                    
+                        
+                            GUSTAVE
+                        
+                    
+                    
+, à Constance. 
+                    
+                    
+                  
+                        <l>Je vous dirai ce que je pense…</l>
+                        <l>Venez, avant la contredanse,</l>
+                        <l>Ici m'apporter en secret</l>
+                        <l>Une réponse à mon billet.</l>
+                    
+                    
+                        ENSEMBLE. 
+                    
+                    
+                    
+                        <l>J'en donne l'assurance.</l>
+                    
+                    
+                        ADÉLAÏDE
+                    
+                    
+, à part. 
+                    
+                    
+                   
+                        <l>Le fat ! quelle impudence !</l>
+                    
+                    
+                        (À Gustave.)
+                    
+                    
+                      
+                        <l>Eh quoi ! monsieur se tait ?</l>
+                    
+                    
+                        GUSTAVE
+                    
+                    
+                     
+, à Adélaïde. 
+                        
+                    
+                    <l>Je romprai le silence</l>
+                    <l>Après la contredanse.</l>
+                    <l>Venez m'apporter en secret</l>
+                    <l>Une réponse à mon billet.</l>
+                
+                
+                    ADÉLAÏDE. 
+                
+                
+                    <l>J'en donne l'assurance.</l>
+                    
+                      
+                        
+                            GUSTAVE
+                        
+                        
+, à Adélaïde. 
+                        
+                    
+                    <l>Après la contredanse…</l>
+                    
+                       
+                        
+                            (À Constance.)
+                        
+                    
+                    <l>Avant la contredanse.</l>
+                    
+                      
+                        
+                            (À part.)
+                        
+                    
+                    <l>Pour moi quel doux espoir !</l>
+                    
+                      
+                        
+                            (À Constance.)
+                        
+                    
+                    <l part="I">Au revoir…</l>
+                    
+                   
+                        
+                            CONSTANCE. 
+                        
+                    
+                    <l part="F">Au revoir.</l>
+                    
+                        
+                            GUSTAVE
+                        
+                        
+, à Adélaïde. 
+                        
+                    
+                    <l part="I">Au revoir…</l>
+                    
+                       
+                        
+                            ADÉLAIDE, 
+                        
+                    
+                    <l part="F">Au revoir.</l>
+                
+                
+                 
+                    
+                        ENSEMBLE. 
+                    
+                
+                
+                    GUSTAVE. 
+                
+                
+                    <l>Ah ! je suis adoré !</l>
+                    <l>Bonheur, bonheur suprême !</l>
+                    <l>Et bientôt, ici même,</l>
+                    <l>Oui, je triompherai !</l>
+                    
+                      
+                        
+                            CONSTANCE et ADÉLAÏDE, 
+                        
+                    
+                    <l>Il se croit adoré,</l>
+                    <l>Et sa joie est extrême ;</l>
+                    <l>Mais bientôt, ici même,</l>
+                    <l>Ah ! comme je rirai !</l>
+                
+            </lg> </div>
+            
+            SCENE XXI. 
+            
+            43
+            
+            SCÈNE XXI. 
+            
+            Les Mêmes, RIGOLARD. 
+            
+            (La porte du fond reste entr'ouverte, et Rigolard, 
+            
+            tenant toujours son violon, s'interrompt de temps
+            
+            en temps pour commander les figures.)
+            
+            RIGOLARD. 
+            
+            Eh bien ! eh bien ! mesdemoiselles, ne vous lasserez
+            
+            vous pas de me faire faire la promenade pour courir
+            
+            après vous ? (A parı.) Toujours avec lui ! … Ah ! pau
+            
+            vre Rigolard, fallait – il venir jusqu'à ton âge pour sa
+            voir ce que
+            c'est que… (Il crie.) La chaîne des dames ! 
+            
+            Adélaïde. 
+            
+            Mon oncle, nous avons quelque chose à vous dire, 
+            
+            Constance et moi…
+            
+            RIGOLARD. 
+            
+            C'est bon, c'est bon… vous me conlerez ça plus
+            
+            tard, par là, où vous devriez être plutôt que de prêter
+            
+            l'oreille aux propos d'un pastoureau… (La pastourelle ! …) 
+            
+            Oui, je le répèle, d'un pastoureau… savez – vous ce
+            
+            qu'une demoiselle bien élevée doit répondre à ces fa
+            
+            daises ? … (Chussez les huit…) Allons, mesdemoiselles, 
+            
+            en place pour la suivante. (Adélaide et Constance ren
+            
+            trent dans la salle du bal.) Il paraît que monsieur ne
+            
+            danse pas aujourd'hui ? 
+            
+            GUSTAVE. 
+            
+            Non, j'aime mieux mepromener dans vos bosquets…
+            
+            RIGOLAPD. 
+            
+            Vous en éles bien le maître…
+            
+            (11 sort.)
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            SCÈNE XXII. 
+            
+            
+                GUSTAVE
+            
+            
+, seul. 
+            
+                Enfin le bonhomme est parti… Allons, allons, 
+            
+                voilà une petite intrigue qui me fera le plus grand hon
+            
+                neur… deux ingénues à la fois… comme on va causer
+            
+                de cela à la Fille mal gardée ! En faisant insérer cette
+            
+                petite aventure dans un journal, c'est capable d'acha
+            
+                lander plus que jamais notre magasin… déjà cité pour
+            
+                la beauté de ses commis, et de ses mérinos ! …
+            
+            <div type="poem"><lg> 
+            <stage type="tune">
+                AIR : Soldat français, né d'obscurs laboureurs. 
+            </stage>
+            
+           <l>Commis obscurs du quartier Saint – Denis,</l>
+            <l>Je vous enlève vos conquêtes.</l>
+            <l>Quoiqu'en ces lieux, comme dans mon Paris,</l>
+            <l>On ne trouve point de coquettes,</l>
+            <l>J'y viens goûter de doux instans,</l>
+            <l>Sans crainte de trouble et de rixe.</l>
+           <l>Ici, les cœurs sont innocens,</l>
+           <l>Et là–bas nos commis marchands</l>
+            <l>N'ont que des amours à prix fixe.</l></lg>
+            
+            </div>
+            
+            <div type="poem"> <lg>
+                
+                    
+                        Mais Constance va venir… ce quinquet ne jette plus
+            
+                        qu'une pâle clarté… me voilà juste dans la position du
+            
+                        loup, dans le Petit Chaperon rouge. 
+                    
+                
+                <stage type="tune" id="AIR : Voici l'heure charmante.">
+                    AIR : 
+                </stage>
+                
+                    
+                        <l>Voici l'heure charmante</l>
+                        <l>Où Rose va venir,</l>
+                        <l>Et cette douce attente</l>
+                        <l>Est déjà le plaisir.</l>
+                    
+                
+            </lg> </div>
+            
+            Rose ! Rose ! Rose ! 
+            
+            SCENE XXIV. 
+            
+            45
+            
+            SCÈNE XXIII. 
+            
+            GUSTAVE, ROSE. 
+            
+            ROSE, avec la grosse caisse, et un plateau sur lequel
+            
+            est un verre de bierre, 
+            
+            Me voici, monsieur. 
+            
+            GUSTAVE. 
+            
+            Qu'est – ce que tu demandes, toi ? 
+            
+            ROSE. 
+            
+            Vous m'avez appelée. 
+            
+            Moi ! 
+            
+            GUSTAVE. 
+            
+            ROSE. 
+            
+            Sans doute… n'avez – vous pas dit : Rose ! … Rose ! …
+            
+            Eh ! va – t'en au diable ! 
+            
+            GUSTAVE. 
+            
+            (On entend rire aux éclats.)
+            
+            SCÈNE XXIV. 
+            
+            GUSTAVE, ÉTIENNE, RIGOLARD, CONSTANCE, 
+            
+            ADÉLAIDE, ROSE, DANSEURS. 
+            
+            <div type="poem"> <lg>
+                
+                    CHŒUR
+                
+                
+, saluant Gustave. 
+                
+                
+                   
+                    <stage type="tune">
+                        AIR de Léocadie. 
+                    </stage>
+                
+                
+                    <l>Honneur, honneur</l>
+                    <l>Au fameux séducteur !</l>
+                    <l>Par sa grâce, par sa tournure,</l>
+                    <l>Par son ton et par sa figure,</l>
+                    <l>Il méritait d'être vainqueur !</l>
+                
+            </lg> </div>
+            
+            46
+            
+            LE BAL CHAMPETRE, ETC. 
+            
+            GUSTAVE. 
+            
+            Que signifie ? 
+            
+            RIGOLARD, prenant le verre de bierre sur le plateau
+            
+            de Rose. 
+            
+            Avalez – moi ça… mon cher ami… Vous devez avoir
+            
+            diablement besoin de vous rafraichir ! 
+            
+            GÜŞTAVE. 
+            
+            Il est vrai qu'il fait ici une chaleur. 
+            
+            ÉTIENNE. 
+            
+            Ça vous a – t – il tempéré un peu, monsieur ? 
+            
+            (Tout le monde rit aux éclats.)
+            
+            GUSTAVE. 
+            
+            J'ignore, monsieur Rigolard ! …
+            
+            RIGOLARD. 
+            
+            Là, là, modérez – vous… en vérité, mon cher ami, 
+            
+            j'étais inquiet sur votre compte… la lettre que vous
+            
+            avez écrite à Constance… est si brûlante, que j'ai
+            
+            craint… A présent, me voilà plus tranquille ! …
+            
+            GUSTAVE. 
+            
+            Monsieur Rigolard ! prétendez – vous me mystifier ! 
+            
+            RIGOLARD. 
+            
+            Du tout, mon cher ami, j'approuve votre demande, 
+            
+            et si Constance veut vous épouser, je n'y vois pas
+            
+            d'empèchement. 
+            
+            <div type="poem"> <lg>
+                
+                    CONSTANCE. 
+                
+                
+                 
+                    
+                        Oui… mais j'en vois, moi…
+                    
+                
+                <stage type="tune">
+                    AIR : De Douvres. 
+                </stage>
+                
+                   
+                    
+                        <l>D'abord j'ai cru monsieur sincère,</l>
+                        <l>Et l'écoutai sans y songer ;</l>
+                        <l>Mais le trait d'aujourd'hi m'éclaire ;</l>
+                        <l>Il me fait voir tout le danger.</l>
+                    
+                    
+                        (À Gustave.)
+                    
+                    
+                      
+                        <l>Votre inconstance est redoutable.</l>
+                        <l>Un époux,</l>
+                        <l>Jeune comme vous,</l>
+                        <l>Est trop aimable…</l>
+                    
+                    
+                        (Montrant Rigolard.)
+                    
+                    
+                        
+                        <l>Et vous voyez ici</l>
+                        <l>Celui que je prends pour mari.</l>
+                    
+                
+       
+            
+            GUSTAVE. 
+            
+            Monsieur Rigolard ! vous aurez là un fameux dan
+            
+            seur ! 
+            
+            RIGOLARD. 
+            
+            Je n'irai pas vous chercher pour cela, peut – être bien. 
+            
+            GUSTAVE. 
+            
+            Je vois que je n'ai plus rien à faire ici. 
+            
+            (Il reprend ses socques.)
+            
+            RIGOLARD. 
+            
+            Un moment… un moment ! votre lettre à la divine
+            
+            Constance n'a pas réussi ; 
+            
+            celle que vous adressiez
+            
+            à la superbe Adélaïde sera peut – être plus heureuse. Il
+            
+            arrive tous les jours, dans un bal, qu'une danseuse est
+            
+            retenue ; on en invite une autre, et on ne s'en va pas
+            
+            pour ça… Qu'en dis – tu, Adélaïde ? 
+            
+            1
+            
+     
+                
+                    ADÉLAÏDE. 
+                
+                
+               
+                        Même air. 
+                
+                
+                    <l>Je n'aim' pas les amans volages,</l>
+                    <l>Et monsieur, à ce que je voi,</l>
+                    <l>Va partout offrant son hommage ;</l>
+                    <l>Je prétends qu'on n'aime que moi.</l>
+                    <l>Je veux un mari franc, honnête ;</l>
+                    <l>Qui soit complaisant,</l>
+                    <l>Bon enfant,</l>
+                    <l>Même un peu bête…</l>
+                    
+                     
+                        
+                            (Montrant Étienne.)
+                        
+                    
+                    <l>Et vous voyez ici</l>
+                    <l>Celui que je prends pour mari.</l>
+                
+            </lg> </div>
+            
+            Je suis joué…
+            
+            GUSTAVE. 
+            
+            RIGOLARD. 
+            
+            A présent, monsieur… si vous voulez… allons, 
+            
+            Rose, dis à l'orchestre de jouer un chassé – croisé, pour
+            
+            que monsieur s'en aille en musique…
+            
+            GUSTAVE. 
+            
+            Je vous souhaite beaucoup de plaisir ; mais j'ai bien
+            
+            peur que monsieur Rigaudon ne vous en donne pas
+            
+            pour votre argent… soixante – quinze centimes le ca
+            
+            chet ! … adieu, monsieur Rigaudon. 
+            
+            RIGOLARD. 
+            
+            Insolent ! si j'étais maître d'armes, au lieu d'être
+            
+            maître de danse…
+            
+            <div type="poem"> <lg>
+                
+                 <stage type="tune" id="AIR de Léocadie.">
+                       
+                    </stage>
+                    CHŒUR
+                
+                
+, reconduisant Gustave. 
+                
+                
+                 
+                    
+                        <l>Honneur, honneur</l>
+                        <l>Au fameux séducteur !</l>
+                        <l>Par sa grâce, par sa tournure,</l>
+                        <l>Par son ton et par sa figure,</l>
+                        <l>Il méritait d'être vainqueur !</l>
+                    
+                
+            </lg> </div>
+            
+            (Gustave sort.)
+            
+            RIGOLARD. 
+            
+            1
+            
+            Que cela vous serve de leçon, mes enfans ! … mes
+            
+            chers élèves ! … reprenons notre bal champêtre, et qu'il
+            
+            soit, par sa gaité, comme l'augure du bonheur qui
+            
+            SCENE XXIV. 
+            
+            49
+            
+            attend les nouveaux mariés… en place pour une ronde
+            
+            générale. 
+            
+            (On danse sur la ronde qui suit.)
+            
+            RONDE, 
+            
+            très – bruyante. 
+            
+            
+            <div type="poem"> <lg>
+                <stage type="tune">
+                    AIR : Flic, flac. 
+                </stage>
+            
+                
+                    RIGOLARD. 
+                
+                
+            
+                    <l ana="unanalyzable">Flic, flac, etc.</l>
+            
+            
+                    
+                        ÉTIENNE. 
+                    
+            
+                    <l>Lorsque sa femme, en démence,</l>
+                    <l>Ne fait pas ce qu'elle doit</l>
+                    <l>Vite, on lui donne une danse,</l>
+                    <l>Pour la faire marcher droit.</l>
+                
+                
+                    CHŒUR
+                
+            
+                
+, dansant. 
+                
+                
+                    <l>Flic, flac ! …</l>
+            
+            
+            
+                    
+                        ADÉLAÏDE. 
+                    
+            
+            
+            
+                    <l>Au bal, on a d' la décence ;</l>
+                    <l>Mais s'il arriv', par malheur,</l>
+                    <l>Qu' son mari n'aim' pas la danse,</l>
+                    <l>On prend un autre danseur.</l>
+                
+                
+                    CHŒUR
+                
+                
+, dansant. 
+                
+            
+                
+                    <l ana="unanalyzable">Flic, flac, etc.</l>
+            
+                    
+                        RIGOLARD. 
+                    
+            
+                    <l>Chez les ministres on danse,</l>
+                    <l>Et, l'on doit en convenir,</l>
+                    <l>Voir sauter une excellence,</l>
+                    <l>Cela fait toujours plaisir…</l>
+            
+                    
+                        CHŒUR. 
+                    
+            
+                    <l>Flic, flac, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Vive la cadence !</l>
+                    <l>Depuis le Pérou,</l>
+                    <l>Jusqu'à Moscou,</l>
+                    <l>Partout on danse…</l>
+                    <l>Flic, flac !</l>
+                    <l>Vive la cadence,</l>
+                    <l>Le monde est un bal</l>
+                    <l>Où chacun danse bien ou mal.</l>
+                
+            </lg> </div>
+            
+            
+            
+            (Danse générale en rond : Rigolard est au milieu, 
+            
+            ainsi que Rose, qui joue de sa grosse caisse. La
+            
+            toile baisse sur ce tableau.)
+            
+            FIN. 
+            
+            1
+            
+            1
+            
+            1
+        </body>
+    </text>
+</TEI>

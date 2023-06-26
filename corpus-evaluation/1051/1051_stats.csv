@@ -1,0 +1,39 @@
+Airs candidats: 12                
+Airs manuellement filtrés : 9                
+Airs réelement présents : 8                
+Précision: 0.75                
+Rappel: 1.00                
+Mesure-F1: 0.86
+Non attrapé: 
+Supplémentaire: Ensemble .
+Supplémentaire: NESTINE , Mme GAVET .
+
+***Airs du xml***:
+AIR : Chœur des buveurs de Robert-le-Diable. 
+ AIR du vaudeville de Michel et Christine. 
+
+AIR du vaudeville de Partie et Revanche.
+AIR : Ces postillons sont d'une maladresse ! 
+   AIR : Du tapage ! du tapage ! (Madame Grégoire).
+ AIR de la Tentation. 
+AIR du vaudeville du Jour des Noces. AIR : Chœur des buveurs de Robert-le-Diable.
+
+***Airs identifiés dans le txt***:
+Ensemble .
+Air : Chaur des buveurs de Robert - le - Diable .
+Air du vaudeville de Michel et Christine.
+Air du vaudeville de Partie et Revanche .
+Air : Ces postillons sont d'une maladresse !
+NESTINE , Mme GAVET .
+Du tapage ! du tapage !
+Air de la Tentation .
+AIR du vaudeville du Jour des Noces .
+
+***Airs du txt validés dans le xml***:
+AIR : Chœur des buveurs de Robert-le-Diable. 
+ AIR du vaudeville de Michel et Christine. 
+AIR du vaudeville de Partie et Revanche.
+AIR : Ces postillons sont d'une maladresse ! 
+   AIR : Du tapage ! du tapage ! (Madame Grégoire).
+ AIR de la Tentation. 
+AIR du vaudeville du Jour des Noces. 

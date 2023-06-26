@@ -1,0 +1,3435 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LA FAMILLE IMPROVISÉE</title>
+                <title type="sub">SCÈNES ÉPISODIQUES</title>
+                <author key="DPY" sort="1">
+                    <name>
+                        <forename>Charles Désiré</forename>
+                        <surname>Dupeuty</surname>
+                    </name>
+                </author>
+                <author key="DUV" sort="2">
+                    <name>
+                        <forename>Félix-Auguste</forename>
+                        <surname>Duvert</surname>
+                    </name>
+                </author>
+                <author key="BRA" sort="3">
+                    <name>
+                        <forename>Nicolas</forename>
+                        <surname>Brazier</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                  <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LA FAMILLE IMPROVISÉE</title>
+                        <author>DUPEUTY, DUVERT ET BRAZIER</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>INTERNET ARCHIVE</publisher>
+                        <idno type="URL">https://archive.org/details/lafamilleimprovi00dupe/mode/2up</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>University of Toronto Libraries</repository>
+                                <idno type="URL">https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106598057706196</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-07-05">05 JUILLET 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE NATIONAL DU VAUDEVILLE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+        lUc^\rcjr 10 7
+            
+            LA FAMILLE
+            
+            SCÈNES EPISODIQUES, 
+            
+            VAR MM. DUPEUTY, DUVERT ET BRAZIER. 
+            
+            nEPUÉSENTÉES FOUR LA PBKMIERE POIS, A PARIS, 
+            
+            SUR LE THÉÂTRE NATIONAL DU VAUDEVILLE, LE 5 JUILLET 1 83 I
+            
+            POIX. : 
+            
+            1
+            
+            l'R. 50 c
+            
+            DEUXIÈME ÉDITION. 
+            
+            PARIS. 
+            
+            J.-N. RARBA, LIBRAIRE, 
+            
+            PALAIS-ROYAL, GRANDE COUR, 
+            
+            OlIIlknC II TBKlTII-riiRÇàd
+            
+            1833
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            M. HAMELIN, négociant retiré
+            ALBERT 5 jeune peintre
+            M. COQUEREL
+            M. PRLDHOMME
+            JACQUES ROUSSEAU
+            LA MERE PITOU
+            ADOLPHE COQUEREL
+            Madame HAMELIN
+            EULALIE, sa fille
+            JEANNETON, servante
+            
+            MM. Lepeintre j*. 
+            
+) 
+            
+            Henry Monnier. 
+            
+            Hypolite. 
+            M°" Gdillemin. 
+            
+            Alexandrine. 
+            
+            Georgina. 
+            
+            La scène se passe dans la propriété de M. Haraelin, à Ermenonville. 
+            
+            Les acteurs sont inscrils en tête de chaque scène dans Tordre où il ? $e
+            
+            placent en partant de la droite. 
+            
+            IMPRIMERIE DE E. DDVERGEB. 
+            
+            VI DU Vknicil, N" 4. 
+            
+            LA FAMILLE
+            
+            lAIPROYlSÉE. 
+            
+            Le théàlre représente un salon donnant sur un jardin ; à gauche du spectateur, 
+            un cabinet au deuxième plan. Au premier plan une fenêtre, devant laquelle
+            est une table. A droite au deuxième plan, l'entrée d'un autre cabinet. 
+            
+            SCENE PREMIERE. 
+            
+            HAWELIN, MADAME HAMELIN, EULALIE, JEANNETON, 
+            
+            PARENS, INVITÉS. 
+            
+            CHŒVB. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Pâques fleuries (Fra Diavolo).</stage>
+            
+            
+                    <l>C'est jour de fête <stage type="repetition"> (bis.)</stage></l>
+                    <l>Pour les parens, pour les époux ;</l>
+                    <l>Arrivons tous :</l>
+                    <l>C'est jour de fête ;</l>
+                    <l>Que l'on s'apprête</l>
+                    <l>À fêter les nouveaux époux ! <stage type="repetition"> (bis.)</stage></l>
+            
+            
+            
+                    MADAME BAMBLIN. 
+            
+                    Mesdames et chères voisines, embrassez mon Eulalie. 
+                    {Les dames embrassent Eulalie.)
+            
+                    HAMELIN. 
+            
+                    Messieurs et amis, serrez la main à mon gendre futur. 
+                    {cherchant de tous côtés.) Eh bien ! où est-il donc, mon gendre
+                    futur ? 
+            
+                    JEANNETON. 
+            
+                    Not' bourgeois, monsieur Adolphe est parti à ce matin, drès
+            
+                    cinq heures. 
+            
+                    Parti ! 
+            
+                    Etait-il seul ? 
+            
+                    MADAME HAMELIN. 
+            
+                    HAMELIN. 
+            
+                    JEANNETON. 
+            
+                    Non, monsieur, il était avec son fusil. 
+            
+                    HAMELIN. 
+                    Je parie qu'il sera allé à la chasse. 
+            
+                    Aller à la chasse le propre jour de ses fiançailles ! 
+            
+                    MADAME BAMELIN. 
+            
+                    EULALIE. 
+            
+                    Mais, maman, monsieur Adolphe n'est pas si coupable…
+                    Vous savez bien que mon père lui avait caché que j'élaisarrivée
+                    hier et qu'il voulait même le surprendre. 
+            
+                    C'est égal, monsieur Haraelin, ça m'offusque. 
+            
+                    MADAME BAMELIN. 
+            
+                    Calmez-vous, bobonne. Oh ! à propos, j'oubliais, nous avons
+            
+                    aujourd'hui un nouveau convive, un artiste. 
+            
+                    BAMELIN. 
+            
+                    Un artiste ! Monsieur Hamelin, vous ne saurez jamais garder
+            
+                    MADAME HAMELIN. 
+            
+                    votre dignité. 
+            
+                    BAMELIN. 
+            
+                    Ce monsieur me parut fort invitable, je l'invitai ; c'est un
+                    farceur ; vous verrez qu'il nous amusera ; j'aime les farceurs, 
+                    moi ; vous savez, madame Hamelin, que je l'étais moi-même
+                    autrefois, et que nous jouions ici la comédie, témoin mon pe-
+                    tit magasin de costumes. Mais, voyons, en attendant sofi re-
+                    tour et l'arrivée de notre nouveau convive… si vous voulez, 
+                    nous allons visiter mon parc. Messieurs et amis, offrez la main
+                    aux dames, s'il vous plaît. 
+            
+                    CHŒUR. 
+            
+                    <l>C'est jour de fête <stage type="repetition"> (bis.)</stage></l>
+                    <l>Pour les parens, pour les époux ;</l>
+                    <l>Amusons-nous :</l>
+                    <l>C'est jour de fête ;</l>
+                    <l>Que l'on s'apprête</l>
+                    <l>À fêter les nouveaux époux ! <stage type="repetition"> (bis.)</stage></l>
+                </lg>
+            </div>
+            
+            SCENE IL
+            
+            EULALIE, JEANNETON. ^
+            
+            JEANNETON. 
+            
+            Ah ! çù, mam'selle, j'suis p't'êlre un brin balourde, mais, foi
+            
+            de Jeanneton, je ne vous comprends pas. 
+            
+            Pourquoi donc ? 
+            
+            EULALIE. 
+            
+            JEANNETON. 
+            
+            Comment, hier soir, en arrivant de Paris, vous pleuriez, vous
+            vous désoliez, vous disiez que vous ne vouliez pas vous marier, 
+            que vous en aimiez un autre, un inconnu, et v'ià (ju'à c'i'heure
+            ça n'est plus ça ? 
+            
+            FULALIE. 
+            
+            Ecoule donc, ma petite Jcanneton, hier je n'avais pas vu ce-
+            lui que mes paretis iiiedeslinaienl, et tu sais bien que ce malin, 
+            quand il est parti pour la chasse, tu me l'as montré i travers b
+            persienne sans qu'il m'aperçut lui-mCme. 
+            
+            JEANNETON. 
+            
+            C'est ça, vous l'avez trouvé geulil, bien avenant ; vol' cœur
+            s'est envolé par la fenêtre, et le pauvre inconnu… ni vu, ni
+            connu… ce n'est pas bien, ça, mam'selle… Moi, quand je ren-
+            voie un amoureux, je lui donne huit jours… On donne huit
+            jours aux domestiques. 
+            
+            EULALiE, regardant à la fenêtre. 
+            
+            Mais je vois venir quelqu'un, là-bas, au bout de la grande
+            
+            allée…
+            
+            JEANNETON. 
+            
+            C'est monsieur Adolphe, avec un autre monsieur. Il faut le
+            
+            gronder ferme. 
+            
+            ECLALIE. 
+            
+            Non, je ne veux pas le voir encore, j'ai mes raisons pour en
+            
+            agir ainsi, j'ai mes raisons. [Elle sort par la droite.)
+            
+            SCENE 1. 11, 
+            
+            JEANNETON, puis ADOLPHE, ALBERT. 
+            
+            JEANNETON. 
+            
+            Elle a ses raisons ? Si j'y comprends un mol, je veux que le
+            loup me croque ! [regardant en dehors.) Qu'est-ce que c'est donc
+            que ce monsieur qui est avec monsieur Adolphe ? je ne le con-
+            nais pas. 
+            
+            ADOLPHE, à Albert qui est encore hors de vue. 
+            
+            Viens donc, mon ami, je suis sûr qu'on t'attend, et que tu se-
+            
+            ras parfaitement reçu. 
+            
+            ALBERT. 
+            
+            Ecoute donc, quand on se présente pour la première fois
+            dans une maison, on ne peut se défendre d'un peu d'émotion. 
+            
+            ADOLPHE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Faisons la paix. </stage>
+            
+            
+                    <l>Pas de frayeur ; <stage type="repetition"> (bis.)</stage></l>
+                    <l>Rassure-toi, mon cher Pylade :</l>
+                    <l>On te doit un accueil flatteur,</l>
+                    <l>Présenté par un camarade :</l>
+                    <l>Pas de frayeur ; <stage type="repetition"> (bis.)</stage></l>
+                    <l>Allons, ami, pas de frayeur.</l>
+            
+                    ALBERT. 
+                    <l>Un peu de peur, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Quand nous sommes entrés ensemble,</l>
+                    <l>Malgré moi fît battre mon cœur ;</l>
+                    <l>Mais maintenant j'ai, ce me semble,</l>
+                    <l>Un peu moins peur ; <stage type="repetition"> (bis.)</stage></l>
+                    <l>Oui, je sens là que j'ai moins peur.</l>
+                </lg>
+            </div>
+            
+            
+            JEANNETON. 
+            
+            Monsieur est sans doute le farceur qu'on attend pour le des-
+            
+            sert ? 
+            
+            Comment, le farceur ? 
+            
+            ALBERT, étonné. 
+            
+            ADOLPHE, *à Albert. 
+            
+            Cette fille est une idiote. 
+            
+            Qui qu'il faut annoncer ? 
+            
+            ALBERT. 
+            
+            JEAKNETON. 
+            
+            Qui, qui, qui, qui… Annonce monsieur Albert. 
+            
+            Oui, monsieur le farceur ; adieu, monsieur le farceur. 
+            
+            JEANNETON. 
+            
+            A LBERT. 
+            
+            (Elle sort.)
+            
+            Elle y tient. 
+            
+            SCENE IV. 
+            
+            ALBERT, ADOLPHE. 
+            
+            ADOLPHE. 
+            
+            Ah ! ça, mon cher Albert, me diras-tu par quel heureux ha-
+            sard je te retrouve auprès d'Ermenonville, dans la maison du
+            respectable monsieur Hamelin ? 
+            
+            ALBERT. 
+            
+            J'étais venu faire quelques études de paysage à Morte-Fon-
+            taine ; j'y rencontrai monsieur Hamelin chez un ami : le bon-
+            homme m'invita, et j'acceptai. 31ais toi qui es installé ici, est-
+            ce que tu serais amoureux de la fille de la maison ? est-ce qu'on
+            le la refuserait ? 
+            
+            ADOLPHE. 
+            
+            Au contraire, on me l'accorde, et je ne l'aime pas. Figure-toi
+            que je vins dans ce pays pour y taire une fin, un mariage. La fa-
+            mille Hamelin me reput comme beaucoup d'autres, et l'on me
+            parlait souvent d'une demoiselle Eulalie élevée loin d'ici, je ne
+            sais où, qui a di\-huit ans ; ma foi, je la demandai en mariage
+            sans lacoimaîtrc : ma demande fut agréée, cl tandisqu'onsepré-
+            
+            7
+            
+            parait à la rappeler dans sa famille, moi je partis pour Paris, 
+            afin de consulter mon père. 
+            
+            ALBEBT. 
+            
+            Mais jusque-là je ne vois rien de bien désespérant. 
+            
+            Malheureusement ce n'est pas tout. Ne voilà-t-il pas que je
+            
+            m'avise de devenir amoureux à Paris ! 
+            
+            ADOLPHE. 
+            
+            Amoureux ! 
+            
+            ALBEIVT. 
+            
+            ADOLPHE. 
+            
+'
+            
+            Parole d'honnexir ! mais très sérieusement ; une jeune incon-
+            nue dans un pensionnat dont le jardin était sous mes fenêtres. 
+            [Albert rit.) Tu riras tant que tu voudras ; mais si tu voyais cet
+            air de candeur, d'innocence… elle est charmante… d'autant
+            plus charmante que je crois qu'elle m'aime. 
+            
+            Eh bien ! te voilà bien disposé pour épouser mademoiselle
+            
+            ALBERT. 
+            
+            Hamelin. 
+            
+            ADOLPHE. 
+            
+            Comment faire ? Il a bien fallu revenir, à moins de passer
+            pour un homme sans usage ; mais plus le moment approche, et
+            plus mon embarras augmente. 
+            
+            Dis à ton père de refuser son consentenient. 
+            
+            ALBERT. 
+            
+            ADOLPHE. 
+            
+            Bah ! tous l'ont déjà donné leur consentement, car toute ma
+            famille va arriver ici. Si c'étaient seulement des parens comme
+            on en voit tant ; mais j'ai le malheur d'avoir la famille la plus
+            respectable de Paris. 
+            
+            ALBERT. 
+            
+            C'est vrai… D'abord monsieur Coquerel ton père, ancien no-
+            taire ; monsieur Prudhomme, membre de l'Institut ; monsieur
+            Rousseau, agronome distingué, et madame Pitou, l'ancienne
+            gouvernante de la famille, brave et honnête femme, qui, sous
+            prétexte qu'elle demeurait au Marais, nous faisait toujours de la
+            morale. 
+            
+            ADOLPHE. 
+            
+            Toi qui es l'homme aux expédiens, trouve-moi donc un moyen
+            
+            de sortir de là. 
+            
+            ALBERT. 
+            
+            Nous verrons, je ne dis pas non ; silence, on vient ; nous en
+            
+            causerons au dessert. 
+            
+            8
+            
+            SCENE V. 
+            
+            LES MÊMES, HÀMELIN. 
+            
+            HAMELiN, arrivant avec empressement. 
+            
+            On ne m'a pas trompé ; c'est lui, c'est mon cher hôte. 
+            
+            Monsieur…
+            
+            ALBERT, saluant. 
+            
+            HAMELIN, à part. 
+            
+            Comme il salue bien ! [imitant le salut d'Albert.) Monsieur, 
+            je devrais vousadresserles choses les plus spirituelles ; mais j'ea
+            ai perdu l'habitude ; que voulez-vous ? un homme retiré des af-
+            faires…
+            
+            Ne vous gênez pas. 
+            
+            ALBERT. 
+            
+            HAMELIN, lui frappant sur l'épaule^ en riant. 
+            
+            Ne vous gênez pas ! … ah ! ah ! c'est très drôle, ne vous gênez
+            
+            pas ! … Ah ! farceur ! 
+            
+            ALBERT, à Adolphe. 
+            
+            Et lui aussi ! il paraît que c'est un parti pris dans la maison. 
+            
+            PLrsiErRS VOIX, en dehors. 
+            
+            Où est-il ? où est-il ? 
+            
+            ALBERT. 
+            Qu'est-ce que c'est donc que ça ? 
+            HAMELIN. 
+            
+            C'est toute ma société qui brûle du désir de vous voir. 
+            
+            SCENE VI. 
+            
+            LES PRÉCÉDENS, MADAME HAMELIN, JEANNETON, 
+            
+            PARENS ET INVITÉS. 
+            
+            CHœUR. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Sonnez, sonnez, sonnez cors et musettes ! </stage>
+            
+            
+                    <l>Honneur ! honneur à ce nouveau convive !</l>
+                    <l>Honneur ! honneur ! honneur à son talent !</l>
+                    <l>C'est le plaisir qui nous arrive ;</l>
+                    <l>Recevez notre compliment.</l>
+                </lg>
+            </div>
+            
+            
+            (Albert répond aux saluts.)
+            
+            ADOLPHE, d Albert. 
+            
+            Je t'avais bien dit que tu serais parfaitement accueilli. 
+            
+            HAMELIN. 
+            
+            Vous voyez que je reçois chez moi une société assez cossue : 
+            voici d'abord madame Hamelin mon épouse… nous sommes
+            mariés depuis la révolution. 
+            
+            De juillel ? 
+            
+            AI. BRRT. 
+            
+            nAMEniN, bas. 
+            
+            Oiii… 8 () … Fille a cliî long^-tomps jeune, et vous voyez, qu'elle
+            fait encore très bien la révérence pour son âge… Ces deux
+            dames là-bas vous représenlenl ma lantc et ma bellc-sœur ; la
+            plus jolie, celle qui nie ressemble, est ma belle-sœur… Ce
+            monsieur qui est à sa gaucbe est un gros marcband de jouets
+            d'enfans, bomme plein d'esprit, mais pas farceur… L'autre, le
+            maigre, est un préposé aux pompes funèbres… très ainusant
+            quand il n'est pas en fonclious. 
+            
+            Ah ! cà, dis donc, est-ce qu'il se croit au salon de Curlius ? 
+            
+            ALBERT, à Adolphe. 
+            
+            donne-lui donc une baguette. 
+            
+            IIAMELIN. 
+            
+            Maintenant, mon cher hôle, il s'agit pour vous de bien
+            
+            amuser tout ce monde-là. 
+            
+            Comment ? 
+            
+            ALBERT. 
+            
+            HAMELIN. 
+            
+            Oui, oui, J€ m'entends. (// dit un mot à Coreille de Jeanneton
+            qui sort.) J'ai fait espérer à ces messieurs et à ces dames qu'a-
+            vant le dîner vous nous régaleriez d'un petit échantillon de
+            votre savoir-faire. (à Jeanneton qui apporte une petite table sur
+            laquelle il y a une gibecière et des gobelets.) J'ai tout prévu ; 
+            voilà tout ce qu'il vous faut, la table, les gobelets et même le
+            sac à la malice. 
+            
+            ALBERT, avec dignité. 
+            
+            Ah ! çà, pour qui me prend-on ici ? 
+            MADAME HAMELIN. 
+            
+            Monsieur Hamelin nous aurait-il trompés ? … Il nous a as-
+            surés que vous saviez escamoter, faire des tours de cartes, et
+            que vous étiez même un peu ventriloque. 
+            
+            ALBERT. 
+            
+            Assez ! assez ! de grâce ! … Vous m'avez pris, je le vois, pour
+            un plaisant de profession ; j'avoue que dans les arts, (ntre nous
+            et en petit comité, nous nous délassons quelquefois par l'imi-
+            tation d'un ridicule, nous nous vengeons d'un monde souvent
+            ingrat par la charge et la caricature… mais se faire volontaire-
+            ment le bouffon, le paillasse du premier venu, poser à table
+            comme un supplément au dessert, et quêter, en se dégradant, 
+            les suffrages d'un amphytrion, c'est méconnaître la noblesse, 
+            la dignité de sa profession, et déshonorer le caractère du vé-
+            ritable artiste. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la galope. </stage>
+            
+            
+                    <l>Frondeur.</l>
+                    <l>Observateur,</l>
+            
+                    La Famille improvisée. 
+            
+                    *
+            
+                    a
+            
+                    10
+            
+                    <l>Moins gai que triste,</l>
+                    <l>C'est l'artiste ;</l>
+                    <l>Respectez ses pinceaux,</l>
+                    <l>Car ils savent frapper les sots.</l>
+            
+                    <l>Son empire est puissant :</l>
+                    <l>C'est la caricature</l>
+                    <l>Qu'il jette en se riant</l>
+                    <l>Au peuple intelligent.</l>
+                    <l>Qu'on soit nain ou géant,</l>
+                    <l>Il peint d'après nature ;</l>
+                    <l>Tremble, riche intrigant,</l>
+                    <l>Car il fait ressemblant.</l>
+                    <l>Frondeur,</l>
+                    <l>Observateur,</l>
+                    <l>Moins gai que triste.</l>
+                    <l>C'est l'artiste ;</l>
+                    <l>Respectez ses pinceaux,</l>
+                    <l>Car ils savent frapper les sots.</l>
+            
+                    <l>Son cœur est ulcéré</l>
+                    <l>Et son courroux s'enflamme,</l>
+                    <l>S'il voit le sot titré,</l>
+                    <l>Le mérite ignoré ;</l>
+                    <l>Mais si son cœur aimant</l>
+                    <l>Peut rencontrer une ame</l>
+                    <l>Qui, dans son noble élan.</l>
+                    <l>S'exalte et le comprend :</l>
+                    <l>Alors, plus généreux,</l>
+                    <l>Plus joyeux</l>
+                    <l>Que triste,</l>
+                    <l>L'artiste</l>
+                    <l>Jette là ses pinceaux,</l>
+                    <l>El laisse respirer les sots.</l>
+            
+                    [avec intention, et se rapprochant d*Hamelin.)
+            
+                    <l>Mais si quelque ignorant</l>
+                    <l>À ses dépens veut rire,</l>
+                    <l>Ou d'un mot insultant</l>
+                    <l>Veut flétrir son talent,</l>
+                    <l>Malheur à l'imprudent !</l>
+                    <l>L'artiste se retire</l>
+                    <l>Mais, avec un sourire,</l>
+                    <l>Il répète en sortant :</l>
+            
+, 
+            
+                    1
+            
+                    1
+            
+                    <l>Frondeur,</l>
+                    <l>Observateur,</l>
+                    <l>Moins gai que triste,</l>
+                    <l>C'est l'artiste ;</l>
+                    <l>Respectez ses pinceaux,</l>
+                    <l>Car ils savent frapper les sots.</l>
+                </lg>
+            </div>
+            
+            
+            (// sort par le fond.)
+            
+            SCENE VIL
+            
+            U) OLl » llF., HAMELIN, MADAME UAMELIN, cnfKi'R. 
+            
+            Il
+            
+            ti'iîsl pas très cominodc votre artiste, monsieur Ifamelin. 
+            
+            MADAME UAMELIN. 
+            
+            ADOLPHE. 
+            
+            J'avoue qu'il est un peu…
+            
+            Il l'est même beaucoup, monsieur. 
+            
+            HAMELIN, piqUi", 
+            
+            ADOLPHE. 
+            
+            Cependant je vous prie de croire que c'est un {garçon qui a…
+            
+            HAMELIN. 
+            
+            Je n'en doute pas… aussi je suis peiné… Mes chers voisins, 
+            je suis désolé de ce qui nous arrive, je comptais sur ce farceur…
+            N'importe ! je tâcherai de le remplacer ; je serai le plus drôle
+            que je pourrai ; que diable voulez-vous ? c'est à en perdre la
+            tête… En attendant, veuillez passer dans le jardin ; il y a des
+            rafraîchissemens de toute nature pour les dames… Seulement, 
+            défiez-vous de la balançoire, parce qu'elle n'est pas solide ; ma-
+            dame Hamelin y a été prise l'autre jour. {La société se retire. 
+            
+) 
+            
+            
+            <div type="poem">
+                <lg>
+                    CHŒUR. 
+            <stage type="tune" id="AIR : Pâques fleuries (Fra Diavolo)."></stage>
+                    
+                    <l ana="unanalyzable">C'est jour de fête. etc.</l>
+                </lg>
+            </div>
+            
+            
+            SCENE VIIL
+            
+            ADOLPHE, HAMELIN, MADAME HAMELIN. 
+            
+            HAMELIN. 
+            
+            Certainement j'aime beaucoup les artistes, moi… Quand on
+            cstrichp, il faut protéger les arts, mais il faut que les arts
+            soient honnêtes avec moi comme je le suis avec eux ; j'ai mis
+            à toutes mes lithographies des cadres superbes que j'ai reçus en
+            paiement. 
+            
+            MADAME HAMELIN. 
+            
+            Je vous conseille de parler de vos tableaux et de vos statues…
+            des choses affreuse ? qu'on ne peut pas regarder sans rougir…
+            Aussi, comme nous avons du monde et que je tiens à ma ré-
+            
+            12
+            
+            putalion, j'ai fait mettre un aianteau écossais à votre Vénus ei&gt; 
+            plfitre, et votre vieux carrick à la statue d'Hercule. 
+            
+            HAMELIN. 
+            
+            Ma femme, vous êtes une Vandale ; vous n'avez pa*-4c sen-
+            
+            timent du beau. 
+            
+            Taisez-vous, monsieur, vous êtes un gros indécent. 
+            
+            MADAME HAMELIN. 
+            
+            HAMELIN. 
+            
+            Amateur, amateur, voilà tout… Enfin c'est égal, j^espére
+            que nous nous amuserons bien malgré ca ; c'est dommage, mon
+            cher Adolphe, que vos parens aient choisi le jour d'aujourd'hui
+            pour visiter mes domaines. 
+            
+            MADAME HAMELIN. 
+            
+            En attendant, comme je présume que monsieur Adolphe
+            n'a plus envie d'aller à la chasse, il serait convenable, je pense, 
+            de le présenter à sa future. 
+            
+            Allons, je ne réchapperai pas… Et Albert qui m'abandonne ! 
+            
+            ADOLPHE, à part. 
+            
+            C'est juste, il faut faire la présentation. 
+            
+            ADOLPHE. 
+            
+            HAMELIN. 
+            
+            Mais mademoiselle Eulalie est peut-être occupée du soin de
+            
+            sa parure… et je craindrais de la déranger, de lui déplaire, 
+            
+            On dirait plutôt, monsieur, que vous craignez de lui plaire. 
+            
+            MADAME HAMELIN, sèc/iement. 
+            
+            ADOLPHE. 
+            
+            Ah ! madame, pouvez-vous penser ? … je suis prêta vous sui-
+            
+            vre, [à part.) Si je sais ce que je lui dirai, par exemple…
+            
+            MADAME HàMELlN. 
+            
+            Monsieur Adolphe, donnez-moi la main… Monsieur Hamelin, 
+            suivez-nous. {Ils remontent la scène pour sortir, lorsque Jean-
+            neion parait.)
+            
+            SCENE IX. 
+            
+            LES MÊMES, JEANNETON. 
+            
+            JEANNETON. 
+            
+            Monsieur… madame…
+            
+            Eh bien ! quoi ? … qu'arrive-t-il ? 
+            
+            MADAME HAMELIN. 
+            
+            Il arrive un petit vieux qui vient de Paris… Il est là, il dit
+            
+            qu'il s'appelle monsieur Coq… Coq… Coq…
+            
+            JEANNETON. 
+            
+, 
+            
+            HAMELIN. 
+            
+            Ah ! çà, vas-tu continuer ce travail-là long-temps ? 
+            
+            JEANNETON. 
+            
+            Attendez ^onc ! … Cocasse… Coquet… JNon, ce n'est pas
+            
+            encore ça. 
+            
+            13
+            
+            ADOLPHE. 
+            
+            JEANNETON. 
+            
+            IIAMELIN. 
+            
+            CoquercI, peut-être ? 
+            
+            Oui, Coqucrel. 
+            
+            Le père d'Adolphe. 
+            
+            Mon père ! déjà ? je suis perdu. 
+            
+            ADOLPHE, à part. 
+            
+            SCENE X. 
+            
+            LES MÛMES, COQUEllEL. 
+            
+            C'est Albert ! quel est son projet ? 
+            
+            ADOLPHE, à part. 
+            
+            COQXJEREL, saluant. 
+            
+            Monsieur et madame, enchanté de l'aire votre connaissance…
+            Eh bien ! Adolphe, tu ne présentes pas ton respect à l'auteur
+            de tes jours ? 
+            
+            Mon père…
+            
+            ADOLPHE, s"inclinant. 
+            
+            COQUEREL. 
+            
+            Monsieur Hanielin, je viens chez vous sans façon ; on dit que
+            vous avez bonne table… et que vous recevez parfaitement vos
+            convives. 
+            
+            HAMBLIN. 
+            
+            Monsieur, le père de monsieur Adolphe doit être bien reçu
+            
+            partout…
+            
+            Vous habitez un pays délicieux, c'est pour moi la vallée des
+            
+            souvenirs ; c'est ici que j'ai connu la petite Brillant…
+            
+            COQUEREL. 
+            
+            La petite Brillant ! …
+            
+            MADAME HAMELIN. 
+            
+            COQUEREL. 
+            
+            Une jeurie actrice de la Comédie-Française ; je fus dix-huit
+            
+            mois son amant avoué…
+            
+            MADAME HAMELIN. 
+            
+            L'amant d'une actrice ? …
+            
+            Après avoir quitté ma femme. 
+            
+            COQUEREL. 
+            
+            MADAME HAMELIN. 
+            
+            Quitté votre femme ! …
+            
+            COQUEREL. 
+            
+            Oui, elle trouvait mauvais que je cumulasse deux affections…
+            Cette petite Brillant vivait alors avec un… La Trémouille, qui
+            dissipa avec elle une fort belle fortune… Tenez, c'est d'elle que
+            me vient ce camée. 
+            
+            14
+            
+            MADAME HAMELIN. 
+            
+            Monsieur, vous nous faites un aveu un peu leste. 
+            
+            Vous m'étonnez. 
+            
+            COQUEREL. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR de Mariane. </stage>
+            
+            
+                    <l>Je ne vois dans le mariage</l>
+                    <l>Qu'un contrat de tranquillité ;</l>
+                    <l>À l'hymen j'applique l'adage :</l>
+                    <l>Ordre public et liberté.</l>
+                    <l>Tant qu'une épouse</l>
+                    <l>N'est pas jalouse,</l>
+                    <l>Oh ! rien n'est mieux ;</l>
+                    <l>Restons unis tous deux.</l>
+                    <l>Mais si cet ange</l>
+                    <l>En diable change,</l>
+                    <l>Alors je suis</l>
+                    <l>Pour la paix à tout prix.</l>
+                    <l>C'est tout naturel, ce me semble.</l>
+                    <l>Puisqu'on n'est plus d'accord sur rien,</l>
+                    <l>On se quitte : c'est le moyen</l>
+                    <l>De vivre bien ensemble.</l>
+                </lg>
+            </div>
+            
+            
+            Mais, mon père ! …
+            
+            ADOLPHE. 
+            
+            COQUEREL. 
+            
+            Mon fils, vous savez les conseils que je vous ai toujours doa-
+            
+            nés ; votre mère m'ennuyait souverainement, je la lâchai…
+            
+            Vous la lâchâtes ? 
+            
+            HAMELIN. 
+            
+            COQUEREL. 
+            
+            Je la lâchai… c'est le mot-. 
+            
+            il est peut-être trivial… mais il
+            est vrai… J'ai souvent dit à mon fils : Tu es exposé à te marier
+            un jour… dès que ta femme t'ennuiera, tu sais ce qu*a fait ton
+            père. 
+            
+            MADAME HAMELIN, furieUSe. 
+            
+            Mais c'est affreux de donner de pareils conseils à un jeune
+            
+            homme…
+            
+            COQUEREL. 
+            
+            Vous m'étonnez… Du temps de la régence on n'en faisait pas
+            d'autres… il y eut un duc de Nivernais, homme d'esprit et
+            de sens, qui lâcha sa femme pour une cause encore plus lé'
+            gère…
+            
+            Oui, on avait de belles mœurs dans ce Icmps-là ! 
+            
+            MADAME HAMELIN. 
+            
+, 
+            
+            15
+            
+            GOQUEREL. 
+            
+            On vivait bien… on sacrifiait tout aux plaisirs… Un jour, 
+            j'étais chez Sophie Arnould… (je fus aussi son amant en
+            titre.)
+            
+            MADAME HAMELIN. 
+            
+            Ah ! 
+            
+            COQt'EREL. 
+            
+            C'est d'elle que je tiens cette topasc. Elle m'en fit cadeau
+            
+            pour un bon mot… Un soir, au sortir de la Comédie Italienne
+            il y avait cercle chez Sophie : j'étais dans son salon, sur un
+            sopha. Elle me dit : prenez une bergère… Je la regardai en
+            répétant le mot bergère… jeluidisiLaquclle faut-il prendre ? …
+            Le mot lui plut infiniment, et de ce jour data notre liaison…
+            Il était assez original de jouer sur le mot, à cette époque…
+            C'était M, de Bièvre, le marquis de Bièvre. feu M. le marquis
+            de Bièvre qui avait ressuscité ce genre de plaisanterie. 
+            
+            Oui lescoqs-à-l'ûne… Ce genre d'esprit m'a toujours paru
+            
+            HAMELIN. 
+            
+            fort bête et fort ennuyeux. 
+            
+            COQUEREL. 
+            
+            Vous m'étonnez… J'étais alors dans la belle période de ma
+            linge ; je tenais de l'Hercule et de l'Endymion— on le disait, 
+            vie, les dents fort bien, l'œil à fleur de tête, très blanc sous le
+            
+            du moins ; la Duthé s'en aperçut… je vous parle de la Duthé…
+            J'avais alors vingt mille livres de rentes ; nous vivions comme
+            si nous en avions eu quatre cent mille ; nous mangeâmes le
+            capital er^un an… Quand je fus entièrement plumé, elle me dit
+            avec ce ton enjoué qui lui allait si bien : Mon ami, il faut cesser
+            de nous voir ; je compris le motif et je me retirai. Je dois dire
+            à sa louange qu'elle ajouta, les larmes aux yeux : Mon ami, 
+            nous ne nous séparerons pas sans que vous emportiez une légère
+            marque de mon attachement… je lui avais donné des diamans
+            pour plus de quatre-vingt mille livres. 
+            
+            Et elle vous les rendit ? 
+            
+            HAMELIN. 
+            
+            COQUEREL. 
+            
+            Non, elle me passa au doigt cette petite bague en cheveux
+            qui pour moi est sans prix… Ça vaut un petit écu : si madame
+            Ilamelin le permet, je compte l'offrir à ma bru. 
+            
+            Monsieur, ma fille ne porte pas de ces sortes de joyaux ; elle
+            
+            MADAME HAMELIN, scanUaUsée. 
+            
+            a été élevée dans des principes de vertu…
+            
+            Vous m'étonnez. 
+            
+            Alors vous êtes ruiné ? 
+            
+            COQIJEREL. 
+            
+            HAMELIN. 
+            
+, 
+            
+            16
+            
+            COQUFEEL. 
+            
+            Pas tout-à-fait ; il me reste quinze cents livres de rente ria-
+            
+            gère… et j'ai des goûts dispendieux. 
+            HAUELIN. 
+            
+            Cependant à votre âge…
+            
+            C0QI] EREL. 
+            
+            Le cœur ne vieillit pas… Il me faut absolument du café, deux
+            fois par jour, du rhum, du Cognac… c'est étonnant ce que je
+            consomme de Cognac à mon âge ; il me faut aussi de temps à
+            autre la petite partie fine, et vous pensez bien que ce n'est pas
+            avec quinze cents francs par an que je puis… Dame, je fais quel-
+            ques petites dettes, j'en suis bien fâché ; si j'avais de l'argent, 
+            je paierais ; n'en ayant pas, il faut que chacun s'y prête un peu : 
+            aussi, quand mon fils sera marié et qu'il jouira de la fortune de
+            sa mère, à laquelle, malheureusement, je n'ai pas pu toucher
+            j'espère bien m'établir chez lui… et chez vous aussi, monsieur
+            Hamelin. 
+            
+            Mais, monsieur Adolphe, voilà un père effrayant… un Dio-
+            
+            MA. DAME HAMELIN. 
+            
+            gène… un cynique…
+            
+            COQUEREL. 
+            
+            Je n'ai pris ce matin que ma tasse de café… Ne pourriez-vous
+            
+            me faire servir à déjeuner ? 
+            
+            MADAME HAMELIN, à SOU mari. 
+            
+            Allons, il est sans gêne. 
+            
+            HAMELIN, froidement. 
+            
+            Monsieur Adolphe, conduisez votre père dans ce cabinet. 
+            
+            MADAME HAMELIN. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Je reconnais ce militaire. </stage>
+            
+            
+                    <l>Ah ! c'est un homme épouvantable !</l>
+                    <l>Il est sans mœurs et sans raison :</l>
+                    <l>C'est un vieillard abominable ;</l>
+                    <l>Il souillerait notre maison.</l>
+            
+                    ADOLPHE, à part. 
+            
+                    <l>Mais vois donc quelle est leur furie.</l>
+            
+                    COQUEREL. 
+            
+                    *
+            
+                    <l>Va, laisse-les crier haro !</l>
+                    <l>De ma grotesque galerie</l>
+                    <l>Ils n'ont encor qu'un numéro.</l>
+                    <l>La suite au prochain numéro.</l>
+                    MADAME HAMELIN. 
+            
+                    <l ana="unanalyzable">Ah ! c'est un homme épouvantable ! etc.</l>
+            
+                    ADOLPHE, d Albert en riant. 
+            
+                    <l>Ils le trouvent épouvantable ;</l>
+                    <l>Peut-être ont-ils quelque raison.</l>
+            
+. 
+            
+                    17
+            
+                    <l>Va, sors, vieillard abominable,</l>
+                    <l>Tu scandalises la maison.</l>
+            
+                    COQIIERF. L. 
+            
+                    <l>Ils me trouvent abominable :</l>
+                    <l>Peut-être ont-ils quelque raison.</l>
+                    <l>Ma confession est blâmable</l>
+                    <l>Et leur paraît hors de saison.</l>
+            
+                    HiMCLIN. 
+            
+                    <l>Ah ! c'est un vieillard impayable</l>
+                    <l>Et, dans son arrière-saison,</l>
+                    <l>Il est encore assez aimable ;</l>
+                    <l>Il distrairait notre maison.</l>
+                </lg>
+            </div>
+            
+            
+            scRNE xr. 
+            
+            HAMELIN, MADAME HAMELIN. 
+            
+            HAMELIN. 
+            
+            Eh bien ! ma chère amie, que pensez-vous de monsieur
+            
+            Coquerel ? 
+            
+            Ah ! 
+            
+            Cl donc ! 
+            
+            MADAME HAMELIN. 
+            
+            HAMELIN. 
+            
+            Fi donc ? …
+            
+            fi donc ne veut rien dire ; je trouve cet homme…
+            
+            original, moi. [Il rit.)
+            
+            MADAME HAMELIN. 
+            
+            Original ? vous êtes modeste. Je trouve que monsieur Coque-
+            
+            rel est un vieux indigne. 
+            
+            Comment ça ? 
+            
+            Il sort des bornes. 
+            
+            Comment ça ? 
+            
+            HAMELIN. 
+            
+            MàDAME HAMELIN. 
+            
+            HAMELIN. 
+            
+            MADAME HAMELIN. 
+            
+            11 sort des bornes… la bienséance des bornes… et il en sort…
+            Qu'avais-je besoin de connaître ses fredaines, ses atnours avec
+            mademoiselle… je ne.'^^ais plus le nom ? 
+            
+            HAMELIN. 
+            
+            J'avoue que ce vieillard nous a fait une confession un peu
+            
+            franche ; il paraît que c'était un plaisant. 
+            
+            MADAME HAMELIN. 
+            
+            Ce qu'il nous a dit me suffit pour apprécier sa moralité ; cet
+            homme s'est livré à toutes sortes d'écarts… vous n'avez donc
+            pas entendu ? Il a élevé son fils dans ses principes. 
+            
+            La Famille improvisée. 
+            
+            3
+            
+            18
+            
+            HAMELIN. 
+            
+            C'est ilrôle ! je ne me suis pas aperçu que ce jeune homme…
+            Mais silence ! Aoici Eulalie avec Jeanneton… ne parlons plus
+            de cela. 
+            
+            Ahl je suis indignée ! cet homme m'a crispée. 
+            
+            MADAME HAMELIN, à part. 
+            
+            SCENE XII. 
+            
+            LES MÊMES, EULALIE, JEANNETON. 
+            
+            Qu*as-tu donc, maman ? tu as l'air tout fâché. 
+            
+            EULÀLIE. 
+            
+            Oh ! rien, rien ; nous parlions de toi, de ton prochain ma-
+            
+            MADAME HAMELIN. 
+            
+            riage…
+            
+            EULALIE. 
+            
+            Qu'en disiez-vous ? D'abord, écoute, si tu veux ajourner cela, 
+            je ne demande pas mieux. Ce monsieur Adolphe, on le dit fort
+            aimable ; mais jusqu'à présent je ne le connais pas. 
+            
+            HAMELIN. 
+            
+            Ma fille, nous n'avons rien promis encore… Avant de nous
+            engager, nous avons voulu juger par nous-mêmes si la famille
+            du jeune homme… Tu penses bien que je ne suis pas de ces
+            pères à qui on dit : Voici ! et qui répondent : Voilà ! non, non, 
+            ce serait un peu trop bête… Le père d'Adolphe est déjà ici, je
+            l'ai examiné. 
+            
+            Eh bîen 1
+            
+            EULALIE. 
+            
+            HAMELIN. 
+            
+            C'est un petit maigre ; il a « ne topase, il a un camée. 
+            
+            MADAME HAMELIN. 
+            
+            Mais nous reparlerons de ça ; viens avec moi, Eulalie, il faut
+            
+            que tu songes à terminer ta toilette. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Vaudeville du Bal d'ouvriers. </stage>
+            
+            
+                    <l>Te voilà promise ;</l>
+                    <l>Ma fille, montre du goût ;</l>
+                    <l>Soigne un peu ta mise :</l>
+                    <l>La mise fait tout.</l>
+            
+                    EULALIE. 
+            
+                    <l>Sans être coquette,</l>
+                    <l>Je puis mettre ici</l>
+                    <l>Une collerette</l>
+                    <l>De simple organdi.</l>
+            
+                    JEANNETON, à part, 
+            
+                    <l>L'fichu n'a pas d'grace ;</l>
+            
+                    l
+            
+                    10
+            
+                    <l>Et, j'le dis tout bas,</l>
+                    <l>Je crois qu'à sa place,</l>
+                    <l>Moi, j'n'en mettrais pas.</l>
+            
+                    ENSEMBLE. 
+            
+                    MONSIEUR et MADAME HAMELIN. 
+            
+                    <l ana="unanalyzable">Te voilà promise, etc.</l>
+            
+                    BOLALIC. 
+                    <l>Me voilà promise ;</l>
+                    <l>Pourquoi donc montrer du goût ?</l>
+                    <l>On me tyrannise,</l>
+                    <l>Et je suis à bout.</l>
+            
+                    JEANNETON, 
+            
+                    <l>Si j'étais promise,</l>
+                    <l>Et que ça ne fût pas d'mon goût,</l>
+                    <l>J'dirais : Pas d'église ;</l>
+                    <l>L'bonheur avant tout.</l>
+                </lg>
+            </div>
+            
+            
+            (Monsieur et madame Hamelin et Eulalie sortent.)
+            
+            SCENE XIll. 
+            JEANNET0N, 5 « a/^. 
+            
+            Est-elle vexée ? … ne l*est-ene pas ? … décidément je crois
+            qu'elle l'est. Avoir vu à Paris un jeune hortime qui a tout ce
+            qu'on peut trouver de très bien pour plaire… et puis venir ici…
+            Ciel de Dieu ! … si ça m'arrivait, je ferais un malheur. [Elle
+) Qu'est-ce que c'est
+            remonte la scène et regarde dans le jardin. 
+            que celui-là qui est baissé sur le plant de tulipes ? Ah ! mon
+            Dieu ! il ravage tout. [Ellecrie.) Monsieur ! monsieur ! cueille25
+            donc pas ! cueillez donc pas ! Miséricorde ! il a tout arraché. Ah
+            bien ! madame va t'être contente. 
+            
+            SCENE XIV. 
+            
+            JEANNETON, PRUDHOMME. 
+            
+            PRUDHOMME, chargé de roses et de tulipes. 
+            
+            (// chante.)
+            
+            Il faut de fleurs, il faut de fleurs semer la vie. 
+            
+            Que demandez-vous, monsieur ? 
+            
+            JEANNETON. 
+            
+            PRUDHOMME. 
+            
+            Je demande deux beaux yeux et je les ai trouvés. 
+            
+            (Jl pose les fleurs sur la table.)
+            
+. 
+            
+            20
+            
+            JEANNETON. 
+            
+            Dame, monsieur, les jeunesses d'Ermenonville sont en répu-
+            
+            tation pour ça. 
+            
+            PRUDHOMME. 
+            
+            Vous êtes^d'ErmenonvilIe ? [ôtant son chapeau.) Honneur à
+            l'illustre auteur de Télémaque et autres ouvrages non moins
+            remarquables, qui y est inhumé ! Honneur au grand Jean-Jac-
+            ques Rousseau ! 
+            
+            JEANNETON, il part. 
+            
+            Qu'est-ce qu'il a donc ? 
+            
+            PRDDHOMME. 
+            
+            Puisse M. le préfet de police lui restituer son nom qu'on a
+            
+            indignement dénaturé en celui de la Platrière ! 
+            
+            Est-il drôle ? il a l'air de prêcher ! 
+            
+            jEATîNETON, à part. 
+            
+            Elle est, ma foi, très bien cette… Dites-moi donc, il mç
+            
+            PRUDHOMME. 
+            
+            vient une idée bouffonne…
+            
+            Quoi donc ? 
+            
+            JEASNETON. 
+            
+            PRUDHOMME. 
+            
+, 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Vaudeville de la Somnambule. </stage>
+            
+            
+                    <l>Oui, ton joli minois m'engage</l>
+                    <l>À m'ouvrir à toi sans détour ;</l>
+                    <l>Et je voudrais sur ton visage</l>
+                    <l>Cueillir un doux baiser d'amour.</l>
+                    <l>Eh bien ! pourquoi faire la moue ?</l>
+                    <l>Petite, en honneur tu me plais !</l>
+            
+                    JEANSEToif, avec un geste menaçant. 
+            
+                    <l>V'nez donc cueillir des baisers sur ma joue ;</l>
+                    <l>Moi, sur la vôt' je plant'rai des soufflets.</l>
+                </lg>
+            </div>
+            
+            
+            Ah ! ah ! je suis curieux de savoir… allons… allons. 
+            
+            PRUDHOMME. 
+            
+            (// la prend dans ses bras.)
+            
+            JEANNETON, se débattant
+            
+            Voulez-vous bien, voulez-vous bien nie laisser tranquille ! …
+            vous n'êtes qu'un gros malhonnête… Ah ben ! par exemple ! …
+            Au secours I à moi ! 
+            
+            (Elle lui donne un soufflet ; lorsqa'Hamelin entre, elle sort.)
+            
+            2J
+            
+            SCKINE XV. 
+            
+            PRUDHOMMF, HAMELIN. 
+            
+            Qu'esl-ce donc, hou Dieu ! qu'y a-t-il ? 
+            
+            HAMELiN, accourant. 
+            
+            PRUDHOMME, tranquillement, se tournant vers Hamelin. 
+            
+            Monsieur, je vous présente mes civilités, Joseph Pruclhomme, 
+            professeur d'écritures, élève de Brard et de Saint-Omer&gt; expert
+            assermenté près les cours et tribunaux, et qui pour le moment
+            plaisantait avec la bonne. 
+            
+            Monsieur ? 
+            
+            HAMEUN. 
+            
+            PRUDHOMME. 
+            
+            Est-ce à l'esiimahle monsieur Hamelin que j'ai l'avantage de
+            
+            parler ? 
+            
+            A lui-même, monsieur, .
+            
+            HAMELIN. 
+            
+            PRUDHOMME. 
+            
+            Joseph Prudhonime, ! professeur d'écritures, élève de Brard et
+            
+            de…
+            
+            J'ai entendu… Pourrais-je savoir, monsieur, ce qui me pro-
+            
+            HAMELIN. 
+            
+            cure l'insigne honneur d'une visite ? 
+            
+            PRrDHOMME. 
+            
+            Je suis oncle du jeune Ccquerel, votre gendre futur, et beau-
+            
+            frère du vieux Coquerel, père dudit. 
+            HAMELIN, 
+            
+            Enchanté, monsieur, (à part.) En voilà encore un qui a un
+            drôle d'air… Il y a déjà ici quelqu'un de votre connaissance, 
+            votre beau-frère. 
+            
+            Coquerel est ici ! 
+            
+            PRUDHOMME. 
+            
+            HAMELIN. 
+            
+            Depuis quelques instans… C'est un original. 
+            
+            Plus qu'original, je le soupçonne imbécile. 
+            
+            PRUDHOMME. 
+            
+            Vraiment ? 
+            
+            H4MELIN. 
+            
+            PRUDHOMME. 
+            
+            Nous ne cadrâmes jamais… (v'est un homme parfaitement in-
+            
+            capable, et son fils ! … ah ! 
+            
+            Pas possible ! 
+            
+            HAMELIN. 
+            
+            PRUDHOMME. 
+            
+            Il a hérite île loub les défauts paternels. 
+            
+            22
+            
+            HÂMELIN. 
+            
+            Il est fâcheux quelquefois de voir les fils hériter des pères. 
+            
+            Ah ! ne parlons pas politique. 
+            
+            PRUDHOMME. 
+            
+            Politique ? 
+            
+            HABiELiN, étonné et à part. 
+            
+            PBUDHOMME. 
+            
+            Je suis d'un caractère léger et facétieux, j*aime rire, mais je
+            ne plaisante jamais avec les matières publiques, je suis entière-
+            ment dévoué à l'ordre de choses… Vive à jamais l'ordre de
+            choses… Vive tout ce qui contribue à notre bonheur ! Vivent les
+            autorités constituées, vive à jamais la garde municipale et son
+            auguste famille ! 
+            
+            HAMELIN. 
+            
+            Mais du tout. Je vous disais qu'il était fâcheux quelquefois
+            de voir les enfans hériter des défauts des pères. P… è… r…
+            e… s. 
+            
+            PBCDHOIVIOiE. 
+            Ah ! ah ! pater patrls, pater patrls…
+            
+            HAMELIN, criant en même temps. 
+            
+            P… è… r … e… s. 
+            
+            PRUDHOMME. 
+            
+            Mais j'aperçois une personne du sexe… Est-ce la vôtre î^
+            
+            HAMELIN. 
+            
+            C'est elle-même. 
+            
+            Madame, je dépose mon hommage. 
+            
+            PRUDHOMME, saluant. 
+            
+            SCENE XVL
+            
+            LES MÊMES, MADAME HAMELIN. 
+            
+            HAMELIN, présentant Albert à sa femme. 
+            
+            Monsieur est l'oncle d'Adolphe. 
+            
+            PRUDHOMME. 
+            
+            Joseph Prudhomme, professeur d'écritures, élève de Brard
+            et de Saint-Omer, expert assermenté près les cours et tribunaux. 
+            
+            Enchantée, monsieur, {à part.) En voilà un au moins qui se
+            
+            MADAME HAMELIN. 
+            
+            présente…
+            
+            PRUDHOMME. 
+            
+            J'aurais en trois jours plus tôt l'agrément de me trouver ea
+            
+            ces lieux, sans une circonstance judiciaire… j'étais jury. 
+            
+            Juré. 
+            
+            HAMELIN. 
+            
+            Jury ! 
+            
+            Juré ! 
+            
+            24
+            
+            PRUDnOMME. 
+            
+            HilUELIN. 
+            
+            PHIDHOMME. 
+            
+'
+            
+            Jury I puisque j'en faisais partie. 
+            HAMELIN. 
+            
+            C'est juste. 
+            
+            PRVDHOMME. 
+            
+            Et dans une affaire, ma foi, fort bizarre, fort divertissante et
+            
+            qui fut plaidée à huis-clos. 
+            
+            HAMELIN. 
+            
+            Ah ! ah I… Je n'ai jamais entendu plaider à huis-clos. 
+            
+            PRUDHOMME. 
+            
+            Vous perdîtes… Il y avait trois accusés mâles… et une partie
+            plaignante femelle… Voici le fait… si pourtant madame le per-
+            met… Vers la fin d'octobre dernier, trois jeunes hommes, ou
+            pour mieux dire trois amis, se promenaient bras dessus, bras
+            dessous, sur la route de Clignancourt, derrière Montmartre ; 
+            c'était le fils d'un pair de France, un clerc de notaire, et un
+            troisième jeune homme, appartenant à une famille peu aisée du
+            département du Puy-de-Dôme (l'ancienne Auvergne) , et exer-
+            çant à Paris la profession de marchand de peaux de lapin. 
+            
+            Ah ! voilà un singulier assemblage ! 
+            PRUDHOMME. 
+            
+            HAMELIN. 
+            
+            Pourquoi donc cela ? Tous les mortels sont égaux ; je ne con-
+            nais de distinction véritable que la différence qui peut exister
+            entre eux ; je pourrais vous citer à cet égard-là le mot célèbre
+            du fameux… Eh ! parbleu ! comment l'appelez-vous ? un homme
+            très connu… on vend son portrait dans les rues. 
+            
+            HAMELJN. 
+            
+            Si vous me disiez le mot, je pourrais peut-être vous aider. 
+            
+            PRI3DH0MME. 
+            
+            Je le crois bien, mais c'est le mot qui me manque. 
+            
+            MADAME HAMELIN, bos à SOU mari. 
+            
+            Je crois qu'il a quelque chose de dérangé dans les idées. 
+            
+            Ne dis rien, ne dis rien ; 
+            
+            marteau. 
+            
+            HAMELIN, de même. 
+            
+            il me fait l'effet d'avoir un coup de
+            
+            J'y suis ; le mot est de 31ontesquieu. 
+            
+            PRUDHOMHE. 
+            
+            Montesquieu ! 
+            
+            HAMELIN. 
+            
+            PRUDHOMME. 
+            
+            Montesquieu… qui tenait des bains… (après un mouvement
+            
+            24
+            
+, 
+            
+            de réflexion, ) A moins qu'il ne soit de feu Dozaioville, autrefois
+            artiste au théâtre Feydeau, et qui demeurait sur mon propre
+            carré… Je dis : propre, le dimanche, car, en semaine, il y avait
+            dans la maison une dame fort âgée… (a peu près de l'âge de
+            madame) qui avait la malheureuse faiblesse des animaux : cette
+            respectable dame avait trois chiens, et il semblait que ces diables
+            de quadrupèdes se fissent un malin plaisir de choisir toujours
+            mon palier… Feu Dozainville s'en plaignait beaucoup aussi, lui
+            qui rentrait toujours fort tard et sans lumière. Nous nous dé-
+            barrassâmes de ces animaux malfaisans à l'aide d'une composi-
+            tion non moins malfaisante… La mauvaise humeur rend atroce ; 
+            moi qui ne tuerais pas une puce, hors le cas de légitime dé-
+            fense. 
+            
+            BAMELiN, d sa femme. 
+            
+            Mais il nous parle de trente mille choses à ta fois, {haut.) Vous
+            
+            aviez commencé à nous raconter…
+            
+            PRTJDHOMME. 
+            
+            Ah ! pardon ! pardon ! j'avais perdu le fil… Ces trois amis
+            
+            savoir : le clerc de notaire, le jeune pair de France et le mar-
+            chand de peaux de lapin, virent venir de loin la veuve Tirouf-
+            flet, personne très respectable par l'austérité de ses mœurs, 
+            mais pour le moment elle était éprise de boisson ; elle battait, 
+            à proprement parler, les murailles, cette même veuve ïirouf-
+            flet ! Je n'aime point qu'une personne du sexe donne dans ce
+            travers… Madame Prudhomme, mon épouse, tante de votre
+            futur gendre, tombe parfois dans cet inconvénient social. 
+            
+            MADAME HAMELIN, à SOU mavL
+            
+            Ah ! ciel, sa femme boit… Mais c'est une famille de ré-
+            
+            prouvés ! 
+            
+            PRrDHOMME. 
+            
+            Je lui en ai fait maints reproches. Je reviens à la plaignante ; 
+            c'est une grosse femme entre sexa et seplua… génaire, et que
+            j'estime, à vol d'oiseau, pouvoir peser de deux cent quarante
+            à deux cent quatre-vingt. 
+            
+            C'est un bel embonpoint. 
+            
+            DAMELIIS. 
+            
+            P&amp; rDHOMME. 
+            
+            J'aime les femmes un peu…
+            
+. [iCun air galant à madame Ha-
+            melin, ) J'en connais de moins grasses qui n'en sont pas moins
+            aimables. 
+            
+            MADAME HAMELIN, à part. 
+            
+            Cet liomme est ennuyeux à mourir. 
+            
+            PRUDDOMME. 
+            
+            C'était un garçon de îalent. 
+            
+            HAMEMN. 
+            
+            Qui ? 
+            
+. 
+            
+, 
+            
+            2'^
+            
+            Feu DoRaîiiVille. 
+            
+            Je ne vous dis pas non…
+            
+            HAMELIN. 
+. Mais permeltez, mon chrr ami, 
+            voili un bon quarl-d'heuie que je fais des efforts inouïs pour
+            suivre le fil de vos idées, je m'y perds complèleinent ; vous me
+            parlez de Dozainville…
+            
+. 
+            
+            Je vous parle de Dozainville. 
+            
+            HAMELirr. 
+            
+            Voulez-vous parler de Dozainville ? parlons de Dozainville. 
+            
+            PRUDHOMME, oprés uti moment de réflexion. 
+            
+            Ces trois jeunes gens, c'csl-à-dirc le clerc de notaire, te
+            
+            jeune pair de France et le marchand de peaux de lapins…
+            
+. 
+            
+            HAMRLIN. 
+            
+            Allons ! 
+            
+            pniDIIOMME. 
+            Nous les acquittâmes à l'unanimité. 
+            
+            HAMELIN. 
+            
+            Je ne sais pas ce qu'ils avaient lait. 
+            PRUDHOMME. 
+            
+            Je viens de vous le raconter. 
+            
+            HAMELIN. 
+            Vous ne m'en avez pas dit un mot. 
+            PRUDHOMME. 
+            
+            Voilà
+            
+            qui est bien particulier. Ah ! monsieur Hamelin
+            
+            c'était un spectacle réellement touchant que celui de ces trois
+            jeunes gens rendus à la liberté ; et tous leurs amis qui étaient
+            là… On se prenait la main… on se prenait la tête…
+. Les
+            clercs de notaire embrassaient les pairs de France ; les pairs de
+            France embrassaient le ? marchands de peaux de lapin… C'était
+            joli…
+            
+. joli…
+            
+            Ce tableau est quelque peu grotesque. 
+            
+            HAMELIN. 
+            
+            Mais, non, non, non. 
+            
+            Si ! si, si. 
+            
+            PRCDHOMME. 
+            
+            HAMELIN. 
+            
+            PBDDHOMME. 
+            
+            Non ! non, non, ma foi ! …
+            
+. J'aime cette fusion entre des
+            classes si bien faites pour s'apprécier et s'estimer. Que dinble ! 
+            un marchand de peaux de lapin qui a du talent peut devenir
+            pair de France, et le fils d'un pair de France peut être appelé
+            à faire un délicieux marchand de peaux de lapin…
+. C'est ce
+            que je disais parfois à mon ami…
+. Causates-vous quelquefois
+            avec lui, madame Hamelin ? 
+            
+            La Famille improvisée. 
+            
+            4
+            
+            ^^
+            
+            Avec qui ? 
+            
+            26
+            
+            M4DAME HAMELIN. 
+            
+            PRDDHOMME. 
+            
+            Avec feu Dozainville. 
+            
+            Allons ! Dozainville, à présent ! 
+            
+            RAMELIN, à part. 
+            
+            Non, monsieur. 
+            
+            MADAME HAMELIN. 
+            
+            PRUDHOMME. 
+            
+            Vous ne le vîtes jamais dans remploi des Chasseurs et la
+            
+            Laitière ? 
+            
+            Non, monsieur. 
+            
+            MADAME HAMELIN. 
+            
+            PRDDHOMME, s^ éloignant en prenant une prise. 
+            
+            Vous perdîtes, 
+            
+            MADAME BAMELIN, 6a5 à 50n mart. 
+            
+            Monsieur Hamelin, faites retirer cet homme ; il m'agace les
+            nerfs avec ses questions saugrenues ; je n'ai jamais vu un pareil
+            bavard. 
+            
+            Mon cher Prudhomme ! ma femme me dit que vous avoi
+            
+            peut-être besoin de prendre quelque chose. 
+            
+            HAMELIN. 
+            
+            PRCDHOMME. 
+            
+            J'accepterais volontiers une aile… de ce que vous voudrez, 
+            ou une tranche… de n'importe quoi… avec de la gelée. Feu
+            Dozainville avait une cuisinière qui excellait dans ce genre de
+            préparation : je me rappelle qu'un jour nous dînions ensemble
+            (c'était avant son décès) …
+            
+            HAMELIN. 
+            
+            Permettez, Prudhomme ; M. Coquerel sera peut-être flallé
+            de déjeuner avec vous, je vais vous conduire près de lui ; il
+            &lt; sl là. 
+            
+            PRUDHOMME. 
+            
+            Je ne souffrirai point que vous vous dérangiez. Je veux le
+            surprendre. Monsieur et madame, enchanté d'avoir fait votre
+            connaissance. Je dépose mon hommage : Joseph Prudhomme, 
+            professeur d'écritures, élève deBrard et de Saint-Omer, expert
+            assermenté près les cours et tribunaux. (// salue profondément
+            $t entre dans le cabinet à gauche.)
+            
+            SCENE XVJI. 
+            
+            HAMELIN, MADAME HAMELIN. 
+            
+            MADAME HAMELIN. 
+            
+            Eh bien I en avez-vous assez entendu ? connaissez-vous rien
+            au monde de plu* bavard, de plus impertinent que ce Prud-
+            homme ? 
+            
+            ^
+            
+. le le trouTC l^gcr. 
+            
+            IIAMELIR. 
+            
+            Vous me t'erieï sauter au plancher avec Tolrc palicncc. Elle
+            it jolie la tainille d'Adolphe, et il paraît que tous ces brave*
+            gens viennent s'établir ici comme dans qne auberge ; c*est flat-
+            teur pour une maîtresse de maison ! 
+            
+            Je suis vexé de tout ça. 
+            
+            HiMCLlIf. 
+            
+            MADAME IIAMBLIK. 
+            
+            Khcpioi ! … mais VOUS, vous ne voyez que le présent ; voui
+            
+            « (Ci » JKUireux ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Masaniello. </stage>
+            
+            
+                    <l>Si cette famille est nombreuse,</l>
+                    <l>Ils vont arriver par troupeaux.</l>
+                    <l>N'est-ce pas une chose affreuse ?</l>
+                    <l>Loger de pareils animaux !</l>
+                    <l>Du grenier jusqu'à l'écurie</l>
+                    <l>Ma maison devient un bivouac,</l>
+                    <l>Ou bien une ménagerie</l>
+                    <l>Dont vous devenez le cornac.</l>
+                </lg>
+            </div>
+            
+            
+            SCENE XVllI
+            LBS MÊMES, JEANNETON. 
+            
+            JEANNETOK. 
+            
+            Madame, madame^ voilà une vieille qui veut absolument
+            
+            Vous parler. 
+            
+            Une vieille dauie ? 
+            
+            MADAME HAMELIN. 
+            
+            JEANNETON. 
+            
+            Non, pas une vieille dame, une vieille femme. 
+            
+            C'est la jnême chose. 
+            
+            HAMELIN. 
+            
+            JEANNETON. 
+            
+            Mais non ; une vieille dame, ça met un chapeau, et une
+            
+            vieille femme, ça met un bonnet, je dis…
+            
+            HAMELIN. 
+            
+            En voilà assez ; quelle est cette dame ? 
+            
+            MADAME HAMELIN. 
+            
+            Serait-ce encore un fragment de la famille ? 
+            
+            JEANNETON. 
+            
+            Elle ne me Ta pas dit. 
+            
+            Comment cst-cllc arrivée •*
+            
+            MADAME HAMELiN. 
+            
+            28
+            
+            JBANNETOH. 
+            
+            Je viens de la voir descendre : elle était eu lapin sur un cou-
+            
+            cou, 
+            
+            BâMELIN. 
+            
+            t'n lapin sur un coucou ! … Je ne sais vraiment pas où cette
+            petite va chercher les expressions étonnantes qu'elle emploie. 
+            
+            D.'une' monsieur, puisqu'elle é^ait assise sur le siège, au
+            
+            JBANNETON. 
+            
+            droit du cocher. 
+            
+            HAMELIS. 
+            
+            Al) ! en lapin sur un coucou ? … j'entendais : un lapin sur un
+            
+            coucou. 
+            
+            JEANNETON. 
+            
+            Et que même en descendant le cocher l'a embrassée, et
+            qu'elle lui a demandé une prise de tabac ; que même le cocher
+            lui a dit qu'il n'en avait pas. 
+            
+            Qu'avons-nous besoin de tous ces détails-là ? … Et où est-
+            
+            MADAME HAMELIN. 
+            
+            elle maintenant, cette dame ? 
+            
+            JEANNETON. 
+            
+            Tenez ! la voilà là-bas qui prend une prise dans la tabatière
+            
+            du jardinier. 
+            
+            BAMELIN. 
+            
+            Ah î çà, mais le nez de cette dame est donc une succursale
+            {bas.) Faut-il la faire
+            
+            de la régie ? … Voyons ! fais-la entrer, 
+            entrer, madame Hamelin ? 
+            
+            MADAME HAMELIN. 
+            
+            El » ! sans doute. 
+            
+            Eh bien ! qu'est-ce que tu fais là, plantée comme une borne ? 
+            
+            HAMELIN, à Jeanneion. 
+            
+            je te dis de la faire entrer. 
+            
+            Faut-il, madame ? 
+            
+            Eh ! oui. 
+            
+            JEANNETON. 
+            
+            MADAME HAMELIN. 
+            
+            HAMELIN. 
+            
+            Tu verras qui est le maître ici… je te ferai mettre à la porte
+            
+            par ma femme. 
+            
+            Par ici, madame, par ici. 
+            
+            JEANNBTOn. 
+            
+            SCENE XIX. 
+            
+            LES MÊMES, MADAME PITOU. 
+            
+            Votre servante, tout le monde ; c'est moi qui viens ici pour
+            le mariage de mon petit Dodo Coqucrel, qui est mon nou »-
+            
+            MADAME PITOV. 
+            
+            m
+            
+            29
+            
+            ^tjsou… Monsieur cl iiiailaiiie se porlent bien ? J'ai pris les
+            petites voitures de lu porte St-Denis, qui, par parenthèse, 
+            m'ont joliment secouée. (] onimc j'ai dit à mon Dodolphe, 
+            quand il est venu me taire part de son mariage, j'y ai dit : 
+            Coquerel, le mariage n'est pas une petite affaire ; je l'ai t'clé
+            quatre fois mariée moi, telle que vous me voyez : j'ai fait trois
+            mariages d'amour et un mariage de raison… Pardon, mon-
+            sieur Hamelin, prenez-vous du tabac ? 
+            MADAME OAMELIN. 
+            
+            Quelle familiarité I
+            
+            BAMELiN, lui présentant sa tabatière. 
+            
+            Oui, madame, prenez. 
+            
+            MADAME piTor, prenant. 
+            
+            Merci ! ça rafraîchit les idées… C'est une mauvaise habitude
+            que j'ai depuis trente ans, avant d'épouser mon second mari
+            qui était facteur à la petite poste. 
+            
+            Iliséricorde ! 
+            
+            MADAME HAMELIN. 
+            
+            MADAME PITOU. 
+            
+            Je sortais d'avoir une inclination pour un facteur de la Halle
+            aux Cuirs, qui s'est bien mal conduit z'à mon égard, et qui m'a
+            causé bien des peines et bien des chagrins ; que je peux le dire. 
+            Je vous parais peut-être légère ? eh bien ! je m'attache faci-
+            lement. 
+            
+            MADAME HAMELIN, (l SOU mari. 
+            
+            Quels propos ! 
+            
+            MADAME PITOU. 
+            
+            J'avais eu une faiblesse, comme beaucoup de femmes peu-
+            vent en avoir ; comme madame votre épouse a pu en avoir elle-
+            même. 
+            
+            MADAME HAMELIN, se fâchant. 
+            
+            Madame, modérez vos expressions. 
+            MADAME PITOU. 
+            
+            Madame, nul n'est exempté d'aimer sur la terre. C'est une
+            
+            tribut qu'il faut lui payer, 
+            
+            Encore une fois, madame, modérez-vous. 
+            
+            MADAME HAMELIN. 
+            
+            MADAME PITOU. 
+            
+            Quand nous nous connaîtrons mieux, je vous en dirai bien
+            d'autres. Depuis vingt-six ans que je demeure rue Thibautodé, 
+            j'en ai vu assez ; j'ai étudié les hommes ; qui dit les hommes, dit
+            les femmes, c'est lesexe, engénéral… Unepetite prise, s'il vous
+            plaît. 
+            
+            Encore ? 
+            
+            HAMELIN. 
+            
+            MADAME PITOU. 
+            
+            J'en prends comme un Suisse, quelquefois j'en suis z'hon-
+            teusc… Il est bien bon ! Ousquc vous le prenez ? à la Civette ? 
+            
+            Oui, madame. 
+            
+            30
+            
+            HAJIELIIC. 
+            
+            MADAME PITOr. 
+            
+            Moi je le prends à ia Grosse Pipe. {Elle rit, ) Eh ! eh f
+            
+            MADAME HAMELIN, à SOU mari. 
+            
+            Mais d'où sortent tous ces gens-là ? 
+            
+            MADAME PITOU. 
+            
+            Vous paraissez toutes les deux de bonnes gens… Je suis con-
+            tente que mon Dodolphe entre dans une famille aussi respecta-
+            ble. Aujourd'hui il y a tant de gens qui n'ont que le dehors ! …
+            Tenez, dans ma maison, il y a au premier un vieux monsieur
+            et une vieille dame qui sont à leur z'aise ; c'est mes voisins, n'j
+            a que le plomb qui nous sépare ; eh bien ! avant z'hier ils ont
+            mangé du melon, du prix qu'ils étaient, et pas un brodé, un
+            cantaloup, deux fois ma tête. Je ne leurs y inter (Jis pas le me-
+            lon, qu'ils en mangent ! qu'ils en crèvent ! mais croiriez-vous
+            qu'ils ontevu l'infamie dejeter les écosses devant mon paillasson ? 
+            Je ne suis qu'une femme ; eh bien ! je trouve que c'est une pe-
+            titesse ; pas vrai, mame… (Eile tape sur le coude de madame Ma-
+            rne lin, )
+            
+            MADAME HAMELIN, se reculant. 
+            
+            Mais, bonne femme…
+            
+            MADAME PITOU. 
+            
+            Mes moyens me permettraient de manger du melon dans la
+            nouveauté (une supposition) , que je n'irais pas jeter les écosses
+            devant votre paillasson. Aussi je ne leur z'ai pas mâché ; je leux
+            ai dit : c'est d'I'aristocratie toute pure… Il n'y a que des Carlis-
+            tes qui puissent faire des choses pareilles… Dans la ipaison, on, 
+            dit tout haut que c'est des Carlistes. 
+            HAS^ELIK. 
+            
+            Vous ne le dites pas, vous ? 
+            
+            MADAME PITOC. 
+            
+            Non, je respecte les opinions. 
+            
+            MADAME HAMELIN, d soti mari. 
+            Monsieur Hamelin, congédiez celte femme. 
+            
+            MADAME PITOU. 
+            
+            Au reste, pourquoi respecterait-on les autres quand on ueme
+            restepectepecte pas moi-même ? Parce qu'à la mort de mon mari
+            j'avais pris un pensionnaire, un ouvrier bijoutier qui mangeait
+            chez moi, est-ce qu'on n'a pas évu la chose d'écrire à ma famille
+            que j'avais t'un amant ? 
+            
+            Si c'est vrai ? 
+            
+            HAMELIN. 
+            
+            MADAME PITOU. 
+            
+            Oui, monsieur, on a évu cette infamie-là. 
+            
+            MADAME HAMELIN. 
+            
+            Madame, de pareils détails sont tout-à-fait déplaces ici, et…
+            
+            ai
+            
+            MADAME PITOU, pkurant. 
+            
+            Non, je veux me justi (it : r île ces horreurs-là ; puisqtie mon
+            Dodolphe va épouser volie iille et que nous sommes appelés à
+            nous fréquenter, je tiens à ce que vous connussiez mes mœurs. 
+            
+            C'est bon. 
+            
+            HAMELIN. 
+            
+            MADAME PITOU. 
+            
+            Comme je vous le disais tout à l'heure, dans ma jeunesse j'ai
+            pu commettre des écarts, de très grands écarts. Tenez, madame, 
+            Yous allez voir comme j'ai été trompée. 
+            MADAME HAMELIN. 
+            
+            Mais je ne veux rien savoir. 
+            
+            MADAME PITOU. 
+            
+            Si ! si ! si ! Figurez-vous que j'avais seize ans, quand un jeune
+            
+            ébénisse…
+            
+            MADAME HAMELIN. 
+            
+            Assez, madame, assez. 
+            
+            MADAME PITOU, pleurant. 
+            Si, madame, faut que je vous conte tout. 
+            
+            MADAME HAMELIN. 
+            
+            Monsieur Adolphe est au jardin, allez-y faire un lour^ plus
+            
+            tard nous parlerons. 
+            
+            MADAME PITOU. 
+            
+            Je le veux bien ; je suis ici pour plusieurs jours, je ne m'en
+            irai qu'après la noce ; je donnerai un coup de main à votre
+            épouse, je l'aiderai à faire la cuisine, nous ferons notre petite
+            pol-bouille&gt; et je l'aiderai à essuyer la vaisselle. 
+            
+            Ah ! l'horreur ! 
+            
+            MADAME HAMELIN. 
+            
+            MADAME PITOV^
+            
+            Au revoir, monsieur et madame ! par où t'est-ce qu'on ra
+            
+            ï'au jardin ? 
+            
+            MADAME HAMELIN, la conduisatit. 
+            
+            Par-là, au fond, à droite…
+            
+            MADAME PITOU. 
+            
+            Merci. (Elle sort et rentre tout de suite.) Pardon, monsieur
+            
+            Hamelin… une prise, sans vous commander. 
+            
+            MADAME HAMELIN. 
+            
+            Donnez-lui la tabatière, et qu'elle s'en aille. 
+            
+            HAMELIN, lui donnant la tabatière quelle emporte. 
+            
+            Tenez, prenez. 
+            
+            [ElUsort.)
+            
+. 
+            
+            3^
+            
+            SCENE XX. 
+            
+            HAMELIN, MADAME HAMELIN. 
+            
+            MADAME HAMELIN. 
+            
+            Àh ! grand Dieu ! grand Dieu ! … j'ai les oreilles qui ine tin-
+            lent comme si j'allais me trouver mal. Quelle machine à pa-
+            roles ! et quelles paroles encore ! 
+            
+            HAMELIN. 
+            
+            Je suis forcé d'avouer qu'elle est un peu loquace ; pour lo-
+            
+            quace, elle est loquace. 
+            
+            MADAME HAMELIN. 
+            
+            Dites donc que c'est une horreur de femme. 
+            
+            HAMELIN. 
+            
+            C'est l'âge… Elle a dû être très bien à vingt ans. 
+            
+            MADAME HAMELIN. 
+            
+            Taisez-vous donc ; vous me faites rougir pour vous : un vé-
+            
+            téran déguisé, voilà de quoi elle a l'air. 
+            
+            HAMELIN. 
+            
+            Je conviens que sa voix a quelque cho ? e de masculin ; ce-
+            
+            pendant je me plais à croire…
+            
+            MADAME HAMELIN. 
+            
+            Elle m'a donné un coup sur le bras, j'en ai encore la main
+            
+            engourdie. 
+            
+            HAMELIN. 
+            
+            Il fallait le lui rendre… Ah ! bien, moi, je te réponds que si
+            
+            cela m'arrivait : v'ianî
+            
+            MADAME HAMELIN. 
+            
+            Ah ! c'est ça ; vous voilà bien ! vous êtes féroce de loin, et
+            puis, quand les gens sont là, vous trouvez tout cela charmant…
+            Ma parole ! si je ne craignais pas de vous désobliger, je vous
+            qualifierais de vieux jobard. 
+            
+            Merci, ma bonne ; je vous sais gré du scrupule qui vous
+            
+            empêche de me dire votre opinion sur moi. 
+            
+            HAMELIN. 
+            
+            SCENE XXI. 
+            
+            LES MÊMES, JEANNETON. 
+            
+. TEANNETON. 
+            
+            Madame ! 
+            
+            MADAME HAMELIN, apcrcevûTit des /leurs fur la table. 
+            
+            Grands dieux ! Jeanneton, qui est-ce qui a donc cueilli mes
+            
+            fleurs ? 
+            
+            33
+            
+            JEANKETOIf. 
+            
+            C*est ce gros monsieur, qui voulait m'embrasser quand
+            
+            monsieur est entré. 
+            
+            MADAME HAMELIN. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR de Préville et Taconnet</stage>
+            
+            
+                    <l>Ils ont vraiment de singuliers principes</l>
+                    <l part="I">Ces chers parens.</l>
+            
+                    HAMELIN. 
+            
+                    <l part="F">Oui, chers, c'est bien le mot.</l>
+            
+                    MADAME BAMELIN. 
+            
+                    <l>Oser cueillir mes roses, mes tulipes !</l>
+            
+                    HAMELIN. 
+                    <l part="I">Boire mon vin !</l>
+            
+            
+                    JEANNETON. 
+                    <l part="F">Moi, me prendre d'assaut !</l>
+            
+                    BAMELIN. 
+            
+                    <l>Tout arracher du bas jusques en haut !</l>
+                    <l>De toutes parts on nous gruge, on nous pille…</l>
+                    <l>Venir ainsi sans en être priés !</l>
+                    MADAME BAMELIN. 
+            
+                    <l>C'est une horreur, monsieur, vous le voyez ;</l>
+                    <l>Ils ne sont pas encor de la famille,</l>
+                    <l>On les croirait déjà nos alliés.</l>
+                    <l>Ici chacun et nous gruge et nous pille ;</l>
+                    <l>On les croirait déjà nos alliés.</l>
+            
+                </lg>
+            </div>
+            
+            Madame, je venais pour vous dire qu'il y a là un monsieur
+            qui demande à vous parler… c'est un homme de la campagne. 
+            
+            JEANNETON. 
+            
+            Un villageois ? 
+            
+            BAMELIN. 
+            
+            MADAME HAMELIN. 
+            
+            Un paysan ! serait-ce encore un membre de cette famille ? 
+            Monsieur Hamelin 5 j'en ai assez entendu ; je vous déclare que
+            je me retire. 
+            
+            BAMELIN. 
+            
+            Ecoute donc, ma bonne ! tu t'emportes, tu t'emportes I
+            
+            (à Jeaimetoîi.) ï'a-t-il dit son nom ? 
+            JEANNETON. 
+            
+            Il m'a dit Rouss… Uoussin… Rousselet, 
+            
+            MADAME HAMELIN. 
+            
+            Le nom est harmonieux ! voydns, est-ce Roussin ou Rous-
+            
+            selet ? 
+            
+            HAMELIN, avec impatience. 
+            
+            Cette petite esthète comme une oie^yoilà mon opinion sur elle. 
+            
+            La Famille improvisée. 
+            
+            5
+            
+            34
+            
+            JEANNETON. 
+            
+            Dame, monsieur…
+            
+            allendez…
+            
+            il m'a dit Jean-Jacqiies
+            
+            Rouss…
+            
+            HIMELIN. 
+            
+            Jean-Jacques Rousseau ! ! ! Ah ! que je suis bâte… ça ne peut
+            pas être… il est décédé… il y a même quelque temps… x\u fait
+            je me rappelle qu'Adolphe m'a parlé d'un parent nommé Rous-
+            seau, {à j eanneton.) Voyons, fais-le entrer ; quand nous déli-
+            bérerons jusqu'à demain…
+            
+            Vous êtes un homme terrible, monsieur Hamelin \
+            
+            MADAME HAMELIN. 
+            
+            Entrez ! monsieur, entrez ! 
+            
+            JEANTÇETON. 
+            
+            SCENE XXII. 
+            
+            LES MÊMES, ROUSSEAU, une pipe à la bouche. 
+            
+            Salut, tout le monde, la compagnie ! C'est-il vous qu'est
+            
+            monsieur et madame Hamelin ? 
+            
+            BOCSSEAC. 
+            
+            C'est nous-mêmes, mon cher. 
+            
+            HAMEXIN. 
+            
+            MADAME HAMELIN. 
+            
+            11 ne manquait plus que celui-là… Dieu ! quelle infection ! 
+            
+            ROUSSEAU. 
+            
+            Pardon, excuse, monsieur et madame Hamelin ! Si je ve-
+            nons comme ça ; c'est au sujet d'un quelqu'un que vous connais-
+            sez… IM. Adolphe Coquerel. 
+            
+            Vous êtes son parent ? 
+            
+            HAMELl ». 
+            
+            ROUSSEAU. 
+            
+            Non, je suis son cousin, par les femmes, comme on dit, 
+            c'est le mauvais côté ! (// rit.) Ma femme est une Coquerel, et
+            j'vas vous dire, comme j'vous disais, je suis marchand de bes-
+            tiaux à Saint-Leu-Taverny… Alors, parce que c'est demain
+            jour du marché à Ponloise, comme mon cousin, parce que ma
+            femme (qui est une Coquerel) m'a dit, dit-elle, faut aller voir
+            le cousin, parce que c'est juste ; quand on entre dans une famille
+            comme monsieur et madame Hamelin, on a de la politesse, 
+            c'est pas des goujats. 
+            
+            Merci de l'opinion favorable…
+            
+            UAMELIN. 
+            
+            ROUSSEAU. 
+            
+            Je le dis, moi… ça ne serait pas ça, que je vous le dirais
+            tout de même : quand on est parens, faut pas se gêner… Vous
+            viendreriez cheu nous, une supposition, vous viendreriez cheu
+            
+            35
+            
+            nous, n'est-ce pas ? ah mon Dieu ! c'est la bonne amitié, quoi ! 
+            ma femme est une Coquerel, et tout est dit. 
+            
+            HAMELIN. 
+            
+            Sans doute, sans doute, je suis persuadé que nous serions
+            
+            très bien repus chez vous. 
+            
+            MADAME HAMELIN, bos à SOU mari. 
+            
+            Ah ! monsieur Hainehn, je ne puis supporter l'odeur infecte
+            
+            du tabac de cet homme. 
+            
+            [Elle porte son mouchoir d sa bouche, et s'agite sur sa chaise.)
+            
+            Quoi qu'air a ? quoi qu'ail' a, marne Hamelin ? Est-ce que…
+            
+            ROUSSEAU, à Hamelin. 
+            
+            aile tombe d'un mal ? 
+            
+            Non… c'est que… ce sont les nerfs qui la tourmentent. 
+            
+            HAMELIN, avec hésitation. 
+            
+            ROUSSEAU. 
+            
+            Les narfs vous voulez dire ? ah bien ! faut lui frotterle dos avec
+            une couenne de lard ; vous prenez une bonne couenne de lard, 
+            et puis la tête de votre femme de l'autre, et puis vous frottez…
+            farme, farme, du depuis le chignon du cou tout le long de l'é-
+            chine du dos. Ah ! ça la cuira, ail' criera, ail' jurera comme
+            un charretier, aile pourra peut-être bien loucher, y en a qui
+            louchent… Vous n'y faites pas attention, vous frottez toujours…
+            tant pus que c'est pour son bien-être… et v'ià tout… c'est
+            souverain pour les narfs. 
+            
+            MADAME HAMELIN, à part. 
+            
+            Quelle infamie de remède ! 
+            
+            Air remue encore… ail' a queuque chose. 
+            
+            HAMELIN, à Rousseau. 
+            
+            ROUSSEAU. 
+            
+            Franchement, je crois qu'elle va quitter la place, voyez-
+            
+            vous ? elle n'a pas l'habitude de sentir l'odeur…
+            
+            ROUSSEAU. 
+            
+            Ma cousine ! … faut pas que je vous retienne : y a des gens
+            qui n'aiment pas ça… mais tout de même ça corrige la mauvaise
+            air. Monsieur et mame Hamelin, puisque nous allons t'être pa-
+            rens, je vous demanderai la permission de faire entrer ici quatre
+            bœufs et quinze moutons… que je ramène à Saint-Leu-Tavern}^, 
+            mais après le mariage de mon cousin…
+            
+            MADAME HAMELIN, se levant tout d coup. 
+            
+            Quatre bœufs et quinze moutons ! mais où voulez-vous donc
+            
+            que nous les logions ? 
+            
+            Dame… nous voirons ça, ma cousine… et puis sans façon je
+            
+            ROUSSEAU. 
+            
+            vous demanderai un verre de vin. 
+            
+            HAMELIN. 
+            
+            Pour ça, volontiers. (â part.) Il faut à tout prix nous dé-
+            
+            barrasser de lui. (// sonfie. 
+            
+) 
+            
+, 
+            
+            36
+            
+            scEïNE xxm. 
+            LES MÊMES, JEANNETON. 
+            
+            Monsieur a sonné ? 
+            
+            JEA. N1VET0N. 
+            
+            HÀMELIN. 
+            
+            Apporte une bouteille de vin. 
+            
+            ROUSSEAU. 
+            
+            Je vous demanderai un morceau de pain et une bouchée de
+            
+            froDiage avec…
+            
+            MADAME HAMELIN. 
+            
+            Mais, monsieur… (à part.) II est sans façons. 
+            ROUSSEAU, s* accoudant sur la table. 
+            
+            Monsieur et madame Hamelin, y a-t-il long-temps que vous
+            
+            habitez Armanonville ? 
+            
+            HAMELIN. 
+            
+            II y a quinze ans à peu près ; car lorsque je faisais le com-
+            
+            merce de grains, j'habitais Paris. 
+            
+            Là où ? 
+            
+            Comment dites-vous ? 
+            
+            Là où ? 
+            
+            ROUSSEAU. 
+            
+            bamelin. 
+            
+            ROUSSEAU. 
+            
+            BAMELIN. 
+            
+            Ah ! près de la Halle-aux-Blés. 
+            (Jeanneton apporte une bouteille, deux verres, du pain et du
+            fromage ; tandis qu'elle les place sur la table, Rousseau la
+            regarde d'un air satisfait. 
+            
+) 
+            
+            ROOSSEAU, à Hamelin, 
+            
+            Vous avez une servante qui est diablement belle femme ! 
+            aile est belle femme ! (// lutine Jeanneton qui rit aux éclats y
+            madame Hamelin parait scandalisée, Jeanneton sort. ^ Ah ! vous
+            demeuriez du côté de la Halle-aux-Blés ? … Avez-vous connu la
+            mère Michel ? 
+            
+            Est-ce la mère Michel qui a perdu… ? non, je me trompe
+            
+            c'est Pichcl qu'on la nomme. 
+            
+            BAMELIN. 
+            
+            ROUSSEAU. 
+            
+            La mère Michel qui fait frire de la friture. 
+            
+            BAMELIN. 
+            
+            Non ; je ne connus jamais personne du nom de Michel. 
+            
+            ROPSSEAU. 
+            Aveivous connu le père Michel ? 
+            
+            37
+            
+            HàMELIH, 
+            
+            Pas davantage ; pui. sque je vous dis que je ue connus per-
+            
+            sonne de ce nom-là. 
+            
+            Qui tondait les chiens ? 
+            
+            BOUSSEAV. 
+            
+            HAMELIN. 
+            
+            Gonibien de fois faut-il vous répéter… ? 
+            
+            Vous n'avez pas connu son cousin ? 
+            
+            ROUSSEAU. 
+            
+            Je vous dis que non. 
+            
+            HÂMELIN. 
+            
+            ROUSSEAU. 
+            
+            C'est comme vous voudrez : (se servant à boire.) A votre
+            sanlé, monsieur et madame Hamelin ! … il est gentil tout de
+            même votre petit vin, 
+            il se laisse boire. (// jette le reste de son
+            verre de vin^ et éclabousse Hamelin qui se re&lt; /r «.) Est-ce que vous
+            n'allez pas trinquer avec moi, mon cousin ? 
+            
+            HAMELIN. 
+            Merci ! j'ai pris mon café au lait. 
+            
+            ROUSSEAU, buvant. 
+            
+            Ah ! le café au lait… je dis à ça, c'est bon pour régaler les chats
+            et les chiens ; alors c'est la cousine qui me tiendra compagnie. 
+            (// remplit un verre de vin et l'offre à madame Hamelin.)
+            
+            Il offre un petit verre de vin à ma femme ! 
+            MADAME H k^LELivi, se reculant. 
+            
+            HAMELIN, d part. 
+            
+            Ah ! l'horreur ! Monsieur, je ne bois jamais entre mes repas. 
+            
+            Excusez… Eh bien ! si j'vous ai manquée, madame Hamelin, 
+            
+            ROUSSEAU, se levant. 
+            
+            il faut que je vous demande la permission de vous embrasser. 
+            MADAME HAMELIN, Jetant un cri, et passant de l'autre côté de /&lt; *
+            
+            Quelle horreur ! …
+            
+            Mais, monsieur…
+            
+            scène. 
+            
+            HAMELIN. 
+            
+            ROUSSEAU, courant après madame Hamelin, tandis qu'Hamelin
+            
+            le retient par le pan de sa redingote. 
+            Si : je suis sûr que marne Hamelin m'en veut. 
+            
+            MADAME HAMELIN, s'éloignant. 
+            
+            Non, non ! je vous pardonne, mais retirez-vous. 
+            ROUSSEAU, voulant toujours l'embrasser. 
+            
+            Marne Hamelin, c'est le cœur, c'est la bonne amitié. 
+            
+            Ah ! vous infectez. 
+            
+            MADAME HAMELIN. 
+            
+            ROUSSEAU. 
+            
+            Du tout ! je vous jure que non. 
+            
+            38
+            
+            BiMELIN. 
+            
+            Eile veut dire que vous exhalez une odeur de tabac…
+            
+            C'est le gouvernement. 
+            
+            ROUSSEAU. 
+            
+            BÀMELIN. 
+            
+            Comment ? c'est le gouvernement ! 
+            
+            ROUSSEAU. 
+            
+            C'est sa faute ! faut vous en prendre au gouvernement qui
+            
+            vend du tabac que les bestiaux ne voudraient pas le fumer…
+            
+            HAMELIN. 
+            
+            Mon cher Rousseau ! pour l'amour de Dieu ! entrez dans ce
+            
+            cabinet, il y a déjà des gens de votre connaissance. 
+            
+            Monsieur et mame Hamelin, j'veux ben ; mais pour ce qui
+            
+            ROUSSEAU. 
+            
+            est de l'odeur, c'est le gouvernement, il est fautif. 
+            
+            Entrez, entrez là-dedans. 
+            
+            HAMELIN. 
+            
+            ROUSSEAU. 
+            
+            J'vas VOUS demander la permission de charger ma pipe. 
+            
+            (Il tire de sa poche un sac à tabac et charge sa pipe en chantant
+            le couplet suivant à gorge déployée. 
+            
+) 
+            
+            <div type="poem">
+                <lg>
+                    
+                    <stage type="tune" id="AIR : Et tu fuis dans la plaine."></stage>
+            
+                    <l>Pierrot, tu ne veux pas m'aimer…</l>
+            
+                    Le voilà qui chante, à présent ! 
+            
+                    BAMELIN, à part. 
+            
+                    ROUSSEAU. 
+            
+                    <l>Et tu fuis dans la plaine.</l>
+                    <l>Je ne peux pas m'accoutumer</l>
+                    <l>À rester dans la peine.</l>
+                    <l>Tout en pleurant je garde mes agneaux ;</l>
+                    <l>Et tu fuis dans la plaine <stage type="repetition"> (bis.)</stage></l>
+                    <l>Pour toi, Pierrot, que j'endure !</l>
+                </lg>
+            </div>
+            
+            
+            (Il ouvre la porte du cabinet en la poussant du bout de son
+            
+            bâton et entre dans le cabinet, 
+            
+) 
+            
+            SCENE XXIV. 
+            
+            HAMELIN, MADAME HAMELIN. 
+            
+            MADAME HAMELIN. 
+            
+            Dieu merci, le voilà entré ! … Monsieur Hamelin, ouvrez les
+            fenêtres, … la porte, … tout… je suis prête à m'évunouir. J'ai
+            vu bien des malotrus dans ma vie, mais je puis dire que celui-
+            là ! … Concevez-vous rien de plus insolent que sa proposition ? 
+            un homme que nous n'avons jamais vu cl qui vient de prime
+            abord nous proposer de loger son troupeau. 
+            
+            39
+            
+            HAMELIN. 
+            
+            La proposition est leste… cependant si j'avais eu de la
+            
+            place…
+            
+            MADAME HAMELIN. 
+            
+            Vous l'auriez reçu ? en vérité, monsieur Hamelin, je crois
+            
+            que vous retombez en enfance. 
+            
+            HAMELIN. 
+            
+            Ma chère amie, c'est une manière honnête de me dire que
+            
+            je suis…
+            
+            MADAME HAMELIN. 
+            
+            Mais, dame ! vous me dites que vous recevriez cet homme
+            
+            qui m'a presque asphyxiée avec sa fumée. 
+            
+            Mais, ma bonne amie, il vous a dit d'où cela provenait. 
+            
+            HAMELIN. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Je loge au quatrième étage. </stage>
+            
+            
+                    <l>Si de la pipe de notre hôte</l>
+                    <l>Votre nez se trouve affecté,</l>
+                    <l>Il faut (car ce n'est pas sa faute)</l>
+                    <l>Vous en prendre à l'autorité</l>
+                    <l>Qui vend du tabac frelaté</l>
+                    <l>Que le gouvernement réponde</l>
+                    <l>De ne plus faire ce mic-mac :</l>
+                    <l>Il fait fumer assez de monde</l>
+                    <l>Pour vendre au moins de bon tabac.</l>
+                </lg>
+            </div>
+            
+            
+            MADAME HAMELIN. 
+            
+            Monsieur Hamelin, nous ne pouvons pas nous allier à de pa-
+            reilles gens ; il faut absolument dire à monsieur Adolphe qu'il
+            ne doit plus compter sur votre fille. 
+            HAMELIN. 
+            
+            Encore faut-il prendre des précautions pour ne pas blesser
+            l'amour-propre de ce malheureux jeune homme ; ce n'est pas
+            de sa faute s'il a de semblables parens. 
+            
+            MADAME HAMELIN. 
+            
+            Ce n'est pas la mienne non plus. 
+            HAMELIN. 
+            
+            Paix ! le voici. 
+            
+            SCENE XXV. 
+            LES MÊMES, ADOLPHE. 
+            
+            ADOLPHE, entrant. 
+            
+            Eh bien ! madame, je viens savoir votre réponse ; vous avez
+            
+            vu toute ma famille ? 
+            
+            MADAME HAMELIN. 
+            
+            Oui, monsieur, nous avons vu la collection complète. 
+            
+            Ce sont de braves gens. 
+            
+            Je ne dis pas non. 
+            
+            40
+            
+            ADOLPHE. 
+            
+            B1MEL1T. 
+            
+            ADOLPHE. 
+            
+            Sans appartenir à des parens bien distingués, je tiens un rang
+            
+            dans la société. 
+            
+            MADAME HAMELiN, embarrassée. 
+            
+            Monsieur… certainement… Mais mon mari et moi nous
+            avons réfléchi, Eulalie est bien jeune encore, et nous craignons
+            de nous en séparer. 
+            
+            HAMELIN. 
+            
+            J'ajouterai même, monsieur, que nous craignons de nous
+            
+            en séparer. 
+            
+            ADOLPHE. 
+            
+            C'est assez, je comprends ; je vois que mes parens n'ont pas
+            
+            été assez heureux pour vous plaire… et je vais me retirer. 
+            
+            SCENE XXVI. 
+            
+            LES MÎMES, JEANNETON. une lettre à ta main. 
+            
+            JEANNET05. 
+            
+            Monsieur, voilà une lettre qu'un exprès vient d'apporter. 
+            
+            HAMELI5, après avoir décacheté la lettre. 
+            
+            C'est du père de monsieur Adolphe. 
+            
+            De mon père ? 
+            
+            ADOLPHE. 
+            
+            HAMELIN, lisant. 
+            
+            « Monsieur, ma famille ne peut se rendre aujourd'hui à Er-
+            « menonville, mon fils sera bien contrarié de ce retard ; mais
+            f demain son impatience sera satisfaite, et nous aurons le plai-
+            « sir d'embrasser votre charmante Eulalie, que nous regardons
+            « déjà comme notre enfant, p
+            
+            MADAME HAMELIN. 
+            
+            Qu'e t-ce que cela signifie ? 
+            
+            HAMELIN. 
+            
+            On s'est indignement joué de moi ; je suis furieux. 
+            
+            ADOLPHE. 
+            
+            Monsieur Hamelin, me pardonnerez-vous ? je suis complice
+            
+            d'une ruse bien coupable. 
+            
+            HAMELIN. 
+            
+            Monsieur… c'est une horreur ! Vous m'avez fait jouer le
+            r^) le d'un jocrisse, monsieur ! (// va à la porte du cabinet.) Sor-
+            tez, messieurs, qucj « vous dise des injures. 
+            
+            41
+            
+            SCENE XXVII. 
+            LES MÊMES, ALBERT. 
+            
+            ALBERT, sortant du cabinet. 
+            
+            Me voici de retour. 
+            
+            QÀMELIN. 
+            
+            Vous ici, monsieur : ah ! çà, les parens qui y étaient n'y sont
+            plus ? vous qui n'y étiez pas, vous y êtes ? tout ce qui nous ar-
+            rive aujourd'hui est inexplicable. 
+            
+            ALBERT. 
+            
+            Vous allez
+            
+            tout savoir : ce matin, lorsque je me présentai
+            chez vous, vous parûtes ne voir en moi qu'un plaisant de pro-
+            fession qui venait pour poser à votre table ; d'un autre côté, 
+            Adolphe m'apprit que, pour obéir aux vœux de sa famille, il
+            sacrifiait ceux de son cœur… 11 fallait vous déterminer à rom-
+            pre de vous-même un mariage qui ne peut le rendre heureux…
+            Vous vouliez que je vous fisse quelques charges ; elles avaient
+            désormais un but d'utilité, je lui improvisai une famille épou-
+            vantable. 
+            
+            MADAME HAMELIN, piquée. 
+            
+            Comment, monsieur Adolphe, votre mariage avec ma fille
+            
+            causerait votre malheur ? 
+            
+            ADOLPHE. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR de la Vieille. </stage>
+            
+            
+                    <l>Il est un objet que j'adore,</l>
+                    <l>Riche de graces et d'attraits ;</l>
+                    <l>Hélas ! je ne sais pas encore</l>
+                    <l>Si je le reverrai jamais !</l>
+                    <l>Vous dire son nom, je l'ignore,</l>
+                    <l>Car je ne lui parlai jamais.</l>
+                    <l>Non, je ne lui parlai jamais.</l>
+                    <l>Loin d'en rougir, ici je le proclame,</l>
+                    <l>Un doux penchant me subjugue et m'enflamme ;</l>
+                    <l>J'ai fait serment, dans le fond de mon ame,</l>
+                    <l>Que je n'aurais jamais une autre femme…</l>
+             
+            
+            SCENE XXVIII. 
+            LES MÊMES, EULALIE, CHCEUR. 
+            
+            EVLALIE, finissant l'air. 
+            
+            <l>Eh bien ! monsieur, j'arrive au bon moment :</l>         
+            <l>N'oubliez pas votre serment.</l>
+            
+               
+            
+            La Famille improvisée. 
+            
+            6
+            
+. 
+            
+            42
+            
+            ADOLPHE, parlant, 
+            
+            Eulalie ! …
+            
+         ^
+                    <l>Ah ! quel bonheur ! ah ! quel heureux moment !</l>
+                    <l>Oui, je tiendrai mon doux serment.</l>
+                </lg>
+            </div>
+            
+            
+            BÀMELIN. 
+            
+            Comment, mi fille, tu connaissais monsieur ? monsieur te
+            connaissait, et vous ne vous connaissiez pas ? Je ne m'y recon-
+            nais plus, (^se tournant vers Albert.) Et vous, monsieur, vous
+            seriez ? …
+            
+            ALBERT, voix de Ccguerel. 
+            
+            L'amant de la petite Brillmt, c'est d'elle que me vient ce
+            camée… {voix de Pradfiomme.) Joseph Prudhomme, profes-
+            seur d'écritures, élève de Brard et de Saint-Omer, expert as-
+            sermenté près les cours et tribunaux. 
+            
+            Est-il possible ? 
+            
+            Quoi, ce rustre ? 
+            
+            MADAME ÇEAMELIN. 
+            
+            HAMELIN. 
+            
+            ALBERT, voix dc Rousêcau. 
+            
+            Ah ! mon Dieu ! oui ! monsieur et madame Hamelin, c'était
+            
+            moi. 
+            
+            Et la vieille dame ? 
+            
+            HAMELIN. 
+            
+            ALBERT, lui rendant la tabatière et imitant la voix de
+            
+            madame Pitou. 
+            
+            Voulez-vous prendre une prise, mon cousin ? (reprenant sa
+            voix naturelle.) Mais ma tâche est remplie… J'ai contribué, je
+            crois, au bonheur d'Adolphe… II ne me reste plus qu'à pren-
+            dre congé de vous. 
+            
+            HAMELIN. 
+            
+            Prendre congé de nous ? je m'y oppose formellement… Soyez
+            notre convive ; vous n'avez ici que des amis ; soyez des nôtres, 
+            soyez toujours des nôtres. 
+            
+            Je n'ose l'espérer encore, monsieur Hamelin ; j'ai besoin, 
+            
+            pour cela, de recueillir bien des suffrages !.,. 
+            
+            ALBERT. 
+            
+            (aa public » 
+            
+) 
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Château perdu.</stage>
+            
+            
+                    <l>Messieurs, jadis, dans une autre carrière,</l>
+                    <l>Votre indulgence a su me soutenir ;</l>
+                    <l>J'invoque ici votre bonté première :</l>
+                    <l>Que le passé protège l'avenir !</l>
+                    <l>Songez, messieurs, sur ce point-là j'insiste,</l>
+            
+                    53
+            
+                    <l>Lorsque je brigue un suffrage nouveau,</l>
+                    <l>Que devant vous c'est toujours un artiste.</l>
+                    <l>Et qu'il n'a fait que changer de drapeau.</l>
+            
+                    liN CnOKUR. 
+            
+                    <l>Oui, devant vous, c'est toujours un artiste :</l>
+                    <l>Il n'a, messieurs, que changé de drapeau.</l>
+                </lg>
+            </div>
+            
+            
+            FIN. 
+            
+            <div type="poem">
+                <lg>
+            
+                    * Ce couplet final faisant allusion à la position particulière de M. Henri
+            
+                    Monnier, MM. les artistes des départemens pourront y substituer celui-ci : 
+            
+                    <l>Vous le voyez, on me prie avec grace ;</l>
+                    <l>Mais dans mon cœur je sens naître l'effroi.</l>
+                    <l>À leur banquet dois-je prendre ma place ?</l>
+                    <l>Et n'est-ce pas trop présumer de moi ?</l>
+                    <l>En vain pour moi leur indulgence est grande ;</l>
+                    <l>En vain chacun voudrait me retenir…</l>
+                    <l>C'est à vous seuls, messieurs, que je demande</l>
+                    <l>S'il faut rester ou si je dois partir.</l>
+            
+                    CHŒUR. 
+            
+                    <l>C'est à vous seuls, c'est à vous qu'il demande</l>
+                    <l>S'il doit rester ou bien s'il doit partir.</l>
+                </lg>
+            </div>
+            
+            
+            GOSTITMES
+            
+            ET
+            
+            CARACTERES DES TRAVESTISSEMENS. 
+            
+            Albert. — Jeune peintre. De Taisance, maintien sérieux ; ha-
+            bit bleu, boutons de métal, boutonné jusqu'en haut ; pantalon
+            de fantaisie ; cravate noire, un lorgnon, une chaîne de mon-
+            tre, une petite canne à la main. 
+            CoQrEREL. — Vieux roué de bonne compagnie. Maigre et la
+            
+            Toix cassée ; l'air railleur et un peu suffisant, habitude du
+            monde ; habit marron à l'ancienne mode, à larges boutons d'a-
+            cier à facettes ; gilet blanc, culotte de soie noire, bas de soie
+            gris, souliers à boucles, chemise à jabot, et par-dessus, large
+            douillette de soie gorge-de-pigeon ; perruque blonde frisée, 
+            petit col blanc, une canne de jonc avec tête d'ivoire. 
+            Phtohomme. — Gros imbécile. L'embonpoint et l'aplomb de
+            
+            la sottise ; le verbe haut, la tête levée ; la voix d'une basse-
+            taille. Habit et pantalons noirs, gilet blanc carré très court, bas
+            de coton blancs, un col de chemise montant jusqu'en haut des
+            oreilles et joignant presque sur le devant ; grosse cravate blan-
+            che, chapeau gris forme ancienne ; une chaîne démontre en or ; 
+            perruque grise demi-chauve, favoris coupés près de l'œil ; les
+            manchettes el le parement retroussés. 
+            Rousseau. — Rustre dans toute la force du terme. De la fran-
+            chise el de la gaîté ; voix enrouée ; l'accent des paysans des en-
+            virons de Paris. Redingote de toile grise, dont le dos et quel-
+            ques autres parties sont d'une étoffe plus foncée ; pantalon de
+            même étoffe, gilet à fleurs, cravate de couleur, ceinture de
+            cuir, gros souliers, guêtres de cuir formant la botte-forte, un
+            éperon à droite ; perruque rousse à grosse queue, poudrée, 
+            tombant très bas, un serre-tête de toile malpropre, gros favo-
+            ns roux formant collier, grandes boucles d'oreille en anneaux ; 
+            une chaîne de montre en argent, une pipe à la bouche, à la
+            main un bâton de bouvier. 
+            Madame Pitou. — Vieille bavarde. L'air f\imilier et la voix
+            traînante et nasillarde des femmes du peuple. Déshabillé d'in-
+            dienne ; tablier rouge à bavette ; fichu à fleurs ; bonnet serre-
+            tête noué sous le cou. 
+            
+'A^
+            
+            K'I
+            
+. &gt; 3P^
+            
+            m
+            
+            y^. 
+            
+            W
+            
+            x^
+            
+            &lt; ^. ^Tvi
+            
+            ih :-
+            
+            y^ia^f
+            
+            ^ » M
+            
+            ^*w^'
+            
+            *\
+            
+            V. 
+            
+            J^^
+            
+            z*^ %&gt; ^^ 1
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,3245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">PERRUQUE ET CHANDELLES</title>
+                <title type="sub">VAUDEVILLE EN UN ACTE</title>
+                <author key="DUV" sort="1">
+                    <name>
+                        <forename>Félix-Auguste</forename>
+                        <surname>Duvert</surname>
+                    </name>
+                </author>
+                <author key="DLV" sort="2">
+                    <name>
+                        <forename>Augustin Théodore</forename>
+                        <surname>De Lauzanne de Vauroussel</surname>
+                        <addname type="pen_name">De Lauzanne de Vaux-Roussel</addname>
+                        <addname type="pen_name">Lauzanne</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                  <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+                   	<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">PERRUQUE ET CHANDELLES</title>
+                        <author>DUVERT ET LAUZANNE</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=6btoAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>The British Library</repository>
+                                <idno type="URL">http://access.bl.uk/item/viewer/ark:/81055/vdc_100034252118.0x000001</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1832-04-26">26 AVRIL 1832</date>
+                <placeName>
+                    <settlement>THÉÂTRE NATIONAL DU VAUDEVILLE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                  <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            PERRUQUE
+            
+            3
+            
+            ET
+            
+            CHANDELLAS, 
+            
+            Vaudeville en un Acte, 
+            
+            PAR
+            
+            K
+            
+            MM. DUVERT ET LAUZANNE ; 
+            
+            REPRÉSENTÉ, POUR LA PREMIÈRE FOIS, A PARIS, 
+            
+            SUR LE
+            
+            THÉATRE NATIONAL DU VAUDEVILLE
+            
+            LE 26 AVRIL 1832. 
+            
+            Prix : 1 f. 50 c. 
+            
+            PARIS
+            
+            J.-N. BARBA, LIBRAIRE, 
+            
+            PALAIS-ROYAT, GRANDE COUR, DERRIÈRE LF. THÉATRE-FRANÇAIS. 
+            
+            1832
+            
+            $
+            
+            Personnages : 
+            
+            Acteurs : 
+            
+            QUILLARD, épicier retiré. 
+            
+            MM, LEPEINTRE jeune. 
+            
+            BEDOU, ancien garçon épicier. 
+            
+            BERNARD-LÉON. 
+            
+            BRETON. 
+            
+            ADOLPHE, clerc de notaire. 
+            
+            ÉMILE TAIGNY. 
+            
+            MARTIN, propriétaire de la maison. 
+            
+            Emilien. 
+            
+            Mme QUILLARD. 
+            
+            Mmes GUILLEMIN. 
+            
+            LOUISE, fille de Quillard. 
+            
+            UNE DOMESTIQUE. 
+            
+            GEORGINA. 
+            
+            AUGUSTA. 
+            
+            (La scène se passe à Paris, chez Quillard.)
+            
+            i
+            
+            IMPRIMERIE DE HENRI DUPUY, 
+            
+            RUE DE LA MONNAIE, N. II. 
+            
+            PERRUQUE
+            
+            ET
+            
+            CHANDELLES. 
+            
+            Le théâtre représente une chambre d'entrée de l'appartement de Quillard ; 
+            
+            une porte au fond donnant sur le pallier. A gauche, au troisième plan, 
+            
+            l'entrée de la chambre à coucher ; à droite, au premier plan, une porte de
+            
+            sortie qui est censée communiquer à l'extérieur, et devant laquelle est dé
+            
+            ployé un paravent ; devant le paravent une table et tout ce qu'il faut pour
+            
+            écrire ; à gauche, une petite table à ouvrage. 
+            
+            SCÈNE I ". 
+            
+            ADOLPHE, entrant par le fond, après s'étre assuré qu'il n'y
+            
+            a personne dans la chambre. 
+            
+            M'y voilà ! D'après ce que m'a dit Bedou hier au soir, 
+            M. Quillard doit être sorti ; sa femme est à la campagne, et ne
+            
+            doit revenir que demain ; je pourrai donc voir ma chère
+            
+            Louise ! Allons, allons ! du couraged et avec l'aide de Dieu et
+            de Bedou, qui dans ce moment-ci est son représentant pour
+            moi, je deviendrai le gendre de M. Quillard. D'abord, sa
+            
+            femme est déjà fort bien disposée en ma faveur, grâce à une
+            
+            espérance chimérique que j'ai plantée dans le cerveau du
+            
+            mari… Ça, je me le reproche, car si l'on vient à découvrir que
+            
+            je l'ai abusé, je suis perdu aux yeux de tous les deux. Mais
+            
+            est-il capable, lui, de réfléchir jusque-là ? Non ; car il appar
+            
+            tient par son ancienne profession à une classe heureuse qui, 
+            par malheur, a échappé aux observations de Buffon ; et c'est
+            
+            bien dommage ! 
+            
+            4
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Ces postillons sont d'une maladresse. </stage>
+            
+            
+                    <l>Il existe dans la nature</l>
+                    <l>Un être mixte et fort original,</l>
+                    <l>Qui, sous une humaine structure,</l>
+                    <l>À tout l'esprit d'un végétal. <stage type="repetition"> (bis.)</stage></l>
+                    <l>Oui, je soutiens, et la chose est constante,</l>
+                    <l>Que, pour qui sait l'apprécier,</l>
+                    <l>Le moyen terme entre l'homme et la plante,</l>
+                    <l>Vraiment, c'est l'épicier. <stage type="repetition"> (bis.)</stage></l>
+                </lg>
+            </div>
+            
+            
+            (Apercevánt Bedou qui entre par la gauche.) Ah ! inon cher
+            
+            Bedou, je vous attendais avec impatience. Comment ça va-t-il ? 
+            
+            SCÈNE II. 
+            
+            BEDOU, ADOLPHE…
+            
+            BEDOU. 
+            
+            Comme vous voyez ! avec un rhume de cerveau qui me jette
+            
+            dans la désolation, mon bon ami. (Il éternue.)
+            
+            ADOLPHE. 
+            
+            Eh ! bon dieu ! pourquoi restez-vous nu-tête ? Pourquoi n'a
+            
+            vez-vous pas mis votre perruque ? 
+            
+            BEDOU. 
+            
+            Par une raison que vous comprendrez parfaitement. C'est
+            
+            que je l'ai prêtée ce matin à M : Quillard, et que ce malheureux
+            
+            homme n'est pas (il a envie d'éternuer) , n'est pas… (il éternue) 
+            
+            n'est pas encore rentré. 
+            
+            ADOLPHE. 
+            
+            Ah ! mon dieu ! et pourquoi lui avoir prêté… ? 
+            
+            BEDOU. 
+            
+            Je vas vous dire. Madame est à Pontoise depuis trois jours ; 
+            
+            Monsieur, qui a voulu se faire très-joli pendant l'absence de
+            
+            sa femme, a envoyé sa perruque chez le coiffeur pour la faire
+            
+            friser, et ce diable de perruquier… il n'a pas encore rendu
+            
+            l'objet… de sorte que Monsieur se trouvait consigné à la mai
+            
+            son, pour cause de perruque. Moi, voyant ceci, je lui ai prêté
+            
+            la mienne pour aller payer le loyer à M. Martin, le proprie
+            
+            taire… C'est une bonne action, n'est-ce pas ? Il faut avoir
+            
+            1
+            
+            pitié de son semblable. 
+            
+            ADOLPHE. 
+            
+            Sans doute, sans doute ; mais la charmante Louise…
+            
+            BEDOU. 
+            
+            Ah ! M. Adolphe ! j'ai des fameux reproches à me faire. Hier
+            
+            5
+            
+            après vous avoir promis de vous seconder dans vos amours, je
+            
+            me suis dit : Bedou ! tu commets tout ce que tu ne dois
+            
+            p a s ! 
+            
+            tu fais entrer dans la maison un jeune homme dont M. Quil
+            Jard repousse. 
+            
+            A DOLPHE. 
+            
+            Mon cher Bedou ! vous savez combien mes intentions sont
+            
+            pures. 
+            
+            BEDOU. 
+            
+            Parbleu ! il ne manquerait plus que cela, par exemple ! 
+            
+            ADOLPHE. 
+            
+            Vous n'avez pas pu le supposer, depuis dix ans que vous me
+            
+            connaissez…
+            
+            BEDOU. 
+            
+            C'est pourtant vrai, voilà dix ans. Quand vous étiez simple
+            
+            gamin chez le notaire, et que vous veniez tous les matins à la
+            
+            boutique chercher un quarteron de fromage de Gruyère pour
+            
+            les clercs dont vous étiez membre. (Après un soupir.) Ah ! je
+            
+            n'étais pas né pour l'épicerie, M. Adolphe ! quand je pense que
+            
+            je suis entré second jeune homme chez M. Quillard, à l'âge de
+            
+            neuf ans ! quand je pense que j'ai passé trente-sept ans de ma
+            
+            vie à faire des cornets et à peser du poivre et du macaroni ! je
+            
+            me dégoûte moi-même… moi qui étais né droguiste… Ab ! 
+            
+            cette idée-là m'a rendu chauve avant l'époque. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Je viens de voir notre comtesse (de Léocadie.)</stage>
+            
+            
+                    <l>Le pilon eût charmé ma vie,</l>
+                    <l>J'ai toujours eu l'goût des beaux-arts,</l>
+                    <l>Dans mon amour pour la drogu'rie</l>
+                    <l>J' n'os' plus passer ru' des Lombards.</l>
+                    <l>Si, par hasard, quelque garçon droguiste</l>
+                    <l>S'offre à mes yeux, soudain je deviens triste,</l>
+                    <l>Alors je louche, et j' dis avec regrets :</l>
+                    <l>Voilà pourtant comme je serais. <stage type="repetition"> (bis.)</stage></l>
+            
+                </lg>
+            </div>
+            
+            ADOLPHE, à part. 
+            
+            Il m'impatiente avec ses jérémiades. 
+            
+            BEDOU, tristement. 
+            
+            Mais, vous savez le proverbe : l'homme propose… l'épice
+            
+            rie… enfin ! … Mais pour ce qui vous concerne, j'ai des re
+            
+            mords à remiuer à la pelle ;' je passe mes nuits entières dans des
+            états curieux à voir ; car, enfin, en vous introduisant dans ce
+            
+            lieu, je manque à tout ce qu'il y a de plus sacré dans la map
+            pemonde. 
+            
+            6
+            
+            ADOLPHE. 
+            
+            Vous avez tort, Bedou…
+            
+            BEDOU. 
+            
+            Ah ! grand dieu ! … moi, qu'on ne peut pas dire que jamais
+            je me sois permis une farce avec une bonne, ni aucune plai
+            
+            santerie pour lesmeurs avec aucun beau sexe qui fréquentait
+            
+            la boutique de M. Quillard ; jamais ! jamais ! 
+            
+            ADOLPHE. 
+            
+            Mais, Bedou, c'est le bonheur de Louise, le mien que vous
+            
+            hâterez ! …
+            
+            BEDOU. 
+            
+            Je sais ceci, et c'est pour ça que je consens à tremper…, 
+            
+            D'abord, la mère est pour vous (histoire d'ainbition) . Cette
+            
+            femme espère qu'une fois que son mari sera fournisseur, elle
+            
+            aura un cabriolet ; et c'est drôle, une femme qui a passé sa vie
+            
+            entière à pied, dans un comptoir, elle a la rage des cabriolets ; 
+            elle rêve cabriolets. 
+            
+            A DOLPHE. 
+            
+            Vraiment ! … Et que dit M. Quillard ? 
+            
+            BEDOU. 
+            
+            M. Quillard ? il n'attend que le moment où il aura obtenu
+            
+            le marché avec l'Etat…, Une fois la chose conclue, il voudra
+            
+            vous embrasser toute la journée, en vous disant : Bonjour, 
+            
+            mon gendre ! …
+            
+            ADOLPHE, d'un air inquiet. 
+            
+            Quoi ! c'est là la condition sine quá non ! 
+            
+            BEDOU, interdit. 
+            
+            Je ne sais pas les langues étrangères ; je ne yas jamais aux
+            
+            Bouffes. 
+            
+            ADOLPHE, 
+            
+            C'est la condition absolue ? 
+            
+            Oui. 
+            
+            BEDOU, 
+            
+            ADOLPHE, après un moment d'hésitation. 
+            
+            Écoutez, Bedou, je veux vous parler sans détour… cette
+            
+            fourniture…
+            
+            Eh bien ! 
+            
+            BEDOU, 
+            
+            7
+            
+            ADOLPHE. 
+            
+            J'ai abusé M. Quillard. 
+            
+            BEDOU, vivement. 
+            
+            Vous l'abusâtes ? (Il éternue.) J'éternue de surprise. 
+            
+            ADOLPHE. 
+            
+            L'autre jour, étant ici près, au café, je faisais sa partie de
+            
+            dominos ; il parlait du désir immodéré qu'il avait d'obtenir une
+            
+            fourniture pour le gouvernement : moi qui ne cherchais qu'une
+            
+            occasion d'être admis chez lui, je vantai un crédit imaginaire
+            
+            dont je jouissais auprès du ministre, et je me fis fort de lui
+            
+            faire obtenir la fourniture… je ne sais plus de quoi. 
+            
+            BEDOU, d'un air inquiet. 
+            
+            De trois millions de chandelles des six pour l'armée d'Alger. 
+            
+            ADOLPHE. 
+            
+            Eh ! mon dieu ! je lui dis ce qui me vint à l'idée. 
+            
+            Et ça n'était
+            
+            pas vrai ? 
+            
+            BEDOU, criant. 
+            
+            Non, Bedou ! 
+            
+            ADOLPHE. 
+            
+            BEDOU, criant. 
+            
+            Quelle farce infâme ! Je la déclare blâmable. 
+            
+            ADOLPHE. 
+            
+            Bedou ! Bedou ! 
+            
+            BEDOU, criant plus fort et marchant à grands pas. 
+            
+            La farce est odieuse. « 
+            
+            ADOLPHE. 
+            
+            Bedou ! mon cher ami ! 
+            
+            BEDOU, à part et avec indignation. 
+            
+            Au fait, je me disais : Il est bien étonnant que
+            
+            l'armée d'Al
+            
+            ger fasse une consommation aussi cruelle de chandelles des six, 
+            
+            (Haut.) Allez, sortez de mes yeux ! 
+            
+            ADOLPHE. 
+            
+            Mon cher Bedou ! … vous voyez bien
+            
+            que
+            
+            c'est la circons
+            
+            tance…
+            
+            BEDOU
+            
+            Je vous abdique… Je vous abdique complètement ; je ne
+            
+            trempe plus dans rien. 
+            
+            8
+            
+            ADOLPHE, qui a remonté la scène. 
+            
+            De grâce ! … Voilà Louise. 
+            
+            BEDOU, à part. 
+            
+            Allons ! voilà la fille à présent ! Et dire que c'est moi qui
+            
+            prête la main à tout ça ! Je suis monstrueux dans ce moment
+            
+            ci ; je n'ose pas me regarder en face. 
+            
+            SCÈNE III. 
+            
+            LES MÊMES, LOUISE entrant par la gauche. 
+            
+            LOUISE. 
+            
+            Quel tapage ! Qu'avez-vous donc, Bedou ? (Apercevant
+            
+            Adolphe.) AV ! c'est monsieur Adolphe. 
+            
+            ADOLPHE s'approchant d'elle. 
+            
+            Oui, Mademoiselle, c'est moi qui profite d'un moment d'ab
+            
+            sence de vos parens pour renouveler à vos pieds le serment…
+            
+            BEDOU, le prenant par le bras. 
+            
+            Pas si près, pas si près. (Il se place entre eux.) Je suis ici
+            
+            pour
+            
+            les mæurs, moi, je ne trompe personne. 
+            
+            M. Adolphe ! …
+            
+            LOUISE. 
+            
+            ADOLPHE. 
+            
+            Votre père veut ajourner notre union, mais votre mère est
+            
+            pour moi…
+            
+            (Il veut s'approcher de Louise, Bedou le repousse de nou
+            
+            veau.)
+            
+            Je le sais. 
+            
+            LOUISE. 
+            
+            1. 
+            
+            BEDOU à Adolphe. 
+            
+            Oui, mais vous ne dites pas la cause pourquoi. Raisonnez
+            
+            donc un peu chandelles avec elle, ah ! ah ! (A Louise.) Il ne
+            
+            vous dit pas qu'il a…
+            
+            Qu'est-ce done ? 
+            
+            LOUISE. 
+            
+            ADOLPHE. 
+            
+            Oui, j'ai employé une ruse coupable pour me faire bien
+            
+            venir de vos parens. 
+            
+            9
+            
+' I LOUISE. 
+            
+            Une ruse ! 
+            
+            bedou, d'un air mystérieux. 
+            
+            Oui, une ruse qui est dans le cas de soulever contre votre
+            
+            père les quolibets de tout le quartier. Grand dieu ! je me figure
+            
+            le 7e arrondissement riant aux éclats… C'est joli ! C'est flatteur ! 
+            
+            voilà l'ouvrage de Monsieur, fi ! Allons ! votre visite a été assez
+            
+            longue ; allez-vous en ! 
+            
+            ADOLPHE. 
+            
+            Quoi, Bedou ! déjà nous séparer ? 
+            
+            BEDOU. 
+            
+            Est-ce
+            
+            que vous avez envie de me faire passer pour un im
+            
+            moral ? Si j'avais su
+            
+            ce que je sais, vous n'auriez jamais mis ici
+            
+            aucune espèce de pied, entendez-vous ? 
+            
+            (On entend la voix de madame Quillard en dehors.)
+            
+            LOUISE. 
+            
+            C'est maman
+            
+            c'est maman ! elle est de retour ! 
+            
+            (Elle court au devant de su mère et sort par le fond.)
+            
+            BEDOU. 
+            
+            Madame Quillard ! … (A Adolphe.) Grand dieu ! sortez, 
+            
+            sortez, jeune homme, vous violez la morale, vous m'avez
+            
+            plongé dans une chose immonde. 
+            
+            ADOLPHE cherchant une issue. 
+            
+            Par où ? 
+            
+            par
+            
+            où m'en aller ? 
+            
+            BEDOU lui indiquant la porte de côté, a droite. 
+            
+            Par là. (Adolphe sort précipitamment par la droite.) Ah ! 
+            
+            dieu ! et M. Quillard qui ne revient pas avec ma perruque ! 
+            
+            J'ai le front qui grelotte, j'ai l'onglée à la tête ! 
+            
+            SCENE IV. 
+            
+            Mme QUILLARD, LOUISE entrant par le fond, LA DOMES
+            
+            TIQUE portant un sac de nuit, BEDOU. 
+            
+            M me
+            
+            QUILLARD, s'asseyant à gauche. 
+            
+            Oui,' ma Louise, j'ai fait un très-bon voyage. 
+            
+            (La domestique sort… si
+            
+            3
+            
+            L'état de la vôtre ? 
+            
+            BEDOU, la saluant, 
+            
+            10
+            
+            mo
+            
+            M QUILLARD. 
+            
+            Pas mal, Bedou, pas mal. 
+            
+            BEDOU, à part. 
+            
+            Détournons la conversation. (Haut.) Comment Madame a-t
+            
+            elle trouvé la ville de Pontoise qui est ma patrie depuis 46 ans. 
+            
+            Mme QUILLARD. 
+            
+            C'est une fort jolie petite ville. 
+            
+            BEDOU. 
+            
+            Le veau y est fort agréable ; c'est à peu près tout ce qu'on y
+            
+            cultive, c'est l'industrie du pays. Mais il n'y a pas de sens com
+            
+            mun, c'est trop rafraîchissant ; à la longue, ça incommode ; 
+            
+            moi, du moins, ça me fait cet effet-là ! ça dépend (il a envie
+            
+            d'éternuer) , ça dépend (il éternue) , ça dépend despersonnes. 
+            
+            Mme QUILLARD. 
+            
+            Mais où donc est M. Quillard ? 
+            
+            BEDOU. 
+            
+            Il est sorti pour le moment. 
+            
+            me
+            
+            Mм
+            
+            QUILLARD. 
+            
+            En vérité, ton père est un homme étonnant ! au lieu de
+            
+            m'attendre ou de venir au devant de moi, Monsieur s'en va. 
+            
+            Mais c'est indigne ! … Bedou, dès que monsieur Quillard sera
+            
+            de retour, envoyez-le moi. 
+            
+            (Elle entre dans la chambre à gauche, Louise la suit.)
+            
+            BEDOU. 
+            
+            Oui, Madame ! (A part.) Bon ! il aura de la satisfaction en
+            
+            entrant. 
+            
+            SCÈNE V. 
+            
+            BEDOU seul ; (il s'assied à gauche) .
+            
+            Remettons-nous un peu ! … Me voilà empêtré dans une af
+            
+            freuse affaire ! je joue un rôle en dehors de l'humanité, et je
+            
+            me figure que je finirai par fournir le sujet d'un des plus hor
+            
+            ribles articles à la Gazette des Tribunaux. Moi qu'on offrait
+            
+            pour modèle aux jeunes filles, sous le rapport des moeurs, 
+            
+            tant dans la rue Sainte-Croix de la Bretonnerie, que dans tout le
+            rue
+            
+            côté gauche de la rue Bar-du-Bec, et en revenant par
+            
+            la
+            
+            de la Verrerie et celle des Billettes, enfin tout ce pâté de mai
+            
+            sons-là ! (Il se lève.) Voilà que je suborgne le père, je subor
+            
+            gne la mère ; le jeune homme me fait confidence de la couleur
+            
+            qu'il a inontée à monsieur Quillard pour les chandelles d'Al
+            
+            ger et dont cet homme a eu l'infirmité de croire ; et je me
+            
+            trouve alors complice dans cette chose ! ! Mais aussi, pour
+            
+            quoi est-il bête comme ça, cet homme ? 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR du vaudeville des Frères de lait. </stage>
+            
+            
+                    <l>Il est des term's que souvent on emploie</l>
+                    <l>Pour qualifier not' jobard de patron :</l>
+                    <l>Les uns prétend'nt que c'est une oie,</l>
+                    <l>Les autres que c'est un dindon ;</l>
+                    <l>Franch'ment je crois que personn' n'a raison.</l>
+                    <l>Moi, qui connais parfait'ment sa bêtise,</l>
+                    <l>Je le compare à c't être aimé partout,</l>
+                    <l>Et dont les pieds, prohibés par Moïse,</l>
+                    <l>Ont illustré la vill' de Saint' Menehould.</l>
+                </lg>
+            </div>
+            
+            
+            Parole d'honneur, moi, je suis tolérant, je ne suis pas pour
+            
+            les moyens de rigueur ; mais je voudrais, quand un homme
+            
+            est bête à ce point-là, qu'on le fourrerait dedans pour le restant
+            
+            de ses jours. Psitt ! inconnu ! 
+            
+            34. SCÈNE VI. 
+            
+            BEDOU, LA DOMESTIQUE portant une perruque à la main, et
+            
+            entrant par le fond. 
+            
+            BEDOU. 
+            
+            Qu'est-ce que c'est ?, op ciegave me si, 
+            
+            state in
+            
+-+1712
+            
+            LA DOMESTIQUE, 
+            
+-C'est la perruque de Monsieur qu'on rapporte de chez le coif. 
+            feur. de
+            
+            BEDOU. 
+            
+            *) 
+            
+            Eh bien ! portez-la dans sa chambre. 
+            
+            (La domestique entre dans la chambre à gauche, lorsqu'on
+            
+            entend la voix de Quillard.)
+            
+            Eh mais, je l'entends, je crois ! Ah ! Être-Sapreme ! je te re
+            
+            mercie : tu me rends un seryice d'ami ! 
+            
+            1
+            
+            SCÈNE VII. 
+            
+            QUILLARD, BEDOU. (Quillard a la téte nue.)
+            
+            1
+            
+            Me voilà de retour ! …
+            
+            QUILLARD. 
+            
+            12
+            
+            BEDOU, à part. 
+            
+            Le vieux malheureux ! il est nu-tête ! 
+            
+            QUILLARD. 
+            
+            Je suis très-gai ; bonjour, Bedou. 
+            
+            BEDOU. 
+            
+            Ah ! mon dieu, Monsieur ! est-ce que vous auriez égaré
+            
+            l'objet ? 
+            
+            Quel objet ? 
+            
+            Ma
+            
+            perruque…
+            
+            QUILLARD. 
+            
+            BEDOU. 
+            
+            QUILLARD. 
+            
+            Ta perruque ? … Sois tranquille ! elle est entre les mains de
+            
+            gens qui sont incapables d'en abuser. 
+            
+            BEDOU, à part. 
+            
+            Ab ça ! mais…
+            
+            il a bu. (Haut.) Je veux ma perruque. (A
+            
+            part.) A qui diable a-t-il pu donner ma perruque ? 
+            
+            QUILLARD
+            
+            Bedou, mon ami, ne trouble pas mes souvenirs, je suis très
+            
+            gai. 
+            
+            BEDOU. 
+            
+            Monsieur, je ne connais qu'une chose ; j'ai été jeune homme
+            
+            pendant 37 ans chez vous, je vous respecte et je vous trouve
+            
+            plein d'esprit ; mais vous abusez de vos avantages en ne me ren-, 
+            dant
+            
+            pas ma perruque. Je vous l'ai prêtée pour sortir ; une per
+            
+            ruque est une chose sacrée ; je vous regarde comme un abus de
+            confiance. 
+            
+            Bedou ! écoute-moi : j'ai été payer le loyer, mon ami…
+            
+            QUILLARD. 
+            
+            BEDOU s'éloignant avec mauvaise humeur. 
+            
+            Je m'en importe peu…
+            
+            QUILLARD. 
+            
+            C'est qu'il m'est arrivé l'anecdote la plus étonnante chez le
+            
+            propriétaire. 
+            
+. ; BEDOU, sans l'écouter, 
+            
+            Je donnerais ma vie dans ce moment pour la moindre des
+            
+            choses… pour un simple faux toupet, ayant la tête gelée comme
+            
+            je l'ai. 
+            
+            13
+            
+            QUILLARD. 
+            
+            Allons ! Allons ! ne t'afflige pas et écoute-moi : figure-toi que
+            
+            j'arrive avec mon sac d'argent sous le bras chez le propriétaire
+            monsieur Martin, rue…
+            
+            BEDOU. 
+            
+            Je sais bien où c'est puisque c'est moi qui lui ai porté le der
+            
+            nier terme. 
+            
+            Je monte au premier. 
+            
+            Non ! au second. 
+            
+            QUILLARD. 
+            
+            BEDOU. 
+            
+            QUILLARD. 
+            
+            Au premier, je te dis. 
+            
+            USER
+            
+            0
+            
+            BEDOU. 
+            
+            Alors c'est qu'il est déménagé d'étage… N'importe. 
+            
+            QUILLARD. 
+            
+            Je sonne… Qui est-ce qui vient m'ouvrir ? Une vieille bonnc. 
+            
+            Chauve ? …
+            
+            BEDOU, vivement. 
+            
+            QUILLARD. 
+            
+            vagon
+            
+            Ah ! je ne sais pas, 
+            
+            elle avait unun bonnet. 
+            
+            BEDOU, à part. 
+            
+            Alors, ce n'est pas à elle qu'il a prêté ma perruque. 
+            
+            : : 
+            
+            QUILLARD. 
+            
+            Je lui dis : M. Martin, s'il vous plait ? La bonne me dit : Jl
+            
+            n'y est pas ; mais, si vous voulez parler à Madame, elle sera
+            
+            enchaniée de vous recevoir. 
+            
+            BEDOU. 
+            
+            Mais c'est singulier, madame Giboulet, notre portière, me
+            
+            disait encore bier qu'il était fort malade de la jaunisse, ne sor
+            
+            tant aucunement de chez lui. 
+            
+            QUILLARD. 
+            
+            Tu auras mal entendu ! Alors, moi, je dis à la bonne (tou
+            
+            jours avec mon sac d'argent sous le bras) : Je veux bien parler
+            
+            à Madame ; et en effet je vois arriver une grosse commère d'une
+            
+            quarante-cinquaine d'années. 
+            
+            Chauve ? 
+            
+            14
+            
+            BEDOU, vivement. 
+            
+            QUILLARD. 
+            
+            Non pas ; une brune, bien frisée, bonnes façons tout-à-fait. 
+            
+            Ce n'est pas encore ça. 
+            
+            BEDOU, à part. 
+            
+            QUILLARD. 
+            
+            Elle me dit : N'est-ce pas à M. Coquanois, Coquinois (un
+            
+            nom comme ça) , que j'ai le plaisir de parler ?-Non, Ma
+            
+            dame, je suis locataire de monsieur votre mari, et je viens
+            
+            pour le terme. — Pour lors, la voilà qui me fait entrer dans le
+            
+            salon et qui me fait des politesses très-curieuses avec un ca
+            
+            napé qu'elle m'offre, pour m'asseoir dessus, en me disant que
+            
+            son mari est, pour le moment, en voyage dans les départe
+            
+            mens. 
+            
+            Jusqu'ici ça n'a aucun rapport à ma perruque. 
+            
+            BEDOU, à part. 
+            
+            Devine alors ce qu'elle me dit. 
+            
+            QUILLARD. 
+            
+            BEDOU, d'un ton impérieux. 
+            
+            Je ne veux rien deviner, je demaude ma perruque. 
+            
+            QUILLARD. 
+            
+            Elle me dit que, si j'étais assez bon pour y consentir, elle se
+            
+            ferait un véritable agrément de me présenter à sa famille. Ma
+            
+            foi, moi, j'accepte ! et je me laisse conduire dans la salle à
+            
+            manger (toujours avec mon sac d'argent sous le bras.)
+            
+            BEDOU. 
+            
+            Et ma perruque sur la tête ? 
+            
+            QUILLARD. 
+            
+            Bien entendu. J'entre donc dans la salle à manger. Quelle
+            
+            famille, mon cher Bedou ! six demoiselles… Pas des demoisel
+            
+            les, des astres ! des astres qui mangeaient des côtelettes de porc
+            
+            frais. Je me croyais dans la salle à manger du firmament. Six
+            
+            demoiselles de 18 à 19 ans, et de la forte espèce ! 
+            
+            BEDOU, 
+            
+            Mais, comment M. Martin peut-il avoir six demoiselles de
+            
+            18 à 19 ans, à moins qu'il ne les ait obtenues par la vapeur ? …
+            
+            Tenez, M. Quillard ! j'ai été jeune homme chez vous pen *
+            
+            15
+            
+            dant 37 ans, je vous respecte et je vous trouve plein d'esprit, 
+            
+            mais… passez-moi le mot, c'est stupide ce que vous me dites
+            là…
+            
+            QUILLARD. 
+            
+            Bedou ! ne nous écartons pas des bienséances, mon ami, si
+            
+            c'est possible. 
+            
+            BEDOU. 
+            
+            Alors, rendez-moi ce que vous avez à moi. 
+            
+            Un moment ! 
+            
+            QUILLARD. 
+            
+            (Bedou va s'asseoir à gauche, appuie son coude sur la table, 
+            
+            et écoute Quillard, en donnant les signes de l'impatience la
+            
+            plus vive.)
+            
+            Me voilà donc avec la mère et les sis demoiselles qui fai
+            
+            saient sept, et moi qui faisais huit. Alors, on me sert une foule
+            
+            de choses très-gastronomiques et parfaitement bien truffées…
+            
+            venant de tous les pays de la terre, avec des vins étonnans. 
+            
+            Je bois, je mange, je dis une quantité de bons mots, qui amu
+            
+            sent beaucoup la famille Martin. Après avoir bien déjeuné, je
+            
+            bois un verre de punch, deux verres de punch, trois verres de
+            
+            punch, avec des petit gâteaux. J'étais gai, mon ami, j'étais le
+            
+            plus heureux des hommes ! Dans ma joie, je donne un énorme
+            
+            coup de pied sur le guéridon, je casse et brise tout. La porce
+            
+            laine de M. Martin, les cristaux de M. Martin, tout ça vol
+            
+            tigeait dans la salle à manger ; et elles riaient, les demoiselles
+            
+            Martin, elles riaient ! ! ! que c'était charmant à voir. 
+            
+            BEDOU, secouant Quillard par le revers de son habit. 
+            
+            Vous avez fait une indigne ribotte ! Je ne m'étonne plus que
+            
+            vous ayez
+            
+            les
+            
+            yeux
+            
+            si reluisans ! 
+            
+            QUILLARD. 
+            
+            Bref ! je me suis beaucoup diverti : voilà tout ce que je
+            
+            peux te dire, et quand je suis sorti je me suis aperçu que j'a
+            
+            vais oublié ce qui t'appartiento
+            
+            BEDOU, se levant furieux. 
+            
+            Oublié ! … voilà où mène le punch ! à oublier ses devoirs…
+            
+            et les perruques qu'on emprunte…
+            
+            7907359
+            
+            QUILLARD, le suivant. 
+            
+            gum
+            
+            Allons ! Allons, Bedou, calme toi. 
+            
+            1, 214 BEDOU. : 
+            
+            siqalib
+            
+            C'est indigne, Monsieur, vous êtes sorti des borgnes, vous
+            
+            16
+            
+            êtes sorti des borgnes, vous avez abusé de mes effets… (Il éter
+            
+            nue.)
+            
+            QUILLARD. 
+            
+            Écoute, Bedou ! je te jure (ce n'est pas pour te dire une
+            
+            chose déplacée) ,
+            
+            je te jure que tu n'es pas désagréable à la
+            
+            vue comme tu es là. Tu as l'air d'un docteur en médecine. 
+            
+            BEDOU, à part avec indignation. 
+            
+            Quel aplomb ! 
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air de l'Artiste. </stage>
+            
+            
+                    <l>Cet aplomb-là me passe.</l>
+                    <l>Après un tel affront,</l>
+                    <l>V'nir me railler en face !</l>
+                    <l>Il faut un fameux front.</l>
+                    <l>Se moquer de ma nuque,</l>
+                    <l>Quelle audace ! il paraît</l>
+                    <l>Que c' qu'on perd en perruque</l>
+                    <l>On le r'gagne en toupet.</l>
+                </lg>
+            </div>
+            
+            
+            QUILLARD. 
+            
+            Mon cher Bedou ! voyons ! l'essentiel est que ma femme n'en
+            
+            sache rien, quand elle arrivera…
+            
+            BEDOU. 
+            
+            Votre femme ? votre femme ? Elle est ici depuis ce matin. 
+            
+            QUILLARD, effrayé. 
+            
+            Ma femme ! Je suis prêt à tomber d'un mal. 
+            
+            (Il tombe dans un fauteuil à droite.)
+            
+            BEDOU. 
+            
+            Le moins qui puisse vous arriver, c'est de recevoir des voies
+            
+            de fait. 
+            
+            QUILLARD. 
+            
+            Bedou ! la circonstance est pressante. Abandonneras-tu ton
+            
+            malheureux chef dans l'affreuse conjecture où il se trouve ? 
+            
+            BEDOU. 
+            
+            Qu'est-ce que vous voulez ? 
+            
+            QUILLARD. 
+            
+            M'es-tu dévoué ? 
+            
+            BEDOU, s'attendrissant et s'approchant de lui. 
+            
+            Monsieur Quillard ! vous me faites bien du mal ; vous avez
+            
+            dilapidé ma perruque, j'en ai un rhume de cerveau qui va
+            
+            peut-être abréger mon existence ; mais voilå trente-sept ans
+            
+            17
+            
+            que je suis jeune homme chez vous, je vous respecte, et je
+            
+            vous trouve plein d'esprit… ! 
+            
+            QUILLARD. 
+            
+            Eh bien ! voilà le moment de me prouver la vénération que
+            
+            tu as pour moi ; tu diras à ma femme que c'est toi qui as payé
+            
+            le loyer à M. Martin… Je vais te donner un mot pour ravoir
+            
+            ta perruque. 
+            
+            (Il se met à écrire.)
+            
+            BEDOU. 
+            
+            Et ma moralité ? vous voulez que j'avance un fait dénué de
+            
+            fondement ? vous voulez que j'altère la vérité ? moi, qui suis
+            
+            connu pour ma probité, tant dans la rue Sainte-Croix-de-la
+            
+            Bretonnerie, que dans le côté gauche de la rue Bar-du-Bec, 
+            
+            et en tournant par… enfin dans tout le quartier… (Iléternue.)
+            
+            C'est nécessaire. Tiens ! voilà le billet. 
+            
+            QUILLARD. 
+            
+            BEDOU, marchant à grands pas tandis que Quillard la suit, 
+            
+            la lettre à la main. 
+            
+            Vous faites de moi un faux, un homme qui finira dans la
+            le Palais de
+            
+            Gazelle des Tribunaux. Je suis en chemin
+            
+            pour
+            
+            Justice…
+            
+            (On entend la voit de madame Quillard.)
+            
+            J'entends la voix de ma femme, Bedou ! Au nom du ciel, sois
+            
+            QUILLARD. 
+            
+            discret ! 
+            
+            BEDOU, prenant la lettre, et avec dignité. 
+            
+            Oui, je le serai ; mais vous n'avez pas agi comme un galant
+            
+            homme. 
+            
+            (Il éternue.)
+            
+            QUILLARD. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Doux momens. </stage>
+            
+            
+                    <l>Je connais mon devoir,</l>
+                    <l>Bedou, je te le jure,</l>
+                    <l>Tu r'auras ta coiffure,</l>
+                    <l>Tu la r'auras ce soir.</l>
+                    <l ana="unanalyzable">Je connais mon devoir, etc.</l>
+            
+                    BE DOU. 
+            
+                    ENSEMBLE. 
+                    <l>N' trompez pas mon espoir,</l>
+                    <l>Voyez l' mal que j'endure</l>
+                    <l>J' veux r'avoir ma coiffure,</l>
+                    <l>J' veux la r'avoir ce soir.</l>
+            
+                </lg>
+            </div>
+            
+            
+            }
+            
+            disert
+            
+            2
+            
+            18
+            
+            SCENE VII. 
+            
+            MADAME QUILLARD, QUILLARD, BEDOU. 
+            
+            MADAME QUILLARD. 
+            
+            Ah ! vous voilà enfin, Monsieur ! d'où venez-vous ? 
+            
+            QUILLARD, prenant un air aimable. 
+            
+            Bonjour, ma poule ! comment va la santé ? 
+            
+            MADAME QUILLARD…
+            
+            Il ne s'agit pas de ma santé, d'où venez-vous ? répondez. 
+            
+            · BEDOU, s'éloignant un peu et à part. 
+            
+            Voyons comment il va se tirer de-là. 
+            
+            J'ai été… J'ai été chez le ministre. 
+            
+            QUILLARD. 
+            
+            so Ab ! mon dieu ! 
+            
+            BEDOU, à part, effrayé. 
+            
+            QUILLARD. 
+            
+            Pour avoir des nouvelles de la fourniture que j'ai soumis
+            
+            sionnée pour Alger, d'après les conseils de M. Adolphe. 
+            
+            MADAME QUILLARD, avec intérêt. 
+            
+            A la bonne heure, et pourquoi doncmettez-vous tant d'hé
+            sitation à me le dire ? Vous avez bien fait d'y aller ; quc vous
+            
+            a dit le ministre ? 
+            
+            QUILLARD, se frotlant les mains d'un air satisfait. 
+            
+            Ca va le mieux du monde ; le ministre ni'a parfaitement ac
+            
+            cueilli. 
+            
+            Vraiment ? 
+            
+            MADAME QUILLARD. 
+            
+            " BEDOU, à part. 
+            
+            Quel horrible fagot ! Il ne lui manquait plus que ça ! 
+            
+            QUILLARD. 
+            
+            Il m'a dit que, sous vingt-quatre heures, je recevrais le
+            
+            marché, ratifié par lui-même. 
+            
+            MADAME QUILLARD. 
+            
+            Il se pourrait ? 
+            
+            19
+            
+            BEDOU, à part. 
+            
+            J'ai vu dans ma vie bien des arracheurs de dents… mais ja
+            
+            mais…
+            
+            MADAME QUILLARD. 
+            
+            Je suis transportée de joie. M. Quillard ! une fois que vous
+            
+            serez fournisseur, je me flatte que vous ne lésinerez plus, et qu'à
+            
+            l'instant mêine j'aurai un cabriolet. 
+            
+            QUILLARD. 
+            
+            Comment, ma bonne ? tout ce qu'il y a de plus beau, avec
+            
+            une livrée de la couleur que tu voudras… canelle, et des ar
+            moiries sur les
+            
+            panneaux. 
+            
+            MADAME QUILLARD. 
+            
+            Ah ! oui, par exemple ! je tiens aux armoiries… Qu'est-ce que
+            
+            nous prendrons ? 
+            
+            C'est bien délicat, bien délicat. 
+            
+            QUILLARD. 
+            
+            BEDOU, à part d'un air de pitié. 
+            
+            Faites des projets, faites des projets. Allez ! 
+            
+            MADAME QUILLARD. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Ah ! que de chagrins dans la vie. </stage>
+            
+            
+                    <l>Il faut qu'un écusson rappelle</l>
+                    <l>Ce qu'on faisait en étant roturier.</l>
+            
+                    QUILLARD. 
+            
+                    <l>S'rais-tu d'avis d'une chandelle</l>
+                    <l>Entouré' d'un' branch' de laurier ?</l>
+            
+                    MADAME QUILLARD. 
+            
+                    <l>Oui, ça serait commerçant et guerrier.</l>
+            
+                    QUILLARD. 
+            
+                    <l>Et toi, Bedou, toi, penses-tu de même ?</l>
+            
+                    BEDOU, avec intention. 
+            
+                    <l>Monsieur Quillard, sur ce noble écusson,</l>
+                    <l>Si vous tenez à compléter l'emblême,</l>
+                    <l>Il faut, je crois, y joindre un cornichon,</l>
+                    <l>Il faut y joindre un très-gros cornichon.</l>
+                </lg>
+            </div>
+            
+            
+            QUILLARD. 
+            
+            Non, je ne partage pas ton avis, je crois que ça
+            
+            ferait
+            
+            mau
+            
+            vais effet. 
+            
+            MADAME QUILLARD. 
+            
+            Excellent jeune homme ! c'est pourtant à lui que nous de
+            
+            vons cela ! 
+            
+            1
+            
+            20
+            
+            QUILLARD. 
+            
+            Le fait est que sans lui je n'aurais jamais songé à cette four
+            
+            niture. 
+            
+            BEDOU, à part. 
+            
+            Et ç'aurait été dommage ! 
+            
+            MADAME QUILLARD. 
+            
+            Maintenant, je regarde l'affaire commeconclue puisque
+            
+            avez vu le ministre.-Est-ce un homme aimable ? 
+            
+            VOUS
+            
+            Charmant. 
+            
+            QUILLARD. 
+            
+            BEDOU, qui s'est rapproché, et éternuant. 
+            
+            J'éternue d'indignation. 
+            
+            MADAME QUILLARD, qui a été éclaboussée par
+            
+            Bedou. 
+            
+            Bedou ! prenez-donc garde à ce que vous faites. 
+            
+            BEDOU. 
+            
+            Madame, c'est que j'ai momentanément un rhume de cer
+            
+            veau qui provient de ce que… (Quillard lui fait un signe im
+            
+            pératif.) (Bas à Quillard.) N'ayez pas peur, je n'aurai pasla chose
+            
+            de vous trahir. 
+            
+            MADAME QUILLARD. 
+            
+            Et vous restez avec la tête découverte ? 
+            
+            Oui, Madame, c'est une opinion que j'ai comme ça. 
+            
+            BEDOU, en soupirant. 
+            
+            Quelle intelligence dans ses réponses ! 
+            
+            QUILLARD, à part. 
+            
+            MADAME QUILLARD. 
+            
+            Monsieur Quillard, j'ai des emplettes à faire, vous allez
+            
+            m'accompagner. 
+            
+            QUILLARD. 
+            
+            Je te suis, chère amie, je te suis. 
+            
+            MADAME QUILLARD. 
+            
+            Et vous, Bedou, je vous défends de sortir dans l'état où vous
+            
+            êtes ! je vous le défends. 
+            
+            BEDOU, à part. 
+            
+            à
+            
+            Allons ! bon ! me voilà collé à la maison, dénué de perru
+            
+            que ! Merci ! 
+            
+            (Madame Quillard sort par la gauche.)
+            
+            21
+            
+            SCÈNE VIII. 
+            
+            QUILLARD, BEDOU. 
+            
+            QUILLARD, qui a suivi sa femme jusqu'à la porte, revenant
+            
+            furtivement. 
+            
+            Bedou ! je n'oublierai pas ce que tu fais pour
+            
+            moi. J'ai con
+            
+            clu ce matin un marché très-heureux, j'ai déjà acheté cin
+            
+            quante milliers de chandelles ; je te promets un intérêt dans
+            la fourniture. 
+            
+            BEDOU, 
+            
+            d'un
+            
+            air de pitié. 
+            
+            Dans la fourniture ! ! (S'arrétant tout-à-coup et à part) Mais
+            
+            non ! j'ai promis le secret à cet infâme jeune homme. 
+            
+            MADAME QUILLARD, appelant en dehors. 
+            
+            M. Quillard ! M. Quillard ! 
+            
+            QUILLARD. 
+            
+            J'y vais, j'y vais. 
+            
+            BEDOU, l'arrêtant par le bras. 
+            
+            Un mot ! (A demi-voix et vivement.)
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Époux imprudent, fille rebelle. </stage>
+            
+            
+                    <l>Vous avez vu quelquefois, je parie,</l>
+                    <l>Cet instrument dans quoi l'on fait le pain,</l>
+                    <l>Dites-moi son nom, je vous prie.</l>
+            
+                    QUILLARD, cherchant à se dégager. 
+            
+                    <l>Eh ! parbleu, c'est… c'est un pétrin.</l>
+            
+                    BBDOU, le tenant toujours. 
+            
+                    <l>Oui, c'est cela, c'est un pétrin.</l>
+                    <l>Eh bien ! Monsieur, sans farder mon langage,</l>
+                    <l>Je vous l' dis, les larmes aux yeux,</l>
+                    <l>C'est là dedans que nous sommes tous deux,</l>
+                    <l>Je n' vous en dis pas davantage.</l>
+            
+                </lg>
+            </div>
+            
+            (Quillard sort en le regardant fixementet d'un air interdit.)
+            
+            SCÈNE IX. 
+            
+            BEDOU, seul. 
+            
+            Oui, nous y sommes ; mais moi surtout. Moi qui ne me
+            
+            mele jamais de rien, me voilà le confident de tout le monde ! …
+            
+            Ah ! 
+            
+            ça, 
+            
+            mais je suis donc une espèce de boîte aux lettres de
+            
+            quarante-six ans, dans quoi tout le monde vient jeter son se
+            
+            22
+            
+            cret ! EtMadame qui me défend de sortir ! comment r'avoir ma
+            
+            perruque ? Je ne sais pas si je m'abuse ; mais il me semble que
+            
+            ma position est ignoble, et qu'elle pourrait prêter à rire à la
+            
+            malveillance. 
+            
+            SCÈNE X. 
+            
+            BEDOU, ADOLPHE entrant par le fond. 
+            
+            ADOLPHE. 
+            
+            Bedou ! Bedou ! … qu'y a-t-il de nouveau ? 
+            
+            BEDOU, d'un ton impérieux. 
+            
+            Allez-vous en ; vous n'êtes qu'un infâme. 
+            
+, ADOLPHE, étonné. 
+            
+            Bedou ! qu'avez-vous ? 
+            
+            BEDOU, avec indignation. 
+            
+            Ce que j'ai ? Savez-vous, Monsieur, le résultat de votre con
+            
+            duite ? Savez-vous que ce malheureuxM. Quillard s'en va par
+            
+            tout achetant toutes les chandelles qu'il rencontre ? Savez-vous
+            
+            que sa fortune entière tourne en suif ? 
+            
+            Il se pourrait ? 
+            
+            ADOLPHE. 
+            
+            BEDOU. 
+            
+            Fi, Monsieur ! fi ! c'est une tache énorme à votre répulation, 
+            
+            et si vous avez une conscience, vous devez voir dans votre
+            
+            sommeil le remords qui vous poursuit, avec un paquet de
+            
+            chandelles sous le bras. (Il s'éloigne furieux.)
+            
+            Écoutez, Bedou ! …
+            
+            ADOLPHE. 
+            
+            BEDOU. 
+            
+            Je n'écoute rien… Allez-vous en… (Adolphe fait un mouve
+            
+            ment pour sortir, Bedou le retient aussitôt par le bras.) Mais, ce
+            
+            pendant, non, restez, vous pouvez amincir vos torts à mon
+            
+            égard, vous pouvez me rendre un service des plus grands. 
+            
+            ADOLPHE. 
+            
+            Lequel ? parlez, Bedou, je suis tout à vous. 
+            
+            BEDOU, tirant la lettre de sa poche. 
+            
+            Voici une lettre, il s'agit de la porter à son adresse. 
+            
+            23
+            
+            ADOLPHE, prenant la lettre. 
+            
+            Ah ! de grand coeur. 
+            
+            BEDOU. 
+            
+            Vous monterez au premier, et l'on vous remettra un objet…
+            
+            Je puis vous dire le mot : c'est une perruque qui m'est due, et
+            
+            que je vous envoie toucher. Vous reviendrez par le petit escas
+            
+            lier, par là. (Il lui indique la porte à droitc.)
+            
+            62
+            
+            ADOLPHE. 
+            
+            J'y vole, et je reviens… trop heureux, mon cher Bedou, 
+            
+            d'expier une partie des torts que vous me reprochez. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air du Philtre. </stage>
+            
+            
+                    BEDOU. 
+            
+                    <l>Partez, je vous conjure,</l>
+                    <l>Surtout, soyez discret,</l>
+                    <l>Oui, sur cette aventure,</l>
+                    <l>Gardez-moi le secret.</l>
+            
+                    ADOLPRE. 
+            
+                    <l>Bedou ! je vous le jure,</l>
+                    <l>Oui, je serai discret,</l>
+                    <l>Et sur cette aventure</l>
+                    <l>Je garde le secret.</l>
+                </lg>
+            </div>
+            
+            
+            1 0 0 %
+            
+            (Il sort par la porle à droite.)
+            
+            SCÈNE XI. 
+            
+            1
+            
+            QUILLARD, entrant par la gauche, en chemise, et portant sur
+            
+            le bras son habit qu'il pose sur le dos de la chaise qui est à gau
+            che du spectateur, 
+            
+            spectateur, BEDOU. 
+            
+            Bedou ! mon cher Bedou ! il m'est venu une bien bonne idée
+            
+            en m'habillant. 
+            
+            QUILLARD. 
+            
+            Vous devriez alors vous habiller toujours. 
+            
+            BEDOU. 
+            
+            QUILLARD. 
+            
+            Je veux réaliser le conte que j'ai fait à mon épouse ; je veux
+            
+            prier M. Adolphe de me conduire chez le ministre, tout uni
+            
+            ment. 
+            
+            BEDOU, avec ironie…
+            
+            Je vous y engage, cela fera très-bien. 
+            
+            is
+            
+            QUILLARD. 
+            
+            Tu sens qu'une fois connu de l'autorité, je puis obtenir des
+            
+            fournitures…, étonnantes. 
+            
+            24
+            
+            BEDOU. 
+            
+            Pas plus étonnantes que celle dont vous êtes chargé. 
+            
+            1. 
+            
+            QUILLARD
+            
+            C'est décidé. Il faut écrire un mot à ce jeune homme, je veux
+            
+            absolument lui causer. (1l se met à la table à droite, et se dispose
+            
+            à écrire.)
+            
+            BEDOU. 
+            
+            Il va revenir, et vous pourrez lui jaser à votre aise. 
+            
+            QUILLARD, se retournant étonné. 
+            
+            Tu l'as donc vu ? 
+            
+            BEDOU. 
+            
+            Je viens de l'envoyer chez M. Martin. 
+            
+            QUILLARD, se levant. 
+            
+            Pour quoi faire, grand dieu ! 
+            
+            BEDOU) , avec mauvaise humeur. 
+            
+            Parbleu ! pour y porter votre lettre. 
+            
+            QUILLARD.,
+            
+            Lui ? Et pourquoi n'y es-tu pas allé toi-même ? 
+            
+            BEDOU. 
+            
+            Vous savez bien que votre femiine' m'a défendu de sortir. 
+            
+            QUILLARD, au comble de la fureur et lui mettant le poing
+            
+            sous le net. 
+            
+            Bedou ! … c'est un tour infâme… je te regarde désormais
+            
+            comme le plus inconséquent de tous les vieux scélérats. 
+            
+            BEDOU, criant, el avec dignité. 
+            
+            Monsieur ! … vous n'êtes qu'un inconvenant ; je vous le dis : 
+            
+            vous n'êtes qu'un inconvenant. 
+            
+            QUILLARD. 
+            
+            Veux-tu bien ne pas crier ! … Si ce jeune homme apprend
+            
+            mes égaremens, je perds les fournitures. 
+            
+            Eh ! vos
+            
+            fournitures ! … vos fournitures ! …
+            
+            BEDOU, d'un air depitié. 
+            
+            QUILLARD. 
+            
+            Tais-toi ! voilà, ma femme. Allons ! ris, jis un peu. (Il le se
+            
+            coue violemment.) Veux-tu rire ? 
+            
+            25
+            
+            BEDOU, à part. 
+            
+            Il veut que je rie… quelle turpitude ! 
+            
+            SCÈNE XII. 
+            
+            LES MÊMES, MADAME QUILLARD entrant par la gauche. 
+            
+            MADAME QUILLARD. 
+            
+            Dites-moi, M. Quillard, j'ai oublié de vous le demander : 
+            
+            êtes-vous allé chez M. Martin, pour payer le terme ? 
+            
+            QUILLARD, d'un air insouciant. 
+            
+            Chez le propriétaire ? Je crois que Bedou y est allé hier, 
+            
+            avant-hier… Quand y es-tu allé, Bedou ? 
+            
+            BEDOU, avec intention, et appuyant sur chaque mot. 
+            
+            On y a été ce matin. 
+            
+            C'est bien ! …
+            
+            MADAME QUILLARD. 
+            
+            BEDOU, à part. 
+            
+            Je vais de mensonge én mensonge ; j'ai la mort dans l'ame. 
+            
+            (On entend sonner.)
+            
+            On sonne ! Bedou, voyez done ! 
+            
+            MADAME QUILLARD
+            
+            BEDOU, bas à Quillard en sortanto", 
+            
+            Tout
+            
+            ça finira
+            
+            par un scandale ; je marche sur un volcan. 
+            
+            (Il sort par le fond :) "
+            
+            Tijerisini
+            
+            SCENE XIII. 
+            
+            QUILLARD, MADAME QUILLARD. 
+            
+            MADAME QUILLARD. 
+            
+            M. Quillard ! au point ou en sont les choses, je crois qu'il
+            
+            est convenable, de ne pas différer plus long-temps notre aveu
+            
+            au mariage de Louise. M. Adolphe appartient à une bonne
+            
+            famille, et, en tardan't davantage, nousaurions l'air d'avoir mix
+            
+            à prix la main de notre enfant, cela n'est pas convenable. 
+            
+            26
+            
+            QUILLARD, avec volubilité. 
+            
+            Je vais plus loin ; je dis que ce serait de la dernière indo
+            
+            cence. Oui, brave jeune homme ! oui, tu seras mon gendre, je
+            
+            serai ton beau-père, ma fille sera ta femme, tu seras son
+            
+            mari, et ma femme ta belle-mère. Ah ! dieu, vous serez sa
+            
+            belle-mère…
+            
+            MADAME QUILLARD, le regardant avec étonnement. 
+            
+            11
+            
+            Perdez-vous la tête, M. Quillard ? 
+            
+            SCÈNE XIV. 
+            
+            LES MÊMES, BEDOU une lettre à la main. 
+            
+            BEDOU. 
+            
+            C'était la mère Giboulet qui apportait une lettre ; la voici. 
+            
+            MADAME QUILLARD, regardant l'adresse. 
+            
+            Le timbre du ministère ! (Elle décachète la lettre.)
+            
+            Du ministère ! (A part avec inquiétude) Ah ! grand dieu ! 
+            
+            QUILLARD. 
+            
+            Allons, bon ! si le ministère s'en mêle, ça ira bien. 
+            
+            BEDOU, à part, 
+. 
+            
+            MADAME QUILLARD, lisant. 
+            
+            Monsieur, le ministre a reçu vos offres de service pour une
+            
+            fourniture de trois millions de chandelles moulées pour l'ar
+            
+            » mée d'Afrique…) …''
+            
+            1 "
+            
+            QUILLARD, d'un air satisfait. 51
+            
+            Vois-tu ? vois-tu ? (A part.) Ca arrive à point. 
+            
+            BEDOU, à part. 
+            
+            Ris bien, va, infâme niais que tu fais ! tu vas avoir de l'a
+            
+            grément. 
+            
+            MADAME QUILLARD, continuant de liret) 
+            
+            » Il n'a jamais été question au ministère de cette ridicule
+            
+            ► entreprise…
+            
+            3
+            
+            QUILLARD, étourdia, 
+            
+            * Conment ? comment ? Bedou ! mon ami Bedou ! 
+            
+            BEDOU, le
+            
+            repoussant. 
+            
+            Je ne trempe en rien dans cette chose. Débarbouillez-vous ! 
+            
+            27
+            
+            MADAME QUILLARD, continuant de lire. 
+            
+            • Il faut que vous ayez été la dupe de quelque mauvais plai
+            
+            n sant qui se sera joué de votre crédulité. 
+            
+            QUILLARD, tombant sur le fauteuil à droite. 
+            
+            Je tombe de ma hauteur. J'ai des étourdissemens qui me
+            
+            privent momentanément de mes facultés intellectuelles. 
+            
+            BEDOU, passant a la droite de Quillard et lui frappantdans les
+            
+            mains. 
+            
+            C'est dans le cas de le rendre imbécile, ça, voyez-vous ? 
+            
+            MADAME QUILLARD. 
+            
+            Quelle horreur ! … Monsieur ! … (Elle s'approche de Quillard
+            
+            d'un air menaçant. Bedou passe du côté gauche de Quillard
+            
+            et lui frappe de toutes ses forces dans l'autre main.)
+            
+            QUILLARD, à sa femme. 
+            
+            Laisse-moi un peu tranquille ! il me semble que j'aides four
+            
+            mis dans les mains. 
+            
+            MADAME QUILLARD. 
+            
+            Il ne s'agit pas de faire du sentiment ici. Répondez ! vous
+            
+            n'avez donc pas vu le ministre ? 
+            
+            QUILLARD, d'un air égaré. 
+            
+            Ma bonne ! … (A part.), Si je pouvais dans ce moment flan
+            quer un mauvais coup à ce jeune homme, je me sentirais dia
+            
+            blement soulagé. 
+            
+            MADAME QUILLARD, le secouant violemment par le bras droit. 
+            
+            Vous n'avez donc pas vu le ministre, infâme menteur que
+            
+            vous êtes ? 
+            
+            BEDOU, continuant de lui donner des claques dans la main
+            
+            Allons ! allons ! revenez à
+            
+            Vous 2
+            
+            revenez à vous ! 
+            
+            gauche. 
+            
+            QUILLARD. 
+            
+            Il m'a fait courir un poisson monstrueux ! Bedou ! voilà
+            
+            qu'il me prend des crampes dans les mollets à présent. Je suis
+            
+            MADAME QUILLARD. 
+            
+            Vous n'avez
+            
+            pas
+            
+            le quart
+            
+            de ce que vous méritez… Vous
+            
+            m'avez tronıpée, Monsieur, je vous regarde comme le dernier
+            des derniers : Élle s'éloigne.)
+            
+            28
+            
+            QUILLARD, se levant et suivant sa femme. 
+            
+            Pardonne, pardonne à un homme abusé ! 
+            
+            MADAME QUILLARD. 
+            
+            Jamais ! … et vous me le paierez, soyez-én sûre. 
+            
+            BEDOU, à part. 
+            
+            Je vois planer sur lui un nuage rempli de coups de poing. 
+            
+            QUILLARD, comme par inspiration. 
+            
+            Mais ça ne se passera pas comme ça. Je cours à la préfecture, 
+            
+            je veux le faire pincer. Je cours à la préfecture, adieu. (Il crie
+            
+            en s'en allant.) Je veux le faire pincer, je veux le faire pincer. 
+            
+            MADAME QUILLARD, 
+            
+            Dans l'état où vous êtes ? … M. Quillard ! M. Quillard ! mais
+            
+            il est dans une tenue ridicule ! les enfans vont courir après
+            
+            lui. Bedou ! venez avec moi, empêchons-le de sortir. 
+            
+            (Elle court après lui.)
+            
+            BEDOU, courant derrière madame Quillard. 
+            
+            Monsieur ! Monsieur ! … Madame Giboulet ! fermez la porte
+            
+            de la rue ! fermez la porte de la rue. 
+            
+            SCÈNE XV. 
+            
+            ADOLPHE, entrant mystérieusement par la porte à droite. 
+            
+            J'en ai appris de belles… Est-il possible, bon dieu ? … Il
+            
+            parait, d'après le portrait qu'on m'a fait du délinquant, que
+            
+            c'est ce vieux farceur de Quillard… J'ai cru que je mourrais
+            
+            de rire… (Il tire une perruque de sa poche.) Enfin la voilà, 
+            
+            cette perruque… témoin accusateur de son escapade conju
+            
+            gale… Elle n'est
+            
+            pas
+            
+            belle je n'en donnerais pas trente sous, 
+            
+            mais entre mes mains, c'est un talisman qui doit faire tomber
+            
+            tous les obstacles. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air d'Arwed (de Doche).</stage>
+            
+            
+                    <l>Ainsi jadis, dit la Sainte-Écriture,</l>
+                    <l>Ce fier Samson que sa femme rasa,</l>
+                    <l>Ce fier Samson, grâce à sa chevelure,</l>
+                    <l>Renversa seul les portes de Gaza.</l>
+                    <l>Ces cheveux-là m'offrent la même chance ;</l>
+                    <l>Vieux Philistin, tu n'as plus qu'à trembler !</l>
+                    <l>Conme Samson, je triomphe d'avance,</l>
+                    <l>J'ai la perruque, il faut capituler.</l>
+            
+                </lg>
+            </div>
+            
+            29
+            
+            (On entend en dehors le bruit d'un soufflet, Quillard jette un cri, 
+            
+            Madame Quillard et Bedou parlent fort haut.)
+            
+            Je l'entends… (Il remonte un peu la scène.) Ah ! mon dieu ! 
+            
+            Une scène de pugilat. Cachons-nous et profitons de mes aran
+            
+            tages. (Il se cache derrière le paravent.)
+            
+            SCÈNE XVI. 
+            
+            QUILLARD, MADAME QUILLARD, BEDOU, 
+            
+            ADOLPHE caché. 
+            
+            QUILLARD, tenu par sa femme et par Bedou. 
+            
+            Madame ! c'est une horreur ! vous attentez à ma liberté indi
+            
+            videlle, vous et Bedou, c'est infâme… Je vais au ministère, j'y
+            
+            ai affaire, Madame, j'ai cinquante milliers de chandelles sur
+            
+            les bras ? Laissez-moi sortir ! 
+            
+            &amp; lt ; 
+            
+            b
+            
+            os
+            
+            MADAME QUILLARD. 
+            
+            Vous n'avez que ce que vous méritez ! …
+            
+            QUILLARD. 
+            
+            Je veux appeler la vengeance des lois sur ce jeune coquin
+            
+            qui m'a fourré dedans d'une manière si curieuse… Et ne croyez
+            
+            pas que jamais je consente à lui donner ma fille, au moins. 
+            
+            Pourvu qu'il n'arrive pas dans ce moment-ci avec ma per
+            
+            BEDOU, à part. 
+            
+            ruque ! 
+            
+            MADAME QUILLARD. 
+            
+            Comment ? … Tout à l'heure vous me faisiez son éloge ! …
+            
+            QUILLARD. 
+            
+            Madame ! … Je détraque tout ce que j'ai pu vous dire, je me
+            
+            détraque, Madame. 
+            
+            MADAME QUILLARD. 
+            
+            Certes, jamais ma Louise ne sera à lui. 
+            
+            BEDOU. 
+            
+            Ce mariage est impossible, vous ne pouvez pas y consentis
+            
+            dorénavant. J'aimerais mieux l'unir à n'importe quoi. 
+            
+            MADAME QUILLARD, sechement. 
+            
+            Bedou ! ne vous riêlez pas de cela ! 
+            
+            30
+            
+            BEDOU. 
+            
+            Madame ! c'est que je suis indigné à son égard… On en a
+            
+            pendu qui le méritaient moins que ça. (On aperçoit au-dessus
+            
+            du paravent la perruque qu'Adolphe fait danser au bout de sa
+            
+            canne.)
+            
+            QUILLARD, à part avec effroi, apercevant la perruque. 
+            
+            Ah ! mon dieu ! (Bas à Bedou.) Bedou ! mon ami Bedou ! 
+            
+            je vais me trouver mal ! va-t-en au paravent. 
+            
+            BEDOU, bas à Quillard. 
+            
+            Non ! je ne m'en irai qu'après. 
+            
+            MADAME QUILLARD. 
+            
+            Mais qu'avez-vous, M. Quillard ? vous êtes pâle…
+            
+            QUILLARD, tremblant. 
+            
+            Ma bonne ! écoute ! je désapprouve la conduite de ce jeune
+            
+            homme… Certainement
+            
+, 
+            
+            c'est un…
+            
+            BEDOU, d'un air déterminé, 
+            
+            C'est un gueux, moi, je dis le mot, un rien du tout, que je
+            
+            méprise. 
+            
+            (La
+            
+            perruque recommence à danser.)
+            
+            QUILLARD, à part, regardant la perruque avec inquiétude. 
+            
+            Je suis perdu ; il va me dévoiler à mon épouse, et Bedou
+            
+            qui l'agace encore ! ! ! 
+            
+            BEDOU, apercevant à son tour la perruque. 
+            
+            Ociel ! (Bas à Quillard.) Monsieur, avez vous vu ? … Il nous
+            
+            tient tous les deux ! 
+            
+            QUILLARD, bas à Bedou. 
+            
+            Oui, oui, oui, oui ! 
+            
+            BEDOU, bas à Quillard. 
+            
+            Voyez-vous ? voyez-vous ? …
+            
+            QUILLARD, à sa femme d'un air piteux. 
+            
+            Ecoute ! … vois-tu ? … c'est un jeune homme. 
+            
+            MADAME QUILLARD. 
+            
+            Un infâme, qui s'est joué de vous. 
+            
+            Eh ! mon djeu ! Il a voulu rire. 
+            
+            QUILLARD. 
+            
+            31
+            
+            BEDOU. 
+            
+            Oh ! sans doute, il a voulu rire… (La perruque recommence
+            
+            à danser.) Le misérable ! il va la défriser. 
+            
+            QUILLARD, 
+            
+            Et quand nous lui accorderions la main en question, crois
+            
+            tu que ce serait ? … car enfin, ce n'est pas un malfaiteur ! …, 
+            
+            BEDOU. 
+            
+            Je ne dis pas qu'il faille lui accorder la main de mademoi
+            
+            selle Louise… Mais… (Apercevant la perruque qui reparaſt, 
+            
+            et changeant tout-à-coup de ton.) Et quand encore vous lui ac
+            corderiez la main de mademoiselle Louise… il la mérite. 
+            
+            MADAME QUILLARD, étonnée. 
+            
+            Vous l'accusez, vous le défendez, je n'y comprends plus rien. 
+            
+            BEDOU, fori haut, et faisant le tour de la lable qui est devant
+            
+            le paravent, pour se mieux faire entendre d Adolphe. 
+            
+            Il a des qualités, des qualités que j'estime beaucoup ; il est
+            
+            discret, Madame, il est incapable de vendre une mèche, s'il
+            
+            savait que cette mêche pût compromettre un galant homme
+            
+            égaré. 
+            
+            MADAME QUILLARD. 
+            
+            euros'n
+            
+            door
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air du Barbier. </stage>
+            
+            
+                    <l>Quelle est cette folie ?</l>
+                    <l>Tous deux en ce moment ils sont fous à lier.</l>
+            
+                    QUILLARD. 
+            
+                    <l>Ah ! consentez-y, je vous prie,</l>
+                    <l>C'est un père à genoux qui vient vous supplier.</l>
+                    <l>Consentez, consentez, je vous prie.</l>
+            
+                    (La
+            
+                    perruque recommence à danser.)
+            
+                    <l>Mariez-les, c'est moi qui vous en prie.</l>
+            
+                    BEDOU. 
+            
+                    <l>Ainsi qu' monsieur je me jette à genoux,</l>
+                    <l>N'affligez pas un garçon qui supplie.</l>
+                    <l>Trente-sept ans je fus jeune homm' chez vous.</l>
+            
+                    MADAME QUILLARD. 
+            
+                    <l>Non, c'est un infâme,</l>
+                    <l>Non, non, sur mon ame,</l>
+                    <l>Cette horrible trame</l>
+                    <l>Ne peut s'excuser.</l>
+            
+                    BEDOU
+                    suivant Quillard. 
+            
+                    <l>Madame, Madame,</l>
+                    <l>Ici je réclame.</l>
+                    <l>Cette horrible trame</l>
+                    <l>On peut l'excuser.</l>
+            
+                    QUILLARD, suivant sa
+                    femme qui marche
+                    à grands pas. 
+            
+                    <l>Ma femme, ma femme,</l>
+                    <l>Ici je réclame.</l>
+                    <l>Cette horrible trame</l>
+                    <l>On peut l'excuser.</l>
+            
+            
+            
+                    (Pendant le silence de la musique, on entend le bruit d'une chaise
+            
+                    renversée ; Madame Quillard se retourne. Adolphe parait.)
+            
+                    32
+            
+                    MADAME QUILLARD. 
+            
+                    <l>C'est abominable,</l>
+                    <l>C'est épouvantable,</l>
+                    <l>Voilà le coupable ;</l>
+                    <l>Se conduire ainsi,</l>
+                    <l>Que fait-il ici ?</l>
+            
+                    Bedou et QUILLARD. 
+            
+                    <l>C'est épouvantable,</l>
+                    <l>C'est abominable,</l>
+                    <l>Voilà le coupable.</l>
+                    <l>Ah ! je suis saisi,</l>
+                    <l>La peur m'a transi.</l>
+            
+            
+                    ADOLPHE. 
+            
+                    <l>Ah ! c'est incroyable,</l>
+                    <l>Inimaginable ;</l>
+                    <l>C'est inconcevable,</l>
+                    <l>Quoi ! trembler ainsi</l>
+                    <l>De me voir ici !</l>
+            
+                </lg>
+            </div>
+            
+            Que faisiez-vous là, Monsieur ? 
+            
+            MADAME QUILLARD. 
+            
+            QUILLARD, à part. 
+            
+            Je voudrais être inhumépour le moment. (Haut.) Oui ! que
+            
+            faisiez-vous là, infâme imposteur que vous êtes, à mon sujet ! 
+            
+            trouble-maison, prometteur de fournitures pour Alger qui
+            
+            n'existent jamais ! 
+            
+            ADOLPHE. 
+            
+            Je
+            
+            ne
+            
+            chercherai pas à dissimuler mes torts ; oui, je suis cou
+            
+            pable. 
+            
+            QUILLARD. 
+            
+            Comment ! si vous êtes coupable ? … Vous êtes un homme à
+            
+            mettre dans une ménagerie, avec les tigres… et les perroquets
+            
+            les plus fourbes… Et encore c'est trop peu, car un tigre se
+            
+            rait incapable de faire ce que vous avez fait. 
+            
+            ADOLPHE. 
+            
+            Monsieur Quillard ! l'amour m'a suggéré un coupable stra
+            
+            tagême pour pénétrer dans votre maison. J'ai avoué cette ruse
+            
+            à monsieur Bedou…
+            
+            Il le savait ! … Il est complice ! 
+            
+            QUILLARD. 
+            
+            MADAME QUILLARD, sévèrement. 
+            
+            Vous le saviez, Bedou ! 
+            
+            BEDOO, d'un air confondu. 
+            
+            Madame ! je puis citer en témoignage le ciel qui nous éclaire, 
+            
+            ce n'est
+            
+            que
+            
+            de ce matin
+            
+            des chandelles. 
+            
+            que je suis compromis dans l'affaire
+            
+            MADAME QUILLARD. 
+            
+            Il suffit… (A Adolphe.) J'espère, Monsieur, que vous sentez
+            
+            que votre présence ici est indécente. 
+            
+            ADOLPHE. 
+            
+            Je vais sortir, Madame, mais en quittant votre maison, je
+            
+            n'en dois pas moins remplir un message…
+            
+            (Il laisse apercevoir la perruque dans son chapeau.)
+            
+            33
+            
+            BEDOU, bas à Adolphe. 
+            
+            Jeune homme, voulez-vous vous taire ? voulez-vous vous
+            
+            taire, jeune homme ? 
+            
+            Bedou ! ça ne vous regarde pas. 
+            
+            ADOLPhe, bas à Bedou : 
+            
+            Si, ça me regarde. 
+            
+            BEDOU, bas à Adolphe. 
+            
+            ADOLPHE, haut à madame Quillard. 
+            
+            Je viens, de la part de madame Martin, rapporter un objet
+            
+            qui a été oublié chez elle, 
+            
+            Bedou, vivement. 
+            
+            Je sais, je sais, c'est ma perruque ! eh bien quoi ! … C'est ma
+            
+            perruque ! 
+            
+            O sublime dévouement ! 
+            
+            QUILLARD, à part. 
+            
+            NADAME QUILLARD, sévèrement. 
+            
+            Comment est-il possible, Bedou, qu'on oublie une pareille
+            
+            chose chez quelqu'un ? Qu'avez-vous donc fait chez M. Martin ? 
+            
+            bedou, d'un ton grave. 
+            
+            Madame, j'ai fait mon devoir. J'ai payé le terme, entre les
+            
+            mains de madame son épouse…
+            
+            SCÈNE XVII. 
+            
+            LES MÊMES, LA DOMESTIQUE. 
+            
+            LA DOMESTIQUE, annonçant. 
+            
+            Monsieur Martin le propriétaire ! 
+            
+            Faites entrer ! 
+            
+            MADÁME QUILLARD. 
+            
+            Bedou, avec effroi et passant rapidement à gauche. 
+            
+            Ah ! grand dieu ! 
+            
+            2
+            
+            QUILLARD, tombant sur un fauteuil à gauche, et à part. 
+            
+            Je tombe en désuétude ! 
+            
+            Si je ne craignais pas de me blesser, je me suiciderais par
+            
+            l a
+            
+            fenêtrc. 
+            
+            BEDOU, à part. 
+            
+            3
+            
+            1
+            
+            Suis-je à Charenton ? 
+            
+            ADOLPHE, étonné. 
+            
+            SCÈNE XVIII. 
+            
+            LES MÊMES, MARTIN. (Il a la jaunisse ; il est vétu tout
+            
+            en noir, avec une houppelande de soie, et il est coiffé d'un
+            bonnet de
+            
+            noir. 
+            
+            soie
+            
+            MARTIN, d'une voix exténuée. 
+            
+            Madame et Messieurs ! pardon de me présenter dans ces
+            
+            lieux ayant cncore un petit restant de jaunisse. 
+            
+            Il est hideux, cet homme. 
+            
+            Bedou, à part. 
+            
+            MADAME QUILLARD. 
+            
+            Prenez la peine de vous asseoir, Monsieur, vous paraissez
+            
+            souffrant. 
+            
+            BEDOU, à Quillard. 
+            
+            Offrez donc votre chaise, au moins. On offre toujours sa
+            
+            chaise au monde. 
+            
+            (Quillard se lève et présente sa chaise à Martin.)
+            
+            MARTIN, à Mme Quillard, en s'asseyant…
+            
+            Je vous demanderai la permission de garder mon bonnet. 
+            
+            QUILLARD, bas à Bedou. 
+            
+            Bedou ! mon anni ! je ne me suis jamais trouvé dans une po
+            
+            sition plus atroce. 
+            
+            MARTIN. 
+            
+            Je venais, Madame, pour notre petite affaire, 
+            
+            Mais, Monsieur…
+            
+            MADAME QUILLARD. 
+            
+            MARTIN. 
+            
+            Je suis surpris du retard que vous avez mis a régler cet ob
+            
+            jet… Et, quoiqu'ayant encore un petit restant de mon in
+            
+            disposition… car j'ai la jaunisse. Se retournant vers Quillard.)
+            
+            Je vous demanderai la permission de garder mon bonnet. Je
+            
+            me suis dit : Voyons ! je vais aller, tout en me promenant, 
+            
+            chez mousieur Quillard ; ça me fera prendre l'air, et en même
+            
+            temps je ferai leur connaissance. 
+            
+            35
+            
+            QUILLARD, se baissant pour lui parler. 
+            
+            Enchanté, Monsieur, de cette circonstance… Mais Bedou
+            
+            est allé ce matin même chez vous… Il a remis…
+            
+            MARTIN. 
+            
+            Qu'est-ce que c'est que Bedou ? 
+            
+            BEDOU, prenant la place de Quillard et se baissant à son tour. 
+            
+            près de Martin. 
+            
+            C'est moi, Monsieur, qui ai remis ce matin à madame votre
+            
+            épouse…
+            
+            Ah ! bon ! bien ! 
+            
+            MARTIN
+            
+            BEDOU. 
+            
+            Elle était dans votre salle à manger avec votre famille…'
+            
+            Ah ! bon ! bien ! 
+            
+            MARTIN. 
+            
+            BEDOU. 
+            
+            Madame Martin aura négligé de vous le dire, et voilà ce qui
+            
+            nous procure l'avanlage de vous voir. 
+            
+            MARTIN. 
+            
+            Très-bien, très-bien ! … (Je vous demanderai la permission
+            
+            de garder mon bonnet.) Je vous ferai seulement une petite ob
+            
+            servation… C'est que je suis garçon, et que je demeure tout
+            
+            seul. 
+            
+            BEDOU, se relevant brusquement avec effroi, et donnant invo
+            
+            lontairement un coup à Quillard qui était penché derrière lui : 
+            
+            Ah ! grand dieu ! 
+            
+            MADAME QUILLARD, sévèrement. 
+            
+            Bedou ! 
+            
+            Je commence à comprendre. 
+            
+            Adolphe, à part. 
+            
+            Bedou, confondu. 
+            
+            Madame ! … (Bas à Quillard) Voyez daus quels draps vous
+            
+            me plongez ! … Avez-vous une quittance, au moins ? 
+            
+            Oui ! …
+            
+            QUILLARD, bas à Bedou. 
+            
+            BEDOU, d'un air triomphant. 
+            
+            Nous avons une quittance ; je l'ai remise à Monsieur, et vous
+            
+            allez la voir… Rendez-moi la quittance, s'il vous plaît, je veux
+            
+            me laver devant Madame et devant Monsieur. 
+            
+            36
+            
+            MARTIN, à madame Quillard. 
+            
+            Je ne vous cache pas que je suis extrêmement curieux de la
+            
+            voir. 
+            
+            MADAME QUILLARD, lisant, 
+            
+            Je, soussignée, reconnais avoir reçu la somme de deux
+            
+            » cent cinquante francs pour prix d'un déjeuner fait chez moi, 
+            D
+            
+            y compris les porcelaines cassées par la personne, 
+            
+            femme Saint-MARTIN, née Saint-Ernest. » 
+            
+            Cette quittance produit sur moi l'effet de la frégate la Mé
+            
+            duse, 
+            
+            QUILLARD, à part. 
+            
+            MADAME QUILLARD. 
+            
+            Qu'est-ce que c'est que ça ? miséricorde ! 
+            
+            Je suis putréfié ! 
+            
+            QUILLARD, à part, 
+            
+            MARTIN, criant. 
+            
+            1
+            
+            "
+            
+. C'est au-dessous, c'est au-dessous…
+            
+            J'y suis tout-à-fait. 
+            
+            ADOLPHE, à part. 
+            
+            bedou, à part. 
+            
+            Je voudrais avoir vingt-quatre sangsues à ma disposition. 
+            
+            Bedou ! il me faut uue explication sérieuse, parlez ou sortez
+            
+            MADAME QUILLARD. 
+            
+            de chez moi. 
+            
+            BEDOU. 
+            
+            Madame ! voilà frente-sept ans que je suis jeune homme
+            
+            chez vous, je vous respecte et je vous trouve pleine…
+            
+            MARTIN, l'interrompant. 
+            
+            Voilà ! … voilà ce que c'est : Monsieur a été chez la voisine
+            
+            d'en dessous, qui s'appelle madame Saint-Martin… Je me di
+            
+            sais aussi ce matin : Mais ces malheureuses font un sabbat in
+            
+            croyable ! …
+            
+            Je suis déshonoré à perpétuité. 
+            
+            ! ! ! ! 
+            
+            Bedot, à part. 
+            
+            MADAME QUILLARD. 
+            
+            Est-il possible ? grand dieu ! 
+            
+            Bedou ! je n'oublierai jamais…
+            
+            QUILLARD, 
+            
+            bas
+            
+            à Bedou. 
+            
+            BEDOU, avec une rage concentrée. 
+            
+            Ne me
+            
+            dites pas un mot, ou je vous mords jusqu'au sang. 
+            
+            MADAME QUILLARD. 
+            
+            Monsieur Bedou, vous sentez bien que vous ne pouvez rester
+            
+            plus long-temps dans ma maison où il y a une jeune personne. 
+            
+            BEDOU. 
+            
+            Je sens parfaitement que c'est impossible, adieu, Madame ! 
+            
+            adieu, monsieur Quillard. 
+            
+            SCÈNE XIX. 
+            
+            LES MÊMES, LOUISE accourant. 
+            
+            LOUISE. 
+            
+            Comment, adieu ? Bedou nous quitte ? 
+            
+            MADAME QUILLARD. 
+            
+            Oui, ma fille, oui. 
+            
+            LOCISE, 
+            
+            Comment, mon pauvre Bedou, vous nous quittez ? 
+            
+            Bedou, 
+            
+            d'un
+            
+            air ému. 
+            
+-" Oui, Mademoiselle, cela tient à des raisons au-dessus de
+            
+            votre portée. Je pars ; j'ai cent trente-neuf francs à la caisse
+            
+            d'Epargnes, je vais les retirer ; je me fais juif errant ; et je vais
+            
+            faire le tour de l'atmosphère, à pied, comme le capitaine
+            Co-ok. 
+            
+            QUILLARD, à part, en pleurant, 
+            
+            Il me tire des larmes : il est orateur, cet homme-là. 
+            
+            ADOLPHE, bas à Bedou. 
+            
+            Mais, Bedou, ce n'est pas vous qui êtes allé chez Madame…
+            
+            BEDOU. 
+            
+            Taisez vous ! … Voulez-vous que je joue ici le rôle d'une
+            
+            torche de discorde ? 
+            
+            ADOLPHE, bas à Quillard. 
+            
+            Décidez madame Quillard à mon mariage, ou je justifie
+            
+            7
+            
+            Bedou. 
+            
+            QUILLARD, bas. 
+            
+            Vous auriez cette infamie. (Haut.) Ecoute, ma bonne ! je
+            
+            fais une réflexion : Monsieur Adolphe m'a fait un tour bien
+            indigne ; mais il est jeune. Nous avons lous été jeunes plus ou
+            moins…
+            
+            38
+            
+            MADAME QUILLARD, impatientée.'
+            
+            Eh bien ! qu'il soit mon gendre. 
+            
+            O bonheur ! 
+            
+            Monsieur Adolphe ! 
+            
+            ADOLPHE. 
+            
+            LOUISE. 
+            
+            QUILLARD, à Adolphe. 
+            
+            C'est que… tout ce que j'avais à lui donner a servi à cette
+            
+            fatale acquisition que vous savez ; sa dot se compose main
+            
+            tenant de cinquante milliers de chandelles… (Avec sentiment.)
+            
+            Puissent-elles faire le bonheur de mon enfant ! 
+            
+            Ab ! monsieur Quillard ! 
+            
+            ADOLPHE, souriant. 
+            
+            QUILLARD, à part. 
+            
+            Ils ont de la lumière pour le restant de leurs jours ! (Bas à
+            
+            Bedou.) Et toi, sois tranquille ; tu resteras, demain je te remets
+            
+            la somme pour la rendre à ma femme. 
+            
+            BEDOU. 
+            
+            Ah ! … (A part.) C'est égal, chez un droguiste, ça ne me se
+            
+            rait pas arrivé. (A Adolphe.) Rendez-moi ma perruque, au
+            
+            moins. (Adolphe lui rend la perruque et il la met d'un air sa
+            
+            tisfait.) Ah ! grand dieu ! il me semble que ma tête entre dans
+            
+            le paradis terrestre. 
+            
+            MADAME QUILLARD, le regardant d'un air de dépit. 
+            
+            Et il rit, encore ! … Voilà ce qui m'indigne. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Eh ! lon lan la, sous mon vieux chêne. </stage>
+            
+            
+                    <l>J'en ai l'ame encor frappée.</l>
+                    <l>Me donner un tel reçu !</l>
+                    <l>Ce Bedou, comme il m'a trompée</l>
+                    <l>Grand dieu ! qui jamais l'aurait cru ?</l>
+                    <l>Mais il n'a pas l'air confondu.</l>
+                    <l>Oui, c'est son sang-froid qui m'irrite,</l>
+                    <l>Il m'apporte, sans sourciller,</l>
+                    <l>La carte de son inconduite</l>
+                    <l>Comme une quittanc' de loyer. <stage type="repetition">} bis. </stage></l>
+            
+            
+            
+                    MARTIN
+            
+                    <l>On n' paie que quand on habite.</l>
+                    <l>Êt's-vous en hôtel garni ?</l>
+                    <l>Le jour où vous quittez le gîte,</l>
+                    <l>Vous soldez, et tout est fini :</l>
+                    <l>Or donc, moi, je raisonne ainsi ;</l>
+            
+                    39
+            
+                    <l>Je devrais, d'après cet usage,</l>
+                    <l>N' pas payer mes bas au bonn'tier,</l>
+                    <l>Quand les mollets sont en voyage,</l>
+                    <l>On n' doit pas payer leur loyer. <stage type="repetition">} bis. </stage></l>
+            
+                    LOUISE. 
+            
+                    <l>Qu'une fille simple et sage</l>
+                    <l>Dans son cœur loge un amant,</l>
+                    <l>Il promet que le mariage</l>
+                    <l>Sera le prix du logement ;</l>
+                    <l>Alors, crédule à ce serment,</l>
+                    <l>Heureuse et timide, elle espère</l>
+                    <l>Qu'un doux hymen va les lier ;</l>
+                    <l>Mais bien souvent le locataire</l>
+                    <l>S'en va sans payer le loyer. <stage type="repetition">} bis. </stage></l>
+            
+                    QUILLARD. 
+            
+                    <l>Près du vieil hôtel Soubise</l>
+                    <l>On peut louer au Marais,</l>
+                    <l>Hôtel, écurie et remise,</l>
+                    <l>Cour et jardin, à peu de frais ;</l>
+                    <l>C' n'est pas partout comme au Marais ;</l>
+                    <l>Soit dit sans offenser les membres</l>
+                    <l>Qu' nous r'misons dans un au' quartier,</l>
+                    <l>Pour un cabinet et deux chambres</l>
+                    <l>Nous payons bien cher de loyer. <stage type="repetition">} bis. </stage></l>
+            
+                    ADOLPHE. 
+            
+                    <l>Un congrès lâche et perfide</l>
+                    <l>Voudrait ramener chez nous,</l>
+                    <l>L'Autrichien, roide et stupide,</l>
+                    <l>Et le Baskir aux cheveux roux.</l>
+                    <l>L'affreux Baskir aux cheveux roux.</l>
+                    <l>Ah ! s'ils osaient, dans leur démence,</l>
+                    <l>Salir encore notre foyer ! !</l>
+                    <l>S'ils revenaient loger en France,</l>
+                    <l>Ils paieraient bien cher le loyer. <stage type="repetition">} bis. </stage></l>
+            
+                    bedou, au public. 
+            
+                    <l>On dit qu'il est dans la ville,</l>
+                    <l>Et c'est bien fâcheux vraiment,</l>
+                    <l>Nombre de brav' gens sans asile,</l>
+                    <l>Et qui n'os'nt louer un log'ment</l>
+                    <l>De peur de manquer au paiement.</l>
+                    <l>Une crainte de cette espèce,</l>
+                    <l>Messieurs, ne doit pas vous effrayer.</l>
+                    <l>Ce soir, si vous louez la pièce,</l>
+                    <l>D'autres viendront et paieront le loyer. <stage type="repetition">} bis. </stage></l>
+                </lg>
+            </div>
+            
+            
+            FIN. 
+            
+            }
+            
+            1
+            
+            20 JY 63
+        </body>
+    </text>
+</TEI>

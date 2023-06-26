@@ -1,0 +1,75 @@
+Airs candidats: 20                
+Airs manuellement filtrés : 20                
+Airs réelement présents : 21                
+Précision: 1.00                
+Rappel: 0.95                
+Mesure-F1: 0.98
+Non attrapé: Air : 
+Non attrapé: Vaudeville de la Revue de Paris. 
+Supplémentaire: Ah ! finissez
+
+***Airs du xml***:
+AIR : du premier Chœur de Madame Grégoire. 
+Air de la Galoppade. 
+AIR : J'en guette un petit de mon âge. 
+AIR de Fernand Cortez. 
+AIR de Préville et Taconnet. 
+AIR du vaudeville de la Famille de l'Apothicaire. 
+AIR : En arrivant le joueur ne sait pas. 
+AIR de Madelinette. 
+AIR : De Téniers. 
+AIR : Mon cœur à l'espoir s'abandonne. 
+AIR : De l'Artiste. 
+AIR du Ballet des Pierrots. 
+AIR : Comme il m'aimait. 
+AIR : Suzon dormait dans un bocage. 
+AIR : Verse encore. 
+AIR : Tu vas changer de costume et d'emploi. 
+AIR du Comte Ory. 
+Air : 
+AIR : De la piété filiale. 
+AIR : Vive une femme de tête. 
+Vaudeville de la Revue de Paris. AIR : Ah ! finissez.
+
+***Airs identifiés dans le txt***:
+AIR : du premier Chæur de Madame Grégoire .
+Air de la Galoppade.
+AiR : J'en guette un petit de mon áge.
+Air de Fernand Cortez.
+Alb de Preville et Taconnet.
+Air du vaudeville de la Famille de l'Apothicaire ,
+Air : En arrivant le joueur ne sait pas .
+Air de Madelinette .
+Air : De Téniers .
+Air : Mon coeur à l'espoir s'abandonne.
+Arr : De l'Artiste .
+Air, du Ballet des Pierrot's.
+Air : Comme il m'aimait.
+Air : Suzon dormait dans un bocage.
+Air : Verse encore.
+Air : Tu vas changer de costume et d'emploi.
+Air du Comte Ory .
+Ah ! finissez
+Air : De la piété filiale ..
+Air : Vive une femme de tête .
+
+***Airs du txt validés dans le xml***:
+AIR : du premier Chœur de Madame Grégoire. 
+Air de la Galoppade. 
+AIR : J'en guette un petit de mon âge. 
+AIR de Fernand Cortez. 
+AIR de Préville et Taconnet. 
+AIR du vaudeville de la Famille de l'Apothicaire. 
+AIR : En arrivant le joueur ne sait pas. 
+AIR de Madelinette. 
+AIR : De Téniers. 
+AIR : Mon cœur à l'espoir s'abandonne. 
+AIR : De l'Artiste. 
+AIR du Ballet des Pierrots. 
+AIR : Comme il m'aimait. 
+AIR : Suzon dormait dans un bocage. 
+AIR : Verse encore. 
+AIR : Tu vas changer de costume et d'emploi. 
+AIR du Comte Ory. 
+AIR : De la piété filiale. 
+AIR : Vive une femme de tête. 

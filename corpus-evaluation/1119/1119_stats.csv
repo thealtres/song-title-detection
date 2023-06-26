@@ -1,0 +1,39 @@
+Airs candidats: 16                
+Airs manuellement filtrés : 9                
+Airs réelement présents : 9                
+Précision: 0.56                
+Rappel: 1.00                
+Mesure-F1: 0.72
+
+***Airs du xml***:
+Air de Téniers. 
+Air de Fernand Cortez. 
+AIR de Caleb. 
+AIR : Simple soldat, etc. 
+Air : Ce que j'éprouve en vous voyant. 
+AIR : Est-il supplice égal ? 
+AIR : Garde à vous ? 
+Air de Turenne. 
+AIR : De la Marseillaise. 
+
+***Airs identifiés dans le txt***:
+Air de Téniers ,
+Air de Fernand Cortez .
+AIR de Caleb .
+AIR : Simple soldat, etc.
+Air : Ce que j'éprouve en vous voyant.
+AIR : Est- il supplice égal ?
+AIR : Garde à vous ?
+Air de Turenne.
+AIR : De la Marseillaise .
+
+***Airs du txt validés dans le xml***:
+Air de Téniers. 
+Air de Fernand Cortez. 
+AIR de Caleb. 
+AIR : Simple soldat, etc. 
+Air : Ce que j'éprouve en vous voyant. 
+AIR : Est-il supplice égal ? 
+AIR : Garde à vous ? 
+Air de Turenne. 
+AIR : De la Marseillaise. 

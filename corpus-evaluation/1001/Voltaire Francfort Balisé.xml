@@ -1,0 +1,2517 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">VOLTAIRE À FRANCFORT</title>
+                <title type="sub">COMÉDIE ANECDOTIQUE EN UN ACTE, MÊLÉE DE COUPLETS</title>
+                <author key="OUR" sort="1">
+                    <name>
+                        <forename>Eustachie Thérèse Maurice</forename>
+                        <surname>Ourry</surname>
+                    </name>
+                </author>
+                <author key="BRA" sort="2">
+                    <name>
+                        <forename>Nicolas</forename>
+                        <surname>Brazier</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                  <publisher>
+                   	<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>	
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">VOLTAIRE À FRANCFORT</title>
+                        <author>OURRY ET BRAZIER</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=xDlMAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/102E8CD7</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1831-06-08">8 JUIN 1831</date>
+                <placeName>
+                    <settlement>THÉÂTRE DU PALAIS-ROYAL</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        /
+            
+            | VOLTAIRE
+            
+            · A FRANCFoRT, 
+            
+            « omébie anecbotique en un 2tcte, mêlée be Couplets ; 
+            
+            PA1R
+            
+-
+            
+            …
+            
+            ! 
+            
+-
+            
+            MM. oURRY ET BRAzIER. 
+            
+            Représentée, pour la première fois, "
+            
+            SUR LE THEATRE DU PALAIS-ROYAL, 
+            
+            le 8 Juin 183 I. 
+            
+-
+            
+            PRIX : 1 FR • 50 C. 
+            
+            #lari#. 
+            
+            R. RIGA, LIBRAIRE, 
+            
+            FAUBoURG PoIssoNNIÈRE, N° 1. 
+            
+            J.-N. BARBA, PALAIS-ROYAL, 
+            
+            1834
+            
+---
+            
+            131531-B
+            
+            10ersonnageg. 
+            
+            2lcteurg, 
+            
+            VOLTAIRE (cinquante-huit ans) .
+            
+            MM. LEPEINTRE aîné
+            
+            DUCORNET, valet-de-chambre chansonnier (trente-cinq
+            
+            ans) .
+            
+            PAUL. 
+            
+            SOTTENDORFF, résident de Prusse. 
+            
+            REGNIER. 
+            
+. 
+            
+            BERNARD, consul de France à Francfort. 
+            
+            DORMEUIL. 
+            
+            MADAME MULLER, aubergiste. 
+            
+            M*** BAROYER. 
+            
+            LISBETH, servante de l'auberge. 
+            
+            PERNON. 
+            
+            DEUx GRENADIERs ALLEMANDs. 
+            
+            La scène se passe dans une auberge de Francfort. 
+            
+            IMPRIMERIE DE DAVID, BOULEVARD POISSONNIERE, N° 6. 
+            
+            VOLTAIRE A FRANCFORT. 
+            
+            (Le théâtre représente une salle de l'auberge.)
+            
+            SCENE PREMIERE, 
+            
+            MADAME MULLER, LISBETH. 
+            
+            (Madame Muller est assise devant une espèce de comptoir. Lisbeth est
+            
+            debout devant elle.)
+            
+            MADAME MULLER. 
+            
+            Allons, je ne suis pas mécontente, la semaine a été bonne. 
+            
+            LIsBETH… 
+            
+            Je le crois bien : pendant la foire de Francfort, on ne savait ici
+            
+            auquel entendre. 
+            
+            MADAME MULLER. 
+            
+            Est-ce que tu t'en plains ? 
+            
+            LISBETH. 
+            
+            Mais, dame, ça me fatigue. 
+            
+            MADAME MULLER. 
+            
+            Oui ; mais quand tu comptes l'argent de tes profits ? …
+            
+            Ah ! dame, ça me délasse. 
+            
+            LISBETEI. 
+            
+            MADAME MULLER. 
+            
+            Voyons si tu es bien riche. 
+            
+            (Elle renverse sur la table l'argent qui est dans un tronc) 
+            
+            LISBETH, 
+            
+            Oh ! meinn Gott, que d'argent ! 
+            
+            MADAME MULLER. 
+            
+            Et même de l'or, un frédéric l Qui donc a pu te traiter si géné
+            
+            reusement ? 
+            
+            LISBETH. 
+            
+            Je serais fort embarrassée de vous le dire. C'est tout de même
+            
+            ben gentil à voir. 
+            
+            (Elle étale les pièces sur la table) 
+            
+            MADAME MULLL R. 
+            
+            Dis-moi, mon enfant, es-tu entrée ce matin chez ce monsieur
+            
+            qui est arrivé avant-hier de Berlin ? Je parie que tu l'auras ou
+            
+            blié ? 
+            
+            LISBETH. 
+            
+            Est-ce que l'on peut oublier quelqu'un qui vous trouve gentille ? 
+            
+            J'y ai été ce matin, mais il m'a dit de ne pas le déranger. Il lisait
+            
+            tout haut ; il faisait des gestes, il était de là…
+            
+            (On entend sonner dans l'intérieur.)
+            
+            #e » 4 « e
+            
+-
+            
+            MADAME MULLER. 
+            
+            Eh bien ! mademoiselle, vous entendez. 
+            
+            LISBETH, en sortant. 
+            
+            On y va, on y va. 
+            
+            S CE NE IM, 
+            
+            MADAME MULLER, seule. 
+            
+            Dans un état comme le nôtre, il faut une attention perpétuelle…
+            
+            Nous voyons parfois des gens si singuliers. (Voyant Ducornet qui
+            
+            entre.) En voilà un, par exemple, dont la tournure est assez bizarre. 
+            
+            S C ENIE III1I, 
+            
+            MADAME MULLER, DUCORNET. 
+            
+-
+            
+            DUCORNET. 
+            
+            Pourrait-on parler à la maîtresse de la maison ? 
+            
+            MADAME MULLER. 
+            
+            Que voulez-vous, mon ami ? 
+            
+-
+            
+            DUCORNET. 
+            
+            Madame, voilà ce que c'est… comme vous tenez l'auberge de la
+            
+            Poste, il arrive chez vous quelquefois des voyageurs. 
+            
+            Assurément, … après ? 
+            
+            MADAME MULLER. 
+            
+            DUCORNET. 
+            
+            De façon que je viens me recommander à vous pour me placer, 
+            
+            et, de préférence à Francfort, parce que j'ai l'espérance d'y retrou
+            
+            ver une petite Allemande dont je suis fou. 
+            
+            x
+            
+            MADAME MULLER. 
+            
+            A la bonne heure ! il est franc ! Et que savez-vous faire ? 
+            
+            DUCORNET. 
+            
+            Si vous me demandiez ce que je ne sais pas faire, ce serait bien
+            
+            tôt dit ; mais ce que je sais faire, ce sera plus long. 
+            
+            Dites toujours. 
+            
+            MADAME MULLER, 
+            
+            DUCOIRN ET. 
+            
+            Vous avez le temps… Eh bien ! je sais coëffer, raser, frotter, 
+            
+            battre les habits, tirer le vin, faire la cuine, coudre, blanchir
+            
+            et repasser, cirer les bottes et faire des chansons. 
+            
+            MADAME MULLER. 
+            
+            Comment, des chansons ! 
+            
+            DUCORNET. 
+            
+            Oui, madame, c'est un talent qui m'est venu d'enfance. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Château de mon Oncle. </stage>
+            
+            
+                    <l>En véritable Français,</l>
+                    <l>À peine encor j'existais,</l>
+            
+                    g&gt; 5 €
+            
+                    <l>Je chantais <stage type="repetition"> (bis) </stage></l>
+                    <l>Et romances et couplets.</l>
+                    <l>Puis je devins chansonnier ;</l>
+                    <l>Et d' mon talent le premier</l>
+                    <l>Transporté,</l>
+                    <l>Enchanté,</l>
+                    <l>Moi-même je me chantai.</l>
+            
+                    <l>J'ai chanté les fêtes,</l>
+                    <l>J'ai chanté les bêtes ;</l>
+                    <l>J'ai chanté <stage type="repetition"> (bis) </stage></l>
+                    <l>L'hiver, l'automne et l'été :</l>
+                    <l>J'ai chanté la guerre,</l>
+                    <l>J'ai chanté misère ;</l>
+                    <l>J'ai chanté</l>
+                    <l>La gaîté,</l>
+                    <l>La mort et la volupté.</l>
+            
+                    <l>Enfin j'ai chanté toujours</l>
+                    <l>Et le vin et les amours ;</l>
+                    <l>J'ai chanté</l>
+                    <l>La santé ;</l>
+                    <l>J'ai chanté</l>
+                    <l>La faculté.</l>
+                    <l>J'ai chanté la liberté…</l>
+                    <l>Mais, crac, par l'autorité,</l>
+                    <l>Un beau jour arrêté,</l>
+                    <l>Malgré moi, j'ai déchanté.</l>
+                </lg>
+            </div>
+            
+            
+            MADAME MULLER. 
+            
+            Quel terrible chanteur ! … Et avez-vous des repondans ! 
+            
+            DUCORNET. 
+            
+            J'ai des certificats d'une trentaine de maîtres que j'ai servis, et
+            
+            qui tous ont eté fort satisfaits de moi. 
+            
+            MADAME MULLER, riant. 
+            
+            Il y paraît… Mais je perds mon temps à écouter cet original. 
+            
+            (A Ducornet.) Mon ami, si quelque voyageur demande un valet-de
+            
+            chambre, nn factotum, je songerai à vous. (En sortant) . Ah ! quel
+            
+            original, mon Dieu ! quel original ! 
+            
+            SC ENE IV » 
+            
+-
+            
+            DUCORNET, seul. 
+            
+            Cette dame a l'air de me trouver… comment dirai-je… ne le di
+            sons pas… j'ai peur qu'elle ne s'occupe pas trop de moi. Si je †
+            
+            vais au moins savoir où est maintenant ma petite Lisbeth. Je la
+            
+            demande à tout le monde ; je n'ai qu'un vœu, qu'un mot, qu'un
+            
+            cri : c'est Lisbeth ! Lisbeth ! Lisbeth ! 
+            
+            SCENE V, 
+            
+            DUCORNET, LISBETH. 
+            
+            L1sBETH, accourant. 
+            
+            Qui est-ce qui m'appelle ? 
+            
+            |
+            
+            g&gt; 6 « é
+            
+            |
+            
+            DUcoRNET, étonné. 
+            
+            Eh ! c'est toi, mon petit chat ! 
+            
+            LISBETH, de méme. 
+            
+            Comment, c'est toi, mon pauvre Ducornet ! 
+            
+            DUCORNET, 
+            
+            Quel hasard, quel hasard heureux que je sois tombé juste dans
+            
+            ta maison ! 
+            
+            Et que venais-tu y faire ? 
+            
+            LISBETH. 
+            
+            DUCORNET, 
+            
+            Chercher une place, mon enfant, ear enfin, celle que j'ai dans
+            
+            ton cœur est fort agréable ; mais il m'en faut encore une autre. 
+            
+            Ah ! sans doute ce maudit argent…
+            
+            DUCORNET. 
+            
+            LISBETH. 
+            
+            Prends bien garde à ne pas mal parler des puissances. 
+            
+            LISBETH, 
+            
+            Eh bien ! je songerai à te trouver quelque bonne place… compte
+            
+            sur ma protection. 
+            
+-
+            
+            SC ENE VI. 
+            
+            LEs MÈMEs, VOLTAIRE, sortant de sa chambre, un calepin et un
+            
+            crayon à la main. 
+            
+            LISBETH, 
+            
+            Chut ! voilà ce monsieur qui est ici depuis deux jours… il faut
+            
+            que ce soit quelque grand personnage, car il se parle toujours tout
+            seul. 
+            
+-
+            
+            Oui, je vais retourner en France. Fréderic m'a fait redemander
+            
+            voLTAIRE, sans les voir. 
+            
+            le cordon de ses ordres ; je le lui renverrai… sans trop de regrets. 
+            
+            Lisbeth, il parle du roi… écoutons. 
+            
+            DUcoRNET, bas à Lisbeth. 
+            
+            VOLTAIRE, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville de Partie et Revanche. </stage>
+            
+            
+                    <l>Je suis trop vieux, je suis trop sage</l>
+                    <l>Pour m'amuser de ces colifichets…</l>
+                    <l>Je conviens pourtant qu'à tout âge,</l>
+                    <l>Comme un enfant on aime ces hochets.</l>
+                    <l>Ces cordons, criblés d'épigrammes,</l>
+                    <l>Ont à la fois nos dédains, nos amours ;</l>
+                    <l>Et, pour raison, je les compare aux femmes ;</l>
+                    <l>On en médit, mais l'on y tient toujours.</l>
+                </lg>
+            </div>
+            
+            
+            DUcoRNET, à Lisbeth. 
+            
+            Ah ! on lui avait envoyé le cordon. 
+            
+            LIs BETH, à Ducornet. 
+            
+            Quand je t'ai dit que c'était un grand seigneur. 
+            
+            9 » 7 « 6
+            
+            VOLTAIRE. 
+            
+-
+            
+            Ainsi j'aurai fait le voyage de France à Berlin pour le seul plai
+            sir de voir Sa Majesté prussienne. Mes travaux n'auront eu aucun
+            résultat. 
+            
+            DUcoRNET, à Lisbeth. 
+            
+            Il paraît qu'il a travaillé pour le roi de Prusse. 
+            
+            LISBETH, à Ducornet. 
+            
+            Il n'en est pas plus fier… tu vas voir. (Elle s'approche timidement
+            
+            de Voltaire.) Monsieur le voyageur ? …
+            
+            Ah ! c'est vous, ma belle amie… Approchez, approchez. 
+            
+            VOLTAIRE, se retournant. 
+            
+            LISBETH, à Ducornet. 
+            
+            Comme il parle bien, hein ! (A Voltaire.) Je venais prendre les
+            ordres de monsi… monseigneur ; monseigneur déjeûnera-t-il dans
+            sa chambre, ou dans la salle commune ? 
+            
+            VOLTAIRE. 
+            
+            Je déjeûnerai seul… j'aime la solitude, mon enfant, j'en ai
+            
+            besoin. 
+            
+            LISBETH. 
+            
+            Monseigneur sera obéi… Oserai-je lui demander s'il compte res
+            
+            ter long-temps à Francfort ? 
+            
+            voLTAIRE, à part. 
+            
+            Le moins que je pourrai, et pour cause… (Haut.) Mais oui, mon
+            intention est de m'y arrêter quelque temps… Il n'y a qu'une chose
+            qui me contrarie. 
+            
+            Quoi donc ! 
+            
+            LISBETH. 
+            
+            VOLTAIRE, 
+            
+            C'est que le valet-de-chambre qui me sert de seerétaire n'est
+            
+            point encore arrivé. 
+            
+            Dis donc, Ducornet, la bonne occasion ! 
+            
+            LIsBETH, poussant Ducornet. 
+            
+, Et si je trouvais quelqu'un d'intelligent…
+            
+            DUcoRNET, à Lisbeth. 
+            
+            VOLTAIRE. 
+            
+            Ma foi ! il a l'air d'un bon homme… je vais me mettre sur les
+            
+            rangs… présente-moi. 
+            
+            LISBETH, 
+            
+            Justement, j'ai à proposer à monseigneur… (Montrant Ducornet.)
+            
+            Voici un bon sujet, dont il pourrait peut-être s'arranger. 
+            
+-
+            
+            voLTAIRE, regardant Ducornet. 
+            
+            C'est ce garçon là ? 
+            
+            Oui, monseigneur. 
+            
+            LISBETH. 
+            
+            VOLTAIRE. 
+            
+            Vous le connaissez bien ? 
+            
+            •
+            
+            •
+            
+            ! 
+            
+            s » 8 « e
+            
+-
+            
+            LISBETH, baissant les yeux. 
+            
+            Oh ! oui, monseigneur. 
+            
+            voLTAIRE, souriant malignement. 
+            
+            Ah ! ah l… et a-t-il quelques moyens ? 
+            
+            DUcoRNET, bas à Lisbeth. 
+            
+            Si j'ai des moyens ! … hein ! … moi qui est auteur ! 
+            
+            VOLTAIRE. 
+            
+-
+            
+-
+            
+            Sait-il écrire ce grand garçon-là ? 
+            
+            Tiens, si je sais écrire… moi qui est auteur ! 
+            
+            DUCoRNET, à Lisbeth. 
+            
+            VOLTAIRE. 
+            
+            Parle-t-il français ? 
+            
+            DUCoRNET, à Lisbeth. 
+            
+-
+            
+            C'est trop fort pour le coup ! … enfin, c'est égal… on est exposé…
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Restez, restez, troupe jolie. </stage>
+            
+            
+                    <l>À mes dépens vous voulez rire,</l>
+                    <l>Quand je vous dis que j' suis auteur,</l>
+                    <l>Vous m' demandez si j' sais écrire,</l>
+                    <l>C'est être aussi par trop railleur.</l>
+            
+                    VOLTAIRE. 
+            
+                    <l>Là, là, calmez votre colère,</l>
+                    <l>Entre nous, c'est, mon cher ami,</l>
+                    <l>Une demande qu'on peut faire</l>
+                    <l>À bien des auteurs d'aujourd'hui.</l>
+                </lg>
+            </div>
+            
+            
+            Comment le nomme-t-on ? 
+            
+            LISBETH, avec une révérence. 
+            
+            Ducornet, monseigneur. 
+            
+            voLTAIRE, souriant. 
+            
+            Ducornet ! … diable, c'est un nom d'homme de lettres. 
+            
+            DUcoRNET, s'approchant et saluant avec prétention. 
+            
+            Je le suis un peu, j'ose m'en flatter. 
+            
+            voLTAIRE, le toisant. 
+            
+            En vérité ? 
+            
+            ^
+            
+            DUCORNET. 
+            
+            Vous allez peut-être dire en me voyant : Comment cet homme
+            
+            là n'est pas un imbécille ? …
+            
+            voLTAIRE, sourtant
+            
+            Je ne dis pas cela. 
+            
+            DUCORNET. 
+            
+            Si vous ne le dites pas, vous le pensez, ça revient au même… ; 
+            
+            Eh bien ! monseigneur, vous voyez devant vous un homme qui, 
+            
+            n'est pas sans quelques avantages moraux…
+            
+            VOLTAIRE. 
+            
+            Ah ! vous avez donc quelque chose dans la tête ? 
+            
+            DUCORNET. 
+            
+            Je n'en suis pas sûr, mais ie le crois. 
+            
+            2
+            
+] 
+            
+            s&gt; 9 G
+            
+-L. 1S BETH. 
+            
+            Si monseigneur se charge de Ducornet, je gagerais qu'il en sera
+            
+            cOntent. 
+            
+            voLTAIRE, s'approchant de Lisbeth. 
+            
+            M'en répondez-vous ? 
+            
+            Comme de moi-même. 
+            
+            LISBETH. 
+            
+            VOLTAIRE. 
+            
+            En ce cas, monsieur Ducornet peut se regarder comme attaché
+            
+            à mon service. 
+            
+            LISBETH. 
+            
+            Ah ! monsieur, quel plaisir vous me faites ! 
+            
+            voLTAIRE, lui prenant la main galamment. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville du Secret de madame. </stage>
+            
+            
+                    <l>Tout est fini, ma belle amie :</l>
+                    <l>Je comblerai votre désir ;</l>
+                    <l>Et je n'oublîrai de ma vie,</l>
+                    <l>Que j'ai pu vous faire plaisir.</l>
+            
+                    LISBETH. 
+            
+                    <l>C'est drôl', vous dit' ça d'un' manière !</l>
+                    <l>Vous avez' queq'chos'qui séduit ;</l>
+                    <l>Et quoiqu'je n' m'y connaiss' guère,</l>
+                    <l>J'vois ben qu' vous êt' un homm' d'esprit.</l>
+            
+                    VOLTAIRE. 
+            
+                    <l ana="unanalyzable">Tout est fini, ma belle amie, etc.</l>
+            
+                    LISBETH ET DUCORNET. 
+            
+                    EVSEMBLE. (
+            
+                    <l>De vos bontés je vous r'mercie,</l>
+                    <l>Vous comblez mon plus cher désir.</l>
+                    <l>Ah ! je n'oublîrai de ma vie,</l>
+                    <l>Combien vous me faites <del hand="TK" type="alternative" reason="analysis">{ m'avez fait</del> plaisir !</l>
+                </lg>
+            </div>
+            
+            
+-
+            
+            (Lisbeth sort.)
+            
+            SCENE VII. 
+            
+            VOLTAIRE, DUCORNET. 
+            
+            voLTAIRE, à part. 
+            
+            Allons, dans ma disgrace, je suis encore heureux d'avoir rencon
+            
+            tré ce garçon-là ; il égaiera mon voyage. 
+            
+-
+            
+-
+            
+            Je ne sais pas, mais cet homme-là a des manières qui me con
+            
+            viennent. 
+            
+-
+            
+            DUcoRNET, à part. 
+            
+            Dites-moi, mon garçon …
+            
+            VOLTAIRE. 
+            
+            Monseigneur…
+            
+            •' º
+            
+-
+            
+            DUcoRNET, le chapeau à la main. 
+            
+            Avez-vous habité Paris ? 
+            
+-
+            
+            VOLTAIRE. 
+            
+            Mieux † cela ; j'y suis né en 172o, dans la nuit du 25 avril…
+            
+            9 10 €
+            
+            DUCORNET. 
+            
+            ce fut un beau jour pour ma famille. 
+            
+            VOLTAIRE. 
+            
+            Et vous avez reçu quelque éducation ! 
+            
+            DUCORNET, 
+            
+            Assurément… voyant que† beaucoup, on m'envoya
+            à l'école, où j'eus le bonheur d'apprendre à lire… la nature fit le
+            
+            • &gt; 
+            
+-
+            
+-
+            
+            « 
+            
+            reste ; vous voyez devant vous un élève de la nature. 
+            
+            Vous aimez la poésie ? 
+            
+            VOLTAIRE. 
+            
+            DUCORNET. 
+            
+            Passionnément ! … on connait ses auteurs anciens ; monsieur Cor
+            
+            neille, par exemple. 
+            
+            VOLTAIRE. 
+            
+            Ah ! celui-là en vaut bien un autre ! … Et Voltaire, l'avez-vous lu ? 
+            
+            Pas encore ; mais je le connais beaucoup… de réputation… il
+            
+            DUCORNET. 
+            
+            n'est pas sans mérite. 
+            
+            VOLTAIRE. 
+            
+            Vous êtes bien bon ! … moi je l'ai lu et relu plus d'une fois, car, 
+            
+            tel que vous me voyez, je compose aussi de temps en temps. 
+            
+            En vérité ! (A part.) Tout le monde s'en mêle… Tant mieux, 
+            
+            DUCORNET, 
+            
+            au surplus, nous nous entendrons mieux. 
+            
+            VOLTAIRE. 
+            
+            Tenez, voilà un manuscrit dont je voudrais une copie. 
+            
+-
+            
+            DUCORNET. 
+            
+            Donnez. (Il l'ouvre.) L'Henriade… Ah ! ah ! … l'Henriade ! … sur
+            
+            Henri quatre, je parie…
+            
+-
+            
+            VOLTAIRE. 
+            
+            C'est l'ouvrage de toute ma vie, celui que je tâcherai sans cesse
+            
+            de perfectionner. 
+            
+            DUCORNET. 
+            
+            Vous avez raison, il faut repasser sur son ouvrage… moi je suis
+            
+            fort pour repasser… et puis, il y a les conseils…
+            
+            (Parcourant le manuscrit avec importance.)
+            
+           <div type="poem"><lg><l>« Sur les bords fortunés de l'antique Idalie,</l>
+            <l>« Lieux où finit l'Europe et commence l'Asie…</l></lg></div>
+            
+            Périphrase pour désigner l'Amérique… c'est bien, c'est très bien, …
+            mais, si je trouvais ailleurs quelques petites fautes, pourrais-je ? …
+            
+            voLTAIRE, riant. 
+            
+            Non, j'aime autant les corriger moi-même. 
+            
+            DUCORNET. 
+            
+            Comme vous vous voudrez ! … ce que j'en disais… Eh bien ! te
+            
+            nez, moi, j'estime les conseils, et je vais vous demander votre avis
+            
+            sur une de mes chansons…
+            
+            g » 11 « €
+            
+            Ah ! c'est une chanson ? 
+            
+            VOLTAIR E. 
+            
+            DUCORN ET. 
+            
+            Une chanson sur l'air nouveau : A la façon de Barbari, mon ami. 
+            
+-
+            
+            VOLTAIRE. 
+            
+            Allons, mon anmi. 
+            
+            DUCORNET. 
+            
+            Elle n'a que deux couplets… Il y a des personnes qui aiment
+            
+            mieux le premier, d'autres qui aiment mieux le second ; dites fran
+            
+            ment votre avis. Voici le premier. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : À la façon de Barbari. </stage>
+            
+            
+                    <l>L'Amour est un barbare enfant,</l>
+                    <l>C'est un enfant barbare.</l>
+                    <l>Il nous traite barbarement ;</l>
+                    <l>Sa barbarie est rare…</l>
+                    <l>Oui, sa bar…</l>
+            
+            
+            
+                    voLTAIRE, l'arrétant. 
+            
+                    Attendez… c'est là le premier couplet, n'est-ce pas ? 
+            
+-
+            
+                    DUCORNET. 
+            
+                    C'est le premier. 
+            
+                    ·VOLTAIRE. 
+            
+                    Eh bien ! j'aime mieux le second…
+            
+                    Vous avez du fººt c'est aussi mon opinion. Je m'en vais vous
+            
+                    DUcoRNET, l'arrêtant. 
+            
+-
+            
+                    (Il va pour sortir.)
+            
+                    chanter le second. 
+            
+                    Méme air. 
+            
+                    <l>Barbare amour, barbare archer…</l>
+                </lg>
+            </div>
+-
+            
+-
+            
+            º, 
+            
+            VOLTAIRE. 
+            
+            Assez, assez ; tenez, toute reflexion faite, à présent, j'aime mieux
+            
+            le premier. 
+            
+            Allons ! encore un jaloux ! 
+            
+            DUCoRNET, à part. 
+            
+            sCÈNE VIII. 
+            
+            LEs MÈMEs, LISBETH, MADAME MULLER au fond. 
+            
+            LIsBETH, à madame Muller. 
+            
+            Je vous dis, madame, que c'est un grand seigneur… il a parlé
+            
+            du roi de Prusse, de ses cordons… que sais-je moi ? 
+            
+            Un moment : ceci demande attention. (Faisant la révérence.)
+            
+            MADAME MULLER. 
+            
+-
+            
+            Monseigneur…
+            
+            Que me voulez-vous, madame ? 
+            
+            VOLTAIRE. 
+            
+            #&gt; 12 « G
+            
+            MADAME MULLER. 
+            
+            Nous venons prendre vos ordres, et savoir si vous voulez un
+            appartement plus vaste, plus commode. Si celui-ci ne convient pas
+            
+            à monseigneur, nous en avons de plus beaux. 
+            
+            VOLTAIRE. 
+            
+            Il paraît que vous les gardiez pour une meilleure occasion…
+            
+            non, je resterai dans ce logement. 
+            
+            MADAME MULLER. 
+            
+            Je ne le souffrirai pas… (A part.) J'en ai un deux fois plus cher. 
+            
+            Dans quelle passe je me trouve ! …
+            
+            DUCoRNET, se rengorgeant. 
+            
+            voLTAIRE, à part. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Je regardais Madelinette. </stage>
+            
+            
+                    <l>Je ne puis m'empêcher de rire ;</l>
+                    <l>Aux honneurs laissons-nous porter.</l>
+                    <l>Ah ! je n'aurai qu'un mot à dire,</l>
+                    <l>Lorsque je voudrai les quitter.</l>
+            
+                    <l>Ne trompons point leur espérance,</l>
+                    <l>Ils sont tous de trop bonne foi.</l>
+                    <l>En ce moment, de ma puissance,</l>
+                    <l>Ils jouissent bien plus que moi.</l>
+            
+                    LES AUTRES. 
+                    EIVSEMBLE. |
+            
+                    <l>Monseigneur, laissez-nous vous dire</l>
+                    <l>Tout c' que vous pouvez mériter.</l>
+                    <l>En vous offrant tout, on désire</l>
+                    <l>Seul'ment qu'vous daigniez accepter.</l>
+            
+                    voLTAIRE, à part. 
+            
+                    <l ana="unanalyzable">Je ne puis m'empêcher de rire, etc.</l>
+                </lg>
+            </div>
+            
+            
+            Madame Muller, vous me ferez allumer un grand feu, j'ai à
+            
+            DUCORNET, 
+            
+            (Il sort.)
+            
+            travailler pour monseigneur…
+            
+            LISBETH, à madame Muller. 
+            
+            C'est moi qui l'ai placé. 
+            
+            DUCORNET. 
+            
+            Oui, ma bonne dame, je me trouve, en ce moment, valet de
+            
+            chambre et secrétaire… je cumule…
+            
+            Un secrétaire ! 
+            
+            MADAME MULLER, à part. 
+            
+            DUCORNET, 
+            
+            Allez, brave femme, allez ; du feu, du feu, du feu. 
+            
+            (Il sort.)
+            
+            SCENE IXe
+            
+            MADAME MULLER, LISBETH. 
+            
+            MADAME MULLER. 
+            
+            Quelle bonne aubaine pour notre maison, et comme ça va lui
+            
+            donner du relief ! … écoute donc, Lisbeth, 
+            
+            #&gt; 15 « e
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Vive une femme de tête. </stage>
+            
+            
+                    <l>Tu d'vrais tâcher de connaître</l>
+                    <l>De quel pays, mon enfant,</l>
+                    <l>Ce grand seigneur pourrait être :</l>
+                    <l>C'est un point très-important.</l>
+            
+                    LISBETH. 
+            
+                    <l>Il n' m'a fallu que l'entendre,</l>
+                    <l>Pour d'viner ça, dieu merci.</l>
+                    <l>Mais j'suis curieus' d'apprendre</l>
+                    <l>Si vous l' devin'rez aussi.</l>
+            
+                    MADAME MULLER. 
+            
+                    <l>Pour peu que je m'y connaisse,</l>
+                    <l>J'ai bien détaillé ses traits ;</l>
+                    <l>En parlant, il rit sans cesse…</l>
+                    <l>Ce n'peut pas être un Anglais.</l>
+            
+                    LISBETH. 
+            
+                    <l>Il a de bonnes manières ;</l>
+                    <l>Près des femm's il est galant ;</l>
+                    <l>Il n' fum'pas, il ne boit guères…</l>
+            
+                    MADAME MULLER. 
+            
+                    <l>Ce n' peut pas être un All'mand.</l>
+                    <l>Hier, j'ai lu sur une page,</l>
+                    <l>D' ses papiers que j'arrangeais,</l>
+                    <l>Les mots d'honneur, de courage…</l>
+                    <l>C'est peut-être un Polonais.</l>
+            
+                    LISBETH. 
+            
+                    <l>Chercher encor s'rait folie ;</l>
+                    <l>Car dès qu'il a vu mes traits,</l>
+                    <l>Il m'a dit qu'j'étais jolie…</l>
+                    <l>Vous voyez qu' c'est un Français.</l>
+            
+                    TOUTES DEUX, 
+            
+                    <l>À coup sûr c'est un Français.</l>
+                </lg>
+            </div>
+            
+            
+-
+            
+            • • •
+            
+            S C ENE Xe
+            
+            LEs MÈMEs, M. BERNARD. 
+            
+            M. BERNARD, 
+            
+            Madame Muller, la maîtresse de cette maison ? 
+            
+            C'est moi, monsieur. 
+            
+            MADAME MULLER. 
+            
+            M. BERNARD. 
+            
+            Parmi les voyageurs qui se trouvent en ce moment dans votre
+            
+            auberge…
+            
+            Il n'y en a qu'un, monsieur. 
+            
+            LISBETH. 
+            
+            MADAME MULLE R. 
+            
+            On ne vous demande pas cela, petite sotte. 
+            
+            M. BERNARD. 
+            
+            Eh bien ! ce voyageur n'est-il pas arrivé depuis deux jours de
+            
+            Berlin ? 
+            
+            Oui, monsieur. 
+            
+            g&gt; 14 « e
+            
+            MADAME MULLER. 
+            
+            M. BERNARD. 
+            
+            Un homme de cinquante et quelques années ? 
+            
+            A-peu-près, je crois. 
+            
+            MADAME MULLER. 
+            
+            M. BEIRNARD. 
+            
+            D'une figure extrêmement spirituelle ? 
+            
+            MADAME MULLER. 
+            
+            Je ne m'y connais pas. 
+            
+            Monsieur a bien raison. 
+            
+            LISBETH. 
+            
+            M. BERNARD. 
+            
+            Il est essentiel que je lui parle à l'instant même… Veuillez l'en
+            
+            prevenir
+            
+            LISBETH. 
+            
+            Il suffit, monsieur ; je vais faire votre commission. 
+            
+            (Elles sortent toutes deux.)
+            
+            SCENE XI, 
+            
+            M. BERNARD, seul. 
+            
+            Quand mes fonctions ne m'en auraient pas imposé la loi, mon
+            
+            cœur m'eut fait un devoir de m'occuper de mon illustre compa
+            triote… Mais silence ! le voici ; il croit n'être connu ici de personne ; 
+            
+            laissons lui encore cette erreur, 
+            
+            SCENE XII. 
+            
+            voLTAIRE, M. BERNARD. 
+            
+            voLTAIRE, à part, examinant Bernard. 
+            
+            Que peut donc me vouloir ce monsieur ? Toute visite d'inconnus
+            
+            m'est suspecte en ce moment. 
+            
+            M. BERNARD. 
+            
+            #Vous me pardonnerez, sans doute, le dérangement que je vous
+            
+            cause, quand vous en connaîtrez les motifs… Je me nom me Ber
+            nard. 
+            
+            Monsieur, c'est un nom illustré de plus d'une manière. 
+            
+            VOLTAIRE. 
+            
+            M. BERNARD, souriant. 
+            
+            Je le sais, je le sais ! 
+            
+            <div type="poem"><lg>
+            <l>« Dans ce pays trois Bernard sont connus… »</l> 
+           </lg>
+                </div>
+            Oh ! oh ! on me cite mes vers… prenons garde de nous trahir. 
+            
+            voLTAIRE, à part. 
+            
+-
+            
+            Quant à moi, monsieur, je ne suis de la famille d'aucun de ces
+            
+            M. BERNARD, 
+            
+            g&gt; 15 e
+            
+            Bernard… Vous voyez en moi le consul de France près la ville de
+            
+            Francfort. 
+            
+-
+            
+            VOLTAIRE, 
+            
+            Vous remplissez là, monsieur, des fonctions fort honorables. 
+            
+            M. BERNARD. 
+            
+-
+            
+            Sans doute, et j'en suis fier. 
+            
+-
+            
+            VOLTAIRE. 
+            
+            Vous avez raison. 
+            
+            M. BERNARD. 
+            
+            Il est encore d'autres devoirs dans les attributions de ma place ; je
+            
+            suis ici le protecteur de tous mes compatriotes ; et si quelqu'un
+            
+            d'eux se trouvait dans une position… inquiétante…
+            
+            Où veut-il en venir ? 
+            
+            voLTAIRE, à part. 
+            
+            M. BERNARD. 
+            
+            Je ne vous cacherai pas que c'est en ce moment le motif de ma
+            
+            visite. 
+            
+-
+            
+            VOLTAlTRE, 
+            
+            Je ne vous comprends pas. (A part.) Me connaîtrait-on ? 
+            
+            J'ai appris que monsieur venait de Berlin ? 
+            
+            M. BERNARD, à part. 
+            
+            C'est la vérité. 
+            
+            Qu'il était Français ? 
+            
+            VOLTAIRE. 
+            
+            M. BERNARD. 
+            
+            VOLTAIR E. 
+            
+            Je m'en suis toujours fait gloire
+            
+            « A tous les cœurs bien nés ! … » 
+            
+            (A part.) Ah ! maudite démangeaison ! 
+            
+            M. BE RNARD, 
+            
+            Vous citez à votre tour notre célèbre Voltaire… C'est de lui que
+            
+            Je v1ens vous entretenir. 
+            
+            VOLTAIRE. 
+            
+            Ah ! c'est… (A part.) Je ne suis pas connu. 
+            
+            M, BERNARD, 
+            
+            Parti de Berlin ces jours derniers, peut-être le même jour que
+            
+            vous… il ignore le danger qui l'attend ici. 
+            
+-
+            
+            VOLTAIRE. 
+            
+-Le danger ! 
+            
+            M. BERNARD, 
+            
+            Vous savez sans doute comment il a quitté la cour de Frédéric ; 
+            
+            que ce monarque irrité contre lui, n'a voulu rien entendre… Les
+            
+            gazettes de Berlin en ont parlé. 
+            
+-
+            
+            VOLTAIRE. 
+            
+            Ah ! parbleu, les gazettes…, les gazettes… belle autorité ! Eh
+            
+            bien ! on répétera pourtant cela un jour ! 
+            
+-
+            
+            g » 16 e
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Ah ! qu'il est doux de vendanger. </stage>
+            
+            
+                    <l>Tout couvert de mépris et d'or,</l>
+                    <l>Hier mourut Mondor.</l>
+                    <l>Dans plus d'un journal complaisant,</l>
+                    <l>On vante sa mémoire…</l>
+                    <l>Et voilà justement</l>
+                    <l>Comme on écrit l'histoire !</l>
+            
+                    Méme Air. 
+            
+                    <l>Qu'un général soit, sans effort,</l>
+                    <l>Vainqueur, avec de l'or,</l>
+                    <l>On vous imprime effrontément</l>
+                    <l>Qu'il s'est couvert de gloire…</l>
+                    <l>Et voilà justement</l>
+                    <l>Comme on écrit l'histoire !</l>
+                </lg>
+            </div>
+            
+            
+            M. BERNARD. 
+            
+            Ce travers n'est que plaisant ; mais il s'agit ici de quelque chose
+            de plus sérieux… je vais vous faire une confidence importante. Ce
+            
+            matin, une dépêche de Sa Majesté prussienne est arrivée à son ré
+            
+            sident à Francfort ; elle contient une injonction de s'emparer de la
+            personne de Voltaire. 
+            
+            S'emparer de sa personne ! … Quel est donc son crime, que lui
+            
+            voLTAIRE, avec feu. 
+            
+            reproche-t-on ? 
+            
+            M, BERNARD. 
+            
+            Un attentat contre la gloire du roi. 
+            
+            VOLTAIRE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Honneur aux enfans de la France ! </stage>
+            
+            
+                    <l>Un attentat contre sa gloire !</l>
+                    <l>Dans ce rapport on se méprit ;</l>
+                    <l>Jamais Frédéric ne peut croire</l>
+                    <l>Que Voltaire ait perdu l'esprit.</l>
+                    <l>Si l'on contestait sa vaillance,</l>
+                    <l>Sa fermeté dans les revers,</l>
+                    <l>Il sait trop bien, il sait que l'univers</l>
+                    <l>Se chargerait de sa défense.</l>
+                </lg>
+            </div>
+            
+            
+            MI, TBERNARD. 
+            
+            Vous ne m'avez pas compris. Il n'est ici question que de sa gloire
+            
+            poétique. 
+            
+-
+            
+            VOLTAlRE. 
+            
+            Ah ! ah ! ceci change la thèse… ce n'est pas aussi sérieux que je
+            
+            le croyais. 
+            
+            M. BERNARD. 
+            
+            Vous n'ignorez pas sans doute que Frédéric fait des vers ? 
+            
+-
+            
+            VOLTAIRE. 
+            
+            A qui le dites-vous ? 
+            
+            M. BERNARD. 
+            
+            Pour lesquels il aurait pris au moins des conseils de notre grand
+            
+            poète. 
+            
+            voLTAIRE, souriant. 
+            
+-
+            
+            Un peu d'aide fait grand bien… même aux rois. 
+            
+            9 17 €
+            
+            M. BERNAR D. 
+            
+-. 
+            
+'
+            
+-
+            
+            Eh bien ! Sa Majesté est furieuse de ce que Voltaire, en quittant
+            Berlin, a emporté un recueil manuscrit des poésies royales, qu'elle
+            lui avait confié. 
+            
+            L'aurait-on placé par hasard dans mes malles ? 
+            
+            voLTAIRE, à part. 
+            
+            MI, BERNARD. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Voulant par ses œuvres complètes. </stage>
+            
+            
+                    <l>Lui prendre ses vers, quel outrage !</l>
+                    <l>Ce prince aimerait mieux encor</l>
+                    <l>Se voir, au lieu de son ouvrage,</l>
+                    <l>Ravir les fonds de son trésor.</l>
+                    <l>Aussi quel courroux il éprouve !</l>
+            
+                    voLTAIRE, avec malice. 
+            
+                    <l>Ce Voltaire, méchant esprit,</l>
+                    <l>En prenant ces vers, aura dit :</l>
+                    <l>« Je prends mon bien où je le trouve. »</l>
+                </lg>
+            </div>
+            
+            
+            M. BERNARD, 
+            
+            Vous en parlez avec une chaleur de propriétaire ! 
+            
+            voLTAIRE, à part. 
+            
+            Ah ! maudit amour-propre ! (Haut.) C'est que je connais un peu
+            
+            le genre d'esprit de M. de Voltaire : j'ai eu occasion de le voir à
+            Berlin. 
+            
+-
+            
+-, 
+            
+            M. BERNARD, 
+            
+            » 
+            
+            Ce ne sont pas les ordres que le roi a donnés contre le poète qui
+            
+            rendent cette affaire le plus fâcheuse. 
+            
+            Comment ! il y a encore quelque chose de pis ? 
+            
+            voLTAIRE, un peu inquiet. 
+            
+            M. BERNARD, 
+            
+            Vous ne connaissez donc pas l'épître que Frédéric vient d'adres
+            
+            ser au jeune d'Arnaud Baculard qu'il fait venir en Prusse ? 
+            
+            VOLTAIRE, avec ironie. 
+            
+            J
+            
+            D'Arnaud Baculard ! Peste quelle acquisition ! 
+            
+            M. BERNARD, lui donnant un papier. 
+            
+            Voyez seulement la fin de cette épître. 
+            
+            1
+            
+            Hum ! hum ! 
+            
+            voLTAIRE, lisant. 
+            
+            
+            <div type="poem">
+                <lg>
+                    <l>« Mais Voltaire est à son couchant,</l>
+                    <l>« Et vous êtes à votre aurore… »</l>
+                </lg>
+            </div>
+            
+            
+            (Avec colère.) Voltaire à son couchant ! … Ah ! parbleu, je lui
+            
+            N. 
+            
+            prouvera1…
+            
+-
+            
+            M. BERNARD, souriant. 
+            
+            Enfin, j'ai donc votre secret ! 
+            
+            VOLTAIR E. 
+            
+            Oui, monsieur, je suis Voltaire, qui n'est pas encore si baissé, 
+            
+            quoi qu'en dise le Salomon du Nord. 
+            
+--
+            
+            3
+            
+            g&gt; 18 « e
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Vaudeville de haine aux femmes. </stage>
+            
+            
+                    <l>Eh quoi ! Voltaire à son couchant,</l>
+                    <l>Et Baculard à son aurore !</l>
+                    <l>Que me réserve-t-il encore,</l>
+                    <l>Après ce contraste offensant ?</l>
+                    <l>Et c'est un disciple que j'aime,</l>
+                    <l>C'est un roi qui, pour m'indigner,</l>
+                    <l>Ose écrire un pareil blasphême ! …</l>
+                    <l>Ah ! qu'il se mêle de régner ! <stage type="repetition"> (Bis.)</stage></l>
+                </lg>
+            </div>
+            
+            
+            M. BERNA R D. 
+            
+            M. de Voltaire, qu'un juste dépit poétique ne vous fasse pas ou
+            
+            blier la position où vous vous trouvez. Frédéric a donné des ordres
+            
+            sévères contre vous ; et, vous le savez, ce sont toujours les mieux
+            
+            exécutés… Heureusement le résident de Prusse dans cette ville est
+            
+            un homme un peu…
+            
+            Simple, j'entends. 
+            
+            VOLTAIRE. 
+            
+            M. BERNARD, 
+            
+            Toutefois, prenez vos précautions ; et, dans tous les cas, comptez
+            
+            sur votre compatriote, et sur l'un de vos plus sincères admirateurs. 
+            
+-
+            
+            voLTAIRE, attendri. 
+            
+            Monsieur Bernard, je vous remercie pour moi, pour ma patrie. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Je reconnais ce militaire. </stage>
+            
+            
+                    <l>Quel doux sentiment l'on éprouve</l>
+                    <l>Quand on voit de semblables traits !</l>
+                    <l>La générosité se trouve</l>
+                    <l>Partout où l'on trouve un Français.</l>
+                    <l>Il faut qu'en tous lieux on publie</l>
+                    <l>Des dons si noblement offerts…</l>
+            
+                    M. BERNARD. 
+            
+-
+            
+                    <l>Non, je prétends qu'on les oublie ;</l>
+                    <l>N'en parlez jamais dans vos vers.</l>
+                    ENVSEMBLE. 
+            
+            
+            
+                    VOLTAIRE. 
+            
+                    <l ana="unanalyzable">Quel doux sentiment, etc.</l>
+            
+                    M. BERNAAD. 
+            
+                    <l>Pour vous l'intérêt qu'on éprouve</l>
+                    <l>Inspire de semblables traits ;</l>
+                    <l>C'est un sentiment que l'on trouve</l>
+                    <l>Partout où l'on trouve un Français.</l>
+                </lg>
+            </div>
+            
+            
+            (M. Bernard sort.)
+            
+            s CÈNE XIII. 
+            
+            VOLTAIRE, seul. 
+            
+            Allons, ferme, poussez, mes bons amis… Je reconnais là Mau
+            
+            pertuis, Labeaumelle… Eh bien ! c'est un épisode de plus dans
+            
+            ma vie… De combien d'événemens, de sottises de tout genre n'ai
+            
+            je pas déjà été témoin ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : des Comédiens. </stage>
+            
+            
+                    <l>J'ai vu l'intrigue étouffer le génie,</l>
+                    <l>Les Despréaux honnis par les Pradons ;</l>
+            
+                    #&gt; 19 €
+            
+                    <l>De tout côté j'ai vu la sombre envie</l>
+                    <l>Sur les lauriers distiller ses poisons.</l>
+                    <l>J'ai vu brailler au nom de l'harmonie.</l>
+                    <l>Déraisonner au nom de la raison ;</l>
+                    <l>Plus d'un Cotin dans notre académie,</l>
+                    <l>Dubois ministre, et Voltaire en prison.</l>
+                    <l>J'ai vu ce roi qui, du siècle où nous sommes,</l>
+                    <l>Qui de la Prusse est l'orgueil à la fois,</l>
+                    <l>En écrivant sur le bonheur des hommes,</l>
+                    <l>En immoler cent mille à ses exploits.</l>
+                    <l>J'ai vu jadis, entrant dans la carrière,</l>
+                    <l>Mon Henri quatre à Londres exilé ;</l>
+                    <l>Pour Marivaux j'ai vu quitter Molière,</l>
+                    <l>Et Crébillon à Corneille égalé.</l>
+                    <l>J'ai vu Fréron, des filles de mémoire</l>
+                    <l>Se proclamant l'interprète et l'appui,</l>
+                    <l>À tout venant distribuer la gloire,</l>
+                    <l>Et sottement ne rien garder pour lui.</l>
+                    <l>J'ai vu l'amour banni par nos coquettes,</l>
+                    <l>Et le bon sens banni par nos rhéteurs,</l>
+                    <l>Des rimailleurs se croire des poètes,</l>
+                    <l>Et des pantins se croire des acteurs.</l>
+                    <l>Mais un Colbert, illustrant sa patrie,</l>
+                    <l>Un Catinat, dont l'œil a tout prévu,</l>
+                    <l>Nouveau Tartufe et nouvelle Athalie…</l>
+                    <l>Voilà, voilà ce que je n'ai pas vu !</l>
+                </lg>
+            </div>
+            
+            
+            sCENE XIV. 
+            
+            VOLTAIRE, DUCORNET. 
+            
+            DUcoRNET, accourant avec le manuscrit de la Henriade à la main. 
+            
+            Je vous demande bien pardon, monseigneur ; mais il y a là quel
+            
+            que chose qui me chiffonne… Attendez, je vais chercher le pas
+            
+            sage. 
+            
+-
+            
+            (Il feuillctte le manuscrit.)
+            
+            voLTAIRE, sans s'occuper de lui. 
+            
+            Allons tout préparer pour mon départ, si on n'en laisse le temps. 
+            
+            (Il rentre.)
+            
+            SCÈNE XV. 
+            
+            DUCORNET seul, le croyant encore là. 
+            
+            Ah ! m'y voici… tenez, c'est cet endroit qui me paraît un peu
+            
+            louche… regardez… Eh bien : il est parti… n'importe, je ne puis
+            
+            pas laisser passer ce vers là comme il est. (Il lit.)
+            
+            « Là, sur des trônes d'or, Charlemagne et Clovis. » 
+            
+            · Je vois bien que c'est une distraction de l'auteur… Charlemagne
+            
+            et Clovis… mettre la seconde race avant la première… c'est, j'ose
+            
+            le dire, mettre la charrue… Au fait, qu'est-ce que je risque de lui
+            
+            proposer une petite correction ? … Voyons un peu comment je pour
+            
+            rai arranger cela. 
+            
+-
+            
+            (Il s'assied à une table et réfléchit.)
+            
+            9 20 €
+            
+            sCÈNE xvI. 
+            
+            DUCORNET sur le devant, SOTTENDORFF au fond, avec deux
+            
+            grenadiers prussiens et ensuite LISBEHT. 
+            
+            LE RÉSIDENT, aux grenadiers. 
+            
+            Placez-vous là, vous autres, et attendez mes ordres. (A part.)
+            
+            C'est donc ici, dit-on, qu'est descendu monsieur de Voltaire. 
+            
+            DUCoRNET, sans le voir. 
+            
+            Il n'y a que cette chienne de rime qui fait la difficulté… sans la
+            
+            rime, moi, je ferais des vers comme un autre fait de la prose. 
+            
+            LE RÉSIDENT, l'observant. 
+            
+            Un manuscrit… un air pensif… serait-ce mon homme ? 
+            
+            DUcoRNET, sans le voir. 
+            
+            Enfin c'est égal, il faut que je trouve là un vers quelconque…
+            
+            Il se gratte le front… c'est un homme de lettres. 
+            
+            LE RÉSIDENT, à part. 
+            
+            DUcoRNET, à part. 
+            
+            Je pourrai toujours me flatter d'avoir travaillé à la Henriade. 
+            
+            La Henriade ! … plus de doute, c'est monsieur de Voltaire… abor
+            
+            LE RÉsIDENT, à part. 
+            
+            dons-le… (Haut.) Monsieur, je suis désespéré. 
+            
+            DUCORNET, l'écartant de la main. 
+            
+            Un moment… ne me faites pas perdre mes idées. 
+            
+-
+            
+            LE RÉSIDENT. 
+            
+            Monsieur, je suis fâché de vous déranger…
+            
+-
+            
+            DUCORNET, idem. 
+            
+            Paix donc, vous dis-je ; quand on travaille…
+            
+            LE RÉSIDENT. 
+            
+            Mais vous voyez en moi le résident prussien Sottendorf. 
+            
+            DUcoRNET, idem. 
+            
+            Soti… Sottin… qu'est-ce que ça me fait à moi. 
+            
+            LE RÉSIDENT. 
+            
+            Qui malheureusement est chargé de vous faire arrêter…
+            
+            DUcoRNET, sautant sur sa chaise. 
+            
+            Me faire arrêter ! … Qu'est-ce que c'est que cette mauvaise plai
+            
+            santerie-là ? 
+            
+            LE RÉSIDENT. 
+            
+            Hélas ! la chose n'est que trop sérieuse, et l'ordre de Sa Majesté
+            
+            prussienne…
+            
+            DUcoRNET, se levant et ôtant son chapeau. 
+            
+            Sa Majesté ! 
+            
+            LE RÉsIDENT. 
+            
+            Oui, monsieur, je dois d'après les notes qui me sont transmises…
+            
+            #&gt; 21 « €
+            
+            d'après l'instruction que j'ai reçue… Ah ! mon dieu, est-ce que
+            
+            j'aurais perdu mon instruction ? 
+            
+-
+            
+-
+            
+            DUCORNET. 
+            
+            Suis-je bien éveillé ? … je vous demande un peu ce que moi, trou
+            
+            badour domestique, je puis avoir à démêler avec le grand Frédéricl…
+            
+            moi prisonnier d'état ? 
+            
+            LISBETH, entrant. 
+            
+-
+            
+            Ah ! mon Dieu, prisonnier d'état… j'en apprends de belles ! 
+            
+            comment, c'est vous qui vous faites arrêter…
+            
+            DUCORNET. 
+            
+            Arrêtez, intéressante amie ! me ferais-je à moi-même une farce
+            
+            désagréable ? 
+            
+            LE RÉSIDENT. 
+            
+            Jeune fille, éloignez-vous de l'accusé. 
+            
+            Accusé ! … Ah ! voyez-vous, monsieur, que vous êtes accusé ! 
+            
+            LISBETH, pleurant de nouveau. 
+            
+-
+            
+            LE RÉSIDENT : 
+            
+            Ah ! ah ! il paraît que vous connaissez le prévenu. 
+            
+            DU CORIN ET. 
+            
+-
+            
+            Oui, c'est ça, prévenu… si on m'avait prévenu… du diable, si
+            
+            je serais ici ! 
+            
+            LISBETH, au résident. 
+            
+            Mais, de grâce, monsieur, qu'est-ce qu'il a donc fait ? 
+            
+            LE RÉSIDENT. 
+            
+            · Ce qu'il a fait ! … Ah ! M. de Voltaire peut vous le dire mieux
+            
+            que moi… demandez-lui. 
+            
+            DUcoRNET, regardant derrière lui. 
+            
+            C'est à moi que vous parlez ! 
+            
+            LE RÉsIDENT, 6tant son chapeau. 
+            
+            Oui, M. de Voltaire, vous êtes découvert. 
+            
+            Couvrez-vous donc, brave homme. 
+            
+            DUcoRNET. 
+            
+            Mais, M. le résident…
+            
+            LISBETH. 
+            
+            LE RÉsIDENT. 
+            
+            Monsieur, vous ne pouvez ignorer tous les griefs du roi mon
+            
+            maître contre vous. 
+            
+-
+            
+            DUCORNET, 
+            
+            Diable m'emporte, si je m'en doute ! … Comment, je suis Vol
+            
+            taire, moi ? 
+            
+            LE RÉSIDENT. 
+            
+            Et qui donc ? c'est peut-être moi, par hasard ! 
+            
+-
+            
+            DUCORN ET, 
+            
+            ·
+            
+            ·
+            
+            ·
+            
+            ·
+            
+            ·
+            
+            Je ne dis pas ça. 
+            
+            g&gt; 22 « G
+            
+            LISBETH. 
+            
+            Mais, monsieur Sottendorff, vous êtes dans l'erreur… celui que
+            
+            vous arrêtez, c'est mon amant, c'est Ducornet. 
+            
+            LE RÉSIDENT. 
+            
+            Ducornet ! Ducornet ! Qu'est-ce que c'est qu'un nom comme
+            
+            cela ? … Ah ! je crois que l'on veut se moquer de la diplomatie dans
+            
+            ma personne… Mais je saurai soutenir l'honneur du corps. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Vaudeville des Mauvaises Têtes. </stage>
+            
+            
+                    <l>Il est plus d'un renseignement</l>
+                    <l>Qu'avant tout il faut qu'on recueille ;</l>
+                    <l>Saisissons d'abord prudemment</l>
+                    <l>Ses papiers et son portefeuille.</l>
+            
+                    DUCoRNET, les lui remettant. 
+            
+                    <l>Je m'y soumets très-volontiers.</l>
+                    <l><stage> (À Lisbeth.)</stage> Laisse-les m'emmener, ma chère.</l>
+                    <l>Ils s'ront bien attrapés, j'espère,</l>
+                    <l>Quand on visit'ra mes papiers,</l>
+                    <l>On verra qu' je n'suis pas Voltaire.</l>
+                </lg>
+            </div>
+            
+            
+            LE RÉSIDENT. 
+            
+            C'est ce que l'on verra, monsieur, c'est ce que l'on verra ! 
+            
+            DUcoRNET, à Lisbeth. 
+            
+            Cependant il est bon de savoir… (Il s'approche du résident.) Mon
+            
+            sieur Sottendorff, dites-moi, en ami, je vous prie, où croyez-vous
+            
+            que cette affaire-là puisse me mener ? 
+            
+            LE RÉSIDENT. 
+            
+            Mais… ça pourrait vous mener à la forteresse de Custrin… où à
+            
+            celle de Spandau… une petite détention paternelle…
+            
+            DUcoRNET, effrayé. 
+            
+            Diable ! quelle paternité ! … Ah ça ! plus de plaisanterie… Je ne
+            
+            suis plus Voltaire… Oui, je le dirai, je le crierai… Je ne suis pas
+            
+            Voltaire… je ne suis pas Voltaire ! …
+            
+            sCÈNE xVII. 
+            
+            LEs M ÈMEs, VOLTAIRE. 
+            
+            voLTAIRE, sortant de sa chambre, une plume à la main. 
+            
+            Quels sont donc les barbares qui troublent ainsi mes travaux ? …
+            
+            LE RÉsIDENT, sans le voir, à Ducornet. 
+            
+            Ah ! monsieur de Voltaire, monsieur de Voltaire ! …
+            
+            Que me voulez-vous, monsieur ? 
+            
+            voLTAIRE, se présentant. 
+            
+            LE RÉsIDENT, surpris. 
+            
+            En voici bien d'une autre ! … Deux Voltaire à présent ! 
+            
+            DUCORNET. 
+            
+            Je vois tout, je devine le reste… C'est celui-là qui est le vrai. 
+            
+            (Il se jette à ses pieds.) O homme prodigieux ! pardonne-moi une
+            
+            méprise à laquelle, je l'avoue, je n'avais pas perdu…
+            
+            g&gt; 25 €
+            
+            LE RÉsIDENT, examinant ses papiers. 
+            
+-
+            
+            Effectivement, l'âge se rapporte beaucoup mieux… (Il regarde
+            
+            Voltaire.) Et puis, il y a dans cette figure-là bien plus de… Et ce
+            
+            nez, surtout… Oh ! ce nez, c'est le cachet du talent. (à Voltaire.)
+            
+            Monsieur de Voltaire, je suis le résident de Prusse… Vous savez
+            
+            ce que me prescrivent mes devoirs. Du reste, il dépend de vous
+            
+            d'être bientôt mis en liberté… Il suffit pour cela, que vous me re
+            
+            mettiez l'œuvre de poésie du roi mon maître. 
+            
+-
+            
+            VOLTAIRE, 
+            
+            Peste soit de l'œuvre de poésie ! Monsieur, je fais faire des re
+            
+            cherches dans mes effets, et si ce bel œuvre se retrouve…
+            
+-
+            
+            LE RÉsIDENT. 
+            
+            En attendant, il faut que je m'acquitte de ma mission… Vous
+            
+            ne m'en voulez pas, j'espère ? 
+            
+-
+            
+            VOLTAIR E. 
+            
+            Du tout… Et pourquci ? 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Rassurez-vous, je me mets à ma place. </stage>
+            
+            
+                    <l>Irai-je m'en prendre à la pierre</l>
+                    <l>Que me jette un enfant malin,</l>
+                    <l>Me fâcher contre la barrière</l>
+                    <l>Que l'on plaça sur mon chemin ?</l>
+                    <l>Vous n'êtes, diplomate honnête,</l>
+                    <l>Que le bras qu'on a fait mouvoir ;</l>
+                    <l>Et ne devant accuser que la tête,</l>
+                    <l>Je ne puis pas vous en vouloir.</l>
+                </lg>
+            </div>
+            
+            
+            LE RÉSIDENT. 
+            
+-
+            
+            On ne † pas être plus poli que cela ! … Mais je ne dois pas me. 
+            
+            laisser séduire… Ainsi, monsieur, je vais vous enmener…
+            
+            DUCORNET. 
+            
+-
+            
+-
+            
+            Emmener monsieur de Voltaire, le vrai Voltaire cette fois… Oh ! 
+            
+            nous ne le souffrirons pas… Dis comme moi, Lisbeth…
+            
+            LISBETH, forçant sa voix. 
+            
+            Non, nous ne le souffrirons pas…
+            
+            LE RÉSIDENT. 
+            
+            Rebellion complète ! … (Aux grenadiers.) Soldats, réprimez cette
+            
+            insurrcction menaçante… (Un soldat retient Ducornet et l'autre Lis
+            
+            beth.) Et vous, monsieur deVoltaire, veuillez à l'instant me suivre…
+            
+            SCÈNE XVIII. 
+            
+            LEs MÈMEs, M. BERNARD. 
+            
+            M. BERNA RD
+            
+            Non pas… Veuillez rester, M. de Voltaire… Et vous, M. le ré
+            
+            sident, remettez-moi sur le champ votre illustre prisonnier. 
+            
+            LE RRSIDENT. 
+            
+            Comment ! M. Bernard, le consul de France se permet d'inter
+            
+            venir ! Vous voulez donc causer une guerre entre nos deux puis
+            
+            sances ; songez que j'ai là des ordres du roi de Prusse. 
+            
+            #&gt; 24 « e
+            
+            M. BERNARD, montrant une dépéche. 
+            
+            Le grand Frédéric les révoque. 
+            
+            VOLTAIR E. 
+            
+            J'en étais sûr ; il y a toujours de la ressource avec les gens d'es
+            
+            prit ! 
+            
+            LE RÉSIDENT. 
+            
+            Mais, monsieur, cette lettre si formelle que j'ai reçue… Me
+            
+            prend-t-on ici pour un imbécille ? 
+            
+-
+            
+            DUcoRNET, lui remettant une lettre cachetée que vient de lui donner
+            
+            Voilà votre paquet. 
+            
+            M. Bernard. 
+            
+            LE RÉSIDENT. 
+            
+            Oui, c'est bien la griffe du roi mon maître, j'ai l'honneur de la
+            
+            reconnaître. 
+            
+-
+            
+            M. BERNARD, à Voltaire. 
+            
+            Voici, de plus, un billet que je remets à son adresse. 
+            
+            voLTA1RE, lisant l'adresse. 
+            
+            Viro immortali… Allons, voilà un roi devenu courtisan. (Il lit.)
+            
+            « Mon cher Voltaire, point de rancune ; revenez près de votre ami… » 
+            
+            Non, non, Frédéric, il est trop tard. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : En amour comme en amitié. </stage>
+            
+            
+                    <l>Je ne veux plus porter vos fers.</l>
+                    <l>« Adieu, grand homme, adieu, coquette. »</l>
+                    <l>Je vais, pour l'étude et les vers,</l>
+                    <l>Me choisir, loin de vous, quelque douce retraite.</l>
+                    <l>De l'amitié vous empruntiez la voix ;</l>
+                    <l>Je lui vouaimon existence…</l>
+                    <l>Un jour se montra la puissance…</l>
+                    <l>On ne m'y prendra pas deux fois !</l>
+                </lg>
+            </div>
+            
+            
+            sCÈNE XIX. 
+            
+            LEs MÈMEs, MADAME MULLER, HABITANs DE FRANCFoRT DEs
+            
+            DEUx sExEs, portant des fleurs, des lauriers, etc. 
+            
+            LES HABITANS. 
+            
+            Voltaire ! … Voltaire ! … Où est-il ? 
+            
+            MADAME MULLER. 
+            
+            Oui, mes amis, c'est bien lui que j'ai l'honneur de posséder dans
+            
+            mon auberge… Le voici. 
+            
+            CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : La pastourelle</stage>
+            
+            
+                    <l>Toi, dont chacun renomme</l>
+                    <l>Les talens créateurs,</l>
+                    <l>Reçois de nous, grand homme,</l>
+                    <l>Ces lauriers et ces fleurs.</l>
+            
+                    A
+            
+                    2&gt; 25 €
+            
+                    UN MINIsTRE PRoTEsTANT, offrant une couronne de lauriers. 
+            
+-
+            
+                    <l>C'est à l'auteur d'Alzire</l>
+                    <l>Que j'offre ces tributs.</l>
+            
+                    UNE FFMME, offrant une couronne de roses. 
+            
+                    <l>À l'auteur de Zaïre !</l>
+            
+                    UN ÉLÈvE D'UNIvERsITÉ, offrant une couronne civique. 
+            
+                    <l>À l'auteur de Brutus !</l>
+            
+                    CHOEUR, 
+            
+                    <l ana="unanalyzable">Toi dont chacun renomme, etc.</l>
+            
+            
+            
+                    (Ils entourent Voltaire qu'ils chargent de leurs offrandes) 
+            
+                    voLTAIRE, attendri. 
+            
+                    Mes amis, mes amis… vous voulez donc me faire mourir ? …
+            
+-
+            
+                    M. BERNARD. 
+            
+                    Heureusement, c'est la chose impossible ! 
+            
+                    LE RÉSIDENT. 
+            
+                    Je vois qu'il faut ici déployer toute mon éloquence… (A Vol
+            
+                    taire.) O vous qui… O vous que…
+            
+                    VOLTAIRE. 
+            
+                    Ah ! de grâce, monsieur l'ambassadeur, en qualité de simple par
+            
+                    ticulier, dispensez moi de la harangue ! (Ici on lui apporte un volumc
+            
+                    richement relié.) Et, tenez, voici précisément l'objet de vos réclama
+            
+                    tions ; l'œuvre de poésie du roi votre maître. (Le résident le recoit
+            
+                    à genoux.)Je le disais bien, cet imbécille de valet prussien l'avait
+            
+                    mis dans mes paquets, dans le linge à blanchir. 
+            
+                    **
+            
+                    · DUCORNET. 
+            
+                    Eh mais ! ce n'était pas si mal placé. 
+            
+                    Pas si bête ! pas si bète ! 
+            
+-
+            
+                    DUCORNET. 
+            
+, 
+            
+                    VOLTAIRE. 
+            
+                    Monsieur de Voltaire, j'ai eu l'honneur d'être votre remplaçant. 
+            
+                    VOLTAIRE. 
+            
+                    Ah ! c'est juste, et comme le poste était dangereux, je vous dois
+            
+                    bien un dédommagement… (Il donne une bourse à Lisbeth.) Voilà
+            
+                    une jeune fille qui se chargera de vous offrir, avec sa main, une
+            
+                    petite indemnité. 
+            
+                    Avec plaisir, monsieur. 
+            
+-
+            
+                    LISIB1ETH. 
+            
+                    VOLTAIRE, 
+            
+                    Je veux de plus, faire tous les frais de la noce… sauf les couplets
+            
+                    de rigueur… cela regarde monsieur Ducornet. 
+            
+                    DUCORNET. 
+            
+                    Oui, oui, à la façon de Barbari…
+            
+                    VOLTAIRE. 
+            
+                    Mon ami.,. 
+            
+                    g&gt; 26 e
+            
+-
+            
+                    ·. 
+            
+                    VA UV DE VILLE. 
+            
+            
+                    REPRISE DU CHŒUR. 
+            
+            
+                    <l ana="unanalyzable">Toi dont chacun renomme, etc.</l>
+                </lg>
+            </div>
+            VOLTAIRE, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : La sentinelle. </stage>
+            
+            
+                    <l>Près de Ninon, jadis avec bonté</l>
+                    <l>On accueillit Voltaire à son aurore ;</l>
+                    <l>À la Bastille il fut par vous fêté,</l>
+                    <l>Puis à Ferney sut nous charmer encore.</l>
+                    <l>Ah ! maintenant daignez le protéger,</l>
+                    <l>Quand on l'arrête en Germanie.</l>
+                    <l>À tout Français, que le danger</l>
+                    <l>Menace en pays étranger,</l>
+                    <l>Est dû l'appui de sa patrie.</l>
+                </lg>
+            </div>
+            
+            
+            CHOEUR. 
+            
+            FIN. 
+        </body>
+    </text>
+</TEI>

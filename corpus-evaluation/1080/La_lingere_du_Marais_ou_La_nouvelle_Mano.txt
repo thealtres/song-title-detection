@@ -1,0 +1,5242 @@
+A propos de ce livre
+
+Ceci est une copie numérique d’un ouvrage conservé depuis des générations dans les rayonnages d’une bibliothèque avant d’être numérisé avec
+précaution par Google dans le cadre d’un projet visant à permettre aux internautes de découvrir l’ensemble du patrimoine littéraire mondial en
+ligne.
+Ce livre étant relativement ancien, il n’est plus protégé par la loi sur les droits d’auteur et appartient à présent au domaine public. L’expression
+“appartenir au domaine public” signiﬁe que le livre en question n’a jamais été soumis aux droits d’auteur ou que ses droits légaux sont arrivés à
+expiration. Les conditions requises pour qu’un livre tombe dans le domaine public peuvent varier d’un pays à l’autre. Les livres libres de droit sont
+autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+trop souvent difﬁcilement accessibles au public.
+Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+du long chemin parcouru par l’ouvrage depuis la maison d’édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains.
+
+Consignes d’utilisation
+
+Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine.
+Il s’agit toutefois d’un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+contraintes techniques relatives aux requêtes automatisées.
+Nous vous demandons également de:
+
++ Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l’usage des particuliers.
+Ils ne sauraient en effet être employés dans un
+
+Nous vous demandons donc d’utiliser uniquement ces ﬁchiers à des ﬁns personnelles.
+quelconque but commercial.
+
++ Ne pas procéder à des requêtes automatisées N’envoyez aucune requête automatisée quelle qu’elle soit au système Google. Si vous effectuez
+des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+d’importantes quantités de texte, n’hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l’utilisation des
+ouvrages et documents appartenant au domaine public et serions heureux de vous être utile.
+
++ Ne pas supprimer l’attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+et leur permettre d’accéder à davantage de documents par l’intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+aucun cas.
+
++ Rester dans la légalité Quelle que soit l’utilisation que vous comptez faire des ﬁchiers, n’oubliez pas qu’il est de votre responsabilité de
+veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n’en déduisez pas pour autant qu’il en va de même dans
+les autres pays. La durée légale des droits d’auteur d’un livre varie d’un pays à l’autre. Nous ne sommes donc pas en mesure de répertorier
+les ouvrages dont l’utilisation est autorisée et ceux dont elle ne l’est pas. Ne croyez pas que le simple fait d’afﬁcher un livre sur Google
+Recherche de Livres signiﬁe que celui–ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+vous exposeriez en cas de violation des droits d’auteur peut être sévère.
+
+À propos du service Google Recherche de Livres
+
+En favorisant la recherche et l’accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+des recherches en ligne dans le texte intégral de cet ouvrage à l’adresse http://books.google.com
+
+LA LINGÈRE
+
+DU MARAIS,
+
+OU
+
+LA NOUVELLE MANON LESCAUT,
+
+VAUDEVILLE EN TROIS ACTES ;
+
+PAR
+
+MM. DUPIN ET ACHILLE.
+
+REPRÉSENTÉ POUR LA PREMIÈRE FOIS A PARIS, SUR LE
+
+THÉATRE DES VARIÉTÉS, LE 24 JUILLET 1830.
+
+A
+
+BRUXELLES,
+
+AU BUREAU DU RÉPERTOIRE,
+
+CHEZ ODE ET WODON, IMPRIMEURS–LIBRAIRES,
+
+BOULEVARD DE WATERLOO, NO 34.
+
+1830.
+
+00000000
+
+0000000
+
+PERSONNAGES.
+
+ACTEURS
+
+>
+
+DE
+
+DE
+
+PARIS.
+
+BRUXELLES
+
+MM.
+
+MM.
+
+ADOLPHE DERVILLE, architecte.
+
+St.–GERVAIS, son ami.
+DEBINEUX, amant de Manon.
+
+LEFORT, aubergiste à l’Ile Saint
+
+ST.–ANGE
+CBAPRON.
+
+ODRY.
+SYLVESTRE.
+
+Denis.
+
+DEUX MARCHANDS
+
+BOUCNOL.
+
+GEORGES,
+Bécat.
+
+{
+
+MANON, lingère.
+
+PRUDENCE, modiste.
+UNE OUVREUSE DE LOGES.
+
+EL. JACOPS.
+
+MARIA.
+
+JENNY.
+
+Mmes
+
+Mures
+
+DIVERS MARCHANDS.
+
+DOMESTIQUES.
+
+GARÇONS TRAITEURS.
+UX COMMISSAIRE.
+
+Deus SOLDATS.
+
+La scène se passe à Paris.
+
+IMPRIMERIE DE ODE ET WODOX,
+
+BOULEVARD DE WATERLOO, NO 34.
+
+LA LINGÈRE
+
+DU MARAIS.
+
+mwm
+
+minn
+
+WMM
+
+ACTE PREMIER.
+
+Le Théâtre représente le Boulevard du Temple, du
+
+côté des théâtres. — Un café à gauche de l’acteur.
+
+Le théâtre de la Gaîté est seosé dans la coulisse.
+
+SCÈNE PREMIÈRE.
+
+(Au lever du rideau, des promeneurs, des marchands.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    CHŒUR.
+
+Air : Nous n’avons plus cette merveille.
+
+Comme exemple,
+Au boulʼvard du Temple,
+Chacun cite ma bonne foi !
+Venez à moi,    (bis.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UN MARCHAND.
+
+Un sous le verre de limonade !
+
+LA LINGÈRE DU MARAIS.
+
+UN AUTRE.
+
+Deux liards le bâton de sucre d’orge!
+
+UNE MARCHANDE D’ORANGES.
+
+A deux sous le Portugal!
+
+UN AUTRE.
+
+Des chaînes pour la sûreté des montres ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    CHŒUR.
+
+Comme exemple, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCÈNE II.
+
+Les MÊMES, ADOLPHE, puis SAINT–GERVAIS.
+
+ADOLPHE, entrant en parlant à la cantonade.
+
+Allons donc ! allons donc, flaneur de Saint–Gervais !
+
+il s’arrête à toutes les grisettes qu’il rencontre !
+
+SAINT–GERVAIS, entrant.
+
+Me voilà ! me voilà ! Ah ! mon ami, vive le boule
+
+vard du Temple !… Quel tableau pittoresque ! C’était
+
+une petite gantière… ça nous irait….
+
+ADOLPHE.
+
+Tu parais bien dis
+
+à te divertir ?
+
+SAINT–GERVAIS.
+
+Ça ne peut pas nous manquer! avec de l’argent…
+
+je ne le quitte pas !
+
+ADOLPHE.
+
+Je te reconnais là !
+
+SAINT–GERVAIS.
+
+Je ne suis ni un adulateur, ni un sycophante… et
+
+j’ai toujours méprisé les amis de la fortune… mais il
+
+n’en est pas de même de la fortune des amis.
+
+1
+
+ACTE I, SCENE II.
+
+5
+
+ADOLPHE.
+
+Tu as raison ; quand il y a pour trois, il y a pour
+
+quatre… et chez l’hymen, où l’on ne sert jamais que
+
+pour deux, c’est presque toujours pour trois.
+
+SAINT–GERVAIS,
+
+riant.
+
+A qui le dis–lu ?… j’ai été ce troisième là plus d’une
+
+fois… As–tu de l’argent ?
+
+ADOLPHE.
+
+J’ai touché ce matin un méinoire de 4,000 francs.
+
+SAINT–GERVAIS.
+
+Nous en ferons assez ; voyons d’abord… loge à la
+
+Gaîté… dans les entr’acies rafraîchissemens au
+
+jardin,
+
+Turc, grisettes, connaissances, souper chez Hardi….
+
+Quelle heure est–il ?
+
+ADOLPHE,
+
+allant pour tirer sa montre.
+
+Ah ! ma montre est chez le bijoutier pour réparations
+
+à l’émail.
+
+SAINT–GERVAIS.
+
+Avec 4,000 francs nous pouvons nous en passer… il
+
+est cinq heures au Cadran bleu.
+
+ADOLPHE.
+
+Mais je ne vois pas cette petite lingère dont tu m’as
+
+parlé ?
+
+SAINT–GERVAIS.
+
+Attends donc ! les lingères ne vont pas si vite que
+
+les marchandes de modes !
+
+C’est une brune ?
+
+ADOLPHE.
+
+SAINT–GERVAIS.
+
+Entièrement brune… Je sais ce qu’il nous faut…
+
+Depuis six mois je ne t’ai vu qu’avec des blondes, j’en
+ai assez.
+
+2
+
+LA LINGÈRE DU MARAIS.
+
+ADOLPHE.
+
+As–tu été aux informations ?
+
+SAINT–GERVAIS.
+
+Elle a un oncle traiteur à l’ile Saint–Denis. Elle
+
+s’appelle Manon, et coinme elle est née auprès de
+
+Valenciennes, dans un petit village sur l’Escaut, on
+
+l’a surnommée Manon Lescaut.
+
+ADOLPHE.
+
+C’est un nom qui promet.
+
+SAINT–GERVAIS.
+
+Et la petite tiendra.
+
+ADOLPHE.
+
+Celle de l’Opéra a pourtant résisté !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Air de la Robe et les Boltes.
+
+Cette Manon vraiment enchante,
+Par sa grace, son enjouement ;
+Mais en se montrant si charmante,
+Pourquoi meurt–elle au dénouement ?
+
+    SAINT–GERVAIS.
+
+À l’Opéra, c’est vraiment grand dommage ;
+Mais quand j’ai vu que, malgré tant d’appas,
+On la forçait de rester toujours sage,
+J’étais bien sûr qu’elle ne vivrait pas. (bis.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADOLPHE.
+
+Tu en veux aux danseuses ?
+
+SAINT–GERVAIS.
+
+Ça serait plutôt les danseuses qui m’en voudraient.
+
+ADOLPHE.
+
+Tu dis done que depuis quelques jours elle vient sur
+
+ce boulevart ? sais–tu pourquoi ?
+
+ACTE 1, SCENE III.
+
+7
+
+SAINT–GERVAIS.
+
+Je m’en doute…. Mais c’est égal, il faut que nous
+
+fassions sa connaissance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR Vaudeville de Bancelin.
+
+Doucement pourtant,
+Car j’ai vu flaner autour d’elle
+Un cadet fidèle.
+
+    UN MARCHAND DE GÂTEAUX.
+
+C’est tout chaud ! tout bouillant !
+
+    ADOLPHE.
+
+Mon cher, tu le nommes ?
+
+    UNE MARCHANDE.
+
+Qu’est–ce qui veut des pommes ?
+
+    ADOLPHE.
+
+Est–il laid ou beau ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCÈNE III.
+
+Les Mêmes DÉBINEUX.
+
+UN MARCHAND DE TISANE.
+
+V’là l ’ coco ! v’là l ’ coco !
+
+SAINT–GERVAIS à Adolphe, en lui montrant Débineux.
+
+C’est le jeune homme !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    DÉBINEUX.
+
+Livrons–nous
+Sans défiance,
+À mon ardente espérance !
+Car tout me promet d’avance
+Des instans bien doux.
+
+CHŒUR.
+
+Livrons–nous, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADOLPHE, bas à Saint–Gervais.
+
+Quoi ! C’est là son objet ?
+
+SAINT–GERVAIS.
+
+Oui…. C’est un industriel… un être absurde et fan
+
+tastique.
+
+(Ils l’examinent à l’écart.)
+
+Désineux.
+
+Je suis au comble de la joie !… mon père doit m’en
+
+voyer demain son consentement à mon mariage, et de
+
+plus, cinquante écus… Les pièces de cent sous arri
+
+veront à point, car la débine est flagrante, et aujour
+
+d’hui dimanche je ne pourrai faire qu’une grande
+
+dépense d’amour, vu que je n’ai qu’une pièce de dix
+
+sous à ma disposition… Manon, Manon, je vais donc
+
+te posséder ! tu seras à moi ! à moi seul ! je suis égoïste
+
+de ce côté là…. pourtant c’est drôle, quand je me
+
+promène avec elle, et qu’on ne la regarde pas, je de
+
+vrais être au comble du bonheur, eh ! bien, je suis au
+
+comble du malheur ;
+
+il me semble qu’on ne la trouve
+
+pas jolie, et ça me vexe… quand un mirliflor la
+
+lorgne, ça me rend jaloux, et alors je suis au comble
+
+de la fureur.
+
+ADOLPHE, bas à Saint–Gervais.
+
+Il paraît que c’est un gaillard qui ne sort pas des
+
+combles.
+
+DÉBINEUX.
+
+Mais voilà une demi–heure que j’arpente le boule
+
+vard et je ne vois rien paraître… elle ne vient pas !
+où est–elle ?
+
+fait–elle ?
+
+que
+
+que dit–elle ? à qni pense
+
+ACTE I, SCENE IV.
+
+t–elle ? Ah ! si j’avais sa tutelle ! tiens ! j’ai cassé ma
+
+bretelle.
+
+SAINT–GERVAIS, bas à Adolphe.
+
+J’espère qu’il est tout elle.
+
+ADOLPHE, lui montrant la coulisse en face.
+
+Vois donc par
+
+là ?
+
+SAINT–GERVAIS.
+
+C’est–elle ! elle est avec une amie… mettons–nous là,
+
+nous la verrons venir.
+
+(Ils entrent dans la coulisse.)
+
+SCÈNE IV.
+
+Les Mèmes, PRUDENCE ET MANON.
+
+PRUDENCE, entrant avec Manon.
+
+Dieux !
+
+que les hommes sont ennuyeux sur le boule
+
+vard, ils vous suivent toujours en vous disant des
+
+bêtises !
+
+MANOK :
+
+Il y en avait un tout à l’heure qui disait que nous
+
+étions des cruelles !
+
+DÉBINEUX, sur le devant, sans voir Manon.
+
+C’est se moquer du monde à la fin… (Il frappe du
+
+pied, se retourne, et se trouve en face de Manon.)
+
+Que vois–je ? ah ! te voilà ! tu viens joliment tard ! il
+
+est près de six heures.
+
+MANON.
+
+Il n’est que cinq heures.
+
+DÉBINEUX, tirant une montre.
+
+Vois plutôt.
+
+MANON.
+
+Tiens! tu as une montre, Débineux !… Ab ! comme
+
+elle est jolie… donne, que je voie.
+
+10
+
+LA LINGÈRE DU MARAIS.
+
+PRUDENCE.
+
+Il devient bien gentil ce jeune homme là !
+
+DÉBINEUX.
+
+Elle est fièrement callée !… prends garde, c’est pas
+
+à moi, je la reporte à un bourgeois de la Chaussée
+
+d’Antin… mais comme tu t’es fait entendre ?
+
+C’est que j’ai été chercher ma cousine Prudence dans
+
+MANON
+
+son magasin de modes.
+
+PRUDENCE.
+
+Et comme toutes ces demoiselles étaient sorties à
+
+cause du dimanche, Manon s’est amusée à essayer tous
+
+les chapeaux.
+
+MANON.
+
+Si tu savais comme ça m’allait bien…
+
+DÉBINEUX.
+
+Ah ! voilà, ça m’allait bien !… c’est en essayant des
+
+chapeaux que les demoiselles forment le projet de nous
+
+faire des traits.
+
+MANON.
+
+Est–ce que
+
+tu n’es
+
+pas sûr de mon amour ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Aussitôt que je t’aperçois.
+
+Je me repens quand j’aperçois
+La peine que j’ai pu tʼfaire.
+
+    DÉBINEUX.
+
+C’est commʼ moi, lorsque je te vois
+Je nʼ suis plus en colère ;
+En querelle, en piquans discours,
+Le temps que l’on perd tous les jours
+Est un temps qu’on vole aux amours.
+Tu me connais, je suis sincère ;
+Oui, tu sauras long–temps me plaire ;
+Mais, si tu m’en croi, (bis.)
+Pour que je pensʼ toujours à toi,
+Ne t’éloigne jamais de moi ! (bis.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRUDENCE.
+
+C’est bien dit ça, cousine,
+
+il ne faut point trop
+
+compter sur sa vertu, ça porte malheur.
+
+Tu as toujours été heureuse, toi ?
+
+MANON.
+
+DÉBINEUX.
+
+Ton tour est arrivé, ma petite Manon ; mon père
+
+consent à not’ bonheur !
+
+MANON
+
+Ton père consent !…
+
+DÉBINEUX.
+
+Demain je dois recevoir sa bénédiction, et cinquante
+
+écus par la malle–poste.
+
+MANON
+
+Je vais donc être ta femme ! oh ! Dieu ! il me sem
+
+blait que je ne me marierais jamais.
+
+PRUDENCE.
+
+C’est vrai que les jeunes gens n’épousent pas sou
+
+vent cette année ; ils ont d’autres idées…
+
+MANON.
+
+C’est que les femmes sont peut–être trop coquettes.
+
+PRUDENCE.
+
+C’est le climat de Paris.
+
+DÉBINEUX.
+
+Vous êtes acclimatée, vous, mademoiselle Prudence…
+
+mais ma petite Manon ne fait que d’arriver dans le dé
+
+12
+
+LA LINGÈRE DU MARAIS.
+
+partement de la Seine ; voyez comme elle est simple
+dans sa toilette.
+
+MANON.
+
+C’est dans mon caractère, (à Prudence) et puis je
+
+je n’ai pas d’argent pour faire autrement.
+
+DÉBineux.
+
+Elle sait qu’une femme ne doit s’occuper que de son
+
+mari… (Saint–Gervais et Adolphe passent auprès de
+
+Manon en la lorgnant et la saluant, Manon leur rend
+
+leur salut. Ils vont s’asscoir au café.)
+
+DÉBINeux.
+
+Est–ce que vous connaissez ces messieurs ?
+
+MANON
+
+Le blond est venu acheter des faux–cols au magasin.
+
+PRUDENCE.
+
+Ils sont mis dans le dernier genre !
+
+MANON, à Débineux, en regardant dans la coulisse.
+
+Ah ! mon ami, vois donc cette dame avec une robe
+
+de jaconas jaune, un canezou blanc et des brodequins
+
+verts… comme je te plairaissi j’étais habillée comme ça !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Fais de lui tout ce tu veux.
+
+Mais vois donc quels beaux vêtemens !
+Et des bijoux ! Ah ! qu’elle est belle !
+
+    DÉBINEUX.
+
+Moi, ma chère, sans complimens,
+Je le trouve beaucoup mieux qu’elle ;
+Celle parurʼ qui te séduit,
+Est bien loin de valoir la tienne ;
+Cette toilette l’embellit,
+Et Manon embellit la sienne.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACTE I, SCENE IV.
+
+13
+
+UN MARCHAND.
+
+Voyons, mes petites dames, étrennez–moi…. une
+
+chaine en or pur de chrisolcaque, avec des boucles
+d’oreilles en vrais diamans…. de charbon, pour 15
+francs.
+
+MANON, les regardant.
+
+C’est monté à jour !
+
+!
+
+DÉBINEUX, se tãtant les poches.
+
+C’est ma bourse qui est à jour !
+
+UN AUTRE MARCHAND.
+
+Un barrège…. un vrai cachemire bourre de soie….
+
+10 francs, pour cause de démolition !
+
+MANON, le regardant.
+
+C’est qu’il a au moins cinq quarts ; il est magni
+
+fique !
+
+Et pas
+
+cher !
+
+PRUDENCE.
+
+MANON.
+
+Si j’avais ça, on me prendrait pour une limonadière !
+
+DÉBINEUX, à part.
+
+O ambition ! désir effréné de luxe et d’honneur.
+
+(Haut.) Messieurs, nous n’avons pas de monnaie.
+
+PREMIER MARCHAND.
+
+Je vous changerai, not’ bourgeois.
+
+DÉBINEUX.
+
+Je ne veux pas changer.
+
+LE MARCHAND.
+
+Mais ces dames ?…
+
+DÉBINEUX.
+
+Allez au diable ! canaille séductrice.
+
+(Les marchands s’éloignent en ricanant.)
+
+MANON, calinant Débineux.
+
+Ne te fåche pas, mon ami… je me passerai bien de
+
+tout cela, puisque tu me trouves bien ainsi.
+
+14
+
+LA LINGÈRE DU MARAIS.
+
+DÉBINEUX, à part.
+
+Ça me fend le cæur !… ne pas pouvoir lui faire un
+
+petit cadeau !…. mais demain j’aurai de l’argent !….
+
+oh ! quelle idée !… ici tout près… Manon, Prudence,
+
+attendez–moi… une affaire…
+
+MANON.
+
+Comment, tu nous quittes !
+
+PRUDENCE,
+
+Sans nous offrir une bouteille de bierre et des échan
+
+dés ?
+
+DÉBINEUX.
+
+Je reviens dans l’instant.
+
+(Il s’enfuit.)
+
+SCÈNE V.
+
+Les Mêmes, excepté DÉBINEUX.
+
+PRUDENCE.
+
+Il est encore joliment romantique, ton jeune homme !
+
+MANON.
+
+Il est sans doute allé reporter la montre qu’il nous
+
+a montrée.
+
+SAINT–GERVAIS, à Adolphe.
+
+Elles sont seules ! en avant deux ! (S’approchant vi
+
+vement en saluant.) Salut à la plus jolie lingère du
+
+Marais, ainsi qu’à sa charmante amie.
+
+MANON.
+
+Messieurs, je ne vous connais pas.
+
+ADOLPHE.
+
+Mon ami est une de vos pratiques ; quant à moi,
+
+j’admire toutes les jolics femmes, et vous êtes à la tête
+
+de mes admirations.
+
+ACTE I, SCENE V.
+
+MANON, bas à Prudence.
+
+15
+
+Il a bien bon ton !
+
+SAINT–GERVAIS.
+
+Je vous présente mon ami Adolphe Derville, jeune
+
+artiste, habitant la Chaussée d’Antin.
+
+MANON.
+
+Monsieur est artiste ?
+
+ADOLPHE.
+
+Je suis architecte.
+
+SAINT–GERVAIS.
+
+Cela pourrait se deviner à la manière dont il est
+
+båti. (Riant.) Ah ! ah ! ah !
+
+PRUDENCE.
+
+Un calembourg… ils veulent nous séduire !…
+
+ADOLPHE.
+
+Si ces dames voulaient accepter notre bras.
+
+SAINT–GERVAIS.
+
+Avec des glaces au jardin Turc ?
+
+MANON avec embarras.
+
+Monsieur… (Bas à Prudence.) Dis donc, Prudence,
+
+des glaces !
+
+PRUDENCE, bas à Manon.
+
+Ça n’est pas de la petite bierre !
+
+MANON
+
+C’est que mon fulur va venir, et ne me trouvant pas
+
+à la même place…
+
+ADOLPHE.
+
+Il en sera quitte pour dire…
+
+SAINT–GERVAIS.
+
+Que c’est aujourd’hui la Saint–Lambert.
+
+16
+
+LA LINGÈRE DU MARAIS.
+
+ADOLPHE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Air de Diavolo.
+
+À mon drapeau fidèle,
+Dès long–temps on m’a vu servir.
+Je suis, mademoiselle,
+Un soldat du plaisir.
+
+    SAINT–GERVAIS.
+
+Pour les rendre dociles,
+Près des femmes j’ai pris toujours
+Pour mes deux chefs de files,
+La Folie et les Amours ;
+Et chacun d’eux, de peur qu’on ne l’oublie,
+En vous montrant,
+Nous crie :
+En avant.
+
+    ADOLPHE et SAINT–GERVAIS.
+
+En avant ! (ter.)
+
+    MANON, reculant.
+
+Même air.
+
+Auprès de fille sage,
+Un tel conseil est imprudent ;
+J’aime le badinage
+Quand il est innocent.
+
+    PRUDENCE.
+
+Avec un peu de gaze,
+J’écoute les propos malins ;
+On s’amuse et l’on jase.
+Oui, mais à bas les mains !
+
+    MANON.
+
+Car la pudeur, reprenant son empire,
+Bientôt saura
+Vous dire :
+Halte là !
+
+    MANON et PRUDENCE.
+
+Halte là ! (ter.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SAINT–GERVAIS.
+
+La pudeur ! comme c’est rococo !
+
+ADOLPHE.
+
+Alors si ces dames refusent notre bras, nous sommes
+
+forcés de les quitter…, nous allons au Théâtre de la
+Gaité.
+
+MANON, à Prudence.
+
+Au Théâtre de la Gaîté ! qu’ils sont heureux !…
+
+PRUDENCE.
+
+Surtout si monsieur Marty joue !
+
+SAINT–GERVAIS.
+
+Nous avons une loge à l’année, que nous avons louée
+
+pour ce soir.
+
+MANON.
+
+Qu’est–ce qu’on donne ?
+
+ADOLPHE.
+
+Un spectacle demandé : Le Panier d’argenterie, la
+
+Partie fine.
+
+SAINT–GERVAIS.
+
+Et la célèbre pièce d’Ondine, dans laquelle on voit
+
+figurer cinquante–trois changemens, sans compter les
+
+autres machincs…
+
+Que ça doit être beau !
+
+MANON.
+
+18
+
+LA LINGÈRE DU MARAIS,
+
+ADOLPHE.
+
+Et les costumes, la danse !
+
+MANON
+
+La danse !
+
+Elle aime la danse ?
+
+SAINT–GERVAIS.
+
+PRUDENCE.
+
+Comme une folle…. (A Manon.) Le ballet n’est pas
+
+commencé…
+
+Mais Débineux ?
+
+MANON
+
+PRUDENCE.
+
+Est–ce qu’il le saura ?
+
+ADOLPHE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Le Troubadour.
+
+À mon désir,
+Cédez, gentille dame,
+Le vrai plaisir
+Se trouve au mélodrame.
+
+    SAINT–GERVAIS.
+
+Ce doux spectacle embellit une femme ;
+Rien ne sied mieux, en vérité,
+À la beauté,
+Que la gaîté.
+
+    ENSEMBLE.
+
+    ADOLPHE et SAINT–GERVAIS.
+
+C’est bien, je la décide,
+Soyons ici son guide.
+Le sort en est jeté,
+Rendons–nous tous quatre à la Gaîté.
+
+    MANON, à Adolphe.
+
+C’est fait, je me décide,
+Soyez ici mon guide, etc.
+
+    PRUDENCE.
+
+C’est fait, je la décide, etc.
+                (Ils emmènent Manon et Prudence.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCÈNE VI.
+
+Le théâtre change et représente le couloir du théâtre ;
+
+une loge, dont les portes s’ouvrent, est au milieu.
+
+· La grille de la loge est levée : au–dessus de la
+
+loge, on lit : GRANDE LOGE GRILLÉE ; à droite et à
+
+gauche ; BAIGNOIRES.
+
+ADOLPHE, MANON, L’OUVREUSE.
+
+ADOLPHE et MANON, entrant.
+
+L’ouvreuse !
+
+ADOLPHE, à l’ouvreuse.
+
+Voilà notre loge.
+
+L’OUVREUSE.
+
+Le coupon,
+
+s’il vous plaît. (Elle le regarde.) No 9,
+
+c’est bien ça… (Elle ouvre la loge.) Faut–il un petit
+
+banc à madame ?
+
+Certainement.
+
+Et ma cousine ?
+
+ADOLPHE.
+
+MANON.
+
+ADOLPHE.
+
+Soyez tranquille, elle est avec mon ami… ils achè
+
+tent des oranges au foyer,
+
+20
+
+LA LINGÈRE DU MARAIS.
+
+L’OUVREUSE.
+
+Madame veut–elle que je baisse la grille ?
+
+MANON.
+
+Oui, car on n’y voit pas. (Elle regarde.) Tiens ! la
+
+toile est levée ! Oh ! que c’est joli !… (L’ouvreuse veut
+
+fermer les portes de la loge.) Laissez, laissez, il fait
+
+trop chaud. Tiens, il y a des dames au parlerre !
+
+ADOLPHE.
+
+C’est le bon geure ici !
+
+MANON.
+
+Eh ! toutes ces têtes là haut !
+
+ADOLPHE.
+
+Ce sont les petites places. C’est ce qu’on appelle le
+
+poulailler.
+
+SCÈNE VII.
+
+LES MÊMES, SAINT–GERVAIS.
+
+SAINT–GERVAIS, entrant et présentant des oranges.
+
+Voilà des oranges ! c’est une allégorie… à vous la
+
+pomme ! (Il lui donne une orange.)
+
+MANON.
+
+Et ma cousine ? est–ce que vous l’avez perdue ?
+
+SAINT–GERVAIS.
+
+Est–ce qu’il se perd quelque chose ici ? elle a ren
+contré un clerc de notaire de sa connaissance… elle
+
+veut passer un acte avec lui. (Bas à Adolphe.) Le petit
+
+bijoutier est dans la salle.
+
+ADOLPHE.
+
+Il ne nous trouvera pas.
+
+SAINT–GERVAIS.
+
+Ah ! ça, belle Manon…. attention ! Vous allez voir
+
+ACTE I, SCÈNE VII.
+
+21
+
+un père sensible qui ne fait toujours beaucoup rire !
+
+UNE VOIX.
+
+Silence, la baignoire !
+
+UNE AUTRE.
+
+C’est commencé, messieurs !
+
+SAINT–GERVAIS.
+
+Hé bien !… c’est l’instant de s’amuser… et je m’a
+
+muse…
+
+ADOLPHE.
+
+C’est un amateur qui ne veut pas perdre une phrase
+
+du mélodrame.
+
+UN VIEUX MONSJEUR, poudré, se levant du parterre.
+
+Mais c’est indécent, Messieurs !
+
+SAINT–GERVAIS.
+
+Oh ! quelle tête !… Il n’y a qu’ici qu’on peut trouver
+
+des boules comme ça ! (Ils rient tous les trois.)
+
+UNE VOIX.
+
+A la porte l’Algérien !
+
+SAINT–GERVAIS.
+
+Qu’est–ce qui n’appelle Algérien ?
+
+C’est d’en haut…
+
+MANON.
+
+SAINT–GERVAIS,
+
+Vous êtes des mal–élevés !
+
+PLUSIEURS VOIX.
+
+A la porte, la baignoire !
+
+(Saint–Gervais lance une orange.)
+
+DÉBINEUX, dans la salle.
+
+Laissez–moi passer, ils sont là.
+
+C’est la voix de Débineux !
+
+MANON
+
+BEAUCOUP DE VOIX.
+
+A la porte la loge grillée !
+
+(Adolphe et Saint–Gervaiş lèvent la grille.)
+
+3
+
+22
+
+LA LINGÈRE DU MARAIS.
+
+CHŒUR GÉNÉRAL.
+
+LE PUBLIC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR de Rossini.
+
+À la portʼ là dʼdans !
+Ouvrez, sortez, il en est temps.
+À la port là dʼdans !
+Sortez, sinon
+Votʼ compte est bon.
+
+    SAINT–GERVAIS.
+
+Ah ! quel contre–temps !
+Peut–on ainsi troubler les gens !
+Oh ! les sottes gens !
+Chère Manon,
+Calmez–vous donc !
+
+    MANON.
+
+Ah ! quel contre–temps !
+Ah ! cher amant, toi que j’entends,
+Ah ! que de cancans
+Sur ta Manon ;
+Mon compte est bon !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Pendant ce cheur, le public escalade la loge par
+
+le
+
+parterre. Débineux’s’élance vers Manon, qui s’éva
+
+nouit en jetant un cri. On arrête ! Débincur.–Ta
+
+bleau.–Le rideau tombe.)
+
+FIN DU PREMIER ACTE.
+
+ACTE II, SCENE I :
+
+23
+
+ACTE DEUXIÈME.
+
+Le Théâtre représente un salon très élégant.–A droite
+
+sur le premier plan, un cabinet de toilette qui est
+
+vitré. – A gauche une croisée. Une table garnie ; un
+
+canapé est près de la fenêtre.
+
+SCÈNE PREMIÈRE.
+
+ADOLPHE, SAINT–GERVAIS, MANON,
+
+DOMESTIQUES
+
+Au lever du rideau, Manon est évanouie dans un
+
+fauteuil ; on s’empresse pour la faire revenir ; la
+
+fenétre est ouverte.
+
+ADOLPHE.
+
+La voilà qui commence à respirer!(Aux domestiques.)
+
+Retirez–vous.
+
+(Les domestiques sorient.)
+
+Pauvre petite, quelle peur elle a eue !
+
+SAINT–GERVAIS.
+
+J’aime les femmes qui se trouvent mal, moi! je les
+
+trouve bien !… son cæur bat–il ? (Il veut mettre sa
+
+main sur son cœur.)
+
+24
+
+LA LINGÈRE DU MARAIS.
+
+ADOLPHE, le retenant.
+
+Reste donc tranquille!
+
+SAINT–GERVAIS.
+
+Tu ne veux pas que je touche son cæur ! égoïste !
+
+ADOLPHE.
+
+Tais–toi… la voilà qui revient à elle !
+
+SAINT–GERVAIS.
+
+J’aimerais mieux qu’elle revînt à moi !
+
+(Ils se mettent un peu à l’écart.)
+
+MANON, revenant à elle petit à petit.
+
+Ah! mon Dieu ! qu’est–ce que tout ça ?… Je ne suis
+
+plus au spectacle !… je n’entends plus Débineux…
+
+(Elle regarde avec étonnement, et aperçoit Adolphe
+
+et Saint–Gervais qui s’avançent.) Ah ! vous voilà !…
+
+Eh bien ! dites–moi donc pourquoi je suis ici ?
+
+SAINT–GERVAIS.
+
+Pourquoi! est–ce que vous ne vous souvenez pas ?
+
+MANON.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Vaudeville du Colonel.
+
+Je me souviens qu’en sa colère,
+Mon amant jela plus d’un cri ;
+Que par l’ordre du commissaire,
+Bientôt après il fut saisi :
+Là, je me suis évanouie…
+Rien, par moi, n’est plus retrouvé…
+Depuis ce moment, je vous prie,
+Messieurs, que m’est–il arrivé ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SAINT–GERVAIS, comiquement.
+
+Oh ! rien… ma parole d’honneur !…
+
+ACTE II, SCENE II.
+
+25
+
+ADOLPHE.
+
+Au moment où vous avez perdu connaissance, je
+
+vous ai ſait transporter dans mon landeau…
+
+MANON
+
+J’ai été en landeau ! ah ! que j’aurais voulu me voir !
+
+ADOLPHE.
+
+Et l’on vous a amenée chez moi.
+
+SAINT–GERVAIS.
+
+Et tous les soins vous ont été prodigués, ainsi
+
+que
+
+l’eau de Cologne,
+
+le tout pour
+
+la morale !
+
+Et Débineux ?
+
+MANON.
+
+SAINT–GERVAIS.
+
+C’est un joli garçon que votre Débineux ! mais il
+
+paraît qu’il a le défaut d’être un peu voleur !
+
+Voleur !
+
+MANON.
+
+SAINT–GERVAIS.
+
+On a trouvé sur lui la reconnaissance d’une montre
+
+qu’il a mise en gage, et qui appartient à mon ami.
+
+SCÈNE II.
+
+LES MÊMES, PRUDENCE, toute effrayée.
+
+PRUDENCE, entrant, courant à Manon.
+
+Manon ! Manon !
+
+Prudence !
+
+MANON.
+
+(Elles se jettent dans les bras l’une de l’autre.)
+
+PRUDENCE.
+
+Que je suis donc fâchée de t’avoir quittée !
+
+LA LINGÈRE DU MARAIS.
+
+26
+
+SAINT–GERVAIS,
+
+Pour le clerc de notaire !
+
+PRUDENCE.
+
+J’ai tout su du commissaire, qu’est une connaissance
+
+du magasin… ton amant s’est sauvé!
+
+MANON.
+
+Je le reconnais là… mais la montre ?…
+
+PRUDENCE.
+
+C’est vrai qu’il l’avait mise en gage, mais bien inno
+cemment…. il voulait t’acheter la chaîne et le bourre
+
+de soie que tu avais désirés…. Le lendemain il aurait
+
+retiré la montre avec l’argent qu’il devait recevoir de
+
+son père…
+
+MANON, avec désespoir.
+
+Ainsi c’est pour moi, pour moi seule qu’il s’est
+
+exposé ?
+
+SAINT–GERVAIS.
+
+Bah ! bah ! vous croyez ça !
+
+MANON, à Adolphe.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Vaudeville d’Elle et Lui.
+
+Monsieur, c’est en vous que j’espère ;
+Il a le cœur honnête et bon.
+Parce qu’il a voulu me plaire,
+Faudra–t–il donc mettre en prison,
+Et perdre ce pauvre garçon ?
+C’est pour me rendre plus jolie,
+Qu’il vient de se trouver fautif…
+Ne peut–il pas, je vous en prie,
+Être excusé par le motif ? (ter.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SAINT–GERVAIS,
+
+à part.
+
+Quelle créature intéressante !
+
+ACTE II, SCÈNE II.
+
+ADOLPHE.
+
+Manon, je puis peut–être l’excuser…. mais il faut
+
+que vous m’accordiez un moment d’entretien ?
+
+Oh ! bien volontiers !
+
+MANON.
+
+PRUDENCE, à Manon, lui prenant la main.
+
+Il n’a pas l’air méchant… parle–lui comme il faut !
+
+(Pendant cet aparte, Adolphe fait signe à Saint
+
+Gervais d’emmener Prudence.)
+
+SAINT–GERVAIS, à Prudence.
+
+Voulez–vous que je vous reconduise à votre magasin ?
+
+PRUDENCE.
+
+Je ne sors jamais avec un homme !
+
+ADOLPHE.
+
+Prends mon tilbury… il est à la porte.
+
+PRUDENCE.
+
+Oh ! en tilbury, c’est différent !… j’accepte.
+
+SAINT–GERVAIS.
+
+1
+
+O marchandes de modes !…. comme vous êtes sen
+
+sibles au tilbury !
+
+MANON.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Allons, viens au Bal. (De l’Orpheline.)
+
+Ciel, entends mes veux ;
+
+À mes yeux
+Rien ne le remplace.
+Pour mon amoureux,
+Que faut–il donc qu’ici je fasse ?
+
+    ENSEMBLE.
+
+    MANON.
+
+Ciel ! entends mes vœux, etc.
+
+    ADOLPHE, regardant Manon.
+
+Que je sens de feux !
+Qu’à mes yeux
+Elle offre de grace.
+De son amoureux,
+Que je voudrais avoir la place !
+
+    SAINT–GERVAIS, de même.
+
+Je suis envieux !
+Qu’à mes yeux
+Elle offre de grace !
+Qu’Adolphe est heureux !
+Que je voudrais avoir sa place !
+
+    PRUDENCE.
+
+Ciel ! entends ses vœux !
+À ses yeux
+Rien ne le remplace !
+Pour son amoureux,
+Dis–lui ce qu’il faut qu’elle fasse.
+
+    MANON.
+
+Vous pouvez,
+Et vous devez
+Me donner sa grace.
+
+    SAINT–GERVAIS, à Prudence.
+
+Acceptez ma main,
+Jeune vertu de magasin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Tous reprennent l’ensemble.)
+
+SCÈNE III.
+
+ADOLPHE, MANON.
+
+ADOLPHE.
+
+Nous sommes seuls. (Se mettant à table et écrivant.)
+
+Approchez., Manon, voici un écrit qui peut justifier
+Débineux.
+
+(Il prend le papier et le plie en deux.)
+
+ACTE II, SCENE III.
+
+29
+
+MANON, allant pour le prendre.
+
+Ab ! monsieur, que je vous remercie !
+
+ADOLPHE, passant le papier dans l’autre main.
+
+Un instant, je ne puis vous le remettre ainsi.
+
+MANON
+
+Pourquoi donc ? est–ce qu’il y a encore quelques
+
+formalités ?
+
+ADOLPHE.
+
+Je dois vous l’avouer… (Lui prenant la main.) Ap
+
+prenez, Manon, que Débineux est mon rival.
+
+MANON, surprise ci avec joie.
+
+Vous m’aimez ? un homme riche comme vous, une
+
+petite lingère comme moi… c’est–il glorieux ! Mais, j’y
+
+pense, moi ! si vous m’aimez, vous devez m’obéir et
+
+faire lout ce que je voudrai !
+
+ADOLPHE.
+
+Et moi qu’obtiendrai–je ?
+
+MANON.
+
+Ab ! mon Dieu ! tout c’ qui vous f’ra plaisir !
+
+ADOLPHE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Que n’ai–je encor une richesse ! (de Caleb.)
+
+À vos vœux je dois souscrire !
+Mais pour cette faveur,
+À mon tour, moi, je désire
+Que vous donniez votre cœur.
+
+    MANON, vivement.
+
+En vain votre amour brille,
+(Mettant la main sur son cæur.)
+Là, personnʼ ne touchʼra !
+
+    ADOLPHE.
+
+Quand on est si gentille,
+Pourquoi refuser ça ?
+
+MANON, baissant lesyeux.
+
+Monsieur, la plus belle fille
+Ne peut donner que cʼ qu’elle a.
+
+    ENSEMBLE.
+
+    ADOLPHE.
+
+Cette pudeur m’enchante,
+Cette grace piquante
+Double encor le désir
+De m’en faire chérir.
+
+    MANON.
+
+Malgré moi jʼ vous tourmente,
+Je ne suis pas méchante,
+Et jʼ voudrais consentir,
+Monsieur, à votʼ désir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADOLPHE
+
+avec amour.
+
+Eh bien ! (Lui remettant le papier.) je vous obéis ;
+
+tout ce que je vous demande, c’est de vouloir bien
+
+1
+
+accepter cet appartement…
+
+MANON.
+
+Que dites–vous ?
+
+ADOLPHE, prenant un écrin et le lui donnant.
+
+Et ces bijoux…
+
+Et ces bijoux !…
+
+MANON.
+
+ADOLPHE.
+
+Prenez… je ne demande rien autre chose…
+
+MANON.
+
+Eh ! bien vrai… vous ne demandez pas trop, et vous
+
+voilà bien raisonnable. (Elle ouvre l’écrin pour voir
+
+ACTE II, SCÈNE III.
+
+81
+
+les bijoux.) Oh ! que c’est superbe! la belle parure !….
+
+monsieur Adolphe, aidez–moi donc à mettre toutcela…
+encore
+
+(Elle lui donne le collier. Adolphe n’a pas
+inis le collier, qu’elle lui donne successivement les
+
+boucles d’oreilles et les bracelets.) et puis encore ça…
+
+et puis encore ça… et puis encore ça !…
+
+ADOLPHE, souriant.
+
+Oh ! mais je ne puis pas aller si vite.
+
+MANON, tapant du pied.
+
+Vous n’en finissez pas ! (Se regardant dans la glace.)
+
+Ah ! comme ça brille ! comme ca
+
+brille !…
+
+ADOLPHE,
+
+Mais j’exige aussi que vous ne revoyiez plus Débi
+
+la prenant par la main.
+
+neux.
+
+MANON.
+
+Comment, vous exigez encore quelque chose ? c’est
+
+impossible ! je ne peux vivre sans lui! (Elle retourne a
+
+la glace.)
+
+ADOLPHE, méme jeu.
+
+Manon, ne ferez–vous donc rien pour moi ?
+
+MANON.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR de Marie.
+
+Auprès de vous
+Faut–il que je le fuie ?
+Ah ! pour ses feux, montrez moins de courroux !
+J’ai fait serment d’être à lui pour la vie…
+Que dʼviendra–t–il, monsieur, si je l’oublie…
+Auprès de vous ? (bis)
+
+    ADOLPHE.
+
+    Même air.
+
+Auprès de vous,
+Pour lui j’implore grace…
+Dites un mot… Que son sort sera doux !…
+Dans les emplois, par mon crédit, il passe !
+Mais aujourd’hui je réclame sa place…
+Auprès de vous ! (bis.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MANON, troublée.
+
+Hé bien… je tâcherai de l’oublier….
+
+ADOLPHE.
+
+O bonheur !… soyez tranquille… il sera content !
+
+MANON.
+
+Il faut d’abord vous informer de ce qu’il est devenu !
+
+ADOLPHE.
+
+C’est vrai… (Il sonne.) Holà tout le monde… Je ne
+
+rentrerai pas sans avoir de ses nouvelles.
+
+MANON.
+
+Je vous serai bien obligé !
+
+SCÈNE IV.
+
+Les MÊMES, deux DOMESTIQUES, UN PETIT
+
+GROOM, ensuite SAINT–GERVAIS.
+
+ADOLPHE, aux Domestiques.
+
+Messieurs, voici la maîtresse de la maison. (vive
+
+ment à Saint–Gervais qui entre.) Ah ! mon ami, je suis
+
+enchanté ! transporté !… veille à ce que rien nemanque
+
+à Madame.
+
+SAINT–GERVAIS.
+
+Rien ne lui manquera, cher ami!
+
+ADOLPHE, aux valets.
+
+4
+
+1
+
+C’est à elle seule que vous obéirez… (Il la salue.)
+
+Au revoir, Madame. (Il sort. Ses domestiques le sui
+
+vent.)
+
+3
+
+ACTE II,
+
+SCÈNE V.
+
+33
+
+SCÈNE V.
+
+& SAINT–GERVAIS, MANON, devant la glace.
+
+MANON.
+
+Je crois que je rêve !
+
+SAINT–GERVAIS.
+
+Oh ! oh ! déjà les boucles d’oreilles !… le collier… il
+
+Waraît qu’elle est en pied ! c’est à mon tour de la sé
+
+luire… je vais la séduire. (Il s’approche avec une grâce
+
+omique.) Parole d’honneur, Madame, je n’ai jamais
+
+u de bijoux aller aussi bien… du reste, toute votre
+
+hersonne est un bijou.
+
+MANON.
+
+Monsieur, je ne sais comment vous répondre.
+
+SAINT–GERVAIS.
+
+Ne me répondez pas, si ça vous embarrasse… je ne
+
+eux pas vous gêner… je ne veux que vous plaire.
+
+MANON.
+
+Monsieur Adolphe ne veut que ça non plus !
+
+SAINT–GERVAIS.
+
+Nous sommes si bons amis ! quand vous ne serez pas
+
+„vec moi, vous serez avec lui… quand vous ne serez
+
+as avec lui, vous serez avec moi… C’est exactement
+
+a même chose. Tournons–lui ça joliment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Je sais arranger des rubans.
+
+Lorsque l’amant avec regret
+Quitte sa sensible maîtresse,
+Auprès d’elle, elle a son portrait,
+Que tendrement elle caresse.
+Puisque j’ai son ame, ses goûts,
+Que ce sort là soit mon partage…
+Et chaque fois qu’il sera loin de vous, (bis.)
+Traitez–moi (bis) comme son image :
+Oui, chaque fois qu’il sera loin de vous,
+Traitez–moi comme son image.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MANON
+
+Il est possible que vous soyez son portrait, mais i
+
+n’est
+
+flatté.
+
+pas
+
+SAINT–GERVAIS.
+
+Nous ne nous occuperons que d’embellir vos jours…
+
+nous vous promènerons de plaisirs en plaisirs !
+
+MANON.
+
+De plaisirs en plaisirs !… oh ! la jolie promenade !
+
+SAINT–GERVAIS.
+
+La fortune d’Adolphe, c’est la mienne! tout ce qu’il
+
+a est à nous deux ! vous verrez.
+
+, mais pour prendre
+
+patience, en altendant son retour, nous pourrions faire
+
+ensemble un charmant petit souper ? il y en a là un
+
+tout préparé…
+
+MANON.
+
+Un petit souper… ça n’est pas de refus…
+
+SAINT–GERVAIS, à part.
+
+Elle accepte le petit souper… encore une !… j’es
+
+étais sûr.
+
+(Manon sonne, un domestique parait.)
+
+Que veut Madame ?
+
+LE DOMESTIQUE.
+
+C’est…
+
+SAINT–GERVAIS.
+
+MANON.
+
+Attendez que je commande moi–même… Je veux
+
+qu’on m’apporte une table toute servie avec deux cou
+
+verts, à la minute.
+
+(Le domestique sort.)
+
+1
+
+ACTE II, SCÈNE VI.
+
+35
+
+SAINT–GERVAIS.
+
+Un pour vous ?… un pour moi ?… un tête à tête…
+
+je suis un heureux coquin !
+(Deux domestiques apportent une table très bien
+
+servie avec deux couverts.)
+
+MANON, examinant.
+
+C’est très bien, rien n’y manque !
+SAINT–GERVAIS.
+
+!…
+
+Si fait… si fait… il y manque du Champagne….
+
+MANON.
+
+Je m’en passerai bien !
+
+SAINT–GERVAIS.
+
+Du tout !… du tout… il faut du Champagne… j’ai
+
+la clef, et je vais en chercher… (à part.) Si je peux
+
+lui faire boire du Champagne, elle est perdue la mal
+
+heureuse ! (Haut.) Auprès de vous je veux m’enivrer
+
+de toutes les inanières.
+
+(à part.) Amour ! guide–moi
+
+vers le Champagne! (aux domestiqnes.) suivez–moi.
+
+(Il sort avec les domestiques.)
+
+SCÈNE VI.
+
+MANON, seule.
+
+En voilà–t–il du bonheur ? en voilà–t–il ? Débineux
+
+bien placé et faisant fortune… moi devenue maitresse
+
+de maison, logée, parée comme une banquière. (On
+
+entend l’orage et on voit des éclairs.) Oh ! mais comme
+
+il éclaire, et comme la pluie tombe… et cette fenêtre
+
+qui est ouverte ! (Elle va pour la fermer, Débineus
+
+s’y présente et saule dans l’appartement, Manon rc
+
+cule avec effroi.) Ah !
+
+36
+
+LA LINGÈRE DU MARAIS.
+
+SCÈNE VII.
+
+MANON, DÉBINEUX ; il est påle, hors de lui
+
+méme, et a perdu son habit.
+
+DÉBINEUX.
+
+Manon, reconnais–moi !
+
+MANON.
+
+C’est Débineux ! C’est toi ! (Sautant de joie.) Ah !
+
+que je suis contente de te revoir ! n ’ t’es–tu pas
+en montant par cette fenêtre ?
+
+blessé
+
+DÉBINEUX.
+
+Ce n’est rien… dix pieds seulement… je n’osais pas
+
+me présenter ici, de peur d’être arrêté !… Pour v’nir
+
+jusqu’à toi
+
+j’ai escaladé la palissade qui est au bout
+
+du jardin… Voilà comme l’amour fait passer par–dessus
+
+tout !
+
+Et ton habit ?
+
+MANON
+
+DÉBINEUX.
+
+Il est resté dans les mains du commissaire !
+
+Pauvre Débineux !
+
+MANON
+
+DÉBINEUX.
+
+Manon… que faites–vous ici à l’heure qu’il est ?
+
+MANON.
+
+Ici ? je suis chez moi, tout ici m’appartient… tout…
+
+l’appartement, les meubles, la
+
+parure. (Montrant son
+collier et ses boucles d’oreilles.) On m’en a fait ca
+
+deau.
+
+Ei qu’as–tu donné, toi, pour tout cela ?
+
+DÉBINEUX.
+
+ACTE II,, SCÈNE VII.
+
+37
+
+MANON, naïvement.
+
+Je n’ai rien donné… encore.
+
+DÉBINEUX, avec feu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : N’y regardant pas de si près.
+
+Eh bien, Manon, si j’ai seul ta tendresse,
+Si toujours tu mʼ gardes ta foi,
+De fuir de ces lieux je te presse,
+Suis mes pas, et laisse, crois–moi,
+Tous ces ornemens loin de toi !
+Tu n’auras pas tant d’élégance,
+Tu n’auras pas diamans, et cætera…
+Mais il tʼ restʼra ton innocence,
+Et rien ne vaut ce bijou–là !…  (bis.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MANON.
+
+J’aurais voulu garder tout… mais c’est égal… (Elle
+
+ôte son collieret ses boucles d’oreilles.) Me v’là prêle…
+
+viens, parlons… (L’orage éclate dans toute sa force.)
+
+Oh ! vois donc quel temps il fait…
+
+DÉBINEUX, chancelant de fatigue.
+
+C’est vrai! on ne mettrait pas un chien dehors, et
+
+pourtant il faut…
+
+MANON.
+
+Ah ! mon Dieu ! comme tu es pâle !…
+
+DÉBINEOX.
+
+La tête est si remplie, et l’estomac si démeublé…
+
+MANON.
+
+Tu as besoin de reprendre des forces… il y a là un
+
+souper…
+
+4
+
+38
+
+LA LINGÈRE DU MARAIS.
+
+DÉBINEUX.
+
+Ah ! quelle mine ! mais l’autre ?…
+
+MANON.
+
+Il m’a dit qu’il ne rentrerait pas avant d’avoir de
+
+tes nouvelles.
+
+DÉBINEUX.
+
+Il ne reviendra pas de si tôt…
+
+MANON.
+
+Soupons, et nous nous en irons après.
+
+DÉBINEUX.
+
+Au fait… il ne faut pas s’embarquer sans biscuit.
+
+MANON.
+
+Je vais tirer les verroux, de peur de surprise !
+
+DÉBINEUX,
+
+Elle
+
+pense à tout ! quelle ménagère ça
+
+fera !
+
+MANON.
+
+Allons, vite… voilà ta place. (Elle lui frappe sur
+
+l’épaule.) Ah ! mon Dieu ! il est tout trempé !…. At
+
+tends… (Elle regarde par le cabinel vitré.) Ah ! (Elle
+
+entre dans le cabinet et prend la robe de chambre
+
+d’Adolphe.) Tiens, mets ça !
+
+DÉBINEUX.
+
+Quoi ! la robe de chambre du monsieur !…. (Riant.)
+
+Par exemple, lui qui m ’ veut prendre ma femine !….
+je peux bien… C’est comme si elle avait été faite pour
+
+moi ! à table ! (Ils se mettent à table, il entame un
+
+pâté et sert Manon.) Tiens, ça pour toi… (Se donnant
+
+un morceau énorme.) Ça pour moi ! (I mange avec avi
+
+dile.
+
+On frappe à la porte.–Effrayé.) Qu’est–ce
+
+c’est
+
+que ça ?
+
+que
+
+MANON.
+
+Ne te dérange pas ? (On frappe plus fort.) Qu’est là ?
+
+1
+
+ACTE II, SCENE VIII.
+
+39
+
+SAINT–GERVAIS en dehors.
+
+C’est moi ! c’est moi, beauté naïve !
+
+MANON, à Débineux.
+
+C’est monsieur Saint–Gervais !… il comptait souper
+
+avec moi !
+
+(Haut à Saint–Gervais.) C’est donc vous,
+
+monsieur Saint–Gervais ?
+
+SAINT–GERVAIS, en dehors.
+
+Oui, avec deux bouteilles de Champagne.
+
+MANON.
+
+C’est inutile, j’ai tout ce qu’il me faut! (Donnant la
+
+main à Débineux.) N’est–il pas vrai ?…
+
+SAINT–GERVAIS, en dehors.
+
+Que voulez–vous que je fasse du Champagne ?
+
+MANON.
+
+Reportez–le à la cave… et laissez–moi tranquille.
+
+SAINT–GERVAIS, en dehors.
+
+Ne vous livrez pas à votre désespoir !
+
+MANON, à Débineux.
+
+Mon désespoir… qu’il dise donc mon bonheur ! c’est
+
+si gentil d’être chez soi !… dans son ménage !…
+
+Et d’avoir bon appétit !
+
+DÉBINEUX.
+
+(Moment de silence ; ils mangent.}
+
+SCÈNE VIII.
+
+Les MÊMES, ADOLPHE et SAINT–GERVAIS.
+
+(Adolphe et Saint–Gervais paraissent dans le cabinei
+vilré, et poussent doucement la porte qui est restée
+
+entr’ouverte.)
+
+SAINT–GERVAIS, bas à Adolphe, sans voir les’aman s.
+
+Quand je te dis qu’elle s’est enfermée de chagrin !
+
+40
+
+LA LINGÈRE DU MARAIS.
+
+MANON, à Débineux.
+
+Ah ! quel plaisir d’être ensemble!
+
+SAINT–GERVAIS, les apercevant.
+
+Que vois–je ? est–il possible ? C’est bébineux !
+
+Avec ma robe de chambre !
+
+ADOLPHE ; à part.
+
+SAINT–GERVAIS, à Adolphe.
+
+Et dans ton fauteuil… j’ai envie de crier au voleur.
+
+ADOLPHE, le retenant.
+
+Tais–toi.
+
+DÉBINEUX.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Je voulais bien. (Fra Diavolo.)
+
+C’est déjà bien, (bis.)
+Lorsqu’on peut, avant lʼ mariage,
+Demander un baiser pour gage,
+Sans qu’un témoin vous dise rien,
+C’est déjà bien ! (ter.)
+
+(Ils élèvent leurs verres, et choquent ensemble pendant les vers suivans.)
+
+Mais d’un rival qui croyait plaire,
+Boirʼ sans gênʼ le vin à plein verre,
+En soupant près de sa Manon,
+Ah ! que c’est bon ! (4 fois.)
+Boirʼ son vin près de sa Manon,
+c’est bon !
+Ah ! ah !… ah ! que c’est bon !
+Ah ! que c’est bon !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Ils boivent sur la ritournelle.)
+
+SAINT–GERVAIS, à Adolphe.
+
+Il se moque de toi… et il dit que
+
+c’est bon !
+
+ACTE II, SCENE VIII.
+
+41
+
+ADOLPHE.
+
+Oui, mais Manon se tait au moins.
+
+MANON.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Même air.
+
+C’est déjà bien, (bis.)
+De pouvoir se dire qu’on s’aime,
+Jurer qu’on s’aimera de même,
+Unis par le plus doux lien,
+C’est déjà bien ! (ter.)
+Mais ce qu’on refusait sans sesse,
+À cʼlui qui n’a pas notʼ tendresse,
+À son amant en faire don…
+Ah ! que c’est bon ! (4 fois.)
+D’un tendre gage lui fairʼ don…
+Ah ! ah !… ah ! que c’est bon !
+Ah ! que c’est bon !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(A la fin de ce couplet ils s’embrassent.–La musique
+
+continue jusqu’à la fin de l’acte.)
+
+ADOLPHE, à Débineux, avec fureur.
+
+Insolent !
+
+Voleur !
+
+SAINT–SERVAIS.
+
+DÉBINEUX et MANON se levant tout effrayés.
+
+>
+
+Ah ! mon Dieu !
+
+ADOLPHE, furieux, à Débineux.
+
+Sors à l’instant de chez moi !
+.
+
+DÉBINEUX.
+
+Je ne m’en irai pas sans Manon !
+
+42
+
+LA LINGÈRE DU MARAIS.
+
+SAINT–GERVAIS.
+
+Ta ne t’en iras pas ! attends, va…. (Ayant remonte
+
+la scène.) Holà ! vous autres ?
+
+MANON.
+
+S’ils t’arrêtent, tu es perdu !
+
+(Deux domestiques arrivent avec
+
+petit groom.)
+
+Comment te sauver !…
+
+Comment ? tu vas voir…
+
+DÉBINEUX.
+
+(Il va à la fenêtre et saute dans le jardin.)
+
+MANON, effrayée.
+
+Ah !
+
+(Elle regarde par la fenétre.)
+
+SAINT–GERVAIS.
+
+Il emporte notre robe de chambre. (Aux domesti
+
+ques.) Courons tous après.
+
+(Il indique la fenêtre.)
+
+Fuyons…
+
+MANON.
+
+ADOLPHE, suivant Manon, et disparaissant avec elle.
+
+Manon !
+
+(Les domestiques, sur l’ordre de Saint–Gervais, sau
+
+tent l’un après l’autre par la fenêtre, même le petit
+
+groom. Saint–Gervais alors prend son élan, et, ar
+
+rivé sur le bord de la fenêtre, il s’arréte et dit : Ma
+
+foi non ! Alors il sort en courant par la porte.)
+
+FIN DU DEUXIÈME ACTE.
+
+ACTE III, SCENE I.
+
+43
+
+ACTE TROISIÈME.
+
+La Scène est à l’Ile Sainl–Denis.–Le Théâtre représente
+
+une partie de Jardin de guinguette.
+
+A droite et à
+
+gauche des berceaux de verdure. – A gauche un banc
+
+en bois peint.Sur la droite un petit pavillon, dont
+une fenêtre est censée donner sur la rivière.–Deux
+
+chaises en bois peint, près de la porte.
+
+SCÈNE PREMIÈRE.
+
+LEFORT, PLUSIEURS GARÇONS, chargés de bottes
+
+de fleurs, PAYSANNES.
+
+CHŒUR.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    CHŒUR.
+
+
+AIR : de Pâques fleuri. (Fra Diavolo.)
+
+C’est grande fête !
+Que tout s’apprête !
+Ce soir l’hymen
+Donne un festin !
+Doublons d’adresse
+Et de vitesse ;
+Que tous les plats
+Soient délicats ;
+Voici pour nous
+Le jour le plus doux !
+
+    LEFORT, aux garcons.
+
+Allons donc, posez là toutʼs ces fleurs printanières.
+(Les garçons jettent toutes les fleurs et les entassent.)
+Ménagez, s’il vous plaît, l’orgueil de nos parterres.
+En allendant le soir, ils sont à se promʼner,
+Avec disceruenient la carte sera faite ;
+Ils m’ont très bien payé, je veux leur en donner
+Pour la moitié de leur argent… c’est fort honnête !
+Et tout le monde, ici, sera content.
+
+    CHŒUR.
+
+C’est grande fête, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCÈNE II.
+
+LEFORT, seul.
+
+Voilà ma guinguette louée pour toute la journée,
+
+et, sans ma nièce Manon, je s’rais l’pius heureux des
+
+oncles et des traiteurs de l’ile Saint–Denis. Averti par
+
+sa lingère de tout c’ qui lui était arrivé, depuis quatre
+
+jours je la tiens sous clef dans ce pavillon. Il faut
+
+pourtant que je lui fasse prendre l’air. (Il va ouvrir
+
+la porte du pavillon et l’appelle.) Eh ! houp…
+
+SCÈNE III.
+
+LEFORT, MANON ; elle est mise très simplement,
+cependant elle a une rose dans ses cheveux ; des
+
+pendans aux oreilles, et pour fichu une espèce de
+
+foulard. Elle sort les yeux baissés.
+
+MANON,
+
+avec douceur.
+
+Ab ! mon oncle, que ça me fait plaisir de vous re
+
+voir !… el d’ sortir de ma chambre !
+
+ACTE III, SCENE III.
+
+LEFORT
+
+Comme ça caline !… (La regardant.).Ce que c’est que
+
+la coquetlerie !… malgré le costume grossier que je lui
+d’avoir
+
+ai fait prendre, elle a encore trouvé le moyen
+
+un air requinqué.
+
+(Apercevant la rose qu’elle a dans
+
+ses cheveux.) Comment cette rose se trouve–t–elle là ?
+
+MANON, naïvement.
+
+C’est le petit Baptiste, un de vos garçons, qui l’a
+
+cueillie.
+
+LEFORT
+
+Tu n’avais pas ce fichu là ?
+
+MANON, naïvement.
+
+C’est un foulard de votre grand chef de cuisine.
+
+LEFORT, regardant à ses oreilles.
+
+Mais, Dieu me pardonne ! je crois que ce sont des
+
+boucles d’oreilles !
+
+MANON, naïvement.
+
+Oui, c’est à la femme de votre gros sommelier !
+
+LEFORT.
+
+Comment ? sa fenıme vous a donné ?…
+
+MANON naïvement.
+
+.
+
+Non… c’est son mari ! ils m’ont passé tout cela à
+
+travers les barreaux de chêne de ma fenêtre… ça m’va
+
+bien, n’est–ce pas ?
+
+LEFORT.
+
+Ça m ’ va bien…. ça m ’ va bien !…. est–ce que vous
+
+avez besoin que ça vous aille bien ?
+
+MANON.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Autant que mon papa.
+
+Que puis–je en ma détresse,
+Fairʼ du matin au soir,
+Quand près de moi sans cesse
+Je n’ai que mon miroir ?
+Loin de celui qui m’aime,
+Seule, hélas ! dans ces lieux,
+Jʼ tâchʼ de mʼ plaire à moi–même…
+(Soupirant.)
+Tout en attendant mieux.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEFORT.
+
+Oui, en attendant ton petit coquin de Débineux,
+
+n’est–il pas vrai ?
+
+MANON, naïvement.
+
+Il est si gentil !…
+
+LEFORT, vivement,
+
+Ou bien monsieur Saint–Gervais ?
+
+MANON.
+
+Il est si complaisant ?
+
+LEFORT.
+
+Ou bien encore monsieur Adolphe ?
+
+MANON.
+
+Il est si généreux !… mais je n ’ crois pas avoir fait
+
+a ’ mal ?
+
+LEFORT.
+
+On r’fuse…. c’est plus sûr…. et l’on n’est pas co
+
+quette !…
+
+MANON.
+
+Vous en parlez bien à votre aise !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Le beau Lycas.
+
+Je l’avoue, une robe bien faite
+Me semble charmante à porter !
+En voyant unʼ belle toilette,
+De plaisir je mʼ sens arrêter !
+Et le spectaclʼ comme il sait nous distraire !
+Et puis l’amour, au cour si nécessaire…
+À tout ça comment résister ?
+Mon onclʼ, vous nʼ pouvez vous douter,
+Quand on est sensible et lingere,
+Que d’objets peuvent vous tenter !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEFORT.
+
+C’est,possible ; mais je suis le seul hemme que tu
+
+pourras voir dorénavant… tous les autres sont signalés
+
+et consignés… aujourd’hui j’ai une noce…
+
+Une noce !…
+
+MANON, avec joie.
+
+LEFORT.
+
+Et l’on m’a recommandé des bouquets pour ce soir.
+
+(Lui montrant les fleurs qu’il a fait apporter.) V’là
+
+d ’ quoi… tu les f’ras !…
+
+MANON, se récriant.
+
+Comment ? je fºrai des bouquets pour le mariage des
+
+autres ?
+
+LEPORT
+
+Il faut qu’on soit puni par où l’on a péché…. tu
+
+aimais l’ plaisir, il t’ pass’ra d’vant l’ nez… tu voulais
+
+tout de suite un mari de ton choix, tu en attendras
+
+un du mien…
+
+MANON, pleurant.
+
+Ah ! mon Dieu ! et moi qui n’aime pas à attendre !
+
+(Essuyant ses yeux.) Est–ce que vous allez toujours
+
+me tenir enfermée ?
+
+LEFORT.
+
+J’ai dû te mettre en sûreté momentanément ; car il
+
+faut que je veille avant tout sur les bifftecks et les fri
+
+48
+
+LA LINGÈRE DU MARAIS.
+
+cassées ; mais la boulangère de Saint–Denis m’a pro
+
+mis de m’envoyer ce matin une brave femme de sa con
+
+naissance pour me remplacer… c’est une femme mûre,
+
+à ce qu’il paraît, et qui a des principes…
+
+MANON, pleurant.
+
+J’en ai aussi moi des principes.
+
+LEFORT.
+
+Ils sont beaux ?… mais qu’est–ce que je vois là ?…
+
+ça pourrait bien être ça…
+
+SCÈNE IV.
+
+LES MÊMES, SAINT–GERVAIS, en femme, espèce
+
+de paysanne avec un grand bonnet.
+
+SAINT–GERVAIS, saluant.
+
+Monsieur Lefort…
+
+LEFORT.
+
+Voilà…
+
+SAINT–GERVAIS, à part.
+
+Ah ! oui, ça doit être Lefort, ça ! (Haut, lui don
+
+nant une lettre.) Monsieur, c’est une lettre…
+
+LEFORT, après avoir lu la lettre.
+
+Je n’m’étais pas trompé.
+
+ENSEMBLE.
+
+LEFORT CU MANON, à part.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Que le silence. (Fra Diavolo.)
+
+Quelle décence
+Dans ses vétʼmens !
+C’est l’innocence
+À cinquante ans !
+
+    SAINT–GERVAIS, à part.
+
+Mon cœur s’élance,
+En la voyant !
+Avec prudence
+Suivons mon plan !
+Dieu de Cythère… Je m’adresse d toi !
+Protège–la, veille sur moi !
+
+   LEFORT, l’examinant.
+
+Elle n’est plus dans l’âge des folies,
+Son physique est original ;
+J’en ai vu de bien plus jolies…
+Mais bien rarement d’aussi mal !…
+Tant mieux, tant mieux… elle est très mal !
+
+    ENSEMBLE.
+
+    LEFORT et MANON, à part.
+
+Quelle décence, etc.
+
+    SAINT–GERVAIS, à part.
+
+Mon cœur s’élance, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEFORT.
+
+Quel est votre nom ?
+
+SAINT–GERVAIS.
+
+Madame Gervais.
+
+LEFORT, lui montrant Manon.
+
+Voici la jeune personne en question.
+
+SAINT–GERVAIS.
+
+Je la garderai de cæur.
+
+(Il soupire comiquement.)
+
+50
+
+LA LINGÈRE DU MARAIS.
+
+LEFORT.
+
+Vous soupirez, madame ?
+
+SAINT–GERVAIS.
+
+Il y a des instans où je ne fais que ça… et quand je
+
+pense aux tours de ces scélérats d’hommes…
+
+LEFORT.
+
+Soignez bien Manon… c’est ma nièce, après tout…
+
+et je l’aime.
+
+J ’ crois bien !
+
+SAINT–GERVAIS.
+
+LEFORT.
+
+Les godelureaux vont rôder autour d’elle… mettez
+
+vos lunettes et ne la quittez pas.
+
+SAINT–GERVAIS,
+
+Je serai près d’elle jour et nuit.
+
+LBFORT.
+
+Elle a des bouquets à faire.
+
+SAINT–GERVAIS.
+
+Nous les ferons ensemble.
+
+LEFORT.
+
+Tenez, voici la clef de ce pavillon… elle rentrera
+
+quand vous l’ voudrez… Ma nièce, obéissez à cette digne
+
+femme… Je compte sur vous, et vous m’en répondez.
+
+SAINT–GERVAIS, hypocrilement.
+
+Comme de moi.
+
+Reprise.
+
+Quelle décence, etc.
+
+ACTE III, SCENE V.
+
+51
+
+SCÈNE V.
+
+SAINT–GERVAIS, MANON.
+
+SAINT–GERVAIS, à part.
+
+Est–il embêtant l’oncle !… j’ai cru qu’il ne s’en irait
+
+pas !…. mais enfin j’ai la clef, et ce soir. (Reprenant
+
+son air hypocrite.) C’est donc moi qui vais vous.gar
+
+der ? je ne vous fais pas peur…
+
+MANON.
+
+Pas beaucoup !…
+
+SAINT–GERVAIS.
+
+Pour que je ne vous effraie plus du tout, permettez
+
+moi de vous embrasser.
+
+MANON, naïvement.
+
+Ah ! mon Dieu ! si ça peut vous obliger…
+
+SAINT–GERVAIS.
+
+Oui, ça m’obligera beaucoup.
+
+(Il l’embrasse avec tendresse.)
+
+MANON.
+
+Tiens, comme vous m’embrass
+
+d ’ bon cæur.
+
+SAINT–GERVAIS.
+
+Vous m’intéressez fameusement, ma chère enfant !
+
+je connais vos aventures, il faut oublier Débineux,
+
+qui est trop pauvre, ne point penser à Adolphe, qui
+
+est trop riche… Ah ça ! voyons un peu… on m’a parlé
+d’un certain Saint–Gervais…
+
+MANON, vivement.
+
+Si vous saviez, ma bonne, c’est qu’il est bien laid !
+
+SAINT–CERVAIS.
+
+Laid ? c’est selon…. je connais ça…. visage de fan
+
+52
+
+LA LINGÈRE DU MARAIS.
+
+taisie, c’est une figure fort à la mode… je vous ferai
+
+revenir sur le compte de cet homme remarquable.
+
+MANON, prenant une chaise et ensuite des fleurs.
+
+J’aime mieux faire des bouquets ?
+
+SAINT–GERVAIS.
+
+Je vais vous aider.
+
+(Il s’asseoit à côté d’elle. Lui
+
+prenant la taille.) Ah ! comme vous êtes bien faite….
+
+j’ai été comme ça, tenez, inoi… Aussi quand j’avais un
+
+bouquet à mon corsage, tous les garçons étaient après
+comme des mouches à miel.
+
+(Il prend un bouquet et le lui essaie.–On entend une
+
+musique gaie qui approche.)
+
+SAINT–GERVAIS.
+
+Qu’est–ce que c’est que ça ?
+
+MANON, sans regarder.
+
+Ce sont les gens de la noce de c ’ soir, et qui dansent
+
+déjà !
+
+SAINT–GERVAIS, se retournant tout d’une pièce, sans
+
+se lever,
+
+Ça m’en a tout l’air… c’est un aveugle qui leur joue
+du violon… (Se remettant tout près de Manon.) Et moi
+
+aussi je suis à la noce !
+
+SCÈNE VI.
+
+LES Mêmes, UN MARINIER, PRUDENCE,
+
+Hommes Et Femmes, ayant un vieux niénétrier à
+
+leur tête.
+
+N a un bâton pendu à sa boutonnière ;
+
+1
+
+un enfant marche à ses côtés.
+
+Morceau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHŒUR.
+
+Il faut ici prendre une avance
+Sur le plaisir qui nous attend ;
+Pour danser une contredanse
+Profitons du lieu, de l’instant !
+En place ! en place ! en place !
+
+    MANON, à Saint–Gervais, avec chagrin.
+
+Les voilà tous qui vont sauter,
+Et sur ma chaisʼ je vais rester !
+
+    SAINT–GERVAIS.
+
+Du tout ; moi, rien ne m’embarrasse ;
+Ah ! dites un mot seulement,
+
+(Se levant.)
+
+Nous figurerons joliment !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MANON, se levant vivement.
+
+Voyons.
+
+SAINT–GERVAIS,
+
+Amour,
+
+(bis) je t’emiprunle ta grace !
+
+LE MARINIER, s’approchant de Manon.
+
+Manon, reconnaissez–moi.
+
+Monsieur Adolphe !
+
+MANON.
+
+(On formedeux ronds ; dans l’un, de huit personnes, se
+trouvent le marinier et Prudence ; dans l’autre, de
+
+quatre personnes, Manon, et Saint–Gervais en face
+
+d’elle.)
+
+LE MÉNÉTRIER, monté sur le banc, et jouant.
+
+Les dames en avant ! Balancez !
+
+PRUDENCE, à Manon, en dansant.
+
+On veille sur toi !
+
+Prudence !
+
+MANON.
+
+1
+
+5
+
+54
+
+LA LINGÈRE DU MARAIS.
+
+LE MÉNÉTRIER.
+
+Le grand rond !
+
+(Manon s’échappe de son rond, el va dans l’autre.)
+
+DÉBINEUX, frappant avec son archet sur l’épaule de
+
+Manon, quand elle passe devant lui.
+
+Je suis là !
+
+MANON, le reconnaissant, el avec joie.
+
+Débineux !
+
+(Elle quitte le rond, et va à lui.–Il l’embrasse.)
+
+LE MÉNÉTRIER.
+
+Le berceau des dames ! (Manon retourne à son rond.)
+
+La chaîne anglaise !–Chassez les huit !
+
+(Ici finit la contredanse.)
+
+Le Morceau reprend.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHŒUR.
+
+Quel plaisir ! c’est charmant ! (bis.)
+
+    SAINT–GERVAIS, à Manon.
+
+Je crois que vous êtes contente ?
+
+    MANON.
+
+Danser est un plaisir si doux !
+
+    CHŒUR.
+
+La danse est sans doute amusante !
+Et c’est très doux !
+Oui, c’est très doux !
+Mais pour ce soir conservons–nous. (bis.)
+Retirons–nous !
+Retirons–nous !
+
+    MANON
+
+Retirez–vous !
+Retirez–vous !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Le chæur s’en va ; l’aveugle se remet en marche.
+
+Adolphe reste dans le fond ; Prudence lui récom
+
+mande le silence par signe, et sort du côté opposė
+
+où il se trouve.)
+
+SCÈNE VII.
+
+SAINT–GERVAIS, MANON, ADOLPHE,
+
+paraissant de temps en temps.
+
+MANON, à part.
+
+Si je pouvais parler à Débineux. (Haut à Saint–Ger
+
+vais, et d’un ton très doux.) Madame Gervais, vous ne
+
+savez pas ?
+
+SAINT–GERVAIS.
+
+Non, qu’est–ce que c’est ?
+
+MANON.
+
+J’ai un caprice.
+
+SAINT–GERVAIS.
+
+Lequel, aimable Manon ? Dites, si je peux vous le
+
+faire passer…
+
+MANON.
+
+Ce vieil aveugle qui jouait du violon, là, tout à
+
+l’heure, c’est celui qui dit la bonne aventure à toutes
+
+les jeunes filles de l’ile Saint–Denis.
+
+SAINT–GERVAIS.
+
+Bah ! c’est cet aveugle qui voit si bien dans l’avenir !
+
+MANON.
+
+S’il pouvait me dire ce qu’il doit m’arriver.
+
+56
+
+LA LINGÈRE DU MARAIS.
+
+SAINT–GERVAIS.
+
+Tiens, pourquoi pas ?… (A part.) Ça peut me servir.
+
+(Haut.) Aucun ne doit vous approcher…. mais un
+
+aveugle… ça ne compte pas… Jem’en vais vous cher
+
+cher l’aveugle.
+
+MANON.
+
+Ah ! j ’ vous aim’rai bien !
+
+SAINT–GERVAIS.
+
+}
+
+Ça s’ra ma plus douce récompense.
+
+(Lui prenant la
+
+main.) Chère enfant !… elle sera heureuse, allez, votre
+
+bonne aventure !
+
+(Il sort.)
+
+Je vais donc le revoir !
+
+MANON.
+
+ADOLPHE, paraissant.
+
+Elle n’est plus là…
+
+SCÈNE VIII.
+
+MANON, ADOLPHE.
+
+MANON.
+
+Quoi ? monsieur Adolphe… c’est vous ?
+
+ADOLPHE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Ô mon ange, veille sur moi.
+
+Je viens de votre cœur adoucir la souffrance !
+C’est vous que je revois sous un lel vêtement !
+Ah ! croyez–moi, Manon, d’un ami la présence
+Peut encore amener un heureux changement !
+Un oncle, dans ces lieux, te retient prisonnière,
+Tu subis son courroux, sa trop sévère loi…
+Mais tes maux vont cesser, et maintenant espèr…
+Car ton ange veille sur toi.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACTE III, SCENE VIII.
+
+57
+
+MANON.
+
+Si l’on nous surprenait !
+
+ADOLPHE.
+
+Méme air.
+
+Plus que jamais, Manon, je te trouve jolie… “
+
+Du feu le plus ardent je me sens embraser…
+
+Je n’ai d’autre désir que d’embellir ta vie,
+
+Et tu dois à mon zèle accorder un baiser !
+
+(Il l’embrasse.–La jeune fille recule effrayée.)
+
+Bannis cette frayeur, je m’en tiens à ce gage,
+
+Je désire bien plus qu’ici je ne reçoi !….
+
+Mais il m’est défendu de vouloir davantage ;
+
+Car ton ange veille sur toi.
+
+MANON.
+
+Mon Dieu, mon Dieu, fais que mon ange soit tou
+
+jours avec moi !
+
+ADOLPHE.
+
+Manon, j’ai mon tilbury non loin d’ici, et des gens
+
+sûrs à ma disposition… promettez–moi de vous laisser
+
+diriger, et ce soir je jure que vous serez heureuse !
+
+MANON.
+
+Ce soir ?… je ne demande pas mieux !… mais com
+
+ment ?
+
+ADOLPHE.
+
+Vous le saurez… On vient, adieu.
+
+(Il sort.)
+
+58
+
+LA LINGÈRE DU MARAIS.
+
+SCÈNE IX.
+
+SAINT–GERVAIS, MANON, DÉBINEUX,
+
+amené par Saint–Gervais, qui lui donne la main.
+
+MANON, parlant d’Adolphe.
+
+1
+
+Est–il aimable ! est–il aimable !
+
+SAINT–GERVAIS, à Débineux.
+
+Avancez, aveugle… marchez droit ! (Se plaçant vis
+
+à–vis de Manon.) Tenez, la voilà.
+
+DÉBINEUX, faisantaller son bâton, et attrapant Saint
+
+Où ça ?
+
+Gervais aux jambes.
+
+SAINT–GERVAIS.
+
+Un instant, c’est moi…. prenez donc garde…. Ces
+
+aveugles, ça va toujours en tâtonnant avecleurbâton…
+
+et cela détériore les jambes ! (Lui prenant la main,
+
+la mettant dans celle de Manon.) Là, y êtes–vous à
+
+présent ?
+
+(Jeu muet de satisfaction de Débineux et de Manon.)
+
+MANON, à Saint–Gervais.
+
+Mais si mon oncle venait…
+
+SAINT–GERVAIS,
+
+C’est juste !… vous ne pouvez pas commencer,
+
+moi
+
+étant là ! je vais faire sentinelle.
+
+MANON.
+
+Ah ! que vous êtes bonne
+
+pour
+
+moi !
+
+SAINT–GERVAIS.
+
+Vous me rendrez ça plus tard. (Bas à Débineux.)
+
+Aveugle, parlez–lui d’un certain Saint–Gervais ; dites
+
+lui–en du bien…
+
+Pourquoi ?
+
+DÉBINEUX.
+
+ACTE III, SCENE X.
+
+59
+
+SAINT–GERVAIS.
+
+J’ai des raisons pour ça…. c’est moi qui la garde,
+
+et ça me fera plaisir. Ecoutez, aveugle, je suis femme,
+
+el je sais reconnaître un bienfait. Allons, n’ayez pas
+
+peur, je suis là !
+
+(Il sort.)
+
+SCÈNE X.
+
+DÉBINEUX, MANON.
+
+DÉBINEUX.
+
+Enfin je puis ouvrir les yeux. (La regardant.) Ma
+
+non !…
+
+Débineux !…
+
+MANON.
+
+DÉBINEUX.
+
+Manon ! un baiser au pauvre aveugle !
+
+(Ils s’embrassent.)
+
+DÉBINEUX.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Entre les arts et l’amitié.
+
+Ah ! Manon, combien d’aventures
+Viennʼt entraver notʼ seutiment !
+Après des épreuves si dures,
+As–tu le même attachement ?
+
+    MANON.
+
+Tes soupçons seraient des injures,
+Et les peines et les tourmens
+Sont pour mon cour des alimens !
+On s’y prendra de toutʼ manière,
+On me retiendra prisonnière…
+On me traitʼra comme la dernière…
+On me jettʼra dans la rivière…
+L’amour est là,
+C’est plus fort que tout ça.
+On me fera
+Tout ce que l’on voudra,
+Pour toi toujours ce cour battra !
+
+    ENSEMBLE.
+
+On me fera
+Tout ce que l’on voudra.
+Pour toi toujours ce cœur battra.
+
+    DÉBINEUX.
+
+On lui fera
+Tout ce que l’on voudra ;
+Pour moi, toujours ce caur battra,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DÉBINEUX.
+
+J’suis résolu à tout pour t’épouser !… Mam’zelle
+
+Prudence doit parler au père Lefort en má faveur ; si
+
+elle n’obtient rien, jure–moi de m’obéir.
+
+Comme monsieur Adolphe.
+
+MANON, à part.
+
+DÉBINEUX.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Eh ! ma mère, est–cʼ que jʼ sais ça.
+
+L’espoir en nous doit renaître,
+J’ai, pour t’éloigner d’ici,
+Un bachot sous la fenêtre.
+
+    MANON, à part.
+
+Et l’autre a son tilbury.
+
+    DÉBINEUX.
+
+Pour te posséder sans cesse,
+Je m’en vais tout employer…
+Et je rʼviens plein de tendresse…
+
+    MANON, vivement.
+
+Tâche d’être le premier ! (bis.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SAINT–GERVAIS, accourant.
+
+Eh vite !… eh vite !… voilà l’oncle… il n’a pas l’air
+
+content… il bougonne ! (A Manon.) Rentrez d’abord…
+
+(A Debineux.) Aveugle, je vous remettrai après dans
+
+le chemin.
+
+(Il pousse Manon dans le cabinet, et ferme la porte
+
+à la clé.)
+
+DÉBINEUX.
+
+Je n’ai pas besoin de toi.
+
+(Il se met à courir de toutes ses forces.)
+
+SAINT–GERVAIS
+
+2 se retournant.
+
+Eh bien ! où est–il donc, l’aveugle ? Tiens, le voilà
+
+qui court; ceque c’est que la peur, ça donne des yeux
+
+aux aveugles !
+
+SCÈNE XI.
+
+SAINT–GERVAIS, LEFORT, PRUDENCE.
+
+LEFORT, à Saint–Gervais.
+
+Où est ma nièce ?
+
+SAINT–GERVAIS, montrant le pavillon.
+
+Là !… je viens de l’enfermer sous clé.
+
+LEFORT.
+
+Bon !… (A Prudence, avec humeur.) Qu’est–ce que
+
+vous me demandez ?
+
+62
+
+LA LINGÈRE DU MARAIS.
+
+PRUDENCE.
+
+Pourquoi ne consentez–vous plus au mariage de
+
+Manon avec Débineux ?
+
+SAINT–GERVAIS, vivement.
+
+Débineux ?… Fi donc ! fi donc !
+
+PRUDENCE.
+
+Comment, fi donc ?
+
+LEFORT, brutalement.
+
+Eh oui ! fi donc… un garçon qui a volé une montre.
+
+PRUDENCE.
+
+Ça n’est pas vrai,
+
+lisez.
+
+LEFORT, prenant le panier.
+
+Qu’est–ce que c’est que ça ?
+
+(Lisant.) « Je déclare que c’est pour mon comple
+
+«
+
+que le nommé Débineux a engagé une montre d’or
+
+« avec un cachet et une clé.
+
+« Signé ADOLPHE, propriétaire de la montre. »
+queDébitieux
+
+(Lui rendant le papier.) Mais ça dit–il
+
+est un garçon laborieux et calé, comme il en faut un
+
+à Manon ?
+
+SAINT–GERVAIS.
+
+Ça n’en dit pas un mot.
+
+LEFORT.
+
+A présent que la chose est rompue, je m’y tiens.
+
+SAINT–GERVAIS, à Lefort.
+
+C’est ça, et n’ lâchez pas… t’nez–vous–y comme un
+
+dogue.
+
+PRUDENCE.
+
+Monsieur Lefort, vousne savez pas c’que c’est qu’une
+
+inclination contrariée… Vous réduisez Manon au dés
+
+espoir… Ab Dieu! si un homme me réduisait à ça…
+
+Craignez qu’elle n ’ se périsse !
+
+ACTE III, SCENE XI.
+
+63
+
+SAINT GERVAIS.
+
+Qu’elle se périsse… oh ! quelle bêtise ! On voit bien,
+
+jeunesse, que vous avez vu la Fille du Musicien, à la
+
+porte Saint–Martin, qui s’empoisonne avec du charbon.
+
+(Ici la nuit vient peu à peu.)
+
+PRUDENCE, montrant Saint–Gervais.
+
+Monsieur Lefort, vous êtes conseillé par une vieille
+
+folle !
+
+SAINT–GERVAIS.
+
+Moi, une vieille folle !… Marchande de modes,
+
+vous ne savez pas ce que je suis, si vous le saviez…
+
+PRUDENCE, s’échauffant.
+
+Eh ! je le sais qui vous êtes.
+
+SAINT–GERVAIS, à
+
+part.
+
+Est–ce que l’instinct de femme lui aurait dit que je
+
+suis un homme !
+
+PRUDENCE.
+
+Vous êtes…. une mijaurée ! vous faites la sévère à
+
+cette heure, mais vous n’avez pas été plus sage qu’une
+autre.
+
+SAINT–GERVAIS,
+
+C’est vrai que j’ai été farceur…
+
+LEFORT.
+
+1
+
+Hein !
+
+SAINT–GERVAIS, se reprenant.
+
+Je veux dire que j’ai connu des farceurs… mais la
+
+morale a triomphé.
+
+PLUSIEURS VOIX, dans la coulisse.
+
+Monsieur Lefort! monsieur Lefort !
+
+LEPORT.
+
+J’y vais ! j’y vais !… On m’appelle pour le repas de
+
+noce… bonsoir !
+
+(Il sort.)
+
+64
+
+LA LINGÈRE DU MARAIS.
+
+PRUDENCE.
+
+Vous vous en repentirez… foi de marchande de
+modes ! (A Saint–Gervais.) Ah ! je vous arracherais les
+
+yeux si je ne me retenais !
+
+SAINT–GERVAIS.
+
+Retenez–vous, marchande de modes, retenez–vous !
+
+(Elle sort.
+
+Nuit entière.)
+
+SCENE XII.
+
+SAINT–GERVAIS, seul.
+
+Ah ! me voilà seul !…. O Manon ! Manon ! tu vas
+
+donc me connaître!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR : Voici le gentil faucheur ! (Mariée à l’encan.)
+
+Voici, oui !!!
+Voici ton heureux vainqueur, (bis.)
+Manon pensive et désouvrée,
+Seulette, passe sa soirée
+Dans le silence et la douleur. (bis.)
+Chut, chut, chut, Saint–Gervais, du cœur !
+Car ta bergère
+Est prisonnière ;
+Ta jeune bergère
+Est prisonnière.
+Voici, oui… voici la clé du bonheur. (ter.)
+
+    Deuxième C plet.
+
+La nuit double mo   deur, (bis.)
+Avançons… Un homm   linaire
+Craindrait quelque destin contraire ;
+Mais l’amour est mon protecteur. (bis.)
+Chut, chut, chút, gentil prolecteur !
+Dans ton domaine
+J’entre sans peine.
+Voici, oui… voici la clé du bonheur !
+Je tiens la clé du bonheur !
+Je vais attendrir son cœur…
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Écoutant à la porte.) Je n’entends rien. (Avec en
+
+thousiasme.) Entrons dans sa chambre… (Il met la clé
+
+dans la serrure, ouvre la porte, et entre précipitam
+
+ment.) O ciel ! plus personne !…. les barreaux de la
+fenêtre sont coupés !… elle s’est sauvéę ! (Criant.) Au
+
+secours ! au secours ! au secours ! (On entend de méme,
+
+à gauche dans la coulisse :) Au secours !
+
+SCÈNE XIII.
+
+SAINT–GERVAIS, LEFORT, PLUSIEURS Garçons
+
+avec des torches.
+
+(D’autres traversent le théâtre, et courent aux cris
+
+qui se font entendre dans la coulisse à gauche.)
+
+LEFORT, à Saint–Gervais.
+
+Qu’avez–vous ? qu’est–il arrivé ?
+
+SAINT–GERVAIS.
+
+Manon s’est sauvée par la fenêtre qui donne sur la
+
+rivière.
+
+Sur la rivière… Couro :vite !
+
+LEFORT, vivement.
+
+(Il va pour sorting Hrudence entre et l’arrête.)
+
+66
+
+LA LINGÈRE DU MARAIS.
+
+SCÈNE XIV.
+
+SAINT–GERVAIS, LEFORT, PRUDENCE,
+
+ensuite DÉBINEUX, GARÇONS TRAITEURS, avec
+des torches.
+
+CHŒURS D’HOMMES ET DE FEMMES.
+
+PRUDENCE, à Lefort, en pleurant.
+
+(Jour.)
+
+Il n’est plus temps!
+
+LEFORT, avec douleur.
+
+Elle s’est noyée ?
+
+SAINT–GERVAIS.
+
+Est–il possible ?
+
+CHŒUR.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Air de la Prière de Pâques fleuries. (Diavolo.)
+
+Quel désespoir ! quelle douleur !
+Vous avez perdu votre nièce ;
+En résistant à sa tendresse,
+Vous avez causé son malheur.
+
+    PRUDENCE, à Lefort.
+
+D’êtrʼ resté si sévère,
+Gémissez maintenant !
+Voyez, chez unʼ lingère,
+Où mènʼ le sentiment !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEFORT.
+
+Pauvre Manon ! Ah ! si c’était à refaire, comme je
+
+te dirais… tiens, épouse ton amoureux !…
+
+ACTE III, SCENE XV.
+
+67
+
+SCÈNE XV.
+
+Les MÊMES, MANON, elle est en costume de mariée ;
+
+ensuite ADOLPHE et DÉBINEUX.
+
+MANON 2
+
+sautant au cou de Lefort.
+
+Ah ! mon oncle ! que je vous remercie !
+
+LEFORT.
+
+Que vois–je ?… Manon !…
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TOUS.
+
+Quelle allégresse !
+Plus de tristesse !
+Ah ! c’est l’instant
+D’être content !
+Elle est charmante,
+Et bien portable…
+Et trouve ici
+Mari
+Chéri.
+Voici (bis.)
+Un jour bien joli !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADOLPHE.
+
+Monsieur Leforl, me reconnaissez–vous ?
+
+Monsieur Adolphe !
+
+LEFORT, surpris.
+
+ADOLPHE.
+
+C’est Prudence et moi qui avons arrangé tout cela
+
+pour ce petit nigaud de Débineux.
+
+DÉBINEUX, prenant le bras de Manon.
+
+Et moi je suis le pauvre aveugle qui joue si bien du
+
+violon…
+
+68
+
+LA LINGÈRE DU MARAIS.
+
+SAINT–GERVAIS.
+
+Et qui dit la bonne aventure ?
+
+LEFORT.
+
+Mais ce repas de noce qu’on m’est venu commander,
+
+et qui a été payé par un bourgeois ?
+
+ADOLPHE.
+
+C’est moi qui suis le bourgeois… c’était pour
+
+le ma
+
+riage de Manon, aussi bien que les bouquets.
+
+LEFORT.
+
+J’ai joliment donné d’dans.
+
+SAINT–GERVAIS,
+
+parl.
+
+Et moi qui ai fait sentinelle (montrant Débineux.)
+
+pour ce gaillard là…. je puis dire que je suis bien
+
+faite… c’est égal !… ça passera… (Allant à Manon.)
+
+Jeune fille, souffrez un petit grain de morale… Plus
+
+de coquetterie dorénavant…
+
+MANON
+
+Non, madame Gervais, plus de coquetterie. Ma
+
+toilette me va bien, n’est–ce pas ?
+
+SAINT–GERVAIS.
+
+C’est ça, plus de coquetterie… Beaucoup de vertu…
+
+vous avez un mari… c’est très bien !… mais votre pé
+
+nitence n’est pas finie !
+
+(A part.) Elle commence !
+
+(Haut.) Rappelez–vous que l’innocence ne doit jamais
+
+tomber dans l’eau, et qu’il est toujours plus agréable
+
+de la repêcher dans les filets de l’hyménée, que dans
+
+les filets de Saint–Cloud.
+
+CHŒUR.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIR :
+
+Au lieu de funérailles,
+On va, dans la maison,
+Chanter les fiançailles
+De la belle Manon. (bis)
+
+    SAINT–GERVAIS au Public.
+
+Air de l’Angelus.
+
+J’invoque un parterre indulgent,
+Et je ne crains pas qu’il me vexe ;
+Le Français, aimable et galant,
+Est plein d’égards pour le beau sexe. (bis.)
+Sur vous aussi, mesdames, j’ai compté ;
+Chaque soir je prétends, des belles,
+Retracer avec vérité
+L’esprit, les graces, la gaîté…
+Venez m’apporter des modèles !
+
+    CHŒUR.
+
+Au lieu de funérailles,
+On va, dans la maison,
+Chanter les fiançailles
+De la belle Manon ! (bis.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIN.
+
+6
+
+table
+
+од
+
+su
+
+tome zeme
+
+7
+
+Le docteur
+
+Quinquina
+
+lepoirier
+
+ensorcelé, par Ga
+
+briel et Philibert
+
+.
+
+Sir
+
+Jack
+
+vu
+
+qui est–ce
+
+qui veut se
+
+faire pendre,
+
+par Duvert, Desvergers &
+
+v, Waring.
+
+Le malade par circunstance,
+
+par Varin et
+
+Desvergerda
+
+se
+
+Pachatlarivandien
+
+pur Alphonse dignol.
+
+Episode de 1812
+
+l’espic
+
+onne.
+
+Russe, po Melesville
+
+et carm ouche.
+
+Sa femme, le mari, et
+
+l’amant, par 7. Dekock &
+
+Ch.
+
+Dapeuty
+
+{ a lingere die marais,
+
+Pa nouvelle Manon Lescaut,
+
+par
+
+Dupin
+
+Achillo,
+
+ܕ
+
+1
+
+;
+
+!
+
+La
+
+lin
+
+lingere
+
+du marais, ou
+
+die
+
+Panouredi
+
+Manon
+
+Lescaut,
+
+pour Dupin
+
+Achille
+
+

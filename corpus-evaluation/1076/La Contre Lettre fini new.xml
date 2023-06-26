@@ -1,0 +1,5305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LA CONTRE-LETTRE OU LE JÉSUITE</title>
+                <title type="sub"> DRAME EN DEUX ACTES, MÊLÉ DE CHANTS</title>
+                <author key="DPT" sort="1">
+                    <name>
+                        <forename>Nicolas-Paul</forename>
+                        <surname>Duport</surname>
+                        <addname type="pen_name">Paul Duport</addname>
+                    </name>
+                </author>
+                <author key="MNS" sort="2">
+                    <name>
+                        <forename>Désiré-Guillaume-Édouard</forename>
+                        <surname>Monnais</surname>
+                        <addname type="pen_name">Édouard </addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LA CONTRE-LETTRE OU LE JÉSUITE</title>
+                        <author>PAUL DUPORT ET ÉDOUARD</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=_FloAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>The British Library</repository>
+                                <idno type="URL">http://access.bl.uk/item/viewer/ark:/81055/vdc_100032916717.0x000001#?c=0</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-08-23">23 AOÛT 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES NOUVEAUTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés
+                    pour le traitement automatique des formes et structures métriques.
+                </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                  <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui – ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            LA CONTRE – LETTRE, 
+            
+. 
+            
+            C
+            
+            OU
+            
+            LE JÉSUITE, 
+            
+            DRAME EN DEUX ACTES, 
+            
+            MÊLÉ DE CHANT ; }
+            
+            PAR MM. PAUL DUPORT ET ÉDOUARD. 
+            
+            Représenté pour la première fois sur le Théâtre des Nouveautés, 
+            
+            Le 23 août 1830. 
+            
+            PRIX : 2 FRANCS. 
+            
+            A PARIS, 
+            
+            Chez CONSTANT LETELLIER fils, éditeur, 
+            
+            rue Traversière Saint – Honoré, nº 25. 
+            
+            1830. 
+            
+            PERSONNAGES. 
+            
+            SERVIÈRES, négociant…
+            
+. 
+            
+            M. DERVAL. 
+            
+            Mme SERVIÈRES, sa femme. 
+            
+            M
+            
+            " GENOT. 
+            
+            ADÈLE NISARD, pupille de Ser
+            
+            vières…
+            
+            Mlle BALTHAZARD. 
+            
+            Mme DERBIN. 
+            
+            Mme THÉODORE. 
+            
+            L'ABBÉ SERINET, 
+            
+            son
+            
+            cousin
+            
+            Jésuite. 
+            
+            M. BOUFFÉ. 
+            
+            LAMBERT, négociant, ami de Ser
+            
+            vières. 
+            
+            M. VOLNYS. 
+            
+            ÉDOUARD DE JUVIGNY…
+            
+            M. Ét. THÉNARD. 
+            
+            UN NOTAIRE…, 
+            
+            M. MASSON. 
+            
+            DOMESTIQUES. 
+            
+            La Scène est à Brest, dans la maison de M. Servières. 
+            
+            Nota. (Les personnages sont pris à gauche du public. Le premier
+            
+            indiqué tient la droite des acteurs, et ainsi de suite.)
+            
+            S'adresser pour la musiqae à M. BLOC, chef d'orchestre chus
+            
+            Théâtre des Nouveautés. 
+            
+            CLERMONT – OISE. IMPRIMERIE DE MADAME VEUVE DANICOURT. 
+            
+            LA CONTRE – LETTRE. 
+            
+            WMWMN
+            
+            WWWMWAMIMI
+            
+            Un Salon, une porte au fond, deux portes latérales. La
+            
+            porte, à droite du spectateur, conduit à l'appartement
+            
+            de M « • SERVIÈRES. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    Mme SERVIÈRES
+                
+                
+, entrant dans le salon par la porte à
+            
+                    droite du spectateur. 
+            
+                    Personne dans ce salon ! 
+            
+. 
+            
+. 
+            
+                    Je respire ! Au moins, je
+            
+                    serai seule, quand il viendra me rapporter ces lettres
+            
+                    fatales… Oui, puisqu'il l'exige… Je
+            
+                    le verrai pour la
+            
+                    dernière fois ! … La dernière ! … Ah ! pourvu que cette
+            
+                    résolution ne soit pas déjà trop tardive ! … Cette ironie
+            
+                    secrète… cette froideur dédaigneuse qui semblentm'ac
+            
+                    cueillir par – tout depuis quelques jours… Hier encore ces
+            
+                    paroles échappées à la femme du Sous – Préfet… Soup
+            
+                    çonnerait – on ? 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR de Wéber. (Promesse d'amour.)
+                </stage>
+            
+            
+                
+                    <l>Tout me presse</l>
+                    <l>De le fuir :</l>
+                    <l>Ma tendresse</l>
+                    <l>Doit finir.</l>
+                    <l>Au devoir cédons sans faiblesse,</l>
+                    <l>Trop heureuse après d'en mourir !</l>
+                
+                
+                    <l>Un indice</l>
+                    <l>Peut trahir,</l>
+                    <l>Un caprice</l>
+                    <l>Peut flétrir ! …</l>
+                    <l>Achevons notre sacrifice :</l>
+                    <l>Il vaut mieux mourir que rougir.</l>
+                
+            
+            </lg> </div>
+            
+            
+            (4) 
+            
+            Mme Servières ! 
+            
+            ADÈLE, sans étre vue. 
+            
+            MADAME DERBIN, de même. 
+            
+            Pourquoi la déranger ? 
+            
+            MADAME SERVIERES. 
+            
+            Ciel ! Adèle et Mme Derbin ! … S'il allait venir ! 
+            
+            SCÈNE II. 
+            
+            Mme SERVIÈRES ; M * DERBIN et ADÈLE entrant par
+            
+            la porte du fond. 
+            
+            ADÈLE. 
+            
+            Tenez, ma bonne amie, regardez donc la toilette de
+            
+            Mme Derbin ! 
+            
+            MADAME DERBIN. 
+            
+            Quel enfantillage ! … c'est Adèle qui a voulu… et je
+            
+            vous le demande… se parer pour aller chez un Sous
+            
+            Préfet…. c'est du luxe ; sur – tout aujourd'hui qu'on en
+            
+            fait tant ! 
+            
+            MADAME SERVIÈRES. 
+            
+            Quoi ! vous allez…
+            
+            MADÁME DERBIN. 
+            
+            Voir Mmo de Roubelle. Hier au soir, votre migraine nous
+            
+            a forcées de la quitter assez brusquement… et je suis
+            
+            pressée de renouer ce matin avec elle un entretien dont
+            
+            le sujet m'intéresse. 
+            
+            sur – tout à la veille de l'arrivée de
+            
+            M. Servières, du tuteur d'Adèle… car, si je ne me trompe, 
+            
+            chère amie, vous attendez votre mari d'un moment à
+            l'autre…
+            
+            MADAME SERVIÈRES. 
+            
+            Ah ! oui, certainement. (A part.) Je suis au supplice. 
+            
+            MADAME DERBIN à Adèle. 
+            
+            Oui, Adèle, on m'a découvert touts vos secrets. 
+            
+            ADÈLE, baissant les yeux. 
+            
+            Mes secrets
+            
+            MADAME DERBIN. 
+            
+            Vous aimez M. de Juvigny, un jeune officier, charmant, 
+            
+            à ce qu'on assure, 
+            
+            car je n'ai pas eu
+            
+            l'honneur de le voir…
+            
+            Cependant on ajoute qu'ayant mon arrivée ici pour cette
+            
+            (5) 
+            
+            succession, il était fort assidu. 
+            
+            … Tenez, je m'en rapporte
+            
+            à votre tutrice. 
+            
+            ADÈLE. 
+            
+            Ah ! c'est inutile, pourquoi le nierais – je ? … M. de Juvi
+            
+            gny et moi, nous avions été élevés ensemble. Il y á près de
+            
+            six mois, il vint à Brest ; et ma bonne amie voulut bien
+            
+            l'accueillir à cause de moi. 
+            
+            MADAME SERVIÈRES, vivement. 
+            
+            En effet… ce pouvait être un parti pour Adèle. 
+            
+            ADÈLE. 
+            
+            C'est vrai ; quand son régiment fut rappelé à Paris, il
+            
+            demanda à Mme Servières la permission de correspondre
+            
+            avec elle, pour savoir de mes nouvelles ; et, pendant les
+            
+            premiers temps, il écrivait des lettres si aimables, 
+            
+            si
+            
+            tendres… Oui, fiez – vous – y… Tout d'un coup, ma bonne
+            
+            amie cessa d'en recevoir… ou du moins de m'en montrer. 
+            
+            Comment ! … qui t'a fait soupçonner ? 
+            
+            MADAME SERY ERES. 
+            
+            ADÈLE. 
+            
+            Votre bonté même… Vous auriez
+            
+            vouloir
+            
+            me
+            
+            cacher
+            
+            pu
+            
+            la
+            
+            preuve
+            
+            de son
+            
+            refroidissement. Je l'ai cru loug – tems, 
+            
+            et tenez, je suis forcée de le croire encore…… Depuis son
+            
+            retour, 
+            
+            il n'est plus le même… il a beau revenir ici touts
+            
+            les jours, il ne m'a pas une seule fois parlé de ses projets
+            
+            &gt; 
+            
+            que dis – je ? … il ne me parlait presque pas ; ou bien, quand
+            
+            vous aviez du monde, s'il s'approchait de moi, c'était
+            
+            pour me faire mille questions étrangères à ce qui aurait dû
+            l'intéresser le plus. 
+            
+            MADAME DERBIN. 
+            
+            Des questions ! Et sur quoi ? 
+            
+            ADÈLE. 
+            
+            Sur M. Servières, sur son caractère, sur l'époque probable
+            
+            de son retour. 
+            
+            MADAME SERVIÈRES, à part. 
+            
+            L'imprudent ! 
+            
+            ADÈLE. 
+            
+            Enfin, depuis l'arrivée de Mm Derbin, il a cessé entiè
+            
+            rement ses visites. Si tout cela cache une passion ! …. 
+            
+            1
+            
+            (6) 
+            
+            MADAME DERBIN. 
+            
+            Pourquoi pas ? il est des hommes modestes, timides…
+            
+            bien peu… mais enfin…et puis, peut – être qu'un motif
+            
+            secret de délicatesse… Tenez, M. Lambert, l'ancien
+            
+            commis de votre père, l'ami de M. Servières qu'il a laissé
+            
+            à Cadix, pour venir tout exprès à Brest vous offrir sa
+            
+            fortune et sa main. 
+            
+            Eh ! bien ? 
+            
+            ADÈLE. 
+            
+            MADAME DERBIN. 
+            
+            Eh ! bien, autrefois, il m'a aimée, il m'adorait même…
+            Je m'en suis bien aperçue, sans que jamais il lui soit
+            
+            échappé une seule parole… c'est tout simple, j'étais promise
+            
+            à un autre, et il a tant d'honneur, de loyauté ! …
+            
+            ADÈLE. 
+            
+            Oh ! sous ce rapport – là… je crois même qu'il ne se
+            
+            résigne à me faire la cour que parce que je n'ai rien…
+            cela me donnerait envie d'être riche. 
+            
+            MADAME DERBIN. 
+            
+            Comment, Mademoiselle…
+            
+            ADÈLE. 
+            
+            D'abord, il est trop généreux pour être aimable… et puis
+            
+            il est si brusque, si peu galant, votre M. Lambert ! 
+            
+            je suis
+            
+            sûre qu'il serait bien plus à son aise dans un comptoir que
+            
+            dans un salon. Quand il veut tourner un compliment, il a
+            
+            l'air de faire une commande. 
+            
+            MADAME DERBIN. 
+            
+            Qu'est – ce que c'est, Mademoiselle, que ces idées – là ? …
+            
+            de l'épigramme ! … vous jugez très mal… M. Lambert
+            
+            est commerçant… il a la franchise, la probité de son
+            
+            état… Qu'il n'y joigne pas les grâces d'un militaire, qu'il
+            ait même les manières un peu bourgeoises, c'est possible. 
+            
+            Mais nous avons vu que dans l'occasion de simples bour
+            
+            geois valaient bien des officiers. 
+            
+            ADÈLE. 
+            
+            Avec quelle chaleur vous faites son éloge ! 
+            
+            MADAME DERBIN. 
+            
+            Moi, du tout. 
+            
+            ADÈLE, avec finesse. 
+            
+            Ob ! si fait… et croyez – vous qu'il vous aime encore ? 
+            
+            MADAME DERBIN. 
+            
+            Oh ! je ne dis pas
+            
+            ADÈLE. 
+            
+            Vous me conseilleriez donc de l'épouser ? 
+            
+            MADAME DERBIN, vivement. 
+            
+            Je ne
+            
+            dis
+            
+            pas cela… Si vous aimez M. de Juvigny…
+            
+            ADÈLE. 
+            
+            Moi, l'aimer… à présent… au contraire… la preuve, 
+            
+            c'est que j'achevais pour lui un dessin qui lui aurait plu, 
+            
+            j'en suis sûre, et qui attend depuis quinze jours… Eh ! 
+            
+            bien ! … je ne travaillerai plus. 
+            
+            MADAME DERBIN. 
+            
+            Mais pourtant, Adèle…
+            
+            M. de Juvigny
+            
+            UN DOMESTIQUE, annonçant. 
+            
+            MADAME SERVIÈRES, à part. 
+            
+            Grand dieu ! 
+            
+            ADÈLE, avec joie. 
+            
+            Lui ! 
+            
+            (A madame Derbin.) Ne vous fâchez pas, je
+            
+            travaillerai. 
+            
+            MADAME DERBIN, souriant. 
+            
+            Fort bien… Je comprends et je vous laisse. (Elle sort, 
+            
+            en saluant M. DE Juvigny.)
+            
+            JUVIGNY, saluant madame Derbin. 
+            
+            Madame ! …
+            
+            SCÈNE III. 
+            
+            M® SERVIÈRES, DE JUVIGNY, ADÈLE. 
+            
+            JUVIGNY, vivement à madame Servières. 
+            
+            Enfin, madame, 
+            
+            il m'est donc permis…. (Madame
+            
+            Servières fait un geste ; il se retourne et voit Adèle. 
+            Ah ! Mademoiselle ! 
+            
+            ADÈLE. 
+            
+            Bonjour, M. de Juvigny, il y a bien long – tems qu'on ne
+            
+            vous a vú. 
+            
+            Ah ! croyez que j'ai senti vivement cette privation…
+            
+            JUVIGNY. 
+            
+            IL
+            
+            (8) 
+            
+            et que, si elle ne m'eût été imposée pardes ordres… (Ma
+            
+            dame Servières le regarde) par des obstacles… bien cruels ! …
+            
+            A
+            A DÈLE. 
+            
+            Quelques affaires, n'est – ce pas ? je m'en suis doutée
+            
+            d'après un mot de Mme de Roubelle, la femme du Sousa
+            
+            Préfet. Je me plaignais hier chez elle que vous ne vinssiez
+            
+            plus du tout à la maison. « Ah ! tant mieux ! » a – t – elle
+            
+            répondu avec un air… Oh ! mais un air… Tenez, mabonne
+            
+            amie l'a entendu comme moi ! …
+            
+            MADAME SERVIÈRES. 
+            
+            Je ne sais…
+            
+            ADÈLE. 
+            
+            Ah ! c'est juste… vous étiez souffrante… et nous
+            
+            sommes parties… ce qui m'a empêchée de demander une
+            
+            explication… que Monsieur nous donnera, j'espère…
+            
+            Mais, avant tout…… ce portrait de votre soeur que vous
+            
+            n'aviez prêté pour en faire une copie… j'ai retouché
+            
+            l'original. Voulez – vous le voir ? J'irai vous le chercher. 
+            
+            JUVIGNY, avec empressement. 
+            
+            Oh ! oui, Mademoiselle, je vous en prie. (A part.) Nous
+            
+            serons seuls. 
+            
+            Enfin…
+            
+            MADAME SERVIÈRES, à part. 
+            
+            ADÈLE. 
+            
+            Ne vous impatientez pas… Je reviens sur le champ…. 
+            
+            Rien qu'un instant. (Elle sort par la porte du fond.)
+            
+            SCÈNE IV. 
+            
+            Mme SERVIÈRES, DE JUVIGNY. 
+            
+            JUVIGNY. 
+            
+            Un instant ! … Ah ! Madame, quelle triste entrevue ! …
+            
+            Et ce serait la dernière ! 
+            
+            MADAME SERVIÈRES. 
+            
+            Il le faut… Mes lettres ! 
+            
+            JUVIGNY. 
+            
+            Vous serez obéie… Mais, me renvoyer hier au soir toutes
+            
+            les miennes, et encore me défendre votre présence ! 
+            
+            (9) 
+            
+            MADAME SERVIÈRES. 
+            
+            N'avez – vous pas entendu le récit de cette enfant ? …
+            
+            On a des soupçons… Grand Dieu ! Si une imprudence…
+            
+            Si quelqu'on avait surpris.,, entrevu chez vous une seule
+            ligne de mon écriture ! 
+            
+            J'en
+            
+            JUVIGNY. 
+            
+            Pouvez – vous croire ? … (à part) Ah ! cachons – lui… (haut.)
+            
+            Faut – il vous alarmer d'un mot échappé sans intention ? 
+            
+            MADAME SERVIÈRES. 
+            
+            Ce mot m'a glacée d'effroi. Je suis rentrée en proie à la
+            
+            honte… aux remords… A peine ai – je eu la
+            retirer de mon secrétaire des lettres…
+            
+            force de
+            que je n'aurais
+            
+            recevoir… Mes yeux ne voyaient plus. 
+            
+            jamais dû
+            ils étaient inondés de larmes ; et ma main rassemblait au
+            hasard ces preuves de ma faute. 
+            
+            JUVIGNY. 
+            
+            De votre faute ! Et de quoi vous accusez – vous, quand
+            
+            une sévérité qui ne s'est pas démentie un seul instant…. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    MADAME SERVIÈRES. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Adieu bonheur. 
+                </stage>
+            
+            
+                
+                    <l>Oui, d'une tendre amie</l>
+                    <l>La présence en ces lieux</l>
+                    <l>M'a rendu l'énergie,</l>
+                    <l>M'a fait ouvrir les yeux.</l>
+                    <l>Par le hasard servie,</l>
+                    <l>Quand s'égarait mon cœur,</l>
+                    <l>J'ai perdu pour la vie</l>
+                    <l>Et mon estime et le bonheur.</l>
+                
+            
+        
+            
+            
+            
+            JUVIGNY. 
+            
+            Hortense, ne m'accablez pas. Ayez pitié de ce que je
+            
+            souffre. Vous n'aurez peut – être pas long – tems à me plaindre ! 
+            
+            MADAME SERVIÈRES, (très vivement.)
+            
+            Que voulez – vous dire ? 
+            
+            JUVIGNY, (lui presentant un paquet de lettres.)
+            
+            Madame, voici vos lettres, 
+            
+            2
+            
+            1
+            
+            (10) 
+            
+            MADAME SERYIÈRES.'
+            
+            JUVIGNY. 
+            
+            Toutes ? 
+            
+            Ah ! ce soupçon ! … Eh ! bien, tantmieux ! Votre mé
+            
+            fiance me servira, vous les examinerez… vous y verrez
+            
+            les larmes qu'elles m'arrachaient… quelques mots que
+            
+            j'y traçais dans mon délire ! ……
+            
+            MADAME SERVIÈRES. 
+            
+            Moi, jeter jamais un regard ! … Non, non, Monsieur, 
+            
+            elles doivent être anéanties sur le champ. 
+            
+            
+            
+            
+            
+           
+                
+                    JUVIGNY. 
+                
+            
+            
+                
+                    Même air que le précédent. 
+                
+            
+            
+                
+                    <l>Repousser ma prière</l>
+                    <l>Avec tant de courroux !</l>
+                    <l>Si c'était la dernière…</l>
+               
+            
+                
+                    MADAME SERVIÈRES. 
+                
+ 
+          
+                    <l>Édouard, que dites – vous ?</l>
+                
+            
+                
+                    JUVIGNY. 
+                
+            
+                
+                    <l>Ah ! prenez donc ma vie,</l>
+                    <l>Si votre injuste cœur</l>
+                    <l>Tout à la fois m'envie</l>
+                    <l>Et votre estime et le bonheur.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            Jurez – moi de conserver ces lettres jusqu'à ce soir ! 
+            
+            MADAME SERVIÈRES. 
+            
+            Quel mystère ! … Que signifie ? 
+            
+            JUVIGNY. 
+            
+            Jusqu'à ce soir ! …… Je vous en supplie à genous. 
+            
+            MADAME SERVIÈRES. 
+            
+            Que faites – vous ? On vient. 
+            
+            JUVIGNY. 
+            
+            Vous me promettez ? …. 
+            
+            MADAME SERVIÈRES. 
+            
+            Oui… oui, mais levez – vous. 
+            
+            (1
+            
+) 
+            
+            SCÈNE V. 
+            
+            M ** SERVIÈRES, LAMBERT, DE JUVIGNY. 
+            
+            LAMBERT, entrant brusquement par la porte du fond. 
+            
+            Ah ! c'est affreux ! … C'est une horreur ! 
+            
+            MADAME SERVIÈRES. 
+            
+            Quoi donc ? … M. Lambert ! …
+            
+            LAMBERT. 
+            
+            Pardon, Madame, de ma brusquerie… Mais un premier
+            
+            mouvement… Bonjour, M. de Juvigny ! 
+            
+            MADAME SERVIERES. 
+            
+            Qu'est – il arrivé ? …
+            
+            LAMBERT. 
+            
+            C'est une rage qu'ont les officiers en garnison, touts
+            Sous prétexte que les
+            
+            les jeunes gens de la ville
+            
+            falaises
+            
+            d'à côté sont le seul endroit isolé de Brest, 
+            
+            ils
+            
+            viennent touts s'y battre. 
+            
+. 
+            
+. Et cette maison qui est juste
+            
+            en face… Chaque jour le spectacle d'un ou de plusieurs
+            
+            duels… C'est vraiment désolant, pour moi sur – tout qui
+            
+            espérais ne plus voir couler de sang en France, depuis nos
+            
+            grands événements. 
+            
+            MADAME SERVIÈRES. 
+            
+            Est – ce que tout à l'heure ? …
+            
+            LAMBERT. 
+            
+            Oui, deux étourdis, qui viennent de vider une querelle…
+            
+            JUVIGNY, vivement. 
+            
+            Au pistolet ? 
+            
+            LAMBERT. 
+            
+            Oh ! non
+            
+. 
+            
+            Vous auriez entendu la détonnation i…
+            
+            A l'épée. 
+            
+            Pas de blessures graves… heureusemeut
+            
+            pour eux
+            
+            et pour moi…
+            
+. Mais peut – être que
+            
+            d'autres
+            
+            demain…. ou même ce soir…
+            
+            Ce soir ! …
+            
+            JUVIGNY, 
+            
+            à part. 
+            
+            LAMBERT. 
+            
+            On dit que c'est pour la réputation d'une femme… Ne
+            
+            faut – il pas être bien inconséquent… bien absurde ? 
+            
+            (12) 
+            
+            JUVIGNY, avec impatience. 
+            
+            Monsieur ! …
+            
+            LAMBERT. 
+            
+            N'est – ce pas, Monsieur, vous pensez comme moi ? …
+            
+            Notre premier devoir envers les femmes, c'est de vivre
+            
+            pour elles, et par conséquent de ne pas nous faire tuer. 
+            
+            SCÈNE VI. 
+            
+            M ~ SERVIÈRES, ADÈLE, LAMBERT, DE JUVIGNY. 
+            
+            ADÈLE, accourant par la porte du fond. 
+            
+            Me voici ! … me voici… (Apercevant Lambert.)
+            
+            Ah ! M. Lambert ! …
+            
+            LAMBERT. 
+            
+            Mademoiselle, votre très humble…. 
+            
+            ADÈLE. 
+            
+            J'ai été long – temps. Je ne retrouvais plus cette aqua
+            
+            relle… Le vent l'avait emportée sur la terrasse, et il fait
+            
+            une brume si épaisse ce matin. 
+            
+. 
+            
+            LAMBERT. 
+            
+            A tel point qu'on ne distingue plus le vaisseau qu'on
+            
+            avait signalé hier. 
+            
+            Un vaisseau ? 
+            
+            MADAME SERVIÈRES. 
+            
+            LAMBERT. 
+            
+            Oui, qui se dirigeait du côté du port ; mais il aura de la
+            
+            peine à y entrer, si la iner continue à être aussi houleuse. 
+            
+            Voilà le portrait que je vous rends. 
+            
+            ADÈLE, à Juvigny. 
+            
+            LAMBERT, interceptant le portrait…
+            
+            Un portrait ! … Voyons ! … Ah ! … quelle ressem –, 
+            
+            blauce ! … Est – ce que vous vous êtes fait peindre en
+            
+            femme, M. de Juvigny ? …
+            
+            ADÈLE. 
+            
+            Non
+            
+            pas, 
+            
+            c'est la soeur de Monsieur. 
+            
+            1
+            
+            1
+            
+            1
+            
+            |
+            
+            (13) 
+            
+            LAMBERT. 
+            
+            Ah ! ah ! une très jolie personne ! Et puis le dessin est
+            
+            d'un fini… d'un moelleux ! … Ce n'est pas que je m'y
+            
+            connaisse… je n'ai jamais peint que sur des toiles d'em
+            
+            ballage. 
+            
+            ADÈLE, à part. 
+            
+            Comme c'est flatteur ! 
+            
+            LAMBERT, à madame Servières. 
+            
+            Mais regardez donc, Madame, si l'on ne croirait pas
+            
+            voir Monsieur. 
+            
+            MADAME SERVIÈREs, prenant le portrait. 
+            
+            En effet, la ressemblance… (A Juvigny, en faisant le
+            
+            geste de le lui rendre.) Monsieur…
+            
+            JUVIGNY, vivement. 
+            
+            Non, Madame, je vous prie… Je prie Mademoiselle, 
+            
+            de vouloir bien en rester dépositaire… quelques jours…
+            
+            jusqu'à ce que je le redemande… Moi… moi seul…
+            
+            MADAME SERVIÈRES, à part. 
+            
+            Quel mystère ! 
+            
+            ADÈLE. 
+            
+            Comment, vous voudriez ? …
+            
+            JUVIGNY
+            
+            Je vous en supplie…. Si quelques circonstances…
+            
+            dont on ne peut répondre… venaient à me séparer de
+            
+            vous… peut – être cette image attirerait – elle quelquefois
+            
+            des regards auxquels je ne m'offrirais plus, et pourrait
+            
+            elle rappeler ma mémoire au coeur que le mien (regardant
+            
+            madame Servières) n'aura jamais cessé d'honorer et de
+            
+            chérir. 
+            
+            Que veut – il dire ? 
+            
+            ADÈLE, à part. 
+            
+            LAMBERT, de même. 
+            
+            Qu'est – ce que cela signifie ? 
+            
+            * (Il passe auprès de madame Servières. Madame Ser
+            
+            vières, Adèle, de Juvigny, Lambert.)
+            
+            (14.)
+            
+            
+            
+            ENSEMBLE. 
+            
+            
+            <div type="poem"> <lg>
+            
+                <stage type="tune">
+                    AIR : Come fugace lampo. (De Blangini.)
+                </stage>
+            
+            
+                
+                    JUVIGNY
+                
+            
+                
+, å part, 
+                
+            
+            
+               
+                    <l>Il n'est plus d'espérance.</l>
+                    <l>Ah ! fuyons sa présence ;</l>
+                    <l>J'hésite, je balance,</l>
+                    <l>Et reste malgré moi.</l>
+                    <l>Elle tremble et soupire.</l>
+                    <l>Abrégeons son martyre ;</l>
+                    <l>Partons sans lui rien dire :</l>
+                    <l>Cachons – lui bien pourquoi.</l>
+                
+            
+                
+                    LAMBERT
+                
+            
+                
+, à part. 
+                
+            
+            
+                
+                    <l>Quelle est son espérance ?</l>
+                    <l>Il hésite et balance ;</l>
+                    <l>En ces lieux ma présence</l>
+                    <l>Le gêne, je le vois.</l>
+                    <l>Dans ses yeux on peut lire :</l>
+                    <l>Il a l'air au martyre ;</l>
+                    <l>Plus de doute… il soupire :</l>
+                    <l>Je sais très bien pourquoi.</l>
+                
+            
+                
+                
+                    ADÈLE
+                
+            
+                
+, à part. 
+                
+            
+            
+               
+                    <l>Quelle est son espérance ?</l>
+                    <l>Il fuit notre présence ;</l>
+                    <l>Il hésite, il balance ;</l>
+                    <l>Il souffre, je le vois.</l>
+                    <l>Dans son cœur qui soupire</l>
+                    <l>En vain je voudrais lire ;</l>
+                    <l>Il part sans me rien dire :</l>
+                    <l>Comment savoir pourquoi ?</l>
+                
+            
+                
+                    Mme SERVIÈRES
+                
+            
+                
+, à part. 
+                
+            
+            
+               
+                    <l>Il n'est plus d'espérance.</l>
+                    <l>Il hésite et balance.</l>
+                    <l>Ah ! cet air de souffrance</l>
+                    <l>Redouble mon effroi.</l>
+                    <l>Quel trouble, quel délire</l>
+                    <l>Sa présence m'inspire !</l>
+                    <l>Il part sans me rien dire :</l>
+                    <l>Comment savoir pourquoi ?</l>
+                
+            
+            </lg> </div>
+            
+            
+            (Juvigny sort par la porte du fond.)
+            
+            SCÈNE VII. 
+            
+            Mme SERVIÈRES, ADÈLE, LAMBERT. 
+            
+            LAMBERT, à
+            
+            part. 
+            
+            Ce cadeau indirect… Ce trouble ! … Il aime la jeune
+            
+            personne… Et elle doit le préférer à moi, pour peu qu'elle
+            
+            ait du goût… Je vois ce qui me reste à faire… (à Adèle.)
+            
+            Dites – moi donc, Mademoiselle, vous qui avez tant de
+            
+            talents… qui dessinez si bien… qui touchez du piano
+            
+            à merveille…
+            
+            ADÈLE, à part. 
+            
+            Ah ! mon Dieu ! … de la galanterie ! Il se formerait ? 
+            
+            (15) 
+            
+            LAMBERT. 
+            
+            Est – ce que vous ne pourriez pas aller étudier un peu ? …
+            
+            nous laisser seuls ? 
+            
+            ADÈLE, à part. 
+            
+            Ah ! je le reconnais ! 
+            
+            LAMBERT. 
+            
+            Il ne faut pas que cela vous gêne… Mais ça m'obligerait
+            
+            beaucoup…
+            
+            ADÈLE, souriant. 
+            
+            Tant mieux ! … Je suis très obligeante, Monsieur ; et
+            
+            d'ailleurs, il est une manière de demander les choses, à
+            
+            laquelle il m'a toujours paru impossible de résister. (Ello
+            
+            lui fait une reverence gravement comique, et sart par la
+            
+            porte à gauche) .
+            
+            SCÈNE VIII. 
+            
+            Mme SERVIÈRES, LAMBERT. 
+            
+            LAMBERT, regardant sortir Adèle. 
+            
+            Qu'est – ce qu'elle dit donc ? … N'importe ! Elle s'en va ; 
+            
+            c'est l'essentiel. (A madame Servières.) Madame, deux
+            
+            mots, s'il vous plaît… Il faut que je vous parle d'une
+            
+            affaire très grave, et dont sur – tout les conséquences…
+            
+            MADAME SERVIÈRES. 
+            
+            Quoi donc, Monsieur ? 
+            
+            LAMBERT. 
+            
+            Une découverte que je viens de faire tout à l'heure seu
+            
+            lement…
+            
+            Tout à l'heure ? …
+            
+            MADAME SERVIÈRES. 
+            
+            LAMBERT. 
+            
+            Ici… dans ce salon
+            
+            7
+            
+            j'ai pénétré un sentiment…
+            
+            Tranchons lė mot, un amour… Vous devinez de qui je
+            
+            veux parler ? …
+            
+            MADAME SERVIÈRES, effrayée. 
+            
+            Monsieur, je vous jure…
+            
+            LAMBERT. 
+            
+            Allons donc, vous le savez mieux
+            
+            que
+            
+            moi. 
+            
+            (16) 
+            
+            MADAME SERVIÈRES, vivement. 
+            
+            Faut – il vous répéter ? …. 
+            
+            LAMBERT. 
+            
+            Eh ! bien, c'est de votre pupille… Elle aime M. de
+            
+            Juvigny… n'est – ce pas ? …
+            
+            MADAME SERVIÈRES, se remettant. 
+            
+            Adèle !. 
+            
+            mais je crois qu'en effet…
+            
+            LAMBERT. 
+            
+            Je m'en doutais… Quant au jeune homme, il l'adore ! 
+            
+            MADAME SERVIÈRES. 
+            
+            Comment ? Vous supposez ? …
+            
+            LAMBERT. 
+            
+            Je ne suppose pas, j'en suis sûr… Vous savez pour
+            
+            quel motif je demandais la main d'Adèle… Je voulais la
+            
+            rendre à la fois riche et heureuse… Riche, je le pourrais
+            
+            encore… Mais heureuse, c'est différent… Vous conce
+            
+            vez…
+            
+            Je n'y suffirais plus ! 
+            
+. 
+            
+. 
+            
+. S'il у avait moyen de
+            
+            s'arranger… Si la fortune venait… sans le mari… ou, 
+            
+            ce qui vaudrait encore mieux, avec un autre mari ? M. de
+            
+            Juvigny n'a que son grade… Adèle n'a rien… Je la
+            
+            dote ! …
+            
+            MADAME SERVIÈRES. 
+            
+            Adèle ne peut accepter…. 
+            
+            LAMBERT. 
+            
+            Par vos mains… Sans qu'on s'en doute…
+            
+            MADAME SERVIÈRES. 
+            
+            Non, Monsieur. Votre générosité m'oblige à vous révéler
+            
+            un secret… Adèle est riche…
+            
+            LAMBERT. 
+            
+            Comment ? 
+            
+            MADAME SERVIÈRES. 
+            
+            Vous connaissez la terre de Blancheville dont mon mari
+            
+            touche les revenus depuis un an, comme exécuteur testa
+            
+            mentaire de M. Jenneval ?. 
+            
+            LAMBERT. 
+            
+            Oui. Mais ne fait – elle pas partie des biens que M. Jen
+            
+            neval à légués à M ** Derbin, sa nièce, quoiqu'il ait eu
+            
+            la
+            
+            faiblesse d'en réserver l'usufruit à un vieux cousin cafard, 
+            
+            l'abbé Serinet, je crois, un familier de Saint – Acheul. 
+            
+            (19) 
+            
+            MADAME SERVIÈRES. 
+            
+            Non, Monsieur. Ce beau domaine, une contre – lettre
+            
+            l'assure à Adèle, dont le père, M. Nisard, n'en avait fait
+            
+            qu'une vente simulée, à la suite de ses revers de fortune. 
+            
+            LAMBERT. 
+            
+            Des revers ! … Dites qu'il avait été victime de la plus
+            
+            insigne mauvaise foi. 
+            
+            MADAME SERVIènes. 
+            
+            C'est
+            
+            pour cela qu'on lui conseilla de mettre sous le nom
+            
+            de M. Jenneval, son associé, le seul immeuble qui lui
+            
+            restât, pour le conserver à sa fille. Vous comprenez ? 
+            
+            LAMBERT. 
+            
+            Pas trop… C'est une affaire embrouillée. Mais un avoué
+            
+            ne s'en tirerait que mieyx. L'essentiel sera de produire à
+            
+            "temps la contre – lettre. 
+            
+            MADAME SERVIÈRES. 
+            
+            Forcé de partir, mon mari l'a remise dans mes mains, 
+            en me prescrivant, pour ne pas donner l'éveil à des créan
+            
+            ciers prétendus, le plus profond silence sur cet acte pré
+            
+            cieux. 
+            
+            LAMBERT
+            
+            Quoi ! Tout le monde ignore ? …
+            
+            MADAME SERVIÈRES. 
+            
+            Jusqu'à Mme Derbin, jusqu'à Adèle elle – même. Ainsi, je
+            
+            compte sur votre discrétion. 
+            
+            LAMBERT. 
+            
+            Je ne vous ferai
+            
+            pas
+            
+            de serment ; cela ne prouve plus rien. 
+            
+            Mais je serai muet. 
+            
+            MADAME SERVIÈRES. 
+            
+            Adieu… Je vous laisse… Quelques apprêts pour le
+            
+            retour prochain de mon mari… Car on va liquider la
+            
+            succession, et il revient pour tâcher d'arranger tout à
+            
+            l'amiable. (Elle reprend l'aquarelle sur la table.)
+            
+            LAMBERT
+            
+            A l'amiable… Ce sera difficile, puisqu'il y a un Jésuite
+            
+            dans l'affaire…
+            
+            Par bonheur on commence à les mettre
+            
+            à la raison. 
+            
+            (La reconduisant. 
+            
+) Madame, votre
+            
+            très
+            
+            humble ! 
+            
+            (Madame Servières entre dans sa chambre.)
+            
+            3
+            
+            (
+            
+            18) 
+            
+            SCÈNE IX. 
+            
+            LAMBERT, seul…
+            
+            Adèle est riche ! … Me voilà donc libre, sans manquer
+            
+            à la reconnaissance ! Plus d'hymen par devoir… Plus
+            
+            d'inclination de rigueur ! … Je puis prétendre à celle que
+            
+            j'ai toujours aimée… Mme Derbin ! … Oh ! Dieu ! … Dans
+            
+            le temps, comme je l'aurais épousée, sans son mari ! …Et
+            
+            quand je pense qu'elle est veuve… Oui, mais le malheur, 
+            
+            c'est qu'il faut plaire… et qu'on ne plaît qu'avec de l'es
+            
+            prit… de la légèreté… des grâces… Quel ennui !. : : 
+            
+            C'est vrai… quand ce ne serait que pour cela, je voudrais
+            
+            être marié… parce que le mariage dispense… Il n'y faut
+            
+            que de l'amour et de la franchise… Ce n'est même pas
+            
+            toujours nécessaire… Mais, par exemple, dans le mien, 
+            
+            c'est un luxe que je me permettrais. Allons, allons, mon parti
+            
+            est pris… Je vais être amusant, léger, spirituele… C'est
+            un moment désagréable à passer. Et au moins après. 
+            
+            Oui… je me sens en verve… et je crois que si elle était
+            
+            là ! …
+            
+            MADAME DERBIN, à la cantonade. 
+            
+            Bien, bien ! Ne la dérangez pas…
+            
+            LAMBERT. 
+            
+            C'est elle ! … Ah ! mon Dieu ! voilà la peur qui me
+            
+            prend, et la maudite amabilité qui s'en va…, 
+            
+            SCÈNE X. 
+            
+            LAMBERT, 
+            2
+            
+            M
+            
+            DERBIN. 
+            
+            MADAME DERBIN, à part, en entrant. 
+            
+            Pauvre Adèle ! Ce que je viens d'apprendre… Tâchons
+            
+            à tout prix d'assurer son avenir. (Haut, en voyant Lambert.)
+            
+            Ah ! Vous voilà, M. Lambert ! 
+            
+            LAMBERT. 
+            
+            Oui, Madame… Votre amie me quitte…
+            
+            (19) 
+            
+            MADAME DERBIN. 
+            
+            Je le sais. Elle s'est enfermée, a – t – elle dit à ses gens, 
+            
+            pour mettre de l'ordre dans des papiers… Mais vous, 
+            vous êtes resté là tout seul… Je devine… Pour attendre
+            
+            quelqu'un que vous aimez. 
+            
+            LAMBERT. 
+            
+            Madame… Je n'attends plus…
+            
+            MADAME DERBIN. 
+            
+            Vraiment ? Adèle est donc chez elle… à son piano. 
+            
+            ou peut – être à dessiner… Car de sa chambre on a une
+            
+            vue… la mer… les falaises… C'est inspirateur. 
+            
+            Et comme vous ne pouvez y pénétrer seul… Venez…
+            
+            Je serai la fée protectrice qui vous introduirai dans l'asile
+            
+            de la jeune châtelaine… Vous pourrez lui parler en ma
+            
+            présence. 
+            
+            LAMBERT. 
+            
+            Ah ! Madame ! Quelle bonté ! Certainement par – tout où
+            
+            vous êtes… Un entretien avec elle… et même sans elle…
+            
+            MADAME DERBIN. 
+            
+            Allons, je vois quele métier de chaperon a son avantage…On
+            
+            y gagnedes compliments. Mais réservez les vôtres pourAdèle. 
+            
+            LAMBERT. 
+            
+            Oh ! Je sais que les miens ne l'intéressent guère, et qu'un
+            
+            autre plus capable de lui plaire… M. de Juvigny seul…
+            
+            MADAME DERBIN. 
+            
+            De la jalousie ! 
+            
+            LAMBERT. 
+            
+            Du tout, Madame, pas la moindre. 
+            
+            MADAMÉ DERBIN. 
+            
+            Ne vous en défendez pas. 
+            
+. 
+            
+. 
+            
+            Je puis la dissiper… Je
+            
+            quitte la femme du Sous – Préfet, et j'ai appris, le croiriez
+            
+            vous, que M. de Juvigny n'est qu'un infidelle. 
+            
+            LAMBERT. 
+            
+            Infidelle, lui ? … Et pour quelle femme ? 
+            
+            MADAME DERBIN. 
+            
+            On m'a tu le nom de celle qui est compromise. Mais le
+            
+            bruit se répand qu'hier un officier a surpris, chez M. de
+            
+            Juvigny, quelques lettres fort tendres d'une dame de cette
+            
+            ville, et il paraît même qu'une querelle provoquée par
+            
+            quelques plaisanteries. 
+            
+. 
+            
+, 
+            
+            (20) 
+            
+            LAMBERT. 
+            
+            C'est donc cela qu'il avait un air…
+            
+            MADAME DERBIN. 
+            
+            Quoiqu'il en soit, notre jeune amie est sacrifiée…
+            
+            N'est – ce pas affreux ? … Si elle avait de la fortune encore, 
+            
+            passe ! … Mais, quand elle est menacée de perdre touts les
+            
+            biens de son père… Renoncer à l'enrichir ! … Ah ! voilà
+            
+            qui est d'une indélicatesse… Je me disais : … Ce n'est pas
+            
+            M. Lambert qui serait capable d'un changement comme
+            
+            celui – là ! 
+            
+            LAMBERT, à
+            
+            part. 
+            
+            Diable soit de l'éloge ! … Il tombe bien. (Haut.) Ainsi, 
+            
+            Madame, vous croyez qu'une femme qui me confierait sa
+            
+            destinée. 
+            
+            MADAME DERBIN. 
+            
+            Vous devrait le bonheur… Je n'en doute pas…
+            
+            LAMBERT. 
+            
+            Oh ! oui… C'est bien vrai, Madame… Pourtant si
+            
+            c'était une femme qui ne fût plus jeune. 
+            
+            Comment ? 
+            
+            MADAME DERBIN. 
+            
+            LAMBERT. 
+            
+            Non, non, ce n'est pas cela… Une femme jeune encore…
+            
+            Mais je veux dire… d'une seconde jeunesse. 
+            
+            parce
+            
+            que… voyez – vous, une demoiselle de dix – huit ans
+            
+            7
+            
+            c'est bien frivole… au lieu qu'une personne raisonnable, 
+            
+            mûre, ayant acquis de l'expérience… (A part.) Pourvu
+            qu'elle prenne cela pour elle. 
+            
+            MADAME DER BIN. 
+            
+            Je ne vous comprends pas. 
+            
+. 
+            
+            LAMBERT. 
+            
+            Eh ! bien, Madame, c'est une veuve que je rendrais
+            
+            heureuse
+            
+            Voilà le fait ! … Et si
+            
+            j'osais… Si vous
+            
+            daigniez…
+            
+            MADAME DERBIN. 
+            
+            Arrêtez, Monsieur… Quoi, vous aussi ? … Ah ! c'est
+            
+            bien mal !. 
+            
+            Moi qui vous estimais ! … Qui avais de
+            
+            l'amitié pour vous… Mais après ce trait – là… C'est
+            
+            fini… Je ne vous reverrai de ma vie. 
+            
+            (21) 
+            
+            LAMBERT, à part. 
+            
+            Allons, la déclaration m'a joliment réussi, et me voilà
+            
+            bien avancé ! (Haut.) Madame…
+            
+            MADAME DERBIN. 
+            
+            Non, Monsieur, non… Quand vous m'auriez plu…
+            
+            Moi, contribuer à priver une jeune personne de la seule
+            
+            perspective de fortune que je lui voyais encore ! …
+            
+            LAMBERT. 
+            
+            Oh ! si vous n'êtes inquiète que pour sa fortune. 
+            
+. 
+            
+            Quand vous saurez qu'elle a déjà… (S'arrêtant, et à part.)
+            
+            Ah ! mon Dieu. ! …
+            
+            Expliquez – vous. 
+            
+            Si je pouvais ! …
+            
+            MADAME DERBIN. 
+            
+            LAMBERT, à part. 
+            
+            SCÈNE XI. 
+            
+            LAMBERT, M – DERBIN, L'ABBÉ SERINET, 
+            
+            UN DOMESTIQUE. 
+            
+            L'ABBÉ SERINET, au domestique. 
+            
+            Je vous répète que c'est moi, l'abbé Serinet, qui viens
+            
+            pour une succession. 
+            
+            Mon cousin ! 
+            
+            Le Jésuite ! 
+            
+            Mais Monsieur…
+            
+            MADAME DERBIN. 
+            
+            LAMBERT. 
+            
+            LE DOMESTIQUE. 
+            
+            L'ABBÉ SÉRINET. 
+            
+            Mon ami, en attendant, qu'il soit décidé si l'on veut me
+            
+            recevoir, je m'installe toujours… C'est notre système. 
+            
+            (Le domestique sort, l'abbé s'assied.) Monsieur et
+            
+            Madame, vous me permettrez de m'asseoir. 
+            
+            LAYBERT. 
+            
+            Ne vous gênez pas… Faites comme chez vous. 
+            
+            (22) 
+            
+            L'ABBÉ SERINET. 
+            
+            C'est par – tout notre usage. Ouf ! … je suis moulu. Ah ! 
+            
+            les diligences ! … Que de cahots, de soubresauts ! 
+            
+. 
+            
+            Sans parler de la conversation et des moeurs
+            
+            MADAME DERBIN. 
+            
+            Pourquoi n'avoir pas pris une chaise de poste ? 
+            
+            L'ABBÉ SERINET. 
+            
+            Hélas ! ma bonne Dame, dans ces temps de persécution
+            
+            et de martyre, loin d'irriter par le faste, nous devons mettre
+            
+            dans tout són jour notre humilité, notre résignation…Ouf…
+            
+            MADAME DERBIN. 
+            
+            Si vous ôtiez votre manteau… Je vais vous aider…
+            
+            L'ABBÉ SERINET. 
+            
+            Volontiers…
+            
+. (Madame Derbin lui ôte son manteau ; 
+            
+            il en tombe un poignard et un pistolet…) 
+            
+            LAMBERT
+            
+            Que vois – je ! … Des armes ! … Si c'est comme cela que
+            
+            vous vous résignez. 
+            
+            L'ABBÉ SERINET. 
+            
+            Oh ! Un tout petit poignard… et, quant au pistolet, il
+            
+            ne fait pas grand bruit. 
+            
+            LAMBERT, ramassant le pistolet. 
+            
+            Je crois bien… Un pistolet à vent… Ah ! c'est bien
+            
+            de votre robe ! 
+            
+            
+            <div type="poem"> <lg>
+                
+                    L'ABBÉ SERINET. 
+                
+            
+            
+                
+                    Jeune homme, vous parlez le langage de nos ennemis. 
+            
+                    C'est très bien. Moi aussi, je le parle quelquefois. Je leur ai
+            
+                    même juré fidélité ; c'est notre maxime. Mais croyez – moi, 
+            
+                    rapprochez – vous de nous en secret. Soyez sûr que nous
+            
+                    reviendrons sur l'eau : c'est notre habitude. 
+                
+            
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Nos maris en Palestine. 
+                </stage>
+            
+            
+               
+                    <l>J'avais quitté mon costume</l>
+                    <l>Au premier moment du danger.</l>
+                    <l>Mais de la voix et de la plume,</l>
+                    <l>On commence à nous protéger ;</l>
+                    <l>Le combat va se rengager.</l>
+                    <l>Que pas un de nous ne bouge ;</l>
+                    <l>À Paris, nous sommes au pair ;</l>
+                    <l>Soufflons le feu pour cet hiver ;</l>
+                    <l>Et nous rentrerons à Montrouge</l>
+                    <l>Par la barrière d'enfer.</l>
+                
+            
+            </lg> </div>
+            
+            
+            (A madame Derbin.)
+            
+            Vous sur – tout, ma bonne Dame, devenez notre alliée ; 
+            
+            aidez – nous à gagner des ames. Vous êtes jolie, très jolie ; 
+            
+            cela peut servir… Tout nous sert… (L'observant.) Eh ! mais, 
+            
+            je nemetrompe pas… Ces traits, cette physionomie ! … C'est
+            
+            Mme Derbin… Une parente ou du moins une alliée. 
+            
+            MADAME DERBIN. 
+            
+            De votre famille… non pas de votre cause. Mais
+            
+            comment me reconnaissez – vous ? Nous ne nous sommes
+            
+            jamais trouvés ensemble. 
+            
+            LAMBERT, bas à madame Derbin. 
+            
+            Je vous en félicite. 
+            
+            L'ABBÉ SERINET. 
+            
+            C'est tout simple. Il y avait chez votre oncle, feu mon
+            
+            cousin, un grand portrait qui vous représentait en costume
+            
+            debal, avec des nudités, Dieu sait ! … Comme c'est moi qui ai di
+            
+            rigé le bon vieillard dans ses derniers moments, je lui ai fait
+            
+            sentirle périld'une peinture aussi fallacieuse… et, pourson sa
+            
+            lut, j'ai emporté le tableau que j'ai placé dans mon oratoire, en
+            
+            me disant : « Je supposerai que c'est une sainte. L'intention
+            » sanctifie tout. j'en ai fait une Madeleine repentante. 
+            
+            C'est aimable. 
+            
+            LAMBERT. 
+            
+            MADAME DERBIN, riant, 
+            
+            Par exemple, moi en Madeleine ! … Ah çà, vous me
+            
+            rendrez mon portrait, j'espère. 
+            
+            L'ABBÉ SERINET. 
+            
+            Ma belle, tout ce qui sort de nos mains, « y rentre ; mais
+            
+            tout ce qui une fois y est entré, n'en sort jamais. C'est notre
+            
+            règle. 
+            
+            MADAME DERBIN. 
+            
+            Elle a son avantage. Eh ! bien, mon cousin, nous pou
+            
+            vons nous entendre. Je ne ferai que rire de cette belle mé
+            
+            tamorphose, et je vous la pardonnerai même, à une condi
+            
+            tion qui dépend de vous, de vous seul ; c'est que vous me
+            
+            secondiez pour faire une bonne peuvre. 
+            
+            (24) 
+            
+            L'ABBÉ SERINET. 
+            
+            Une bonne quvre ! C'est notre devoir…. 
+            
+            J'y réflé
+            
+            chirai… J'y réfléchirai très long – temps. 
+            
+            MADAME DERBIN. 
+            
+            Il n'y a pas besoin de réflexion pour cela ; il ne faut qu'un
+            
+            bon coeur. Il s'agit de restituer à une jeune orpheline un
+            
+            domaine que son père fut forcé de vendre à mon oncle. 
+            
+            1
+            
+            Chère Mº • Derbin ! 
+            
+            LAMBERT, à part. 
+            
+            L'ABBÉ SERINET. 
+            
+            Ah ! ma cousine, je le voudrais ; mais notre cause, notre
+            
+            sainte cause ! … Elle ne peut se soutenir qu'à force d'ar
+            
+            gent ; et c'est sans doute pour cela que la providence m'a
+            
+            fait la grâce de retirer de ce monde le cousin dont j'hérite
+            
+            avant vous… Ah ! s'il eût voulu me croire tout – à – fait ! …
+            
+            MADAME DERBIN. 
+            
+            J'entends ; au lieu de l'usufruit, vous auriez eu la pro
+            
+            priété. 
+            
+            L'ABBÉ SERINET. 
+            
+            Rien que pour l'employer à des dons pieux, à des fon
+            
+            dations méritoires. 
+            
+            MADAME DERBIN. 
+            
+            Qu'est – ce qu'il y a de plus méritoire que d'assurer une
+            
+            dot à une jeune personne ? 
+            
+            L'ABBÉ SERINET. 
+            
+            Une dot ! … Une jeune personne peut s'égarer dans le
+            
+            monde… Faisons mieux. 
+            
+            Je la placerai dans un couvent
+            
+            d'Ursulines. 
+            
+            MADAME DERBIN. 
+            
+            Quelle horreur ! Mon Adèle ! …
+            
+            L'ABBÉ SERINET. 
+            
+            Elle s'appellera soeur Adèle… Du reste, je ne veux pas
+            
+            la voir ; comme je viens pour la ruiner, cela ne serait pas
+            charitable. 
+            
+            MADAME DERBIN. 
+            
+            Quoi ! Aucun arrangement ? 
+            
+            L'ABBÉ SERINET. 
+            
+            J'en suis désolé… Mais impossible… Mes titres sont
+            en règle, il faut que j'hérite… C'est une tâche que m'im
+            
+            pose la providence. 
+            
+            (
+            
+) 
+            
+            LAMBERT. 
+            
+            Allez, Madame, ne tourmentez pas votre cousin…
+            
+            Laissez – le hériter à son aise de tout ce qui lui reviendra. 
+            
+            L'ABBÉ SERINET. 
+            
+            A la bonne heure ! Voilà un conseil… Monsieur est
+            
+            avoué ? 
+            
+            LAMBERT. 
+            
+            Non, Monsieur ; mais je suis sensible. 
+            
+            L'ABBÉ SERINET. 
+            
+            Ah ! C'est différent ! 
+            
+            LAMBERT, à madame Derbin. 
+            
+            Si je dissipe vos craintes, si je vous atteste qu'Adèle sera
+            
+            riche, heureuse, m'aimerez – vous ? 
+            
+            Lambert ! …
+            
+            MADAME DERBIN. 
+            
+            L'ABBÉ SERINET. 
+            
+            Qu'entends – je ? …
+            
+            Serez – vous à moi ? 
+            
+            LAMBERT. 
+            
+            MADAME DERBIN. 
+            
+            Eh ! bien, oui ! … J'y consens. 
+            
+            L'ABBÉ SERINET. 
+            
+            Quel scandale ! Est – ce que je suis encore en diligence ? 
+            
+            MADAME DERBIN. 
+            
+            Ma foi, mon cousin, s'il y a du mal, ce sont vos refus
+            
+            qui en sont cause… Achevez, Lambert, apprenez – moi
+            
+            un secret…
+            
+            LAMBERT. 
+            
+            Non, pas encore…Mais fiez – vous à moi, et qu'il vous
+            
+            suffise de savoir que Monsieur n'aura pas le domaine sur
+            
+            lequel il compte. 
+            
+            Quoi ! …
+            
+            MADAME DERBIN. 
+            
+            L'ABBÉ SERINET. 
+            
+            Je n'aurai pas le domaine ! Et qui m'en empêchera ? …
+            
+            Un complot ! Une trahison ! 
+            
+            LAMBERT. 
+            
+            Ce serait dans votre genre… Non, non, quelque chose
+            
+            de très légal. 
+            
+            (26) 
+            
+            L'ABBÉ SERINET, à part. 
+            
+            Quelque chose de légal : tout est perdu ! … Si la pro
+            
+            videuce ne s'en mêle pas. 
+            
+            En attendant, surveillons bien. 
+            
+            SCÈNE XII. 
+            
+            LAMBERT, Mme DERBIN, L'ABBÉ SERINET, ADÈLE ; 
+            
+            puis M ** SERVIÈRES. 
+            
+            ADÈLE, accourant par le fond. 
+            
+            Venez vite ! 
+            
+            MADAME DERBIN. 
+            
+            Adèle, que voulez – vous ? 
+            
+            M – Servières. 
+            
+            Elle n'est
+            
+            pas
+            
+            ici. 
+            
+            ADÈLE. 
+            
+            LAMBERT. 
+            
+            ADÈLE. 
+            
+            Oui, 
+            
+            je sais qu'elle est dans sa chambre… à ranger
+            
+            des
+            
+            papiers. (Frappant à la porte à droite.) Ouvrez, ouvrez
+            
+            bien vîte ! 
+            
+            MADAME SERVIÈRES, entrant avec trouble. 
+            
+            Mevoici ! … Qu'y a – t – il ?. 
+            
+            Que veut – on ? 
+            
+            mt
+            
+            Mon tuteur est arrivé ! 
+            
+            M. Servières ! 
+            
+            1
+            
+            ADÈLE. 
+            
+            TOUTS. 
+            
+            (Ici l'orchestre joue en sourdine pendant la phrase que
+            
+            dit Adèle) .
+            
+            ADÈLE. 
+            
+            Oui, comme par miracle ! … La brume était si épaisse…
+            
+            Tout à coup elle est tombée, et le vaisseau entrait dans le
+            
+            port… Mou tuteur est sur le rivage. 
+            
+. 
+            
+. Venez vîte ! …
+            
+            Vous le connaissez… S'il ne vous voyait pas la première…
+            
+            Elle a raison, chère amie, partons ! 
+            
+            MADAME DERBIN. 
+            
+            * Lambert, madame Derbin, madame Servières, Adèle, 
+            
+            l'Abbé Serinet. 
+            
+            (27) 
+            
+            L'ABBÉ SERINET. 
+            
+            Madame, je vous suivrai… Je veux voir M. Servières
+            
+            avant qu'on l'ait circonvenu, prévenu contre moi. 
+            
+            LAMBERT, bas à madame Servières. 
+            
+            Méfiez – vous. 
+            
+            C'est le Jésuite ! 
+            
+            Venez ! 
+            
+            L'ABBÉ SERINET. 
+            
+            MADAME Servières. 
+            
+            Je ne puis encore… Dans un instant. 
+            
+            L'ABBÉ SERINET. 
+            
+            Madame, pourquoi ce retard ? … Il m'est suspect…
+            
+            Je ne vous quitte pas…
+            
+            MADAME SERVIÈRES, à
+            
+            part. 
+            
+            Ciel ! (Haut.) Eh ! bien, Monsieur, partons ! 
+            
+            LAMBERT. 
+            
+            Je cours dans la ville prévenir touts nos amis. (Il sort.)
+            
+            ADÈLE. 
+            
+            Moi, donner des ordres dans la maison. (Elle sort.)
+            
+            MADAME SERVIÈRES,' à madame Derbin, pendant que
+            
+            l'abbé met son manteau. 
+            
+            Chère amie… Cette clef… Dans mon secrétaire…
+            
+            Des papiers épars… Des lettres entr'ouvertes… Brûlez
+            
+            tout… oui, tout… sur le champ… N'y manquez pas…
+            
+            Je compte sur vous ! 
+            
+            L'ABBÉ SERINET, 
+            
+            qui a observé' madame Servières, 
+            
+            Eh ! bien, Madame…
+            
+            MADAME SERVIERES. 
+            
+            Me voici, Monsieur. (Elle sort avec l'abbé, 
+            
+            en faisant
+            
+            un signe à madame Derbin. Près de la porle, elle tend la
+            
+            main à l'abbé, comme pour qu'il la conduise. Il se
+            recule, en saluant avec bigoterie.)
+            
+            SCÈNE XIII. 
+            
+            MADAME DERBIN, seule. 
+            
+            Que me dit – elle ? Son trouble, l'altération de ses traits
+            
+            et de sa voix ! … Elle que je croyais la vertu même ! … Se
+            
+            pourrait – il ? … Oh ! non, non ! … Loin de moi cette
+            
+            pensée ! … Soupçonner une amie ! … Je suis sûre qu'un
+            
+            motif honorable… Et pourtant, je ne sais… J'hésite…
+            
+            (28) 
+            
+            Tout autre service me coûterait moins à lui rendre… Si
+            
+            l'on me voyait… Impossible ! … Cette chambre a une
+            
+            double porte ; et, en sortant par l'autre… Elle compte sur
+            moi, m'a – t – elle dit… Ce mot doit me suffire ! 
+            
+            I
+            
+            (Elle entre dans la chambre à gauche.)
+            
+            SCÈNE XIV. 
+            
+            ADÈLE, entrant par le fond. 
+            
+            Mais, où donc ai – je pu mettre cette aquarelle ? Voilà une
+            
+            heure que je la cherche… Elle devrait être ici. (Cherchant
+            
+            sur la table.) Non, rien. (Elle cherche du côté de la
+            
+            porte de la chambre de Mme Servières.)
+            
+            (Musique en sourdine jusqu'à la
+            
+            fin de cette scène.)
+            
+            Que vois – je ? Mme Derbin…. Elle rassemble des papiers…
+            
+            les jette au feu…. (Se rapprochant de la scène.) J'y suis ! …
+            
+            Sans doute une commission que lui a donnée Mme Servières…
+            
+            Il faut que je lui demande… (Revenant à la porte.) Tiens ! …
+            
+            C'est singulier ! … Elle est sortie par le boudoir ! 
+            
+            SERVIÈRes, dans la coulisse. 
+            
+            Oui, mes amis, attendez – moi, je suis à vous dans l'ins
+            
+            tant. 
+            
+            ADÈLE,'
+            
+            Mon tuteur ! … Courons l'embrasser ! …
+            
+            SCÈNE XV. 
+            
+            +
+            
+            L'ABBÉ SERINET, ADÈLE, SERVIÈRES, 
+            
+            Mme SERVIÈRES. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    SERVIÈRES. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Sorte seconda mi. (De la Zelmira.)
+                </stage>
+            
+            
+               
+                    <l>Retrouver son pays</l>
+                    <l>Et des objets chéris,</l>
+                    <l>Embrasser ses amis,</l>
+                    <l>Bonheur sans prix !</l>
+                    <l>Oui, revoir ses amis</l>
+                    <l>C'est un bonheur sans prix,</l>
+                    <l>Et j'en jouis !</l>
+                    <l>Viens, mon Adèle ! …</l>
+					 (À Adèle.) (Il l'embrasse.) (Bas à sa femme.)
+                    <l>Comme elle est belle !</l>
+                    <l>Ah ! dans ces yeux si doux,</l>
+                    <l>On peut lire, entre nous,</l>
+                    <l>Qu'elle fera le bonheur d'un époux.</l>
+               
+            
+            
+            
+                
+                    ENSEMBLE. {
+				
+                   <l ana="unanalyzable">Oui dans ces yeux si doux, etc…</l>
+                
+            
+                
+                    MADAME SERVIÈRES. 
+                
+            
+               
+                    <l>Oui, dans ses yeux si doux,</l>
+                    <l>Je lis, ainsi que vous,</l>
+                    <l>Qu'elle fera le bonheur d'un époux.</l>
+                
+            
+                
+                    ADÈLE
+                
+            
+                
+, à Servières. 
+                
+            
+            
+               
+                    <l>Ah ! combien il m'est doux <stage type="repetition"> (bis.)</stage></l>
+                    <l>De vous revoir en ces lieux avec nous.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            SERVIÈRES. 
+            
+            Chère Adèle, nous nous occupons de toi… Laisse – nous
+            
+            encore quelques minutes… Nous nous reverrons bientôt
+            
+            et long – temps. 
+            
+            ADÈLE. 
+            
+            Oui, mon tuteur… (Se retournant.) Oui, mon tuteur…
+            
+            (Elle sort.)
+            
+            SCÈNE XVI. 
+            
+            L'ABBÉ SERINET, SERVIÈRES, Mme SERVIÈRES. 
+            
+            SERVIÈRES, à l'Abbé Serinet. 
+            
+            Monsieur, après l'explication que je viens de vous donner, 
+            
+            j'ai peine à concevoir votre défiance ; mais, comme j'ai les
+            
+            preuves en main, j'espère qu'à la vue de l'acte, vos doutes
+            
+            cesseront ; il est dans le secrétaire de ma femme, et je vais
+            
+            moi – même… (Il va pour sortir.)
+            
+            MADAME SERVIÈRES, vivement. 
+            
+            Non, restez ! … (Plus tranquillement.) Ne prenez pas
+            
+            cette peine… Je sais où il est. 
+            
+            (30) 
+            
+            SERVIÈRES. 
+            
+            Comme tu voudras, Hortense. (Madame Servières entre
+            
+            dans sa chambre.)
+            
+            L'ABBÉ SERINET. 
+            
+            Je n'en revienspas ! … Mon cousin ! … Quelle malice ! …
+            
+            M'avoir caché un pareil secret ! 
+            
+            SERVIÈRES. 
+            
+            Il avait juré de le taire. 
+            
+            L'ABBÉ SERINET. 
+            
+            Cela ne faisait rien. Nous relevons des serments. Perdre un
+            
+            domaine de trois cent mille francs ! Cela fait, par an, 
+            
+            quinze mille livres. Je comptais en arrivant, toucher une
+            
+            année de revenu… C'eût été bien utile à notre pauvre
+            
+            société, qu'on opprime, qu'on dépouille…. 
+            
+            SERVIÈRES. 
+            
+            Plaignez – la, après le bel état où elle a failli à mettre la
+            
+            France. 
+            
+            L'ABBÉ SERINET. 
+            
+            Ah ! Monsieur ! L'amour du bien public brûlait nos
+            
+            ames… Et les aumônes ! … Il y a tant de pauvres qui ne
+            
+            reçoivent que de nous ! 
+            
+            SERVIÈRES. 
+            
+            C'est peut – être pour cela qu'ils restent pauvres. 
+            
+            
+            <div type="poem"> <lg>
+            
+                L'ABBÉ SERINET. 
+            
+            
+           
+           
+                <stage type="tune">
+                    AIR : Ces Postillons. 
+                </stage>
+            
+            
+               
+                    <l>Voilà pourtant, hélas ! comme on nous juge !</l>
+                    <l>Nous ne voulions que le bien des Français.</l>
+                    <l>Oui, dans nos cœurs, nous trouvons un refuge ;</l>
+                    <l>Et, si l'on a méconnu nos bienfaits,</l>
+                    <l>C'est que par goût nous les tenons secrets.</l>
+                    <l>Sachez, Monsieur, que quand on fait l'aumône,</l>
+                    <l>Se bien cacher, convient à la vertu.</l>
+                    <l>Nous donnons touts, et beaucoup… Mais personne</l>
+                    <l>N'en a jamais rien vu.</l>
+            </lg> </div>
+            
+            
+            
+            
+            MADAME SERVIÈRES, troublée, sortant de sa chambre. 
+            
+            Je ne la trouve plus… J'ignore où elle peut être ! …
+            
+            SERVIÈRES. 
+            
+            Comment ? … La contre – lettre ! …'
+            
+            (31) 
+            
+            MADAME SERVIÈRES. 
+            
+            Elle a disparu. 
+            
+            L'ABBÉ SERINET, à
+            
+            part. 
+            
+            Quel bonheur ! … (Haut.) Eh ! bien, Monsieur, cet acte
+            
+            4
+            
+            foudroyant ! …
+            
+            SERVIERES. 
+            
+            Un instant, Monsieur ! (A sa femme.) Elle était dans
+            
+            votre secrétaire ! … Personne que vous n'en a la clef ? …
+            
+            Personne. 
+            
+            MADAME SERVIÈRES. 
+            
+            SERVIÈRES. 
+            
+            Il faut chercher encore…, Elle ne peut être qu'é
+            
+            garée…
+            
+            L'ABBÉ SERINET. 
+            
+            Monsieur, j'attends toujours…
+            
+            SERVIÈRES. 
+            
+            Eh ! je le sais, Monsieur… Mais vous me laisserez
+            
+            bien le temps : 
+            
+            Qu'entends – je ! On vient ! … Ce sont
+            
+            nos amis ! … Nos convives ! … (A l'abbé.) En leur
+            
+            présence, pas un mot, je vous prie. 
+            
+            L'ABBÉ SERINET. 
+            
+            Oui, oui, Monsieur. (A part.) Je me tairai, si on me
+            
+            paie. 
+            
+            SCÈNE XVII. 
+            
+            Les mêmes ; LAMBERT, Mme DERBIN, ADÈLE ; 
+            
+            Amis de Servières. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    LE CHŒUR, 
+                
+            
+                
+                    <stage type="tune" id=" AIR : Sorte seconda mi. (De la Zelmira.)">AIR : de la Zelmira. (Reprise du précédent.)</stage>
+					
+            
+            
+                
+                    <l>Retrouver son pays</l>
+                    <l>Et des objets chéris,</l>
+                    <l>Embrasser ses amis,</l>
+                    <l>Bonheur sans prix !</l>
+                
+            
+                
+                    SERVIÈRES. 
+                
+            
+               
+                    <l>Oui, revoir ses amis,</l>
+                    <l>C'est un bonheur sans prix,</l>
+                    <l>Et j'en jouis.</l>
+                    (Leur serrant la main.) (Bas à sa femme.) (Montrant l'abbé Serinet.)
+                    <l>Ah ! quelle ivresse ! …</l>
+                    <l>Pas de tristesse.</l>
+                    <l>À des regards jaloux,</l>
+                    <l>Sur–tout dérobons–nous.</l>
+                     (Haut.)<l>Ah ! pour mon cæur que ce moment est doux !</l>
+                
+            
+                
+                    ENSEMBLE. 
+               
+            
+                
+                    LE CHŒUR ET SERVIÈRES. 
+                
+            
+                
+                    <l>Ah ! quelle ivresse !</l>
+                    <l>Quelle allégresse !</l>
+                    <l>Au plaisir livrons – nous ! <stage type="repetition"> (bis) </stage></l>
+                    <l>Ah ! pour nos cœurs que ce moment est doux !</l>
+                
+            
+                
+                    MADAME SERVIÈRES
+                
+            
+                
+, à part. 
+                
+            
+            
+               
+                    <l>Quelle tristesse !</l>
+                    <l>Ah ! de faiblesse</l>
+                    <l>Je sens fuir mes genous.</l>
+                        (Haut.)
+                        <l>À l'espoir livrons–nous ;</l>
+                    <l>Ah ! pour mon cœur que ce moment est doux !</l>
+                
+            
+                
+                    L'ABBÉ SERINET
+                
+            
+                
+, observant madame Servières. 
+                
+            
+            
+            
+                    <l>Quelle tristesse !</l>
+                    <l>Ma crainte cesse.</l>
+                    <l>À l'espoir livrons-nous. <stage type="repetition"> (bis) </stage></l>
+                    <l>Ah ! pour mon coeur que ce moment est doux !</l>
+                
+            
+            </lg> </div>
+            
+            
+            Les messieurs donnent la main aux dames. L'abbé sort le dernier.)
+            
+            FIN DU PREMIER ACTE. 
+            
+            LA CONTRE – LETTRE. 
+            
+            MMWMWWWM
+            
+            WIMWMMW
+            
+            ACTE DEUXIÈME. 
+            
+            MÊME DÉCORATION. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            MM DERBIN, LAMBERT, entrant par le fond. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+                <stage type="tune">
+                    AIR allemand. 
+                </stage>
+            
+            
+                
+                    LAMBERT. 
+                
+            
+                
+                    <l>Ah ! calmez–vous !</l>
+                    <l>Plus de courroux !</l>
+                
+            
+                
+                    MADAME DERBIN. 
+                
+            
+               
+                    <l>Non, vous méritez ma colère.</l>
+                    <l>Car il paraît</l>
+                    <l>Que sans regret,</l>
+                    <l>Vous pouvez trahir un secret.</l>
+                
+            
+                
+                    LAMBERT
+                
+           
+               
+                    <l>De mon amour,</l>
+                    <l>Sans nul détour,</l>
+                    <l>J'ai parlé… Devais – je le taire ?</l>
+                
+            
+                
+                    MADAME DERBIN. 
+                
+            
+            
+                
+                    <l>On peut fort bien</l>
+                    <l>Parler du sien ;</l>
+                    <l>Mais n'avez – vous rien dit du mien ?</l>
+                
+            
+                
+                    LAMBERT
+                
+            
+                
+                    <l>Quand dans ses vœux</l>
+                    <l>On est heureux,</l>
+                    <l>Je ne conçois pas le mystère !</l>
+                
+            
+                
+                    MADAME DERBIN. 
+                
+            
+                
+                    <l>C'est une erreur ;</l>
+                    <l>Sachez, Monsieur,</l>
+                    <l>Que rien ne sied mieux au bonheur.</l>
+                
+            
+           
+                    ENSEMBLE. {
+				
+            
+                
+                    LAMBERT, 
+                
+            
+                
+                   <l>Ah ! calmez – vous !</l>
+                    <l>Plus de courroux !</l>
+                    <l>À quoi servirait de me taire ?</l>
+                    <l>Avec regret</l>
+                    <l>Mon cœur verrait</l>
+                    <l>Que vous l'obligez au secret.</l>
+               
+            
+                
+                    MADAME DERBIN, 
+                
+            
+               
+                    <l>Ah ! taisez – vous,</l>
+                    <l>Ou mon courroux</l>
+                    <l>Va prendre un ton bien plus sévère.</l>
+                    <l>Car il paraît</l>
+                    <l>Que sans regret,</l>
+                    <l>Vous pouvez trahir un secret.</l>
+                
+            
+            </lg> </div>
+            
+            
+            LAMBERT. 
+            
+            
+            h ! bien, c'est vrai… J'avais besoin de proportionner
+            
+            mes confidences à l'excès de mon bonheur…
+            
+            Et j'étais
+            
+            si heureux…
+            
+            MADAME DERBIN. 
+            
+            Que vous en avez parlé à tout le monde, et qu'en un
+            
+            instant j'ai été le point de mire de toute la société. 
+            
+            <div type="poem"> <lg>
+            
+                
+                    LAMBERT. 
+                
+            
+            
+                
+                    Dame ! aussi, vous auriez dû me prévenir d'être mysté
+            
+                    rieux… Est – ce que je sais la tenue de rigueur, pour un
+            
+                    homme qui se trouve aimé ? … Quand on
+            
+                    n'en a
+            
+                    pas
+            
+                    l'ha
+            
+                    bitude…
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Du fleuve de la vie. 
+                </stage>
+            
+            
+                    <l>Et puis mon ame était si fière</l>
+                    <l>De cet amour que j'obtenais !</l>
+                    <l>Vous avez pu vouloir le taire,</l>
+                    <l>Vous qui taisez touts vos bienfaits.</l>
+                    <l>Mais moi, si, dans mon espérance,</l>
+                    <l>Je fus indiscret aujourd'hui,</l>
+                    <l>J'en avais le droit : c'est celui</l>
+                    <l>De la reconnaissance.</l>
+                
+            
+            </lg> </div>
+            
+            
+            Du reste, soyez tranquille ; j'ai annoncé tout de suite le
+            
+            mariage… Je me serais tu sans cela…
+            
+            MADAME DERBIN. 
+            
+            Comment sans cela ? …
+            
+            (35) 
+            
+            LAMBERT. 
+            
+            Pardon… Je voulais dire…
+            
+            MADAME DERBIN. 
+            
+            Je crois que vous perdez la raison. 
+            
+            LAMBERT. 
+            
+            Pour vous, et je ne la regrette pas. 
+            
+            MADAME. DERBIN. 
+            
+            Comment va – t – on me juger ? … Une veuve de mon âge, 
+            
+            qui se remarie avec un homme tel que vous, doit trouver
+            
+            plus d'un censeur. 
+            
+            LAMBERT. 
+            
+            Au fait… C'est probable. 
+            
+            MADAME DERBIN. 
+            
+            Hein ! Plaît – il, Monsieur ? …
+            
+            LAMBERT. 
+            
+            Oui… des censeurs, vous en trouverez beaucoup…
+            
+            Mais moi… je ne trouverai que des enyieux. 
+            
+            MADAME DERBIN. 
+            
+            Flatteur ! … Mais, dites – moi, … avez – vous remarqué
+            
+            pendant le dîner le trouble de Mme Servières… celui de
+            son mari…
+            
+            Moi… non… Je n'ai remarqué rien, … ni personne
+            
+            LAMBERT. 
+            
+            C'est – à – dire, rien qu'une personne. 
+            
+            MADAME DERBIN. 
+            
+            Ah ! ne plaisantez pas, de grâce… Je ne sais… Mais
+            
+            il se passe ici quelque chose de sérieux qui m'étonne…
+            
+            qui m'alarme. 
+            
+            Quoi donc ? 
+            
+            LAMBERT. 
+            
+            MADAME DERBIN. 
+            
+            C'est un secret… un secret que je n'ose comprendre…
+            
+            le seul que j'aurai pour vous… Car il n'est pas
+            
+            le mien…
+            
+            Ah ! mon ami… Votre femme serait trop malheureuse, 
+            
+            si elle était jamais réduite à craindre vos regards. 
+            
+            SCÈNE II. 
+            
+            L'ABBÉ SERINET, M ** DERBIN, LAMBERT. 
+            
+            L'ABBÉ SERINET, entrant par le fond. 
+            
+            Ah ! enfin… Je triomphe ! 
+            
+            (36) 
+            
+            MADAME DERBIN. 
+            
+            Quoi donc ? … Qu'avez – vous ? 
+            
+            L'ABBÉ SERINET. 
+            
+            Ce que j'ai ?. «. Mes cent mille écus. 
+            
+            qu'on cherche
+            
+            à me les disputer maintenant ! 
+            
+            LAMBERT. 
+            
+            Comment ? 
+            
+            L'ABBÉ SERINET. 
+            
+            Oui, ma cousine, avec votre sensibilité… et vous, 
+            
+            Monsieur, avec vos airs d'importance… je sais ce dont
+            Par malheur pour votre
+            vous me menaciez ce matin. 
+            
+            petit plan, 
+            
+            il n'y manque qu'une chose… C'est la
+            
+            contre – lettre. 
+            
+            Plaît – il ? …
+            
+            LAMBERT. 
+            
+            MADAME DERBIN. 
+            
+            Quelle contre – lettre
+            
+            LAMBERT. 
+            
+            Comment a – t – elle disparu ? 
+            
+            
+            <div type="poem"> <lg>
+                
+                    L'ABBÉ SERINÉT. 
+                
+            
+            
+                
+                    Je l'ignore. Les voies de la providence sont incompré
+            
+                    hensibles. Quoi qu'il en soit, j'avais bien peur : je n'en ai
+            
+                    presque pas dîné. Mais, tout à l'heure, M. Servières m'a
+            
+                    prié de venir l'attendre dans ce salon, et, à son air humble, 
+            
+                    1
+            
+                    j'ai conclu que cela tournait mal pour lui… On est inso
+            
+                    lent quand on compte réussir… Je ne doute plus de mon
+            
+                    succès. Quinze mille livres de rente, cela sera si bien em
+            
+                    ployé ! 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR de partie et revanche. 
+                </stage>
+            
+            
+             
+                    <l>Contre nous lorsque la fortune</l>
+                    <l>Se déclare en France aujourd'hui,</l>
+                    <l>Nous faisons touts bourse commune</l>
+                    <l>Pour soutenir notre parti ;</l>
+                    <l>J'y veux contribuer aussi.</l>
+                    <l>Nous avons des millionnaires,</l>
+                    <l>Et nous pourrons pendant long – temps,</l>
+                    <l>Payer des petits séminaires</l>
+                    <l>Et des petits rassemblements.</l>
+                
+            
+            </lg> </div>
+            
+            
+            O providence, je te rends grâce ! 
+            
+            (37) 
+            
+            LAMBERT, bas à madame Derbin. 
+            
+            Ah ! mon Dieu ! Il a une joie qui m'épouvante. Quand
+            
+            ces gens – là remercient le ciel, on doit s'attendre à un
+            
+            malheur. Madame, je vous en prie, rejoignez Mme Ser
+            
+            vières, tâchez de lui parler seule… de savoir…
+            
+            MADAME DERBIN. 
+            
+            Oui, vous avez raison… Cette chère Adèle ! … Si elle
+            
+            restait pauvre, que penserait – on de moi ? Ah ! 
+            
+            si vous
+            
+            n'aviez pas confié nos projets à tout le monde, je vous
+            
+            ordonnerais d'y renoncer. 
+            
+            LAMBERT. 
+            
+            Pourrais – je donc vous obéir ? 
+            
+            L'ABBÉ SERINET. 
+            
+            C'est cela, complotez encore… tramez contre moi, … tramez
+            
+            donc… Je dédaigne vos ruses…La providenceles déjouera…
+            
+            MADAME DERBIN, à l'abbé, avec dignité. 
+            
+            Monsieur
+            
+            ce serait m'abaisser que de répondre à vos
+            
+            accusations… Je n'ai point agi contre vous… Tantôt, il
+            
+            est vrai, 
+            
+            j'ai fait un appel à votre générosité… C'était
+            
+            une erreur, vous me l'avez prouvé… Mais ce n'était pas
+            
+            un tort… Quant à cette pauvre Adèle, j'ignore quels
+            
+            revers compromettent son héritage ; mais, puisque j'ai fixé
+            
+            mon avenir, ce ne sera pas du moins aux dépens du sien…
+            
+            Quoi qu'il arrive, la maison que j'habiterai lui sera désor
+            
+            mais ouverte… Elle aura toujours un protecteur, c'est
+            
+            mon mari… une amie, c'est moi… une fortune, ce
+            
+            sera la nôtre. (Elle sort par le fond.)
+            
+            L'ABBÉ SERINET, qui, pendant cette tirade, a mangé des
+            
+            pastilles dans une boîte qu'il a tirée de sa poche. 
+            
+            Amen ! …. 
+            
+            SCÈNE III. 
+            
+            LAMBERT, L'ABBÉ SERINET. 
+            
+            Voilà de la noblesse ! de la franchise ! …
+            
+            L'ABBÉ SERINET. 
+            
+            LAMBERT. 
+            
+            Oui, elle joue très bien le désintéressement ! … C'est, 
+            
+            comme tout à l'heure, sa surprise en s'écriant : quelle
+            
+            contre – lettre ? Elle feignait de ne passavoir d'avance…
+            
+            (58) 
+            
+            LAMBERT. 
+            
+            Pour cela, je réponds qu'elle n'en savait rien…
+            
+            L'ABBÉ SERINET. 
+            
+            Laissez donc. Mme Servières lui avait confié son em
+            
+            barras. 
+            
+            J'ai des yeux ; tantôt, quand on annonçait le retour
+            
+            du mari, 
+            
+            j'ai remarqué qu'elles se parlaient bas toutes
+            
+            deux, long – temps, avec émotion. Et ma cousine est restée
+            
+            {
+            
+            seule, au lieu de nous accompagner. Je parie qu'il s'agissait
+            de la contre – lettre ! 
+            
+            LAMBERT. 
+            
+            Il se pourrait ! … Mme Derbin aurait voulu me tromper…
+            
+            L'ABBÉ SERINET. 
+            
+            Ah ! çà, je l'ignore… J'ai trop de charité envers le
+            
+            1
+            
+            prochain, pour décider si vous êtes son complice ou sa
+            
+            dupe. 
+            
+            LAMBERT. 
+            
+            Sa dupe ! … Oh ! non, non… c'est impossible… Je
+            
+            me haïrais moi – même, si je me défiais de cette femme – là…, 
+            
+            Oui, quand tout le monde l'accuserait, je resterais seul de
+            
+            mon avis contre tout le monde… Avec cela que c'est un
+            
+            moyen presque infaillible d'avoir raison…
+            
+            L'ABBÉ SERINET, à part. 
+            
+            Dieu ! que cet homme – là fera un bon mari ! … Il me
+            
+            rappelle ceux de mes anciennes pénitentes. 
+            
+            SCÈNE IV. 
+            
+            L'ABBÉ SERINET, SERVIÈRES, LAMBERT. 
+            
+            SERVIÈRES, à l'abbé. 
+            
+            Pardon, Monsieur… je vous ai fait attendre… Quel
+            
+            ques ordres à donner… la présence de mes amis… Je
+            
+            ne voulais pas, en leur montrant mes inquiétudes, troubler
+            
+            la joie de mon retour, cette joie qui est si cruellement
+            
+            détruite pour moi. Mais à présent on joue dans le salon, 
+            
+            on danse au jardin… Je suis à vos ordres. 
+            
+            L'ABBÉ SERINET, å part. 
+            
+            Toujours poli… Excellent signe ! (Haut, avec arro
+            
+            gance.) A la bonne heure, Monsieur. 
+            
+            Je me retire…
+            
+            (39) 
+            
+            LAMBERT. 
+            
+            SERVIÈRES. 
+            
+            Non, non…… Restez, … mon cher Lambert ; je sais par
+            
+            Mme Servières la révélation qu'elle vous a faite ; et je re
+            
+            l'en blâme pas… pourvu qu'elle ne l'ait pas étendue à
+            
+            d'autres
+            
+            confidents moins sûrs, dont l'indiscrétion ou la
+            
+            perfidie… Car, que puis – je penser ? … Un titre aussi
+            
+            important égaré, soustrait peut – être ! … Mais, quoi qu'il en
+            
+            soit, quand il devraitm'en coûter toute ma fortune, ma pupille
+            
+            ne perdra rien ; et c'est pour assurer ses intérêts que j'ai
+            
+            fait mander mon notaire. 
+            
+            L'ABBÉ SERINET, 
+            
+            å
+            
+            part. 
+            
+            Un notaire ! … Cela s'embrouille, 
+            
+            LAMBERT. 
+            
+            Bien, très bien, Servières, … votre conduite est celle
+            
+            d'un honnête homme. 
+            
+            SERVIÈRES. 
+            
+            Ah ! mon ami, dans cette occasion, tout éloge serait une
+            
+            offense. 
+            
+            LAMBERT. 
+            
+            C'est juste… Je ne vous louerai pas. 
+            
+            L'ABBÉ SERINET. 
+            
+            Un notaire ! … Ah ! cà mais, Monsieur, et mon argent ? …
+            
+            SERVIÈRES. 
+            
+            Vous me permettrez bien d'entrer en explication. 
+            
+            L'ABBÉ SERINET. 
+            
+            Du tout, Monsieur… Je veux entrer en possession. 
+            
+            SERVIÈRES. 
+            
+            – Je ne vous demande que du temps… Je paierai, 
+            
+            s'il le
+            
+            faut… Mais, avant tout, 
+            
+            laissez – moi faire de nouvelles
+            
+            recherches…
+            
+            et quand elles seraient infructueuses, à dé
+            
+            faut du titre lui – même, si je parvenais à recueillir des té
+            
+            moignages, à vous fournir des preuves. 
+            
+            L'ABBÉ SERINET. 
+            
+            Désolé, mon cher Monsieur ; je n'ai pas besoin de preuves…
+            
+            j'ai besoin d'argent…
+            
+            (40) 
+            
+            SCÈNE V. 
+            
+            L'ABBÉ SERINET, SERVIÈRES, ADÈLE, LAMBERT. 
+            
+            Adèle, à la cantonade. 
+            
+            Oui, mabonne amie… Soyez donc tranquille… Celane peut
+            
+            pasêtre perda… je le retrouverai, j'en suis sûre… (Elle entre.)
+            
+            Retrouver ! Quoi ? 
+            
+            SERVIÈRES. 
+            
+            L'ABBÉ SERINET. 
+            
+            La Contre – lettre ! …
+            
+            Elle saurait ! …
+            
+            LAMBERT. 
+            
+            SERVIÈRES. 
+            
+            Parlez, Adèle… Qu'espérez – vous retrouver ? …
+            
+            ADÈLE. 
+            
+            Ob ! un papier bien important pour moi… Eh ! mais, 
+            
+            M. Lambert, vous l'aurez peut – être vu ? …
+            
+            Quel papier ? …
+            
+            LAMBERT. 
+            
+            ADÈLE. 
+            
+            Vous ne vous rappelez pas…. celui que M. de Juvigny
+            
+            nous a laissé ce matin…
+            
+            Si ce n'est que cela…
+            
+            LAMBERT. 
+            
+            Je respire ! 
+            
+            L'ABBÉ SERINET. 
+            
+            SERVIÈRES. 
+            
+' M. de Juvigny ! … Que signifie ?. 2…
+            
+            ADELE. 
+            
+            Ah ! c'est juste, mon tuteur… Vous ne l'avez pas vu…
+            
+            Il n'est venu à Brest que depuis votre départ… C'est un
+            
+            jeune homme, ami de ma famille, qui m'avait tantôt donné
+            
+            un portrait de sa soeur… une aquarelle… Et je suis sûre
+            
+            qu'elle est restée entre les mains de Mme Servières… Elle
+            
+            l'aura posée sur quelque meuble… ou dans son secrétaire…
+            
+            Al ! mon Dieu ! cela me fait penser… Quel malheur si, 
+            
+            par mégarde, Mme Derbin l'avait brûlée avec le reste ! …
+            
+            Brûlée ! …
+            
+            Mme Derbin ! 
+            
+. Ma cousine ! 
+            
+            (41) 
+            
+            SERVIÈRES. 
+            
+            LAMBERT. 
+            
+            L'ABBÉ SERINET. 
+            
+            SERVIÈRES, 
+            
+            Brûlée ! … Quoi donc ? …
+            
+            ADÈLE. 
+            
+            Ah ! mon Dieu ! oui… Au moment de votre arrivée…
+            
+            Des papiers dans le secrétaire de ma bonne amie… et
+            peut – être que le mien…
+            
+            Qu'entends – je ? …
+            
+            SERVIÈRES. 
+            
+            LAMBERT. 
+            
+            C'est impossible ! 
+            
+            L'ABBÉ SERINET. 
+            
+            Dieu ! … Moi qui la détestais. 
+            
+            Ah ! je vois tout ! …
+            
+            LAMBERT. 
+            
+            Quoi ! Monsieur… Vous pourriez croire ? …
+            
+            L'ABBÉ SERINET. 
+            
+            Du tout… Monsieur… Je ne crois rien… Certai –. 
+            
+            nement ma cousine est incapable. (A part.) Et sans me
+            
+            prévenir encore… Comme c'est délicat de sa part ! …
+            
+            SCÈNE VI. 
+            
+            LES MÊMES, UN DOMESTIQUE ; puis le NOTAIRE : 
+            
+            Monsieur Méville. 
+            
+            LE DOMESTIQUE, annonçant. 
+            
+            SERVIÈRES. 
+            
+            Mon notaire ? … Qu'il entre ! … (Au notaire qui entre.)
+            
+            Bonjour, M. Méville ; pardon de vous avoir dérangé cette
+            
+            après – dînée. 
+            
+            LE NOTAIRE. 
+            
+            Comment donc ? Mais je m'en félicite, puisque cela m'a
+            
+            procuré le plaisir de vous voir plus tôt. 
+            
+            Le Notaire, Servières, Adèle, Lambert, l'abbé'Serinet. 
+            
+            6
+            
+            (42) 
+            
+            SERVIÈRES, 
+            
+            Veuillez vous asseoir…
+            
+            ADÈLE, à part. 
+            
+            Ah ! çà, qu'est – ce qui va donc se passer ? … Je me sauve…
+            
+            SERVIÈRES. 
+            
+            Restez, Adèle, restez… Nous aurons besoin de vous…
+            
+            ADÈLE. 
+            
+            De moi ? (A part.) Je ne puis comprendre……
+            
+            SERVIÈRES, au domestique. 
+            
+            Georges, dites à ma femme que je la prie de se rendre
+            
+            ici avec Mme Derbin. 
+            
+            (Le Domestique sort.)
+            
+            LAMBERT, 
+            
+            Mme Derbin ! … Quel est votre dessein ? 
+            
+            SERVIÈRES. 
+            
+            Vous le saurez… (Il cause avec le notaire qui écrit.)
+            
+            101 aio
+            
+            
+            <div type="poem"> <lg>
+                
+                    LAMBERT. 
+                
+            
+            
+                <stage type="tune">
+                    AIR du pot de fleurs. 
+                </stage>
+            
+            
+               
+                    <l>Nul n'oserait l'accuser, j'imagine,</l>
+                    <l>D'un trait d'audace et d'immoralité.</l>
+                
+            
+                
+                    L'ABBÉ SERINET, 
+                
+            
+                
+                    bas à Lambert. 
+                
+            
+            
+                
+                    <l>Soyez prudent. Vous aimez ma cousine,</l>
+                    <l>Mettez obstacle à la publicité.</l>
+                
+            
+            
+            
+                
+                    Lambert fait un mouvement, L'abbé lui dit en prose : 
+            
+                    C'est notre systeme : 
+                
+            
+            
+            
+                
+                    <l>Quand on a l'art d'échapper au scandale,</l>
+                    <l>On peut toujours accorder en secret</l>
+                    <l>La morale de l'intérêt</l>
+                    <l>Et l'intérêt de la morale.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            SCÈNE VII. 
+            
+            LE NOTAIRE, assis et écrivant, SERVIÈRES, lui dic
+            
+            tant, ADÈLE, Mme SERVIÈRES, 
+            
+            M ** DERBIN, 
+            
+            LAMBERT, L'ABBÉ SERINET. 
+            
+            Voici ces dames ! 
+            
+            (A sa femme.) Ma chère, veuillez
+            
+            SERVIÈRES. 
+            
+            (43) 
+            
+            faire donner des siéges, et défendre qu'on nous interrompe…
+            
+            (Il s'approche du notaire, et lui parle bas ; le notaire
+            
+            écrit sous sa dictée. Madame Servières, pendant ce
+            
+            temps, appelle un domestique qui range des sieges, et
+            
+            se retire ensuite.)
+            
+            MADAME DERBIN, bas à Lambert. 
+            
+            Ma démarche a été vaine… Mme Servières semblait
+            
+            m'éviter, me craindre… Je n'ai pu lui parler seule, et
+            
+            j'ignore encore…
+            
+            LAMBERT, bas, d'un air triste. 
+            
+            Ah ! Madame ! …
+            
+            MADAME DERBIN, bas. 
+            
+            Quoi donc ? Cet air triste, glacé ! … Que se passe – t – il ? 
+            
+            Vous ne l'apprendrez
+            
+            que trop tôt…
+            
+            LAMBERT, bas. 
+            
+            L'ABBÉ SERINET, bas à madame Derbin, en passant auprès
+            
+            d'elle. 
+            
+            Ma cousine ! 
+            
+            Ma chère cousine ! … Combien je suis
+            
+            touché ! … Une telle attention… Oh ! je n'en serai pas
+            
+            ingrat. Vous aurez place dans mes prières. 
+            
+            Comment ? …
+            
+            MADAME DERBIN. 
+            
+            L'ABBÉ SERINET, bas. 
+            
+            Chut… On nous observe… De la froideur… Qu'on
+            
+            ne nous
+            
+            croie pas
+            
+            d'accord… Un air de famille…
+            
+            MADAME DERBIN, 
+            
+            à part. 
+            
+            Je m'y perds ! …
+            
+            SERVIÈRES, au notaire. 
+            
+            C'est cela même, Monsieur… Je signe… (Il signe.)
+            Et désormais cet écrit devra rester entre vos mains…
+            
+            (A sa femme.) Ah ! tout est prêt… Veuillez touts prendre
+            
+            place… Vous, Adèle… ici, à côté de moi… (On s'assied
+            
+            dans l'ordre suivant :) le Notaire, à la table, Servières, 
+            
+            Adèle, Mme Servières, l'abbé Serinet, M ** Derbin, Lam
+            
+            bert. (L'abbé'Serinetplace un petit tabouret sousses pieds) .
+            
+            SERVIÈRES, continuant, à Adèle. 
+            
+            Mon enfant, c'est vous que l'objet qui nous assemble
+            
+            intéresse la première… Voici ce qui vous appartient…
+            
+            Lisez…
+            
+            (44) 
+            
+            ADÈLE. 
+            
+            Que vois – je ? … Trois cent mille francs ! … Quoi, 
+            
+            Monsieur ? j'étais riche ! … Alors. 
+            
+            plus d'obstacles…
+            
+            Quel bonheur, si M. de Juvigny ! …. 
+            
+            MADAME Servières, se levant, avec émotion. 
+            
+            Que dit – elle ? …
+            
+            SERVIÈRES, à sa femme. 
+            
+            Qu'avez – vous, chère Hortense ? … Pourquoi ce trouble ? …
+            
+            Ce que je viens de faire, n'était – il pas convenu tout à
+            
+            l'heure entre nous deux ? Ou je connais mal votre cour, 
+            
+            ou ce n'est pas un revers de fortune qui peut l'agiter ainsi…
+            
+            D'ailleurs, ne me reste – t – il – pas mon état, mon crédit, mon
+            
+            activité ? … Ah ! croyez – moi : veilles,'travail, fatigues, 
+            
+            rien ne me coûtera pour ramener autour de vous l'opulence, 
+            
+            pour vous rendre le bonheur dont vous êtes si digne par
+            
+            vos vertus. 
+            
+            Monsieur…
+            
+            MADAME SERVIERES. 
+            
+            LAMBERT, se levant. 
+            
+            Servières, … je comprends le sacrifice que vous venez
+            d'accomplir… j'y applaudis… Mais, après ce qui vient
+            
+            de se passer, 
+            
+            j'ai le droit plus que jamais de réclamer ma
+            
+            part d'un malheur et d'une perte dont la cause…… (Regar
+            
+            dant madame Derbin qui est étonnée de ce regard.) Et
+            
+            pourtant je ne puis croire… Jamais je ne croirai… Mais
+            
+            n'importe, en épousant Mme Derbin, j'exige… Elle voudra
+            
+            elle – même que ma fortune…
+            
+            SERVIÈRES. 
+            
+            Mon ami… de la modération, je vous prie… Nous
+            
+            formons ici un conseil de famille… Nos secrets doivent
+            
+            y mourir… Mais vous comprenez qu'il faut que tout soit
+            
+            éclairci ; (Il regarde fixement madameDerbin dont la
+            
+            surprise augmente.) Il le faut pour mon repos, pour celui
+            
+            dema femme. 
+            
+            pour le vôtre même… C'est de quoi je
+            
+            vais m'occuper…Etdans cet examen solennel, la présence
+            
+            de M. Méville nous offre une garantie de plus… Adèle…
+            
+            je compte sur votre franchise… Répondez à mes questions
+            
+            sans détour, sans arrière – pensée… Que l'amitié, que nulle
+            
+            considération n'influe sur vos paroles… Rappelez – vous
+            
+            qu'il y va de l'honneur de touts vos amis. Je commence. 
+            
+            : 
+            
+            (45) 
+            
+            L'ABBÉ SÉRINET, se levant. 
+            
+            Pardon, Monsieur… Je ne me permettrai qu'une seule
+            
+            observation… Tout cela est très
+            
+            intéressant… Mais
+            
+            qu'est – ce que je fais ici ? Vous dites que c'est un conseil de
+            
+            famille. Moi, je ne suis pas venu de si loin pour chercher
+            
+            une famille. Je suis venu pour chercher de l'argent…
+            
+            Pardon, si j'en reviens toujours là : mais j'ai une mission
+            
+            d'en haut, 
+            
+            je dois la remplír. Quand me paiera – t – on ? …
+            
+            Si, au lieu de signer un titre pour Mademoiselle
+            
+            vous
+            
+            l'aviez signé pour moi, je m'en irais, et tout serait fini…
+            
+            Ce n'est pas que je vous presse… Mais il est de mon devoir
+            
+            d'être payé… et sur le champ. (Il se rassied.)
+            
+            SERVIÈRES. 
+            
+            Je vous l'ai déjà dit, Monsieur ; jusqu'ici ma dette envers
+            vous est encore incertaine, et peut – être va – t – il résulter de
+            
+            cette discussion la preuve que l'on ne vous doit rien. 
+            
+            L'ABBÉ SERINET, se levant encore. 
+            
+            Comment, l'on ne me doit rien ! … Hélas ! je le voudrais
+            
+            pour vous ; mais où est la contre – lettre, Monsieur ? Je de
+            
+            mande à voir la
+            
+            contre – lettre…. Produisez la contre
+            
+            lettre… Ma conscience me défend d'ajouter foi à aucune
+            
+            autre preuve… Dieu me préserve de penser mal du pro
+            
+            chain ! Mais je dois récuser touts les témoignages… On a
+            
+            soufflé la jeune personne… Elle est sous votre influence…
+            
+            Il y a fraude, calomnie, et subornation de témoins…
+            
+            (Bas à madame Derbin.) Parlez donc, … parlez donc ma
+            
+            cousine… Soutenez – moi… Je vous soutiens bien. 
+            
+            (1 se rassied.)
+            
+            MADAME DERBIN, à part. 
+            
+            Quelle énigme ! Et touts ces regards… En quoi suis – je
+            
+            mêlée ? …
+            
+            SERVIÈRES, à l'abbé. 
+            
+            Monsieur… Ma réponse à cette sortie sera bien simple : 
+            
+            Nous interrompre, c'est éloigner d'autant le moment où
+            
+            vous serez payé, s'il y a lieu…
+            
+            L'ABBÉ SERINET. 
+            
+            La volonté du ciel soit faite ! … Je n'interromprai plus…
+            
+            Mais il y aura lieu… je vous le certifie… Parce qu'entin, 
+            
+            quand même la contre – lettre aurait existé, ce que je nie, 
+            
+            vous ne pouvez me rendre responsable de ce qa'elle ne se
+            
+            1
+            
+            (46) 
+            
+            retrouve pas, … et eût – elle été brûlée, ce que je nie encore…
+            
+            brûlée même par ma cousine, ce que je nie toujours…
+            
+            (Tout le monde se lève.)
+            
+            MADAME SERVIÈRES, à part. 
+            
+            Brûlée ! …
+            
+            MADAME DERBIN. 
+            
+            Brûlée
+            
+            par moi… Quelle horreur ! 
+            
+            LAMBERT, observant madame Derbin. 
+            
+            Elle n'a point pâli ! … *
+            
+            MADAME DERBIN, avec force à Servières. 
+            
+            Comment, Monsieur… On m'accuse… et de quoi ? …
+            
+            Parlez, … parlez… Je veux savoir… Qui a osé ? …
+            
+            ADÈLE. 
+            
+            Pardon… pardon, Madame… Si j'avais prévu… Rien
+            
+            l'aurait pu me faire dire…
+            
+            C'est vous, Adéle… Vous ! …
+            
+            MADAME DERBIN. 
+            
+            Quoi ? qu'avez – vous dit ? 
+            
+            MADAME SERVIÈRES, à Adèle. 
+            
+            SERVIÈRES, passant entre Adèle et sa femme. 
+            
+            Mesdames, … plus bas… plus bas, de grâce… Ce trouble…
+            
+            cés voix émues… Si on entendait ! … Terminons avec
+            
+            calme une explication qui, je l'espère, fera bientôt place
+            
+            à notre commune sécurité. 
+            
+            LAMBERT. 
+            
+            Oui, … Servières, oui, vous avez raison de l'espérer, et
+            
+            moi, à présent, j'en suis certain… Je n'en veux d'autre
+            
+            preuve que la noble indignation de Madame, … que ce cri
+            
+            qui lui est échappé, ce cri qui part du coeur, et qu'on
+            
+            l'imite pas. Chacun peut en juger comme il l'entend…
+            
+            Mais pour moi, il ne faut à ma conviction qu'une réponse
+            
+            de Madame, une seule, la plus simple… Un oui ou un
+            
+            non…
+            
+            Comme c'est adroit ! … Elle va dire non…
+            
+            Il est dans
+            
+            L'ABBÉ SERINET, à part. 
+            
+            nos intérêts ! J'en étais sûr… Il faisait trop l'honnête
+            
+            homme…
+            
+            LAMBERT, à madame Derbin. 
+            
+            Parlez, Madame… Que la vérité soit enfin connue…
+            
+            * Le Notaire, Servières, Adèle, madame Servières, 
+            
+            madame Derbin, Lambert, l'abbé Serinet. 
+            
+            Êtes – vous entrée tantôt chez votre amie, en son absence, 
+            
+            et avez – vous brûlé des papiers dans son secrétaire ? …. 
+            
+            (47) 
+            
+            Dieu ? …
+            
+            MADAME SERVIÈRES, à part. 
+            
+            MADAME DERBIN. 
+            
+            Quoi ! … C'est pour cela ! …
+            
+            LAMBERT. 
+            
+            Dites ; est – ce vrai, ou non ? …
+            
+            MADAME DERBIN. 
+            
+            Oui… c'est vrai…
+            
+            MADAME SERVIÊRES, à part. 
+            
+            $
+            
+            Je me meurs ! 
+            
+            Vous avouez ! …
+            
+            LAMBERT. 
+            
+            L'ABBÉ SERINET, à part. 
+            
+            Imprudente ! …
+            
+            SERVIÈRES. 
+            
+            Et quels étaient ces papiers ? …. De quel droit, chez
+            
+            ma femme ? … (Adèle prend les mains de Servières
+            
+            pour le contenir. Il se retourne vers elle un instant.)
+            
+            MADAME DERBIN. 
+            
+            Comment, Monsieur… Mais c'est…
+            
+            MADAME SERVIÈRES, bas à madameDerhin, en lui
+            
+            saisissant la main. 
+            
+            Vous me perdez ! …. 
+            
+            MADAME DERBIN
+            
+            à part. 
+            
+            Ciel ! …. Ah ! malheureuse
+            
+            ! 
+            
+            SERVIÈRES. 
+            
+            Eh ! bien, Madame, … achever…
+            
+            LAMBERT. 
+            
+            Expliquez – vous ? …
+            
+            MADAME DERBIN. 
+            
+            Je ne le puis… Cessez de m'interroger…. Je dois mae
+            
+            taire. 
+            
+            L'ABBÉ SERINET,' à part. 
+            
+            Il est bien temps…
+            
+            +
+            
+            LAMBERT. 
+            
+            Vous taire ! …
+            
+            (48) 
+            
+            SERVIÈRES. 
+            
+            Madame, 
+            
+            c'est à regret, ,
+            
+            0
+            
+            c'est avec douleur
+            
+            que
+            
+            j'insiste… Mais, dans votre intérêt même. 
+            
+            veuillez
+            
+            réfléchir à quelles conjectures ce silence nous livre. Songez
+            
+            à votre position d'héritière…Songez que la contre – lettre
+            
+            qui a disparu était dans le secrétaire de ma femme. Encore
+            
+            une fois… quels sont les papiers que vous y avez brûlés ? …
+            
+            (Un silence. Attention générale.) Pas de réponse ? …
+            
+            LAMBERT, à madame Derbin. 
+            
+            Quoi ! pas un mot pour votre défense ? … (Méme silence.)
+            
+            SERVIÈRES. 
+            
+            Abrégeons un entretien trop pénible… : (Au notaire.)
+            je n'ai
+            
+            je ne vous retiens plus. 
+            
+            Monsieur Méville. 
+            
+            pas besoin de vous recommander la discrétion jusqu'au
+            moment où…. s'il le fallait, … nous invoquerions…
+            
+            malgré nous
+            
+            votre témoignage… Emportez cet acte…
+            
+            ADÈLE, passant près du notaire, et prenant l'acte. 
+            Monsieur…. Monsieur… Il a été fait pour m'enrichir…
+            
+            Eh ! bien ! … Si, en le déchirant, je pouvais… (Elle va
+            
+            pour le déchirer.)
+            
+            Arrêtez… Je m'y oppose ! …
+            
+            MADAME DERBIN. 
+            
+            SERVIÈRES, arrêtant Adèle. 
+            
+            Que faites – vous ? … chère Adèle ! … confiez – vous à votre
+            ami, à votre tuteur… Lambert, de grâce, emmenez – la
+            
+            dans le salon… Que rien n'y transpire ! … Moi – même je
+            
+            reconduis M. Méville…
+            
+            ! 
+            
+            et je vous rejoins… Allez…
+            
+            LAMBERT, prenant la main d'Adèle. 
+            
+            Mademoiselle… (1 passe devant madame Derbin.)
+            
+            Ah ! Dieu ! …
+            
+            L'ABBÉ SERINET, suivant jusqu'à la porte du fond Servières
+            
+            qui sort avec le notaire. 
+            
+            Monsieur, … encore un mot, .
+            
+            un seul… Serai – je
+            
+            payé ? 
+            
+            SERVIÈRES, avec indignation. 
+            
+            Eh ! Monsieur ! …
+            
+            L'ABBÉ SERINET, à part. 
+            
+            C'est cela… Eh ! Monsieur ! … et pas d'argent… Aussi
+            
+            ma cousine avait bien besoin de convenir… Dieu ! … si
+            
+            j'avais été à sa place ! … (Il sort.)
+            
+            1
+            
+            a
+            
+            (49) 
+            
+            SCÈNE VIII. 
+            
+            Mme SERVIÈRES, M * • DERBIN. 
+            
+            MADAME SERVIÈRES. 
+            
+            Ah ! vous m'avez sauvée ! … Si vous saviez ! … Si je
+            
+            pouvais, sans mourir de honte, vous avouer quel funeste
+            
+            secret ! 
+            
+            MADAME DERBIN. 
+            
+            Non, … ne me mettez pas dans votre confidence… Je
+            
+            n'ai pensé qu'à votre trouble, à votre effroi. Jeme suis tue. 
+            
+            Mais voyez ce qu'il m'en coûte, et songez qu'il faudra bien
+            
+            tốt…
+            
+            MADAME SERVIÈRES. 
+            
+            Necraignez rien. Le sacrifice de ma dot, de mes diamants, 
+            
+            au besoin quelques emprunts secrets, tout, oui, tout, 
+            
+            plutôt que de souffrir la moindre atteinte portée à votre
+            fortune…
+            
+            MADAME DERBIN. 
+            
+            Ah ! ce n'est pas de ma fortune qu'il s'agit…c'est de
+            
+            mon honneur. Si j'ai dû vous épargner d'abord, c'est pour
+            
+            vous donner le temps de la réflexion… Mais il faut que je
+            
+            sois justifiée… Cherchez, inventez des prétextes… Trou
+            
+            vez un moyen de rendre sans danger pour vous l'expli
+            
+            cation de la vérité ! … car, 
+            
+            enfin, Madame… il faudra
+            
+            la dire. 
+            
+            
+            <div type="poem"> <lg>
+                
+                    MADAME SERVIÈRES. 
+                
+            
+            
+                
+                    La dire ! … Ainsi, vous n'aurez fait que retarder mon
+            
+                    malheur. 
+            
+                    que l'aggraver encore. –. 
+            
+' Si M. Servières
+            
+                    apprend que c'est moi qui, à la nouvelle de son brusque
+            
+                    retour, vous ai chargée moi – même de faire disparaître mes
+            
+                    papiers ; que pensera – t – il, et sur – tout en voyant que vous
+            
+                    avez gardé ce secret aux dépens de votre honneur ? …, 
+            
+                    Ma précaution, votre premier silence, tout m'accusera ; 
+            
+                    toutme fera supposer encore plus coupable que je ne suis…
+            
+                    7
+            
+                    (50) 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : du contrebandier. (de Labarre.)
+                </stage>
+            
+            
+                    <l>Grâce, grâce, je vous supplie ;</l>
+                    <l>Jetez sur moi des yeux plus doux ;</l>
+                    <l>Puisqu'il le faut, je m'humilie,</l>
+                    <l>Je me prosterne à vos genous.</l>
+                
+                    <l>Ah ! si d'un courroux légitime,</l>
+                    <l>Seule, je portais la rigueur…</l>
+                    <l>Mais peut – être une autre victime…</l>
+                    <l>Ce seul mot me glace d'horreur !</l>
+                    <l>Peut – être mon époux lui – même…</l>
+                    <l>Je le verrais, au coup mortel</l>
+                    <l>S'exposer, hélas ! lui qui m'aime !</l>
+                    <l>Lui pour qui j'implore le Ciel !</l>
+                
+                    <l>Grâce, grâce, je vous supplie,</l>
+                    <l>Jetez sur moi des yeux plus doux ;</l>
+                    <l>Oui, s'il le faut, je m'humilie,</l>
+                    <l>Je me prosterne à vos genous.</l>
+                
+            
+            </lg> </div>
+            
+            
+            MADAME DERBIN. 
+            
+            Eh ! bien ! …
+            
+            je n'y résiste plus… Mon dévouement
+            
+            ne restera pas incomplet… Je me tairai toujours…
+            
+            MADAME SERVIÈRES. 
+            
+            Vous me le jurez ? …
+            
+            MADAME DERBIN. 
+            
+            Je vous le promets…
+            
+            MADAME SERVIÈRES. 
+            
+            Trop généreuse amie ! …
+            
+            MADAME DERBIN. 
+            
+            Moi, … votre amie ! … Mais n'importe, j'en remplirai les
+            
+            devoirs… Allez, … Madame, … allez… Votre absence serait
+            
+            remarquée…. votre mari lui – même s'étonnerait… pourrait
+            
+            soupçonner… Ah ! quittez – moi… Ne compromettez pas un
+            
+            repos que je vous conserve en le payant si cher… (MW Ser
+            
+            vières s'approche de madame Derbin pour luiprendre la
+            
+            main ; celle – ci lui fait signe de s'éloigner.)
+            
+            (51) 
+            
+            SCÈNE IX. 
+            
+            M " DERBIN, seule. 
+            
+            L'infortunée ! … Mais moi, moi ! … Ah ! n'envions pas
+            
+            son partage… Si je m'expose aux soupçons, je n'ai pas
+            
+            du moins les remords, je suis encore la moins à plaindre…
+            
+            Enfin, ne puis – je pas, en me dépouillant de tout ce que
+            
+            je possède ? … en offrant tout sans réserye ? … Mais, que
+            
+            dis – je ? … c'est à peine la moitié de la somme qu'il faut
+            
+            remplacer. Ah ! je n'ai jamais tant regretté la richesse…
+            
+            J'en avais assez pour trouver le bonheur, et pas assez pour
+            
+            me soustraire à l'infamię… oui, l'infamie… car bien
+            
+            tôt tout le monde… et déjà, Lambert lui – même…, il me
+            
+            dédaigne, il m'abandonne ! … Ciel ! … c'est lui ! …
+            
+            SCÈNE X. 
+            
+            LAMBERT, M
+            
+            * • DERBIN. 
+            
+            LAMBERT, à
+            
+            part. 
+            
+            La voilà… seule… triste… abattue… Approchons
+            
+            nous… Mais, si ma vue l'humiliait, .
+            
+            si ma présence lui
+            
+            semblait un reproche… Ah ! … il vaut mieux m'en aller…
+            
+            Eh ! bien oui… Mais alors, qui la consolera ? … qui vien
+            
+            dra à son secours ? … Décidément il vaut mieux que je
+            
+            reste… Oui…. restons… Si elle pouvait seulement me
+            
+            parler la première ! …
+            
+            MADAME DERBIN, à part. 
+            
+            On dirait qu'il veut me parler…. et qu'il hésite…
+            
+            C'est fini…
+            
+            je n'ose pas…
+            
+            LAMBERT, à part. 
+            
+            M. Lambert ! …
+            
+            MADAME DERBIN, 
+            
+            LAMBERT, à part. 
+            
+            Ab ! que c'est heureux ! (Haut.) Madame…
+            
+            (52) 
+            
+            MADAME DERBIN. 
+            
+            Est – ce moi que vous cherchiez ? 
+            
+            LAMBERT. 
+            
+            Mais
+            
+            je crois bien que
+            
+            oui…
+            
+            MADAMÉ DERBIN. 
+            
+            Je m'en suis doutée…
+            
+            LAMBERT. 
+            
+            Vous avez bien fait. 
+            
+            MADAME DERBIN. 
+            
+            Je me suis dit : quand toutes les apparences sont contre
+            
+            moi, elles doivent suffire aux autres pour m'enlever leur
+            
+            estime, mais pas à M. Lambert. 
+            
+, 
+            
+. Non i
+            
+. 
+            
+            il n'a pu me
+            
+            retirer la sienne. 
+            
+            LAMBERT. 
+            
+            Vous vous êtes dit cela ? … C'est étonnant comme vous
+            
+            avez deviné juste…
+            
+. Oui… c'est vrai… Tenez. 
+            
+            • je
+            
+            suis dans une perplexité. 
+            
+. 
+            
+            D'un côté, ma raison vous
+            
+            condamne…
+            
+            Monsieur…
+            
+            MADAME DERBIN. 
+            
+            LAMBERT. 
+            
+            Et de l'autre… il y a là je ne sais quoi qui m'ordonne
+            
+            toujours de vous absoudre…
+            
+            MADAME DERBIN. 
+            
+            Et que croyez – vous de votre raison ou de votre coeur ? 
+            
+            LAMBERT. 
+            
+            Oh ! moi… d'abord je ne suis pas du tout raisonnable…
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    MADAME DERBIN. 
+                
+            
+                
+                    Digne ami ! 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : C'était Renaud de Montauban. 
+                </stage>
+            
+            
+             
+                    <l>Ah ! votre honneur vous a prouvé le mien !</l>
+               
+            
+                
+                    LAMBERT
+                
+            
+               
+                    <l>Quoi ! vous pourriez dissiper ce nuage ?</l>
+                    <l>Parlez ! … hé ! quoi ! vous ne répondez rien,</l>
+                    <l>Et vous souffrez qu'un soupçon vous outrage !</l>
+                    <l>Quand vous alliez à moi vous confier,</l>
+                    <l part="I">Qui vous arrête ? …</l>
+                
+            
+                
+                    MADAME DERBIN. 
+                
+            
+              
+                    <l part="F">Un devoir nécessaire.</l>
+                    <l>Ce que j'ai dit, ce que j'aurais dû taire,</l>
+                    <l>I faut le croire et l'oublier.</l>
+                
+       
+            
+            
+            
+            (55) 
+            
+            LAMBERT. 
+            
+            Madame…
+            
+            MADAME DERBIN. 
+            
+            N'insistez pas… Non, plus un mot… je vous en
+            
+            prie… Si vous saviez tout le mal que vous me faites. 
+            
+. 
+            
+            LAMBERT. 
+            
+            Moi ! … grand Dieu ! … Eh ! bien ! je n'ai plus qu'un
+            
+            mot à vous dire. Cette malheureuse affaire… il faut qu'elle
+            
+            se termine… au plutôt, … sans éclat… cela demande
+            
+            de l'argent, … beaucoup d'argent… Je sais que vous
+            
+            avez de l'aisarice
+            
+            et
+            
+            puis, 
+            
+            c'est
+            
+            tout… Alors
+            
+            Madame, 
+            
+            si vous éprouviez ce matin… l'amitié que
+            
+            vous m'avez fait paraître… Si c'était du coeur que vous
+            
+            adoptiez l'idée de mettre tout en commun entre nous…
+            
+            Prouvez – le moi… et qu'aujourd'hui même, … en se
+            
+            cret. 
+            
+            ce porte – feuille…
+            
+            MADAME DERBIN, très émue. 
+            
+            Ah ! Lambert…
+            
+            LAMBERT, vivement. 
+            
+            Prenez… prenez… (I le pose sur une table.) Épar
+            
+            gnez – moi la douleur d'un refus…. je n'ai pas besoin de
+            
+            celle – là pour être à jamais malheureux. 
+            
+            (Fausse sortie, pendant laquelle madame Derbin passe
+            
+            à gauche, et prend le porte – feuille sur la table.)
+            
+            MADAME DERBIN. 
+            
+            Arrêtez… Ah ! ce dernier trait… Je vous en dois le
+            
+            prix… Je dois… et pourquoi non ? … Lambert…
+            
+            vous m'aimez encore ? …
+            
+            Si je vous aime !. 
+            
+. 
+            
+            LAMBERT. 
+            
+            MADAME DERBIN. 
+            
+            Écoutez – moi… Ce sacrifice que vous m'offrez…
+            
+            ce
+            
+            silence que vous voulez acheter pour moi d'une partie de
+            
+            votre fortune, ce maintien d'une réputation, le premier
+            
+            bien de touts, mais la vie même d'une femme… Eh ! bien ! 
+            
+            je ne puis rien accepter d'un étranger, mais tout d'un
+            mari…
+            
+            Madame…
+            
+            (54) 
+            
+            LAMBERT. 
+            
+            MADAME DERBIN. 
+            
+            Je vous entends… Mais, si je vous découvra is que je
+            
+            reste sous le poids d'une faute qui n'est pas la mienne. 
+            
+            que je succombe…, malgré moi
+            
+            par force…
+            
+            à une
+            
+            fausse conviction… Si je vous en donnais le témoignage
+            
+            sûr, évident, irrécusable, qde feriez – vous ? 
+            
+            LAMBERT, avec feu. 
+            
+            Ce que je ferais ? … Pouvez – vous en douter ? … Au
+            
+            cune considération, pas une puissance au monde, ne serait
+            
+            capable de m'arrêter… Je publierais votre justification…
+            
+            Je la proclamerais… Je la soutiendrais en tout lieu, sans
+            
+            cesse, par touts les moyens. 
+            
+. : J'y engagerais ma fortune
+            
+            et ma vie… quel que fût le vrai coupable, vainement se dé
+            
+            battrait – il contre la vérité dont je l'accablerais de toute
+            
+            part ; point de pitié, point de grâce… et quand je lui
+            
+            aurais rejeté l'opprobre et le malheur, son juste partage, 
+            
+            avec quelle joie
+            
+            je
+            
+            m'écrierais en m'unissant à vous : 
+            
+            « Elle fut toujours pure… Le monde en a eu toutes les
+            
+            » preuves… et voici la dernière, la plus forte que j'en
+            
+            » puisse donner : Elle est ma femme ! » 
+            
+            
+           
+                    MADAME DERBIN
+                
+            
+                
+, à part. 
+            
+                    J'aurais dû le prévoir. (Haut, en lui remettant
+            
+                    le porte
+            
+                    feuille) .
+                
+            
+            
+            
+            
+            
+                
+                    Même air que le précédent. 
+                
+            
+            
+                
+                    <l>C'en est assez. Séparons–nous. Adieu !</l>
+              
+            
+                
+                    LAMBERT. 
+                
+            
+               
+                    <l>Qu'ordonnez–vous ? ô Ciel ! que signifie ? …</l>
+                    <l>De mes tourments vous faites–vous un jeu ?</l>
+              
+            
+                
+                    MADAME DERBIN. 
+                
+            
+               
+                    <l>Non, non ! toujours je serai votre amie.</l>
+                    <l>Mais cessez de me supplier.</l>
+                    <l>Épargnez–moi cette souffrance extrême.</l>
+                    <l>Si vous m'aimez autant que je vous aime,</l>
+                    <l>Il faut me fuir et m'oublier.</l>
+				
+            
+            </lg> </div>
+            
+            
+            (55) 
+            
+            SCÈNE XI. 
+            
+            Mme DERBIN, DE JUVIGNY, entrant par la porte du
+            
+            fond, LAMBERT, qui s'est jeté dans un fauteuil. 
+            
+            DE JUVIGNY, à un domestique au fond du théâtre. 
+            
+            Allez, Georges, dites – lui que je la prie de m'accorder un
+            
+            instant… ou plutôt… ne ménommez pas…. dites que
+            
+            quelqu'un… pour une affaire pressée… importante…
+            
+            (Il descend le théâtre.) Oui, le plus sûr était de lui rap
+            
+            porter moi – même… et puis… je la reverrai… Ciel ! 
+            
+            quelqu'un ! … (Haut.) M. Lambert ! …
+            
+            C'est vous, 
+            
+            M. de Juvigny…
+            
+            LAMBERT. 
+            
+            JUVIGNY. 
+            
+            Moi – même qui, à la veille d'un départ, venais remettre
+            
+            à Mme Servières un papier, .
+            
+            oh ! sans iinportance…
+            
+            Mais il paraît qu'elle a du monde… et, comme je n'ai
+            
+            qu'un moment… (Huit heures sonnent.) (A part.) Huit
+            
+            heures ! Ciel ! je serai en retard… (A Lambert.) Dites
+            
+            moi, cette Dame, c'est Mme Derbin… son amie ? …
+            
+            Elle – même…
+            
+            LAMBERT. 
+            
+            JUVIGNY. 
+            
+            Une personne en qui on peut avoir confiance… N'est – ce
+            
+            pas ? …
+            
+            Hélas ! (Haut.) Monsieur…
+            
+            LAMBERT, à part. 
+            
+            JUVIGNY, passant près de madame Derbin. 
+            
+            Pardon, Madame… Un seul mot… Je ne puis attendre
+            
+            Mme Servières… et pourtant il faut qu'elle reçoive au
+            
+            plutôt, un papier tombé entre mes mains par hasard, et
+            
+            qui intéresse le sort de Mlle Adèle. 
+            
+            MADAME DERBJN. 
+            
+            Comment ? … Quel papier ? …
+            
+            JUVIGNY. 
+            
+            C'est un secret. 
+            
+, 
+            
+. Veuillez vous charger…
+            
+            (56) 
+            
+            MADAME DERBIN. 
+            
+            Pour elle ! … Moi… je ne puis…
+            
+            LAMBERT, qui observe. 
+            
+            C'est singulier ! …
+            
+            MADAME SERVIÈRES, avant que d'être vue. 
+            
+            Si tard ! … Qui peut venir ? (Elle entre par le fond) .
+            
+            # Ab ! madame ! …, 
+            
+            JUVIGNY, courant à elle. 
+            
+            SCÈNE XII. 
+            
+            Mme SERVIÈRES, DE JUVIGNY, M – DERBIN, 
+            
+            LAMBERT. 
+            
+            *
+            
+            MADAME SERVIÈRES. 
+            
+            Vous, Monsieur ! … Ah ! sortez ! 
+            
+            JUVIGNY. 
+            
+            Pardon, Madame…… Quand vous verrez la cause……. 
+) Parmi ces · lettres que vous m'avez
+            
+            (A demi – voix. 
+            
+            renvoyées hier au soir, …. par distraction, sans doute, vous
+            
+            avez mêlé cet acte que j'ai trouvé tout à l'heure, lorsque
+            
+            par devoir j'anéaħtissais des gages trop chers…
+            
+            Taisez – vous. 
+            
+            MADAME SERVIÈRES. 
+            
+            M. SERVIÈRES, de loin, sans être vu. 
+            
+            De grâce, Mesdames, ne répétez pas devant Adèle…
+            
+            MADAME SERVIÈRES. 
+            
+            Mon mari ! … Ah ! je succombe ! … (Elle tombe evanouie.)
+            
+            JUVIGNY. 
+            
+            Votre mari ? …. 
+            
+            il est ici…. Adieu, Madame, adieu. 
+            
+            (Il sort.)
+            
+            MADAME DERBIN, courant à elle. 
+            
+            J'entrevois… secourons – la…
+            
+            * Mme Servières et de Juvigny sont au fond du Théâtre ; 
+            
+            Mme, Derbin passe près de Lambert, et les observe
+            
+            sur le devant de la scène. 
+            
+            (57) 
+            
+            SCÈNE XIII. 
+            
+            Mme SERVIÈRES, M* • DERBIN, SERVIÈRES, LAMBERT. 
+            
+            SERVIÈRES. 
+            
+            Pauvre enfant, si cette triste nouvelle ! …… (Apercevant
+            
+            Mme Servières.) Que vois – je ? … ma femme ? (Il descend
+            
+            entre Mme Servières et Moe Derbin.)
+            
+            MADAME DERBIN. 
+            
+            Monsieur, … elle revient. 
+            
+            Je m'y perds ! 
+            
+            LAMBERT, à part. 
+            
+            SERVIÈRES, 
+            
+            Sans doute l'émotion de la journée… Mais ce papier
+            
+            échappé de sesmains… Ciel ! je reconnais la contre – lettre ! 
+            
+            La contre – lettre ? 
+            
+            TOUTS. 
+            
+            LAMBERT, à Mme Derbin. 
+            
+            Ah ! madame… c'est de l'héroïsme ! (voulant se mettre
+            
+            à genous.) Pardon ! 
+            
+            MADAME DERBIN, lui faisant signe. 
+            
+            Silence ! 
+            
+            SERVIÈRES. 
+            
+            Mais alors, madame, quels papiers avez – vous brûlés chez
+            
+            ma femme ? 
+            
+            Monsieur…
+            
+            MADAME DERBIN. 
+            
+            SCÈNE XIV. 
+            
+            Mme SERVIÈRES, SERVIÈRES, L'ABBÉ SERINET, 
+            
+            Mm • DERBIN, LAMBERT. 
+            
+            L'ABBÉ SERINET. 
+            
+            Ah ! çà, est – ce que c'est un voleur, pour se sauver ainsi ? 
+            
+            8
+            
+            Qui donc ? 
+            
+            (58) 
+            
+            SERVIÈRES. 
+            
+            L'ABBÉ SERINET. 
+            
+            Un jeune fou, qui court d'une vîtesse ! … il a manqué de
+            
+            me renverser… Quelques – uns de vos amis qui l'ont re
+            
+            connu de loin, ont eu beau lui crier : M. de Juvigny ! 
+            
+            M. de Juvignyl… Il n'en courait que plus fort ! 
+            
+            SERVÍÈRES. 
+            
+            M. de Juvigny ! … qui est déjà venu ici ce matin…. dont
+            
+            on parlait tout à l'heure…. qui doit se battre ce soir… pour
+            
+            je ne sais quelles lettres de femme ! 
+            
+            Se battre ! 
+            
+            MADAME SERVIÈRES, à part. 
+            
+            SERVIÈRES. 
+            
+            Pourquoi cette apparition ? … Et quelle rencontre, au
+            
+            moment où ce titre est retrouvé ! 
+            
+            Quel titre ? 
+            
+            L'ABBÉ SARINET. 
+            
+            SERVIÈRES, lui presentant l'acte. 
+            
+            Lisez, Monsieur…
+            
+            L'ABBÉ SERINET. 
+            
+            Que vois – je ? … pasd'argent ! … Ah ! les pauvres séminaires ! 
+            Mais il faudra qu'on m'explique… (Il va se jeter dans un
+            
+            fauteuil) .
+            
+            LAMBERT. 
+            
+            Point d'explication ! Tout est éclairci, … tout le monde est
+            
+            justifié…
+            
+            SERVIÈRES. 
+            
+            Tout le monde ! …
+            
+            je le voudrais… mais il me reste
+            
+            un doute… On me cache ici quelque chose, et Madame
+            
+            seule (montrant Mme Derbin) peut m'éclairer. 
+            
+            Moi ! Monsieur ? 
+            
+            MADAME DERBIN. 
+            
+            SERVIÈRES. 
+            
+            Oui, vous, Madame ! en brûlant des papiers, vous aviez
+            
+            un motif… Pourquoi la contre – lettre n'a – t – elle pas
+            le même sort ? Comment s'est – elle retrouvée ? Quel rapport
+            
+            subi
+            
+            entre ce fait et la présence de M. de Juvigny ? Cette
+            
+            querelle… ces lettres… ce duel ! 
+            
+            (59) 
+            
+            MADAME DERBIN. 
+            
+            Monsieur, modérez – vous ! 
+            
+            SERVIÈRES. 
+            
+            Que je me modère ! lorsque d'affreux soupçons…. Vous
+            
+            parlerez, Madame, je l'exige ; j'en ai le droit. Que m'im
+            
+            porte ce titre ? Fût – il anéanti, je serais encore assez riche
+            
+            d'un mot qui rendrait le calme à mon caur… je n'en puis
+            
+            plus douter ! … (Montrant M ** Derbin et sa femme.) L'une
+            
+            de vous deux est coupable ! 
+            
+            LAMBERT. 
+            
+            Arrêtez, Servières, et gardez – vous de soupçonner Ma
+            
+            dame… C'est la vertu même ! … Je réponds d'elle comme
+            
+            de moi… Son honneur est le mien… Sa vie est la
+            
+            mienne ! … Malheur à qui l'attaquerait ! …
+            
+            SERVIÈRES. 
+            
+            Eh ! bien donc, qu'elle s'explique, … qu'elle parle…
+            
+            Je ne puis vivre dans un pareil tourment !. 
+            
+            (On entend deux coups de feu dans le lointain.)
+            
+            MADAME DERBIN. 
+            
+            Qu'entends – je ? …
+            
+            L'ABBÉ SERINET, effrayé. 
+            
+            Que se passe – t – il ? …
+            
+            LAMBERT. 
+            
+            Eh ! parbleu ! … vous l'entendez… encore un duel ! …
+            
+            SERVIÈRES. 
+            
+            Celui dont on parlait tout à l'heure… on n'aura pu
+            
+            l'arranger… Je cours en savoir l'issue…
+            
+            SCÈNE XV, ET DERNIÈRE. 
+            
+            Les Mêmes ; ADÈLE, un mouchoir à la main. 
+            
+            ADÈLE, pále d'effroi, s'appuyant sur un fauteuil, au fond
+            
+            Mort ! … mort ! M. de Juvigoy ! 
+            
+            du théâtre. 
+            
+            (60) 
+            
+            MADAME SERVIÈRES, poussant un cri. 
+            
+            Mort ! …
+            
+            ADÈLE. 
+            
+            J'ai surpris un mot dans le salon… J'ai couru' à ma
+            
+            fenêtre…, 
+            
+            et je l'ai vu tomber ! …
+            
+            MADAME SERVIÈRES, à part. 
+            
+            Pauvre Édouard ! 
+            
+            (Se levant et tombant aux genous
+            
+            de son mari. :) Monsieur ! … vous saurez tout ! …
+            
+            L'ABBÉ SERINET
+            
+            à part. 
+            
+            O providence ! pourquoi ce jeune homme n'est – il pas
+            
+            mort avant que de rapporter la contre – lettre ! 
+            
+            0
+            
+            FIN
+            
+            B R I T I S H
+            
+            T
+            
+            I
+            
+            U
+            
+            S
+            
+            E
+            
+            U
+            
+            M
+            
+            L
+            
+            L'OUBLI. 
+            
+            VAUDEVILLE EN UN ACTE. 
+            
+            EXTRAIT DU CATALOGUE DE BEZOU, LIBRAIRE, 
+            
+            boulevard Saint – Martin, nº. 29. 
+            
+            Doe
+            
+            SUITE DU RÉPERTOIRE
+            
+            DU
+            
+            THÉATRE DE MADAME. 
+            
+            FORMAT GRAND IN – 32, 
+            
+            Imprimé sur papier Jésus – vélin satiné. 
+            
+            PRIX : UN FRANC LA LIVRAISON. 
+            
+            Choque Pièce se vend séparément, 
+            
+            Dog
+            
+            Cette charmante Collection se compose d'un choix des
+            
+            pius jolis Vaudevilles de MM. SCRIBE, DELESTRE – POIRSON, 
+            
+            MÉLESVILLE, DUPIN, G. DELAVIGNE, ROUGEMONT, 
+            
+            BAYARD, MOREAU, SAINTINE, VARNER, etc. 
+            
+            PIÈCES EN VENTE : 
+            
+            Avant, Pendant et Après. 
+            Le Boulevard Bonne – Nouvelle, 
+            
+            Le Fou de Péronne. 
+            
+            Les Frères de Lait. 
+            
+            avec la Scène pour l'Anniversaire
+            
+            Une Nuit de la Garde nationale. 
+            
+            dela naissance deMoliere. 
+            
+            L'Artiste. 
+            
+            Caroline. 
+            
+            Mémoires d'un Colonel. 
+            
+            La Famille Normande. 
+            
+            L'Intérieur de l'Etude. 
+            
+            Le Colonel. 
+            
+            L'Amant Bossu, 
+            
+            La petite Sæur. 
+            
+            La petite Folle. 
+            
+            Le Mariage enfantin. 
+            
+            La petite Lampe merveilleuse. 
+            Le Vieux Garçou. 
+            
+            La Meunière. 
+            
+            Les deux Maris, ou M. Rigaud. 
+            
+            Le Mystificateur. 
+            
+            Les Montagnes Russes. 
+            
+            Le Gastronome sans Argent. 
+            Le Témoin. 
+            
+            Les nouveaux Jeux de l'Amour et
+            
+            du Hasard. 
+            
+            Le Vampire. 
+            
+            
+            Aventures et Voyages du petit Jonas, 
+            
+            Les Héritiers de Crac. 
+            
+            La Maîtresse. 
+            
+            Philibert marié. 
+            La Reine de Seize ans. 
+            
+            CHANSONS
+            
+            D'EUGÈNE SCRIBE, 
+            
+            tirées de ses meilleures Pièces. 
+            
+            Un petit volume grand in – 32, imprimé sur papier
+            
+            Jésus – velin. 
+            
+            PRIX : 
+            
+            1 fr. 50 c. 
+        </body>
+    </text>
+</TEI>

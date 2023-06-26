@@ -1,0 +1,4428 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LES CABINETS PARTICULIERS</title>
+                <title type="sub">FOLIE-VAUDEVILLE EN UN ACTE</title>
+                <author key="BON" sort="1">
+                    <name>
+                        <forename>Joseph-Xavier</forename>
+                        <surname>Boniface</surname>
+                        <addname type="pen_name">Saintine</addname>
+                        <addname type="pen_name">Xavier</addname>
+                        <addname type="pen_name">Ernest</addname>
+                    </name>
+                </author>
+                <author key="DUV" sort="2">
+                    <name>
+                        <forename>Félix-Auguste</forename>
+                        <surname>Duvert</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LES CABINETS PARTICULIERS</title>
+                        <author>XAVIER ET DUVERT</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=BXA_AAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>La bibliothèque de l'État de Bavière</repository>
+                                <idno type="URL"> http://opacplus.bsb-muenchen.de/title/BV003260115/ft/bsb10055574?page=1</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1832-10-23">23 OCTOBRE 1832</date>
+                <placeName>
+                    <settlement>THÉÂTRE DU VAUDEVILLE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                  <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                 <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            SOUS PRESSE : 
+            
+            Deux Systèmes, vandeville mélé de couplets, par M. Dartois. 
+            
+            70. 
+            
+            SUOLLOIN
+            
+            0
+            0
+            6
+            3
+            0
+            4
+            8
+            2
+            2
+            0
+            3
+            2
+            9
+            2
+            2
+            
+            Cumele
+            
+            改
+            成便改改改改可
+            被
+            
+            LA FRANCE
+            
+            5
+            
+            DRAMATIQUE
+            
+            AU
+            
+            DIX-NEUVIÈME SIÈCLE. 
+            
+            CHOIX DE PIÈCES MODERNES. 
+            
+            Vaudeville
+            
+            LES CABINETS PARTICULIERS, 
+            
+            FOLIE-VAUDEVILLE EN UN ACTE. 
+            
+            Q
+            u
+            a
+            r
+            a
+            
+            613. 
+            
+            PARIS. 
+            
+            CH. TRESSE, ÉDITEUR, 
+            
+            ACQUÉREUR DES FONDS
+            
+            I. L. DELLOYE, EDITEUR
+            
+            DE LA FRANCE PUTORESQUE, 
+            
+            DE J.-N. BARBA ET V. BEZOU, 
+            
+            DE LA BIBLIOTHÈQUE Cuoisie, 
+            
+            ETC. 
+            
+            PALAIS-ROYAL, GALERIE DE CUARTRES, 
+            
+            Rue des Filles-Saint-Thomas, 13, 
+            
+            N. 2 et 3, derrière le Théatre-Francais. 
+            
+            Place de la Bourse. 
+            
+            1840. 
+            
+            R
+            H
+            O
+            U
+            D
+            
+            i f
+            
+            上
+            
+            LES
+            
+            CABINETS PARTICULIERS, 
+            
+            FOLIE-VAUDEVILLE EN UN ACTE, 
+            
+            PAR MM. XAVIER ET DUVERT ; 
+            
+            Représentée pour la première fois à Paris, sur le théâtre du Vaudeville, 
+            
+            le 23 octobre 1832. 
+            
+            DISTRIBUTION DE LA PIECE. 
+            
+            JACQUARD, fabricant de briquets phosphoriques…
+            
+            MM. ARNAL. 
+            
+            LEFÉBURE, oncle de Gavet et régisseur du théâtre. 
+            
+            GAVET, neveu de Lefébure. 
+            
+            PICNOT, commis dans un roulage…
+            
+            MORIN, restaurateur. 
+            
+            UN MONSIEUR, au balcon. 
+            
+            VOIX, 
+            
+            à l'orchestre…
+            
+            VOIX, dans une loge grillée…
+            
+            GIBELOTTE, garçon restaurateur. 
+            
+            UN GARÇON RESTAURATEUR
+            
+            ERNESTINE DUFOUR…
+            
+            Mme GAVET. 
+            
+            LEPEINTRE Je. 
+            
+            HYPOLITE. 
+            
+            DÉROUVERE
+            
+            ARMAND. 
+            
+            PERRIN. 
+            
+            BALLARD. 
+            
+            CASSEL. 
+            
+            ÉMILIEN. 
+            
+            OTERNEAU. 
+            
+            Mlle GEORGINA. 
+            
+            AD.-ALPHONSE. 
+            
+            La scène se passe à Paris, dans le restaurant de Morin. 
+            
+            2088988003883389 &amp; 
+            
+            E
+            
+            330228
+            
+            Le théâtre représente un salon de restaurateur. — A droite et à gauche, deux cabinets particuliers dont les
+            
+            fenêtres sont ouvertes du côté des spectateurs : à gauche le n ° 4, à droite le n° 6. 
+            
+            OUOOUOVOCO00000OCOOOUOCO0000000000000000000-0000UJOUUU
+            
+            SCÈNE 1. 
+            
+            
+            MORIN, GARÇONS RESTAURATEURS. 
+            
+            
+            
+            CHOEUR. 
+            
+            Ensemble. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Chœur des buveurs de Robert-le-Diable. </stage>
+            
+            
+            
+                    LES GARCONS RESTAURATEURS. 
+            
+                    CHOEUR. 
+            
+                    <l>Allons ! allons ! mettons-nous à l'ouvrage !</l>
+                    <l>Suivons les ordr's qu'on vient de nous donner.</l>
+                    <l>Montrons, amis, du zèle et du courage :</l>
+                    <l>Voici bientôt l'heure du déjeuner.</l>
+            
+            
+                    <l>Allons ! allons ! mettez-vous à l'ouvrage !</l>
+                    <l>Suivez les ordr's qu'on vient de vous donner.</l>
+                    <l>Montrez, garçons, du zèle et du courage</l>
+                    <l>Voici bientôt l'heure du déjeuner.</l>
+                    </lg>
+                </div>
+            
+            
+            
+            
+            
+            
+            
+                MORIN. 
+            
+            
+            
+                MORIN. 
+            
+            
+            
+                Les primeurs, les poissons, sont-ils sur les car
+            
+                les ? 
+            
+                Oui. 
+            
+                PLUSIEURS GARÇONS. 
+            
+                UN GARÇON, s'avançant. 
+            
+                Mais il n'y en a pas à la cuisine. 
+            
+                MORIN. 
+            
+                MORIN. 
+            
+                Je demande si on les a mis sur les cartes ? 
+            
+            
+                <div type="poem">
+                    <lg>
+            
+                        <stage type="tune"> AIR du vaudeville de Michel et Christine. </stage>
+            
+            
+                        LE GARÇON. 
+            
+                        <l>Garçons ! on désignait nos pères</l>
+                        <l>Sous le vil nom de gargottiers :</l>
+                        <l>Mais dans ce siècle de lumières,</l>
+                        <l>Soyez fiers d'être cuisiniers !</l>
+                        <l>Restaurateurs ! la morale moderne</l>
+                        <l>Nous a faits rois par ses décrets nouveaux :</l>
+                        <l>Car les humains sont comme les chevaux :</l>
+                        <l>C'est par la bouch' qu'on les gouverne.</l>
+                        
+                        </lg>
+                </div>
+                        
+                         <div type="poem">
+                    <lg>
+                        <stage type="tune" id="AIR : Chœur des buveurs de Robert-le-Diable."></stage> 
+            
+                        <l ana="unanalyzable">Allons, allons, etc.</l>
+            
+                
+            
+                On vous dit qu'oui… mais…
+            
+                2
+            
+                LES CABINETS PARTICULIERS. 
+            
+                MORIN. 
+            
+                MORIN. 
+            
+                C'est tout ce qu'il faut. 
+            
+                A vos fourneaux ! … Allez voir à la cuisine si j'y
+            
+                LE GARÇON. 
+            
+                suis. 
+            
+                Et si on en demande ? 
+            
+                GIBELOTTE. 
+            
+                On dit : N'y en a pas. 
+            
+                MORIN. 
+            
+                        CHŒUR. 
+            
+                        <l ana="unanalyzable">Allons, allons, mettons-nous à l'ouvrage, etc.</l>
+                    </lg>
+                </div>
+            
+            
+                (Les garçons sortent.)
+            
+                Qui est-ce qui a parlė ? quel est l'imbécile qui
+            
+                QUDDUOOUOJUOOOoooo
+            
+                00000000000
+            
+                vient de faire une réponse aussi saugrenue ? …
+            
+                GIBELOTTE, s'avançant à son lour. 
+            
+                Dam, c'est moi… si on me demande du poisson…
+            
+                MORIN. 
+            
+                Eh bien ! c'est embarrassant ? Il faut, mon cher
+            
+                SCÈNE II. 
+            
+                MORIN, ERNESTINE, en homme, 
+            
+                Mme GAVET. 
+            
+                ami, que vous soyez plus dinde qu'une oie… il y a
+            
+                ERNESTINE, se donnant un air d'importance. 
+            
+                deux réponses toutes simples, 
+            
+                cela dépend de
+            
+                J'ai demandé un cabinet particulier ; est-il prét, 
+            
+                l'heure qu'il est : 
+            
+                <div type="poem">
+                    <lg>
+            
+            
+                        <stage type="tune">AIR du vaudeville de Partie et Revanche.</stage>
+            
+            
+                        <l>Aux déjeuneurs on dit d'un air bonasse :</l>
+                        <l>Le poisson n'est pas arrivé ;</l>
+                        <l>Puis aux dîneurs on dit : Quelle disgrace !</l>
+                        <l>Les déjeuneurs nous ont tout enlevé !</l>
+                        <l>Par ce moyen l'obstacle est esquivé.</l>
+                        <l>Si l'amateur perd patience,</l>
+                        <l>Le vrai talent est de le retenir</l>
+                        <l>Entre le poisson d' l'espérance</l>
+                        <l>Et le poisson du souvenir.</l>
+            
+                    </lg>
+                </div>
+            
+                monsieur ? 
+            
+                MORIN. 
+            
+                Oui, monsieur, 
+            
+                il va l'être… Voici la carte…
+            
+                rien n'y manque : primeurs, poissons… ils viennent
+            
+                d'arriver… Si vous voulez bien faire votre menu, 
+            
+                le cabinet sera prêt dans un instant. 
+            
+                (Appelant.)
+            
+                Garçon ! (Gibelolle arrive ; Morin lui parle à l'oreille. 
+            
+                Gibelotte entre dans le cabinet, Morin sort par le
+            
+                fond.)
+            
+                00000000000000000000000000000000000000000000000000000000
+            
+                SCÈNE U. 
+            
+                Que diable ! un restaurateur doit être diplo
+            
+                mate… A propos ! a-t-on préparé le cabinet par
+            
+                Mme GAVET, ERNESTINE. 
+            
+                ticulier ? 
+            
+                GIBELOTTE. 
+            
+                Oui, monsieur, le n° 6, qui a été retenu par ce
+            
+                petit jeune homme de l'autre jour, avec cette jo
+            
+                lie dame. 
+            
+                Mme GAVET. 
+            
+                Ah ! mon Dieu ! heureusement qu'il ne faut plus
+            
+                qu'une séance, n'est-ce pas, Ernestine ? car deux
+            
+                femmes seules, dans un lieu public… cela a l'air
+            
+                MORIX. 
+            
+                si drôle ! …
+            
+                ERNESTINE. 
+            
+                Je présume que ce sont deux jeunes mariés. 
+            
+                GIBELOTTE. 
+            
+                Ca, des mariés ? … un mari qui viendrait faire
+            
+                ici le portrait de sa femme… ça ne me parait pas
+            
+                vraisemblable, ça… et puis en la peignant…
+            
+                MORIN. 
+            
+                Comment ? il la…
+            
+                GIBELOTTE. 
+            
+                Il la regarde avec des yeux…
+            
+                MORIN. 
+            
+                C'est assez naturel. 
+            
+                GIBELOTTE. 
+            
+                Avec des yeux… très cocasses…
+            
+                MORIX. 
+            
+                Silence ! … J'interdis le système des interpréta
+            
+                tions dans mon restaurant… Un cuisinier doit
+            
+                être…
+            
+                Sourd et muet ? 
+            
+                LE GARÇON. 
+            
+                MORIN
+            
+                Et pour qui me prends-tu ? Ne suis-je pas un
+            
+                joli cavalier ? Après tout, ce que j'en ai fait, moi, 
+            
+                c'est pour loi, pour te servir de protecteur, de
+            
+                porte-respect. Aurais-tu mieux aimé que je vinsse
+            
+                dire au restaurateur : « Monsieur, Mme Gavet, que
+            
+                » je vous présente, est la femme d'un original, 
+            
+                » qu'elle aime cependant, et à qui, pour sa fête, 
+            
+                » elle veut faire présent de son portrait. Moi, je
+            
+                » suis artiste et de plus amie de Mme Gavet. Impos
+            
+                » sible de faire poser Mme Gavet chez elle, ce qui
+            
+                » eût éveillé les soupçons de l'original dont je vous
+            
+                » parle, nous avons donc décidé d'un commun ac
+            
+                » cord que nous travaillerions dans un de vos ca
+            
+                » binets particuliers. » 
+            
+                Mme GAVET. 
+            
+                Tu diras tout ce que tu voudras, la première
+            
+                fois, l'originalité du fait, ton déguisement, le plai
+            
+                sir même de la peur m'avaient fait passer par-des
+            
+                sus tout le reste ; la seconde fois, j'étais déjà moins
+            
+                hardie ; aujourd'hui, je tremble ! 
+            
+                C'est ça… Mais la foule commence à se préci
+            
+                ERNESTINE. 
+            
+                piter dar mes salons…
+            
+                LE GARÇON, à part. 
+            
+                Ils sont deux… c'est justement eux. 
+            
+                Mais pourquoi ? 
+            
+                me GAVET. 
+            
+                Parce que… mon mari est bon… mais…
+            
+                SCENE VII. 
+            
+                3
+            
+                ERNESTINE, l'interrompant. 
+            
+                LEFÉBURE. 
+            
+                Bon commerçant, parfait vinaigrier. 
+            
+                Qui puisse vous porter préjudice. 
+            
+                Mme GAVET. 
+            
+                GAVET. 
+            
+                Mais jaloux ! … (On entend du bruit en dehors.)
+            
+                Mais, mon oncle, quand je vous dis que Tor
+            
+                Ah ! mon Dieu ! n'entends-je pas ? …
+            
+                tempion les a yus entrer ici. 
+            
+                Quoi ? 
+            
+                ERNESTINE. 
+            
+                Mme GAVET, 
+            
+                LEFÉBURE, étonné. 
+            
+                Qu'est-ce que c'est que Tortempion ? 
+            
+                GAVET. 
+            
+                C'est la voix de mon mari… Ernestine ! ah ! mon
+            
+                Mon garçon de boutique. 
+            
+                Dieu ! où nous cacher ? 
+            
+                Mme GAVET, à part, à la fenêtre du cabinet. 
+            
+                voooooooooooo
+            
+                00000Ccououou
+            
+                00000000wOvo
+            
+                Il nous a fait espionner. 
+            
+                SCENE IV. 
+            
+                LEFÉBURE. 
+            
+                Qu'est-ce que cela prouve ? 
+            
+                GAVET. 
+            
+                LES MÊMES, GIBELOTTE, sorlant du cabinet ; 
+            
+                puis MORIN. 
+            
+                En vérité, si je ne m'écoutais, vous me feriez
+            
+                sauter à une hauteur incroyable, avec votre sang
+            
+                LE GARÇON. 
+            
+                froid. 
+            
+                Monsieur et madame, le cabinet est prêt. 
+            
+                Mme GAVET
+            
+                Eh ! vite ! eh ! vite ! 
+            
+                MORIN, entrani, 
+            
+                Et le menu du déjeuner ? 
+            
+                ERNESTINE. 
+            
+                Ahi le menu ? 
+            
+                Q0Ovouooouud
+            
+                Ov00000ococoo
+            
+                SCÈNE VIJ. 
+            
+                LES MÊMES, MORIN
+            
+                MORIN. 
+            
+                Mme GAVET, troublée el entrant. 
+            
+                Voilà, monsieur ! … Que vous faut-il pour dé
+            
+                Vous êtes bien bon, il ne nous faut rien… Nous
+            
+                jeuner ? 
+            
+                n'avons pas faim. 
+            
+                GAVET, s'éloignant avec humeur. 
+            
+                (Elles entrent précipitamment dans le cabinet
+            
+                Il s'agit bien de déjeuner. 
+            
+                de droite et reſerment la porte sur elles.)
+            
+                MORIN, à part. 
+            
+                Comment ! eux aussi ! …
+            
+                ovouocoJo00000000000000
+            
+                000000000000
+            
+            
+                <div type="poem">
+                    <lg>
+            
+                        <stage type="tune">AIR : Ces postillons sont d'une maladresse ! </stage>
+            
+                        <l>Ah ça mais, deviens-je imbécile ?</l>
+                        <l>Il m' sembl' que tous ces visiteurs</l>
+                        <l>S' réuniss'nt dans mon domicile</l>
+                        <l>Pour aller déjeuner ailleurs.</l>
+                        <l>Que suis-je donc aux yeux de ces farceurs ?</l>
+                        <l>C'est absurde et c'est téméraire :</l>
+                        <l>Ils prenn'nt ma maison (quel abus !)</l>
+                        <l>Pour un cabinet littéraire</l>
+                        <l>Ou pour un omnibus.</l>
+                    </lg>
+                </div>
+            
+            
+                SCÈNE V. 
+            
+                MORIN, LE Garçon. 
+            
+                MORIN, d'un air scandalisé. 
+            
+                Comment ! il ne faut rien ? 
+            
+                LE GARÇON, de même. 
+            
+                Ils sont sans façons. 
+            
+            
+                SCÈNE VI. 
+            
+                LES MÊMES, LEFEBURE, GAVET. 
+            
+                (Pendant ce couplet, Gavet fort animé cherche à persuader
+            
+                son oncle dont le sang-froid l'irrite encore plus.)
+            
+                Définitivement, messieurs, que demandez-vous ? 
+            
+                GAVET. 
+            
+                GAVET, furieux
+            
+                N'est-il pas venu ici une jeune femme ? 
+            
+                Je vous dis ; mon oncle, qu'on l'a vue entrer ici
+            
+                MmeGAVET, à Ernestine. 
+            
+                avec un jeune homme. 
+            
+                LEFÉBURE, avec beaucoup de flegme. 
+            
+                Je tremble comme la feuille, 
+            
+                ERNESTINE. 
+            
+                Mais, mon neveu, ma nièce est incapable…
+            
+                Ne crains rien, je prends tout sur moi. 
+            
+                GAVET. 
+            
+                LEFÉBORE, à Morin. 
+            
+                Il faut que j'en aie le caur net. 
+            
+                Une jeune femme qui a les yeux bleus, et un
+            
+                LEFÉBURE. 
+            
+                schal idem, chapeau rose, et le teint de la même
+            
+                Incapable de rien faire…
+            
+                nuance ; figure chiffonnée, et une robe…
+            
+                GAVET. 
+            
+                MORIN. 
+            
+                C'est inimaginable, cela ! 
+            
+                Oui ! monsieur, avec un jeune homme très bien
+            
+                LEFÉBURE. 
+            
+                frisé, et que je soupçonne fort d'être premier ou
+            
+                De rien faire qui puisse…
+            
+                second clerc… chez un coil
+            
+                GAVET. 
+            
+                GAVET, à Morin. 
+            
+                Sortir sans me prévenir ! 
+            
+                Où sont-ils ? 
+            
+                4
+            
+                LES CABINETS PARTICULIERS. 
+            
+                MORIN. 
+            
+                GAVET, agilavt violemment la porte du cabinet. 
+            
+                Monsieur ! mon établissement est si vaste ! … et
+            
+                La porte est fermée. 
+            
+                je ne sais si je dois… un restauraleur doit être
+            
+                ERNESTINE, de l'intérieur, élevant la voix. 
+            
+                discret. 
+            
+                Qui est là ? que demandez-vous ? 
+            
+                GAVET, à demi-voix à Lefébure. 
+            
+                PIGNOT, à part. 
+            
+                Mon oncle, je vais faire un coup scandaleux. 
+            
+                C'est la voix d'Ernestine ! plus de doute ! mais
+            
+                LEFÉBORE, à parl. 
+            
+                de la circonspection ! Infâme rival ! je vais cher
+            
+                Je suis extrêmement fàché d'être venu avec
+            
+                cher des armes, et je ne te perds pas de vue. 
+            
+                Gavet… je voudrais m'en aller, 
+            
+                (Il sort, sans avoir été vu de personne ; Morin sort
+            
+                000000000000000
+            
+                000ovovouwvouuuuuuoooo
+            
+                aussi.)
+            
+                000000OOO
+            
+                0000000000000000000000
+            
+                SCÈNE VIII. 
+            
+                SCÈNE IX. 
+            
+                LES MÊMES, PICNOT, paraissant dans le fond. 
+            
+                PICNOT, à part. 
+            
+                ERNESTINE, dans le cabinet. 
+            
+                LEFÉBURE, GAVET, en scène, Mme GAVET, 
+            
+                Ernestine ne se doule pas que j'en ai vu assez
+            
+                dans sa lettre pour avoir surpris le rendez-vous. 
+            
+                LEFÉBURE, bas à Gavet. 
+            
+                Contenez-vous, mon neveu. 
+            
+                GAVET. 
+            
+                Je me contiens. 
+            
+                (A Morin.) Mais, monsieur, 
+            
+                celle jeune dame… c'est celle que je cherche ; 
+            
+                GAVET. 
+            
+                Quelle est celle voix ? 
+            
+                LEFÉBURE. 
+            
+                Celle du petit jeune homme…
+            
+                il a la voix bien
+            
+                douce… mon cher ami…, allons-nous-en. 
+            
+                (II remonte la scène, Gavet le retient.)
+            
+                elle m'attend. 
+            
+                GAVET, avec indignation. 
+            
+                Elle vous attend ? 
+            
+                loi ! de par le diable ! ou je brise la porte ! voulez
+            
+                MORIN. 
+            
+                Nous en aller ! … Ouvrez, monsieur, de par la
+            
+                PICNOT, à part. 
+            
+                vous bien ouvrir ? 
+            
+                Elle l'altend ! … est-ce que ce serait ? … Écou
+            
+                LEFÉBURE. 
+            
+                tons. 
+            
+                Cher ami ! je vous assure que vous vous em
+            
+                ERNESTINE, à Mme Gavel. 
+            
+                portez, ma parole d'honneur, vous vous empor
+            
+                Voyons comme tout cela finira. 
+            
+                tez. 
+            
+                (A part.) Je voudrais être bien loin. 
+            
+                (Haut.)
+            
+                GAVET. 
+            
+                Attendez ! moi, j'ai mon sang-froid, je vais ar
+            
+                Oui, monsieur, elle m'attend… je lui ai donné
+            
+                ranger l'affaire. 
+            
+                (A Ernestine à travers la porte.)
+            
+                rendez-vous ici ? 
+            
+                Dites-moi, monsieur, n'auriez-vous pas par ha
+            
+                PICNOT. 
+            
+                sard une jeune dame avec vous ? 
+            
+                Quand je disais que c'était une écriture d'hom
+            
+                ERNESTINE. 
+            
+                me… mais, point de précipitation, Picnot ! écou
+            
+                Une jeune dame ? 
+            
+                tons encore ! 
+            
+                LEFÉBURE. 
+            
+                MORIN
+            
+                Oui ! (A Gavet.) Vous voyez bien… le tout est
+            
+                S'il en est ainsi, monsieur, vous n'irez pas
+            
+                de s'entendre. 
+            
+                loin…
+            
+                il paraît que l'on vous attendait pour
+            
+                faire le menu… voici la carte. 
+            
+                Votre nom ? 
+            
+                ERNESTINE. 
+            
+                LEFĖBURE. 
+            
+                GAVET, s'animant. 
+            
+                Où est-elle, monsieur ? 
+            
+                MORIN, présentant la carte. 
+            
+                Anselme Lefébure, ancien contrôleur de l'oc
+            
+                troi, et maintenant fabricant de serinettes, 
+            
+                tient
+            
+                les cordes à violon et autres, rue des Singes, qui
+            
+                La voilà ! Ah ! celle dame ? … je ne vous l'ai
+            
+                voudrait vous parler. 
+            
+                donc pas dit ? … ici, au numéro 6. 
+            
+                ERNESTINE, d'un air impatienté. 
+            
+                PICNOT, à part. 
+            
+                Connais pas. 
+            
+                Au numéro 6 ! 
+            
+                GAVET, prenant sa place. 
+            
+                LEFÉBURE, à pari. 
+            
+                Eh ! mon oncle ! laissez-moi faire. 
+            
+                Il est dans un état d'exaspération ! je voudrais
+            
+                LEFÉBURE, à part. 
+            
+                m'en aller. 
+            
+                GAVET. 
+            
+                Je donnerais l'impossible pour n'être pas venu
+            
+                avec Gavet. 
+            
+                Numéro 6 ! (Il regarde le cabinet avec altendrisse
+            
+                GAVET, à Ernestine. 
+            
+                ment.) Dire que c'est peut-être dans ce numéro 6
+            
+                Ou vous demande, monsieur, si vous n'étes pas
+            
+                que je suis le plus malheureux des hommes ! …
+            
+                venu av
+            
+                une jeune dame ? 
+            
+                ERNESTINE, bas à Mme Gavel. 
+            
+                ERNESTINE. 
+            
+                Laisse-moi faire… nous allons nous amuser. 
+            
+                Conpais pas, 
+            
+                SCENE X. 
+            
+                5
+            
+                GAVET, frappant à coups redoublés sur la porte. 
+            
+                MWO GAVET. 
+            
+                Ouvrez au nom de la loi et de tout ce qu'il y
+            
+                Eh bien, monsieur, entrons dans ce cabinet…
+            
+                a de plus sacré… dans Paris ! je me nomme Jo
+            
+                (Gavel el sa femme se disposent à entrer dans le ca
+            
+                seph Gavet. 
+            
+                ERNESTINE. 
+            
+                Vous disiez : Lefébure. 
+            
+                GAVET. 
+            
+                Lefébure, c'est mon oncle, avec quoi je suis
+            
+                Venu. 
+            
+                LEFÉBURE, d'un air triomphant. 
+            
+                C'est moi, Lefébure. 
+            
+                binet de gauche.)
+            
+                0000000000000000000000000000000000000Ovo uvo0000000000
+            
+                SCÈNE X. 
+            
+                LES MÊMES, en scène, JACQUARD, dans la
+            
+                salle, au balcon. 
+            
+                ERNESTINE. 
+            
+                JACQUARD, se levant d'un air førieux. 
+            
+                Pourquoi dites-vous Gavel, alors ? 
+            
+                Je m'y oppose ! c'est une horreur ! c'est une
+            
+                LEFÉBURE. 
+            
+                abomination ! ça ne se peut pas ! ça ne se peut
+            
+                Mais, Lefébure et Gavet, ce sont deux êtres. 
+            
+                pas ! c'est impossible ! 
+            
+                (A Gavet.) Parlez avec moi, mon cher ami, pour
+            
+                GAVET, à sa femme. 
+            
+                convaincre ce jeune homme. 
+            
+                (Criant de toutes ses
+            
+                Eh bien ! oui, madame, entrons dans ce cabi
+            
+                forces.) C'est moi, Lefébure. 
+            
+                net. 
+            
+                GAVET, criant en même temps. 
+            
+                JACQUARD. 
+            
+                C'est moi, Gavel. 
+            
+                Il n'entrera pas ! je m'y oppose ! 
+            
+                LEFÉBURE. 
+            
+                UNE voix, à l'orchestre. 
+            
+                Avez-vous entendu les deux voix ? 
+            
+                A la porte ! à la porte ! silence ! à la porte ! 
+            
+                ERNESTINE. 
+            
+                JACQUARD. 
+            
+                Oui… mais… connais pas…
+            
+                Il n'y a pas ! …, il n'y a pas ! je suis ici pour mes
+            
+                LEFÉBURE. 
+            
+                cinq francs… Je demande à déployer mes raisons. 
+            
+                Il ne connait pas. Alors, votre femme n'est pas
+            
+                UNE voix, à l'orchestre. 
+            
+                avec lui… allons nous-en. 
+            
+                A la porte ! à la porte ! 
+            
+                GAVET. 
+            
+                JACQUARD, avec dignité. 
+            
+                C'est trop fort ! et puisqu'il faut employer la
+            
+                Vous en êtes un autre. 
+            
+                violence…
+            
+                UN MONSIEUR, à l'autre balcon. 
+            
+                Mme GAVET, au moment où Gavet s'avance vers la
+            
+                Mais, monsieur, vous interrompez la pièce ! 
+            
+                porte du cabinet, l'ouvre brusquement et la re
+            
+                c'est indécent. 
+            
+                ferme ensuite. 
+            
+                JACQUARD, toujours avec dignité, et ayant l'air
+            
+                Eh ! bon ami ! comment ! c'est vous qui faites
+            
+                de consulter ses voisins. 
+            
+                tout ce tapage ? 
+            
+                Bon ami ! 
+            
+                GAVET, stupéfait. 
+            
+                d'indéceni. Tous les jours un homme demande à
+            
+                s'expliquer, et tous les jours un homme s'expli
+            
+                Je ne crois pas avoir rien dit ni rien commis
+            
+                LEFÉBURE, bas à Gavet. 
+            
+                Elle est fort douce, votre femme. 
+            
+                GAVET. 
+            
+                Que faites-vous ici, madame ? avec qui y êtes
+            
+                vous ? je vais voir ! … (Il fait un mouvement pour
+            
+                entrer dans le cabinel.)
+            
+                Mme GAVET, le retenant. 
+            
+                Non, monsieur, vous n'entrerez pas ! M'oser
+            
+                soupçonner ! quelle horreur ! 
+            
+                GAVET. 
+            
+                Comment ! quelle horreur ! Expliquez votre
+            
+                conduite, madame, expliquez-la. 
+            
+                Mme GAVET. 
+            
+                Volontiers, bon ami, mais ce n'est qu'en tête-à
+            
+                téte…
+            
+                LEFÉBURE. 
+            
+                Je ne demande pas mieux que de m'en aller. 
+            
+                GAVET, le relenant. 
+            
+                que, il n'y a rien de plus commun. 
+            
+                UNE Voix, à l'orchestre. 
+            
+                Laissez parler ! laissez-le s'expliquer ! 
+            
+                LE MONSIEUR du balcon, à Jacquard. 
+            
+                Eh ! bien, qu'est-ce que c'est ? …
+            
+                JACQUARD. 
+            
+                Monsieur, c'est ma femme… oui ! la jeune dame
+            
+                qui débute ce soir, dans le rôle plus que léger de
+            
+                madame Gravet, Gravelet… comment…
+            
+                LE MONSIEUR du balcon. 
+            
+                Gavet. 
+            
+                JACQUARD. 
+            
+                Gavel, soil ! ça ne fait rien… mais elle ne s'ap
+            
+                pelle pas plus Gavet que vous et moi… Gavet
+            
+                est un nom
+            
+                trivial ; elle se nomme réellement
+            
+                madame Jacquard, qui est mon nom, à moi, et
+            
+                que je trouve (Ricananı.) un peu plus Galleur que
+            
+                Restez, mon oncle… Nous pouvons, madame, 
+            
+                l'autre, qu'en dites-vous ? 
+            
+                entrer dans cet autre cabinet. 
+            
+                (Il désigne le cabinet
+            
+                UNE Voix, dans l'intérieur d'une loge grillée. 
+            
+                å gauche.) (A part.) J'ai mon projet. (Bas à Leſé
+            
+                Vous avez tort, mon gendre ! 
+            
+                bure.) Restez ! et surveillez le numéro 6, 
+            
+                JACQUARD. 
+            
+                LEFÉBURE. 
+            
+                Hein ? qui est-ce qui a parlé ? … Pour en finir, 
+            
+                J'aurais cependanl bien voulu…
+            
+                je déclare que ma femme débule malgré moi, je
+            
+                1
+            
+                1
+            
+                1
+            
+                6
+            
+                LES CABINETS PARTICULIERS. 
+            
+                déclare que je ne veux pas que ma femme joue la
+            
+                liment.) Oh ! non ! non, ma foi ! je ne suis pas en
+            
+                comédie… j'ai mes motifs…
+            
+                position de me livrer à un aussi pitoyable calem
+            
+                LE MONSIEUR du balcon. 
+            
+                bourg. 
+            
+                Mais, vous interrompez. 
+            
+                JACQUARD, appuyant. 
+            
+                J'ai mes motifs. 
+            
+                (La débutante pleure.)
+            
+                000000000000
+            
+                00000000000
+            
+                000000000000000000000
+            
+                PLUSIEURS voix, au parterre et à l'orchestre. 
+            
+                SCÈNE XI. 
+            
+                A la porte ! à la porte ! 
+            
+                JACQUARD, avec résolution. 
+            
+                Eh bien ! pon ! je ne sortirai pas. Je demande
+            
+                LES MÊMES, LEFÉBURE, rentrant à pas précipitės. 
+            
+                qu'on m'amène le commissaire de police… qu'il
+            
+                LEFÉBURE, au public. 
+            
+                vienne ! j'ai la loi pour moi. 
+            
+                (Madame Gavet fait un
+            
+                Messieurs ! c'est en qualité de régisseur de ce
+            
+                mouvement pour sortir de la scène.) Restez, ma
+            
+                théâtre que j'ai l'honneur de prendre la parole
+            
+                dame Jacquard. 
+            
+                (D'un ton impérieux.) Pamela ! 
+            
+                devant vous. 
+            
+                (Jacquard applaudit.) Nous sommes
+            
+                restez ! 
+            
+                (Au public.) J'avais d'abord permis à mon
+            
+                désolés du scandale qui vient d'avoir lieu ; on vient
+            
+                épouse de jouer aux Variétés avec M. Odry… Je
+            
+. 
+            
+                d'aller chercher monsieur le commissaire de po
+            
+                ne suis pas jaloux, moi, du physique de M. Odry : 
+            
+                lice. 
+            
+                il ne me porte pas ombrage, M. Odry ; je le
+            
+                JACQUARD, frappant sur l'appui du balcon. 
+            
+                respecte… et je l'aime… mais je ne veux pas
+            
+                Très bien ! c'est moi qui l'ai demandé ; je m'ex
+            
+                que ma femme joue avec M. Hypolyle ; j'ai des
+            
+                pliquerai devant les autorités. 
+            
+                raisons pour cela, des raisons particulières et qui
+            
+                ne regardent personne… voilà ! 
+            
+                (Il se rassied.)
+            
+                Maintenant vous pouvez continuer. 
+            
+                GAVET, en scène. 
+            
+                Comment ? quelle horreur ? Expliquez votre
+            
+                conduite, madame, expliquez-la. 
+            
+                JACQUARD, à sa femme, d'un air indigné. 
+            
+                Oui ! expliquez-la. 
+            
+                Mme GAVET å Gavel. 
+            
+                Volontiers, bon ami, mais ce n'est qu'en tête
+            
+                à tête…
+            
+                LEFéBURE, à Jacquard. 
+            
+                Monsieur ! vous troublez le spectacle, vous com
+            
+                promettez par votre interruption le succès d'un
+            
+                ouvrage qui nous a paru renfermer des beautés du
+            
+                premier ordre, et sur lequel l'administration fonde
+            
+                les plus grandes espérances. 
+            
+                JACQUARD, avec noblesse. 
+            
+                Je les parlage, monsieur l'entrepreneur, je les
+            
+                partage ! Je trouve cette pièce extrêmement bien, 
+            
+                pas commune, et les caractères, surtout celui du
+            
+                JACQUARD, se levant à moitié el se rasseyant aussitôt, 
+            
+                vinaigrier, parfaitement établis, monsieur l'en
+            
+                Ah ! mais…
+            
+                trepreneur ! 
+            
+                LEFÉBURE. 
+            
+                LEFÉBURE. 
+            
+                Je ne demande pas mieux que de m'en aller. 
+            
+                D'abord, monsieur, vous m'appelez monsieur
+            
+                GAVET. 
+            
+                l'entrepreneur ; je suis artiste et régisseur du
+            
+                Restez, mon oncle. (A sa femme.) Nous pouvons, 
+            
+                théâtre. 
+            
+                madame, entrer dans cet autre cabinet. 
+            
+                (A part.)
+            
+                JACQUARD, au public. 
+            
+                J'ai mon projet. (A Lefébure.) Restez et surveil
+            
+                Oh ! 
+            
+                (Avec empbase.) Arliste ! artiste ! 
+            
+                ils ont
+            
+                lez le numéro 6. 
+            
+                un amour-propre, ces baladins-là ! (Au régisseur.)
+            
+                LEFÉBURE. 
+            
+                Qu'est-ce que ça me fait ? Allez me chercher l'en
+            
+                J'aurais cependant bien voulu…
+            
+                trepreneur-général, alors, j'ai à lui parler. 
+            
+                (D'un
+            
+                Mme GAVET. 
+            
+                air impatientė.) Allons ! voyons, allez me le cher
+            
+                Eh bien ! monsieur, entrons dans ce cabinet…
+            
+                cher ; je veux lui parler ; qu'on me l'amène. 
+            
+                GAVET. 
+            
+                LEFÉBURE. 
+            
+                Eh bien ! oui, madame, entrons dans ce cabinet. 
+            
+                Mais monsieur, M. le directeur n'est pas dans
+            
+                JACQUARD, se levant de nouveau. 
+            
+                l'usage de paraitre sur la demande du premier
+            
+                Je m'y oppose ! Je ne veux pas que ma femme
+            
+                venu. 
+            
+                entre dans le cabinet avec M. Hypolite. 
+            
+                JACQUARD, fort étonné. 
+            
+                GAVET, s'avançant jusqu'à la rampe du côlé de Jac
+            
+                premier venu, que j'ai failli ne pas trouver de
+            
+                (Lefébure quitte la scène.)
+            
+                Comment ! du premier venu ? Je suis si peu le
+            
+                quard. 
+            
+                place pour claquer mon épouse. Je vous trouve
+            
+                Mais alors, monsieur ! il est impossible de con
+            
+                très curieux, par exemple. 
+            
+                (Il ril d'un air gogue
+            
+                Linuer la pièce. 
+            
+                nard.) Ah ! mais, il est adorable ! 
+            
+                JACQUARD. 
+            
+                Eh bien ! monsicur, passez la scène. 
+            
+                Comment ? 
+            
+                GAVET. 
+            
+                JACQUARD. 
+            
+                voix, dans une loge grillée. 
+            
+                Vous avez tort, mon gendre ! 
+            
+                JACQUARD, regardant au fond. 
+            
+                Qui est-ce qui m'appelle son gendre ? … ça ne
+            
+                Quand je dis, passez la scène, je ne veux pas
+            
+                peut être que mon beau-père. Si ce n'est pas lui, 
+            
+                vous dire d'aller de l'autre coté… (D'un air de sen
+            
+                c'est quelqu'un qui se trompe. Où donc êtes-vous ? 
+            
+                SCENE XI. 
+            
+                7
+            
+                LA VOIX. 
+            
+                musicienne, 
+            
+                qu'elle (dansait comme un ange, 
+            
+                Au numéro 52. 
+            
+                comme elle parlait fort bien l'italien et l'anglais, 
+            
+                JACQUARD, riaut. 
+            
+                je lui confiai la direction de mon établissement de
+            
+                Il est bon là, le beau-père ; il croit que je puis
+            
+                briquets phosphoriques. 
+            
+                voir les numéros d'ici… Il est fort naif. 
+            
+                LE MONSIEUR du balcon. 
+            
+                LEFÉBURE. 
+            
+                Monsieur Jacquard, permettez ! j'ai payé aussi
+            
+                Mais, monsieur, encore une fois, j'ai l'honneur
+            
+                mes cinq francs à la porte ; mais je vous prie de
+            
+                de vous répéter que vous troublez l'ordre… si vous
+            
+                croire que ce n'était pas pour entendre la bio
+            
+                avez quelques observations à faire. 
+            
+                graphie de madame votre épouse. 
+            
+                JACQUARD, avec sentiment. 
+            
+                JACQUARD, braquant sa lorgnelle sur le monsieur du
+            
+                J'en ai, monsieur, j'en ai, et de douloureuses…
+            
+                balcon, l'examinant un instant, puis ajustant sa
+            
+                Je ne veux pas que ma femme joue la comédie avec
+            
+                Torgnelle et le lorgnant de nouveau. 
+            
+                M. Hypolyte ; j'ai mes motifs… (A demi-voix.)
+            
+                C'est un huissier. 
+            
+                Si vous êtes époux. 
+            
+                LE MONSIEUR du balcon. 
+            
+                LEFÉBURE. 
+            
+                Allez au fait. 
+            
+                Je le suis, monsieur. 
+            
+                JACQUARD. 
+            
+                Eh ! bien ! si vous l'ètes, vous devez compren
+            
+                LE MONSIEUR du balcon. 
+            
+                JACQUARD. 
+            
+                M'y voilà… François-Antoine Casmajou…
+            
+                dre…
+            
+                Encore une biographie ! 
+            
+                LE MONSIEUR du balcon. 
+            
+                JACQUARD. 
+            
+                Et pour quelle raison, monsieur ? 
+            
+                Non, monsieur : c'est le petit bonhomme que
+            
+                JACQUARD. 
+            
+                j'emploie dans mon établissement de briquets phos
+            
+                La raison ? … (Après une pause et d'un air décidé.)
+            
+                phoriques ; un enfant plein d'intelligence ; aussi
+            
+                Eh ! bien, je vais vous la dire, la raison ; elle in
+            
+                l'autre jour je lui dis : Va me chercher une demi
+            
+                téresse tous les honnêtes gens… (A sa femme, d'un
+            
+                once de tabac… (Avec finesse.) Le petit Casmajou
+            
+                air de reproche.) Vous voyez, Paméla, où j'en suis ? 
+            
+                com
+            
+                end très bien ce que ça veut dire ; 
+            
+                il y va, 
+            
+                c'est gai, c'est extrêmement gai. 
+            
+                et il me rapporte… quoi ? une demi-once de ta
+            
+                Voix, à l'orchestre. 
+            
+                Silence ! chut ! écoutez. 
+            
+                bac. 
+            
+                (Un enfant rempli de moyens ! 
+            
+) En meltant
+            
+                le tabac dans ma tabatière (Jacquard prononce ces
+            
+                JACQUARD, se levant. 
+            
+                mots : en mettant le tabac, de manière à rappeler
+            
+                Justine-Paléma de Crapuzot, femme Jacquard, 
+            
+                l'air : J'ai du bon tabac.) j'aperçois sur le cornet
+            
+                appartient à une des premières familles de Lorient. 
+            
+                un nom ! le nom de Pamela ! il me prend au même
+            
+                Quand je dis de Lorient, n'allez pas croire qu'elle
+            
+                instant un éblouissement ! ma main tremblait
+            
+                soit de Smyrne ou de Constantinople ; non ! elle est
+            
+                comme ça. 
+            
+                (li agite vivement sa main, et la montre
+            
+                née à Lorient, dans le Morbihan, jolie petite ville, 
+            
+                successivement à ses voisins, puis il l'élève pour la
+            
+                très mal bâtie et fort malpropre… Son père… (de
+            
+                faire voir aux spectateurs des loges, et se baisse pour
+            
+                ma femme) y occupait des emplois considérables ; 
+            
+                faire remarquer ce tremblement aux spectateurs de
+            
+                il y recevait la meilleure société et était réellement
+            
+                l'orchestre.) Je lis ! … 0 Dieu ! … Ah ! pouah ! c'é
+            
+                un des gros bonnets de la ville ; il était sur le point
+            
+                tait un billet signé… (c'est ignoble !) signe : Hy
+            
+                d'obtenir la préfecture de son département, lors
+            
+                polile ! Mais le marchand de tabac en avait coupé
+            
+                que, par suite de la dernière révolution qui a dé
+            
+                un coin ; il avait arrondi celte turpitude pour éla
+            
+                placé tant de fortunes, cet hommese trouva ruiné
+            
+                blir son cornet… (11 lire un cornet de sa poche.)
+            
+                de la tête aux pieds… alors, 
+            
+                il se condamna à la
+            
+                Le voici cet horrible cornet où je pus lire des
+            
+                retraite, et devint tambour-maitre dans le 7e de
+            
+                phrases de cette įnature. (II lit.) « Votre mari, 
+            
+                ligne. 
+            
+                Mme JACQUARD, à son mari. 
+            
+                Mais, monsieur, il est inutile…
+            
+                JACQUARD, avec douceur. 
+            
+                par son physique, semble naturellement destiné à
+            
+                être… » Le mot est coupé ! 
+            
+                (II
+            
+                lit.)
+            
+                « Je m'esti
+            
+                merais heureux si vous vouliez que ça soye moi
+            
+                qui… » Le mot est encore coupé dans l'arrondis
+            
+                Laissez, Pamela, je m'explique avec ces mes
+            
+                sement du cornet. 
+            
+                sieurs touchant votre père. 
+            
+                VOIX, dans une loge grillee. 
+            
+                Vous avez lort, mon gendre ! 
+            
+                LEFÉBURE. 
+            
+                Mais, monsieur, celte interruption est intolé
+            
+                rable… d'ailleurs ce que vous dites-là n'a aucun
+            
+                rapport…
+            
+                JACQUARD, d'un air de dédain. 
+            
+                Vous m'ennuyez ! 
+            
+                (Au public.) Mon épouse, qui
+            
+                était alors mademoiselle de Crapuzot, vint à Paris
+            
+                où je fis sa connaissance. Comme elle était bonne
+            
+                GAVET s'avançant avec mauvaise humeur. 
+            
+                Mais, monsieur ! 
+            
+                JACQUARD, impérieusement. 
+            
+                Taisez-vous ! je vous regarde comme bien peu. 
+            
+                Voilà comment je vous regarde… (Au public.) En
+            
+                fin, ma femme débute au théâtre ci-inclus, et
+            
+                que vois-je encore ce matin sur l'affiche ? … Le
+            
+                nom d'un M. Hypolite qui joue dans la pièce ! …
+            
+                Cette affiche produisit sur moi un effet… extraor
+            
+                dinaire ; je n'essaierai pas de vous le dépeindre. 
+            
+                8
+            
+                LES CABINETS PARTICULIERS. 
+            
+                Certes, j'aime la vie ! 
+            
+                (Appuyant.) j'aime la vie ! 
+            
+                vous nous ſerez rentrer chez nous à quatre beures
+            
+                Eh bien, j'aurais préféré qu'une cheminée ou
+            
+                du matin. Si vous avez des motifs de mécontente
+            
+                qu'un pot de fleurs lombât du cinquième étage sur
+            
+                ment, cela vous regarde ; mais il y a ici sept ou
+            
+                quelqu'un à côté de moi ; je le déclare, ça m'au
+            
+                buit cents personnes qui ont payé leurs places, et
+            
+                rait fait moins de mal. (Il se rassied.) Et voilà
+            
+                il me semble qu'un seul individu n'a pas le droit
+            
+                pourquoi je m'oppose à ce que mon épouse joue
+            
+                avec la personne au cornet. 
+            
+                VOIS, 
+            
+                dans une loge grillée. 
+            
+                Vous avez tort, mon gendre ! 
+            
+                JACQUARD. 
+            
+                d'empêcher tout un public de s'amuser ; cela ne
+            
+                me parait pas convenable, un homme bien né ne
+            
+                se comporte pas ainsi. Voilà ce que j'avais à vous
+            
+                dire. 
+            
+                JACQUARD, tranquillement, après avoir long-temps
+            
+                Ah ça, il est insupportable le beau-père, dans
+            
+                lorgné le monsieur. 
+            
+                sa loge grillée : il a l'air d'un pensionnaire du Jar
+            
+                Ce monsieur a bu. 
+            
+                (Il se rassied.)
+            
+                din-des-Plantes… (S'adressant aux acteurs. 
+            
+) J'ai
+            
+                Une voix, à l'orchestre. 
+            
+                le droit, j'ai la loi pour moi… ma femme ne peut
+            
+                La pièce ! la pièce ! ou rendez l'argent ! 
+            
+                pas jouer la comédie avec un autre sans que j'ad
+            
+                LEFÉBORE. 
+            
+                hère… Voilà le Code civil… (Il fouille dans ses po
+            
+                Vous voyez à quoi vous nous exposez, monsieur
+            
+                ches el en relire d'abord des briquets de plusieurs
+            
+                Jacquard ! 
+            
+                formes.) Ça, se sont des briquets phosphoriques ; 
+            
+                JACQUARD. 
+            
+                dix-huit francs la douzaine ceux-là… en voilà à
+            
+                Eh bien ! écoulez, écoutez ! 
+            
+                il y a un moyen ! 
+            
+                douze francs ; ceux-là, quarante sous… Je vous les
+            
+                il y a un moyen ! je me dévoue ! … pour mettre
+            
+                passerai à trente-six sous… parce que c'est vous. 
+            
+                tout le monde d'accord, je propose de jouer le
+            
+                Si même ces messieurs voulaient de mes adresses, 
+            
+                rôle de M. Hyppolite… je débute avec ma fem
+            
+                voilà ! 
+            
+                (11 lire de sa poche un grand nombre d'adresses, 
+            
+                me… et le prix des places ne sera pas augmenté. 
+            
+                les jelle dans la salle el en distribue galamment aux
+            
+                (D'un air satisfait.) Ah ! ah ! 
+            
+                dames qui sont près de lui.) (*) Mais où diable est
+            
+                VOIX, 
+            
+                à l'orchestre. 
+            
+                donc ce maudit Code ? … ah ! le voilà ! (D'un ton
+            
+                C'est ça ! c'est ça ! Bravo ! bravo ! 
+            
+                goguepard au régisseur.) Ah ! ah ! vous ne vous
+            
+                LEFÉBURE. 
+            
+                altendiez pas à celui-là, mos cher ami ! 
+            
+                (Il
+            
+                Mais, monsicur, vous n'avez pas appris le rôle. 
+            
+                ouvre le code.) Voilà qui vous condamne ! (I lit.)
+            
+                (Au public.) Monsieur n'a pas appris le rôle. 
+            
+                « Article 657. Tout co-propriétaire peut faire bâ
+            
+                JACQUARD. 
+            
+                tir contre un mur mitoyen et y faire placer des
+            
+                Ah ? c'est mal ! vous cherchez à influencer l'or
+            
+                poutres et solives, dans toute l'épaisseur du mur. » 
+            
+                chestre… c'est déjà pas bien, ça. Je n'ai pas ap
+            
+                Ce n'est pas ça… je me trompe d'article… le
+            
+                pris le rôle, c'est vrai, mais je le lirai, monsieur
+            
+                voilà ! (Ii lit.) « Article 674. Celui qui veut creuser
+            
+                l'entrepreneur, je le lirai, un homme vaut un
+            
+                un puits… » Ce n'est pas encore ça… c'est drôle, 
+            
+                homme. 
+            
+                je le tenais tantôt… (Il feuillette le Code.) Allen
+            
+                voix, à l'orchestre. 
+            
+                lez ! attendez ! …
+            
+                Oui, oui, qu'il joue le rôle ! qu'il joue le rôle ! 
+            
+                LE MONSIEUR du balcon. 
+            
+                très bien ! 
+            
+                Ah ! ça, monsieur Jacquard, est-ce que vous
+            
+                JACQUARD, avec modestie. 
+            
+                allez nous lire tout le code civil ? … je le sais par
+            
+                C'est-à-dire, très bien… Je le jouerai. (Au pu
+            
+                caur, moi. 
+            
+                blic.) Messieurs, je ne me flatle pas de jouer le
+            
+                JACQUARD, enchanté. 
+            
+                rôle comme pourrait le jouer mademoiselle Mars…
+            
+                Ah ! bravo ! ah ! bravo ! … monsieur le sait par
+            
+                mais, enfin, chacun son métier… aussi je ré
+            
+                cæur, c'est un jurisconsulte. Faites-moi le plaisir
+            
+                clame toute votre indulgence… je me rends à
+            
+                de le répéter… nous allons voir ! je reconnaitrai
+            
+                mon poste. 
+            
+                l'article, ah ! ah ! (Il ouvre le Code.) Allez ! mon
+            
+                sieur ! 
+            
+                UNE Voix, à l'orchestre. 
+            
+                La pièce ! la pièce ! 
+            
+                LE MONSIEUR du balcon, d'un lon posé. 
+            
+                Monsieur Jacquard ! au train dont vous allez, 
+            
+                (*) L'adresse distribuée par Jacquard estainsi con
+            
+                (Il se lève pour sortir.)
+            
+                VOIX, 
+            
+                dans la loge grillée. 
+            
+                Vous avez tort, mon gendre ! 
+            
+                JACQUARD. 
+            
+                Messieurs, laissez mon beau-père se remuer
+            
+                derrière son grillage. Je n'ai qu'une seule chose à
+            
+                vous recommander. Dans l'intérêt du bon ordre
+            
+                et de la sûreté publique, ne lui donnez pas d'ali
+            
+                que : 
+            
+                « JACQUARD, fabricantde briquets phosphoriques, 
+            
+                mens, et ne l'agacez pas. 
+            
+                au Vaudeville. 
+            
+                » S'adresser au bureau de la location des loges. 
+            
+                » N. B. Son épouse, madame Jacquard, née Jus
+            
+                line-Pamela de Crapuzol, qui a été élevée dans le
+            
+                Morbihan, 
+            
+                enseigne l'anglais et l'italien, danse
+            
+                comme un ange et prend les enfans en sevrage. » 
+            
+                (Il sort ; Gavet quilte la scène.)
+            
+                SCENE XV. 
+            
+                9
+            
+                000000000000000000000000000000000000000000000vinoduoduce
+            
+                wwwwwwwwwwwwwwwwwwvvwvwwvouuuwwwwvU
+            
+                SCÈNE XII. 
+            
+                SCÈNE XIV. 
+            
+                LES MÊMES, exceplé JACQUARD et GAVET. 
+            
+                LES MÊMES, PICNOT, paraissant dans le fond, 
+            
+                LEFÉBURE, au public. 
+            
+                Messieurs ! après une aussi Jongue, et je puis
+            
+                le dire, une aussi scandaleuse interruption, il est
+            
+                une paire de pistolets à la main. 
+            
+                PICNOT. 
+            
+                Mon rival est encore là ? … Mellons-nous ici
+            
+                presque impossible de juger sainement un ouvrage
+            
+                pour le surveiller de plus près. 
+            
+                de cette importance, surtout avec un changement
+            
+                de distribution imprévu. Ne trouvez-vous pas con
+            
+                venable d'ajourner à demain la manifestation de
+            
+                votre opinion et de vous abstenir aujourd'hui de
+            
+                toutes marques d'improbation ? 
+            
+                (Il se glisse dans le cabinet sans être vu de Gavet
+            
+                ni de sa femme.)
+            
+                LEFÉBURE. 
+            
+                Il me semble, cher ami, que vous vous expli
+            
+                queriez mieux chez vous. 
+            
+                JACQUARD, lisant. 
+            
+                0000000000000000000000000 000000
+            
+                ouooouooo
+            
+                « Mon oncle, vous êtes l'homme le plus stupi
+            
+                SCÈNE XIII. 
+            
+                Les MÊMES, JACQUARD. 
+            
+                » de. » (Regardant Lefébure el changeant lout à
+            
+                coup de lon.) Tiens ! c'est M. Lepeintre ? (Lisant.)
+            
+                « L'homme le plus stupide des quatre parties du
+            
+                » monde. » 
+            
+                (Parlant.) Ça va bien ? (Lisant.) « Et
+            
+                JACQUARD, arrivant sur la scène. 
+            
+                » croyez que vous n'y entendez rien. (A Lefébure.)
+            
+                Me voilà ! me voilà ! 
+            
+                (Il marche en tremblant sur
+            
+                » Entrons dans ce cabinet, madame ! 
+            
+                (Se repre
+            
+                le plancher.) Est-ce solide ? 
+            
+                » nant.) Ah ! 
+            
+                (A sa femme.) Entrons dans ce ca
+            
+                LEFÉBURE, aux acteurs. 
+            
+                » binet, madame, et finissons-en. » 
+            
+                Maintenant, nous pouvons reprendre… (A Jac
+            
+                Mme GAVET. 
+            
+                quard.) Monsieur ! voici un manuscrit de la pièce ; 
+            
+                Entrons, monsieur ! 
+            
+                votre réplique est : Vous n'avez pas le sens com
+            
+                mun. 
+            
+                JACQUARD, bas à Lefébure. 
+            
+                JACQUARD, lisant. 
+            
+                « Passez la première. » 
+            
+                Mme GAVET. 
+            
+                Bien honnête, merci. M. Hypolite n'est plus
+            
+                Très volontiers. 
+            
+                là ? 
+            
+                LEFÉBURE. 
+            
+                pour la suivre.)
+            
+                (Madame Gavel entre dans la cabinet, Jacquard va
+            
+                Non, puisque vous le remplacez. 
+            
+                JACQUARD. 
+            
+                C0000v00000000000000000000000000000000000000000000000000
+            
+                Je veux dire, est-il parti tout à fait ? ou s'il est
+            
+                SCÈNE XV. 
+            
+                resté dans l'établissement ? 
+            
+                LEFÉBURE. 
+            
+                Ne vous en occupez pas. Reprenons quelques
+            
+                sur l'épaule. 
+            
+                PICNOT, sortant du cabinet el lui lapant fortement
+            
+                répliques plus haut… (Jouant son rôle.) J'aurais
+            
+                cependant bien voulu…
+            
+                Dis-donc, vinaigrier du diable, séducteur à
+            
+                l'estragon ! c'est donc toi qui veux m'enlever Er
+            
+                Mme GAVET. 
+            
+                nestine ? 
+            
+                Eh bien, monsieur, entrons dans ce cabinet…
+            
+                JACQUARD salue profondément Picnol, puis se
+            
+                Mais vous jouez là un bien triste rôle, et soyez
+            
+                lourne vers Lefébure. 
+            
+                en bien sûr, les jaloux sont toujours ceux que
+            
+                D'où vient-il donc celui-là ? (A Picnol.) Est-ce
+            
+                l'on trompe le plus facilement. 
+            
+                JACQUARD, parlant. 
+            
+                Plail-il. 
+            
+                Mme GAVET. 
+            
+                que vous êtes de la pièce ? 
+            
+                LEFÉBURE, à Jacquard. 
+            
+                Lisez donc ! … lisez donc ! 
+            
+                JACQUARD. 
+            
+                Et dans votre propre intérêt, je vous déclare
+            
+                Lisez donc… Je ne l'avais pas vu entrer. (Lisant.)
+            
+                que vous n'avez pas le sens commun. 
+            
+                « Comment ? vous enlever votre Ernestine ? » 
+            
+                JACQUARD, parlant. 
+            
+                PICNOT. 
+            
+                Vous n'avez pas le sens commun… Un instant ! 
+            
+                Pas d'explication ici… mais ce soir à huit heu
+            
+                c'est à moi. (Lisant d'un lon sentimental.) « Nous
+            
+                res… je t'allends… à huit heures, entends-lu
+            
+                ? 
+            
+                » verrons, madame, nous verrons ; ce n'est point
+            
+                JACQUARD, lisant. 
+            
+                » dans un restaurant qu'on peut raisonner sur la
+            
+                « A huit heures, impossible ! j'ai affaire. » 
+            
+                » mcrale. 
+            
+                » 
+            
+                PICNOT. 
+            
+                Oui, je sais… un rendez-vous d'amour… je
+            
+                saurai bien le forcer à le manquer… tu te battras. 
+            
+                JACQUARD, lisanl. 
+            
+                « « Je ne me baltrai pas. » 
+            
+                LES CABINETS PARTICOLIERS. 
+            
+                10
+            
+                LES CABINETS PARTICULIERS. 
+            
+                PICNOT. 
+            
+                JACQUARD, se débattant au milieu d'eux. 
+            
+                Je saurai bien l'y contraindre. 
+            
+                Un instant, messieurs ! messieurs ! 
+            
+                (Ici les gar
+            
+                JACQUARD, lisant. 
+            
+                cons lâchent Jacquard, qui jelte le manuscrit par lerre ; 
+            
+                « Et comment ça ? » 
+            
+                un des garçons rend à Jacquard uue basque de son ha
+            
+                Voici comment. 
+            
+                PICNOT. 
+            
+                (Il lui donne un soufllet.)
+            
+                JACQUARD, étourdi. 
+            
+                Ah ça ! mais, dites donc ! c'est un vrai soumet, 
+            
+                ça, dites donc ! dites donc ; ça s'escamote ces cho
+            
+                ses-là ! 
+            
+                (Il s'éloigne avec mauvaise humeur.)
+            
+                00000000000000000000000000000000000000000000000000000000
+            
+                SCÈNE XVI. 
+            
+                LES MÊMES, MORIN. 
+            
+                MORIN, accourant. 
+            
+                Qui est-ce qui appelle ? … Monsieur veut dé
+            
+                jeuner ? 
+            
+                bil qui lui est restée dans les mains.) Quelle horreur ! 
+            
+                je quitte l'art théâtral… je retourne dans la salle, 
+            
+                j'en ai suflisamment : mais je demande qu'on re
+            
+                commence à partir de la scène du souflet ; car
+            
+                réellement le public n'en a pas joui, ni M. Hy
+            
+                polite non plus…
+            
+                (Avec intention.) Je suis bien
+            
+                aise de l'admirer dans cette scène, M. Hypolite. 
+            
+                LEFÉBURE. 
+            
+                C'est impossible, nous n'en finirions pas. 
+            
+                JACQUARD. 
+            
+                Alors, vous me permettrez de ne pas vous dire
+            
+                ce que je pense de votre procédé… C'est dégoù
+            
+                tant… je n'ai que ça à vous dire… je suis honteux
+            
+                pour vous, je rougis pour vous ! (Regardant avec
+            
+                PICNOT. 
+            
+                douleur la basque de son habit.) Et j'ai payé cent
+            
+                Je veux me battre, et voilà tout. 
+            
+                sous pour ça ! ! ! 
+            
+                MORIN. 
+            
+                (Il descend à l'orchestre par l'avant-scène.)
+            
+                Vous battre chez moi ? un instant ! 
+            
+                LEFÉBURE et Mme GAVET. 
+            
+                LEFÉBURE, au public. 
+            
+                Messieurs, nous vous demandons encore par
+            
+                Au secours ! au secours ! 
+            
+                don de cette nouvelle mutation de personnage…
+            
+                JACQUARD, lisant tranquillement, 
+            
+                notre camarade Hypolite va reprendre le rôle de
+            
+                (Au secours ! au secours ! 
+            
+                &gt; &gt; 
+            
+                Gavet. 
+            
+                Holà ! garçons ! …
+            
+                MORIN. 
+            
+                0000000JOOUOO000000000000000000000000000000000000000000
+            
+                00000000000c000000000000000000
+            
+                00000000000000OCO
+            
+                SCÈNE XVIII. 
+            
+                SCÈNE XVII. 
+            
+                GAVET, LEFÉBURE, PICNOT, MORIN, ER
+            
+                LES MÊMES, GARÇONS. 
+            
+                CHOEUR. 
+            
+                NESTINE, Mme GAVET. 
+            
+                (Au départ de Jacquard, Gavet est entré en scène, 
+            
+                et s'est placé entre les mains des garçons reslaura
+            
+                leurs.)
+            
+            
+                <div type="poem">
+                    <lg>
+                        <stage type="tune">   AIR : Du tapage ! du tapage ! (Madame Grégoire).</stage>
+            
+            
+            
+                        <l>Quel scandale ! <stage type="repetition"> (bis.)</stage></l>
+                        <l>Messieurs, sortez de la salle.</l>
+                        <l>Quel scandale ! <stage type="repetition"> (bis.)</stage></l>
+                        <l>Battez-vous ;</l>
+                        <l>Mais pas chez nous.</l>$
+            
+            
+                        <stage type="repetition">REPRISE DU CHŒUR. </stage>
+            
+                   
+            
+            
+            
+            
+            
+                ERNESTINE, entrant en costume de femme. 
+            
+            
+            
+                MORIN
+            
+                Eh mon Dieu ! pourquoi tout ce tapage ! 
+            
+                GAVET. 
+            
+                Que vois-je ? mon rival déguisé en femme ? 
+            
+                JACQUARD, à l'orchestre. 
+            
+                Quel est l'agresseur ? 
+            
+                A partir du soufflet, je demande le soufflet. 
+            
+                PICNOT, désignant Jacquard. 
+            
+                C'est monsieur. 
+            
+                JACQUARD, lisant. 
+            
+                PICXOT. 
+            
+                Votre rival ? que signifie ? 
+            
+                ERNESTINE. 
+            
+                « C'est une grande
+            
+                faussette… C'est une
+            
+                Cela signifie que vous êtes deux jaloux dont
+            
+                grande faussette… » (Lefébure lui pousse le coude.)
+            
+                nous nous sommes mocquées… Ce portrait qu'elle
+            
+                Ah ! fausseté ! 
+            
+                il n'y a pas d'accent. 
+            
+                vous destinait pour votre fête…
+            
+                MORIN. 
+            
+                GAVET. 
+            
+                N'imporle ! jetez ces deux messieurs à la porte, 
+            
+                Est-il possible ? 
+            
+                et qu'il n'en soit plus question. 
+            
+                PICNOT. 
+            
+                A la porte ? un instant, garçons ! … jetez sim
+            
+                plement monsieur par la fenêtre, et complez sur
+            
+                un bon pour-boire. 
+            
+                (Il baise le portrait.)
+            
+                ERNESTINE. 
+            
+                Ce n'est pas le portrait, c'est le modèle qu'il
+            
+                faut…
+            
+                Ah ! oui ! 
+            
+                GAVET, à sa femme. 
+            
+                        <stage type="repetition">REPRISE DU CHŒUR. </stage>
+            
+             </lg>
+                </div>
+                    <div type="poem">
+                    <lg>
+            
+            
+                        <stage type="tune"> AIR de la Tentation. </stage>
+            
+            
+                        <l>Vous voyez qu'il n' faut pas qu'un époux</l>
+                        <l>Soit jaloux.</l>
+                        <l>C'est pour vous</l>
+                        <l>Qu'on faisait</l>
+                        <l>En secret</l>
+                        <l>Ce portrait.</l>
+                        <l>Un mari, de soupçons occupé,</l>
+                        <l>Est trompé ;</l>
+                        <l>Et souvent il ne doit son malheur</l>
+                        <l>Qu'à l'erreur.</l>
+                        <l>L'heure vient de sonner,</l>
+                        <l>Allons dîner.</l>
+                    </lg>
+                </div>
+            
+            
+                Va, fais le généreux ! 
+            
+                fais le généreux ! C'est
+            
+                JACQUARD, qui pendant le chœur a tenté d'escalader
+            
+                moi qui l'ai reçu ! grand trivial que tu es. (Au pu
+            
+                l'orchestre, crie : 
+            
+                blic.) Il me répugne à voir…
+            
+                Je reprends mon rôle. 
+            
+                MORIN. 
+            
+                Et moi, monsieur Gavet, me pardonnerez
+            
+                vous l'assaisonnement que j'y ai fait mettre par
+            
+                mes garçons ? 
+            
+                GAVET. 
+            
+                (Il arrive sur l'avant-scène au moment où le rideau
+            
+                baisse, et se trouvant séparé de sa femme, il crie de
+            
+                toutes ses forces par le trou du rideau :) 
+            
+                &gt; 
+            
+                Séparez-les, monsieur l'entrepreneur ! sépa
+            
+                Je pardonne tout, puisque Mme Gavet me par
+            
+                rez-les. 
+            
+                donne. 
+            
+                (Ils se jettentde nouveau dans les bras l'un de l'autre.)
+            
+                JACQUARD, se levant. 
+            
+                Séparez-les ! séparez-les ! (Criant de toutes ses
+            
+                forces.) Pamela, voulez-vous le lâcher ! je reprends
+            
+                mon rôle… Monsieur Hypolite ! voulez-vous ne
+            
+                pas vous jeter dans les bras de mon épouse, ou
+            
+                (Se tournant vers le public.)
+            
+                Un instant ! un instant, la pièce ne peut pas fi
+            
+                nir comme ça, ça n'a pas le sens commun… (Riant
+            
+                d'un air de pitié.) Ah ! messieurs, j'en appelle à
+            
+                vous ! c'est une horreur ! 
+            
+                (D'un ton furieux.)
+            
+            
+            
+                <div type="poem">
+                    <lg>
+                        <stage type="tune">AIR du vaudeville du Jour des Noces. </stage>
+            
+            
+                        je vous jette monsieur à la têle. (Montrant un mu    sicien.)
+            
+                        <l>Un' femme artist' qui se déguise en homme,</l>
+                        <l>Une autr' qui court, à l'insu d' son mari ;</l>
+                        <l>L'amant qui s' cach', le mari qu'on assomme ;</l>
+                        <l>C'te pièce-là c'est un amphigouri !</l>
+                        <l>Nous somm's volés, la chose est bien certaine :</l>
+                        <l>Je déclar', moi, que j' suis fort mécontent ;</l>
+                        <l>Mais j'y r'viendrai jusqu'à c'que j' la comprenne…</l>
+                        (Changeant de ton.)
+                        <l>Promettez-moi, messieurs, d'en faire autant.</l>
+                    </lg>
+                </div>
+            
+            
+                LE MUSICIEN, se levant vivement. 
+            
+            
+            
+                Monsieur ! 
+            
+            
+            
+                JACQUARD. 
+            
+            
+            
+                Ça ne vous regarde pas, j'en fais mon affaire. 
+            
+            
+            
+                LEFÉBURE. 
+            
+                El nous allons nous mettre à table pour célé
+            
+            
+            
+                brer la réconciliation. 
+            
+            
+            
+                Nota. Toutes les indications de droite et de gauche doivent être prises relativement aux spectateurs. Les
+            
+                personnages sont placés en tête de chaque scéne comme ils doivent l'être au théâtre. 
+            
+                Pour la représentation de cette pièce sur les théâtres des départemens, on substituera au nom de M. HYPOLITE
+            
+                celui de l'amoureux chargé du rôle de Gavet. Il sera convenable également de mettre sur l'affiche : Mme JAC
+            
+                QUARD débutera par le rôle de Mme Gavet. 
+            
+                FIN DES CABINETS PARTICULIERS. 
+            
+                Imprimerie de Boule et C', rue Cog-Héron, 3. 
+            
+                FRANCE DRAMATIQUE. 
+            
+                Cette collection, qui contient les meilleures Pièces des Auteurs vivans, se continue toujours avec
+            
+                succès. Les éditions dont elle se compose sont les seules exactement conformes aux représen
+                tations. 
+            
+                CASIMIR DELAVIGNE. 
+            
+                Le Quaker. 
+            
+                La Famille Riquebourg. 
+            
+                60
+            
+                3) 
+            
+                PAUL DE KOCK. 
+            
+                Le Débardeur. 
+            
+                60
+            
+                Un Jeune homme charmant. 60
+            
+                La Laitière de la Forêt. 
+            
+                Le Postillon franc-comtois. 
+            
+                Un Bal de Grisettes. 
+            
+                60
+            
+                60
+            
+                30
+            
+                Les Bayaderes de Pithiviers. 60
+            
+                PIÈCES DIVERSES. 
+            
+                Le Mari et l'Amant, c. en 1 a.,
+            
+                par Vial. 
+            
+                Luxe et indigence, c. ep 5 act. 
+            
+                par M. d'Epagny. 
+            
+                30
+            
+                60
+            
+                La Famille Glinet, c. en 5 act. 
+            
+                par M. Merville. 
+            
+                60
+            
+                Jeanne d'Arc, trag. en 5 act.,
+            
+                par d'Avrigny. 
+            
+                60
+            
+                Les deux Gendres, c. en 5 act.,
+            
+                par M. Etienne
+            
+                60
+            
+                L'Abbé de l'Epée, c. en 5 act.,
+            
+                par M. Bouilly. 
+            
+                60
+            
+                La Belle-mère et le Gendre, c. 
+            
+                en 3 actes, par M. Samson. 60
+            
+                Jean, vaud. en 4 actes, par M. 
+            
+                Thỏaulon. 
+            
+                60
+            
+                Faublas, v. en 3 actes, par M. 
+            
+                Dupeuty. 
+            
+                60
+            
+                Le Voyage à Dieppe, c. en 3
+            
+                actes, par MM. Wallard et
+                Fulgence. 
+            
+                60
+            
+                La Fille d'honneur, c. en 5 a. 
+            
+                par M. Alexandre Duval. 60
+            
+                Un Moment d'Imprudence, c. 
+            
+                en 5 actes, par MM. Waf
+                flard et Fulgence. 
+            
+                60
+            
+                Les Deux Ménages, com. en 3
+            
+                a., par JM. Picard et Ful
+            
+                gence. 
+            
+                60
+            
+                Une Journée à Versailles, c. 
+            
+                en 3 a., par M. G. Duval. 
+            
+                60
+            
+                Clotilde, drame en 5 actes, par
+            
+                M. Soulié. 
+            
+                60
+            
+                Etc., etc. Voir la couver…
+            
+                ture de cette pièce. 
+            
+                SOUS PRESSE. 
+            
+                Le Chaperon. 
+            
+                Le Diplomate. 
+            
+                Jeune et Vieille. 
+            
+                Rodolphe. 
+                La Maitresse au logis. 
+            
+                Les Manteaux. 
+            
+                Le Jésuite, mélodrame. 
+            
+                L'École des vieillards. 
+            
+                Les Vépres siciliennes. 
+                Les Comédiens. 
+            
+                Le Paria. 
+            
+                Louis XI. 
+            
+                Don Juan D'Autriche. 
+            
+                La princesse Aurélie. 
+                Marino Faliero, 
+            
+                60
+            
+                60
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                Famille au temps de Luther. 60
+            
+                Les Enfans d'Edouard. 
+            
+                La Popularité. 
+                La Fille du Cid. 
+            
+                SCRIBE
+            
+                La seconde Année. 
+            
+                L'Ours et le Pacha. 
+            
+                60
+            
+                60
+            
+                60
+            
+                30
+            
+                30
+            
+                Malheurs d'un amant heureux. 30
+            
+                Michel et Cbristine. 
+            
+                Mariage de raison. 
+                La Vieille. 
+            
+                La Demoiselle à marier. 
+            
+                30
+            
+                30
+            
+                30
+            
+                30
+            
+                Le Budget d'un jeune ménage. 30
+                30
+            
+                Philippe. 
+                La Dame Blanche. 
+            
+                Toujours ! 
+            
+                Dix Ans, ou la Vie d'une fem
+            
+                me. 
+            
+                Le Lorgnon. 
+            
+                Bertrand et Raton. 
+            
+                Une Faute. 
+            
+                La Chanoinesse. 
+            
+                L'Héritière. 
+            
+                Le Gardien. 
+            
+                Le Charlatanisme. 
+            
+                Zoé. 
+            
+                Mémoires d'un Colonel. 
+            
+                Les deux Maris. 
+            
+                La Passion secrète. 
+            
+                Estelle. 
+            
+                Fra Diavolo. 
+            
+                Robert-le-Diable. 
+            
+                Avant, Pendant et Après. 
+            
+                Gustave III. 
+                Valérie. 
+            
+                Le Nouveau Pourceaugnac. 
+                Le Secrétaire et le Cuisinier. 
+                La Prison d'Edimbourg. 
+                Le Chalet. 
+            
+                Les Indépendans. 
+            
+                La Juive. 
+            
+                Les Huguenots. 
+            
+                La Camaraderie. 
+            
+                La Niuette de Portici. 
+            
+                Clermont. 
+            
+                Le Mariage d'argent. 
+            
+                Marguerite. 
+                Les Treize. 
+            
+                La Fiancée. 
+            
+                Le Sheril
+            
+                60
+            
+                30
+            
+                60
+            
+                30
+            
+                30
+            
+                30
+            
+                60
+            
+                30
+            
+                30
+            
+                30
+            
+                30
+            
+                60
+            
+                30
+            
+                60
+            
+                60
+            
+                60
+                60
+            
+                60
+            
+                30
+            
+                30
+            
+                50
+            
+                30
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                César ou le Chien du châtcau. 60
+            
+                Le Philtre, opéra. 
+            
+                Malvina, 
+            
+                Le plus beau jour de la vie. 
+                Louise ou la Réparation. 
+            
+                Les preinières Amours. 
+            
+                Le Colonel. 
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                30
+            
+                30
+            
+                ALEXANDRE DUMAS. 
+            
+                Henri III et sa Cour. 
+            
+                Richard d'Arlington. 
+                La Tour de Nesle. 
+            
+                60
+            
+                60
+            
+                60
+            
+                Stockholm et Fontainebleau. 60
+            
+                VICTOR DUCANGE. 
+            
+                Calas. 
+            
+                Trente Ans. 
+            
+                Il y a Seize Ans. 
+                Thérèse. 
+            
+                Couvent de Tonington. 
+            
+                30
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                Sept Heures. 
+                La Fiancée de Lammermoor. 60
+            
+                60
+            
+                Polder. 
+            
+                Le Jésuite, 
+            
+                Lisbeth. 
+            
+                MÉLESVILLE. 
+            
+                60
+            
+                60
+            
+                60
+            
+                30
+            
+                30
+            
+                60
+            
+                60
+            
+                30) 
+            
+                30
+            
+                60
+            
+                30
+            
+                Le Philtre champenois. 
+            
+                Les Vieux Péchés. 
+            
+                Zampa. 
+                Elle est Folle. 
+            
+                Catherine. 
+            
+                Michel Perrin. 
+            
+                Le Bourgmestre de Saardam, 30
+            
+                Le Mariage impossible. 
+                Mademoiselle Clairon. 
+            
+                L'Espionne russe. 
+            
+                BAYARD. 
+            
+                Marie Mignot. 
+                Un Premier Amour. 
+            
+                Le Poltron. 
+            
+                Moiroud et compagnie. 
+            
+                Le Père de la Débutante. 
+                Suzette. 
+            
+                C'est Monsieur qui paie. 
+                Phæbus. 
+            
+                Geneviève-la-Blonde. 
+                La Grande Dame. 
+            
+                PAUL FOUCHER. 
+            
+                Don Sébastien de Portugal. 
+            
+                Le Pacte de Famine. 
+            
+                Isabelle de Montréal. 
+            
+                Guillaume Colmann. 
+            
+                30
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                30
+            
+                30
+            
+                60
+            
+                30
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                Le Facteur. 
+            
+                Alix ou les deux Mères. 
+            
+                Richard Savage, 
+            
+                Le Général et le Jésuite. 
+            
+                La Boulangère a des écus. 
+            
+                Les Filles de l'Enfer. 
+            
+                LOCKROY. 
+            
+                CHARLES DESNOYERS. 
+            
+                Les Deux sergepis. 
+            
+                La Fausse Clé. 
+            
+                La Pauvre Famille. 
+            
+                Paoli. 
+            
+                Le Commissionnaire. 
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                60
+            
+                30
+            
+                30
+            
+                60
+            
+                60
+            
+                60
+            
+                Le Coiffeur et le Perruquier, 30
+            
+                Un Duel sous Richelieu. 
+            
+                La Lune de miel. 
+            
+                La lansarde des Artistes. 
+                Yelva. 
+                La Marraine. 
+            
+                60
+            
+                30
+            
+                60
+            
+                60
+            
+                Pourquoi ? 
+                C'est encore du bonheur. 
+            
+                Perrinet Leclerc. 
+            
+                Passé Minuit. 
+            
+                FRANCE DRAMATIQUE, 
+            
+                PIÈCES EN VENTE. 
+            
+                La Seconde Année. 
+            
+                L'Ecole des Vieillards. 
+                L'Ours et le Pacha. 
+                Le Camarade de lit. 
+            
+                Avant, Pendant et Après. Le Conteur. 
+                Les Projets de mariage. 
+            
+                Un premier Amour. 
+            
+                Le Caleb de Walter Scott. Madame Grégoire. 
+                La Dame de Laval. 
+            
+                La Cachucha. 
+            
+                La Rose Jaune. 
+            
+                Le Shérif. 
+            
+                | Précepteur à vingt ans. La Fille du Musicien, 
+            
+                Napoléon, ou Schen-Carlin à Rome. 
+            
+                Samuel le marchand. 
+            
+                Les Filles de l'Enſer. 
+            
+                Le Mari et l'Amant. 
+            
+                brunn et Ste-Hélène, 
+            
+                Les Deux Philibert. 
+            
+                Guillaume Tell, op. 4 a. César, ou le Chien du
+            
+                Les Malheurs d'un Amant La Courte-Paille. 
+            
+                Les Couturières, 
+            
+                Henri Hamelin, dr. 5 a. 
+            
+                château. 
+            
+                heureux. 
+            
+                Henri III et sa cour. 
+            
+                Le Hussard de Felsheim. Couvent de Tonnington. Un Testament de dragon Eustache. 
+                1760, ou les 3 Chapeaux. Le Landaw. 
+            
+                Le Ménestrel, com. 5 a. Argentine. 
+            
+                U. Duel sous Richelieu. Rigoletti. 
+                Calas, de Ducange. 
+                Michel et Christine. 
+                Le Mariage de raison. 
+            
+                Robert-Macaire. 
+                Frédégonde et Brunehaut Les Poletais. 
+                Gustave Ill. 
+            
+                Luther. 
+            
+                Honorine. 
+            
+                Une Famille au temps de Bayaderes de Pithiviers. L'Amour. 
+            
+                Peau d'àne, en 5 actes. Fiancéede Lammermoor. 
+                L'Ouverture de la Chasse Le Père de famille. 
+            
+                La Vie de Château. 
+            
+                Bélisario. 
+            
+                L'Hom, au masque de fer Elle est Folle. 
+                La Jeune Femme colère. L'Abbé de l'Epée. 
+            
+                L'locendiaire. 
+            
+                La Vieille. 
+            
+                Un Fils, 
+            
+                Angeline. 
+                La Princesse Aurélie. 
+            
+                Les Petites Danaïdes. 
+            
+                Thérèse, opéra-comique. Le Débardeur. 
+                L'Obstacle imprévu. 
+                Richard Savage, dr. 5 a. Sujet et Duchesse. 
+            
+                La Symphonie. 
+            
+                Les Infortu. deM. Jovial. Sophie Arnould. 
+            
+                Le Jeune Mari. 
+                La Demoiselle à marier. 
+                Les Vépres Siciliennes. 
+                Budget d'unjeune ménag. La Belle-Mère et le Gend. La Pie Voleuse. 
+                L'Auberge des Adrets. 
+            
+                M. Jovial, 
+                Victorine. 
+                Catherine ou la Croird'or Madame Lavalette. 
+            
+                Un Mari charmant. 
+                Les Deux Frères. 
+            
+                Heur et Malheur. 
+            
+                La Famille improvisée. 
+            
+                Philippe. 
+                La Dame blanche. 
+            
+                Toujours. 
+                10 ans de la vie d'unefem. La Mère au bal, et la Fille Les Deur Jalous. 
+            
+                Il y a Seize ans. 
+                Les Frères à l'épreuve. 
+                L'Héroine de Montpellier Le Marquis de Carabas. 
+                C'est encore du Bonheur. La Belle Ecaillère. 
+            
+                Ecorce russe
+            
+                Le Grand-Papa Guério. 
+                Le Génécal et le Jésuite. 
+                La Boulangère a des écus Un Scandale. 
+                D. Sébastien de Portugal Le Bambocheur, 
+                C'est monsieur qui paie. 
+            
+                Le Pbilire, opéra. 
+            
+                français. 
+            
+                et Cæur
+            
+                Mademoiselle Clairon, 
+            
+                Le Tasse, 
+            
+                Ruy-Brac, p. de Ruy-Blas Léonide, ou la Vieille. 
+                Une Position délicate. 
+                Randal, dr. en 5 actes. 
+                L'Enfant de Giberne. 
+            
+                A Minuit. 
+                Le Coffre-fort. 
+                Fénélon, par Chénier. 
+            
+                Le Lorgnon. 
+                Bertrand et Raton, 
+            
+                Une Faute. 
+            
+                à la maison, 
+            
+                Jean. 
+            
+                Les Etourdis. 
+            
+                Le ci-devant jeune hom. Valérie. 
+                Faublas. 
+                Marie Mignot. 
+                Picaros et Diégo. 
+                Pourquoi ? 
+            
+                Laitière de Montfermeil. Sept Heures. 
+            
+                Les Bonnes d'Enfans. 
+            
+                Un Bal de Grisettes, 
+            
+                Les Machabées, 
+                La Lune Rousse. 
+            
+                Farruck le Maure. 
+                Monsieur Sans-Gene. 
+                Madame de Sévigné. 
+                Monsieur Chapolard, 
+            
+                Candinot, roi de Rouen. L'Amant bourru. 
+                Françoise et Francesca. Cartouche, ou les Voleurs
+                La Mantille. 
+                Les Trois Gobe-Mouches Les Deux Normands. 
+            
+                L'espionne Russe. 
+            
+                Richard d'Arlington. 
+                La Chanoinesse. 
+                Les Comédiens. 
+            
+                L'liéritière. 
+            
+                Léontine. 
+                Le Gardien. 
+            
+                Dominique. 
+                Le Philtre Champenois. 
+                Le Chevreuil, 
+            
+                Le Charlaianisme. 
+                Vert-Vert. 
+            
+                Brueïs et Palaprat. 
+                Une Fèle de Néron. 
+            
+                Démence de Charles VI. La Camargo. 
+            
+                Une heure de mariage. 
+                Vadame Du Barry. 
+            
+                Lc Chiffonnier. 
+                Le marquis de Brunoy. 
+                Le Voyage à Dieppe. 
+                Les Anglaises pour rire. Deus vieux Garçons. 
+                La Fille d'honneur. 
+            
+                Jeunesse de Richelieu, 
+            
+                Préville et Taconnet. 
+                Le Bourru bienfaisant. 
+                La Fille de Dominique. 
+                Philosophe sans le savoir Une Saint-Hubert, 
+                Rossignol
+            
+                Dagobert. 
+                Les Maris vengés. 
+            
+                La Fille d'un Voleur. 
+            
+                Les Sermens. 
+                Le Planteur. 
+            
+                Leplus beau jour de la vie
+                Polder, ou le Bourreau. 
+                Louise, ou la Réparation
+                Les Premières Amours. 
+            
+                Le Colonel. 
+            
+                Le Coiffeur et le Perra
+            
+                Postillon franc-comtois. Le Soldat de la Loire. 
+                Mademoiselle Nichon. 
+            
+                Malvina, ou le Mariage. 
+            
+                Un moment d'imprudence Le Père de la Débutanto. 
+                Le Diner de Madelon. 
+            
+                L'Avoué et le Normand. Le Père Pascal. 
+                La Juive. 
+            
+                Les Deus Ménages. 
+            
+                Jaspin, com.-vaud. 
+            
+                quier. 
+            
+                La Reine de seize ans. 
+            
+                Nanon, Ninon, Maintenon Kettly, ou le Retour. 
+                Phoebus. 
+            
+                Poudre de Perlinpinpin. 
+                Les Camarades du minist. Lisbeth, ou la Fille du La
+            
+                Vingt-six ans. 
+            
+                boureur. 
+            
+                L'Eclair, 
+                L'intérieur des Comités La Correctionnelle. 
+            
+                La Famille Riquebourg. 
+                La Lune de Miel. 
+            
+                révolutionnaires. 
+            
+                La République, l'Empire
+            
+                Le Bénéficiaire, 
+                Malheurs d'un joli garçon Les Indépendans. 
+            
+                Un Page du Régent. 
+            
+                Le Mariage extravagant. Robert, chef de brigands Les Huguenots. 
+                Le Paysan perverti. 
+            
+                Michel Perrin. 
+            
+                Mal noté dans le quartier. La Canaille. 
+            
+                Pinto, en 5 actes. 
+                La Carte à payer. 
+                Le Mari de ma femme. 
+            
+                Les Vieux Péchés. 
+                Lure et Indigence. 
+                Zoé. 
+                Louis XI. 
+            
+                Une Journée à Versailles. L'Idiote, dr. en 4 actes. 
+            
+                Suzette. 
+                Guillaume Colinann. 
+            
+                Le Barbier de Séville. 
+                Les Cuisinières. 
+                T. e nouv. Pourceaugnac. Les Deux Edmond. 
+                Marie. 
+                Le Secrét, et le Cuisinier. La Vie de Garçon. 
+                Clotilde. 
+            
+                La Camaraderie. 
+            
+                Le Serment de Collége. 
+            
+                Ninon chez Mm. Sévigné. Bourgmest. de Saardam. Le Commis Voyageur. 
+            
+                Le Roman, 
+            
+                Liste de mes Maîtresses, 
+            
+                La Laitière de la Forêt. 
+            
+                Bobèche et Galimafré. 
+                La Femme Jalouse. 
+                Le Panier Fleuri. 
+                Le Protégé. 
+                Le Diamant
+            
+                Robin des Bois. 
+                Marius. 
+                Marie Stuart. 
+            
+                Le Coin de Rue, ou le Alix, ou les Deux Méres. Les Treize, 
+            
+                Rempailleur de chaises llarnali, parodie. 
+            
+                Naufrage de la Méduse. 
+            
+                Les Rivaux d'eux-mêmes Le Célibataire et l'Hon-99 Moutons et un Cham-L'Eau merveilleuse. 
+                Geceviève la Blonde. 
+                La Famille Glinet. 
+                Les Héritiers. 
+                Jeanne d'Arc. 
+                Les Maris sans femmes. Le Mariage impossible. 
+                L'Assemblée de famille, 
+            
+                Frascati, vaud. en 3 actes Le Pied de mouton. 
+                La Cocarde tricolore. 
+                La Muette de Portici. 
+            
+                La Grande Dame. 
+                Passé minuit. 
+            
+                La Maison en loterie. 
+            
+                Les Deux Anglais. 
+            
+                La Ferme de Bondi. 
+            
+                Un Angcau sixième étage Industriels et Industrieux
+            
+                me marié. 
+            
+                penois. 
+            
+                Mémoires d'un Colonel Werther, 
+            
+                La Foire Saint-Laurent. Le Susceptible. 
+            
+                et les Cent jours. 
+            
+                Les deux Forçats. 
+                Lc Quaker et la Danseuse
+                Les Enfans d'Edouard. 
+            
+                Yelya. 
+            
+                La Marraine. 
+                La Mansarde, 
+                La Fille du Cid, 
+            
+                Assemblée de créanciers. 
+            
+                Le Soldat laboureur. 
+            
+                Les Cabinets particuliers. 
+            
+                Deur Sytèmes. 
+            
+                de llussards. 
+            
+                Le Paria. 
+            
+                Les Deux Maris. 
+                I
+            
+                Védisant. 
+            
+                La l'assion secrète. 
+            
+                Deur Gendres. 
+            
+                Rabelais, 
+                L
+                bolle. 
+                Trenie Ans. 
+            
+                le Pré-aur-Clercs. 
+            
+                La Prison d'Edimbourg. Clermont. 
+            
+                Le Pacte de Farine. 
+            
+                La Première Affaire. 
+            
+                Le Pioupiou, v. en 3 actes Tribut des Cents Vierges
+            
+                La Famille de l'Apthicai, Perruquier de la Régence Isabelle de Montréal. 
+            
+                Don Juan d'Autriche. 
+            
+                L'Enfant trouvé. 
+                Le Poltron. 
+            
+                Le Chevalier du Temple. Une Visite nocturne. 
+                Le Mariage d'argent. 
+            
+                Madame de Brienne, 
+            
+                LeCamp des Croisés, avec Un Ménage parisien. 
+            
+                Le Facteur. 
+                Misanthropic et Repentir de l'iclor Hugo à l'aut. Valentine. 
+            
+                une préſace, une Leitre Les Brodequins de Lisc. 
+            
+                Le Chalet. 
+            
+                Poupée. 
+            
+                1. 
+                La Tour de Nesle. 
+                Changement d'uniforme. Chacun de son côté. 
+            
+                Perrinel Leclerc. 
+                Moiroud et Compagnie. Le Bourgeois de Gand. 
+                Agamemnon. 
+            
+                Le Pauvre Idiot, d. 5 act. Les Trois Quartiers. 
+                Louise de Lignerolles. 
+                La Nuit du Meurtre. 
+            
+                Passé Midi. 
+            
+                Mademoiselle d'Aloigr. y. La Belle Bourbonnaise. 
+                Une Vision ou le sculpteur Mademoiselle Desgarcins
+            
+                Lue Présentation. 
+            
+                Le Vagabond. 
+            
+                Nic Gibou etMePochet Thérèse. 
+            
+                L'Uomme de Soisantcans La Fiancée. 
+                Marguerite. 
+            
+                Los Ouvriers. 
+            
+                Est-ce un Reve ? 
+                Fra Dia yolo. 
+                Robel-le-Diable. 
+                Ir Duel et le Déjeuner, 
+            
+                Sans Tambour ni Tromp. La Belle-Sæur. 
+                Marino Faliero. 
+                Fanchon la Vielleuse. 
+            
+                Céline la Créole, ou l'opi-L'Elève de Saumur. 
+            
+                nion, dr. en 5 actes. 
+            
+                Carte blanche. 
+            
+                Jeune homme charmant. 
+            
+                l'rosper et Vincent. 
+            
+                Mademoiselle Bernard
+            
+                Chantre et Choriste. 
+            
+                Zampa. 
+            
+                Glenarvon. 
+            
+                ou l'Autorité paternelle Chansons de Béranger, 
+            
+                Imprimerie de Boulé el C-, rue Cuq-lléron, 3. 
+            
+                FRANCE DRAMATIQUE, 
+            
+                PIÈCES EN VENTE. 
+            
+                La Seconde Année. 
+                L'Ecole des Vieillards. 
+                L'Ours et le Pacha. 
+            
+                Avant, Pendantet Après. Le Conteur. 
+                Les Projets de mariage. 
+                Un premier Amour. 
+            
+                Le Caleb de Walter Scott. Madame Grégoire. 
+                La Dame de Laval. 
+            
+                La Cachucha. 
+            
+                La Rose Jaune. 
+            
+                Le Shérif. 
+            
+                | Précepteur à vingt ans. La Fille du Musicien. 
+            
+                Le Camarade de lit. 
+                Le Mari et l'Amant. 
+            
+                Napoléon, ou Schen-Carlin à Rome. 
+            
+                brunn et Ste-Hélène, 
+            
+                Les Deux Philibert. 
+            
+                Samuel le marchand. 
+                Guillaume Tell, op. 4 a. César, ou le Chien du
+            
+                Les Filles de l'Enfer. 
+            
+                Les Malheurs d'un Amant La Courte-Paille, 
+            
+                Les Couturières. 
+            
+                Henri Hamelin, dr. 3 a. 
+            
+                château. 
+            
+                heureux. 
+            
+                llenri III et sa cour. 
+            
+                U1 Duel sous Richelieu. 
+                Calas, de Ducange. 
+                Michel et Christine. 
+            
+                Le Hussard de Felsheim. Couvent de Tonnington. Un Testament de dragon Eostacbe. 
+            
+                1760, ou les 3 Chapeaux. Le Landaw. 
+            
+                Le Ménestrel, com. 5 a. Argentine. 
+            
+                Une Famille au temps de Bayadères de Pithiviers. L'Amour. 
+            
+                Rigoletti. 
+                Robert-Macaire. 
+                Frédégonde et Brunehaut Les Poletais. 
+            
+                Luther, 
+            
+                Le Mariage de raison. 
+            
+                Gustave Ill. 
+            
+                llonorine. 
+            
+                i Rom, au masque de fer Elle est Folle. 
+                La Jeune Femme colère. L'Abbé de l'Epée. 
+                L'incendiaire. 
+                La Vieille. 
+                Le Jeune Mari. 
+            
+                Un Fils. 
+                Les Infortu. deM. Jovial. Sophie Aroould, 
+                M. Jovial, 
+            
+                Un Mari charmant. 
+            
+                Les Petites Danaides. 
+            
+                Angeline. 
+                La Princesse Aurélie, 
+            
+                Peau d'àne, en 5 actes. Fiancée de Lammermoor. 
+                L'Ouverture de la Chasse Le Père de famille. 
+            
+                Bélisario. 
+            
+                La Vie de Château. 
+                Thérèse, opéra-comique. Le Débardeur. 
+                L'Obstacle imprévu. 
+                Richard Savage, dr. 5 a. Sujet et Duchesse. 
+                Le Grand-Papa Guérin. 
+                Le Génécal et le Jésuite, 
+            
+                La Symphonie. 
+            
+                français. 
+            
+                Ecorce russe et Ceur
+            
+                La Demoiselle à marier. 
+                Les Vepres Siciliennes. 
+            
+                Victorine. 
+                Catherine ou la Croixd'or Madame Lavalette. 
+            
+                Les Deux Frères, 
+            
+                La Boulangère a des écus Un Scandale. 
+                D. Sébastien de Portugal Le Bambocheur. 
+            
+                Budget d'un jeuneménag. La Belle-Mère et le Gend. La Pie Voleuse, 
+                L'Auberge des Adrets. 
+            
+                Heur et Malheur. 
+            
+                Plulippe. 
+                La Dame blanche. 
+            
+                Il y a Seize ans. 
+                L'iléroinede Montpellier Le Marquis de Carabas. 
+            
+                La Famille improvisée. 
+                Les Frères à l'épreuve. Ruy-Brac, p. de Ruy-Blas Léonide, ou la Vieille. 
+            
+                Le Tasse, 
+            
+                C'est monsieur qui paie. 
+                Mademoiselle Clairon. 
+            
+                Le Philtre, opéra. 
+            
+                Une Position délicate. 
+            
+                A Minuit. 
+            
+                Toujours. 
+                10 ans de la vie d'une fem. La Mère au bal, et la Fille Les Deus Jalous. 
+                Le Lergnon. 
+                Bcrirand et Raton, 
+            
+                C'est encore du Bonheur. La Belle Ecaillère. 
+            
+                à la maison. 
+            
+                Jean. 
+            
+                Laitière de Montfermeil. Sept Heures. 
+                Les Bonnes d'Enfans. 
+            
+                Une Faute. 
+            
+                Les Etourdis. 
+            
+                Le ci-devant jeune hom. Valérie. 
+                Faublas. 
+                Marie Mignot. 
+                Picaros et Diégo. 
+                Pourquoi ? 
+            
+                Farruck le Maure. 
+                Monsieur Sans-Gene. 
+                Madame de Sévigné, 
+                Monsieur Chapolard. 
+            
+                Randal, dr. en 5 actes. 
+                L'Enfant de Giberne. 
+            
+                Le Coffre-fort. 
+            
+                Fénélon, par Chénier, 
+                Les Machabées. 
+                Un Bal de Grisettes. 
+                La Lune Rousse. 
+                Candinot, roi de Rouen. L'Amant bourru. 
+                Françoise et Francesca. Cartouche, ou les Voleurs
+            
+                La Mantille. 
+                Les Trois Gobe-Mouches Les Deux Normands. 
+            
+                L'espionne Russe, 
+            
+                Démence de Charles VI. La Camargo. 
+                Une lleure de mariage. Préville et Taconnet. 
+            
+                Postillon franc-comtois. Le Soldat de la Loire. 
+                Mademoiselle Nichon. 
+            
+                Madame Du Barry. 
+            
+                Le Chiffonnier, 
+            
+                Le marquis de Brunoy. 
+            
+                Le Bourru bienfaisant. 
+                La Fille de Dominique. 
+                Philosophe sans le savoir Une Saint-Hubert, 
+            
+                Les Maris vengés. 
+            
+                Dagobert. 
+            
+                Le Voyage à Dieppe. 
+            
+                Rossignol. 
+            
+                Les Anglaises pour rire. Deux vieux Garçons. 
+            
+                La Fille d'honneur. 
+            
+                Jeunesse de Richelieu. 
+            
+                La Fille d'un Voleur. 
+                Les Sermens. 
+            
+                Le Planteur, 
+            
+                Malvina, ou le Mariage. 
+                Leplus beau jour de la vie
+                Polder, ou le Bourreau. 
+            
+                Louise, ou la Réparation
+            
+                Les Premières Amours. 
+            
+                Le Colonel. 
+            
+                Le Coiffeur et le Perru
+            
+                Un moment d'imprudence Le Père de la Débutante. 
+                Le Diner de Madelon. 
+            
+                L'Avoué et le Normand. Le Père Pascal. 
+                La Juive. 
+            
+                Les Deux Ménages. 
+            
+                Jaspin, com.-vaud. 
+            
+                quier. 
+            
+                La Reine de seize ans. 
+            
+                Le Bénéficiaire. 
+            
+                Un Page du Régent. 
+            
+                Malheurs d'un joli garçon Les Indépendans. 
+            
+                Nanon, Ninon, Maintenon Kettly, ou le Retour. 
+                Phebus. 
+            
+                Poudre de Perlinpinpin. 
+                Les Camarades du mipist. Lisbeth, ou la Fille du La
+            
+                Richard d'Arlington. 
+                La Chanoinesse. 
+                Les Comédiens. 
+            
+                L'liéritière. 
+                Leontine. 
+            
+                Le Gardien. 
+            
+                Dominique. 
+                Le Philtre Champenois. 
+            
+                le Chevreuil. 
+            
+                Le Charlaianisme. 
+                Vert-Vert, 
+                Brueïs et Palaprat, 
+                Une Fête de Néron. 
+            
+                Pinto, en 5 actes. 
+                La Carte à payer. 
+                Le Mari de ma femme. 
+                Les Vieux l'échés. 
+                Lure et Indigence. 
+            
+                Zoé. 
+            
+                Le Mariage extravagant. Robert, chefde brigands Les Huguenots. 
+                Le Paysan perverli. 
+            
+                Michel Perrin. 
+            
+                Nal noté dans le quartier. La Canaille. 
+            
+                Vingt-six ans. 
+            
+                boureur. 
+            
+                Une Journée à Versailles. L'Idiote, dr, en á actes. 
+            
+                Le Barbier de Séville. 
+                Les Cuisinières. 
+                le nouv. Pourceaugnac. Les Deux Edmond. 
+            
+                Guillaume Colmann. 
+            
+                Suzette, 
+            
+                révolutionnaires. 
+            
+                La Laitière de la Forêt. 
+            
+                L'Eclair. 
+                L'intérieur des Comités La Correctionnelle, 
+            
+                La Famille Riquebourg. 
+                La Lune de Miel. 
+            
+                Marie, 
+            
+                Le Serment de Collége. Bobèche et Galimafré. 
+            
+                Louis XT, 
+                Ninon chez Mm. Sévigné. Bourgmest. de Saardam. Le Commis Yoyageur. 
+                Robin des Bois. 
+            
+                Liste de mes Maitresses, 
+            
+                Le Roman. 
+            
+                Clotilde. 
+            
+                La Cainaraderie. 
+            
+                Le Secrél. et le Cuisinier. La Vie de Garçon. 
+            
+                La Femme Jalouse. 
+                Le Panier Fleuri. 
+            
+                Le Protégé. 
+                Le Diamant. 
+            
+                Marius. 
+            
+                Le Coin de Rue, ou le Alix, ou les Deux Mères. Les Treize, 
+            
+                La République, l'Empire
+            
+                et les Cent jours. 
+            
+                Les deur Forçats. 
+                Lc Quaker et la Danseuse
+                Les Eufans d'Edouard. 
+                Yelya. 
+            
+                La Marraine. 
+                La Mansarde. 
+            
+                Marie Stuart. 
+                Les Rivaux d'eux-mêmes Le Célibataire et l'Hom-99 Moutons et un Cham-L'lau merveilleuse. 
+                Geneviève la Blonde. 
+                La Famille Glinet. 
+            
+                Rempailleur de chaises llarnali, parodie. 
+            
+                me marié. 
+            
+                penois. 
+            
+                Naufrage de la Méduse. La Fille du Cid. 
+            
+                Assemblée de créanciers. 
+            
+                La Maison en loterie. 
+            
+                Un Angcau sixième étage Industriels et Industrieur Le Soldat laboureur, 
+            
+                Les Héritiers. 
+                Jeanne d'Arc. 
+                Les Maris sans femmes. Le Mariage impossible. 
+                L'assemblée de famille. La Ferme de Bondi. 
+                Yernoires d'un Colonel Werther. 
+            
+                Les Deux Anglais. 
+            
+                Frascati, vaud. en 3 actes Le Pied de mouton. 
+                La Cocarde tricolore. 
+                La Muelte de Portici, 
+            
+                La Grande Dame. 
+                Passé minuit. 
+            
+                La Foire Saint-Laurent. 
+            
+                Susceptible, 
+            
+                Les Cabinets particuliers. 
+            
+                Deux Sytėmes. 
+            
+                de llussards. 
+            
+                Le Paria. 
+            
+                Les Deux Niaris. 
+                Le Medisaat. 
+            
+                La Prison d'Edimbourg. Clermont. 
+                La Première Affaire. 
+            
+                Le Pioupiou, v. en 3 actes Tribut des Cents Vierges
+            
+                Le Pacte de Farrine. 
+            
+                La famille de l'Apothicai. Perruquier de la Régence Isabelle de Montréal, 
+            
+                Don Juan d'Autriche. 
+            
+                le Chevalier du Temple. Une Visite nocturne. 
+            
+                La Passion secrète. 
+            
+                Rabelais. 
+                LA Deux Gendres. 
+            
+                L'Enfant trouvé. 
+                Le Poltron. 
+                Le facteur. 
+            
+                Le Mariage d'argent. 
+            
+                Madame de Brienne. 
+            
+                Le Camp des Croisés, avec Un Ménage parisiena
+            
+                une préſace, une Leitre Les Brodequins de Lisc. 
+            
+                liselle. 
+                Trenle Ans. 
+            
+                Le l'rc-aur-Clercs. 
+            
+                l'errinet Leclerc. 
+            
+                Lu Poupée. 
+                La Tour de Nesle. 
+            
+                Agamemnon. 
+            
+                Changement d'uniforme. Chacun de son côté. 
+                Une Presentation. 
+            
+                Le Vagabond. 
+            
+                Misanthropic et Repentir de Victor Ilugo à l'aut. Valentine. 
+                Le Chalet. 
+            
+                Mademoiselle d'Aloigr. y. 
+                Une Vision ou le sculpteur Mademoiselle Desgarcins
+            
+                La Belle Bourbonnaise. 
+            
+                Moiroud et Compagnie. 
+            
+                Le Bourgeois de Gand. 
+            
+                Passé Midi. 
+            
+                1. Gibou etMmePochet Thérèse. 
+            
+                Marguerite. 
+            
+                e un Reve ? 
+            
+                Esi-
+                Fra Diavolo. 
+            
+                Itobest-le-Diable. 
+            
+                Sans Tambour ni Tromp. La Belle-Scrur. 
+                Marino Faliero. 
+                Fanchon la Viellensc. 
+            
+                Ir Duel et le Déjeuner, 
+            
+                Zampa. 
+            
+                l'rosper et Vincent. 
+                Glenarvon. 
+            
+                Célinc la Créole, ou l'opi-L'Elève de Saumur. 
+            
+                nion, dr. cn 5 actes. 
+                Mademoiselle Bernard
+            
+                Carte blanche. 
+            
+                Chantre et Choriste. 
+            
+                Le Pauvroldiot, d. 5 act. Les Trois Quartiers. 
+                La Nuit du Meurtre. 
+                Louise de Lignerolles. 
+            
+                L'llomme de Soixantcans La Fiancée. 
+            
+                Les Ouvriers. 
+                Jeune homme charmant. 
+            
+                ou l'Autorile paternelle Chansons de Béranger. 
+            
+                Imprimerie de Boulé et C-, rue Coq-lléron, 3. 
+        </body>
+    </text>
+</TEI>

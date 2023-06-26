@@ -1,0 +1,3470 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LA PRIMA DONNA OU LA SŒUR DE LAIT</title>
+                <title type="sub">COMÉDIE MÊLÉE DE CHANT</title>
+                <author key="DAR" sort="1">
+                    <name>
+                        <forename>Louis Charles Achille</forename>
+                        <surname>Dartois de Bournonville</surname>
+                        <addname type="pen_name">Achille d'Artois</addname>
+                        <addname type="pen_name">Achille</addname>
+                    </name>
+                </author>
+                    <author key="" sort="2">
+                        <name>
+                            <forename>Jules-Henri</forename>
+                            <surname>Vernoy de Saint-Georges</surname>
+                            <addname type="pen_name">Jules</addname>
+                        </name>
+                    </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+               <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LA PRIMA DONNA OU LA SŒUR DE LAIT</title>
+                        <author>ACHILLE ET JULES</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=RjhgAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>Bibliothèque nationale d'Autriche</repository>
+                                <idno type="URL">https://onb.digital/result/10B68B32</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1832-11-26">26 NOVEMBRE 1832</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES VARIÉTÉS</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                 <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            131196-C
+            
+            ODDDDDxceeeee
+            
+            LA PRIMA DONNA
+            
+            OU
+            
+            LA SOEUR DE LAIT. 
+            
+            COMÉDIE MÊLÉE DE CHANT ; 
+            
+            Par MM. Achille et Jules. 
+            
+            Représentée pour la première fois, sur le Théâtre des Variétés, le 26 novembre 1832. 
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            PERSONNAGES. 
+            
+            ACTEURS. 
+            
+            LA SIGNOPA ROSELLINI, 
+            
+            MARQUITTA, mére de Pippo. Mlle Flore. 
+            
+            prima donna…
+            
+            Mlle JENNY-Colon. 
+            
+            LE MARQUIS DE BELLA
+            
+            PIPPO, 
+            
+            fils de Marquitta, 
+            
+            FLORA…
+            
+            M. LEGEAND. 
+            
+            jeune chasseur italien… M. VERNET. 
+            
+            UN NOTAIRE. 
+            
+            La scène se passe dans un hameau d'Italie. 
+            
+            200 000 200 300 900000 scoccocco900 900 900 900 900ce00000000002 @ cococo
+            
+            eccecocec020092cc2ce9
+            
+            Le théâtre représente la pièce principale l'une maison de paysan ; 
+            
+            les murs sont décorés de bois de
+            
+            cerfs, gibiers et d'attributs de chasse de toute espèce. Une cheminée à gauche de l'acteur ; porte
+            
+            et fenêtres au fond donnant sur la campagne ; au-dessus de la porte, une madone. A droite, une
+            
+            armoire pratiquée dans le décor ; au fond, un marche. pied. Au lever du rideau, on entend sconer
+            
+            cinq heures. 
+            
+            9900000000000000000000
+            
+            200909000 000
+            
+            
+            
+            SCÈNE PREMIÈRE. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Ménage de garçon. </stage>
+            
+                    <l>Au tir, au vol, rien ne m'échappe,</l>
+                    <l>Pour les gourmets, j'suis sans égal ;</l>
+                    <l>Je fournis la bouche du pape</l>
+                    <l>Et l'palais d'plus d'un cardinal ;</l>
+                    <l>J'n'ai mon pareil pour aucun'chasse,</l>
+                    <l>Dans les bois, en plaine, en bateau,</l>
+                    <l>J'suis le héros de la bécasse</l>
+                    <l>Et le coq de la poule d'eau.</l>
+            
+                </lg>
+            </div>
+            
+            PIPPO, seul, en baillant. 
+            
+            
+            
+            Cinq heures du matin ; par saint Jan
+            
+            vier. j'suis en retard ! (Prenant sa giberne, 
+            
+            sa boite à poudre et son fusil) . Quand je
+            
+            
+            
+            
+            
+            
+            
+            
+            pense qu'il faut tirer de ça et avec ça, pour
+            
+            (En parlant il charge son fusil.) Mais le
+            
+            tout un repas de noce… et que ce repas-là
+            
+            coq dormirait encore si la voix de ma mère
+            
+            courre encore ; heureusement qu'il n'y
+            
+            ne m'avait pas réveillé ! … et la voix de
+            
+            pas dans les environs de Rome, un chas
+            
+            ma mère, ou le coucou de la ferme, c'est
+            
+            seur plus malin que moi ! (Montrant son
+            
+            la même chose pour l'exactitude… et
+            
+            fusil.) Avec ce compère-là, je fais trembler
+            
+            l'harmonie… pourtant je crois qu'au
+            
+            toutes les bêtes du pays, depuis le canard
+            
+            jourd'hui la voix retardait sur le coucou…
+            
+            sauvage jusqu'au podesta, 
+            
+            ah ! c'est que je faisais un si joli rêve. 
+            
+            elle
+            
+            était là… C't ingrate qui nous a
+            
+            Les acteurs sont indiqués comme à la représentation, de gauche à droite, 
+            
+            2
+            
+            LE MAGASIN TREATBAL. 
+            
+            oubliés d'puis dix ans… ma mère qui l'a
+            
+            garçon, un ange ! la plus belle fille à ma
+            
+            nourrie, et moi qui l'ai bercée… j'avais
+            
+            rier du pays… d'abord, elle est la seule. 
+            
+            bien besoin d'en rêver ; je n'y songeais
+            
+            PIPPO. Alors, c'est la plus belle ! 
+            
+            presque plus ! excepté cependant quand
+            
+            MARQUITTA. C'est tout ce qui restait, at
+            
+            je regardais ce joli
+            
+            portrait, 
+            
+            c'dessin
+            
+            tendu que l'enrôlement a mis la disette
+            
+            que j'ai là sous clef et qui me la rappelle
+            
+            de femme dans les environs… et encore, 
+            
+            si bien, me ferait-elle une scène, ma res
+            
+            ne l'ai-je trouvéc qu'à dix mille d'ici, 
+            
+            pectable mère, si elle savait que le jour
+            
+            PIPPO. Eh ! bien ! ma mère, j'épouse
+            
+            de mon mariage, j'ai encore une jeune
+            
+            rai à la première vue, les yeux fermés ; il
+            
+            beauté dans le cœur… et dans l'armoire…
+            
+            y a tant de maris qui ont beau les ouvrir, 
+            
+            h ! bah ! c'te beauté-là… j' l'adore comme
+            
+            et qui n'y voient pas plus clair ! 
+            
+            une madone, en image, j'aim'rai ma femme
+            
+            MARQUITTA. C'est ta faute ! tu attends
+            
+            au naturel, ça vaux mieux. 
+            
+            le dernier moment pour te décider, et tu
+            
+            MARQUITTA, dans la coulisse. Pippo ! …
+            
+            n'bouges pas. 
+            
+            Pippo ! …
+            
+            
+            
+            PIPPO. Oh ! oh ! … v'là
+            
+            1 coucou ma
+            
+            ternel qui sonne encore ! 
+            
+            WOR500800320035036030805000000000000
+            
+            SCÈNE II. 
+            
+            PIPPO, MARQUITTA, tenant un mantelet
+			
+            <div type="poem">
+                <lg>
+            <stage type="tune">AIR : Vaud. de l'Intérieur de l'étude. </stage>
+			
+            <l>La d'mand', les cadeaux, la parure,</l>      
+            <l>M'ont assez donné d'pein's, je croi ;</l>           
+            <l>Jusqu'à la cour à ta future,</l>            
+            <l>Il a fallu tout fair'pour toi ;</l>            
+            <l>Mais après la noc', je l'espère,</l>            
+            <l>Quand ta femme aura r'çu ta foi…</l>
+            
+            PIPPO, l'interrompant. 
+            
+            <l>Alors, je vous réponds, ma mère,</l>            
+            <l>Qu'on ne feras plus rien pour moi !</l>
+        </lg>
+    </div>
+    
+            
+            qu'elle pose sur une chaise. 
+            
+            MARQUITTA. A la bonne heure ! 
+            
+            MARQUITTA. Eh ! bien, garçon, encore
+            
+            PIPPO. Et j'vais vous abattre un festin
+            
+            ici ! et la chasse, les invitations, le curé…
+            
+            digne de la broche d'un archevêque ! 
+            
+            le notaire… le diner… tu ne t'occupe de
+            
+            rien.,. tu n'es donc bon à rien ? 
+            
+            MARQUITTA. Abats, mon Pippo ! abals ! 
+            
+            le pays n'est pas sûr, et ta future doit se
+            
+            PIPPO, apprétant son fusil. Un instant ; 
+            
+            rendre ici sous bonne escorte, avec ses
+            
+            je suis bon à m' marier, not mère ! …
+            
+            frères, ses oncles, ses cousins ; et tout ça
+            
+            v'là l'essentiel pour aujourd'hui ! 
+            
+            mange comme des sauvages. 
+            
+            MARQUITTA. Pour aujourd'hui, comme
+            
+            PIPPO. Soyez tranquille, notre mère…
+            
+            tu dis, car demain il serait trop tard…
+            
+            j'vous rapporterai autant d'betes qu'il en
+            
+            demain le tirage et l'enrôlement de tous
+            
+            faut pour une réunion de famille. 
+            
+            les hommes non mariés du village pour
+            
+            (Il sort) .
+            
+            l'armée du saint Père ! 
+            
+            200 40. coesco. 00coe
+            
+            PIPPO. Le fait est que j' n'avais pas de
+            
+            vocation pour devenir soldat du pape ! 
+            
+            SCENE III. 
+            
+            MARQUITTA. Je crois bien ! mon Pippo…
+            
+            mon petit Pippo, mon fils unique ! et c'est
+            
+            MARQUITTA, seule. Je n'me sens pas de
+            
+            qu'il n'y a pas moyen de trouver d'rem
+            
+            joie ! … quel beau jour ! Tiens, v'la qu'il
+            
+            plaçant ; tout le monde en est ! 
+            
+            tonne ! (On entend le tonnerre ; elle va regar
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Vaudeville de l'Avare. </stage>
+            
+            
+                    <l>Grâce à cet hymen si prospère,</l>
+                    <l>Du tirag', demain, tu t'moqueras !</l>
+            
+                    PIPPO. 
+            
+                    <l>Ah ! quel chagrin pour le saint père,</l>
+                    <l>L'meilleur tireur de ses états.</l>
+                    <l>Ne s'ra pas parmi ses soldats !</l>
+                    <l>Je n'crains plus que l'sort m'attrappe,</l>
+                    <l>Mais il me paraît avéré,</l>
+                    <l>Qu'en me mariant, le curé</l>
+                    <l>Va fair'un'fameus'niche au pape !</l>
+                </lg>
+            </div>
+            
+            
+            MARQUITTA. Ça m'est ben égal… tu
+            
+            der par la fenêtre.) ah ! ça ne sera rien…
+            
+            au contraire, l'jour d'une noce, c'est ce
+            
+            qu'il faut. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Un homme pour faire un tableau. </stage>
+            
+            
+                    <l>Dans c' pays, voisin d'un volcan,</l>
+                    <l>Nous somm's habitués à l'orage,</l>
+                    <l>Et j'ai reconnu, bien souvent</l>
+                    <l>Que c'était un grand avantage ;</l>
+                    <l>Le tonnerre aguerrit notr' cœur,</l>
+                    <l>Et les cieux font tant de tapage,</l>
+                    <l>Que le bruit ne nous fait plus peur,</l>
+                    <l>Quand nous l'entendons en ménage !</l>
+                </lg>
+            </div>
+            
+            
+            me resteras, tu te marieras… je m everrai
+            
+            C'est que notre fiancée ne manquait
+            
+            renaitre dansmes petits Pippo ! 
+            
+            pas d'amoureux : on dit même qu'il y
+            
+            PIPPO. Oui, ma mère… oui, vous re
+            
+            en avait un assez gentil que son oncle Pié
+            
+            naitrez. Et en nombre satisfaisant, je vous
+            
+            tro préférait ; mais mon fils est bien un
+            
+            le promets, si ma fiancée est aussi bonne
+            
+            autre homme, ma foi ! et puis, les pré
+            
+            et aussi jolie qu'vous l'dites ! 
+            
+            sens… la toilette… (Etalant le mantelet
+            
+            MARQUITTA. Si elle est jolie ! … un ange, 
+            
+            qu'elle a apporté.) Sera-t-elle jolie dans ce
+            
+            LA PRIMA DONNA. 
+            
+            3
+            
+            mantelet là… et là haut, l'chap'ron, la
+            
+            voyage ! (riant ah ! ah ! ah ! c'est fait pour
+            
+            robe de noce (L'orage augmente.) Ah ! 
+            
+            moi, ces événe mens-là. 
+            
+            mon dieu ! mais ça redouble ! le tapage, 
+            
+            LE MARQUIS. la regardant et se secouant. 
+            
+            c'était bon ; mais la pluie… mon pauvre
+            
+            Et pour moi ! le fait est que nous avons
+            
+            fils sera trempé… faisons lui bon feu pour
+            
+            un bonheur insolent ! 
+            
+            son retour ! (Elle va i la cheminée souffler
+            
+            BATILDA. Vous, surtout… qui me ré
+            
+            le feu. On frappe à la porte.) Qui peut frap
+            
+            pétiez sans cesse à Rome, dans mon riche
+            
+            per si matin ? je n'ouvrirai pas… c'est
+            
+            hotel : signora, votre présence et une chau
+            
+            peut-être quelque associé de la bande de
+            
+            mière… je n'en demande pas davantage ! 
+            
+            ce scélérat de Fra-Diavolo. 
+            
+            BATİLDA, en dehors. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : du Comte Ory. </stage>
+            
+            
+                    <l>Ici, l'on espère</l>
+                    <l>Qu'à notre prière,</l>
+                    <l>Vous daignerez faire</l>
+                    <l>Acte de bonté :</l>
+                    <l>L'orage menace</l>
+                    <l>Et le vent nous glace,</l>
+                    <l>Donnez-nous, de grâce ;</l>
+                    <l>L'hospitalité.</l>
+            
+                    BATILDA ET LE MARQUIS. 
+            
+                    <l>Donnez-nous, de grâce,</l>
+                    <l>L'hospitalité.</l>
+                </lg>
+            </div>
+            
+            
+            vous avez ma présence… la chaumière…
+            
+            et de plus, une averse ! 
+            
+            LE MARQUIS, se secouant. Je suis pénétré
+            
+            de tout ce qui m'arrive… pénétré est le
+            
+            mot. 
+            
+            (Il éternue et va s'asseoir devant la cheminée.)
+            
+            BATILDA, a Marquitta. Bonne femme, 
+            
+            pouvez-vous nous garder chez vous, jus
+            
+            qu'à ce que nos domestiques aient fait
+            
+            réparer notre voiture ? 
+            
+            MARQUITTA. Certainement, signora…
+            
+            certainement ! … Marquitta n'a jamais
+            
+            refusé d'être utile. 
+            
+            MARQUITTA. Des brigands n'auraient
+            
+            BATILDA, surprise. Marquitta ! dites-vous ? 
+            
+            pas la voix si douce ! 
+            
+            attendez donc… (l'examinant.) Cet age…
+            
+            LE MARQUIS, en dehors. L'hospitalité, s'il
+            
+            ces traits… ma nourrice ! …
+            
+            vous plait ! 
+            
+            MARQUITTA. Vot' nourrice ? Batilda, tu
+            
+            MARQUITTA. Sainte vierge, protégez
+            
+            me reconnais ! 
+            
+            moi… je me risque…
+            
+            BATILDA. Si je te reconnais !, : 
+            
+. 
+            
+            (Elle ouvre.)
+            
+            oscoops03000608000
+            
+            SCÈNE IV. 
+            
+            MARQUITTA, BATILDA, LE MARQUIS. 
+            
+            Batilda est en costume élégant de voyage ; elle
+            
+            porte une vaste ombrelle et un manteau ; elle
+            
+            D'est qu'ua peu mouillée. Les marquis de Bella
+            
+            Flora iicnt à la main son pliant, uu petit chien
+            
+            sous le bras ; et une foule d'autres effets de
+            
+            voyage, il est traversé par la pluie. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : J'en guette un petit de mon âge. </stage>
+            
+            
+                    <l>La fortune me fut propice,</l>
+                    <l>Mon esprit d'en est pas plus vain !</l>
+                    <l>Combien de fois, bonne nourrice,</l>
+                    <l>Ai-je reposé sur ton sein ?</l>
+                    <l>Ah ! malgré ma métamorphose,</l>
+                    <l>Si souvent tu fis mon bonheur,</l>
+                    <l>En me plaçant près de ton cœur,</l>
+                    <l>Qu'il doit m'en rester quelque chose !</l>
+                </lg>
+            </div>
+            
+            
+            MARQUITTA. Bonne Batilda ! 
+            
+            LE MARQUIS, se pamant et applaudissant. 
+            
+            Bravi ! … bravo ! brava ! … C'est char
+            
+            mant, c'est dramatique au dernier point ! 
+            
+            BATILDA, riant. Ah ! ah ! ah ! … la plai
+            
+            une reconnaissance comme dans le der
+            
+            sante aventure ! 
+            
+            j'en
+            
+            rirai longtemps (à
+            
+            Marquitta) . Merci de votre hospitalité, 
+            &gt; 
+            bonne femme ! sans vous nous étions sub
+            
+            nier opéra de Bellini… je me pâme ! …, 
+            
+            je suffoque ! … j'ai des convulsions ! …
+            
+            MARQUITTA, à Batilda. Est-ce qu'il est
+            
+            mergés ! et ce pauvre marquis ! … quel
+            
+            malade, ce monsieur ? 
+            
+            singulière figure ! … il ne lui manque
+            
+            BATILDA, riant. Non, il est fou ! 
+            
+            qu'une couronne de roseaux, pour avoir
+            
+            LE MARQUIS, revenant. Oui, merveille de
+            
+            l'air d'un fleuve. 
+            
+            (Marquitta débarrasse le Marquis.)
+            
+            admirable talent ! 
+            
+            l'Italie, je suis fou de vous et de votre
+            
+            LE MARQUIS, sérieusement. Ilest certain…
+            
+            (Il éternue.)
+            
+            que c'est excessivement drôle ! 
+            
+            BATILDA. C'est ravissant, marquis ! 
+            
+            LE MARQUIS. Et romanesque donc ! 
+            
+            BATILDA, à Marquitia, Que j'ai d'im
+            
+            patience de causer seule avec toi ! 
+            
+            (Ara
+            
+            marquis qui éternue.) Vous vous enrhu
+            
+            Une roue de voiture brisée sur une grande
+            
+            mez ? 
+            
+            route deux voyageurs, s'égarant dans
+            
+            une forêt, allant chercher des secours, et
+            
+            l'orage qui nous surprend ! 
+            
+            BATILDA. Et vous, qui me donnez votre
+            
+            manteau et la pluie qui vous mouille jus
+            
+            qu'aux os ! voila bien le plus amusant
+            
+            LE MARQUIS, éternuant. Au contraire, 
+            
+            signora…
+            
+            BATILDA. Je ne souffrirai pas… vous
+            
+            n'aviez pas comme moi d'ombrelle, de
+            
+            manteau et de bottines de voyage pour
+            
+            vous préserver de la pluie. 
+            
+            LE MARQUIS. Qu'entends-je ? vous dai
+            
+            sans c't'incendie nous languirions encore
+            
+            1
+            
+            LE MAGASIN THÉATRAL, 
+            
+            gneriez prendre intérêt à ma chétive et
+            délicale santé ? 
+            
+            BATILDA, riant. Comment donc ? 
+            
+            la
+            
+            santé de mon chevalier servant… de mon
+            
+            dans notr' pauvre ferme d'Albano ! tandis
+            
+            qu'ici, dans ce pays de marécage, mon
+            
+            fils est devenu le premier et le plus riche
+            chasseur du canton, et comme il en est
+            
+            sigisbo ! 
+            
+            aussi le plus beau, je le marie aujourd'hui
+            
+            LE MARQUIS. Du plus soumis de vos
+            
+            à la plus jolie fille des environs, ce qui
+            
+            esclaves, signora. 
+            
+            l'exempte de droit de l'enrôlement. 
+            
+            BATILDA. Dis-moi, ma bonne Marquilta, 
+            
+            BATILDA, Ce cher Pippo ; mon frère ! …
+            
+            ne pourrais-tu pas procurer à monsicur
+            
+            (souriant.) Et tu dis qu'il est gentil ? 
+            
+            quelques habils ? 
+            
+            MARQUITTA, riant. Dam ! vous avez eu
+            
+            MARQUITTA. Si je le peux ! (Allant au
+            
+            le même lait ! c'est un gros garçon bien
+            
+            cabinet. 
+            
+) Ninelta, prépare les plus beaux
+            
+            décidé ! 
+            
+            de mon Pippo. 
+            
+            BATILDA. Alors, je ne lui ferai pas peur. 
+            
+            LE JARQUIS, à Batilda. Permettez donc, 
+            
+            MARQUITTA. Tu n'est pas faite pour
+            
+            signora ; je ne sais pas jusqu'à quel point
+            
+            ça… par exemple, il l'ra peut-être comme
+            
+            le nevou d'un cardinal, un chevalier de
+            
+            moi, 
+            
+            il ne te reconnaitra pas sous ces
+            
+            l'Eperon-d'Or, peut revêtirle costume d'un
+            
+            beaux habits ! mais toi, depuis dix ans, 
+            
+            simple villageois. 
+            
+            qu'as tu fait ? 
+            
+            (11 éternue.)
+            
+            BATILD. I. Le neveu d'un cardinal, m'en
+            
+            nuira fort s'il continue à éternuer ainsi
+            
+            pendant tout notre voyage ; allez changer, 
+            
+            monsieur : je le veux. 
+            
+            LE MARQUIS. D'habit… oui ; mais d'a
+            
+            mour ! jamais ! 
+            
+            BATILDA. Oh ! mon histoire serait trop
+            
+            longue ! en voici l'extrait : mon père, 
+            
+            chanteurdistinguédu théâtre d'Argentina, 
+            
+            me trouva de la voix, m'apprit de la mu
+            
+            sique, m'enmena avec lui en France, où
+            
+            je parus sur plusieurs théatres. (Souriant
+            
+            (U éternue.)
+            
+            J'eus le bonheur d'y réussir. 
+            
+            MARQUITTA. Je m'en doute bien ! 
+            
+            BATILDA, 
+            
+            lui faisant signe de sortir. 
+            
+            Vous m'avez entendu ? 
+            
+            LE BARQUIS. Parfaitement ; je sens tout
+            
+            le prix de cette attention-là… ne vous
+            
+            impatientez pas… je reviens dans un ins
+            
+            tant plus amoureux et plus sec que ja
+            
+            mais ! 
+            
+            (Il entre dans le cabinet à gauche, en éternuani.)
+            
+            Bococe
+            
+            SCENE V. 
+            
+            BATILDA, Au bout de cinq ans, je per
+            
+            dis mon père ; je revins en Italie ; je dé
+            
+            butai sur notre première scène lyrique, 
+            
+            et bientot je vis Rome et Naples àmes pieds. 
+            
+            MARQUITTA. A tes pieds, notre fille ! 
+            
+            BATILDA. C'est à qui, de nos premières
+            
+            villes, voulut obtenir la faveur de m'en
+            
+            tendre, et je leur fis
+            
+            si bien payer ces
+            
+            faveurs là que j'ai acquis en peu d'années
+            
+            une fortune immense et une réputation
+            
+            colossale. 
+            
+            VROUITTA, BATILDA. 
+            
+            MARQUITTA. C'est gigantesque ! … et
+            
+            BATILDA. Comment ! ma bonne nourrice, 
+            
+            BATILDA, souriant. Non, ma bonne nour
+            
+            c'est toi que je retrouve si loin du viliage
+            
+            d'Albano, où tu m'as élevée ! voilà donc
+            
+            rice… une cantatrice célèbre ne se presse
+            
+            pas ! … c'est une retraite qu'on prend le
+            
+            tu es mariée ? 
+            
+            pourquoi vous n'avez pas répondu à mes
+            
+            lettres ? 
+            
+            plus tard possible ! 
+            
+            MARQUITTA, surprise. Tu nous as écrit ? 
+            
+            et nous qui te soupçonnions… C'est que
+            depuis dix ans que ion père t'a retirée de
+            
+            chez nous, 
+            
+            il nous est arrivé des événe
+            
+            mens bien heureux ! …
+            
+            BATİLDA. Vrai ! …
+            
+            MARQUITTA, qaiment. D'abord, notre
+            
+            ferme a brûlé ! 
+            
+            BATILDA. Ah ! mon dieu ! 
+            
+            MARQUITTA, plusgaiment. Ensuite, nous
+            
+          
+            
+            
+            <div type="poem">
+                <lg>
+                    
+                      MARQUITTA. 
+                    <stage type="tune">Air Vaud. de la Somnambule. </stage>
+            
+                    <l>Contre ce retard, je réclame :</l>
+                    <l>Être riche, c'est très joli :</l>
+                    <l>Mais avant tout pour une femme,</l>
+                    <l>Le nécessaire est un mari.</l>
+            
+                    BATILDA. 
+            
+                    <l>Oui, pour les femmes ordinaires,</l>
+                    <l>Dans le monde il est reconnu,</l>
+                    <l>Que les maris sont nécessaires.</l>
+                    <l>Mais pour nous, c'est du superflu !</l>
+                </lg>
+            </div>
+            
+            
+            avons perdu tout ce que nous possédions ! 
+            
+            En altendant, 
+            
+            pus vivons sous la pro
+            
+            BATILDA. Pauvre Marquitta ! 
+            
+            tection de notre talent. 
+            
+            MARQUITTA, riant. Enfin, notre fils doit
+            
+            MARQUITTA. Mais ce monsieur qui éter
+            
+            tirer demain à la milice ! 
+            
+            nue toujours ? 
+            
+            BATILDA. Mais c'est épouvantable ! 
+            
+            BATILDA, vivement. Ce monsieur qui
+            
+            MARQUITTA. Du tout… sans notre ruine, 
+            
+            m'accompagne à Naples ? oh ! celui-là, 
+            
+            LA PRIMA DONNA. 
+            
+            c'est un aspirant à l'laymen, un soupirant
+            
+            folie de plus, quand on en a l'habitude…
+            
+            d'amour, qui m'engage à rien. La victime
+            
+            courons trouver ma bonne nourrice, ma i
+            
+            obligée de toute italienne à la' mode, en
+            
+            avant tout, j'ai un ordre esse, tiel à donne
+            
+            fin c'est un personnage qui a toutes les char
+            
+            à mon cavalier servant… justement le
+            
+            ges d'un époux sans en voir les bénéfices ! 
+            
+            voici. 
+            
+            MARQUITTA, riant. All ! ah ! que c'est
+            
+            drole ! Ah ! ça, tu restes à la noce, je te
+            
+            montrerai la toilette de notre future ! tu
+            
+            m'en diras ton avis ; tu dois te connaitre
+            
+            en toilette ? 
+            
+            BATILDA. Oui, ma bonne mère. 
+            
+            MARQUITTA. Je vas te préparer une
+            
+            SCÈNE VIII. 
+            
+            LE MARQUIS, en habit de paysan, BA
+            
+            TILDA. 
+            
+            chambre, la plus belle de la maison ! re
+            
+            BATILDA. Ah ! mon dieu, marquis, que
+            
+            trouver sa fille le jour où l'on marie son
+            
+            vous êtes laid comme ça ! 
+            
+            tils… en voilà du bonheur ! 
+            
+            LE MARQUIS Vous trouvez ? … il est sûr
+            
+            (Elle sort par la porte à droite.)
+            
+            que la noblesse de mon physique ne se
+            
+            CCOO OO
+            
+            p. ête pas à ce travestissement grossier ; 
+            
+            mais pour vous plaire, signora, on de
+            
+            SCÈNE VIJI. 
+            
+            viendrait épouvantable ! 
+            
+            BATILDA, seule. 
+            
+            que vous me plaisez tant ? …
+            
+            BATILDA, riant. C'est donc pour cela
+            
+            Marquitta… Pippo… que d'années heu
+            
+            reuses j'ai passées près de vous, dans
+            l'obscurité ! …
+            
+            je ne connaissais alors
+            
+            LE MARQUIS. Vous êtes trop bonne. 
+            
+            BATILDA. Et je puis dire que j'ai long
+            
+            tems hésité pour savoir qui j'emmenerais
+            
+            de vous, ou de mon sapajou. 
+            
+            ni
+            
+            les cabales, 
+            
+            ni
+            
+            les jalousies ! ni ces
+            
+            LE MARQUIS, blessé. Ah ! signora… la
+            
+            intrigues de théâtre dont je suis par
+            
+            fois si lasse ; mais aussi j'ignorais
+            
+            la
+            
+            comparaison…
+            
+            gloire, 
+            
+            les hommages… je me souviens
+            
+            PATILDA, riant. Mais vous éles le plus
+            
+            drôle des deux… et je vous ai donné la
+            
+            encore de mon premier début ! 
+            
+            préférence. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Comte Ory. </stage>
+            
+                    <l>Quand il fallut en France,</l>
+                    <l>Malgré mon innocence,</l>
+                    <l>Me mettre en évidence,</l>
+                    <l>Quel fut mon embarras !</l>
+                    <l>Oui, le cœur plein d'espérance,</l>
+                    <l>Les yeux baissés, je m'avance</l>
+                    <l>Comme un enfant (qui commence) <stage type="repetition"> (bis) </stage></l>
+                    <l>Son premier pas.</l>
+                </lg>
+            </div>
+            
+            
+            
+            
+            
+            LE MARQUIS. Eh ! bien ! oui, syrenedra
+            
+            
+            
+            matique, je m'estime heureux Gecette pré
+            
+            
+            
+            férence ; mes rivaux en mourront de dé
+            
+            pit… mais songez que pour devenir votre
+            
+            époux, depuis deux ans, je vous suis par
+            
+            tout comme votre ombre, je sèche sur
+            
+            
+            
+            pied, je me fanne aux rayons brulans de
+            
+            
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR Ronde d'Emma. </stage>
+            
+            
+                    <l>Ah ! quel plaisir ! <stage type="repetition"> (bis) </stage></l>
+                    <l>De réussir</l>
+                    <l>De me voir applaudir</l>
+                    <l>Toujours le désir</l>
+                    <l>Vient me saisir !</l>
+                    <l>Mon bonheur tient de la folie.</l>
+                    <l>Et de mon succès, chaque témoin,</l>
+                    <l>S'écrie</l>
+                    <l>En me voyant partie :</l>
+                    <l>Elle ira loin !</l>
+                    
+                    <l>Bientôt, j'arrive en Italie,</l>
+                    <l>Le doux soleil de ma patrie.</l>
+                    <l>Ce pays des plus tendres chants</l>
+                    <l>Donne plus d'ame à mes accens ;</l>
+                    <l>Mais près d'une bonne mère,</l>
+                    <l>Ma voix devient plus legère,</l>
+                    <l>Par le plaisir <stage type="repetition"> (bis) </stage> que je sens là !</l>
+                    <l ana="unanalyzable">Tra la la, tra la, la, etc.</l>
+                </lg>
+            </div>
+            
+            
+            
+            mon amour. 
+            
+            BATILDA, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Vaudeville de Turenne. </stage>
+            
+            
+                    <l>Quoi ! vous voulez que je m'enchaîne !</l>
+                    <l>Que je perde ma liberté ?</l>
+            
+                    LE MA EQUIS. 
+            
+                    <l>Ne craignez pas que je vous gêne</l>
+                    <l>Je n'aurai pas de volonté.</l>
+            
+                    BATILDA. 
+            
+                    <l>Mais quand je puis être à ma guise,</l>
+                    <l>Reine ou déesse à chaque pas…</l>
+                    <l>Soyez juste, je ne peux pas,</l>
+                    <l>Me contenter d'être marquise.</l>
+                </lg>
+            </div>
+            
+            
+            LE MARQUIS. Marquise de Delia Flora ! 
+            
+            
+            nièce d'un cardinal ! nièce du porte-queu es
+            
+            
+            
+            de sa sainteté ! 
+            
+            (Voyant le mantelet.) Ah ! le joli man
+            
+            BATILDA, riant. Je n'ai pas d'ambition, 
+            
+            telet ! c'est bien cela… comme j'en por
+            
+            j'aime mieux être tout bonnement une : 
+            
+            tais autrefois. Je m'en ferai faire un sem
+            
+            femme de talent ; au reste nous verrons, ih
+            
+            blable pour Gazza-Ladra… Ah ! quelle
+            
+            ne faut qu'un bon moment pour cela., en
+            
+            idée… oui, c'est cela, Pippo n'aura plus
+            
+            attendant, écoutez ce que j'exige de vous
+            
+            6
+            
+            LE MAGASIN TAÉATRAL. 
+            
+            LE MARQUIS. J'écoute, signora. 
+            
+            Heureux coquin ! … des envieux mais plus
+            
+            BITILDA. J'entends que, sous aucun
+            
+            de rivaux, de ces damnés rivaux qui ne
+            
+            prétexte, vous ne prononciez ni mon nom, 
+            
+            me laissent pas respirer ; au point que je
+            
+            ni le vôtre à qui que ce soit. 
+            
+            suis tout étonné de passer une heure sans
+            
+            LE MARQUIS. Dès ce moment j'adore
+            
+            en voir un. (Voyant Pippo.) Quel est ce
+            
+            l'incognito… je suis muet. 
+            
+            rustre ? 
+            
+            DATILDA. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Charmante Bergerette. (Arrangé par Ch. Tolbecque.)</stage>
+            
+            
+                    <l>Suivez en tout ma loi ;</l>
+                    <l>Sur nous, sachez vous taire :</l>
+                    <l>Si vous voulez me plaire,</l>
+                    <l>Ne parlez qu'après moi.</l>
+            
+                    ENSEMBLE. 
+            
+                    <l ana="unanalyzable">Suivez en tout ma loi, etc.</l>
+            
+                    LE MARQUIS. 
+            
+                    <l>Comptez, comptez sur moi :</l>
+                    <l>Je promets de me taire !</l>
+                    <l>Pour être sûr de plaire,</l>
+                    <l>Je suivrai votre loi !</l>
+            
+                    BATILDA. 
+            
+                    <l>N'oubliez point</l>
+                    <l>Qu'un signé fidèle,</l>
+                    <l>Doit en tout point</l>
+                    <l>Obéir à sa belle ;</l>
+                    <l>Et faire ainsi,</l>
+                    <l>Dans son doux esclavage,</l>
+                    <l>L'apprentissage</l>
+                    <l>D'un excellent mari.</l>
+            
+                    ENSEMBLE
+            
+. 
+            
+                    <l ana="unanalyzable">Suivez en tout ma loi, etc.</l>
+            
+                    LE MARQUIS, 
+            
+                    <l ana="unanalyzable">Comptez, comptez sur moi, etc.</l>
+            
+                </lg>
+            </div>
+            
+            (Il va à la cheminée.)
+            
+            080822. paso
+            
+            as
+            
+            SCÈNE IX. 
+            
+            PIPPO, portant du gibier dont il se décharge
+            
+            en entrant. LE MARQUIS. 
+            
+            PIPPO. J'espère que v'là une fameuse
+            
+            collection
+            
+            d'animaux ! 
+            
+            (A percevant le
+            
+            Marquis.) Tiens qu'est ce que c'est que
+            
+            celui là ? 
+            
+            LE MARQUIS. Bonjour, villageois ! 
+            
+            PIPPO. Sivous vouliez biendire chasseur ; 
+            
+            je tiens à mes titres comme un marquis. 
+            
+            LE MARQUIS, &amp; part. Ah ! ça mais c'est
+            
+            une personnalité ? 
+            
+            PIPPO. A propos, qui êtes-vous, d'où
+            
+            venez-vous, et que faites-vous ici ? ré
+            
+            pondez : 
+            
+            LE MARQUIS, étourdi. A quoi ? 
+            
+            PIPPO, l'examinant. Que diable est-ce
+            
+            que vous avec
+            
+            onc là sur le dos ? 
+            
+            LE MARQUIS. Il me semble, villageois, 
+            
+            que j'ai mon habit sur le dos. 
+            
+            PIPPO. Votre habit… votre habit…
+            
+            mais ce matin encore, 
+            
+            votr' habit…
+            
+            (Elle sort en riant.)
+            
+            c'était mon habit. 
+            
+            2900002
+            
+            0000000
+            
+            LE MARQUIS, i part, Ah ! je comprends, 
+            
+            c'est le propriétaire du vêtement ci-pré
+            sent. 
+            
+            SCÈNE VIU. 
+            
+            PIPPO. Vous avez l'air embarrassé…
+            
+            LE MARQUIS, seul, la regardant sortir. 
+            
+            LE MARQUIS, vivement. Non ! 
+            
+            PIPPO, prenant son fusil. Tout ça m'est
+            
+            Fantasque ei bizarre créature ! pour
+            
+            suspect à moi… j'vous trouve là cheux
+            
+            quoi le sort t'a-t-il créée si belle ? à quel
+            
+            nous, dans not' maison, 
+            
+            et dans mon
+            
+            état m'as tu réduit ? Sigisbé d'une canta
+            
+            habit… j'suis brutal, voyez-vous, et si
+            
+            trice… mais c'est un état déplorable ! tou
+            
+            jours sur pied, on fond à vue d'ail… on
+            
+            vous n' me répondez pas… je pourrai
+            
+            bien vous traiter, comme ces particuliers
+            
+            est bon à tout… et à rien… eh ! bien ! 
+            
+            là ! 
+            
+            pourtant ça offre du charme ; on suit
+            
+            partout l'objet de sa flamme… on lui donne
+            
+            le bras à la promenade… du côté du coeur…
+            
+            on ramasse son mouchoir… on porte son
+            
+            petit chien ou son ridicule, et ces dames
+            
+            ont toujours des ridicules ! c'est excessi
+            
+            (Il montre son gibier.)
+            
+            LE MARQUIS, reculant. Eh ! eh ! douce
+            
+            ment donc, chasseur ! est-il vif, Ic chas
+            
+            seur ? voilà le fait : j'étais mouillé, trans
+            
+            percé mème, par l'orage, en arrivant ici…
+            
+            et c'est la maitresse de cette maison qui
+            
+            vement méchant, ce que je viens de dire
+            
+            m'a fait donner ce costume. 
+            
+            à… et neuf surtoul ; mais quand je me
+            
+            PIPPO. Not mère, dites vous ! eh ! mais
+            
+            rengerais un peu des caprices de mon
+            
+            yran, en atlendant l'hymen, mais après
+            
+            j'y songe maintenant… vous n'êtes pas
+            
+            venu seul, vous avez amené quelqu'un ? 
+            
+            Phymen comme on meregardera ! comme
+            
+            (Il dépose son fusil.)
+            
+            n chuchotera ! (Il mime deux personnes
+            
+            LE MARQUIS, avec humeur. Sans doute, 
+            
+            qui causent.) « Comment ! c'est lui ? 
+            
+            C'est
+            
+            j'ai amené quelqu'un, une femme char
+            
+            · lui même ! 
+            
+            Le mari ? —Comme vous
+            
+            mante, dont je suis le compagnon de
+            
+            1 dites !-Le vrai mari ? 
+            
+            Oui ! oui ! 
+            
+            voyage. 
+            
+-Il est très bien ! Mais pas mal ! » 
+            
+            PIPPO. Une femme charmante ! c'est
+            
+            LA PRIMA DONNA
+            
+            7
+            
+            ca. (A part.) Ma fiancée. Haut.) Pardon ! 
+            
+            est ce que je rêve… iki ma mère vous ne
+            
+            pardon, cousin… car je pense que vous
+            
+            m'avicz pas dit ? … Batilda I…
+            
+            étes au moins son cousin ? 
+            
+            LE MARQUIS. Son cousin ? (A part.) Au
+            
+            BATILDA. Pippo ! 
+            PIPPO, la prenant dans ses bras. Ma chère
+            
+            fait, pourquoi ne serais-je pas son cousin ! 
+            
+            Batilda. 
+            
+            LE MARQUIS, stupéfait. Sa chère Batilda ? 
+            
+            PIPPO. A moins que vous ne soyez son
+            
+            oncle ? 
+            
+            LE MARQUIS. Dam, si vous aimez mieux
+            
+            que je sois son oncle ? … je n'y tiens pas, 
+            
+            je serai son oncle. 
+            
+            ENSEMBLE. 
+            
+            PIPPO. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la Bayadère. </stage>
+            
+            
+                    <l>Ce n'est pas une méprise !</l>
+                    <l>Ah ! qu'elle douce surprise !</l>
+                    <l>Dans le cœur</l>
+                    <l>Que j'ai d'ardeur !</l>
+                    <l>Enfin, voilà, voilà celle</l>
+                    <l>Que depuis longtemps j'appelle…</l>
+                    <l>Quel beau jour</l>
+                    <l>Pour mon amour !</l>
+            
+                    MALQCITTA. 
+            
+                    <l>Il ne voit pas la méprise !</l>
+                    <l>Ah ! quelle douce surprise !</l>
+                    <l>Dans le cœur</l>
+                    <l>Qu'il a d'ardeur !</l>
+                    <l>Mais je crains pour sa cervelle :</l>
+                    <l>Peut-il, enflammé par elle,</l>
+                    <l>En ce jour</l>
+                    <l>Changer d'amour ?</l>
+            
+                    LE MARQUIS. 
+            
+                    <l>Ah ! quelle cruelle crise !</l>
+                    <l>Quelle étonnante surprise !</l>
+                    <l>Dans mon cœur</l>
+                    <l>Que de fureur !</l>
+                    <l>Mais suis-je donc sans cervelle ?</l>
+                    <l>Peut il s'unir avec elle ?</l>
+                    <l>Ah ! quel jour</l>
+                    <l>Pour mon amour !</l>
+            
+                    BATILDA à part. 
+            
+                    <l>Je jouis de sa méprise ;</l>
+                    <l>Ah ! quelle douce surprise !</l>
+                    <l>Dans le cœur</l>
+                    <l>Qu'il a d'ardeur !</l>
+                    <l>Eh ! quoi ! pour lui je suis celle,</l>
+                    <l>Que son cœur toujours appelle</l>
+                    <l>Quel beau jour</l>
+                    <l>Pour son amour !</l>
+            
+                    LE MABQuis, à Batilda. 
+            
+                    (1) 
+            
+                    <l>Madame, terminons ce jeu !</l>
+            
+                    <l>Quoi, vous parlez sans mon aveu !</l>
+            
+            
+                    MASQUITTA, à Batilda montrant Pippo. 
+            
+                    <l>Détrompons-le, car il prend feu !</l>
+            
+                    BATILDA, relenant Marquitta, 
+            
+                    <l>Ah ! laisse-le brûler un peu.</l>
+            
+                    (Au marquis.)
+            
+                    <l>Au départ songez promptement,</l>
+                    <l>Le plus doux accueil vous attend.</l>
+            
+                    (A Marquitta montrant Pippo qui la contemple.)
+            
+                    <l>Il fait un rêve de bonheur,</l>
+                    <l>Je veux l'éveiller sans douleur !</l>
+            
+                    BATILDA. 
+            
+                    <l ana="unanalyzable">Je jouis de sa méprise ! etc.</l>
+            
+                    PIPPO. 
+            
+                    <l ana="unanalyzable">Ce n'est pas une méprise ! etc.</l>
+            
+                    LE MASQUIS. 
+                    <l ana="unanalyzable">Ah ! quelle cruelle crise ! etc.</l>
+            
+                </lg>
+            </div>
+            
+            
+            PIPPO. Ou peut-être son frère, qui
+            
+            
+            
+            sait ? 
+            
+            LE MARQUIS. C'est vrai, je puis etre son
+            
+            frère ! 
+            
+            
+            
+            
+            
+            
+            PIPPÔ. Mais, par la inule du pape, vous
+            
+            
+            
+            ne pouvez pas être toute sa famille ! 
+            
+            LE MARQUIS. Eh ! bien, c'est ce qui
+            
+            vous trompe, je suis toute sa famillle… je
+            
+            lui liens lieu de tout dans le monde. 
+            
+            PIPPO. Ah ! que c'est donc bien à vous
+            
+            de m'amener ma fiancée… ma femme ! 
+            
+            LE MARQUIS. Comment ! comment ! 
+            
+            volre femme ? 
+            
+            PIPPO. Ah ! mon cousin ! mon frère ! mon
+            
+            oncle ! : 
+            
+            que j'vous embrasse ? 
+            
+            (Il prend le Marquis et veut absolument l'em. 
+            
+            brasser. 
+            
+            LE MARQUIS, se défendant. Mais villa
+            
+            geois, vous m'étouffez, il y a erreur. 
+            
+            
+            
+            
+            
+            
+            
+            PIPPO. Non, non, il n'y a pas erreur…
+            
+            
+            
+            je suis Pippo… le futur… y êtes-vous ? 
+            
+            
+            
+            LE MARQUIS. Pas le moins du monde. 
+            
+            PIPPO. Est-il bête ce parent là ! 
+            
+            LE MARQUIS. Villageois, pas de propos ; 
+            
+            la personne que j'accompagne n'est pas
+            
+            votre fiancée ; ça finit là. 
+            
+            PIPPO. Allons, allons, vous êtes un far
+            
+            ceur ; c'est une surprise, n'est-ce pas, mon
+            
+            bon oncle ? 
+            
+            LE MARQUIS. Allons il y tient ! (A part.)
+            
+            Décidément je partage son hilarité. 
+            
+            (Il rit.)
+            
+            PIPPO, riant. Ah ! vous avez ri, mon
+            
+            cousin ? c'est elle ! 
+            
+            
+            
+            
+            
+            
+            
+            
+            BATILDA, au marquis. 
+            
+            LE MARQUIS. Mais non…
+            
+            
+            
+            PIPPO. Allons, frère, convenez-en ? 
+            
+            LE MARQUIS. Non, non, non. 
+            
+            (Musique.)
+            
+            PIPPO. Et t'nez, v'là notr' mère qui la
+            
+            ramène… vous allez voir. 
+            
+            LE MARQUIS. Eh ! bien, oui, nous allons
+            
+            voir ! 
+            
+            osaarenessa seinapagpas nossosassasasid
+            
+            
+            
+            SCÈNE X. 
+            LE MARQUIS, PIPPO, BATILDA, MAR
+            
+            QUITTA. 
+            
+            BATILDA, à part au marquis, d'un ton
+            
+            impératif. Marquis, allez voir si notre vois
+            
+            PIPPO, la reconnaissant. Ah ! mon Dieu ! 
+            
+            ture est réparée. 
+            
+            (1) Pippo, le Marquis, Batilda, Marquitta. 
+            
+            8
+            
+            LE MAGASIN TAÉATRAL. 
+            
+            Reprise de l'ENSEMBLE. 
+            
+            
+            
+            
+            MARQUITTA. 
+            
+            Jolie manière de me rendre la mé
+            
+            Il ne voit pas la méprise ! clc. 
+            
+            moire ! 
+            
+            
+            PIPPO. Oh je ne l'ai pas perdue, moi…
+            
+            
+            
+            car je me souviens que les baisers d'autre
+            
+            PIPPO, au marquis. Quand je vous di
+            
+            tout à l'heure. 
+            
+            fois, n'étaient pas meilleurs que celui de
+            
+            sais que c'était elle ? 
+            
+            (Le Marquis sort par le fond, ainsi que
+            
+            Niarquitta sur un signe de Batilda.)
+            
+            SCÈNE XI. 
+            
+            PIPPO, BATILDA. 
+            
+            PIPPO. Te v'là donc ? je te revois, loi
+            
+            que je croyais perdue pour nous… pour
+            
+            moi : 
+            
+            BATILDA. Si tu savais tout ce qui s'est
+            
+            passé depuis que je vous ai quitté ! 
+            
+            BATILDA, souriant. Tu crois ? 
+            
+            PIPPO, s'avançant de nouveau. Dam, si
+            
+            tu en doutes, je vais gouler encore ! 
+            
+            BATILDA, l'éloignant de la main. Non, 
+            
+            Pippo, non… mais alors nous étions des
+            
+            enians. 
+            
+            PIPPO. C'est vrai… mais de beaux en
+            
+            fans toul d'uneme… car les Paysans
+            
+            d'Al
+            
+            bano disaient en nous voyant passer. 
+            
+            (Il
+            
+            lui prend le bras) bras dessus, bras des
+            
+            sous : ih ! eh ! v'là de jolis enians qui
+            
+            quelque jour pourront ben… en avoir
+            
+            d'autres ! … et loi ça te faisait rire ! 
+            
+            BATILDA. Non, monsieur, c'était vous
+            
+            PIPPO, vivement. Je ne veux rien savoir : 
+            
+            ricz de ces propos-là. 
+            
+            te voilà, c'est l'essentiel. Tu t'es souvenue
+            
+            PIPPO. C'était toi ! 
+            
+            de ta mère, de ton frère, de… que m'im
+            
+            BATILDA. C'était vous…
+            
+            porte le reste ! 
+            
+            PIPPO. Eh ! mon Dieu ! c'étaient nous
+            
+            BATILDA. Mais je dois te dire ! 
+            
+            PIPPO. Tu me conteras tout ça plus
+            
+            deux… parce qu'alors nos bras se ser
+            
+            raient l'un contre l'autre, comme ça. (11
+            
+            tard… à ton aise, quand inon bonheur
+            
+            lui serre le bras.) Nos mains s'unissaient
+            
+            me laissera le temps d'être curieux. 
+            
+            encore, comme ça. (I lui prend la main.)
+            
+            BATILDA. Tu es donc bien heureux ? 
+            
+            Et mes yeux, qui se fixaient sur les tiens, 
+            
+            PIPPO. Ah ! j'suis dans l'paradis ! 
+            
+            BATILDA, à part. Il faut l'y laisser en
+            
+            toujours comme ça
+            
+            i la regarde tendre
+            
+            ment) semblaient te dire : Batilda, veux
+            
+            core un petit instant. 
+            
+            PIPPO. Chaque jour je pensais à toi…
+            
+            tu que les paysans d'Albano aient raison, 
+            
+            veux-tu être un jour ma femme ? 
+            
+            ce matin encore, je te voyais telle que tu
+            
+            BATILDA, à part souriant. Mais cela de
+            
+            nous a quitté. Il y a du changement main
+            
+            vient sérieux. 
+            
+            tenant, mais tu n'en es pas plus mal. 
+            
+            BATILDA, souriant. Tu trouves ? 
+            
+            PIPPO. Va, je n'ai rien oublié. 
+            
+            BATILDA. Vraiment ! 
+            
+            PIPPO. V'là toujours tes beaux yeux, ta
+            
+            PIPPO. Ni nos danses du pays, 
+            
+            ni nos
+            
+            bonne figure fraiche et gentille… et cette
+            
+            joyeuses canzonnettes ! 
+            
+            main si douce, qui me pinçais quelque
+            
+            BATILDA. Ni moi non plus, je ne les ai
+            
+            fois si fort ! 
+            
+            pas oubliées ! 
+            
+            BATILDA. Je te pinçais, dis-tu ? … et
+            
+            PIPPO. Même celle que tu
+            
+            chantais
+            
+            quand done ? 
+            
+            quand tu revenais le soir avec tes chè
+            
+            PIPPO. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Céline. </stage>
+            
+                    <l>C'était lorsque de ton visage,</l>
+                    <l>Un peu trop près, je m'approchais ;</l>
+            
+                    BATILDA. 
+                    <l part="I">Je ne m'en souviens pas.</l>
+            
+                    PIPPO. 
+                    <l part="F">Je gage,</l>
+                    <l>Qu'si j'voulais tu t'en souviendrais.</l>
+                    (Il s'est approche d'elie et l'embrasse.)
+            
+                    BATILDA. 
+                    <l part="I">Que fais-tu ?</l>
+            
+                    PIPPO. 
+            
+                    <l part="F">C'est, mademoiselle,</l>
+                    <l>Pour vous rapp'ler que tu m'pinçais</l>
+            
+                    BATILDA. 
+            
+                    <l>Je trouve que ça me rappelle</l>
+                    <l>Bien plutôt que tu m'embrassais !</l>
+                </lg>
+            </div>
+            
+            
+            vres, et que j' l'attendais endormi derrière
+            
+            le buisson ? 
+            
+            
+            
+            BATILDA. Veux-tu l'entendre ? 
+            
+            PIPPO. Tout de suite… vas là-bas, sur
+            
+            
+            la montagne. 
+            
+            
+            
+            
+            
+            BATILDA. Sur la montagne ? 
+            
+            1
+            
+            (Il lui montre le marche-pied.)
+            
+            
+            tagne était
+            
+            par là ? Moi, j'vais m'mettre
+            
+            derrière le buisson ! Prenant une chaise.)
+            
+            
+            PIPPO (1) . Qui, lu sais bien que la mon
+            
+            
+            
+            (1) Batilda, Pir po. 
+            
+            LA PRIMA DONNA. 
+            
+            9
+            
+            v'là l'buisson. (Il s'assied par terre et s'ap. 
+            
+            puie sur la chaise :) Ça y est, j'suis en
+            
+            dormi ; et tu me réveillera comme tu avais
+            
+            coutume de le faire. 
+            
+            (1l fait le signe d'embrasser.)
+            
+            qu'il croyait recevoir le baiser.) Ah ! mais
+            
+            tu déranges le buisson ! 
+            
+            (Il se met à genoux.)
+            
+            BATILDA se moquant de lui. 
+            
+            Ah ! ah ! ah ! 
+            
+            BATILDA. Me voilà dans mon rôle !. je
+            
+            PIPPO ! se relevant. C'est égal, ça m'a
+            
+            vais jouer une scène pastorale. Elle re
+            
+            tout attendri. 
+            
+            monte au théâtre et se place sur le marche
+            
+            BATILDA, à part. Bon Pippo ! … allons, 
+            
+            pied.) J'suis sur la montagne ! 
+            
+            je ne puis l'abuser plus longtemps ! 
+            
+            PIPPO. Bon ! va à présent. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Ranz de Mayer Beer. (Arrangé par M. Ch. Tolbecque.)</stage>
+            
+            
+                    <l>V'là devant la nuit,</l>
+                    <l>Le jour qui s'enfuit !</l>
+                    <l>Et j'n'entends plus d'bruit ;</l>
+                    <l>Quittons les bruyères,</l>
+                    <l>Mes chèvres légères.</l>
+                    <l>Quelqu'chos' me dit là,</l>
+                    <l>Qu'on l'rencontrera !</l>
+                    <l>Ah ! ah ! …</l>
+            
+                    <l>Ah ! ah ! …</l>
+                    <l>Le bonheur, je l'espère,</l>
+                    <l>M'attend au hameau, <stage type="repetition"> (bis) </stage></l>
+                    <l>Precèd' ta bergére,</l>
+                    <l>Mon gentil troupeau, <stage type="repetition"> (bis) </stage></l>
+                    <l>Près de moi pour faire</l>
+                    <l>Accourir Pippo ! <stage type="repetition"> (4 fois) </stage></l>
+            
+            
+                    BATILDA. 
+            
+                    Meme air. 
+            
+                    <l>S'obstiner ainsi</l>
+                    <l>À dormir ici</l>
+                    <l>Quand je vais vers lui !</l>
+                    <l>Montre plus de zèle,</l>
+                    <l>C'est moi qui t'appelle ! …</l>
+                    <l>Il dort toujours là,</l>
+                    <l>Qui l'éveillera ? …</l>
+                    <l>Ah ! ah !</l>
+            
+            
+                    BATILDA. 
+            
+                    <l>Mais qu'il m'en souvienne.</l>
+                    <l>Lorsque j'approchais, <stage type="repetition"> (bis.)</stage></l>
+                    <l>Autrefois sans peine</l>
+                    <l>Je le réveillais. <stage type="repetition"> (bis.)</stage></l>
+                    <l>Cela m'embarrasse</l>
+                    <l>Et sourd à ma voix,</l>
+                    <l>Il veut que je fasse</l>
+                    <l>Tout comme autrefois.</l>
+                    <l>Pippo ! <stage type="repetition"> (ter.)</stage></l>
+                    <l>Ah ! ah ! ah !</l>
+            
+                </lg>
+            </div>
+            
+            PIPPO. Sais-tu bien qu'il n'y a pas une
+            
+            fille du village qui ait une voix comme la
+            
+            tienne ? … pas même la meunière qui
+            
+            chante au lutrin les jours de fête ! 
+            
+            BATILDA, riant. Quoi ! je chante mieux
+            
+            
+            que la meunière ! 
+            
+            
+            
+            PIPPO. Mieux
+            
+            que
+            
+            la meunière… mieux
+            
+            que tous les enfans de chaur ! … et plus
+            
+            naturellement, j'en suis sûr, que toutes
+            
+            les chanteuses de Rome, 
+            
+            et que c'te fa
+            
+            PIPPO, les yeux fermés. Oui, oui… je
+            
+            meuse cantatrice, sans l'avoir entendue ! …
+            
+            t'entends bien… mais je n'bouge pas ; 
+            
+            BATILDA, surprise. Une cantatrice ?. 
+            
+. 
+            
+            descends toujours, descends la montagne. 
+            
+            PIPPO. Ah ! oui, tu n' sais pas ça, une
+            
+            BATILDA, revenant doucement du côté de Pippo. 
+            
+            cantatrice… dont un peintre qui s'est ar
+            
+            
+            rêté chez nous il y a six mois, m'a laissé
+            
+            le portrait, à cause d'la ressemblauce
+            
+            
+            
+            que j'y trouvais. 
+            
+            
+            
+            Ah ! le voilà ! …
+            
+            Ah ! ah ! 
+            
+            PIPPO, la regardant. Oui, oui, j'le rois
+            
+            bien… mais je dors toujours…
+            
+            
+            
+            PIPPO. C'est pas ça… c'est pas encore
+            
+            ça.,. j'ai l'sommeil dùr. 
+            
+            BATILDA. Un portrait ! 
+            
+            PIPPO, allant à une armoire et en rap
+            
+            portant une lithographie. Oui, tiens, je vas
+            
+            le le montrer (1) . C'était celui de la mai
+            
+            tresse d'un marquis, 
+            
+            comme tant d'autres ! … Une de
+            
+            qu'elle adorait, 
+            ces fem
+            
+            mes, comme disait ce peintre, que ces
+            
+            seigneurs là aiment, toujours et n'épou
+            
+            sent jamais ! une folle, une franche co
+            
+            quette ! 
+            
+            BALTIDA, reconnaissant la lithographie. 
+            
+            C'est moi ! 
+            
+            PIPPO. C'est à dire, c'est toi ! … c'est ta
+            
+            figure ! mais c'est tout ce que tu as de com
+            
+            mun avec elle ! … tiens, son nom est écrit
+            
+            au bas : la signora Rosellini ; tu vois, je lis
+            
+            couramment à présent. 
+            
+            BATILDA, indignée, à part. Qu'entends
+            
+            je ? Comment oser me nommer mainte
+            
+            nant ? 
+            
+            000000000 ccec
+            
+            COCOCCOO OO 000
+            
+            SCÈNE XII. 
+            
+            PIPPO, MARQUITTA, BATILDA. 
+            
+            PIPPO. J'n'entends rien… j'n'entends
+            
+            rien. 
+            
+            BATILDA. Allons puisqu'il le faut…
+            
+            MARQUITTA. Bonne nouvelle, not' fils, 
+            
+            bonne nouvelle ! ta fiancée est arrivée. 
+            
+            PIPPO. Je l' sais bien ! 
+            
+            (Elle se baisse pour l'embrasser.)
+            
+            MARQUITTA. Et elle est jolie ! …
+            
+            PIPPO. Nous y v'là ! nous y v'là…
+            
+            PIPPO. Je l'sais bien encore. 
+            
+            (Prête à l'embrasser, elle dérange la chaise
+            
+            et Pippo tombe le nez par terre, au moment
+            
+            (1) Pipro, Batilda, 
+            
+            10
+            
+            LE MAGASIR TRÉATRAL. 
+            
+            MARQUTTI. Elle est chez son oncle
+            
+            LE MARQUIS, à part en entrant, Elle est
+            
+            Pietro. 
+            
+            seule. 
+            
+            PIPPO. Ma fiancée ? (Montrant Batilda.)
+            
+            BATILDA, sans voir le Marquis. Est-il
+            
+            La Y' là. 
+            
+            possible d'être plus sot et plus fat ! 
+            
+            MARQUITTA. Comment, qu'est-ce que tu
+            
+            LE MARQUIS, à part. Je suis sûr qu'elle
+            
+            dis donc ? 
+            
+            s'occupe de moi. 
+            
+            BATILDA. (1) Non Pippo, ce n'est pas
+            
+            BATIL DA, sans voir le Marquis. Me
+            
+            moi que tu devais épouser aujourd'hui ; 
+            
+            quand je suis arrivée… ta mère ne m'at
+            
+            compromettre par ses propos… me
+            
+            forcer de cacher ce que je suis à Pippo…
+            
+            tendait pas, et je n'ai pu résister au désir
+            
+            Pippo, mon frère ! Maudit marquis ! je le
+            
+            de me présenter à toi sous ces habits. 
+            
+            hais à un point ! 
+            
+            PIPPO. Oh ! que tu as bien fait ! … avec
+            
+            LE MARQUIS, à part. Elle parait très
+            
+            ça qu'ils le vont si bien, ces habits : aussi
+            
+            bien disposée. 
+            
+            je ne veux plus que tu les quittes ! …
+            
+            BATILDA, sans voir le Marquis. S'il se
+            
+            MARQUITTA. Est-ce que tu es fou ? 
+            
+            présentait…
+            
+            PIPPO. Oui, nol'mère, la tête n'y est
+            
+            LE MARQUIS, se montrant avec un air
+            
+            plus ! mais le cæur y est plus que jamais ! 
+            
+            tendre et satisfait. Me voilà, diva ! 
+            
+            elle a fait de moi un volcan, un Vésuve ! 
+            
+            BATILDA, avec colère. Osez-vous bien
+            
+            MARQUITTA. Ah ! Sainte Vierge ! qu'est
+            
+            encore paraitre devant moi, monsieur ? 
+            
+            ce qu'il dit là ? 
+            
+            LE MARQUIS, étourdi. Comment ? qu'est
+            
+            PIPPO. C'est égal, faut d'la politesse, je
+            
+            ce que c'est ? 
+            
+            vais chez l'oncle Pietro… (A Batilda.)
+            
+            BATILDA. Vous venez me chercher peut
+            
+            Vois, pourtant, comme c'est heureux que
+            
+            etre ? 
+            
+            tu sois arrivée ce matin ? … un peu plus
+            
+            LE MARQUIS. Oui, diva, le char est ré
+            
+            tard, j'allais… ah ! mon Dieu qu'est-ce
+            
+            paré ! … le Phaëton a mis ses bottes, et
+            
+            que j'aurais fait ? attends-moi là, ma petite
+            
+            les coursiers ont mangé l'avoine ! 
+            
+            Batilda, attends-moi là…
+            
+            BATILDA. Eh ! bien, monsieur, je ne
+            
+            (Il sort en courant.)
+            
+            pars plus avec vous. 
+            
+            Secº0 900 YO COCO OCO
+            
+            LE MARQUIS, se récriant. Vous ne par
+            
+            SCÈNE XIII. 
+            
+            MARQUITTA, BATILDA. 
+            
+            tez plus avec moi ! oubliez-vous que je
+            
+            suis votre cavalier servant ? Est-ce là cet
+            
+            accueil si doux que vous m'aviez pro
+            
+            mis ? 
+            
+            BATILDA, avec colère. Je vous conseille
+            
+            MARQUITTA, l'appelant retenue par Ba
+            
+            de vous plaindre ! 
+            
+            tilda. Pippo… Pippo ! … mais viens
+            
+            LE MARQUIS. Certainement, 
+            
+            je me
+            
+            donc que je le dise…
+            
+            plaindrai ! 
+            
+            BATILDA. Un moment, un moment
+            
+            BATILDA, en colère. Après ce que vous
+            
+            encore ; ma bonne mére ! 
+            
+            avez fait ! 
+            
+            MARQUITTA. Non, non, pas une minute, 
+            
+            LE MARQUIS, étonné. Après ce que j'ai
+            
+            pas une seconde… Quand je te
+            
+            disais, 
+            
+            fait ? 
+            
+            que tu allais lui tourner la tête ? 
+            
+            BATILDA, furieuse. Et ce que vous avez
+            
+            BATILDA. C'est bien sans le vouloir, 
+            
+            dit ! 
+            
+            va… cours après lui tout de suite ; ra
+            
+            LE MARQUIS. J'ai dit quelque chose ? 
+            
+            mène-le moi, ne me nommes pas surtout, 
+            
+            ça m'étonne. 
+            
+            il ne voudrait pas te croire, et je te ré
+            
+            BATILDA. Je finirai seule mon voyage. 
+            
+            ponds de lui ! …
+            
+            Vous pouvez retourner à Rome. 
+            
+            MARQUITTA. Bien vrai, not' fille ? allons
+            
+            LE MARQUIS, se récriant. A Rome ! 
+            
+            je compte sur toi et sur notre curé, que
+            
+            je cours prévenir… un saint homme qui
+            
+            l'exoreisera, s'il le faut, de cet amour là. 
+            
+            (Elle sort.)
+            
+            000900290
+            
+            SCÈNE XIV. 
+            
+            LE MARQUIS, BATILDA. 
+            
+            BATILDA. Maudit Marquis ! 
+            
+            (1) Pippo, Batilda, Marquitta. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : De l'Écu de six francs. </stage>
+            
+                    <l part="I">Qu'ai-je dit ! qu'ai-je fait ?</l>
+            
+                    BATILDA, avec colére. 
+            
+                    <l part="F">Sans honte</l>
+                    <l>Ainsi peut-on se comporter !</l>
+                    <l>Après vos propos sur mon compte,</l>
+                    <l>Ici vous ne pouvez rester…</l>
+                    <l>À Rome, allez les répéter !</l>
+                    <l>Partez à l'instant, méchant homme ! …</l>
+            
+                    LE MARQUIS. 
+            
+                    <l>Mais dites-moi donc, s'il vous plaît.</l>
+                    <l>Ce que j'ai dit, ce que j'ai fait…</l>
+                    <l>Pour que je l'aille dire à Rome !</l>
+                </lg>
+            </div>
+            
+            
+            1
+            1
+            
+            LA PRIMA DO…
+            
+            11
+            
+            BATILDA. C'en est assez, monsieur, …
+            
+            tout est rompu. 
+            
+            LE MARQUIS, avec une tendresse comique. 
+            
+            Vous brisez mon coeur ! … mais enfin
+            
+            quelle mouche vous pique ? 
+            
+            BATİLDA, vivement. Vous avez
+            
+            l'au
+            
+            dace ? 
+            
+            LE MARQUIS, se reprenant. Non, non, 
+            
+            ce n'est pas une mouche… je voulais dire
+            
+            un caprice…
+            
+            BATILDA, se fachant plus fort. Un ca
+            
+            price ? …
+            
+            LE MARQUIS. Je me trompe encore…
+            
+            ce n'est pas un caprice… vous n'en avez
+            
+            jamais… c'est une… comment appelez
+            
+            vous ça ? une simple fantaisie. 
+            
+            BATILDA, plus irritée. Non, monsieur, 
+            
+            c'est une justice ! Un homme que j'ai dis
+            
+            tingué de tous ses rivaux ! …
+            
+            LE MARQUIS, avec une bonhomiecomique. 
+            
+            Ah ! c'est vrai ! … c'est vrai ! …
+            
+            BATILDA. Que je comblais d'égards, de
+            
+            procédés…
+            
+            
+            
+            Oui, Pippo doit ignorer à jamais que je
+            
+            suis cette signora Rosellini… mais ex
+            
+            cepté cela… je ferai tout pour qu'il cesse
+            
+            de m'aimer… ah ! le voici ! 
+            
+            PIPPO, arrivant tout essouflé. Ouf ! ja
+            
+            mais j'n ai couru si vite… pour revenir
+            
+            surtou ! …
+            
+            BATILDA, lui prenant la main. Pippo, je
+            
+            t'attendais, mon ami ! 
+            
+            PIPPO, soufflant. J'ai été longtemps ? 
+            
+            BATILDA. Dis-moi ! tu m'aim's, n'est-ce
+            
+            LE MARQUIS, l'approuvant. C'est très
+            
+            vrai ! très vrai ! 
+            
+            pas ? 
+            
+            BATILDA. Que je reçois toujours avec
+            
+            tant de bonté, de douceur ! 
+            
+            LE MARQUIS. Certainement…
+            
+            il est
+            
+            impossible d'etre plus douce ! …
+            
+            BATILDA, éclatant de nouveau, en frap
+            
+            pant du pied, et faisant sauter le marquis
+            
+            en arrière. Partez, monsieur, partez ; et
+            
+            que je n'entende plus parler de vous ! 
+            
+            LE MARQUIS, prenant son parti. Eh
+            
+            bien ! oui… je pars ! je romps ma chaîne ! 
+            
+            l'esclave redevient homme libre ! car il est
+            
+            sans exemple qu'un jeune homme de mon
+            
+            physique et demon moral, soit aussi épou
+            
+            vantablement balotté ; je vais de ce pas, 
+            
+            PIPPO. Oh ! oh ! elle le demande ! 
+            
+            BATILDA. Eh bien ! on croit ce qu'on
+            
+            aime ! 
+            
+            PIPPO. 
+            
+            J'te crois aussi…
+            
+            j'te crois
+            
+            aveuglement, je t'épouse ! …
+            
+            BATILDA, avec fermeté. Non cela est
+            
+            impossible ; (hésitant) car je crains, vois
+            
+            tu, que nous ne puissions pas nous conve
+            
+            nir…
+            
+            PIPPO. Ne crains pas ça… tu m'con
+            
+            viens ! 
+            
+            BATILDA. Depuis que nous ne nous
+            
+            sommes vus… nos goûts ne sont peut
+            
+            être pas les mêmes… j'aime les arts, la
+            
+            reprendre les habits de mon rang. 
+            
+            s'ils
+            
+            musique…
+            
+            sont secs. 
+            
+            et je reviendrai vous faire
+            
+            PIPPO. La musique ? la musique… ça
+            
+            éternellement més adieux ! … au re
+            
+            me convient ! 
+            
+            voir. 
+            
+            BATILDA, hésitant. Malgré ce costume
+            
+            (Il entre dans le cabinet à gauche.)
+            
+            que j'ai pris pour te plaire, je ne suis plus
+            
+            une paysanne. 
+            
+            cecono Gemoedoecuszecsecsemcees * 0008Poco
+            
+            PIPPO. Et ! qu'importe ! …
+            
+            si
+            
+            tu ne
+            
+            SCÈNE XY. 
+            
+            rougis pas de moi ! …
+            
+            BATILDA, vivement. Rougir de toi…
+            
+            la bonté…
+            
+            l'honnêtetémême… peux
+            
+            BATILDA, puis PIPPO. 
+            
+            tu le croire ! 
+            
+            BATILDA. Enfin m'en voilà délivrée ! 
+            
+            main. Ah ! voilà qui me convient ! 
+            
+            PIPPO, avec effusion, lui prenant la
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune" id="AIR : J'en rougis d'avance ! …">AIR : de M. Et. Thénard. </stage>
+            
+            
+                    <l>J'en rougis d'avance ! …</l>
+                    <l>Ce bruit qui m'offense,</l>
+                    <l>Ici sa présence</l>
+                    <l>Le confirmerait.</l>
+                    <l>Oser… quel outrage !</l>
+                    <l>Me peindre volage !</l>
+                    <l>De moi quelle image !</l>
+                    <l>Quel affreux portrait,</l>
+                    <l>La coquetterie,</l>
+                    <l>Quand on est jolie,</l>
+                    <l>Est en Italie,</l>
+                    <l>D'usage reçu…</l>
+                    <l>Toujours on prefére</l>
+                    <l>Mon humeur légere.</l>
+                    <l>Car le don de plaire,</l>
+                    <l>Je crois, m'est échu ;</l>
+                    <l>Mais comment a-t-on pu,</l>
+                    <l>Dire que je n'ai su,</l>
+                    <l>Demeurer inhumaine</l>
+                    <l>Et garder ma vertu…</l>
+                    <l>Moi, qui, je le sens là.</l>
+                    <l>Me suis donné déjà</l>
+                    <l>Tant de soirs, tant de peine</l>
+                    <l>Et de mal pour cela !</l>
+                </lg>
+            </div>
+            
+            
+            BATILDA. Mais je ne pourrais vivre
+            
+            dans cette retraite… il me faut du mon
+            
+            de… des plaisirs ! 
+            
+            PIPPO. Ça me convient toujours ! …
+            
+            Tel que tu m'vois, j'suis l'boute-en-train
+            
+            du village, on n'danse pas une tarentelle
+            
+            sans moi dans tout i'pays ! 
+            
+            BATILDA. Enfin, s'il faut tout te dire…
+            
+            je suis un peu légère… un peu coquette, 
+            
+            12
+            
+            LE MAGASIN THÉATRAL. 
+            
+            PIPPO. Tant mieux ! tant mieux ! ça me
+            
+            convient plus que tout le reste ! 
+            
+            BATILDA, surprise. Comment ? 
+            
+            PIPIO. Eh ! oui ! … j'ai tant de dé
+            
+            fauts ! … si tu n'en avais pas quelques
+            
+            uns de ton côté, je serais plus riche que
+            
+            LE MARQUIS, à part. Tiens, tiens que
+            
+            c'est drôle ! (Haut.) A quoi bon ? 
+            
+            BATILDA. Pour tomber à mes genoux, 
+            
+            et me remercier de ce que je veux bien
+            
+            vous accorder ma main. 
+            
+            toi. 
+            
+            PIPPO, faisant un mouvement et se rete
+            
+            BATILDA. 
+            
+            nant. Batilda ! 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Adieu, je vous fuis, bois charmans. </stage>
+            
+            
+                    <l>Quoi ! rien ne peut-il de ton cœur</l>
+                    <l>Ôter cet amour qui le guide…</l>
+            
+                    PIPPO, vivement. 
+            
+                    <l>Ah ! bien, oui, je n'en ai pas peur,</l>
+                    <l>Ça tient trop bien, c'est trop solide !</l>
+                    <l>T'as bien pu me rendre amoureux,</l>
+                    <l>Avec ton r'gard, et c'est dommage…</l>
+                    <l>Mais il te faudrait d'autres yeux.</l>
+                    <l>Pour défaire ici ton ouvrage !</l>
+                </lg>
+            </div>
+            
+            
+            LE MARQUIS, tombant à ses pieds. Ah ! 
+            
+            diva ! ne m'abusez pas. (Lui baisant la
+            
+            main.) La surprise ! la joie ! je suis dans
+            l'extase ! 
+            
+            BATILDA, à Pippo. Eh ! bien ! Pippo, 
+            
+            crois-tu encore qu'un marquis refuserait
+            de m'épouser ? 
+            
+            PIPPO, se contenant. Je ne crois plus
+            
+            qu'une chose, c'est que vous l'aimez…
+            
+            BATILDA, se récriant. Moi, l'aimer ! …
+            
+            BATILDA, d part. La ! ai-je du mal
+            
+            Ah ! ne me fais pas cette injure-là ! 
+            
+            bieur ! 
+            
+            LE MARQUIS, se relevant. Plait-il ! 
+            
+            PIPPO. Je t'aime bien plus qu'aupara
+            
+            PIPPO. Au fait. je ne lui vois rien pourça. 
+            
+            vant, car t'es un' bonne fille…
+            
+            tu m'as
+            
+            LE MARQUIS, fièrement. Villageois ! 
+            
+            tout dit… et tu n'as pas voulu me trom
+            
+            PIPPO. D'abord il est laid ! 
+            
+            per. 
+            
+            cooeeecoceocoe
+            
+            LE MARQUIS. Ah ! mais…
+            
+            PIPPO. Et quant à l'esprit, je lui déſie
+            
+            bien de le perdre ! 
+            
+            SCÈNE XVI. 
+            
+            LE MARQUIS, s'emportant. 
+            
+            Villageois, 
+            
+            LE MAROUIS, dans son costume, 
+            
+            BATILDA. Enfin, si j'épouse monsieur…
+            
+            je vous invite une dernière fois au silence. 
+            
+            BATIDLA, PIPPO. 
+            
+            c'est que je ne veux aimer personne. 
+            
+            LE MARQUIS. Recevez mes adieux, si
+            
+            gnora Rosellini. 
+            
+            BATILDA. (ciel ! 
+            
+            PIPPO. Comment ! 
+            
+            que
+            
+            dit-il ? 
+            
+            BATILDA, au marquis. Restez ! 
+            PIPPO. Ce nom ? 
+            
+            LE MARQUIS, ravi. Voilà qui est très
+            
+            rassurant… une femme qui n'aime per
+            
+            sonne, c'est fait pour moi. (A Batilda.)
+            
+            Ah ! quel dommage qu'il n'y ait pas là un
+            
+            notaire ! 
+            
+            BATILDA. Allez le chercher. 
+            
+            BATILDA, avec résolution. C'est le mien. 
+            
+            LE MARQUIS. J'y vole ! 
+            
+            (
+            
+            A part.) 0 ! 
+            
+            et je n'aurais jamais eu le courage de te
+            
+            capricieuse beauté, je te tiens enfin ! 
+            
+            l'apprendre, après tout ce que tu pensais
+            
+            de celle qui le portait. 
+            
+            ENSEMBLE. 
+            
+            PIPPO. Est-il possible ! quoi… tu…
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : du galop de la Tentation. (Arrangé par M. Ch. Tolbecque.)</stage>
+            
+                    <l>Ramenez nous le notaire,</l>
+                    <l>Je consens à cet hymen ;</l>
+                    <l>Puis que je vous suis si chère</l>
+                    <l>Je vous accorde ma main.</l>
+            
+                    LE MARQUIS. 
+            
+                    <l>Je cours chercher le notaire</l>
+                    <l>Pour être sûr de l'hymen !</l>
+            
+                    <l>Je te tiens, beauté trop fière,</l>
+                    <l>Et mon bonheur est certain !</l>
+            
+                    TATILDA, an marquis. 
+            
+                    <l>À votre gré l'on vous traite,</l>
+                    <l>Profitez-en promptement.</l>
+            
+                    LE MARQUIS, à part. 
+            
+                    <l>Oui, fixons la girouette,</l>
+                    <l>Avant que tourne le vent.</l>
+            
+            
+            
+                    <stage type="repetition">Reprise de l'ENSEMBLE. </stage>
+                </lg>
+            </div>
+            
+            
+            
+            
+            Vous seriez cette cantatrice. 
+            
+            
+            
+            BATILDA, à Pippo. Oui, cette canta
+            
+            
+            
+            trice… Avec une intention marquée. Cette
+            
+            
+            
+            folle, celte franche coquette, que M. le
+            
+            marquis n'aurait pas voulu épouser. 
+            
+            LE MARQUIS. Qui a pu tenir un pareil
+            
+            propos ? 
+            
+            
+            
+            BATILDA, à Pippo. Tu vas juger main
+            
+            tenant de la vérité. (A part) Allons, c'est
+            
+            (á part.)
+            
+            le moyen d'oter tout espoir à Pippo…
+            
+            d'ailleurs j'y étais presque décidée, et un
+            
+            peu plus lòt ou un peu plus tard…
+            
+            LE MARQUIS, à part. C'est fini, elle va
+            
+            me dire, allez vous-en… vous m'etes in
+            
+            supportable, vous m'excédez ! 
+            
+            BATILDA, vivement. Marquis ! 
+            
+            LE MARQUIS, étourdi. Hein ! 
+            
+            
+            
+            BATILDA, vivement. Approchez, ap
+            
+            
+            
+            prochez ! 
+            
+            (Lc Marquis sort.)
+            
+            LA PRIMA DONNA. 
+            
+            13
+            
+            299
+            
+            ecceco390000000000
+            
+            PIPPO. 
+            
+            SCÈNE XVII. 
+            
+            BATILDA, PIPPO. 
+            
+            
+            
+            PIPPO, sortant tout à coup de ses ré
+            
+            BATILDA. J'espère vaincre ton obstina
+            
+            flexions. Batilda, vous l'épousez ? 
+            
+            tion ; ta future est arrivée. 
+            
+            BATILDA. Je le dois ! 
+            
+            PIPPO, avec une douleur concentrée. Oui ! 
+            
+            PIPPO, avec énergie. Ainsi votre retour, 
+            
+            elle est arrivée ! …
+            
+            votre amour, mon bonheur, tout a passé
+            
+            comme un rêve ? 
+            
+            BATILDA. Songe que tu vas l'épouser. 
+            
+            PIPPO, vivement. Non ; je serai soldat du
+            
+            BATILDA. Pippo ! mon amitié ne passera
+            
+            pape ! 
+            
+            jamais. 
+            
+            BATILDA. Que veux-tu dire ? explique
+            
+            PIPPO. Votre amitié, qu'est-ce que ça
+            
+            toi…
+            
+            auprès de l'autre ! 
+            
+            BATILDA. Je ne peux pas être ta femme ! 
+            
+            PIPPO, vivement. Pourquoi donc es-tu
+            
+            venue ici, pourquoi me tenter, m'ensorce
+            
+            ler, que t'ai-je fait pour me traiter ainsi ? …
+            
+            est-ce pour me punir d'avoir toujours
+            
+            pensé à toi ? 
+            
+            BATILDA. Si j'avais cru…, 
+            
+            PIPPO, plus vivement. Si tu avais cru ! …
+            
+            tu oseras me soutenir que tu ne savais pas
+            
+            tout ce que tu pouvais ! Tu ne savais pas
+            
+            que tu étais jolie ! On ne te l'a
+            
+            pas dit cent
+            
+            fois, n'est-ce pas ? 
+            
+            BATILDA. Il m'est impossible de renon
+            
+            cer à l'éclat… au monde ! Je veux un
+            
+            titre… un rang. 
+            
+            J'ai de l'ambition ! 
+            
+            PIPPO. Ah ! je vous entends : j'aurais été
+            
+            déplacé dans l'monde ? mais parce que
+            
+            j' n'ai pas r'çu d'éducation, crois-tu donc
+            
+            que j' sois un imbécile… incapable de
+            
+            rien apprendre ? Mes bras sont devenus
+            
+            forts en les exerçant, mon esprit se s'rait
+            
+            développé en le cultivant ! 
+            
+            BATILDA. Que dis tu ? 
+            
+            PIPPO. Que pour toi, pour ne pas te di
+            
+            parer en paraissant à tes côtés, j'aurais élu
+            
+            900 90902
+            
+            SCÈNE XVIII. 
+            
+            MARQUITTA, 
+            
+            accourant, 
+            
+            BATILDA, 
+            
+            PIPPO. 
+            
+            MARQUITTA. Ah ! Jésus Maria, quel af
+            
+            freux inalheur ! 
+            
+            BATILDA. Qu'y a-t-il ? 
+            
+            MARQUITTA. Je n'ai plus de fils ! 
+            
+            BATILDA. Ciel ! 
+            
+. 
+            
+            MARQUITTA. Demain, il sera soldat ! 
+            
+            BATILDA. Achève ! 
+            
+            MARQUITTA. Tantot, pendant que j'étais
+            
+            chez le curé, il a couru tout rompre avec
+            
+            la future, et comme elle en aimait un an
+            
+            tre, ça n'a pas été long… me quitter…
+            
+            à mon âge… j'en mourrai ! 
+            
+            BATILDA, avec entrainement. Non, ma
+            
+            bonne mère, ton fils te restera ! …
+            
+            MARQUITTA. Mais puisqu'il n'a plus de
+            
+            femme ! 
+            
+            dié jour et nuit ! je sais
+            
+            déjà
+            
+            lire… eh ! 
+            
+            BATILDA. Pippo ! 
+            
+            bien, j'aurais appris, tout… tout… j'ar
+            
+            Mlere air. 
+            
+            rais voulu te dire que je l'aimais dans
+            
+            
+            
+            toutes les langues ! et ce n'est pas l'idée, 
+            
+            
+            
+            ni l' feu, ni l'ame, qui m' manque ! …
+            
+            car, dans ce moment, je ne peux pas m'ar
+            
+            rêter… et je défie qu'on puisse te dire
+            
+            mieux que moi… je t'aime…
+            
+            je t'a
+            
+            dore… je…
+            
+            si je pouvais te le dire
+            
+            comme je le sens ! 
+            
+            BATILDA. Mon ami, des sentimens si
+            
+            touchans et si vrais me transportent…
+            
+            Pippo, sois mon frère ! 
+            
+            PIPPO. Votre frère ! 
+            
+            
+            
+            BATILDA. 
+            
+            MARQUITTA. Ma fille ! 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Ce titre de soldat m'honore. </stage>
+            
+            
+                    <l>Prends la moitié de mes richesses,</l>
+                    <l>Je veux partager comme sœur !</l>
+            
+                    <l>Quoi ! vous croyez que vos largesses,</l>
+                    <l>Pourraient me ramener le bonheur ;</l>
+                    <l>L'amour seul remplissait mon âme,</l>
+                    <l>De tous vos biens loin d'êtr' jaloux,</l>
+                    <l>Je n'voulais que vot' cœur madame :</l>
+                    <l>Je n'peux plus rien recevoir de vous !</l>
+            
+                    <l>Voici ma main… oui, je te l'abandonne :</l>
+                    (Pipporeste étonne.)
+            
+                    <l>Mais pourquoi donc balances-tu ?</l>
+            
+                    PIPIO. 
+            
+                    <l>Par pitié ce que l'on me donne,</l>
+                    <l>De moi doit-il être reçu ?</l>
+            
+                    BATILDA, avec tendresse et reproche. 
+            
+                    <l>Pippo, tout à l'heure avec âme,</l>
+                    <l>Vous ne disiez ces mots si doux :</l>
+                    <l>« Je n'voulais qu' vot' cœur madame ! »</l>
+                    <l>Eh ! bien, ce cœur là s'offre à vous.</l>
+                    <l>Répondez moi, le voulez-vous ?</l>
+                </lg>
+            </div>
+            
+            
+            PIPPO, se jetant d ses genoux. Ma femme ! 
+            
+            14
+            
+            LE MAGASIN TAÉATRAL. 
+            
+            @ 992060
+            
+            PIPPO. Ainsi soit-il ! et vous baptiserez
+            
+            notre premier ? 
+            
+            SCÈNE XIX. 
+            
+            MARQUITTA, LE MARQUIS, BATILDA, 
+            
+            MARQUITTA ET RATILDA, à Pippo. 
+            
+            ENSEMBLE. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : du Galop de la Tentation. (Arrangé par Ch. Tolbecque.)</stage>
+            
+            
+                    PIPPO, toujours à genoux, UN NO
+            
+            
+            
+                    TAIRE, au fond. 
+            
+                    <l>Oui pour prix de ta constance,</l>
+                    <l>Notre <del hand="TK" type="alternative" reason="analysis">Votre </del> hymen va réunir,</l>
+                    <l>Le bonheur de l'espérance,</l>
+                    <l>Au bonheur du souvenir !</l>
+            
+                    <l>Quel avenir quand j'y pense,</l>
+                    <l>Notre hymen va réunir</l>
+                    <l>Le bonheur de l'espérance.</l>
+                    <l>Au bonheur du souvenir !</l>
+            
+                    LE MARQUIS. 
+            
+                    <l>La coiffure d'éminence</l>
+                    <l>M'ira je crois à ravir ;</l>
+                    <l>L'hymen n'aurait pu, je pense,</l>
+                    <l>Aussi bien me la choisir.</l>
+                </lg>
+            </div>
+            
+            
+            LE MARQUIS. Voici le notaire ! (aperce
+            
+            
+            
+            vant Pippo.) Que vois-je ? c'est lui a pré
+            
+            
+            sent ? 
+            
+            ! 
+            
+            BATILDA, montrant Pippo. Oui, c'est
+            
+            PIPPO. 
+            
+            mon mari ! 
+            
+            LE MARQUIS. Quoi ! ce rustre ? 
+            
+            BATILDA. Pardonnez-moi, marquis, la
+            
+            peine que je vous ai donnée… Je vous
+            
+            épousais parce que je ne voulais aimer
+            
+            personne ; je prends Pippo pour mari parce
+            
+            que je l'aime ! (1) .
+            
+            LE MARQUIS. Ah ! vous le prenez comme
+            
+            ca ! … Du tout ! ça ne se passera pas ainsi ! …
+            
+            PIPPO, froidement au marquis. Comme
+            
+            vous voudrez ! …
+            
+            LE MARQUIS. Je ne veux rien, villageois ! 
+            
+            (Regardant Batilda.) Je renonce à l'état
+            
+            de cavalier servant, que j'ai fait au reste
+            
+            jusqu'au bout, puisque j'ai servi à vous
+            
+            amener le notaire… Dès que mon saint
+            
+            oncle sera mort, je me ferai cardinal. 
+            
+            
+            
+            BATILDA, au public, 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR de l'Angélus. </stage>
+            
+            
+                    <l>Dans cette vie à chaque instant,</l>
+                    <l>Au bonheur tout le monde vise,</l>
+                    <l>Mais soumis au sort inconstant,</l>
+                    <l>Qui tour à tour nous favorise,</l>
+                    <l>Chacun a son moment de crise ;</l>
+                    <l>De nos auteurs qu'on va juger,</l>
+                    <l>Messieurs, voici l'heure qui sonne.</l>
+                    <l>Ah ! de grâce, daignez songer,</l>
+                    <l>Qu'à tous ceux qui sont en danger,</l>
+                    <l>C'est toujours la main que l'on donne.</l>
+            
+                    (1) Lc Marquis, Batilda, Pippo, Marquitta. 
+            
+            
+                    <stage type="repetition">(Reprise de l'Ensemble.)</stage>
+                </lg>
+            </div>
+            
+            
+            
+            FIN. 
+            
+            Imprimerie de Madame DE LACOMBE, faubourg Poissonnière, 1. 
+            
+            1
+            
+            Österreichische Nationalbibliothek
+            
+            +Z196852309
+        </body>
+    </text>
+</TEI>

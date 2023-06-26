@@ -1,0 +1,4060 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LES DEUX MOUSSES</title>
+                <title type="sub">DRAME EN TROIS TABLEAUX, MÊLÉ DE CHANT, DANSE, ET À GRAND SPECTACLE</title>
+                <author key="ALH" sort="1">
+                    <name>
+                        <forename>Maurice</forename>
+                        <surname>Alhoy</surname>
+                        <addname type="pen_name">De Pontchartrain</addname>
+                    </name>
+                </author>
+                <author key="GOM" sort="2">
+                    <name>
+                        <forename>Paul-Auguste</forename>
+                        <surname>Gombault</surname>
+                        <addname type="pen_name">Paulin</addname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                     <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LES DEUX MOUSSES</title>
+                        <author>DE PONTCHARTRAIN ET PAULIN</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.bj/books?id=HkNAAAAAYAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>New York Public Library</repository>
+                                <idno type="URL">https://hdl.handle.net/2027/nyp.33433082290499</idno>
+                            </monogr>
+                        </biblStruct>                 
+                    </sourceDesc>
+                </biblFull> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1830-05-22">22 MAI 1830</date>
+                <placeName>
+                    <settlement>THÉÂTRE DES JEUNES ACTEURS DE M.COMTE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce ficher .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+               <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui – ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            NYPL RESEARCH LIBRARIES
+            
+            3 3433 08229049
+            
+            9
+            
+            1
+            
+            1
+            
+            NASH
+            
+            Comte
+            
+            | l v
+            
+            9, 
+            
+            b
+            
+            v o l
+            
+. 
+            
+            RÉPERTOIRE
+            
+            DRAMATIQUE
+            
+            DE L'ENFANCE. 
+            
+            IMPRIMERIE DE GUIRAUDET, 
+            
+            RUE SAINT – HONORÉ, Nº 315. 
+            
+            RÉPERTOIRE
+            
+            DRAMATIQUE
+            
+            ET
+            
+            DE L'ENFANCE. 
+            
+            THÉATRE DE M. COMTE. 
+            
+            TOME VI. 
+            
+            j
+            
+            ! 
+            
+            I
+            
+            9
+            
+            BREAUTÉ, LIBRAIRE
+            
+            PARIS, 
+            
+            – ÉDITEUR
+            
+, 
+            
+            PASSAGB CHOISBUL, por 60 BT 62, 
+            
+            VIS – A – VIS LE THÉATRE. 
+            
+            1830. 
+            a h o d
+            
+            THE NEW YORK
+            
+            PUBLIC LITARY
+            
+            264031
+            
+            ASTOR, LEOX AND
+            
+            TILDEN FOUNDATIONS
+            
+            1944
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LES
+            
+            DEUX MOUSSES, 
+            
+            DRAME
+            
+            EN TROIS TABLEAUX, 
+            
+            MÊLÉ DE CHANT, DANSE, ET A GRAND SPECTACLE, 
+            
+            PAR
+            
+            MM. DE PONTCHARTRAÎN ET PAULIN ; 
+            
+            MIS EN SCÈNE PAR M. ARMAND DOMERGUE. 
+            
+            Représenté
+            
+            pour la première fois sur le théâtre des jeunes Acteurs
+            
+            de M. Comte, en mai 1830. 
+            
+            alcohol
+            
+            1. 
+            
+            Jurzuile
+            
+            det
+            
+            erant me
+            
+            1. Dora a
+            
+            1
+            
+            unch
+            
+            PERSONNAGES. 
+            
+            ANTONIO, 
+            
+            ROGER, 
+            
+            }
+            
+            mousses d'un brick. 
+            
+            Le LIEUTENANT DU BÂTIMENT. 
+            
+            Le CAPITAINE D'ARMES (grade de sergent) .
+            
+            TONY, matelot… 
+            
+            LANGUILLE, garçou batelier. 
+            
+            Un COMPAGNON MAÇON. 
+            
+            BERTAE, mère d'Antonio. 
+            
+            LOUISE, seur d'Antonio. 
+            
+            Une MARCHANDE DE SARDINES. 
+            
+            Un AUBERGISTB, personnage muet. 
+            
+            MARINS, PAYSANS, VILLAGEOIs, etc. 
+            
+            PASSAGERS, OUVRIERS. 
+            
+            Le fºr et le 3e tableau se passent sur la rive droite de la
+            
+            Charente, près Rochefort. 
+            
+            Le 2 ° tableau se passe à l'ile d'Air
+            
+            LES
+            
+            DEUX MOUSSE S. 
+            
+            PREMIER TABLEAU. 
+            
+            Le théâtre représente une vue prise non loin du port de Roche
+            
+            fort. La mer est au fond. Sur la droite du spectateur se trouve
+            
+            placée une auberge, ayant pour enseigue : Au Rendez – Vous de
+            
+            la Marine, SURET, marchand de vin, aubergiste. 
+            
+            SCÈNE PREMIÈRE. 
+            
+            Au lever du rideau, Languille, des compagnons maçons avec
+            
+' leurs outils, une marchande de sardines avec son panier, 
+            
+            sortant du bateau que Languille attache au rivage. 
+            
+            
+            
+            
+            LANGUILLE, Les OUVRIERS, LA MARCHANDE. 
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Verre en main. 
+                </stage>
+            
+            
+                
+                    <l>Nous avons atteint l' rivage.</l>
+                    <l>On donn' sans s' plaindr' son argent,</l>
+                
+                152
+                
+                    <l>Mes amis, quand on voyage</l>
+                    <l>Si vit', si gaîment.</l>
+                
+            
+                
+                    LANGUILLE. 
+                
+            
+                
+                    <l>J' dis, sans vanité,</l>
+                    <l>Que j' suis un passeur habile ;</l>
+                    <l>Quand mon canot file,</l>
+                    <l>Faut voir sa légèr'té.</l>
+                
+            
+            
+                
+                    (Frappant sur le dos d'un des maçons.)
+                
+            
+            
+                
+                    <l>J' crois êtr', dans ma barque,</l>
+                    <l>Neptun' qui débarque</l>
+                    <l>Son frère Apollon,</l>
+                    <l>Redev'nu maçon.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            J'espère que nous avons fait rapidement la tra
+            
+            versée de l'île d'Aix. 
+            
+            UN COMPAGNON. 
+            
+            Oh ! ca filait comme à la vapeur…
+            
+            LA MARCHANDE. 
+            
+            La sardine n'a pas eu le temps de se gáter en
+            
+            route. 
+            
+            LANGUILLE. 
+            
+            Paie donc, toi, La Rose. 
+            
+            LE COMPAGNON. 
+            
+            Eh ben ! est – ce que tu ne régales pas ? …
+            
+            La
+            
+            pous
+            
+            sière du plåtre ça rend la gorge sèche. 
+            
+            SCENE I. 
+            
+            157
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    LANGUILLE. 
+                
+            
+            
+                
+                    Farceur ! farceur ! faut toujours t'rafraichir, toi. (Il appelle.) Père Suret ! père Suret ! la goutte. 
+                
+            
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Je loge au quatrième étage. 
+                </stage>
+            
+            
+               
+                    <l>Je consens à payer bouteille.</l>
+                   <l>Allons, amis, un p'tit coup d' vieux !</l>
+                    <l>Le vin d' Saintong', qui fait merveille,</l>
+                    <l>Rend l' batelier plus vigoureux</l>
+                    <l>Et le maçon moins paresseux.</l>
+                    <l>Je port' pendant l'année entière</l>
+                    <l>Tous mes profits au pèr' Suret ;</l>
+                    <l>J' gagn' mes pourboir's dans la rivière,</l>
+                    <l>Et j' les dépense au cabaret.</l>
+                
+            
+            
+                
+                    (L'aubergiste verse à boire.)
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            UN COMPAGNON. 
+            
+            
+            Gâchez serré, père Suret, c'est pour des vieux. 
+            
+            (Buvant.) Passez au tamis. 
+            
+            LANGUILLE, trinquant avec la marchande. 
+            A la vôtre, la Rochelloise ! à la vente du
+            
+            panier ! 
+            
+            LA MARCHANDE. 
+            
+            A la pratique de l'aimable passeur ! 
+            
+            LANGUILLE. 
+            
+            Eh bien, soit : à la santé de l'aimable et du joli
+            
+            passeur ! Le joli passeur passe, et vous, gentille
+            
+            passagère, vous ne passerez pas… En v'là un, et
+            
+            14
+            
+            158
+            
+            LES DEUX MOUSSES. 
+            
+            un fameux… Je lui ai dit : Le passeur passe, et
+            
+            vous ne passerez pas… Il est soigné. 
+            
+            LE COMPAGNON, en buvant. 
+            
+            Dis donc, Languille, en v'là un qui cherche à
+            
+            te faire du tort. 
+            
+            Il montre son verre. 
+            
+            LANGUILLE. 
+            
+            Parce qu'il passe aussi… T'es trop méchant, 
+            
+            toi…
+            
+            TOUS. 
+            
+            Allons, en route. A ce soir, Languille. 
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    REPRISE DU CHŒUR. 
+                 <stage type="tune" id="AIR : Verre en main."></stage>
+            
+                <l ana="unanalyzable">Nous avons atteint l' rivage, etc.</l>
+            </lg> </div>
+            
+            
+            (Ils sortent tous à droite et à gauche.)
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    LANGUILLE. 
+                
+            
+            
+                
+                    La journée commence bien, ma foi. Viv' la
+            
+                    marine de passage ! … ça vous mène moins loin…
+            
+                    J'aurais pu faire comme les fils de la mère Berthe, 
+            
+                    Antonio, et Roger, qui s' sont embarqués au service
+            
+                    du roi… Chacun son goût ; moi, j'aim' pas les
+            
+                    voyages ous qu'on n' trouve pas des auberges en route. 
+                
+            
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : L'établi reste garçon (de la Mauvaise langue du village).
+                </stage>
+            
+            
+                
+                    <l>D' l'ambition faut se défier.</l>
+                    <l>Quand elle vient et qu'ell' m' tourmente,</l>
+                    <l>J' lui dis : Ma vieill', rien ne m' tente ;</l>
+                    <l>Je suis né batelier,</l>
+                    <l>J' veux mourir batelier.</l>
+                    <l>C'est un joli métier,</l>
+                    <l>C'est un charmant métier ;</l>
+                    <l>L' joli métier</l>
+                    <l>Que l' métier</l>
+                    <l>D'batelier !</l>
+                    <l>J'aurais pu partager la gloire</l>
+                    <l>De nos intrépid's matelots,</l>
+                    <l>Et, pour vivre un peu dans l'histoire,</l>
+                    <l>M' fair' tuer en affrontant les flots.</l>
+                    <l>De quelque grosse aubaine</l>
+                    <l>J'aurais pu prendr' ma part,</l>
+                    <l>Et sous mon bonnet d' laine</l>
+                    <l>Gn'avait pt'–être un Jean–Bart.</l>
+                
+            
+          
+            
+            
+            
+            V'là le beau côté, mais les boulets de canon, 
+            
+            v'là, 
+            
+            le contrepoids ; et puis les naufrages, les requins, 
+            
+            les anthropophages, qui vous mangent des sapeurs
+            
+            et des tambours – majors comme des cornichons. Rien
+            
+            que d'y penser ça vous glace le sang. 
+            
+            160
+            
+            
+            
+            <l ana="unanalyzable"> D' l'ambition faut se défier, etc.</l>
+            
+            </lg></div>
+            
+            Eh ! j'aperçois un bâtiment. C'est un brick. Son
+            
+            canot a pris le devant ; il débarque. 
+            
+            SCENE III. 
+            
+            LANGUILLE, TONY. 
+            
+            TONY. 
+            
+            Il débarque, et dit aus matelots qui restent dans le canot : 
+            
+            Amarrez sur la droite, à quelques pas. Moi, 
+            
+            j'vais à gauche retenir un gîte pour le comman
+            
+            dant. 
+            
+            Il marche avec difficulté. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    LANGUILLE. 
+                
+            
+            
+                
+                    Eh ! mais je ne me trompe pas…
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Ma Louison, prends un housard. 
+                </stage>
+            
+            
+              
+            
+                    <l>Je r'connais cette figure.</l>
+            
+                    
+                        TONY, à l'équipage. 
+                    
+            
+                    <l>Qu'est–c' qui va m' donner le bras ?</l>
+                    <l>À terr' ma march' n'est pas sûre,</l>
+                    <l>Je crains d' me, jeter à bas.</l>
+                
+                SCENE III. 161
+            
+                    
+                        LANGUILLE. 
+                    
+            
+                    <l>C'te têt' n' m'est pas étrangère ;</l>
+                    <l part="I">J' l'ai vu' queuqu' part.</l>
+            
+                    
+                        TONY. 
+                    
+            
+                    <l part="F"> Qui crois' là ?</l>
+                    <l>Est–ce un corsaire ?</l>
+                    <l>Ou bien un frère ?</l>
+            
+            
+                    
+                        (Le reconnaissant.)
+                    
+            
+            
+                    <l>Comment, Languille, te voilà !</l>
+            
+                    
+                        LANGUILLE
+                    
+                    
+, sautant, 
+                    
+            
+            
+                    <l>C'est Tony !</l>
+                    <l>Oui, c'est lui !</l>
+            
+                    
+                        TONY. 
+                    
+            
+                    <l part="I"> C'est Languille !</l>
+            
+                    
+                        LANGUILLE. 
+                    
+            
+                    <l part="F"> C'est Tony !</l>
+            
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            TONY. 
+            
+            Eh bien ! reste donc là… soutiens – moi…
+            
+. 
+            
+            LANGUILLE, imitant l'homme
+            
+            re. 
+            
+            Est – ce que tu as déjà un p'tit coup d' tribord ? 
+            
+            TONY. 
+            
+            Pas encore… mais je ne peux pas me tenir sur
+            
+            votre diable d'élément. 
+            
+            T'as encore le mal de mer. 
+            
+            LANGUILLE. 
+            
+            TONY. 
+            
+            Non, parbleu, c'est le mal de terre. Aussitôt que
+            
+            14. 
+            
+            162
+            
+            LES DEUX MOUSSES. 
+            
+            j'arrive, j'sens que j' m'en vas… Le pied me man
+            
+            quelà – dessus ; c'est pas assez solide. Parle – moi du
+            
+            tillac d'une gabarre ou de l'entrepont d'une fré
+            
+            gate ; là, je suis cloué. Mais le plancher desmou
+            
+            tons, il me semble toujours que la baleine est là
+            
+            qui donne un coup
+            
+            de
+            
+            queue. 
+            
+            Il tombe par terre et s'assied. 
+            
+            LANGUILLE. 
+            
+            Eh ben ! v'là qu' tu prends terre. Diable de
+            
+            Tony, va ! Et d'où arrives – tu comme ça ? 
+            
+            TONY. 
+            
+            D'où ? Eh ! parbleu, du Nouveau – Monde…
+            
+            LANGUILLE. 
+            
+            Je ne connais que l'ancien, moi. Et nos deux
+            
+            pays, qui sont à bord, en viennent – ils aussi ? 
+            
+            TONY. 
+            
+            Antonio et Roger ? certainement… Ils sont tou
+            
+            jours là, bons marins, fermes au poste. Ça court
+            
+            sur les vergues comme les écureuils dans les
+            
+            chênes. 
+            
+            LANGUILLE. 
+            
+            Dis donc pas d' bêtise. 
+            
+            TONY. 
+            
+            Hein ! 
+            
+            SCENE III. 
+            
+            163
+            
+            LANGUILLE. 
+            
+            Je te dis : Ne dis donc pas de bêtise… Les écu
+            
+            reuils, c'est dans les zhêtres que ça mancuvre. 
+            
+            TONY. 
+            
+            Est – ce que j'sais… Va pour les zhêtres. 
+            
+            LANGUILLE. 
+            
+            Les zhêtres, c'est des arbustes avec lesquels on
+            
+            fait des mâts. 
+            
+            TONY. 
+            
+            On fait des mâts… N' dis donc pas d' bêtise. 
+            
+            LANGUILLE. 
+            
+            Oui, on fait des mâts. 
+            
+            TONY. 
+            
+            Lesquels mâts qu'on fait ?, 
+            
+            LANGUILLE. 
+            
+            Des mâts d' Cocagne. Tu y es, farceur. 
+            
+            On entend up signal avec un porte – voix. 
+            
+            TONY, 
+            
+            tâchant de se lever. 
+            
+            Oh ! vlà l' signal ; le commandant débarque. Et
+            
+            moi qui devais lui chercher un logement pour
+            
+            quelques heures. 
+            
+            LANGUILLE. 
+            
+            Est – ce que
+            
+            v'là pas l'auberge du père Suret ? … 
+            
+            Il y a de fameux vin là… L'officier sera comme le
+            
+            poisson dans l'eau. 
+            
+            164
+            
+            LES DEUX MOUSSES. 
+            
+            TONY. 
+            
+            Soutiens – moi donc, Languille ; cale – moi, que
+            
+            j'aille tout préparer. 
+            
+            On entend le tambour. Tony, appuyé sur le bras de Languille, 
+            
+            enlre au cabaret, quand le lieutenant et quelques matelols, 
+            
+            parmi lesquels sont Antonio et Roger, paraissent. 
+            
+            SCENE IV. 
+            
+            LE LIEUTENANT, ANTONIO, ROGER, 
+            
+            LA Troupe. 
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    LE LIEUTENANT. 
+                
+            
+            
+                
+                    Nous resterons à terre jusqu'à la troisième marée. Que l'ordre le plus sévère soit observé
+            
+                    partout. Rappelez – vous que, si le courage est la première vertu du soldat, le respect dû
+            
+                    aux propriétés de ceux qui nous accueillent est le premier de voir du marin. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : C'est bien ici l'instant de commenter. 
+                </stage>
+            
+           
+                    <l>N'imitez pas les coupables excès</l>
+                    <l>De ces soldats au devoir insensibles,</l>
+                    <l>Qui troublent au sein de la paix</l>
+                    <l>Le laboureur et l'artisan paisibles,</l>
+                
+                SCENE IV. 165
+                
+                
+                    <l>À l'ordre il faut se rallier.</l>
+                    <l>De l'honneur le noble diplôme</l>
+                    <l>Porte que toujours le guerrier</l>
+                    <l>Doit protéger, à l'ombre du laurier,</l>
+                    <l>Celui qui s'endort sous le chaume <stage type="repetition"> (bis) .</stage></l>
+                    
+                
+            </lg> </div>
+            
+            
+            
+            Antonio et Roger, sortez des rangs. 
+            
+            ANTONIO et ROGER. 
+            
+            Présent. 
+            
+            LE LIEUTENANT. 
+            
+            A la dernière affaire, sur les côtes barbaresques, 
+            
+            une action glorieuse ſut faite par un mousse placé
+            
+            à l'arrière du bâtiment ; la nuit empêcha d'en con
+            
+            naitre l'auteur. Tous les deux seuls vous étiez au
+            
+            poste, et vous devez savoir lequel mérite la louan
+            
+            ge. Répondez. 
+            
+            C'est Roger. 
+            
+            ANTONIO. 
+            
+            ROGER
+            
+            C'est Antonio. 
+            
+            
+            
+            <div type="poem"> <lg>
+                <stage type="tune">
+                    AIR : De ma Céline, amant modeste. 
+                </stage>
+            
+                
+                    LE LIEUTENANT. 
+                
+            
+                
+                    <l>Lequel s'illustra davantage ?</l>
+            
+                    
+                        ANTONIO. 
+                    
+            
+                    <l part="I"> C'est Roger.</l>
+            
+                    
+                        ROGER. 
+                    
+            
+                    <l part="F"> C'est Antonio.</l>
+                
+                166 LES DEUX MOUSSES. 
+            
+                    
+                        LE LIEUTENANT. 
+                    
+            
+                    <l>Qui montra le plus grand courage ?</l>
+            
+                    
+                        ANTONIO. 
+                    
+            
+                    <l part="I">C'est Roger.</l>
+            
+                    
+                        ROGER. 
+                    
+            
+                    <l part="F"> C'est Antonio.</l>
+            
+                    
+                        LE LIEUTENANT. 
+                    
+            
+                    <l>Lequel reçut une blessure</l>
+                    <l>Pour me préserver du danger ? …</l>
+            
+                    
+                        ROGER. 
+                    
+            
+                    <l>C'est Antonio, je vous jure.</l>
+            
+                    
+                        ANTONIO. 
+                    
+            
+                    <l>Non, mon commandant, c'est Roger.</l>
+                
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LE LIEUTENANT. 
+            
+            Antonio et Roger, je ne chercherai point davan
+            
+            tage à connaitre la vérité. Ce combat de générosité
+            
+            vous honore tous les deux. Vous voulez partager
+            
+            l'honneur d'une noble action, vous partagerez aussi
+            
+            la récompense. Vos deux noms seront transmis au
+            
+            ministre avec une mention glorieuse. 
+            
+            Il se fait un roulement. Le commandant, que Tony vient cher
+            
+            cher, entre daus l'auberge. Les matelots se dispersent peu à
+            
+            peu, 
+            
+            SCENE V. 
+            
+            1
+            6
+            7
+            
+            SCENE V. 
+            
+            ANTONIO, ROGER. 
+            
+            ANTONIO. 
+            
+            Je ne suis pas content… je t'en veux. 
+            
+            Le motif ? 
+            
+            ROGER. 
+            
+            ANTONIO. 
+            
+            1
+            
+            Ton nom seul devait être cité dans le rapport du
+            
+            commandant ; toi seul as fait le trait de courage. 
+            
+            ROGER. 
+            
+            Deux jours avant cette attaque, ne m'avais – tu
+            
+            pas laissé l'honneur d'un trait de hardiesse que toi
+            
+            seul avais fait. Qui de nous deux, s'attachant au
+            
+            pavillon ennemi, était tombé avec lui, l'avait rap
+            
+            porté à bord ? C'était toi, et ce fut toi encore qui
+            
+            le portas au commandant, en affirmant qu'il avait
+            
+            été pris par moi… Tu vois que nous sommes au
+            
+            moins quittes l'un envers l'autre ; et d'ailleurs, 
+            
+            quand tu t'es enrôlé pour alléger le sort de ta pau
+            
+            vre mère, et que mon père, pour me punir de
+            
+            quelques étourderies, m'a mis à bord, nous avons
+            
+            juré de mettre tout en partage. Te souviens – tu, 
+            
+            168
+            
+            LES DEUX MOUSSES. 
+            
+            Antonio, du commencement de notre carrière ? 
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    ANTONIO. 
+                
+            
+                
+                    Ah ! si je m'en souviens. 
+                
+            
+            
+            
+                <stage type="tune">
+                    Air de l'Écu de six francs. 
+                </stage>
+            
+            
+             
+                    <l>Je m'en souviens : quittant ma mère,</l>
+                    <l>L'embrassant pour la consoler,</l>
+                    <l>Je r'joins l'équipag' qu'est à terre ;</l>
+                    <l>L' capitaine veut bien m'enrôler <stage type="repetition"> (bis) .</stage></l>
+                    <l>Dans mon cœur j' sens un' noble s'cousse.</l>
+                    <l>L' commandant, qui m' trouv' l'air martial,</l>
+                    <l>M' dit qu' j'avais une têt' d'amiral, <stage type="repetition">}bis. </stage></l>
+                    <l>Et sur–le–champ il me fit mousse.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            Ma
+            
+            pauvre mère ! … elle est là, Roger (montrant
+            
+            l'autre côté du fleuve) , à l'ile d'Aix. 
+            
+            ROGER. 
+            
+            Mon vieux père aussi ! 
+            
+            ANTONIO. 
+            
+            Venir si près d'eux et ne pas les embrasser. 
+            
+            ROGER. 
+            
+            Repartir, et peut – être ne les plus voir jamais…
+            
+            Le lieutenant permettrait peut – être à l'un de nous
+            
+            deux. 
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ANTONIO. 
+                
+            
+            
+                
+                    Il est si sévère… Ma mère ! comme je l'embrasserais ! 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air : Elle a trahi (de la Somnambule).
+                </stage>
+            
+            
+             
+                    <l>Il n'est pas loin ce séjour de plaisir,</l>
+                    <l>Heureux témoin des jeux de notre enfance !</l>
+                    <l>Si mon regard ne peut le découvrir,</l>
+                    <l>D'ici mon cœur devine sa présence.</l>
+                    <l>Écho, tu peux jusque là parvenir ;</l>
+                    <l>Porte à ma mère un tendre souvenir !</l>
+                
+            
+                
+                    ENSEMBLE. 
+                
+            
+               
+                    <l>Écho, tu peux jusque là parvenir ;</l>
+                    <l>Porte à ma <del hand="LN" type="alternative" reason="analysis">sa</del> mère un tendre souvenir !</l>
+            
+                
+            
+                
+                    ROGER. 
+                
+            
+              
+                    <l>La vague s'enfle, et sous les coups du vent</l>
+                    <l>Va se briser sur la rive où mon père,</l>
+                    <l>Pensant à moi, vient à chaque moment,</l>
+                    <l>Et tour à tour pleure, soupire, espère.</l>
+                    <l>Écho, tu peux jusque là parvenir ;</l>
+                    <l>Porte à mon père un tendre souvenir !</l>
+                
+            
+                
+                    ENSEMBLE. 
+                
+            
+              
+                    <l>Écho, tu peux jusque là parvenir ;</l>
+                    <l>Porte à mon <del hand="LN" type="alternative" reason="analysis">son </del> père un tendre souvenir !</l>
+                
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            Antonio, adresse au commandant ta demande. 
+            
+            ANTONIO. 
+            
+            II l'accorderait plutôt à toi. 
+            
+            15
+            
+            170
+            
+            LES DEUX MOUSSES. 
+            
+            ROGER. 
+            
+            Non, Antonio : j'ai des motifs pour penser…
+            
+            ANTONIO. 
+            
+            Du mystère avec moi ! 
+            
+            ROGER. 
+            
+            Va toi – même, Antonio… Voici pourquoi. Tu
+            
+            sais que souvent le commandant me confie quel
+            
+            ques uns des objets de prix qu'il possède, soit pour
+            
+            les entretenir, soit pour les remettre en place : hier
+            
+            il me remit une riche bague qu'il porte d'habitude. 
+            
+            Eh bien ! … 
+            
+            ANTONIO. 
+            
+            ROGER. 
+            
+            Je la posai un moment dans l'entrepont ; 
+            
+            sans
+            
+            doute elle glissa et tomba à la mer, car, lorsque je
+            
+            voulus la reprendre, je ne pus la retrouver. 
+            
+            Ah ! mon Dieu ! 
+            
+            ANTONIO. 
+            
+            ROGER. 
+            
+            En m'absentant, si le commandant trouvait son
+            
+            anneau égaré, il pourrait penser… Rien que cette
+            
+            idée… Qu'as – tu donc, Antonio ? … croirais – tu ? …
+            
+            ANTONIO. 
+            
+            Ah ! Roger, mon ami, mon frère, si quelques
+            
+            traits honorables ont su marquer notre existence, 
+            
+            SCENE VI. 
+            
+            171
+            
+            jamais notre fraternité ne sera ternie par une ac
+            
+            tion dont nous ayons à rougir. Mais comment
+            
+            faire ? la sévérité du lieutenant est tellement in : 
+            
+            flexible… Que lui dire, Roger ? … Le voilà. 
+            
+            SCENE VI. 
+            
+            LES PRÉCÉDENTS, LE LIEUTENANT. 
+            
+            LE LIEUTENANT. 
+            
+            Vous êtes encore à l'endroit de la balte, mes
+            
+            amis ; vous ne vous disposez pas, comme vos ca
+            
+            marades, à courir un peu la plaine. Je sais pour
+            
+            quoi vous tenez à rester près du rivage : les yeux se
+            
+            portent avec tant de délices sur le sol qui nous a
+            
+            vus naître… Antonio et Roger, vous êtes de l'ile
+            
+            d'Aix ; je devine le besoin de votre cour. Je vous
+            
+            dois une faveur comme récompense de votre zèle
+            
+            et de votre courage ; vous irez embrasser vos pa
+            
+            rents. 
+            
+            ANTONIO et ROGÉR. 
+            
+            Ah ! mon commandant…
+            
+            LE LIEUTENANT. 
+            
+            Mon canot sera
+            
+            dant trois heures à votre
+            
+            172
+            
+            LES DEUX MOUSSES. 
+            
+            disposition. Je vous chargerai d'un message pour
+            
+            une parente. Vous allez retourner un moment à
+            
+            bord. Roger, tu prendras dans ma cassette les deux
+            
+            bagues que je t'ai dit hier de mettre à part ; jointes
+            
+            à cette lettre, tu les remettras à leur destination. 
+            
+            ANTONIO et ROGER, 
+            
+            Mon lieutenant…
+            
+            LE LIEUTENANT. 
+            
+            Répondez : lequel de vous s'est chargé hier de
+            
+            mettre les bagues dans la boite ? 
+            
+            ANTONIO et ROGER. 
+            
+            C'est moi. 
+            
+            LE LIEUTENANT. 
+            
+            Que signifie ce nouveau combat ? Vous seriez
+            
+            vous rendus coupables…
+            
+            ANTONIO et ROGER. 
+            
+            Ah ! ne le croyez pas, mon lieutenant, ne le
+            
+            croyez pas ; mais c'est qu'une de vos bagues…
+            
+            ANTONIO. 
+            
+            Est tombée à la mer. 
+            
+            LE LIEUTENANT. 
+            
+            C'est faux. 
+            
+            ANTONIO et ROGER. 
+            
+            Ah ! mon lieutenant, pouvez – vous croire ? …
+            
+            SCENE VII. 
+            
+            173
+            
+            LE LIEUTENANT. 
+            
+            Autant ma confiance a été grande, autant le
+            
+            châtiment sera grave… Il faut que je connaisse le
+            
+            coupable. (Il appelle.) Sergent d'armes ! (Le ser
+            
+            gent paraît ; le lieutenant lui parle bas à l'oreille.)
+            
+            Autonio et Roger, songez bien qu'il faut que le
+            
+            coupable se nomme. 
+            
+            Il sort. 
+            
+            SCENE VII. 
+            
+            ANTONIO, ROGER. 
+            
+            ROGER. 
+            
+            Antonio, une affreuse accusation pèse sur moi ; 
+            
+            c'est à moi seul à la supporter. Je n'accepte pas
+            
+            ton acte de générosité ; je ne suis pas coupable, 
+            
+            mais je suis accusé : seul je veux être puni. 
+            
+            ANTONIO. 
+            
+            Quand je suis certain de ton innocence, pour
+            
+            quoi n'échangerais – je pas avec mon ami le châti
+            
+            ment qu'il n'a pas mérité. 
+            
+            Je n'y consentirai jamais. 
+            
+            ROGER. 
+            
+            15, 
+            
+            174
+            
+            LES DEUX MOUSSES. 
+            
+            Je l'exige. 
+            
+            ANTONIO. 
+            
+            ROGER. 
+            
+            Je vais avouer au commandant que seul…
+            
+            ANTONIO. 
+            
+            Arrête, Roger, arrête ! Si tu persistes, je me
+            
+            jette à la mer. Non, tu ne courras pas seul la
+            
+            chance de la terrible punition qu'on te prépare. 
+            
+            ROGER. 
+            
+            Plus fort que toi, je résisterai davantage. 
+            
+            ANTONIO. 
+            
+            Le sentiment de ton innocence doublera mon
+            
+            courage. 
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    ROGER. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : En assurant leur existence (des Deux Turenne).
+                </stage>
+            
+            
+            
+                
+                    <l>Plus jeune, moi, j'ai l'avantage ;</l>
+                    <l>Je cours moins de danger que toi.</l>
+            
+                    
+                        ANTONIO. 
+                    
+            
+                    <l>L'amitié double le courage ;</l>
+                    <l>Le châtiment sera pour moi.</l>
+                
+            
+            
+                
+                    ROGER
+                
+            
+            
+                
+                    <l>Ne m'offre plus ce sacrifice ;</l>
+                    <l>Tu succomberais… c'est mon sort.</l>
+            
+                    
+                        ANTONIO. 
+                    
+            
+            
+                    <l>Pour toi, Roger, s'il faut que je périsse,</l>
+                    <l>Mon ami… quelle belle mort ! <stage type="repetition"> (ter.)</stage></l>
+               
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            SCENE VIII. 
+            
+            175
+            
+            ROGER. 
+            
+            Je n'ai plus qu'une proposition à te faire. Que le
+            
+            hasard décide lequel est coupable, le seul qui doit
+            
+            subir le châtiment ; je n'accepte pas d'autre arran
+            
+            gement : ce jeu de dés décidera. 
+            
+            A ce moment, le tambour bat dans le lointain. 
+            
+            ANTONIO. 
+            
+            Dépêchons. 
+            
+            SCENE VIIT. 
+            
+            LES PRÉCÉDENTS, LANGUILLE. 
+            
+            LANGUILLE. 
+            
+            Ah ! bonjour, M. Roger ; bonjour, Antonio. Oh ! 
+            
+            cet air sérieux ! J' gage qu'ils jouent aux dés une
+            
+            matelotte
+            
+            pour diner. 
+            
+            ANTONIO. 
+            
+            Eloigne – toi, Languille. 
+            
+            ROGER. 
+            
+            Va – t'en. 
+            
+            
+            
+            <div type="poem"> <lg>
+                
+                    LANGUILLE. 
+                
+            
+            
+                
+                    Ah ! pardi, c'est pas si friand une matelotte. Voulez – vous que je vous la fasse, moi, au vin de
+            
+                    Roussillon, au bordeaux, au champagne ? c'est surtout mon fort. 
+                
+            
+            
+                <stage type="tune">
+                    Air du vaudeville du Premier prix. 
+                </stage>
+            
+            
+              
+                    <l>Dans cet art – là je crois m' connaître.</l>
+                    <l>J' pensais, avant d' prendre leçon,</l>
+                    <l>Qu' pour faire un' mat'lott' fallait mettre</l>
+                    <l>Ensemble la sauce et l' poisson.</l>
+                    <l>Mais un jour j' fis un' bonne école ;</l>
+                    <l>Et depuis, connaissant l' métier,</l>
+                    <l>Je mets l' poisson dans la cass'role,</l>
+                    <l>Et le champagn' dans l' cuisinier <stage type="repetition"> (bis) .</stage></l>
+                   
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            ROGER, jouant. 
+            
+            4, 5, 6, font 15. A toi, Antonio. 
+            
+            ANTONIO, jouant. 
+            
+            6, 6, 3, font 15. 
+            
+            LANGUILLE. 
+            
+            Manche à manche : voyons la belle. 
+            
+            ANTONIO. 
+            
+            A toi, Roger. 3 ; 4, 1. 
+            
+            3 as : j'ai perdu. 
+            
+            ROGER. 
+            
+            LANGUILLE. 
+            
+            M. Roger a perdu la matelotte. 
+            
+            ANTONIO. 
+            
+            Il donue un coup de pied à Lauguitle. 
+            
+'
+            
+            Imbécille ! 
+            
+            1
+            
+            1
+            
+            1
+            
+            SCENE VIII. 
+            
+            177
+            
+            LANGUILLE. 
+            
+            Est – il mauvais joueur ! il gagne, et il se fâche…
+            
+            Ah ! mon Dieu ! j'oubliais qu'il vient d'arriver de
+            
+            l'île d'Aix une lettre : c'est Jean le patron qui me
+            
+            l'a remise ; elle est pour M. Roger. 
+            
+            ROGER. 
+            
+            Pour moi ! (Il
+            
+            lit.) Elle est de mon père…
+            
+            Ciel ! quelle affreuse nouvelle ! Sa santé, altérée
+            
+            par le chagrin, laisse peu d'espoir de le conserver ; 
+            
+            peut – être n'a – t – il plus que quelques heures à
+            
+            vivre. 
+            
+            ANTONIO. 
+            
+            Il lit par – dessus l'épaule de Roger. 
+            
+            Il demande à embrasser son fils… Roger, la par
+            
+            tie à laquelle j'ai consenti est nulle ; moi seul je
+            
+            dois me déclarer coupable. Toi, cours auprès de
+            
+            ton père : ta présence le rappellera à la vie. 
+            
+            Antonio…
+            
+            ROGER. 
+            
+            ANTONIO. 
+            
+            Ne me refuse pas, Roger : en pareille circon
+            
+            stance, ton cœur te dicterait le même dévoue
+            
+            ment. 
+            
+            ROGER. 
+            
+            Eh bien ! Antonio, pour concilier ce que je te
+            
+            doi
+            
+            avec l'amour que je porte à mon père, obte
+            
+            1
+            
+            t
+            
+) 
+            
+            1
+            
+            1
+            
+            178
+            
+            LES DEUX MOUSSES. 
+            
+            nons du commandant qu'il suspende jusqu'à qua
+            
+            tre heures le châtiment, 
+            
+            ANTONIO. 
+            
+            Oui, nous l'obtiendrons. Je m'offrirai comme
+            
+            otage à ta place ; et, si à l'heure fixée tu ne re
+            
+            viens pas…
+            
+            ROGER. 
+            
+            Ton dévouement ne sera pas mis à cette cruelle
+            
+            épreuve. 
+            
+            LANGUILLE, à
+            
+            part. 
+            
+            Que diable machinent – ils donc ensemble ? V'là
+            
+            bien du mystère pour une matelotte. 
+            
+            ANTONIO. 
+            
+            Je vais trouver le commandant. Roger, sois cer
+            
+            tain que je ferai tout pour obtenir la permission
+            
+            que ton cour désire. 
+            
+            ROGER. 
+            
+            Promets – moi de dire au commandant que moi
+            
+            seul suis coupable. 
+            
+            ANTONIO. 
+            
+            Je te le promets. Languille, conduis – moi auprès
+            
+            du commandant. 
+            
+            LANGUILLE, à
+            
+            part. 
+            
+            J'aurai bien du malheur si je ne découvre pas le
+            
+            fil de cette aventure. 
+            
+            Ils sortent. 
+            
+            SCENE X. 
+            
+            179
+            
+            SCÈNE IX. 
+            
+            ROGER, seul. 
+            
+            Cher Antonio ! pourquoi le Ciel réserva – t – il à
+            
+            ton amitié les plus fortes preuves ? Moi qui sa
+            
+            crifierais tous mes jours pour toi, je me trouve
+            
+            dans la nécessité d'accepter ton acte de dévoue
+            
+            ment ! Mon cœur est trop reconnaissant pour
+            
+            oublier ce bienfait, et je t'attends à la première
+            
+            circonstance. 
+            
+            SCÈNE X. 
+            
+            ROGER, ANTONIO, 
+            
+            LE LIEUTENANT, LANGUILLE. 
+            
+            ANTONIO, arrivant. 
+            
+            Roger, Roger, 
+            
+            le cominandant consent à
+            
+            l'é
+            
+            change. 
+            
+            LE LIEUTENANT. 
+            
+            Roger, vous avez commis une faute des plus
+            
+            180
+            
+            LES DEUX MOUSSES. 
+            
+            honteuses. Si la connaissance de la vérité ne me
+            
+            laissait encore quelque doute, le coupable serait
+            
+            ignominiensement chassé. Mais il faut pour la
+            
+            discipline qu'il soit livré à la plus terrible punj
+            
+            tion ; 
+            
+            il sera passé aux verges sur le rivage. Des
+            
+            considérations particulières me permettent d'user
+            
+            d'une sorte d'indulgence envers vous. Roger, vous
+            
+            pouvez aller embrasser votre père ; mais rappe
+            
+            lez – vous qu'il faut être de retour à quatre heu
+            
+            res pour subir votre peine, ou votre ami serait
+            
+            victime…
+            
+            ROGER. 
+            
+            Commandant, ne me croyez pas assez lâche. 
+            
+            LE LIEUTENANT. 
+            
+            Sergent d'armes, conduisez Antonio au ca
+            
+            chot. 
+            
+            ROGER. 
+            
+            Antonio, compte sur ma promesse. 
+            
+            ANTONIO. 
+            
+            Roger, embrasse ma mère ; remets – lui cette
+            
+            bourse, ces petits présents. Adieu, Roger. 
+            
+            ROGER. 
+            
+            Adieu, Antonio. 
+            
+            ANTONIO, à Languille, qui arrive. 
+            
+            Languille ! 
+            
+            SCENE X. 
+            
+            181
+            
+            LANGUILLE, 
+            
+            à part. 
+            
+            Est – ce qu'il va m'inviter de la matelote ? 
+            
+            ANTONIO. 
+            
+            Passe Roger à l'ile d'Aix. 
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    CHŒUR GÉNÉRAL. 
+                
+            
+            
+                <stage type="tune">
+                    Célébrons enfin (de la Soirée).
+                </stage>
+            
+            
+                
+                    LES MATELOTS. 
+                
+            
+                
+                    <l>Sans retard, sans retard,</l>
+                    <l>Hâtez le départ.</l>
+                
+            
+                
+                    ANTONIO, ROGER et LANGUILLE. 
+                
+            
+               
+                    <l>Oui, sans retard,</l>
+                    <l>Hâtez le départ.</l>
+                
+            
+                
+                    LES MATELOTS. 
+                
+            
+                
+                    <l>La mer est belle <stage type="repetition"> (ter) .</stage></l>
+                    <l>Il donne une preuve nouvelle <stage type="repetition"> } (bis) .</stage></l>
+                    <l>De son amitié en ce jour :</l>
+                    <l>Avant c' soir il s'ra de retour.</l>
+                
+            
+                
+                    ROGER. 
+                
+            
+            
+               
+                    <l>Compte sur moi : toujours fidèle</l>
+                    <l>À mon serment, je s'rai de r'tour,</l>
+                    <l>J' te l' jure, avant la fin du jour.</l>
+            
+                    
+                        ANTONIO, à part. 
+                    
+            
+                    <l>Ah ! puisse–t–il être infidèle</l>
+                
+                VI. 16 
+                
+                
+                    <l>À sa promesse, et qu'en ce jour,</l>
+                    <l>Il ne puisse être de retour !</l>
+            
+                
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (Antonio et Roger se jettevt dans les bras l'un de l'autre. 
+            
+            Languille ne comprend rien à cette scène. Roger se place
+            
+            dans la barque à côté de Languille. Le sergent d'armes con
+            
+            duit Antonio aux arrêts. Tableau général.)
+            
+            1
+            
+            1
+            
+            be
+            
+            l'a
+            
+            SCENE XI. 
+            
+            183
+            
+            DEUXIÈME TABLEAU. 
+            
+            Le théâtre représente un site de l'île d'Ais, au bord de la mer ; 
+            
+            la maison de la mère Berthe est à droite. 
+            
+) 
+            
+            SCENE XI. 
+            
+            LOUISE, LA MÈRE BERTHE. 
+            
+            LOUISE. 
+            
+            · Bonne mère, bonne mère, venez par ici. Voyez
+            
+            vous là – bas ce bâtiment ? … Si c'était le vaisseau
+            
+            où sont mon frère et M. Roger. 
+            
+            LA MÈRE BERTHE. 
+            
+            Petite folle ! un tel bonheur n'est
+            
+            pas
+            
+            fait
+            
+            pour
+            
+            nous. Je ne vois rien sur l'horizon. Ah ! si fait, 
+            
+            j'aperçois un point noir. 
+            
+            184
+            
+            LES DEUX MOUSSES. 
+            
+            LOUISE. 
+            
+            Un point noir… C'est le pavillon blanc. 
+            
+            
+            
+            
+            
+    
+            
+            <div type="poem"> <lg>
+            
+                
+                    LA MÈRE BERTHE. 
+                
+            
+            
+                
+                    C'est ainsi que je prolongeais mes regards quand mon cher Antonio est parti. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Pour accomplir notre serment. 
+                </stage>
+            
+            
+              
+                    <l>Quand mon Antonio partit,</l>
+                    <l>J' l'accompagnai jusqu'au rivage ;</l>
+                    <l>Au loin mon regard le suivit</l>
+                    <l>Jusqu'à c' qu'il n' pût l' voir davantage.</l>
+                    <l>Je lui disais : Mon cher enfant,</l>
+                    <l>Sois toujours courageux, honnête ;</l>
+                    <l>Le Ciel veillera sur ta tête ;</l>
+                    <l>Et sur terr' comme sur mer, mon garçon,</l>
+                    <l>Pour jouir d'un destin prospère,</l>
+                    <l>Et t' rendre le Ciel tutélaire,</l>
+                    <l>Sois bon soldat, et suis la leçon</l>
+                    <l>De ta bonne mère.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            SCENE XII. 
+            
+            LES PRÉCÉDENTS, LANGUILLE. 
+            
+            LANGUILLE. 
+            
+            Ah ! mère Berthe, ah ! mamselle Jouise, j'en ai
+            
+            de fameuses à yous dire, allez. Vous ne deviperiez
+            
+            jamais… ils sont de l'autre bord. 
+            
+            SCENE XII. 
+            
+            185
+            
+            Qui donc ? 
+            
+            LOUISE. 
+            
+            LANGUILLE. 
+            
+            Antonio… Quand je dis qu'ils sont de l'autre
+            
+            côté, je me trompe, car il y en a un qui est de
+            celui – ci. 
+            
+            LA MÈRE BERTHE. 
+            
+            Et c'est…
+            
+            LANGUILLE. 
+            
+            M. Roger, que je viens de débarquer ; 
+            
+            il est allé
+            
+            voir son père… Voyez – vous ce bâtiment là – bas, 
+            
+            c'est le leur. 
+            
+            Mon fils ! …
+            
+            LA MÈRE BERTHE. 
+            
+            LOUISE. 
+            
+            Mon frère ! … Oh ! qu'il arrive heureusement, 
+            
+            moi qui suis rosière aujourd'hui même. 
+            
+            LANGUILLE. 
+            
+            Ah ! mais je ne sais pas si Antonio passera par
+            
+            ici, parce que, voyez – vous, je crois, d'après ce
+            
+            que j'ai pu deviner, qu'il a joué avec M. Roger
+            
+            une matelote ; et, comme il l'a perdue, je pense
+            
+            qu'il reste à l'autre bord pour la faire. 
+            
+            LOUISE. 
+            
+            Qu'est – ce qu'il dit donc là, cet imbécille ? Si
+            
+            mon frère ne peut pas venir, nous passerons l'eau
+            
+            et nous irons le trouver. 
+            
+            16. 
+            
+            186
+            
+            LES DEUX MOUSSES. 
+            
+            LANGUILLE. 
+            
+            C'est une bonne idée, au fait ; je vous mènerons
+            
+            rondement, pour arriver avant que la matelote ne
+            
+            soit…
+            
+            LOUISE. 
+            
+            Ah ! mon Dieu ! v'là M. Roger ; je le recon
+            
+            nais. 
+            
+            LANGUILLE. 
+            
+            C'est lui qui a gagné la…
+            
+            SCÈNE XIII. 
+            
+            LES PRÉCÉDENTS, ROGER. 
+            
+            ROGER. 
+            
+            Bonjour, bonjour, bonne mère Berthe ; bonjour, 
+            
+            mademoiselle Louise. (Il les embrasse.) Voici d'a
+            
+            bord pour Antonio, pour votre fils. Maintenant je
+            
+            prends mon tour. 
+            
+            Il les embrasse de nouveau. 
+            
+            LA MÈRE BERTHE. 
+            
+            Comment se porte – t – il, ce cher enfant ? 
+            
+            ROGER. 
+            
+            A merveille, mère Berthe ; 
+            
+            il promel d'être un
+            
+            SCENE XIII. 
+            
+            187
+            
+            jour un des meilleurs marins du roi. Le comman
+            
+            dant n'a pu permettre qu'à un seul de venir à l'ile. 
+            
+            Mon père étant malade, Antonio s'est sacrifié… Ma
+            
+            présence a causé une heureuse crise ; mon père est
+            
+            hors de danger. Tenez, tenez, bonne mère Berthe, 
+            
+            voilà les petits présents qu'Antonio a rapportés
+            
+            de ses voyages, et qu'il m'a chargé de vous re
+            
+            mettre. 
+            
+            De l'or ! 
+            
+            LA MERE BERTHE. 
+            
+            ROGER. 
+            
+            C'est sa part d'une prise sur les Barbaresques. 
+            
+            Et vous, 
+            
+            mademoiselle Louise, deux mouchoirs de
+            
+            Madras et deux foulards de Calcutta. 
+            
+            LOUISE. 
+            
+            Oh ! la fille de la mercière va – t – elle être de mau
+            
+            vaise hameur, elle qui fait tant la fière avec son
+            
+            petit fichu quatre quarts ! 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    ROGER. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Voilà, voilà le mérite des femmes. 
+                </stage>
+            
+            
+               
+                    <l>Portant partout un tendre souvenir,</l>
+                    <l>Du nord au sud, de l'Asie à l'Afrique,</l>
+                    <l>Combien de fois nous fîmes retentir</l>
+                    <l>Vos noms chéris aux bords de l'Amérique.</l>
+                
+                188 LES DEUX MOUSSES. 
+                
+                    <l>Parmi les dons que vient offrir son cœur,</l>
+                    <l>Antonio sur la rive étrangère</l>
+                    <l>Prit ces deux schals, qui pareront sa sœur, <stage type="repetition">} bis. </stage></l>
+                    <l>Et ce bambou, qui soutiendra sa mère.</l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LOUISE. 
+            
+            Dites – nous, M. Roger, vous arrivez bien heu
+            
+            reusement. C'est aujourd'hui qu'on couronne la
+            
+            plus sage
+            
+            du canton, 
+            
+            et c'est moi qui suis désignée. 
+            
+            Dans un moment la cérémonie va se faire. Vous
+            
+            serez des nôtres pour la danse, 
+            
+            n'est – ce pass ? 
+            
+            ROGER. 
+            
+            Un très court moment, mademoiselle Louise, 
+            
+            je pourrai partager le plaisir de la fête ; ma permis
+            
+            sion est de peu de durée. 
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    LOUISE. 
+                
+            
+            
+                
+                    Vous direz à votre capitaine que c'est une rosière qui vous a retenu : un capitaine de marine, çа doit être galant. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR de Julie. 
+                </stage>
+            
+            
+            
+              
+                    <l>Si l' commandant n'est point aimable.</l>
+                    <l>J'irai lui faire son procès.</l>
+            
+                    
+                        ROGER. 
+                    
+            
+                    <l>Il pourrait bien, homme intraitable,</l>
+                    <l>Mettre la rosière aux arrêts.</l>
+                
+                SCENE XIII. 189
+            
+                    
+                        LOUISE. 
+                    
+            
+                    <l>Mes compagnes viennent, pour causes,</l>
+                    <l part="I">Me réclamer…</l>
+            
+                    
+                        ROGER. 
+                    
+            
+                    <l part="F">Mais soudain, pour raison,</l>
+                    <l>Le commandant les r'tient, et la prison <stage type="repetition">} (bis) </stage></l>
+                    <l>Se change en un bouquet de roses.</l>
+                
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LOUISE. 
+            
+            Vraiment… Vous êtes galant, M. Roger… Te
+            
+            nez, j'entends déjà les violons. 
+            
+            ROGER. 
+            
+            Une seule danse, j'y consens… Où done est
+            
+            passé Languille ? Il ne faut pas qu'il s'éloigne ; je
+            
+            compte sur son canot pour me ramener. 
+            
+            LOUISE, 
+            
+            à part. 
+            
+            Comptez là – dessus… Je saurai bien détourner
+            
+            Languille quand il en sera temps. 
+            
+            (Haut.) Ma
+            
+            bonne mère, M. Roger nous reste, 
+            
+            190
+            
+            LES DEUX MOUSSES. 
+            
+            SCÈNE XIV. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LES PRÉCÉDENTS, VILLAGEOIS et VILLAGEOISES. 
+            
+            Les violons et les paysans sont arrivés. Une danse se forme. Roger danse avec Louise. 
+            
+            <div type="poem"> <lg>
+            
+                
+                    CHŒUR. 
+                
+            
+            
+                <stage type="tune">
+                    AIR de la Gazza ladra. 
+                </stage>
+            
+            
+               
+                    <l>Amis joyeux,</l>
+                    <l>Rendons hommage</l>
+                    <l>À la plus sage</l>
+                    <l>De ces lieux.</l>
+                    <l>D'une rosière</l>
+                    <l>Qui nous est chère</l>
+                    <l>Tous aujourd'hui</l>
+                    <l>Soyons l'appui.</l>
+                    <l>Avec transport quand on lui donne</l>
+                    <l>Le prix qu'elle a bien mérité,</l>
+                    <l>Sur son front plaçons la couronne</l>
+                    <l>Que doit envier la beauté.</l>
+                
+            
+                
+                    <l ana="unanalyzable">Amis joyeux, etc.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            (Couronnement de la rosière.)
+            
+            : 
+            
+            1
+            
+            1
+            
+            SCENE XIV. 
+            
+            191
+            
+            LANGUILLE. 
+            
+            C'est ça. A présent, un petit rigodon pour com
+            
+            pléter la fête. 
+            
+            ROGER… 
+            
+            L'heure s'avance… Après la danse, pensons à
+            
+            la retraite. 
+            
+            í Au moinent où Roger va en avant, 
+            
+            Louise fait signeà Languille. Quand Roger est reve
+            
+            nu en place, il dit à Languille :) Languille, que ton
+            
+            canot soit prêt à l'instant ; il faut que je retourne
+            
+            de l'autre côté. 
+            
+            LANGUILLE. 
+            
+            Une seule petite contredanse. (Il s'approche de
+            
+            Louise.) Mademoiselle Louise, voulez – vous me
+            
+            faire l'honneur…
+            
+            En ce moment Roger fait un avant – deux. 
+            
+            LOUISE, bas à Languille. 
+            
+            Non, mon pauvre Languille, ça ne se peut
+            
+            pas, parce qu'un plaisir ne vaut pas une bonne
+            
+            aubaine. Descends vite dans ta barque ; conduis
+            
+            la de l'autre côté de l'ile : là, tu trouveras cette
+            
+            famille anglaise qui te paie si bien tes promenades
+            
+            sur l'eau. Mylord vient de faire dire qu'il atten
+            
+            dait ton canot ; et reviens vite, je danserai avec
+            
+            toi. 
+            
+            (Haut.) Allons donc, M. Roger, en danse. 
+            
+            En ce moment, la danse devient bruyante. Languille
+            
+            s'échappe. 
+            
+            192
+            
+            LES DEUX MOUSSES. 
+            
+            SCENE XV. 
+            
+            Les PRÉCÉDENTS, excepté LANGUILLE. 
+            
+            ROGER. 
+            
+            Où est Languille ? 
+            
+            LOUISE. 
+            
+            Ah ! quel regard, M. Roger ! 
+            
+            ROG ER, à
+            
+            part. 
+            
+            Le temps s'est écoulé… Antonio, combien je
+            
+            serais coupable si le plaisir me faisait oublier
+            
+            mon serment. 
+            
+            LOUISE. 
+            
+            Encore une danse, M. Roger. 
+            
+            ROGER. 
+            
+            Non, mademoiselle Louise, c'est impossible. 
+            
+            LOUISE. 
+            
+            Cependant vous ne partirez pas à l'instant, 
+            
+            puisque Languille a emmené sa barque. 
+            
+            Le canot est en mer ! 
+            
+            ROGER. 
+            
+            I
+            
+            SCENE XV. 
+            
+            193
+            
+            LOUISE. 
+            
+            Regardez là – bas, le voilà. 
+            
+            ROGER. 
+            
+            D'autres pourront me conduire. 
+            
+            LOUISE. 
+            
+            Il n'y en a pas un seul dans l'ile ; à cette heure, 
+            
+            ils sont tous en pêche. 
+            
+            ROGER. 
+            
+            Ciel ! Antonio, mon cher Antonio ! 
+            
+            LOUISE. 
+            
+            Comme il prononce ce nom ! Que serait – il arrivé
+            
+            à mon frère ? 
+            
+            Le temps semble s'obscurcir ; quelques éclairs sillonnent la nue ; 
+            
+            les airs de danse s'entendent à peine. 
+            
+            ROGER. 
+            
+            Rien encore… Mais il faut que je parte. 
+            
+            LA MÈRE BERTHE. 
+            
+            Que signifie ? …
+            
+            ROGER. 
+            
+            Un moment encore
+            
+            il ne sera peut – être plus
+            
+            temps. 
+            
+            Expliquez – vous ? 
+            
+            LOUISE. 
+            
+            17
+            
+            194
+            
+            LES DEUX MOUSSES. 
+            
+            ROGER. 
+            
+            Il dépend de mon retour qu'Antonio échappe au
+            
+            supplice. 
+            
+            LA MÈRE BERTHE. 
+            
+            Au supplice, mon fils ! 
+            
+            LOUISE. 
+            
+            Dieu ! qu'ai – je fait ? 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                
+                    ROGER
+                
+            
+                
+, regardant le rivage. 
+                
+            
+            
+            
+                
+                    Si je pouvais… Les vagues deviennent fortes, la tempête se prépare. 
+            
+                    L'orage redouble. La mère Berthe est évanouie ; Louise est éplorée. Roger parcourt la scène comme dans le délire. 
+            
+                   <div type="poem"><lg> <stage type="tune" id="AIR : Des flots l'affreux murmure.">RÉCITATIF.</stage>
+            
+                    <l>Des flots l'affreux murmure</l>
+                    <l>Semble menacer… Ô transport !</l>
+                    <l>Antonio, ne me crois pas parjure.</l>
+                    <l>Je gémis sur ton triste sort,</l>
+                    <l>Ton châtiment, qui se prépare.</l>
+                    <l>Que faire, hélas !</l>
+                    <l>Mon esprit se perd, ma tête s'égare.</l>
+                    <l>Où porter mes pas ?</l></lg></div>
+                
+            
+            
+                <div type="poem"> <lg>
+                <stage type="tune">
+                    Air du chœur final du Barbier de Séville (3e acte).
+                </stage>
+            
+            
+                
+                    <l>Ah ! j'entends gronder l'orage <stage type="repetition"> (bis) </stage> !</l>
+                    <l>Non, jamais à la nage,</l>
+                    <l>Jamais je n'atteindrai le bord <stage type="repetition"> (bis) .</stage></l>
+                
+            
+            
+                
+                    ENSEMBLE {
+                
+            
+            
+                
+                    CHŒUR. 
+                
+            
+               
+                    <l>Entendez–vous gronder l'orage ?</l>
+                    <l>Pour le marin quel triste sort !</l>
+                    <l>Heureux celui qui se voit dans le port,</l>
+                    <l>Qui se voit dans le port.</l>
+                
+            
+                
+                    ROGER. 
+                
+            
+                
+                    <l>En ce moment tout me présage</l>
+                    <l>De mon ami le triste sort.</l>
+                    <l>Antonio causerai–je ta mort ?</l>
+                    <l>Causerai–je ta mort ?</l>
+                
+            
+            
+            
+            
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            (On entraîne Roger, qui fait de vains efforts pour se jeler à la
+            
+            mer. Tout le monde fuit, afin d'échapper à l'orage, et le
+            
+            rideau tombe.)
+            
+            196
+            
+            LES DEUX MOUSSES. 
+            
+            TROISIÈME TABLEAU. 
+            
+            Le théâtre représente la rive droite. A droite du spectateur est
+            
+            une espèce de corps – de – garde, sur le pérystile duquel est
+            
+            Antonio. 
+            
+            SCENE XVI. 
+            
+            TONY ; 
+            
+            ANTONIO,' dans le corps – de – garde. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    TONY. 
+                
+            
+            
+                
+                    Oh ! je ne pourrai jamais m'habituer à ce terrain – là ; c'est impossible. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    AIR : Mes amours. 
+                </stage>
+            
+            
+             
+                    <l>Je n' peux pas vivr' comme ça,</l>
+                    <l>La tête me tourne ;</l>
+                
+                SCENE XVI. 197
+                
+                
+                    <l>Moi j' suis fait au flot,</l>
+                    <l>La terr' n'est pas mon lot.</l>
+                    <l>L' commandant a tort ;</l>
+                    <l>Il faut que je r'tourne</l>
+                    <l>À l'instant à bord,</l>
+                    <l>Ou ben avant c' soir je suis mort.</l>
+                
+            
+                
+                    <l>Ah ! que j' plains l' piéton quand il s' met en route !</l>
+                    <l>Dès qu'il faut marcher, moi j' sue à grosse goutte.</l>
+                    <l>Mais que j' suis heureux quand je peux déployer</l>
+                    <l>Mon hamac dans l'quel j' peux dormir ou veiller ;</l>
+                    <l>Je fais l' tour du monde sur mon oreiller.</l>
+                
+            
+            
+            
+            
+            
+                
+                    Aussi je l' dis, avec c'te diable de terre : 
+                
+            
+            
+            
+            
+            
+                
+                    <l ana="unanalyzable">Je n' peux pas vivr' comme ça, etc.</l>
+                
+            
+                
+                    <l>Pour tuer un' perdrix, à terr' faut qu'on d'mande</l>
+                    <l>Un permis de chasse, ou bien gar' l'amende.</l>
+                    <l>Mais jamais à bord un procès–verbal</l>
+                    <l>N' nous empêcha d' tuer, par un ordre brutal,</l>
+                    <l>L' lièvre seigneurial et l' lapin communal.</l>
+                
+            
+            
+            
+            
+                
+                    Oui, je l'dis, le redis, et le redirai toujours : 
+                
+            
+            
+            
+                
+                    <l ana="unanalyzable">Je n' peux pas vivr' comm' ça, etc.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            ANTONIO, 
+            
+            à part. 
+            
+            Roger, dans ce moment, embrasse peut – être ma
+            
+            mère. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+            
+                
+                    TONY. 
+                
+            
+            
+                
+                    Ah ! c'est toi, Antonio… Tu es en cage. Ah ! le lieutenant ne rit pas, lui… il est sensible comme
+                    un habitant de la Terre – de – Feu. 
+                
+            
+            
+            
+            
+                <stage type="tune">
+                    Air de Marianne. 
+                </stage>
+            
+            
+              
+                    <l>Avec lui n' faut pas qu'on badine ;</l>
+                    <l>J' me souviens qu' dans les mers du nord,</l>
+                    <l>Il voulait de la discipline</l>
+                    <l>Donner l'échantillon à bord.</l>
+                    <l>Chaqu' mouss' sur l' dos</l>
+                    <l>Et sur les os</l>
+                    <l>Reçut d'aplomb</l>
+                    <l>Vingt coups d' corde environ.</l>
+                    <l>Six matelots</l>
+                    <l>Fur'nt dans les flots</l>
+                    <l>S' débarbouiller</l>
+                    <l>Avec l' maître canonnier.</l>
+                    <l>Le lendemain de ce baptême,</l>
+                    <l>Voyant l' commandant qui tardait,</l>
+                    <l>Chacun de vous crut qu'il s'était</l>
+                    <l>Mis aux arrêts lui–même <stage type="repetition"> (ter) .</stage></l>
+                
+            
+            
+              </lg> </div>
+            
+                
+                    Allons, bon courage ; moi j'vas profiter de l'embar
+            
+                    cation
+            
+                    pour aller faire à bord un petit coup de pê
+            
+                    che… Oh ! doucement, Tony ! doucement ; il y a
+            
+                    du roulis. 
+            
+            
+                    (Il sort en chantant :) 
+                
+              
+            
+            <div type="poem"> <lg>
+            
+            
+                <stage type="tune" id="AIR : Mes amours."></stage>
+                
+                    <l ana="unanalyzable">Je n' peux pas vivr' comm' ça, etc.</l>
+                
+                </lg></div>
+                
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            1
+            
+            1
+            
+            1
+            
+            SCENE XVIII. 
+            
+            199
+            
+            SCÈNE XVII. 
+            
+            ANTONIQ. 
+            
+            Si quelque obstacle pouvait retenir Roger, mon
+            
+            cæur serait satisfait. Pauvre Roger ! 
+            
+            il était peiné
+            
+            de croire que je le regardais comme coupable, et
+            
+            qu'il méritait le châtiment qui lui était réservé. 
+            
+            Puisse le sacrifice de quelques moments de liberté
+            
+            que j'ai fait pour lui avoir porté quelque soulage
+            
+            ment à son vieux père… J'aurais bien désiré em
+            
+            brasser ma jolie sceur, ma bonne Louise. Comme
+            
+            elle doit être grande à présent ! …
+            
+            SCENE XVIII. 
+            
+            ANTONIO, LE LIEUTENANT. 
+            
+            LE LIEUTENANT, à part. 
+            
+            Le bruit du vol a transpiré. Il ne faut rien moins
+            
+            que cette circonstance pour me faire agir aussi sé
+            
+            vèrement contre celui qui en est cru l'auteur. Le
+            
+            200
+            
+            LES DEUX MOUSSES. 
+            
+            conseil a décidé. 
+            
+            Il est pénible que le châtiment
+            
+            atteigne celui que sa bonne conduite avait jus
+            
+            qu'ici rendu l'exemple de l'équipage (A la senti
+            
+            nelle.) Faites venir Antonio. 
+            
+            ANTONIO. 
+            
+            Est – il déjà l'heure, commandant ? 
+            
+            LE LIEUTENANT. 
+            
+            Si le moment de la correction n'est point encore
+            
+            venu, l'instant est arrivé où celui qui a commis
+            
+            1
+            
+            1
+            
+            1
+            
+            la faute devrait être de retour. 
+            
+            ANTONIO. 
+            
+            Il reviendra, commandant. 
+            
+            LE LIEUTENANT. 
+            
+            Son exactitude à remplir son serment ne rachè
+            
+            tera que faiblement la honte de son action. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+                
+                    ANTONIO. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : En amour comme en amitié. 
+                </stage>
+            
+            
+              
+                    <l>De mon ami si je me suis soumis</l>
+                    <l>À prendr' la plac', je ne puis le défendre ;</l>
+                    <l>À votr' rigueur n'ajoutez pas l' mépris.</l>
+                    <l>Il faut me taire ici ; vous devez me comprendre.</l>
+                    <l>La honte cesse avec le châtiment.</l>
+                    <l>Mon commandant, avant d' quitter la côte,</l>
+                    <l>Si je n' devais êtr' puni de sa faute,</l>
+                    <l>Je prouverais qu' Roger est innocent.</l>
+                
+            
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            SCENE XX. 
+            
+            201
+            
+            SCENE XIX. 
+            
+            LES PRÉCÉDENTS, LE SERGENT
+            
+            D'ARMES. 
+            
+            LE SERGENT. 
+            
+            Le vent passe à l'est, mon commandant, et des
+            
+            signaux partis du brick qui est sur les côtes ont
+            
+            répondu aux nôtres. 
+            
+            Il remet au commandant des papiers, des cartes. 
+            
+            LE LIEUTENANT. 
+            
+            Sergent d'armes, l'heure des punitions reste tou
+            
+            jours la même jusqu'à nouvel ordre. 
+            
+            Il rentre. 
+            
+            SCENE XX. 
+            
+            LE SERGENT D'ARMES, ANTONIO. 
+            
+            LE SERGENT, tirant sa montre. 
+            
+            Mon pauvre Antonio…
+            
+            il n'y a plus que dix
+            
+            minutes. 
+            
+            202
+            
+            LES DEUX MOUSSES. 
+            
+            ANTONIO. 
+            
+            Encore dix minutes… Mon cher brave, mon
+            
+            vieux camarade, que de preuves
+            
+            d'amitié ne m'as
+            
+            tu pas données depuis que je suis à bord ! 
+            
+            LE SERGENT. 
+            
+            Dame ! toi et Roger, vous étiez mes protégés ; 
+            
+            mais la discipline avant tout. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+            
+                
+                    ANTONIO. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Faut l'oublier. 
+                </stage>
+            
+            
+                
+                    <l>Combien de fois, pour l'exercice,</l>
+                    <l>Ou pour nous rapp'ler au devoir,</l>
+                    <l>Vous nous montrez, matin et soir,</l>
+                    <l>Cett' montre qui règle l' service.</l>
+                    <l>Près d'un' bouteill' qu'on déboucha,</l>
+                    <l>Quand l'heur' disait d' fuir la partie,</l>
+                    <l>Plus d'un' fois l'aiguill' recula,</l>
+                    <l>Quand je disais, je vous en prie,</l>
+                    <l>Retardez–la <stage type="repetition">(bis).</stage></l>
+                
+            
+            
+           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            LE SERGENT. 
+            
+            Ah ! je m'en souviens bien, et je voudrais en
+            
+            core faire virer de bord les deux aiguilles. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+                
+                    ANTONIO. 
+                
+            
+            
+                
+                    Même air. 
+                
+            
+            
+              
+                    <l>Si tant de fois, pour nous distraire,</l>
+                    <l>Vous avez servi l'amitié,</l>
+                
+                
+                SCENE XX. 203
+                
+                
+                    <l>En c' moment, j' réclam' par pitié</l>
+                    <l>Un bienfait tout–à–fait contraire.</l>
+            
+                    
+                        (À part.)
+                    
+            
+                    <l>En vain mon cœur s' sacrifia :</l>
+                    <l>Car Roger, qui dans c' moment tarde,</l>
+                    <l>Dans un instant p't–être arriv'ra.</l>
+            
+                    
+                        (Haut.)
+                    
+            
+                    <l>Mon vieil ami, votr' montr' retarde,</l>
+                    <l>Avancez–la <stage type="repetition"> (bis) .</stage></l></lg>
+                
+            </div>
+            
+            
+            
+                
+                    (À ce moment, quatre heures sonnent à l'église d'un village   voisin.)
+            
+                    (Souriant.) Sergent, entendez – vous ? le village
+            
+                    voisin va mieux que vous. 
+                
+            
+            
+            
+            
+            <div type="poem">
+                <lg>
+                <stage type="tune">
+                    AIR : Un moment de gêne. 
+                </stage>
+            
+            
+              
+                    <l>J'entends l'heur' qui sonne ;</l>
+                    <l>Le signal résonne :</l>
+                    <l>Voilà le moment</l>
+                    <l>De mon châtiment.</l>
+                    <l>Quand mon cœur s'engage,</l>
+                    <l>Ciel ! fais que Roger</l>
+                    <l>Ne r'vienne au rivage <stage type="repetition"> (bis)</stage></l>
+                    <l>Qu'après le danger !</l>
+                
+            
+                
+                    LE SERGENT, ANTONIO. 
+                
+            
+                
+                    <l ana="unanalyzable">J'entends l'heur' qui sonne, etc.</l>
+                </lg>
+                </div>
+            
+            
+            
+            
+            
+            
+            
+            (On entend un roulement de tambour dans le fond ; les troupes
+            
+            s'assemblent ; le lieutenant paraît.)
+            
+            204
+            
+            LES DEUX MOUSSES. 
+            
+            SCÈNE XXI. 
+            
+            LE LIEUTENANT, 
+            
+            LE SERGENT, 
+            
+            ANTONIO, SOLDATS et MATELOTS. 
+            
+            LE SERGENT. 
+            
+            Allons, mon pauvre Antonio. 
+            
+            ANTONIO. 
+            
+            Sergent, je suis à vos ordres… Roger ne revient
+            
+            pas. O mon Dieu ! je te remercie ! 
+            
+            (Antonio jette
+            
+            sa veste par terre ; il tend les mains, qu'on lui
+            
+            lie. Le sergent distribue de longues baguettes et
+            
+            des cordes goudronnées aux gens de l'équipage.)
+            
+            Dépêchons, , sergent : Roger pourrait venir. O ma
+            
+            mère ! si le Ciel ne me donne pas la force de résis
+            
+            ter à ce terrible châtiment, tu te consoleras en sa
+            
+            chant que ton fils est mort pour son ami ! Cama
+            
+            rades, frappez. 
+            
+            Au moment où tous les bras sont levés pour frapper Antonio, 
+            
+            op entend dans le fleuve appeler Antonio. 
+            
+            ROGER, dans la mer. 
+            
+            Antonio ! Antonio ! 
+            
+            SCENE XXII. 
+            
+            205
+            
+            SCENE XXII. 
+            
+            LES PRÉCÉDENTS, ROGER. 
+            
+            TOUS. 
+            
+            C'est Roger ! c'est Roger ! 
+            
+            ANTONIO. 
+            
+            Roger ! 
+            
+            LE SERGENT. 
+            
+            Il se débat dans les flots ; 
+            
+            il va atteindre le ro
+            
+            cher… Il disparait…
+            
+            ANTONIO. 
+            
+            11 s'est jeté à la nage, et ses forces épuisées…
+            
+            O mon ami ! 0 Roger ! non, tu ne seras pas vic
+            
+            time de ton amitié. (Au sergent, qui l'arrête.)
+            
+            Laissez – moi, laissez – moi. (Il échappe à ceux qui
+            
+            veulent le retenir.) Je veux mourir avec lui, ou le
+            
+            saliver. 
+            
+            ROGER, dans les
+            
+            vagues. 
+            
+            Antonio ! 
+            
+            ANTONIO. 
+            
+            Il m'appelle, et j'y vais. 
+            
+            11 s'élance à la mer. 
+            
+            18
+            
+            206
+            
+            LES DEUX MOUSSES. 
+            
+            LE COMMANDANT. 
+            
+            Les embarcations ! les cordages ! 
+            
+            On se jette à la page, et, un moment après, Antonio ramène
+            
+            Roger. Ils se tiennent embrassés. Roger est évanoui. 
+            
+            ROGER, revenant à lui. 
+            
+            Cher Antonio ! 
+            
+            ANTONIO. 
+            
+            Roger, mon cher Roger, reviens à toi. 
+            
+            LE SERGENT. 
+            
+            Le malheureux jeune homme a perdu toutes ses
+            
+            forces… Il revient…
+            
+            ROGER. 
+            
+            Antonio, sergent, mon commandant, je viens
+            
+            tenir ma promesse et recevoir ma punition. 
+            
+            TOUS. 
+            
+            Grâce ! grâce ! mon commandant. 
+            
+            LE COMMANDANT. 
+            
+            Je me sens ému jusqu'aux larmes. 
+            
+            SCENE XXIII. 
+            
+            207
+            
+            SCENE XXIII ET DERNIÈRE. 
+            
+            LES PRÉCÉDENTS, TONY ; LANGUILLE, 
+            
+            LA MÈRE BERTHE, LOUISE, 
+            
+            débarquant. 
+            
+            TONY. 
+            
+            Arrêtez, arrêtez, mon lieutenant… je vous
+            
+            signale…
+            
+            Un navire ? 
+            
+            LE LIEUTENANT. 
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+                
+                    TONY. 
+                
+            
+            
+                
+                    Je vous signale un voleur… Je l'ai péché ; c'est un poisson, et le voilà. Il tient un énorme poisson. 
+                
+            
+            
+                <stage type="tune">
+                    AIR : Tu soupires quand le jour se lève. 
+                </stage>
+            
+            
+                
+                    <l>Vl'à l'anneau dont vous étiez en peine ;</l>
+                    <l>À la mer il était tombé.</l>
+                    <l>Mais, grâce à mon filet, j' ramène</l>
+                    <l>L' gaillard qui l'avait dérobé.</l>
+                    <l>Suivant la règle militaire,</l>
+                    <l>Usant d' la plus grande rigueur,</l>
+                    <l>Faut un exempl' : que le conseil de guerre</l>
+                    <l>Ce soir s'assembl' pour manger le voleur <stage type="repetition"> (bis) .</stage></l>
+                
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            LES DEUX MOUSSES. 
+            
+            ROGER et ANTONIO. 
+            
+            O mon ami ! 
+            
+            ANTONIO. 
+            
+            O ma mère ! ô ma scur ! 
+            
+            Il les embrasse. 
+            
+            LANGUILLE. 
+            
+            Dieu ! comme, vous nagez, M. Roger ! 
+            
+            c'est
+            
+            comme un éperlan. A peine étiez – vous jeté à la
+            
+            nage, que j' ramène mon embarcation. Mère Ber
+            
+            the, mamselle Louise et moi, nous y montons. 
+            
+            Nous vous suivions ; mais nous avions beau ap
+            
+            peler, vous faisiez des brasses, des brasses… Enfin, 
+            
+            vous p'là, les v'là, nous v'là ; et voilà ! 
+            
+            LE LIEUTENANT. 
+            
+            Roger et Antonio, ce dernier trait vous honore
+            
+            également. Qu'il cimente votre rare amitié. Gran
+            
+            dissez ensemble, et confondez votre zèle pour le
+            
+            service du roi et votre amour pour la France. 
+            
+            Mes amis, demain nous mettons à la voile. 
+            
+            TONY… 
+            
+            Oh ! mon commandant, on va rembarquer…
+            
+            V'là le mal de terre qui me quitte. 
+            
+            TOUS. 
+            
+            A bord, à bord, la manoruyre ! 
+            
+            SCENE XXIII, 
+            
+            213
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="poem"> <lg>
+            
+            
+            
+                
+                    VAUDEVILLE FINAL. 
+                
+            
+            
+            
+                <stage type="tune">
+                    AIR : Ronde de Masaniello. 
+                </stage>
+            
+            
+                
+                    CHŒUR. 
+                
+            
+            
+               
+                    <l>La vie est un long pilotage, <stage type="repetition">} bis. </stage></l>
+                    <l>Où l'homme, vain jouet du sort,</l>
+                    <l>Toujours luttant contre l'orage,</l>
+                    <l>Vient tôt ou tard toucher au port.</l>
+                
+            
+            
+                
+                    LA MÈRE BERTHE. 
+                
+            
+               
+                    <l>Pour recueillir un héritage</l>
+                    <l>D'un enfant de noble maison,</l>
+                    <l>L'usurier, qui lorgn' le partage,</l>
+                    <l>Dit, en voyant la cargaison :</l>
+                
+            
+                
+                
+                    ANTONIO et ROGER. 
+                
+            
+            
+               
+                    À l'abordage ! 
+                
+            
+            
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l ana="unanalyzable">La vie est un long pilotage, etc.</l>
+                
+            
+                
+                    LE LIEUTENANT. 
+                
+            
+                
+                    <l>Par des auteurs à la lisière</l>
+                    <l>Thalie a ses droits méconnus ;</l>
+                    <l>Devant le vaisseau de Molière</l>
+                    <l>Leurs frêl's esquifs seront perdus.</l>
+               
+               
+               
+            
+            
+                
+                    ANTONIO et ROGER, 
+            
+                    Romantiques, amenez pavillon ! 
+                
+            
+            
+                
+                    CHŒUR
+                
+            
+               
+                    <l ana="unanalyzable">La vie est un long pilotage, etc.</l>
+                
+            
+            
+                
+                    TONY. 
+                
+            
+               
+                    <l>Quand j' n'ai pas l' sou, qu' la soif me mine,</l>
+                    <l>L'ennui sur moi jette l' grapin ;</l>
+                    <l>Mais quand je suis à la cantine,</l>
+                    <l>J' dis : Appétit, soif et chagrin…</l>
+                
+            
+                
+                    ANTONIO et ROGER. 
+            
+                    Virez de bord ! 
+                
+            
+            
+                
+                    CHŒUR. 
+                
+            
+              
+                    <l ana="unanalyzable">La vie est un long pilotage, etc.</l>
+                
+            
+            
+                    
+                
+                    LANGUILLE. 
+                
+            
+                
+                    <l>Actionnair's de théâtre en France,</l>
+                    <l>Actionnair's de nouveaux journaux,</l>
+                    <l>Actionnair's d'une diligence,</l>
+                    <l>Actionnair's de ponts et canaux….</l>
+                
+            
+            
+                
+                    ANTONIO et ROGER. 
+            
+                    Coulés à fond ! 
+                
+            
+            
+                    
+                
+                    CHŒUR. 
+                
+            
+               
+                    <l ana="unanalyzable">La vie est un long pilotage, etc.</l>
+                
+            
+                    
+                
+                    ROGER. 
+                
+            
+               
+                    <l>Sous les coups d'un prince barbare</l>
+                    <l>Nos vaisseaux restent en danger ;</l>
+                    <l>Mais le châtiment se prépare :</l>
+                    <l>La France dit au dey d'Alger…</l>
+                
+            
+            
+            
+            
+                
+                    ANTONIO et ROGER. 
+            
+                    Gare au brûlot ! 
+                
+            
+            
+                    
+                
+                    CHŒUR. 
+                
+            
+                
+                    <l ana="unanalyzable">La vie est un long pilotage, etc.</l>
+                
+            
+                    
+                
+                    ROGER, 
+                
+            
+                
+                    au public. 
+                
+            
+            
+               
+                    <l>Messieurs, pour ce léger ouvrage</l>
+                    <l>Notre auteur a conçu l'espoir</l>
+                    <l>D'échapper au terrible orage.</l>
+                    <l>Que faut–il lui dire ce soir ?</l>
+                
+            
+            
+            
+                
+            
+                    LANGUILLE. 
+            
+                    Fermez les écoutilles ! 
+                
+            
+            
+                    
+                
+                    ANTONIO. 
+                
+            
+                
+                    Imbécille ! … c'est une fausse manoeuvre. 
+                
+            
+            
+               
+                    <l>Si l' vent le chasse du rivage,</l>
+                    <l>Ah ! qu'il ne souffle pas trop fort !</l>
+                    <l>L'auteur, hélas ! craint le naufrage</l>
+                    <l>Daignez le conduire à bon port.</l>
+                
+            
+                    
+                
+                    CHŒUR. 
+                
+            
+               
+                    <l ana="unanalyzable">Si l' vent le chasse du rivage, etc.</l>
+                
+            
+            
+            </lg> </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            FIN. 
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,3554 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE CUISINIER POLITIQUE</title>
+                <title type="sub">VAUDEVILLE NON POLITIQUE EN UN ACTE</title>
+                <author key="NEZ" sort="1">
+                    <name>
+                        <forename>Théodore</forename>
+                        <surname>Nézel</surname>
+                        <addname type="pen_name">Théodore N.</addname>
+                        <addname type="pen_name">Théodore N***</addname>
+                    </name>
+                </author>
+                <author key="SIM" sort="2">
+                    <name>
+                        <forename>Antoine Jean-Baptiste</forename>
+                        <surname>Simonnin</surname>
+                    </name>
+                </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE CUISINIER POLITIQUE</title>
+                        <author>THÉODORE N*** ET SIMONNIN</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.ch/books?id=JrZoAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>The British Library</repository>
+                                <idno type="URL">http://access.bl.uk/item/viewer/ark:/81055/vdc_100033578845.0x000001</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1832-06-11">11 JUIN 1832</date>
+                <placeName>
+                    <settlement>THÉÂTRE DE L'AMBIGU-COMIQUE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+               <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            LE
+            
+            CUISINIER
+            
+            POLITIQUE, 
+            
+            VAUDE VILLE NON POLITIQUE
+            
+            EN UN ACTE, 
+            
+            PAR MM. THÉODORE N *** ET SIMONNIN ; 
+            
+            K
+            
+            REPRÉSENTÉ POUR LA PREMIÈRE FOIS A PARIS, SUR LE THÉATRE
+            
+            DE L'AMBIGU-COMIQUE, LE II JUIN 1832. 
+            
+            el
+            
+            PARIS. 
+            
+            A. LECLAIRE, ÉDITEUR, 
+            
+            RUE SAINT-DENIS, N ° 380, PASSAGE LEMOINE, ESCALIER O. 
+            
+            1832. 
+            
+            PERSONNAGES. 
+            
+            SAUCEMANN, cuisinier, aubergiste, 
+            
+            M. Léon. 
+            
+            CHARLES LEPRINCE, pharmacien français, M. DUPLANTY. 
+            
+            sous-officiers français, 
+            
+            HENRY, 
+            HENRY, 
+            
+            M. CullieR. 
+            
+            M. ANDRÉ. 
+            
+            Le major CHRISCHNICKDORFF, 
+            
+            M. GILBERT. 
+            
+            CRETLE, nièce de Saucemann, 
+            
+            Mlle BALTHAZAR. 
+            
+            PETERS, garçon d'auberge, 
+            
+            M. FRANCISQUE jeune. 
+            
+            Garçons et Filles d'Auberge. 
+            
+            Quatre SOLDATS ALLEMANDS de nouvelle recrue. 
+            
+            ú
+            
+            M
+            
+            U
+            
+            S
+            
+            E
+            
+            U
+            
+            L
+            
+            E
+            
+            La scène se passe dans une petite ville d'Allemagne, en 1809. 
+            
+            Ous
+            
+            Imp. d'Herhan, rue St.-Denis, n. 380. 
+            
+            LE
+            
+            CUISINIER POLITIQUE. 
+            
+            (Le théâtre représente une salle gothique ; à gauche un cabinet ; 
+            
+            au-dessus de la porte, un énorme ceil-de-boeuf ; à droite, un buffet. 
+            
+            Dans le fond du théâtre est un escalier qui conduit à un long paljer
+            
+            qui s'étend de toute la largeur de ce fond.)
+            
+            SCÈNE PREMIÈRE. 
+            
+            PETERS, CRETLE, garçons de cuisine, apportant des
+            
+            provisions dans des mannes qu'ils ont sur la téte. 
+            
+            CHOEUR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air du Maçon. </stage>
+            
+            
+                    <l>Le soupé du major,</l>
+                    <l>De c' major qu'on renomme,</l>
+                    <l>Va donner plus d'essor</l>
+                    <l>À l'auberg' du Lion-d'Or !</l>
+                    <l>Qu' chacun r'double d'abord</l>
+                    <l>Et de zèle et d'effort,</l>
+                    <l>Car le major est gastronome !</l>
+                    <l>Qu' chacun soit occupé</l>
+                    <l>À lui faire un soupé</l>
+                    <l>Digne d'un officier hupé !</l>
+                    <l>Qu' chacun soit occupé</l>
+                    <l>À c'que rien n'manque à son soupé.</l>
+                </lg>
+            </div>
+            
+            
+            (Les garçons arrivent du dehors, chargés de leurs
+            
+            provisions, qu'ils vont porter à la cuisine.)
+            
+            CRETLE. 
+            
+            Allez, allez vite
+            
+            et distinguez-vous, car le major est con
+            
+            vaisseur. 
+            
+            PETERS
+            
+            Et amateur… de pâtisserie surtout ! Oh ! la pâtisserie…
+            
+            après son Dieu, c'est son sauveur ! …
+            
+            CRETLE, 
+            
+            Il me semble
+            
+            que ce n'est
+            
+            pas à toi de t'en moquer, tu l'ai
+            
+            mes bien autant que le major. 
+            
+            Quoi ? 
+            
+            Heim ? 
+            
+            PETERS. 
+            
+            CRETLE. 
+            
+            PETERS. 
+            
+            Quoi t'est-ce que tu dis que j'aime autant que le major ? 
+            
+            ! 
+            
+-4. 
+            
+            CRETLE. 
+            
+            Eh ben : ! 
+            
+            la pâtisserie, puisque tu
+            
+            te relèves la nuit pour
+            
+            aller au buffet manger les petits pâtés, les tourtes… les
+            
+            meringues…
+            
+            PETERS, 
+            
+            etonné. 
+            
+            Moi ! j'me relève la nuit pour aller manger des petits pâtés
+            
+            et des meringues ! … (En frissonnant d'horreur.)Ah ! quelle
+            
+            calomnie atroce ! … D'abord, non-seulement je n'ai jamais
+            
+            pu y mordre à la pâtisserie, mais encore, c'est qu'une fois
+            
+            couché, je me garderais bien de me relever… car on en fait
+            
+            des histoires sur cette auberge qui était autrefois un vieux
+            
+            monastère de femmes…
+            
+            CRETLE. 
+            
+            Ce ne sont pas des histoires, c'est bien la vérité. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air : Douce jouvencelle (de Zampa.)</stage>
+            
+            
+                    <l>Cette nuit encore,</l>
+                    <l>Bien avant l'aurore,</l>
+                    <l>J'entendis des pas ;</l>
+                    <l>C'était le symptôme</l>
+                    <l>Qu'un pâle fantôme</l>
+                    <l>Sortait du trépas ! …</l>
+            
+                    PETERS, tremblant. 
+            
+                    <l>Du trépas ! que dites-vous là ?</l>
+            
+                    CRETLE. 
+            
+                    <l>I' n' faut pas trembler pour ça ;</l>
+                    <l>Du courage !</l>
+                    <l>Je le gage,</l>
+                    <l>Les r'venans</l>
+                    <l>N' sont pas tous des méchans.</l>
+                </lg>
+            </div>
+            
+            
+            PETERS. 
+            
+            C'est égal, ça me donne la chair de poule ! …
+            
+            CRETLE. 
+            
+            Tu crois donc aux revenans ? 
+            
+            PETERS. 
+            
+            Tiens c'te bêtise, si j'y crois… surtout aux revenans fe
+            
+            melles… Ah ! … les femmes, ça revient… bien plus vite…
+            
+            demande plutôt à ton oncle quand il sera de retour du café
+            
+            où il est allé lire la gazette du soir, discuter des affaires de
+            
+            l'état… parler de son Bonaparte qu'il appelle toujours Na
+            
+            poléon, car il s'occupe plus de la politique que de ses four
+            
+            neaux, le père Saucemann…
+            
+            CRETLE. 
+            
+            Silence… le voilà ! 
+            
+            SCÈNE II. 
+            
+            LES PRÉCÉDENS, SAUCEMANN. 
+            
+            SAUCEMANN, un journal à la main, et se parlant à lui-méme. 
+            
+            Je parie tout ce qu'on veut que si le prince Charles n'avait
+            
+            pas tant hésité à đégarnir son centre pour renforcer son avant
+            
+            garde, Napoléon ne serait pas maintenant à Schonbrunn. 
+            
+            PETERS, 
+            
+            à Cretle. 
+            
+            Vois-tu… vois-tu comme il fait des plans…
+            
+            SAUCEMANN. 
+            
+            Hein… (apercevánt Peters causant avec Cretle) . Que
+            
+            vois-je ? encore ensemble ! … toujours ensemble ! … je vous
+            
+            avais pourtant défendu, mam'selle ma nièce, de causer avec
+            M. Peters. 
+            
+            CRETLE. 
+            
+            Je ne cause pas, mon oncle… c'est lui qui me parle. 
+            
+            PETERS. 
+            
+            Ah ! ça, 
+            
+            c'est la vérité… c'qu'elle vous dit là…
+            
+            SAUCEMANN. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air du Vaudeville du Baiser au porteur. </stage>
+            
+            
+                    <l>Silenc', toi qui fais le bon apôtre ! …</l>
+                    <l>C'est vrai ça, je n' peux faire un pas,</l>
+                    <l>Sans les trouver l'un avec l'autre,</l>
+                    <l>Et cela ne me convient pas !</l>
+                    <l>D'vous voir ensemble, il ne me convient pas !</l>
+                    <l>Quel instinct toujours les rassemble ?</l>
+            
+                    CRETLE, le cajolant. 
+            
+                    <l>Allons, voyons, point de courroux !</l>
+                    <l>S'il vous déplaît d'nous voir ensemble,</l>
+                    <l>Eh bien ! mon oncle, mariez-nous.</l>
+                </lg>
+            </div>
+            
+            
+            SAUCEMANN. 
+            
+            Quel raisonnement ! les marier pour qu'ils ne soient plus
+            
+            ensemble ! vous avez une bien fausse politique, mademoi
+            selle… c'est du machi…
+            
+            PETERS. 
+            
+            Comment, du machi ?. 
+            
+            Du machiavélisme tout pur…
+            
+            SAUCEMANN. 
+            
+            Bon ! le voilà encore retombé dans sa…, 
+            
+            PETERS, à Cretle. 
+            
+            SAUCEMANN. 
+            
+            Dans sa… achève… dans sa politique… c'est cela que tu
+            
+            veux dire… ignare, qui ne sait pas qu'il existe les plus grands
+            
+            rapports entre le métier de cuisinier et celui de… de gou
+            
+-6-
+            
+            vernant…
+            
+            Ah ! par exemple…
+            
+            PETERS. 
+            
+            SAUCEMANN. 
+            
+            Il n'y a pas de par exemple, c'est comme cela. 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">Air : Il me faudra quitter l'empire. </stage>
+            
+            
+                    <l>Qu'est-c' qu'un état ? une grande cuisine</l>
+                    <l>Où notre argent est toujours fricassé ;</l>
+                    <l>Le souverain devant qui l'on s'incline,</l>
+                    <l>C'est l' chef qui t'nant, dans un moment pressé,</l>
+                    <l>La queu' d' la poêle, est l' plus embarrassé.</l>
+                    <l>Les commis sont marmitons de tout' sorte ;</l>
+                    <l>Les ministres, vous l' devinez,</l>
+                    <l>Sont des gat's-sauces galonnés ;</l>
+                    <l>Et l'peuple, un pauvr' qui mendie à la porte,</l>
+                    <l>Et voit les plats lui passer devant l' nez.</l>
+            
+                </lg>
+            </div>
+            
+            PETERS. 
+            
+            Au fait, c'est presque vrai tout de même. 
+            
+            SAUCEMANN, 
+            
+            Maintenant, va t'occuper du souper du major…
+            
+            PETERS. 
+            
+            Soyez donc tranquille… tous nos marmitons sont déjà à la
+            
+            besogne ; j'ai l'oeil à la cuisine, et jevais mettre la main à la pâte. 
+            
+            SAUCEMANN. 
+            
+            A propos de pâte… on est venu cette nuit encore manger
+            
+            la pâtisserie que j'avais faite hier au soir. 
+            
+            CRETLE ET PETERS. 
+            
+            Et qui ? 
+            
+            SAUCEMANN, lançant sur Peters un regard accusateur. 
+            
+            Qui ? … je le sais bien, moi, qui ! … ou du moins, je m'en
+            
+            doute… et si ma politique n'est pas en défaut…
+            
+            PETERS. 
+            
+            Ah ! ça mais, à la fin, monsieur Sauçemann, à la fin, c'est
+            
+            trop fort… vous me calomniez…
+            
+            CRETLE, à Saucemann. 
+            
+            Oui, vous le calomniez, ce pauvre garçon…
+            
+            SAUCEMANN. 
+            
+            Si ça n'est pas lui, qu'il dise donc quels sont les coupables. 
+            
+            PETERS. 
+            
+            S'il faut absolument vous dire ce que j'en pense, c'est les
+            
+            lats…
+            
+            SAUCEMANN. 
+            
+            Quappelles-tu, scélérat… scélérat toi-même ! 
+            
+-7
+            
+            PETERS. 
+            
+            Mais non, c'n'est pas
+            
+            à vous que ça s'adresse ; je parle des
+            
+            rats à quatre pattes. 
+            
+            SAU CEMANN. 
+            
+            Ah ! bon ! … Comment, tu crois que les rats auraient osé…
+            
+            Avec ça qu'ils ne sont pas timides. 
+            
+            SAUCEMANN, 
+            
+            PETERS. 
+            
+            Pourtant j'aperçois dans ce flan (il le prend dans le buffet.)
+            
+            les traces d'un chicot d'une dimension telle…
+            
+            PETERS. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air de l'Écu de six francs. </stage>
+            
+            
+                    <l>J' m'en vais vous dir' ce qui m'indique</l>
+                    <l>Qu' c'est l'ouvrag' de ces animaux ;</l>
+                    <l>Comm' vous ils aim'nt la politique,</l>
+                    <l>Comm' vous ils dévor'nt les journaux !</l>
+                    <l>Et la preuve, encor cett' semaine</l>
+                    <l>N'avons-nous pas trouvé trois rats</l>
+                    <l>Empoisonnés pas les Débats,</l>
+                    <l>La Gazette et la Quotidienne ?</l>
+                </lg>
+            </div>
+            
+            
+            Eh bien, après ? 
+            
+            SAUCEMANN. 
+            
+            PETERS. 
+            
+            Puisqu'ils mangent bien du papier, ils doivent encore bien
+            
+            mieux tomber sur la pâtisserie. 
+            
+            Dans le fait, mon oncle, il a raison. 
+            
+            SAUCEMANN, 
+            
+            CRETLE. 
+            
+            C'est ce que nous saurons plus tard… Voici M. le Major, 
+            
+            retournez à la cuisine, et vous, Me Cretle, allez cueillir des
+            
+            fruits pour le dessert. 
+            
+            Oui, mon oncle. 
+            
+            CRETLE. 
+            
+            Eh bien ! qu'est-ce que je vois là… (ils se sauvent.) Je
+            
+            SAUCEMANN, les regardant. 
+            
+            n'en vas vous en donner des baiser's. 
+            
+            SCÈNE III. 
+            
+            LE MAJOR, SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            Jésus mengotte ! …
+            
+            je puis me vanter d'avoir connu bien
+            
+            des buses dans ma vie… ah ! oui, de fameuses buses encore…
+            
+            mais de cette force-là. 
+            
+            8
+            
+            SAUCEMANN. 
+            
+            Après qui en avez-vous donc, monsieur le Major ? …
+            
+            LE MAJOR. 
+            
+            1
+            
+            Ce sont de nouvelles recrues qu'on me charge de former…
+            
+            auprès de qui j'emploie en vain tous les moyens… j'ai beau
+            
+            crier, taper… ils ont la tête si dure qu'ils ne sentent rien. 
+            
+            Peut-être que vous y allez
+            
+            trop
+            
+            doucement…
+            
+            LE MAJOR. 
+            
+            SAUCEMANN. 
+            
+            Dame, j'y ai cassé ma canne, je ne puis pas faire plus pour
+            
+            eux…
+            
+            Ah ! ces pauvres diables ! …
+            
+            SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air de Turenne. </stage>
+            
+            
+                    <l>Quelles machines ! quelles brutes !</l>
+                    <l>Que la plupart des soldats allemands !</l>
+            
+                    SAUCEMANN. 
+            
+                    <l>Je n'aime pas les voir en buttes</l>
+                    <l>À tant de mauvais traitemens ;</l>
+                    <l>Car de Bellonne ils sont tous les enfans ! …</l>
+            
+                    LE MAJOR
+            
+                    <l>Oui, c'est le nom qu'à tout guerrier l'on donne ;</l>
+                    <l>Mais pour bien les discipliner,</l>
+                    <l>En Allemagne il faut donner</l>
+                    <l>La schlag aux enfans de Bellonne !</l>
+                </lg>
+            </div>
+            
+            
+            SAUCEMANN. 
+            
+            Est-ce que vous pensez, monsieur le Major, que la guerre
+            
+            durera encore long-temps ?. 
+            
+            LE MAJOR. 
+            
+            Cela dépend… si on ne signe pas la paix…
+            
+            SAUCEMANN. 
+            
+            Il est certain alors que nous continuerions… C'était aussi
+            
+            mon opinion…
+            
+            LE MAJOR. 
+            
+            On prétend que le prince Charles parcourt nos environs…
+            
+            SAUCEMANN. 
+            
+            Le prince Charles… est-ce qu'il voudrait aller trouver
+            
+            l'empereur Napoléon qui est à Schonbrunn ? il n'y a que cinq
+            
+            lieues d'ici…
+            
+            LE MAJOR. 
+            
+            A propos de Napoléon… voici deux ordonnances de po
+            
+            lice que vous afficherez dans cette salle…
+            
+            SAUCEMANN. 
+            
+            Tiens… tiens… tiens… c'est concernant les espions français…, 
+            
+            9
+            
+            LE MAJOR. 
+            
+            Oui, le pays en est inondé… et j'ai reçu l'ordre de faire
+            
+            fusiller sur-le-chainp tous ceux qui me tomberaient sous la
+            
+            main… le même sort est réservé à ceux qui
+            
+            chercheraient
+            
+            à faciliter leur évasion… Vous entendez, Saucemann ? …
+            
+            SAUCEMANN. 
+            
+            Soyez tranquille… j'ai pour habitude de m'informer qui
+            
+            je loge, je chauffe. 
+            
+            ou je raffraîchis…
+            
+            LE MAJOR. 
+            
+            L'autre ordonnance concerne les partisans de Schiller, qui
+            
+            se conduisent en vrais brigands…
+            
+            ils pillent aussi bien amis
+            
+            qu'ennemis ; il est donc juste de les traiter comme les espions
+            
+            français…
+            
+            Fusillés aussi ? …
+            
+            SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            Tout cela ne
+            
+            m'empêchera pas de bien souper ce soir…
+            
+            vous entendez, Saucemann…, 
+            
+            Soyez tranquille…
+            
+            SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            Soyez tranquille… soyez tranquille… c'est bien facile à
+            
+            dire… vous ne vous souvenez peut-être pas seulement de
+            
+            quelle manière je vous ai dit d'arranger mon faisan ? 
+            
+            Ah ! pardonnez moi…
+            
+. avec une barde de lard…
+            
+            SAUCEMANN. 
+            
+            Après ? 
+            
+            LE MAJOR
+            
+            SAUCEMANN. 
+            
+            Après ? … (Cherchant.) Une barde de lard. 
+            
+. 
+            
+. 
+            
+            LE MAJOR, vivement. 
+            
+            Du tout ! : …
+            
+. ça cn ferait deux ; il n'en faut qu'une, mon
+            
+            cher !. 
+            
+            Une barde de lard ayec une feuille de vigne. 
+            
+            ensuite des filets de chevreuil aux confitures… et des petites
+            
+            saucisses à la marmelade de
+            
+            pommes. 
+            
+            SAUCEMANN, 
+            
+            1
+            
+            Il faut convenir, 
+            
+            monsieur le Major, que vous faites un
+            
+            fameux
+            
+            gastronome ! 
+            
+            C'est le défaut des grands hommes… Regarde l'histoire…
+            
+            LE MAJOR. 
+            
+            à commencer par les Romains. 
+            
+            2
+            
+            IO
+            
+            1
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air de Marianne. </stage>
+            
+            
+                    <l>L'antiquité fut gastronome ;</l>
+                    <l>On délibéra mot à mot,</l>
+                    <l>Jadis dans le sénat de Rome,</l>
+                    <l>À quelle sauce on mettrait un turbot.</l>
+                    <l>Et Novellus !</l>
+                    <l>Il fit bien plus :</l>
+                    <l>Trois nuits à table il resta.</l>
+                    <l>Et pour ça,</l>
+                    <l>De son canton,</l>
+                    <l>Il fut, dit-on,</l>
+                    <l>Élu préteur,</l>
+                    <l>Par Tibère, empereur ! …</l>
+                    <l>Aujourd'hui le fait est croyable :</l>
+                    <l>Combien de gens en fonctions,</l>
+                    <l>Ne doivent leurs élections</l>
+                    <l>Qu'aux exploits de la table !</l>
+                </lg>
+            </div>
+            
+            
+            SAUCEMANN. 
+            
+            J'auraisoin quelesouper deM. le major ne laisserien à désirer. 
+            
+            LE MAJOR. 
+            
+            En attendant, je vais faire une petite visite au Bourgmes
+            
+            tre, pour savoir les nouvelles… s'il y en a…
+            
+            SAUCEMANN. 
+            
+            Ah ! vous me les apprendrez, monsieur le major ! …
+            
+            Oui…
+            
+            si tout est cuit à point. 
+            
+            LE MAJOR. 
+            
+            SAUCEMANN, sortant avec le Major. 
+            
+            Je ne quitte plus mes fourneaux. 
+            
+            LE MAJOR. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Ils sont les mieux placés. </stage>
+            
+            
+                    <l>De votre art culinaire,</l>
+                    <l>Montrez-vous donc jaloux !</l>
+                    <l>Voyons, faites-moi faire,</l>
+                    <l>Bonne chère chez vous !</l>
+            
+                    SAUCEMANN. 
+            
+                    <l>Ne craignez nul déboire,</l>
+                    <l>J' prouv'rai que j'ai du tact ! …</l>
+                    <l>Il y va de ma gloire ! …</l>
+            
+                    LE MAJOR. 
+            
+                    <l>Et de mon estomac !</l>
+                </lg>
+            </div>
+            
+            
+            (Ils sortent.)
+            
+-II
+            
+            SCÈNE IV. 
+            
+            HENRY, LÉON. 
+            
+            (Ils sont enveloppés dans de grands manteaux, sous lesquels Léon
+            a un costume d'officier autrichien, et Henry un costume de Turc.)
+            
+            LÉON, arrivant le premier. 
+            
+            Allons, entre donc. 
+            
+            Où sommes-nous ? 
+            
+            HENRY
+            
+            LÉON. 
+            
+            Je n'en sais rien… viens toujours… n'as-tu pas peur qu'on
+            
+            nous mange ? 
+            
+            HENRY. 
+            
+            Non. 
+            
+. 
+            
+. mais je tremble qu'on ne nous arrête. 
+            
+            LÉON. 
+            
+            Ne suis-je pas en officier autrichien. 
+            
+. 
+            
+            HENRY. 
+            
+            Oui… mais moi, avec mon costume de Turc. 
+            
+. 
+            
+. 
+            
+            LÉON. 
+            
+            Eh bien ! tu pourrais au besoin te faire passer pour un mar
+            
+            chand de chansons. 
+            
+            HENRY. 
+            
+            Tu plaisantes toujours… tu sais pourtant ce qui nous attend
+            
+            şi nous nous laissons prendre. 
+            
+            Fusillés, voilà tout, 
+            
+            LÉON. 
+            
+            HENRY. 
+            
+            Qu'est-ce que tu veux donc de plus ? 
+            
+            LÉON. 
+            
+            Allons, Henry, tu as tort ; car l'aventure est vraiment pi
+            
+            quante. Nous étions, depuis deux mois, prisonniers dans la ci
+            tadelle de Straulitz, sans aucun espoir d'en sortir, qu'à la paix, 
+            
+            lorsque la fête de l'empereur d'Allemagne arrive : notre gou
+            
+            verneur, pour mieux montrer son dévoûment, donne bal et
+            
+            spectacle… il nous demande si nous voulons nous charger
+            
+            d'un rôle dans une pièce de circonstance, destinée à célébrer
+            le grand François…
+            
+            HENRY
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air du vaudeville de Partie et Revanche. </stage>
+            
+            
+                    <l>C'est pourtant vrai ; d'abord, par politesse,</l>
+                    <l>Chacun de nous se fait acteur…</l>
+            
+                    LÉON. 
+            
+                    <l>Voilà qu'enfin l'on commence la pièce,</l>
+                    <l>Dont le sujet, pour notre gouverneur,</l>
+            
+                    12
+            
+                    <l>Était un peu compliqué, par bonheur !</l>
+                    <l>Cet imbroglio le fatigue,</l>
+                    <l>Et lorsque dans un contre-sens</l>
+                    <l>Il cherchait la clef de l'intrigue,</l>
+                    <l>Nous avons pris la clef des champs.</l>
+                </lg>
+            </div>
+            
+            
+            Ayant sur nous les costumes de nos personnages…
+            
+            HENRY, 
+            
+            Que voilà encore…
+            
+            LÉON. 
+            
+            HENRY
+            
+            Le mien est gentil, n'est-ce pas ? 
+            
+            LÉON. 
+            
+            C'est pourtant à notre ami, à notre camarade Leprince, 
+            
+            pharmacien à l'ambulance, que nous devons notre fuite ! …
+            
+            C'est drôle, un pharmacien de l'armée française, que l'on
+            
+            HENRY. 
+            
+            fait prisonnier ! …
+            
+            LÉON. 
+            
+            C'est fort heureux pour nous que ce pauvre Leprince ait
+            
+            partagé notre captivité…
+            
+            HENRY
+            
+            Oui, puisque nous lui devons notre fugue ! …
+            
+            LÉON. 
+            
+            L'idée lui en est venue au moment d'essayer son costume : 
+            
+            en se voyant sur le dos un hel uniforme d'un feld-maréchal
+            
+            russe, il conçoit le projet, en sortant de scène, de sortir de
+            
+            prison… Nous le suivons… Les sentinelles, trompées par son
+            
+            uniforme, non seulement, nous ouvrent les portes, mais en
+            
+            core, nous présentent les armes… et nous voilà courant les
+            
+            champs, pour faire le denouement de la pièce que nous étions
+            
+            chargés de représenter… Tu ne trouves pas cela drôle, toi ? 
+            
+            Ce serait drôle, si nous n'étions pas affamés, altérés et acca
+            
+            HENRY
+            
+            bles de fatigue. 
+            
+            LÉON. 
+            
+            C'est
+            
+            pour
+            
+            cela
+            
+            que nous sommes entrés ici, où, probable
+            
+            ment, on ne nous refusera pas, pour de l'argent, de quoi ré
+            parer‘nos forces. 
+            
+            HENRY. 
+            
+            Et ce pauvre Leprince, qu'est-il devenu ? 
+            
+            LÉON. 
+            
+-Je l'ai laissé dans un champ de betteraves, où il semblait
+            
+            prendre racine. 
+            
+-13
+            
+            HENRY
+            
+            Je le crois parbleu bien ! avec ses bottes à l'écuyère, il en
+            
+            fonçait à chaque pas. 
+            
+            LÉON. 
+            
+            En nous arrêtant ici, cela lui donnera le temps de nous re
+            
+            joindre. 
+            
+            HENRY
+            
+            On vient… que je cache mon habit de Turc, au moins…
+            
+            (Il s'enveloppe dans son manteau.)
+            
+            SCÈNE V. 
+            
+            LES MÊMES, LEPRINCE. 
+            
+            LEPRINCE, arrivant par la grande porte du fond. 
+            
+            Hola ! eh ! la fille ! … garçons ! … il n'y a donc personne
+            
+            pour me recevoir ici ? …
+            
+            LÉON. 
+            
+            Je reconnais notre. camarade le pharmacien, à l'embarras
+            
+            qu'il fait. 
+            
+            LEPRINCE. 
+            
+            Ah ! je vous retrouve enfin…
+            
+            il faut convenir que vous
+            
+            êtes bien aimables tous les deux ; vous me laissez en route…
+            
+            Silence donc… si on t'entendait ! …
+            
+            LÉON. 
+            
+            HENRY. 
+            
+            Tu fais un bruit à faire accourir tous les gens
+            
+            de la maison. 
+            
+            LEPRINCE. 
+            
+            FT C'est bien aussi mon intention… j'ai sur le corps un habit
+            
+            de grand personnage, j'ai le droit d'être insolent… et je con
+            que ces af
+            
+            tinue mon rôle… hola ! eh ! … qu'est-ce que c'est
+            
+            fiches que je vois là ? … (Il lit.) Tous les Français qu'on arrê
+            
+            tera sous un déguisement quelconque seront tusillés sur-le
+            
+            champ… Mes amis, allons-nous-en sans faire de bruit…
+            
+            LÉON. 
+            
+            Tu n'es donc plus tenté d'appeler la fille ? 
+            
+            LEPRINCE. 
+            
+            Vous en parlez bien à votre aise, parce que vous avez de
+            
+            grands manteaux pour vous cacher… Henry, prête-moi le tien. 
+            
+            HENRY. 
+            
+            Merci ! … pour que tous les enfans courent après moi dans
+            
+            la rue…
+            
+            LEPRINCE. 
+            
+            Je te le change contre mes bottes à l'écuyère… regarde ! …
+            
+            elles sont toutes neuves…
+            
+-14-
+            
+            HENRY
+            
+            C'est ça qu'elles sont bien commodes pour courir…
+            
+            LE PRINCE. 
+            
+            Et toi, Léon, tu ne veux pas faire un petit troque avec moi ? 
+            
+            Je m'en garderais bien ! …
+            
+            LEPRINCE. 
+            
+            LÉON. 
+            
+            Vous êtes tous les deux des ingrats ! … car enfin vous me la
+            
+            devez votre liberté… j'aurais mieux fait d'attendre ; car j'a
+            
+            vais un autre projet… là…
+            
+            Qu'est-ce que c'était ? …
+            
+            LÉON. 
+            
+            LEPRINCE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air du vaudeville de la Famille de l'Apothicaire. </stage>
+            
+            
+                    <l>Je voulais leur jouer un tour</l>
+                    <l>De mon métier d'apothicaire :</l>
+                    <l>Je voulais en masse, un beau jour,</l>
+                    <l>Purger la citadelle entière ! …</l>
+                    <l>Nous partions bien tranquillement,</l>
+                    <l>Sans nulle crainte, j'imagine…</l>
+                    <l>Met-on sur pied un régiment</l>
+                    <l>Qui vient de prendre médecine ? …</l>
+                </lg>
+            </div>
+            
+            
+            LÉON. 
+            
+            Est-ce que tu aurais préféré ce moyen à celni que nous
+            
+            avons pris ? …
+            
+            LEPRINCE. 
+            
+            Certainement ! … pense donc que mon brillant uniforme
+            
+            va me faire remarquer… Ah ! si je pouvaisme mettre dans…
+            
+            un sac ! …
+            
+            SCÈNE VI. 
+            
+            LES MÊMES, UN PAYSAN en redingote grise, portant des paniers
+            
+            de fruits. 
+            
+            LE PAYSAN. 
+            
+            Pourriez-vous me dire, monsieur, où je trouverai le père
+            
+            Saucemann ? 
+            
+            HENRY
+            
+            Est-ce que nous connaissons cela ? … (aux autres.) Sauce
+            
+            mann ? … connaissez-vous Saucemann ? …
+            
+            LEPRINCE, à Léon. 
+            
+            Connais-tu Saucemann, toi ? 
+            
+            LÉON. 
+            
+            Saucemann ? … qu'est-ce que c'est que ça ? 
+            
+-15-
+            
+            LEPRINCE, au paysan. 
+            
+            Qu'est-ce que vous lui voulez, au père Chose… Chosemann ? 
+            
+            LE PAYSAN. 
+            
+            Ah ! c'est que j'allons vous dire, il est un p'tit peu original, 
+            
+            surtout d'puis qu'il donne dans la politique. 
+            
+            LÉON
+            
+            Ah ! il donne dans la politique, c'est bon à savoir…
+            
+            LE PAYSAN. 
+            
+            C'est au point qu'il a renvoyé le jardinier qui lui fournis
+            
+            sait des légumes, sous prétesse que cet homme n'aime pas
+            
+            Bo
+            
+            naparte. Alors, moi, je v'nons pour tâcher d'avoir la pratique, 
+            
+            parce que moi, voyez-vous, la politique, ça m'est égal, je suis
+            
+            de toutes les opinions. 
+            
+            Comment ! de toutes ? 
+            
+            LÉON. 
+            
+            LE PAYSAN. 
+            
+            Mais, dame ! en ma qualité d'jardinier, je n'pouvons pas
+            
+            imoins faire
+            
+            que celui qu'est là-haut. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">Air : Tout ça passe en même temps. </stage>
+            
+            
+                    <l>Le soleil veut, c'est certain,</l>
+                    <l>Que chaque opinion subsiste,</l>
+                    <l>L'soleil est républicain,</l>
+                    <l>Royalist', bonapartiste ;</l>
+                    <l>Aussi, du sein de la terre,</l>
+                    <l>Le grain, les fleurs et les fruits,</l>
+                    <l>Les oignons, les pomm's de terre,</l>
+                    <l>Tout ça pousse <stage type="repetition"> (bis) </stage>, ça pouss' pour tous les partis.</l>
+            
+            
+            
+                    Il a ma foi raison ! 
+            
+                    LÉON. 
+            
+                    TOUS. 
+            
+                    <l ana="unanalyzable">Tout ça pousse <stage type="repetition"> (bis) </stage>, etc.</l>
+            
+            
+                </lg>
+            </div>
+            LEPRINCE, 
+            
+            å part. 
+            
+            Ah ! quelle idée ! … voilà mon affaire ? … (Haut au paysan.)
+            
+            Vous dites donc que vous vondriez avoir la pratique du
+            maître de l'auberge ? 
+            
+            LE PAYSAN. 
+            
+            Oui, j'voulons lui vendre ces paniers de fruits. 
+            
+            LEPRINCE. 
+            
+            Ces paniers de fruits. 
+            
+. 
+            
+. je vous les achète, moi. 
+            
+. 
+            
+. 
+            
+            LE PAYSAN. 
+            
+            Ah ! laissez donc, vous voulez vous gausser de moi. 
+            
+            Du tout. Combien en voulez-vous ? 
+            
+            LEPRINCE. 
+            
+-16
+            
+            LE PAYSAN. 
+            
+            Six ducats… c'est-y trop ? 
+            
+            LEPRINCE. 
+            
+            Non… mais j'y mets une condition. 
+            
+            Où diable veut-il en venir ? 
+            
+            LÉON, bas à Henry : 
+            
+            Je n'en sais rien. 
+            
+            Laquélle ? …
+            
+            HENRY. 
+            
+            LE PAYSAN. 
+            
+            LEPRINCE. 
+            
+            Vous avez là une redingote quime paraft très-bien faite…
+            
+            qui est-ce qui vous habille, mon brave homme ? 
+            
+            LE PAYSAN. 
+            
+            C'est le cordonnier de not' village, monsieur. 
+            
+            LEPRINCE. 
+            
+            (Leprince, tout en parlant, cherche la bourse qui est dans son uni
+            
+            forme ; il tire d'abord de sa poche son mouchoir et son porte
+            
+            feuille qu'il pose provisoirement sur la table.)
+            
+            Il a bien du talent le cordonnier de votre village… Je
+            
+            voudrais
+            
+            que vous me cédassiez avec vos fruits la redingote…
+            
+            il y a dans cette bourse 20 ducats… cela vous convient-il
+            
+            pour
+            
+            le tout ? 
+            
+            LE PAYSAN. 
+            
+            J'crois ben, ça ne me coûte pas moitié…
+            
+            LEPRINCE, au paysan. 
+            
+            En ce cas, exécutons le traité tout de suite ! … Allons, 
+            
+            voyons, dépêche-toi donc ! …
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Garde à vous. </stage>
+            
+            
+                    <l>Habit bas ! habit bas ! …</l>
+                    <l>Ce marché-là m'arrange ;</l>
+                    <l>Ta capote ? … en échange</l>
+                    <l>Voici mes vingt ducas ;</l>
+                    <l>Mais, mon vieux, ne crois pas</l>
+                    <l>Qu'ainsi l'on récompense</l>
+                    <l>Tous ceux à qui, je pense,</l>
+                    <l>Dans plus d'un autre cas,</l>
+                    <l>On a dit : Habit bas !</l>
+                    <l>Habit bas !</l>
+            
+                    LÉON, pendant que le paysan et Leprince s'arrangent. 
+            
+                    Méme air. 
+            
+                    <l>Que de gens ici-bas</l>
+                    <l>De mérites postiches</l>
+                    <l>Ont des habits bien riches,</l>
+                    <l>Bien décorés, hélas !</l>
+            
+                    17
+            
+                    <l>Quels saluts n'ont-ils pas ! …</l>
+                    <l>Qu'on verrait de bassesse,</l>
+                    <l>D'orgueil, de petitesse,</l>
+                    <l>S'il arrivait le cas</l>
+                    <l>De leur dire : Habits bas !</l>
+                    <l>Habits bas !</l>
+                </lg>
+            </div>
+            
+            
+            * LE PAYSAN. 
+            
+            Vous voyez qu' ça n'a pas été long-temps à se conclure ! 
+            
+            Adieu, 
+            
+            monsieur. 
+            
+            si vous vouliez aussi de la culotte ? …
+            
+            il ne faut pas vous gêner…
+            
+            LEPRINCE. 
+            
+            Merci ! j'en ai assez comme cela…
+            
+            (Le paysan sort.). 
+            
+            SCÈNE VII. 
+            
+            LES MÊMES
+            
+            ? 
+            
+            HORS LE PAYSAN. 
+            
+            LEPRINCE. 
+            
+            He bien ! Messieurs, que dites-vous de mon acquisition ? 
+            
+            Je dis que
+            
+            c'est un peu
+            
+            cher. 
+            
+            LEPRINCE. 
+            
+            HENRY. 
+            
+            C'est possible, mais au moins avec cela… et en retirant
+            
+            les plumes de coq qui sont à mon chapeau, je serai beaucoup
+            
+            moins exposé…
+            
+            SCÈNE VIII. 
+            
+            LES MÊMES, SAUCEMANN, · DOMESTIQUES. 
+            
+            SAUCEMANN, 
+            
+            айх
+            
+            domestiques. 
+            
+            Allons vite… le couvert… (A part.) Qu'est-ce que
+            
+            c'est
+            
+            ! donc que ces individus-là ? … par où sont-ils entrés ? … (S'a
+            
+            vançant vers eux.) Messieurs, puis-je savoir à qui j'ai l'hon
+            
+            neur de parler ? 
+            
+' LEPRINCE. 
+            
+            Chut ! … (Il le prend à part.) Je voyage incognito. 
+            
+            SAUCEMANN. 
+            
+            Ah ! … je serais cependant bien aise de savoir ce que vous
+            
+            voulez… ! 
+            
+            Nous voulons manger. 
+            
+            LEPRINCE
+            
+            Et boire…
+            
+            HENRY, prenant les bouteilles. 
+            
+            SAUCEMANN, 
+            
+            à part. 
+            
+            Comme ils y vont cavalièrement… ça me paraît louche. 
+            
+            3
+            
+-18
+            
+            LÉON. 
+            
+            Qu'est-ce que vous allez nous donner avec cela ? …
+            
+            SAUCEMANN. 
+            
+            Avec cela ? … je n'ai à vous offrir qu'une bonne soupe à
+            
+            la bière…
+            
+            LEPRINCE. 
+            
+            Un joli ragoût que sa soupe à la bière… Eh bien ! nous
+            
+            nous en contenterons… à la guerré comme à la guerre ! …
+            
+            SAUCEMANN. 
+            
+            Oh ! à la guerre comme à la guerre, ça sent furieusement
+            
+            le partisan ça…
+            
+            LEPRINCE, emportant la redingote du paysan. 
+            
+            Allons, Messieurs… entrons dans ce cabinet… (à Sauce
+            
+            mann, qui veut l'en empêcher. Chut ! …
+            
+            HENRY, à Saucemann qui veut les suivrc. 
+            
+            Chut ! …
+            
+            Chut ! …
+            
+            LÉON, méme jeu. 
+            
+            (Ils entrent tous les trois dans le cabinet.)
+            
+            SCÈNE IX. 
+            
+            SAUCEMANN, seul. 
+            
+            De plus en plus louche ! Décidément ce sont des brigands…
+            
+            C'en sont… c'en sont… (Il aperçoit le portefeuille et le
+            nữouchoir restés sur la table.) Ah ! ils ont laissé un porte
+            
+            feuille… je puis savoir tout au juste à qui j'ai affaire… (Il
+            
+            ouvre le portefeuille, en tire un grand papier.) Voyons…
+            
+            voyons cela… ah bien bai, mais ce n'est pas en allemand…
+            
+            (Il lit. :) « Feuille de route. » Que diable, qu'est-ce que cela
+            
+            signifie ? … Ah ! parbleu ! ce petit Peters, qui depuis huit jours
+            
+            apprend le français, va m'expliquer tout de suite…
+            
+            SCÈNE X. 
+            
+            SAUCEMANN, PETERS. 
+            
+            PETERS. 
+            
+            Monsieur Saucemann, le faisan va être trop cuit ; 
+            
+            si vous
+            
+            vouliez…
+            
+            SAUCEMANN. 
+            
+            Tu arrives bien… lis-moi cela. 
+            
+            PETERS, lisant. 
+            
+            « Feuille de route…
+            
+            (parlant.) C'est du français.-
+            
+            SAUCEMANN. 
+            
+            Qu'est-ce que cela veut dire ? Voyons… si on ne me
+            
+            vole pas les trois francs par mois que je donne pour te
+            
+            faire apprendre les langues étrangères… feuille de route…
+            
+            19
+            
+            qu'est-ce que c'est ? 
+            
+            PETERS. 
+            
+            J'viens d' vous l' dire, c'est du français. 
+            
+            SAUCEMANN. 
+            
+            Traduis-moi ce français-là en allemand, que je sache au
+            
+            moins…
+            
+            PETERS, à part. 
+            
+            Ça me fait l'effet d'une pétition ça… (Haut.) Eh bien ! 
+            
+            mais feuille de route… c'est un titre… une qualité… c'est
+            
+            comme qui dirait : Monseigneur…
+            
+            SAUCEMANN, à lui-même. 
+            
+            Monseigneur… est-ce que par hasard au lieu de brigands, 
+            
+            je recevrais de grands personnages… poursuis…
+            
+            PETERS. 
+            
+            Je ne peux pas encore bien lire les petites lettres impri
+            
+            mées… mais je vois là… de l'écriture. 
+            
+            il y a écrit : Le
+            
+            prince… Charles ! …
+            
+            SAUCEMANN, très-étonné. 
+            
+            Le prince Charles…
+            
+            PETERS. 
+            
+            Oui… Charles entre deux parenthèses. 
+            
+            SAUCEMANN. 
+            
+            Les deux parenthèses. 
+            
+            ce sont les deux officiers qui l'ac
+            
+            compagnent… il voyage incognito… Et puis ces chut ! qu'il
+            
+            m'a faits. 
+            
+            plus de doute ! … Et moi qui leur ai refusé à
+            
+            manger. 
+            
+. 
+            
+. En bon politique, je m'en vais réparer toutes
+            
+            mes hévues. : ; (à Peters.) Vas dire à Cretle qu'elle vienne
+            de suite… toi, dresse le souper… quant à moi, j'attends lå
+            
+            la première occasion… et je la saisis…' (à Peters.) Vas-t'en
+            
+            donc ! (Peters sort.) Sije pouvais trouver unemanière adroite…
+            
+            (Il entend les trois officiers dire : A la santé des armées ! …
+            
+            Il s'écrie aussitôt :) Autrichiennes ! …
+            
+            SCÈNE XI. 
+            
+            SAUCEMANN, LÉON, HENRY, LEPRINCE. 
+            
+            LEPRINCE. 
+            
+            Heim ? … qu'est-ce que c'est ? …
+            
+            SAUCEMANN. 
+            
+            C'est moi… voilà tout…
+            
+            Est-ce que nous serions reconnus ? 
+            
+            LÉON, à Henry. 
+            
+            Tout juste ! …
+            
+            20
+            
+            SAUCEMANN. 
+            
+            LEPRINCE. 
+            
+            Messieurs, partons ! …
+            
+            SAUCEMANN. 
+            
+            Ah ! mon prince ! … excusez mon indiscrétion… avant de
+            
+            partir, faites-moi au moins l'honneur de manger le
+            
+            souper
+            
+            de
+            
+            M. le Major. 
+            
+            LEPRINCE. 
+            
+            Qu'est-ce qu'il dit donc ? …
+            
+            SAUCEMANN, avec mystère. 
+            
+            Je sais tout… vous êtes le prince Charles…
+            
+            LEPRINCE. 
+            
+            Moi ! … (à part.) C'est-à-dire je suis Charles Leprince…
+            
+            SAUCEMANN. 
+            
+            Soyez tranquille, je n'en dirai rien… Mais, voyez-vous, 
+            
+            Monseigneur, j'ai le malheur d'être un politique trop fin pour
+            
+            mon état… j'en ai deviné bien d'autres… Tenez, l'empereur
+            
+            Napoléon à qui vous rendez justice comme moi, parce que
+            
+            les grands hommes entre eux ne se déchirent pas… Eh bien ! 
+            
+            Napoléon, je le connais sur le bout de mon doigt… il ne fait
+            
+            pas une chose que je ne la prévoie…
+            
+            LEPRINCE. 
+            
+            Vraiment ? 
+            
+            C'est un fou. 
+            
+            LÉON, à Henry. 
+            
+            SAUCEMANN. 
+            
+            Oui ! et je vais vous en donner la preuve… Quand il est
+            
+            venu en Allemagne, j'ai dit tout de suite : Il veut entrer à
+            
+            Vienne ; et il est déjà à Schoenbrunn. 
+            
+            Voilà qui est fort. 
+            
+            HENRY. 
+            
+            SAUCEMANN. 
+            
+            Bien plus encore : quand il n'était que le général Bona-. 
+            
+            parte, et que j'ai lu dans les gazettes qu'il allait faire une ex
+            
+            pédition en Egypte, j'ai deviné qu'il irait au Caire ! … Et ça
+            
+            n'a pas manqué ! … il y a été ! C'est même de là qu'il a amené
+            
+            son mameluck… A présent, qu'est-ce qu'il veut ?' il veut con
+            
+            duire l'armée française dans toutes les capitales de l'Europe ! …
+            
+            enfin, il veut être un grand conquérant… c'est sa politique, 
+            
+            comme c'est la mienne d'être un grand cuisinier. 
+            
+            Ah ! vous êtes un grand cuisinier ! …
+            
+            LEPRINCE. 
+            
+            21
+            
+            SAUCEMANN. 
+            
+            Je m'en flatte ! …
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air de Préville et Taconnet. </stage>
+            
+                    <l>Bon cuisinier, malgré ma politique,</l>
+                    <l>Informez-vous de moi dans ces cantons ;</l>
+                    <l>Vous entendrez partout la voix publique</l>
+                    <l>Faire l'élog' de mes pieds de moutons,</l>
+                    <l>De mes bifftecks et de mes mirotons.</l>
+                    <l>Pour la choucroûte on me renomme,</l>
+                    <l>Mais où je sais illustrer mon fourneau <stage type="repetition"> (bis.)</stage></l>
+                    <l>Et m'distinguer pour l'amour du grand homme,</l>
+                    <l>C'est dans l'poulet à la Marengo !</l>
+                </lg>
+            </div>
+            
+            
+            LEPRINCE. 
+            
+            C'est très bien pensé ; je vois que vous avez des connais
+            
+            sances en diplomatie…
+            
+            LÉON, à part. 
+            
+            Allons, voilà Leprince qui rivalise de bêtise avec lui. 
+            
+            SAU CEMANN. 
+            
+            Votre altesse est trop bonne… il est vrai que j'entends
+            
+            assez bien le système continental de Napoléon… je vois qu'il
+            
+            en veut terriblement aux Anglais… et que si l'aigle tenait le
+            
+            léopard, le léopard serait bientot fricassé ! 
+            
+            LE PRINCE. 
+            
+            Ah ! vous croyez que Bonaparte n'aimepas le léopard ? 
+            
+            SAUCEMAMN. 
+            
+            Le léopard ? … c'est sa bête noire…
+            
+            Léon, prenant Saucemann à part. 
+            
+            Vous abusez de la complaisance de S. A. Leprince, je dois
+            
+            vous en prévenir, préférerait se mettre à table…
+            
+            SAUCEMANN. 
+            
+            C'est juste… c'est très juste… tenez regardez… vous le
+            
+            voyez, on s'occupe de
+            
+            vous. 
+            
+            SCÈNE XII. 
+            
+            LES MÊMES, CRETLE, plusieurs garçons portant le couvert. 
+            
+            SAUCEMANN, aux garçons et filles traversant le théatre en
+            
+            servant. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Flic, flac ! … (d'Adam.)</stage>
+            
+            
+                    <l>Allons donc ! vite ! que l'on s'empresse !</l>
+                    <l>Pour nous quel bonheur !</l>
+                    <l>Et quelle gloire ! et quel honneur !</l>
+                    <l>De servir en personne une altesse ! …</l>
+            
+                    22
+            
+                    <l>C'est bien à présent</l>
+                    <l>Qu'il faut montrer notre talent ! …</l>
+            
+                    CRETLE. 
+            
+                    <l>La rencontre n'est pas mince !</l>
+                    <l>Pour la maison quel trésor ! …</l>
+            
+                    SAUCEMANN, 
+            
+                    à part. 
+            
+                    <l>Surtout pour peu que Leprince</l>
+                    <l>Soit gourmand comm' le major !</l>
+            
+                    Reprise du chœur. 
+            
+                    <l ana="unanalyzable">Allons, donc ! vite ! etc.</l>
+                </lg>
+            </div>
+            
+            
+            SAUCEMANN. 
+            
+            1
+            
+            Mademoiselle… faites la révérence… encore plus bas…
+            
+            et vous, 
+            
+            ôtez donc vos bonnets…
+            
+            Chut ! …
+            
+            LEPRINCE. 
+            
+            SAUCEMANN. 
+            
+            A part.) C'est la troisième fois que j'ai l'honneur de l'en
+            
+            tendre me faire chut ! …
+            
+            Hâtez-vous donc ! 
+            
+            LÉON, à Saucemann. 
+            
+            SAUCEMANN. 
+            
+            Vous allez être servis dans la minute… et si votre altesse…
+            
+            voulait, en attendant, faire connaissance avec le gosier de ma
+            
+            nièce ? …
+            
+            LEPRINCE. 
+            
+            Qu'est-ce-que vous me faites l'honneur deme dire ? …
+            
+            SAUCEMANN, montrant Cretle. 
+            
+            Elle roucoule comme une tourterelle amoureuse… allons
+            
+            Mademoiselle, … chantez à ces Messieurs la ballade de la
+            
+            Nonne rôtie…
+            
+            La Nonne rotie ! …
+            
+            TOUS. 
+            
+            SAUCEMANN. 
+            
+            C'est l'histoire de la maison… Eh bien ! Mademoiselle, 
+            
+            partez donc… moi, pendant ce temps, j'achève de mettre
+            
+            votre couvert…
+            
+            SCÈNE XIII…
+            
+            LES MÊMES, excepté Saucemann. 
+            
+            LEPRINCE. 
+            
+            Allons, ma belle enfant, quand vous voudrez nous servir la
+            
+            Nonne rôtie ? …
+            
+            CRETLE. 
+            
+            Ah ! mon dieu, Messieurs, je n'ai pas l'habitude de me
+            
+            23
+            
+            faire prier… écoutez bien… et si vous ne dormez pas de la
+            
+            nuit, vous ne vous en prendrez qu'à vous seuls…
+            
+            <div type="poem">
+                <lg>
+            
+                    BALLADE. 
+                    <stage type="tune">Air : Quand je quittai la Normandie (de Robert-le-Diable de
+                        Meyerberr.)</stage>
+            
+            
+                    <l>À Saint-Wilfrid, gente nonnette,</l>
+                    <l>Dont la Saxe était le berceau,</l>
+                    <l>Savait faire biscuits, galette,</l>
+                    <l>Soupirs de nonne, et doux gâteau.</l>
+                    <l>Mais, ô douleurs !</l>
+                    <l>Ses sœurs,</l>
+                    <l>Trop jalouses de sa science,</l>
+                    <l>L'ont jetée au four par vengeance !</l>
+                    <l>Elle fut, en sortant du four,</l>
+                    <l>Peupler des morts le noir séjour.</l>
+            
+                    HENRI. 
+            
+                    Il paraît que les vierges du Seigneur ont le cæur un tant
+            
+                    soit peu féroce dans ce pays ci ? …
+            
+                    CRETLE. 
+            
+                    N'est-ce pas que ça fait horreur ? 
+            
+                    TOUS TROIS. 
+            
+                    Oui ! oui ! ça fait horreur ! …
+            
+                    CRETLE. 
+            
+                    Deuxième couplet. 
+            
+                    <l>Toutes les nuits la nonne errante</l>
+                    <l>Près du four où cuirent ses os,</l>
+                    <l>Apparaît, pâle et gémissante ! …</l>
+                    <l>Et, pour apaiser ses sanglots,</l>
+                    <l>On dit bien hauts</l>
+                    <l>Ces mots :</l>
+                    <l>Ne gémis plus, vierge saxonne !</l>
+                    <l>Ne fais plus tes soupirs de nonne !</l>
+                    <l>Ô toi qui fus rôtie au four,</l>
+                    <l>Retourne dans ton noir séjour !</l>
+                </lg>
+            </div>
+            
+            
+            LEPRINCE. 
+            
+            Vous aviez bien raison de nous prévenir : cette histoire est
+            
+            vraiment terrible ; et la Nonne, revient-elle toujours ? …
+            
+            CRETLE. 
+            
+            On prétend qu'on l'apercoit encore de temps en temps se
+            
+            promener la nuit dans cette salle. 
+            
+            LÉON. 
+            
+            Toute rôtie ? … toute cuite ? 
+            
+            Mon Dieu, oui ! …
+            
+            CRETLE, 
+            
+-24-
+            
+            LEPRINCE. 
+            
+            Ma chère, enfant je vous remercie de votre complaisance, 
+            
+            et pour
+            
+            la récompenser, je veux vous offrir une dot…
+            
+            LÉON, à part. 
+            
+            Qu'est-ce qu'il dit donc ? …
+            
+            LEPRINCE. 
+            
+            Aussitot
+            
+            que votre coeur aura parlé…
+            
+            CRETLE. 
+            
+            C'est fait, Monsieur. 
+            
+            Attrape…
+            
+            Ah ! c'est fait…
+            
+            HENRY, à part. 
+            
+            LEPRINCE
+            
+            CRETLE. 
+            
+            Oui… oui… Monsieur… il y a ici le petit Peters dont mon
+            
+            oncle ne voulait pas pour neveu, parce qu'il était pauvre ; 
+            
+            maintenant, grâce à la dot, il n'y a plus de raison pour qu'il le
+            
+            refuse, et c'est heureux, voyez-vous… car je suis pressée d'en
+            
+            finir, parce que…
+            
+            SCÈNE XIV. 
+            
+            LES MÊMES, PETERS, qui vient d'entendre ce qu'a dit Cretle, 
+            
+            se place entre elle et le prince, tenant le plat sur lequel
+            
+            se trouve le faisan. 
+            
+            Parce que quoi ? 
+            
+            PETERS. 
+            
+            CRETLE. 
+            
+            Vous le savez bien. ; 
+            
+. le parce que. 
+            
+            imaginez-vous, 
+            
+            Messieurs, qu'il m'a entraînée un soir sur les bords du fleuve…
+            
+            Voulez-vous bien vous taire, Cretle ! 
+            
+            PETERS. 
+            
+            Et
+            
+            que
+            
+            là. 
+            
+. 
+            
+            Eh bien ! là ? : 
+            
+            CRETLE. 
+            
+            LEPRINCE. 
+            
+            PETERS. 
+            
+            Là, nous avons pêché ensemble. 
+            
+            Voilà tout, 
+            
+            Mes
+            
+            sieurs… (à Cretle.) Fi ! que c'est laid, Mamzelle ! … de dire
+            
+            ces choses-là…
+            
+. 
+            
+            CRETLE
+            
+            Puisqu'il veut me doter, là…
+            
+            PETERS. 
+            
+            Ah ! c'est différent ! 
+            
+-25
+            
+            SCÈNE XV. 
+            
+            LES MÊMĖS, SAUCAMANN, GARÇONS. 
+            
+            SAUCEMANN. 
+            
+            Monseigneur, votre altesse est servie. 
+            
+            Silence donc ! 
+            
+            LÉON. 
+            
+            SAUCEMANN, bas à Leprince. 
+            
+            Ah ! c'est vrai ! … pardon… mille pardons, mon prince…
+            
+            mais, voyez-vous, je suis si heureux ! si glorieux ! …
+            
+            LEPRINCE, sévèrement. 
+            
+            Je vous avais recommandé de vous observer. 
+            
+            SAUCEMANN. 
+            
+            Je vais m'observer, ce sera désormais ma politique ! … je
+            
+            vous jure que c'est la dernière indiscrétion que vous aurez å
+            
+            me reprocher : 
+            
+            LEPRINCE, HENRY ET LÉON. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air du Siège de Corinthe. </stage>
+            
+            
+                    <l>Allons, allons nous mettre à table ! …</l>
+                    <l>À l'avenir soyez discret ! …</l>
+            
+                    SAUCEMANN : 
+            
+                    <l>D'mon souper fin et délectable,</l>
+                    <l>J'en suis sûr, on s'ra satisfait.</l>
+            
+                    LEPRINCE
+            
+                    <l>De grand matin</l>
+                    <l>Ou cette nuit, peut-être,</l>
+                    <l>Nous voulons disparaître.</l>
+            
+                    LÉON. 
+            
+                    <l>Si l'on demande enfin</l>
+                    <l>Ce que nous sommes ? …</l>
+            
+                    SAUCEMANN. 
+            
+                    <l>J'dirai trois hommes,</l>
+                    <l>Trois officiers</l>
+                    <l>Qui vont rejoindre leurs quartiers.</l>
+            
+                    (Parlé.) C'est cela. 
+            
+                    LEPRINCE. 
+            
+                    ENSEMBLE. 
+            
+                    <l ana="unanalyzable">Allons, allons nous mettre à table, etc.</l>
+                    <l ana="unanalyzable">Allez, allez vous mettre à table, etc.</l>
+                </lg>
+            </div>
+            
+            
+            (Henry, Léon et Leprince entrent dans le eabinet ; des garçons et dest
+            
+            filles les suivent pour les servir) 
+            
+-4
+            
+-26
+            
+            SCÈNE XVI. 
+            
+            SAUCEMANN, puis LE MAJOR. 
+            
+            SAUCEMANN, 
+            
+            Dieu ! comme ça va donner du relief à ma maison, quand
+            
+            on saura dans le pays que j'ai eu l'honneur d'héberger le
+            
+            prince Charles ! … (Regardant le cabinet.) Le voilà à table ! 
+            il mange comme un simple mortel ! … Dieu ! comme il
+            
+            mange !. 
+            
+            le prince surtout, il dévore… J'ai vu travail
+            
+            ler bien des mâchoires, certainement… et des mâchoires de
+            
+            grand seigneur, mais je dois cette justice au prince Charles, 
+            tordre et
+            je n'en ai jamais vu de sa force… il ne fait
+            
+            que
+            
+            avaler…
+            
+            LE MAJOR. 
+            
+            Ah ! je vais donc souper ! …, servez-moi tout de suite, Sau
+            
+            cemann, car j'ai un appétit…
+            
+            SAUCEMANN, à part. 
+            
+            Ah ! mon Dieu ! voilà l'autre à présent ! comment lui ap
+            
+            prendre…
+            
+            LE MAJOR. 
+            
+            A-t-on jamais vu, ce bourgmestre qui prétendait me rete
+            
+            nir à souperavec lui…
+            
+            SAUCEMANN, à part. 
+            
+            Il aurait aussi bien fait d'accepter, 
+            
+            LE MAJOR. 
+            
+            Il voulait, disait-il, me faire manger d'un excellent pud
+            
+            ding ·
+            
+            SAUCEMann, d'un air embarrassé. 
+            
+            Monsieur le major, il faut que je vous dise…
+            
+            LE MAJOR. 
+            
+            Je me moque pas mal, moi, de son excellent pudding ; 
+            
+            j'aime bien mieux mon faisan, mon chevreuil aux confi
+            
+            tures… Ah ! ça, vous en avez eu bien soin ? 
+            
+            SAUCEMANN. 
+            
+            Ah ! tout est bien cuit… mais…
+            
+            Bien cuit à point ? 
+            
+            A point… mais…
+            
+            LE MAJOR. 
+            
+            SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            En ce cas, 
+            
+            servez ! et servez chaud ! 
+            
+            SAUCEMANN. 
+            
+            C'est que tout…
+            
+-27-
+            
+            LE MAJOR, 
+            
+            Tout n'est donc pas cuit ? 
+            
+            SAUCEMANN. 
+            
+            Au contraire, tout est cuit et… (regardant dans le cabinet) 
+            
+            et fricassé…
+            
+            Tant mieux ! 
+            
+            LE MAJOR. 
+            
+            SAUGEMANN. 
+            
+            Fricassé…
+            
+            c'est-à-dire mangé ! …
+            
+            LE MAJOR. 
+            
+            Comment ? … si vous vouliez bien ne pas vous permettre
+            
+            de plaisanter ainsi…
+            
+            SAUCEMANN. 
+            
+            Rien n'est plus sérieux… j'ai été forcé de servir votre
+            
+            souper…
+            
+            LE MAJOR. 
+            
+            Et à qui, s'il vous plaît ? …
+            
+            SAUCEMANN, 
+            
+            A un illustre personnage. 
+            
+            LE MAJOR, 
+            
+            A un illustre. 
+            
+            Chut ! il est là ! 
+            
+            SAUCEMANN avec mystère. 
+            
+            &gt; 
+            
+            LE MAJOR. 
+            
+            Un illustre personnage ! … Avez-vous bien soigné tout ça ? 
+            
+            Oh ! oui…, vous sentez que pour vous…
+            
+            UCEMANN. 
+            
+            LE MAJOR. 
+            
+            Le faisan ? avez-vous eu soin qu'il fût bien. 
+            
+            SAUCEMANN. 
+            
+            Oui, oui. 
+            
+. 
+            
+. il est avec son chambellan. 
+            
+            Il a un chambellan ? …
+            
+            LE MAJOR. 
+            
+            SAUCEMANN, 
+            
+            · Oui, sans doute ! (Avec mystère.) C'est le prince Charles ! 
+            
+            LE MAJOR. 
+            
+            Le prince Charles ! … ah ! je le connais beaucoup… j'ai
+            
+            servi sous ses ordres…, Je vais lui présentei mes respects…
+            
+            SAUCEMANN, qui regarde dans le cabinet. 
+            
+            Attendez… attendez… il prend son verre ! … vous pourriez. 
+            
+            le faire boire de travers… Là… allez maintenant…
+            
+            LE MAJOR, allant pour entrer dans le cabinet. 
+            
+            28-
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : On n'offense pas une belle. </stage>
+            
+            
+                    <l>Oui, certes ! il faut que je lui parle…</l>
+            
+                    (Revenant de l'entrée du cabinet.)
+            
+                    <l part="I">Dieux ! quelle erreur ! …</l>
+            
+                    SAUCEMANN. 
+            
+                    <l part="F">Comment donc ça ?</l>
+                    <l>Quoi ! ce n'est pas le prince Charle ?</l>
+            
+                    <l part="I">Eh ! non, du tout.</l>
+            
+                    LE MAJOR. 
+            
+                    SAUCEMANN. 
+            
+                    <l part="F">Qui donc est là ?</l>
+            
+                    LE MAJOR. 
+            
+                    $
+            
+                    <l>Tenez… voyez cette capote grise,</l>
+                    <l>Qui mieux que la pourpre autorise</l>
+                    <l>À reconnaître la grandeur ! …</l>
+                    <l>Et ce chapeau qui couvre un front vainqueur.</l>
+                    <l>C'est lui ! … faut-il qu'on vous le dise ? …</l>
+                    <l>Des Français, oui, c'est l'empereur.</l>
+            
+                    SAUCEMANN. 
+            
+            
+            
+                    ENSEMBLE. 
+                    <l>Je ne reviens pas d'ma surprise ! …</l>
+                    <l>Des Français, quoi ! c'est l'empereur ?</l>
+            
+                    LE MAJOR. 
+            
+                    <l>Oui, des Français, c'est l'empereur !</l>
+            
+                </lg>
+            </div>
+            
+            SAUCEMANN, avec étonnement. 
+            
+            C'est l'empereur Napoléon ? …
+            
+            LE MAJOR. 
+            
+            C'est l'empereur Napoléon…
+            
+            SAU CEMANN. 
+            
+            Comment ! j'aurais l'honneur et le bonheur…
+            
+            LE MAJOR. 
+            
+            Tenez, regardez encore ! … sa redingote grise… son petit
+            
+            chapeau… et puis à côté de lui… son mameluck…
+            
+            SAUCEMANN. 
+            
+            C'est pourtant vrai… j'en mourrai de joie, c'est sûr…'
+            
+            LE MAJOR. 
+            
+            Ils viennent dans cette salle, tenons-nous à l'écart…
+            
+            SAUCEMANN. 
+            
+            Ah ! laissez-moi… je veux baiser ses bottes à l'écuyère…
+            
+            LE MAJOR. 
+            
+            Suivez-moi… je vous l'ordonne comme major…
+            
+            SAUCEMANN, entraîné par le major. 
+            
+            O Napoléon ! … ô grand homme ! …
+            
+            (Ils se cachent dans la pièce vis-à-vis le cabinct.). 
+            
+            29
+            
+            SCÈNE XVII. 
+            
+            HENRY, LÉON, LEPRINCE, se promenantles bras croise's
+            
+            derrière le dos, SAUCEMANN ET LE MAJOR cachés. 
+            
+            Ne trouvez-vous pas, Messieurs, que c'est bien ça ? …, 
+            
+            LEPRINCE. 
+            
+            Pas mal, pas
+            
+            mal…
+            
+            Roustan…
+            
+            LÉON. 
+            
+            LEPRINCE. 
+            
+            Il a dit Roustan…
+            
+            SAUCEMANN, passant sa téte. 
+            
+            Apportez-moi ma carte…
+            
+            SAUCEMANN. 
+            
+            LEPRINCE. 
+            
+            Monsieur le Major, il demande sa, carte…
+            
+            LÉON. 
+            
+            Je crois maintenant qu'il est temps de nous retirer et de
+            
+            rejoindre nos frères d'armes. 
+            
+            HENRY. 
+            
+            C'est mon avis aussi… mais, avant tout, buvons encore un
+            
+            coup à la santé de l'empereur ! 
+            
+            LEPRINCE. 
+            
+            J'accepte, Messieurs…
+            
+            (Ils rentrent dans le cabinet.)
+            
+            SCÈNE XVIII. 
+            
+            LE MAJOR, SAUCEMANN…
+            
+            SAUCEMANN. 
+            
+            Vous avez raison, c'est bien lui… je le reconnais main
+            
+            tenant…
+            
+            LE MAJOR. 
+            
+            Voilà une bien belle occasion de finir la guerre et d'attra
+            
+            per un grade… je serai fait général ! c'est sûr…
+            
+            Pourquoi ça ? …
+            
+            SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            En réjouissance d'une semblable capture…
+            
+            SAUCEMANN. 
+            
+            Comment ! est-ce que par hasard vous auriez l'intention
+            
+            de l'arrêter ? 
+            
+            30
+            
+            LE MAJOR. 
+            
+            Mais certainement… je me garderai bien d'y manquer. 
+            
+            SAUCEMANN. 
+            
+            Je ne souffrirai pas que chez moi ce grand homme reçoive
+            
+            la moindre avanie…
+            
+            LE MAJOR. 
+            
+            Mon cher Saucemann, je vous aime beaucoup… mais si
+            
+            vous faites le moindre signe. 
+            
+            ou si vous dites le moindre
+            
+            mot encore…
+            
+            vous serez fusillé ! 
+            
+            Fusillé ? 
+            
+            SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            Plutôt deux fois qu'une… je vais commencer par
+            
+            donner
+            
+            un tour de clef à la porte… là… maintenant allez me cher
+            
+            cher mes recrues qui dorment à l'écurie…
+            
+. 
+            
+            Moi… jamais ! …
+            
+            SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            Si vousn'y allez pas… je vous déclare traître à la patrie et
+            
+            fusillé…
+            
+            Eh bien ! on nous enferme… voulez-vousbien nous ouvrir, 
+            
+            LEPRINCE, en dedans. 
+            
+            Messieurs ! 
+            
+            LE MAJOR. 
+            
+            Sire… j'en demande bien pardon à votre Majesté… mais
+            
+            je vous tiens et ne vous lâcherai pas comme ça ! …
+            
+            LEPRINCE. 
+            
+            7
+            
+            Mais vous vous trompez, je ne suis pas…
+            
+            Nous vous avons vu et entendu, sire…
+            
+            LE MAJOR. 
+            
+            Allez au diable ! 
+            
+            LEPRINCE. 
+            
+            LE MAJOR. 
+            
+            Saucemann, pour la deuxième et dernière fois, je vous, 
+            
+            somme d'aller me chercher mes recrues. 
+            
+            SAUCEMANN. 
+            
+            Ça m'est impossible… vous le voyez, mes jambes sont
+            
+            muettes… la paralysie ne saurait être défendue. 
+            
+            LE MAJOR. 
+            
+            J'y vais moi-même… mais songez bien que jusqu'à mon re
+            
+            tour, vous êtes responsable des prisonniers sur votre tête ! …
+            
+-31-
+            
+            SCÈNE XIX. 
+            
+            SAUCEMANN, HENRY, LÉON et LEPRINCE, én
+            
+            fermés. 
+            
+            LÉON, HENRY et LEPRINCE y frappant avec force à la porte du
+            
+            cabinet. 
+            
+            Voulez-vous bien ouvrir ! ou nous brisons la porte ! 
+            
+            SAUCEMANN, 
+            
+            Sire, écoutez-moi, ô sire ! …
+            
+            LEPRINCE. 
+            
+            Tu n'es qu'un imbécille…
+            
+            SAUCEMANN. 
+            
+            Vous êtes trop bon, sire… je veux vous sauver…
+            
+            LEPRINCE. 
+            
+            Eh bien, ouvre-nous…
+            
+            SAUCEMANN. 
+            
+            Je n'ai pas la clef… mais votre Majesté peut sortir par l'oeil
+            
+            de-boeuf qui est au-dessus de la porte… en se gênant un peu, 
+            
+            il y a place pour trois… montez sur la table… et puis après
+            
+            sur une chaise… y êtes-vous ? …
+            
+            LEPRINCE paraît à cheval sur l'ail-de-boeuf avec Henry et
+            
+            puis aprèsavec Léon. 
+            
+            Mais, mon ami, on s'est trompé, je ne suis pas Napoléon. 
+            
+            SAUCEMANN. 
+            
+            Alors qui êtes-vous ? 
+            
+            LÉON, bas à Leprince. 
+            
+            Si tu le lui dis… nous sommes perdus…'
+            
+            C'est pourtant vrai…
+            
+            LEPRINCE. 
+            
+            SAUCEMANN. 
+            
+            Ah ! mon Dieu ! voilà le major… descendez vite…
+            
+            SCÈNE XX. 
+            
+            LES MÊMES, LE MAJOR ET SES RECRUES, armées de fourches. 
+            
+            LE MAJOR, plaçant ses recrues à la porte du cabinet. 
+            
+            Vous allez rester là jusqu'à ce que je revienne… Votre con
+            
+            signe est d'embrocher quiconque tenterait de sortir du cabinet. 
+            
+            Est-il cannibal pour un major ? 
+            
+            SAUCEMANN. 
+            
+-32-
+            
+            LE MAJOR. 
+            
+            Vous avez bien entendu ? 
+            
+            Ya ! va ! 
+            
+            LES RECRUES. 
+            
+            LE MAJOR. 
+            
+            Maintenant je vais chez le bourgmestre… réveiller toute
+            
+            la ville pour qu'il ne m'échappe pas ! …
+            
+            O gros ambitieux ! 
+            
+            SAUCEMANN. 
+            
+            LE MAJOR. 
+            
+            Vous, Saucemann, vous allez me faire le plaisir d'aller vous
+            
+            coucher et de dorinir, sous peine de… vous savez bien…
+            
+            SAUCEMANN. 
+            
+            Et si je n'ai pas envie de sommeiller, moi ! …
+            
+            LE MAJOR. 
+            
+            Vous prendrez de l'opium. D'ailleurs, voilà qu'il est mi
+            
+            nuit, il est temps de vous coucher, vous et tout votremonde ! …
+            
+            SAU CEMANN. 
+            
+            C'est juste ! il est minuit ! …
+            
+            LE MAJOR. 
+            
+            Allons, dépêchons ! … donnez-moi toutes les clefs qui com
+            
+            muniquent avec le dehors, et rentrez…
+            
+            SAUGEMANN, 
+            
+            Les voilà… geôlier cupide… j'en aurai le cauchemar, c'est
+            
+            sûr ! 
+            
+            (Après avoir fermé toutes les portes, le major sort en recomman…
+            dant de nouveau le cabinet à ses recrues. Saucemann, qui va se
+            
+            coucher, emporte les lumières.)
+            
+            SCÈNE XXI. 
+            
+            LEPRINCE, HENRY, LÉON, reparaissant à l'oeil-de-boeuf, 
+            
+            LES RECRUES. 
+            
+            (Il fait nuit sur le théâtre.)
+            
+            Ils sont partis ! …
+            
+            LEPRINCE. 
+            
+            LÉON. 
+            
+            Oui, mais nous sommes gardés à vue ! …
+            
+            HENRY. 
+            
+            Ils ont l'air de bonnes grosses bêtes ; il y aura peut-être moyen
+            
+            de les attendrir. 
+            
+            LEPRINCE. 
+            
+            Attendez, je vais les haranguer… Eh ! mes amis ! …
+            
+            33
+            
+            L'ALLEMAND', présentant sa fourche. 
+            
+            Nix ! 
+            
+            LEPRINCE
+            
+            Prenez donc garde avec votre fourche… un peu plus il me
+            
+            creyait l'œil. 
+            
+            Nix ! …
+            
+            L'ALLEMAND. 
+            
+            LEPRINCE. 
+            
+            Et moi, je vous dis que si… voyons, vous me paraissez ai
+            
+            mables et compatissans ; est-ce qu'il n'y aurait pas moyen de
+            
+            nous entendre
+            
+            Nix ! 
+            
+            L'ALLEMAND. 
+            
+            LEPRINCE. 
+            
+            Est-il bête, celui-là, avec ses nix… et vous autres, là… je
+            
+            suis bien sûr que vous ne pensez pas de même ? 
+            
+            Nix ! nix ! 
+            
+            TOUS ENSEMBLE. 
+            
+            LÉON, qui a été chercher quelques bouteilles. 
+            
+            Attendez, moi, je vas leur faire changer de langage… Est
+            
+            ce que vous n'accepteriez pas volontiers…
+            
+            Ya ! ya ! 
+            
+            TOUS. 
+            
+            LÉON. 
+            
+            Vois-tu… Tenez… buvez…
+            
+            (J. es recrues prennent les bouteilles et boivent. Pendant ce temps
+            
+            là, les prisonniers veulent en profiter pour descendre ; mais les
+            
+            recrues reprennent leurs armes…) 
+            
+            LEPRINCE. 
+            
+            Là, maintenant que nous sommes d'accord, en route ! …
+            
+            (Au moment où il a l'air de descendre, les Allemands le menacent
+            
+            en criant de nouveau) : 
+            
+            Nix ! nix ! 
+            
+            LEPRINCE, reprenant vivement sa position. 
+            
+            Maudits animaux, avec leurs nix ! il paraît que nous som
+            
+            mes condamnés à rester à cheval sur un cil-de-boeuf… heim…
+            
+            qui est-ce qui va là ? … Ah ! Messieurs, regardez donc cette
+            
+            grande figure blanche qui tient une chandelle… est-ce que ce
+            
+            serait la nonne de la ballade ? … eh ! mon Dieu, oui…, je crois
+            
+            qu'elle est en chemin…
+            
+            5
+            
+-34
+            
+            SCÈNE XXII. 
+            
+            LES MÊMES, SAUCEMANN…
+            
+            (Saucemann est en chemise, coiffe de nuit blanche, la figure d'une
+            pâleur effrayante ; ii tient une chandelle allumée ; il est à cheval
+            
+            sur sa canne, et descend l'escalier tout en sautant ; à son aspect, les
+            
+            recrues se cachent la figure et se jettent à genoux d'un air effrayé.)
+            
+            SAUCEMANN. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Patati, patata. </stage>
+            
+            
+                    <l>Tot, tot, tot, tot, tot, tot,</l>
+                    <l>Au galop !</l>
+                    <l>Je me rends à mon ambassade !</l>
+                    <l>Camarade,</l>
+                    <l>Au galop !</l>
+                    <l>Tot, tot, tot.</l>
+                    <l>Au congrès j'arrive bientôt ! …</l>
+            
+                    <l>L'ennemi, je le voi,</l>
+                    <l>Est de mauvaise foi ;</l>
+                    <l>Mais vous me voyez, moi,</l>
+                    <l>À cheval sur la loi ! …</l>
+                    <l>Tot, tot, tot, tot, tot, tot !</l>
+                    <l>Au galop !</l>
+                    <l>Je me rends à mon ambassade !</l>
+                    <l>Comarade,</l>
+                    <l>Au galop !</l>
+                    <l>Tot, tot, tot,</l>
+                    <l>Au congrès j'arrive bientôt ! …</l>
+            
+                </lg>
+            </div>
+            
+            Ouf ! … et ah ! …
+            
+            (Il s'assied, et regarde çà et là d'un air hagard.)
+            
+            LÉON. 
+            
+            Qu'est-ce que c'est donc que cet original là ? …
+            
+            C'est un esprit ! …
+            
+            LEPRINGE. 
+            
+            HENRY. 
+            
+            Avec ton estprit, tu es bien bête… tu ne vois pas que c'est
+            
+            1
+            
+            un somnambule…
+            
+            bien
+            
+            SAUCEMANN. 
+            
+            Arrêtez… arrêtez donc mon cheval… là… maintenant
+            
+            approchez, Monsieur l'ambassadeur… approchez donc quand
+            
+            je vous le dis…
+            
+            (Il prend une des recrues par l'oreille, et
+            
+            lui donne un ccoup de pied dans le derrière en lui disant :) 
+            
+            Vous remettrez cela à votre maître de ma part ! … quant à vous
+            
+            Messieurs, je vais vous faire connaître en peu de mots ma
+            
+            politique : regardez bien cette carte…
+            
+            (il montre la table
+            
+            35. 
+            
+            couverte de divers entremets) ; c'est celle de toute la terre…, ,
+            
+            Vous devez reconnaître aux différentes couleurs, les quatre
+            
+            parties du monde… (il montre un fromage à la créme) ,Je
+            
+            commence par ici… les îles Britanniques…
+            
+            LEPRINCE. 
+            
+            Oh ! il prend un fromage fouetté pour l'Angleterre. 
+            
+            SAUCEMANN. 
+            
+            De l'autre côté, nous avons la Savoie…
+            
+            Oui, en biscuit…
+            
+            LEPRINCE. 
+            
+            SAUCEMANN. 
+            
+            Comme rien ne saurait m'arrêter, je saute par-dessus tout
+            
+            cela, et en deux temps j'arrive là… en Prusse. 
+            
+            LEPRINCE. 
+            
+            La Prusse… C'est un flanc. 
+            
+            Mais tais-toi donc ! …
+            
+            LÉON. 
+            
+            SAUCEMANN. 
+            
+            Après, je gagne la Russie…
+            
+            LEPRINCE. 
+            
+            Représentée par des oeufs à la neige ! …
+            
+            SAUCEMANN. 
+            
+            Or, comme j'ai à m'en plaindre… j'attaque la Russie… et
+            
+            voilà comme je m'y prends ! … (il prend une cuillerée d'anfs
+            
+            à la neige.)
+            
+            Bon, il avale la Russie…
+            
+            SAUCEMANN. 
+            
+            LEPRINCE. 
+            
+            La Prusse veux se mêler de mes affaires, je porte nies armes
+            
+            chez elle, et je la fais disparaître ! … (il mange dy ſlanc.)
+            
+            Enfoncée la Prusse ! …
+            
+            Comme il y va ! …
+            
+            LEPRINCE. 
+            
+            LÉON. 
+            
+            SAUCEMANN. 
+            
+            Mes succès me suscitent de nouveaux ennemis, j'apprends
+            
+            que l'Autriche veut bouger, je ne fais que cela… (il donne un
+            
+            coup de couteau sur un nougąt. Je la démolis et je confisque
+            
+            une partie de son territoire à mon profit…
+            
+            LEPRINCE. 
+            
+            S'il avale ainsi toutes les puissances, il attrapera une indi
+            
+            gestion, c'est sûr…
+            
+            SAUCEMANN. 
+            
+            Ah ! l'Angleterre me nargue… eh bien ! je m'embarque, 
+            
+            1
+            
+-36-
+            
+            avec des bombes à la congrève… et je lance mes bombes sur
+            
+            les Anglais… Pif ! paf ! pan… (Il prend tour à tour plusieurs
+            
+            cueillerées d'oufs à la neige et des petits pátés qu'il jette à
+            
+            la tête des recrues.) Bombardons le Léopard… en veux-tu, 
+            
+            en voilà ! … pif ! paf ! pan ! ah ! ah ! ah ! …
+            
+            (Les recrues jettent les hauts cris et se sauvent… Saucemann les
+            
+            poursuit en leur jetant toujours des biscuits, échaudés et autres
+            
+            pâtisseries ; il disparaît en courant après eux.)
+            
+            Pas de grâce pour ces insulaires ! …
+            
+            SAUCEMANN. 
+            
+            SCÈNE XXIII. 
+            
+            LES PRÉCÉDENS, hors SAUCEMAnn et les RECRUES. 
+            
+            LÉON. 
+            
+            Eh ! vite ! eh ! vite ! profitons du moment… en route ! …
+            
+            (Léon et Henry descendent les premiers par l'oeil-de-boeuf.)
+            
+            LEPRINCE. 
+            
+            Oh ! là, là…, une crampe, Messieurs, donnez-moi la main. 
+            
+            LÉON. 
+            
+            Est-il lourd, ce diable de Pharmacien… allons, saute donc ! 
+            
+            (Leprince, aidé de ses deux amis, saute à terre.)
+            
+            LE PRINCE. 
+            
+            Par où sortirons-nous ? … toutes les portes sont fermées…
+            
+            On ouvre… tenons-nous à l'écart…
+            
+            LÉON. 
+            
+            C'est le major. 
+            
+            Il est seul…
+            
+            Silence ! 
+            
+            LEPRINCE. 
+            
+            HENRY
+            
+            LÉON. 
+            
+            SCÈNE XXIV. 
+            
+            LES MÊMES, LE MAJOR. 
+            
+            (Il fait toujours nuit ; le major tient une lanterne.). 
+            
+            LE MAJOR. 
+            
+            Comment, sentinelles, vous ne criez pas qui vive ? 
+            
+            LÉON et ses amis se jetant sur lui, 
+            
+            A votre tour, Major, vous êtes prisonnier…
+            
+            LE MAJOR. 
+            
+            Heim ! qu'est-ce que c'est ? … je suis trahi ! 
+            
+            37
+            
+            LÉON. 
+            
+            Pas de bruit, Major, ou notre sûreté exigerait… Henry ! 
+            
+            ton monchoir, vite…
+            
+            LE MAJOR. 
+            
+            Qu'est-ce que vous voulez donc me faire, Messieurs ? 
+            
+            LÉON. 
+            
+            Vous forcer malgré vous au silence, Major…
+            
+            (Il veut lui mettre le mouchoir sur la bouche.)
+            
+            LE MAJOR, se défendant
+            
+            Vos précautions seront inutiles, Messieurs… Toute la ville
+            
+            est sur pied… elleme suit… tenez, entendez-vous ? …
+            
+            Sauvons-nous ? … Ah ! il est trop tard ! …
+            
+            LE PRINCE. 
+            
+            SCÈNE XXV. 
+            
+            LES PRÉCÉDENS, BOURGEOIS de la ville, LE BOURGMESTRE. 
+            
+            (On entend plusieurs coups de canon annoncer la paix.)
+            
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    CHŒUR. 
+                    <stage type="tune">Air final du Hussard de Felsheim. </stage>
+            
+            
+                    <l>Ah ! quelle heureuse circonstance ! …</l>
+                    <l>Livrons-nous</l>
+                    <l>Tous</l>
+                    <l>À la joie, au plaisir désormais !</l>
+                    <l>Puisque l'Autriche avec la France</l>
+                    <l>Vient enfin de signer la paix !</l>
+               
+            
+            
+            LE MAJOR. 
+            
+            Comment ! la paix est signée ? 
+            
+            LE BOURGMESTRE. 
+            
+            Oui, mon cher major, je viens d'en recevoir la nouvelle
+            
+            officielle : 
+            
+            la
+            
+            paix vient d'être signée à Schoenbrunn, entre
+            
+            l'empereur Napoléon et le prince Charles ! …
+            
+            LEPRINCE. 
+            
+            Voilà une nouvelle qui ne pouvait arriver plus à propos. 
+            
+            LE MAJOR. 
+            
+            Sire, si votre majesté avait dàigné m'instruire…
+            
+            LE PRINCE. 
+            
+            Ah ! ça, est-ce que vous allez continuer encore à m'appeler
+            
+            sire ? 
+            
+            Comment ! vous ne seriez pas Napoléon ? 
+            
+            LE MAJOR. 
+            
+            1
+            
+            38
+            
+            LEPRINCE. 
+            
+            Eh ! non, je ne suis pas Napoléon ; je suis bea icoup plus
+            
+            grand que lui. 
+            
+            LE MAJOR. 
+            
+            Alors, qui êtes-vous donc ? 
+            
+            LÉON. 
+            
+            Des prisonniers français évadés…
+            
+            LE MAJOR. 
+            
+            Des prisonniers évadés… Messieurs, je me vois forcé de
+            
+            vous faire fusiller sur-le-champ. 
+            
+            Eh bien ! et la paix ? 
+            
+            LEPRINCE. 
+            
+            LE MAJOR. 
+            
+            C'est juste, je n'y pensais pas…
+            
+            SCÈNE XXVI ÉT DERNIÈRE. 
+            
+            LES PRÉCÉDENS, PETERS, CRETLE, SAUCEMANN (il est
+            
+            tout mouillé.)
+            
+            SAUCEMANN, 
+            
+            Voulez-vous bien me lâcher ? … Get imbécille, qui. pour me
+            
+            réveiller, me jette deux sceaux d'eau sur la tête. 
+            
+            PETERS. 
+            
+            Dame ! … je ne pouvais pas me douter que c'était vous qui
+            
+            vous releviez pour manger votre pâtisserie…
+            
+            CRETLE. 
+            
+            Comment, mon pauvre oncle, sans le savoir vous étiez
+            
+            somnambule ! 
+            
+            i SAUCEMANN : 
+            
+            Pardieu, quand on est somnambule, c'est toujours sans le
+            
+            savoir ; si on s'en doutait, on se ferait yarder la nuit… A pré
+            
+            sent que je le sais… je ferai coucher Peters dans la chambre
+            
+            qui est à côté de la mienne. 
+            
+            PETERS, 
+            
+            Tout seul ? je n'oserais pas… vous me
+            
+            feriez
+            
+            peur…
+            
+            SAUCEMANN. 
+            
+            Ah ! sournois… je te comprends ! …
+            
+            CRETLE. 
+            
+            Au fait, ce pauvre Peters que vous accusicz, 
+            était vous…
+            
+            tandis
+            
+            que
+            
+-39-
+            
+            SAUCEMANN. 
+            
+            C'est juste, je lui dois une réparation… tu coucheras dans
+            
+            l'appartement qui est attenant au mien (en lui donnant
+            
+            Cretle) avec ta femme…
+            
+            CRETLE. 
+            
+            A la bonne heure, parce que je m'arrangerai pour le tenir
+            
+            toujours éveillé…
+            
+            
+           
+                    Reprise du chœur. 
+            
+                    <l>Ah ! quelle heureuse circonstance ! …</l>
+                    <l>Livrons-nous</l>
+                    <l>Tous</l>
+                    <l>À la joie, au plaisir désormais !</l>
+                    <l>Puisque l'Autriche avec la France</l>
+                    <l>Vient enfin de signer la paix !</l>
+                </lg>
+            </div>
+            
+            
+            CRETLE, au public. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">Air : Pour le chercher j'arrive en Allemagne. </stage>
+            
+            
+                    <l>Cette bluette est peut-être un peu fade,</l>
+                    <l>Mais mon oncle, qui voit le danger,</l>
+                    <l>Auprès de vous m'envoie en ambassade :</l>
+                    <l>Il pense que la paix peut s'arranger.</l>
+                    <l>Ah ! puisqu'il croit qu'un traité d'alliance</l>
+                    <l>Emané d'vous doit être notre lot,</l>
+                    <l>Faites du moins qu'en cette circonstance</l>
+                    <l>Sa politiqu' ne soit pas en défaut.</l>
+            
+                </lg>
+            </div>
+            
+            FIN. 
+            
+            20 si 63
+        </body>
+    </text>
+</TEI>

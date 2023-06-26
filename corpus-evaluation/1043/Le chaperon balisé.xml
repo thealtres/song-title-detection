@@ -1,0 +1,5672 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="http://www.crisco.unicaen.fr/verlaine/ressources/xsd/TEI_Corpus_Malherbe_1.1.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LE CHAPERON</title>
+                <title type="sub">COMÉDIE-VAUDEVILLE EN UN ACTE</title>
+                    <author key="SCR" sort="1">
+                        <name>
+                            <forename>Augustin Eugène</forename>
+                            <surname>Scribe</surname>
+                        </name>
+                    </author>
+                    <author key="DPT" sort="2">
+                        <name>
+                            <forename>Nicolas-Paul</forename>
+                            <surname>Duport</surname>
+                            <addname type="pen_name">Paul Duport</addname>
+                        </name>
+                    </author>
+                <editor>Le Rire des vers, Université de Bâle</editor>
+                <respStmt>
+                    <resp>Préparation du texte, encodage en XML (Le Rire des vers, Université de Bâle)</resp>
+                    <name id="LN">
+                        <forename>Lara</forename>
+                        <surname>Nugues</surname>
+                    </name>
+                    <name id="TK">
+                        <forename>Timothy</forename>
+                        <surname>Klaffke</surname>
+                    </name>
+                </respStmt>
+               <respStmt>
+				    <resp>Application des programmes de traitement automatique créés par Richard Renault de l'Université de Caen (Le Rire des vers, Université de Bâle)</resp>
+                        <name id="PP">
+						  <forename>Petr</forename>
+						  <surname>Plecháč</surname>
+					   </name>
+				</respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                 <publisher>
+					<orgname>Le Rire des vers</orgname>
+					<address>
+						<addrLine>Université de Bâle</addrLine>
+					</address>
+					<email/>
+					<ref type="URL">https://slw-comicverse.dslw.unibas.ch/index.php?lang=fr</ref>
+				</publisher>
+				<pubPlace>Bâle</pubPlace>
+				<date when="2022">2022</date>
+                <availability status="free">
+                    <p>Diffusion et utilisation dans un cadre de recherche ou d'enseignement</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LE CHAPERON</title>
+                        <author>SCRIBE ET PAUL DUPORT</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Google Books</publisher>
+                        <idno type="URL">https://books.google.dk/books?id=MgBVAAAAcAAJ</idno>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct>
+                            <monogr>
+                                <repository>National Library of the Netherlands</repository>
+                                <idno type="URL">https://opc-kb.oclc.org/DB=1/SET=2/TTL=1/SHW?FRST=1</idno>
+                            </monogr>
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1832-02-06">6 FÉVRIER 1832</date>
+                <placeName>
+                    <settlement>THÉÂTRE DU GYMNASE DRAMATIQUE</settlement>
+                </placeName>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier .xml s'inscrit dans un projet de constitution d'un corpus de textes versifiés pour le traitement automatique des formes et structures métriques.</p>
+            </projectDesc>
+            <samplingDecl>
+              <p>Les parties versifiées ont été prioritairement corrigées et encodées.</p>
+            </samplingDecl>
+            <editorialDecl>
+               <normalization>
+                    <p>Les majuscules accentuées ont été restituées.</p>
+                    <p>Les lettres ligaturées (œ et æ) ont été restituées.</p>
+                    <p>La ponctuation a été normalisée.</p>
+                    <p>Les erreurs d'impression figurant dans le texte originel ont été corrigées lorsqu'elles étaient susceptibles d'entraver le calcul de la longueur métrique, ainsi que la reconnaissance des rimes.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+        A propos de ce livre
+            
+            Ceci est une copie numérique d'un ouvrage conservé depuis des générations dans les rayonnages d'une bibliothèque avant d'être numérisé avec
+            précaution par Google dans le cadre d'un projet visant à permettre aux internautes de découvrir l'ensemble du patrimoine littéraire mondial en
+            ligne. 
+            Ce livre étant relativement ancien, il n'est plus protégé par la loi sur les droits d'auteur et appartient à présent au domaine public. L'expression
+            “appartenir au domaine public” signiﬁe que le livre en question n'a jamais été soumis aux droits d'auteur ou que ses droits légaux sont arrivés à
+            expiration. Les conditions requises pour qu'un livre tombe dans le domaine public peuvent varier d'un pays à l'autre. Les livres libres de droit sont
+            autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+            trop souvent difﬁcilement accessibles au public. 
+            Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+            du long chemin parcouru par l'ouvrage depuis la maison d'édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains. 
+            
+            Consignes d'utilisation
+            
+            Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+            ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine. 
+            Il s'agit toutefois d'un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+            dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+            contraintes techniques relatives aux requêtes automatisées. 
+            Nous vous demandons également de : 
+            
+            + Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l'usage des particuliers. 
+            Ils ne sauraient en effet être employés dans un
+            
+            Nous vous demandons donc d'utiliser uniquement ces ﬁchiers à des ﬁns personnelles. 
+            quelconque but commercial. 
+            
+            + Ne pas procéder à des requêtes automatisées N'envoyez aucune requête automatisée quelle qu'elle soit au système Google. Si vous effectuez
+            des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+            d'importantes quantités de texte, n'hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l'utilisation des
+            ouvrages et documents appartenant au domaine public et serions heureux de vous être utile. 
+            
+            + Ne pas supprimer l'attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+            et leur permettre d'accéder à davantage de documents par l'intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+            aucun cas. 
+            
+            + Rester dans la légalité Quelle que soit l'utilisation que vous comptez faire des ﬁchiers, n'oubliez pas qu'il est de votre responsabilité de
+            veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n'en déduisez pas pour autant qu'il en va de même dans
+            les autres pays. La durée légale des droits d'auteur d'un livre varie d'un pays à l'autre. Nous ne sommes donc pas en mesure de répertorier
+            les ouvrages dont l'utilisation est autorisée et ceux dont elle ne l'est pas. Ne croyez pas que le simple fait d'afﬁcher un livre sur Google
+            Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+            vous exposeriez en cas de violation des droits d'auteur peut être sévère. 
+            
+            À propos du service Google Recherche de Livres
+            
+            En favorisant la recherche et l'accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+            contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+            aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+            des recherches en ligne dans le texte intégral de cet ouvrage à l'adresse http : //books. google. com
+            
+            AEE
+            
+            127
+            
+            Répertoire
+            
+            du
+            
+            Théâtre français. 
+            
+            No 94. 
+            
+            LE
+            
+            CHAPERON, 
+            
+            COMÉDIE-VAUDEVILLE EN UN ACTE. 
+            
+            PA R
+            
+            MM. SCRIBE ET PAUL DUPORT. 
+            
+            Prix : 75gr. 
+            
+            BERLIN, 
+            
+            chez Ad. Mt. Schlesinger, Libraire et Éditeur deMusique, 
+            
+            unter den Linden No. 34. 
+            
+            1832. 
+            
+            *3
+            
+            PersONNAGES. 
+            
+            ACTEURS. 
+            
+            [
+            
+            DE PRESLE, colonel
+            
+            Mr. ISIDORE. 
+            
+            ANTENOR JOUSSE
+            
+            O
+            
+. 
+            
+            Mr. ALIX. 
+            
+            MAD. DE TRENRUIL, jeune. 
+            
+            Veuve…
+            
+            Mlle, DESCHANEL, 
+            
+            DELPHINE, sa soeur. 
+            
+            Mlle, LANCESTRE, 
+            
+            UN DOMESTIQUE, 
+            
+            Mr. CASTELLI. 
+            
+            La scène se passe à Paris, 
+            
+            chez Mad, de Treneuil, 
+            
+            IMPRIMERIE DE L. W. KRAUSE. 
+            
+            Le théatre représente un salon-deux portes latéra
+            
+            les
+            
+            la porte à
+            
+            droite de l'acteur
+            
+            est
+            
+            celle de
+            
+            l'extérieur, la porte à gauche celle de l'apparte
+            
+            ment de Mme. de Treneuil
+            
+            une table auprès de
+            
+            cette porte. 
+            
+            Scène I. 
+            
+            MAD. DE TRENEUIL, devant la table, écrivant. 
+            
+            Oui, je l'ai juré, oui, je l'ai signé, cette lettre partira au
+            et aussitôt après le mariage de ma
+            
+            ensuite, 
+            
+            jourd'hui
+            
+            soeur…
+            
+            DELPHINE, 
+            
+            entrant, à la cantonade. 
+            
+            Courez, dépêchez-vous… d'autres fleurs
+            
+            vera déjà, que je n'aurai pas achevé ma toilette, 
+            
+            … on arri
+            
+            MAD. De TRENEUIL, se levant. 
+            
+            Quoi donc, Delphine ? 
+            
+            DELPHINE **) .
+            
+            Ah ! ma soeur, une contrariété affreuse
+            
+. 
+            
+. 
+            
+            j'en ai pres
+            
+            qne pleuré
+            
+. 
+            
+            Si on savait ce que parfois le plaisir nous coûte
+            
+            de peine ! 
+            
+            Figure-toi, les fleurs de ma coiffure qui n'al
+            
+            laient pas avec les bouquets de ma robe… aussi, c'est ta
+            
+            faute, quand tu m'abandonnes à moi-même, 
+            
+            je ne fais que
+            
+            des étourderies… Ah çà !. 
+            
+            mais toi aussi, en voilà une. 
+            
+            [Regardant mad, de Treneuil, qui est en demi-deuil. ]
+            
+            *) Les acteurs sont placés en tête de chaque scène comme ils doivent
+            l'être au théâtre ; le premier inscrit tient la gauche da spectateur, ainsi
+            de suite. 
+            
+            **) Delphine, Mad. de Treneuil. 
+            
+            [1 *
+            
+] 
+            
+            4
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la Robe et les Bottes. </stage>
+            
+            
+                    <l>Pourquoi donc être ainsi parée ?</l>
+                    <l>Ce costume ne convient plus,</l>
+                    <l>Lorsque chez toi ce bal, cette journée,</l>
+                    <l>Rassemble tous mes prétendus ;</l>
+                    <l>Quand mon choix, par cette alliance,</l>
+                    <l>Va couronner tous leurs désirs,</l>
+                    <l>Te mettre ainsi, c'est paraître d'avance</l>
+                    <l>Porter le deuil de mes plaisirs.</l>
+                </lg>
+            </div>
+            
+            
+            MAD, DE TRENEUIL, 
+            
+            Non vraiment ; ihais tous ces jeunes gens qui te font la
+            
+            cour, se croiraient peut-être obligés à inviter la maîtresse de
+            
+            la maison ; au lieu que mon costume les
+            
+            en
+            
+            dispense. 
+            
+. 
+            
+            c'est comine si je portais
+            
+            écrit : „ Messienrs, ne faites pas at
+            
+            tention à moi. 
+            
+. 
+            
+            allez tout droit à iná soeur. 
+            
+            DELPHINE. 
+            
+            Que je
+            
+            te plains d'être si raisonnable ! se priver
+            
+            d'une
+            
+            contredanse is, une contredanse ! Oh ! pour moi, 
+            
+            je n'ima
+            
+            gine pas de bonheur plus parfait… c'est si vif, si animé ! 
+            
+            la pensée va deux fois plus vite : légère comme nos pas
+            
+            et c'est si amusant ! surtout quand on
+            
+            est comme moi, une
+            
+            demoiselle à
+            
+            inarier
+            
+            n'y eût-il que cette réflexion qui se
+            
+            présente involontairement : la inain qui presse la mienne avec
+            
+            tant de douceur, est celle peut-être qui doit me conduire à
+            
+            l'autel… ce cavalier si aimable, si attentif, tonjours penché
+            
+            vers mon oreille, pour m'adresser de jolis riens… voilà, 
+            
+            peut-être, celui que j'aimerai ! … et dire cela, à chaque fois
+            
+            qu'on change de danseur…
+            
+            vois-tu, 
+            
+            ca produit une variété
+            
+            d'émotions dont on ne pourrait jamais se lasser. 
+            
+            MAD. DE TRENEUIL. 
+            
+            Qu'entends-je ! et que signifient de pareilles idées ? vous, 
+            
+            de la coquetterie, Delphine ? 
+            
+            DRLPHINE. 
+            
+            Comment ! 
+            
+            ce
+            
+            serait là de la coquetterie ?. 
+            
+            alors voilà
+            
+            deux mois que je suis coquette sans le savoir… et à pré
+            
+            sent que j'en ai pris l'habitude, comment donc faire ? 
+            
+            MAD. DE TRENEUIL. 
+            
+            Se hâter de faire un choix ; car moi qui suis ta soeur ai
+            
+            née, ta tutrice ; moi qui ai promis à mon père mourant, de te
+            
+            servir de mère, et de te marier, je suis obligée de te conduire
+            
+            dans des bals, dans des assemblées qui in'enpuient à la mort, 
+            
+            et toujours auprès de toi, obligée d'écouter tous les homma
+            
+            ges, complimens, et déclarations qui te sont adressés. 
+            
+            5
+            
+            DELPHINE. 
+            
+            C'est tout naturel… vous êtes mon chaperon. 
+            
+            MAD. de TRENEUIL, souriant. 
+            
+            Oui, l'on appelle ainsi dans le monde celles qui, comme
+            
+            moi, ont une jeune fille sous leur garde. 
+            
+            Un drôle de nom
+            
+            qui me fait toujours penser au
+            
+            Petit
+            
+            NELPHINE. 
+            
+            Chaperon Rouge. 
+            
+            MAD. DE TRENEUIL, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Baiser au Porteur. </stage>
+            
+            
+                    <l>Qui, de la ruse et de la médisance</l>
+                    <l>Du méchant, du loup ravisseur</l>
+                    <l>Savoir préserver l'innocence,</l>
+                    <l>D'un chaperon c'est l'emploi protecteur ;</l>
+                    <l>Tel est le mien… je veille sur ma sœur.</l>
+                    <l>Garder autrui ! … dangereux privilége !</l>
+                    <l>Souvent moi-même, en dépit de ce nom,</l>
+                    <l>J'aurais besoin, lorsque je te protège,</l>
+                    <l>Qu'on protégeât le chaperon.</l>
+                </lg>
+            </div>
+            
+            
+            Oh ! je sais pourquoi tu dis cela. 
+            
+            DELPHINE. 
+            
+            Comment ? 
+            
+            NAD, DE TRENEUIL, 
+            
+            DELPHINE, 
+            
+            Mon Dien ! oui… l'autre jonr, au bal, chez M. Doryilé, 
+            
+            ce jeune homme qui te poursuivait si vivement, 
+            
+            et qui s'est
+            
+            emparé, malgré toi, de ton bouquet, que tu avais laissé tom
+            
+            ber…, qu'il a bien fallu lui laisser, 
+            
+            MAD, DE TRENEUIL. 
+            
+            Sans doute, et sous peine de faire scandale, 
+            
+            car tous les
+            
+            yeux étaient fixés sur nous… et avec un fat, un pré
+            
+            somptueux comme celui-là, 
+            
+            il n'en faudrait pas davantage
+            
+            pour faire croire… Tiens, 
+            
+            tu ne peux pas t'imaginer ce
+            
+            que ma position a de faux et de pénible, 
+            
+            et
+            
+            il me tarde que
+            
+            tu te sois décidée… pour quitter Paris, et rentrer dans la
+            retraite, 
+            
+            DELPHINE. 
+            
+            Eh bien ! ma soeur, je ne vonlais pas en convenir, mais
+            
+            voilà peut-être
+            
+            encore un des motifs qui retarderont mon
+            
+            choix… parce que je me dis : une fois mariée, établie dans
+            
+            le monde, je n'y aurai plus besoin de chaperon, et ma soeur
+            
+            le quittera… Oh ! 
+            
+            tu
+            
+            ne te
+            
+            trompais pas • • • c'est mon
+            
+            plaisir que j'y cherche, et voilà pourquoi je t'y retiens.-
+            
+            6
+            
+            MAD, DB TRENEUIL, avec amitié, 
+            
+            Voilà de tes mots, quand je veux te faire des reproches…
+            
+            Mais voyons, parlons raison, car c'est elle, 
+            
+            et non pas moi, 
+            
+            qui te fais un devoir de te prononcer…
+            parmi tous tes adorateurs tu avais distingué M. Anténor. 
+            
+            … il me semblait que
+            
+            Oh ! 
+            
+            je
+            
+            les distingue tous. 
+            
+            mais celui-là
+            
+            l'air de
+            
+            DELPHINE. 
+            
+            m'aimer davantage. 
+            
+            MAD. DE TRENEUIL, 
+            
+            Et tu l'aimes aussi, je l'ai vu, j'en
+            
+            suis sûre. 
+            
+            sage, 
+            
+            modeste, d'un excellent paturel, 
+            
+            DELPHINE, 
+            
+            N'est-ce pas ? 
+            
+            avec lui, une femme serait maitresse
+            
+            absolue. 
+            
+            MAD, DE TRENEUIL. 
+            
+            Il a peu de fortune
+            
+            mais des espérances
+            
+            attaché
+            
+            à une des premières maisons de banque de Paris ; héritier
+            
+            d'un oncle très-riche, un des hauts dignitaires du clergé
+            
+            0
+            
+            et puisqu'il t'aime beaucoup, et que tu l'aimes un peu…
+            
+            DELPHINE. 
+            
+            Mon Dien ! 
+            
+            ce n'est pas une raison, parce qu'enfin
+            
+            je
+            
+            n'aurais qu'à le prendre aujourd'hui, 
+            
+            et
+            
+            qu'il
+            
+            s'en présentât
+            
+            demain un plus aimable, •. vois ou
+            
+            j'en serais, 
+            
+            MAD. DE TRENEUIL, 
+            
+            Delphine, y penses-tu ? 
+            
+            DELPHINE, 
+            
+            Mais, toi, qui parles
+            
+            toi, qui n'as que vingt ans, et
+            
+            qui es veuve
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR du Piége. </stage>
+            
+            
+                    <l>Toi, si jolie, et qu'entre nous,</l>
+                    <l>Avec amour en tous lieux l'on contemple,</l>
+                    <l>Pourquoi ne pas choisir un autre époux</l>
+                    <l>Et me donner le bon exemple ?</l>
+                    <l>Puisqu'en effet, si je t'en crois,</l>
+                    <l>Se marier est si bien dans le monde ;</l>
+                    <l>Ce qui fut bien une première fois,</l>
+                    <l>Ne peut être mal la seconde.</l>
+                </lg>
+            </div>
+            
+            
+            MAD, DE TRENEUIL. 
+            
+            Ne parlons pas de cela. [Montrant la table. ] Je m'occupais
+            
+            là d'un autre projet, qui doit assurer mon repos et mon bon
+            heur. 
+            
+            Comme tu me dis cela
+            
+. 
+            
+            est-ce que tu ne serais pas
+            
+            DELPHINE. 
+            
+            heureuse ? Ah ! ne parle pas ainsi, 
+            
+            car cette
+            
+            idée-là va me
+            
+            faire pleurer, 
+            
+            et j'aurais toute la soirée les yeux rouges…
+            
+            7
+            
+            inge pour on bal ! …
+            
+            tous mes prétendas me trouveraient
+            
+            laide, et ça v'avancerait pas mon mariage ; car, vois-to, 
+            
+            à
+            
+            cause de toi, et pour me pupir, 
+            
+            je veux me marier tont de
+            
+            suite ; pas plus tard que ce soir, mon choix sera fait… je
+            
+            vais
+            
+            le peser mûrement pendant les contredanses ! et je te
+            
+            promets d'être invariablement fixée, quand on commencera la
+            
+            galope. 
+            
+            Scène II. 
+            
+            LES MÊMES, UN DOMESTIQUE. 
+            
+            LE DOMESTIQUE, à Delphine. 
+            
+            Les fleurs que mademoiselle a envoyé prendre chez Bat
+            
+            ton, sont dans sa chambre. 
+            
+            J'y cours bien vite. 
+            
+            DELPHINE, 
+            
+            LE DOMESTIQUE, à Mad. de Treneuil. 
+            
+            Il y a en bas quelqu'un qui demande si madame peut le
+            
+            recevoir ; M. de Presle. 
+            
+            MAD. DB TRENRUIL. 
+            
+            Monsieur de Presse ! … celui à quima famille a eu tant
+            
+            d'obligations. [Au domestique. ] Faites monter, 
+            
+            Le domestique sort, 
+            
+            Mad. de Treneuil passe à droite. ] *) 
+            
+            DELPHINE. 
+            
+            Ce pom-là ! … ah ! j'y
+            
+            suis… un jeune homme qui, 
+            
+            avant hier, s'était assis près de moi, chez Mad. Dorvilé…
+            
+            tu sais, cette soirée où est arrivée l'histoire du bouquet. 
+            
+            C'est vrai
+            
+            il en a
+            
+            été témoin. 
+            
+            MAD, DB TRENEUIL. 
+            
+            DELPHINE, 
+            
+            Et puis il a disparu tout d'an coup, et on ne l'a plus reya
+            
+            de la soirée
+            
+. 
+            
+            j'en ai été fâchée. 
+            
+            Est-ce que tu avais des vues sur lui ? 
+            
+            MAD. NB TRENEUIL. 
+            
+            Pour la
+            
+            concurrence
+            
+            … c'était un de plas, 
+            
+            et d'après
+            
+            DELPHINE, 
+            
+            tout le bien que j'ai entendu dire de lui.,, un officier brave, 
+            
+            spirituel, riche, qui a refusé la fille d'un pair de France avant
+            
+            la loi. Toutes ces demoiselles disaient tout haut qu'il a une
+            
+            passion dans le coeur ; et chacune m'a dit ensuite tout bas
+            
+            *) Mad. de Treneuil, Delphine. 
+            
+            8
+            
+            c'était pour elle… Comme il t'a parlé long-tems, et avec
+            
+            que
+            un air d'intérêt ! 
+            
+            MAD, DE TRENEUIL, 
+            
+            Qui, nous nous étions vus souvent avant mon mariage, et
+            
+            il y
+            
+            a tant de charmes dans ces
+            
+            souvenirs de la première
+            
+            jeunesse. 
+            
+            DELPHINE. 
+            
+            Oh ! 
+            
+            je ne te questionne pas…, est-ce que ta devines
+            
+            ce qui l'amène ? 
+            
+            MAD. DE TRENEUIL, 
+            
+            Moi ? non. 
+            
+            DELPHINE, 
+            
+            Enfin, on le saura, … puisqu'il vient de lui-même, il te
+            
+            dira pourquoi…, il ne partira pas sans s'expliquer, 
+            
+            me
+            
+            pe
+            
+            de
+            
+            fac
+            
+            21
+            
+            Scène III. 
+            
+            LES MÊMES, DE PRESLE, LE DOMESTIQUE, 
+            
+            LE DOMESTIQUE, annonçant. 
+            
+            Monsieur de Presle. 
+            
+            [ll entre dans l'appartement is gauche. ]
+            
+            Pardon, madame, 
+            
+            je crains bien d'être doublement indis
+            
+            DE PRESLE *) .
+            
+-
+-
+            
+            cret ; car vous n'êtes pas seule. 
+            
+            MAD. DE TRENEUIL, 
+            
+            C'est ma soeur. 
+            
+            DE PRESLE, 
+            
+            Ah ! oui, je me rappelle
+            
+            c'est mademoiselle que vous
+            
+            m'avez montrée avant-hier, à cette soirée
+            
+            et qui éclipsait
+            
+            par sa grâce toutes ses jeunes compagnes. 
+            
+            Il m'a remarquée
+            
+. j'en
+            
+            étais sûre, 
+            
+            5
+            
+            DELPHINE, 
+            
+            à part. 
+            
+            MAD. DE TRENEUIL, 
+            
+            Sans votre disparition subite, monsieur, j'aurais satisfait å
+            
+            votre demande, 
+            
+            en
+            
+            lui présentant le
+            
+            fils d'un ancien ami de
+            
+            potre famille, 
+            
+            DE PRESLE, 
+            
+            Une circonstance imprévue que j'ai vivement regrettée…
+            
+            Trop heureux, s'il m'est permis de réparer ma'perte, 
+            
+            Nous y voilà. 
+            
+            DELPHINE, 
+            
+            part, 
+            
+            *) De Presle, Mad, de Treneuil, Delphine, * : 
+            
+            9
+            
+            LE DOMESTIQUE, rentrant, à Delphine. 
+            
+            Le commis de Batton a dit qu'il était pressé, et si made
+            
+            moiselle veut choisir les fleurs pour ce soir
+            
+            DELPHINE. 
+            
+            Oui, 
+            
+            je vais у aller
+            
+            •. (A part. ] Quel ennui ! 
+            
+            je serais
+            
+            peut-être mieux en cheveux… mais non
+            
+            fleurs. 
+            
+            • •. et puis
+            
+            il vient de me voir aiusi
+            
+            changera. (Lui faisant la révérence, ] Monsieur
+            
+            fåché que je parte. [Elle sort. ]
+            
+            de jolies
+            
+            cela me
+            
+            [4 part. ] Il est
+            
+            Je suis enchanté que la petite soeur nous laisse. 
+            
+            DE PRESLE, 
+            
+            part, 
+            
+            MAD DE TRENEUIL, au domestique. 
+            
+            Dès qu'on arrivera, faites entrer dans le grand salon, 
+            
+            et
+            
+            avertissez-moi… allez, 
+            
+            [Le domestique sort. ]
+            
+            Scène IV. 
+            
+            MAD. DE TRENEUIL, DE PRESLE. 
+            
+            J'ai mal pris mon tems, madame
+            
+. 
+            
+            à ces ordres, à
+            
+            ces
+            
+            apprêts je vois que vous attendez du monde. 
+            
+            DE PRESLE. 
+            
+            MAD. DE TRENEUIL. 
+            
+            Quelques amis… une réunion bien modeste ; une soirée
+            
+            de veuve…
+            
+. on dansera au piano, et si vous n'êtes pas
+            
+            effrayé…
+            
+            DE PRESLE. 
+            
+            De rester auprès de vous. : :. : j'accepte avec empresse
+            
+            ment, et néanmoins avec un peu de
+            
+            regret, madame, 
+            
+            Comment ? 
+            
+            MAD, DE TRENEUIL, 
+            
+            DE PRESLE. 
+            
+            Me voilà forcé d'ajourner ce que j'avais å vous dire ; car il
+            
+            s'agit d'un
+            
+            d'un bal, 
+            
+            sujet trop
+            
+            important pour en
+            
+            parler au milieu
+            
+            MAD, DE TRENEUIL. 
+            
+            Savez-vons que vous excitez mon intérêt…, et puisqu'on
+            
+            n'arrive pas encore, voyous, deux mots seulement
+            bien, monsieur ? 
+            
+            eh
+            
+            DE PRESLE. 
+            
+            Eh quoi ! madame, à mon embarras, vous n'avez pas de
+            
+            viné
+            
+            que je viens mettre entre vos mains le sort de ma vie
+            
+            entière. 
+            
+            L
+            as
+            
+            o
+            r
+            t
+            
+            *
+            *
+            *
+            
+            10
+            
+            MAD. DE TRENEUIL, 
+            
+            à part. 
+            
+            Encore un parti pour ma soeur. 
+            
+            elle s'en doutoit, 
+            
+            la
+            
+            coquette
+            
+            écoutons…, c'est mon état
+            
+            eh bien ? 
+            
+            DE PRESLE, 
+            
+            Avant d'entrer iei, tout me semblait facile, et maintenant
+            
+            tont m'alarme… cominent réussir
+            
+            à vous intéresser en ma
+            
+            faveur ? 
+            
+            •. Les paroles, 
+            
+            les phrases d'usage expriment si
+            
+            mal un sentiment vrai. 
+            
+            du moins vous me saurez gré, je
+            
+            l'espère, de v'avoir recouru
+            
+            å ancave inédiation
+            
+            Mad. 
+            
+            Dorvilé, d'autres amies, ne m'auraient pas refusé la leur…
+            
+            eh bien ! je n'en ai pas voulu, madame, c'est à vous seule que
+            
+            je m'adresse ; ma cause ne sera plaidée que devant vous, et
+            
+            que par mui… Si je m'y prends inal, n'importe
+            
+            dans
+            
+            ma gaucherie même, vous verrez l'émotion
+            
+            d'un coeur bien
+            
+            épris, et vous en serez peut-être attendrie. 
+            
+            MAD, DE TRENEUIL, avec un sourire bienveillant, 
+            
+            Le fait est, que depuis deux mois, 
+            
+            voilà bien des décla
+            
+            rations que j'entends. 
+            
+            DE PRESLE, 
+            
+            Ciel ! 
+            
+            MAD. DE TRENEUIL. 
+            
+            Mais il y a dans la
+            
+            vôtre un naturel, un abandon qui
+            
+            persuadent. 
+            
+            DE PRESLE, 
+            
+            Ah ! vous me rendez le courage… et quand je pense
+            
+            que même avant votre mariage
+            
+. 
+            
+            que depuis trois ans, 
+            
+            sans avoir osé vous le dire, je vous aimais…
+            
+            MAD. DE TRENEUIL, 
+            
+            Moi, monsieur ! 
+            
+. 
+            
+            comment c'est à moi que vous youş
+            
+            adressiez ? 
+            
+            DE PRESLE. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR du Matelot (de MAD. DUCHAMBAGE) .</stage>
+            
+            
+                    <l>Eh quoi ! cet aveu vous étonne ?</l>
+            
+                    MAD, DE TRENEUIL. 
+            
+                    <l>De l'attendre j'étais si loin…</l>
+                    <l>Vous ne m'aviez nommé personne.</l>
+            
+                    DE PRESLE, 
+            
+                    <l>J'ai cru n'en avoir pas besoin.</l>
+                    <l>Me parlant sans cesse à moi-même</l>
+                    <l>D'un sentiment et si vif, et si doux,</l>
+                    <l>Il me semblait que dire : J'aime,</l>
+                    <l>Suffisait pour dire : c'est vous.</l>
+                </lg>
+            </div>
+            
+            
+            MAD. de TRENEUIL. 
+            
+            J'ai cru
+            
+            qu'il s'agissait de ma soeur. 
+            
+            11
+            
+            DE PRESLE. 
+            
+            Et vous m'approuviez ? 
+            
+            MAD. DE TRENEUIL. 
+            
+            J'étais flattée pour Delphine d'une recherche aussi hono
+            
+            rable, d'un parti aussi brillant. 
+            
+            DE PRESLE, 
+            
+            Et ces voeux ne vous semblent plus ni honorables, ni désira
+            
+            bles, depuis que vous savez que c'est à vous qu'ils s'adressent ? 
+            
+            MAD, DE TRENEUIL, 
+            
+            Je ne dis pas cela. 
+            
+            DE PRESLE. 
+            
+            Vous le pensez, du moins. 
+            
+. 
+            
+            prévenu le mien
+            
+            je
+            
+            d'autres hommages ont
+            suis pani du respect que m'inspi
+            
+            raient vos vertus, de ce respect qui, pendant que vous étiez
+            
+            liée à un autre, m'a condamné au silence, m'a forcé à fuir
+            
+            votre vue. Mais enfin, et bien loin d'ici, da fond de l'Alle
+            
+            mague, j'apprends que vous êtes libre… j'accours, et j'hé
+            
+            sitais encore à me déclarer… mais par bonheur, on prétend
+            
+            que des revers, des malheurs ont presque anéanti la fortune
+            
+            de M. de Treneuil et la vôtre… j'ai été plus brave alors ; 
+            
+            et je venais vous offrir des richesses que, pour la première
+            
+            fois, je me sentais heureux de posséder…
+            
+            et votre refus
+            
+            renverse tous mes projets, toutes mes espérances. 
+            
+            MAD, DE TRENRUIL, 
+            
+            Calmez-vous, de grâce, 
+            
+            DE PRESLE, 
+            
+            Non, madame ; non, je vois que vous en aimez un autre
+            
+            … Son nom…
+            
+            de grâce, dites-moi son nom. 
+            
+            MAD, DE TRENEUIL, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Restez, restez, troupe jolie. </stage>
+            
+            
+                    <l>Personne ! … je n'aime personne,</l>
+                    <l>Je l'atteste, je le promets !</l>
+            
+                    DE PRESLE, 
+            
+                    <l>Ah grand Dieu ! que vous êtes bonne !</l>
+                    <l>Insensé ! … je vous accusais,</l>
+                    <l>Déjà je me désespérais,</l>
+                    <l>Mais non ; j'avais tort de me plaindre ;</l>
+                    <l>De qui pourrais-je être jaloux,</l>
+                    <l>Si pour rivaux je ne dois craindre</l>
+                    <l>Que ceux qui sont dignes de vous ?</l>
+                </lg>
+            </div>
+            
+            
+            MAD. de TRENEUIL, 
+            
+            Nal autre, monsieur, ne le serait, sans doute, plus que
+            
+            2
+            
+            vous, sans la résolution que j'ai prise de ne point me rema
+            rier
+            
+            résolution que rien ne peut changer. 
+            
+            ce
+            
+            20
+            
+            [4
+            l
+            a
+            
+            م
+            د
+            
+            12
+            
+            DE PRESLE. 
+            
+            Et moi j'espère que le tems, que mes soins, que'mon
+            
+            amour
+            
+            MAD, DE TRENRUIL, froidement, 
+            
+            Ne le croyez pas, monsieur. 
+            
+            0
+            
+            vous êtes trop
+            
+            galaut
+            
+            homme, vous avez trop de droits à mon estime, pour que je
+            
+            veuille vous abaser… et à vous seul, 
+            
+            et sous le sceau da
+            
+            secret, 
+            
+            je veux bien
+            
+            confier ma situation… Pendant trois
+            
+            ans qu'a duré mon mariage, 
+            
+            j'ai été la plus malheureuse des
+            
+            femmes… non pas que M. de Trenenil ne m'aimât bean
+            
+            coup ; mais une jalousie aveugle, effrénée, dont lui-même gé
+            
+            missait, a empoisonné tous les instans de sa vie… elle lui
+            
+            a fait négliger le soin de ses affaires
+            
+            et de sa
+            
+            fortune, ,, 
+            
+            elle a hâté ses derniers momens, et lui a même survécu, 
+            
+            DE PRESLE. 
+            
+            Que dites-vous ? 
+            
+            MAD, DE TRENEUIL. 
+            
+            Prêt à mourir, 
+            
+            il
+            
+            n'a fait jurer qu'après lui je ne serais
+            
+            jamais à un autre ; et il est mort en emportant ce sérment, 
+            
+            DE PRESLE, 
+            
+            Quelle horreur ! 
+            
+            MAD, DE TRENEUIL. 
+            
+            Et pourquoi donc ?. 
+            
+            si cette dernière marqne d'amour
+            
+            lui a prouvé la sincérité de ma tendresse, 
+            
+            l'injustice de ses
+            
+            soupçons
+            
+. 
+            
+            si elle
+            
+            a adouci sos
+            
+            derniers momens… je
+            
+            n'ai fait que mon devoir, et je n'en félicite. 
+            
+            DE PRESLE. 
+            
+            Abuser de la foi du serment, pour enchaîner votre avenir ! 
+            
+            MAD. DE TRENEUIL. 
+            
+            Enchaîner !.,. il le serait sans cela ; 
+            
+            car j'aime peu le
+            
+            monde, où
+            
+            je n'ai trouvé que des chagrins, et je suis décidée
+            
+            à le quitter. 
+            
+            Est-il possible ! 
+            
+            DE PRESLE, 
+            
+            MAD. DE TRENEUIL, 
+            
+            Le repos et
+            
+            la
+            
+            solitude conviennent seuls à mes goûts, 
+            
+            à mon caractère, à mes sermens. : 
+            
+            •, et aussitôt après le ma
+            
+            riage de ma soeur, 
+            
+            je. compte une retirer à
+            
+            l'abbaye de
+            
+            Miremont. 
+            
+            DE PRESLE, 
+            
+            Vous n'exécuterez pas un semblable projet. 
+            
+            MAD. DE TRENEUIL. 
+            
+            C'est déjà
+            
+            fait à moitié, car voici la
+            
+            lettre que j'écrivais
+            
+            13
+            
+            ce matin
+            
+            à
+            
+            la supérieure, 
+            
+            en
+            
+            lui annonçant ma prochaine
+            
+            arrivée. 
+            
+            DR PRESLE. 
+            
+            Ce n'est pas possible. 
+            
+            chirerez cette lettre. 
+            
+            … vous réfléchirez
+            
+            … vous dé
+            
+            Vous ne me connaissez pas, monsieur. [Appelant. ] André ! 
+            
+            MAD, DB TRENEUIL. 
+            
+            Que voulez-voas faire ? 
+            
+            DE PRESLE. 
+            
+            MAD, DE TRENEUIL. 
+            
+            Vous prouver que quand j'ai pris une résolution que je
+            
+            crois sage et raisonnable, rien ne m'empêche de l'exécuter. 
+            
+            [Au domestique qui entre.) Portez cette
+            
+            lettre à l'instant même à
+            
+            la poste. 
+            
+            (Le domestique. ]
+            
+            Madame, voilà qui est affreux ! 
+            
+            DE PRÈSLE, avec colère. 
+            
+            MAD, DÉ TRENEUIL, offensée. 
+            
+            Monsieur ! 
+            
+            Oui, 
+            
+            sans doute
+            
+            désespoir
+            
+            DE PRESLE, 
+            
+            an
+            je dois vous sauver d'une résolution que vous
+            
+            … et puisque vous me' réduisez
+            
+            regretteriez plus tard… je m'attache à vous ; je ne vous
+            
+            quitte pas… å défaut d'autre mérite, j'aurai du moins celui
+            
+            de la persévérance. 
+            Vous verrez sans cesse celui que vous
+            rendez si malheureux… il sera là, devant vos yeux, comme
+            
+            un reproche continuel. 
+            
+            Monsieur ! 
+            
+            MAD, DE TRENEUIL. 
+            
+            DE PRESLE. 
+            
+            Et si cet amour dont je vous poursais, vous déplait…
+            
+            vous gêne, vous contrarie
+            
+. 
+            
+            rai pas le seul à souffrir
+            
+            eh bien ! tant mieux, je ne se
+            
+            vous serez comme inoi, vous
+            
+            ne pourrez vous en défaire
+            
+            … vous y serez condamnée. 
+            
+            C'en est trop
+            
+            MAD, DE TRENEUIL. 
+            
+            Eh, quoi ! madame. i. 
+            
+            *
+            
+            DE PRESLE, 
+            
+            Oui, monsieur
+            
+. 
+            
+            et puisque la voix de l'amitié, puisque
+            
+            MAD, DE TRENEUIL. 
+            
+            celle de la
+            
+            raison ne peuvent rieu sur
+            
+            VOUS…
+            
+            il faut se
+            
+            résoudre à se séparer, à ne plus se voir, å se priver même
+            de vos visites. 
+            
+            O
+            
+            ciel ! vous me reproyez
+            
+. 
+            
+            … vous me chassez
+            
+            DE PRESLE. 
+            
+            14
+            
+            MAD. DE TRENEUIL. 
+            
+            Non, sans doute ; mais c'est vous qui m'obligez à ne plaš
+            
+            vous recevoir… Adieu, monsieur. 
+            
+            [Elle lui fait la révérence, et rentre dans son appartement.)
+            
+            m
+            
+            d
+            e
+            
+            Scène V. 
+            
+            DE PRESLE, seul. 
+            
+            Oni, sans donte, je partirai, je m'éloignerai… à l'instant
+            
+            même
+            
+            pour une venger, pour la
+            
+            forcer à me céder…
+            
+            mon honneur y
+            
+            est engagé… Mais comment y parvenir ? 
+            
+            ce qu'elle m'a appris est terrible… car je
+            
+            la connais ; 
+            
+            et avec ses principes, un tel serment est un obstacle invinci
+            
+            … C'est-à-dire, 
+            
+            ble…
+            
+            vincible •
+            
+            tout peut se vaincre. 
+            
+            tout peut s'oublier, quand on aime
+            
+            mais c'est qu'elle ne
+            
+            m'aime pas encore •. •
+            
+            il faut donc, avant tout, se faire ai
+            
+            mer, 
+            
+            à
+            
+            force de soins et de tendresse, 
+            
+            d'assiduité…
+            
+            [Avec dépit. ] De l'assiduité ! ! ! et je ne peux plus même la
+            
+            … elle ne me recevra plus ; sa porte m'est défendue ! 
+            
+            voir : 
+            
+            c'est une gaucherie que j'ai
+            
+            faite
+            
+            là… Quitter la
+            
+            partie, 
+            
+            la perdre… et
+            
+            c'est
+            tronver moyen de m'introduire de nouveau chez elle. i. d'y
+            
+            à quelque prix que ce
+            
+            soit, 
+            
+            il fant
+            
+            ? 
+            
+            s
+            e
+            
+            ت
+            ن
+            
+            être admis, de m'y installer
+            
+            oui, sans doute i… mais si
+            
+            ܩ
+            
+            je sais comment m'y prendre •. •
+            
+            **
+            
+            Scène VI. 
+            
+            ANTENOR, DE PRESLE. 
+            
+            ANTENOR, 
+            
+            à la cantonade. 
+            
+            Non, non, ne dérangez pas ces dames, 
+            
+            j'attendrai. 
+            
+            c'est une des prérogatives de mon état de prétendu
+            
+            mais ! n'est ce pas M. le comte de Presle ? 
+            
+            DE PRESLE, 
+            
+            •
+            
+. 
+            
+            E h
+            
+            Anténor Jousse ! mon ancien
+            
+            camarade de collége, que
+            
+            depuis quatre ans je n'avais pas rencontré une seule fois dans
+            
+            le monde. 
+            
+            ANTENOR. 
+            
+            C'est que, pendant ce tems, mon cher ámi, j'en ai
+            
+            été
+            
+            tout-à-fait retranché, et séquestré ; j'étais entre au grand sé. 
+            
+            minaire. vice
+            
+            DE PRESLE. 
+            
+            C'est donc prai ? 
+            
+. 
+            
+            je croyais
+            
+            qu'on
+            
+            le
+            
+            disait pour se
+            
+            moquer de toi. 
+            
+            15
+            
+            ANTENOR. 
+            
+            Non vraiment
+            
+            moi, je n'ai jamais en d'ambition ; mais
+            
+            ma mère, en avait
+            
+            et comme c'était alors le seul moyen
+            
+            de parvenir…
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR du partage de la Richesse. </stage>
+            
+            
+                    <l>Sous l'empire, où régnait la gloire,</l>
+                    <l>Dans les dragons je dus être englobé ;</l>
+                    <l>Quand régna la soutane noire,</l>
+                    <l>Elle voulut de moi faire un abbé.</l>
+            
+                    DE PRESLE, 
+            
+                    <l>Et maintenant, où quiconque pérore,</l>
+                    <l>Monte dans peine aux grandeurs de l'état,</l>
+                    <l>Si ta mère vivait encore,</l>
+                    <l>Infortuné, tu serais avocat.</l>
+                </lg>
+            </div>
+            
+            
+            ANTENOR. 
+            
+            C'est probable
+            
+            je
+            
+            n'aurais pas pu échapper les robes
+            
+            noires. 
+            
+. 
+            
+            mais alors, mon oncle, qui est évêque, devait me
+            
+            pousser et me protéger ; 
+            
+            j'aurais fait mon chemin : 
+            
+            c'est
+            
+            à-dire, non, parce que je n'avais pas de vocation, :, dans
+            
+            mes rêves, 
+            
+            et même tout éveillé, je pensais toujours à un
+            
+            bon ménage, 
+            
+            à une femme, 
+            
+            à des enfans… c'était mal ! 
+            
+            cela m'aurait perdu… et à la mort de ma pauvre mère, j'ai
+            
+            quitté la soutage et je suis
+            
+            entré chez un agent de change
+            
+            pour faire mon salut. 
+            
+            Est-il possible ! 
+            
+            Oui, mon ami
+            
+            qu'un mauvais
+            
+            O
+            
+            1
+            
+. 
+            
+            DE PRESLE. 
+            
+            ANTENOR. 
+            
+            il vaut mieux être un bon négociant, 
+            
+            Tu as raison
+            
+            quelque état que l'on choisisse, l'essen
+            
+            DE PRESLE. 
+            
+            tiel est de l'exercer en honnête homme
+            
+            ANTENOR. : 
+            
+            Mon patron m'a pris en affection
+            
+            il voulait mêmeme
+            
+            donner un intérêt dans sa charge, et alors ma fortune serait
+            
+            faite. 
+            
+            e mais pour cela
+            
+            il faudrait cent mille écus
+            
+, et
+            
+            tout mon patrimoine réuni fait à peine, le tiers de cette
+            somme. 
+            
+            DE PRESLE, 
+            
+            N'as-ta pas des amis, qui seront trop heureux de venir à
+            
+            ton secours ? 
+            
+            Est-il possible ! 
+            
+            ANTENOR. 
+            
+            : 
+            
+            16
+            
+            DE PRESLE. 
+            
+            Moi, tout le premier • •. j'ai plus d'argent qu'il ne m'en
+            
+. 
+            
+            faut, et si cela pent t'obliger, 
+            
+            je te prête les deux cent inille
+            
+            francs qui te manquent. 
+            
+            ANTENOR. 
+            
+            Ah ! mon ami ! mon cher ami ! c'est étonnant… On nous
+            
+            enseignait là-bas que la société était perfide
+            
+            le monde
+            
+            corrompu… moi, depuis que j'y suis, je ne trouve que lo
+            
+            yauté, générosité, désintéressement parmi les hommes. 
+            
+            Fasse le
+            
+            ciel que tes
+            
+            illusions continuent
+            
+            Та ас
+            
+            DE PRESLE. 
+            
+            ceptes donc ? 
+            
+            ANTENOR. 
+            
+            C'est-à-dire, je ne refuse pas
+            
+            mais, vois-tu, j'ai écrit
+            
+            à mon oncle l'évêque, qui est fort riche comme tu sais, pour
+            
+            le prier de m'avancer cette somme
+            
+            je n'ai pas encore
+            
+            reçu sa réponse, qui, 
+            
+            j'en suis sûr, sera favorable. 
+            
+. et il
+            
+            anrait droit de se fâcher, ce bon oncle, si d'ici là je m'adres
+            
+            sais à d'autres qu'à lui. 
+            
+            C'est juste. 
+            
+            DE PRESLE. 
+            
+            ANTENOR. 
+            
+            Mais je' t'en gardė la même reconnaissance
+            
+            et je
+            
+            proclamerai partout ton amitié, ta générosité. 
+            
+            B
+            
+            DE PRESLE. 
+            
+            Dutout. 
+            
+. 
+            
+            tu me feras le plaisir de n'en rien
+            
+            dire…
+            
+            ou nous nous fâcherons
+            
+            • Mais tu
+            
+            aurais un autre moyen
+            
+            de me rendre service. 
+            
+            Lequel, mon ami ? 
+            
+            ANTENOR, 
+            
+            DE PRESLE. 
+            
+            Apprends-moi comment tu es reçu dans cette maison ; et
+            
+            sur quel pied tu
+            
+            y viens ? 
+            
+            ANTENOR. 
+            
+            J'y viens dans din but légitime…, mes idées de mariage
+            
+            me tiennent toujours, surtout depuis que j'ai vu Mlle. Del
+            
+            phine, la soeur de Mad. de Treneuil, i
+            
+            une jeune personne
+            
+            charinante. 
+            
+            DE PRESLE. 
+            
+            C'est possible
+            
+            je n'ai pas remarqué. 
+            
+            ANTRNOR. 
+            
+            Ne ine dis pas cela, . i cela me ferait de la peine pour
+            
+            toi
+            
+            moi je n'en dors pas
+            
+            · j'ai des vertigest, des ex
+            
+            17
+            
+-
+-
+            
+            tases, j'en perds la tête
+            
+            m'embrouille dans mes reports
+            
+            je
+            
+            et dans mes fin courant. 
+            
+            et je ne conçois au monde de
+            
+            félicité que par elle. 
+            
+            Pauvre garçon ! 
+            
+            et tes voeux sont-ils bien accueil
+            
+            lis ? …, le voit-elle avec plaisir ? 
+            
+            DE PRESLE, 
+            
+            Je n'en sais rien
+            
+            ANTENOR. 
+            mais elle rit quand elle me voit…
+            
+            c'est toujours cela… elle est si bonne. 
+            
+            
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR d'Aristippe. </stage>
+            
+                    <l>Je suis toujours des traits de sa folie</l>
+                    <l>Dédommagé par son bon cœur ;</l>
+                    <l>À la moindre plaisanterie</l>
+                    <l>Toujours succède une faveur ;</l>
+                    <l>Un mot piquant me vaut une douceur.</l>
+                    <l>Chacun me plaint d'un bonheUr qu'on ignore…</l>
+                    <l>Je laisse dire… et de moi, Dieu merci !</l>
+                    <l>Pour peu qu'elle se moque encore,</l>
+                    <l>Je suis sûr d'être son mari.</l>
+            
+                </lg>
+            </div>
+            
+            Je
+            
+            comprends. 
+            
+            DR PRESLR. 
+            
+            ANTENOR. 
+            
+            C'est pour elle que j'ai appris la musique •
+            
+            que j'ai appris la walse et la galope
+            là elle m'a donné de l'espoir. 
+            
+            Je t'en
+            
+            fais
+            
+            compliment
+. 
+            
+            DE PRESLE. 
+            
+            ANTENOR, 
+            
+            • o • pour elle
+            et depuis ce tems
+            
+            Oui, mais nous sommes tant de danseurs… c'est-d-dire, 
+            
+            tant de
+            
+            concurrens
+            
+            Comment cela ? 
+            
+            DE PRESLE. 
+            
+            ANTENOR. 
+            
+            Madame de Trenevil, pour laisser à sa soeur tonte liberté
+            
+            dans son choix, s'est fait une loi, et un devoir de recevoir
+            
+            chez elle tous ceux qui s'annoncent comme prétendaus. 
+            
+            Est-il possible ! 
+            
+            Oui,'mon ami
+            
+. 
+            
+. 
+            
+            tous sont admis
+            
+. 
+            
+            à seize. 
+            
+            DE PRESLE. 
+            
+            ANTENOR. 
+            
+            d'ici à ce que sa soeur se décide, 
+            
+            il y
+            
+            a de quoi faire une contredanse
+            
+            Dien ! 
+            
+            DE PRESLE, vivement, 
+            
+            que c'est heureux ! 
+            
+            Le Chaperon. Rép. No. 94. 
+            
+            (
+            
+            2
+            
+) 
+            
+            18
+            
+            ANTENOR, 
+            
+            Et pourquoi ? 
+            1
+            
+            DE PRESLE, 
+            
+            Parce que plus il
+            
+            y aura de cencarrens, et plus tu auras
+            
+            de gloire, à l'emporter.,
+            
+            ANTENOR. 
+            
+            San
+            
+            Je ne tiens pas à la gloire. 
+            
+            2. a'IO
+            
+            DE PRESLE. 
+            
+            Ta as
+            
+            tort
+            
+. 
+            
+            et je ne sais comment te remercier de
+            
+            l'idée
+            
+. 
+            
+            non
+            
+            … i de la nouvelle que tu viens de me don
+            
+            per C
+            
+            tu es un brave et honnête garçon qui, en tout tėms, 
+            
+            peux compter sur moi. 
+            
+            ANTENOR, le serrant dans ses bras, 
+            
+            J'y compte, mon ami, j'y compte ii, et entre nous, c'est
+            
+            à
+            
+            la vie et à
+            
+            la mort. 
+            
+            DE PRESLE. 
+            
+            Tais-toi donc
+            
+            voilà ces dames. 
+            
+            C'est vrai. 
+            
+. 
+            
+            ANTENOR. 
+            
+            DE PRESLE. 
+            
+            Présente-moi à elles, je
+            
+            t'en prie. 
+            
+            ANTENOR. 
+            
+            st De tout mon coeur. 
+            
+            Scène VII. 
+            
+            DE PRESLE, ANTENOR, DELPHINE, 
+            
+            en párure
+            
+            de bal, MAD. DE TRENEUIL. 
+            
+            MAD. DE TRENRUIL ; à part, apercevant de Presle. 
+            
+            Comment encore ici
+            
+. 
+            
+            après un congé aussi formel…
+            
+            je ne le reconnais pas là. 
+            
+            [Anténor et de Presle s'inclinent. ]
+            
+            ANTENOR, prenant de Presle
+            
+            par
+            
+            la main, 
+            
+            Mesdames, 
+            
+            j'ai l'honneur de vous présenter M. le comte
+            
+            de Presle, mon ancien camarade : … un militaire des plus
+            
+            distingués. 
+            
+            DE PRESLE, passant entre Anténor et Delphine *) .
+            
+            Mon amiAnténor est trop bon
+            
+            … il ne fallait pas moins
+            
+            que
+            
+            son
+            
+            patronage et
+            
+            sa
+            
+            recommandation pour oser, vous
+            
+            adresser une demande, qui me semble, 
+            
+            à moi, 
+            
+            toute natu
+            
+            relle, et que vous trouverez peut-être bien téméraire. 
+            
+            *) Anténor, de Presle, Delphine, Mad. de Treneuil, 
+            
+            5
+            5
+            
+            re
+            
+            ن
+            ج
+            
+            1
+            
+            19
+            
+            DRLPAINE, 
+            
+-
+            
+            Et laquelle, monsieur ? 
+            
+            DE PRESLB, 
+            
+            „ Je sais que de nombreux prétendans aspirent à
+            
+            la main
+            
+            de mademoiselle ; et sans aacan droit… je dirai même plus, 
+            
+            sans aucun espoir, je viens cependant me mettre aussi sur
+            
+            les rangs. 
+            
+            DELPHINE BT MAD. DE TRENEUIL. 
+            
+            Est-il possible ! 
+            
+            ANTENOR, s'éloignant de de Presle, 
+            
+            Quelle trahison ! 
+            
+            DELPHINE. 
+            
+            Et c'estM. Anténor qui nous le présente ! voilà par exem
+            
+            ple, une confiance. 
+            
+            Du tout, mademoiselle. 
+            
+            ANTENOR. 
+            
+            DE PRESLE. 
+            
+            Je m'attendais bien à l'accueil peu favorable que je reçois. 
+            
+            DELPHINE, 
+            
+            Vous auriez tort, monsieur, d'interpreter en mauvaise part
+            
+            la surprise que me canse votre recherche, trop honorable, du
+            
+            reste, pour qu'on puisse s'en formaliser. 
+            
+            ANTENOR, 
+            
+            00 : 13 ") 
+            
+            Encore un qu'on admet… et être trompé ainsi par un
+            
+            ami de collége. 
+            
+            Écoute donc
+            
+            DE PRESLE. 
+            est rivaux
+            
+            · on
+            
+            en amoồr… et
+            
+            cela
+            
+            n'empêche pas l'amitié. 
+            
+            [11 lui tend la main. ] *
+            
+            ANTENOR. 
+            
+            Laissez-moi, je ne veux plus rien de vous, et je ne croi
+            
+            rai plus désormais à l'amitié des hommes
+            
+. 
+            
+            [Regardant mad.'
+            
+            de Treneuil. ] Je ne croirai qu'à celle des femmes. 
+            
+            [N remonte vers le haut du théâtre. ]
+            
+            MAD, DE TRKNEUIL, passant entre Delphine et de Presle *) …
+            
+            Si quelqu'un ici a le droit de s'étonner d'une pareille dé
+            
+            marche, il me semble, monsieur, que c'est moi. 
+            
+            Dutout, madame, car c'est vous qui en êtes cause
+            
+            … ce
+            
+            sont vos avis, vos conseils qui n'y ont déterminé. 
+            
+            DE PRESLE. 
+            
+            *) De Presle, Mad, de Treneuil, Anténor, Delphine. 
+            
+            2 *
+            
+            20
+            
+            ANTENOR, venant entre måd. de Treneuil et Delphine. 
+            
+            [A mad de Treneuil. ] Et vous aussi, madame, vous qui sem
+            
+            bliez-me porter quelque intérêt. 
+            
+            DE PRESLE, à mad, de Treneuil. 
+            
+            J'ai écouté la voix de la raison… i la vôtre, madame, 
+            
+. 
+            
+            la
+            
+            5
+            
+            ANTENOR, à Delphine : {
+            
+            Et c'est par raison
+            
+            qu'il vous aime ? 
+            
+            DE PRESLE. 
+            
+            Oui, mon ami, une raison impérieuse. 
+            
+            MAD, DB TRENEUIL. 
+            
+            La seconde fois que vous voyez ma soeur. 
+            
+            DE PRESLE, galañment. 
+            
+            th mais ! une seule aurait suffi. 
+            
+            MAD. DE TRENEUIL. 
+            
+            Mais songez donc, monsieur
+            
+            DE PRESLE. 
+            
+            091 1990
+            
+            le monde, 
+            
+            due
+            
+            m'a-t-on dit, la concurrence libre à tout
+            supposer
+            
+            j'aurais
+            
+            lieu
+            
+, madame, de vous
+            
+            [en appuyant. 1 des raisons toutes personnelles, si yous m'accor
+            
+            diez le privilege de l'exclusion : 
+            
+            MAD. De TRENEUIL, à part. 
+            
+            C'est-à-dire, qu'il va ne croire jaloùše. (Haut. j Je ne dis
+            
+            plus rien, monsieur
+            
+            que ma soeur prononce •… mais
+            
+            qu'elle prononce sur-le-champ. 
+            
+            DE PRESLE. 
+            
+            Ce n'est ni juste, ni raisonnable…
+            
+. 
+            
+            je n'ai pas, [regardant
+            
+            Antinor.) comme bien des gens un mérite evident, et qui saute
+            
+            lep, si toutefois j'en ai, est difficile à dé
+            
+            le tems de se faire connaître… et
+            
+            aux yeux
+            
+            couvrir
+            
+. 
+            
+. 
+            
+. 
+            
+            il
+            
+            le
+            
+            il faut au moins que mademoiselle me permette comme les
+            
+            autres de lui faire ma cour. 
+            
+            DELPHINE, passant auprès de sa soeur *) ,
+            
+            1 me semble, ma soeur, qu'on ne peut pas empêcher. 
+            
+            ANTENOR. 
+            
+            Eh bien ! qu'il se dépêche, et que cela finisse : 
+            
+            DE PRESLE, froidement. 
+            
+            Je commencerai dès que mon rival ne sera plus lå • • •
+            
+            on ne peut pas exiger que je
+            
+            fasse ma déclaration devant
+            
+            témoin. 
+            
+            C'est juste. 
+            
+            DELPHINE. 
+            
+            *) De Presle, Mad. de Treneuil, Delphine, Anténor. 
+            
+            21
+            
+            C'est-à-dire, que nous sommes de trop…
+            
+            MAD. DE TRENEUIL. 
+            
+            DE PRESLE, la retenant. 
+            
+            Non, madame, je connais trop les convenances… votre
+            
+            présence est de droit, et de rigueur… vous' êtes la tutrice, 
+            
+            le chaperon de mademoiselle ; 
+            
+            et à ce titre, vous ne pouvez
+            
+            pas faire autrement que d'écouter ma déclaration d'amour. 
+            
+            ANTENOR, à mad. de Treneuil, qui fait un geste d'impatience. 
+            
+            Oui, madame : … j'aime mieux que vous soyez lå i…
+            
+            Je serai plus tranquille. 
+            
+            et puisqu'il faut que je m'en
+            
+            aille
+            
+            DE PRESLE. 
+            
+            Sans rancune, mon ami Auténor. 
+            
+            ANTENOR. 
+            
+            Si, monsieur ; 
+            
+            car moi, je ne suis pas comme vous…
+            
+            je ne vous prends pas en traître ; et je vous déclare que si je
+            
+            peux tronver quelque bon moyen de vous nuire. 
+            
+            DE PRESLE. 
+            
+            C'est toujours comme cela entre amis, 
+            
+            ANTENOR, hésitant à s'en
+            
+            aller. 
+            
+            Sans adien, madame, et vous, mademoiselle, 
+            
+            je me re
+            
+            commande à vous
+            
+            il va vous parler mieux que moi, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : Ses yeux disaient tout le contraire. </stage>
+            
+            
+                    <l>Je sais qu'il est plus éloquent,</l>
+                    <l>Il sait mieux plaire et mieux séduire ;</l>
+                    <l>Il a plus d'esprit, de talent.</l>
+            
+                    DE PRRSLE, à part et riant. 
+            
+                    <l>Si c'est ainsi qu'il croit me nuire.</l>
+            
+                    ANTENOR. 
+            
+                    <l>Il va, comme futur mari,</l>
+                    <l>Vanter son amour, sa constance ;</l>
+                    <l>Mais tout ce qu'il va dire ici,</l>
+                    <l>Songez que c'est moi qui le pense.</l>
+                </lg>
+            </div>
+            
+            
+            [4 de Presle, avec fierté, en sortant.) Adieu, moysieur. 
+            
+            [Nl entre chez mad, de Treneuil. ]
+            
+            Scène VIII. 
+            
+            DE PRESLE, MAD. DE TRENEUIL, DELPHINE. 
+            
+            DELPHINE, 
+            
+            Ce pauvre Anténor !. 
+            
+            il me fait de la peine
+            
+            inais
+            
+            ce n'est pas un mal, qu'il ait quelque inquiétude
+            
+            … sans
+            
+            cela, il serait trop tranquille, et trop sûr de son fait. 
+            
+            b
+            e
+            
+            OL
+            
+            9
+            
+            €
+            
+            22
+            
+            MAD. DE TRENEUIL. 
+            
+            Maintenant, monsieur, vous êtes satisfait… j'espère
+            
+            qu'au moins vous ne me retiendrez pas plus long-tems. 
+            
+            DE PRESLE, 
+            
+            Je tâcherai, madame ; sans toutefois en répondre. 
+            
+            car vous sentez que l'exposé d'une passion, ça demande tou
+            
+            jours quelques développemens
+            
+            je sais bien que ces sortes
+            
+            de choses ne sont guère amasantes, quand on ne les écoute
+            
+            pas pour son compte, :, mais lorsque c'est par état, et qu'il
+            
+            y
+            
+            a nécessite
+            
+            Oh ! peu m'importe
+            
+. 
+            
+            je n'ai pas besoiŋ d'entendre, et
+            
+            MAD. DE TRENEUIL. 
+            
+            j'ai là mon ouvrage, [Elle va s'asseoir auprès de la table. ]
+            
+            DE PRESLE, 
+            
+            Votre puvrage… à merveille, madame… je n'y pen
+            
+            sais pas, ,, mais cela me mettra tout-à-fait à mon aise. 
+            
+            DELPHINE, à part, pendant que mad. de Treneuil s'assied. 
+            
+            Je suis curiense de voir comment il (va me faire la cour
+            
+            … un militaire dont on
+            
+            vante l'esprit
+            
+            …
+            
+            ça
+            
+            doit
+            
+            être
+            
+            amusant, 
+            
+            [Elle s'assied à côté de sa soeur, et les yeux baissés. ]
+            
+            DE PRESLE, s'assied auprès de Delphine, et après quelques instans
+            
+            de silence, 
+            
+            Mademoiselle, ce que j'ai à vous dire est bien simple…
+            
+            je désire être admis au nombre de vos prétendans, 
+            
+            [A part. ] Comment ! 
+            
+            voilà tout… les autres qui me fai
+            
+            DELPHINE, après un silence. 
+            
+            saient de si jolies phrases. [Haut. ] Monsieur, est-ce là le seul
+            
+            motif ? 
+            
+            DE PRESLE, 
+            
+            Une telle question prouve la
+            
+            candeur et l'ingénuité de
+            
+            votre ame, ,, car de la manière dont je me présente, ma
+            
+            réponse ne peut pas être douteuse. 
+            
+            Je suis amoureux, made
+            
+            moisellę ; dans ma position c'est de rigueur, 
+            
+            DELPHINE…
+            
+            Amoureux ? 
+            
+            DE PRESLE, avec expression. 
+            
+            Ah ! oni, l'on peut m'en croire ; et je ne serais pas ici, je
+            
+            jare, si je n'y avais été entrainé par un penchant irrésistible. 
+            
+            Allons, c'est un peu mieux
+            
+            • !. (Haut. ] Mais ce penchant
+            
+            a été bien prompt… car vous me connaissez à peine ; et si
+            
+. 
+            
+            DELPHINE, à part. 
+            
+            j'étais sûre que vous fussiez sincère
+            
+            Je m'y engage. 
+            
+            23
+            
+            DE PRESLE. 
+            
+            DELPHINE. 
+            
+            Je vous demandérais à quelle circonstance je dois attri
+            
+            buer votre amour ponr moi ? 
+            
+            MAD. DE TRENRUIL, bas, 
+            
+            Delphine…
+            
+            DELPHINE, bas. 
+            
+            Mais dam', ma soenr, 
+            
+            il faut bien prendre des informa
+            
+            tions… c'est un soiu qui vons regardait. 
+            
+            Je fais là
+            
+            votre
+            
+            ouvrage, 
+            
+            DE PRESLE. 
+            
+            Un autre, mademoiselle, vous parlerait de ces coups sou
+            
+            dains de la sympathie, 
+            
+            si familiers dans les romans, 
+            
+            et au
+            
+            théâtre… mais ce sont là des moyens tellement prodigués, 
+            
+            qu'on n'y croit plus guère aujourd'hui. Moi, 
+            
+            c'est différent, 
+            
+            cet amour que je vous témoigne, mademoiselle, 
+            
+            l'idée n'en
+            
+            est venue en pensant à madame votre soeur. 
+            
+            Ą ma soeur ! 
+            
+            DELPHINE. 
+            
+            MAD. DB TRENEUIL, se levant. 
+            
+            Monsieur, que voulez-vous dire ? oubliez-vous ?. 
+            
+            DE PRESLE, se levant, 
+            
+            Pardon, madame. N'oubliez pas vous-même, de grâce, 
+            
+            que vous n'êtes ici qu'un témoin impartial, 
+            
+            et désintéressé. 
+            
+            Comme chaperon, vous regardez, vous écoutez ; mais voilà
+            
+            tout… Je suis seul juge des moyens que j'emploie pour
+            
+            faire la cour à mademoiselle ; 
+            
+            et celui-là n'est peut-être pas
+            
+            le moins naturel et le moins persuasif. [Il se rassied, ] Oui, ma
+            
+            demoiselle, je me suis dit : Une jeune personne élevée sous
+            
+            l'influence d'un pareil exemple ; formée à l'école de tant de
+            
+            vertus et de qualités ; recevant à chaque instant du jour ces
+            
+            impressions dont il est impossible de se défendre… mais
+            
+            ce doit être un modèle de raison, d'amabilité, de grâce. Ce
+            
+            doit être la perfection même ! … Je ne me suis pas trompé, 
+            
+            mademoiselle ; et vous concevez'maintenant que j'ai d'excel
+            
+            lentes raisons pour me dire amoureux de vous. 
+            
+            DELPHINE, bas à mad, de Treneuil. 
+            
+            Ma soeur, remerciez-le donc, il me semble que ça vous
+            
+            regarde plus que moi. 
+            
+            DE PRESLE, regardant avec passion mad. de Treneuil, qui baisse les
+            
+            yeux. 
+            
+            Oui, mademoiselle, car jamais je
+            
+            n'ai aimé comme au
+            
+            jourd'hui. 
+            
+            24
+            
+            DELPHINE. 
+            
+            Comment ! monsieur, vous avez aimé déjà ? 
+            
+            Oui, 
+            
+            mademoiselle. 
+            
+            Par exemple, 
+            
+            DE PRESLE. 
+            
+            DELPHINE, 
+            
+            MAD, DE TRENEUIL, se levant, 
+            
+            Monsieur
+            
+. 
+            
+            une telle confidence
+            
+            à ma soeur ! 
+            
+            DE PRESLE. 
+            
+            Et pourquoi non, madame
+            
+            Oui, mademoiselle, c'est
+            
+            par ma franchise que je veux vous intéresser à moi, et en ce
+            
+            moment surtout, j'en
+            
+            ai besoin plus que tous ne pouvez le
+            
+            croire
+            
+            Ecoutez-moi, d'abord • •, vous jugerez après
+            
+            Une jeune personne
+            
+            je ne vous dirai rien de ses qualités, 
+            
+            de ses grâces
+            
+            pous l'auriez trop vite nommée, 
+            
+            Je la connais donc ? 
+            
+            DELPHINE, 
+            
+            DE PRESLE. 
+            
+            Vous devez la connaître. 
+            
+            Ah ! voyons, si je devinerai, 
+            
+            DELPHINE, 
+            
+            à part. 
+            
+            DE PRESLE. 
+            
+            Depuis long-tems, je l'adorais, 
+            
+            et c'était pour la mériter
+            
+            que j'étais parti pour l'armée… nous étions à
+            
+            la veille d'un
+            
+            combat décisif, et je me disais : demain, je
+            
+            serai mort, 
+            
+            ou
+            
+            digne d'elle. 
+            
+            Comprenez mon désespoir : une lettre
+            
+            fatale
+            
+            m'informe de son prochain mariage ! Éperda, hors de moi, 
+            
+            je voulais partir, déserter mon poste. Ce sang que je devais
+            
+            à mes frères d'armes, c'est pour elle, c'est pour la disputer å
+            
+            un rival, que j'aurais voulu le verser… mais l'honneur, le
+            
+            devoir ! hélas ! quelques jours après, 
+            
+            j'avais repu mon pays, 
+            
+            je volais auprès d'elle
+            
+' il était trop tard, 
+            
+            Trop tard ! 
+            
+. 
+            
+            elle
+            
+            était mariée
+            
+            et vous l'aimiez ? 
+            
+            DELPHINE. 
+            
+            Oui, mademoiselle
+            
+            ! 
+            
+            autant que possible
+            
+            je
+            
+            le
+            
+            croyaiş du moins. 
+            
+            Eh, bien ! 
+            
+            je vous dirai avec la même
+            
+            PE PRESLE. 
+            
+            franchise, et vous devez me croiré, que l'amour que j'éprou
+            vais alors n'était
+            rien… [regardant Mad, de Treneuil. ] auprès
+            
+            de celui que j'éprouve aujourd'hui. 
+            
+            Est-il possible ! 
+            
+            DELPHINE
+            
+            25
+            
+            DE PRESLE. 
+            
+            Quelle différence ! … il
+            
+            fallait rougir autrefois de ma
+            
+            passion, il fallait la cacher à tous les yeux… mais mainte
+            
+            nant celle que j'aime est libre… je puis avouer un amour
+            
+            dont je suis fier ; et quels que soient les moyens que j'em
+            
+            ploie pour l'obtenir, ils ont un but trop pur et trop légitime, 
+            
+            pour qu'elle puisse m'en vouloir. 
+            
+            DELPHINE. 
+            
+            Non, certainement, monsieur, je ne vous en veux point
+            se lève. ] et tout ce que
+            
+            de chercher à me faire la cour… (on
+            
+            vous me dites-là… est tout-à-fait bien
+            
+            pour les paro
+            
+. 
+            
+            les… [A part. ]
+            
+            Il n'y
+            
+            a que les gestes et les regards
+            
+            C'est singulier… il n'a pas l'air de tourner les yeux yers
+            
+            moi, 
+            
+            Eh bien ! mademoiselle ? 
+            
+            DE PRESLE, 
+            
+            DELPHINE. 
+            
+            Tenez, monsieur, il y a dans vos discours quelque chose
+            
+            qui a l'air d'être vrai, et qui intéresse
+            
+            qui fait qu'on vou
+            
+            drait vous laisser dans l'incertitude
+            
+            0
+            
+            et voilà pourguoi, 
+            
+            quoique cela me fasse de la peine, 
+            
+            je vous avouerai tout de
+            
+            Buite
+            
+, 
+            : : que quant à moi. ?. 
+            
+            Ah ! mademoiselle ! si c'est un refus que vous me réser
+            
+            vez, daignez le suspendre encore… Je sais bien qu'on ne
+            
+            DE PRESLE. 
+            
+            peut pas aimer en un jour, et à la première vue… Aussi, 
+            je ne vous presse pas
+            
+. 
+            
+            •, prenez dạ tems… tout le tems
+            
+            qu'il faudra, 
+            
+            
+            
+            <div type="poem">
+                <lg>
+                    <stage type="tune">AIR : Traitant l'amour sans pitié. </stage>
+            
+            
+                    <l>Je ne veux que soupirer,</l>
+                    <l>Et long-tems, amant sensible…</l>
+                    <l>Oh ! le plus long-tems possible,</l>
+                    <l>Permettez-moi d'espérer.</l>
+                    <l>C'est par le tems, la constance,</l>
+                    <l>Les épreuves, la souffrance,</l>
+                    <l>Qu'on peut, du moins je le pense,</l>
+                    <l>Mériter le nom d'époux ! …</l>
+                    <l>Laissez-moi donc, je vous prie,</l>
+                    <l>Vous aimer toute la vie,</l>
+                    <l>Pour être digne de vous.</l>
+                </lg>
+            </div>
+            
+            
+            Toute la vie
+            
+            c'est un peu long. 
+            
+            DELPHINE. 
+            
+            26
+            
+            DE PRESLE. 
+            
+            Ça m'est égal, 
+            
+. 
+            
+            la seule faveur que je réclame, c'est
+            
+            la liberté de revenir, de vous voir quelquefois, tous les jours, 
+            
+            le matin, 
+            
+            le soir, 
+            
+            à votre convenance ; et de ne vous parler
+            
+            que devant votre soeur… toujours devant elle. 
+            
+            MAD, DE TRENEUIL. 
+            
+            Monsieur
+            
+            DE PRESLE, à Delphine, à genoux, 
+            
+            … et
+            
+            en revanche, 
+            
+            je
+            
+            Accordez-moi cette permission
+            
+            m'engage à ne vous rien demander de plus. 
+            
+            DELPHINE. 
+            
+            Mais relevez-vous, monsieur, relevez-vous. 
+            
+            DE PRESLE. 
+            
+            Vous consentez, : : Ah ! que je suis heureux ! 
+            
+            Scène IX. 
+            
+            LES PRÉCÉDENS, ANTENOR. *) 
+            
+            Dieu ! que vois-je ! 
+            
+            et qu'entends-je ! 
+            
+            ANTENOR, 
+            
+            DE PRESLE. 
+            
+            Op me permet d'espérer… : : 
+            
+            qui te fâche ? 
+            
+            ANTENOR. 
+            
+            voilà tout
+            
+            C'est là ce
+            
+            D'abord, monsieur, je vous prierai de supprimer
+            
+            c e s f a
+            
+            miliarités-là
+            
+            •• parce qu'enfin comme je ne vous tutoie plas. : 
+, 
+            
+            C'est juste, 
+            
+            DE PRESLE. 
+            
+            ANTENOR. 
+            
+            Et en outre, 
+            
+            je vous préviens que je vais parler contre
+            
+            vous, et pour faire connaitre à madeinoiselle la personne à
+            
+            qui elle permet d'espérer, je ne dirai qu'une seule chose, 
+            
+            mais horrible, mais épouvantable
+            
+            dre à
+            
+            l'instant, 
+            
+            que je viens d'appren
+            
+            MAD, DE TRENEUIL, avec émotion. 
+            
+            Qu'entends-je ! 
+            
+            DE PRESLE. 
+            
+            J'allais partir
+            
+            ••, mais je reste
+            
+            je ne serai pas fâché
+            
+            d'avoir quelques renseigạemens sur mon compte. 
+            
+            d
+            e
+            
+            *) De Presle, Delphine, Anténor, Mad, de Treneuil. 
+            
+            27
+            
+            ANTENOR. 
+            
+            Comme ce n'est pas pour vous que je les ai pris, je ne
+            
+            suis pas obligé de vous les donner. 
+            
+            DE PRESLE. 
+            
+            Il me semble cependant que quando
+            
+            être en face. 
+            
+            accuse, 
+            
+            ce
+            
+            doit
+            
+            C'est juste ! 
+            
+            DELPHINE. 
+            
+            DE PRESLE. 
+            
+            Quant à moi, je m'engage envers mon adversaire à ne
+            
+            pas l'interrompre ; qu'il lance contre moi son réquisitoire. 
+            
+            je m'assieds là, muet, immobile, et fort de mou innocence. 
+            [Il s'assied dans un fauteuil. ]. 
+            
+            Par exemple, voilà qui excitema curiosité. [Haut à Anténor. ]
+            
+            DELPHINE, 
+            
+            part, 
+            
+            Allons, parlez donc. 
+            
+            Parlez, Anténor. 
+            
+            MAD. DE TRENEUIL. 
+            
+            ANTENOR, 
+            
+            A cet empressement, je vois bien qu'on est maintenant
+            
+            pour lui… vous aussi, Madame de Treneuil ! Il vous a sé
+            
+            duite, mais cela ne durera pas, quand je rons dirai que lui, 
+            
+            qui recherche mademoiselle en mariage, il aime une autre
+            femme. 
+            
+            Est-il possible ! 
+            
+            DELPHINE. 
+            
+            ANTENOR. 
+            
+            Et qu'il s'est battu pour elle, la semaine dernière, à la
+            
+            suite d'on bal ; on vient de le dire dans le salon… et s'il
+            
+            ose le nier, j'ai un moyen de le confondre, en vous montrant
+            la
+            
+            blessure qu'il a reçue. 
+            
+            MAD, DB TRENRUIL, avec émotion. 
+            
+            O
+            
+            ciel ! une blessure ! 
+            
+            ANTENOR. 
+            
+            Vous voilà, comme moi, madame, effrayée d'abord…
+            
+            parce qu'on a beau haïr ses amis, .
+            
+. 
+            
+            le premier mouvement
+            
+            est pour eux •.,
+            
+            une égratigaure à la main droite…
+            ciel. 
+            
+            … c'est une permission du
+            
+            mais rassurez-vous… presque rien…
+            
+            la vérité. 
+            
+            tout juste ce qu'il fallait pour rendre témoignage à
+            
+            28
+            
+            DELPIIINE. 
+            
+            Moi, qui m'étais
+            
+            attendrie, 
+            
+            qui le croyais la franchise
+            
+            même. 
+            
+            [Anténor et Delphine remontent jusqu'au haut du théâtre. ]
+            
+            MAD. De TRENEUIL, 
+            
+            à de Presle. 
+            
+            Vous avez entendu, monsieur ? 
+            
+            DE PRESLE, avec le plus grand sang-froid, 
+            
+            Parfaitement, madame. 
+            
+            MAD. DE TRENEUIL. 
+            
+            Quant à moi, tout cela me serait bien indifférent. 
+            
+            mais comme tutrice de ma soeur, comme obligée de veiller à
+            
+            son avenir, 
+            
+            je ne puis me dispenser de vous interroger
+            
+            qu'avez-vous à répondre ? 
+            
+            DE PRESLE. 
+            
+            Que dans le recit d'Anténor
+            
+            de monsieur Anténor, il
+            
+            entre beaucoup d'exagération ; des faits mal présentés, plus
+            
+            mal interprétés encore ; et qu'auprès tout, j'espère être jugé
+            
+            sur ma conduite ultérieure, et non pas sur les rapports tou
+            
+            jours suspects d'un rival, qui ne cherche à me perdre dans
+            
+            votre esprit que pour diminuer la concurrence. [Il se rassied. ]
+            
+            ANTENOR. 
+            
+            Voilà ce qui vous trompe, monsieur. Je n'ai agi qne pour
+            
+            le bonheur de mademoiselle Delphine •… son bonheur à ve
+            
+            nir
+            
+. car moi je n'ai plus de prétentions
+            
+. 
+            
+            je me retire. 
+            
+            Que dites-vous ? 
+            
+            MAD, DB TRENEUIL. 
+            
+            ANTENOR. 
+            
+            Qu'en me mettant sur les rangs pour épouser mademoi
+            
+            selle, qui a cent mille écus de dot, j'espérais lui apporter une
+            
+            fortune égale à la sienne
+            
+            Înais je comptais pour cela, sur
+            
+            mon bon oncle l'évêque, 
+            
+            à
+            
+            qui j'avais demandé deux-cent
+            
+            mille francs… et je reçois de lui, à l'instant. 
+            
+            Cette somme ? 
+            
+            MAD, DE TRENEUIL. 
+            
+            ANTENOR. 
+            
+            Non, une lettre… où
+            
+            il refuse de m'envoyer cet argent. 
+            
+            Est-il possible ! 
+            
+            MAD. DE TRENRUIL. 
+            
+            ANTENOR. 
+            
+            Du reste, il m'envoie sa bénédiction
+            
+            mais vous sentez
+            
+            que cela ne suffit pas pour épouser celle qu'on aime. 
+            
+            29
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR : J'en guette un petit de mon âge. </stage>
+            
+            
+                    <l>Ainsi, je pars, mademoiselle ;</l>
+                    <l>Recevez mes derniers adieux ;</l>
+                    <l>Puisqu'un autre hymen vous appelle,</l>
+                    <l>Puissiez-vous faire un choix heureux.</l>
+                    <l>Par les grands airs craignez d'être éblouie,</l>
+                    <l>Cherchez surtout candeur et bonne foi ;</l>
+                    <l>Enfin prenez un mari comme moi,</l>
+                    <l>Afin d'être toujours chérie.</l>
+                </lg>
+            </div>
+            
+            
+            DELPHINE, le reténant. 
+            
+            Monsieur Anténor
+            
+            • vous qui êtes si bon, vous seriez
+            
+            malheureux ! oh ! non, 
+            
+            j'ai pu être légère, frivole… mainte
+            
+            nant je me le reprocherais… et quoique vous soyez presque
+            
+            sans fortune, si ma soeur y consent, 
+            
+            il me semble que c'est
+            
+            yous que je préfère. 
+            
+            Est-il possible ! 
+            
+            ANTENOR ; hors de lui. 
+            
+            DE PRESLE, passant entre Delphine et Anténor, *) 
+            
+            Permettez, permettez. 1. vous n'en êtes pas encore sûre. 
+            
+            Comment cela ? 
+            
+            ANTENOR, 
+            
+            DE PRESLE. 
+            
+            Mademoiselle a dit : il me semble
+            
+            expression pleine
+            
+            de tact, de prudence et de raison. 
+            
+            ANTENOR. 
+            
+            Il ne s'agit pas de raison, puisqu'elle me préfère…
+            
+            DE PRESLE. 
+            
+            Pour le moment ! 
+            
+            premier moment d'enthousiasme et
+            
+            de sensibilité, qui ne prouve rien : 
+            
+. il faut attendre le temps
+            
+            et la réflexion
+            
+            MAD, DB TRENEUIL. 
+            
+            Mais il me semble, à moi, que ma soeur vous a dit assez
+            
+            nettement…
+            
+            Oui, monsieur. 
+            
+            *Non, mademoiselle. 
+            
+            DELPHINË, 
+            
+            DE PRESLE : 
+            
+            DELPHINE, avec impatience. "
+            
+            ? 
+            
+            Et je vous répète encore…
+            
+            Vous n'en savez rien vous-même. 
+            
+            DE PRESLE. 
+            
+            *) Delphine, de Presle, Anténor, Mad, de Trenouil. 
+            
+) 
+            
+            Est-il obstiné ! 
+            
+            Il ne me croira pas. 
+            
+            30
+            
+            ANTENOR, 
+            
+            DELPHINE. 
+            
+            DE PRESLE. 
+            
+            Non, sans doute, 
+            
+            tant que votre soeur sera là
+            
+            [A mad, de
+            
+            Treneuil. ] Oui, madame, vous exercez sur votre soeur une in
+            fluence, à laquelle mademoiselle cède sans le savoir
+            
+            votre
+            
+            présence lui dicte ce qu'il faut dire. 
+            
+            ANTENOR. 
+            
+            Je vous dis que non. 
+            
+            DE PRESLE, 
+            
+            Je vous
+            
+            dis que si. 
+            
+            Scène X. 
+            
+            LES PRÉCÉDENS, UN DOMESTIQUE. 
+            
+            Voici des dames qui arrivent au salon. 
+            
+            LE DOMESTIQUE. 
+            
+            MAD, DE TRENEUIL, 
+            
+            Je vais les recevoir. 
+            
+            Anténor, Delphine, vous me saiyrez. 
+            
+            [Elle sort. ]
+            
+            Et je suis bien sûr que si je restais seulement cinq minu
+            
+            DE PRESLE, continuant toujours. 
+            
+            teş avec mademoiselle, je la ferais changer d'idée. 
+            
+            Est-il possible ! 
+            
+            DELPHINE. 
+            
+            ** Mademoiselle
+            
+            veut-elle me permettre de lui offrir
+            
+            la
+            
+            ANTENOR, vivement à Delphine. 
+            
+            main ? 
+            
+            Vops avez pear ? 
+            
+            DELPHINE. 
+            
+            ANTENORS
+            
+            Moi ! après ce que je vous ai dit de lui o no après ce que
+            
+            vous avez fait pour moi… oh ! non, plus de défiance. 
+            
+            Eh bien ! 
+            
+            alors id
+            
+            Eh bien ! …
+            
+            DE PRESLE, 
+            
+            ANTEÑOR. 
+            
+            DE PRESLE, lui faisant signe de partir. 
+            
+            Eh bien ! 
+            
+. 
+            
+            31
+            
+            ANTENOR. 
+            
+            Eh bien ! oui, 
+            
+            et pour humilier son amour-propre, pour
+            
+            qu'il soit bien persuadé de votre
+            
+            indifférence, j'accorde les
+            
+            cing minutes
+            
+            … ne fût-ce que pour lai prouver qu'on ne le
+            
+            craint pas
+            
+            … et puis je serai là… et les portes du salon
+            
+            seront ouvertes. 
+            
+            DELPHINE. 
+            
+            Puisque vous le voulez… et pour vous faire plaisir, 
+            
+            j'accepte [A part. ] Que peut-il avoir à une dire ? [Haut à Anténor.)
+            
+            Mais vous n'oubliez pas que nous ouvrons le bal ensemble. 
+            
+            ANTENOR, 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR du Premier Prix. </stage>
+            
+            
+                    <l>Oh ! je reviendrai tout de suite,</l>
+                    <l part="I">Au premier coup d'archet.</l>
+            
+                    DELPHINE, 
+            
+                    <l part="F">C'est bien,</l>
+            
+                    ANTENOR, à de' Presle, 
+            
+                    <l>Vous le voyez, moi je vous quitte.</l>
+                    <l part="I">Mais allez donc…</l>
+            
+                    DELPHINE. 
+            
+                    ANTENOB. 
+                    <l part="F">Je ne crains rien !</l>
+                    VO
+            
+                    <l>Oui, quoi qu'à mon apprentissage,</l>
+                    <l>Je veux me montrer désormais</l>
+                    <l>Digne d'entrer en mariage ;</l>
+                    <l>Et pour le prouver je m'en vais.</l>
+            
+                </lg>
+            </div>
+            
+            Scène XI. 
+            
+            DELPHINE, DE PRESLE. 
+            
+            DE PRESLE, regarde autour de lui si on ne peut l'entendre. 
+            
+            Personne. 
+            
+            Non, monsieur, et maintenant que ma soeur n'est plus là, 
+            
+            et que je ne suis plus comme vous disiez, sous son influence
+            
+            DELPHINE. 
+            
+            • je vous répète de moi-même i…
+            
+            Que vous ne m'aimez pas. 
+            
+            DE PRESLE, gaiment. 
+            
+            DELPHINE. 
+            
+            Oui, monsieur
+            
+            qu'avez-vous à dire à cela ? 
+            
+            Que je le savais, et que j'en suis enchanté. 
+            
+            DE PRESLE, 
+            
+            DELPHINE
+            
+            Eh bien ! par exemple
+            
+            1
+            
+            32
+            
+            DE PRESLE : 
+            
+            Et maintenant que je n'ai plus d'espoir i… Je déclare a
+            
+            YouS. 
+            
+            : 
+            
+            mais à vous seule, qu'Anténor pent disposer de ma
+            
+            fortune
+            
+            moi qui ne suis pas son oncle, mais qui suis sou
+            
+            ami ; je l'établirai ; je lui prêterai tout ce qu'il faut. 
+            
+            DELPHINE. 
+            
+            14
+            
+            4
+            
+            Et tout cela, en ma faveur
+            
+            c'est de l'héroïsme…
+            
+            pauvre jeune homme ! yous êtes donc bien amoureux de inoi ? 
+            
+            Pas du tout
+            
+            Qu'entends-je ! 
+            
+            ĎE PRESLE : 
+            
+            DRLPAINE. 
+            
+            DE PRESLR
+            
+            Eh quoi ! à travers l'ambiguité obligée de mes paroles…
+            
+            était-il donc si difficile de voir à qui elles s'adressaient ? 
+            
+            A ma soeur
+            
+. 
+            
+            0
+            
+            Eh bien ! vrai
+            
+            je m'en suis doutée
+            
+            un moment… et si vous l'époosiez, que je serais heureuse ! 
+            
+            DELPHINE. 
+            
+            Il y a tant d'obstacles. 
+            
+            DE PRESLE. 
+            
+            Je le sais bien. 
+            
+            DELPHINE
+            
+            DR PRESLE. 
+            
+            Vous seale pouvez m'aider à les vaincre. 
+            
+            DELPHINE, 
+            
+            Parlez…
+            
+            disposez de moi. 
+            
+. 
+            
+            je serai si contente de
+            
+            faire votre bonheur. 
+            
+            celui de ma soeur ! 
+            
+            Et celui d'Anténor
+            
+            DE PRESLE. 
+            
+            DELPHINE. 
+            
+            Les deux noces
+            
+            la fois ! 
+            
+            Que faut-il faire ? 
+            
+            DE PRESLE. 
+            
+            Déclarer tout haut et sans hésitatiou que vous m'aimez, 
+            
+            que yous m'acceptez pour mari. 
+            
+            DELPHINE. 
+            
+            A
+            
+            la bonne heure. 6. Je préviendräi Anténor. 
+            
+            DE PRESLE. 
+            
+            Du tout…
+            
+            je m'y oppose. 
+            
+            DLEPINHE : 
+            
+            Mais songez-donc… Le tourmenter encore…
+            
+            DE PRESLE. 
+            
+            Tant mieux
+            
+. 
+            
+            J'ai besoin
+            
+            de sa rage et de ses fue
+            
+            reurs. 
+            
+            Ça entre dans mon plan d'attaque. 
+            
+            33
+            
+            DELPHINE, 
+            
+            Je lai dirai de gémir
+            
+            de s'emporter. 
+            
+            DE PRESLE. 
+            
+            Il n'a pas assez de sang-froid pour cela
+            
+            cherie de sa colère, votre soeur devinerait
+            
+            … et à la gatt
+            
+            Enfin je ne
+            
+            Yeux que vous pour auxiliaire
+            
+. 
+            
+            DELPHINE, 
+            
+            Pauvre Anténor ! je ne pourrai jamais lui faire un pareil
+            
+            chagrin. 
+            
+            DE PRESLE, 
+            
+            Alors, c'est que vous ne l'aimez pas…
+            
+. 
+            
+            puisque c'est
+            
+            le seul moyen d'assurer son mariage et sa fortune. 
+            
+            J'entends bien… Aù moins, sera-če long ? 
+            
+            DELPHINE. 
+            
+            DR PRESLE. 
+            
+            Le moins que je pourrai. i. et si vous me secondez
+            
+            bien…
+            
+            DELPHINE, avec effort. 
+            
+            Me voilà prête. 
+            
+            Bien yrai ? ma jolie belle-soeur ! 
+            
+            DE PRESLE, 
+            
+            Oui. 
+            
+            Point de faiblesse ? 
+            
+            Non. 
+            
+            DELPHINE. 
+            
+            DR PRESLE. 
+            
+            DELPHINE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de Renaud de Montauban. </stage>
+            
+                    DE PRESLE. 
+            
+                    <l>Commençons donc ; je les entends.</l>
+                    <l part="I">Je tremble !</l>
+            
+                    DE PRESLE. 
+            
+                    <l part="F">Quel enfantillage !</l>
+            
+                    DELPHINE. 
+            
+                    <l part="I">Vous le voulez ?</l>
+            
+            
+            
+                    DELPHINE
+            
+                    DR PRESLE. 
+            
+                    <l part="M">Il le faut.</l>
+            
+                    DELPHINE, 
+                    <l part="F">J'y consens.</l>
+            
+            
+            
+            
+                    <l>De le tromper ayons donc le courage !</l>
+                    <l>Et puis, au fait, c'est pour son bien.</l>
+            
+            
+            
+                    Le Chaperon, Rép. No. 94. 
+            
+                    [
+            
+                    3
+            
+] 
+            
+                    34
+            
+                    DE PRESLE. 
+            
+                    <l>C'est trop juste, et combien de belles</l>
+                    <l>À leurs amans sont infidèles,</l>
+                    <l>Sans que ça leur rapporte rien,</l>
+                    <l>Sans que cela rapporte rien.</l>
+                </lg>
+            </div>
+            Scène XII. 
+            
+            ANTENOR, DELPHINE, DE PRESLE, 
+            
+            MAD. DE TRENEUIL : 
+            
+            ANTENOR, à Delphine, allant anprès d'elle. 
+            
+            Mademoiselle, voici bientôt la première contredanse…
+            
+            je venais vous en avertir. 
+            
+            MAD. DE TRENEUIL, à Delphine, 
+            
+            Et moi, je viens te chercher : … On te demande de tous
+            
+            côtés ; 
+            
+            et
+            
+            je
+            
+            ne m'attendais pas à
+            
+            te trouver senle
+            
+            ici, avec
+            
+            monsieur. 
+            
+            ANTENOR. 
+            
+            Ne la grondez pas, de grâce, c'est moi qui en suis cause. 
+            
+            MAD, DE TRENEUIL. 
+            
+            Vous, Anténor ? 
+            
+            DE PRESLE. 
+            
+            Oui, madame ; 
+            
+            et je dois remercier ce cher am
+            
+            da ser
+            
+            vice qu'il vient de me rendre
+            
+            0
+            
+            Il m'a permis d'éclairer
+            
+            mademoiselle sur ses véritables sentimens. 
+            
+            Que dit-il ? 
+            
+            ANTENOR. 
+            
+            DE PRESLE. 
+            
+            J'étais bien sûr qu'un mouvement de sensibilité spontanée
+            
+            avait seul dicté son premier choix ; mais la réflexion devait
+            
+            m'être favorable. 
+            
+            ANTENOR. 
+            
+            Qu'est-ce que j'apprends là ? … Mais non… ce n'est
+            
+            pas possible. 
+            
+            Delphine
+            
+            serait-il vrai ? 
+            
+            MAD. DE TRENEUIL. 
+            
+            DELPHINE, baissant les yeux et hésitant. 
+            
+            Ma soeur…
+            
+            DE PRESLE, bas, 
+            
+            Songez à votre promesse. 
+            
+            MAD, DE TRENEUIL. 
+            
+            : 
+            
+            Eh bien ? 
+            
+            35
+            
+            DE PRESLR, poussant Delphine. 
+            
+            Allons donc…
+            
+            DELPHINE, 
+            
+            Eh bien ! je croyais que d'abord
+            
+            j'en conviens
+            
+            Mais ce que monsieur vient de me dire, m'a décidée en
+            
+            sa
+            
+            faveur. 
+            
+            Ciel ! 
+            
+            ANTENOR et MAD, DB TRENEUIL. 
+            
+            DE PRESLE, 
+            
+            à MAD, DB TRENEUIL. 
+            
+            Vous voyez
+            
+            je ne lui fais pas dire. 
+            
+            ANTENOR, allant à de Presle *) .
+            
+            Monsieur, cela ne se passera pas ainsi, et nous verrons. 
+            
+            Monsieur Auténor ! 
+            
+            LES DAMES. 
+            
+            ANTENOR, 
+            
+            Non… non i
+            
+. 
+            
+            il ne faut pas croire qu'à
+            
+            cause de
+            
+            mon ancien état
+            
+            Plaire à coups de pistolet… joli système. 
+            
+            DE PRESLE. 
+            
+            ANTENOR. 
+            
+            n
+            
+            a raison ! 
+            
+            •… et moi qui les ai laissés ensemble cinq
+            minutes… cinq minutes, pas davantage. i. [Regardant alter
+            
+            nativement Delphine et de Presle qui se font des signes.) Et des signes
+            
+            d'intelligence… Je suis anéanti
+            
+            et c'est d'autant plus
+            
+            mal à
+            
+            vous, 
+            
+            mademoiselle, que si vous m'aviez dit cela seu
+            
+            leinent il y a un quart d'heure, je ne m'étais pas encore ar
+            
+            rangé pour être heureux
+            
+            il n'y aurait pas eu de contre
+            
+            conp ; 
+            de bonnes lectures
+            
+            et peut-être plus tard… l'absence, la résignation, et
+            
+            … Mais à présent !. 
+            
+            Ah ! j'en mourrai. 
+            
+            Là ! jaste ce que j'avais prévu. 
+            
+            DELPHINE, à part. 
+            
+            Anténor, mon ami ! 
+            
+            MAD. DE TRENEUIL. 
+            
+            (De Presle passe à la droite de Delphine.) *}
+            
+            ANTENOR, 
+            
+            Non, madame… pourquoi vous attendrir sur mes infor
+            
+            tunes ? … Ne prenez pas cette peine-là. 
+            
+            je commence
+            
+            à m'y faire ; dans la même journée, un ami d'abord ; ensuite
+            
+            *) Delphine, Anténor, de Presle, Mad, de Treneuil, 
+            
+            **) De Presle, Delphine, Anténor, Mme, de Treneuil. 
+            
+            (
+            
+            3
+            
+) 
+            
+            36
+            
+            un oncle ; et puis une amante… Il n'y
+            
+            a que vous, ma
+            
+            dame, vous seule qui ne changiez pas, qui ne changerez ja
+            
+            mais, et que rien ne pourra séduire. 
+            
+            Anssi, dorénavant, 
+            
+            amitié, parenté, amour, je ne croirai plus à
+            
+            rien… qu'à
+            
+            votre bouté, qu'à votre générosité…
+            
+            Je vais chercher mon
+            
+            chapeau. 
+            
+. DELPHINE, 
+            
+            à part. 
+            
+            Dieu ! 
+            
+            á •
+            
+. 
+            
+            (Haut et vivement.) Antépor…
+            
+            DE PRESLE, bas, 
+            
+            Imprudente ! 
+            
+            ANTENOR, se retournant, 
+            
+            Vons me rappelez, mademoiselle ? 
+            
+            DELPHINE. 
+            
+            Moi ? non, 
+            
+            (Prélude dans la coulisse par la porte qui est restée
+            
+            ouverte.)
+            
+            Ah ! 
+            
+            si fait, 
+            
+            le prélude de la contredanse. (Bas à de
+            
+            Presle d'une voix suppliante.) Rien que cela. 
+            
+            (Il lui fait un léger
+            
+            signe de consentement, et lui' rappelle ensuite qu'elle doit se taire, par
+            
+            un geste rapide, auquel elle répond par' un clin d'oeil.)
+            
+            Quoi ! votis exigéz encore ? 
+            
+            ANTÉNOR. 
+            
+            DELPHINE. 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la Galope. </stage>
+            
+            
+                    <l>Oui, si je ne m'abuse,</l>
+                    <l>Voici le premier air ;</l>
+                    <l>Allons, s'il me refuse,</l>
+                    <l>Il me le paîra cher.</l>
+            
+                    AN
+            
+                    NOR
+            
+                    <l>À souffrir cet outrage,</l>
+                    <l>Je saurai m'efforcer :</l>
+                    <l>Oui, j'aurai du courage,</l>
+                    <l>Et je m'en vais danser.</l>
+            
+                    ENSE M
+            
+                    B
+            
+                    L E. 
+            
+                    DELPHINE, MAD. DE TRENEUIL, DE PRESLE, ANTÉNOR. 
+            
+                    DELPHINE. 
+            
+                    <l>Oui, de la contredanse</l>
+                    <l>Voici le gai refrain ;</l>
+                    <l>Et je crois que la danse</l>
+                    <l>Bannira son chagrin.</l>
+            
+                    MAD. DE TRENEUIL. 
+            
+                    <l>Il me brave, il m'offense ;</l>
+                    <l>Je l'éloignais en vain ;</l>
+                    <l>Croit-il par sa présence</l>
+                    <l>Détruire mon dessein ?</l>
+            
+                    37
+            
+                    DE PRESLE. 
+            
+                    <l>Son cœur de résistance</l>
+                    <l>Contre moi s'arme en vain,</l>
+                    <l>Et ma persévérance</l>
+                    <l>Changera son dessein.</l>
+            
+                    ANTÉNOR. 
+            
+                    <l>Pour moi plus d'espérance,</l>
+                    <l>Mon malheur est certain ;</l>
+                    <l>Et cette contredanse</l>
+                    <l>Est un nouveau chagrin.</l>
+                </lg>
+            </div>
+            
+            
+            [Anténor donne la main à Delphine, et sort avec elle ; la porte se re
+            
+            ferme, 
+            
+            et on cesse d'entendre la musique. ]
+            
+            *
+            
+            Scène XIII. 
+            
+            Mad. DE TRENEUIL, DE PRESLE. 
+            
+            De Presle a suivi Anténor et Delphine, et au moment
+            
+            d'entrer dans le salon, 
+            
+            il s'arrête et s'inclinant, il
+            
+            dit à mad. de Treneuil. 
+            
+            1
+            
+            Vous me permettrez, madame, de les spiyre, •, dans
+            
+            mon intérêt
+            
+            DE PRESLE. 
+            
+            MAD. DE TRENEUIL. 
+            
+            Un mot, de grâce, monsieur. 
+            
+            DE PRESLE, à part, et revenant, 
+            
+            On ne me renvoie plus. 
+            
+            • on me retient. 
+            
+            MAD. DE TRENEUIL. 
+            
+            J'ai une explication à vous demander sur votre conduite, 
+            
+            qui d'un bout à l'antre une parait une énigme inexplicable. 
+            
+            DE PRRSLE, froidement. 
+            
+            Rien de plus simple, madame, … Repoussé par vous…
+            la cour, et
+            
+            je me suis adressé à votre soeur. 
+            
+            Je lui ai fait
+            
+            je suis décidé à l'épouser. 
+            
+            A l'épouser ! 
+            
+            Et si je l'instruis des ayeux que vous
+            
+            MAD, DE TRENEUIL. 
+            
+            m'avez faits aujourd'hui même ?. 
+            
+            DE PRESLE. 
+            
+            Vous le pouvez, madame… cette menace m'alarme
+            
+            ped. 
+            
+. 
+            
+            Si j'ai su prendre quelque ascendant sur elle vous
+            
+            ne le détruiriez pas par-là… On se fie à ceux qu'on aime…
+            
+            38
+            
+            on n'a pas de peine à s'en croire véritablement aimé… et
+            
+            alors
+            
+            (avec
+            
+            expression.) on ne leur oppose plus une longue
+            
+            résistance. 
+            
+            Eh quoi ! 
+            
+            fille. 
+            
+            MAD. DE TRENRUIL. 
+            
+            tirer avantage de la
+            
+            crédulité d'une jeune
+            
+            DE PRESLE. 
+            
+            Et à qui la faute, si ce n'est à vous qui m'y forcez ? 
+            
+            MAD, DB TRENEUIL. 
+            
+            Ah ! vous en convepez. 
+            
+            Vous l'avez trompée. 
+            
+            DE. PRESLE. 
+            
+            Madame
+            
+            MAD, DE TRENEUIL. 
+            
+            Et puis-je savoir par quelle magie, quel pouvoir merveil
+            
+            Jeux vous avez acqpis ce prompt ascendant dont vous êtes
+            
+            si fier ? 
+            
+            DE PRESLE, 
+            
+            Une magie toute simple… l'accent de la vérité. 
+            
+            De la vérité ? 
+            
+            MAD, DB TRRNEUIL, 
+            
+            DE PRESLE. 
+            
+            Oui, inadame ; en
+            
+            suppliant votre soeur, comme votre
+            
+            image est toujours présente à ma pensée, je me suis involon
+            
+            tairement figuré que c'était
+            
+            à vous que je
+            
+            m'adressais ; et
+            
+            une fois que j'ai eu
+            
+            fait
+            
+            ce premier effort d'imagination, le
+            
+            reste in'a
+            
+            été facile. 
+            
+            J'ai mis tant de feq dans l'expression de
+            
+            mes sentimens, 
+            
+            je
+            
+            lui ai peint avec des couleurs si vives le
+            
+            désespoir qui m'attendait, s'il fallait vivre loiu de vous de. 
+            
+. je
+            
+            veux dire, 
+            
+            loin
+            
+            d'elle
+            
+            que cette jeune personne n'a pas
+            
+. 
+            
+            pu s'empêcher d'être attendrie, 
+            
+            en se voyant aimée à ce
+            
+            point-là, 
+            
+            MAD, DE TRENÉUIL, 
+            
+            Aimée. 
+            
+            à merveille, monsieur ; par ce récit vous es
+            
+            &gt; 
+            
+            sayez encore de me faire croire à une passion
+            
+            impérieuse, 
+            
+            irrésistible. 
+            
+            Cela est bon pour ma soeur, ,, 
+            
+            mais pour
+            
+            moi, je n'ignore pas gne cette prétendue passion vens laisse
+            
+            quelques intervalļes de loisir
+            en reparler. 
+            
+            attendu que, quant à moi, je vous le répète, 
+            
+            car. 
+            
+            j'hésitais à vous
+            
+            rien ne m'est plus indifférent. 
+            
+            Mais enfin, une intrigue
+            
+            amoureuse.,, up duel l'autre semaine. 
+            lui répondre, 
+            
+            tire un bouquet fané de son
+            
+            [De Presle, sans
+            
+            sein, et
+            
+            l'y replace aussitôt. ]
+            [Elle se cache la tête dans
+            
+            Que vois-je ! 
+            les mains. ]
+            
+            Il
+            
+            Ah ! de Presle !. 
+            
+            •
+            
+. 
+            
+            l'observe. 
+            
+            Un silence. [Elle reprend avec beaucoup d'ém
+            
+            motion.) Quoi ! c'est pour ravoir ce bouquet dont un fat s'était, 
+            
+            emparé, que vous avez exposé yos jours ? 
+            
+            39
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Simple soldat. </stage>
+            
+            
+                    <l>Quelle folie ! … ô ciel ! … si j'avais su…</l>
+                    <l>Mais j'en vois une encor bien plus à craindre</l>
+                    <l>Dans le projet que vous avez conçu,</l>
+                    <l>Par un dépit que le tems peut éteindre…</l>
+                    <l>Vous de ma sœur vouloir être l'époux !</l>
+                    <l>C'est aux regrets vouer votre existence ;</l>
+                    <l>Et maintenant ce n'est plus par courroux,</l>
+                    <l>Que je persiste à parler contre vous,</l>
+                    <l>Monsieur, c'est par reconnaissance.</l>
+                </lg>
+            </div>
+            
+            
+            DE PRESLE. 
+            
+            ** Vous êtes bien bonne, madame, de vous intéresser &amp; 
+            
+            mon
+            
+            sort. 
+            
+            ce n'est pas votre habitude. 
+            
+            MAD, DB TRENEUIL, 
+            
+            " Eh ! monsieur
+            
+            si ce n'est pas pour vous…
+            
+            C'est
+            
+            pour le bonheur de Delphine, auquel vous ne pensez pas. 
+            
+            DE PRESLE. 
+            
+            Eh mais !' je vous ferai le même reproche, 
+            
+            et avec plus
+            
+            juste raison ; car c'est vous que cela regarde plus que'moi. 
+            
+            Comme sa tutrice, yous êtes responsable…', et son mathear
+            
+            puisque c'en
+            
+            est un de m'appartenir, vous ne devez l'at
+            
+            tribuer qu'à vous seule. 
+            
+            à vous qui, 
+            
+            d'un'mot, pouviez
+            
+            l'empêcher. 
+            
+            MAD. DB TRENEUIL, 
+            
+            Moi ! 
+            
+            et comment ? 
+            
+            En vous dévouant pour elle. 
+            
+            DE PRESLE. 
+            
+            Monsieur…
+            
+            MAD, DE TRENRUIL. 
+            
+            DE PRESLE. 
+            
+            Je sais ce qu'un tel parti a de pénible pour vous : 
+            
+            mais sans cela, 
+            
+            ou
+            
+            serait le sacrifice ? … Je vous l'ai dit, 
+            
+            madame, ou votre mari, ou votre beau-frère ; on le malheur
+            
+            de votre soeur, ou le vôtre ; choisissez. 
+            
+            MAD, DE TRENEUIL, 
+            
+            Ni l'un, ni l'autre ; car ma soeur ne peut se marier sans
+            
+            mon consentement. 
+            
+            et je le refuse. 
+            
+            Contraindre son penchant ! 
+            
+            DE PRESLE. 
+            
+            *
+            
+            MAD. DE TRENEUIL. 
+            
+            J'aime mieux sa douleur aujourd'hui que ses reproches
+            
+            plus tard… Et comme soeur, comme tatrice, je l'obligerai
+            bien à m'obéir. 
+            
+            40
+            
+            DE PRESLE, 
+            
+            De la tyrannie ! … Cela porte malheur, madame. i. et
+            
+            dès que vous sortez de l'ordre légal, dès que vous tombez
+            
+            dans le despotisme
+            
+            je sais les moyens quime restent, et
+            
+            i'y aurai recoars. 
+            
+            (Il salue et sort.)
+            
+            Scène XV…
+            
+            MAD, DE TRENEUIL, seule, 
+            
+            Peut-on pousser plus loin
+            
+            l'audace ! … me braver à ce
+            
+            point ! … Il s'en repentira ! Il ne sait pas le service qu'il vient
+            
+            de me rendre… Oui, ce n'est plus par un scrupule exagéré
+            
+            pent-être, :, 
+            
+            c'est pour ? ui… pour lui seul qae je le refuse, 
+            
+            et cela vaut mieux… Je pourrais me croire dégagée d'un sefe
+            
+            ment arraché à la faiblesse ou à la crainte… je pourrais ou
+            
+            bljer toutes mes résoląțions… je serais prête à me remạrier, 
+            
+            que tout autre agrait sur lui la préférence… Je le dis, sans
+            
+            dépit, sans colère, car je n'en ai plus… Je suis tranquille, et
+            
+            si ce n'étaient les craintes que in'inspire l'avenir de ma soeur
+            
+            24, Est-ce qu'en réalité elle l'aimerait à ce point-là ? …, Au
+            
+            fait, c'est possible…, une jeune personne à qui on répète
+            
+            qu'on l'aime éperdument, ne peut s'empêcher d'être émue…
+            
+            Moi-même, tout-à-l'heure, je ne sais ce que j'éprouvais. 
+            
+            et s'il faut qu'il ait produit le même effet sur Delphine, com
+            
+            ment m'y prendrai-je pour la détacher de lui ? 
+            
+            Voilà surtout
+            
+            ce qui est affreux de șa part ! 
+            
+            c'est
+            
+            ce calcul de me réduire
+            
+            ag rôle d'esclave avec lui, ou de tyran avec una soeur ! …
+            
+            Cela est indigne, cela révolte, 
+            ? 
+            
+            et il y a des momens où on
+            
+            pleurerait d'être isolée sans
+            
+            tout prix avoir un appui. 
+            
+            : un vengeur
+            
+            Ah ! 
+            
+            il était le
+            
+            défense
+            
+            on
+            
+            l'on
+            
+            voudrait à
+            
+            A auparavant
+            
+            : au lieu de m'outrager, il me protégeait ! 
+            
+            Et cette blessure ·
+            
+, 
+            
+, ce duel
+            
+. 
+            
+. 
+            
+            • ce bouquet ! … Al
+            
+            lons, allons, ne pensons plas à
+            
+            cela ; car je dois le haïr, 
+            
+            et
+            
+            peut-être n'en aurai-je plus le courage. 
+            
+            Scène XIV. 
+            
+            Mad. De TRENEUIL, ANTENOR. 
+            
+            inn
+            
+            ANTENOR. 
+            
+            Ah ! madame, si vous saviez.,. quel complot ! … quel
+            
+            tissu d'horreurs ! 
+            
+            41
+            
+            MAD. DE TRENEUIL, 
+            
+            Qu'avez-vous donc ? 
+            
+            Je viens de les voir tous les deux…
+            
+            Ils dansaient. 
+            
+            ANTENOR. 
+            
+            N'est-co que cela ? 
+            
+            MAD. DE TRENEUIL. 
+            
+            ANTENOR. 
+            
+            Oh ! vous n'y êtes pas
+            
+. 
+            
+            Je me suis glissé doucement
+            
+            derrière eux
+            
+. 
+            
+            J'ai cru d'abord que M. de Presle m'avait
+            
+            vu… mais, non, grâce au ciel ; et la preuve c'est qu'il con
+            
+            tingait à lui parler avec feu
+            
+            il lui disait : „ Oui, votre
+            
+            9980eur s'oppose
+            
+            formellement à notre union. ”
+            
+            C'est yrai. 
+            
+            MAD, DB TRENEUIL
+            
+            ܢ. ܪܝܪܚ
+            
+            ANTENOR. 
+            
+            Ah ! je vous remercie ! Non, au contraire, c'est cela qui
+            
+            sera cause de tout… Car M. de Presle aſbutait :'", , D'ne
+            
+            ponas
+            greste plus d'autre moyen qu'un enlèvement… et ce soir, 
+            
+            naprès le þal
+            
+            99
+            
+            Et qu'a répondu Delphine ? 
+            
+            MAD, DE TRENKUIL, 
+            
+            ANTENOR. 
+            
+            Elle a répondu
+            
+            je ne puis le croire encore :, , elle
+            
+            a répondu : „ J'allais vous le proposer. "
+            
+            En ce moment elle
+            
+            se retournait pour balancer :, 
+            
+            elle m'a aperça, … Elle a
+            
+            achevé tranquillement sa figure ; et moi, ne sachant plus celle
+            
+            que j'avais à faire… j'accours
+            
+            on donner de la tête…
+            
+            me voilà…
+            je ferai quelque malheur, 
+            
+            c'est sûr
+            je ne sais
+            
+            … : car je ne laisserai pas enlever mademoiselle, Delphine. 
+            
+            MAD, DB TRENEUIL. 
+            
+            Elle vient de ce côté
+            
+            … c'est elle, 
+            
+            ANTENOR. 
+            
+            Ah mon dien ! madame, soutenez-moi, ., Voilà la fièvre
+            
+            qui me prend… J'ai froid. 
+            
+            42
+            
+            MAD. DE TRENEUIL. 
+            
+            Laissez-moi l'interroger par degrés, 
+            
+            Zravec ménagemept…
+            
+            Vous surtout
+            
+            pas un mot. 
+            
+            7 ANTENOR. 
+            
+            "
+            
+            Ah ! je voudrais parler, que je ne pourrais pas. [1l va s'as
+            
+            seoir auprès du guéridon. } ? 
+            
+            in ? 
+            
+            19. 
+            
+            Scène XVI. 
+            
+            Samob, birci
+            
+            3i36'us slai LES PRÉCÉDENS, DELPHINE ; 
+            
+-$100
+            
+            let
+            
+            itt : 
+            
+            DELPHINE, 
+            
+            à part, 
+            
+            Les voilà. : 6 d. présent je suis au fait de mou rôle, et
+            
+            bien aguerrie contre ses reproches et sa colère. 
+            
+            MAD. DE TRENEUIL, 
+            
+            Ta viens de danser, Delphine ? 
+            
+            9
+            
+            DELPHINE. 
+            
+            Qui, ma soeur, 
+            
+. 
+            
+            IC 2
+            
+            MAD, DE TRENEUIL. 
+            
+            Et avec qui, ma chère enfant ? 
+            
+            PELPHINE. 
+            
+            Mais
+            
+            Tu'hésites
+            
+            MAD, DE TRENEUIL, 
+            
+            tu te caches de moi, ta meilleure amie ? 
+            
+            DELPHINE, 
+            
+            à part. 
+            
+            Ah ! si elle y met cette douceur-lå. 
+            
+'
+            
+            MAD, DE TRENEUIL. 
+            
+            Eh bien ! 
+            
+            réponds. 
+            
+            ANTENOR. 
+            
+            Ah mon dieu ! madeinoiselle, pourquoi ne pas
+            
+            le pom
+            
+            mer ? 
+            
+            on sait bien que c'est lui, M. de Presle… il ne
+            
+. 
+            
+            0
+            
+            vous quitte plus
+            
+            il est toujours là. 
+            
+            *) Mad. de Treneuil, Delphine, Anténor. 
+            
+            43
+            
+            Anténor ! …
+            
+            MAD, DE TRENEUIL, 
+            
+            kustel
+            
+            ANTENOR, se levant. 
+            
+            Oni, madame, oni je vous ai promis de me taire "…
+            
+            aussi, 
+            
+            je ne dirai rien. 
+            
+. 
+            
+            ça ne me regarde pas…, qu'il
+            
+            propose à mademoiselle de l'enlever, qu'elle y consente
+            
+            ça m'est bien égal… quaud on v'aime plus les personnes
+            
+            MAD, DE TRENBUIL. 
+            
+            1
+            
+            Il se pourrait ! … tų aurais eu
+            
+            la
+            
+            faiblesse ? 
+            
+            DELPHINE, 
+            
+' s. 
+            
+            Eh bien ! oui, c'est vrai… "J'ai tort ; mais tant qn'il me
+            
+            parlera, qu'il me pressera, je ne pourrai pas lai résister
+            
+            c'est plus fort que moi… tous les raisonnemens p'y pour
+            
+            raient rien [Affectant de pleurer. ] ça ne servirait qu'à me faire
+            pleurer davantage. 
+            
+            [Elle cherche des yeux son mouchoir qu'elle a laissé sur, 
+            ténor le saisit avec empressement et le lui présente.) **
+            
+            sur le guéridon, An
+            
+            ANTÉNOR. 
+            
+            1
+            
+            Le voilà, mademoiselle. 
+            
+            (A part. j' J'en aurais plus besoin
+            
+            qu'elle. 
+            
+            Malheureuse enfant ! mais comment a-t-il pris cet empire
+            
+            MAD. DE TRENEUIL, 
+            
+            sur toi ? 
+            
+            Eh ! le moyen de ne pas être
+            
+            sensible à son hommage
+            
+            DELPHINE, avec intention. 
+            
+            … n'est-il pas brave, aimable, spirituel ? 
+            
+            [En ce moment Anténor passe à la droite de mad, de Treneuil. ]
+            
+            MAD, DE TRENEUIL. 
+            
+            IS2
+            
+            Je ne dis pas non ; mais.,
+            
+            DELPHINE. 
+            
+            olmia
+            
+            Je ne vous parle pas de son rang
+            
+            et de sa fortune
+            
+            mais n'a-t-il pas un mérite éclatant, Pestime et les suffrages
+            de tout le monde ? 
+            
+            Je ne dis pas non, mais
+            
+            MAD. DE TRENEUIL. 
+            
+            44
+            
+            ANTENOB, bas à mad. de Treneuil, 
+            
+            Mais pourquoi en convenir ? 
+            
+            3X3 SDELPHINE. 
+            
+            Vous avouez donc,' avec moi, que jamais personne n'a été
+            
+            plus digne d'être aimé, n'est-ce pas, ma soeur ? 
+            
+            i
+            
+            … esis
+            
+. 
+            
+            <div type="poem">
+                <lg>
+            
+            
+                    <stage type="tune">AIR : Que d'établissemens nouveaux. </stage>
+            
+            
+                    <l>Et voir un amant sans défaut,</l>
+                    <l>Qui, devant vous, pleure, soupire,</l>
+                    <l>Et ne demande qu'un seul mot,</l>
+                    <l>Afin d'apaiser son martyre…</l>
+                    <l>Dites-moi donc par quel moyen,</l>
+                    <l>Refuser sans être inhumaine…</l>
+                    <l>Ce mot, qui fera tant de bien,</l>
+                    <l>Et qui coûte si peu de peine ?</l>
+                </lg>
+            </div>
+            
+            
+            en sien ! r-j ! ! ! 
+            
+            1 : "1 "
+            
+, "94, isson
+            
+            fearabout
+            
+. 
+            
+-IT Dam' ! 
+            
+            il m'aime tant. 
+            
+            MAD, DE TRENEUIL, 
+            
+-sika Eht" c'est là que je t'arrête… s'il t'avait trompée ? 
+            
+            wiu Ob ! non, ma soeur. 
+            
+            DELPHINE
+            
+            MAD, DB TRENEUIL, 
+            
+            s'il
+            
+            en
+            
+            aimait une
+            
+            S'il ne t'épousait que par dépit ? 
+            
+            auité ? …
+            
+            Lui ! … je ne le croirại jamais, 
+            
+            DELPHINE, 
+            
+            ANTENOR. 
+            
+            Quel aveuglement ! 
+            
+            MAD, DE TRENEUIL. 1.), 
+            
+            Si on te le prouvait ? 
+            
+            DELPHINE. 
+            
+            Ce n'est pas possible. 
+            
+            …
+            
+            MAD. DE TRENEUIL, 
+            
+            Si, moi, qui te parle
+            
+            pour le détacher de toi
+            
+. 
+            
+. 
+            
+            je n'avais qu'un mot à te
+            
+            dire
+            
+            pour l'amener à mes pieds. ***
+            
+            45
+            
+            DELPHINE. 
+            
+            Yous, ma soeur ? … Ah ! je voudrais bien voir cela. 
+            
+            MAD. DE TRENEUIL. 
+            
+            Eh bien ! 
+            
+            tu
+            
+            le verras • oi pour un moment seulement
+            
+            ri. et pour te préserver du danger que tu cours. 
+            
+            Oui, madame
+            
+            c'est un devoir. 
+            
+            ANTENOR. 
+            
+            Oh ! je ne crains rien, et je vous en défie…
+            
+            DELPHINÉ. 
+            
+            MAD, DĖ TRENEUIL. 
+            
+            Ah ! 
+            
+            tu m'en défies
+            
+            0
+            
+            c'est bien malgré moi, que j'au : 
+            
+            rai recours à la ruse, à la tromperiè. 
+            
+            mais ton intérêt le
+            
+            veut… Le voici
+            
+            O
+            
+            voir, mademoiselle. 
+            
+            Je suis d'une colère : i. vous allez
+            
+            Oui, mademoiselle, vous allez voir. 
+            
+            ANTENOR. 
+            
+            DELPHINE, à part…
+            
+            Je ne puis pas le prévenir… mais n'importe
+            
+            fois qu'il l'aura prise au mot…
+            
+            … ano
+            
+            Scène XVII. 
+            
+            LES MÊMES, DE PRESLE. 
+            
+            MAD. DR TRENEUIL. 
+            
+            Venez, venez, monsieur… nous connaissons vos pro
+            
+            jets. 
+            
+            On les connait. 
+            
+            ANTENOR. 
+            
+            DE PRESLE. 
+            
+            Ce n'est pas difficile, madame ; je ne les caché à per
+            
+            sonne. 
+            
+) Anténor, Mad. de Treneuil, de Presle, Delphine. 
+            
+            46
+            
+            MAD. DE TRENEUIL, 
+            
+            Ne cherchez pas de détours. Vous l'emportez, monsieur, 
+            
+            je
+            
+            dois m'avouer vaincue
+            
+            J'avais promis à mon père
+            
+            d'assurer
+            
+            l'avenir de sa seconde
+            
+            fille
+            
+            … de tout sacrifier
+            
+            pour elle, jusqu'aux promesses qui m'étaient les plus chères, 
+            
+            jusqu'à mon propre bonheur… grâce à vous, il ne me reste
+            
+            plus que ce moyen-là de tenir ma parole. 
+            
+. 
+            
+            eh bieu !. ••
+            
+            puisqu'on m'y force, puisque, pour l'arracher à
+            
+            la séduction, 
+            
+            je dois m'immoler moi-inême, 
+            
+            je'iné rappelle
+            
+            ce que vous
+            
+            m'avez dit tout-à-l'heure… voilà ma main, 
+            
+            (Elle la lui pré
+            
+            sente. ]
+            
+            DE PRESLE. 
+            
+            Je ne l'accepte pas, madame. 
+            
+            Comment ? 
+            
+            Encore cela. 
+            
+            MAD. DE TRENRUIL, 
+            
+            ANTENOR. 
+            
+            DELPHINR, 
+            
+            à part. 
+            
+            Ah mon dien ! 
+            
+            à force de feindre de l'amour pour moi, 
+            
+            I est-ce que ça serait devenu vrai ? …
+            
+            Pauyre Anténor ! 
+            
+            MAD. DE TRENEUIL, se remettant à peine de son trouble. 
+            
+            Quoi ! monsieur
+            
+            ••• [avec dépit. ] un refus !. 
+            
+            après tant
+            
+. 
+            
+            d'instances
+            
+            ? … Ainsi, vous m'avez trompée
+            
+, moi, nous tous ! 
+            
+            … et dans quel but ? 
+            
+            Le plaisir de faire de la peine. 
+            
+            il n'en
+            
+            a pas d'autre. 
+            
+            ANTENOR. 
+            
+            MAD, DE TRENEUIL. 
+            
+            Répondez donc, monsieur. 
+            
+            DE PRESLE, 
+            
+            Et qne vous dirais-je, quand je me vois si mal jugé par
+            
+            vous… Pouviez-vous croire que je voudrais d'une main que
+            
+            le coeur ne suivrait pas ? … que je me contenterais de ne lire
+            
+            dans vos yeux que la haine en échange de ma tendresse ? 
+            
+            d'enchaîner å mon sort une victime au
+            
+            lieu d'une amie ; de
+            
+            savoir eufin que je vous ai vouée pour jamais au malheur…
+            
+            (vivement) Oh ! vous venez de le dire… et par-là vous avez
+            
+            presque fait en un moment ce que n'avaient pu faire pile tems, 
+            
+            ni la séparation, ni la perte de tonte espérance… i Ah ! si je
+            
+            yous avais obtenue de vons-même ; si mon amour pour vous
+            
+            avait triomphe d'ạn yain scrupule, d'un serinent nul aux yeux
+            
+            de Dieu
+            
+            et des hommes… si un seul mot échappé du coeurs
+            
+            un geste, un regard, m'avaient appris que je ne vous suis pas
+            
+            indifférent… ah ! Julie ! c'est alors qu'à l'ivresse, au délire
+            
+            de ma joie, vous auriez
+            
+            coppu tout votre empire… Tantôt
+            
+            même en venant à vous, à quelles illusions je ine livrais ! …'
+            
+            Ce bouquet, ce gage que j'ai payé de inou sang, je me disais : 
+            
+            qu'elle ne le voie pas, qu'elle ignore tout… et si mes voeux
+            
+            sont exancés, le jour de votre avion comme je jouirai de sa
+            
+            surprise, en lui offrant cette preuve de mon dévođinent, cet
+            
+            emblême plus beau, , plus digne d'elle que tous les bouquets
+            
+            de mariée : ; : Ce jour-là, 
+            
+            elle le portera pour moi c'o'. et
+            
+            ensuite il ne me quittera plus…, Vain espoir ! inaintenant je
+            
+            vous le rends
+            
+            reprenez-le… il ne peut plits rester sur
+            
+            mon sein… car pour l'y placer encore, il faudrait l'avoir
+            
+            reçu des mains de l'amour… tenez, madame : i. [II le lui
+            
+            présente. ]
+            
+            MAD, DB TRENEUIL, après avoir hésité un instant. 
+            
+            Ah ! gardez-le. 
+            
+            DE PRESLE, tombant à ses pieds. 
+            
+            Qu'entends-je ? 
+            
+            Ma soeur ! 
+            
+            DELPHİNE. 
+            
+            ANTENOR, passant auprès de Delphine et à sa gauche. 
+            
+            Ah ! c'est bien fait, mademoiselle… vous aussi, on vous
+            
+            trahit ! …
+            
+            ça vous apprendra. 
+            
+            DRLPHINE, sautant de joie, 
+            
+            Que je suis contente ! 
+            
+            mon petit Anténor, vous voilà
+            
+            agent-de-change… voilà votre fortune faite… Remerciez
+            
+            votre beau-frère ; car il l'est… ce n'est pas sans peine
+            
+            ANTENOR. 
+            
+            Plait-il ? 
+            
+            qu'est-ce qu'il lui prend ? Oh mon dieu ! 
+            
+            il
+            
+            l'a
+            
+            tant séduite, que de désespoir, elle en perd la raisoni. 
+            
+            DELPHINE. 
+            
+            Du tout… ni la raison, ni mon amitié pour vous…
+            
+            car je n'ai pas chángé un seul instant. 
+            
+            48
+            
+'ANTENOR. 
+            
+            1
+            
+            Qu'entends-jë ? quoi ! de Presle ! ah ! je devineio et à
+            
+            présent, je crois aux amis, aux femmes
+            
+            à tout. 
+            
+            MAD. DE TRENEUIL, à Delphine, 
+            
+            Tu étais donc du complot ? …
+            
+            DELPHINË. 
+            
+            Dam' ! vous deviez faire mon mariage i, . eh bien iso
+            
+            c'est moi qui fais le vôtre. 
+            
+            [On entend ta musique. ]
+            
+            DELPHINE, à Anténor, 
+            
+            La musique ! … vite, vite, Anténor ! is. et vos gants ! 
+            
+            MAD. DE TRENEUIL : 
+            
+            
+            <div type="poem">
+                <lg>
+            
+                    <stage type="tune">AIR de la galope</stage>
+            
+            
+                    <l>D'un premier mariage</l>
+                    <l>Oubliant les tourmens,</l>
+                    <l>De nouveau je m'engage ;</l>
+                    <l>Malgré tous mes sermens.</l>
+                    <l>J'attends votre suffrage :</l>
+                    <l>Ah ! qu'au gré de mes vœux,</l>
+                    <l>Mon second mariage,</l>
+                    <l>Grâce à vous, soit heureux !</l>
+            
+                    ENSEMBLE : 
+            
+                    MAD, DB TRENEUIL, DELPHINE, ET LES AUTRRS. 
+            
+                    MAD, DE TRENEUIL. 
+            
+                    <l>J'attends votre suffrage :</l>
+                    <l>Ah ! qu'au gré de mes vœux ;</l>
+                    <l>Mon second mariage,</l>
+                    <l>Grâce à vous, soit heureux !</l>
+            
+                    DELPHINE ET LES AUTRES : 
+            
+                    <l>Ah ! par votre suffrage,</l>
+                    <l>Puisse, au gré de ses vœux ;</l>
+                    <l>Son second mariage</l>
+                    <l>Avoir un sort heureux !</l>
+                </lg>
+            </div>
+            
+            
+            VIN DU CHAPERON. 
+            
+            48
+            
+'ANTENOR. 
+            
+            Qu'entends-jë ? quoi ! de Presle ! ah ! ja devine i
+            
+            et à
+            
+            présent, je crois aux amis, aux femmes…, à toat. 
+            
+            MAD, DE TRENEUIL, à Delphine. 
+            
+            Tu étais donc da complot ? …
+            
+            DELPHINË. 
+            
+            Dam' ! vous deviez faire mon mariage i… eh bien i do
+            
+            c'est moi qui fais le vôtre. 
+            
+            [On entend ta musique. ]
+            
+            DELPHINE, à Anténor, 
+            
+            La musique ! … vite, vite, Anténor ! … et yos gants ! 
+            
+            MAD. DE TRENRUIL. 
+            
+            
+      
+                    AIR de la galope. 
+            
+            
+                    D'un premier mariage
+                    Oubliant les tourmens, 
+                    De nouveau je m'engage ; 
+                    Malgré tous mes sermens. 
+                    J'attends votre suffrage : 
+                    Ah ! qu'au gré de mes vœux, 
+                    Mon second mariage, 
+                    Grâce à vous, soit heureux ! 
+            
+                    ENSEMBL
+            
+                    MAD, DE TRENEUIL, DELPHINE, ET LES AUTRES, 
+            
+                    1
+            
+                    MAD, DE TRENEUIL, 
+            
+                     J'attends votre suffrage : 
+                     Ah ! qu'au gré de mes vœux ; 
+                     Mon second mariage, 
+                     Grâce à tous, soit heureux ! 
+            
+                    DELPAINE ET LES AUTRES, 
+            
+                    Ah ! par votre suffrage, 
+                    Puisse, au gré de ses vœux ; 
+                    Son second mariage
+                    Avoir un sort heureux ! 
+                
+            
+            
+            FIN DU CHAPERON. 
+            
+        </body>
+    </text>
+</TEI>
