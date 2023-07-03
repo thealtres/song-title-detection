@@ -108,8 +108,8 @@ def cherche_titre(chaine, id_work):
     Dans les cas où l'air n'a pas de titre (i.e. "AIR :" ou "CHOEUR."), détermine la prochaine ligne capable d'être un titre. 
     Exclusion d'une ligne vide, d'une didascalie ou d'un nom de personnage
     """
-    #withdrawing the character list for the evaluation of the program on corpus-test:
-    with open(f"{dossier}/{id_work}/{id_work}_characters.txt", "r", encoding="utf8") as f:
+    #withdraw the character list for the evaluation of the program on corpus-test:
+    with open(f"{dossier}/{id_work}/encodage-airs/{id_work}_characters.txt", "r", encoding="utf8") as f:
         character_list = [ line.rstrip() for line in f ]
         for c in character_list:
             if re.search(c, chaine):
