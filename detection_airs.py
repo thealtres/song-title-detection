@@ -25,7 +25,7 @@ from bs4 import BeautifulSoup
 from config import dossier
 from config import airs_ref
 import character_list_regex
-
+import semantic_search
 parser = argparse.ArgumentParser()
 parser.add_argument("id_work", 
                     help="gives candidates in id_work provided and writes them in new doc >  input 'n' to reject the line, anything else to add it")
@@ -45,14 +45,14 @@ regex_filtra1 = [AIR_extended, CHOEUR, REPRISE, COUPLET, FINALE, DUO, TRIO]
 #regex for the stage direction. Needed for the exclusion of the first line in cherche_titre()
 stage_directions = re.compile(r"^(^| )[\{\(].*[\}\)]?")
 
-#default mode : extraction of Air in the play. They will be written in id_work_airs.csv. Encoding of the element <stage type="tune">. 
+#####MODE EXTRACTION#####
+#looks for songs in the play. They will be written in id_work_airs.csv. Encoding of the element <stage type="tune">. 
 def extract(id_work):
     """Produces a list containing idWork;idAir;ocrAir;ocrLine;suggestedTitle;isair
     written in a idWork_airs.txt doc in corresponding directory"""
     dossier_id = f"{dossier}/{id_work}"
     #select the txt file in the directory:
-    docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") \
-        if not os.path.basename(file).endswith("_characters.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr_no-layout.txt")]
+    docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") if os.path.basename(file).endswith("tesseract.txt")]
     for doc_entree in docs_txt:
         with open(doc_entree, "r", encoding="utf8") as f:
             res = []
@@ -83,15 +83,14 @@ def extract(id_work):
                             faux_positif = air[0]
                             faux_positif = re.sub(";", "", str(faux_positif))
                             res.append(str(id_work) + ";;" + str(faux_positif) + ";" + str(count_line) + ";;" + str(air[1]))
-    #the result is written in file id_work_airs.csv:
-    with open(f"{dossier_id}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
-        for ligne in res:
-            g.write(ligne + "\n")
-    #encoding of the element <stage type="tune"> from the selected candidates.
-    encode_air(id_work)
-    #possibility to restart the selection process:
-    verif(id_work)       
+        #possibility to restart the selection process:
+        verif(id_work)     
+        #encoding of the element <stage type="tune"> from the selected candidates.
+        #encode_air(id_work)  
+        ecriture(id_work, res)
             
+
+
 def isair(chaine, ligne):
     """
     Vérification manuelle par l'utilisateur du contenu de la chaine extraite par la regex
@@ -128,11 +127,31 @@ def suggest(titre_candidat):
         airs_refs = [ line.rstrip() for line in f ]
     best_candidate_fuzzy = process.extractOne(titre_candidat, airs_refs)
     best_candidate_difflib = difflib.get_close_matches(titre_candidat, airs_refs, n=1, cutoff=0.7)
-    if best_candidate_fuzzy[1] >= 90 :
-        best_candidate = best_candidate_fuzzy[0] 
-    else :
-        best_candidate = best_candidate_difflib
-    return best_candidate
+    best_candidate_semsearch = semantic_search.search_simple(titre_candidat)
+    print(f"Candidat: {titre_candidat}\n\
+    [1]String matching fuzzy :{best_candidate_fuzzy}\n\
+    [2]String matching difflib :{best_candidate_difflib}\n\
+    [3]Semantic search :{best_candidate_semsearch[0]}\n\
+    [4]Autre\n")
+    answer = input("Candidat sélectionné :\t")
+    if answer == '1':
+        return best_candidate_fuzzy[0]
+    if answer == '2':
+        return best_candidate_difflib
+    if answer == '3':
+        return best_candidate_semsearch[0]
+    if answer == '4':
+        print("*******Meilleurs candidats*******")
+        for d in process.extract(titre_candidat, airs_refs, limit=5):
+            print(d[0])
+        #print(process.extract(titre_candidat, airs_refs, limit=5))
+        print(chr(10).join(difflib.get_close_matches(titre_candidat, airs_refs, n=5)))
+        print(chr(10).join(best_candidate_semsearch))
+        manual_input = input("\nC/C le meilleur candidat de la liste ou entrez le nom de l'air manuellement:\n")
+        return manual_input
+    else:
+        return ''
+
 
 def verif(id):
     """Propose de recommencer le processus de sélection depuis le début en mode extraction en cas de mauvaise entrée."""
@@ -140,39 +159,17 @@ def verif(id):
     if val == "n":
         extract(id)
 
+def ecriture(id_work, liste):
+    dossier_sortie = f"{dossier}/{id_work}/encodage-airs/"
+    if not os.path.exists(dossier_sortie):
+        os.makedirs(dossier_sortie)
+    with open(f"{dossier_sortie}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
+        for ligne in liste:
+            g.write(ligne + "\n")
 
-def encode_air(id_work):
-    """ Ecriture depuis le text brut d'un document xml avec les élément <stage> correspondant aux airs sélectionnés dans le mode extraction.
-    """
-    dossier_id = f"{dossier}/{id_work}"
-    doc_sortie = f"{dossier_id}/{id_work}_airs-encodes.xml"
-    doc_air = f"{dossier_id}/{str(id_work)}_airs.csv"
-    docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") \
-        if not os.path.basename(file).endswith("_characters.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr.txt") and not os.path.basename(file).endswith("_00_all-text_original-ocr_no-layout.txt")]
-    for doc_entree in docs_txt: 
-        with open(doc_entree, "r", encoding="utf8") as f1,\
-            open(doc_air, "r", encoding="utf-8") as f2,\
-            open(doc_sortie, "w", encoding="utf-8") as f3:
-            airs = []
-            airs_id = []
-            for line in f2:
-                colonne = line.rstrip().split(";")
-                if "=" in colonne[2]:
-                    airs_id.append(colonne[2].split("=")[1])
-                else:
-                    airs.append(colonne[2])
-            f3.write(f'''<?xml version='1.0' encoding='UTF-8'?>''')
-            f3.write('''\n<text>\n\t<body>\n''')
-            for line in f1:
-                line = line.rstrip()
-                if line in airs:
-                    f3.write(f'''<stage type="tune">{line}</stage>\n''')
-                elif line in airs_id:
-                    f3.write(f'''<stage type="tune" id="{line}"></stage>\n\t<l>{line}</l>\n''')
-                else:
-                    f3.write(str(line) + "\n")
-            f3.write(''''\n\t</body>\n</text>''')
 
+
+####MODE EVALUATION#####
 
 def eval(id_work):
     """
@@ -246,13 +243,15 @@ def totaux():
                 \nPrécision: {tot_p/line_count:.2f}\
                 \nRappel: {tot_r/line_count:.2f}\
                 \nMesure-F1: {tot_f/line_count:.2f}"
-        
+
+
 if __name__ == '__main__':
     args = parser.parse_args()
     id = args.id_work
     if args.mode == "extract":
         character_list_regex.dramatis_personae(id)
-        #extract(id)
+        #encode(id)
+        extract(id)
     if args.mode == "eval":
         eval(id)
         #print(totaux())
