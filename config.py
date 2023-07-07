@@ -10,5 +10,6 @@
     """
 
 dossier = "../corpus-items"
-airs_ref = "liste_des_noms_d-airs_standards.txt"
-characters_sheet = f"annotations_fr-characters.csv"
+airs_ref = "data/liste_des_noms_d-airs_standards.txt"
+characters_sheet = f"data/annotations_fr-characters.csv"
+dossier_sortie = "out/"
