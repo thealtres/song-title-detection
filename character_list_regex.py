@@ -4,13 +4,13 @@ import re
 from config import dossier
 from config import characters_sheet
 
-liste_exclue = ["UN", "UNE","LE", "LA" ,"DE", "MME", "MLLE", "M", "MADAME", "MONSIEUR", "M.", "PREMIER", "DEUXIEME", "TROISIEME", "QUATRIEME", "CINQUIEME"]
+liste_exclue = ["UN", "UNE","LE", "LA" ,"DE", "DES", "DU", "MME", "MLLE", "M", "MADAME", "MONSIEUR", "M.", "PREMIER", "DEUXIEME", "TROISIEME", "QUATRIEME", "CINQUIEME"]
 
 def dramatis_personae(id_work):
-    dossier_sortie = f"{dossier}/{id_work}/encodage-airs/"
+    dossier_sortie = f"{dossier}/{id_work}/05_tune_names/"
     if not os.path.exists(dossier_sortie):
             os.makedirs(dossier_sortie)
-    with open(characters_sheet, "r", encoding='utf8') as g,\
+    with open(f"{characters_sheet}", "r", encoding='utf8') as g,\
         open(f"{dossier_sortie}/{id_work}_characters.txt", "w", encoding="utf8") as f:
         character_list = [colonne[6].upper() for colonne in [line.rstrip().split(',') for line in g] if colonne[0] == id_work ]
         f.write(".*TOU(S|TES).*" +"\n" + "^(^| )(?<!' )[EÉÈÊéèê][NnM]? ?[Ss][EÉÈÊéèê][MN][BbRrNe][LlIiíÍïÏ][E]\W*" + "\n")
@@ -21,5 +21,5 @@ def dramatis_personae(id_work):
                     f.write(".*" + name + ".*" + "\n")
 
 if __name__ == '__main__':
-    idWork = "72"
+    idWork = "17"
     dramatis_personae(idWork)
