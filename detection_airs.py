@@ -12,7 +12,6 @@ isair : booléen, 1 pour air.
        
 """ 
 
-import sys
 import argparse
 import glob 
 import os.path
@@ -24,73 +23,80 @@ from bs4 import BeautifulSoup
 
 from config import dossier
 from config import airs_ref
+from config import dossier_out
 import character_list_regex
-import semantic_search
+import encoding
+
 parser = argparse.ArgumentParser()
 parser.add_argument("id_work", 
-                    help="gives candidates in id_work provided and writes them in new doc >  input 'n' to reject the line, anything else to add it")
+                    help="gives candidates in id_work provided and writes them in new doc >  input ';' to reject the line, anything else to add it")
 parser.add_argument("--mode", "-m", choices=['extract', 'eval'], default="extract",
-                    help="extract writes the id_work_airs.csv, default mode. eval evaluates the results")
+                    help="extract : writes the id_work_airs.csv, default mode. Add options 'characters'and 'sem_search' for full implementation\
+                        eval : evaluates the results on evaluation corpus")
+parser.add_argument("--encode", "-e", action="store_true",
+                help="optional output of the encoding of the stage element")
+parser.add_argument("--characters", "-c", action="store_true",
+                help="add the character list in the output and fine tunes the title search")
+parser.add_argument("--sem_search", "-s", action="store_true",
+                help="add the semantic search to the suggested titles")
+parser.add_argument("--total", "-t", action="store_true",
+                help="prints the macrostats in evaluation mode.")
 
 #list of regular expressions searched in the play
-AIR_extended = re.compile(r"^(^|\W*)\b(?<!'\| )([AâÂÀĀāǍǎĂăÃãáÅåÄäĄÆÁà][IiïîÎİɪɩĪīǏǐĬĭÍíÎîĨĩÌìÏỊıJɭĺĹĿŁŀłtTLlrwmns1u][rRŔʀŕŘřɼɽſßŖbB8nNtsaAEpe])\W*\b ?:?")
+AIR_extended = re.compile(r"^(^|\W*)\b(?<!'\| )([AâÂÀĀāǍǎĂăÃãáÅåÄäĄÆÁà][IiïîÎİɪɩĪīǏǐĬĭÍíÎîĨĩÌìÏỊıJɭĺĹĿŁŀłtTLlrwmns1u][rRŔʀŕŘřɼɽſßŖbB8nNtsaAEpe])\W*\b ?:?\W*")
 CHOEUR = re.compile(r"^(^|\W)\b(?<!\|' )\b[Cc][Hh][OʚɞŌōǑǒÓÔóôÒòÖöŎŏØøɸÕõʠŐőʘɵɶɷŒœ][EÉÈÊĚĒĔĖĘɛéèê]?[UuŪūǓǔŬŭÚúÛûŨũÙùÜüűŰǕǖǛǜǗǘŮůʋǙǚŲųʊ][Rr]\b\W*")
 REPRISE = re.compile(r"^(^|\W)\b(?<!\|' )\b[R][EÉÈÊéèê][PRF][IiïîÎİɪɩĪīǏǐĬĭÍíÎîĨĩÌìÏİıJɭĺĹĿŁŀłtTLl1][Ss][EÉÈÊéèê]\b.*")
-COUPLET = re.compile(r"^(^|\W)\b(?<!' )\b[Cc][Oo][Uu][Pp][IiïLltwmns1]?[Ee][TtlLIiï]\W?\b")
-FINALE = re.compile(r"^(^|\W)\b(?<!' )\b[FE][IiïLltwmns1][NMR][AâÂÀáÁà][LlIiíÍïÏ][EÉÈÊéèê]?\W?\b")
+COUPLET = re.compile(r"^(^|\W)\b(?<!' )\b[Cc][Oo][Uu][Pp][IiïLltwmns1]?[Ee][TtlLIiï]\W*")
+FINALE = re.compile(r"^(^|\W)\b(?<!' )\b[FE][IiïLltwmns1][NMR][AâÂÀáÁà][LlIiíÍïÏ][EÉÈÊéèê]?\W*")
 DUO = re.compile(r"^(^|\W)\b(?<!' )\bDUO \W?.*")
 TRIO = re.compile(r"^(^|\W)\b(?<!' )\bTRIO \W?.*")
-regex_filtra1 = [AIR_extended, CHOEUR, REPRISE, COUPLET, FINALE, DUO, TRIO]
+regex_filtra = [AIR_extended, CHOEUR, REPRISE, COUPLET, FINALE, DUO, TRIO]
 
-#regex for the stage direction. Needed for the exclusion of the first line in cherche_titre()
-stage_directions = re.compile(r"^(^| )[\{\(].*[\}\)]?")
 
-#####MODE EXTRACTION#####
-#looks for songs in the play. They will be written in id_work_airs.csv. Encoding of the element <stage type="tune">. 
+#######################################################MODE EXTRACTION#################################################################
+    
 def extract(id_work):
     """Produces a list containing idWork;idAir;ocrAir;ocrLine;suggestedTitle;isair
     written in a idWork_airs.txt doc in corresponding directory"""
-    dossier_id = f"{dossier}/{id_work}"
-    #select the txt file in the directory:
-    docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") if os.path.basename(file).endswith("tesseract.txt")]
-    for doc_entree in docs_txt:
-        with open(doc_entree, "r", encoding="utf8") as f:
-            res = []
-            count_line = 0
-            count_air = 0
-            for line in f:
-                count_line += 1
-                l = line.rstrip()                
-                #looking for a match between one of the regex above and the line:
-                for r1 in regex_filtra1:
-                    if r1.search(l):
-                        #manual selection of the candidates :    
-                        air = isair(l.strip(), count_line)
-                        if air[1] == "1": 
-                            count_air += 1 
-                            titre = air[0]
+    #for evaluation mode only > select the txt file in the directory if not tesseract:
+    #docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") if os.path.basename(file).endswith("tesseract.txt")]
+    doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
+    if not os.path.exists(doc_entree):
+        print("***tesseract inexistant, identification des airs depuis l'OCR original***\n")
+        doc_entree = f"{dossier}/{id_work}/{id_work}_00_all-text_original-ocr.txt"
+    with open(doc_entree, "r", encoding="utf8") as f:
+        res = []
+        count_line = 0
+        count_air = 0
+        for line in f:
+            count_line += 1
+            l = line.rstrip()                
+            #looking for a match between one of the regex above and the line:
+            for r1 in regex_filtra:
+                if r1.search(l):
+                    #manual selection of the candidates :    
+                    air = isair(l.strip(), count_line)
+                    if air[1] == "1": 
+                        count_air += 1 
+                        titre = air[0]
+                        titre = re.sub(";", "", str(titre))
+                        #fullmatch means the line doesn't have a title, in which case the title will be the 1st line of the song:
+                        if r1.fullmatch(str(titre)):
+                            titre = next(f) 
+                            while cherche_titre(titre, id_work) == False:
+                                titre = next(f)   
                             titre = re.sub(";", "", str(titre))
-                            #fullmatch means the line doesn't have a title, in which case the title will be the 1st line of the song:
-                            if r1.fullmatch(str(titre)):
-                                titre = next(f) 
-                                while cherche_titre(titre, id_work) == False:
-                                    titre = next(f)   
-                                titre = re.sub(";", "", str(titre))
-                                res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air[0])+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(suggest(titre.rstrip())) + ";" + str(air[1]))
-                            else:
-                                res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + str(suggest(titre)) + ";" + str(air[1]))
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air[0])+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(suggest(titre.rstrip())) + ";" + str(air[1]))
                         else:
-                            faux_positif = air[0]
-                            faux_positif = re.sub(";", "", str(faux_positif))
-                            res.append(str(id_work) + ";;" + str(faux_positif) + ";" + str(count_line) + ";;" + str(air[1]))
-        #possibility to restart the selection process:
-        verif(id_work)     
-        #encoding of the element <stage type="tune"> from the selected candidates.
-        #encode_air(id_work)  
-        ecriture(id_work, res)
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + str(suggest(titre)) + ";" + str(air[1]))
+                    else:
+                        faux_positif = air[0]
+                        faux_positif = re.sub(";", "", str(faux_positif))
+                        res.append(str(id_work) + ";;" + str(faux_positif) + ";" + str(count_line) + ";;" + str(air[1]))
+    #possibility to restart the selection process:
+    verif(id_work)     
+    ecriture(id_work, res)
             
-
-
 def isair(chaine, ligne):
     """
     Vérification manuelle par l'utilisateur du contenu de la chaine extraite par la regex
@@ -108,15 +114,17 @@ def cherche_titre(chaine, id_work):
     Dans les cas où l'air n'a pas de titre (i.e. "AIR :" ou "CHOEUR."), détermine la prochaine ligne capable d'être un titre. 
     Exclusion d'une ligne vide, d'une didascalie ou d'un nom de personnage
     """
-    #withdraw the character list for the evaluation of the program on corpus-test:
-    with open(f"{dossier}/{id_work}/encodage-airs/{id_work}_characters.txt", "r", encoding="utf8") as f:
-        character_list = [ line.rstrip() for line in f ]
-        for c in character_list:
-            if re.search(c, chaine):
-                return False
+    if args.characters:
+        with open(f"{dossier}/{id_work}/05_tune_names/{id_work}_characters.txt", "r", encoding="utf8") as f:
+            character_list = [ line.rstrip() for line in f ]
+            for c in character_list:
+                if re.search(c, chaine):
+                    return False
+    #exclusion des lignes vides
     if re.fullmatch(r"(\n|\s+)", chaine):
         return False
-    if stage_directions.search(chaine):
+    #exclusion des didascalies
+    if re.search(r"^(^| )[\{\(].*[\}\)]?", chaine):
         return False
     else:
         return True
@@ -127,40 +135,41 @@ def suggest(titre_candidat):
         airs_refs = [ line.rstrip() for line in f ]
     best_candidate_fuzzy = process.extractOne(titre_candidat, airs_refs)
     best_candidate_difflib = difflib.get_close_matches(titre_candidat, airs_refs, n=1, cutoff=0.7)
-    best_candidate_semsearch = semantic_search.search_simple(titre_candidat)
-    print(f"Candidat: {titre_candidat}\n\
-    [1]String matching fuzzy :{best_candidate_fuzzy}\n\
-    [2]String matching difflib :{best_candidate_difflib}\n\
-    [3]Semantic search :{best_candidate_semsearch[0]}\n\
-    [4]Autre\n")
-    answer = input("Candidat sélectionné :\t")
+    if args.sem_search:
+        best_candidate_semsearch = semantic_search.search_simple(titre_candidat)
+    print(f"Candidat: {titre_candidat}\n\t[1]String matching fuzzy :{best_candidate_fuzzy}\n\t[2]String matching difflib :{best_candidate_difflib}")
+    if args.sem_search:
+        print(f"\t[3]Semantic search :{best_candidate_semsearch[0]}\n")
+    print("\t[;]Autre\n")
+    answer = input("Selectionner option :\t")
+    while answer not in '123;' or answer == '':
+        answer = input("Selectionner option :\t")
     if answer == '1':
         return best_candidate_fuzzy[0]
     if answer == '2':
-        return best_candidate_difflib
-    if answer == '3':
+        return best_candidate_difflib[0]
+    if answer == '3' and args.sem_search:
         return best_candidate_semsearch[0]
-    if answer == '4':
+    if answer == "3" and not args.sem_search:
+        answer = ";"
+    if answer == ';':
         print("*******Meilleurs candidats*******")
         for d in process.extract(titre_candidat, airs_refs, limit=5):
             print(d[0])
-        #print(process.extract(titre_candidat, airs_refs, limit=5))
         print(chr(10).join(difflib.get_close_matches(titre_candidat, airs_refs, n=5)))
-        print(chr(10).join(best_candidate_semsearch))
+        if args.sem_search:
+            print(chr(10).join(best_candidate_semsearch))
         manual_input = input("\nC/C le meilleur candidat de la liste ou entrez le nom de l'air manuellement:\n")
         return manual_input
-    else:
-        return ''
-
 
 def verif(id):
-    """Propose de recommencer le processus de sélection depuis le début en mode extraction en cas de mauvaise entrée."""
+    """Propose de recommencer le processus de sélection depuis le début en mode extraction."""
     val = input("\nValider les données entrées ? [y]/n\t")
     if val == "n":
         extract(id)
 
 def ecriture(id_work, liste):
-    dossier_sortie = f"{dossier}/{id_work}/encodage-airs/"
+    dossier_sortie = f"{dossier}/{id_work}/05_tune_names/"
     if not os.path.exists(dossier_sortie):
         os.makedirs(dossier_sortie)
     with open(f"{dossier_sortie}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
@@ -169,20 +178,19 @@ def ecriture(id_work, liste):
 
 
 
-####MODE EVALUATION#####
+################################################################MODE EVALUATION####################################################################################################
 
 def eval(id_work):
     """
     Mode d'évaluation pour le corpus d'évaluation : comparaison des airs sélectionnés avec les airs annotés manuellement par Lara Nugues.
     """
-    dossier_id = f"{dossier}/{id_work}"
-    docs_xml = [file for file in glob.glob(f"{dossier_id}/*.xml") \
-        if not os.path.basename(file).endswith("_airs-encodes.xml")]
+    #there should only be one xml document in the directory:
+    docs_xml = [file for file in glob.glob(f"{dossier}/{id_work}/*.xml")]
     for doc_xml in docs_xml:
-        with open(f"{dossier_id}/{str(id_work)}_airs.csv" , "r", encoding="utf8") as f,\
+        with open(f"{dossier}/{id_work}/05_tune_names/{str(id_work)}_airs.csv" , "r", encoding="utf8") as f,\
             open(f"{doc_xml}", "r", encoding="utf8") as g,\
-            open(f"{dossier_id}/{str(id_work)}_stats.csv" , "w", encoding="utf8") as h,\
-            open(f"stats.csv" , "a", encoding="utf8") as i:
+            open(f"{dossier}/{id_work}/05_tune_names/{str(id_work)}_stats.csv" , "w", encoding="utf8") as h,\
+            open(f"{dossier_out}/stats.csv" , "a", encoding="utf8") as i:
             all = 0
             true_candidates = []
             for line in f:
@@ -227,7 +235,7 @@ def eval(id_work):
                             
 def totaux():
     """Affichage des macros du programme en mode évaluation. """
-    with open(f"stats.csv" , "r", encoding="utf8") as i:
+    with open(f"{dossier_out}/stats.csv" , "r", encoding="utf8") as i:
         i.readline()
         tot_p  = 0
         tot_r = 0
@@ -248,10 +256,17 @@ def totaux():
 if __name__ == '__main__':
     args = parser.parse_args()
     id = args.id_work
+    if args.sem_search:
+        import semantic_search
     if args.mode == "extract":
-        character_list_regex.dramatis_personae(id)
-        #encode(id)
         extract(id)
+    #only if characters_annotation is available for the corpus:
+    if args.characters:
+        character_list_regex.dramatis_personae(id)
+    if args.encode:
+        encoding.encode_air(id)
     if args.mode == "eval":
         eval(id)
-        #print(totaux())
+    if args.total:
+        print(totaux())
+
