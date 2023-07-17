@@ -56,7 +56,7 @@ def search_simple(query):
     #for hit in hits[0:5]:
         #res.append(std_airs[hit['corpus_id']])
         #print("\t{:.3f}\t{}".format(hit['score'], std_airs[hit['corpus_id']].replace("\n", " ")))
-    res = [std_airs[hit['corpus_id']] for hit in hits[0:5]]
+    res = [std_airs[hit['corpus_id']] for hit in hits[0:3]]
     #return std_airs[hits[0]['corpus_id']], std_airs[hits[1]['corpus_id']], std_airs[hits[2]['corpus_id']], std_airs[hits[3]['corpus_id']], std_airs[hits[4]['corpus_id']]
     return res
     # Output of top-5 hits from re-ranker

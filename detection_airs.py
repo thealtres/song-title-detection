@@ -139,7 +139,7 @@ def suggest(titre_candidat):
         best_candidate_semsearch = semantic_search.search_simple(titre_candidat)
     print(f"Candidat: {titre_candidat}\n\t[1]String matching fuzzy :{best_candidate_fuzzy}\n\t[2]String matching difflib :{best_candidate_difflib}")
     if args.sem_search:
-        print(f"\t[3]Semantic search :{best_candidate_semsearch[0]}\n")
+        print(f"\t[3]Semantic search :{best_candidate_semsearch[0]}")
     print("\t[;]Autre\n")
     answer = input("Selectionner option :\t")
     while answer not in '123;' or answer == '':
@@ -154,9 +154,9 @@ def suggest(titre_candidat):
         answer = ";"
     if answer == ';':
         print("*******Meilleurs candidats*******")
-        for d in process.extract(titre_candidat, airs_refs, limit=5):
+        for d in process.extract(titre_candidat, airs_refs, limit=3):
             print(d[0])
-        print(chr(10).join(difflib.get_close_matches(titre_candidat, airs_refs, n=5)))
+        print(chr(10).join(difflib.get_close_matches(titre_candidat, airs_refs, n=3)))
         if args.sem_search:
             print(chr(10).join(best_candidate_semsearch))
         manual_input = input("\nC/C le meilleur candidat de la liste ou entrez le nom de l'air manuellement:\n")
