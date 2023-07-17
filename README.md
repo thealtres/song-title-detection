@@ -56,52 +56,51 @@ In the directory corpus/id_work, the following documents are created :
 ## Example
 
 ```python detection_airs.py 001 -s -c ```
+<br>
+CHŒUR.:378:<br>
+input = ```y```<br>
+Titre candidat: Air de M. Marius Boullard.<br>
+[1]Sting matching fuzzy: ('Air de M. Boullard.', 95)<br>
+[2]String matching difflib: Air de M. Boullard.<br>
+[3]Semantic search : Air de M. Boullard.<br>
+[;]Autre<br>
+input = ```1```<br>
+output = ```001;1;CHŒUR.=Air de M. Marius Boullard.;378;Air de M. Boullard.;1```<br>
+...<br>
+001;14;Air : de M. Marius Boullard.;2855;Air de M. Boullard.;1<br>
+CHŒUR.:2863:<br>
+input = ```;```<br>
+output = ```001;;CHŒUR.2863;;0```<br>
+...<br>
+"CHŒUR, *":3546:<br>
+input = ```y```<br>
+Candidat: Air: De la belle Polonaise.<br>
+        [1]String matching fuzzy :('AIR : Adieu, je vous fuis, bois charmant.', 86)<br>
+        [2]String matching difflib :[]<br>
+        [3]Semantic search :AIR : Le beau Lycas.<br>
+        [;]Autre<br>
 
-CHŒUR.:378:
-input = ```y```
-Titre candidat: Air de M. Marius Boullard.
-[1]Sting matching fuzzy: ('Air de M. Boullard.', 95)
-[2]String matching difflib: Air de M. Boullard.
-[3]Semantic search : Air de M. Boullard.
-[;]Autre
-input = ```1```
-output = ```001;1;CHŒUR.=Air de M. Marius Boullard.;378;Air de M. Boullard.;1```
-...
-001;14;Air : de M. Marius Boullard.;2855;Air de M. Boullard.;1
-CHŒUR.:2863:
-input = ```;```
-output = ```001;;CHŒUR.2863;;0```
-...
-"CHŒUR, *":3546:
-input = ```y```
-Candidat: Air: De la belle Polonaise.
-        [1]String matching fuzzy :('AIR : Adieu, je vous fuis, bois charmant.', 86)
-        [2]String matching difflib :[]
-        [3]Semantic search :AIR : Le beau Lycas.
+Selectionner option :  ```;```<br>
+*******Meilleurs candidats*******<br>
+AIR : Adieu, je vous fuis, bois charmant.<br>
+AIR : Ah !  ah ! ah ! ah ! c'est désolant.<br>
+AIR : Ah ! Mon ami, c'est un rayon d'espoir.<br>
+AIR : Ah ! ah ! ah ! ah ! ah ! ah ! ah ! ah !<br>
+AIR : Ah ! de plaisir notre âme est enivrée.<br>
+AIR : De la Marseillaise.<br>
+Air : De la galoppe.<br>
+Air de la Nacelle. (de Panseron.)<br>
+Air de la Parisienne.<br>
+Air de la Parisienne.<br>
+AIR : Le beau Lycas.<br>
+Air : de la Fiancée.<br>
+Air : Ô filii.<br>
+AIR : Enfans de Polymnie.<br>
+Air : C'est charmant.<br><br>
 
-        [;]Autre
-
-Selectionner option :  ```;```
-*******Meilleurs candidats*******
-AIR : Adieu, je vous fuis, bois charmant.
-AIR : Ah !  ah ! ah ! ah ! c'est désolant.
-AIR : Ah ! Mon ami, c'est un rayon d'espoir.
-AIR : Ah ! ah ! ah ! ah ! ah ! ah ! ah ! ah !
-AIR : Ah ! de plaisir notre âme est enivrée.
-AIR : De la Marseillaise.
-Air : De la galoppe.
-Air de la Nacelle. (de Panseron.)
-Air de la Parisienne.
-Air de la Parisienne.
-AIR : Le beau Lycas.
-Air : de la Fiancée.
-Air : Ô filii.
-AIR : Enfans de Polymnie.
-Air : C'est charmant.
-
-C/C le meilleur candidat de la liste ou entrez le nom de l'air manuellement:
-input : ```Air: De la belle Polonaise.```
-ouput : ```132;12;CHŒUR, *=Air: De la belle Polonaise.;3546;Air: De la belle Polonaise.;1```
+C/C le meilleur candidat de la liste ou entrez le nom de l'air manuellement:<br>
+input : ```Air: De la belle Polonaise.```<br>
+ouput : ```132;12;CHŒUR, *=Air: De la belle Polonaise.;3546;Air: De la belle Polonaise.;1```<br><br>
 
 
 (In the second case: CHOEUR. was not selected as a valid candidate as it appears only 8 lines after a song title Air : de M. Marius Boullard.)
