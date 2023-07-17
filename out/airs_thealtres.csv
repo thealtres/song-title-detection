@@ -1,32 +1,30 @@
-001;1;CHŒUR.=Air de M. Marius Boullard.;378;('Air de M. Boullard.', 95);1
+001;1;CHŒUR.=Air de M. Marius Boullard.;378;Air de M. Boullard.;1
 001;2;Air de M. Marius Boullard.;842;Air de M. Boullard.;1
-001;3;Ain de M. Codés.;1131;;1
-001;4;CHŒUR. *=Ain : de Marius Boullard.;1437;['Air de M. Boullard.'];1
-001;5;Air : de M. Marius Roullard.;1657;['Air de M. Boullard.'];1
-001;6;Air: de M. Marius Boullard.;2031;['Air de M. Boullard.'];1
-001;7;AiR: De M. Marius Boullard.;2502;('Air de M. Boullard.', 95);1
+001;3;Ain de M. Codés.;1131;Air de M. Codés;1
+001;4;CHŒUR. *=Ain : de Marius Boullard.;1437;Air de M. Boullard.;1
+001;5;Air : de M. Marius Roullard.;1657;Air de M. Boullard.;1
+001;6;Air: de M. Marius Boullard.;2031;Air de M. Boullard.;1
+001;7;AiR: De M. Marius Boullard.;2502;Air de M. Boullard.;1
 001;8;Ain : du premier acle.;2553;;1
-001;9;CHŒUR=Air: Nouveau de M. Marius Boullard.;2641;['Air de M. Boullard.'];1
-001;10;(CHŒUR DE FEMMES *.;2703;;1
-001;11;Air: de M. Marius Bouffard.;2705;['Air de M. Boullard.'];1
-001;12;CHŒUR.=C'est à Mabille, etc,;2723;;1
-001;13;CHŒUR,=~ C'est à Mabille, etc.;2739;;1
-001;14;Air : de M. Marius Boullard.;2855;['Air de M. Boullard.'];1
-001;15;CHŒUR.=Oh! oui-dat;2863;;1
-001;16;CHOEUR.=Ah! oui-dal;2903;;1
-001;;CHŒUR;2998;;0
-001;17;Air de M. Cœdés.;2999;;1
-001;18;Ain : de M. Marius Boullard.;3793;['Air de M. Boullard.'];1
-001;19;CHŒUR.=Air : de M. Marius Boullard.;3901;;1
-001;20;CHOEUR *.=At : de M. Marius Boullard.;3939;['Air de M. Boullard.'];1
-001;21;Air: de M. Marius Boullard.;4324;['Air de M. Boullard.'];1
-001;22;Atn: de M. Marius Boullard.;4819;['Air de M. Boullard.'];1
-001;23;CHOEUR.=Arn : de M. Marius Boullard.;5025;['Air de M. Boullard.'];1
-001;24;Air : de M. Marius Boullard.;5436;['Air de M. Boullard.'];1
-001;;CHŒUR.;5580;;0
-001;;Air précédent.;5582;;0
-001;;COUPLET FINAL.;5648;;0
-001;;AIR  Du premier acte.;5650;;0
+001;9;CHŒUR=Air: Nouveau de M. Marius Boullard.;2641;Air de M. Boullard.;1
+001;;(CHŒUR DE FEMMES *.;2703;;0
+001;10;Air: de M. Marius Bouffard.;2705;Air de M. Boullard.;1
+001;;CHŒUR.;2723;;0
+001;;CHŒUR,;2741;;0
+001;11;Air : de M. Marius Boullard.;2858;Air de M. Boullard.;1
+001;;CHŒUR.;2866;;0
+001;;CHOEUR.;2908;;0
+001;12;CHŒUR=Air de M. Cœdés.;3005;Air de M. Codés;1
+001;13;Ain : de M. Marius Boullard.;3799;Air de M. Boullard.;1
+001;14;CHŒUR.=Air : de M. Marius Boullard.;3907;Air de M. Boullard.;1
+001;15;CHOEUR *.=At : de M. Marius Boullard.;3945;Air de M. Boullard.;1
+001;16;Air: de M. Marius Boullard.;4330;Air de M. Boullard.;1
+001;17;Atn: de M. Marius Boullard.;4825;Air de M. Boullard.;1
+001;18;CHOEUR.=Arn : de M. Marius Boullard.;5031;Air de M. Boullard.;1
+001;19;Air : de M. Marius Boullard.;5442;Air de M. Boullard.;1
+001;20;CHŒUR.=Air précédent.;5586;Air :;1
+001;;COUPLET FINAL.;5652;;0
+001;21;AIR  Du premier acte.;5654;;1
 003;;Aïe |;242;;0
 003;;Aïe !...;1084;;0
 003;;Aïe !;2855;;0
@@ -34,11 +32,42 @@
 003;;Aïe! (Haut.}) Hé bien! oui, je l'avoue! C'est moi, qui ai;4335;;0
 004;;Aïe!;3283;;0
 004;;Aïe! oh! que c'est bête!;3540;;0
+005;1;CHŒUR=Sur ia plage allons prendre l'air,;211;Sur la plage allons prendre l'air;1
+005;2;COUPLETS.=Air nouveau de M, Boulard,;751;Air de M. Boullard.;1
+005;3;COUPLETS.=Air nouveau de M. Boulard.;1289;Air de M. Boullard.;1
+005;4;Air nouveau de M. Boulard,;1808;Air de M. Boullard.;1
+005;5;AIR : des Scythes.;1883;AIR des Scythes.;1
+005;;àla cabine d'Anatole, après s'être assurée que le comte est sorti. );2361;;0
+005;6;AIR de Renaudin de Caen.;2771;Air de Renaudin de Caen.;1
+005;7;COUPLETS.=Air nouveau de M. Boulard.;3079;Air de M. Boullard.;1
+005;;Aie !... |;3336;;0
+005;8;COUPLETS.=1;3540;;1
+005;9;COUPLETS.=Air nouveay de M, Boulard.;5036;Air de M. Boullard.;1
+005;10;COUPLETS.=Air nouveau de M. Boulard.;5367;Air de M. Boullard.;1
+005;11;COUPLET.=AiR de Favart.;5730;Air de Favart;1
+005;;COUPLET AU PUBLIC.;6234;;0
+005;12;Air de Niniche du deusième acte.;6236;Air de Niniche du deuxième acte;1
+006;1;CHŒUR ET COUPLETS DE PIPERLIN;567;Couplets de Piperlin;1
+006;2;Ain - si Pa-mour,Dieu tri-om - phant Ma;1907;Air : si par amour Dieu triomphant;1
+006;3;AIE 5;2481;AIR;1
+006;4;COUPLETS DU DEMOLISSEUR;2556;COUPLETS DU DEMOLISSEUR;1
+006;5;FINAL, DUETTO et QUARTETTO;3190;FINAL, DUETTO et QUARTETTO;1
+006;;Ain . si qu;4387;;0
+006;;chœur,;4607;;0
+006;;CHŒUR ET;4705;;0
+006;6;COUPLETS, VALSE DU FLIRT;5004;Valse du Flirt;1
+006;7;COUPLETS ET DUETTO BOUFFE;6233;COUPLETS ET DUETTO BOUFFE;1
+006;8;FINAL=CELI;7418;FINAL;1
+006;9;TRIO ET CHŒUR=F;9043;TRIO ET CHŒUR;1
+006;10;CHŒUR=f = M S. T N es IT E a L K;9264;;1
+006;11;AIR ET ENSEMBLE;9405;AIR;1
+006;12;COUPLETS DE COLOMBE;9987;COUPLETS DE COLOMBE;1
+006;13;COUPLETS DE CELINE;10183;AIR de Céline.;1
+006;14;FINAL=ZENAÏDE et CHŒUR.;10918;FINAL;1
 007;;Aie!... (A part.) Ah !... non, en voilà assez !...;2043;;0
 008;;` Aie! | |;4201;;0
 010;;Aïe ! Qu’est-ce que font ces épées dans la mairie ?;995;;0
 010;;Aie !… Ah ! là ! là !;1437;;0
-011;;Aïe !;1853;;0
 012;;Aîe ! Je me suis échaudé la main ! Il ne peut pas rester dans sa cafetière, celui-là !… (Déposant;58;;0
 012;;Aïe !;1947;;0
 013;;Aïe donc !… missionnaires !…;1435;;0
@@ -49,12 +78,15 @@
 019;;Aïe!;5284;;0
 019;;Aïe adoré quelqu'un sous le toit conjugal ?.…,;5853;;0
 019;;Arr TTL TE CT;19097;;0
-020;;Aïe !...;3089;;0
-020;;Aïe!;4371;;0
+021;;ALB. MILLAUD ET GAST.JOLLIVET;2841;;0
+021;;ÂLe Furet des Salons, com.-vaud.. ;9830;;0
 023;;Aïe !;503;;0
 023;1;Couplet sentimental ! (Chantant.);6732;Couplet sentimental;1
 023;;Aïe !;10267;;0
-024;;Aïe !;1305;;0
+024;;Aïe!;1578;;0
+024;1;CHŒUR DES PROMENEURS;1936;;1
+024;2;CHŒUR=Il est pris ce fameux voleur;3138;Il es pris ce fameux voleur;1
+024;3;CHŒUR FINAL,;4279;;1
 026;;Ant.. 5;1010;;0
 026;;Alt Non!;3497;;0
 026;;Ant,;5808;;0
@@ -101,40 +133,41 @@
 038;7;AIR : La digue, digue, don.;3590;Air de la Corde sensible.;1
 038;8;Arr : de Guillaume Teil.;3673;Tyrolienne de Guillaume Tell.;1
 039;;Aïe !;5586;;0
-041;;Aïe! Tu es devenu amoureux          d'elle?...;1504;;0
-041;;Aie!;8220;;0
-043;;Aïe!;2294;;0
-043;1;Air nouveau de M. Emile Jonat.;2924;AIR nouveau.;1
-043;;Aïe!;3214;;0
-044;1;Ain : Le joli réve,;353;Air : le joli rêve;1
-044;2;Ain : Partons, partons. (Poudre de Perlimpinpin,;414;Air: Poudre de Perlimpinpin;1
-044;3;Arn d'Adolphe Adam,;897;AIR d'Yelva d'Adam.;1
+041;;Aïe! Tu es devenu amoureux d'elle ?...;1372;;0
+041;;Aïe! m;4271;;0
+041;;Ann" les nds C4;4576;;0
+041;;Aïe! Ge mm;7373;;0
+043;;Aïe!;2341;;0
+043;1;Air nouveau de M. Émile Jonas.;2961;Air nouveau de M. Émile Jonas.;1
+043;;Aïe!;3216;;0
+044;1;Ain : Le joli réve,;353;Air : Le joli rêve;1
+044;2;Ain : Partons, partons. (Poudre de Perlimpinpin,;414;Air : Partons, partons;1
+044;3;Arn d'Adolphe Adam,;897;AIR d'Adam.;1
 044;4;Ain : Une fille est un oiseau,;1025;AIR : Une fille est un oiseau.;1
-044;5;Ain de Dohigny Dervel.;1225;;1
+044;5;Ain de Dohigny Dervel.;1225;Air de Dohigny Dervel;1
 044;6;Ain du Petit Courrier,;1251;AIR du Petit Courrier.;1
-044;7;Ain de Trip, rip! `;1279;Air de Trip, rip!;1
+044;7;Ain de Trip, rip! `;1279;Air de Trip rip!;1
 044;8;CHOEUR.=Ame |;1537;AIR;1
 044;9;Aïn de Nargeot.;1842;Air de Nargeot;1
-044;10;Ain : pleut, bergère,;1965;AIR : Il était un' bergère.;1
-044;11;Ain : Quand le boute-selle. (Fils de famille,);2099;Air : Quand le boute-selle. (Fils de famille,);1
-044;12;Aia : Mes chers amis, dans celte vie.;2125;Air : Mes chers amis, dans cette vie.;1
+044;10;Ain : pleut, bergère,;1965;Air : Il pleut bergère;1
+044;11;Ain : Quand le boute-selle. (Fils de famille,);2099;Air : Quand le boute-selle;1
+044;12;Aia : Mes chers amis, dans celte vie.;2125;Air : Mes chers amis, dans cette vie;1
 044;13;Ain : Bouton de rose.;2345;Air : Bouton de Rose;1
-044;14;Ain: Ah! quel plaisir d'étre soldat.;2834;Air : Ah! quel plaisir d'étre soldat.;1
-044;15;Ain:=Vive la bai;2848;Vive;1
+044;14;Ain: Ah! quel plaisir d'étre soldat.;2834;Air : Ah! Quel plaisir d'être soldat;1
+044;15;Ain:=Vive la bai;2848;;1
 044;16;‘Ain: Toi dent la prunelle,;3106;Air : Toi dont la prunelle;1
 044;;Aie ! le père Ghiendent ! : e;3258;;0
 044;17;Ain des hussards de la garde,;3350;AIR : Connaissez-vous les hussards de la garde.;1
-044;18;Aïe de Fernand Cortes,;3575;AIR de Fernand Cortés.;1
+044;18;Aïe de Fernand Cortes,;3575;AIR de Fernand Cortès.;1
 044;19;CHOEUR,=Atn de Fernand Cortex.;3662;Air de Fernand Cortez.;1
-044;20;Air anglais des 3 couplets des pailles du set acte,;3710;Air anglais;1
+044;20;Air anglais des 3 couplets des pailles du set acte,;3710;Air anglais des 3 couplets des pailles;1
 044;;Ate a;3869;;0
-045;1;AIR de quadrille.;375;Air de Quadrille;1
-045;2;AIR : Entrée de Marco. (Biche au bois);641;AIR : Entrée de Marco. (Biche au bois);1
-045;3;AIR : de Strauss.;690;AIR : de Strauss.;1
-045;4;AIR nouveau de M. Victor Robillard.;1064;AIR nouveau de M. Victor Robillard.;1
-045;5;AIR de la Valse (scène vin);1375;AIR de Valse.;1
-046;;âme  j'ai, pour sa mémoire , un culte , une adoration de;317;;0
-046;;âme, appartiendrait à un autre ? Je sens , je sais;2248;;0
+045;1;AIR : Entrée de Marco. (Biche au bois);652;Air : Entrée de Marco (Biche au bois);1
+045;2;AIR  de Straust.;719;Air de Strauss;1
+045;3;Air nouveau de M. Victor Robillard.;1175;Air nouveau de M. Victor Robillard.;1
+045;4;Air de la Valse (scène v);1559;AIR de Valse.;1
+046;;âme: j'ai, pour sa mémoire, un culte, une adoration d;295;;0
+046;;âme, appartiendrait à un autre? Je sens, je sais;2706;;0
 047;;Aie ! aie aie !;1291;;0
 047;;Aïe ! … ah ! mais dites donc, impudent personnage…;5103;;0
 049;;couplet pendant le déjeuner.;1040;;0
@@ -152,6 +185,52 @@
 054;5;} Air de la Sentinelle.;1880;AIR de la Sentinelle.;1
 054;6;Air de Ténier,;2227;AIR de Téniers.;1
 054;7;CHOEUR.=Air de Lorsque lo soir dans la plaine,;2536;AIR : Le soir, quand tout dort en ces lieux.;1
+056;1;AIR de la Clef des champs (Deffès).;61;AIR de la Clef des champs (Deffès).;1
+056;2;AIR du Piége.;277;AIR du Piège.;1
+056;3;AIR de l’Omelette à la Follembuche.;614;AIR de l’Omelette à la Follembuche.;1
+056;4;AIR de Conder.;783;Air de Couder;1
+056;5;AIR de Broskovano ( Deffès),;1340;AIR de Broskovano ( Deffès);1
+056;6;AIR de la Clef des champs (Deffés.);1638;AIR de la Clef des champs (Deffés.);1
+056;7;AIR de Couder,;1991;Air de Couder;1
+057;1;AIR de {a Colonne.;57;AIR : de la Colonne.;1
+057;2;AIR : Avec un fil pareil.;277;Air : Avec un fils pareil;1
+057;;Aïe!;747;;0
+057;3;AIR :=Quand le jour luit, quand l'orage s’apaise,;819;Air : Quand le jour luit, quand l'orage s’apaise;1
+057;4;AIR du quadrille de Bayard. (Pantalon. |;1047;Air du quadrille de Bayard. (Pantalon.);1
+057;5;ALR: Tourmentez-vous bien, (Pauz Hanaton.);1140;Air : Tourmentez-vous bien;1
+057;6;AIR:=Voyons, monsieur, parlons raison,;1287;Air :  Voyons, monsieur, parlons raison;1
+057;7;AIR des quadrilles du Cadeau du Diable (pastourelle).;1500;AIR des quadrilles du Cadeau du Diable (pastourelle);1
+057;8;CHŒUR.=s ‘AIR de Blaise et Babet.;1600;AIR de Blaise et Babet;1
+057;9;AIR d'Xaydée,;2016;AIR d'Haydn.;1
+057;10;CHOEUR.=AIR de la Treille de Sincérité .;2315;AIR de la Treille de sincérité.;1
+057;11;CHŒUR.=Qu'on enterre;2344;;1
+058;1;AIR de la Polka d'Auvergne, (Lait d'Ancsse.;203;AIR de la Polka d'Auvergne;1
+058;2;AIR da Calpigi.;447;AIR de Calpigi.;1
+058;3;AIR de Romagnéai. (Malheurs d'un amant heu'cux.);904;;1
+058;4;AIR de Anonyme.;1090;AIR de l'Anonyme.;1
+058;5;CHŒUR.=AIR final de la Perle des servantes.;2015; AIR final de la Perle des servantes;1
+058;6;AIR de l'Écu de six francs.;2043;AIR de l'Écu de six francs.;1
+059;1;CHŒUR.=AIR du Chameau.,;302;Air du Chameau;1
+059;2;CHŒUR.=ALR : Cogsigrue.;1201;;1
+059;;AIR d'Ambroise Thomas { Vingt francs, s'il vous plait}.;1354;;0
+059;;CHŒUR.;1414;;0
+059;;AIR Deux Aveugles (Ofenbach).;1416;;0
+059;;CHŒUR.;1536;;0
+059;;AIR d'Ambroïse Thomas (Vingt francs, s'il vous ptatt),;1538;;0
+059;;Aïe! tu me casses les doigts!;1556;;0
+059;;CHŒUR.;1637;;0
+059;;AIR des Deuz Aveugles.;1638;;0
+059;;CHOEUR.;1753;;0
+059;;AIR d'Ambroise Thomas ( Vingt francs, s'il vous plait).;1755;;0
+059;;AIR : En vérité, je vous le dis.;2556;;0
+060;1;AIR de I' Curagan.;667;Air de l'Ouragan;1
+060;2;CHŒUR=AIR : Dans notre noble Venise;854;AIR : Dans notre noble Venise;1
+060;3;AIR : Finale da premier acte de Renaudin de Caen (Dco).;907;Air de Renaudin de Caen;1
+060;4;AIR du Palais de chrysocalz (Mine sant).;1452;AIR du Palais;1
+060;5;AIR de Voltaire chez Ninon.;1575;AIR de Voltaire chez Ninon.;1
+060;6;CHŒUR=AIR de Maugean:,;2134;Air de Mangeant;1
+060;7;AIR : Tu n'as pas vu ces bosquets dae lauriers. `;2142;AIR : Je n'ai pas vu ces bosquets de lauriers.;1
+060;;CHŒUR, REPRISE;2159;;0
 061;1;ALR : Vauderille de la Famille de T'Apothicaire.;172;AIR du Vaudeville de la Famille de l'Apothicaire.;1
 061;2;AlB: Átrange aventure, ou Sedlérat atroce. (Emistenta décoias ous:;344;AIR : Quelle singulière aventure.;1
 061;3;AIR: Vaudeville de Préville at Taconnet.;580;AIR : Vaudeville de Préville et Taconnet.;1
@@ -160,6 +239,80 @@
 061;5;AIR : Quadrille de Paris la nuit,;1255;AIR : C'est à Paris.;1
 061;6;AIR : Partie et Revanche.;1375;['AIR : de Partie et Revanche.'];1
 061;7;ATR : Frère Jaequar.;1621;Air : Frère Jacques;1
+062;1;AIR . Quand nous sommes si fatigués. (Représentants en vacances. kcte der.);440;Air : Quand nous sommes si fatigués;1
+062;2;AIR : du Serment.;505;Air du Serment;1
+062;3;AIR : Cloches, sonnez ! (Mariée de Poixy.);984;AIR : Cloches, sonnez !;1
+062;4;CHŒUR=AIR : We fardons pas (Mariée de Poissy.;1580;AIR : Ne partons pad;1
+062;5;AIR ds la romance de lAmandier,;1615;Air de la romance de l'Amandier;1
+062;6;CHOEUR. — ENSEMBLE.;1850;MORCEAU D'ENSEMBLE.;1
+062;7;AIR: C'est vraiment une horrear (Tentations d'Antoineite, fin du: 3% pote);1851;Air : C'est vraiment une horreur;1
+062;8;CHŒUR.=AIR : Vite! que l'on se rende (Tentations d'Antoinette;1981;Air :  Vite! que l'on se rende (Tentations d'Antoinette);1
+062;9;CHŒUR.=Môme chœur que ci-dessus.;2053;;1
+062;10;CHŒUR.=Môme chœur que le précédent;2196;;1
+062;;Aïe !...;2253;;0
+062;11;AIR de la Fée aux roses.;2576;Air de la Fée aux roses;1
+062;12;CHŒUR=AIK de Nargeot.;2700;Air de Nargeot;1
+062;13;AIR : Quand les oiseauz.;2871;AIR : Quand les oiseaux;1
+062;14;CHŒUR.=AIR dela Valse de Satan.;3235;Air de la Valse de Satan;1
+062;;Aïe! (Lui arrachant la buuilloire qu’il repose à terre.) Voulez-;3489;;0
+062;15;AIR : Ces bosquets de tauriers.;3521;AIR : Je n'ai pas vu ces bosquets de lauriers.;1
+062;;Aie! sacrebleu!... je suis ébouillanté!;3558;;0
+062;16;CHOEUR.=AIR de Werther.;3690;AIR de Werther.;1
+062;17;CHOEUR=AIR de Zampa.;3828; AIR de Zampa.;1
+062;18;CHOEUR.=AIR : Neveu du mercier.;4090;AIR : Neveu du mercier.;1
+062;;CHŒUR. -— ENSEMBLE,;4232;;0
+062;19;AIR final du Plastron.;4233;Air final du Plastron.;1
+062;20;CHŒUR.=A IR: J'aime l'uniforme.;4313;AIR : J'aime l'uniforme.;1
+062;21;CHOEUR.=AIR des Deux Cornuchet.;4355; AIR des Deux Cornuchet;1
+062;22;CHŒUR=AIR :;4513;AIR :;1
+062;23;CHOEUR=AIR: C’est asses de débats. (Petits Moyens,;4831;AIR : C'est assez de débats;1
+062;24;AIR: Vévent res hussards d'Berchini [Tentations d'Antoinette, neta 93;5110;AIR : des hussards de Berchini;1
+062;25;CHŒUR.=AIR: C'est l'amour (acte 4).;5200;AIR : C'est l'Amour.;1
+062;26;CHŒUR=AIR final de la Tour d'Ugolis.;5229;AIR final de la Tour d'Ugolis.;1
+062;27;AIR nouveau d'Hervé.;5250;AIR nouveau.;1
+063;1;AIR de Lantara,;325;AIR de Lantara.;1
+063;2;AIR nouveau.;403;AIR nouveau.;1
+063;3;AIR d'Ambroise, ou Voilà ma journée.;726;AIR d'Ambroise, ou Voilà ma journée.;1
+063;4;AIR de Dom Pasquale.;877;AIR de Dom Pasquale.;1
+063;;Aie!... prends garde! `;1130;;0
+063;5;AIR de Madame Favari.;1620;Air de Madame Favart;1
+063;6;AIR das Mousquetaires.;1709;Air des Mousquetaires;1
+063;7;AIR :=Si j'pouvais dire ce que j'’sens là,;1960;Air : Si j'pouvais dire ce que j'’sens là,;1
+063;8;CHŒUR.=AIR de Zampa.;2341;AIR de Zampa.;1
+063;9;CHOEUR.,=AIR de galop.;2510;AIR de Galop.;1
+064;1;AIR: Un homme pour faire un tableau.;104;AIR : Un homme pour faire un tableau.;1
+064;2;ATR Tu l'en vas (le Macon).;693;Air : Tu t'en vas;1
+064;3;AIR nouveau de Mangeant.;761;Air nouveau de Mangeant;1
+064;4;CHŒUR.=AIR : AA! vraiment, c'est affreux ! (Chapeau de paile, acte £.);1127;AIR : Ah ! c'est affreux ! ah ! c'est abominable !;1
+064;;Aïe!;1622;;0
+064;;Aïe!... aie!;1636;;0
+064;5;AIR de Jérusalem.;1637;Air de Jérusalem;1
+064;6;AIR Un homme.;1755;Air : Un homme;1
+064;7;AIR du Chapeau de paille d'Italie.;2119;AIR du Chapeau de paille d'Italie.;1
+064;8;AIR de Jaguarita.;2484;AIR de Jaguarita.;1
+064;9;AIR La farira dondaine.;2562;AIR de la Faridondaine.;1
+064;10;CHOEUR.=La farira dondaine,;2742;AIR de la Faridondaine.;1
+064;11;AIR: À fable! (Rat de ville.);2916;Air : À table !;1
+064;12;CHŒUR.=AIR Au thédfre on nous attend.;3130;AIR : Au théâtre on nous attend;1
+064;13;CHŒUR=AIR : C'est épouvantable!;3607;AIR : C'est épouvantable!;1
+064;14;CHOEUR,=À IR du Cosaque du Don.;4149;Air du Cosaque du Don;1
+064;15;AIR de la Moisson (Masini).;4159;AIR de la Moisson (Masini).;1
+065;;Aïe! vous me piquez!;105;;0
+066;1;CHŒUR=AiR d'une Femme qui bat son gendre.;413; AiR d'une Femme qui bat son gendre;1
+066;;Aïe! tu me piques avec ta brosse!;1456;;0
+066;;Aie!;1677;;0
+066;2;CHŒUR.=AIR de M. Robillard.;2091;AIR de M. Robillard.;1
+068;;Aïe! vous m'étranglez!... je la regarderai la prochaine;1356;;0
+068;;Aïe!;1605;;0
+068;;Aie !;4705;;0
+068;;Aïe! ,;4955;;0
+069;1;AIR: Adieu, tâche de distraire.;317;AIR: Adieu, tâche de distraire.;1
+069;2;AIR: Je loge au quatrième étage.;698;AIR : Je loge au quatrième étage.;1
+069;3;AIR de l’ITerbagère.;917;;1
+069;4;AIR de Julie.;1006;AIR de Julie.;1
+069;5;AIR connu.;1676;AIR connu.;1
+069;6;CHOEUR.=AIR : de la Prova.;1834;AIR : de la Prova.;1
+069;7;AIR : Connaissez-vous le grand Eugène.;1954;AIR : Connaissez-vous le grand Eugène.;1
 070;1;AIR : Adieu, je vous fuis, bois charmant.;116;AIR : Adieu, je vous fuis, bois charmant.;1
 070;2;AIR : Mon cœur à l'espoir s'abandonne.;299;AIR : Mon cœur à l'espoir s'abandonne.;1
 070;;Aïe!::, si l'Algérie s'en mêle.;455;;0
@@ -236,31 +389,27 @@
 074;10;Air de Mangeant.;2058;Air nouveau;1
 074;11;Air de Mangeant.;2075;Air nouveau;1
 074;12;Air chanté à la scêne première.;2439;Air nouveau;1
-075;1;Air : Bénissons la vierge et les saints;124;Air : Bénissons la vierge et les saints;1
-075;2;Air : Un homme pour faire un tableau .;180;AIR : Un homme pour faire un tableau.;1
-075;3;AIR : Du ménage du garçon ,;201;AIR du Ménage de garçon.;1
-075;4;AIR : de Lantara .;293;AIR de Lantara.;1
-075;5;Air : Voulant par ses oeuvres complètes.;381;AIR : Voulant par ses œuvres complètes.;1
-075;6;AIR : De Paris et le village.;413;AIR : de Paris et le village.;1
-075;7;AIR : J'ai long- temps parcouru le monde ( de Joconde ).;505;Air : J'ai longtemps parcouru le monde;1
-075;8;AIR :: Vaudeville des Landes ,;640;AIR : Vaudeville des habitans des Landes.;1
-075;9;AIR :: du Piége.;736;AIR : du Piége.;1
-075;10;AIR : Quand une Agnès.';826;AIR : Quand une Agnès.;1
-075;11;AIR : Adieu , je vous fuis bois charma;982;AIR : Adieu, je vous fuis, bois charmant.;1
-075;12;AIR : du Renegat.;1087;Air : du Renegat;1
-075;13;AIR : Qu'il est flatteur d'épouser celle .;1178;AIR : Qu'il est flatteur d'épouser celle.;1
-075;14;Air : de M. vuillaume.;1272;Air de M. Guillaume.;1
-075;15;Air : Vaudeville de partie carrée.;1330;AIR : Vaudeville de Partie carrée.;1
-075;16;Air : Vaudeville du Bouquet du Roi.;1372;Air : Vaudeville du Bouquet du Roi.;1
-075;;Ait au moins plus d'un service ,;1375;;0
-075;;Ait au moins plus d'un service ,;1390;;0
-075;;Ait au moins plus d'un service ,;1402;;0
-075;17;Air : Ces postillons.;1475;AIR : Ces Postillons.;1
-075;18;AIR : On m'avait vante la guinguette.;1662;AIR : On m'avait vanté.;1
-075;19;AIR : Vaudeville du Petit Courrier.;1814;AIR : Vaudeville du Petit Courrier.;1
-075;20;AIR : de M. Jean . ( Jean de Paris. );1853;AIR : Cavatine de Jean de Paris.;1
-075;21;AIR : Honneur à la musique.;1921;AIR : Honneur à la musique.;1
-075;22;AIR :: de Marianne .;1929;AIR : de Marianne.;1
+075;1;Air : Bénissons la vierge et les sainta;115;Air : Bénissons la vierge et les saints;1
+075;2;Ain : Un homme pour faire un tableau.;170;AIR : Un homme pour faire un tableau.;1
+075;3;Air : Du ménage du garcon.;199;AIR : du Ménage de Garcon…;1
+075;4;ÁIR : de Lantara.;304;AIR de Lantara.;1
+075;5;Air : Woulant par ses œuvres complètes.;394;AIR : Voulant par ses œuvres complètes.;1
+075;6;Aia : De Paris et le village,;429;AIR : de Paris et le village.;1
+075;7;Arr : J'ai long-temps parcouru le monde (de Joconde).;534;AIR : Contredanse de Joconde.;1
+075;8;Atn : Vaudeville des Landes,;705;Air : Vaudeville des Landes;1
+075;9;Arr : du Piège.;809;AIR : du Piége.;1
+075;10;Arr : du Renégat.;1190;Air : du Renégat;1
+075;11;Aïn : Qu'il est flatteur d’épouser celle.;1274;AIR : Qu'il est flatteur d'épouser celle.;1
+075;12;Air : Vaudeville de partie carrce.;1444;AIR : Vaudeville de Partie Carrée.;1
+075;;Ait au moins plus d'un service,;1496;;0
+075;;Ait au moins plus d'un service,;1509;;0
+075;;Ait au moins plus d’un service,;1519;;0
+075;13;Ain : Ces postillons.;1583;AIR : Ces Postillons.;1
+075;14;Arr : Vaudeville du Petit Courrier!;1951;AIR : Vaudeville du Petit Courrier.;1
+075;15;CHOEUR.=At : de M. Jean. ( Jean de Paris.);1984;Air de M. Jean;1
+075;16;CHOEUR.=Ain : Honneur à la musique.;2056;Air : Honneur à la musique;1
+075;17;Ain : de Marianne.;2064;AIR : de Marianne.;1
+075;;CHOEUR.;2086;;0
 076;1;AIR : Quel bonheur ! quelle ivresse (du Maçon ) .                   J'ons vu glisser de belles dames;95;AIR : Quel bonheur ! Quelle ivresse !;1
 076;2;AIR : Ah ! qu'il est doux de vendanger !;163;AIR : Ah ! qu'il est doux de vendanger.;1
 076;3;AIR : de Céline.;348;AIR : de Céline.;1
@@ -280,19 +429,18 @@
 076;17;AIR : Dis-moi, mon vieux .;1539;AIR : Dis-moi, mon vieux.;1
 076;18;AIR final des Manteaux .                                           LE CHOEUR .;1676;AIR final des Manteaux;1
 076;19;AIR : Vaudeville des frères de lait.;1684;AIR : Vaudeville des Frères de lait.;1
-077;1;Air   :   Je suis prisonnière.;118;Air : Je suis prisonnière.;1
-077;2;Air   :       Je suis jaloux (Brigiièrf'     .;404;Air : Je suis jaloux;1
-077;3;Ain      :   Ce     n'est   pas           lui. (Visite â                Bedlam.);476;Air : Ce n'est pas lui. (Visite à Bedlam);1
-077;4;Ain nouveau (arrangé par M. Guénbe.);578;Air nouveua;1
-077;;Aut' rbose    En passant sur le pont;920;;0
-077;5;Air       :   La bonne       affaire. (Domino.);985;Air : La bonne affaire;1
-077;6;Air   :   Vaudeville du Savetier et                        le   Financier.;1044;Air : du Savetier et du Financier.;1
-077;;Àme     JOBIN.;1130;;0
-077;7;Ain          :   C'est le roi Dagobert.;1623;AIR : Ce bon roi Dagobert.;1
-077;8;Air       :    Réveillons. (Domino roib.];1919;Air : Réveillon;1
-077;9;Air de        la       Retraite.;2487;Air de la Retraite;1
-077;10;Air    :   J'étouffe de colère. (Trois Dimanches.);2795;AIR : Ah ! j'étouffe de colère (du Dieu et la Bayadère.);1
-077;11;Air du Chevalier du guet;3006;AIR du Chevalier errant.;1
+077;1;Ain : Je suis prisonnitre.;105;Air : Je suis prisonnière;1
+077;2;Ain : de suis jaloux (Bnreuirns).;376;Air : Je suis jaloux;1
+077;3;Ain : Ce n’est pas lui. (Visie a Bennan.);441;Air : Ce n'est pas lui. ;1
+077;4;Ain uouveau A par M. Guénée.);536;Air nouveau;1
+077;5;Ain : J'aime la meuniére du moulin à vent.;799;Air : J'aime la meunière du moulin à vent;1
+077;;Aut’ chose !.., En passant sur le pont;818;;0
+077;6;Ain : La bonne affaire. (Dowixo.);885;Air : La bonne affaire;1
+077;7;Air : Vaudeville du Savetier et le Financicr.;943;Air : du Savetier et du Financier.;1
+077;8;Ain : C'est le roi Dagobert.;1461;AIR : Ce bon roi Dagobert.;1
+077;9;Ain de la Retraite.;2200;Air de la Retraite;1
+077;;Ala tante... vous savez ce que vous m'avez promis...;3202;;0
+077;10;CHOEUR FINAL.;3242;;1
 078;1;Air: Du souper de Henri IV.;237;AIR d'Henri IV en famille.;1
 078;2;Air : Il faut soir et matin, (Cerveau fêlé.);275;Air : Il faut soir et matin, (Cerveau fêlé.);1
 078;3;Air ? Amis, jamais t chagrin n’ me gagne.;426;AIR : Ami ! jamais l'chagrin n'm'approche.;1
@@ -305,6 +453,9 @@
 078;8;Air : Galoubet et crincfin.;1942;Air : Galoubet et crincrin;1
 078;9;Air nouveau de M. Z. Nargeot.;2228;AIR nouveau.;1
 078;10;Air de Castibelza.;2386;Air de Castibelza.;1
+080;1;Ain nouveau de M. Victor Robillard.;720;Air nouveau de  M. Victor Robillard.;1
+080;2;Asn nouveau de M. Jacques (Offenbach, `;1651;Air nouveau de M. Jacques (Offenbach);1
+080;3;CHŒUR.=Ain : des dragons de Villars.;2473;Air des dragons de Villars;1
 081;1;Air :=Pour être aimé, (bis.);475;Air : Pour être aimé;1
 081;2;Air:=Pour vous charmer, his.);488;Air : Pour vous charmer;1
 081;3;CHŒUR.=Air nouveau (Mangeant).;688;AIR nouveau.;1
@@ -328,13 +479,14 @@
 082;11;Air er;2140;Air :;1
 082;12;Air nouveau de M. DELIBES.;2337;AIR nouveau.;1
 083;;Aïe, .;6241;;0
-084;;Aïe !;2629;;0
-084;1;Air de Renaudin de Caen;4623; Air de Renaudin de Caen;1
-085;;couplets de la neige ... la neige tombe sur elle ndant;3253;;0
-086;;Aïe !;4370;;0
-088;;Aïe;748;;0
+084;;Aïe!;2772;;0
+084;1;Air de Renaudin de Caen;4874;Air de Renaudin de Caen;1
+085;;ATE DEUXIEME i);3059;;0
+085;;couplets de la neige... la neige tombe sur elle pendant;3406;;0
+086;;Aïe!;4460;;0
+088;;Aïe;752;;0
 089;;âme!... l jette le papier sur le tapis.;3735;;0
-090;;âme est ivre de joie, à la pensée des bonnes heures;9478;;0
+090;;Ale passe devant La table et ra chercher sur la cheminée les livres et les brochures.;1674;;0
 091;1;Aïn: Je n'ai point vu ces bosquels.;365;AIR : Je n'ai pas vu ces bosquets.;1
 091;2;Ain nouveau de M. Adolphe Vaillard,;480;Air nouveau M. Adolphe Vaillard;1
 091;3;Ain des Hussards de Felsheim.;528;AIR des Hussards de Felsheim.;1
@@ -468,6 +620,8 @@
 104;7;Ain: L'aven d'une femme (Amédée de Beauplan).;1996;Air : L'aveu d'une femme (Amédée Beauplan);1
 104;8;Ain : Elle à plerré (M, de la Guériviere),;2714;Air : Elle a pleuré.;1
 104;9;Ain : Aux braves hussards du denxitme.;3384;AIR : Au brave hussard du deuxième.;1
+105;1;Air BEAUSÉJOUR.;550;Air BEAUSÉJOUR.;1
+105;;åme se cache sous des caprices !... ( Elle lui prend affectueuse-;1178;;0
 106;1;Air d'Yelva.;712;AIR d'Yelva.;1
 106;2;Air d'Arishippe.;795;AIR d'Aristippe.;1
 106;3;Air : Vaudeville de Papothicaire.;893;Air du Vaudeville de l'Apothicaire.;1
@@ -528,6 +682,13 @@
 110;19;Air : à l'âge heureux de 14 ans.;2525;AIR : À l'âge heureux de quatorze ans.;1
 110;20;Air « du Carlin de la sie :;2584;AIR de Carline.;1
 111;;Aïe ! mais quoi donc? Mais quoi?;3224;;0
+112;1;Ara de l'Apothicaire.;106;AIR de l'Apothicaire.;1
+112;2;CHŒUR=                            AIR;195;AIR;1
+112;3;AIR : Qu'il est flatteur d'épouser celle.;297;AIR : Qu'il est flatteur d'épouser celle.;1
+112;4;AIR : De sommeiller encor, ma chère.;396;Air : De sommeiller encor, ma chère.;1
+112;5;AIR du Postillon.;853;AIR : Ces Postillons.;1
+112;6;AIR : Voulant par ses œuvres complètes.;1033;AIR : Voulant par ses œuvres complètes.;1
+112;7;AIR=  Eh ! vite, on nous attend;1119;Air :  Eh ! vite, on nous attend;1
 113;1;Aie Rouen, rtea, troupe jolie.;411;Air : Restez, restez, troupe jolie.;1
 114;1;Air : Du Juth galant, U;350;Air : Ce luth galant.;1
 114;;„AJA. Vous m'avez parlé de jolis garçons et;830;;0
@@ -697,6 +858,27 @@
 131;5;Air du Jour des noces.;967;Air du Vaudeville du jour des Noces.;1
 131;6;Air : Restez, restes, troupe jolie.;1356;AIR : Restez, restez, troupe jolie.;1
 131;7;Air du vaudeville de Renaudin de Caen.;2152;Air du vaudeville de Renaudin de Caen.;1
+132;1;Air : On dit que je suis sans malıce,;533;AIR : On dit que je suis sans malice.;1
+132;2;| ‘Air: du Charlatan (Henri Pottier). (Voyage de ła Tiberté.);1229;Air du Charlatan (Henri Pottier);1
+132;;âme ardente des lauriers et des couronnes en papiers peints,;1255;;0
+132;3;Air : Nouveau.;1651;AIR nouveau.;1
+132;4;Air : De la Fiancée, `;1741;AIR : De la Fiancée.;1
+132;5;Air : de Robillard.;1927;Air de Robillard;1
+132;6;Air : Du mari à la porte,;2191;Air : Du mari à la porte;1
+132;7;Air : De Monsieur va au cercle.;2680;Air : De Monsieur va au cercle.;1
+132;8;Air : De Madelon.;2933;Air : De Madelon Friquet.;1
+132;9;CHŒUR.=Vite à table;3047;AIR : À table ! à table !;1
+132;10;FINAL.=Air connu.;3261;Air connu.;1
+132;11;Air : De Croquefer.;3408;Air : De Croquefer.;1
+132;12;CHŒUR, *=Air: De la belle Polonaise.;3546;Air: De la belle Polonaise.;1
+132;13;Air:=Je suis le coléoptère;3784;Air : Je suis le coléoptère;1
+132;14;Air:=Je suis le Coléoptère :;3906;Air : Je suis le coléoptère;1
+132;15;Air :=Je suis le Coléoptère;4004;Air : Je suis le coléoptère;1
+132;16;CHŒUR,=Chantons tous notre reine;4084;Air : Chantons tous notre reine;1
+132;17;Air : Une histoire de Carnaval, (Hervé.);4278;Air : Une histoire de Carnaval, (Hervé.);1
+132;18;Air : Du galop dansant.;4300;Air : Du galop dansant.;1
+132;19;Air : De Boléro.;4348;Air : De Boléro.;1
+132;20;CHŒUR.=Hi, hi, hi!;4591;;1
 133;1;Air de la Partie carrée.;215;Air de la Partie carrée.;1
 133;2;Air du Triolet bleu (PALAIS-ROYAL).;387;Air du Triolet bleu (PALAIS-ROYAL).;1
 133;3;Air de Lantara.;648;AIR de Lantara.;1
@@ -835,29 +1017,13 @@
 142;42;Air de l'Apothicaére,;5070;AIR de l'Apothicaire.;1
 142;43;Air de la Tentation de saint Antoine.;5150;AIR de la Tentation.;1
 142;44;Air des Jolis Pantins. (ABADIE.);5285;Air des jolis Pantins;1
-143;1;AIR     Quadrille du Serpent à plumes .;331;Air : Quadrille du Serpent à plumes;1
-143;2;AIR de polka.;444;Air de Polka;1
-143;3;AIR de quadrille.;918;Air de quadrille;1
-143;4;AIR de Madame Favart.;1519;AIR de Madame Favart.;1
-144;1;Air du Piano de Berthe.;215;Air du Piano de Berthe.;1
-144;2;Air    : Quand j'étais roi de Béotie {ORPHÉE).;351;Air : Quand j'étais roi de Béotie;1
-144;3;Air des Lorettes (MIMI-BAMBOCHE.);586;Air des Lorettes (MIMI-BAMBOCHE.)";1
-144;4;Air de l'Etude.;646;Air de l'Etude.;1
-144;5;Air du Pas styrien.;898;Air du Pas styrien.;1
-144;6;Air nouveau de M. DELIBES.;1001;Air nouveau de M. DELIBES.;1
-144;7;Air de DELIBES.;1380;Air nouveau de M. DELIBES.;1
-144;8;Air de Fanfare le Trompette.;1472;Air de Fanfare le Trompette.;1
-144;;Aïe !...     tu es pincé.;1548;;0
-144;9;Air de MUSARD.;1728;Air de Musard;1
-144;10;Air du Luth        galant.;1888;AIR du luth galant.;1
-144;11;Air de Marie.;1987;AIR de Marie.;1
-144;12;Air de Grisar.;2093;Air de Grisar;1
-144;13;Air de MANGEANT.;2337;Air de Mangeant;1
-144;14;Air de S.   MANGEANT.;2566;Air de Mangeant;1
-144;15;Air des Trois paysans.;2837;Air des Trois paysans.;1
-144;16;Air :=                                     A B LILLE,   LES FEMMES.;2879;;1
-144;17;Air de Gil-Blas.;2939;Air de Gil-Blas.;1
-144;18;Air de.Cotillon lil.;3096;Air de Colalto.;1
-144;19;Air d'Arthus.;3293;Air d'Arthus.;1
-144;20;Air de l'Etoile du Nord.;3461;Air de l'Etoile du Nord.;1
-144;;âme! (Avec passion.) Mais tu ne lis donc pas dans mes regards?;3575;;0
+143;1;AiR de polka.;427;Air de Polka;1
+143;2;Arn de quadrille.;1043;Air de Quadrille;1
+143;3;Ain de Madame Favart.;1826;Air de Madame Favart;1
+144;1;Air du Piano de Berthe.;274;Air du Piano de Berthe;1
+144;2;Air : Quand j'étuis roi de Béotie (Onruée).;537;Air : Quand j'étais roi de Béotie;1
+144;3;Air de DELIBEs.;1920;Air de DELIBES;1
+144;4;Air de Fanfare le Trompette.;2046;Air de Fanfare le Trompette.;1
+144;5;Air du Luth galant,.;2630;AIR du luth galant.;1
+144;6;Air de Git-Blas. due fe s;4119;Air de Gil-Blas;1
+144;;àme ! (Avec passion.) Mais tu ne li;4949;;0

@@ -1,7 +1,7 @@
 """basic configurations for the following programs :
 - detections_airs
 - character_list_regex
-- xml_encoding
+- encoding
 
 *** CONFIGURATIONS 
     dossier : path linking to the corpus in it's entirety
@@ -9,7 +9,7 @@
     characters_sheet : path linking to the csv containing all the characters annotated manually
     """
 
-dossier = "../corpus-items"
+dossier = "../thealtres-ocr/corpus-items"
 airs_ref = "data/liste_des_noms_d-airs_standards.txt"
 characters_sheet = f"data/annotations_fr-characters.csv"
-dossier_sortie = "out/"
+dossier_out = "out"
