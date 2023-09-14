@@ -19,6 +19,7 @@ import os.path
 import re 
 from fuzzywuzzy import process
 import difflib
+from difflib import SequenceMatcher
 from bs4 import BeautifulSoup
 
 from config import dossier
@@ -28,11 +29,12 @@ import character_list_regex
 import encoding
 
 parser = argparse.ArgumentParser()
-parser.add_argument("id_work", 
+parser.add_argument("id_work", action='store',
                     help="gives candidates in id_work provided and writes them in new doc >  input ';' to reject the line, anything else to add it")
-parser.add_argument("--mode", "-m", choices=['extract', 'eval'], default="extract",
+parser.add_argument("--mode", "-m", choices=['extract', 'eval', 'auto'], default="extract",
                     help="extract : writes the id_work_airs.csv, default mode. Add options 'characters'and 'sem_search' for full implementation\
-                        eval : evaluates the results on evaluation corpus")
+                        eval : evaluates the results on evaluation corpus\
+                        auto : automatically extracts. 'all' in place of the id_work extracts the entire directory in config.py")
 parser.add_argument("--encode", "-e", action="store_true",
                 help="optional output of the encoding of the stage element")
 parser.add_argument("--characters", "-c", action="store_true",
@@ -41,6 +43,7 @@ parser.add_argument("--sem_search", "-s", action="store_true",
                 help="add the semantic search to the suggested titles")
 parser.add_argument("--total", "-t", action="store_true",
                 help="prints the macrostats in evaluation mode.")
+
 
 #list of regular expressions searched in the play
 AIR_extended = re.compile(r"^(^|\W*)\b(?<!'\| )([AâÂÀĀāǍǎĂăÃãáÅåÄäĄÆÁà][IiïîÎİɪɩĪīǏǐĬĭÍíÎîĨĩÌìÏỊıJɭĺĹĿŁŀłtTLlrwmns1u][rRŔʀŕŘřɼɽſßŖbB8nNtsaAEpe])\W*\b ?:?\W*")
@@ -54,7 +57,7 @@ regex_filtra = [AIR_extended, CHOEUR, REPRISE, COUPLET, FINALE, DUO, TRIO]
 
 
 #######################################################MODE EXTRACTION#################################################################
-    
+
 def extract(id_work):
     """Produces a list containing idWork;idAir;ocrAir;ocrLine;suggestedTitle;isair
     written in a idWork_airs.txt doc in corresponding directory"""
@@ -103,7 +106,7 @@ def isair(chaine, ligne):
     le numéro de ligne a pour but d'aider à identifier les airs
     input [n] pour non
     """
-    yn = input(f'''"{chaine}":{ligne}:      ''')
+    yn = input(f'''{chaine}:{ligne}:      ''')
     if yn == ';':
         return chaine, "0"
     else:
@@ -135,32 +138,37 @@ def suggest(titre_candidat):
         airs_refs = [ line.rstrip() for line in f ]
     best_candidate_fuzzy = process.extractOne(titre_candidat, airs_refs)
     best_candidate_difflib = difflib.get_close_matches(titre_candidat, airs_refs, n=1, cutoff=0.7)
+    print(f"Candidat: {titre_candidat}\n\t[1]String matching fuzzy :{best_candidate_fuzzy}")
+    if best_candidate_difflib:
+        ratio_difflib = round(SequenceMatcher(None, best_candidate_difflib[0], titre_candidat).ratio()*100, 2)
+        print(f"\t[2]String matching difflib :({best_candidate_difflib[0]}, {ratio_difflib})")
     if args.sem_search:
         best_candidate_semsearch = semantic_search.search_simple(titre_candidat)
-    print(f"Candidat: {titre_candidat}\n\t[1]String matching fuzzy :{best_candidate_fuzzy}\n\t[2]String matching difflib :{best_candidate_difflib}")
-    if args.sem_search:
         print(f"\t[3]Semantic search :{best_candidate_semsearch[0]}")
+        ratio_sem = best_candidate_semsearch[0][1]
     print("\t[;]Autre\n")
-    answer = input("Selectionner option :\t")
+    answer = input("Selectionnez option :\t")
     while answer not in '123;' or answer == '':
-        answer = input("Selectionner option :\t")
+        answer = input("Selectionnez option :\t")
     if answer == '1':
         return best_candidate_fuzzy[0]
-    if answer == '2':
+    if answer == '2' and best_candidate_difflib:
         return best_candidate_difflib[0]
     if answer == '3' and args.sem_search:
-        return best_candidate_semsearch[0]
+        return best_candidate_semsearch[0][0]
     if answer == "3" and not args.sem_search:
         answer = ";"
-    if answer == ';':
+    if answer == ';' or (answer == '2' and not best_candidate_difflib):
         print("*******Meilleurs candidats*******")
         for d in process.extract(titre_candidat, airs_refs, limit=3):
             print(d[0])
         print(chr(10).join(difflib.get_close_matches(titre_candidat, airs_refs, n=3)))
         if args.sem_search:
-            print(chr(10).join(best_candidate_semsearch))
-        manual_input = input("\nC/C le meilleur candidat de la liste ou entrez le nom de l'air manuellement:\n")
+            for candidat in best_candidate_semsearch:
+                print(candidat[0])
+        manual_input = input("\nEntrez la standardisation manuellement:\n")
         return manual_input
+
 
 def verif(id):
     """Propose de recommencer le processus de sélection depuis le début en mode extraction."""
@@ -172,14 +180,78 @@ def ecriture(id_work, liste):
     dossier_sortie = f"{dossier}/{id_work}/05_tune_names/"
     if not os.path.exists(dossier_sortie):
         os.makedirs(dossier_sortie)
-    with open(f"{dossier_sortie}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
-        for ligne in liste:
-            g.write(ligne + "\n")
+    if args.mode == 'auto': 
+        with open(f"{dossier_sortie}/{str(id_work)}_airs_auto.csv" , "w", encoding="utf8") as g:
+            g.write("id_work;idAir;title;line;best-candidate-title;isAir\n")
+            for ligne in liste:
+                g.write(ligne + "\n")
+    else:
+        with open(f"{dossier_sortie}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
+            g.write("id_work;idAir;title;line;best-candidate-title;isAir\n")
+            for ligne in liste:
+                g.write(ligne + "\n")
 
+################################################################MODE AUTOMATIC####################################################################################################
+def auto(id_work):
+    doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
+    if not os.path.exists(doc_entree):
+        print("***tesseract inexistant, identification des airs depuis l'OCR original***\n")
+        doc_entree = f"{dossier}/{id_work}/{id_work}_00_all-text_original-ocr.txt"
+    with open(doc_entree, "r", encoding="utf8") as f:
+            res = []
+            count_line = 0
+            count_air = 0
+            for line in f:
+                count_line += 1
+                l = line.rstrip()                
+                #looking for a match between one of the regex above and the line:
+                for r1 in regex_filtra:
+                    if r1.search(l):
+                        count_air += 1
+                        #automatic selection of the candidates : 
+                        air = l.strip()           
+                        air = re.sub(";", "", str(l.strip()))
+                        #fullmatch means the line doesn't have a title, in which case the title will be the 1st line of the song:
+                        if r1.fullmatch(str(air)):
+                            titre = next(f) 
+                            while cherche_titre(titre, id_work) == False:
+                                titre = next(f)   
+                            titre = re.sub(";", "", str(titre))
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air)+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(select_best(titre.rstrip())) )
+                        else:
+                            titre = air
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + str(select_best(titre)))
+    ecriture(id_work, res)
+
+def select_best(titre_candidat):
+    "Selects the best standard title"
+    res =[]
+    with open(airs_ref, "r", encoding="utf8") as f:
+        airs_refs = [ line.rstrip() for line in f ]
+    best_candidate_fuzzy = process.extractOne(titre_candidat, airs_refs)
+    best_candidate_difflib = difflib.get_close_matches(titre_candidat, airs_refs, n=1, cutoff=0.7)
+    if args.sem_search:
+        best_candidate_semsearch = semantic_search.search_simple(titre_candidat)
+        ratio_sem = best_candidate_semsearch[0][1]
+        res.append(round(ratio_sem))
+    if best_candidate_difflib:
+        ratio_difflib = round(SequenceMatcher(None, best_candidate_difflib[0], titre_candidat).ratio()*100, 2)
+    else: ratio_difflib = 0
+    if best_candidate_fuzzy:
+        ratio_fuzzy = best_candidate_fuzzy[1]
+    else: ratio_fuzzy = 0
+    res.append(ratio_difflib)
+    res.append(ratio_fuzzy)
+    if sorted(res, reverse=True)[0] == ratio_difflib:
+        return best_candidate_difflib[0]
+    if sorted(res, reverse=True)[0] == ratio_fuzzy:
+        return best_candidate_fuzzy[0]
+    if sorted(res, reverse=True)[0] == ratio_sem:
+        return best_candidate_semsearch[0][0]
 
 
 ################################################################MODE EVALUATION####################################################################################################
-
+# seulement après l'extraction
 def eval(id_work):
     """
     Mode d'évaluation pour le corpus d'évaluation : comparaison des airs sélectionnés avec les airs annotés manuellement par Lara Nugues.
@@ -269,4 +341,15 @@ if __name__ == '__main__':
         eval(id)
     if args.total:
         print(totaux())
+    if args.mode == 'auto':
+        if id == 'all':
+            files = [file for file in glob.glob(f"{dossier}/*")]
+            for file in files:
+                cherche_id = re.fullmatch(rf"{dossier}\\(\d+)", file)
+                id_corpus = cherche_id.group(1)
+                print(f"traitement de {id_corpus}")
+                auto(id_corpus)
+        else:
+            auto(id)
+
 
