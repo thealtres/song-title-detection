@@ -1,7 +1,8 @@
 """"
 Alexia Schneider juin 2023
 détection des airs et de leur titre
-output: [id_work]_airs.txt dans le dossier id_work du corpus 
+output mode 'manuel': [id_work]_airs.txt  
+output mode 'auto': [id_work]_airs_auto.txt
 id_work; id_air; titre_suggéré ; titre_extrait ; ligne ; isair 
 avec id_work : entré par l'utilisateur en ligne de commande
 id_air : incrémenté pour la pièce
@@ -24,15 +25,16 @@ from bs4 import BeautifulSoup
 
 from config import dossier
 from config import airs_ref
-from config import dossier_out
+from config import dossier_stats
+from config import suffix_dossier
 import character_list_regex
 import encoding
 
 parser = argparse.ArgumentParser()
-parser.add_argument("id_work", action='store',
+parser.add_argument("id_work", action='store', 
                     help="gives candidates in id_work provided and writes them in new doc >  input ';' to reject the line, anything else to add it")
-parser.add_argument("--mode", "-m", choices=['extract', 'eval', 'auto'], default="extract",
-                    help="extract : writes the id_work_airs.csv, default mode. Add options 'characters'and 'sem_search' for full implementation\
+parser.add_argument("--mode", "-m", choices=['manual', 'eval', 'auto'], default="manual",
+                    help="manual : writes the id_work_airs.csv, default mode. Add options 'characters'and 'sem_search' for full implementation\
                         eval : evaluates the results on evaluation corpus\
                         auto : automatically extracts. 'all' in place of the id_work extracts the entire directory in config.py")
 parser.add_argument("--encode", "-e", action="store_true",
@@ -43,6 +45,7 @@ parser.add_argument("--sem_search", "-s", action="store_true",
                 help="add the semantic search to the suggested titles")
 parser.add_argument("--total", "-t", action="store_true",
                 help="prints the macrostats in evaluation mode.")
+parser.add_argument("-nb", nargs='?', action='store', help="nb d'airs standards pour chaque air identifié en mode auto", default=1)
 
 
 #list of regular expressions searched in the play
@@ -65,7 +68,7 @@ def extract(id_work):
     #docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") if os.path.basename(file).endswith("tesseract.txt")]
     doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
     if not os.path.exists(doc_entree):
-        print("***tesseract inexistant, identification des airs depuis l'OCR original***\n")
+        print("*Traitement sur l'OCR original*\n")
         doc_entree = f"{dossier}/{id_work}/{id_work}_00_all-text_original-ocr.txt"
     with open(doc_entree, "r", encoding="utf8") as f:
         res = []
@@ -118,7 +121,7 @@ def cherche_titre(chaine, id_work):
     Exclusion d'une ligne vide, d'une didascalie ou d'un nom de personnage
     """
     if args.characters:
-        with open(f"{dossier}/{id_work}/05_tune_names/{id_work}_characters.txt", "r", encoding="utf8") as f:
+        with open(f"{dossier}/{id_work}/{suffix_dossier}/{id_work}_characters.txt", "r", encoding="utf8") as f:
             character_list = [ line.rstrip() for line in f ]
             for c in character_list:
                 if re.search(c, chaine):
@@ -159,30 +162,36 @@ def suggest(titre_candidat):
     if answer == "3" and not args.sem_search:
         answer = ";"
     if answer == ';' or (answer == '2' and not best_candidate_difflib):
-        print("*******Meilleurs candidats*******")
+        print("* Meilleurs candidats *")
         for d in process.extract(titre_candidat, airs_refs, limit=3):
             print(d[0])
         print(chr(10).join(difflib.get_close_matches(titre_candidat, airs_refs, n=3)))
         if args.sem_search:
-            for candidat in best_candidate_semsearch:
+            for candidat in best_candidate_semsearch[:4]:
                 print(candidat[0])
         manual_input = input("\nEntrez la standardisation manuellement:\n")
         return manual_input
 
 
 def verif(id):
-    """Propose de recommencer le processus de sélection depuis le début en mode extraction."""
+    """
+    Propose de recommencer le processus de sélection depuis le début en mode extraction.
+    """
     val = input("\nValider les données entrées ? [y]/n\t")
     if val == "n":
         extract(id)
 
 def ecriture(id_work, liste):
-    dossier_sortie = f"{dossier}/{id_work}/05_tune_names/"
+    """
+    Écriture en mode manuel et auto du fichier de sortie dans 
+    """
+    dossier_sortie = f"{dossier}/{id_work}/{suffix_dossier}/"
     if not os.path.exists(dossier_sortie):
         os.makedirs(dossier_sortie)
     if args.mode == 'auto': 
         with open(f"{dossier_sortie}/{str(id_work)}_airs_auto.csv" , "w", encoding="utf8") as g:
-            g.write("id_work;idAir;title;line;best-candidate-title;isAir\n")
+            nb_colonne_best = 'best-candidate-title;'*nb_titre_std
+            g.write(f"id_work;idAir;title;line;{nb_colonne_best}\n")
             for ligne in liste:
                 g.write(ligne + "\n")
     else:
@@ -195,7 +204,7 @@ def ecriture(id_work, liste):
 def auto(id_work):
     doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
     if not os.path.exists(doc_entree):
-        print("***tesseract inexistant, identification des airs depuis l'OCR original***\n")
+        print("*Traitement sur l'OCR original*\n")
         doc_entree = f"{dossier}/{id_work}/{id_work}_00_all-text_original-ocr.txt"
     with open(doc_entree, "r", encoding="utf8") as f:
             res = []
@@ -217,37 +226,28 @@ def auto(id_work):
                             while cherche_titre(titre, id_work) == False:
                                 titre = next(f)   
                             titre = re.sub(";", "", str(titre))
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air)+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(select_best(titre.rstrip())) )
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air)+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + ';'.join(select_best(titre.rstrip())))
                         else:
                             titre = air
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + str(select_best(titre)))
+                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + ';'.join(select_best(titre.rstrip())))
     ecriture(id_work, res)
 
 def select_best(titre_candidat):
     "Selects the best standard title"
-    res =[]
+    all_candidates = []
     with open(airs_ref, "r", encoding="utf8") as f:
         airs_refs = [ line.rstrip() for line in f ]
-    best_candidate_fuzzy = process.extractOne(titre_candidat, airs_refs)
-    best_candidate_difflib = difflib.get_close_matches(titre_candidat, airs_refs, n=1, cutoff=0.7)
-    if args.sem_search:
+    best_candidate_fuzzy = process.extract(titre_candidat, airs_refs, limit=5)
+    all_candidates = [cand for cand in best_candidate_fuzzy]
+    best_candidate_difflib = difflib.get_close_matches(titre_candidat, airs_refs, n=5, cutoff=0.7)
+    for cand in best_candidate_difflib:
+        ratio_diff = round(SequenceMatcher(None, cand, titre_candidat).ratio()*100, 2)
+        all_candidates.append((cand, ratio_diff))
+    if args.sem_search: 
         best_candidate_semsearch = semantic_search.search_simple(titre_candidat)
-        ratio_sem = best_candidate_semsearch[0][1]
-        res.append(round(ratio_sem))
-    if best_candidate_difflib:
-        ratio_difflib = round(SequenceMatcher(None, best_candidate_difflib[0], titre_candidat).ratio()*100, 2)
-    else: ratio_difflib = 0
-    if best_candidate_fuzzy:
-        ratio_fuzzy = best_candidate_fuzzy[1]
-    else: ratio_fuzzy = 0
-    res.append(ratio_difflib)
-    res.append(ratio_fuzzy)
-    if sorted(res, reverse=True)[0] == ratio_difflib:
-        return best_candidate_difflib[0]
-    if sorted(res, reverse=True)[0] == ratio_fuzzy:
-        return best_candidate_fuzzy[0]
-    if sorted(res, reverse=True)[0] == ratio_sem:
-        return best_candidate_semsearch[0][0]
+        all_candidates += [cand for cand in best_candidate_semsearch]
+    all_candidates = sorted(all_candidates, key=lambda a :a[1], reverse = True)
+    return {all_candidates[x][0] for x in range(nb_titre_std)}
 
 
 ################################################################MODE EVALUATION####################################################################################################
@@ -259,10 +259,10 @@ def eval(id_work):
     #there should only be one xml document in the directory:
     docs_xml = [file for file in glob.glob(f"{dossier}/{id_work}/*.xml")]
     for doc_xml in docs_xml:
-        with open(f"{dossier}/{id_work}/05_tune_names/{str(id_work)}_airs.csv" , "r", encoding="utf8") as f,\
+        with open(f"{dossier}/{id_work}/{suffix_dossier}/{str(id_work)}_airs.csv" , "r", encoding="utf8") as f,\
             open(f"{doc_xml}", "r", encoding="utf8") as g,\
-            open(f"{dossier}/{id_work}/05_tune_names/{str(id_work)}_stats.csv" , "w", encoding="utf8") as h,\
-            open(f"{dossier_out}/stats.csv" , "a", encoding="utf8") as i:
+            open(f"{dossier}/{id_work}/{suffix_dossier}/{str(id_work)}_stats.csv" , "w", encoding="utf8") as h,\
+            open(f"{dossier_stats}/stats.csv" , "a", encoding="utf8") as i:
             all = 0
             true_candidates = []
             for line in f:
@@ -307,7 +307,7 @@ def eval(id_work):
                             
 def totaux():
     """Affichage des macros du programme en mode évaluation. """
-    with open(f"{dossier_out}/stats.csv" , "r", encoding="utf8") as i:
+    with open(f"{dossier_stats}/stats.csv" , "r", encoding="utf8") as i:
         i.readline()
         tot_p  = 0
         tot_r = 0
@@ -330,7 +330,7 @@ if __name__ == '__main__':
     id = args.id_work
     if args.sem_search:
         import semantic_search
-    if args.mode == "extract":
+    if args.mode == "manual":
         extract(id)
     #only if annotations_fr-characters.csv is available for the corpus:
     if args.characters:
@@ -342,6 +342,10 @@ if __name__ == '__main__':
     if args.total:
         print(totaux())
     if args.mode == 'auto':
+        if args.nb is None:
+            print('none')
+        else:
+            nb_titre_std = int(args.nb)
         if id == 'all':
             files = [file for file in glob.glob(f"{dossier}/*")]
             for file in files:

@@ -1,6 +1,7 @@
 
 from config import dossier
 from config import airs_ref
+from config import suffix_dossier
 
 from lxml import etree
 from lxml.builder import E
@@ -17,8 +18,8 @@ def encode_air(id_work):
     if not os.path.exists(doc_entree):
         doc_entree = f"{dossier}/{id_work}/{id_work}_00_all-text_original-ocr.txt"
     dossier_id = f"{dossier}/{id_work}"
-    doc_sortie = f"{dossier_id}/05_tune_names/{id_work}_airs-encodes.xml"
-    doc_air = f"{dossier_id}/05_tune_names/{str(id_work)}_airs.csv"
+    doc_sortie = f"{dossier_id}/{suffix_dossier}/{id_work}_airs-encodes.xml"
+    doc_air = f"{dossier_id}/{suffix_dossier}/{str(id_work)}_airs.csv"
     with open(doc_entree, "r", encoding="utf8") as f1,\
         open(doc_air, "r", encoding="utf-8") as f2,\
         open(doc_sortie, "w", encoding="utf-8") as f3:
@@ -37,7 +38,7 @@ def encode_air(id_work):
             if line in airs:
                 f3.write(f'''<stage type="tune">{line}</stage>\n''')
             elif line in airs_id:
-                f3.write(f'''<stage type="tune" id="{line}"></stage>\n\t<l>{line}</l>\n''')
+                f3.write(f'''<stage type="tune" id="{line}">{line}</stage>\n\t<l>{line}</l>\n''')
             else:
                 f3.write(str(line) + "\n")
         f3.write(''''\n\t</body>\n</text>''')
