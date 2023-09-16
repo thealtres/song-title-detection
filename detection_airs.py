@@ -92,14 +92,13 @@ def extract(id_work):
                             while cherche_titre(titre, id_work) == False:
                                 titre = next(f)   
                             titre = re.sub(";", "", str(titre))
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air[0])+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(suggest(titre.rstrip())) + ";" + str(air[1]))
+                            res.append(str(id_work) +  ";" + str(air[1]) + ";" + str(count_air) + ";"+   str(air[0])+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + str(suggest(titre.rstrip())))
                         else:
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + str(suggest(titre)) + ";" + str(air[1]))
-                    else:
+                            res.append(str(id_work) +  ";" + str(air[1]) + ";" + str(count_air) + ";"+ str(titre.rstrip()) + ';' + str(count_line) + ";" + str(suggest(titre.rstrip())) )
+                    if air[1] ==  '0':
                         faux_positif = air[0]
                         faux_positif = re.sub(";", "", str(faux_positif))
-                        res.append(str(id_work) + ";;" + str(faux_positif) + ";" + str(count_line) + ";;" + str(air[1]))
-    #possibility to restart the selection process:   
+                        res.append(str(id_work) + ';' + str(air[1]) + ";" + str(faux_positif) + ";" + str(count_line) + ";;")
     ecriture(id_work, res)
             
 def isair(chaine, ligne):
@@ -182,12 +181,12 @@ def ecriture(id_work, liste):
     if args.mode == 'auto': 
         with open(f"{dossier_sortie}/{str(id_work)}_airs_auto.csv" , "w", encoding="utf8") as g:
             nb_colonne_best = 'best-candidate-title;'*nb_titre_std
-            g.write(f"id_work;idAir;title;line;{nb_colonne_best}\n")
+            g.write(f"id_work;isAir;idAir;title;line;{nb_colonne_best}\n")
             for ligne in liste:
                 g.write(ligne + "\n")
     else:
         with open(f"{dossier_sortie}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
-            g.write("id_work;idAir;title;line;best-candidate-title;isAir\n")
+            g.write("id_work;isAir;idAir;title;line;best-candidate-title\n")
             for ligne in liste:
                 g.write(ligne + "\n")
 
@@ -201,26 +200,33 @@ def auto(id_work):
             res = []
             count_line = 0
             count_air = 0
+            count_line_air = 0
             for line in f:
                 count_line += 1
                 l = line.rstrip()                
                 #looking for a match between one of the regex above and the line:
                 for r1 in regex_filtra:
                     if r1.search(l):
-                        count_air += 1
-                        #automatic selection of the candidates : 
-                        air = l.strip()           
-                        air = re.sub(";", "", str(l.strip()))
-                        #fullmatch means the line doesn't have a title, in which case the title will be the 1st line of the song:
-                        if r1.fullmatch(str(air)):
-                            titre = next(f) 
-                            while cherche_titre(titre, id_work) == False:
-                                titre = next(f)   
-                            titre = re.sub(";", "", str(titre))
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+   str(air)+ '=' + str(titre.rstrip()) + ";" + str(count_line)  + ";" + ';'.join(select_best(titre.rstrip())))
+                        # déselection des airs qui se trouvent à 10 lignes ou moins d'un air déjà identifié
+                        if  count_line <=  count_line_air+10:
+                            air = [re.sub(";", "", str(l.strip())), '0']
                         else:
-                            titre = air
-                            res.append(str(id_work) + ";" + str(count_air) + ";"+ str(titre) + ';' + str(count_line) + ";" + ';'.join(select_best(titre.rstrip())))
+                            air = [re.sub(";", "", str(l.strip())), '1']          
+                        count_line_air = count_line
+                        if air[1] == '1':
+                            count_air += 1
+                            # fullmatch means the line doesn't have a title, in which case the title will be the 1st line of the song:
+                            if r1.fullmatch(str(air[0])):
+                                titre = next(f) 
+                                while cherche_titre(titre, id_work) == False:
+                                    titre = next(f)   
+                                titre = re.sub(";", "", str(titre))
+                                res.append(str(id_work) + ";" + str(air[1]) + ";" + str(count_air) + ";"+   str(air[0])+ '=' + titre.rstrip() + ";" + str(count_line)  + ";" + ';'.join(select_best(titre.rstrip())))
+                            else:
+                                res.append(str(id_work) + ";" + str(air[1]) + ";" + str(count_air) + ";"+ str(air[0]) + ';' + str(count_line) + ";" + ';'.join(select_best(titre.rstrip())))
+                        if air[1] ==  '0':
+                            nb_colonne_best = ';'*nb_titre_std
+                            res.append(str(id_work) + ';' + str(air[1]) + ";;" + str(air[0]) + ";" + str(count_line) + ';'+ nb_colonne_best)
     ecriture(id_work, res)
 
 def select_best(titre_candidat):
