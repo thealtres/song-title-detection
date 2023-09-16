@@ -26,7 +26,10 @@ from bs4 import BeautifulSoup
 from config import dossier
 from config import airs_ref
 from config import dossier_stats
-from config import suffix_dossier
+from config import dossier_sortie
+from config import suffix_tesseract
+from config import suffix_original_ocr
+from config import suffix_doc_sortie
 import character_list_regex
 import encoding
 
@@ -66,10 +69,10 @@ def extract(id_work):
     written in a idWork_airs.txt doc in corresponding directory"""
     #for evaluation mode only > select the txt file in the directory if not tesseract:
     #docs_txt = [file for file in glob.glob(f"{dossier_id}/*.txt") if os.path.basename(file).endswith("tesseract.txt")]
-    doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
+    doc_entree = f"{dossier}/{id_work}/{id_work}{suffix_tesseract}"
     if not os.path.exists(doc_entree):
         print("*Traitement sur l'OCR original*\n")
-        doc_entree = f"{dossier}/{id_work}/{id_work}_00_all-text_original-ocr.txt"
+        doc_entree = f"{dossier}/{id_work}/{id_work}{suffix_original_ocr}"
     with open(doc_entree, "r", encoding="utf8") as f:
         res = []
         count_line = 0
@@ -119,7 +122,7 @@ def cherche_titre(chaine, id_work):
     Exclusion d'une ligne vide, d'une didascalie ou d'un nom de personnage
     """
     if args.characters:
-        with open(f"{dossier}/{id_work}/{suffix_dossier}/{id_work}_characters.txt", "r", encoding="utf8") as f:
+        with open(f"{dossier}/{id_work}/{dossier_sortie}/{id_work}_characters.txt", "r", encoding="utf8") as f:
             character_list = [ line.rstrip() for line in f ]
             for c in character_list:
                 if re.search(c, chaine):
@@ -175,27 +178,27 @@ def ecriture(id_work, liste):
     """
     Écriture en mode manuel et auto du fichier de sortie dans 
     """
-    dossier_sortie = f"{dossier}/{id_work}/{suffix_dossier}/"
-    if not os.path.exists(dossier_sortie):
-        os.makedirs(dossier_sortie)
+    dossier_sortie_ecriture = f"{dossier}/{id_work}/{dossier_sortie}/"
+    if not os.path.exists(dossier_sortie_ecriture):
+        os.makedirs(dossier_sortie_ecriture)
     if args.mode == 'auto': 
-        with open(f"{dossier_sortie}/{str(id_work)}_airs_auto.csv" , "w", encoding="utf8") as g:
+        with open(f"{dossier_sortie_ecriture}/{str(id_work)}{suffix_doc_sortie}_auto.csv" , "w", encoding="utf8") as g:
             nb_colonne_best = 'best-candidate-title;'*nb_titre_std
             g.write(f"id_work;isAir;idAir;title;line;{nb_colonne_best}\n")
             for ligne in liste:
                 g.write(ligne + "\n")
     else:
-        with open(f"{dossier_sortie}/{str(id_work)}_airs.csv" , "w", encoding="utf8") as g:
+        with open(f"{dossier_sortie_ecriture}/{str(id_work)}{suffix_doc_sortie}.csv" , "w", encoding="utf8") as g:
             g.write("id_work;isAir;idAir;title;line;best-candidate-title\n")
             for ligne in liste:
                 g.write(ligne + "\n")
 
 ################################################################MODE AUTOMATIC####################################################################################################
 def auto(id_work):
-    doc_entree = f"{dossier}/{id_work}/{id_work}_03_all-text_tesseract.txt"
+    doc_entree = f"{dossier}/{id_work}/{id_work}{suffix_tesseract}"
     if not os.path.exists(doc_entree):
         print("*Traitement sur l'OCR original*\n")
-        doc_entree = f"{dossier}/{id_work}/{id_work}_00_all-text_original-ocr.txt"
+        doc_entree = f"{dossier}/{id_work}/{id_work}{suffix_original_ocr}"
     with open(doc_entree, "r", encoding="utf8") as f:
             res = []
             count_line = 0
@@ -223,6 +226,7 @@ def auto(id_work):
                                 titre = re.sub(";", "", str(titre))
                                 res.append(str(id_work) + ";" + str(air[1]) + ";" + str(count_air) + ";"+   str(air[0])+ '=' + titre.rstrip() + ";" + str(count_line)  + ";" + ';'.join(select_best(titre.rstrip())))
                             else:
+                                titre = air[0]
                                 res.append(str(id_work) + ";" + str(air[1]) + ";" + str(count_air) + ";"+ str(air[0]) + ';' + str(count_line) + ";" + ';'.join(select_best(titre.rstrip())))
                         if air[1] ==  '0':
                             nb_colonne_best = ';'*nb_titre_std
@@ -256,9 +260,9 @@ def eval(id_work):
     #there should only be one xml document in the directory:
     docs_xml = [file for file in glob.glob(f"{dossier}/{id_work}/*.xml")]
     for doc_xml in docs_xml:
-        with open(f"{dossier}/{id_work}/{suffix_dossier}/{str(id_work)}_airs.csv" , "r", encoding="utf8") as f,\
+        with open(f"{dossier}/{id_work}/{dossier_sortie}/{str(id_work)}{suffix_doc_sortie}.csv" , "r", encoding="utf8") as f,\
             open(f"{doc_xml}", "r", encoding="utf8") as g,\
-            open(f"{dossier}/{id_work}/{suffix_dossier}/{str(id_work)}_stats.csv" , "w", encoding="utf8") as h,\
+            open(f"{dossier}/{id_work}/{dossier_sortie}/{str(id_work)}_stats.csv" , "w", encoding="utf8") as h,\
             open(f"{dossier_stats}/stats.csv" , "a", encoding="utf8") as i:
             all = 0
             true_candidates = []
