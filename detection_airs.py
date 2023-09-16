@@ -99,8 +99,7 @@ def extract(id_work):
                         faux_positif = air[0]
                         faux_positif = re.sub(";", "", str(faux_positif))
                         res.append(str(id_work) + ";;" + str(faux_positif) + ";" + str(count_line) + ";;" + str(air[1]))
-    #possibility to restart the selection process:
-    verif(id_work)     
+    #possibility to restart the selection process:   
     ecriture(id_work, res)
             
 def isair(chaine, ligne):
@@ -172,14 +171,6 @@ def suggest(titre_candidat):
         manual_input = input("\nEntrez la standardisation manuellement:\n")
         return manual_input
 
-
-def verif(id):
-    """
-    Propose de recommencer le processus de sélection depuis le début en mode extraction.
-    """
-    val = input("\nValider les données entrées ? [y]/n\t")
-    if val == "n":
-        extract(id)
 
 def ecriture(id_work, liste):
     """
