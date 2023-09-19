@@ -115,3 +115,7 @@ ouput : ```132;1;12;CHŒUR, *=Air: De la belle Polonaise.;3546;Air: De la belle 
 >001;1;1;CHŒUR.=Air de M. Marius Boullard.;378;AIR : Adieu, je vous fuis, bois charmant.;Air de M. Boullard.;AIR : Ah !  ah ! ah ! ah ! c'est désolant.
 >001;1;2;Air de M. Marius Boullard.;842;AIR : Adieu, je vous fuis, bois charmant.;Air de M. Boullard.;AIR : Ah !  ah ! ah ! ah ! c'est désolant.
 <br><br>The options -nb means that the best 3 string matching standard titles are added to the output, -s means that semantic search is activated and -c means that the list of characters is used to exclude a line. 
+
+## How to cite
+
+Schneider, Alexia & Nugues, Lara & Ruiz Fabo, Pablo (2023). Thealtres : Comparing Theater in Alsatian with the Dramatic Traditions at its Source. https://thealtres.pages.unistra.fr/
