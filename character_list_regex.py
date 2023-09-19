@@ -13,7 +13,7 @@ def dramatis_personae(id_work):
             os.makedirs(dossier_sortie_ecriture)
     with open(f"{characters_sheet}", "r", encoding='utf8') as g,\
         open(f"{dossier_sortie_ecriture}/{id_work}_characters.txt", "w", encoding="utf8") as f:
-        character_list = [colonne[6].upper() for colonne in [line.rstrip().split(',') for line in g] if colonne[0] == id_work ]
+        character_list = [colonne[1].upper() for colonne in [line.rstrip().split(',') for line in g] if colonne[0] == id_work ]
         f.write(".*TOU(S|TES).*" +"\n" + "^(^| )(?<!' )[EÉÈÊéèê][NnM]? ?[Ss][EÉÈÊéèê][MN][BbRrNe][LlIiíÍïÏ][E]\W*" + "\n")
         chars = [c.split() for c in character_list]
         for c in chars:

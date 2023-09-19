@@ -1,15 +1,18 @@
 """"
-Alexia Schneider juin 2023
+Projet Thealtres: https://thealtres.pages.unistra.fr/
+
+author: Alexia Schneider juin 2023
 détection des airs et de leur titre
 output mode 'manuel': [id_work]_airs.txt  
 output mode 'auto': [id_work]_airs_auto.txt
-id_work; id_air; titre_suggéré ; titre_extrait ; ligne ; isair 
+id_work; isair ; id_air; titre_extrait ; ligne ; titre_standard
 avec id_work : entré par l'utilisateur en ligne de commande
+isair : booléen, 1 pour air. 
 id_air : incrémenté pour la pièce
 titre_extrait : ligne contenant un titre candidat
 ligne : ligne dans le document OCR_tesseract. 
 titre_suggéré  : string matching depuis la liste de titres de référence fournie par Lara Nugues
-isair : booléen, 1 pour air. 
+
        
 """ 
 
@@ -215,8 +218,8 @@ def auto(id_work):
                             air = [re.sub(";", "", str(l.strip())), '0']
                         else:
                             air = [re.sub(";", "", str(l.strip())), '1']          
-                        count_line_air = count_line
                         if air[1] == '1':
+                            count_line_air = count_line
                             count_air += 1
                             # fullmatch means the line doesn't have a title, in which case the title will be the 1st line of the song:
                             if r1.fullmatch(str(air[0])):
@@ -343,9 +346,8 @@ if __name__ == '__main__':
     if args.total:
         print(totaux())
     if args.mode == 'auto':
-        if args.nb is None:
-            print('none')
-        else:
+        # essayer sans cette condition. 
+        if args.nb is not None:
             nb_titre_std = int(args.nb)
         if id == 'all':
             files = [file for file in glob.glob(f"{dossier}/*")]
