@@ -1,7 +1,8 @@
 """"
-Projet Thealtres: https://thealtres.pages.unistra.fr/
-
-author: Alexia Schneider juin 2023
+This was developed wihin the Thealtres project: https://thealtres.pages.unistra.fr/
+author: Alexia Schneider
+contributors: Lara Nugues, Pablo Ruiz Fabo
+Juin 2023
 détection des airs et de leur titre
 output mode 'manuel': [id_work]_airs.txt  
 output mode 'auto': [id_work]_airs_auto.txt
@@ -12,8 +13,7 @@ id_air : incrémenté pour la pièce
 titre_extrait : ligne contenant un titre candidat
 ligne : ligne dans le document OCR_tesseract. 
 titre_suggéré  : string matching depuis la liste de titres de référence fournie par Lara Nugues
-
-       
+   
 """ 
 
 import argparse

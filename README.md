@@ -118,4 +118,6 @@ ouput : ```132;1;12;CHŒUR, *=Air: De la belle Polonaise.;3546;Air: De la belle 
 
 ## How to cite
 
+Main developer is Alexia Schneider, with contribution on the literary aspects by Lara Nugues and supervision by Pablo Ruiz Fabo. 
+
 Schneider, Alexia & Nugues, Lara & Ruiz Fabo, Pablo (2023). Thealtres : Comparing Theater in Alsatian with the Dramatic Traditions at its Source. https://thealtres.pages.unistra.fr/
