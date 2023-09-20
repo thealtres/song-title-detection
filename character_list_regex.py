@@ -20,7 +20,3 @@ def dramatis_personae(id_work):
             for name in c:
                 if name not in liste_exclue:
                     f.write(".*" + name + ".*" + "\n")
-
-if __name__ == '__main__':
-    idWork = "17"
-    dramatis_personae(idWork)
