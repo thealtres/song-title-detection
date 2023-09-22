@@ -34,6 +34,6 @@ suffix_doc_sortie = '_airs'
 #  'corpus-items/001/tune_names/001_airs.csv'
 
 # documents de référence pour les options du programme:
-airs_ref = "data/liste_des_noms_d-airs_standards.txt"
+airs_ref = "data/liste_corr_des_noms_d’airs_standards.txt.txt"
 characters_sheet = f"data/annotations_fr-characters.csv"
 dossier_stats = "out"
