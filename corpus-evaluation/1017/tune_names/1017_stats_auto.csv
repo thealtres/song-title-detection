@@ -1,0 +1,39 @@
+Airs candidats: 11                
+Airs manuellement filtrés : 9                
+Airs réelement présents : 8                
+Précision: 0.82                
+Rappel: 1.00                
+Mesure-F1: 0.90
+Non attrapé: AIR du Comte Ory (tel qu'il est à la fin du premier acte de Malvina : Venez, suivez-moi tous) .
+Supplémentaire: couplets .
+Supplémentaire: ENSEMBLE .
+
+***Airs du xml***:
+AIR : Muse des bois. 
+AIR : Vaudeville de la Robe et les Bottes. 
+AIR de Colalto. 
+AIR du Comte Ory (tel qu'il est à la fin du premier acte de Malvina : Venez, suivez-moi tous) .
+AIR d' Aristippe. 
+AIR : Connaissez-vous le grand Eugène ? 
+AIR de l'Angélus. 
+AIR de Teniers. 
+
+***Airs identifiés dans le txt***:
+couplets .
+AIR : Muse des bois .
+Air : Vaudeville de la Robe et les Bottes.
+AIR de Colalto .
+ENSEMBLE .
+Air d ' Aristippe .
+Air : Connaissez -vous le grand Eugène ?
+Air de l’Angélus.
+AIR de Teniers .
+
+***Airs du txt validés dans le xml***:
+AIR : Muse des bois. 
+AIR : Vaudeville de la Robe et les Bottes. 
+AIR de Colalto. 
+AIR d' Aristippe. 
+AIR : Connaissez-vous le grand Eugène ? 
+AIR de l'Angélus. 
+AIR de Teniers. 

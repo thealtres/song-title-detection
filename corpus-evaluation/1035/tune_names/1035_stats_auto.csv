@@ -1,0 +1,77 @@
+Airs candidats: 22                
+Airs manuellement filtrés : 21                
+Airs réelement présents : 22                
+Précision: 0.95                
+Rappel: 0.95                
+Mesure-F1: 0.95
+Non attrapé: AIR : Vaudeville d'Heur et Malheur. 
+
+***Airs du xml***:
+AIR : Vaudeville de l'Anonyme. 
+AIR : Accourez tous, venez m'entendre (Philtre).
+AIR : Verse, verse le vin de France. 
+AIR : Dans la chambre où naquit Molière. 
+AIR : En guerre, ces aventures. 
+AIR du Siège de Corinthe. 
+AIR de Turenne. 
+AIR : Vaudeville des Blouses. 
+AIR de Masaniello. 
+AIR : Amis, dépouillons nos pommiers. 
+AIR : Ah ! c'cadet-là. 
+AIR : Plus qu'un millionnaire. 
+AIR : Nocturne de la Marquise de Brinvilliers. 
+AIR : Il me faudra quitter l'empire. 
+AIR : Chœur de la marche des deux Journées. 
+AIR : Vaudeville de la Visite à Bedlam. 
+AIR : J'ai d'l'argent. 
+AIR : Le voilà. (d'Emmeline).
+AIR : Pour le chercher j'arrive en Allemagne. 
+AIR : La débutante est triomphante. 
+AIR : Chœur final des deux Mondes. 
+AIR : Vaudeville d'Heur et Malheur. 
+
+***Airs identifiés dans le txt***:
+AIR : Vaudeville de l'Anonyme.
+Air : Accourez tous, venez m'entendre ( Philtre ) .
+Air : Verse , verse le vin de France .
+Air : Dans la chambre où naquit Molière.
+Air : En guerre, ces aventures.
+Air du siège de Corinthe.
+Air de Turenne.
+Arr : Vaudeville des Blouses.
+Air de Masaniello .
+AIR : Amis, dépouillons nos pommiers.
+AIR : Ah ! c'cadet- là .
+Air : Plus qu'un millionnaire.
+AIR : Nocturne de la Marquise de Brinvilliers.
+Air : Il me faudra quilter l'empire.
+Air : Choeur de la marche des deux Journées .
+AIR : Vaudeville de la Visite à Bedlam .
+Arr : J'ai d'l'argent.
+AIR : Le voilà . ( d'Emmeline ) .
+Air : Pour le chercher j'arrive en Allemagne.
+AIR : La débutante est triomphante.
+Air : Choeur finaldes deus Mondes.
+
+***Airs du txt validés dans le xml***:
+AIR : Vaudeville de l'Anonyme. 
+AIR : Accourez tous, venez m'entendre (Philtre).
+AIR : Verse, verse le vin de France. 
+AIR : Dans la chambre où naquit Molière. 
+AIR : En guerre, ces aventures. 
+AIR du Siège de Corinthe. 
+AIR de Turenne. 
+AIR : Vaudeville des Blouses. 
+AIR de Masaniello. 
+AIR : Amis, dépouillons nos pommiers. 
+AIR : Ah ! c'cadet-là. 
+AIR : Plus qu'un millionnaire. 
+AIR : Nocturne de la Marquise de Brinvilliers. 
+AIR : Il me faudra quitter l'empire. 
+AIR : Chœur de la marche des deux Journées. 
+AIR : Vaudeville de la Visite à Bedlam. 
+AIR : J'ai d'l'argent. 
+AIR : Le voilà. (d'Emmeline).
+AIR : Pour le chercher j'arrive en Allemagne. 
+AIR : La débutante est triomphante. 
+AIR : Chœur final des deux Mondes. 

@@ -1,0 +1,57 @@
+Airs candidats: 15                
+Airs manuellement filtrés : 14                
+Airs réelement présents : 15                
+Précision: 0.93                
+Rappel: 0.93                
+Mesure-F1: 0.93
+Non attrapé: AIR : Vaudeville du Château perdu. 
+
+***Airs du xml***:
+Air nouveau d'Alexandre Piccini. 
+AIR : Un homme pour faire un tableau. 
+AIR : Ah ! si Madame me voyait. 
+AIR : Voulant par ses œuvres complètes. 
+AIR : Vaudeville du Château perdu. 
+Air nouveau de M. Alexandre Piccini. 
+Air des Jolis Soldats. 
+AIR : Voyez là-bas ce beau domaine. 
+AIR : Vaudeville de Partie carrée. 
+AIR : Connaissez-vous ces bosquets de lauriers ? 
+AIR : Not' bonn' maitresse est obéie. (Valentine.)
+AIR : Tendres échos errans dans ces vallons. 
+AIR : Veillons au salut de l'empire. 
+Air du deuxième acte de Guillaume Tell. (Vaudeville Ad. Adam.)
+AIR : Vaudeville de la Robe et les Bottes. AIR : Travaillons bien pour rendre à l'existence.
+AIR : En avant ! en avant !
+
+***Airs identifiés dans le txt***:
+Air nouveau d'Alexandre Piccini.
+AIR : Un homme pour faire un tableau .
+AIR : Ah ! si Madame me voyait.
+AIR : Voulant par ses ceuvres complètes.
+Air nouveau de M. Alexandie Piccini .
+Air des Jolis Soldats.
+AIR : Voyez là -bas ce beau domaine.
+AIR : Vaudeville de Partie carrée .
+AIR : Connaissez - vous ces bosquets de lauriers ?
+AIR : Not bonn ' maitresse est obéie .
+AIR : Tendres échos errans dans ces vallons .
+AIR : Veillons au salut de l'empire.
+Air du deuxième acte de Guillaume Tell. ( Vaudeville Ad . Adam . )
+AIR : Vaudeville de la Robe et les Bottes .
+
+***Airs du txt validés dans le xml***:
+Air nouveau d'Alexandre Piccini. 
+AIR : Un homme pour faire un tableau. 
+AIR : Ah ! si Madame me voyait. 
+AIR : Voulant par ses œuvres complètes. 
+Air nouveau de M. Alexandre Piccini. 
+Air des Jolis Soldats. 
+AIR : Voyez là-bas ce beau domaine. 
+AIR : Vaudeville de Partie carrée. 
+AIR : Connaissez-vous ces bosquets de lauriers ? 
+AIR : Not' bonn' maitresse est obéie. (Valentine.)
+AIR : Tendres échos errans dans ces vallons. 
+AIR : Veillons au salut de l'empire. 
+Air du deuxième acte de Guillaume Tell. (Vaudeville Ad. Adam.)
+AIR : Vaudeville de la Robe et les Bottes. 

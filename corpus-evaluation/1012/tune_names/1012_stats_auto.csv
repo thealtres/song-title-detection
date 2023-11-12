@@ -1,0 +1,67 @@
+Airs candidats: 18                
+Airs manuellement filtrés : 17                
+Airs réelement présents : 18                
+Précision: 0.94                
+Rappel: 0.94                
+Mesure-F1: 0.94
+Non attrapé:  
+
+***Airs du xml***:
+Air de la Dame Blanche. 
+AIR : J'en guette un petit. 
+AIR : Avec sécurité. 
+Air du Vaudeville du Restaurant. 
+AIR : Vaudeville de Partie et Revanche. 
+Air de la Ronde de la Pauvre Fille. 
+AIR : Ces postillons. 
+ 
+Air de Manette. 
+AIR : Le beau Lycas. 
+Air de Bonaparte à Brienne. 
+Air nouveau de M. Doche. 
+Air d'Amédée de Beauplan. 
+Air de Fra Diavolo. 
+Air du Vaudeville de Jadis et Aujourd'hui. 
+AIR : Frayeur mortelle. (l'Apothicaire.)
+Air d'Yelva. 
+Air du Vaudeville de la Revue de Paris. Air de la Ronde de la Pauvre Fille.
+AIR : Avec le cidre et les marrons.
+AIR : Non, non, ce n'est point une erreur.
+
+***Airs identifiés dans le txt***:
+Air de la Dame Blanche.
+J'en guette un petit .
+AIR : Avec séeurité .
+Air du Vaudeville du Restaurant .
+AIR : Vaudeville de Partie et Revanche .
+Air de la Ronde de la Pauvre Fille.
+AIR 1 Ces postillons.
+Air de Manette .
+AİR : Le beau Lycas.
+Air de Bonaparte à Brienne .
+Air nouveau ds M. Doche .
+Air d'Amédée de Beauplan .
+Air de Fra Diavolo .
+Air du 7 audeville de Jadis et Aujourd'hui.
+AIR : Trayeur mortelle . ( l'Apothicaire . )
+Air d'Yelva .
+Air du Vaudeville de la Revue de Paris.
+
+***Airs du txt validés dans le xml***:
+Air de la Dame Blanche. 
+AIR : J'en guette un petit. 
+AIR : Avec sécurité. 
+Air du Vaudeville du Restaurant. 
+AIR : Vaudeville de Partie et Revanche. 
+Air de la Ronde de la Pauvre Fille. 
+AIR : Ces postillons. 
+Air de Manette. 
+AIR : Le beau Lycas. 
+Air de Bonaparte à Brienne. 
+Air nouveau de M. Doche. 
+Air d'Amédée de Beauplan. 
+Air de Fra Diavolo. 
+Air du Vaudeville de Jadis et Aujourd'hui. 
+AIR : Frayeur mortelle. (l'Apothicaire.)
+Air d'Yelva. 
+Air du Vaudeville de la Revue de Paris. 

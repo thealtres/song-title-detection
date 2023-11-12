@@ -1,0 +1,74 @@
+Airs candidats: 21                
+Airs manuellement filtrés : 20                
+Airs réelement présents : 20                
+Précision: 0.95                
+Rappel: 1.00                
+Mesure-F1: 0.98
+
+***Airs du xml***:
+Air du Maçon. 
+Air : Douce jouvencelle (de Zampa.)
+Air du Vaudeville du Baiser au porteur. 
+Air : Il me faudra quitter l'empire. 
+Air de l'Écu de six francs. 
+Air de Turenne. 
+Air de Marianne. 
+Air : Ils sont les mieux placés. 
+Air du vaudeville de Partie et Revanche. 
+Air du vaudeville de la Famille de l'Apothicaire. 
+Air : Tout ça passe en même temps. 
+Air : Garde à vous. 
+Air de Préville et Taconnet. 
+Air : Flic, flac ! … (d'Adam.)
+Air : Quand je quittai la Normandie (de Robert-le-Diable de
+                        Meyerberr.)
+Air du Siège de Corinthe. 
+Air : On n'offense pas une belle. 
+Air : Patati, patata. 
+Air final du Hussard de Felsheim. 
+Air : Pour le chercher j'arrive en Allemagne. 
+
+***Airs identifiés dans le txt***:
+Air du Maçon .
+Air : Douce jouvencelle ( de Zampa .)
+Air du Vaudeville du Baiser, au porteur .
+Air : Il me faudra quitter l'empire.
+Air de l'Écu de six francs.
+Air de Turenne.
+Air de Marianne .
+Air : Ils sont les mieux placés.
+Air du vaudeville de Partie et Revanche .
+Air du vaudeville de la Famille de l'Apothicaire.
+Air : Tout ça passe en même temps.
+Air : Garde à vous .
+Air de Préville et Taconnet .
+Air : Flic , flac ! ... ( d'Adam . )
+Air : Quand je quittai la Normandie ( de Robert- le - Diable de
+Air du Siège de Corinthe .
+Air : On n'offense pas une belle.
+Air : Patati, patata .
+Air finaldu Hussard de Felsheim .
+Air : Pour le chercher j'arrive en Allemagne.
+
+***Airs du txt validés dans le xml***:
+Air du Maçon. 
+Air : Douce jouvencelle (de Zampa.)
+Air du Vaudeville du Baiser au porteur. 
+Air : Il me faudra quitter l'empire. 
+Air de l'Écu de six francs. 
+Air de Turenne. 
+Air de Marianne. 
+Air : Ils sont les mieux placés. 
+Air du vaudeville de Partie et Revanche. 
+Air du vaudeville de la Famille de l'Apothicaire. 
+Air : Tout ça passe en même temps. 
+Air : Garde à vous. 
+Air de Préville et Taconnet. 
+Air : Flic, flac ! … (d'Adam.)
+Air : Quand je quittai la Normandie (de Robert-le-Diable de
+                        Meyerberr.)
+Air du Siège de Corinthe. 
+Air : On n'offense pas une belle. 
+Air : Patati, patata. 
+Air final du Hussard de Felsheim. 
+Air : Pour le chercher j'arrive en Allemagne. 

@@ -1,0 +1,60 @@
+Airs candidats: 15                
+Airs manuellement filtrés : 14                
+Airs réelement présents : 17                
+Précision: 0.93                
+Rappel: 0.82                
+Mesure-F1: 0.87
+Non attrapé: sur la harpe la ritournelle de la marseillaise
+Non attrapé: AIR : D'où vient que son départ. 
+Non attrapé: AIR : Noble Dame. 
+
+***Airs du xml***:
+AIR d'Aristippe. 
+AIR de Téniers. 
+AIR : D'où vient que son départ (de la Famille Riquebourg) .
+sur la harpe la ritournelle de la marseillaise
+AIR : Allez, allez dire à son excellence. 
+AIR de Caleb. 
+AIR : Je n'ai pas vu ces bosquets. 
+AIR : Dans un castel. 
+AIR de Blanchard. 
+AIR : C'était Renaud de Montauban. 
+AIR : D'où vient que son départ. 
+AIR : Ce que j'éprouve en vous voyant. 
+AIR de Céline. 
+AIR des Sybarites
+AIR : Époux imprudent. 
+AIR : Noble Dame. 
+AIR des Trois couleurs. AIR : En avant ! Notre vieux drapeau nous attend.
+
+***Airs identifiés dans le txt***:
+Arn d'Aristippe.
+AIR de Téniers.
+AIR : D'où vient que son départ ( de la Famille Riquebourg ),
+AIR : Allez, allez dire à son excellence.
+AIR de Caleb ,
+Arr : Je n'ai pas vu ces bosquets.
+AIR : Dans un castel.
+AIR de Blanchard .
+AIR : C'était Renaud de Montauban .
+AIR : Ce que j'éprouve en vous voyant.
+Air de Céline.
+Arn des Sybarites
+AIR : Epour imprudent.
+AIR des Trois couleurs.
+
+***Airs du txt validés dans le xml***:
+AIR d'Aristippe. 
+AIR de Téniers. 
+AIR : D'où vient que son départ (de la Famille Riquebourg) .
+AIR : Allez, allez dire à son excellence. 
+AIR de Caleb. 
+AIR : Je n'ai pas vu ces bosquets. 
+AIR : Dans un castel. 
+AIR de Blanchard. 
+AIR : C'était Renaud de Montauban. 
+AIR : Ce que j'éprouve en vous voyant. 
+AIR de Céline. 
+AIR des Sybarites
+AIR : Époux imprudent. 
+AIR des Trois couleurs. 

@@ -1,0 +1,81 @@
+Airs candidats: 23                
+Airs manuellement filtrés : 22                
+Airs réelement présents : 23                
+Précision: 0.96                
+Rappel: 0.96                
+Mesure-F1: 0.96
+Non attrapé: 
+Non attrapé: Air : Oui, j'entends gronder l'orage (Barbier de Séville).
+Supplémentaire: Aie... aie... ( Riant.) Hé ... hé ... he ... c'est -y amusant l'amour ...
+
+***Airs du xml***:
+AIR Comme il m'aimait ! 
+AIR de l'Insouciant. 
+Air de la Servante justifiée. 
+AIR du Ménage du garçon. 
+Air de la walse de Robin des bois. 
+AIR : Vos maris en palestine. 
+Air du Paysan perverti. 
+AIR : Viens, gentille dame (Dame blanche).
+AIR Faisons la paix. 
+AIR d'Avis au public. 
+AIR : Un homme pour faire un tableau. 
+
+AIR de Caroline. 
+AIR : Amis, la matinée est belle. 
+AIR : Ces postillons sont d'une maladresse. 
+Air : Oui, j'entends gronder l'orage (Barbier de Séville).
+AIR du Mal du pays. 
+Air de l'Angelus. 
+AIR du Dieu des bonnes gens. 
+AIR : Au feu ! 
+AIR : Avant d'entrer en mariage. 
+AIR du Piége. 
+AIR de Michel et Christine. AIR : Quand on attend sa belle.
+
+***Airs identifiés dans le txt***:
+AIR Comme il m'aimait !
+AIR de l'Insouciant.
+Air de la Servante justifiée.
+AIR du Ménage du garçon .
+Air de la walse de Robin des bois.
+AIR : Vos maris en palestine.
+Air du Paysan perverti.
+AIR : Viens, gentille damu ( Dame blanche).
+Aie... aie... ( Riant.) Hé ... hé ... he ... c'est -y amusant l'amour ...
+Ain Faisons la paix .
+Air d'Avis au public .
+AIR : Un homme pour faire un tableau .
+AIR de Caroline .
+AIR : Amis , la matinée est belle .
+AIR : Ces postillons sont d'une maladresse .
+AIR du Mal du
+Air de l'Angelus.
+AIR du Dieu des bonnes
+AIR : Au feu !
+Air : Avant d'entrer en mariage .
+AiR du Piege.
+AIR de Michel et Christine .
+
+***Airs du txt validés dans le xml***:
+AIR Comme il m'aimait ! 
+AIR de l'Insouciant. 
+Air de la Servante justifiée. 
+AIR du Ménage du garçon. 
+Air de la walse de Robin des bois. 
+AIR : Vos maris en palestine. 
+Air du Paysan perverti. 
+AIR : Viens, gentille dame (Dame blanche).
+AIR Faisons la paix. 
+AIR d'Avis au public. 
+AIR : Un homme pour faire un tableau. 
+AIR de Caroline. 
+AIR : Amis, la matinée est belle. 
+AIR : Ces postillons sont d'une maladresse. 
+AIR du Mal du pays. 
+Air de l'Angelus. 
+AIR du Dieu des bonnes gens. 
+AIR : Au feu ! 
+AIR : Avant d'entrer en mariage. 
+AIR du Piége. 
+AIR de Michel et Christine. 

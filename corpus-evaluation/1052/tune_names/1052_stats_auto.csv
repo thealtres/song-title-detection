@@ -1,0 +1,72 @@
+Airs candidats: 19                
+Airs manuellement filtrés : 18                
+Airs réelement présents : 21                
+Précision: 0.95                
+Rappel: 0.86                
+Mesure-F1: 0.90
+Non attrapé: Ou : Vaudeville du Premier Prix. 
+Non attrapé: AIR : Tenez moi je suis un bonhomme. 
+Non attrapé: 
+
+***Airs du xml***:
+AIR de Voltaire chez Ninon. 
+AIR du Siège de Corinthe. 
+AIR : Chantons l'amour et le plaisir (du Calife de Bagdad).
+AIR : Chaque soir au boulevard du Temple.
+Ou : Vaudeville du Premier Prix. 
+AIR : Dis-moi, mon vieux. 
+AIR : Vaudeville de Farinelli. 
+AIR : Je regardais Madelinette. 
+AIR : Tenez moi je suis un bonhomme. 
+
+AIR : de Turenne. 
+AIR : Vaudeville de Partie et Revanche. 
+AIR d'une Nuit au château. 
+AIR : Je n'ai pas vu ces bosquets. 
+AIR : Mes amis, le soleil va paraître (de la Muette.)
+AIR : Adieu, je vous fuis, bois charmant. 
+AIR du Dieu et la Bayadère. 
+AIR : De sommeiller encore. 
+AIR : Vaudeville de l'Écu de francs. 
+AIR : Ah ! quelle nouvelle imprévue (Jeune et Vieille).
+AIR : Vaudeville des Frères de lait. AIR : Je regardais Madelinette.
+
+***Airs identifiés dans le txt***:
+Alp de Voltaire chez Ninon ...,
+AỊr du Siege de Corinthe.
+Air : Chantons l'amour et le plaisir (du Calife de Bagdad ).
+Air : Chaque soir au boulevard du Temple .
+Air : Dis -moi, mon vieux .
+Arr : Vaudeville de Farinelli.
+Air : Je regardais Madelinette .
+AIR  de Turenne.
+AIR : Vaudeville de Partie et Revanche .
+Ain d'une Nuit au château .
+Air : Je n'aipas vu ces bosquets .
+Air : Mes åmis, le soleil va paraitre (de la Muette . )
+AIR : Adieu , je vous fuis , bois charmant.
+Air du Dieu et la Bayadère .
+AIR : De sommeiller encore .
+Air : Vaudeville de l'Écu de francs.
+Air : Ah ! quelle nouvelle imprévue ( Jeune et Vieille ).
+Air : Vaudeville des Frères de lait .
+
+***Airs du txt validés dans le xml***:
+AIR de Voltaire chez Ninon. 
+AIR du Siège de Corinthe. 
+AIR : Chantons l'amour et le plaisir (du Calife de Bagdad).
+AIR : Chaque soir au boulevard du Temple.
+AIR : Dis-moi, mon vieux. 
+AIR : Vaudeville de Farinelli. 
+AIR : Je regardais Madelinette. 
+AIR : de Turenne. 
+AIR : Vaudeville de Partie et Revanche. 
+AIR d'une Nuit au château. 
+AIR : Je n'ai pas vu ces bosquets. 
+AIR : Mes amis, le soleil va paraître (de la Muette.)
+AIR : Adieu, je vous fuis, bois charmant. 
+AIR du Dieu et la Bayadère. 
+AIR : De sommeiller encore. 
+AIR : Vaudeville de l'Écu de francs. 
+AIR : Ah ! quelle nouvelle imprévue (Jeune et Vieille).
+AIR : Vaudeville des Frères de lait. 

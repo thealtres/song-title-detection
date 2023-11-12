@@ -1,0 +1,65 @@
+Airs candidats: 20                
+Airs manuellement filtrés : 17                
+Airs réelement présents : 18                
+Précision: 0.85                
+Rappel: 0.94                
+Mesure-F1: 0.89
+Non attrapé: AIR : Ah ! qu'il est doux de vendanger. 
+
+***Airs du xml***:
+AIR du Château de mon Oncle. 
+AIR : Vaudeville de Partie et Revanche. 
+AIR : Restez, restez, troupe jolie. 
+AIR : Vaudeville du Secret de madame. 
+AIR : À la façon de Barbari. 
+AIR : Je regardais Madelinette. 
+AIR : Vive une femme de tête. 
+AIR : Ah ! qu'il est doux de vendanger. 
+AIR : Honneur aux enfans de la France ! 
+AIR : Voulant par ses œuvres complètes. 
+AIR : Vaudeville de haine aux femmes. 
+AIR : Je reconnais ce militaire. 
+AIR : des Comédiens. 
+AIR : Vaudeville des Mauvaises Têtes. 
+AIR : Rassurez-vous, je me mets à ma place. 
+AIR : En amour comme en amitié. 
+AIR : La pastourelle
+AIR : La sentinelle. 
+
+***Airs identifiés dans le txt***:
+AIR du Château de mon Oncle.
+AIR : Vaudeville de Partie et Revanche.
+AIR : Restez, restez, troupe jolie.
+AIR : Vaudeville du Secret de madame.
+AIR : A la façon de Barbari.
+AIR : Je regardais Madelinette."ſ
+AIR : Vive une femme de téte.
+AIR : Honneur aux enfans de la France !
+AIR : Voulant par ses œuvres complètes.
+AIR : Vaudeville de haine aux femmes.
+AIR : Je reconnais ce militaire.
+AIR : des Comediens.
+AIR: Vaudeville des Mauvaises Tétes.
+AIR : Rassurez-vous, je me mets à ma place.
+AIR : En amour comme en amitie.
+AIR : La pastourelle
+AIR : La sentinelle.
+
+***Airs du txt validés dans le xml***:
+AIR du Château de mon Oncle. 
+AIR : Vaudeville de Partie et Revanche. 
+AIR : Restez, restez, troupe jolie. 
+AIR : Vaudeville du Secret de madame. 
+AIR : À la façon de Barbari. 
+AIR : Je regardais Madelinette. 
+AIR : Vive une femme de tête. 
+AIR : Honneur aux enfans de la France ! 
+AIR : Voulant par ses œuvres complètes. 
+AIR : Vaudeville de haine aux femmes. 
+AIR : Je reconnais ce militaire. 
+AIR : des Comédiens. 
+AIR : Vaudeville des Mauvaises Têtes. 
+AIR : Rassurez-vous, je me mets à ma place. 
+AIR : En amour comme en amitié. 
+AIR : La pastourelle
+AIR : La sentinelle. 

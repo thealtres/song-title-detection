@@ -1,0 +1,67 @@
+Airs candidats: 20                
+Airs manuellement filtrés : 17                
+Airs réelement présents : 18                
+Précision: 0.85                
+Rappel: 0.94                
+Mesure-F1: 0.89
+Non attrapé: Air d'un bouquet de Romarin. 
+
+***Airs du xml***:
+Air de l'Introduction de la Fiancée. 
+Air de Bonaparte à Brienne. 
+AIR : J'en guette un petit de mon âge. 
+Air du Pot de fleurs. 
+AIR : Restez, restez, troupe jolie. 
+Air : Faisons la paix. 
+Air du Serment de Guillaume Tell. 
+AIR du Verre. 
+Air du Vaudeville des Couturières. 
+Air : Que d'établissemens nouveaux. 
+
+                                    AIR : Un homme pour faire un tableau. 
+AIR : Ah ! de quel souvenir affreux (des Visitandines).
+AIR : L'amour un jour, etc. (de la Demoiselle à marier.)
+AIR de la Marche de Marie. 
+Air : Cessez de vous en défendre. 
+Air de Téniers. 
+Air du finale du vieux Mari.
+Air d'un bouquet de Romarin. 
+
+***Airs identifiés dans le txt***:
+Air de l'Introduction de la Fiancée .
+Air de Bonaparte à Brienne.
+AIR : J'en guette un petit de mon âge.
+Air du Pot de fleurs .
+AIR : Restez , restez , troupe jolie.
+Air : Faisons la paix.
+Air du Serment de Guillaume Tell.
+AiR du Verre .
+Air du Vaudeville des Couturières.
+Air : Que d'établissemens nouveaux .
+AIR : Un homme pour faire un tableau .
+AIR : Ah ! de quel souvenir affreux ( des Visitandines ).
+AIR : L'amour un jour, etc. (de la Demoiselle à marier.)
+AIR de la Marche de Marie ,
+Air : Cessez de vous en défendre .
+Air de Téniers,
+Air du finale du vieux Mari.
+
+***Airs du txt validés dans le xml***:
+Air de l'Introduction de la Fiancée. 
+Air de Bonaparte à Brienne. 
+AIR : J'en guette un petit de mon âge. 
+Air du Pot de fleurs. 
+AIR : Restez, restez, troupe jolie. 
+Air : Faisons la paix. 
+Air du Serment de Guillaume Tell. 
+AIR du Verre. 
+Air du Vaudeville des Couturières. 
+Air : Que d'établissemens nouveaux. 
+
+                                    AIR : Un homme pour faire un tableau. 
+AIR : Ah ! de quel souvenir affreux (des Visitandines).
+AIR : L'amour un jour, etc. (de la Demoiselle à marier.)
+AIR de la Marche de Marie. 
+Air : Cessez de vous en défendre. 
+Air de Téniers. 
+Air du finale du vieux Mari.

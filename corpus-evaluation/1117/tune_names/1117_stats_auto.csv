@@ -1,0 +1,60 @@
+Airs candidats: 18                
+Airs manuellement filtrés : 16                
+Airs réelement présents : 16                
+Précision: 0.89                
+Rappel: 1.00                
+Mesure-F1: 0.94
+
+***Airs du xml***:
+Air Je voulais bien (de Fra Diavolo.)
+Air d'une Heure de folie. 
+AIR : Ah ! que les enfans sont heureux ! 
+Air : Nous n'avons qu'un temps à vivre. 
+Air du Carnaval de Béranger. 
+Air : Vaudeville du Passe-Partout. 
+AIR : C'est l'Amour. 
+Air de Wallace. 
+Air : Vaudeville de la petite Gouvernante. 
+Air de la Galoppe. 
+Air de la Caverne. 
+Air de Newgate (d'Alex. Piccini).
+Air : Femmes voulez-vous éprouver. 
+Air : Vaudeville (de l'Anonyme).
+Air de Préville et Taconnet. 
+Air : Vaudeville de Bancelin (walse de Mozart).
+
+***Airs identifiés dans le txt***:
+Air Je voulais bien ( de Fra Diavolo .)
+Air d'une Heure de folie .
+AIR : Ah ! que les enfans sont heureux !
+Air : Nous n'avons qu’un temps à vivre .
+Air du Carnaval de Béranger.
+Air : Vaudeville du Passe - Partout.
+AIR : C'est l'Amour.
+Air de Wallace .
+Air : Vaudeville de la petite Gouvernante .
+Air de la Galoppe.
+Air de la Caverne.
+Air de Newgate ( d'Alex . Piccini ).
+Air : Femmes voulez - vous éprouver .
+Air : Vaudeville (de l'Anonyme).
+Air de Preville et Taconnet.
+Air : Vaudeville de Bancelin ( walse de Mozart ) . ( 1 )
+
+***Airs du txt validés dans le xml***:
+Air Je voulais bien (de Fra Diavolo.)
+Air d'une Heure de folie. 
+AIR : Ah ! que les enfans sont heureux ! 
+Air : Nous n'avons qu'un temps à vivre. 
+Air du Carnaval de Béranger. 
+Air : Vaudeville du Passe-Partout. 
+AIR : C'est l'Amour. 
+Air de Wallace. 
+Air : Vaudeville de la petite Gouvernante. 
+Air de la Galoppe. 
+Air de la Caverne. 
+Air de Newgate (d'Alex. Piccini).
+Air : Femmes voulez-vous éprouver. 
+Air : Vaudeville (de l'Anonyme).
+Air de Préville et Taconnet. 
+Air : Vaudeville de Bancelin (walse de Mozart).
