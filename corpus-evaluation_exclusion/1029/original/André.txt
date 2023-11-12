@@ -1,0 +1,6641 @@
+A propos de ce livre
+
+Ceci est une copie numérique d’un ouvrage conservé depuis des générations dans les rayonnages d’une bibliothèque avant d’être numérisé avec
+précaution par Google dans le cadre d’un projet visant à permettre aux internautes de découvrir l’ensemble du patrimoine littéraire mondial en
+ligne.
+Ce livre étant relativement ancien, il n’est plus protégé par la loi sur les droits d’auteur et appartient à présent au domaine public. L’expression
+“appartenir au domaine public” signiﬁe que le livre en question n’a jamais été soumis aux droits d’auteur ou que ses droits légaux sont arrivés à
+expiration. Les conditions requises pour qu’un livre tombe dans le domaine public peuvent varier d’un pays à l’autre. Les livres libres de droit sont
+autant de liens avec le passé. Ils sont les témoins de la richesse de notre histoire, de notre patrimoine culturel et de la connaissance humaine et sont
+trop souvent difﬁcilement accessibles au public.
+Les notes de bas de page et autres annotations en marge du texte présentes dans le volume original sont reprises dans ce ﬁchier, comme un souvenir
+du long chemin parcouru par l’ouvrage depuis la maison d’édition en passant par la bibliothèque pour ﬁnalement se retrouver entre vos mains.
+
+Consignes d’utilisation
+
+Google est ﬁer de travailler en partenariat avec des bibliothèques à la numérisation des ouvrages appartenant au domaine public et de les rendre
+ainsi accessibles à tous. Ces livres sont en effet la propriété de tous et de toutes et nous sommes tout simplement les gardiens de ce patrimoine.
+Il s’agit toutefois d’un projet coûteux. Par conséquent et en vue de poursuivre la diffusion de ces ressources inépuisables, nous avons pris les
+dispositions nécessaires aﬁn de prévenir les éventuels abus auxquels pourraient se livrer des sites marchands tiers, notamment en instaurant des
+contraintes techniques relatives aux requêtes automatisées.
+Nous vous demandons également de:
+
++ Ne pas utiliser les ﬁchiers à des ﬁns commerciales Nous avons conçu le programme Google Recherche de Livres à l’usage des particuliers.
+Ils ne sauraient en effet être employés dans un
+
+Nous vous demandons donc d’utiliser uniquement ces ﬁchiers à des ﬁns personnelles.
+quelconque but commercial.
+
++ Ne pas procéder à des requêtes automatisées N’envoyez aucune requête automatisée quelle qu’elle soit au système Google. Si vous effectuez
+des recherches concernant les logiciels de traduction, la reconnaissance optique de caractères ou tout autre domaine nécessitant de disposer
+d’importantes quantités de texte, n’hésitez pas à nous contacter. Nous encourageons pour la réalisation de ce type de travaux l’utilisation des
+ouvrages et documents appartenant au domaine public et serions heureux de vous être utile.
+
++ Ne pas supprimer l’attribution Le ﬁligrane Google contenu dans chaque ﬁchier est indispensable pour informer les internautes de notre projet
+et leur permettre d’accéder à davantage de documents par l’intermédiaire du Programme Google Recherche de Livres. Ne le supprimez en
+aucun cas.
+
++ Rester dans la légalité Quelle que soit l’utilisation que vous comptez faire des ﬁchiers, n’oubliez pas qu’il est de votre responsabilité de
+veiller à respecter la loi. Si un ouvrage appartient au domaine public américain, n’en déduisez pas pour autant qu’il en va de même dans
+les autres pays. La durée légale des droits d’auteur d’un livre varie d’un pays à l’autre. Nous ne sommes donc pas en mesure de répertorier
+les ouvrages dont l’utilisation est autorisée et ceux dont elle ne l’est pas. Ne croyez pas que le simple fait d’afﬁcher un livre sur Google
+Recherche de Livres signiﬁe que celui-ci peut être utilisé de quelque façon que ce soit dans le monde entier. La condamnation à laquelle vous
+vous exposeriez en cas de violation des droits d’auteur peut être sévère.
+
+À propos du service Google Recherche de Livres
+
+En favorisant la recherche et l’accès à un nombre croissant de livres disponibles dans de nombreuses langues, dont le fran¸oais, Google souhaite
+contribuer à promouvoir la diversité culturelle grâce à Google Recherche de Livres. En effet, le Programme Google Recherche de Livres permet
+aux internautes de découvrir le patrimoine littéraire mondial, tout en aidant les auteurs et les éditeurs à élargir leur public. Vous pouvez effectuer
+des recherches en ligne dans le texte intégral de cet ouvrage à l’adresse http://books.google.com
+
+2
+
+ANDRÉ ,
+
+COMÉDIE EN DEUX ACTES MÊLÉE DE COUPLETS ,
+
+k
+
+Par MM . Bayard et 6. Lemoine.
+
+REPRÉSENTÉE POUR LA PREMIÈRE FOIS ,
+
+Sur le Théâtre National du Vaudeville
+
+LE 27 NOVEMBRE 1835 .
+
+Prix 2 Fr. 50
+
+PARIS ,
+
+BARBA , Libraire , au Palais
+
+MARCHANT , boulevart Saint:
+
+Royal.
+
+Martin .
+
+1835 .
+
+Personnages .
+
+Acteurs.
+
+Le marquis de MORAND .
+
+ANDRÉ , son fils .
+
+MARTEAU , vétérinaire .
+
+PIERRE , garçon de ferme.
+
+HENRIETTE , couturière.
+
+GENEVIÈVE , fleuriste .
+
+1
+
+Artisannes amies d'Henriette .
+
+Domestiques du marquis .
+
+MM. LEPEINTRE ainé .
+
+EMILE TAIGNY.
+
+LAFONT.
+
+BALLARD .
+
+Mlle BROHAN .
+
+Mlle L. MAYER.
+
+1
+
+La scène se passe , au premier acte , dans le jardin du château de
+
+Morand en Berry , et au deuxième, dans l'intérieur des appar
+
+temens.
+
+.
+
+Approuvé par le Ministre de l'Intérieur .
+
+Par autorisation du Ministre , et pour le chef de la
+
+division des Beaux- Arts ,
+
+Le Chef du bureau des Théâtres,
+
+J. DE WAILLY .
+
+Imprimerie de J.-R. MRVREL ,
+
+Passage du Caire , 54 .
+
+ANDRÉ
+
+Comédie en deux actes mêlée de couplets.
+
+Le théâtre représente l'entrée d'un jardin magnifique.
+
+Au fond , un parc
+
+très étendu . A gauche une charmille avec tables , chaises et banc sur le
+
+côté . A droite , un pavillon qui commence le château de Morand ; près
+
+du pavillon , un banc de jardin .
+
+SCÈNE PREMIÈRE .
+
+LE MARQUIS , PIERRE .
+
+(Il fait petit jour .)
+
+Oh ! la , la ! .. Oh ! la , la ! ..
+
+PIERRE , dans la coulisse .
+
+LE MARQUIS , l'amenant par
+
+l'oreille .
+
+Ah ! paresseux ! fainéant ! pourquoi m'as - tu éveillé si tard ...
+
+parle donc ?
+
+PIERRE , à moitié habillé et tremblant.
+
+Dam ! not maître ... on ne s'est couché hier , qu'à minuit ...
+
+pour rentrer les foins.
+
+LE MARQUIS .
+
+Tais - toi ! quatre heures de sommeil ... c'est assez en été ...
+
+d'ailleurs , l'hiver, vous dormez trop ... ça se compense .
+
+PIERRE .
+
+J'ai le corps comme si on m'avait coupé avec une sarpe !
+
+rompu ... mort , quoi ! et Jacques , ilou ! ..
+
+LE MARQUIS . s ro
+
+Il faudra que je prenne un fouet pour vous dégourdir.
+
+PIERRE.
+
+Et puis ... M. André nous avait dit ...
+
+LE MARQUIS .
+
+Mon fils ! il n'a rien à faire ici ... rien à ordonner... il n'y a
+
+qu’un maître , c'est moi...
+
+PIERRE , reculant .
+
+Oui , monsieur le marquis , oui , monsieur le marquis.
+
+4
+
+LE MARQUIS .
+
+Et où est - il ce matin , ce beau monsieur ?
+
+PIERRE .
+
+Dam ! not maître ... je ne sais pas ...
+
+LE MARQUIS .
+
+N'est - ce pas à cette heure- ci , qu'hier tu l'as vu sortir ?
+
+Oui , oui ... not maître.
+
+PIERRE .
+
+LE MARQUIS .
+
+Et les jours précédens ?
+
+Oui , oui ... not maître .
+
+PIERRE .
+
+LE MARQUIS .
+
+Et tous les jours , depuis un mois ... que peut - il faire ?
+
+Air : Je loge au quatrième étage .
+
+Où peut- il aller ?.. à la chasse ?
+
+Rapporte - t - il dans son carnier
+
+Quelque perdreau , quelque bécasse ?
+
+Enfin , as - tu vu du gibier ?
+
+PIERRE
+
+Mais non ...
+
+( Se reprenant.) Si fait ... hier
+
+( soir , not maître ,
+
+Il a rapporté , c'est certain ,
+
+L'ail ' d'un poulet roti ... qu' peut- être ,
+
+Il avait emporté le matin .
+
+Imbécille ! va - t - en ... non , reste ...
+
+LE MARQUIS .
+
+SCENE II .
+
+Les Mêmes , ANDRÉ .
+
+André sort du pavillon , en costume de chasseur et va s'esquiver par le fond ,
+
+lorsqu'il aperçoit son père.
+
+ANDRÉ .
+
+LE MARQUIS , se retournant.
+
+-ANDRÉ ,
+
+s'arrêtant et à part.
+
+Ah !
+
+André !
+
+jl m'a vu .
+
+Avec votre permission , j'ai à vous parler, Monsieur.
+
+LE MARQUIS .
+
+5
+
+ANDRÉ .
+
+Mon père ...
+
+Il reste immobile et les yeux baissés .
+
+LE MARQUIS ,
+
+à Pierre qui s'éloigne.
+
+Pierre ,
+
+Not maître , monsieur le marquis .
+
+PIERRE , accourant .
+
+EL MARQUIS , regardant l'horison .
+
+Le temps est à l'orage ... nous aurons de l'eau , que tout le
+
+foin soit rentré aujourd'hui , il le faut ! je le veux ... si tout
+
+est serré avant la pluie ... double ration de cidre ...
+
+Merci , not ' maîtr '.
+
+PIERRE , joyeux .
+
+LE MARQUIS .
+
+Si non ... je vous chasse .
+
+PIERRE , tremblant.
+
+Merci , not maîtr ' .
+
+Il sort vite .
+
+SCENE III .
+
+LE MARQUIS , ANDRÈ.
+
+LE MARQUIS , se frottant les mains .
+
+Mes foins n'ont pas souffert ! beaux ! magnifiques ... ceux
+
+des autres sont mouillés, ça met les miens à soixante francs le
+
+quintal . ( Il
+
+tire un journal de sa poche et l'outre . ) J'irai au
+
+marché .
+
+ANDRÉ , le regardant furtivement , i part .
+
+Il n'a pas l'air de trop mauvaise humeur , ce matin !
+
+que me
+
+veut - il ?
+
+Il devient tremblant et baisse les yeux à la voix
+
+de son père.
+
+LE MARQUIS , d'un ton dur et sec pendant toute la scène .
+
+A pous deux à présent , monsieur le savant ... Eh bien ,
+
+quand vous resterez là, comme un saint de plâtre ... à une
+
+lieue de moi ... approchez donc ! approchez donc !
+
+Voici , mon père ...
+
+ANDRÉ .
+
+LE MARQUIS ..
+
+Hein ? qu'est - ce que c'est ? depuis quand se présente - t- on de
+
+vant moi la tête couverte . ( André ôte vivement son chapeau .)
+
+Où alliez - vous ? si matin .
+
+6
+
+ANDRÉ .
+
+A la chasse , mon père.
+
+LE MARQUIS , fronçant le sourcil .
+
+Et hier , où êtes - vous allé ?
+
+ANDRÉ.
+
+A la chasse .
+
+LE MARQUIS , avec ironie.
+
+Et depuis un mois .. , tous les matins , hein ? toujours à la
+
+chasse !
+
+Oui , mon père .
+
+ANDRÉ .
+
+LE MARQUIS .
+
+Diable ! voilà une passion pour la chasse qui vous est venue
+
+bien subitement .. , et avec quel chien , chassez-vous ?
+
+ANDRÉ , hésitant d'abord .
+
+Mais ... avec le chien ... de Joseph Marteau , qui vient avec
+
+moi .
+
+Ah ! et où chassez - vous ?
+
+LE MARQUIS , prenant le fusil.
+
+Aux prés Girault ...
+
+ANDRÉ , balbutiant.
+
+LE MARQUIS , examinant le fusil.
+
+Avec le fusil de Joseph Marteau sans doute ? hein ? monsieur
+
+le drôle ... ( André est interdit et garde le silence .) Vous n'allez
+
+ni avec Joseph ... ni à la chasse. ( Mouvement d'André. ) Vous
+
+mentez vous dis - je ! ce fusil n'a pas été déchargé depuis long
+
+temps ... il y aurait du danger à s'en servir dans l'état où il
+
+est . (Il passe devant André et pose le fusil près la porte du pa
+
+villon ; mettant la main dans le carnier et en retirant un volume* .)
+
+Et vos provisions! un beau volumé ... doré , ma foi.
+
+ANDRÉ , d'une voix faible .
+
+Il ne me quitte jamais ...
+
+LE MARQUIS .
+
+Ça doit être du curieux . ( Lisant le titre .) Byron ... qu'est
+
+ce que c'est que ça ? quelque mauvais roman .
+
+Il jette le livre avec dédain .
+
+ANDRÉ , indignė,
+
+le ramassant.
+
+C'est le plus grand poète ! ..
+
+LE MARQUIS ,
+
+l'interrompant.
+
+Taisez - vous ? .. qui est - ce qui vous interroge ? .. un poète ...
+
+* André , le Marquis,
+
+7
+
+à quoi cela est - il bon ? qu'est -ce que ça vous apprendra ; moi
+
+aussi j'aime la lecture ... je lis ... et beaucoup ... mais de bons
+
+livres ... des livres solides et qui rapportent quelque chose...
+
+la Maison rustique, l'Art du rétérinaire, le Journal des Haras, uc
+
+lui des connaissances Utiles , quelquefois ... à moins qu'il ne fasse
+
+de l'esprit , ce qui est rare , heureusement... mais vous , mon
+
+sieur , vous aimez mieux bailler aux corneilles ou lire quel
+
+que méchant bouquin , qui vous trouble la cervelle , et qui
+
+vous fait crier , comme cette nuit , par exemple : existe -tu ? ..
+
+n'es - tu qu'un rêve ! suis - je venu trop tôt ! suis - je venu trop
+
+tard !
+
+ANDRÉ , avec effroi , à part .
+
+Grand Dieu ! il m'a écouté ,
+
+LE MARQUIS .
+
+Et vingt autres balivernes que je n'ai pu entendre ... et qui
+
+font que je suis toujours sur le point d'envoyer chercher le mé
+
+decin
+
+pour ce beau monsieur- là qui boit , mange , consomme
+
+du matin au soir ... et ne rapporte rien à la maison ...
+
+ANDRÉ .
+
+Et c'est aussi ce qui fait mon malheur... mon père . Je vou
+
+drais, fût - ce mêmeau prix de mon sang ... pouvoir vous payer
+
+de vos soins , de vos bontés pour moi ... je voudrais m'em
+
+ployer ... 1
+
+LE MARQUIS .
+
+Et à quoi , s'il vous plaît ... savez -vous manier une pioche ,
+
+une bêche ou un rateau ? .. tracer un sillon , conduire une char
+
+rue ? avez - vous la force de porter un arrosoir... savez -vous
+
+seulement faire pousser un navet ? un navet !
+
+ANDRÉ .
+
+Je n'ai pas beaucoup de vocation pour ce genre d'ouvrage ...
+
+mais j'ai quelque goût pour la poésie , et si vous vouliez, je
+
+pourrais...
+
+LE MARQUIS .
+
+Oui ... aller mourir à l'hôpital ...
+
+ANDRÉ , souriant.
+
+Les poètes n'y vont plus , mon père ...
+
+Qu'est - ce que c'est .
+
+LE MARQUIS ,
+
+ANDRÉ .
+
+Mais si vous l'aimez mieux...
+
+je ferai mon droit ... je sem
+
+rai avocat .
+
+LE MARQUIS .
+
+Avocat... pour augmenter le nombre des bavards ... poète ,
+
+avocat ! rêves creux que tout cela .. , mais aider son père ... con .
+
+8
+
+duire la ferme ... faire pousser le blé .. , fumer les terres ... fi
+
+donc , c'est bon pour les petites gens... pour les paysans ...
+
+je
+
+suis noble , moi , monsieur ... mais je ne suis pas fier ,
+
+Air : Vers le temple de l'hymen .
+
+Quoique marquis de Morand
+
+On m'a vu quittant ma veste ,
+
+Au travail ardent et leste
+
+Comme un simple paysan ;
+
+En adroit propriétaire ,
+
+Pour me rendre populaire ,
+
+Avec eux choquant mon verre ,
+
+Mainte fois j'ai dérogé ;
+
+Ou rapprochant la distance ,
+
+Je les rossais d'importance ...
+
+Je n'ai pas de préjugé !
+
+Mais vous , pâle et chétif... condamné en naissant à végéter
+
+comme une plante parasite ... vous êtes la seule ronce que
+
+l'on puisse trouver dans tout le beau domaine de Morand .
+
+ANDRÉ , versant des larmes .
+
+Ah ! mon père ! mon père !
+
+LE MARQUIS .
+
+Hum ! propre à rien ... rentrez dans votre chambre. ( Il le
+
+fait passer .) Vous garderez les arrêts toute la journée , pour m'a
+
+voir menti... les livres de fermage ne sont pas au courant ...
+
+ça vous occupera ... vous prendrez garde de vous tromper
+
+dans l'addition ... on fait la preuve en commençant par la gau
+
+che ... demain matin , vous viendrez avec moi , voir tondre les
+
+moutons ... allez ... allez ... gringalet ! ..
+
+ANDRÉ , furieux .
+
+J'aimerais mieux qu'il me rouât de coups que de m'appeler
+
+ainsi .
+
+LE MARQUIS ,
+
+se retournant .
+
+Hein ? .. je crois que l'on raisonne .
+
+André prend son fusil et rentre dans le pavile
+
+lon .
+
+SCENE IV .
+
+LE MARQUIS , seul .
+
+Voilà l'héritier des Morand ! un pauvre inutile ! marquis de
+
+la tête aux pieds , quoi! je croyais que les matins , il y avait
+
+quelqu’amourette en tête ... incapable ! .. à son âge , moi ... j'é
+
+tais de braise ... comme Marteau .., ce brave vétérinaire qui
+
+9
+
+me mène un peu ... c'est juste , j'en ai besoin ... c'est là un
+
+luron ! grand mangeur ... grand buveur ... grand chasseur . ( On
+
+entend un coup de fusil très rapproché.) Qu'est-ce que c'est que ça ?
+
+quel est l'insolent qui se permet de venir braconner jusques
+
+sous mes fenêtres ? il va me payer ...
+
+Il va pour sortir .
+
+SCÈNE v .
+
+LE MARQUIS , MARTEAU .
+
+MARTEAU , en dehors.
+
+Air du Lutin (de Mile Loisa Puget.)
+
+Je rode
+
+ler.
+
+Et dans la maraude !
+
+Brille ma valeur,
+
+C'est Marteau !
+
+LE MARQUIS , parlė.
+
+MARTEAU .
+
+Je rôde,
+
+(ter . )
+
+Ce qu'on a par fraude
+
+Est toujours meilleur !
+
+LE MARQUIS
+
+Tu rôdes , tu rôdes ! c'est fort bien ... mais ce n'esi pas une
+
+on .
+
+MARTEAU , l'apercevant et courant à lui pour l'embrasser ,
+
+Eh ! vive Dieu ! c'est mon cher marquis , je ne le voyais pas !
+
+et cette belle santé ? .. toujours florissante ... verdissante .
+
+LE MARQUIS .
+
+Bien , bien ! il m'étouffe ! à la bonne heure ... mais ...
+
+MARTEAU .
+
+Et vos boufs ! oh ! les scélérats ... sont - ils fiers ... gras ... bien
+
+portans !
+
+il y en a un qui pèse au moins quinze cents .
+
+LE MARQUIS .
+
+Ah ! tu l'as vu ! fameux , n'est - ce pas ... mais ...
+
+MARTEAU .
+
+C'est que vous avez de si belles luzernes .. , dites - moi donc
+
+votre secret !
+
+LE MARQUIS , mystérieusement.
+
+Eh , eh ! je l'ai trouvé dans le journal des Connaissances uti
+
+les , je te le dirai... parce que je t'aime , et puis , parce que tu
+
+10
+
+u'es pas propriétaire ... mais je ne veux pas que tu viennes tirer
+
+sur mon gibier ... j'en suis jaloux en diable ...
+
+MARTEAU .
+
+Le bon Dieu n'y aurait pas résisté ... au bout de mon fu
+
+sil ... le plus beau faisan .
+
+Il le tire de son carnier .
+
+LE MARQUIS .
+
+Un faisan ... oui , ma foi , un vrai faisan !
+
+il y en a donc
+
+dans mon parc ?
+
+MARTEAU .
+
+S'il y en a ! .. ils vous partent entre les jambes . ( A part. ) II
+
+faut le flatter le propriétaire.
+
+LE MARQUIS .
+
+Voyez- vous ! et mes voisins qui soutiennent que je n'ai pas
+
+de gibier ...
+
+MARTEAU .
+
+Des envieux ! envoyez - moi - les tous ...
+
+et je me charge de
+
+leur dire où l'on en trouve de pareils ... ( A part . ) pour trois
+
+francs cinquante.
+
+LE MARQUIS .
+
+Il n'y a pas jusqu'à ce nigaud d'André ... à propos ... vas - tu
+
+souvent chasser le matin , dans les prés Girault ? ..
+
+MARTEAU .
+
+Hein ! vous me prenez donc pour un conscrit ... dans les
+
+prés , le matin ... pour me donner un bain de pieds , apparem
+
+ment.
+
+LE MARQUIS .
+
+C'est juste ! ..
+
+j'étais sûr qu'André mentait en me disant
+
+qu'il y allait tous les matins avec toi..
+
+MARTEAU , se ravisant au nom d ' André.
+
+André ! ah ! oui ... c'est donc pour ça que nous ne pouvons
+
+jamais nous rencontrer ... je lui dis toujours rabats d'abord
+
+dans la plaine ... pour jeter le gibier dans les prés , parce qu'en
+
+suite on épluche avec son chien , vous savez on épluche... eh
+
+bien !
+
+il ne comprend pas ...
+
+il commence toujours par les
+
+prés ...
+
+Ils se regardent quelque temps en silence.
+
+LE MARQUIS .
+
+Alors , c'est donc vrai qu'il chasse avec toi ..
+
+MARTEAU .
+
+Parbleu ! tous les matins... je venais le chercher .
+
+11
+
+LE MARQUIS .
+
+Eh bien ! tu peux repartir , j'ai cru qu'il m'avait menti .. et je
+
+l'ai consigné .
+
+MARTEAU .
+
+Pas possible ! alors vous allez le relâcher.
+
+LE MARQUIS .
+
+Non pas ... ce qui est fait ... est fait ! j'ai pour principe de ne
+
+jamais revenir sur ce que j'ai dit ... règle générale , l'autorité
+
+n'a jamais tort .
+
+MARTEAU , entre ses dents .
+
+Quand elle a raison .
+
+LE MARQUIS .
+
+N'est -ce pas que j'ai raison ! c'est le moyen de se faire res
+
+pecter ... il lefaut, vois-tu , autuement , où en serions -nous avec
+
+tout le monde ... avec mon gringalet tout le premier ... encore
+
+si le ciel m'avait donné un fils avec qui je pusse courir les
+
+champs , fumer , boire ...
+
+faire mon cent de piquet... un fils
+
+comme toi , enfin .
+
+Tiens , vous n'êtes pas dégoûté .
+
+MARTEAU .
+
+Mais André !
+
+LE MARQUIS .
+
+MARTEAU .
+
+Eh ! mon Dieu ! quand il ne serait pas tout- à - fait aussi gros
+
+sier que moi et vous ...
+
+Hein !
+
+LE MARQUIS .
+
+MARTEAU , riant,
+
+Et tenez ...
+
+j'ai toujours été surpris qu'avec votre fortune et
+
+votre titre , vous fussiez resté paysan aussi encroûté , aussi bru
+
+tal ... quelquefois ...
+
+LE MARQUIS .
+
+Va toujours ... va ... je te passe tout... j'ai un faible pour
+
+toi . On a beau dire que je déroge ... moi , je t'aime , parce que
+
+je me retrouve en toi , quand j'avais vingt ans .
+
+MARTEAU , à part .
+
+Merci ! .. et puis parce que je soigne son bétail , gratis ,
+
+LE MARQUIS .
+
+Si je suis comme me voilà ... j'en rends grace ... à moi, d'a
+
+bord ... qui envoyais au diable , quand j'étais petit , les maîtres ,
+
+les livres et les sermons ... et aussi à mon père , un brave et
+
+digne gentilhomme qui laissait faire à la bonne nature , sans
+
+12
+
+penser à lui donner une entorse . L'étoffe était bonne ... j'avais
+
+le pied ferme et le poignet solide . Plus tard il n'y avait plus de
+
+marquis ... et moi , mêlé aux paysans , aux ouvriers, que je trai
+
+tais d'égal à égal , je faisais oublier que j'étais noble, ce qui ne
+
+m'empêchait pas de donner un coup de poing à celui qui me
+leur
+
+tutoyait et un coup de pied à ceux qui ne m'ôtaient pas
+
+chapeau...
+
+aussi , ` autour de moi , personne ne bronchait ,
+
+et tandis qu'ailleurs on faisait de la république ...
+
+Air :
+
+Moi , j'étais roi dans mes limites...
+
+Mes vassaux marchaient rondement.
+
+A chacun ,
+
+selon ses mérites ,
+
+Je distribuais largement
+
+Du cidre... ou d'une main sévère ...
+
+MARTEAU .
+
+J'entends ... le systèm ' n'est pas neuf..
+
+C'est l ' gouvernement d'un bon père ,
+
+Tempéré par un nerf de beuf .
+
+LE MARQUIS .
+
+C'est comme ça que j'ai sauvé ma fortune et mon titre , et
+
+quand je songe qu'il faudra laisser un si bel héritage à un avor
+
+ton qui le mangera avec des marquis , comme lui.... à un
+
+poète qui n'aura jamais d'héritier , lui ...
+
+MARTEAU .
+
+Eh bien ! ... qu'est - ce que vous dites donc ?
+
+LE MARQUIS .
+
+Eh ! non ... C'est une fille, que ce garçon , pas d'énergie ! ...
+
+rien ! ... rien ! ... Mais à son âge , moi ! ... à son âge ! Tiens ,
+
+ne parlons plus de ça ... d'y penser seulement , ça me révolte ...
+
+ça me fait bouillir le sang dans les veines ..... Adieu ...
+
+Vous partez ? ...
+
+MARTEAU .
+
+LE MARQUIS .
+
+Oui ... pour toute la journée .
+
+J'ai du blé à vendre au mar
+
+ehé .... Ah ! pendant que tu es ici , donne donc un coup - d'oeil à
+
+mes étables.
+
+MARTEAU ,
+
+Soyez donc tranquille ...
+
+est - ce que je m'en vais jamais
+
+sans faire ma ronde .
+
+LE MARQUIS .
+
+Oh ! tu ne viens plus aussi souvent ... je sais bien pourquoi...
+il y a de par le monde , quelqu'un qui te tient la bride ... Eh !
+
+eh ! gaillard ! .. mon garde mel'a dit . Avoue donc ! ..
+
+( Marteau
+
+15
+
+fait signe que non ) je veux que tu me montres ça , un jour ... Un
+
+pique - nique entre nous... quoiqu'à vrai dire je n'aime pas
+
+beaucoup ces artisanes , non pas que je sois fier, tu en es la
+
+preuve ... mais si
+
+je suis
+
+affable , je veux qu'on me tienne
+
+compte de mon affabilité ... et ces princesses -là , ça prend
+
+tout comme si ça leur était dû , ça vous traite un marquis ...
+
+comme un vétérinaire .
+
+( il rit ). Aussi , je ne peux pas les souf
+
+frir ... mais je ferai une exception en ta faveur ... ce jour - là ,
+
+je consignerai André comme aujourd'hui.
+
+MARTEAU .
+
+Oh ! pour aujourd'hui, grâce!
+
+1
+
+LE MARQUIS .
+
+Oh ! non ... ce qui est fait est fait ... L'autorité ne doit ja
+
+mais avoir tort !
+
+Il sort.
+
+SCENE VI .
+
+MARTEAU , ANDRÉ .
+
+MARTEAU , seul .
+
+Vieux despote ! ... l'autorité ne doit jamais avoir tort ! å
+
+moins qu'elle ne sorte ....
+
+parce que quand les chats sont
+
+partis ....
+
+ANDRÉ , paraissant en tremblant a la porte du pavillon .
+
+Mon Dieu ! ... cette voix ...
+
+MARTEAU , appelant.
+
+Eh ! André ! ... André ! ...
+
+ANDRÉ .
+
+Marteau ! ...
+
+MARTEAU , l'apercevant.
+
+Ah ! ... c'est toi ! ... viens donc ! ... viens donc ! ...
+
+ANDRÉ , se jetant à son cou .
+
+Mon ami... mon cher Marteau ! ... que je suis aise de te
+
+voir ...
+
+( avec effroi . ) en ce moment surtout !...
+
+MARTEAU .
+
+Rassure - toi ! ... pauvre André ! ... Comme il tremble .
+
+Il est parti ! ...
+
+ANDRÉ .
+
+MARTEAU .
+
+Pour toute la journée ... et me voilà , moi , joyeux boute
+
+en -train , qui apporte des consolations à l'affligé , et de l'espé
+
+rance aux malheureux.
+
+Que dis -tu !
+
+14
+
+ANDRÉ .
+
+MARTEAU .
+
+Tu ne sais pas.... mon fusil
+
+n'était qu'un prétexte ... ma
+
+soeur se marie ... on a fini
+
+le trousseau hier ... les ouvrières
+
+étaient lasses de tirer l'aiguille ... ma foi !
+
+Air : Restez , reslez ...
+
+Dans la patache que je mène ,
+
+J'ai mis c'matin tout l'bataclan ;
+
+Elles sont au moins un' dixaine ...
+
+Je suis serré.. , c'est amnsant ! ...
+
+A chaque cahot , embrassant
+
+Rose , Henriett , Flore , ou Thérèse ,
+
+S’lon qu' la patach ' me fait verser ...
+
+Et comme la route est très mauvaise ,
+
+C'est toujours à recommencer .
+
+Nous avons débarqué aux prés Girault , et nous avons comp
+
+té sur toi ...
+
+ANDRÉ .
+
+Oh ! ... c'est impossible !... mon père m'a consigné.
+
+MARTEAU .
+
+Eh ! au diable la consigne , puisqu'il est parti.
+
+ANDRÉ .
+
+Ah ! ... ça ne fait rien ... tu ne le connais pas .. Si je violais
+
+sa défense , je serais perdu ...
+
+Tu lui expliqueras ...
+
+MARTEAU .
+
+ANDRÉ .
+
+Ah ! tu ne sais pas , toi , ce que c'est que de fléchir , de trem
+
+bler, depuis son enfance ... sous l’æil d’un maître ! ... Le pli
+
+est pris à présent ... c'est plus fort que moi... j'aimerais mieux
+
+me battre avec dix hommes , que d'avoir une explication avec
+
+mon père ! ...
+
+MARTEAU .
+
+Ah !
+
+si j'avais eu un père comme ça ... comme je l'aurais
+
+envoyé prom ... non , à cause du respect .
+
+ANDRÉ .
+
+Il me semble que son regard ... ce regard qui m'écrase de
+
+puis vingt ans ... a brisé là toute énergie .
+
+MARTEAU ,
+
+Oui ... le grand ressort.
+
+1 5
+
+ANDRÉ .
+
+Sa voix seule me fait trembler ... et quand il est devant moi ,
+
+je ne suis pas un homme , mais un enfant I... un esclave ! ..
+
+je baisse les yeux ... et je pleure .
+
+MARTEAU , s'essuyant les yeux .
+
+Oh ! butor de marquis , va ! .. je me moque bien de sa voix ...
+
+de son regard ... moi ! ... je lui parle ferme... et il ne bron
+che pas.
+
+ANDRÉ .
+
+Et voilà ce que je ne puis concevoir ... Comment fais - tu
+
+pour avoir sur lui cet ascendant ?
+
+MARTEAU .
+
+Dam ! ... c'est selon .... les paysans l'ont gâté ! .. je lui rends
+
+quelques services ... ça compte .
+
+Air de Marianne .
+
+Et puis , vois - tu , j'ai mon système :
+
+Je sais le flatter, quand j'ai tort ;
+
+Mais quand c'est lui , c'n'est plus de même ,
+
+Je vous le mène ferme et fort.
+
+S'il dit cheval !
+
+J'réponds brutal !
+
+Qu'import à moi qu'il le prenn' bien ou mal !
+
+S'il lèv'le poing , j'l'arrêt' soudain ,
+
+Et doucement je lui brise la main ;
+
+Je chante alors , il m'donne au diable !
+
+Je ris , je fum ', ça l'étourdit ! ...
+
+Si bien qu'en me quittant , il dit :
+
+C'est un bomm' bien aimable ! ...
+
+Et je bois sec ... plus sec que lui ... encore une supériorité ...
+
+ça lui impose ... il ne peut plus se passer de moi , et s'il pouvait
+
+se choisir un héritier , c'est à moi qu'il donnerait sa fortune dont
+
+je n'ai que faire, et son titre , que j'envoie comme lui , à tous les
+diables .
+
+ANDRÉ.
+
+C'est très bien ... mais moi je ne puis pas .
+
+MARTEAU .
+
+Si fait ... tu peux être moins timide avec lui, comme avec
+
+tout le monde ... Je veux te former... faire de toi un homme
+
+aimable ... qui aime , qui boit , qui fume... Enfin la vie élégan
+
+te ... mais tu ne me secondes pas .
+
+Mais je t'assure ...
+
+ANDRÉ .
+
+MARTEAU .
+
+C'est comme hier , au bal de la Brasserie ... la plus jolie col
+
+16
+
+lection de grisettes ! .... des yeux bleus , noirs .... à choisir ...
+
+je te présente comme mon intime ... je te mets aux prises avec
+
+mademoiselle Henriette , la plus fine langue du pays, à deur
+
+lieues à la ronde .. , hé bien ! rien ... lu riais du bout des do
+
+et tu dansáis du bout des pieds .
+
+Mais ...
+
+ANDRÉ .
+
+MARTEAU .
+
+Ecoute donc .. , je dois te dire qu'on t'a trouvé fier ... on n'a
+
+pas dit sot , par égard pour moi.. tu as bien fait les choses ,
+
+c'est vrai ...
+
+tu as été honorable ... cinq francs de pralines , des
+
+oranges , pour les dames ... mais ce n'est pas tout... la beauté
+
+est infiniment plus sensible aux égards qu'aux rafraîchisse
+
+mens... les artisannes surtout... c'est bégueule !.. c'est fier en
+diable ! ..
+
+ANDRÉ .
+
+Dam ! .. alors ... qu'est - ce que tu veux que je fasse ? ..
+
+MARTEAU .
+
+Est - il moutard ... D'abord , avec des procédés et des maniè
+
+res , on vient à bout de crtte fierté - là , dans l'espace d'une ou
+
+deux contredanses ... Dam !
+
+il faut le temps ! .. Tiens , vois -tu ,
+
+voilà comme il faut s'y prendre dans une société distinguée...
+
+tu mets ton cigarre dans ta poche ... et après avoir jeté ton dé
+
+volu sur celle qui te correspond le mieux , tu t'avances d'un
+
+air libre et dégagé...
+
+( il fait le geste d'un danseur qui invite )
+
+Mademoiselle, voulez -vous me faire la faveur d'une première ...
+
+elle baisse les yeux ... tu t'empares vivement de sa main ... en
+
+place ! .. alors , si tu as de l'esprit ... et tu en as ... voilà le mo
+
+ment ... feu roulant ! .. conversation choisie ... manières aima
+
+bles ... bon genre ... surtout pas jurer ... lui serrer les doigts...
+
+la fasciner du regard ... Après la contredanse ... tu la mènes aux
+
+rafraîchissemens... un biscuit ... une limonade de douze ... ça
+
+fait quinze ... tu paies largement ... on te remercie ... tu redan
+
+ses de même , avec la même ... et ... et voilà ! ..
+
+ANDRÉ , riant.
+
+Oh ! .. tu as beau dire , je ne serai jamais à la hauteur ...
+
+MARTEAU .
+
+Bast ! .. bast ! .. je t'y mettrai .. pas plus tard qu'aujourd'hui ...
+
+ça me fait de la peine de te voir te consumer ... user ta vie à
+
+rien ... je veux que tu sois amoureux ,
+
+ANDRÉ .
+
+Amoureux ! .. ohl si ce n'est que cela ... je le suis ...
+
+MARTEAU .
+
+Toi ! ..
+
+17
+
+ANDRÉ .
+
+Amoureux comme un fou !
+
+MARTEAU.
+
+Bah ! bah ! bah ! .. à la bonne heure ... voilà que ça commen
+
+ce ... Et de qui ?
+
+ANDRÉ .
+
+Ah ! mon ami ! .. de la plus jolie ... de la plus céleste ...
+
+Connu ... son nom ?
+
+MARTEAU .
+
+ANDRÉ .
+
+Son nom ? .. ah ! daml.. je ne sais pas ...
+
+MARTEAU .
+
+Bien ! .. c'est déjà quelque chose ... Mais que fait-elle ?
+
+ANDRÉ .
+
+Dam ! .. je n'en sais rien ...
+
+MARTEAU .
+
+Très bien ! .. Mais enfin ... sa position sociale ? .. est - ce une
+
+bourgeoise ? .. une comtesse .. , une couturière ?
+
+ANDRÉ.
+
+Oh ! tu m'en demandes trop long ... tout ce que je sais ...
+
+c'est que je l'aime ...
+
+MARTEAU .
+
+Mais enfin ... tu l'as vue quelque part...
+
+Aux prés Girault .
+
+ANDRÉ .
+
+MARTEAU .
+
+Ah ! oui ... la chasse du matin , j'entends... pas si niais ... Et
+
+tu lui as parlé ?
+
+ANDRÉ .
+
+La première fois , je n'ai pas osé ...
+
+Bravo ! .. et la seconde ?
+
+MARTEAU .
+
+ANDRÉ .
+
+La seconde ? .. je l'ai vue qui s'avançait de mon côté ... alors,
+
+je me suis caché ...
+
+MARTEAU .
+
+Bravo ! .. de mieux en mieux .
+
+ANDRÉ , vivement.
+
+Mais je lui ai parlé les jours suivans .
+
+MARTEAU .
+
+Tu as fait cet effort - là ...
+
+1 8
+
+ANDRÉ .
+
+Pendant huit jours ... je la voyais toute la matinée .
+
+Et que faisiez - vous ? ..
+
+MARTEAU .
+
+ANDRÉ .
+
+Nous causions ... nous herborisions ... nous cherchions des
+
+simples .
+
+MARTEAU .
+
+Vous n'aviez pas
+
+besoin d'aller bien loin .
+
+ANDRÉ .
+
+Je ne pensais pas à lui demander son nom ... , ni elle , le mien .
+
+MARTEAU.
+
+Mais le dénouement ! .. le dénouement !
+
+ANDRÉ .
+
+Le dénouement ! .. C'est que depuis huit jours , elle n'a pas
+
+reparu ... Je la cherche partout...
+
+je cours avec toi les bals ,
+
+les réunions d'alentour , dans l'espoir de la retrouver ... et je ne
+
+la retrouve pas ...
+
+MARTEAU .
+
+Nous la retrouverons ... ça ne peut pas manquer , avec les ren
+
+seignemens précis que tu me donnes ... heureusement, pour
+
+une de perdue , nous allons en avoir douze ! .. Allons , allons ...
+
+viens avec moi ... je leur ai donné rendez - vous à la Croix -de
+
+Pierre ... et puis , si dans ma caravane ... tu allais retrouver ta
+
+sylphide , ton inconnue ...
+
+ANDRÉ .
+
+Il prend son fusil.
+
+Tu crois , mon ami ... oh ! en ce cas... je n'hésite plus ! je
+
+vais passer un habit , prendre mon chapeau ... mes gants.
+
+MARTEAU .
+
+C'est ça ! .. Eh ! mais , qu'est - ce que j'entends ... une voiture ...
+
+c'est ma carriole, j'en suis sûr ... Elles se seront ennuyées d'at
+
+tendre ...
+
+je vais leur faire prendre patience ... tu nous
+
+re
+
+joindras .
+
+Tout de suite .
+
+ANDRÉ .
+
+Il va pour sortir .
+
+MARTEAU , revenant.
+
+Ah ! ça , dis donc ... sois aimable ... fais ta cour ... ça m'est
+
+égal , tu peux choisir, il y en a de toutes les couleurs ... des bru
+
+nes, des blondeset même une rouge ... je ne t'empêche pas ...
+
+mais à l'égard d'Henriette ... défendu !.. respect à ton aîné...
+
+Henriette ! bah ! est - ce que ...
+
+ANDRÉ .
+
+19
+
+MARTEAU .
+
+Dépêche - toi , nous t'attendons ...
+
+11 sort en courant .
+
+SCÈNE VII .
+
+ANDRÉ , seul .
+
+Ce bon Joseph ! quel mal il se donne pour moi ! mais j'ai
+
+bien peur qu'il n'en soit aujourd'hui comme au bal de la
+
+Brasserie et que je ne passe encore pour un sot ... si je ne la
+
+retrouve pas ... elle que j'aime tant ... que j'appelle dans mes
+
+rêves ... elle que je revois partout ! ma première ... ma seule
+
+passion ... ah ! mon esprit et mon coeur s'en sont allés avec
+elle ...
+
+Il va pour entrer dans le pavillon , Marteau accourt .
+
+SCENE VIII .
+
+ANDRÉ , MARTEAU .
+
+MARTEAU , riant.
+
+Ah ! ah ! ah ! c'est charmant ! délicieux !
+
+ANDRÉ , s'arrêtant.
+
+Qu'est - ce donc ?
+
+MARTEAU .
+
+Versé ! mon cher , versé ! ..
+
+Ah ! ciel ! courons !
+
+ANDRÉ .
+
+MARTEAU .
+
+Sois tranquille ... il n'y a pas de mal ... pas plus de tués que
+
+de blessés ... c'est sur la pelouse ... une situation magnifique !
+
+· et il fallait entendre toutes ces petites voix ... ( Imitant plusieurs
+
+voix de femmes .) Ah ! mon Dieu ! oh ! mon schall ! mon bon
+
+net ! ma robe ! mesdemoiselles ! et puis , les bras , les jam
+
+bes ! .. enfin mon cher ... tableau !
+
+ANDRÉ .
+
+Mais , tu es foul courops vîte ...
+
+MARTEAU .
+
+Eh ! non ... les voilà ! elles viennent ... entends - tu ?
+
+O ciel ! ici ! ..
+
+ANDRÉ .
+
+MARTEAU .
+
+Et où diable , veux - tu que ce soit ? il faut qu’on raccommo
+
+de la voiture ... tu vas nous recevoir ... c'est le cidre du papa
+
+Morand qui sautera ...
+
+Mais mon père !
+
+ANDRÉ .
+
+MARTEAU .
+
+Eh ! ton père , il te défend de sortir , mais il ne te défend
+
+pas de recevoir tes amis ... laisse faire... je prends tout sur
+
+moi ... d'ailleurs , tiens ... renvoie - les , si tu peux ...
+
+SCENE IX .
+
+Les Mêmes , HENRIETTE , Les Artisannes.
+
+TOUTES , entrant en sautant et en riant comme des folles.
+
+Ah , ah , ah ! .. ah , ah , ah ! .,
+
+CHOEUR
+
+Galop de Gustave.
+
+Ah ! quel plaisir! ah ! c'est charmant ,
+
+De culbuter en arrivant !
+
+Quel plaisir , quel bonheur
+
+De verser sans malheur .
+
+MARTEAU' .
+
+Mesdames, permettez qu'ici je vous présente ,
+
+Le marquis, mon intime, et votre adorateur ;
+
+Il vient vous inviter d'une façon galante ,
+
+Mais prenez garde à vous , c'est un grand séducteur .
+
+André salue .
+
+Elles rient sous cape .
+
+REPRISE DU CHOEUR .
+
+Ah ! quel plaisir !
+
+etc.
+
+MARTEAU , montrant André.
+
+Oui , mesdemoiselles , M. André de Morand , gentilhomme ,
+
+comme vous savez ... gentil garçon , comme vous voyez, est trop
+
+galant pour vous laisser culbuter sur ses pelouses , sans vous
+
+prier de vous reposer dans son château ...
+
+HENRIETTE , à part.
+
+Dieu ! parle - t- il bien , cet être - là ! ..
+
+ANDRÉ , avec embarras.
+
+Assurément ... je serais bien flatté ...
+
+si ces demoiselles ...
+
+voulaient bien ...
+
+MARTEAU .
+
+Accepter un modeste déjeuner de campagne , que mon jeune
+
+ami va 'aire préparer sous cette charmille ...
+
+TOUTES .
+
+Monsieur... monsieur...
+
+21
+
+HENRIETTE .
+
+Certainement , M. André ... est trop honnête ... et il
+
+de l'indiscrétion
+
+à nous ... aussi , nous acceptons ..
+
+y aurait
+
+Nous acceptons !
+
+Bravo !
+
+TOUTES .
+
+MARTEAU .
+
+ANDRÉ .
+
+Oui , bravo ! ( Bas , le tirant par l'habit . ) Qu'est - ce que tu dis
+
+donc ? je n'ai rien à leur offrir ...
+
+MARTEAU , bas .
+
+Laisse - donc ..... sers d'abord des assiettes ... le reste viendra
+
+après ... Ah ! ça regarde - les bien toutes ... vois si ta belle des
+
+prés Girault ...
+
+André regarde timidement.
+
+HENRIETTE .
+
+Plaît -il ? qu'est -ce que vous dites de moi , M. Joseph ...
+
+MARTEAU .
+
+Moi ! par exemple ! il me demande si vous aimez le cidre ...
+
+HENRIETTE , d'un air précieux .
+
+Nous l'adorons ... quand il mousse ...
+
+ANDRÉ .
+
+Tant mieux ... alors ! ( Bas a Marteau . ) Non , elle n'y est pas !
+
+MARTEAU .
+
+Ah ! (Henriette s'approche vivement. ) N'est -ce pas , mesdemoi
+
+selles , c'est une heureuse idée qu'il a eue là de nous faire dé
+
+jeûner sous cette charmille ...
+
+HENRIETTE .
+
+Tout le monde sait que monsieur le marquis de Morand est
+
+très aimable quand il le veut .
+
+MARTEAU , bas à André .
+
+Entends - tu ? .. on tire sur toi à boulets rouges ...
+
+ANDRÉ , galamment.
+
+On est bien forcé , mademoiselle , de le vouloir toujours
+
+avec vous ...
+
+MARTEAU .
+
+Ah ! c'est très joli ce qu'il a dit là ... mais ça n'avance pas le
+
+déjeûner , allons , mesdemoiselles ... entrons dans le château ...
+
+aider André ...
+
+Miséricorde !
+
+ANDRÉ , à part.
+
+HENRIETTE .
+
+C'est cela , nous mettrons le couvert ici ... nous sommes ...
+
+2 ?
+
+combien ? une , deux !
+
+( S'arrêtunt.) Eh bien ! Geneviève ... ou
+
+est donc Geneviève ?
+
+Tiens , Geneviève ...
+
+TOUTES .
+
+ANDRÉ * .
+
+Geneviève ! qu'est - ce que c'est que ça ?
+
+HENRIETTE , d'un ton de précieuse .
+
+Ça ...
+
+MARTEAU .
+
+Ah ! fi donc ! qu'est - ce que tu se dit là ?
+
+HENRIETTE .
+
+C'est une jeune fille de mes amies , monsieur.
+
+MARTEAU .
+
+Marchande de fleurs artificielles... sans plaisanterie ...
+
+Air : Vos maris en Palestine .
+
+C'est une jeune fleuriste,
+
+Hiche d'attraits enchanteurs ,
+
+Et dont la vertu subsiste,
+
+En dépit des amateurs ,
+
+Qui vont marchander ses fleurs .
+
+La fleur qu'on cherche , c'est elle !
+
+Frais minois , charme divin !
+
+On paierait cent fois , mais en vain ,
+
+Toutes les autres pour celle
+
+Qu'elle garde en magasin .
+
+Dam ! elle est fière ! .. et tu feras bien d'oublier avec elle
+
+tes manchettes de marquis ...
+
+HENRIETTE , de mêine.
+
+M. Marteau n'en dites pas trop de mal ... car on pourrait
+
+croire que vous en pensez trop de bien ... Geneviève est une
+
+artisanne comme nous ; personne n'a le droit de rien dire sur
+
+elle , car elle est placée sous ma surveillance immédiate ...
+
+MARTEAU , faisant une grimace .
+
+Ah ! si nous entamons le chapitre vertu .
+
+Vous dites ?
+
+HENRIETTE .
+
+MARTEAU .
+
+Je dis que ça commence bien ! .. voilà que vous l'avez per
+
+due ... Allons, André , dépêche - toi... le couvert d'abord ... moi ,
+
+je remplis les fonctions de chef... de sommelier ... et ensuite , tu
+
+montreras à ces dames le jardin de ton père ...
+
+* André , Marteau Henriette.
+
+23
+
+ANDRÉ , épouvanté.
+
+Comment ! .. tu vas me laisser seul avec elles ? .. Que veux
+
+tu que je devienne : ..
+
+MARTEAU , bas.
+
+Ah ! ça ... est - ce qu'elles te font peur ... comme le marquis ...
+
+ANDRÉ , bas .
+
+Non , mon ami ... mais douze ! ..
+
+MARTEAU .
+
+Allons donc ... est - ce qu'il faut compter ? ... A vous , mesde
+
+moiselles ... je vous livre le marquis ... Il brûle de vous offrir
+
+son bras .
+
+Venez ! .. venez ! ..
+
+TOUTES .
+
+MARTEAU .
+
+Moi je vais chercher Geneviève .
+
+CHOEUR GÉNÉRAL .
+
+Quel gai voyage ! ah ! quel plaisir !
+
+Nous allons bien nous divertir .
+
+Quel plaisir ! quel plaisir,
+
+De sauter , de courir .
+
+Les artisannes entrainent André ... Henriette reste et retient Marleau , qui va
+
+pour sortir .
+
+SCENE X.
+
+MARTEAU , HENRIETTE .
+
+Monsieur Joseph ...
+
+HENRIETTE .
+
+MARTEAU .
+
+Mademoiselle Henriette .
+
+HENRIETTE , sévèrement.
+
+Vous vous occupez beaucoup de Geneviève ? ..
+
+MARTEAU .
+
+Est - ce que vous seriez jalouse ?
+
+HENRIETTE .
+
+Moi ! .. de la jalousie ! .. par exemple ! .. Est - ce que vous vou
+
+lez me donner un ridicule . Dieu merci ! je ne suis pas assez dé
+
+pourvue ! .. Il s'agit de Geneviève qui est sage , sans expérien
+
+ce ... toujours renfermée chez elle à faire des fleurs... ou de
+
+la philosophie , car c'est philosophe comme une chouette. Elle
+
+ne serait jamais venue avec nous , si je ne lui eusse répondu
+
+des conséquences ... Elle est placée sous ma surveillance ...
+
+Immédiate ... connu .
+
+24
+
+MARTEAU .
+
+HENRIETTE .
+
+Vous avez des intentions fallacieuses ... Depuis deux jours,
+
+vous me rebattez les oreilles de son éloge ... Geneviève par ici ...
+
+Geneviève par là ... Geneviève aux yeux noirs ... Geneviève aux
+
+petits pieds ...
+
+MARTEAU .
+
+Dam ! ..
+
+je vois ... ce que je vois ! .. Mais qu'est - ce que ça
+
+me fait ,
+
+à moi personnellement ...
+
+j'avais des idées ... c'est
+
+vrai ... je pensais à ce pauvre André , toujours seul , malheu
+
+reux ...
+
+et Geneviève si sage ...
+
+si gentille ... deux cours tout
+
+neufs ...
+
+HENRIETTE ,
+
+vivement .
+
+Vous voulez les marier ? ..
+
+MARTEAU .
+
+Les marier ? .. ah ! oui , oui ... c'est ça !.. ( à part ) Drôle de
+
+fille !
+
+HENRIETTE .
+
+Ah ! c'est qu'une artisanne qui a de la vertu , vaut un mar
+
+quis , voyez - vous ... J'y songerai ... Venez - vous é..
+
+Mais d'abord , Geneviève qui est perdue ! ..
+
+MARTEAU .
+
+SCENE XI .
+
+Les Mêmes , GENEVIÈVE ..
+
+GENEVIÈVE , entrant en tenant une fleur qu'elle examine.
+
+La jolie fleur !..
+
+Eh ! tenez ... la voilà .
+
+Geneviève ! , .
+
+MARTEAU .
+
+HENRIETTE .
+
+GENEVIÈVE .
+
+Ah ! c'est vous ! qu'êtes - vous donc devenus ? .. Moi , j'étais
+
+restée là -bas à regarder cette fleur que je ne connais pas
+
+encore ...
+
+MARTEAU .
+
+Oh ! les belles couleurs !
+
+HENRIETTE , se plaçant entr'eux .
+
+Plaît - il ? ..
+
+Ah ! ça ... où sommes -nous donc ici ? ..
+
+GENEVIÈVE .
+
+25
+
+HENRIETTE .
+
+Dans un château , ma petite , où l'on nous offre l'hospitalité
+
+de la manière la plus honorable et la plus aimable ; d'abord ,
+
+on nous donne à déjeuner... Il y a un jeune homme ... et il se
+
+peut... je ne dis pas non ... on a vu des princes épouser des cou
+
+turières ... mais pour ça , il faut se tenir, et surtout ne pas écou
+
+ter les vétérinaires ...
+
+MARTEAU .
+
+Ah ! ça ... qu'est - ce que vous dites ? ..
+
+HENRIETTE .
+
+C'est bien ! .. c'est bien !.. donnez -moi votre bras , et rejoi
+
+gnons les autres ... La voilà retrouvée votre fleuriste , êtes - vous
+
+content ? (A Genevieve, en sortant ) C'est ici qu'on déjeune, ma
+
+petite ...
+
+Elle entraîne Marteau .
+
+MARTEAU .
+
+Mais comme elle me mėne ...
+
+Ils sortent.
+
+SCÈNE XII .
+
+GENEVIÈVE , seule.
+
+Que veut- elle dire ... oh ! c'est une folle! .. Mais la jolie fleur !
+
+comment rendre tout cela ? .. S'il était ici , il me donnerait un
+
+conseil ... lui qui a tant de goût ! .. qui est si aimable ! .. Allons,
+
+voilà que j'y pense encore. ( Soupirant) J'y pense toujours ...
+
+André sort du pavillon , portant un saladier de fraises .
+
+SCENE XIII .
+
+ANDRÉ , GENEVIÈVE .
+
+ANDRÉ .
+
+Oui , oui , soyez tranquille ... Je porte les fraises.
+
+GENEVIÈVE.
+
+Quelqu'un ! ..
+
+ANDRÉ , l'apercevant.
+
+Voilà encore une demoiselle ! .. Y en a - t -il ! ..
+
+GENEVIÈVE ,
+
+se retournant .
+
+Ciel ! que vois - je ! ..
+
+ANDRÉ , s'arrêtant .
+
+Eh ! mais ! .. Dieul ..
+
+Il laisse tomber ses fraises.
+
+4
+
+C'est luil ..
+
+26
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+Elle laisse échapper sa fleur.
+
+Mademoiselle ! .. oh ! oh ! comme le coeur me bat ...
+
+GENEVIÈVE , bas .
+
+Je suis toute tremblante ... ( Haut ) Mais ... ramassez donc vos
+
+fraises , Monsieur .
+
+ANDRÉ .
+
+Ne faites pas attention ... mademoiselle ... mademoiselle ...
+
+GENEVIÈVE , baissant les yeux .
+
+Geneviève ...
+
+ANDRÉ.
+
+Geneviève ! .. oh ! le joli nom .. Geneviève , est - ce que c'est
+
+vous qui êtes cette jeune fleuriste , dont ces demoiselles par
+
+laient tout à l'heure ? .. Oui... oh ! que je suis content ... Si
+
+.
+
+vous saviez combien j'étais malheureux de ne plus vous retrou
+
+ver aux prés Girault ... et sans savoir votre nom ... votre de
+
+meure , encore ! ..
+
+GENEVIÈVE .
+
+Je le devais ... Ni moi non plus , je ne sais pas le vôtre ...
+
+monsieur .. , monsieur ...
+
+André .. ,
+
+ANDRÉ
+
+GENEVIÈVE
+
+Et si j'avais su vous rencontrer dans cette maison que je ne
+
+connais pas ...
+
+je n'y serais jamais entrée ... aussi , je m'en
+
+vais ; adieu ! ...
+
+ANDRÉ.
+
+Vous en aller ... et pourquoi donc ? .. Est - ce que je vous
+
+fais peur ... je le croirais ... car enfin ... c'est pour ne plus me
+
+voir ... c'est pour ne plus me rencontrer , que vous n'allez plus
+
+aux prés Girault ... Vous vouliez donc me fuir ! .. vous me hais
+
+sez donc ? ..
+
+Oh ! bien au contraire ! ..
+
+GENEVIÈVE.
+
+Vous m'aimezl ..
+
+ANDRÉ , vivement.
+
+GENEVIÈVE .
+
+3
+
+Je n'ai pas dit cela ... mais ce que je vous dois , je ne l'ai
+
+point oublié ... ces fleurs que vous m'expliquiez avec tant de
+
+bonté .
+
+27
+
+Air d'Adèle
+
+Ces conseils qu'avec complaisance ,
+
+Vous me prodiguiez tous les jours ,
+
+Méritaient ma reconnaissance
+
+Et je m'en souviendrai toujours .
+
+ANDRÉ .
+
+Vons vous plaisiez à les entendre,
+
+A présent on me fuit, hélas !
+
+Est -ce donc le moyen d'apprendre ? ..
+
+Geneviève .
+
+Vous voyez bien que je ne m'en vais pas !
+
+ANDRÉ .
+
+Ah ! que vous êtes bonne ! ... vous restez avec ces demoi
+
+selles ... si vous voulez , je n'aurai pas l'air de vous connaître ?
+
+GENEVIÈVE .
+
+Pourquoi donc ?... je n'en rougis pas ... bien loin de là ...
+
+( Baissant les yeux) . Vous avez l'air si honnête ...
+
+et votre
+
+amitié ...
+
+ANDRÉ .
+
+Oh ! elle est à vous ! ... mais , vous ne me refuserez pas la
+
+vôtre , n'est - ce pas ?
+
+GENEVIÈVE .
+
+Moi ! ... oh ! depuis que j'ai eu l'honneur de vous connaître ...
+
+j'ai toujours pensé à vous comme à un frère... à un ami ... à
+
+un protecteur... Je n'en aurais pas voulu d'autre que vous ...
+
+et , s'il faut vous l'avouer, je souffrais de ne plus vous voir .
+
+ANDRÉ .
+
+C'est comme moi ... j'en ai été malade ... et sans cette ren
+
+contre d'aujourd'hui, je serais mort .
+
+GENEVIÈVE.
+
+Ahl M. André , ne parlez donc pas comme ça ? ..
+
+ANDRÉ .
+
+Oh ! il n'y aurait pas grand mal , allez, mademoiselle ! .. je suis
+
+si malheureux ! ..
+
+ici surtout !.. toujours seul ... sans personne
+
+qui ait pitié de moi ... Une femme, vous êtes la première de
+
+puis mamère ... ma pauvre mère ... l'ange de mon enfance , elle
+
+m'aimait , elle ! .. nous étions malheureux tous les deux , mais
+
+nous nous consolions l'un l'autre ... Un jour sa voix si chère me
+
+manqua ... je ne la vis plus ... on ne m'en parla plus ... mais
+
+j'y pensais toujours. Quand mon père si dur, si impitoyable
+pour moi, me grondait , me chassait de sa présence ... Eh bien !
+
+dans ma chambre déserte , dans les bois solitaires , je pensais
+
+à ma mère ... je la revoyais dans ma pensée ... je la nommais
+
+en pleurant , et je rentrais plus triste encore ...
+
+Pauvre André !
+
+28
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+Un jour , pourtant ... un jour ... je vous vis aux prés Girault ,
+
+où elle me conduisait enfant, pour me faire des couronnes de
+
+bleuets ...
+
+je vous vis ... il me sembla que c'était elle ... votre
+
+voix si douce , me rappella la sienne ... c'était ma mère ... où
+
+plutôt , non , non ...
+
+ce n'était pas elle ... mais un ange qu'elle
+
+m'envoyait pour me consoler ... pour m'aimer .
+
+Que dites - vous ?
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+Oui , pour m'aimer , n'est - ce pas ? .. et près de vous , je
+
+sens que la vie est plus légère ... que le chagrin s'en va ... j'ai
+
+une amie ... une sour ... j'ai des pensées de bonheur , d'avenir
+
+' et d'amour ! .. Voulez - vous m'ôter tout cela ?
+
+GENEVIÈVE .
+
+Oh ! non ! .. car moi aussi , j'ai besoin d'un cour qui me com
+
+prenne ... et s'il faut vous le dire , je craignais d'être connue de
+
+vous , parce que je ne suis qu'une pauvre ouvrière... Une artisan
+
+ne ... et l'on n'a pas toujours pour nous une estime ...
+
+ANDRÉ .
+
+Que vous méritez , vous, mademoiselle .. , près de vous , je ne
+
+sais , je ne suis pas à mon aise comme avec les autres , et j'aime
+
+mieux cela , mademoiselle .
+
+Monsieur ! ..
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+( Air de la Pupille, de Labarre . )
+
+Quel trouble m'agite !
+
+Mon cœur bat plus vite ,
+
+Il tremble , il palpite
+
+D'amour et d'effroi.
+
+ENSEMBLE .
+
+Ce que je désire ,
+
+Malgré mon délire,
+
+Je n'ose le dire
+
+Et ne sais pourquoi.
+
+GENEVIÈVE .
+
+Il tremble, il soupire,
+
+Et ce qu'il désire
+
+Il n'ose le dire ;
+
+D'où vient son effroi ?
+
+29
+
+ANDRÉ .
+
+Pour resserrer le doux poud qni nous lie
+
+Ah ! laissez -moi sur mon cour amoureux
+
+Presser ici cette main si jolie ,
+
+Vous permettez ... ah ! que je suis heureux.
+
+Quel trouble m'agite,
+
+Ah ! mon caur palpite,
+
+Mais s'il bat plus vite
+
+Ce n'est pas d'effroi.
+
+Ah ! daignez m'entendre
+
+Et laissez -moi prendre
+
+Un baiser plus tendre
+
+Et si doux pour moi .
+
+Geneviève .
+
+Quel trouble m'agite
+
+Mon cœur bat plus vite ,
+
+Il tremble, il palpite,
+
+Je ne sais pourquoi.
+
+Comment me défendre
+
+De sa voix si tendre !
+
+On peut nous surprendre
+
+André, laissez -moi .
+
+( André embrasse la main de Geneviève ).
+
+SCENE XIV .
+
+Les Mêmes , HENRIETTE .
+
+HENRIETTE .
+
+Ah ! bah ! ah ! bah ! ..
+
+( Ils se séparent vivement ). Eh bien ! dites
+
+donc , que je ne vous dérange pas , continuez ... c'est donc vrai
+
+ce que m'a dit Marteau ? .. Vous l'aimez, M. André- ?
+
+Si je l'aime !
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+Comment ! .. M. Marteau vous a dit ' ..
+
+HENRIETTE .
+
+Tiens ,
+
+il ne faut pas rougir pour ça ... ce n'est pas le choix
+
+que je blâme ... certainement, le marquis de Morand ... c'est un
+
+parti huppé .
+
+GENEVIÈVE .
+
+Le marquis de Morand ! .. vous , . André ! .. Ah ! Monsieur,
+
+vous m'avez trompée .
+
+ANDRÉ .
+
+Taisez - vous donc ... voilà qu'elle pleure .
+
+50
+
+HENRIETTE .
+
+Bah ! .. c'est une sournoise .
+
+( Prenant de grands airs ) . Ce que
+
+je blâme , c'est votre conduite , jeune homme ... sur la foi d'une
+
+timidité , j'oserai dire insidjeuse , nous acceptons votre hospi
+
+talité ... nous croyons venir chez un enfart sans conséquence ,
+
+un mouton ... et profitant de notre inexpérience et de notre
+
+candeur , vous cherchez à nous séduire... vous vous adressez à
+
+une jeunesse qui est placée sous ma surveillance immédiate ...
+
+ANDRÉ .
+
+Mademoiselle , je vous assure ...
+
+HENRIETTE.
+
+Silence ! .. on ne m'arrête pas quand je parle ... et cela sans
+
+ma permission .
+
+Mais , Henriette ...
+
+GENEVIÈVE .
+
+HENRIETTE .
+
+Tu n'as pas la parole ... répondez , jeune homme, répondez ...
+
+quelles étaient vos intentions ?
+
+ANDRÉ .
+
+Mes intentions... je n'en avais aucune...
+
+HENRIETTE
+
+Aucune ! .. ah ! c'est trop fort !.. aucune ...
+
+c'est - à - dire ! ..
+
+ah ! vous êtes donc comme les autres ... un monstre , tranchons
+
+le mot , un Lovelace .
+
+Mais je vous assure ...
+
+ANDRÉ .
+
+HENRIETTE .
+
+Qnand on a des intentions , pures , jeune homme, on ne séduit
+
+pas , on épouse ...
+
+ANDRÉ .
+
+Epouser ... comment ? .. épouser Geneviève ... je ne demande
+
+pas mieux ... si elle consent ...
+
+HENRIETTE .
+
+Elle !.. l'enfant !... est - ce qu'une femme reſuse jamais un
+
+mari ! .. surtout quand c'est un marquis...
+
+GENEVIÈVE .
+
+Mais , mademoiselle ... je ne sais pourquoi vous me faites
+
+parler .
+
+ANDRÉ .
+
+Oh ! laissez - la diré ... elle a raison ... je dois vous épouser,
+
+c'est mon plus cher désir ! .. Oh ! la bonne idée ! sans elle je ne
+
+ne l'aurais jamais eue ... Oui , Geneviève , oui , vous serez ma
+
+bien aimée ... ma femme ... Ne pleurez donc pas ainsi ...
+
+32
+
+HENRIETTE .
+
+Va toujours , mon fils ... c'est de joie ...
+
+ANDRÉ .
+
+Vrai ! .. et moi alissi ... Oh ! que je suis heureux... Oui , dé
+
+sormais , ma liberté , mon bien , ma vie , tout est à vous , je n'ai
+
+merai que vous ... je ne vivrai que pour vous ...
+
+HENRIETTE .
+
+Bien , bien ! .. embrassez la !
+
+Moi ! ..
+
+Mais , mademoiselle .
+
+.
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+HENRIETTE .
+
+Mais , certainement ... on s'embrasse toujours ! .. ce sont les
+
+épingles . Les drôles d’amoureux qui ne savent pas seulement
+
+ça ... Eh bien ? ..
+
+ANDRÉ , se hasardant.
+
+Ah ! puisqu'on s'embrasse toujours ... je ne dis pas ... je ...
+
+Oh ! ma foi tant pis ! ..
+
+GENEVIÈVE.
+
+Il l'embrasse vivement.
+
+M. André ! .. elle va le dire à tout le monde ...
+
+HENRIETTE .
+
+Ça te fait peur ... attends ... attends !.. M. André ... vous êtes
+
+un brave et honnête jeune homme ... pas faquin du tout ... voilà
+
+comme j'aime les marquis ... Tenez , embrassez -moi ?
+
+Oui , mademoiselle ...
+
+ANDRÉ.
+
+I l'embrasse .
+
+SCENE XV .
+
+Les Mêmes , MARTEAU , ensuite PIERRE , et Toutes les
+
+Artisannes.
+
+MARTEAU , tient une assiette chargée de cerises , qu'il laisse
+
+tomber en voyunt André embrasser Henriette .
+
+Ah ! eh bien ! ne vous gênez pas ... Quel gaillard ! , .
+
+HENRIETTE .
+
+Qu'est - ce qu'il y a donc ? parce qu'il m'embrasse ! ..
+
+ANDRÉ .
+
+Oui , mon ami... je l'ai embrassée ... je suis si heureux , je
+
+crois que j'embrasserais les douze .
+
+32
+
+MARTEAU .
+
+Bien obligé ... encore fallait - il demander ma permission .
+
+HENRIETTE .
+
+J'accorde la mienne ... bon jeune homme ... j'en suis encore
+
+émue ... je crois même que j'en pleure .
+
+( Riant . ) Ah ! ah ! ah !
+
+ahl .. (Aux artisannes qui entrent. ) Ah ! venez donc , vous autres ,
+
+venez donc ...
+
+Les unes portent des assiettes, les autres du linge, des caraffes .
+
+Qu'est - ce qu'il y a ?
+
+TOUTES .
+
+HENRIETTE .
+
+Il
+
+y a ,
+
+table .
+
+il y a ... déjeunons d'abord ... je vous conterai ça à
+
+ANDRÉ ..
+
+C'est juste ! ( 4 Pierre qui est entré avec les grisettes . ) Eh bien ,
+
+Pierre ? le déjeuner .
+
+PIERRE .
+
+La voilà , M. André , la voilà !
+
+MARTEAU .
+
+A table , donc ... à table ! ..
+
+Air de Gustave.
+
+Sous la charmille,
+
+OEil noir qui brille,
+
+Vin qui pétille ,
+
+C'est le bonheur !
+
+Trône de mousse ,
+
+Cidre qui mousse ,
+
+Et femme douce ,
+
+A Henriette qui rit .
+
+Parole d'honneur !..
+
+Bas à André,
+
+AHons, André, près de ta belle ;
+
+Va , ne crains rien ,
+
+Je serai ton soutien .
+
+ANDRÉ , de même .
+
+Je n'ose pas m'asseoir près d'elle .
+
+MARTEAU .
+
+Va , ne crains rien ,
+
+Je serai ton soutien ,
+
+Et puis l'amour et le bon vin ,
+
+Oui , le bon vin
+
+Met en train .
+
+CA OEUR .
+
+Oui , le bon vin
+
+Met en train .
+
+33
+
+PIERRE , d part , pendant qu'ils se placent .
+
+Dieu ! ..
+
+si le bourgeois allait tomber au milieu de tout ça .
+
+Il va et vient .
+
+HENRIETTE .
+
+Prenez garde à ma capote ... Voilà un déjeuner superbe ...
+
+il
+
+n'y manque rien .
+
+MARTEAU .
+
+Non , rien ... qu’un peu d'eau ... et voilà le temps qui se gâte
+
+pour nous en donner .
+
+HENRIETTE .
+
+Ah ! bah ! .. c'est encore loin ... et nous avons le temps de
+
+causer de la grande nouvelle ...
+
+Quelle nouvelle ?
+
+MARTEAU .
+
+HENRIETTE .
+
+Oh ! c'est bien la plus étonnante , la plus étourdissante , la
+
+plus attendrissante ...
+
+et cette petite sournoise de Geneviève
+
+qui ne disait rien .
+
+GENEVIÈVE .
+
+Mademoiselle Henriette , ayez pitié de moi.
+
+MARTEAU .
+
+Le diable m'emporte ,
+
+si
+
+je comprends un mot à tout ce
+
+qu'elle dit .
+
+HENRIETTE .
+
+D'abord ,
+
+il n'y a pas de nécessité que vous compreniez ; ce
+
+mariage - là me regarde ...
+
+Un mariage !
+
+TOUTES .
+
+HENRIETTE .
+
+Oui , mes petits coeurs ... je marie Geneviève ... j'en fais une
+
+marquise .
+
+Une marquise!
+
+TOUS .
+
+ANDRÉ , à Marteau .
+
+Oui , mon ami ! .. j'épouse Geneviève ...
+
+Geneviève ! ..
+
+TOUTES .
+
+HENRIETTE .
+
+J'en fais une marquise ... et une marquise de Morand ! .. rien
+
+qne ça . C'est - à - dire ... marquise avec château , chevaux , ca
+
+lèche et tout ce qu'il s'en suit ... grands laquais , petits laquais ...
+
+la stalle dans le choeur, et le pain béni le dimanche... (A Ge
+
+neviève . ) Dites donc madame la marquise ... veux - tu couper le
+
+flan ...
+
+34
+
+MARTEAU .
+
+Elle est folle ! ..
+
+HENRIETTE , mangeant.
+
+Qu'est - ce que vous avez à dire , avec vos ricanemens ... est
+
+ce que Geneviève n'est pas un bon parti et une fille qui a de la
+
+vertu ?.. Ah ! ah !
+
+c'est que nous nous y connaissons ... et
+
+bonne... et douce ... A boire ! .. j'étouffe ...
+
+MARTEAU
+
+Oh ! je ne dis pas ... ce sera une bonne petite femme...
+
+HENRIETTE .
+
+Eh bien ! alors ... Oh ! je voudrais déjà être au soir pour ré
+
+pandre cette nouvelle dans toute la ville ... Je vois d'ici les mi
+
+nes allongées de nos belles dames qui vont crever de jalousie ,
+
+c'est
+
+sûr... Comment, Geneviève marquise ! Geneviève, l'ar
+
+tisanne ... Geneviève ,
+
+la fleuriste ! .. oui , mesdames , Gene
+
+viève , l'artisanne , est marquise ...
+
+la marquise Geneviève ! ..
+
+qui , sans vous faire tort , en vaut bien une autre !.. et c'est
+
+moi , son amie , Henriette , la couturière , qui suis chargée de
+
+faire le trousseau de la mariée ... et la robe de noce... et ce
+
+sera du cossu ... et je m'en flatte... je veux qu'elle éclipse les
+
+plus huppées ... parce que j'espère que quand elle sera dans
+
+son carosse , avec sa robe à queue et son chapeau à plumes ,
+
+elle reconnaîtra toujours son amie à pied ... en tablier et en
+
+bonnet ... N'est -ce pas , mon petit chou .... que tu me recon
+
+naîtras ? .. ( Tendant son assiette .) M. André , donnez-moi des
+
+fraises ? ..
+
+ANDRÉ , honteur.
+
+Je les ai laissées tomber en revoyant Geneviève ...
+
+HENRIETTE , tenılant son assietie .
+
+Eh bien ! alors , donnez - moi des cerises .
+
+MARTEAU .
+
+Eh ! parbleu , je les ai laissées tomber en te voyant em
+
+brasser .
+
+Ah , ah , ah !
+
+TOUTES , éclatant de rire.
+
+HENRIETTE .
+
+C'est délicieux ! voilà un dessert de fiançailles qui sera bientôt
+
+servi . Alors , rrredonnez -moi du flan .
+
+MARTEAU .
+
+Oh ! du flan ... bravo !! . c'est ma passion .., en guise de rafraî
+
+chissemens , j'en offre .
+
+35
+
+Air : Je m'appelle Lenoir. (Moi.
+
+Oui , moi , je préfère le flan !
+
+Aux trop légères tartelettes ,
+
+Que j'abandonne aux amourettes
+
+De ce clerc qui fait le galant
+
+( Avec dédain .) Avec vingt- deux sous de galettes !
+
+Oui , j'aime le flan ;.
+
+Pour lui j'avoûrai ma faiblesse ;
+
+C'est l'goût de ma maîtresse,
+
+Oui , j'aime le flan ,
+
+Car il nourrit le sentiment.
+
+CA OEUR .
+
+Nous aimons le flan ...
+
+J'estime et j'adore le flan ,
+
+Car il fascine la grisette ;
+
+La belle dame si coquette ,
+
+Qui le dédaigne ouvertement ,
+
+Sans façon y mord en cachette.
+
+C'est avec du flan
+
+Que j'ai pris le ceur de ma belle .
+
+Je lui serai fidèle !
+
+Le flan me plaira ,
+
+Tant qu'Henriette en mangera.
+
+HENRIETTE
+
+Un coup de cidre par là - dessus ... Et à quand la noce ?
+
+ANDRÉ .
+
+La noce ! .. mais dam , la noce ...
+
+MARTEAU .
+
+Dam , après le consentement de ton père , il ne manque
+
+que ça .
+
+ANDRÉ .
+
+Ah ! oui , mon père ...
+
+HENRIETTE , vivement .
+
+On l'aura ... Je voudrais bien voir qu'il le refusât .., D'ail
+
+leurs , quel âge avez -vous , jeune homme?
+
+ANDRÉ , vivement .
+
+Vingt- un ans et deux mois .
+
+HENRIETTE .
+
+Alors vous êtes majeur .
+
+Elle a raison au fait , je suis majeur ,
+
+ANDRÉ , joyeulx .
+
+36
+
+HENRIETTE .
+
+Et vous avez le bien de votre mère ?
+
+ANDRÉ , de même.
+
+C'est juste , et j'ai le bien de ma mère !
+
+HENRIETTE .
+
+Hé bien ! alors vous lui direz : monsieur mon père ceci est à
+
+vous , ceci est à moi ... prenez votre bien , je garde le mien , j'ai
+
+bien l'honneur de vous saluer, votre fils respectueux , André .
+
+MARTEAU .
+
+Tout cela est fort beau , mais le marquis ...
+
+HENRIETTE .
+
+Le marquis ... le marquis ..
+
+il faudra qu'il consente .
+
+ANDRÉ .
+
+Certainement ,
+
+il faudra bien qu'il consente .
+
+Laissez -moi donc tranquille.
+
+MARTEAU .
+
+Le code dit : article ...
+
+Article ? ..
+
+HENRIETTE .
+
+ANDRÉ , citant.
+
+HENRIETTE .
+
+C'est cela ... article ... je ne me rappelle plus ... Tous les mi
+
+neurs qui deviennent majeurs , ne dépendent plus de personne ,
+
+se moquent de Pierre et de Paul ! et nous nous moquons de
+
+Pierre et de Paul.
+
+Oui , nous nous moquons de ...
+
+ANDRÉ , avec feu .
+
+PIERRE , accourant tous effaré.
+
+M. le marquis ... M. le marquis .
+
+O ciel !
+
+ANDRÉ .
+
+HENRIETTE .
+
+Eh bien ! qu'est -ce que vous avez ?
+
+Gare la bombe !
+
+MARTEAU .
+
+PIERRE .
+
+Il est furieux d'avoir trouvé les plates -bandes piétinées et les
+
+espaliers ravagés .
+
+HENRIETTE.
+
+Tiens ! .. est - ce qu'il veut faire des reliques avec ses pêches ?..
+
+D'ailleurs, si nous les avons mangées , c'est avec la permission de
+son fils .
+
+Du tout .
+
+37
+
+ANDRÉ , vivement.
+
+GENEVIÈVE .
+
+Oh ! M. André , comme vous êtes pâle !
+
+PIERRE , qui a été regarder au fond .
+
+Voilà monsieur le marquis armé d'une gaule .
+
+ANDRÉ Tremblant à Marteau .
+
+Ah ! mon ami , je n'ai pas une goutte de sang dans les vei
+
+nes .
+
+HENRIETTE .
+
+Une gaule ... qu'est - ce que ça signifie ?
+
+Sauvons - nous.
+
+ANDRÉ .
+
+MARTEAU , voyant le marquis armé d'une gaule .
+
+Il n'est plus temps .
+
+SCENE XVI .
+
+Les Mêmes , LE MARQUIS .
+
+LE MARQUIS , s'avançant sur André .
+
+Où est le drôle qui s'est permis ? ..
+
+MARTEAU , retenant la gaule .
+
+Halte - là ! mon cher marquis.
+
+LE MARQUIS , s'arrêtant tout court .
+
+Ah ! c'est toi , Marteau ... mais laisse un peu ...
+
+GENEVIÈVE , à part .
+
+Oh ! qu'il a l'air méchant ...
+
+Grace ! mon père .
+
+ANDRÉ .
+
+HENRIETTE , se mettant entre le marquis et son fils *.
+
+Jeune homme , vous n'avez rien à craindre .
+
+( Avec majesté .)
+
+je vous prends sous ma protection .
+
+Immédiate .
+
+Et nous allons voir .
+
+MARTEAU .
+
+HENRIETTE .
+
+Elle croise ses bras et regarde fièrement le vieux
+
+marquis.
+
+MARTEAU , à part .
+
+Pour le coup , nous allons rire .
+
+Geneviève, André , Henriette,
+
+le Marquis, Marteau .
+
+38
+
+LE MARQUIS , tout ébahi .
+
+Il faut avouer que voilà une commère bien délurée.
+
+HENRIETTE
+
+Qu'appelez - vous commère ? .. Apprenez que je ne suis pas une
+
+commère, et que vous êtes un brutal de me parler le chapeau
+
+sur la tête .
+
+MARTEAU , se frottant les mains et à part .
+
+L'affaire sera chaude .
+
+LE MARQUIS , furieux.
+
+Songez - vous , vous - même , que vous parlez au marquis de
+
+Morand ?
+
+HENRIETTE .
+
+Marquis ou diable , je vous dis qu'il est malhonnête de par
+
+ler à une femme le chapeau sur la tête . ( Jetant le chapeau .) A bas
+
+le chapeau !.. Ah ! c'est que je n'ai pas peur , moi !
+
+LE MARQUIS , s'emportant et ramassant son chapeau .
+
+Morbleu ! mademoiselle ...
+
+MARTEAU , le retenant fortement par le bras.
+
+Cher marquis , pas d'enthousiasme ! une femme ! .. une pe
+
+tite folle ! .. et votre rang ! ..
+
+LE MARQUIS , d'un ton radouci.
+
+Ah ! c'est vrai ! ( Dégageant son bras . ) Ne serre donc pas
+
+si
+
+fort...
+
+( A Henriette , ôtant son chapeau .) Eh bien ! princesse ...
+
+voulez - vous alors me faire l'honneur de me dire , comment
+
+vous vous trouvez ici ... dans mon château ?
+
+HENRIETTE .
+
+Puisque vous vous humanisez , marquis , je vous dirai que
+
+je suis ici , parce que j'en
+
+ai le droit ... et paree que mon ca
+
+ractère m'y autorise ...
+
+MARTEAU , à part.
+
+Oh ! oh ! son caractère ...
+
+LE MARQUIS , perdant patience .
+
+De quoi s'agit -il , enfin ?
+
+HENRIETTE .
+
+Je viens vous demander réparation ... votre fils que voici...
+
+( Elle montre André qui est près d'elle les yeux baissés . ) A osé
+
+séduire ... c'est le mot ... une jeune personne ...
+
+GENEVIÈVE , la tirant par le bras.
+
+Henriette !
+
+HENRIETTE .
+
+Laissez - moi ! placée sous ma surveillance ...
+
+MARTEAU ,
+
+Immédiate ...
+
+39
+
+C'est faux ! .. il en est incapable .
+
+LE MARQUIS , avec force .
+
+Il l'a séduite , à la face du ciel ! ..
+
+HENRIETTE , de même.
+
+LE MARQUIS .
+
+Et quand il vous aurait toutes séduites , que puis -je faire à
+
+cela ?
+
+Nous épouser !
+
+Vous épouser ? ..
+
+HENRIETTE , avec dignité .
+
+LE MARQUIS , avec colère .
+
+MARTEAU , riant , ail marquis en le retenant.
+
+Elle est très amusante .
+
+LE MARQUIS .
+
+Oui , oui , il y a de quoi rire ... ah ! ah ! je ne dis plus rien ...
+
+voyez - vous une grisette devenir marquise de Morand ... ah !
+ah ! ah !
+
+Dans sa joie il va tomber lourdement sur un banc où Henriette a déposé sa
+
+capotte.
+
+HENRIETTE , s'élan ; ant vers lui .
+
+O ciel ! . , ma capotte ! mais ôtez - vous donc , monsieur, vous
+
+aplatissez ma capotte .
+
+Mille pardons , mademoiselle ... je suis désolé .
+
+LE MARQUIS , riant .
+
+Il se relève lentement.
+
+HENRIETTE , prenant sa capotte qui est toute aplatie et tâchant
+
+de la retaper
+
+Un amour de capotte ... que je mettais pour la première fois ,
+
+dans quel état la voilà ! .. brutal , manant ...
+
+Mademoiselle , savez - vous que ma patience est à bout , et
+
+LE MARQUIS , furieux .
+
+que si vous m'échauffez la bile .
+
+Air : Qu'il est flatteu ,
+
+A la porte enfin , je vous jette.
+
+HENRIETTE .
+
+Avisez -vous -en , mon petit!
+
+Je vous arrache les yeux de la tête .
+
+MARTEAU , riant .
+
+C'est qu'ell' le f'rait comme ell' le dit .
+
+LE MARQUIS .
+
+A diable, c'est une autre affaire !
+
+La princesse... mille pardons !
+
+A servi, comme couturière ,
+
+Dans un régiment de dragons !
+
+40
+
+HENRIETTE .
+
+Qu'est - ce qu'il a dit ? ... Qu'est - ce qu'il a dit ?
+
+MARTEAU .
+
+On la retient.
+
+Il n'a pas soufflé le mot .
+
+LE MARQUIS , à André .
+
+Comment, drôle , c'est vous qui m'avez amené ça ici ?
+
+MARTEAU , le retenant.
+
+Eh ! non , c'est moi .
+
+( Bas à André .) Prends ma patache et
+
+va - t- en ?
+
+André et Geneviève s'esquivent .
+
+HENRIETTE .
+
+Ça ! ça , je t'apprendrai , moi ...
+
+( Metlant fièrement sa capotte
+
+sur sa tête ). Marquis de Morand , entre nous deux à présent ,
+
+c'est guerre à mort ... Ecoutez bien ceci ! ... Geneviève sera
+
+votre bru ... Geneviève sera marquise de Morand , aussi vrai
+
+que je m'appelle Henriette Babylas... J'ai dit ... adieu .
+
+MARTEAU , all moment ou Henriette passe devant lui .
+
+Depuis une heure , vous faites mon bonheur .
+
+HENRIETTE , lui donnant un soufflet.
+
+Voilà pour vos quolibets .
+
+LE MARQUIS , partant d'un éclat de rire .
+
+Ah ! ah ! ah ! .. c'est le bouquet !
+
+Henriette sort fière comme une reine , et suivie de toutes les grisettes,
+
+MARTEAU .
+
+Eh ! bien ! eh ! bien ! ..
+
+j'en vois
+
+trouble ...
+
+dites donc ...
+
+nous allons compter .
+
+Il court après elle .
+
+SCENE XVII .
+
+LE MARQUIS , PIERRE .
+
+LE MARQUIS .
+
+Mais , est ce bien moi , marquis de Morand , qui me vois me
+
+nacé jusques dans mon château ... et par une ...
+
+PIERRE , entrant à la cantonnade .
+
+Bien ! bien ... not maître , il va pleuvoir , faut - il rentrer les
+
+garbes ?
+
+LE MARQUIS .
+
+Va te promener ... Ce diable de Marteau a quelque chose qui
+me retient ... Eh mais , de grosses gouttes ! ( A Pierre) . Non ,
+reste .
+
+Notr' maître ...
+
+41
+
+PIERRE .
+
+LE MARQUIS .
+
+Ah ! je me vengerai ... où est André ?
+
+PIERRE .
+
+Il est parti avec deux de ces demoiselles , dans la patache de
+
+M. Marteau , qui demande la vôtre ...
+
+LE MARQUIS
+
+La mienne ? .. où est- elle ?
+
+Renfermée dans la grange!
+
+PIERRE .
+
+La clé ?
+
+La voilà .
+
+LE MARQUIS .
+
+PIERRE
+
+LE MARQUIS .
+
+Donne ... et maintenant , je rentre ... suis -moi ... ferme les
+
+portes, et n'ouvre à personne ... fut -ce à mon fils ... et qu'il
+
+revienne , lui ... le drôle ... je le recevrai.
+
+On entend des cris ; il pleut averse ; le marquis rentre, Pierre emporte le flan
+
+qui est sur la table . Les portes de la maison se referment.
+
+SCÈNE XVIII .
+
+HENRIETTE , MARTEAU , Les Grisettes ; LE MARQUIS ,
+
+dans l'intérieur ,
+
+TOUTES , accourant par la droite .
+
+Air du Philtre .
+
+Ah ! quel voyage
+
+Ah ! quel orage
+
+Se prépare à fondre sur nous
+
+Dans le château sauvons nous tous .
+
+A Pierre leur fermant la porte .
+
+Est- il possible
+
+D ' être insensible
+
+Sur nous
+
+On ferme les verroux,
+
+De grace, ayez pitié de nous .
+
+MARTEAU , arrivant .
+
+Voilà qui devieut amusant ... je suis percé .
+
+HENRIETTE .
+
+Sonnez donc , M. Marteau .
+
+6
+
+42
+
+TOUTES .
+
+Sonnez donc ! .
+
+Père Morand ! .. Marquis ... ohé ! ..
+
+MARTEAU , sonnant .
+
+PIERRE , à la fenêtre .
+
+Il n'y a personne ...
+
+Où est le marquis ? ..
+
+MARTEAU .
+
+PIERRE
+
+Il me dit de vous répondre qu'il n'y est pas ...
+
+Monstre , va ! ..
+
+HENRIETE .
+
+MARTEAU .
+
+Père Morand ... prêtez - nous du moins votre carriole ? ..
+
+TOUTES .
+
+Oui , oui , votre carriole ? ..
+
+PIERRE
+
+Il me dit de vous répondre , qu'il a perdu sa carriole .
+
+HENRIETTE .
+
+Comment ! il laissera des femmes faire trois lieues à pied ..
+
+par une pluie battante ...
+
+PIERRE .
+
+M. Marteau ... il me dit de vous offrir une ombrelle ...
+
+MARTEAU.
+
+Donne ; c'est toujours ça ... Ah , l'aimable homme ! ( Ourrant
+
+l'ombrelle ) Qu'est - ce qui en veut ?
+
+Moi ! .. moi ! ..
+
+TOUTES .
+
+HENRIETTE .
+
+Ladre ... pingre ! .. coeur de fer !.. Ah ! bah ! .. ma toilette est
+
+perdue !.. mais il me le paiera ... Adieu ! .. marquis de Morand ...
+
+je te maudis toi et ton château ... ( Marteau l'excite en riant comme
+
+un fou ) Je te maudirai le matin ... je te maudirai le soir ... et
+
+ton fils épousera une grisette , et il te donnera des petits mar
+
+quis de Morand pour te faire enrager . Un tas de petits marquis
+
+qui te courront dans les jambes .
+
+TOUTES ,
+
+La pluie ! ..
+
+REPRISE DU CAOEUR .
+
+Ah ! quelle ondée !
+
+J'suis inondée ;
+
+Pour ma toilette , quelle horreur !..
+
+En vérité ... c'est une borreur ! ..
+
+43
+
+HENRIETTE .
+
+Robe et capotte
+
+Sont en compotte .
+
+MARTEAU .
+
+Dl'aventure j'ris de bon cœur.
+
+( Parle ). Une ombrelle ... pour dix ! .. qui m'aime me suive .
+
+TOUTES .
+
+L'orage fond sur nous ,
+
+Sauvons-nous.
+
+( bis )
+
+Il pleut ! il pleut !
+
+Sauve qui peut ! ..
+
+Elles se sauvent... Les unes se couvrent de leurs mouchoirs ...
+
+les autres de
+
+leurs robes... Henrietle s'attache à Martcau qui tient une ombrelle en lam
+
+beaux ... L'orage redouble , et le marquis parait à la croisée , en riant et en
+
+leur envoyant des baisers .
+
+LE MARQUIS .
+
+Adieu , mes petits anges ... adieu , mes petits amours ! ..
+
+Fin du premier acte .
+
+soov000000
+
+2000 OOO OOOO000000000
+
+ACTE II .
+
+Le théâtre représente un petit salon du château de Morand . Un guéridon à
+
+gauche , une bergère à droite , sur le devant ; à gauche , la chambre d'An
+
+dré : à droite , un cabinet. Entrée principale par le fond.
+
+SCÈNE PREMIERE .
+
+Au lever du rideau , André , étendu dans la bergère , commence à se réveiller ;
+
+Marteau est à la porte du cabinet à droite ; Pierre va pour sortir.
+
+MARTEAU .
+
+Il se réveille ! .. chut ! pas d'imprudence ! .. ( A Pierre . ) Et loi ,
+
+va - t - en , voilà ton papier ... surtout, prends bien garde que le
+
+marquis ne l'aperçoive .
+
+PIERRE .
+
+Il lui rend le panier.
+
+N'ayez pas peur .
+
+Marteau ferme la porte , met la clef dans sa poche,
+
+vient s'asseoir au guéridon, sur lequel il y a tout
+
+ce qu'il faut pour déjeûner ;
+
+et Pierre est sorti
+
+doucement.
+
+44
+
+ANDRÉ , pendant tout ce jeu de scène , se receillant en étendant la
+
+main .
+
+Oh ! ne t'en vas pas ... ne t'en vas pas encore ... non ...
+
+je t'en
+
+prie ... je ... ( En ouvrant les yeux , il aperçoit en face de lui
+
+Marteau qui s'est mis tranquillement à déjeûner .) Ah !
+
+MARTEAU , froidement.
+
+A ta santé ... Voilà un petit vin qui se laisse boire ... il y a du
+
+chenu dans la cave du marquis.
+
+ANDRÉ .
+
+C'est singulier ! ..
+
+( Regardant autour de lui. ) Tu es seul ...
+
+seul ?
+
+Est - ce que tu rêves ?
+
+MARTEAU .
+
+ANDRÉ .
+
+Mais , non ... cela ne se peut pas , je l'ai vue , je l'ai enten
+
+due .
+
+Qui donc ?
+
+MARTEAU .
+
+ANDRÉ.
+
+Eh bien , une femme !
+
+MARTEAU , riant.
+
+Ah ! ah ! ah ! .. dans le château de Morand , une femme.
+
+Tu as raison ... je ne sais ce que je dis .
+
+ANDRÉ.
+
+Air : de la Robe et les Bottes .
+
+Je le vois, ce n'était qu'un rêve !
+
+MARTBAU .
+
+Tant mieux ... c'est bon signe vraiment !
+
+C'est la guérison qui s'achève ;
+
+Te voilà sauvé maintenant ,
+
+La fièvre, vois - tu , dans notre ame
+
+Chasse amour, force et plaisir ...
+
+Mais dès qu'on rêve d'une femme,
+
+C'est qu'ça commence à revenir .
+
+ANDRÉ .
+
+Ma pauvre tête ! .. mais j'ai été si malade .
+
+MARTEAU .
+
+C'est vrai , au moins ... depuis ce jour où l'on te ramena de la
+
+ville , malgré toi , comme un esclave.
+
+ANDRÉ.
+
+Oh ! je crus que ce jour serait le dernier de ma vie . Le soir ,
+
+2
+
+11
+
+E
+
+45
+
+dans cette chambre où il me renferma... je voulais mourir , j'a
+
+vais caché ...
+
+MARTEAU .
+
+Eh! oui , j'ai vu ... pauvre enfant ! .. il serait mort au moins !
+
+et l'on dit qu'il manque de courage ?
+
+J'avais une fièvre ardente ... le délire ...
+
+ANDRÉ .
+
+MARTEAU .
+
+Qui dura une semaine entière .
+
+ANDRÉ.
+
+Je ne sais , mais quand je revins à moi ... c'était la nuit ; je
+
+crus entendre à mes côtés une voix qui priait ... une voix , la
+
+sienne ... et puis dans l'ombre , je crus la voir , je la vis , elle ,
+
+Geneviève , elle mit ma main sur ses yeux ... je poussai un cri ,
+
+je voulus me soulever , et ... et elle n'était plus là , et cette main
+
+que je pressai avec transport ...
+
+MARTEAU .
+
+C'était la mienne ... et tu la baisais ferme... et tous les ma
+
+tins , tu me régales de la même plaisanterie .
+
+ANDRÉ .
+
+C'est
+
+que tous les matins j'ai la même vision ... Tiens , cette
+
+nuit , il m'a semblé que je sentais le frôlement d'une robe ...
+
+et tout à l'heure encore dans cette bergère où le sommeil m'a
+
+vait surpris ... j'ai entendu ...
+
+MARTEAU , se levant.
+
+Joseph Marteau , qui sifflait en déjeûnant .
+
+ANDRÉ .
+
+Oui , toi , toujours toi ... toujours fidèle ! pour me rendre la
+
+santé .
+
+MARTEAU .
+
+La belle affaire ! guérir d'une fluxtion de poirine un amoureux
+
+de vingt ans... faut pas êlre vétérinaire pour ça .
+
+ANDRÉ , qui est devenu rêveur .
+
+Au fait ! elle ne viendra pas , elle !
+
+MARTEAU .
+
+Qui ça ? Geneviève ! pour te donner le transport .
+
+ANDRÉ .
+
+Elle ne se souvient peut - être plus de moi ... elle ne pense
+
+plus à moi .
+
+Ah ! bien oui ! elle est bien fille à t'oublier , comme elle mo
+
+disait encore l'autre jour ...
+
+MARTEAU .
+
+46
+
+ANDRÉ , avec chaleur .
+
+Tu l'as vue ! .. ah ! mon ami , mon cher Marteau , mon bon
+
+petit Joseph ... tu lui as parlé ?. oh ! dis - moi , dis - moi ...
+
+MARTEAU .
+
+Arrêtes donc , voilà que tu t'échappes ... nous aurons la fiè
+
+vre ... elle a été malade aussi ... de chagrin .
+
+Pauvre Geneviève .
+
+ANDRÉ .
+
+MARTEAU .
+
+Mais elle va mieux ! .. depuis que tu vas bien , elle t'aime tou
+
+jours , elle t'adore , et plulôt d'être à un autre que toi , elle
+
+mourrait fille ... dam !.. c'est joliment beau !
+
+Et moi aussi .
+
+Tu mourrais flle ?
+
+ANDRÉ , arec feu .
+
+MARTEAU .
+
+ANDRÉ.
+
+Je n'aurai jamais d'autre femme que Geneviève .
+
+MARTEAU .
+
+Tiens , pourquoi pas ; une artisanne ce n'est pas l'usage ...
+
+J'ai envoyé promener Henriette ; mais la tienne , si pure , si
+
+honnête ... c'est une dot ça , et le père Morand y viendra peut
+
+être .
+
+Tu crois , mon ami , tu crois .
+
+je serais trop heureux ... et
+
+ANDRÉ , avec transport.
+
+s'il consentait , oh ! j'en mourrais de joie !
+
+MARTEAU .
+
+Ah ! si tu te révolutionnes comme ça , je ne dis plus rien .
+
+ANDRÉ , se calmant .
+
+Eh ! bien ! eh ! bien ! je suis calme , vois ... tu dis donc que
+
+1
+
+mon père...
+
+MARTEAU .
+
+Je l'ai observépendant que tu étais malade ; il n'est plus le
+
+même ; il s'est radouci , radouci , que je n'y étais plus du tout .
+
+Air : du premier Prix .
+
+Lui qui n'était aimable et tendre
+
+Que pour ses bæufs ... ça n'peut manquer ...
+
+Quand si bas il t'a vu descendre ,
+
+Il était gentil à croquer .
+
+Il t'aime d'autant plus encore ,
+
+Qu'il t'a vu plus long- temps souffrir,
+
+Enfin , si tu veux qu'il t'adore,
+
+Tu n'as qu'à te laisser mourir .
+
+47
+
+ANDRÉ .
+
+Il m'aime ! tu crois ? si tu savais tout ce qu'il y a de déli
+
+cieux pour moi dans le mot -là ! mon père ! enfin , j'ai donc un
+
+père !
+
+SCENE II .
+
+LE MARQUIS , MARTEAU , ANDRÉ .
+
+Malade ! toujours malade ! ça me désole .
+
+LE MARQUIS .
+
+Le voilà ! tu l'entends .
+
+MARTEAU .
+
+LE MARQUIS .
+
+Ah ! c'est toi , Marteau , je te cherchais .. il faut que tu le
+
+sauves ... ou je ne te vois plus .
+
+MARTEAU , à André .
+
+Hein ?.. comme il se tourmente ! .. C'est- à- dire qu'il t'ido
+
+lâtre ...
+
+Mon père !
+
+ANDRÉ .
+
+LE MARQUIS .
+
+Ah ! c'est vous ... avec votre figure pâle et endormie ! .. Vous
+
+aviez bien besoin de retenir Joseph qui me manque là - bas... ( A
+
+Marteau .) Dis donc ...
+
+il va plus mal ... je ne sais que faire ...
+
+si je lui donnais une médecine Leroy !.
+
+MARTEAU .
+
+Miséricorde ! .. à votre fils ?
+
+LE MARQUIS .
+
+Mon fils ... mon fils ! .. se porte mieux que toi et moi ... et
+
+garde la chambre pour me faire enrager ... Qu'est-ce qu'il fait là
+
+å me regarder ? ..
+
+ANDRÉ .
+
+Je sors , Monsieur, je sors . ( Bas à Marteau ) Tu vois , mon
+
+ami ! .. Pas encore .
+
+Il rentre tristement dans sa chambre .
+
+SCÈNE III .
+
+LE MARQUIS , MARTEAU .
+
+LE MARQUIS .
+
+C'est de Vermeil que je te parle ... ce pauvre Vermeil , le roi
+
+de mes étables , un boeuf superbe ... Tu ne m'écoutes pas ...
+
+48
+
+MARTEAU , quand André est sorti , avec impatience.
+
+Eh ! bien , qu'est-ce que vous me voulez ? ..
+
+LE MARQUIS .
+
+Mais c'est Vermeil que je te dis ...
+
+Vous êtes un brutal...
+
+MARTEAU ,
+
+LE MARQUIS .
+
+Qu'est - ce que c'est ? .. à qui en as - tu ? ..
+
+MARTEAU .
+
+Oui , oui , vous êtes un brutal ...
+
+Je te dis que non .
+
+Je vous dis que si ...
+
+Mais non ! ..
+
+Si fait ! ..
+
+Joseph ! ..
+
+LE MARQUIS .
+
+MARTEAU .
+
+LE MARQUIS .
+
+MARTEAU .
+
+LE MARQUIS , en colère .
+
+MARTEAU .
+
+Oh ! fâchez - vous si vous voulez ... ça n'est égal , je vous l'ai
+
+dit... je vous le répète ... avec tous les égards que je vous
+deis... vous êtes un brutal ... voilà ...
+
+LE MARQUIS .
+
+Mais a - t- il un mauvais caractère ... Pourquoi me parles -tu
+
+comme ça ?
+
+MARTEAU .
+
+Pourquoi ? .. Qu'est - ce que vous venez de dire à votre fils ?
+
+qui était là ... faible et souffrant ... qui avait envie de vous sauter
+au cou ...
+
+LE MARQUIS .
+
+Qu'est-ce que tu veux que je lui dise ?
+
+MARTEAU .
+
+Plutôt de lui demander , comme le père Marteau , quand je
+
+suis malade , moi : « Comment vas - tu , mon garçon ? as- tu bien
+
+dormi ? .
+
+Ah ! .. oui ! ..
+
+LE MARQUIS .
+
+MARTEAU .
+
+Vous ne faites pas attention à lui ... vous venez me parlez de
+
+votre boeuf...
+
+49
+
+LE MARQUIS .
+
+C'est lui qui est en danger ...
+
+j'ai peur de le perdre ... et tu
+
+vas voir...
+
+MARTEAU .
+
+Moi , je le laisserai crever ... et tous les autres avec lui .
+
+Si tu avais ce malheur- là ! .. je te tuerais , vois - lu ?..
+
+LE MARQUIS , furieux .
+
+Oui , frottez - vous- y ...
+
+MARTEAU .
+
+LE MARQUIS , se calmant.
+
+Allons , mon petit Marteau ... tu es si complaisant ... si gentil
+
+quand tu veux .
+
+MARTEAU .
+
+Et vous donc ? .. j'ai cru un moment que vous étiez ramolli ,
+
+là tout à fait ... Quand André était si mal, l'or , les louis , les
+
+sacrifices , rien ne vous eût coûté .
+
+Tais - toi !
+
+LE MARQUIS .
+
+MARTEAU .
+
+Vous étiez près de son lit , inquiet , tremblant ... vous mur
+
+muriez : Mon fils ! mon fils ! .. vous aviez de grosses larmes dans
+
+les yeux ... vous étiez bon ! ..
+
+Tais - toi doncl ..
+
+LE MARQUIS .
+
+MARTEAU .
+
+Et quand cela serait ; une fois n'est pas coutume , et quand
+
+vous seriez sorti de votre systême de despotisme... comme les
+
+femmes qui sont vieilles , ou comme les rois quand leur pouvoir
+
+tombe en canelle ... où serait le mal ?
+
+Eh ! bien , oui , j'ai craint de le voir partir ; j'ai pleuré ... je
+
+LE MARQUIS .
+
+me suis senti là quelque chose ...
+
+MARTEAU .
+
+Ça commençait... vous l'aimiez un brin ; la dureté vous est
+
+revenue à mesure que la santé a repris ... Mais s'il
+
+était
+
+mort...
+
+Oui , qu'il s'en avise !
+
+LE MARQUIS .
+
+MARTEAU .
+
+Il ne faudrait pas le défier ... Savez - vous , avec votre ton sé
+
+vère , impitoyable ... à quoi vous l'aviez réduit ? .. Il a voulu
+
+périr ! ..
+
+7 .
+
+50
+
+LĘ MARQUIS .
+
+Périr ! tu crois ça ! .. et parce que je n'ai pas voulu lui donner
+
+pour femme une grisette ...
+
+MARTEAU .
+
+Une fille honnête , sage , d'une bonne famille ...
+
+LE MARQUIS .
+
+Sa famille , je ne dis pas ... mais elle ...
+
+MARTEAU .
+
+Elle ! .. c'est la vertu même ...
+
+LE MARQUIS .
+
+Oui , la vertu qui a débauché mon fils ...
+
+Ce n'est pas vrai !
+
+MARTEAU .
+
+LE MARQUIS .
+
+A cause de ma fortune. ..
+
+Ce n'est pas vrai ! ..
+
+Qui l'attirait chez elle !
+
+MARTEAU .
+
+LE MARQUIS .
+
+MARTEAU .
+
+Il y allait bien tout seul .
+
+LE MARQUIS .
+
+Est - ce que tu épouserais Henriette , toi ?
+
+Ah ! quelle bêtise !
+
+Tu dis ? ..
+
+MARTEAU .
+
+LE MARQUIS .
+
+MARTEAU .
+
+Quelle bêtise ! .. comme si c'était la même chose , l'autre ...
+
+LE MARQUIS , riant .
+
+Parbleu ! une ouvrière ! .. la jolie fille que j'aurais là ! ..
+
+MARTEAU .
+
+Le joli beau - père qu'elle se donnerait ! ..
+
+LE MARQUIS , riant .
+
+La marquise de Morand ... fleuriste !
+
+MARTEAU.
+
+Le marquis de Morand ... bouvier !
+
+LE MARQUIS , riant .
+
+Ouvrez donc le château à Madame ! ..
+
+MARTEAU ,
+
+Pourquoi pas , si elle y venait ...
+
+51
+
+LE MARQUIS , éclatant de colère .
+
+Si elle y venait , je la ferais jeter par la fenêtre...
+
+Vous
+
+voyez
+
+bien que vous êtes un brutal ...
+
+MARTEAU .
+
+C'est possible ...
+
+Adieu ! marquis .
+
+LE MARQUIS .
+
+MARTEAU .
+
+LE MARQUIS , le retenant.
+
+Hein ? par exemple ...
+
+Je m'en vais ...
+
+MARTEAU .
+
+LE MARQUIS .
+
+Sans pitié pour ce pauvre Vermeil , tu n'es qu’un mauvais
+
+cour ! ..
+
+SCENE IV .
+
+Les Mêmes , ANDRÉ , ensuite PIÉRRE .
+
+ANDRÉ , un gant de fil a la main .
+
+Oh ! non , non , je ne me trompais pas ... Joseph ... (Recon
+
+naissant son père . ) Ah !
+
+LE MARQUIS .
+
+Qu'est -ce qu'il a ? ( Prenant le gant .) qu'est -ce que c'est que
+
+c a ?
+
+ANDRÉ .
+
+Rien ... un gant que j'ai trouvé ... qui était ...
+
+Un gant de femme.
+
+.
+
+LE MARQUIS .
+
+ANDRÉ .
+
+De femme... vous croyez ?
+
+Ici , que veut dire ...
+
+LE MARQUIS .
+
+MARTEAU , prenant leslement le gant .
+
+Ah ! oui , une mitaine en fil d'Ecosse ! .. celle que j'ai prise en
+
+riant à cette folle d'Henriette . Un jour de dispute ... la dernière
+
+fois , je disais aussi ... ce diable de gant ... où est - il passé ? ( A
+
+André . ) Tu l'as trouvé ?
+
+Là , dans ma chambre ...
+
+ANDRÉ .
+
+MARTEAU .
+
+C'est ça ... , il sera tombé ...
+
+Ah ! ..
+
+52
+
+ANDRÉ , stupéfait.
+
+LE MARQUIS .
+
+Ah ! eh bien ? quoi ? .. avec son air effaré ...
+
+MARTEAU .
+
+Et maintenant , bonsoir , je m'en vais ...
+
+LE MARQUIS .
+
+Mais , non ... mais , non ... reste ... tu veux qu'il reste , ton
+
+ami Joseph , n'est - ce pas , André ? Voyons , Marteau , je t'en
+prie pour lui... reste !..
+
+Pour votre boeuf ?
+
+MARTEAU .
+
+LE MARQUIS .
+
+Non , pour lui... je ne veux pas qu'il s'ennuie , cet enfant...
+
+qu'il soit malade .
+
+Air
+
+Qu'il se ménage, eh ! mon Dieu ! qu'il s'écoute ,
+
+Et qu'à rien faire il se croise les bras,
+
+Qu'il se dorlotte... enfin , coûte que coûte,
+
+Drogues, docteur, je n'y regarde pas.
+
+Ciel ! ..
+
+ANDRÉ .
+
+LE MARQUIS .
+
+Etes- vous content , fou que vous êtes ?
+
+MARTEAU .
+
+A vot' Vermeil êtes - vous attaché ?
+
+LE MARQUIS .
+
+Quand je te dis que j'aime.
+
+MARTEAU .
+
+Et puis votre fils par -dessus le marché.
+
+Eh oui , vos bêtes ,
+
+LE MARQUIS .
+
+Mais je t'assure ... tiens , qu'il se dépêche de retrouver ses
+
+jambes ... ses couleurs , sa santé ... et je le marie .
+
+Moi !
+
+Pas possiblel .. avec ...
+
+ANDRÉ .
+
+MARTEAU .
+
+LE MARQUIS .
+
+Avec la fille au gros Vincent ... le plus riche fermier ...
+
+Jamais ... jamais ! ..
+
+ANDRÉ.
+
+Un beau parti.
+
+53
+
+MARTEAU .
+
+LE MARQUIS .
+
+Plus beau qu'une fleuriste ... une grisette ... une ...
+
+Oh ! mon père !
+
+ANDRÉ .
+
+On entend du bruit au - dehors. Pierre entre .
+
+LE MARQUIS , à Pierre .
+
+Eh bien , qu'est - ce que tu veux , toi ? parle ...
+
+PIERRE .
+
+C'est que notr ' maître , il y a là une jeune fille qui veut entrer
+
+malgré moi .
+
+Une jeune fille ?
+
+MARTEAU .
+
+PIERRE .
+
+Elle demande M. Marteau , M. André .
+
+Oh ! c'est elle ! .. c'est elle ! ..
+
+ANDRÉ , avec exaltation .
+
+Je voudrais bien voir qu'elle ...
+
+LE MARQUIS .
+
+PIERRE , à Henriette qui parait.
+
+Mais , mamselle ... quand je vous dis ...
+
+SCÈNE V.
+
+Les Mêmes , HENRIETTE .
+
+HENRIETTE .
+
+Et moi , je te dis que j'entrerai , laquais !
+
+Henriette !
+
+MARTEAU .
+
+Ah ! ce n'est
+
+pas elle .
+
+ANDRÉ , tristement.
+
+LE MARQUIS .
+
+Bah ! c'est toi ! à la bonne heure, c'est plus drôle ! ..
+
+HENRIETTE .
+
+Dites donc à vos gens d'être plus policés avec le sexe , mar
+
+quis de Morand ... en voilà un qui est aussi bête que mal
+
+bâti .
+
+Mamzelle ...
+
+PIERRE .
+
+LE MARQUIS .
+
+Elle a raison .. , tais -toi et va-t - en ... (Pierre sort . ) Au fait nous
+
+avons fais la paix chez cet heureux coquin ...
+
+54
+
+HENRIETTE .
+
+Rancune tenante , monsieur le marquis ... mais je viens de
+
+porter de porter de l'ouvrage au château de Villers ... à deux
+
+pas... et je n'ai pas été fâchée de m'arrêter ici un moment... pour
+
+savoir des nouvelles de gens qu'on ne voit plus...
+
+Elle jette un regard de côté sur Joseph .
+
+MARTEAU , à part .
+
+Une pointe de jalousiel ..
+
+J'entends , c'est pour Joseph !
+
+LE MARQUIS .
+
+Pour ça ! .. Dieu merci ! non...
+
+HENRIETTE , avec dedain .
+
+Oh ! quel air de reine .
+
+LE MARQUIS .
+
+MARTEAU .
+
+Il n'y a rien de nouveau à la ville , ma chère !
+
+HENRIETTE , à part.
+
+Sa chère ... ( Haut. ) Mais non , rien , depuis le scandale de
+
+votre chère Geneviève.
+
+Hein ?
+
+Quel scandale !
+
+Genevière !
+
+.
+
+MARTEAU .
+
+LE MARQUIS .
+
+ANDRÉ .
+
+HENRIETTE .
+
+Comment ! .. d'où sortez - yous donc ? est - ce que vous ne sa
+
+vez pas la nouvelle ? ..
+
+Qu'est -ce donc ?
+
+LE MARQUIS.
+
+MARTEAU .
+
+Silence ! laissez parler la Gazette ... c'est son nom de batême
+
+à la ville ; voyons cette nouvelle !
+
+HENRIETTE .
+
+Vrai ! vous ne le savez pas , dam ! je ne sais pas si je dois ...
+
+ah ! bah ! ( A Marteau .) Elle va vous faire enrager , et j'en suis
+
+enchantée ?
+
+Bien obligé.
+
+MARTEAU .
+
+HENRIETTE .
+
+Elle va mettre du baume au ceur de ce pauvre petit
+
+monsieur André , si bon , si maigre et si palot.
+
+Et enfin ...
+
+55
+
+LE MARQUIS.
+
+HENRIETTE .
+
+Enfin cette nouvelle , c'est le départ ...
+
+la disparition .. , l'é
+
+vaporation de Geneviève la fleuriste .
+
+Que dit - elle ?
+
+Ah ! ah ! ah !
+
+ANDRÉ .
+
+LE MARQUIS , riant.
+
+HENRIETTE .
+
+Oui , Geneviève ,
+
+l'honnête ! la prude ,
+
+la bégueule ! (La
+
+contrefaisant. ) . Non mademoiselle , je ne reçois personne chez
+
+moi ... je ne donne jamais le bras à un homme .. , » elle voulait
+
+faire la belle parleuse , elle voulait marcher toute seule , eh bien ,
+
+tombe ... partie , Partie ! avec je ne sais qu'est -ce ... ah ! vous
+
+avez beau faire des signes , M. Joseph , c'était votre protégée ,
+
+tant pis , je parlerai ...
+
+Va toujours , va !
+
+LE MARQUIS .
+
+HENRIETTE .
+
+J'enrage quand je pense qu'un bon jeune homme comme M.
+
+André a été malade et se consume encore pour une mijaurée
+
+qui se laisse enlever ...
+
+ANDRÉ , relevant vivement la tête .
+
+Geneviève ! .. c'est infâme ! ce que vous dites là ?
+
+LE MARQUIS .
+
+Va donc ! va donc ! .. ( A part .) Ma foi, quand je la paierais.
+
+C'est impossible !
+
+MARTEAU .
+
+HENRIETTE .
+
+Impossible ! allez donc demander à mademoiselle Caroline
+
+Frotté la repasseuse ... qui... il y a quatre jours , ni plus ni
+
+moins en ouvrant la fenêtre au petit jour pour renvoyer M.
+
+Achille ... un grand blond qu'elle blanchit... à vu un cheval
+
+comme je vous vois , qui emportait au grand galop , un mon
+
+sieur enveloppé dans un manteau , et Geneviève, oui, oui, der
+
+rière lui ! Geneviève avec un homme à cheval , et en croupe ...
+
+ah !
+
+fi donc ?
+
+LE MARQUIS , niant .
+
+Ah ! ah ! bon voyage ...
+
+MARTEAU , en colère.
+
+Vous êtes une bavarde .
+
+ANDRÉ .
+
+Certainement ... car vous n'êtes pas sûre ...
+
+55
+
+HENRIETTE .
+
+Je ne suis pas sûre ... mais c'est la nouvelle de toute la ville ...
+
+la nouvelle du jour ... on en parle , parle , parle ; moi , d'abord ,
+
+je le dis à tout le monde... en bonne camarade! car enfin , c'é
+
+tait humiliant pour ces demoiselles , on la citait toujours comme
+
+un modèle , comme un type ... il n'y avait des éloges et de la
+
+vertu que pour elle... il lui tombait du ciel un marquis, comme
+
+à d'autres un vétérinaire ! ... et un marquis pour le bon motif
+
+encore ... tandis qu'une brave fille comme moi ...
+
+Air : du Carnaval.
+
+C ' n'est pas à moi qu'arriv'rait pareill' chose
+
+Moi je n ' baisse pas les yeux , et Dieu merci !
+
+Moi je n ' fais pas de grimaces , pour cause ,
+
+Personne n'a pu m'enlever jusqu'ici !
+
+MARTEAU .
+
+Parbleu !
+
+j ' crois bien , c' n'est pas comm ' la
+
+( fleuriste ,
+
+Tous les romans n' sont pas aussi longs qu' ça ,
+
+Quand on enlèv ' c'est qu' la vertu résiste ...
+
+Mais vous, ma chère, ça n' va pas jusque-là !
+
+HENRIETTE .
+
+Hein ? qu'est - ce que vous dites ?
+
+MARTEAU .
+
+Je dis ...
+
+LE MARQUIS , à part .
+
+S'ils pouvaient se battre .
+
+MARTEAU .
+
+Je dis que vous êtes une mauvaise langue... vous son amiez
+
+vous qui devriez prendre sa défense ... c'est vous qui vene ,
+
+la noircir .
+
+Qu'appelez - vous ! noircir ?
+
+HENRIETTE .
+
+LE MARQUIS , se fioltant les mains.
+
+Voilà que ça chauffe ! ( Bas à Henriette . ) Va donc ?
+
+HENRIETTE .
+
+Apprenez , M. Joseph , que je ne noircis personne et que je
+
+laisse les gens se barbouiller eux -mêmes. ( S'attendrissant peu à
+
+peu . ) Oui , j'étais son amie ... il m'en coûte assez cher ... on
+
+jase ... on dit : Geneviève était liée avec elle ... et ... ( Essuyant
+
+des larmes . ) Mon honneur est compromis ...
+
+MARTEAU , éclatant de rire.
+
+Oh !
+
+pour
+
+le
+
+coup , c'est trop fort !
+
+57
+
+HENRIETTE , avec colère.
+
+Oui , riez , riez , mais ce qui me console , c'est qu'elle est
+
+démasquée et que si elle revenait à la ville , il y aurait une
+
+émeute, on lui donnerait un charivari à votre fleuriste .
+
+ANDRÉ , avec des pleurs convulsifs.
+
+Ah ! .. c'est affreux !
+
+Il se trouve mal.
+
+LE MARQUIS , le soutenant dans ses bras .
+
+André ! eh bien , eh bien , il se trouve mal ! ( Hors de lui . ) Il
+
+se trouve mal .
+
+MARTEAU , courant à lui .
+
+Il le secoue.
+
+Prenez donc garde , il va le casser .
+
+(A part . ) Butor ... ( A
+
+Henriette .) Tenez , voyez ce que vous faites.
+
+HENRIETTE .
+
+Ah ! mon Dieu ! mais aussi puis - je savoir que ce jeune homme
+
+a une sensibilité aussi exaltée dans les nerfs !
+
+LE MARQUIS .
+
+André ! allons , allons ; le voilà qui revient .
+
+HENRIETTE .
+
+Mon Dieu ! que je suis désolée .
+
+LE MARQUIS , regardant André.
+
+Ce ne sera rien , ( Bas à Henriette .) Il n'y a pas de mal ... tu
+
+as bien fait ... il ne m'en parleront plus ...
+
+MARTEAU , à Henriette.
+
+Allez , allez vous rafraîchir , vous en avez besoin .
+
+HENRIETTE .
+
+Il vous importe peu que je me rafraîchisse ... N. Joseph .
+
+( Au marquis.) J'accepte ...
+
+Tout de suite !
+
+LE MARQUIS .
+
+Air de l'Octogénaire.
+
+Allons , ( bis) vous venez de me rendre ,
+
+Un très grand service, entre nous.
+
+( A Marieau .)
+
+Toi , ne te fais pas trop attendre ...
+
+MARTEAU .
+
+Allez toujours , je suis à vous.
+
+LE MARQUIS , lui offrant la main .
+
+Princesse...
+
+HENRIETTE .
+
+Marquis ! ..
+
+8 .
+
+58
+
+LE MARQUIS .
+
+De la sorte .
+
+Est- ce bien ? ( A Marteau .) Je t'attends là -bas.
+
+MARTEAU .
+
+Oui, ( à part . ) que le diable vous emporte!.
+
+Et qu'il ne vous rapporte pas .
+
+LE MARQUIS .
+
+Allons , vous venez de me rendre ,
+
+Un très grand service , entre nous...
+
+Toi , ne te fais pas trop attendre ;
+
+Car ', Vermeil a besoin de nous .
+
+Il donne la main à Henriette, qui sort urec digi .
+
+en jelant à Marteau un regard de dédain .
+
+SCENE VI .
+
+ANDRÉ , MARTEAU .
+
+MARTEAU .
+
+Langue de vipère , va ! .. pauvre garçon ,
+
+elle a
+
+failli
+
+le
+
+tuer !
+
+ANDRÉ .
+
+Geneviève ! .. Geneviève partie !
+
+MARTEAU .
+
+Allons donc , c'est un conte !
+
+ANDRÉ
+
+Non , laisse - moi ... tu veux en vain me le cacher ... elle m'a
+
+trompé ... trahi .
+
+Mais quand je te dis ...
+
+MARTEAU .
+
+ANDRÉ .
+
+Je prends la vie en haine... en horreur.
+
+MARTEAU .
+
+Mais elle t'aime , elle n'aime que toi .
+
+ANDRÉ
+
+Et elle n'a pas cherché à me revoir ... et pour me consoler ,
+
+je n'ai pas un mot ... un seul mot de sa main .
+
+Mais si fait .
+
+MARTEAU .
+
+ANDRÉ .
+
+Non , non , ce n'est pas vrai , je ne te crois pas ... va - t - en ,
+
+laisse - moi seul, laisse - moi mourir .
+
+MARTEAU , allant à la porte du cabinet .
+
+Mourir ... ah ! ma foi ... Je risque tout .
+
+59
+
+ANDRÉ .
+
+Ce voyage ,
+
+cet homme qui l'a cnlevée ...
+
+MARTEAU .
+
+Eh bien ! cet homme , si c'était moi ...
+
+Toi .
+
+ANDRÉ , virement.
+
+MARTEAU .
+
+Oui , oui , je lui ai fait quitter ses travaux , ses fleurs aux
+
+quelles elle a dit adieu en pleurant ..
+
+je l'ai assise sur mon
+
+cheval , et par un vent du nord qui pinçait ferme , va ... pau
+
+vre fille ! si tu savais comme ses bras m'entouraient en trem
+
+blant de froid et de peur ! comme son pauvre cour battait...
+
+et le mien par contre -coup ! .. Sa tête si fraîche , si jolie , s'ap
+
+puyait sur mon épaule ... je n'osais pas regarder , et puis au
+
+torrent du Ruth ... tu sais , grossi par la pluie ,
+
+il fallait passer
+
+à gué ... Mon cheval marchait lentement , et quand je vins à dé
+
+tourner les yeux pour voir si son pied était encore loin de
+
+l'eau , ah ! mon ami, quelle jambe fine, élégante , dans un bas
+
+si blanc , et puis ce joli petit pied si bien chausssé ... Je n'y étais
+
+plus , je n'y voyais plus, je n'osais pas remueur ... et quand son
+
+soulier effleura le torrent, moi j'y entrais jusqu'à la cheville .
+
+( Il frappe du pied . ) En sortant de l'eau , j'étais tout en nage , je
+
+mis mon cheval au grand galop ( il frappe un deuxième coup , la
+
+porte du cabinet s'ouvre lentement.) Et un quart -d'heure après ,
+
+j'entrais dans le château de Morand .
+
+Il frappe un troisième coup .
+
+Ici ...
+
+ANDRÉ .
+
+MARTEAU .
+
+Avec cette jolie jambe que mes yeux n'avaient pu quitter
+
+encore .
+
+Geneviève sort doucement du cabinet .
+
+ANDRÉ .
+
+Ici ... je ne puis comprendre .
+
+MARTEAU , le faisant passer .
+
+Tiens , me comprends - tu , maintenant ?
+
+SCÈNE VII .
+
+Les Mêmes , GENEVIÈVE .
+
+ANDRÉ , courant vers elle .
+
+Geneviève ! ma chère Geneviève !
+
+Monsieur André !
+
+GENEVIÈVE .
+
+Vous , ici ... vous ?
+
+Depuis quatre jours.
+
+60
+
+ANDRÉ .
+
+MARTEAU .
+
+ANDRÉ .
+
+Grand Dieu ! tout braver ... s'exposer ainsi !
+
+GENEVIÈVE .
+
+On m'a dit ses jours sont en danger ... il va mourir si vous ne
+
+venez pas , et je suis venue .
+
+ANDRÉ , tombant à genoux .
+
+Ah ! vous êtes un ange , c'est à vous que je dois la vie , et
+
+cent fois plus encore , la joie qui remplit mon coeur ; le bon
+
+heur , le seul qui soit pour moi au monde , c'est à vous ,
+
+Geneviève , c'est à vous que je le dois !
+
+GENEVIÈVE , lui abandonnant sa main qu'il baise .
+
+Alors , je suis heureuse .
+
+MARTEAU , le relevant .
+
+Silence , pas un mot de plus ... il est d'une faiblesse .
+
+ANDRÉ .
+
+Oh ! non , mon ami , non ; maintenant que je l'ai revue .
+
+MARTEAU .
+
+Maintenant que tu l'as revue , elle va rentrer .
+
+Déjà ! oh ! je t'en prie .
+
+Et votre père ?
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+MARTEAU .
+
+Et vous avez entendu Henriette ... pas moyen de retourner à
+
+la ville pour l'instant .
+
+LE MARQUIS , en -dehors.
+
+Marteau , Marteau !
+
+Le marquis !
+
+Mon père !
+
+Je suis perdue !
+
+Chut .
+
+Ah ! mon Dieu !
+
+MARTEAU .
+
+ANDRÉ , épouvanté.
+
+GENEVIÈVE .
+
+MARTEAU .
+
+ANDRÉ .
+
+Geneviève s'est jetée dans la bergère , elle s'y blottit,
+
+André se place devant elle de manière à la cacher
+
+aux yeux de son père.
+
+61
+
+SCENE VIII .
+
+Les Mêmes , LE MARQUIS .
+
+LE MARQUIS , entrant , une bouteille à la main .
+
+Marteau ... c'est comme ça que tu viens .
+
+MARTEAU .
+
+Eh bien ! quoi ? . j'allais vous suivre ; mais j'étais près d'An
+
+dré .
+
+ANDRÉ , tremblant .
+
+Oui , il était près de moi .
+
+LE MARQUIS .
+
+C'est juste , il a la figure toute renversée . (Mettant la bou
+
+teille sur la table .) Voilà cette drogue que tu as ordonnée pour
+
+Vermeil .
+
+C'est bien ! j'y vais .
+
+MARTEAU .
+
+LE MARQUIS .
+
+C'est ça , dépêche - toi , je vais rester près de ce garçon - là ,
+
+moi .
+
+Ciel !
+
+ANDRÉ , à part .
+
+MARTEAU .
+
+C'est inutile , j'ai besoin de vous , là - bas .
+
+LE MARQUIS .
+
+Mais , si André ne peut pas rester seul .
+
+Si fait , si fait ... mon père .
+
+ANDRÉ .
+
+ENSEMBLE .
+
+Air des Echos ( de Musard . )
+
+MARTEAU .
+
+Eh ! vite , il faut aller
+
+Visiter votre étable !
+
+A part.
+
+C'est un homme intraitable
+
+Pour elle il m' fait trembler.
+
+LE MARQUIS .
+
+Eh , vite, il faut aller
+
+Visiter mon étable ;
+
+Le voilà moinsmalade ,
+
+Je ne dois plus trembler.
+
+ANDRÉ et GENEVIÈVE .
+
+Ah ! s'il pouvait aller
+
+62
+
+Visiter son étable ;
+
+Car il est intraitable,
+
+Son air me fait trembler .
+
+Marloau entraine le marquis.
+
+ANDRÉ .
+
+Il est parti.
+
+Geneviève , se levant .
+
+Ciel ! tout mon sang se glace.
+
+LE MARQUIS , rentrant.
+
+Et ma bouteille , attends un moment.
+
+ANDRÉ , étouffant un cri .
+
+Ah !
+
+Geneviève retombe dans la ber gére .
+
+MARTEAU , suivant le marquis avec effroi.
+
+Venez , de grace . .
+
+J'ai peur, à présent.
+
+Reprise de l'ensemble .
+
+MARTEAU .
+
+Eh vite , il faut , etc.
+
+LE MARQUIS .
+
+Tantmieuxil faut , etc.
+
+ANDRÉ et Geneviève .
+
+Ah ! s'il pouvait aller , etc.
+
+Ils sortent .
+
+La porte se referme .
+
+SCENE IX .
+
+ANDRÉ , GENEVIÈVE .
+
+Ah ! je respire à peine .
+
+Et moi , je suis mort .
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+S'il m'eût vue , s'il savait que depuis quelque jours je suis là ,
+
+chez lui , cachée près de vous...
+
+ANDRÉ , s'échauffant.
+
+Ah ! maintenant qu'il est parti , je suis fâché de ne pas m'être
+
+expliqué avec lui .
+
+GENEVIÈVE .
+
+Et
+
+que lui auriez - vous dit , André , qui ne l'eût irrité contre
+
+moi ?
+
+ANDRÉ .
+
+Je lui aurais dit ... je ne sais pas ce que je lui aurais dit ... mais
+
+63
+
+il aurail su du moins que tu mérites mes respects , mes hom
+
+mages , que j'ai raison de t’aimer plus que la vie , plus que moi
+même .
+
+GENEVIÈVE .
+
+Oh !. juge de sa colère ... il m'aurait chassée .
+
+ANDRÉ .
+
+Eh bien ! je serais parti avec toi . Te chasser ! quand il te doit
+
+son fils ... car vois -tu , Geneviève , je me rappelle , maintenant ,
+
+dans mon délire , je ne sais quelle lueur de raison me revenait
+
+par moment . Cette voix si douce qui pénétrait jusqu'à mon
+
+cour pour le ramener ;
+
+cette main que je pressais dans la
+
+mienne , ces traits d'un ange que je croyais voir à travers un
+
+nuage... Oh ! ce n'était pas un rêve , c'était toi , toi dont l'amour
+
+me faisait revivre , pour t’aimer encore .
+
+GENEVIÈVE .
+
+Il s'assied dans la bergère .
+
+Oh ! du calme , André ; tu souffres.
+
+ANDRÉ .
+
+Non , mais ma pauvre tête , cette émotion , ces souvenirs ...
+
+GENEVIÈVE , s'asseyant auprès de lui .
+
+C'est monsieur Marteau qui avait imaginé tout cela ; car de
+
+moi -même,
+
+je n'aurais jamais osé .. et pourtant j'étais bien
+
+triste , bien malheureuse ... je ne vous voyais plus comme à l'or
+
+dinaire .
+
+ANDRÉ .
+
+Oui , quand j'allais causer avec toi de mes projets , de mes
+
+espérances.
+
+GENEVIÈVE .
+
+Et je savais que tu étais malade ; je ne travaillais plus à ces
+
+fleurs que tu aimais tant , je mourais d'inquiétude ; alors , mon
+
+sieur Marteau est venu me chercher en secret .
+
+Bon Joseph !
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+Mais j'exigeai que personne ne fut dans la confidence ; per
+
+sonne .
+
+( le regurdant.) Pas même ...
+
+Ah ! c'est bien mal !
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+Il le fallait. Pierre fut pourtant mis dans le secret , mais lui
+
+seul ...
+
+j'étais là renfermée , et la nuit , quand tout le monde
+
+dormait , je sortais en tremblant de ma retraite ... je te parlais
+
+en respirant à peine ... mes larmes coulaient en silence , tu sem
+
+blais tranquille , et j'étais heureuse jusqu'au jour .
+
+64
+
+ANDRÉ .
+
+Et tu me quittais , méchante , mais pour te reposer , du
+
+moins .
+
+GENEVIÈVE .
+
+Non , j'écoutais , et depuis quatre jours , ma paupière ne s'est
+
+pas fermée ; j'étais trop inquiète près de toi , loin de toi , je veil
+
+Tais toujours pour toi .
+
+ANDRÉ , la tête appuyée sur la bergère.
+
+Et mon père voudrait nous séparer ! non , tu seras à moi , tu
+
+seras ma femme.
+
+Oh ! jamais.
+
+GENEVIÈVE .
+
+ANDRÉ , cédant peu à peu au sommeil .
+
+Et j'irai à la ville , avec toi ... pour te justifier ... pour leur
+
+dire à tous : C'est elle ... c'est pour moi ... c'est ... ( Il s'endort.
+
+- Bas .) Geneviève .
+
+GENEVIÈVE , le regardant.
+
+Si faible !.. et par moment tant d'exaltation ... Il me fait trem
+
+bler ... et son père... si impitoyable ! ( Appuyant sa tête sur la
+
+bergère .) Moi , sa femme.
+
+Air : Dormez , dormez , mes chers amours ,
+
+Oh ! non , ils ne le voudront pas ...
+
+Il vaut mieux que je parte , hélas !
+
+Loin de ces lieux portant mes pas ,
+
+Pauvre ,
+
+j'irai cacher ma vie ...
+
+Qu'André soit heureux ... et m'oublie .
+
+Elle s'est endormie peu à peu , l'orchestre achève l'air
+
+pendant les paroles suivantes.
+
+Là , dans cette chambre , cachée ,
+
+ANDRÉ , rêvant.
+
+Pauvre André ...
+
+GENEVIÈVE , balbutiant .
+
+SCENE X.
+
+Les Memes , LE MARQUIS , MARTEAU .
+
+Geneviève et André ont tous deux la tête appuyée sur le coussin de la bergère ,
+
+ils dorment très rapprochés l'un de l'autre .
+
+LE MARQUIS , entrant galment.
+
+Maintenant , il peut partir , ça m'est égal ; Vermeil est sauvé ,
+
+mon fils aussi ! au diable les vétérinaires , les médecins .
+
+MARTEAU , paraissant mystérieusement dans le fond , à demi- voix .
+
+Elle a eu le temps de rentrer.
+
+65
+
+LE MARQUIS .
+
+Je suis maître chez moi ... et nous...
+
+GENEVIÈVE , doucement .
+
+Je t'aime !
+
+Hein ! qu'est - ce ?
+
+Diable , diable !
+
+LE MARQUIS .
+
+MARTEAU , à part .
+
+LE MARQUIS .
+
+Ah bah ! une femme ! André ! qu'est - ce que cela veut dire !
+
+Il va pour aller au fauteuil.
+
+MARTEAU , le retenant .
+
+Eh bien ! qu'est -ce que vous voulez faire ?
+
+LE MARQUIS .
+
+Je vais leur apprendre.
+
+MARTEAU , le retenant .
+
+Les réveiller , n'est -ce pas ?
+
+LE MARQUIS .
+
+Eh ! oui , j'irai .
+
+Chut ! .. ils dorment si bien ...
+
+MARTEAU , l'empêchant.
+
+Mais ...
+
+LE MARQUIS .
+
+MARTEAU .
+
+Comme ils sont gentils ! .. deux petits chérubins , quoi !
+
+LE MARQUIS , haussant la voix .
+
+Une femme! une grisette dans ma maison ... dans la chambre
+
+de mon fils ! ..
+
+Reste , reste .
+
+André ! ..
+
+ANDRÉ , se réveillant .
+
+GENEVIÈVE , de même .
+
+MARTEAU .
+
+Ah ! voyez ce que vous avez fait ; vous les avez réveillés .
+
+LE MARQUIS , lui échappant .
+
+Eh ! va - t'en au diable !
+
+( Prenant Genevière par le bras . ) Eh !
+
+dites donc un peu , péronnelle ...
+
+Ah !
+
+Oh ! ciel !
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+9 .
+
+66,
+
+SCÈNE XI .
+
+Les Mêmes , HENRIETTE .
+
+HENRIETTE , entrant.
+
+Que vois -je ! Geneviève !
+
+LE MARQUIS .
+
+Geneviève ! celle qui a eu l'impudence ! ..
+
+Grace ! grace !
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+Monsieur , pardonnez -moi ! ..
+
+LE MARQUIS .
+
+Qu'est -ce qui lui a permis ?..
+
+C'est moi !
+
+Toi ? ..
+
+MARTEAU .
+
+LE MARQUIS .
+
+MARTEAU .
+
+Oui , moi ... qui voyais votre fils mourir d'amour , de déses
+
+poir... J'ai prié ... j'ai supplié cette fille ... cet ange , de venir
+
+veiller auprès de lui... de l'entourer de soins... de le sauver .
+
+HENRIETTE , prenant la main de Genevière .
+
+C'était donc pour ça ?..
+
+LE MARQUIS .
+
+Laissez - moi donc tranquille ! elle est venue pour me bra
+
+ver ... pour lui tourner la tête ... pour le séduire ... à cause de sa
+
+fortune... l'imbécile !
+
+Mon père !
+
+Quelle horreur !
+
+ANDRÉ .
+
+GENEVIÈVE , se levant .
+
+MARTEAU .
+
+Marquis ! vous me faites pitié ...
+
+LE MARQUIS .
+
+Mais il n'en sera rien ... et je vais moi - même l'arrêter , et
+
+jeter à la porte ...
+
+Il marche sur Geneviève .
+
+Monsieur ! ..
+
+Mon père ! ..
+
+GENEVIÈVE , épouvantée.
+
+ANDRÉ , arec force.
+
+MARTEAU , retenant fortement le marquis .
+
+Halte - là ! .. marquis de Morand ! ..
+
+67
+
+André ! ..
+
+GENEVIÈVE , retenant André .
+
+Lâche - moi ! .. lâche - moi donc ...
+
+LE MARQUIS ,
+
+Sp dibaliant.
+
+MARTEAU .
+
+Halte - là , vous dis - je ! .. vous ne ferez pas un pas de plus ...
+
+Elle est venue ici sous ma surveillance ...
+
+Immédiate .
+
+HENRIETTE .
+
+MARTEAU .
+
+Et moi , Joseph Marteau ... je ne souffrirai pas qu'on mette
+
+la main sur elle ... Ah ! ah ! .. c'est que je tiens l'erme .
+
+HENRIETTE .
+
+Et vous faites bien ... qu'est- ce que c'est que ça , done ? .. Mais
+
+c'est un bedouin que ce père - là !
+
+LE MARQUIS ,
+
+Ah ! tu te mets avec eux contre moi ... ah ! tu te fais le cham
+
+pion ... le chevalier ... d'une misérable ! ..
+
+Geneviève se cache la tête dans ses mains . André
+
+fait un mouvement .
+
+MARTEAU .
+
+HENRIETTE .
+
+Laisse - le dire .
+
+Il divague.
+
+LE MARQUIS , continuant.
+
+Eh bieu , nous verrons comme tu sauras la défendre ... Oh !
+
+reste ... je ne la toucherai pas ... je ne veux pas lutter avec des
+
+niais ...
+
+( Frollant son bras .) Et en crocheteur ; mais j'ai mes
+
+gens qui s'auront bien s'assurer de la princesse , pour s'être in
+. J'adresserai ma plainte au pro
+
+troduite chez moi furtivement.
+
+cureur du roi... qui l'enverra concher en prison.
+
+Oh ! jamais.
+
+Si vous l'aisicz ça ! ..
+
+GENEVIÈVE .
+
+MARTEAU .
+
+ENSEMBLE ,
+
+Air des Deux Nuits,
+
+Oui , je vais le faire ;
+
+Tu sauras , j'espère ,
+
+Que dans ma colère
+
+Je suis fort aussi.
+
+Oui , je vais t'apprendre
+
+Si j'ai le cæur tendre
+
+68
+
+Et qui l'on doit prendre
+
+Pour le maître ici !
+
+MARTEAU ,
+
+Nous aurons beau faire ,
+
+Je vois que ton père
+
+Bouillant et colère ,
+
+Veut être obéi.
+
+Je vais te défendre ;
+
+Il devra m'entendre ;
+
+Je saurai le prendre :
+
+Je sors avec lui .
+
+GENEVIÈVE .
+
+Nous aurons beau faire ,
+
+Je vois que son père
+
+Plein de sa colère ,
+
+Veut être obéi.
+
+Qui peut nous défendre !
+
+S'il ne veut m'entendre ;
+
+Il faudra nous rendre
+
+A ses vœux ici .
+
+HENRIETTE .
+
+Nous aurons beau faire ,
+
+Je vois que son père
+
+Plein de sa colère ,
+
+Veut être obéi.
+
+Il faut les défendre ,
+
+Le rendre plus tendre ,
+
+Le forcer à prendre
+
+Un meilleur parti.
+
+ANDRÉ .
+
+Ils auront beau faire ,
+
+Contre sa colère ;
+
+Le marquis sévère,
+
+Veut être obéi .
+
+Qui peut nous defendre ?
+
+S'il ne veut m'entendre ,
+
+Je saurai bien prendre
+
+Un dernier parti.
+
+Le marquis et Marteau sortent,
+
+SCENE XII .
+
+GENEVIÈVE , ANDRÉ , HENRIETTE .
+
+En prison ... oh ! j'en mourrai !
+
+GENEVIÈVE .
+
+69
+
+ANDRÉ.
+
+Oh ! ne crains rien ! il me tuera plutôt .
+
+HENRIETTE .
+
+Allons donc , sont - ils jeunes ... est - ce qu'on fait attention au
+
+radotage d’un vieillard qui délire , d'un vieux fou !.. soyez donc
+
+sans crainte ... après tout , ce n'est que de l'amour , et on n'en
+
+ferme
+
+pas les femmes pour ça ; on connaît ses droits .. ah !
+
+ah ! il у a une charte au monde , nous avons notre liberté
+sonnelle , individuelle et constitutionnelle
+
+per
+! l'enfermer ! cette
+
+pauvre Geneviève , après une conduite aussi héroïque !
+
+( S'at
+
+tendrissant.) Etmoi qui ai pu croire ... qui ai pu dire ... il ne faut
+pas m'en vouloir ,
+
+voyez - vous ! tu ne m'en veux pas , non ,
+
+n'est - ce pas , ni vous non plus ? .. merci... Soyez tranquilles ,
+
+je réparerai le mal dont je suis cause ; je dirai partout que tu
+
+es une brave fille , et pour commencer je vais aller rejoindre le
+
+marquis ... je crierai ! .. je crierai plus fort que lui , il faudra bien
+
+qu'il te respecte et moi aussi ... si tu t'es compromise, c'est très
+
+bien , ça ne regarde que toi !.. Allons , ma chère , du courage !
+
+tu as pour toi l'amitié de Marteau , l'amour de M. André , et
+
+moi qui en vaut deux , qui en vaux trois .
+
+Elle sort.
+
+SCÈNE XIII .
+
+ANDRÉ , GENEVIÈVE.
+
+ANDRÉ , avec exaltation .
+
+Et Dieu ! .. qu'elle oublie !
+
+GENEVIÈVE .
+
+Oh ! je ne les attendrai pas , adieu , André , adieu ! je pars ...
+
+ANDRÉ .
+
+Tu me quittes ... tu m'abandonnes !
+
+GENEVIÈVE .
+
+J'échappe à votre père !
+
+ANDRÉ .
+
+Et où iras - tu ? tu as entendu ! .. compromise , deshonorée ! ..
+
+tu ne peux rentrer dans la ville , sans qu'un cri de honte te
+
+fasse rougir ! ils seront tous cruels ! impitoyables comme mon
+
+père .
+
+Je me justifierai.
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+Il ne te croiront pas ... pour toi , plus d'amis , plus de pitié ,
+
+plus de travail , comme pour moi , plus de repos , de bonheur !
+
+70
+
+GENEVIÈVE .
+
+Mais , c'est affreux ! .. que faire ? je ne puis rester ?
+
+Si fait , reste .
+
+André , quels regards !
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+Reste , pour échapper avec moi à l'injustice , au désespoir !
+
+GENEVIÈVE , avec effroi.
+
+Ah ! .. ce langage ! ..
+
+ANDRÉ .
+
+Ils veulent te condamner à la honte ! te jeter en prison ! ..
+
+Ah ! plutôt mourir !
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+Et moi aussi , vois - tu ! .. j'ai dit cela le jour que mon père a
+
+voulu me renfermer ici ... vivre sans toi, je ne le pourrais
+
+pas !
+
+Malheureux !
+
+GENEVIÈVE .
+
+ANDRÉ .
+
+Défions leur colère à tous ... cherchons un refuge où leur ty
+
+rannie ne puisse nous atteindre et qu'en voyant le mal qu'ils
+
+nous ont fait , à nous pauvres enfans sans force et sans défense ,
+
+ils pleurent des larmes de sang ... viens !
+
+GENEVIÈVE .
+
+Ah ! que veux - tu de moi !
+
+ANDRÉ , la regardant .
+
+Oh ! non , reste , toi , reste ...
+
+Air de Renaud de Montauban .
+
+Ils te plaindront ; malheur, malheur à moi
+
+Si pour mourir je forçais ton courage ...
+
+Non , tu vivras ... l'avenir est à toi ;
+
+Que ton bonheur enfin soit mon ouvrage,
+
+Mon père est là ... je ne puis me venger !
+
+Mais au remords peut- être le forcé- je .. ,
+
+Ah , que du moins mon souvenir protége
+
+Ce que je n'ai pu protéger ,
+
+Ce que vivant je n'ai pu protéger .
+
+Pas d'autre parti pour moi.
+
+Il l'embrasse .
+
+HENRIETTE , en dehors.
+
+Geneviève , André , sauvez - vous !
+
+Ils viennent !
+
+Lc marquis !
+
+71
+
+ANDRÉ ,
+
+HENRIETTE .
+
+ANDRÉ .
+
+Adieu , Geneviève , adieu !
+
+André !
+
+GENEVIÈVE .
+
+Il sort,
+
+SCENE XIV .
+
+HENRIETTE , GENEVIÈVE.
+
+HENRIETTE , entrant virement .
+
+Ils me suivent ... Marleau a menacé le marquis ... moi , j'ai
+
+crié , mais il a les poumons plus forts que moi... et maintenant ,
+
+il veut te faire saisir par ses domestiques qu'il amène , pour
+
+qu'ils te conduisent jusqu'au procureur du roi , à travers la
+
+ville .
+
+Moi ! oh ! mon Dieu !
+
+GENEVIÈVE .
+
+Le voilà !
+
+HENRIETTE , dans le fond .
+
+GENEVIÈVE , se jetant dans la chambre .
+
+Ah ! André !
+
+Quoi donc !
+
+HENRIETTE .
+
+On entend crier le marquis et Marteau.
+
+SCENE XV .
+
+LE MARQUIS , MARTEAU , deux Domestiques , PIERRE ,
+
+ensuite HENRIETTE .
+
+MARTEAU , en dehors .
+
+Je vous dis de rester .
+
+Venez , je le veux .
+
+LE MARQUIS , de même .
+
+Où sont - ils ! ou sont- ils ?
+
+MARTEAU , entrant vivement.
+
+Là ! là !
+
+HENRIETTE , montrant la porte.
+
+Suivez - moi , vous autres , c'est moi qui suis votre maître ,
+
+entendez - vous , et le premier qui me désobéira . ( Regardant au
+
+LE MARQUIS , entrant .
+
+tour de lui . ) Eh bien , qu'est- elle devenue ?
+
+Elle est partie .
+
+72
+
+MARTEAU , froidement.
+
+LE MARQUIS .
+
+Nous allons voir ... et mon fils ?
+
+MARTEAU .
+
+Votre fils , vous le tuerez .
+
+HENRIETTE .
+
+Oui , oui , vous le tuerez ... oh ! je tremble !
+
+LE MARQUIS , à Marteau .
+
+Allons donc ? je veux qu'on m'obéisse .
+
+HENRIETTE .
+
+Mais ...
+
+LE MARQUIS , à Henriette .
+
+Taisez- vous , où je vous fais arrêter avec l'autre .
+
+MARTEAU .
+
+Elle , ça m'est égal .
+
+(Aur domestiques. ) Mais je vous le dé
+
+fends.
+
+LE MARQUIS , montrant le cabinet.
+
+Et moi , je vous ordonne d'entrer dans ce cabinet. Ah ! je lui
+
+aurais peut- être pardonné ... mais me défier chez moi ...
+
+si c'est
+
+là qu'elle se cache !
+
+HENRIETTE .
+
+Il entre dans le cabinet .
+
+Joseph !
+
+Qu'avez - vous !
+
+On entend le bruit d'un verrou .
+
+JOSEPH .
+
+HENRIETTE .
+
+Je ne sais , l'exaltation , le désespoir d'André , et ce cri d'effroi
+
+de Geneviève ... et puis ce verrou ...
+
+JOSEPH .
+
+Eh ! mais , quelle vapeur.
+
+C'est ici ...
+
+HENRIETTE .
+
+MARTEAU .
+
+Grand Dieu ... après ce que j'ai vu ... ce qu'il a dit ... ( Il se
+
+jette sur la porte .) 'Ouvrez ! ouvrez !
+
+(A Pierre qui est dans le
+
+fond . ) Eh viens donc ?
+
+PIERRE , courant l'aider .
+
+Monsieur ! ..
+
+LE MARQUIS , sortant du cabinet .
+
+Personne ! .. eh bien ! .. qu'est - ce qu'ils font là ... ( La porte se
+
+brise , et Marteau entre . ) Ah ça , il brise les portes à présent ... ce
+
+73
+
+drôle ! ( Henriette suit Marteau .) Est-ce que par hasard elle aurait
+
+l'audace ... allons , vous autres .
+
+MARTEAU , portant Geneviève évanouie .
+
+Il va pour entrer.
+
+Place ! place ! éloignez - vous... évanouie !
+
+LE MARQUIS .
+
+Ah ! c'est elle ... la voilà !
+
+MARTEAU , la déposant dans la bergère .
+
+Evanouie ! .. de peur ... Vous ne savez pas avec votre colère ,
+
+vos projets , vous les avez réduits à mourir ... Il le voulait lui , et
+
+déjà un brasier...
+
+LE MARQUIS .
+
+O ciel ! il se pourrait... André ?
+
+HENRIETTE , en sortant , et lui barrant le passage .
+
+Il va à la chambre .
+
+Il est mort !
+
+Hein ?
+
+Mort ! mort !
+
+MARTEAU .
+
+Geneviève revient peu à peu à elle.
+
+LE MARQUIS , immobile.
+
+Marteau s'est approché de la porte de la chambre : il
+
+regarde et s'arrête .
+
+HENRIETTE .
+
+Oui , mort ! et c'est vous ! ..
+
+LE MARQUIS .
+
+Oh ! je veux encore ... je veux ...
+
+N'approchez pas .
+
+Mon fils...
+
+MARTEAU .
+
+LE MARQUIS .
+
+MARTEAU .
+
+Il veut entrer.
+
+Vous n'en aviez pas ... vous n'avez jamais été père ... toujours
+
+cruel ... toujours inexorable ... vous vouliez un esclave ,
+
+sans
+
+mouvement , sans volonté.. , imbécile ou mórt ... allez donc ,
+
+prenez son cadavre , et soyez content ! ..
+
+Despote !
+
+HENRIETTE .
+
+GENEVIÈVE , revenant à elle et d'une voix faioie.
+
+André ! ..
+
+LE MARQUIS , avec une fureur étouffée.
+
+Mon fils ! .. Allez -vous -en ... Sortez ! sortez tous , ou craigner
+
+ma fureur. Mort ... ah ! c'est indigne ... c'est affreux. André !
+
+mon enfant ... Ahlmon Dieu !
+
+Les domestiques sortent.
+
+10 .
+
+74
+
+HENRIETTE , à part .
+
+Ça lui donne des entrailles .
+
+LE MARQUIS .
+
+Va - t'en j'étais sévère , dur , brutal , comme tu voudras , c'est
+
+ma nature , on ne se refait pas ... mais je l'aimais et pour lui
+
+'aurais donné mes biens , ma vie , je les donnerais encore .
+
+GENEVIÈVE , rouvrant les yeux .
+
+Oh ! non ... André .
+
+MARTEAU .
+
+Et cette pauvre fille ... comme vous l'avez traitée ! .. parce
+
+qu'elle avait pour lui un amour... des soins ... une pitié que vous
+b'aviez pas .
+
+GENEVIÈVE , apercevant le marquis .
+
+Ah ! Elle se lève . ) Son père.
+
+HENRIETTE .
+
+La perdrez - vous encore ?
+
+LE MARQUIS .
+
+Je ferai ce qui me plaira , laissez - nous ... ( 4 Geneviève . ) N'ayez
+
+pas peur , mon enfant... tu l'aimas aussi , toi ... je m'en souvien .
+drai ... tu ne me quitteras plus ... vous serez ... ( S'attendrissant
+
+tout - à - fait .) Tu seras ma fille !
+
+MARTEAU , vivement.
+
+Votre fille ! .. bien vrai !
+
+Est - ce que je manque à ma parole ?
+
+LE MARQUIS .
+
+Et s'il était là ?
+
+Qui ...
+
+L'autre !
+
+L’amoureux ...
+
+Que dit - elle ?
+
+HENRIETTE .
+
+LE MARQUIS .
+
+MARTEAU .
+
+HENRIETTE .
+
+LE MARQUIS .
+
+HENRIETTE .
+
+Je dis que vous étiez méchant ... et je l'ai tué ... vous êtes
+
+gentil , et je le ressuscite ...
+
+MARTEAU .
+
+La bonne folle .
+
+M. André !
+
+HENRIETTE , appelant.
+
+Apdré s'élance hors de sa chambre et s'arrête effrayé
+
+à la vue de son père,
+
+7 5
+
+SCENE XV .
+
+Les Mêmes , ANDRE .
+
+LE MARQUIS , immobile et les traiis contractés .
+
+Mon fils !
+
+HENRIETTE .
+
+Voilà votre père qui est un brave homme , qui vous idolâtre
+
+quoique vous ne soyez pas mort ... et qui vous marie à Gene
+
+viève .
+
+MARTEAU , le jetant au cou du marquis.
+
+Eh ! embrassez -le donc ... pendant que c'est chaud !
+
+Mon père !
+
+ANDRÉ , se jetant dans ses bras.
+
+LE MARQUIS , se soutenant à peine .
+
+André , vous vouliez donc me tuer ... de chagrin , de joie ..
+
+Oh ! si j'avais su ...
+
+Ah ! monsieur ...
+
+ANDRÉ .
+
+GENEVIÈVE .
+
+LE MARQUIS .
+
+Mais , c'est une infamie ; c'est une horreur... me tromper
+
+ainsi... me surprendre...
+
+Eh bien ! et votre parole ?
+
+MARTEAU .
+
+LE MARQUIS .
+
+Qu'est - ce qui te dit que je ne la tiendrai pas ?
+
+HENRIETTE .
+
+Allons , donc ... dites - leur : mes enfans... je vous unis et je
+
+vous bénis ...
+
+Eh ! qu'il l'épouse , et qu'ils aillent se promener ...
+
+LE MARQUIS .
+
+Eh ! ils feront bien ...
+
+MARTEAU .
+
+HENRIETTE .
+
+Et embrassez , tous les quatre , Henriette , car sans elle ...
+
+MARTEAU .
+
+Oui , tu es une bonne fille , et je te r'aime !
+
+HENRIETTE ,
+
+Ça devient plus grave , j'y songerai ...
+
+FIN .
+
+2004 og
+
+
