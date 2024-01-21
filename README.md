@@ -1,6 +1,8 @@
 # Automatic detection of song titles in a French corpus
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10547445.svg)](https://doi.org/10.5281/zenodo.10547445)
 
-Part of the project Thealtres: https://thealtres.pages.unistra.fr/
+Part of the Thealtres project: https://thealtres.pages.unistra.fr/
+
 <br>Identification of song titles with detection_airs.py : main program with options: 
 - character_list_regex.py writes a list of characters for any given id_work from the manual annotation in annotations_fr-characters.csv (not used in evaluation mode).
 - semantic_search.py allows for the optional semantic search of proper song titles. 
